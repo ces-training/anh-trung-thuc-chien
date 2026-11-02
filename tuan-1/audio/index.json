@@ -239,13 +239,15 @@
 "Tom": "en/cd5f22cc9b3d.mp3"
 },
 "No, I'm an accountant. I'm in the finance team.": {
-"An": "en/04e7e0a4f440.mp3"
+"An": "en/04e7e0a4f440.mp3",
+"_": "en/335a3ed2f45a.mp3"
 },
 "Good morning.": {
 "_": "en/bdab0c81cc77.mp3"
 },
 "Good morning. I'm An from Sao Viet Trading.": {
-"_": "en/7f11c9fc993b.mp3"
+"_": "en/7f11c9fc993b.mp3",
+"An": "en/ce86b0adcf6e.mp3"
 },
 "It's a pleasure to meet you.": {
 "_": "en/e28f4e4fd2f6.mp3"
@@ -270,8 +272,297 @@
 },
 "I'm the purchasing manager.": {
 "_": "en/7ce688101135.mp3"
+},
+"Here's my card.": {
+"_": "en/fef868df5f09.mp3"
+},
+"Thank you. Here's my card.": {
+"_": "en/43c651c2219f.mp3",
+"An": "en/0d01feaddbf2.mp3"
+},
+"Nice meeting you.": {
+"_": "en/f4df984ae191.mp3"
+},
+"It was nice meeting you.": {
+"_": "en/d4f6cb77ea73.mp3"
+},
+"I look forward to your email.": {
+"_": "en/7d078388fd62.mp3"
+},
+"Nice meeting you too. I look forward to your email.": {
+"_": "en/256c183ee9d7.mp3",
+"An": "en/0c9869f9fbec.mp3"
+},
+"Good morning. I'm Sarah Lee from Bright Logistics. And you are…?": {
+"Sarah": "en/beb71d4ddae3.mp3"
+},
+"It's a pleasure to meet you. What's your role at your company?": {
+"Sarah": "en/431a26d6af00.mp3"
+},
+"I'm a purchasing assistant. I work in the import team.": {
+"An": "en/16cba41ee9ca.mp3"
+},
+"That's great.": {
+"Sarah": "en/11545671ca58.mp3"
+},
+"What do you do at Bright Logistics?": {
+"An": "en/63909168668a.mp3"
+},
+"I'm the purchasing manager. Here's my card.": {
+"Sarah": "en/e27c39f182e6.mp3"
+},
+"It was nice meeting you. I'll email you this week.": {
+"Sarah": "en/716c80fb63d4.mp3"
+},
+"Nice to meet you. See you around!": {
+"_": "en/df8143a053e5.mp3"
+},
+"Sorry, could you say that again?": {
+"_": "en/83125bf57373.mp3"
+},
+"So you're from Manchester.": {
+"_": "en/06b1e87cc3d2.mp3"
+},
+"Oh, so you're from Manchester!": {
+"_": "en/3263324e8a9e.mp3"
+},
+"No, I'm an accountant.": {
+"_": "en/5b2ebb83fecf.mp3"
+},
+"I'm from Sydney.": {
+"_": "en/cfcf36b19bcf.mp3"
+},
+"No, I'm not a student.": {
+"_": "en/e097f0ee36f1.mp3"
+},
+"This is Mai, my new colleague.": {
+"_": "en/c3eed5560c6b.mp3"
 }
 },
-"zh": {},
-"vi": {}
+"zh": {
+"你好": {
+"_": "zh/f9ec4cfc1951.mp3"
+},
+"你好！我叫阮安。": {
+"_": "zh/61d582721f08.mp3",
+"An": "zh/ecfa4aa451a3.mp3"
+},
+"我": {
+"_": "zh/8d8284bac97d.mp3"
+},
+"我是越南人。": {
+"_": "zh/9ad2bddbe4dd.mp3"
+},
+"你": {
+"_": "zh/e100a1acc176.mp3"
+},
+"你呢？": {
+"_": "zh/6f58f91fc84f.mp3"
+},
+"叫": {
+"_": "zh/108fae1f7b32.mp3"
+},
+"我叫王丽。": {
+"_": "zh/9a7a925291c1.mp3"
+},
+"名字": {
+"_": "zh/35076756b2cd.mp3"
+},
+"你叫什么名字？": {
+"_": "zh/496c70b474c1.mp3"
+},
+"什么": {
+"_": "zh/b2f6ed9efee5.mp3"
+},
+"是": {
+"_": "zh/826cb1ac3d2b.mp3"
+},
+"人": {
+"_": "zh/5248d3314194.mp3"
+},
+"中国人": {
+"_": "zh/e6b4db14d872.mp3"
+},
+"越南人": {
+"_": "zh/2820620894b2.mp3"
+},
+"我是中国人。": {
+"_": "zh/4bb8a8b8b615.mp3"
+},
+"你好！我叫阮安。你叫什么名字？": {
+"An": "zh/343ce5e8dc0e.mp3"
+},
+"你好！我叫王丽。": {
+"Lệ": "zh/e79d9b384e0f.mp3"
+},
+"我是越南人。你呢？": {
+"An": "zh/7e3a80684e2c.mp3",
+"_": "zh/5d21856b59b4.mp3"
+},
+"我是中国人。你是学生吗？": {
+"Lệ": "zh/10d2edc9309d.mp3"
+},
+"不是，我工作。你呢？": {
+"An": "zh/321b8c0678c8.mp3"
+},
+"我是老师。很高兴认识你！": {
+"Lệ": "zh/e1c2ca9ab6c1.mp3"
+},
+"你是学生吗？": {
+"_": "zh/36d35586b7f5.mp3"
+},
+"不是，我工作。": {
+"_": "zh/4460ae8b6fbd.mp3"
+},
+"学生": {
+"_": "zh/c11595607f16.mp3"
+},
+"老师": {
+"_": "zh/84dd006ddeeb.mp3"
+},
+"我是老师。": {
+"_": "zh/37661578f684.mp3",
+"Lệ": "zh/18a4488694c5.mp3"
+},
+"工作": {
+"_": "zh/9297f2be28f1.mp3"
+},
+"我工作。": {
+"_": "zh/ba1d859c5360.mp3"
+},
+"不": {
+"_": "zh/d8f28cfb8fb6.mp3"
+},
+"不是，我是学生。": {
+"_": "zh/d2470ee14626.mp3"
+},
+"吗": {
+"_": "zh/b3bd3dc63e79.mp3"
+},
+"你是中国人吗？": {
+"_": "zh/cf5cbd5ed5f4.mp3"
+},
+"呢": {
+"_": "zh/3999b3e167de.mp3"
+},
+"也": {
+"_": "zh/2382edea4fe2.mp3"
+},
+"我也是学生。": {
+"_": "zh/543a1e3d905c.mp3"
+},
+"很高兴认识你": {
+"_": "zh/97b4aa5b5b60.mp3"
+},
+"我也很高兴认识你！": {
+"_": "zh/d4f942043034.mp3"
+},
+"再见": {
+"_": "zh/7c4a99f0973b.mp3"
+},
+"再见！": {
+"_": "zh/afb9137f46f3.mp3"
+},
+"她": {
+"_": "zh/f9cbb212603f.mp3"
+},
+"她叫王丽。": {
+"_": "zh/6c4323453edf.mp3"
+},
+"你好！我叫阮明。": {
+"Minh": "zh/6cbd88a6d38a.mp3"
+},
+"你好！我叫王丽。你是中国人吗？": {
+"Lệ": "zh/881c5fe036ce.mp3"
+},
+"不是，我是越南人。你呢？": {
+"Minh": "zh/37d48162dff5.mp3"
+},
+"我是中国人。你是老师吗？": {
+"Lệ": "zh/2e804ee2d0b2.mp3"
+},
+"不是，我是学生。你呢？": {
+"Minh": "zh/43b2645af0fe.mp3"
+},
+"你是老师吗？": {
+"_": "zh/7dbe08236b09.mp3"
+},
+"是 / 不是。": {
+"_": "zh/db8e21192501.mp3"
+},
+"我很高兴。": {
+"_": "zh/13605e32dac4.mp3"
+},
+"很高兴认识你。": {
+"_": "zh/f916562a1217.mp3"
+},
+"中": {
+"_": "zh/f5affb58848d.mp3"
+},
+"越南": {
+"_": "zh/856691b3b8f3.mp3"
+},
+"不是": {
+"_": "zh/0d62c6eae5c6.mp3"
+},
+"我不是老师。": {
+"_": "zh/dbed2df61e95.mp3"
+},
+"我也是越南人。": {
+"_": "zh/d101d6af246f.mp3"
+},
+"我也很高兴认识你。": {
+"_": "zh/8cb822f22af5.mp3"
+},
+"很好": {
+"_": "zh/9fb0c1249794.mp3"
+},
+"你好！我叫王丽。你叫什么名字？": {
+"王丽": "zh/af489ba20975.mp3"
+}
+},
+"vi": {
+"Chào bạn! Mình là Khang, người đồng hành cùng bạn trong hành trình Anh – Trung Thực Chiến. Mỗi ngày chỉ khoảng ba mươi phút thôi, mình đi cùng nhau nhé.": {
+"Khang": "vi/29b6b5657725.mp3"
+},
+"Chào mừng bạn quay lại! Bài hôm nay đã sẵn sàng rồi đó.": {
+"Khang": "vi/c1be3f2c6a4f.mp3"
+},
+"Bạn đã học liên tục mấy ngày rồi. Giữ nhịp này là tiến bộ rõ lắm đấy.": {
+"Khang": "vi/3cf74d7901a8.mp3"
+},
+"Xong một ngày học rồi! Nghỉ ngơi chút nhé, mai mình gặp lại.": {
+"Khang": "vi/f4ca1161e733.mp3"
+},
+"Thứ Bảy này là Weekend Live. Nhớ mang theo ba câu khoá đã luyện nha.": {
+"Khang": "vi/9af1109f8ca2.mp3"
+},
+"Bạn vừa đủ điểm đổi một phần quà. Vào Phòng đổi quà xem thử nhé.": {
+"Khang": "vi/934d18f18b23.mp3"
+},
+"Nhìn lại chặng đường một chút nhé. Mỗi huy hiệu là một kỹ năng bạn đã dùng được thật.": {
+"Khang": "vi/219ec8d53d3e.mp3"
+},
+"Hello hello! Vy đây. Từ hôm nay Vy sẽ kèm bạn học tiếng Anh và tiếng Trung. Mỗi ngày ba mươi phút, còn ít hơn thời gian lướt điện thoại đó nha!": {
+"Vy": "vi/3e5b5538061e.mp3"
+},
+"Ơ, bạn quay lại rồi! Bài hôm nay đang chờ, vào luôn thôi.": {
+"Vy": "vi/705b7c25b37b.mp3"
+},
+"Chuỗi ngày học của bạn đang dài ra rồi đấy. Đừng để nó đứt nha, tiếc lắm!": {
+"Vy": "vi/b5337e6e7c97.mp3"
+},
+"Xong rồi! Hôm nay bạn giỏi hơn hôm qua một chút. Mai gặp lại nhé.": {
+"Vy": "vi/4a36c8f5d949.mp3"
+},
+"Thứ Bảy là Weekend Live. Ba câu khoá đã thuộc chưa? Ra trạm là nói liền nha.": {
+"Vy": "vi/dad1e5f80a7b.mp3"
+},
+"Ting ting! Bạn đủ điểm đổi quà rồi. Ghé Phòng đổi quà xem có gì hay nè.": {
+"Vy": "vi/85bc77f42901.mp3"
+},
+"Mỗi huy hiệu ở đây là một lần bạn dám nói. Tự hào chút đi nào!": {
+"Vy": "vi/8c13b6abfa6d.mp3"
+}
+}
 }
