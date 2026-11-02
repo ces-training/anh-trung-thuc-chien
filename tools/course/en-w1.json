@@ -1,0 +1,3982 @@
+{
+ "lang": "en",
+ "week": 1,
+ "title": "Chào hỏi, làm quen, gia đình",
+ "cando": "Chào hỏi, cảm ơn, giới thiệu tên, quê quán, ngôn ngữ, tuổi và gia đình bằng tiếng Anh",
+ "cast": [
+  {
+   "key": "liuxing",
+   "name": "Leo",
+   "vi": "cậu con trai 12 tuổi, nghịch ngợm, lanh lợi",
+   "look": "a 12-year-old East Asian boy, short spiky black hair, red hoodie, cheeky grin"
+  },
+  {
+   "key": "xiadonghai",
+   "name": "David",
+   "vi": "bố dượng khoảng 40 tuổi, hiền và vui tính",
+   "look": "a friendly East Asian man around 40, short neat black hair, glasses, light blue shirt"
+  },
+  {
+   "key": "liumei",
+   "name": "Mary",
+   "vi": "mẹ của Leo, khoảng 40 tuổi, ấm áp, quyết đoán",
+   "look": "a warm East Asian woman around 40, shoulder-length black hair, beige cardigan"
+  },
+  {
+   "key": "xiaxue",
+   "name": "Sophie",
+   "vi": "chị gái 15 tuổi, con của David, chững chạc",
+   "look": "a 15-year-old East Asian girl, long black ponytail, school blazer"
+  },
+  {
+   "key": "xiaoyu",
+   "name": "Sam",
+   "vi": "em út, con của David, khoảng 7 tuổi (tròn 8 tuổi ở tiệc sinh nhật), ngây thơ, lễ phép",
+   "look": "a small East Asian boy about 7 to 8 years old, round face, bowl haircut, striped T-shirt"
+  },
+  {
+   "key": "alan",
+   "name": "Lan",
+   "vi": "bạn cùng lớp người Việt Nam của Leo, 12 tuổi",
+   "look": "a 12-year-old Vietnamese girl, black hair in two braids, yellow T-shirt, school backpack"
+  }
+ ],
+ "days": [
+  {
+   "id": "w1-thu-2",
+   "label": "Thứ 2",
+   "title": "Chào hỏi, cảm ơn, tạm biệt",
+   "desc": "Hôm nay bạn học cách chào, cảm ơn, đáp lời cảm ơn, tạm biệt và nói “Tôi là …” bằng tiếng Anh qua cảnh Leo lần đầu gặp bố dượng David.",
+   "rule": "Tiếng Anh luôn cần động từ “be” (am / is / are): I am Leo, không nói “I Leo”. Muốn hỏi Có/Không thì đưa am / is / are lên đầu câu: Are you Leo?",
+   "cards": [
+    {
+     "w": "Hello! / Hi!",
+     "m": "Xin chào!",
+     "ex": "Hello! I'm Leo.",
+     "exm": "Xin chào! Tôi là Leo.",
+     "n": "“Hello” dùng được với mọi người; “Hi” thân mật hơn, dùng với bạn bè, người trong nhà. Trọng âm: he-LLO.",
+     "img": "wave"
+    },
+    {
+     "w": "I / I'm",
+     "m": "tôi / tôi là",
+     "ex": "I'm Leo.",
+     "exm": "Tôi là Leo.",
+     "n": "“I” luôn viết hoa. I'm = I am. Đừng quên “am”: nói “I Leo” là sai.",
+     "img": "me"
+    },
+    {
+     "w": "you",
+     "m": "bạn, cháu, con… (người đang nói chuyện với mình)",
+     "ex": "Are you Leo?",
+     "exm": "Cháu là Leo à?",
+     "n": "Tiếng Anh chỉ có một từ “you” cho mọi vai vế: bạn, anh, chị, cháu, bố, mẹ…",
+     "img": "you"
+    },
+    {
+     "w": "am / is / are",
+     "m": "là, thì (động từ “be”)",
+     "ex": "I am Leo. You are Mum. David is Dad.",
+     "exm": "Tôi là Leo. Mẹ là mẹ. David là bố.",
+     "n": "I → am; you → are; một người khác (David, Mary) → is. Người Việt hay bỏ mất động từ này vì tiếng Việt có thể nói “Tôi Leo”.",
+     "img": "is"
+    },
+    {
+     "w": "yes",
+     "m": "vâng, có, đúng",
+     "ex": "Yes, I am.",
+     "exm": "Vâng, đúng vậy.",
+     "n": "Trả lời ngắn: “Yes, I am.” – KHÔNG rút gọn thành “Yes, I'm.”"
+    },
+    {
+     "w": "no / not",
+     "m": "không / không phải",
+     "ex": "No, I'm not Dad.",
+     "exm": "Không, tôi không phải là bố.",
+     "n": "“No” đứng một mình để trả lời. “not” đứng SAU am / is / are để phủ định: I am not, you are not.",
+     "img": "no"
+    },
+    {
+     "w": "My name is …",
+     "m": "Tên tôi là …",
+     "ex": "My name is Leo.",
+     "exm": "Tên tôi là Leo.",
+     "n": "Bắt buộc có “is”: My name is Leo. Lỗi hay gặp: “My name Leo.” Hoặc nói gọn: I'm Leo.",
+     "img": "name"
+    },
+    {
+     "w": "Thank you! / Thanks!",
+     "m": "Cảm ơn!",
+     "ex": "Thank you, Dad!",
+     "exm": "Cảm ơn bố!",
+     "n": "“th” đọc /θ/: đặt đầu lưỡi giữa hai răng rồi thổi hơi, không đọc “tanh kiu”. “Thanks” thân mật hơn.",
+     "img": "thanks"
+    },
+    {
+     "w": "You're welcome.",
+     "m": "Không có gì.",
+     "ex": "Thank you! – You're welcome!",
+     "exm": "Cảm ơn! – Không có gì!",
+     "n": "Câu đáp lại lời cảm ơn. You're = You are. Trọng âm: WEL-come.",
+     "img": "polite"
+    },
+    {
+     "w": "Goodbye! / Bye!",
+     "m": "Tạm biệt!",
+     "ex": "Bye, Mum! Bye, Dad!",
+     "exm": "Tạm biệt mẹ! Tạm biệt bố!",
+     "n": "“Bye” thân mật, “Goodbye” trang trọng hơn một chút. Trọng âm: good-BYE.",
+     "img": "bye"
+    },
+    {
+     "w": "Mum",
+     "m": "mẹ",
+     "ex": "Mary is my mum.",
+     "exm": "Mary là mẹ tôi.",
+     "n": "Anh–Anh viết “Mum”, Anh–Mỹ viết “Mom”. Giữ âm cuối /m/: khép môi lại.",
+     "img": "mom"
+    },
+    {
+     "w": "Dad",
+     "m": "bố",
+     "ex": "Thank you, Dad!",
+     "exm": "Cảm ơn bố!",
+     "n": "Âm /æ/ mở miệng rộng, giữ âm cuối /d/ – không đọc thành “đát” hay “đa”.",
+     "img": "dad"
+    }
+   ],
+   "scene": {
+    "setting": "Nhà mới của Leo, buổi chiều. Bố dượng David lần đầu gặp Leo và mang theo một món quà làm quen; mẹ Mary đứng cạnh. Lúc đầu Leo không chịu gọi “Dad”.",
+    "img": "s-w1-d1",
+    "imgPrompt": "A bright living room in a new family home. xiadonghai smiles warmly and holds out a wrapped gift box with a big ribbon to liuxing; liuxing stands with arms crossed, hesitating, looking sideways; liumei stands behind liuxing with a hand on his shoulder, encouraging him. Warm friendly cartoon style, no text in image.",
+    "lines": [
+     {
+      "who": "David",
+      "t": "Hello! Are you Leo?",
+      "vi": "Chào cháu! Cháu là Leo à?"
+     },
+     {
+      "who": "Leo",
+      "t": "Yes, I am. My name is Leo.",
+      "vi": "Vâng ạ. Cháu tên là Leo."
+     },
+     {
+      "who": "David",
+      "t": "Hi, Leo! I'm David.",
+      "vi": "Chào Leo! Chú là David."
+     },
+     {
+      "who": "Mary",
+      "t": "Leo, say “Dad”!",
+      "vi": "Leo, gọi “bố” đi con! (say = nói, gọi)"
+     },
+     {
+      "who": "Leo",
+      "t": "No! … OK. Thank you, Dad!",
+      "vi": "Không! … (nhận quà) Thôi được. Cảm ơn bố!"
+     },
+     {
+      "who": "David",
+      "t": "You're welcome!",
+      "vi": "Không có gì!"
+     },
+     {
+      "who": "Leo",
+      "t": "Bye, Mum! Bye, Dad!",
+      "vi": "Con chào mẹ! Con chào bố!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Câu với “be”: chủ ngữ + am / is / are + …",
+     "f": [
+      [
+       "I",
+       "am",
+       "Leo."
+      ],
+      [
+       "You",
+       "are",
+       "Mum."
+      ],
+      [
+       "David",
+       "is",
+       "Dad."
+      ]
+     ],
+     "ex": [
+      [
+       "I am Leo.",
+       "Tôi là Leo."
+      ],
+      [
+       "You are Mum.",
+       "Mẹ là mẹ (người được nói tới là mẹ)."
+      ],
+      [
+       "David is Dad.",
+       "David là bố."
+      ]
+     ],
+     "bad": "I Leo.",
+     "good": "I am Leo.",
+     "why": "Tiếng Việt có thể nói “Tôi Leo” nhưng tiếng Anh bắt buộc có động từ be. I đi với am, you đi với are, một người khác (David, Mary) đi với is."
+    },
+    {
+     "t": "Giới thiệu tên: My name is … / I'm …",
+     "f": [
+      [
+       "My name",
+       "is",
+       "Leo."
+      ],
+      [
+       "I",
+       "'m",
+       "Leo."
+      ]
+     ],
+     "ex": [
+      [
+       "My name is Leo.",
+       "Tên tôi là Leo."
+      ],
+      [
+       "I'm David.",
+       "Tôi là David."
+      ]
+     ],
+     "bad": "My name Leo.",
+     "good": "My name is Leo.",
+     "why": "Lỗi rất hay gặp của người Việt: bỏ “is”. Cũng đừng trộn hai mẫu thành “I'm name is Leo” – chọn một: “My name is Leo” hoặc “I'm Leo”."
+    },
+    {
+     "t": "Câu hỏi Có/Không: đưa am / is / are lên đầu câu",
+     "f": [
+      [
+       "Hỏi:",
+       "Are you",
+       "Leo?"
+      ],
+      [
+       "Đáp:",
+       "Yes, I am.",
+       "/ No, I'm not."
+      ]
+     ],
+     "ex": [
+      [
+       "Are you Leo?",
+       "Bạn là Leo à?"
+      ],
+      [
+       "Yes, I am.",
+       "Vâng, đúng vậy."
+      ],
+      [
+       "No, I'm not.",
+       "Không, không phải."
+      ]
+     ],
+     "bad": "You are Leo?",
+     "good": "Are you Leo?",
+     "why": "Tiếng Trung chỉ thêm 吗 cuối câu, tiếng Việt thêm “à/không”, còn tiếng Anh phải đảo “are” lên trước “you”. Khi trả lời ngắn, giữ nguyên “I am” ở cuối: “Yes, I am.” (không nói “Yes, I'm.”)."
+    },
+    {
+     "t": "Phủ định: am / is / are + not",
+     "f": [
+      [
+       "I",
+       "am not",
+       "Dad."
+      ],
+      [
+       "You",
+       "are not",
+       "Leo."
+      ]
+     ],
+     "ex": [
+      [
+       "I'm not Dad.",
+       "Tôi không phải là bố."
+      ],
+      [
+       "You aren't Leo.",
+       "Bạn không phải là Leo."
+      ]
+     ],
+     "bad": "I not Dad.",
+     "good": "I'm not Dad.",
+     "why": "“not” đứng SAU am / is / are và không được bỏ động từ be. Không dùng “no” trước động từ (“I no am Dad” là sai)."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "“Thank you” nghĩa là gì?",
+     "opts": [
+      "cảm ơn",
+      "tạm biệt",
+      "xin chào"
+     ],
+     "a": 0,
+     "why": {
+      "1": "“tạm biệt” là Goodbye / Bye.",
+      "2": "“xin chào” là Hello / Hi."
+     }
+    },
+    {
+     "q": "“Goodbye” nghĩa là gì?",
+     "opts": [
+      "xin chào",
+      "không có gì",
+      "tạm biệt"
+     ],
+     "a": 2,
+     "why": {
+      "0": "“xin chào” là Hello.",
+      "1": "“không có gì” là You're welcome."
+     }
+    },
+    {
+     "q": "Ai đó nói “Thank you!”. Bạn đáp lại bằng câu nào?",
+     "opts": [
+      "Goodbye!",
+      "You're welcome!",
+      "Hello!"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Goodbye dùng khi chia tay, không phải để đáp lời cảm ơn.",
+      "2": "Hello dùng khi gặp nhau, không đáp lời cảm ơn."
+     }
+    },
+    {
+     "q": "“Mum” và “Dad” lần lượt nghĩa là gì?",
+     "opts": [
+      "bố / mẹ",
+      "mẹ / bố",
+      "anh / chị"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Ngược thứ tự: Mum là mẹ, Dad là bố.",
+      "2": "anh / chị là brother / sister (học ở Thứ 6)."
+     }
+    },
+    {
+     "q": "“Hello” dùng khi nào?",
+     "opts": [
+      "khi gặp nhau",
+      "khi chia tay",
+      "khi được giúp đỡ"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Khi chia tay dùng Goodbye / Bye.",
+      "2": "Khi được giúp đỡ nói Thank you."
+     }
+    },
+    {
+     "q": "Điền vào chỗ trống: My name ___ Leo.",
+     "opts": [
+      "am",
+      "are",
+      "is"
+     ],
+     "a": 2,
+     "why": {
+      "0": "“am” chỉ đi với I (I am).",
+      "1": "“are” đi với you; “my name” là một danh từ số ít nên dùng is."
+     }
+    },
+    {
+     "q": "Điền vào chỗ trống: ___ you Leo?",
+     "opts": [
+      "Are",
+      "Is",
+      "Am"
+     ],
+     "a": 0,
+     "why": {
+      "1": "“is” không đi với you.",
+      "2": "“am” chỉ đi với I."
+     }
+    },
+    {
+     "q": "Chọn từ phủ định đúng: I am ___ Dad. (Tôi không phải là bố.)",
+     "opts": [
+      "no",
+      "not",
+      "don't"
+     ],
+     "a": 1,
+     "why": {
+      "0": "“no” dùng để trả lời đứng một mình (No!), không đứng sau am.",
+      "2": "“don't” không đi cùng am / is / are; sau be chỉ cần not."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Sắp xếp thành câu đúng: am / Leo / I",
+     "opts": [
+      "Am I Leo.",
+      "I am Leo.",
+      "Leo I am."
+     ],
+     "a": 1,
+     "why": {
+      "0": "Đảo “Am” lên đầu là câu hỏi, phải có dấu “?” – đây không phải câu kể.",
+      "2": "Sai trật tự: tiếng Anh là Chủ ngữ + be + tên."
+     }
+    },
+    {
+     "q": "Biến câu kể thành câu hỏi: “You are Leo.” →",
+     "opts": [
+      "You are Leo?",
+      "Do you Leo?",
+      "Are you Leo?"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Chỉ lên giọng mà không đảo “are” là kiểu nói ngạc nhiên trong hội thoại, không phải câu hỏi chuẩn cho người mới học.",
+      "1": "Không dùng “do” với động từ be; chỉ cần đảo are lên đầu."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền vào chỗ trống: I am ___ Dad. (Tôi không phải là bố.)",
+     "model": "not",
+     "accept": [
+      "not"
+     ],
+     "why": "Phủ định câu có be: thêm “not” ngay sau am / is / are → I am not Dad."
+    },
+    {
+     "q": "Chọn câu đúng:",
+     "opts": [
+      "I not Mum.",
+      "I'm not Mum.",
+      "I no am Mum."
+     ],
+     "a": 1,
+     "why": {
+      "0": "Thiếu động từ be: phải là I am not / I'm not.",
+      "2": "Không dùng “no” trước động từ, và “not” phải đứng sau am."
+     }
+    },
+    {
+     "q": "Trả lời phủ định câu hỏi “Are you Mum?”",
+     "opts": [
+      "No, I'm not.",
+      "No, I amn't.",
+      "No, I not."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Tiếng Anh không có dạng “amn't”; dùng I'm not.",
+      "2": "Thiếu am: phải là I'm not."
+     }
+    },
+    {
+     "q": "“Are you Leo?” – “Yes, ___.”",
+     "opts": [
+      "I'm",
+      "am",
+      "I am"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Không được rút gọn I'm ở cuối câu trả lời ngắn: nói “Yes, I am.”",
+      "1": "Thiếu chủ ngữ I."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Dịch sang tiếng Anh: “Cháu là Leo à?”",
+     "model": "Are you Leo?",
+     "accept": [
+      "Are you Leo?",
+      "Are you Leo",
+      "are you leo?",
+      "are you leo"
+     ],
+     "why": "Câu hỏi Có/Không: đưa “Are” lên trước “you” → Are you Leo?"
+    }
+   ],
+   "listen": [
+    {
+     "q": "Nghe: người nói đang làm gì?",
+     "opts": [
+      "chào",
+      "cảm ơn",
+      "tạm biệt"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Cảm ơn là “Thank you”, bạn vừa nghe “Hello”.",
+      "2": "Tạm biệt là “Goodbye”, bạn vừa nghe “Hello”."
+     },
+     "audio": "Hello!"
+    },
+    {
+     "q": "Nghe rồi chọn câu đáp lại phù hợp.",
+     "opts": [
+      "Goodbye!",
+      "You're welcome!",
+      "Hello!"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Bạn vừa nghe “Thank you!” – Goodbye là lời chào tạm biệt, không đáp lời cảm ơn.",
+      "2": "Hello là lời chào khi gặp, không đáp lời cảm ơn."
+     },
+     "audio": "Thank you!"
+    },
+    {
+     "q": "Nghe: câu này nghĩa là gì?",
+     "opts": [
+      "xin chào",
+      "cảm ơn",
+      "tạm biệt"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Xin chào là “Hello”; bạn nghe “Goodbye”.",
+      "1": "Cảm ơn là “Thank you”; bạn nghe “Goodbye”."
+     },
+     "audio": "Goodbye!"
+    },
+    {
+     "q": "Nghe: người nói là ai?",
+     "opts": [
+      "mẹ",
+      "bố"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Người nói nói “Dad” (bố), không phải “Mum” (mẹ)."
+     },
+     "audio": "I'm Dad."
+    },
+    {
+     "q": "Nghe: người nói có phải là Leo không?",
+     "opts": [
+      "có",
+      "không"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Có từ “not” sau I'm → “Tôi KHÔNG phải là Leo”."
+     },
+     "audio": "I'm not Leo."
+    },
+    {
+     "q": "Nghe: đây là câu hỏi hay câu kể?",
+     "opts": [
+      "câu hỏi",
+      "câu kể"
+     ],
+     "a": 0,
+     "why": {
+      "1": "“Are” đứng đầu câu và giọng lên ở cuối → đây là câu hỏi Có/Không."
+     },
+     "audio": "Are you Mum?"
+    },
+    {
+     "q": "Nghe từ “Thank”. Âm đầu “th” đọc thế nào?",
+     "opts": [
+      "đầu lưỡi đặt giữa hai răng rồi thổi hơi /θ/",
+      "giống “t” tiếng Việt",
+      "giống “ph” tiếng Việt"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Đọc như “t” sẽ thành “tank” (bể chứa) – sai nghĩa.",
+      "2": "“ph” là âm /f/ (môi chạm răng), không phải /θ/."
+     },
+     "audio": "Thank you."
+    }
+   ],
+   "hsk": [
+    {
+     "q": "TOEIC Bridge – Hỏi & đáp: nghe câu nói, chọn câu đáp phù hợp nhất.",
+     "opts": [
+      "Hello!",
+      "You're welcome.",
+      "I'm Dad."
+     ],
+     "a": 0,
+     "why": {
+      "1": "You're welcome dùng để đáp lời cảm ơn, nhưng người kia chỉ chào.",
+      "2": "“I'm Dad” không đáp lại lời chào."
+     },
+     "audio": "Hello!"
+    },
+    {
+     "q": "TOEIC Bridge – Hỏi & đáp: nghe câu nói, chọn câu đáp phù hợp nhất.",
+     "opts": [
+      "Goodbye.",
+      "Are you Leo?",
+      "You're welcome."
+     ],
+     "a": 2,
+     "why": {
+      "0": "Người kia cảm ơn, không phải chia tay.",
+      "1": "Hỏi tên lúc này không đáp lại lời cảm ơn."
+     },
+     "audio": "Thank you!"
+    },
+    {
+     "q": "TOEIC Bridge – Hỏi & đáp: nghe câu nói, chọn câu đáp phù hợp nhất.",
+     "opts": [
+      "Thank you.",
+      "Yes, I am.",
+      "You're welcome."
+     ],
+     "a": 1,
+     "why": {
+      "0": "Không có gì để cảm ơn; câu hỏi cần trả lời Có/Không.",
+      "2": "You're welcome chỉ dùng sau lời cảm ơn."
+     },
+     "audio": "Are you Leo?"
+    },
+    {
+     "q": "TOEIC Bridge – Hỏi & đáp: nghe câu nói, chọn câu đáp phù hợp nhất.",
+     "opts": [
+      "No, I'm not.",
+      "My name is Leo.",
+      "Bye!"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Không có câu hỏi Có/Không để trả lời “No”.",
+      "1": "Người kia đang chào tạm biệt, không hỏi tên."
+     },
+     "audio": "Goodbye!"
+    },
+    {
+     "q": "TOEIC Bridge – Hỏi & đáp: nghe câu nói, chọn câu đáp phù hợp nhất.",
+     "opts": [
+      "Hello!",
+      "No, I'm Dad.",
+      "Thank you."
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu hỏi “Are you Mum?” cần câu trả lời Có/Không, không phải lời chào.",
+      "2": "Không có lý do để cảm ơn."
+     },
+     "audio": "Are you Mum?"
+    }
+   ],
+   "shadow": [
+    {
+     "t": "Hello!",
+     "focus": "Trọng âm rơi vào âm tiết thứ hai: he-LLO. Âm cuối /əʊ/ tròn môi dần, đừng đọc phẳng “hê-lô”."
+    },
+    {
+     "t": "Thank you.",
+     "focus": "“th” /θ/: đầu lưỡi giữa hai răng, thổi hơi. Nối liền “thank-you” /θæŋkju/, không tách “tanh – kiu”."
+    },
+    {
+     "t": "You're welcome.",
+     "focus": "Nhấn WEL; /w/ chu tròn môi; âm cuối /m/ phải khép môi lại."
+    },
+    {
+     "t": "Goodbye!",
+     "focus": "Nhấn BYE. Âm /d/ của “good” chỉ chạm nhẹ rồi chuyển sang “bye”, không đọc “gút-bai”."
+    },
+    {
+     "t": "Mum. Dad.",
+     "focus": "Giữ âm cuối: “Mum” khép môi ở /m/; “Dad” chạm lưỡi ở /d/. Âm /æ/ trong Dad mở miệng rộng, khác “đa” tiếng Việt."
+    },
+    {
+     "t": "I'm Leo. My name is Leo.",
+     "focus": "Nối “I'm” sang “Leo”: khép môi ở /m/ rồi chuyển ngay. “name is” nối thành “nay-miz”, âm /z/ cuối của is rung nhẹ."
+    },
+    {
+     "t": "Are you Leo?",
+     "focus": "Câu hỏi Có/Không: lên giọng ở cuối câu (khác 吗 tiếng Trung đọc nhẹ). “Are you” nối liền /ɑːju/."
+    },
+    {
+     "t": "No, I'm not.",
+     "focus": "Nhấn mạnh NOT; giữ âm cuối /t/ (chặn hơi), đừng nuốt mất thành “no”."
+    }
+   ],
+   "dialog": {
+    "title": "Gặp bố của bạn mới ở cổng nhà",
+    "partner": "David",
+    "turns": [
+     {
+      "ai": "Hello!",
+      "vi": "Chào cháu!",
+      "model": "Hello!",
+      "accept": [
+       "Hello!",
+       "Hi!",
+       "Hello.",
+       "Hi."
+      ],
+      "frame": "Hello!",
+      "hint": "Chào lại bằng Hello hoặc Hi."
+     },
+     {
+      "ai": "Are you Leo?",
+      "vi": "Cháu là Leo à?",
+      "model": "No, I'm not. My name is Minh.",
+      "accept": [
+       "No, I'm not. My name is Minh.",
+       "No, I'm not. I'm Minh.",
+       "No. My name is Minh.",
+       "No, I'm not."
+      ],
+      "frame": "No, I'm not. My name is ___.",
+      "hint": "Bạn không phải Leo: nói “No, I'm not.” rồi giới thiệu tên mình (thay Minh bằng tên bạn)."
+     },
+     {
+      "ai": "Thank you!",
+      "vi": "Cảm ơn cháu!",
+      "model": "You're welcome!",
+      "accept": [
+       "You're welcome!",
+       "You're welcome.",
+       "You are welcome."
+      ],
+      "frame": "You're ___!",
+      "hint": "Đáp lại lời cảm ơn."
+     },
+     {
+      "ai": "Goodbye!",
+      "vi": "Tạm biệt cháu!",
+      "model": "Goodbye!",
+      "accept": [
+       "Goodbye!",
+       "Bye!",
+       "Bye-bye!",
+       "Goodbye."
+      ],
+      "frame": "Goodbye!",
+      "hint": "Chào tạm biệt lại."
+     }
+    ]
+   },
+   "reading": {
+    "text": "Hello! My name is Leo. Mary is my mum. Is David my dad? Yes! Thank you, Dad!",
+    "vi": "Xin chào! Tên tôi là Leo. Mary là mẹ tôi. David có phải là bố tôi không? Phải! Cảm ơn bố!",
+    "qs": [
+     {
+      "q": "Người viết tên là gì?",
+      "opts": [
+       "Mary",
+       "Leo",
+       "David"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Mary là mẹ của người viết.",
+       "2": "David là bố của người viết."
+      }
+     },
+     {
+      "q": "Mary là ai của Leo?",
+      "opts": [
+       "mẹ",
+       "bố",
+       "bạn"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bố là David.",
+       "2": "Bài đọc nói “Mary is my mum” – Mary là mẹ."
+      }
+     },
+     {
+      "q": "David là ai của Leo?",
+      "opts": [
+       "bạn",
+       "bố"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài đọc: “Is David my dad? Yes!” – David là bố."
+      }
+     },
+     {
+      "q": "Leo cảm ơn ai?",
+      "opts": [
+       "Mary",
+       "David"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Câu cuối là “Thank you, Dad!” – cảm ơn bố, tức David."
+      }
+     },
+     {
+      "q": "Đúng hay sai: “Mary is my dad.”",
+      "opts": [
+       "Đúng",
+       "Sai"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Mary là mum (mẹ), không phải dad (bố)."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "w1-thu-3",
+   "label": "Thứ 3",
+   "title": "Hỏi tên, làm quen",
+   "desc": "Hôm nay bạn học hỏi tên, hỏi lại “And you?”, nói “Nice to meet you” và dùng he / we / his qua cảnh Leo gặp chị Sophie và em Sam.",
+   "rule": "Hỏi tên: What's your name? (không bỏ ’s / is). “very” đứng trước tính từ nhưng vẫn cần be: I'm very happy. “too” (cũng) đứng cuối câu.",
+   "cards": [
+    {
+     "w": "What's your name?",
+     "m": "Bạn tên là gì?",
+     "ex": "Hi! What's your name?",
+     "exm": "Chào bạn! Bạn tên là gì?",
+     "n": "What's = What is. Lỗi hay gặp: “What your name?” (thiếu is).",
+     "img": "question"
+    },
+    {
+     "w": "what",
+     "m": "cái gì, gì",
+     "ex": "What's his name?",
+     "exm": "Cậu ấy tên là gì?",
+     "n": "Từ để hỏi luôn đứng đầu câu hỏi trong tiếng Anh (khác tiếng Việt “tên là gì” đặt cuối).",
+     "img": "what"
+    },
+    {
+     "w": "your",
+     "m": "của bạn",
+     "ex": "Your name is Sophie.",
+     "exm": "Tên bạn là Sophie.",
+     "n": "your (của bạn) khác you're (= you are). Sau your phải có danh từ: your name."
+    },
+    {
+     "w": "And you?",
+     "m": "Còn bạn thì sao?",
+     "ex": "I'm Leo. And you?",
+     "exm": "Mình là Leo. Còn bạn?",
+     "n": "Dùng để hỏi lại đúng câu mình vừa trả lời, giống 你呢？ trong tiếng Trung. Lên giọng ở “you”.",
+     "img": "you"
+    },
+    {
+     "w": "he",
+     "m": "cậu ấy, anh ấy, ông ấy",
+     "ex": "He is Sam.",
+     "exm": "Cậu ấy là Sam.",
+     "n": "he chỉ người nam; he đi với is. Người Việt hay lẫn he / she khi nói nhanh.",
+     "img": "person"
+    },
+    {
+     "w": "his",
+     "m": "của cậu ấy, của anh ấy",
+     "ex": "What's his name?",
+     "exm": "Cậu ấy tên là gì?",
+     "n": "his = của người nam (he). Đọc /hɪz/, có âm /z/ cuối."
+    },
+    {
+     "w": "we",
+     "m": "chúng tôi, chúng mình, chúng ta",
+     "ex": "We are very happy.",
+     "exm": "Chúng mình rất vui.",
+     "n": "we đi với are: we are / we're.",
+     "img": "team"
+    },
+    {
+     "w": "very",
+     "m": "rất",
+     "ex": "I'm very happy.",
+     "exm": "Tôi rất vui.",
+     "n": "very đứng trước tính từ, nhưng vẫn cần be: I'm very happy (không nói “I very happy”)."
+    },
+    {
+     "w": "happy",
+     "m": "vui, vui vẻ",
+     "ex": "We are happy.",
+     "exm": "Chúng tôi vui.",
+     "n": "HAP-py, nhấn âm đầu; /h/ bật hơi nhẹ."
+    },
+    {
+     "w": "Nice to meet you.",
+     "m": "Rất vui được làm quen.",
+     "ex": "Hi, Sophie! Nice to meet you.",
+     "exm": "Chào Sophie! Rất vui được làm quen.",
+     "n": "Nói khi gặp ai đó lần đầu, lịch sự với cả người lớn. Đáp lại: Nice to meet you, too.",
+     "img": "handshake"
+    },
+    {
+     "w": "too",
+     "m": "cũng",
+     "ex": "I'm happy, too.",
+     "exm": "Tôi cũng vui.",
+     "n": "“too” (cũng) đứng CUỐI câu. Nếu đặt trước tính từ (“too happy”) thì nghĩa thành “quá”.",
+     "img": "also"
+    }
+   ],
+   "scene": {
+    "setting": "Cùng buổi tối hôm đó, ở phòng khách. Leo làm quen với hai con riêng của bố dượng: chị Sophie (15 tuổi) và em út Sam. Sam lễ phép chào mẹ Mary.",
+    "img": "s-w1-d2",
+    "imgPrompt": "Evening in the family living room. liuxing faces xiaxue and xiaoyu for the first time; xiaxue smiles with a small wave, xiaoyu peeks shyly from behind her then greets liumei with a polite little bow; liumei smiles kindly. Warm friendly cartoon style, no text in image.",
+    "lines": [
+     {
+      "who": "Leo",
+      "t": "Hi! What's your name?",
+      "vi": "Chào chị! Chị tên là gì?"
+     },
+     {
+      "who": "Sophie",
+      "t": "My name is Sophie. And you?",
+      "vi": "Chị tên là Sophie. Còn em?"
+     },
+     {
+      "who": "Leo",
+      "t": "I'm Leo. What's his name?",
+      "vi": "Em là Leo. Còn cậu kia tên gì?"
+     },
+     {
+      "who": "Sophie",
+      "t": "He is Sam. We are very happy. Nice to meet you, Leo!",
+      "vi": "Đó là Sam. Bọn chị rất vui. Rất vui được làm quen với em, Leo!"
+     },
+     {
+      "who": "Sam",
+      "t": "Hello! Are you his mum?",
+      "vi": "Cháu chào cô! Cô là mẹ của anh ấy ạ?"
+     },
+     {
+      "who": "Mary",
+      "t": "Yes, I am. Hi, Sophie! Hi, Sam! I'm very happy, too!",
+      "vi": "Đúng rồi. Chào Sophie! Chào Sam! Cô cũng rất vui!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Hỏi tên: What + is + your / his name?",
+     "f": [
+      [
+       "What",
+       "is",
+       "your name?"
+      ],
+      [
+       "What's",
+       "his",
+       "name?"
+      ]
+     ],
+     "ex": [
+      [
+       "What's your name?",
+       "Bạn tên là gì?"
+      ],
+      [
+       "What's his name?",
+       "Cậu ấy tên là gì?"
+      ]
+     ],
+     "bad": "What your name?",
+     "good": "What's your name?",
+     "why": "Người Việt hay bỏ “is” vì tiếng Việt nói “Tên bạn gì?”. Tiếng Anh bắt buộc có is (viết gọn ’s). Từ hỏi What luôn đứng đầu câu, không nói “Your name is what?” khi hỏi bình thường."
+    },
+    {
+     "t": "Hỏi lại: … And you?",
+     "f": [
+      [
+       "I'm Leo.",
+       "And you?"
+      ],
+      [
+       "My name is Sophie.",
+       "And you?"
+      ]
+     ],
+     "ex": [
+      [
+       "I'm Leo. And you?",
+       "Mình là Leo. Còn bạn?"
+      ]
+     ],
+     "bad": "I'm Leo. And your?",
+     "good": "I'm Leo. And you?",
+     "why": "“your” (của bạn) luôn cần một danh từ theo sau (your name). Khi hỏi lại “còn bạn?” dùng “you”."
+    },
+    {
+     "t": "be + very + tính từ (he / we + is / are)",
+     "f": [
+      [
+       "I",
+       "am",
+       "very happy."
+      ],
+      [
+       "He",
+       "is",
+       "very happy."
+      ],
+      [
+       "We",
+       "are",
+       "very happy."
+      ]
+     ],
+     "ex": [
+      [
+       "I'm very happy.",
+       "Tôi rất vui."
+      ],
+      [
+       "We are very happy.",
+       "Chúng tôi rất vui."
+      ]
+     ],
+     "bad": "I very happy.",
+     "good": "I'm very happy.",
+     "why": "Tiếng Việt “Tôi rất vui” không có “là”, nhưng tiếng Anh vẫn phải có be trước tính từ: I am / he is / we are. Đây là lỗi thiếu be kinh điển."
+    },
+    {
+     "t": "too (cũng) đứng cuối câu",
+     "f": [
+      [
+       "I'm happy,",
+       "too."
+      ],
+      [
+       "Nice to meet you,",
+       "too."
+      ]
+     ],
+     "ex": [
+      [
+       "I'm happy, too.",
+       "Tôi cũng vui."
+      ],
+      [
+       "Nice to meet you, too.",
+       "Mình cũng rất vui được làm quen."
+      ]
+     ],
+     "bad": "I'm too happy.",
+     "good": "I'm happy, too.",
+     "why": "“too” đặt trước tính từ có nghĩa là “quá” (too happy = vui quá mức). Muốn nói “cũng” thì đặt too ở cuối câu, thường có dấu phẩy trước."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "“What” nghĩa là gì?",
+     "opts": [
+      "ở đâu",
+      "cái gì",
+      "bao nhiêu"
+     ],
+     "a": 1,
+     "why": {
+      "0": "“ở đâu” là where (học ở Thứ 4).",
+      "2": "“bao nhiêu (tuổi)” là how old (học ở Thứ 5)."
+     }
+    },
+    {
+     "q": "“name” nghĩa là gì?",
+     "opts": [
+      "tên",
+      "tuổi",
+      "bạn"
+     ],
+     "a": 0,
+     "why": {
+      "1": "tuổi là age / years old.",
+      "2": "bạn là friend / you."
+     }
+    },
+    {
+     "q": "Khi nào nói “Nice to meet you”?",
+     "opts": [
+      "khi chia tay",
+      "khi cảm ơn",
+      "khi gặp và làm quen lần đầu"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Chia tay nói Goodbye.",
+      "1": "Cảm ơn nói Thank you."
+     }
+    },
+    {
+     "q": "“we” nghĩa là gì?",
+     "opts": [
+      "chúng tôi, chúng ta",
+      "cậu ấy",
+      "của bạn"
+     ],
+     "a": 0,
+     "why": {
+      "1": "cậu ấy là he.",
+      "2": "của bạn là your."
+     }
+    },
+    {
+     "q": "“his” nghĩa là gì?",
+     "opts": [
+      "của tôi",
+      "của cậu ấy",
+      "của bạn"
+     ],
+     "a": 1,
+     "why": {
+      "0": "của tôi là my.",
+      "2": "của bạn là your."
+     }
+    },
+    {
+     "q": "Điền: I am very ___. (vui)",
+     "opts": [
+      "happy",
+      "what",
+      "welcome"
+     ],
+     "a": 0,
+     "why": {
+      "1": "what là từ để hỏi “cái gì”, không phải tính từ.",
+      "2": "welcome dùng trong You're welcome (không có gì), không có nghĩa “vui”."
+     }
+    },
+    {
+     "q": "Điền: I'm Leo. And ___? (còn bạn?)",
+     "opts": [
+      "he",
+      "your",
+      "you"
+     ],
+     "a": 2,
+     "why": {
+      "0": "he là “cậu ấy” – hỏi về người khác, không phải người đang nghe.",
+      "1": "your (của bạn) phải có danh từ đi sau."
+     }
+    },
+    {
+     "q": "Điền: I'm happy, ___. (cũng)",
+     "opts": [
+      "very",
+      "too",
+      "and"
+     ],
+     "a": 1,
+     "why": {
+      "0": "very (rất) phải đứng trước tính từ, không đứng cuối câu.",
+      "2": "and (và) dùng để nối, không mang nghĩa “cũng” ở cuối câu."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Sắp xếp: name / your / What's",
+     "opts": [
+      "Your name what's?",
+      "What's name your?",
+      "What's your name?"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Từ hỏi What phải đứng đầu câu.",
+      "1": "your phải đứng trước danh từ name: your name."
+     }
+    },
+    {
+     "q": "Trả lời câu hỏi “What's your name?”",
+     "opts": [
+      "My name Sophie.",
+      "My name is Sophie.",
+      "I'm name Sophie."
+     ],
+     "a": 1,
+     "why": {
+      "0": "Thiếu is.",
+      "2": "Trộn hai mẫu: hoặc “I'm Sophie”, hoặc “My name is Sophie”."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền để hỏi lại: My name is Sophie. And ___? (Còn bạn?)",
+     "model": "you",
+     "accept": [
+      "you",
+      "you?"
+     ],
+     "why": "Hỏi lại người đang nói chuyện với mình: And you?"
+    },
+    {
+     "q": "Thêm “very” vào câu: “I am happy.”",
+     "opts": [
+      "I very am happy.",
+      "I am happy very.",
+      "I am very happy."
+     ],
+     "a": 2,
+     "why": {
+      "0": "very không đứng trước động từ be.",
+      "1": "very phải đứng ngay trước tính từ, không đứng cuối câu."
+     }
+    },
+    {
+     "q": "Chọn câu đúng nghĩa “Cậu ấy cũng vui.”",
+     "opts": [
+      "He is happy, too.",
+      "He is too happy.",
+      "Too he is happy."
+     ],
+     "a": 0,
+     "why": {
+      "1": "“too happy” nghĩa là “vui quá mức”, không phải “cũng vui”.",
+      "2": "too không đứng đầu câu."
+     }
+    },
+    {
+     "q": "Chọn câu đúng:",
+     "opts": [
+      "We very happy.",
+      "We is very happy.",
+      "We are very happy."
+     ],
+     "a": 2,
+     "why": {
+      "0": "Thiếu động từ be (are).",
+      "1": "we đi với are, không đi với is."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền động từ be: He ___ Sam.",
+     "model": "is",
+     "accept": [
+      "is"
+     ],
+     "why": "he (một người nam) đi với is: He is Sam."
+    }
+   ],
+   "listen": [
+    {
+     "q": "Nghe: người nói hỏi về điều gì?",
+     "opts": [
+      "tuổi",
+      "tên",
+      "quê"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Hỏi tuổi là “How old are you?”; bạn nghe “What's your name?”.",
+      "2": "Hỏi quê là “Where are you from?”."
+     },
+     "audio": "What's your name?"
+    },
+    {
+     "q": "Nghe: người nói tên là gì?",
+     "opts": [
+      "Sophie",
+      "Sam",
+      "Leo"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sam là em út, không được nhắc tới trong câu này.",
+      "2": "Leo là người được hỏi lại (“And you?”), không phải người nói."
+     },
+     "audio": "My name is Sophie. And you?"
+    },
+    {
+     "q": "Nghe: người được giới thiệu là ai?",
+     "opts": [
+      "Leo",
+      "David",
+      "Sam"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Câu nói “He is Sam”, không nhắc đến Leo.",
+      "1": "David không xuất hiện trong câu nghe."
+     },
+     "audio": "He is Sam."
+    },
+    {
+     "q": "Nghe: họ cảm thấy thế nào?",
+     "opts": [
+      "rất vui được làm quen",
+      "rất buồn",
+      "đang tạm biệt"
+     ],
+     "a": 0,
+     "why": {
+      "1": "happy là vui, không phải buồn.",
+      "2": "Không có Goodbye / Bye trong câu."
+     },
+     "audio": "We are very happy. Nice to meet you!"
+    },
+    {
+     "q": "Nghe: câu này nghĩa là gì?",
+     "opts": [
+      "Tôi vui quá mức.",
+      "Tôi cũng vui.",
+      "Tôi không vui."
+     ],
+     "a": 1,
+     "why": {
+      "0": "“too” ở cuối câu nghĩa là “cũng”; “vui quá mức” phải là “too happy”.",
+      "2": "Không có “not” trong câu."
+     },
+     "audio": "I'm happy, too."
+    },
+    {
+     "q": "Nghe: người nói hỏi tên của ai?",
+     "opts": [
+      "người đang nghe",
+      "chính người nói",
+      "một người nam khác"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Hỏi tên người nghe thì dùng “your name”, câu này dùng “his name”.",
+      "1": "Người nói không hỏi tên chính mình."
+     },
+     "audio": "What's his name?"
+    },
+    {
+     "q": "Nghe: trong câu nói nhanh, “What's your” thường được nối thành âm nào?",
+     "opts": [
+      "“watch-ur” /wɒtʃə/",
+      "“wat – your” tách rời hẳn",
+      "“wa your”, bỏ hẳn t và s"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Người bản xứ nói nhanh sẽ nối /ts/ + /j/ thành /tʃ/, không tách rời.",
+      "2": "Không bỏ hẳn phụ âm; /ts/ + /j/ hòa thành /tʃ/."
+     },
+     "audio": "What's your name?"
+    }
+   ],
+   "hsk": [
+    {
+     "q": "Cambridge A1 Movers – Đọc và chọn câu trả lời đúng: “What's your name?”",
+     "opts": [
+      "Hello!",
+      "My name is Sophie.",
+      "You're welcome."
+     ],
+     "a": 1,
+     "why": {
+      "0": "Hello là lời chào, không trả lời câu hỏi tên.",
+      "2": "You're welcome dùng để đáp lời cảm ơn."
+     }
+    },
+    {
+     "q": "Cambridge A1 Movers – Đọc và chọn câu trả lời đúng: “Hello!”",
+     "opts": [
+      "I'm very happy, too.",
+      "No, I'm not.",
+      "Hi!"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Câu này chỉ hợp khi người kia nói “I'm very happy”.",
+      "1": "Không có câu hỏi Có/Không để trả lời “No”."
+     }
+    },
+    {
+     "q": "Cambridge A1 Movers – Đọc và chọn câu trả lời đúng: “Thank you!”",
+     "opts": [
+      "You're welcome.",
+      "My name is Sophie.",
+      "Hi!"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Người kia không hỏi tên.",
+      "2": "Hi là lời chào, không đáp lời cảm ơn."
+     }
+    },
+    {
+     "q": "Cambridge A1 Movers – Đọc và chọn câu trả lời đúng: “Are you Leo?”",
+     "opts": [
+      "Yes, he is.",
+      "No, I'm Sam.",
+      "Thank you."
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu hỏi “Are you…?” thì trả lời về mình: I am, không phải he is.",
+      "2": "Không có gì để cảm ơn."
+     }
+    },
+    {
+     "q": "Cambridge A1 Movers – Đọc và chọn câu trả lời đúng: “Nice to meet you!”",
+     "opts": [
+      "Goodbye, too!",
+      "I'm Leo, too.",
+      "Nice to meet you, too!"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Người kia đang làm quen, không chào tạm biệt.",
+      "1": "“I'm Leo, too” nghĩa là “Tôi cũng là Leo” – vô nghĩa ở đây."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "What's your name?",
+     "focus": "Nối “What's your” → /wɒtʃə/ (nghe như “watch-ur”). Câu hỏi có từ hỏi What: XUỐNG giọng ở cuối, không lên giọng."
+    },
+    {
+     "t": "name",
+     "focus": "/neɪm/: nguyên âm đôi “ây”, kết thúc khép môi ở /m/. Không đọc thành “nem”."
+    },
+    {
+     "t": "Nice to meet you.",
+     "focus": "Nhấn NICE và MEET; “to” đọc nhẹ /tə/. “meet you” nối thành /miːtʃu/."
+    },
+    {
+     "t": "And you?",
+     "focus": "“And” đọc nhẹ /ən/; lên giọng và nhấn ở “you”."
+    },
+    {
+     "t": "He is Sam.",
+     "focus": "“He is” nối thành “hee-yiz”; is kết thúc bằng /z/ rung. Sam: /s/ rõ ở đầu, khép môi ở /m/ cuối."
+    },
+    {
+     "t": "I'm very happy.",
+     "focus": "/v/: răng trên chạm môi dưới, rung (khác /b/). Nhấn VER-y và HAP-py."
+    },
+    {
+     "t": "We are very happy.",
+     "focus": "/w/ chu tròn môi; “We are” nối thành “we-yar”."
+    },
+    {
+     "t": "I'm happy, too.",
+     "focus": "Ngắt nhẹ ở dấu phẩy, rồi nhấn và kéo dài “too” /tuː/."
+    }
+   ],
+   "dialog": {
+    "title": "Buổi đầu ở câu lạc bộ tiếng Anh, gặp bạn mới",
+    "partner": "Sophie",
+    "turns": [
+     {
+      "ai": "Hello!",
+      "vi": "Chào bạn!",
+      "model": "Hello!",
+      "accept": [
+       "Hello!",
+       "Hi!",
+       "Hello.",
+       "Hi."
+      ],
+      "frame": "Hello!",
+      "hint": "Chào lại."
+     },
+     {
+      "ai": "What's your name?",
+      "vi": "Bạn tên là gì?",
+      "model": "My name is Minh. And you?",
+      "accept": [
+       "My name is Minh. And you?",
+       "I'm Minh. And you?",
+       "My name is Minh. What's your name?",
+       "My name is Minh."
+      ],
+      "frame": "My name is ___. And you?",
+      "hint": "Nói tên bạn (thay Minh) rồi hỏi lại “And you?”."
+     },
+     {
+      "ai": "My name is Sophie.",
+      "vi": "Mình tên là Sophie.",
+      "model": "Nice to meet you!",
+      "accept": [
+       "Nice to meet you!",
+       "Nice to meet you, Sophie!",
+       "Nice to meet you."
+      ],
+      "frame": "Nice to ___ you!",
+      "hint": "Nói câu làm quen lần đầu."
+     },
+     {
+      "ai": "Nice to meet you, too! Goodbye!",
+      "vi": "Mình cũng rất vui được làm quen! Tạm biệt!",
+      "model": "Goodbye!",
+      "accept": [
+       "Goodbye!",
+       "Bye!",
+       "Bye-bye!",
+       "Goodbye, Sophie!"
+      ],
+      "frame": "Goodbye!",
+      "hint": "Chào tạm biệt."
+     }
+    ]
+   },
+   "reading": {
+    "text": "Hello! My name is Sophie. He is Sam. We are very happy. Leo, nice to meet you!",
+    "vi": "Xin chào! Mình tên là Sophie. Cậu bé này là Sam. Chúng mình rất vui. Leo, rất vui được làm quen với em!",
+    "qs": [
+     {
+      "q": "Người viết tên là gì?",
+      "opts": [
+       "Sam",
+       "Sophie",
+       "Leo"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Sam là cậu bé được giới thiệu (“He is Sam”).",
+       "2": "Leo là người được chào ở câu cuối."
+      }
+     },
+     {
+      "q": "Cậu bé được giới thiệu tên là gì?",
+      "opts": [
+       "Leo",
+       "David",
+       "Sam"
+      ],
+      "a": 2,
+      "why": {
+       "0": "Leo là người được chào làm quen, không được giới thiệu.",
+       "1": "David không có trong bài."
+      }
+     },
+     {
+      "q": "Họ cảm thấy thế nào?",
+      "opts": [
+       "rất vui",
+       "rất buồn"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài đọc: “We are very happy” – rất vui."
+      }
+     },
+     {
+      "q": "Sophie nói “nice to meet you” với ai?",
+      "opts": [
+       "Sam",
+       "Mary",
+       "Leo"
+      ],
+      "a": 2,
+      "why": {
+       "0": "Sam là em của Sophie, đã quen nhau rồi.",
+       "1": "Mary không có trong bài đọc."
+      }
+     },
+     {
+      "q": "Đúng hay sai: “We are not happy.”",
+      "opts": [
+       "Đúng",
+       "Sai"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài đọc nói “We are very happy” – họ rất vui."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "w1-thu-4",
+   "label": "Thứ 4",
+   "title": "Quốc tịch, ngôn ngữ, bạn bè",
+   "desc": "Hôm nay bạn học hỏi và nói quê / quốc tịch, ngôn ngữ mình biết nói (can speak), giới thiệu bạn bè, bạn cùng lớp qua cảnh Leo dẫn bạn Lan người Việt về nhà.",
+   "rule": "Hỏi quê: Where are you from? – I'm from Vietnam. Sau “can” dùng động từ nguyên mẫu (can speak, không “can speaks”). Danh từ số ít cần “a”: I'm a student.",
+   "cards": [
+    {
+     "w": "everyone",
+     "m": "mọi người",
+     "ex": "Hi, everyone!",
+     "exm": "Chào mọi người!",
+     "n": "Dùng khi chào cả nhóm. Có thể nói “everybody” – nghĩa giống hệt.",
+     "img": "team"
+    },
+    {
+     "w": "she",
+     "m": "cô ấy, bạn ấy (nữ)",
+     "ex": "She is my friend.",
+     "exm": "Bạn ấy là bạn của tôi.",
+     "n": "she cho người nữ, he cho người nam. Người Việt hay lẫn he / she – hãy kiểm tra trước khi nói.",
+     "img": "she"
+    },
+    {
+     "w": "friend",
+     "m": "bạn, bạn bè",
+     "ex": "Lan is my friend.",
+     "exm": "Lan là bạn của tôi.",
+     "n": "Một người bạn: a friend; nhiều bạn: friends (đừng quên -s). Đọc /frend/, giữ cụm /nd/ cuối.",
+     "img": "friend"
+    },
+    {
+     "w": "Where are you from?",
+     "m": "Bạn đến từ đâu? / Bạn là người nước nào?",
+     "ex": "Where are you from? – I'm from Vietnam.",
+     "exm": "Bạn là người nước nào? – Mình đến từ Việt Nam.",
+     "n": "Đừng bỏ “are” và đừng quên “from” ở cuối câu.",
+     "img": "where"
+    },
+    {
+     "w": "from",
+     "m": "từ, đến từ",
+     "ex": "I'm from Vietnam.",
+     "exm": "Tôi đến từ Việt Nam.",
+     "n": "be from + tên nước: I'm from Vietnam (không nói “I from Vietnam”).",
+     "img": "from"
+    },
+    {
+     "w": "Vietnamese",
+     "m": "người Việt Nam; tiếng Việt",
+     "ex": "I'm Vietnamese.",
+     "exm": "Tôi là người Việt Nam.",
+     "n": "Vietnam là tên nước; Vietnamese là quốc tịch / ngôn ngữ. Nhấn âm cuối: viet-na-MESE /ˌviːetnəˈmiːz/.",
+     "img": "vietnam"
+    },
+    {
+     "w": "English",
+     "m": "tiếng Anh; người Anh",
+     "ex": "Can you speak English?",
+     "exm": "Bạn nói được tiếng Anh không?",
+     "n": "Tên ngôn ngữ luôn viết hoa: English, Vietnamese, Chinese. Đọc EN-glish, âm cuối /ʃ/ (“sh”).",
+     "img": "uk"
+    },
+    {
+     "w": "speak",
+     "m": "nói (một ngôn ngữ)",
+     "ex": "I speak Vietnamese.",
+     "exm": "Tôi nói tiếng Việt.",
+     "n": "speak + tên ngôn ngữ (không cần “in”). Cụm /sp/ đầu từ đọc liền, không chèn “x-pích”."
+    },
+    {
+     "w": "can / can't",
+     "m": "có thể, biết (làm gì) / không thể",
+     "ex": "I can speak English. I can't speak Chinese.",
+     "exm": "Tôi nói được tiếng Anh. Tôi không nói được tiếng Trung.",
+     "n": "can + động từ nguyên mẫu, không thêm -s, không thêm to. can't = cannot. Giống 会 trong tiếng Trung."
+    },
+    {
+     "w": "student",
+     "m": "học sinh, sinh viên",
+     "ex": "I'm a student.",
+     "exm": "Tôi là học sinh.",
+     "n": "Một người: a student (đừng quên a). Nhiều người: students. Giữ âm /t/ cuối.",
+     "img": "student"
+    },
+    {
+     "w": "classmate",
+     "m": "bạn cùng lớp",
+     "ex": "Leo is my classmate.",
+     "exm": "Leo là bạn cùng lớp của tôi.",
+     "n": "class (lớp) + mate (bạn) – giống 同学. Nhấn âm đầu: CLASS-mate."
+    },
+    {
+     "w": "they / all",
+     "m": "họ, các bạn ấy / tất cả, đều",
+     "ex": "They are all students.",
+     "exm": "Họ đều là học sinh.",
+     "n": "they đi với are. all đứng sau be (are all) hoặc trước động từ thường (all speak) – giống 都."
+    }
+   ],
+   "scene": {
+    "setting": "Buổi chiều tan học. Leo dẫn bạn cùng lớp Lan (bạn người Việt Nam) về nhà và giới thiệu với cả nhà; chị Sophie hỏi chuyện Lan.",
+    "img": "s-w1-d3",
+    "imgPrompt": "Afternoon at the family home entrance. liuxing proudly presents alan, a Vietnamese girl with a school backpack, to the family; xiaxue leans forward with a curious friendly smile asking her questions; alan smiles and waves. Warm friendly cartoon style, no text in image.",
+    "lines": [
+     {
+      "who": "Leo",
+      "t": "Hi, everyone! She is my friend, Lan.",
+      "vi": "Chào cả nhà! Đây là bạn em, Lan."
+     },
+     {
+      "who": "Sophie",
+      "t": "Hi, Lan! Where are you from?",
+      "vi": "Chào Lan! Em là người nước nào?"
+     },
+     {
+      "who": "Lan",
+      "t": "I'm from Vietnam. I'm Vietnamese.",
+      "vi": "Em đến từ Việt Nam. Em là người Việt Nam."
+     },
+     {
+      "who": "Sophie",
+      "t": "Can you speak English?",
+      "vi": "Em nói được tiếng Anh không?"
+     },
+     {
+      "who": "Lan",
+      "t": "Yes, I can. I'm a student. My classmates are all English.",
+      "vi": "Có ạ. Em là học sinh. Các bạn cùng lớp của em đều là người Anh."
+     },
+     {
+      "who": "Leo",
+      "t": "They all speak English! We are classmates.",
+      "vi": "Cả lớp đều nói tiếng Anh mà! Bọn em là bạn cùng lớp."
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Hỏi quê / quốc tịch: Where + are + you from? – I'm from …",
+     "f": [
+      [
+       "Where",
+       "are",
+       "you from?"
+      ],
+      [
+       "I",
+       "'m from",
+       "Vietnam."
+      ],
+      [
+       "She",
+       "is from",
+       "Vietnam."
+      ]
+     ],
+     "ex": [
+      [
+       "Where are you from?",
+       "Bạn đến từ đâu?"
+      ],
+      [
+       "I'm from Vietnam. I'm Vietnamese.",
+       "Tôi đến từ Việt Nam. Tôi là người Việt."
+      ]
+     ],
+     "bad": "Where you from?",
+     "good": "Where are you from?",
+     "why": "Thiếu “are” là lỗi rất hay gặp. Khi trả lời cũng phải có be: I'm from Vietnam (không nói “I from Vietnam”). from + tên nước (Vietnam), còn quốc tịch thì không cần from: I'm Vietnamese."
+    },
+    {
+     "t": "can + động từ nguyên mẫu",
+     "f": [
+      [
+       "I",
+       "can",
+       "speak English."
+      ],
+      [
+       "Can",
+       "you",
+       "speak English?"
+      ],
+      [
+       "I",
+       "can't",
+       "speak Chinese."
+      ]
+     ],
+     "ex": [
+      [
+       "Can you speak English? – Yes, I can.",
+       "Bạn nói được tiếng Anh không? – Được."
+      ],
+      [
+       "She can't speak Chinese.",
+       "Bạn ấy không nói được tiếng Trung."
+      ]
+     ],
+     "bad": "She can speaks English.",
+     "good": "She can speak English.",
+     "why": "Sau can luôn là động từ nguyên mẫu: không thêm -s (kể cả với she / he), không thêm to. Câu hỏi: đưa Can lên đầu. Trả lời ngắn: Yes, I can. / No, I can't."
+    },
+    {
+     "t": "all (đều) đứng sau be / trước động từ thường",
+     "f": [
+      [
+       "They are",
+       "all",
+       "students."
+      ],
+      [
+       "They",
+       "all",
+       "speak English."
+      ]
+     ],
+     "ex": [
+      [
+       "We are all students.",
+       "Chúng tôi đều là học sinh."
+      ],
+      [
+       "They all speak English.",
+       "Họ đều nói tiếng Anh."
+      ]
+     ],
+     "bad": "All they are students.",
+     "good": "They are all students.",
+     "why": "Giống 都 tiếng Trung: all không đứng trước chủ ngữ đại từ. Với be thì all đứng sau be (are all); với động từ thường thì all đứng trước động từ (all speak)."
+    },
+    {
+     "t": "Mạo từ a / an + danh từ số ít; số nhiều thêm -s",
+     "f": [
+      [
+       "I am",
+       "a",
+       "student."
+      ],
+      [
+       "She is",
+       "an",
+       "English student."
+      ],
+      [
+       "We are",
+       "students.",
+       "(không có a)"
+      ]
+     ],
+     "ex": [
+      [
+       "Lan is a student.",
+       "Lan là học sinh."
+      ],
+      [
+       "They are students.",
+       "Họ là học sinh."
+      ]
+     ],
+     "bad": "I am student.",
+     "good": "I am a student.",
+     "why": "Tiếng Việt không có mạo từ nên người Việt hay quên “a”. Một người / một vật đếm được: a + danh từ; trước âm nguyên âm (a, e, i, o, u) dùng an: an English student. Số nhiều thì bỏ a và thêm -s: students."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "“Vietnamese” nghĩa là gì?",
+     "opts": [
+      "nước Việt Nam",
+      "người Việt Nam / tiếng Việt",
+      "người nước ngoài"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Tên nước là “Vietnam”; Vietnamese là quốc tịch / ngôn ngữ.",
+      "2": "“người nước ngoài” không phải Vietnamese."
+     }
+    },
+    {
+     "q": "Trong câu “I can speak English.”, English nghĩa là gì?",
+     "opts": [
+      "tiếng Anh",
+      "nước Anh",
+      "học sinh"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sau speak là ngôn ngữ, nên English ở đây là tiếng Anh, không phải nước Anh.",
+      "2": "học sinh là student."
+     }
+    },
+    {
+     "q": "“bạn cùng lớp” trong tiếng Anh là:",
+     "opts": [
+      "friend",
+      "classmate"
+     ],
+     "a": 1,
+     "why": {
+      "0": "friend là bạn bè nói chung, không nhất thiết học cùng lớp."
+     }
+    },
+    {
+     "q": "“everyone” nghĩa là gì?",
+     "opts": [
+      "một người",
+      "bạn bè",
+      "mọi người"
+     ],
+     "a": 2,
+     "why": {
+      "0": "everyone là tất cả mọi người, không phải một người.",
+      "1": "bạn bè là friends."
+     }
+    },
+    {
+     "q": "Chọn từ đúng nghĩa “cô ấy” (nói về Lan):",
+     "opts": [
+      "he",
+      "she",
+      "we"
+     ],
+     "a": 1,
+     "why": {
+      "0": "he dùng cho người nam.",
+      "2": "we là “chúng tôi”."
+     }
+    },
+    {
+     "q": "Điền: Can you ___ English?",
+     "opts": [
+      "from",
+      "all",
+      "speak"
+     ],
+     "a": 2,
+     "why": {
+      "0": "from là “từ”, không phải động từ; sau can cần động từ.",
+      "1": "all là “đều, tất cả”, không phải động từ."
+     }
+    },
+    {
+     "q": "Điền: We are ___ students. (đều)",
+     "opts": [
+      "all",
+      "too",
+      "very"
+     ],
+     "a": 0,
+     "why": {
+      "1": "too (cũng) đứng cuối câu, không đứng trước danh từ.",
+      "2": "very (rất) đi với tính từ, không đi với danh từ students."
+     }
+    },
+    {
+     "q": "Điền: Where are you ___?",
+     "opts": [
+      "speak",
+      "from",
+      "name"
+     ],
+     "a": 1,
+     "why": {
+      "0": "speak là “nói” – không hợp với câu hỏi quê quán.",
+      "2": "name là danh từ “tên”, không đứng ở đây."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Điền: ___ are you from?",
+     "opts": [
+      "What",
+      "Where",
+      "Are"
+     ],
+     "a": 1,
+     "why": {
+      "0": "What hỏi “cái gì”; hỏi quê quán dùng Where.",
+      "2": "Đã có “are” ở sau; câu cần từ hỏi Where ở đầu."
+     }
+    },
+    {
+     "q": "Trả lời “Where are you from?” (Việt Nam)",
+     "opts": [
+      "I from Vietnam.",
+      "I'm Vietnam from.",
+      "I'm from Vietnam."
+     ],
+     "a": 2,
+     "why": {
+      "0": "Thiếu động từ be (am).",
+      "1": "Sai trật tự: from phải đứng trước tên nước."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền: I ___ speak English. (biết, có thể)",
+     "model": "can",
+     "accept": [
+      "can"
+     ],
+     "why": "Diễn tả khả năng / biết làm gì: can + động từ nguyên mẫu → I can speak English."
+    },
+    {
+     "q": "Phủ định câu “I can speak English.”",
+     "opts": [
+      "I don't can speak English.",
+      "I can't speak English.",
+      "I can speak not English."
+     ],
+     "a": 1,
+     "why": {
+      "0": "Không dùng don't với can; chỉ cần thêm not: can't / cannot.",
+      "2": "not phải đi liền với can (can't), không đứng sau speak."
+     }
+    },
+    {
+     "q": "Sắp xếp: all / We / students / are",
+     "opts": [
+      "All we are students.",
+      "We are all students.",
+      "We all are student."
+     ],
+     "a": 1,
+     "why": {
+      "0": "all không đứng trước đại từ chủ ngữ we.",
+      "2": "Thiếu -s: nhiều người phải là students."
+     }
+    },
+    {
+     "q": "Lan là con gái. Chọn câu đúng:",
+     "opts": [
+      "He is my friend.",
+      "She my friend.",
+      "She is my friend."
+     ],
+     "a": 2,
+     "why": {
+      "0": "he dùng cho người nam; Lan là nữ nên dùng she.",
+      "1": "Thiếu động từ be (is)."
+     }
+    },
+    {
+     "q": "Chọn câu đúng:",
+     "opts": [
+      "I am a student.",
+      "I am student.",
+      "I am an student."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Thiếu mạo từ a trước danh từ số ít student.",
+      "2": "student bắt đầu bằng phụ âm /s/ nên dùng a, không dùng an."
+     }
+    }
+   ],
+   "listen": [
+    {
+     "q": "Nghe: người nói đến từ đâu?",
+     "opts": [
+      "Việt Nam",
+      "nước Anh",
+      "Trung Quốc"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Bạn nghe “Vietnam”, không phải “England”.",
+      "2": "Không nhắc tới China."
+     },
+     "audio": "I'm from Vietnam."
+    },
+    {
+     "q": "Nghe: cô ấy là người nước nào?",
+     "opts": [
+      "người Anh",
+      "người Việt Nam",
+      "người Trung Quốc"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Bạn nghe “Vietnamese”, không phải “English”.",
+      "2": "Không nhắc tới Chinese."
+     },
+     "audio": "She is Vietnamese."
+    },
+    {
+     "q": "Nghe: người nói biết làm gì?",
+     "opts": [
+      "nói tiếng Việt",
+      "nói tiếng Anh",
+      "không nói được tiếng Anh"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Bạn nghe “English”, không phải “Vietnamese”.",
+      "2": "Câu là “can”, không phải “can't”."
+     },
+     "audio": "I can speak English."
+    },
+    {
+     "q": "Nghe: câu này nghĩa là gì?",
+     "opts": [
+      "Họ đều là bạn bè.",
+      "Họ không phải là học sinh.",
+      "Họ đều là học sinh."
+     ],
+     "a": 2,
+     "why": {
+      "0": "Bạn nghe “students” (học sinh), không phải “friends”.",
+      "1": "Không có “not” trong câu."
+     },
+     "audio": "They are all students."
+    },
+    {
+     "q": "Nghe: người nói đang nói với ai?",
+     "opts": [
+      "mọi người",
+      "một người bạn",
+      "bố"
+     ],
+     "a": 0,
+     "why": {
+      "1": "“everyone” là mọi người, không phải một người.",
+      "2": "Không có “Dad” trong câu."
+     },
+     "audio": "Hi, everyone!"
+    },
+    {
+     "q": "Nghe: cô ấy là ai của người nói?",
+     "opts": [
+      "mẹ",
+      "bạn cùng lớp",
+      "em gái"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Bạn nghe “classmate”, không phải “mum”.",
+      "2": "Bạn nghe “classmate”, không phải “sister”."
+     },
+     "audio": "She is my classmate."
+    },
+    {
+     "q": "Nghe: người nói hỏi về điều gì?",
+     "opts": [
+      "tên",
+      "tuổi",
+      "quê / quốc tịch"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Hỏi tên là “What's your name?”.",
+      "1": "Hỏi tuổi là “How old are you?”."
+     },
+     "audio": "Where are you from?"
+    }
+   ],
+   "hsk": [
+    {
+     "q": "Movers / TOEIC Bridge – Chọn từ điền vào chỗ trống: Where are you ___?",
+     "opts": [
+      "speak",
+      "from",
+      "can"
+     ],
+     "a": 1,
+     "why": {
+      "0": "speak là động từ “nói”, không hợp cấu trúc hỏi quê.",
+      "2": "can không đứng cuối câu hỏi này."
+     }
+    },
+    {
+     "q": "Movers / TOEIC Bridge – Chọn từ điền vào chỗ trống: Can you ___ English?",
+     "opts": [
+      "all",
+      "friend",
+      "speak"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Sau can cần một động từ; all không phải động từ.",
+      "1": "friend là danh từ, không phải động từ."
+     }
+    },
+    {
+     "q": "Movers / TOEIC Bridge – Chọn từ điền vào chỗ trống: We are ___ students.",
+     "opts": [
+      "all",
+      "can",
+      "from"
+     ],
+     "a": 0,
+     "why": {
+      "1": "can không đứng sau are.",
+      "2": "“are from students” vô nghĩa; from đi với tên nơi chốn."
+     }
+    },
+    {
+     "q": "Movers / TOEIC Bridge – Chọn từ điền vào chỗ trống: She is my ___.",
+     "opts": [
+      "speak",
+      "friend",
+      "from"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Sau my cần danh từ; speak là động từ.",
+      "2": "Sau my cần danh từ; from là giới từ."
+     }
+    },
+    {
+     "q": "Movers / TOEIC Bridge – Chọn từ điền vào chỗ trống: ___ she speak English?",
+     "opts": [
+      "Is",
+      "Are",
+      "Can"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Không dùng Is với động từ thường speak (“Is she speak” sai).",
+      "1": "Are không đi với she, và cũng không đi với speak."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "Vietnam. Vietnamese.",
+     "focus": "Vietnam nhấn âm cuối: viet-NAM. Vietnamese nhấn âm cuối: viet-na-MESE, kết thúc bằng /z/ rung, không đọc “mít”."
+    },
+    {
+     "t": "English",
+     "focus": "Nhấn EN-glish; âm cuối /ʃ/ (“sh” chu môi), không đọc “ing-lít”."
+    },
+    {
+     "t": "Where are you from?",
+     "focus": "Nối “Where are” thành “we-rar”. “from” khép môi ở /m/. Câu hỏi Where: xuống giọng ở cuối."
+    },
+    {
+     "t": "I'm from Vietnam.",
+     "focus": "“I'm from” – hai âm /m/ liền nhau, giữ môi khép một nhịp. Nhấn vào Vietnam."
+    },
+    {
+     "t": "Can you speak English?",
+     "focus": "Câu hỏi Có/Không: lên giọng ở cuối. speak /spiːk/: đọc liền /sp/, giữ âm /k/ cuối."
+    },
+    {
+     "t": "Yes, I can. No, I can't.",
+     "focus": "Cuối câu trả lời ngắn, can đọc mạnh /kæn/; can't /kɑːnt/ – giữ /t/ cuối để phân biệt với can."
+    },
+    {
+     "t": "She is my friend.",
+     "focus": "she /ʃiː/ chu môi (khác see /siː/). friend: giữ cụm /nd/ cuối, không đọc “phren”."
+    },
+    {
+     "t": "They are all students.",
+     "focus": "they /ðeɪ/: lưỡi giữa hai răng, rung. students kết thúc bằng /ts/ – đừng bỏ âm -s cuối."
+    }
+   ],
+   "dialog": {
+    "title": "Gặp bạn mới ở câu lạc bộ tiếng Anh",
+    "partner": "Sophie",
+    "turns": [
+     {
+      "ai": "Hi, everyone! Hello!",
+      "vi": "Chào mọi người! Chào bạn!",
+      "model": "Hello!",
+      "accept": [
+       "Hello!",
+       "Hi!",
+       "Hello.",
+       "Hi, Sophie!"
+      ],
+      "frame": "Hello!",
+      "hint": "Chào lại."
+     },
+     {
+      "ai": "Where are you from?",
+      "vi": "Bạn đến từ đâu?",
+      "model": "I'm from Vietnam.",
+      "accept": [
+       "I'm from Vietnam.",
+       "I am from Vietnam.",
+       "From Vietnam.",
+       "I'm Vietnamese."
+      ],
+      "frame": "I'm from ___.",
+      "hint": "Nói tên nước của bạn sau “I'm from”."
+     },
+     {
+      "ai": "Can you speak English?",
+      "vi": "Bạn nói được tiếng Anh không?",
+      "model": "Yes, I can.",
+      "accept": [
+       "Yes, I can.",
+       "Yes, I can speak English.",
+       "Yes, I can. I can speak English.",
+       "No, I can't."
+      ],
+      "frame": "Yes, I ___.",
+      "hint": "Trả lời ngắn với can."
+     },
+     {
+      "ai": "Is she your friend?",
+      "vi": "Bạn ấy là bạn của bạn à?",
+      "model": "Yes, she is. We are classmates.",
+      "accept": [
+       "Yes, she is. We are classmates.",
+       "Yes, she is.",
+       "Yes, she is my friend.",
+       "Yes, we are classmates."
+      ],
+      "frame": "Yes, she ___. We are ___.",
+      "hint": "Trả lời ngắn “Yes, she is.” rồi nói các bạn là bạn cùng lớp."
+     }
+    ]
+   },
+   "reading": {
+    "text": "Hi, everyone! My name is Lan. I'm from Vietnam. I can speak English. Leo is my classmate. He is my friend, too. We are all students.",
+    "vi": "Chào mọi người! Mình tên là Lan. Mình đến từ Việt Nam. Mình nói được tiếng Anh. Leo là bạn cùng lớp của mình. Cậu ấy cũng là bạn của mình. Chúng mình đều là học sinh.",
+    "qs": [
+     {
+      "q": "Lan có phải người Anh không?",
+      "opts": [
+       "Có, Lan là người Anh.",
+       "Không, Lan đến từ Việt Nam."
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài đọc: “I'm from Vietnam.”"
+      }
+     },
+     {
+      "q": "Lan nói được tiếng gì (theo bài đọc)?",
+      "opts": [
+       "tiếng Anh",
+       "tiếng Trung"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài đọc chỉ nói “I can speak English.”"
+      }
+     },
+     {
+      "q": "Leo là gì của Lan?",
+      "opts": [
+       "anh trai",
+       "chỉ là bạn cùng lớp, không phải bạn thân",
+       "bạn cùng lớp và cũng là bạn"
+      ],
+      "a": 2,
+      "why": {
+       "0": "Bài không nói Leo là anh trai.",
+       "1": "Bài đọc có “He is my friend, too” – cũng là bạn."
+      }
+     },
+     {
+      "q": "Họ đều là gì?",
+      "opts": [
+       "giáo viên",
+       "học sinh"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài đọc: “We are all students” – đều là học sinh."
+      }
+     },
+     {
+      "q": "Đúng hay sai: “Lan can't speak English.”",
+      "opts": [
+       "Đúng",
+       "Sai"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài đọc: “I can speak English.” – Lan nói được."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "w1-thu-5",
+   "label": "Thứ 5",
+   "title": "Số đếm 1–99, hỏi tuổi, cấp học",
+   "desc": "Hôm nay bạn học đếm từ 1 đến 99, hỏi và nói tuổi (How old are you? – I'm eight.), nói mình học cấp nào, qua cảnh tiệc sinh nhật của bé Sam.",
+   "rule": "Nói tuổi: I'm eight / I'm eight years old (luôn có be, years có -s, không dùng “have”). -teen (13–19) nhấn âm cuối, -ty (20, 30…) nhấn âm đầu.",
+   "cards": [
+    {
+     "w": "one, two, three, four, five",
+     "m": "1, 2, 3, 4, 5",
+     "ex": "One, two, three!",
+     "exm": "Một, hai, ba!",
+     "n": "Giữ âm cuối: two /tuː/, three /θriː/ (th lưỡi giữa răng), five kết thúc bằng /v/.",
+     "img": "numbers"
+    },
+    {
+     "w": "six, seven, eight, nine, ten",
+     "m": "6, 7, 8, 9, 10",
+     "ex": "I'm eight!",
+     "exm": "Em tám tuổi!",
+     "n": "six kết thúc /ks/, eight kết thúc /t/ – đừng nuốt âm cuối."
+    },
+    {
+     "w": "eleven, twelve",
+     "m": "11, 12",
+     "ex": "Leo is twelve.",
+     "exm": "Leo mười hai tuổi.",
+     "n": "11 và 12 là số đặc biệt, phải học thuộc (không nói “ten-one”)."
+    },
+    {
+     "w": "thirteen … nineteen",
+     "m": "13 … 19",
+     "ex": "Sophie is fifteen.",
+     "exm": "Sophie mười lăm tuổi.",
+     "n": "Đuôi -teen nhấn ở cuối: thir-TEEN. Viết đặc biệt: thirteen (13), fifteen (15), eighteen (18)."
+    },
+    {
+     "w": "twenty, thirty … ninety",
+     "m": "20, 30 … 90",
+     "ex": "twenty-nine, forty-four, ninety-nine",
+     "exm": "29, 44, 99",
+     "n": "Đuôi -ty nhấn ở đầu: THIR-ty. Số ghép có gạch nối: twenty-one. Chú ý: forty (40) không có “u”."
+    },
+    {
+     "w": "How old are you?",
+     "m": "Bạn bao nhiêu tuổi?",
+     "ex": "Sam, how old are you?",
+     "exm": "Sam, con mấy tuổi?",
+     "n": "Tiếng Anh dùng một câu cho mọi lứa tuổi (không phân biệt như 几岁 / 多大). Không hỏi người lớn câu này khi mới quen.",
+     "img": "question"
+    },
+    {
+     "w": "… years old",
+     "m": "… tuổi",
+     "ex": "I'm twelve years old.",
+     "exm": "Tôi mười hai tuổi.",
+     "n": "Dùng be, không dùng have: I'm 12 years old (không nói “I have 12 years”). years có -s. Có thể bỏ “years old”: I'm twelve."
+    },
+    {
+     "w": "big / little",
+     "m": "to, lớn / nhỏ, bé",
+     "ex": "I'm not little! I'm big!",
+     "exm": "Em không bé! Em lớn rồi!",
+     "n": "Hai từ trái nghĩa. Vẫn cần be: I'm little (không nói “I little”)."
+    },
+    {
+     "w": "now",
+     "m": "bây giờ, rồi",
+     "ex": "I'm big now!",
+     "exm": "Bây giờ em lớn rồi!",
+     "n": "Đặt cuối câu để nhấn sự thay đổi – gần giống 了 trong 我不小了."
+    },
+    {
+     "w": "next year",
+     "m": "năm sau",
+     "ex": "I'm nine next year!",
+     "exm": "Sang năm em chín tuổi!",
+     "n": "Thường đặt cuối câu. “this year” = năm nay."
+    },
+    {
+     "w": "birthday",
+     "m": "sinh nhật",
+     "ex": "Happy birthday, Sam!",
+     "exm": "Chúc mừng sinh nhật Sam!",
+     "n": "Nhấn BIRTH-day; “th” /θ/ lưỡi giữa răng.",
+     "img": "birthday-cake"
+    },
+    {
+     "w": "primary school / secondary school",
+     "m": "trường tiểu học / trường trung học",
+     "ex": "I'm in secondary school.",
+     "exm": "Tôi học trung học.",
+     "n": "Nói mình học cấp nào: I'm in + primary / secondary school (cần “in”). Trường cấp 2–3 ở Anh gọi chung là secondary school."
+    }
+   ],
+   "scene": {
+    "setting": "Tiệc sinh nhật của bé Sam ở nhà. Sam đếm nến trên bánh và khoe mình “không còn bé nữa”; Leo trêu em, mẹ Mary hỏi tuổi.",
+    "img": "s-w1-d4",
+    "imgPrompt": "Birthday party at the family dining table. xiaoyu kneels on a chair, proudly pointing at and counting eight lit candles on a birthday cake; liuxing grins and teases him; liumei stands behind smiling. Colourful balloons, warm friendly cartoon style, no text or numbers written in image.",
+    "lines": [
+     {
+      "who": "Mary",
+      "t": "Sam, how old are you now?",
+      "vi": "Sam, bây giờ con mấy tuổi rồi?"
+     },
+     {
+      "who": "Sam",
+      "t": "One, two, three, four, five, six, seven, eight! I'm eight!",
+      "vi": "Một, hai, ba, bốn, năm, sáu, bảy, tám! Con tám tuổi!"
+     },
+     {
+      "who": "Leo",
+      "t": "Eight? You are little. You're in primary school!",
+      "vi": "Tám tuổi á? Em còn bé lắm, mới học tiểu học thôi!"
+     },
+     {
+      "who": "Sam",
+      "t": "I'm not little! I'm big now! I'm nine next year!",
+      "vi": "Em không bé! Em lớn rồi! Sang năm em chín tuổi!"
+     },
+     {
+      "who": "Sam",
+      "t": "Leo, how old are you?",
+      "vi": "Anh Leo, anh bao nhiêu tuổi?"
+     },
+     {
+      "who": "Leo",
+      "t": "I'm twelve. I'm in secondary school!",
+      "vi": "Anh mười hai tuổi. Anh học trung học rồi!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Nói tuổi: chủ ngữ + be + số (+ years old)",
+     "f": [
+      [
+       "I",
+       "am",
+       "eight."
+      ],
+      [
+       "He",
+       "is",
+       "twelve years old."
+      ]
+     ],
+     "ex": [
+      [
+       "I'm eight.",
+       "Tôi tám tuổi."
+      ],
+      [
+       "Leo is twelve years old.",
+       "Leo mười hai tuổi."
+      ]
+     ],
+     "bad": "I eight years old.",
+     "good": "I'm eight years old.",
+     "why": "Tiếng Việt (“Tôi tám tuổi”) và tiếng Trung (我八岁) đều không cần “là”, nhưng tiếng Anh BẮT BUỘC có be. Không dùng have (“I have eight years” sai). years phải có -s, hoặc bỏ hẳn “years old”: I'm eight."
+    },
+    {
+     "t": "Hỏi tuổi: How old + be + chủ ngữ?",
+     "f": [
+      [
+       "How old",
+       "are",
+       "you?"
+      ],
+      [
+       "How old",
+       "is",
+       "he?"
+      ]
+     ],
+     "ex": [
+      [
+       "How old are you?",
+       "Bạn bao nhiêu tuổi?"
+      ],
+      [
+       "How old is Sam?",
+       "Sam bao nhiêu tuổi?"
+      ]
+     ],
+     "bad": "How old you are?",
+     "good": "How old are you?",
+     "why": "Trong câu hỏi, be đứng trước chủ ngữ: How old ARE you. Không nói “How many years old are you?”. Câu hỏi có từ hỏi: xuống giọng ở cuối."
+    },
+    {
+     "t": "-teen và -ty: 13 ≠ 30",
+     "f": [
+      [
+       "thir",
+       "teen",
+       "= 13, nhấn cuối"
+      ],
+      [
+       "THIR",
+       "ty",
+       "= 30, nhấn đầu"
+      ],
+      [
+       "forty",
+       "-four",
+       "= 44"
+      ]
+     ],
+     "ex": [
+      [
+       "fourteen – forty",
+       "14 – 40"
+      ],
+      [
+       "twenty-nine",
+       "29"
+      ]
+     ],
+     "bad": "fourty (40)",
+     "good": "forty (40)",
+     "why": "40 viết là forty (không có u), dù 4 là four và 14 là fourteen. Phân biệt khi nghe: -teen kéo dài và nhấn ở cuối; -ty ngắn, nhấn ở đầu. Số ghép từ 21–99 có gạch nối."
+    },
+    {
+     "t": "Học cấp nào: be + in + primary / secondary school",
+     "f": [
+      [
+       "I'm",
+       "in",
+       "secondary school."
+      ],
+      [
+       "Sam is",
+       "in",
+       "primary school."
+      ]
+     ],
+     "ex": [
+      [
+       "I'm in secondary school.",
+       "Tôi học trung học."
+      ],
+      [
+       "He's in primary school.",
+       "Cậu ấy học tiểu học."
+      ]
+     ],
+     "bad": "I'm primary school.",
+     "good": "I'm in primary school.",
+     "why": "Thiếu “in” thì câu thành “Tôi là trường tiểu học”. Cần be + in + tên cấp học."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "Số 18 viết bằng chữ là:",
+     "opts": [
+      "eighty",
+      "eighteen",
+      "eight"
+     ],
+     "a": 1,
+     "why": {
+      "0": "eighty là 80.",
+      "2": "eight là 8."
+     }
+    },
+    {
+     "q": "Số 29 viết bằng chữ là:",
+     "opts": [
+      "ninety-two",
+      "twelve-nine",
+      "twenty-nine"
+     ],
+     "a": 2,
+     "why": {
+      "0": "ninety-two là 92 – ngược thứ tự.",
+      "1": "Không có cách ghép “twelve-nine”; 29 = twenty + nine."
+     }
+    },
+    {
+     "q": "Số 73 viết bằng chữ là:",
+     "opts": [
+      "seventy-three",
+      "thirty-seven",
+      "seventeen-three"
+     ],
+     "a": 0,
+     "why": {
+      "1": "thirty-seven là 37.",
+      "2": "seventeen là 17; không ghép 17 với 3."
+     }
+    },
+    {
+     "q": "“How old are you?” nghĩa là gì?",
+     "opts": [
+      "Bạn tên là gì?",
+      "Bạn bao nhiêu tuổi?",
+      "Bạn đến từ đâu?"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Hỏi tên là What's your name?",
+      "2": "Hỏi quê là Where are you from?"
+     }
+    },
+    {
+     "q": "“next year” nghĩa là gì?",
+     "opts": [
+      "năm nay",
+      "năm ngoái",
+      "năm sau"
+     ],
+     "a": 2,
+     "why": {
+      "0": "năm nay là this year.",
+      "1": "năm ngoái là last year (chưa học)."
+     }
+    },
+    {
+     "q": "“primary school” nghĩa là gì?",
+     "opts": [
+      "trường tiểu học",
+      "trường trung học",
+      "đại học"
+     ],
+     "a": 0,
+     "why": {
+      "1": "trường trung học là secondary school.",
+      "2": "đại học là university (chưa học)."
+     }
+    },
+    {
+     "q": "Từ trái nghĩa với “big” là:",
+     "opts": [
+      "old",
+      "little",
+      "next"
+     ],
+     "a": 1,
+     "why": {
+      "0": "old là “già, cũ”, dùng khi hỏi tuổi, không trái nghĩa với big.",
+      "2": "next là “tiếp theo”."
+     }
+    },
+    {
+     "q": "Số 12 đọc là:",
+     "opts": [
+      "twenty",
+      "eleven",
+      "twelve"
+     ],
+     "a": 2,
+     "why": {
+      "0": "twenty là 20.",
+      "1": "eleven là 11."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Trả lời “How old are you?” (8 tuổi)",
+     "opts": [
+      "I eight.",
+      "I'm eight.",
+      "I have eight years."
+     ],
+     "a": 1,
+     "why": {
+      "0": "Thiếu động từ be (am).",
+      "2": "Tiếng Anh không dùng have để nói tuổi."
+     }
+    },
+    {
+     "q": "Chọn câu đúng:",
+     "opts": [
+      "I'm eight year old.",
+      "I'm eight years.",
+      "I'm eight years old."
+     ],
+     "a": 2,
+     "why": {
+      "0": "Thiếu -s: eight years (số nhiều).",
+      "1": "Thiếu “old”: nói đủ “eight years old” hoặc chỉ “eight”."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền để hỏi tuổi: How ___ are you?",
+     "model": "old",
+     "accept": [
+      "old"
+     ],
+     "why": "Hỏi tuổi luôn dùng How old: How old are you?"
+    },
+    {
+     "q": "Hỏi tuổi bé Sam (cậu bé): ",
+     "opts": [
+      "How old he is?",
+      "How old is he?",
+      "How many old is he?"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Trong câu hỏi, is phải đứng trước he.",
+      "2": "Không dùng “how many” để hỏi tuổi; dùng how old."
+     }
+    },
+    {
+     "q": "Sam nói: “Em không bé nữa!” Chọn câu đúng.",
+     "opts": [
+      "I'm not little now!",
+      "I not little now!",
+      "I'm no little now!"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Thiếu động từ be (am).",
+      "2": "Phủ định be dùng not, không dùng no."
+     }
+    },
+    {
+     "q": "Sắp xếp: twelve / I / am",
+     "opts": [
+      "Am I twelve.",
+      "I twelve am.",
+      "I am twelve."
+     ],
+     "a": 2,
+     "why": {
+      "0": "Đảo am lên đầu là câu hỏi, cần dấu “?”.",
+      "1": "Sai trật tự: chủ ngữ + be + số."
+     }
+    },
+    {
+     "q": "Chọn câu đúng:",
+     "opts": [
+      "He's in primary school.",
+      "He's primary school.",
+      "He in primary school."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Thiếu “in” trước primary school.",
+      "2": "Thiếu động từ be (is)."
+     }
+    }
+   ],
+   "listen": [
+    {
+     "q": "Nghe: người nói mấy tuổi?",
+     "opts": [
+      "5",
+      "9",
+      "19"
+     ],
+     "a": 1,
+     "why": {
+      "0": "five là 5; bạn nghe “nine”.",
+      "2": "nineteen là 19, kéo dài -TEEN ở cuối; bạn nghe “nine”."
+     },
+     "audio": "I'm nine."
+    },
+    {
+     "q": "Nghe: cậu ấy bao nhiêu tuổi?",
+     "opts": [
+      "12",
+      "20",
+      "2"
+     ],
+     "a": 0,
+     "why": {
+      "1": "twenty là 20; bạn nghe “twelve”.",
+      "2": "two là 2; bạn nghe “twelve”."
+     },
+     "audio": "He's twelve years old."
+    },
+    {
+     "q": "Nghe: năm nay người nói mấy tuổi?",
+     "opts": [
+      "9",
+      "10",
+      "8"
+     ],
+     "a": 2,
+     "why": {
+      "0": "9 là tuổi của năm sau (next year), không phải năm nay.",
+      "1": "Năm sau mới 9 tuổi, nên năm nay là 8, không phải 10."
+     },
+     "audio": "I'm nine next year."
+    },
+    {
+     "q": "Nghe: người nói hỏi về điều gì?",
+     "opts": [
+      "tên",
+      "tuổi",
+      "quê"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Hỏi tên là What's your name?",
+      "2": "Hỏi quê là Where are you from?"
+     },
+     "audio": "How old are you?"
+    },
+    {
+     "q": "Nghe: cô bé là ai?",
+     "opts": [
+      "học sinh trung học",
+      "học sinh tiểu học",
+      "mẹ"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Bạn nghe “primary school”, không phải “secondary school”.",
+      "2": "Không có “mum” trong câu."
+     },
+     "audio": "She's in primary school."
+    },
+    {
+     "q": "Nghe: bạn nghe số nào?",
+     "opts": [
+      "40",
+      "14",
+      "44"
+     ],
+     "a": 1,
+     "why": {
+      "0": "40 (forty) nhấn âm đầu FOR-ty và âm cuối ngắn; bạn nghe four-TEEN kéo dài ở cuối.",
+      "2": "44 là forty-four, có hai phần số."
+     },
+     "audio": "fourteen"
+    },
+    {
+     "q": "Nghe: bạn nghe số nào?",
+     "opts": [
+      "14",
+      "40",
+      "44"
+     ],
+     "a": 2,
+     "why": {
+      "0": "14 chỉ có một từ fourteen; bạn nghe forty-four.",
+      "1": "40 chỉ là forty; còn có thêm “four” phía sau."
+     },
+     "audio": "forty-four"
+    }
+   ],
+   "hsk": [
+    {
+     "q": "Cambridge A1 Starters – Nghe và chọn tranh đúng.",
+     "opts": [
+      "bánh có 6 cây nến",
+      "bánh có 8 cây nến",
+      "bánh có 9 cây nến"
+     ],
+     "a": 1,
+     "why": {
+      "0": "six là 6; bạn nghe eight.",
+      "2": "nine là 9; bạn nghe eight."
+     },
+     "audio": "I'm eight years old."
+    },
+    {
+     "q": "Cambridge A1 Starters – Nghe và chọn tranh đúng.",
+     "opts": [
+      "số 14",
+      "số 40",
+      "số 44"
+     ],
+     "a": 2,
+     "why": {
+      "0": "14 là fourteen.",
+      "1": "40 là forty, chưa có “four” phía sau."
+     },
+     "audio": "forty-four"
+    },
+    {
+     "q": "Cambridge A1 Starters – Nghe và chọn tranh đúng.",
+     "opts": [
+      "cô giáo",
+      "người mẹ",
+      "bé gái mặc đồng phục tiểu học"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Câu nói “in primary school” – là học sinh, không phải cô giáo.",
+      "1": "Không có “mum” trong câu."
+     },
+     "audio": "She's in primary school."
+    },
+    {
+     "q": "Cambridge A1 Starters – Nghe và chọn tranh đúng.",
+     "opts": [
+      "hai học sinh cấp hai",
+      "hai cụ già",
+      "hai em bé"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nói “secondary school” – học sinh, không phải người già.",
+      "2": "Em bé chưa đi học trung học."
+     },
+     "audio": "They're in secondary school."
+    },
+    {
+     "q": "Cambridge A1 Starters – Nghe và chọn tranh đúng.",
+     "opts": [
+      "19",
+      "90",
+      "99"
+     ],
+     "a": 2,
+     "why": {
+      "0": "19 là nineteen.",
+      "1": "90 là ninety, không có “nine” phía sau."
+     },
+     "audio": "ninety-nine"
+    }
+   ],
+   "shadow": [
+    {
+     "t": "One, two, three, four, five, six, seven, eight, nine, ten.",
+     "focus": "Đếm lên rồi đếm xuống. Giữ âm cuối: five /v/, six /ks/, eight /t/, nine /n/."
+    },
+    {
+     "t": "thirteen – thirty",
+     "focus": "thir-TEEN: nhấn cuối, kéo dài /iːn/. THIR-ty: nhấn đầu, âm cuối ngắn."
+    },
+    {
+     "t": "fourteen – forty",
+     "focus": "four-TEEN nhấn cuối; FOR-ty nhấn đầu. Đây là cặp dễ nghe nhầm nhất."
+    },
+    {
+     "t": "How old are you?",
+     "focus": "Nối “old are” thành “ol-dar”. Câu hỏi có từ hỏi How: xuống giọng ở cuối."
+    },
+    {
+     "t": "I'm eight years old.",
+     "focus": "eight giữ /t/; years kết thúc bằng /z/ – đừng bỏ âm -s; “years old” nối liền."
+    },
+    {
+     "t": "I'm not little!",
+     "focus": "Nhấn NOT. little /ˈlɪtl/: âm /l/ cuối cong lưỡi lên, không đọc “lít-tồ”."
+    },
+    {
+     "t": "I'm nine next year!",
+     "focus": "next /nekst/ có cụm phụ âm cuối; khi nói nhanh nối thành “neks-year”."
+    },
+    {
+     "t": "I'm twelve. I'm in secondary school.",
+     "focus": "twelve kết thúc /lv/ – giữ /v/. “I'm in” nối thành “ai-min”. school /skuːl/: đọc liền /sk/, không chèn “x-cun”."
+    }
+   ],
+   "dialog": {
+    "title": "Hỏi tuổi em họ ở tiệc sinh nhật",
+    "partner": "Sam",
+    "turns": [
+     {
+      "ai": "Hi! What's your name?",
+      "vi": "Chào anh/chị! Anh/chị tên gì?",
+      "model": "My name is Minh.",
+      "accept": [
+       "My name is Minh.",
+       "I'm Minh.",
+       "Hi! My name is Minh.",
+       "Hi! I'm Minh."
+      ],
+      "frame": "My name is ___.",
+      "hint": "Nói tên bạn (thay Minh)."
+     },
+     {
+      "ai": "How old are you?",
+      "vi": "Anh/chị bao nhiêu tuổi?",
+      "model": "I'm twelve.",
+      "accept": [
+       "I'm twelve.",
+       "I am twelve.",
+       "I'm twelve years old.",
+       "Twelve."
+      ],
+      "frame": "I'm ___ (years old).",
+      "hint": "Nói tuổi của bạn; nhớ có “I'm”."
+     },
+     {
+      "ai": "Are you in secondary school?",
+      "vi": "Anh/chị học trung học à?",
+      "model": "Yes, I am.",
+      "accept": [
+       "Yes, I am.",
+       "Yes, I'm in secondary school.",
+       "No, I'm not.",
+       "No, I'm in primary school."
+      ],
+      "frame": "Yes, I ___. / No, I'm ___.",
+      "hint": "Trả lời ngắn Yes, I am / No, I'm not."
+     },
+     {
+      "ai": "I'm nine next year! And you?",
+      "vi": "Sang năm em chín tuổi! Còn anh/chị?",
+      "model": "I'm thirteen next year.",
+      "accept": [
+       "I'm thirteen next year.",
+       "I'm thirteen next year!",
+       "Thirteen next year.",
+       "I am thirteen next year."
+      ],
+      "frame": "I'm ___ next year.",
+      "hint": "Nói tuổi của bạn vào năm sau."
+     }
+    ]
+   },
+   "reading": {
+    "text": "My name is Sam. I'm eight years old. I'm in primary school. Leo is twelve. He is in secondary school. Sophie is in secondary school, too. I'm nine next year!",
+    "vi": "Em tên là Sam. Em tám tuổi. Em học tiểu học. Anh Leo mười hai tuổi. Anh ấy học trung học. Chị Sophie cũng học trung học. Sang năm em chín tuổi!",
+    "qs": [
+     {
+      "q": "Sam mấy tuổi?",
+      "opts": [
+       "9",
+       "8",
+       "12"
+      ],
+      "a": 1,
+      "why": {
+       "0": "9 là tuổi của Sam vào năm sau.",
+       "2": "12 là tuổi của Leo."
+      }
+     },
+     {
+      "q": "Sam học cấp nào?",
+      "opts": [
+       "trung học",
+       "tiểu học"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài đọc: “I'm in primary school” – tiểu học."
+      }
+     },
+     {
+      "q": "Leo bao nhiêu tuổi?",
+      "opts": [
+       "12",
+       "20",
+       "8"
+      ],
+      "a": 0,
+      "why": {
+       "1": "twenty (20) không có trong bài; Leo là twelve.",
+       "2": "8 là tuổi của Sam."
+      }
+     },
+     {
+      "q": "Sophie học cấp nào?",
+      "opts": [
+       "tiểu học",
+       "trung học"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài đọc: “Sophie is in secondary school, too” – trung học."
+      }
+     },
+     {
+      "q": "Năm sau Sam bao nhiêu tuổi?",
+      "opts": [
+       "8",
+       "10",
+       "9"
+      ],
+      "a": 2,
+      "why": {
+       "0": "8 là tuổi năm nay.",
+       "1": "Bài đọc: “I'm nine next year” – 9 tuổi."
+      }
+     },
+     {
+      "q": "Đúng hay sai: “Leo is in primary school.”",
+      "opts": [
+       "Đúng",
+       "Sai"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Leo học secondary school (trung học)."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "w1-thu-6",
+   "label": "Thứ 6",
+   "title": "Gia đình, người thân",
+   "desc": "Hôm nay bạn học gọi tên người trong gia đình, dùng this / that, my / your / his / her, have / don't have, nói nhà có mấy người, qua cảnh Lan xem ảnh gia đình mới của Leo.",
+   "rule": "This / That + is + danh từ (không bỏ is). he / she đi với has, I / you / we / they đi với have; phủ định: don't have. Nhiều người phải thêm -s: two sisters. Trước nguyên âm dùng an: an older brother.",
+   "cards": [
+    {
+     "w": "this",
+     "m": "này, đây (gần)",
+     "ex": "This is my family.",
+     "exm": "Đây là gia đình tôi.",
+     "n": "Chỉ người / vật ở gần. “th” /ð/ rung, lưỡi giữa răng; âm cuối /s/."
+    },
+    {
+     "w": "that",
+     "m": "kia, đó (xa)",
+     "ex": "That is my sister.",
+     "exm": "Kia là chị tôi.",
+     "n": "Chỉ người / vật ở xa. That's = That is. Âm /æ/ mở miệng rộng, giữ /t/ cuối."
+    },
+    {
+     "w": "family",
+     "m": "gia đình",
+     "ex": "Is this your family?",
+     "exm": "Đây là gia đình bạn à?",
+     "n": "Nhấn FAM-i-ly. Giống 家人 tiếng Trung.",
+     "img": "family"
+    },
+    {
+     "w": "There are … people in my family.",
+     "m": "Nhà tôi có … người.",
+     "ex": "There are five people in my family.",
+     "exm": "Nhà tôi có năm người.",
+     "n": "Hỏi: How many people are there in your family? “people” đã là số nhiều, không thêm -s. Giống 我家有五口人."
+    },
+    {
+     "w": "have / has",
+     "m": "có",
+     "ex": "I have a sister. He has two sons.",
+     "exm": "Tôi có một chị gái. Ông ấy có hai con trai.",
+     "n": "I / you / we / they + have; he / she + has. Lỗi hay gặp: “He have”."
+    },
+    {
+     "w": "don't have",
+     "m": "không có",
+     "ex": "I don't have a brother.",
+     "exm": "Tôi không có anh / em trai.",
+     "n": "Phủ định của have: don't have (he / she: doesn't have). Không nói “I no have”. Hỏi: Do you have …? – Yes, I do. / No, I don't."
+    },
+    {
+     "w": "brother",
+     "m": "anh trai, em trai",
+     "ex": "Sam is my brother.",
+     "exm": "Sam là em trai tôi.",
+     "n": "Tiếng Anh không phân biệt anh / em; muốn rõ thì thêm older / younger. “th” /ð/ rung.",
+     "img": "brother"
+    },
+    {
+     "w": "sister",
+     "m": "chị gái, em gái",
+     "ex": "Sophie is my sister.",
+     "exm": "Sophie là chị gái tôi.",
+     "n": "Hai chị em: two sisters (đừng quên -s).",
+     "img": "sister"
+    },
+    {
+     "w": "older / younger",
+     "m": "lớn hơn / nhỏ hơn (anh, chị / em)",
+     "ex": "an older sister, a younger brother",
+     "exm": "một chị gái, một em trai",
+     "n": "older bắt đầu bằng nguyên âm nên dùng an: an older brother; younger dùng a: a younger sister."
+    },
+    {
+     "w": "son / daughter",
+     "m": "con trai / con gái",
+     "ex": "I have two sons and a daughter.",
+     "exm": "Tôi có hai con trai và một con gái.",
+     "n": "son đọc giống sun /sʌn/. daughter: “gh” câm, đọc /ˈdɔːtə/."
+    },
+    {
+     "w": "and",
+     "m": "và",
+     "ex": "my mum and my dad",
+     "exm": "mẹ tôi và bố tôi",
+     "n": "Nối hai người / hai vật. Khi nói nhanh đọc nhẹ /ən/."
+    },
+    {
+     "w": "her",
+     "m": "của cô ấy, của bà ấy",
+     "ex": "That is her son.",
+     "exm": "Kia là con trai của bà ấy.",
+     "n": "his (của người nam) – her (của người nữ). Có thể dùng tên + ’s: Leo's sister (chị của Leo)."
+    }
+   ],
+   "scene": {
+    "setting": "Lan lại đến nhà chơi, ngồi xem tấm ảnh gia đình mới của Leo; bố David bước vào phòng và khoe đàn con.",
+    "img": "s-w1-d5",
+    "imgPrompt": "A cozy bedroom or living room. alan and liuxing sit side by side looking at a framed family photo (the photo shows the whole new family of five); alan points at the people in the photo; xiadonghai walks in through the doorway beaming proudly with arms open. Warm friendly cartoon style, no text in image.",
+    "lines": [
+     {
+      "who": "Lan",
+      "t": "Is this your family?",
+      "vi": "Đây là gia đình cậu à?"
+     },
+     {
+      "who": "Leo",
+      "t": "Yes. There are five people in my family.",
+      "vi": "Ừ. Nhà mình có năm người."
+     },
+     {
+      "who": "Lan",
+      "t": "Is that your sister? And that's your brother?",
+      "vi": "Kia là chị cậu à? Còn kia là em trai cậu?"
+     },
+     {
+      "who": "Leo",
+      "t": "Yes. Sophie is my older sister, and Sam is my younger brother. I don't have an older brother.",
+      "vi": "Ừ. Sophie là chị gái mình, còn Sam là em trai mình. Mình không có anh trai."
+     },
+     {
+      "who": "David",
+      "t": "I have two sons and a daughter!",
+      "vi": "Chú có hai con trai và một con gái!"
+     },
+     {
+      "who": "Lan",
+      "t": "There are five people in my family, too!",
+      "vi": "Nhà cháu cũng có năm người ạ!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "This / That + is + danh từ",
+     "f": [
+      [
+       "This",
+       "is",
+       "my mum."
+      ],
+      [
+       "That",
+       "is",
+       "my sister."
+      ],
+      [
+       "Is",
+       "this",
+       "your family?"
+      ]
+     ],
+     "ex": [
+      [
+       "This is my dad.",
+       "Đây là bố tôi."
+      ],
+      [
+       "Is that your brother?",
+       "Kia là anh / em trai bạn à?"
+      ]
+     ],
+     "bad": "This my mum.",
+     "good": "This is my mum.",
+     "why": "Lỗi thiếu be lại xuất hiện: tiếng Việt “Đây mẹ tôi” nghe vẫn được, nhưng tiếng Anh phải có is. Câu hỏi: đưa Is lên đầu (Is this…?)."
+    },
+    {
+     "t": "Sở hữu: my / your / his / her + danh từ; tên + ’s",
+     "f": [
+      [
+       "my",
+       "brother"
+      ],
+      [
+       "Leo",
+       "'s",
+       "sister"
+      ],
+      [
+       "her",
+       "son"
+      ]
+     ],
+     "ex": [
+      [
+       "This is Leo's sister.",
+       "Đây là chị của Leo."
+      ],
+      [
+       "That is her daughter.",
+       "Kia là con gái của bà ấy."
+      ]
+     ],
+     "bad": "This is sister Leo.",
+     "good": "This is Leo's sister.",
+     "why": "Tiếng Việt nói “chị của Leo / chị Leo” (người được sở hữu đứng trước). Tiếng Anh đặt chủ sở hữu TRƯỚC và thêm ’s: Leo's sister. Đừng quên ’s. his cho nam, her cho nữ."
+    },
+    {
+     "t": "have / has; don't have; Do you have …?",
+     "f": [
+      [
+       "I",
+       "have",
+       "a brother."
+      ],
+      [
+       "He",
+       "has",
+       "two sisters."
+      ],
+      [
+       "I",
+       "don't have",
+       "a sister."
+      ],
+      [
+       "Do",
+       "you",
+       "have a brother?"
+      ]
+     ],
+     "ex": [
+      [
+       "Do you have an older sister? – Yes, I do.",
+       "Bạn có chị gái không? – Có."
+      ],
+      [
+       "I don't have a younger brother.",
+       "Tôi không có em trai."
+      ]
+     ],
+     "bad": "He have two sister.",
+     "good": "He has two sisters.",
+     "why": "Hai lỗi trong một câu: he / she phải đi với has; và nhiều người phải thêm -s (sisters). Phủ định không nói “I no have” mà là “I don't have”. Hỏi không dùng “Are you have…?” mà dùng “Do you have…?”."
+    },
+    {
+     "t": "Số lượng: a / an + một; số ≥ 2 + danh từ -s",
+     "f": [
+      [
+       "a",
+       "son"
+      ],
+      [
+       "an",
+       "older brother"
+      ],
+      [
+       "two",
+       "sons"
+      ]
+     ],
+     "ex": [
+      [
+       "I have a son and a daughter.",
+       "Tôi có một con trai và một con gái."
+      ],
+      [
+       "She has an older sister.",
+       "Cô ấy có một chị gái."
+      ]
+     ],
+     "bad": "I have a older brother.",
+     "good": "I have an older brother.",
+     "why": "an đứng trước từ bắt đầu bằng âm nguyên âm (older, English); a đứng trước phụ âm (son, younger). Từ hai trở lên phải thêm -s cho danh từ: two sons, three sisters."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "“brother” nghĩa là gì?",
+     "opts": [
+      "chị gái hoặc em gái",
+      "anh trai hoặc em trai",
+      "bố"
+     ],
+     "a": 1,
+     "why": {
+      "0": "chị / em gái là sister.",
+      "2": "bố là dad."
+     }
+    },
+    {
+     "q": "“sister” nghĩa là gì?",
+     "opts": [
+      "con gái",
+      "anh trai",
+      "chị gái hoặc em gái"
+     ],
+     "a": 2,
+     "why": {
+      "0": "con gái là daughter.",
+      "1": "anh trai là older brother."
+     }
+    },
+    {
+     "q": "“younger brother” nghĩa là gì?",
+     "opts": [
+      "em trai",
+      "anh trai",
+      "con trai"
+     ],
+     "a": 0,
+     "why": {
+      "1": "anh trai là older brother.",
+      "2": "con trai là son."
+     }
+    },
+    {
+     "q": "“son / daughter” nghĩa là gì?",
+     "opts": [
+      "anh trai / chị gái",
+      "con trai / con gái",
+      "bố / mẹ"
+     ],
+     "a": 1,
+     "why": {
+      "0": "anh trai / chị gái là older brother / older sister.",
+      "2": "bố / mẹ là dad / mum."
+     }
+    },
+    {
+     "q": "“older sister” nghĩa là gì?",
+     "opts": [
+      "em gái",
+      "mẹ",
+      "chị gái"
+     ],
+     "a": 2,
+     "why": {
+      "0": "em gái là younger sister.",
+      "1": "mẹ là mum."
+     }
+    },
+    {
+     "q": "Điền: I have ___ older brother.",
+     "opts": [
+      "an",
+      "a",
+      "two"
+     ],
+     "a": 0,
+     "why": {
+      "1": "older bắt đầu bằng nguyên âm o nên phải dùng an.",
+      "2": "“two” thì brother phải thêm -s: two older brothers."
+     }
+    },
+    {
+     "q": "Điền: He ___ two sisters.",
+     "opts": [
+      "have",
+      "is",
+      "has"
+     ],
+     "a": 2,
+     "why": {
+      "0": "he / she đi với has, không đi với have.",
+      "1": "“He is two sisters” nghĩa là “Ông ấy là hai chị em” – vô nghĩa."
+     }
+    },
+    {
+     "q": "Điền (chỉ người đứng ở xa): ___ is my dad.",
+     "opts": [
+      "This",
+      "That"
+     ],
+     "a": 1,
+     "why": {
+      "0": "This dùng cho người / vật ở gần; người ở xa dùng That."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Sửa lỗi: “I no have a brother.”",
+     "opts": [
+      "I not have a brother.",
+      "I don't have a brother.",
+      "I haven't brother."
+     ],
+     "a": 1,
+     "why": {
+      "0": "Không dùng not trực tiếp trước have; cần don't.",
+      "2": "Thiếu a; ngoài ra “haven't + danh từ” là cách nói cũ – hiện nay dùng “don't have”."
+     }
+    },
+    {
+     "q": "Sửa lỗi: “I have two sister.”",
+     "opts": [
+      "I have two sisters.",
+      "I has two sisters.",
+      "I have two sister."
+     ],
+     "a": 0,
+     "why": {
+      "1": "I đi với have, không đi với has.",
+      "2": "Vẫn thiếu -s: hai người phải là sisters."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền: There are four ___ in my family. (người)",
+     "model": "people",
+     "accept": [
+      "people"
+     ],
+     "why": "Nói số người trong nhà: There are + số + people in my family. people đã là số nhiều, không thêm -s."
+    },
+    {
+     "k": "type",
+     "q": "Điền: This is ___ family. (của tôi)",
+     "model": "my",
+     "accept": [
+      "my"
+     ],
+     "why": "“của tôi” là my, đặt trước danh từ: my family."
+    },
+    {
+     "q": "Hỏi “Bạn có chị gái không?”",
+     "opts": [
+      "You have older sister?",
+      "Are you have an older sister?",
+      "Do you have an older sister?"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Thiếu Do và thiếu an; chỉ lên giọng không phải câu hỏi chuẩn.",
+      "1": "Không dùng are với have; câu hỏi với have dùng Do."
+     }
+    },
+    {
+     "q": "Dịch: “Kia là anh trai tôi.”",
+     "opts": [
+      "This is my older brother.",
+      "That's my younger brother.",
+      "That's my older brother."
+     ],
+     "a": 2,
+     "why": {
+      "0": "This là “đây” (gần), câu gốc là “kia” (xa).",
+      "1": "younger brother là em trai, không phải anh trai."
+     }
+    },
+    {
+     "q": "Chọn câu đúng:",
+     "opts": [
+      "I have son and daughter.",
+      "I have a son and a daughter.",
+      "I and have a son a daughter."
+     ],
+     "a": 1,
+     "why": {
+      "0": "Thiếu a trước son và daughter (danh từ số ít).",
+      "2": "Sai trật tự: “and” phải nối hai danh từ, không đứng sau I."
+     }
+    }
+   ],
+   "listen": [
+    {
+     "q": "Nghe: nhà người nói có mấy người?",
+     "opts": [
+      "3 người",
+      "4 người",
+      "5 người"
+     ],
+     "a": 0,
+     "why": {
+      "1": "four là 4; bạn nghe three.",
+      "2": "five là 5; bạn nghe three."
+     },
+     "audio": "There are three people in my family."
+    },
+    {
+     "q": "Nghe: người nói có gì?",
+     "opts": [
+      "2 em trai",
+      "2 anh trai",
+      "1 anh trai"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Bạn nghe older (lớn hơn), không phải younger.",
+      "2": "Bạn nghe two … brothers (có -s), không phải one."
+     },
+     "audio": "I have two older brothers."
+    },
+    {
+     "q": "Nghe: người nói có em gái không?",
+     "opts": [
+      "có một em gái",
+      "không có chị gái",
+      "không có em gái"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Câu có “don't have” – không có.",
+      "1": "Bạn nghe younger sister (em gái), không phải older sister (chị gái)."
+     },
+     "audio": "I don't have a younger sister."
+    },
+    {
+     "q": "Nghe: đây là ai?",
+     "opts": [
+      "em trai",
+      "anh trai",
+      "bố"
+     ],
+     "a": 0,
+     "why": {
+      "1": "anh trai là older brother; bạn nghe younger brother.",
+      "2": "Không có dad trong câu."
+     },
+     "audio": "This is my younger brother."
+    },
+    {
+     "q": "Nghe: kia là ai?",
+     "opts": [
+      "con trai",
+      "con gái",
+      "chị gái"
+     ],
+     "a": 1,
+     "why": {
+      "0": "con trai là son; bạn nghe daughter.",
+      "2": "chị gái là older sister; bạn nghe daughter."
+     },
+     "audio": "That's my daughter."
+    },
+    {
+     "q": "Nghe: bà ấy có gì?",
+     "opts": [
+      "1 con gái",
+      "2 con trai",
+      "1 con trai"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Bạn nghe son, không phải daughter.",
+      "1": "Bạn nghe “a son” – một, không có -s."
+     },
+     "audio": "She has a son."
+    },
+    {
+     "q": "Nghe đoạn hỏi – đáp: người trả lời có chị gái không?",
+     "opts": [
+      "có chị gái",
+      "không có chị gái",
+      "có em gái"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là “Yes, I do.” – có.",
+      "2": "Câu hỏi về older sister (chị gái), không phải younger sister."
+     },
+     "audio": "Do you have an older sister? Yes, I do."
+    }
+   ],
+   "hsk": [
+    {
+     "q": "Cambridge A1 Movers – Đọc câu và chọn tranh phù hợp: “There are five people in my family.”",
+     "opts": [
+      "bố mẹ với một bé trai và một bé gái",
+      "gia đình 5 người",
+      "hai anh trai đứng cạnh em gái"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Tranh này chỉ có 4 người.",
+      "2": "Tranh này chỉ có 3 người."
+     }
+    },
+    {
+     "q": "Cambridge A1 Movers – Đọc câu và chọn tranh phù hợp: “I have a son and a daughter.”",
+     "opts": [
+      "bố mẹ với một bé trai và một bé gái",
+      "hai anh trai đứng cạnh em gái",
+      "cô bé 8 tuổi với bánh sinh nhật"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Tranh này có 2 con trai, không phải 1 con trai và 1 con gái.",
+      "2": "Tranh này không cho thấy một người có con trai và con gái."
+     }
+    },
+    {
+     "q": "Cambridge A1 Movers – Đọc câu và chọn tranh phù hợp: “I have two older brothers.”",
+     "opts": [
+      "chàng trai chỉ vào ảnh",
+      "gia đình 5 người",
+      "hai anh trai đứng cạnh em gái"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Tranh này không thể hiện hai anh trai.",
+      "1": "Câu chỉ nói về hai anh trai, không nói nhà có 5 người."
+     }
+    },
+    {
+     "q": "Cambridge A1 Movers – Đọc câu và chọn tranh phù hợp: “My younger sister is eight years old.”",
+     "opts": [
+      "cô bé 8 tuổi với bánh sinh nhật",
+      "bố mẹ với một bé trai và một bé gái",
+      "chàng trai chỉ vào ảnh"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Tranh này không cho thấy tuổi 8.",
+      "2": "Tranh này không có em gái 8 tuổi."
+     }
+    },
+    {
+     "q": "Cambridge A1 Movers – Đọc câu và chọn tranh phù hợp: “This is my family.”",
+     "opts": [
+      "cô bé 8 tuổi với bánh sinh nhật",
+      "chàng trai chỉ vào ảnh gia đình",
+      "hai anh trai đứng cạnh em gái"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Tranh này nói về sinh nhật, không có hành động giới thiệu gia đình.",
+      "2": "Tranh này không có hành động chỉ vào và giới thiệu (this is…)."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "brother – sister",
+     "focus": "brother: “th” /ð/ rung, lưỡi giữa răng; nhấn BRO. sister: nhấn SIS, âm cuối /ə/ nhẹ, không đọc “xít-tơ” nặng."
+    },
+    {
+     "t": "this – that",
+     "focus": "Cả hai bắt đầu bằng /ð/ rung. this: /ɪ/ ngắn, âm cuối /s/. that: /æ/ mở miệng rộng, giữ /t/ cuối."
+    },
+    {
+     "t": "an older brother",
+     "focus": "Nối “an older” thành “a-nolder”. Nhấn OL-der và BRO-ther."
+    },
+    {
+     "t": "two sisters",
+     "focus": "sisters kết thúc bằng /z/ – đừng bỏ âm -s (lỗi mất âm cuối của người Việt)."
+    },
+    {
+     "t": "I don't have a sister.",
+     "focus": "“don't” giữ /t/ nhẹ. “have a” nối thành “ha-va”."
+    },
+    {
+     "t": "There are five people in my family.",
+     "focus": "“There are” nối thành “the-rar”. Nhấn FIVE, PEO-ple, FAM-i-ly."
+    },
+    {
+     "t": "Is this your family?",
+     "focus": "Câu hỏi Có/Không: lên giọng ở cuối. “this your” đọc liền."
+    },
+    {
+     "t": "Two sons and a daughter!",
+     "focus": "sons kết thúc /z/; “and a” nối thành “ən-ə”; daughter: “gh” câm, nhấn DAUGH."
+    }
+   ],
+   "dialog": {
+    "title": "Bạn mới hỏi về gia đình bạn qua ảnh",
+    "partner": "Lan",
+    "turns": [
+     {
+      "ai": "Is this your family?",
+      "vi": "Đây là gia đình bạn à?",
+      "model": "Yes. This is my mum and my dad.",
+      "accept": [
+       "Yes. This is my mum and my dad.",
+       "Yes, this is my mum and dad.",
+       "Yes, this is my family.",
+       "Yes, it is."
+      ],
+      "frame": "Yes. This is my ___ and my ___.",
+      "hint": "Trả lời Yes và giới thiệu bố mẹ bằng This is my …"
+     },
+     {
+      "ai": "How many people are there in your family?",
+      "vi": "Nhà bạn có mấy người?",
+      "model": "There are four people in my family.",
+      "accept": [
+       "There are four people in my family.",
+       "Four people.",
+       "There are four people.",
+       "Four."
+      ],
+      "frame": "There are ___ people in my family.",
+      "hint": "Nói số người trong nhà bạn."
+     },
+     {
+      "ai": "Do you have an older brother?",
+      "vi": "Bạn có anh trai không?",
+      "model": "No, I don't. I have a younger sister.",
+      "accept": [
+       "No, I don't. I have a younger sister.",
+       "No, I don't.",
+       "Yes, I do.",
+       "Yes, I have an older brother."
+      ],
+      "frame": "No, I don't. I have a ___.",
+      "hint": "Trả lời ngắn với do / don't, rồi nói bạn có ai."
+     },
+     {
+      "ai": "Is that your older sister?",
+      "vi": "Kia là chị gái bạn à?",
+      "model": "No, that's my younger sister.",
+      "accept": [
+       "No, that's my younger sister.",
+       "No, she is my younger sister.",
+       "No, she's my younger sister.",
+       "Yes, she is."
+      ],
+      "frame": "No, that's my ___.",
+      "hint": "Nếu không phải, nói “No, that's my …”."
+     }
+    ]
+   },
+   "reading": {
+    "text": "My name is Lan. There are four people in my family: my dad, my mum, my older brother and me. I don't have a sister. My brother is twenty years old.",
+    "vi": "Mình tên là Lan. Nhà mình có bốn người: bố, mẹ, anh trai và mình. Mình không có chị gái hay em gái. Anh trai mình hai mươi tuổi.",
+    "qs": [
+     {
+      "q": "Nhà Lan có mấy người?",
+      "opts": [
+       "5",
+       "3",
+       "4"
+      ],
+      "a": 2,
+      "why": {
+       "0": "Bài đọc: “There are four people” – 4, không phải 5.",
+       "1": "Có bố, mẹ, anh trai và Lan – 4 người."
+      }
+     },
+     {
+      "q": "Nhà Lan gồm những ai?",
+      "opts": [
+       "bố, mẹ, anh trai và Lan",
+       "bố, mẹ, chị gái và Lan",
+       "bố, mẹ, em trai và Lan"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Lan không có chị / em gái (“I don't have a sister”).",
+       "2": "Bài đọc nói older brother – anh trai, không phải em trai."
+      }
+     },
+     {
+      "q": "Lan có chị gái hoặc em gái không?",
+      "opts": [
+       "có một chị gái",
+       "không có",
+       "có một em gái"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài đọc: “I don't have a sister.”",
+       "2": "Bài đọc: “I don't have a sister.” – không có cả chị lẫn em gái."
+      }
+     },
+     {
+      "q": "Anh trai Lan bao nhiêu tuổi?",
+      "opts": [
+       "12",
+       "2",
+       "20"
+      ],
+      "a": 2,
+      "why": {
+       "0": "twelve là 12; bài đọc là twenty.",
+       "1": "two là 2; bài đọc là twenty."
+      }
+     },
+     {
+      "q": "Đúng hay sai: “Lan has two older brothers.”",
+      "opts": [
+       "Đúng",
+       "Sai"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Lan chỉ có một anh trai (my older brother – số ít)."
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "newImages": [
+  {
+   "key": "dad",
+   "prompt": "Photo: a smiling father in his 40s at home, casual shirt, warm natural light"
+  },
+  {
+   "key": "mom",
+   "prompt": "Photo: a smiling mother in her 40s at home, casual cardigan, warm natural light"
+  },
+  {
+   "key": "brother",
+   "prompt": "Photo: two brothers, a teenage boy with his arm around his younger brother, both smiling, at home"
+  },
+  {
+   "key": "sister",
+   "prompt": "Photo: two sisters, a teenage girl and her younger sister smiling side by side, at home"
+  },
+  {
+   "key": "family",
+   "prompt": "Photo: a happy family of five (parents, two sons, one daughter) sitting together on a sofa at home"
+  },
+  {
+   "key": "friend",
+   "prompt": "Photo: two 12-year-old school friends laughing together outside a school, backpacks on"
+  },
+  {
+   "key": "birthday-cake",
+   "prompt": "Photo: a birthday cake with eight lit candles on a table with balloons, no text"
+  },
+  {
+   "key": "numbers",
+   "prompt": "Photo: colourful wooden number blocks 1 to 10 arranged on a table, plain background"
+  }
+ ]
+}
