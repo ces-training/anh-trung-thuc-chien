@@ -67,11 +67,33 @@ CARDS = {
   "back": "A woman finishes speaking and turns her open palm toward her conversation partner, inviting him to answer, both smiling at a networking event.",
   "polite": "A young professional politely serving tea to an older business guest in a meeting room.",
 }
+
+# ---- trang chủ: người hướng dẫn, bản đồ hành trình, thẻ phòng ----
+HOME_REF = {
+  "coach-khang-hello": (["coach-khang"], "Khang (the man in the reference image) sits at a bright, cosy Hanoi café table with a laptop and a notebook, turns toward the camera and waves hello with a warm, gentle smile. He is placed on the left third of the frame; the right two thirds are softly blurred café space."),
+  "coach-vy-hello": (["coach-vy"], "Vy (the woman in the reference image) sits at a bright, cosy Hanoi café table with a laptop and a notebook, turns toward the camera with a playful, witty smile and a small wave. She is placed on the left third of the frame; the right two thirds are softly blurred café space."),
+}
+HOME = {
+  "coach-khang": ("1:1", PORTRAIT + "Khang, a handsome Vietnamese man about 30, neat short black hair, kind eyes, warm gentle smile, light blue oxford shirt under a navy knit cardigan, calm and caring teacher."),
+  "coach-vy": ("1:1", PORTRAIT + "Vy, a pretty Vietnamese woman about 27, shoulder-length wavy dark brown hair, bright playful smile with a hint of humour, cream blouse with a mustard cardigan, cheerful teacher."),
+  "journey-en": ("16:9", "Wide panoramic photograph of Hanoi at golden hour seen from a high rooftop: West Lake, modern towers and tree-lined streets, soft haze, calm, lots of open sky, no people in focus."),
+  "journey-zh": ("16:9", "Wide panoramic photograph of a modern riverside city at dusk with traditional curved Chinese temple roofs in the foreground and glass towers in the distance, warm lights, calm, open sky."),
+  "room-howto": ("4:3", "A young Vietnamese woman studying with earphones and a phone at a sunny desk next to a small kitchen timer and a planner, focused and relaxed."),
+  "room-achieve": ("4:3", "A young Vietnamese professional smiling with satisfaction at a laptop, a notebook with ticked boxes and a coffee on the desk, sense of accomplishment."),
+  "room-rewards": ("4:3", "A neatly wrapped gift box with a red ribbon, a takeaway coffee cup and a blank white ticket on a wooden table, warm morning light."),
+  "room-live": ("4:3", "A small group of Vietnamese adults and two foreigners chatting and laughing around a café table at a weekend language meetup, blank name tags."),
+  "room-review": ("4:3", "A neat stack of blank index cards with colourful tabs, a phone and a cup of tea on a cosy desk, soft light."),
+  "room-career": ("4:3", "A confident young Vietnamese professional shaking hands with two interviewers in a modern office meeting room, a closed certificate folder on the table."),
+}
 items = []
 for k, d in CHARS.items():
     items.append({"key": k, "aspect": "1:1", "refs": [], "prompt": PORTRAIT + d + " " + STYLE})
 for k, (refs, d) in SCENES.items():
     items.append({"key": k, "aspect": "16:9", "refs": refs, "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. " + d + " Medium-wide shot, both people clearly visible from the waist up. " + STYLE})
+for k, (asp, d) in HOME.items():
+    items.append({"key": k, "aspect": asp, "refs": [], "prompt": d + " " + STYLE})
+for k, (refs, d) in HOME_REF.items():
+    items.append({"key": k, "aspect": "16:9", "refs": refs, "prompt": "Use the person shown in the reference image, keeping face, hair and clothes consistent. " + d + " " + STYLE})
 for k, d in CARDS.items():
     items.append({"key": k, "aspect": "4:3", "refs": [], "prompt": d + " " + STYLE})
 pathlib.Path(__file__).with_name("image-list.json").write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")

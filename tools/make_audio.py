@@ -16,6 +16,7 @@ MODELS = [m for m in [os.environ.get("GEMINI_TTS_MODEL", "").strip(), "gemini-3.
 # Giọng cho từng nhân vật (giọng có sẵn của Gemini). "_" = giọng đọc thẻ, câu mẫu.
 VOICES = {
     "en": {"_": "Kore", "An": "Aoede", "Tom": "Puck", "Kevin": "Charon", "Linh": "Leda", "Sarah": "Despina"},
+    "vi": {"_": "Kore", "Khang": "Algieba", "Vy": "Laomedeia"},
     "zh": {"_": "Kore", "An": "Aoede", "王丽": "Despina", "Lệ": "Despina", "Minh": "Orus", "阮明": "Orus", "王经理": "Iapetus"},
 }
 STYLE = {
@@ -54,7 +55,7 @@ def to_mp3(pcm, dest):
 
 
 def write_index(rows):
-    idx = {"en": {}, "zh": {}}
+    idx = {"en": {}, "zh": {}, "vi": {}}
     for r in rows:
         f = OUT / r["lang"] / (clip_id(r) + ".mp3")
         if f.exists():

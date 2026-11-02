@@ -111,6 +111,82 @@
   "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. A formal meeting room in a company office: An (first reference) receives a blank business card from Manager Wang (second reference) with both hands, slight respectful bow, tea cups on the table. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
  },
  {
+  "key": "coach-khang",
+  "aspect": "1:1",
+  "refs": [],
+  "prompt": "Chest-up portrait, looking at the camera with a natural smile, plain soft blue-grey studio background, 50mm lens. Khang, a handsome Vietnamese man about 30, neat short black hair, kind eyes, warm gentle smile, light blue oxford shirt under a navy knit cardigan, calm and caring teacher. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+ },
+ {
+  "key": "coach-vy",
+  "aspect": "1:1",
+  "refs": [],
+  "prompt": "Chest-up portrait, looking at the camera with a natural smile, plain soft blue-grey studio background, 50mm lens. Vy, a pretty Vietnamese woman about 27, shoulder-length wavy dark brown hair, bright playful smile with a hint of humour, cream blouse with a mustard cardigan, cheerful teacher. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+ },
+ {
+  "key": "journey-en",
+  "aspect": "16:9",
+  "refs": [],
+  "prompt": "Wide panoramic photograph of Hanoi at golden hour seen from a high rooftop: West Lake, modern towers and tree-lined streets, soft haze, calm, lots of open sky, no people in focus. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+ },
+ {
+  "key": "journey-zh",
+  "aspect": "16:9",
+  "refs": [],
+  "prompt": "Wide panoramic photograph of a modern riverside city at dusk with traditional curved Chinese temple roofs in the foreground and glass towers in the distance, warm lights, calm, open sky. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+ },
+ {
+  "key": "room-howto",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "A young Vietnamese woman studying with earphones and a phone at a sunny desk next to a small kitchen timer and a planner, focused and relaxed. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+ },
+ {
+  "key": "room-achieve",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "A young Vietnamese professional smiling with satisfaction at a laptop, a notebook with ticked boxes and a coffee on the desk, sense of accomplishment. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+ },
+ {
+  "key": "room-rewards",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "A neatly wrapped gift box with a red ribbon, a takeaway coffee cup and a blank white ticket on a wooden table, warm morning light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+ },
+ {
+  "key": "room-live",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "A small group of Vietnamese adults and two foreigners chatting and laughing around a café table at a weekend language meetup, blank name tags. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+ },
+ {
+  "key": "room-review",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "A neat stack of blank index cards with colourful tabs, a phone and a cup of tea on a cosy desk, soft light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+ },
+ {
+  "key": "room-career",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "A confident young Vietnamese professional shaking hands with two interviewers in a modern office meeting room, a closed certificate folder on the table. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+ },
+ {
+  "key": "coach-khang-hello",
+  "aspect": "16:9",
+  "refs": [
+   "coach-khang"
+  ],
+  "prompt": "Use the person shown in the reference image, keeping face, hair and clothes consistent. Khang (the man in the reference image) sits at a bright, cosy Hanoi café table with a laptop and a notebook, turns toward the camera and waves hello with a warm, gentle smile. He is placed on the left third of the frame; the right two thirds are softly blurred café space. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+ },
+ {
+  "key": "coach-vy-hello",
+  "aspect": "16:9",
+  "refs": [
+   "coach-vy"
+  ],
+  "prompt": "Use the person shown in the reference image, keeping face, hair and clothes consistent. Vy (the woman in the reference image) sits at a bright, cosy Hanoi café table with a laptop and a notebook, turns toward the camera with a playful, witty smile and a small wave. She is placed on the left third of the frame; the right two thirds are softly blurred café space. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+ },
+ {
   "key": "wave",
   "aspect": "4:3",
   "refs": [],
