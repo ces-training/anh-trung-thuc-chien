@@ -1,0 +1,47 @@
+name: Vẽ tranh minh hoạ Gemini
+
+on:
+  workflow_dispatch:
+    inputs:
+      redo:
+        description: 'Để trống: chỉ vẽ tranh còn thiếu. "all": vẽ lại tất cả. Hoặc ghi tên tranh cần vẽ lại, cách nhau dấu phẩy (vd: char-an,scene-en-office).'
+        required: false
+        default: ''
+  push:
+    branches: [main]
+    paths: ['tools/image-list.json', 'tools/make_images.py']
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: images
+  cancel-in-progress: false
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cài Pillow
+        run: pip install --quiet pillow
+      - name: Gọi Gemini vẽ tranh
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          REDO: ${{ github.event.inputs.redo }}
+        run: python3 tools/make_images.py
+      - name: Lưu tranh vào kho
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add tuan-1/img
+          if git diff --cached --quiet; then echo "Không có tranh mới."; exit 0; fi
+          git commit -m "Tranh Gemini: cập nhật tranh minh hoạ"
+          git pull --rebase -q origin main
+          git push
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+        env:
+          GH_TOKEN: ${{ github.token }}

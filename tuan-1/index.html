@@ -402,6 +402,15 @@ mark.bad{background:var(--mark);color:var(--ink);border-radius:5px;padding:0 4px
 .rphead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .msg.ai{display:flex;gap:8px;align-items:flex-end} .msg.ai .ava{background:var(--soft);border-radius:50%;flex:none}
 @media (max-width:600px){.qart{width:120px} .fcard .illu.corner{width:56px}}
+
+img.photo{display:block;max-width:100%;height:auto;background:var(--soft)}
+img.photo.illu{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:22px}
+.fcard img.photo.illu.big{width:min(320px,86%)}
+.fcard img.photo.illu.corner{width:84px;border-radius:14px}
+img.photo.scene-svg{width:100%;aspect-ratio:16/9;object-fit:cover}
+img.photo.ava{border-radius:50%;object-fit:cover;aspect-ratio:1}
+.qart img.photo{border-radius:16px}
+.qart:has(img.photo){width:220px} @media (max-width:600px){.qart:has(img.photo){width:170px}}
 </style>
 
 <header class="top">
@@ -1701,7 +1710,14 @@ function runRoleplay(ex, body, finish) {
 }
 
 
-/* ============ TRANH MINH HOẠ (SVG, cùng bảng màu với web) ============ */
+/* ============ TRANH MINH HOẠ: ảnh Gemini nếu có, không thì SVG cùng bảng màu với web ============ */
+let IMG = {};
+const CHAR_IMG = { An: "char-an", Tom: "char-tom", Kevin: "char-kevin", Linh: "char-linh", Sarah: "char-sarah", "王丽": "char-wangli", "阮明": "char-minh", "王经理": "char-wangjl" };
+function photo(k, cls) { return IMG[k] ? `<img class="photo ${cls || ""}" src="img/${IMG[k]}" alt="" decoding="async">` : ""; }
+function applyPhotos(root) {
+  (root || document).querySelectorAll("svg[data-art]").forEach(sv => { const [kind, a, b, c] = sv.dataset.art.split("|"); const h = kind === "icon" ? photo(a, sv.getAttribute("class")) : kind === "char" ? photo(CHAR_IMG[a], "ava") : photo(a, "scene-svg"); if (h) { const t = document.createElement("template"); t.innerHTML = h; const im = t.content.firstChild; if (kind === "char") { im.width = sv.getAttribute("width"); im.height = sv.getAttribute("width"); } sv.replaceWith(im); } });
+}
+try { fetch("img/index.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null).then(j => { if (j && Object.keys(j).length) { IMG = j; applyPhotos(); } }).catch(() => {}); } catch (e) {}
 const AC_ = { ink: "#0E1730", en: "#1F44D6", enS: "#E7ECFF", zh: "#D3271E", zhS: "#FDECEA", sun: "#FFD43B", sunS: "#FFF4C7", gr: "#15803D", grS: "#E3F5E9", sl: "#334155", slS: "#E8ECF3", wh: "#FFFFFF", cheek: "#F59E8B" };
 
 /* ---------- nhân vật (bán thân, nhìn thẳng) ---------- */
@@ -1742,8 +1758,9 @@ function personSVG(c, talk) {
     front + `<circle cx="51" cy="63" r="2.7" fill="${ink}"/><circle cx="69" cy="63" r="2.7" fill="${ink}"/><path d="M46 55q5-3 9 0M65 55q5-3 9 0" stroke="${ink}" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="45" cy="71" r="4" fill="${AC_.cheek}" opacity=".35"/><circle cx="75" cy="71" r="4" fill="${AC_.cheek}" opacity=".35"/>` + mouth + glasses;
 }
 function avatarSVG(name, size) {
-  const c = CHARS[charKey(name)];
-  return `<svg class="ava" viewBox="0 0 120 140" width="${size || 56}" height="${Math.round((size || 56) * 140 / 120)}" aria-hidden="true">${personSVG(c, false)}</svg>`;
+  const ck = charKey(name), c = CHARS[ck];
+  if (IMG[CHAR_IMG[ck]]) return `<img class="photo ava" src="img/${IMG[CHAR_IMG[ck]]}" alt="" width="${size || 56}" height="${size || 56}">`;
+  return `<svg class="ava" data-art="char|${ck}" viewBox="0 0 120 140" width="${size || 56}" height="${Math.round((size || 56) * 140 / 120)}" aria-hidden="true">${personSVG(c, false)}</svg>`;
 }
 
 /* ---------- bối cảnh (0 0 640 240) ---------- */
@@ -1765,9 +1782,10 @@ const BGS = {
     `<g transform="translate(190 26)"><rect width="260" height="120" rx="8" fill="#1F5D3F" stroke="${AC_.sl}" stroke-width="6"/><path d="M28 34h90M28 56h140M28 78h70" stroke="${AC_.wh}" stroke-width="4" stroke-linecap="round" opacity=".85"/><circle cx="210" cy="60" r="22" fill="none" stroke="${AC_.sun}" stroke-width="4"/></g>`
 };
 function sceneSVG(bg, left, right, talking) {
+  const sk = "scene-" + (typeof S !== "undefined" ? S.lang : "en") + "-" + bg; if (IMG[sk]) return photo(sk, "scene-svg");
   const L = CHARS[charKey(left)], R = right ? CHARS[charKey(right)] : null;
   const pose = (c, x, on) => `<g transform="translate(${x} ${on ? 56 : 64}) scale(1.3)" opacity="1">${personSVG(c, on)}</g>`;
-  return `<svg class="scene-svg" viewBox="0 0 640 240" role="img" aria-label="Minh hoạ bối cảnh">${(BGS[bg] || BGS.networking)()}${pose(L, 40, talking === 0)}${R ? pose(R, 444, talking === 1) : ""}</svg>`;
+  return `<svg class="scene-svg" data-art="scene|${sk}" viewBox="0 0 640 240" role="img" aria-label="Minh hoạ bối cảnh">${(BGS[bg] || BGS.networking)()}${pose(L, 40, talking === 0)}${R ? pose(R, 444, talking === 1) : ""}</svg>`;
 }
 
 /* ---------- tranh cho từ và câu (0 0 160 120) ---------- */
@@ -1836,8 +1854,9 @@ const ART_RULES = [
 ];
 function artKey(...texts) { for (const t of texts) { if (!t) continue; for (const [re, k] of ART_RULES) if (re.test(String(t))) return k; } return null; }
 function iconSVG(key, cls) {
+  if (IMG[key]) return photo(key, cls || "illu");
   const ic = ICONS[key]; if (!ic) return "";
-  return `<svg class="${cls || "illu"}" viewBox="0 0 160 120" aria-hidden="true"><rect x="6" y="4" width="148" height="112" rx="28" fill="${ic[0]}"/><circle cx="24" cy="22" r="4" fill="${AC_.ink}" opacity=".08"/><circle cx="138" cy="100" r="6" fill="${AC_.ink}" opacity=".06"/>${ic[1]}</svg>`;
+  return `<svg class="${cls || "illu"}" data-art="icon|${key}" viewBox="0 0 160 120" aria-hidden="true"><rect x="6" y="4" width="148" height="112" rx="28" fill="${ic[0]}"/><circle cx="24" cy="22" r="4" fill="${AC_.ink}" opacity=".08"/><circle cx="138" cy="100" r="6" fill="${AC_.ink}" opacity=".06"/>${ic[1]}</svg>`;
 }
 
 /* ============ HỌC TRƯỚC: thẻ học, cảnh hội thoại, mẫu câu ============ */
@@ -2098,7 +2117,7 @@ function runScene(ex, body, finish) {
   function lineHTML(l) { return `<span class="spk">${esc(l.who)}</span><span class="tx" lang="${L === "zh" ? "zh" : "en"}">${esc(l.t)}</span>${l.py && subPy ? `<span class="py">${esc(l.py)}</span>` : ""}${l.vi && subVi ? `<span class="vi">${esc(l.vi)}</span>` : ""}`; }
   function show(k, chain) {
     i = k; const l = lines[i];
-    $(".cast2 svg", box).outerHTML = sceneSVG(ex.bg, pA, pB, l.who === pA ? 0 : 1);
+    $(".cast2 > :first-child", box).outerHTML = sceneSVG(ex.bg, pA, pB, l.who === pA ? 0 : 1);
     box.querySelectorAll(".cast2 .nm").forEach(n => n.classList.toggle("talk", n.classList.contains("a") === (l.who === pA)));
     now.className = "nowline " + (l.who === pA ? "left" : "right");
     now.innerHTML = `<div class="bub2">${lineHTML(l)}</div><button type="button" class="btn ghost small rep">${ICON.play} Nghe lại câu này</button>`;

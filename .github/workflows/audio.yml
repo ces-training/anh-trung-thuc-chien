@@ -42,6 +42,7 @@ jobs:
           git add tuan-1/audio
           if git diff --cached --quiet; then echo "Không có file mới."; exit 0; fi
           git commit -m "Giọng đọc Gemini: cập nhật file âm thanh"
+          git pull --rebase -q origin main
           git push
           gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
         env:
