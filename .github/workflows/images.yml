@@ -7,6 +7,10 @@ on:
         description: 'Để trống: chỉ vẽ tranh còn thiếu. "all": vẽ lại tất cả. Hoặc ghi tên tranh cần vẽ lại, cách nhau dấu phẩy (vd: char-an,scene-en-office).'
         required: false
         default: ''
+      audit:
+        description: 'Chỉ kiểm tra lại các tranh đã có (thừa tay, chữ giả), không vẽ mới'
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths: ['tools/image-list.json', 'tools/make_images.py']
@@ -31,13 +35,14 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           REDO: ${{ github.event.inputs.redo }}
+          AUDIT: ${{ github.event.inputs.audit }}
         run: python3 tools/make_images.py
       - name: Lưu tranh vào kho
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add tuan-1/img
+          git add tuan-1/img tools/image-qa.json 2>/dev/null || git add tuan-1/img
           if git diff --cached --quiet; then echo "Không có tranh mới."; exit 0; fi
           git commit -m "Tranh Gemini: cập nhật tranh minh hoạ"
           git pull --rebase -q origin main
