@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Cho phép trình thu thập của ChatGPT (tìm kiếm và duyệt quảng cáo)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: OAI-AdsBot
+Allow: /
+
+Sitemap: https://ces-training.github.io/anh-trung-thuc-chien/sitemap.xml

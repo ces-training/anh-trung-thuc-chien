@@ -1,0 +1,1653 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bài tập tuần 1 · Anh – Trung Thực Chiến</title>
+<meta name="description" content="Bài tập tuần 1 tiếng Anh và tiếng Trung giao tiếp: chào hỏi, giới thiệu bản thân. Sai ở đâu chỉ rõ ở đó, làm lại đến khi đúng.">
+<link rel="canonical" href="https://ces-training.github.io/anh-trung-thuc-chien/tuan-1/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;700&display=swap">
+<style>
+/* Bố cục: thanh trên cố định (ngôn ngữ, mức, điểm) · dải tab 7 ngày + 3 tài liệu · cột bài tập + cột "Hôm nay". Xanh = Anh, đỏ = Trung, vàng = điểm hẹn và điểm thưởng. */
+:root{
+  --bg:#F4F6FB; --surface:#FFFFFF; --soft:#EEF1F7; --ink:#0B1533; --muted:#4B5569; --line:#DCE2EC;
+  --en:#1F44D6; --en-soft:#E8EDFE; --zh:#D3271E; --zh-soft:#FDECEA; --sun:#FFD43B; --sun-ink:#0B1533;
+  --good:#146C43; --good-bg:#E5F4EB; --bad:#B42318; --bad-bg:#FFF1EF; --mark:#FFD6CF; --gap:#B42318;
+  --acc:var(--en); --acc-soft:var(--en-soft);
+  --font:"Be Vietnam Pro","Segoe UI",system-ui,-apple-system,sans-serif;
+  --han:"Noto Sans SC","PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+  --r:14px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0A0F1F; --surface:#111A31; --soft:#16203A; --ink:#EEF2FA; --muted:#A9B3C7; --line:#26324F;
+  --en:#8EA2FF; --en-soft:#1B2858; --zh:#FF8475; --zh-soft:#3A1B17; --good:#5BD38C; --good-bg:#0F2D1E; --bad:#FF8A7E; --bad-bg:#33171A; --mark:#6B2620; --gap:#FF8A7E; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0A0F1F; --surface:#111A31; --soft:#16203A; --ink:#EEF2FA; --muted:#A9B3C7; --line:#26324F;
+  --en:#8EA2FF; --en-soft:#1B2858; --zh:#FF8475; --zh-soft:#3A1B17; --good:#5BD38C; --good-bg:#0F2D1E; --bad:#FF8A7E; --bad-bg:#33171A; --mark:#6B2620; --gap:#FF8A7E; color-scheme:dark }
+:root[data-track="zh"]{ --acc:var(--zh); --acc-soft:var(--zh-soft) }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 var(--font);-webkit-font-smoothing:antialiased}
+[lang="zh"]{font-family:var(--han)}
+h1,h2,h3,h4{margin:0;line-height:1.25;text-wrap:balance}
+p{margin:0}
+a{color:var(--acc)}
+button{font:inherit;color:inherit}
+.muted{color:var(--muted)} .small{font-size:13.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:0 16px;border-radius:10px;border:1.5px solid transparent;font-weight:700;font-size:15px;cursor:pointer;background:var(--soft);color:var(--ink)}
+.btn.primary{background:var(--acc);color:#fff}
+.btn.ghost{background:transparent;border-color:var(--line)}
+.btn.small{min-height:36px;padding:0 10px;font-size:13.5px}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.btn:focus-visible,.opt:focus-visible,.tok:focus-visible,.tab:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible,.seg button:focus-visible,.jump:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+
+/* thanh trên */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top, 0px);z-index:10;background:var(--surface)}
+.top{position:sticky;top:env(safe-area-inset-top, 0px);z-index:9;background:var(--surface);border-bottom:1px solid var(--line)}
+.bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding-block:10px}
+.brand{display:flex;align-items:center;gap:10px;margin-right:auto;min-width:0}
+.brand b{font-size:16px;letter-spacing:-.01em}
+.brand span{display:block;font-size:13px;color:var(--muted)}
+.seg{display:inline-flex;padding:3px;border-radius:10px;background:var(--soft);gap:2px}
+.seg button{min-height:36px;padding:0 12px;border:0;border-radius:8px;background:transparent;font-weight:700;font-size:14px;cursor:pointer;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(11,21,51,.12)}
+.seg button[data-lang="en"][aria-pressed="true"]{color:var(--en)} .seg button[data-lang="zh"][aria-pressed="true"]{color:var(--zh)}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;font-weight:700;font-size:14px;font-variant-numeric:tabular-nums}
+.pill.pts{background:var(--sun);color:var(--sun-ink)} .pill.rev{background:var(--soft)}
+.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:thin;padding-bottom:0}
+.tab{flex:none;display:inline-flex;align-items:center;gap:6px;padding:10px 12px;border-bottom:3px solid transparent;color:var(--muted);text-decoration:none;font-weight:600;font-size:14.5px;white-space:nowrap}
+.tab.on{color:var(--ink);border-bottom-color:var(--acc)}
+.tab .cnt{font-size:12px;padding:1px 6px;border-radius:999px;background:var(--soft);color:var(--muted);font-variant-numeric:tabular-nums}
+.tab .cnt.full{background:var(--good-bg);color:var(--good)}
+
+/* bố cục */
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:24px;padding-block:24px 64px;align-items:start}
+@media (max-width:960px){.layout{grid-template-columns:minmax(0,1fr)} aside{order:-1}}
+main{min-width:0;display:flex;flex-direction:column;gap:20px;outline:none}
+aside{display:flex;flex-direction:column;gap:16px;position:sticky;top:120px}
+@media (max-width:960px){aside{position:static}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:10px}
+.panel h3{font-size:15px}
+.chk{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.chk li{display:flex;justify-content:space-between;gap:8px;font-size:14px;align-items:center}
+.chk li .jump{background:none;border:0;padding:4px 0;text-align:left;cursor:pointer;color:var(--ink);font-weight:600;font-size:14px}
+.chk li span{color:var(--muted);font-variant-numeric:tabular-nums;flex:none}
+.chk li.ok .jump::before{content:"✓ ";color:var(--good)}
+.chk li.ok span{color:var(--good);font-weight:700}
+.goal{font-size:13.5px;color:var(--muted);border-top:1px dashed var(--line);padding-top:8px}
+.ledger{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px;font-size:13.5px}
+.ledger li{display:flex;justify-content:space-between;gap:8px}
+.ledger b{color:var(--good);font-variant-numeric:tabular-nums}
+.rules-mini{font-size:13.5px;color:var(--muted);display:flex;flex-direction:column;gap:6px;margin:0;padding-left:18px}
+@media (max-width:960px){.panel.hide-sm{display:none}}
+
+/* đầu ngày */
+.dayhead{display:flex;flex-direction:column;gap:6px}
+.eyebrow{font-size:12.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--acc)}
+.dayhead h1,.doc h1{font-size:clamp(24px,3.2vw,32px);font-weight:800;letter-spacing:-.02em}
+.cando{font-size:14.5px;background:var(--acc-soft);border-radius:10px;padding:8px 12px;align-self:flex-start}
+
+/* thẻ bài */
+.ex{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px;display:flex;flex-direction:column;gap:14px;scroll-margin-top:130px}
+.ex.isdone{background:color-mix(in srgb,var(--surface) 70%,var(--good-bg))}
+.exhead{display:flex;gap:14px;align-items:flex-start}
+.exhead>div{flex:1;min-width:0}
+.exhead h2{font-size:19px;font-weight:700}
+.meta{font-size:13.5px;color:var(--muted)}
+.code{flex:none;width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;background:var(--acc-soft);color:var(--acc)}
+.state{font-size:13px;font-weight:700;color:var(--good);flex:none}
+.rule{background:var(--soft);border-radius:10px;padding:10px 14px;font-size:14.5px}
+.rule summary{cursor:pointer;font-weight:700;font-size:13.5px;color:var(--muted)}
+.rule p{margin-top:6px}
+.note{font-size:13.5px;color:var(--muted);border-left:3px solid var(--sun);padding-left:10px}
+.exbody{display:flex;flex-direction:column;gap:14px}
+.donebox{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+
+/* câu hỏi */
+.prog{display:flex;gap:4px;flex-wrap:wrap}
+.prog i{width:22px;height:6px;border-radius:3px;background:var(--line)}
+.prog i.now{background:var(--acc)} .prog i.ok{background:var(--good)} .prog i.fix{background:var(--sun)}
+.stage{display:flex;flex-direction:column;gap:12px}
+.qn{font-size:13px;font-weight:700;color:var(--muted);font-variant-numeric:tabular-nums}
+.q{display:flex;flex-direction:column;gap:12px;margin:0}
+.qt{font-size:18px;font-weight:600}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.inp{flex:1 1 220px;min-width:0;min-height:48px;padding:0 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:500 17px var(--font)}
+.inp:focus{border-color:var(--acc);outline:none}
+.area{width:100%;flex-basis:100%;min-height:130px;padding:12px 14px;line-height:1.6;resize:vertical}
+.opts{display:flex;flex-direction:column;gap:8px}
+.opt{text-align:left;min-height:48px;padding:10px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;font-size:16px;font-weight:500}
+.opt:hover:not(:disabled){border-color:var(--acc)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-bg);text-decoration:line-through;text-decoration-color:var(--bad)}
+.opt.right{border-color:var(--good);background:var(--good-bg);font-weight:700}
+.opt.hint{border-color:var(--good);border-style:dashed}
+.opt:disabled{cursor:default}
+.ans,.pool{display:flex;flex-wrap:wrap;gap:8px;min-height:52px;align-items:center;padding:8px;border-radius:10px}
+.ans{background:var(--soft);border:1.5px dashed var(--line)}
+.tok{min-height:44px;padding:0 14px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);cursor:pointer;font-size:17px;font-weight:600;display:inline-flex;align-items:center;gap:6px}
+.tok small{font-size:11px;color:var(--muted);font-weight:700}
+.tok.right{border-color:var(--good);box-shadow:inset 0 0 0 1px var(--good)}
+.tok.wrong{border-color:var(--bad);box-shadow:inset 0 0 0 1px var(--bad);background:var(--bad-bg)}
+.crit{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px;font-size:14.5px}
+.crit li::before{content:"○ ";color:var(--muted)}
+.crit li.ok::before{content:"✓ ";color:var(--good);font-weight:800}
+.crit li.no{color:var(--bad)} .crit li.no::before{content:"✗ ";font-weight:800}
+
+/* phản hồi */
+.fb{border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;font-size:15px}
+.fb.good{background:var(--good-bg);border:1px solid color-mix(in srgb,var(--good) 40%,transparent)}
+.fb.bad{background:var(--bad-bg);border:1px solid color-mix(in srgb,var(--bad) 35%,transparent)}
+.fbt{font-weight:800}
+.fb.good .fbt{color:var(--good)} .fb.bad .fbt{color:var(--bad)}
+.lab{font-weight:700;color:var(--muted);font-size:13.5px}
+.where{font-size:16.5px}
+mark.bad{background:var(--mark);color:var(--ink);border-radius:4px;padding:0 3px;text-decoration:underline wavy var(--bad);text-underline-offset:3px}
+.gap{display:inline-block;min-width:1.4em;text-align:center;color:var(--gap);font-weight:800;border-bottom:2px solid var(--gap);margin:0 2px}
+.reveal{border-top:1px dashed color-mix(in srgb,var(--bad) 40%,transparent);padding-top:6px}
+.next-step{font-size:14px;color:var(--muted)}
+.hintline{font-size:14.5px}
+.model{font-weight:700}
+.mini summary{cursor:pointer;font-size:13.5px;color:var(--muted)}
+.mini p{font-size:14px;margin-top:4px}
+.pre{white-space:pre-wrap}
+.aibox{background:var(--soft);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;font-size:15px}
+.aibox pre{margin:0;white-space:pre-wrap;font:inherit}
+.fixes{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+
+/* nghe, đọc, nhại */
+.listen{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.script{flex-basis:100%;margin:6px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:6px;font-size:15px}
+.script .py,.sl .py,.bub .py{display:block;font-size:13px;color:var(--muted);font-family:var(--font)}
+.script .vi{display:block;font-size:13px;color:var(--muted)}
+.profiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.prof{border:1px solid var(--line);border-radius:12px;padding:12px;background:var(--bg)}
+.prof h4{font-size:15px;margin-bottom:4px}
+.reading{display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.reading .profiles{width:100%}
+.shadow{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:14px}
+.shadow li{display:flex;flex-direction:column;gap:6px}
+.st{font-size:19px;font-weight:600}
+.focus{font-size:14.5px}
+.tick{display:flex;gap:8px;align-items:flex-start;font-size:14.5px;cursor:pointer}
+.tick input{width:20px;height:20px;margin-top:2px;flex:none}
+.cando-list{display:flex;flex-direction:column;gap:10px}
+.cd{border:1px solid var(--line);border-radius:12px;padding:10px 14px;display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;margin:0}
+.cd legend{font-weight:600;padding:0 4px}
+.cd label{display:inline-flex;gap:6px;align-items:center;min-height:36px;cursor:pointer}
+.cd input{width:18px;height:18px}
+.cdmsg{flex-basis:100%;font-size:14px;color:var(--bad)}
+.sheet{display:flex;flex-direction:column;gap:8px;border:1px solid var(--line);border-radius:12px;padding:14px;background:var(--bg)}
+.dots{color:var(--sun);letter-spacing:2px;-webkit-text-stroke:.5px var(--ink)}
+
+/* đóng vai */
+.rp{display:flex;flex-direction:column;gap:10px}
+.rphead{display:flex;flex-direction:column}
+.chat{display:flex;flex-direction:column;gap:8px;max-height:420px;overflow-y:auto;padding:12px;border-radius:12px;background:var(--soft)}
+.msg{display:flex}
+.msg.me{justify-content:flex-end}
+.bub{max-width:85%;padding:10px 12px;border-radius:14px;font-size:16px;display:flex;flex-direction:column;gap:4px}
+.msg.ai .bub{background:var(--surface);border:1px solid var(--line);border-bottom-left-radius:4px}
+.msg.me .bub{background:var(--acc);color:#fff;border-bottom-right-radius:4px}
+.tools{display:flex;gap:6px}
+.vit{font-size:13.5px;color:var(--muted)}
+.frame{background:var(--acc-soft);border-radius:8px;padding:6px 10px}
+.summary{border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:8px}
+
+/* tài liệu ngoài web */
+.doc{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:clamp(18px,3vw,28px);display:flex;flex-direction:column;gap:14px}
+.doc h2{font-size:19px;margin-top:10px}
+.lead{font-size:16.5px;color:var(--muted);max-width:68ch}
+.scroll{overflow-x:auto}
+.tbl{width:100%;border-collapse:collapse;font-size:14.5px}
+.tbl th,.tbl td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
+.tbl th{font-size:13px;color:var(--muted);font-weight:700}
+.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.rub td{min-width:130px}
+.plain{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
+.plain.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px 24px}
+.station{border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:10px;border-top:5px solid var(--en)}
+.station.st-zh{border-top-color:var(--zh)} .station.st-both{border-top-color:var(--sun)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.task{border-radius:10px;padding:10px 12px;background:var(--soft)}
+.task h4,.role h4{font-size:14px;margin-bottom:4px}
+.role{border:1.5px dashed var(--line);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:4px}
+.keys{margin:0;padding-left:20px}
+.key{font-size:14.5px} .key summary{cursor:pointer;color:var(--muted);font-weight:600}
+.line{display:inline-block;min-width:180px;flex:1;border-bottom:1.5px solid var(--line);height:1.4em;vertical-align:bottom}
+.line.short{min-width:48px}
+.lines{display:flex;flex-direction:column;gap:14px}
+.chars{display:flex;flex-direction:column;gap:12px}
+.crow{display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:12px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:12px}
+@media (max-width:620px){.crow{grid-template-columns:minmax(0,1fr)}}
+.cinfo{display:flex;flex-direction:column;gap:2px;font-size:14px}
+.cinfo .big{font-size:40px;line-height:1.1}
+.grid{display:flex;flex-wrap:wrap;gap:6px}
+.cell{width:52px;height:52px;border:1.5px solid var(--muted);position:relative;display:flex;align-items:center;justify-content:center;font-size:36px;color:transparent;
+  background:linear-gradient(var(--line),var(--line)) center/100% 1px no-repeat,linear-gradient(var(--line),var(--line)) center/1px 100% no-repeat}
+.cell.solid{color:var(--ink)} .cell.trace{color:color-mix(in srgb,var(--ink) 18%,transparent)}
+
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom, 0px));background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-size:14px;z-index:20;max-width:calc(100% - 32px)}
+@media (max-width:720px){.top{position:static}.brand span{display:none}.bar{gap:8px}.tabs{position:sticky;top:0}}
+.confirm{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13.5px}
+@media (prefers-reduced-motion: reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="../" style="color:inherit;text-decoration:none" aria-label="Về trang chủ Anh – Trung Thực Chiến">
+      <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1F44D6"/><path d="M32 0H50a14 14 0 0 1 14 14v36a14 14 0 0 1-14 14H32z" fill="#D3271E"/><text x="17" y="43" font-size="28" font-weight="800" fill="#fff" text-anchor="middle" font-family="Be Vietnam Pro, sans-serif">A</text><text x="47" y="42" font-size="24" font-weight="700" fill="#fff" text-anchor="middle" font-family="Noto Sans SC, sans-serif">文</text><rect x="26" y="48" width="12" height="6" rx="3" fill="#FFD43B"/></svg>
+      <div><b>Tuần 1 · Chào hỏi, giới thiệu bản thân</b><span>← Trang chủ Anh – Trung Thực Chiến</span></div>
+    </a>
+    <div class="seg" role="group" aria-label="Ngôn ngữ"><button type="button" data-lang="en">Tiếng Anh</button><button type="button" data-lang="zh">Tiếng Trung</button></div>
+    <div class="seg" role="group" aria-label="Mức"><button type="button" data-level="1">Mức 1</button><button type="button" data-level="2">Mức 2</button></div>
+    <span class="pill pts" title="Điểm tích luỹ">★ <span id="pts">0</span> điểm</span>
+    <span class="pill rev" title="Số câu trong kho ôn">Kho ôn <span id="rev">0</span></span>
+  </div>
+  <nav class="wrap tabs" id="tabs" aria-label="Các ngày trong tuần"></nav>
+</header>
+
+<div class="wrap layout">
+  <main id="main" tabindex="-1"></main>
+  <aside>
+    <section class="panel" id="today"></section>
+    <section class="panel hide-sm"><h3>Điểm gần đây</h3><ul class="ledger" id="ledger"></ul>
+      <div class="confirm"><button type="button" class="btn ghost small" id="reset">Làm lại tuần từ đầu</button><span id="resetConfirm" hidden>Xoá điểm và bài đã làm? <button type="button" class="btn small" id="resetYes">Xoá</button> <button type="button" class="btn ghost small" id="resetNo">Giữ lại</button></span></div></section>
+    <section class="panel hide-sm"><h3>Cách trang chấm bài</h3>
+      <ol class="rules-mini"><li>Sai: chỉ đúng chỗ sai và quy tắc, bạn sửa đến khi đúng.</li><li>Tự sửa đúng: +5 điểm.</li><li>Sai lần 2: hiện đáp án, bạn vẫn tự làm lại cho đúng.</li><li>Câu từng sai vào kho ôn, quay lại ở bài A.</li></ol></section>
+  </aside>
+</div>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+const WEB_BUILD = true;
+/* ============ NỘI DUNG TUẦN 1 · Chào hỏi, giới thiệu bản thân ============ */
+/* Quy ước kiểm tra: câu trả lời được chuẩn hoá (bỏ dấu, viết thường, bỏ dấu câu).
+   Tiếng Trung chấp nhận chữ Hán hoặc bính âm không dấu (vd: wojiao). */
+
+const DATA = {};
+
+/* ---------------------------------------------------------------- TIẾNG ANH */
+DATA.en = {
+  name: "Tiếng Anh", tts: "en-US",
+  cando: "Chào hỏi, giới thiệu tên, quê, nghề và hỏi lại người đối diện",
+  vocab: [
+    ["kế toán", "an accountant", "Nghề bắt đầu bằng nguyên âm dùng an"],
+    ["kỹ sư", "an engineer"], ["nhân viên bán hàng", "a sales assistant"],
+    ["sinh viên", "a student"], ["giáo viên", "a teacher"], ["nhà thiết kế", "a designer"],
+    ["quản lý", "a manager"], ["đồng nghiệp", "colleague"], ["nhóm, bộ phận", "team"],
+    ["công ty", "company"], ["quê", "hometown"], ["danh thiếp", "business card"],
+    ["Bạn đến từ đâu?", "Where are you from?"], ["Bạn làm nghề gì?", "What do you do?"],
+    ["Còn bạn thì sao?", "What about you?"], ["Rất vui được gặp bạn.", "Nice to meet you."],
+    ["Tôi làm nghề … (dùng work)", "I work as"], ["Tôi đến từ Hà Nội.", "I'm from Hanoi."],
+    ["Đây là … (giới thiệu người khác)", "This is"], ["Tôi là người mới ở đây.", "I'm new here."]
+  ],
+  dialogue: [
+    ["An", "Hi, I'm An. I'm from Hanoi.", "Chào, mình là An. Mình đến từ Hà Nội."],
+    ["Tom", "Hi An, I'm Tom. Nice to meet you.", "Chào An, mình là Tom. Rất vui được gặp bạn."],
+    ["An", "Nice to meet you too. What do you do?", "Mình cũng rất vui. Bạn làm nghề gì?"],
+    ["Tom", "I'm an engineer. What about you?", "Mình là kỹ sư. Còn bạn?"],
+    ["An", "I work as a sales assistant. Where are you from, Tom?", "Mình làm nhân viên bán hàng. Tom đến từ đâu?"],
+    ["Tom", "I'm from Manchester, in the UK.", "Mình đến từ Manchester, ở Anh."]
+  ],
+  dialogue2: [
+    ["Kevin", "Hello, I'm Kevin. Are you a student here?", "Xin chào, tôi là Kevin. Bạn là sinh viên ở đây à?"],
+    ["Linh", "No, I'm not. I'm an accountant at ABC Logistics.", "Không. Tôi là kế toán ở ABC Logistics."],
+    ["Kevin", "Oh, nice. I'm a teacher. I teach English at a language school.", "Ồ hay quá. Tôi là giáo viên, dạy tiếng Anh ở một trung tâm."],
+    ["Linh", "Where are you from?", "Bạn đến từ đâu?"],
+    ["Kevin", "I'm from Sydney. And you?", "Tôi đến từ Sydney. Còn bạn?"],
+    ["Linh", "I'm from Da Nang, but I live in Hanoi now.", "Tôi quê Đà Nẵng nhưng giờ sống ở Hà Nội."]
+  ],
+  shadow: [
+    ["Hi, I'm An.", "Nối âm: I'm An đọc liền thành /aɪ-mæn/."],
+    ["I'm from Hanoi.", "from đọc yếu /frəm/, nhấn vào HaNOI."],
+    ["Nice to meet you.", "to đọc yếu /tə/; meet‿you nối thành /miːtʃu/."],
+    ["What do you do?", "Nhấn chữ do cuối câu; giọng đi xuống ở câu hỏi Wh-."],
+    ["I'm an engineer.", "Nối âm I'm‿an‿engineer; nhấn âm cuối en-gi-NEER."],
+    ["I work as a sales assistant.", "work‿as‿a nối liền; sales kết thúc bằng /z/."]
+  ],
+  listen1: [
+    { q: "An đến từ đâu?", opts: ["Hà Nội", "Manchester", "Đà Nẵng"], a: 0, line: 0,
+      why: { 1: "Manchester là quê của Tom, không phải An.", 2: "Bài không nhắc Đà Nẵng." } },
+    { q: "Tom làm nghề gì?", opts: ["Nhân viên bán hàng", "Kỹ sư", "Giáo viên"], a: 1, line: 3,
+      why: { 0: "Nhân viên bán hàng là nghề của An (I work as a sales assistant).", 2: "Không ai trong bài là giáo viên." } },
+    { q: "Câu nào An dùng để hỏi nghề của Tom?", opts: ["What do you do?", "Where are you from?", "Nice to meet you."], a: 0, line: 2,
+      why: { 1: "Where are you from? hỏi quê, không hỏi nghề.", 2: "Nice to meet you là câu chào làm quen." } },
+    { q: "An làm nghề gì?", opts: ["Kỹ sư", "Kế toán", "Nhân viên bán hàng"], a: 2, line: 4,
+      why: { 0: "Kỹ sư (engineer) là Tom.", 1: "Bài không nhắc kế toán." } },
+    { q: "Tom đáp lại lời 'Nice to meet you' thế nào?", opts: ["Nice to meet you too.", "What about you?", "I'm from Manchester."], a: 0, line: 2,
+      why: { 1: "What about you? dùng để hỏi lại, không phải đáp lời chào.", 2: "Câu này trả lời câu hỏi quê." } }
+  ],
+  listen2: [
+    { q: "Linh có phải sinh viên không?", opts: ["Có", "Không"], a: 1, line: 1, why: { 0: "Linh nói No, I'm not: cô ấy không phải sinh viên." } },
+    { q: "Linh làm nghề gì?", opts: ["Kế toán", "Giáo viên", "Sinh viên"], a: 0, line: 1, why: { 1: "Giáo viên là Kevin.", 2: "Linh đã nói mình không phải sinh viên." } },
+    { q: "Kevin làm nghề gì?", opts: ["Kế toán", "Giáo viên tiếng Anh", "Kỹ sư"], a: 1, line: 2, why: { 0: "Kế toán là Linh.", 2: "Bài không nhắc kỹ sư." } },
+    { q: "Kevin đến từ đâu?", opts: ["Sydney", "Hà Nội", "Đà Nẵng"], a: 0, line: 4, why: { 1: "Hà Nội là nơi Linh đang sống.", 2: "Đà Nẵng là quê của Linh." } },
+    { q: "Quê của Linh ở đâu?", opts: ["Hà Nội", "Đà Nẵng", "Sydney"], a: 1, line: 5, why: { 0: "I live in Hanoi now = bây giờ sống ở Hà Nội. Quê (from) là Đà Nẵng.", 2: "Sydney là quê của Kevin." } },
+    { q: "Bây giờ Linh sống ở đâu?", opts: ["Đà Nẵng", "Hà Nội"], a: 1, line: 5, why: { 0: "I'm from Da Nang là quê; câu sau but I live in Hanoi now mới là nơi đang sống." } }
+  ],
+  vocabQuiz: [
+    { q: "accountant nghĩa là gì?", opts: ["kế toán", "kỹ sư", "quản lý"], a: 0, why: { 1: "kỹ sư là engineer.", 2: "quản lý là manager." } },
+    { q: "colleague nghĩa là gì?", opts: ["đồng nghiệp", "công ty", "danh thiếp"], a: 0, why: { 1: "công ty là company.", 2: "danh thiếp là business card." } },
+    { q: "Chọn từ đúng: I work ___ an engineer.", opts: ["as", "like", "in"], a: 0, why: { 1: "work like = làm việc giống như; nói nghề dùng work as.", 2: "work in + lĩnh vực/bộ phận (work in sales), không đứng trước a/an + nghề." } },
+    { q: "Câu nào dùng để hỏi lại người đối diện?", opts: ["What about you?", "Nice to meet you.", "I'm new here."], a: 0, why: { 1: "Đây là câu chào làm quen.", 2: "Đây là câu nói về bản thân." } },
+    { q: "hometown nghĩa là gì?", opts: ["quê", "thành phố lớn", "nhà riêng"], a: 0, why: { 1: "thành phố lớn là big city.", 2: "nhà riêng là home/house." } },
+    { q: "Điền a hoặc an: I'm ___ engineer.", opts: ["a", "an"], a: 1, why: { 0: "engineer bắt đầu bằng âm nguyên âm /e/ nên dùng an." } },
+    { q: "Điền a hoặc an: She's ___ teacher.", opts: ["a", "an"], a: 0, why: { 1: "teacher bắt đầu bằng phụ âm /t/ nên dùng a." } },
+    { q: "team nghĩa là gì?", opts: ["nhóm, bộ phận", "cuộc họp", "giám đốc"], a: 0, why: { 1: "cuộc họp là meeting.", 2: "giám đốc là director." } },
+    { q: "business card nghĩa là gì?", opts: ["danh thiếp", "thẻ ngân hàng", "hợp đồng"], a: 0, why: { 1: "thẻ ngân hàng là bank card.", 2: "hợp đồng là contract." } },
+    { q: "Câu nào giới thiệu một người khác?", opts: ["This is Mai.", "I'm Mai.", "Are you Mai?"], a: 0, why: { 1: "I'm Mai là tự giới thiệu chính mình.", 2: "Đây là câu hỏi, không phải giới thiệu." } }
+  ],
+  sound: [
+    { q: "Âm nào được nhấn trong accountant?", audio: "accountant", opts: ["AC-coun-tant", "ac-COUN-tant", "ac-coun-TANT"], a: 1,
+      why: { 0: "Người Việt hay nhấn âm đầu. Từ này nhấn âm 2; âm đầu đọc nhẹ /ə/.", 2: "Đuôi -tant không nhận trọng âm." } },
+    { q: "Âm nào được nhấn trong engineer?", audio: "engineer", opts: ["EN-gi-neer", "en-GI-neer", "en-gi-NEER"], a: 2,
+      why: { 0: "Từ có đuôi -eer luôn nhấn vào chính đuôi -eer.", 1: "Từ có đuôi -eer luôn nhấn vào chính đuôi -eer." } },
+    { q: "Âm nào được nhấn trong assistant?", audio: "assistant", opts: ["AS-sis-tant", "as-SIS-tant"], a: 1,
+      why: { 0: "Âm đầu as- đọc nhẹ /ə/; trọng âm ở SIS." } },
+    { q: "Âm nào được nhấn trong manager?", audio: "manager", opts: ["MA-na-ger", "ma-NA-ger"], a: 0,
+      why: { 1: "manager nhấn âm đầu: MAN-a-ger." } },
+    { q: "Âm nào được nhấn trong designer?", audio: "designer", opts: ["DE-sig-ner", "de-SIG-ner"], a: 1,
+      why: { 0: "Âm de- đọc nhẹ /dɪ/; nhấn SIGN /zaɪn/." } },
+    { q: "Âm nào được nhấn trong colleague?", audio: "colleague", opts: ["COL-league", "col-LEAGUE"], a: 0,
+      why: { 1: "colleague nhấn âm đầu: COL-league." } },
+    { q: "Chữ s cuối trong works đọc là gì?", audio: "She works in sales.", opts: ["/s/", "/z/"], a: 0,
+      why: { 1: "k là âm vô thanh, nên s sau nó đọc /s/." } },
+    { q: "Chữ s cuối trong teams đọc là gì?", audio: "Our teams are big.", opts: ["/s/", "/z/"], a: 1,
+      why: { 0: "m là âm hữu thanh, nên s sau nó đọc /z/." } },
+    { q: "Chữ s cuối trong students đọc là gì?", audio: "They are students.", opts: ["/s/", "/z/"], a: 0,
+      why: { 1: "t là âm vô thanh, nên s sau nó đọc /s/." } },
+    { q: "Chữ s cuối trong sales đọc là gì?", audio: "I work in sales.", opts: ["/s/", "/z/"], a: 1,
+      why: { 0: "l là âm hữu thanh, nên s sau nó đọc /z/." } }
+  ],
+  cloze: [
+    { q: "I ___ an accountant.", accept: /^(am|'m|m)$/, model: "am",
+      diag: [[/^is$/, "is", "Với chủ ngữ I, động từ be là am (I am / I'm). is dùng cho he, she, it."], [/^are$/, "are", "are dùng cho you, we, they. Với I dùng am."]] },
+    { q: "I'm ___ engineer.", accept: /^an$/, model: "an",
+      diag: [[/^a$/, "a", "engineer bắt đầu bằng âm nguyên âm /e/, nên dùng an."]] },
+    { q: "I work ___ a sales assistant.", accept: /^as$/, model: "as",
+      diag: [[/^like$/, "like", "work like = làm giống như. Nói nghề: work as + a/an + nghề."], [/^in$/, "in", "work in + lĩnh vực (work in sales). Trước a/an + nghề dùng as."]] },
+    { q: "Where ___ you from?", accept: /^are$/, model: "are",
+      diag: [[/^do$/, "do", "Hỏi quê dùng be: Where are you from? Không dùng do."], [/^is$/, "is", "Chủ ngữ you đi với are."]] },
+    { q: "What ___ you do?", accept: /^do$/, model: "do",
+      diag: [[/^are$/, "are", "What do you do? = Bạn làm nghề gì. What are you doing? = Bạn đang làm gì (lúc này)."]] },
+    { q: "I'm ___ Hanoi.", accept: /^from$/, model: "from",
+      diag: [[/^in$/, "in", "I'm in Hanoi = tôi đang ở Hà Nội. Nói quê dùng I'm from Hanoi."]] },
+    { q: "She ___ a teacher.", accept: /^(is|'s|s)$/, model: "is",
+      diag: [[/^are$/, "are", "Chủ ngữ she đi với is."], [/^am$/, "am", "am chỉ dùng với I."]] },
+    { q: "___ you a student?", accept: /^are$/, model: "Are",
+      diag: [[/^do$/, "do", "Câu hỏi với danh từ (a student) dùng be: Are you a student?"], [/^is$/, "is", "Chủ ngữ you đi với are."]] },
+    { q: "No, I'm ___.", accept: /^not$/, model: "not",
+      diag: [[/^no$/, "no", "Phủ định sau be dùng not: I'm not."], [/^don'?t$/, "don't", "don't đi với động từ thường. Sau I'm dùng not."]] },
+    { q: "He works ___ marketing.", accept: /^in$/, model: "in",
+      diag: [[/^as$/, "as", "work as + a/an + nghề; work in + lĩnh vực hoặc bộ phận (marketing, sales)."]] },
+    { q: "This ___ Tom. He's my new colleague.", accept: /^(is|'s)$/, model: "is",
+      diag: [[/^are$/, "are", "This (một người) đi với is."]] },
+    { q: "Nice to meet you ___.", accept: /^too$/, model: "too",
+      diag: [[/^(to|two)$/, "to", "Đáp lời chào dùng too (cũng vậy): Nice to meet you too."], [/^also$/, "also", "also không đứng cuối câu kiểu này; dùng too."]] }
+  ],
+  order: [
+    { tokens: ["I", "work", "as", "a", "designer"], explain: "Chủ ngữ + work as + a/an + nghề." },
+    { tokens: ["Where", "are", "you", "from", "?"], explain: "Từ hỏi Where đứng đầu, rồi động từ are, rồi chủ ngữ you, from đứng cuối." },
+    { tokens: ["What", "do", "you", "do", "?"], explain: "Từ hỏi + trợ động từ do + chủ ngữ + động từ do (làm nghề)." },
+    { tokens: ["I'm", "not", "a", "student"], explain: "not đứng ngay sau I'm; a đứng trước nghề." },
+    { tokens: ["This", "is", "my", "colleague", "Mai"], explain: "Giới thiệu người khác: This is + my + quan hệ + tên." },
+    { tokens: ["Nice", "to", "meet", "you", "too"], explain: "too (cũng vậy) đứng cuối câu đáp lời chào." }
+  ],
+  speak: [
+    { q: "Xin chào, tôi tên là … (dùng tên bạn).", accept: /^(hi|hello),? (i'm|im|i am|my name is|my name's) [a-z].*$/, model: "Hi, I'm An.",
+      parts: [[/^(hi|hello)/, "lời chào Hi hoặc Hello ở đầu câu"], [/(i'm|im|i am|my name is|my name's) [a-z]/, "I'm + tên (hoặc My name is + tên)"]],
+      diag: [[/my name (?!is |'s )[a-z]+/, /my name \w+/i, "Thiếu is: My name is An (hoặc I'm An)."], [/i'?m name/, /I'?m name/i, "Nói I'm An hoặc My name is An, không nói I'm name."]] },
+    { q: "Tôi đến từ Hà Nội.", accept: /^(i'm|im|i am) from hanoi$|^i come from hanoi$/, model: "I'm from Hanoi.",
+      diag: [[/^i from/, /I from/i, "Thiếu động từ be: I'm from Hanoi."], [/i'?m come from|i am come/, /I'?m come|I am come/i, "Không dùng I'm và come cùng lúc. Nói I'm from… hoặc I come from…"], [/(i'm|i am) in hanoi/, /in Hanoi/i, "I'm in Hanoi = đang ở Hà Nội. Nói quê dùng from."]] },
+    { q: "Tôi làm kế toán.", accept: /^(i'm|im|i am) an accountant$|^i work as an accountant$/, model: "I'm an accountant.",
+      diag: [[/(i'm|im|i am) work/, /I'?m work|I am work/i, "Không nói I'm work. Chọn một trong hai: I'm an accountant hoặc I work as an accountant."], [/(i'm|im|i am|as) accountant/, /accountant/i, "Thiếu mạo từ: trước nghề số ít cần a/an → an accountant."], [/ a accountant/, /a accountant/i, "accountant bắt đầu bằng nguyên âm nên dùng an, không dùng a."]] },
+    { q: "Bạn làm nghề gì?", accept: /^what do you do$|^what's your job$|^what is your job$/, model: "What do you do?",
+      diag: [[/^what you do$/, /What you do/i, "Thiếu trợ động từ do: What do you do?"], [/^what are you doing$/, /are you doing/i, "What are you doing? = bạn đang làm gì lúc này. Hỏi nghề: What do you do?"]] },
+    { q: "Còn bạn thì sao?", accept: /^(what|how) about you$|^and you$/, model: "What about you?",
+      diag: [[/^about you$/, /about you/i, "Thiếu từ hỏi: What about you?"]] },
+    { q: "Tôi không phải sinh viên.", accept: /^(i'm|im|i am) not a student$/, model: "I'm not a student.",
+      diag: [[/not student/, /not student/i, "Thiếu a trước student: I'm not a student."], [/i don'?t student|i'm don'?t/, /don'?t/i, "Phủ định với be dùng not: I'm not a student. don't dùng với động từ thường."]] },
+    { q: "Bạn đến từ đâu?", accept: /^where are you from$|^where do you come from$/, model: "Where are you from?",
+      diag: [[/^where you from$/, /where you/i, "Thiếu động từ are: Where are you from?"], [/^where do you from$/, /do you from/i, "Đi với from dùng are: Where are you from? (hoặc Where do you come from?)."]] },
+    { q: "Đây là Mai, đồng nghiệp mới của tôi.", accept: /^this is mai,? my new colleague$/, model: "This is Mai, my new colleague.",
+      diag: [[/^here is mai/, /Here is/i, "Giới thiệu người: This is Mai. Here is dùng khi đưa đồ vật."], [/colleague new|new my/, /colleague new|new my/i, "Thứ tự: my + new + colleague (tính từ đứng trước danh từ)."]] },
+    { q: "Rất vui được gặp bạn.", accept: /^(nice|great|good) to meet you( too)?$/, model: "Nice to meet you.",
+      diag: [[/meeting you$/, /meeting/i, "Lúc mới gặp dùng Nice to meet you. Nice meeting you dùng khi chào tạm biệt."], [/^nice meet you/, /nice meet/i, "Thiếu to: Nice to meet you."]] },
+    { q: "Tôi làm việc ở bộ phận bán hàng.", accept: /^i work in (the )?sales( department| team)?$/, model: "I work in sales.",
+      diag: [[/(i'm|im|i am) work/, /I'?m work|I am work/i, "Không nói I'm work. Nói I work in sales."], [/work as sales/, /as sales/i, "work as + nghề; bộ phận dùng work in sales."]] },
+    { q: "(Câu khoá trạm 2) Chào bạn, tôi là … Tôi là người mới ở đây.", accept: /^(hi|hello),? (i'm|im|i am) [a-z]+\.? ?(i'm|im|i am) new here$/, model: "Hi, I'm An. I'm new here.",
+      parts: [[/^(hi|hello)/, "lời chào Hi/Hello"], [/(i'm|im|i am) [a-z]+/, "I'm + tên"], [/new here$/, "I'm new here ở cuối"]],
+      diag: [[/(i'm|im|i am) a new here/, /a new here/i, "new là tính từ, không có a: I'm new here."]] },
+    { q: "(Câu khoá trạm 2) Bạn ở nhóm nào?", accept: /^which team are you (on|in)$/, model: "Which team are you on?",
+      diag: [[/^which team you are/, /team you are/i, "Câu hỏi đảo động từ lên trước chủ ngữ: Which team are you on?"], [/^what team/, /What team/i, "What team cũng hiểu được, nhưng Which team tự nhiên hơn khi chọn trong các nhóm của công ty. Thử dùng Which."]] },
+    { q: "(Câu khoá trạm 2) Rất vui được gặp bạn. Hẹn gặp lại nhé!", accept: /^(nice|great) to meet you,?\.? ?see you( around| later)?$/, model: "Nice to meet you. See you around!",
+      parts: [[/to meet you/, "Nice to meet you"], [/see you/, "See you (around/later)"]] }
+  ],
+  reading: {
+    text: [
+      ["Linh Tran", "Accountant at ABC Logistics · From Da Nang, based in Hanoi. I love numbers and coffee."],
+      ["Kevin Brown", "English teacher · From Sydney, Australia. Living in Hanoi since 2023."],
+      ["Mai Pham", "Final-year student, Hanoi University · Looking for a marketing internship."]
+    ],
+    bridge: "Bản tiếng Việt: Linh Trần, kế toán ở ABC Logistics, quê Đà Nẵng, sống và làm việc ở Hà Nội. Kevin Brown, giáo viên tiếng Anh, đến từ Sydney, sống ở Hà Nội từ 2023. Mai Phạm, sinh viên năm cuối Đại học Hà Nội, đang tìm chỗ thực tập marketing.",
+    qs: [
+      { q: "Ai là sinh viên?", opts: ["Linh", "Kevin", "Mai"], a: 2, why: { 0: "Linh là Accountant (kế toán).", 1: "Kevin là English teacher." } },
+      { q: "Linh quê ở đâu?", opts: ["Hà Nội", "Đà Nẵng"], a: 1, why: { 0: "based in Hanoi = sống và làm việc ở Hà Nội. Quê là From Da Nang." } },
+      { q: "Ai làm việc trong trường học?", opts: ["Kevin", "Linh", "Mai"], a: 0, why: { 1: "Linh làm ở công ty logistics.", 2: "Mai là sinh viên, chưa đi làm." } },
+      { q: "Mai đang tìm gì?", opts: ["Việc làm toàn thời gian", "Chỗ thực tập marketing", "Lớp học tiếng Anh"], a: 1, why: { 0: "internship = thực tập, không phải việc toàn thời gian.", 2: "Hồ sơ không nhắc lớp học." } }
+    ]
+  },
+  writing: {
+    task: "Viết email ngắn (3–5 câu) chào một đồng nghiệp mới tên Tom. Có: lời chào, tên bạn, nghề hoặc bộ phận của bạn, một câu hỏi lại Tom, lời kết.",
+    sample: "Hi Tom,\nI'm An. I'm an accountant in the finance team.\nWelcome to the company! Which team are you on?\nBest,\nAn",
+    criteria: [
+      [/^(hi|hello|dear) /, "Lời chào ở đầu: Hi Tom / Hello Tom"],
+      [/(i'm|im|i am|my name is) [a-z]/, "Giới thiệu tên: I'm … / My name is …"],
+      [/(i'm|im|i am) (a|an) [a-z]+|i work (as|in) [a-z]+/, "Nghề hoặc bộ phận: I'm a/an … / I work as … / I work in …"],
+      [/\?/, "Ít nhất một câu hỏi lại Tom (có dấu ?)", true],
+      [/(best|regards|see you|thanks|cheers)/, "Lời kết: Best, / Regards, / See you soon"]
+    ],
+    errors: [
+      [/(i'm|im|i am) work/, /I'?m work|I am work/i, "Không nói I'm work. Dùng I work in … hoặc I'm a/an …"],
+      [/(i'm|im|i am) (accountant|engineer|teacher|designer|manager|student)/, /I'?m (accountant|engineer|teacher|designer|manager|student)|I am (accountant|engineer|teacher|designer|manager|student)/i, "Thiếu a/an trước nghề: I'm an accountant, I'm a teacher."],
+      [/ a (accountant|engineer|assistant)/, / a (accountant|engineer|assistant)/i, "Trước nguyên âm dùng an: an accountant, an engineer."],
+      [/where you from/, /where you from/i, "Thiếu are: Where are you from?"]
+    ]
+  },
+  test: [
+    { k: "mc", s: "Nghe", audio: "I'm an engineer.", q: "Người nói làm nghề gì?", opts: ["Kỹ sư", "Kế toán", "Giáo viên"], a: 0, why: { 1: "Kế toán là accountant; câu nghe là engineer.", 2: "Giáo viên là teacher." } },
+    { k: "mc", s: "Nghe", audio: "I'm from Sydney.", q: "Người nói đến từ đâu?", opts: ["Sydney", "Hà Nội", "Manchester"], a: 0, why: { 1: "Câu nghe nói Sydney.", 2: "Câu nghe nói Sydney." } },
+    { k: "mc", s: "Nghe", audio: "What do you do?", q: "Câu này hỏi gì?", opts: ["Nghề", "Quê", "Tên"], a: 0, why: { 1: "Hỏi quê là Where are you from?", 2: "Hỏi tên là What's your name?" } },
+    { k: "mc", s: "Nghe", audio: "Nice to meet you too.", q: "Câu này dùng để làm gì?", opts: ["Đáp lại lời chào làm quen", "Chào tạm biệt", "Hỏi lại"], a: 0, why: { 1: "Chào tạm biệt là See you / Goodbye.", 2: "Hỏi lại là What about you?" } },
+    { k: "mc", s: "Nghe", audio: "No, I'm not a student.", q: "Người nói có phải sinh viên không?", opts: ["Có", "Không"], a: 1, why: { 0: "Câu nghe có not: No, I'm not a student." } },
+    { k: "mc", s: "Từ vựng", q: "manager nghĩa là gì?", opts: ["quản lý", "kỹ sư", "nhân viên"], a: 0, why: { 1: "kỹ sư là engineer.", 2: "nhân viên là staff/employee." } },
+    { k: "mc", s: "Từ vựng", q: "designer nghĩa là gì?", opts: ["nhà thiết kế", "người lái xe", "nhà báo"], a: 0, why: { 1: "người lái xe là driver.", 2: "nhà báo là journalist." } },
+    { k: "mc", s: "Từ vựng", q: "colleague nghĩa là gì?", opts: ["đồng nghiệp", "khách hàng", "sếp"], a: 0, why: { 1: "khách hàng là customer/client.", 2: "sếp là boss/manager." } },
+    { k: "mc", s: "Từ vựng", q: "Điền: I'm ___ here. (người mới)", opts: ["new", "news", "a new"], a: 0, why: { 1: "news = tin tức.", 2: "new là tính từ, không đi với a ở câu này." } },
+    { k: "mc", s: "Từ vựng", q: "business card nghĩa là gì?", opts: ["danh thiếp", "thẻ nhân viên", "hoá đơn"], a: 0, why: { 1: "thẻ nhân viên là staff ID card.", 2: "hoá đơn là invoice." } },
+    { k: "type", s: "Ngữ pháp", q: "I ___ from Da Nang.", accept: /^(am|'m)$/, model: "am", diag: [[/^is$/, "is", "Với I dùng am."], [/^are$/, "are", "Với I dùng am."]] },
+    { k: "type", s: "Ngữ pháp", q: "She is ___ accountant.", accept: /^an$/, model: "an", diag: [[/^a$/, "a", "accountant bắt đầu bằng nguyên âm nên dùng an."]] },
+    { k: "type", s: "Ngữ pháp", q: "What ___ you do?", accept: /^do$/, model: "do", diag: [[/^are$/, "are", "Hỏi nghề: What do you do?"]] },
+    { k: "type", s: "Ngữ pháp", q: "He works ___ a teacher.", accept: /^as$/, model: "as", diag: [[/^in$/, "in", "Trước a/an + nghề dùng as."], [/^like$/, "like", "Nói nghề dùng work as."]] },
+    { k: "type", s: "Ngữ pháp", q: "___ you from Hanoi?", accept: /^are$/, model: "Are", diag: [[/^do$/, "do", "Đi với from dùng be: Are you from Hanoi?"]] },
+    { k: "free", s: "Nói", q: "Tự giới thiệu (gõ lại đúng những gì bạn sẽ nói).", m1: "Mức 1: 3–4 câu gồm tên, quê, nghề.", m2: "Mức 2: khoảng 6 câu gồm tên, quê, nghề, và hỏi lại người nghe 2 câu.",
+      criteria: [[/(i'm|im|i am|my name is) [a-z]/, "Tên: I'm … / My name is …"], [/from [a-z]/, "Quê: I'm from …"], [/(i'm|im|i am) (a|an) [a-z]+|i work (as|in) [a-z]+/, "Nghề: I'm a/an … / I work as …"], [/\?.*\?/, "Hai câu hỏi lại người nghe (Mức 2)", false, 2]],
+      errors: [[/(i'm|im|i am) work/, /I'?m work|I am work/i, "Không nói I'm work."], [/(i'm|im|i am) (accountant|engineer|teacher|designer|manager|student)\b/, /I'?m (accountant|engineer|teacher|designer|manager|student)|I am (accountant|engineer|teacher|designer|manager|student)/i, "Thiếu a/an trước nghề."], [/where you from/, /where you from/i, "Thiếu are: Where are you from?"]] }
+  ],
+  roleplay: {
+    base: {
+      title: "Ngày đầu đi làm: gặp đồng nghiệp mới Tom",
+      partner: "Tom · đồng nghiệp nhóm marketing",
+      turns: [
+        { ai: "Hi! I'm Tom, from the marketing team. You must be new here. What's your name?", vi: "Chào! Mình là Tom, nhóm marketing. Chắc bạn là người mới. Bạn tên gì?",
+          frame: "Hi Tom, I'm ___. / My name is ___.", tag: "ten",
+          need: [[/(i'm|im|i am|my name is|my name's|call me) [a-z]/, "tên của bạn với I'm … hoặc My name is …"]],
+          diag: [[/my name [a-z]+$/, /my name \w+/i, "Thiếu is: My name is An."], [/i'm name/, /I'm name/i, "Nói I'm An hoặc My name is An."]],
+          model: "Hi Tom, I'm An.", praise: "Rõ ràng: chào lại và nói tên." },
+        { ai: "Nice to meet you! Where are you from?", vi: "Rất vui được gặp bạn! Bạn đến từ đâu?",
+          frame: "Nice to meet you too. I'm from ___.", tag: "que",
+          need: [[/from [a-z]/, "quê của bạn với I'm from …"]],
+          diag: [[/^i from|\bi from/, /I from/i, "Thiếu am: I'm from Hanoi."], [/i'?m come from|i am come/, /I'?m come|I am come/i, "Không dùng I'm + come. Nói I'm from… hoặc I come from…"]],
+          model: "Nice to meet you too. I'm from Hanoi.", praise: "Đúng mẫu I'm from + nơi." },
+        { ai: "Cool. And what do you do? Which team are you joining?", vi: "Hay quá. Bạn làm nghề gì? Bạn vào nhóm nào?",
+          frame: "I'm a/an ___. / I work in ___.", tag: "nghe",
+          need: [[/(i'm|im|i am) (a|an) [a-z]+|i work (as|in|for) [a-z]+|i'?m (in|on|joining) (the )?[a-z]+ team|i'm joining/, "nghề hoặc nhóm của bạn: I'm a/an … / I work in …"]],
+          diag: [[/(i'm|im|i am) work/, /I'?m work|I am work/i, "Không nói I'm work. Dùng I work in sales hoặc I'm an accountant."], [/(i'm|im|i am) (accountant|engineer|teacher|designer|manager|student|assistant)\b/, /I'?m (accountant|engineer|teacher|designer|manager|student|assistant)|I am (accountant|engineer|teacher|designer|manager|student|assistant)/i, "Thiếu a/an trước nghề: I'm an accountant."], [/ a (accountant|engineer|assistant)/, / a (accountant|engineer|assistant)/i, "Trước nguyên âm dùng an."]],
+          model: "I'm an accountant. I'm joining the finance team.", praise: "Có a/an trước nghề." },
+        { m2: true, ai: "Sorry, did you say you're in sales?", vi: "Xin lỗi, bạn nói bạn ở bộ phận bán hàng à?", frame: "", tag: "phatsinh",
+          need: [[/^(no|yes|actually|sorry)/, "trả lời Yes/No trước"], [/(i'm|im|i am) (a|an) [a-z]+|i work (as|in) [a-z]+|(finance|sales|marketing|it|hr) team/, "nhắc lại nghề hoặc nhóm cho rõ"]],
+          diag: [[/(i'm|im|i am) work/, /I'?m work|I am work/i, "Không nói I'm work."]],
+          model: "No, I'm an accountant. I'm in the finance team.", praise: "Xử lý được hiểu lầm: phủ định rồi nói lại cho rõ." },
+        { ai: "Got it.", vi: "(Tom chờ bạn hỏi lại.) Hãy hỏi lại Tom một câu.", frame: "What about you? / Where are you from?", tag: "hoilai",
+          need: [[/\?|what about you|how about you|and you|where are you from|what do you do|which team/, "một câu hỏi lại Tom"]],
+          diag: [[/where you from/, /where you from/i, "Thiếu are: Where are you from?"], [/what you do/, /what you do/i, "Thiếu do: What do you do?"]],
+          model: "What about you? Where are you from?", praise: "Bạn chủ động hỏi lại: đúng tiêu chí Tương tác." },
+        { ai: "Me? I'm from Manchester, in the UK. Great to meet you!", vi: "Mình à? Mình đến từ Manchester, ở Anh. Rất vui được gặp bạn!", frame: "Great to meet you too. See you around!", tag: "chao",
+          need: [[/(nice|great|good) to meet you|see you/, "lời chào kết: Great to meet you too / See you around"]],
+          m2need: [[/manchester/, "nhắc lại thông tin của Tom (Manchester) để cho thấy bạn đã nghe"]],
+          diag: [[/nice meet you/, /nice meet/i, "Thiếu to: Nice to meet you."]],
+          model: "Oh, Manchester! Great to meet you too. See you around!", praise: "Kết thúc lịch sự." }
+      ]
+    },
+    variant: {
+      title: "Biến thể trang trọng: gặp đối tác lần đầu",
+      partner: "Sarah Lee · quản lý mua hàng, Bright Logistics",
+      turns: [
+        { ai: "Good morning. I'm Sarah Lee from Bright Logistics. And you are…?", vi: "Chào buổi sáng. Tôi là Sarah Lee, công ty Bright Logistics. Còn anh/chị là…?",
+          frame: "Good morning. I'm ___ from ___.", tag: "ten",
+          need: [[/(i'm|im|i am|my name is) [a-z]/, "tên của bạn"], [/^(good morning|hello|hi|nice)/, "lời chào lại (Good morning)"]],
+          m2need: [[/from [a-z]/, "tên công ty hoặc nơi làm (from …)"]],
+          diag: [[/my name [a-z]+$/, /my name \w+/i, "Thiếu is: My name is …"]], model: "Good morning. I'm An from Sao Viet Trading.", praise: "Chào trang trọng, đúng hoàn cảnh." },
+        { ai: "It's a pleasure to meet you. What's your role at your company?", vi: "Rất hân hạnh. Anh/chị phụ trách gì ở công ty?",
+          frame: "I'm a/an ___. / I work in ___.", tag: "nghe",
+          need: [[/(i'm|im|i am) (a|an|the) [a-z]+|i work (as|in) [a-z]+|i'm in charge of|i manage/, "vai trò hoặc nghề của bạn"]],
+          diag: [[/(i'm|im|i am) work/, /I'?m work|I am work/i, "Không nói I'm work."], [/(i'm|im|i am) (accountant|engineer|manager|assistant)\b/, /I'?m (accountant|engineer|manager|assistant)|I am (accountant|engineer|manager|assistant)/i, "Thiếu a/an/the trước nghề."]],
+          model: "I'm a purchasing assistant. I work in the import team.", praise: "Nói rõ vai trò." },
+        { ai: "That's great.", vi: "(Sarah chờ bạn hỏi lại.) Hỏi lại về vai trò của Sarah.", frame: "What about you? / What do you do at Bright Logistics?", tag: "hoilai",
+          need: [[/\?|what about you|and you|what do you do/, "một câu hỏi lại Sarah"]],
+          diag: [[/what you do/, /what you do/i, "Thiếu do: What do you do?"]], model: "What do you do at Bright Logistics?", praise: "Hỏi lại đúng mẫu câu Wh-." },
+        { ai: "I'm the purchasing manager. Here's my card.", vi: "Tôi là quản lý mua hàng. Đây là danh thiếp của tôi.", frame: "Thank you. Here's my card.", tag: "card",
+          need: [[/thank/, "lời cảm ơn khi nhận danh thiếp"]], m2need: [[/here'?s my card|here is my card/, "đưa lại danh thiếp: Here's my card"]],
+          diag: [], model: "Thank you. Here's my card.", praise: "Đúng phép lịch sự khi trao danh thiếp." },
+        { ai: "It was nice meeting you. I'll email you this week.", vi: "Rất vui được gặp. Tôi sẽ gửi email cho anh/chị trong tuần này.", frame: "Nice meeting you too. I look forward to your email.", tag: "chao",
+          need: [[/(nice|pleasure|great) (meeting|to meet) you|look forward|thank/, "lời chào kết"]],
+          diag: [], model: "Nice meeting you too. I look forward to your email.", praise: "Chào kết đúng: Nice meeting you dùng khi chia tay." }
+      ]
+    }
+  },
+  sheet: {
+    host: "Host: An chào hỏi tự nhiên, có nói được quê và nghề. Còn quên hỏi lại đối phương ở lượt đầu.",
+    native: "Tom (người nước ngoài): Friendly and clear! Remember: I work in sales, not I'm work in sales.",
+    scores: [["Hoàn thành nhiệm vụ", 3], ["Trôi chảy", 2], ["Chính xác", 2], ["Tương tác", 2], ["Phát âm", 3]],
+    fixes: [
+      { q: "Sửa câu An đã nói ở trạm: \"I'm work in sales.\"", accept: /^i work in sales$/, model: "I work in sales.", diag: [[/(i'm|im|i am) work/, /I'?m work|I am work/i, "Vẫn còn I'm + work. Bỏ 'm: I work in sales."]] },
+      { q: "Sửa câu An đã nói ở trạm: \"I'm accountant.\"", accept: /^(i'm|im|i am) an accountant$/, model: "I'm an accountant.", diag: [[/(i'm|im|i am) accountant/, /accountant/i, "Vẫn thiếu mạo từ trước accountant."], [/ a accountant/, /a accountant/i, "Trước nguyên âm dùng an."]] },
+      { q: "Sửa câu An đã nói ở trạm: \"Where you from?\"", accept: /^where are you from$/, model: "Where are you from?", diag: [[/where you from/, /where you/i, "Vẫn thiếu are giữa Where và you."]] }
+    ]
+  },
+  rules: {
+    A: "Nhìn nghĩa tiếng Việt, tự nhớ và gõ câu tiếng Anh trước khi xem đáp án. Câu bạn sai trong tuần sẽ tự quay lại đây.",
+    C: "Nghe một câu, dừng, nói to theo đúng nhịp. Mỗi câu nhại 3 lần, chú ý điểm phát âm ghi bên dưới.",
+    D: "Trọng âm: đuôi -eer nhấn chính nó (engin<b>EER</b>); phần lớn nghề 3 âm tiết nhấn âm 2 (ac<b>COUN</b>tant). Đuôi s: sau âm vô thanh (k, t, p, f) đọc /s/; sau âm hữu thanh (m, n, l, nguyên âm) đọc /z/.",
+    E: "Nghề số ít luôn có a/an: <b>a</b> + phụ âm (a teacher), <b>an</b> + nguyên âm (an engineer). work <b>as</b> + nghề; work <b>in</b> + bộ phận.",
+    B: "Nghe cả đoạn trước, rồi trả lời từng câu. Sai câu nào, trang chỉ ra câu thoại chứa thông tin để bạn nghe lại.",
+    F: "Câu hỏi Wh-: Từ hỏi + trợ động từ (are/do) + chủ ngữ + phần còn lại. Câu kể: Chủ ngữ + động từ + phần còn lại.",
+    G: "be: I <b>am</b>, you/we/they <b>are</b>, he/she/it <b>is</b>. Hỏi quê: Where <b>are</b> you from? Hỏi nghề: What <b>do</b> you do? Không bao giờ nói <s>I'm work</s>.",
+    H: "Đọc ý tiếng Việt, nói to câu tiếng Anh, rồi gõ đúng câu bạn vừa nói. Web thật sẽ ghi âm và chấm phát âm.",
+    I: "Trả lời đủ ý từng lượt. Sai thì trang chỉ chỗ sai, bạn sửa đúng lượt đó rồi mới đi tiếp.",
+    J: "Đọc 3 hồ sơ ngắn. Phân biệt <b>from</b> (quê) và <b>based in / living in</b> (nơi đang sống).",
+    K: "Viết đủ 5 phần theo danh sách. Bấm Kiểm tra: phần thiếu và lỗi sai được đánh dấu ngay trong bài.",
+    L: "16 câu: nghe 5, từ vựng 5, ngữ pháp 5, nói 1. Điểm tính theo lần làm đầu; sai vẫn được chỉ chỗ sai và làm lại.",
+    M: "Tự chấm thật lòng. Chọn Chưa thì trang chỉ bài cần làm lại trước Thứ Bảy.",
+    N: "Đọc nhận xét từ trạm, rồi tự sửa 3 lỗi của chính mình. Câu sửa đúng sẽ thành thẻ ôn tuần 2."
+  }
+};
+
+/* ---------------------------------------------------------------- TIẾNG TRUNG */
+DATA.zh = {
+  name: "Tiếng Trung", tts: "zh-CN",
+  cando: "Chào hỏi, giới thiệu tên, quê, nghề và hỏi lại người đối diện",
+  vocab: [
+    ["xin chào", "你好", "nǐ hǎo", "nihao"], ["tôi", "我", "wǒ", "wo"], ["bạn", "你", "nǐ", "ni"],
+    ["tên là, gọi là", "叫", "jiào", "jiao"], ["tên", "名字", "míngzi", "mingzi"], ["là", "是", "shì", "shi"],
+    ["người", "人", "rén", "ren"], ["Việt Nam", "越南", "Yuènán", "yuenan"], ["Trung Quốc", "中国", "Zhōngguó", "zhongguo"],
+    ["học sinh, sinh viên", "学生", "xuésheng", "xuesheng"], ["giáo viên", "老师", "lǎoshī", "laoshi"], ["làm việc, công việc", "工作", "gōngzuò", "gongzuo"],
+    ["gì, cái gì", "什么", "shénme", "shenme"], ["không (phủ định)", "不", "bù", "bu"], ["cũng", "也", "yě", "ye"],
+    ["Còn bạn?", "你呢", "nǐ ne", "nine"], ["Rất vui được làm quen với bạn", "很高兴认识你", "hěn gāoxìng rènshi nǐ", "hengaoxingrenshini"],
+    ["tạm biệt", "再见", "zàijiàn", "zaijian"], ["cảm ơn", "谢谢", "xièxie", "xiexie"], ["ngài, ông/bà (lịch sự)", "您", "nín", "nin"]
+  ],
+  dialogue: [
+    ["An", "你好！我叫阮安。你叫什么名字？", "Nǐ hǎo! Wǒ jiào Ruǎn Ān. Nǐ jiào shénme míngzi?", "Xin chào! Tôi tên là Nguyễn An. Bạn tên là gì?"],
+    ["Lệ", "你好！我叫王丽。", "Nǐ hǎo! Wǒ jiào Wáng Lì.", "Xin chào! Tôi tên là Vương Lệ."],
+    ["An", "我是越南人。你呢？", "Wǒ shì Yuènán rén. Nǐ ne?", "Tôi là người Việt Nam. Còn bạn?"],
+    ["Lệ", "我是中国人。你是学生吗？", "Wǒ shì Zhōngguó rén. Nǐ shì xuésheng ma?", "Tôi là người Trung Quốc. Bạn là sinh viên à?"],
+    ["An", "不是，我工作。你呢？", "Bú shì, wǒ gōngzuò. Nǐ ne?", "Không phải, tôi đi làm. Còn bạn?"],
+    ["Lệ", "我是老师。很高兴认识你！", "Wǒ shì lǎoshī. Hěn gāoxìng rènshi nǐ!", "Tôi là giáo viên. Rất vui được làm quen!"]
+  ],
+  dialogue2: [
+    ["Minh", "你好！我叫阮明。", "Nǐ hǎo! Wǒ jiào Ruǎn Míng.", "Xin chào! Tôi tên là Nguyễn Minh."],
+    ["Lệ", "你好！我叫王丽。你是中国人吗？", "Nǐ hǎo! Wǒ jiào Wáng Lì. Nǐ shì Zhōngguó rén ma?", "Xin chào! Tôi là Vương Lệ. Bạn là người Trung Quốc à?"],
+    ["Minh", "不是，我是越南人。你呢？", "Bú shì, wǒ shì Yuènán rén. Nǐ ne?", "Không, tôi là người Việt Nam. Còn bạn?"],
+    ["Lệ", "我是中国人。你是老师吗？", "Wǒ shì Zhōngguó rén. Nǐ shì lǎoshī ma?", "Tôi là người Trung Quốc. Bạn là giáo viên à?"],
+    ["Minh", "不是，我是学生。你呢？", "Bú shì, wǒ shì xuésheng. Nǐ ne?", "Không, tôi là sinh viên. Còn bạn?"],
+    ["Lệ", "我是老师。", "Wǒ shì lǎoshī.", "Tôi là giáo viên."]
+  ],
+  shadow: [
+    ["你好！我叫阮安。", "Nǐ hǎo! Wǒ jiào Ruǎn Ān.", "你好 là hai thanh 3 liền nhau: đọc thực tế ní hǎo (chữ đầu chuyển lên thanh 2)."],
+    ["你叫什么名字？", "Nǐ jiào shénme míngzi?", "么 và 字 đọc nhẹ (thanh nhẹ); 叫 thanh 4 dứt khoát đi xuống."],
+    ["我是越南人。", "Wǒ shì Yuènán rén.", "是 thanh 4: đọc gọn, đi xuống mạnh, không kéo dài như 'sư'."],
+    ["你呢？", "Nǐ ne?", "呢 thanh nhẹ, ngắn; giọng không vút lên như tiếng Việt khi hỏi."],
+    ["你是学生吗？", "Nǐ shì xuésheng ma?", "吗 thanh nhẹ. Câu hỏi có 吗 không cần lên giọng."],
+    ["不是，我工作。", "Bú shì, wǒ gōngzuò.", "不 trước thanh 4 (是) đổi thành thanh 2: bú shì."]
+  ],
+  listen1: [
+    { q: "An là người nước nào?", opts: ["Việt Nam", "Trung Quốc"], a: 0, line: 2, why: { 1: "An nói 我是越南人 (người Việt Nam). 中国人 là Lệ." } },
+    { q: "Lệ là người nước nào?", opts: ["Việt Nam", "Trung Quốc"], a: 1, line: 3, why: { 0: "Lệ nói 我是中国人 (người Trung Quốc)." } },
+    { q: "An có phải sinh viên không?", opts: ["Có", "Không, An đi làm"], a: 1, line: 4, why: { 0: "An trả lời 不是，我工作 = không phải, tôi đi làm." } },
+    { q: "Lệ làm nghề gì?", opts: ["Giáo viên", "Sinh viên", "Đi làm văn phòng"], a: 0, line: 5, why: { 1: "Lệ nói 我是老师: 老师 là giáo viên.", 2: "Đi làm (工作) là An." } },
+    { q: "Câu nào An dùng để hỏi tên Lệ?", opts: ["你叫什么名字？", "你呢？", "你是学生吗？"], a: 0, line: 0, why: { 1: "你呢 hỏi lại 'còn bạn?', không riêng về tên.", 2: "Câu này hỏi có phải sinh viên không." } }
+  ],
+  listen2: [
+    { q: "Minh là người nước nào?", opts: ["Việt Nam", "Trung Quốc"], a: 0, line: 2, why: { 1: "Minh nói 不是，我是越南人." } },
+    { q: "Ai hỏi câu 你是中国人吗？", opts: ["Lệ", "Minh"], a: 0, line: 1, why: { 1: "Câu này ở lượt của Lệ (王丽)." } },
+    { q: "Minh làm gì?", opts: ["Giáo viên", "Sinh viên"], a: 1, line: 4, why: { 0: "Minh trả lời 不是，我是学生 = không, tôi là sinh viên." } },
+    { q: "Lệ làm gì?", opts: ["Giáo viên", "Sinh viên"], a: 0, line: 5, why: { 1: "Lệ nói 我是老师." } },
+    { q: "Minh trả lời câu 你是老师吗？ thế nào?", opts: ["不是，我是学生。", "是，我是老师。"], a: 0, line: 4, why: { 1: "Minh phủ định bằng 不是." } },
+    { q: "你呢？ trong bài có nghĩa là gì?", opts: ["Còn bạn?", "Bạn là ai?"], a: 0, line: 2, why: { 1: "Bạn là ai là 你是谁; 你呢 là hỏi lại 'còn bạn?'." } }
+  ],
+  vocabQuiz: [
+    { q: "学生 nghĩa là gì?", opts: ["sinh viên, học sinh", "giáo viên", "công việc"], a: 0, why: { 1: "giáo viên là 老师.", 2: "công việc là 工作." } },
+    { q: "老师 nghĩa là gì?", opts: ["giáo viên", "người già", "học sinh"], a: 0, why: { 1: "老 có nghĩa 'già' khi đứng một mình, nhưng 老师 là giáo viên.", 2: "học sinh là 学生." } },
+    { q: "Muốn nói tên mình, dùng chữ nào?", opts: ["叫", "是", "人"], a: 0, why: { 1: "是 + danh từ chỉ thân phận (越南人, 老师). Nói tên tự nhiên nhất là 叫.", 2: "人 nghĩa là người." } },
+    { q: "名字 nghĩa là gì?", opts: ["tên", "chữ", "gì"], a: 0, why: { 1: "chữ là 字.", 2: "gì là 什么." } },
+    { q: "Câu hỏi có/không thêm chữ nào ở cuối?", opts: ["吗", "呢", "什么"], a: 0, why: { 1: "呢 dùng để hỏi lại 'còn bạn?' (你呢？).", 2: "什么 là từ để hỏi 'gì', đứng ở vị trí thông tin cần hỏi." } },
+    { q: "越南人 nghĩa là gì?", opts: ["người Việt Nam", "nước Việt Nam", "tiếng Việt"], a: 0, why: { 1: "nước Việt Nam là 越南.", 2: "tiếng Việt là 越南语." } },
+    { q: "工作 nghĩa là gì?", opts: ["làm việc", "học", "nghỉ"], a: 0, why: { 1: "học là 学习.", 2: "nghỉ là 休息." } },
+    { q: "也 nghĩa là gì?", opts: ["cũng", "không", "rất"], a: 0, why: { 1: "không là 不.", 2: "rất là 很." } },
+    { q: "Chữ nào đọc là bù và mang nghĩa phủ định?", opts: ["不", "也", "是"], a: 0, why: { 1: "也 (yě) là cũng.", 2: "是 (shì) là 'là'." } },
+    { q: "很高兴认识你 dùng khi nào?", opts: ["Khi mới làm quen", "Khi chia tay", "Khi xin lỗi"], a: 0, why: { 1: "Chia tay dùng 再见.", 2: "Xin lỗi là 对不起." } }
+  ],
+  sound: [
+    { q: "我 đọc thanh mấy?", audio: "我", opts: ["Thanh 1 (ā)", "Thanh 2 (á)", "Thanh 3 (ǎ)", "Thanh 4 (à)"], a: 2, why: { 0: "Thanh 1 đều và cao. 我 xuống thấp: wǒ, thanh 3.", 1: "Thanh 2 đi lên như dấu sắc. 我 xuống thấp: thanh 3.", 3: "Thanh 4 rơi mạnh từ cao. 我 xuống thấp rồi hơi lên: thanh 3." } },
+    { q: "是 đọc thanh mấy?", audio: "是", opts: ["Thanh 1 (ā)", "Thanh 2 (á)", "Thanh 3 (ǎ)", "Thanh 4 (à)"], a: 3, why: { 0: "是 không đều, nó rơi mạnh: thanh 4.", 1: "Thanh 2 đi lên; 是 đi xuống: thanh 4.", 2: "Thanh 3 xuống thấp và kéo; 是 rơi gọn từ cao xuống: thanh 4. Đây là lỗi hay gặp nhất tuần 1." } },
+    { q: "叫 đọc thanh mấy?", audio: "叫", opts: ["Thanh 1 (ā)", "Thanh 2 (á)", "Thanh 3 (ǎ)", "Thanh 4 (à)"], a: 3, why: { 0: "叫 rơi mạnh từ cao xuống: thanh 4.", 1: "叫 đi xuống, không đi lên: thanh 4.", 2: "Thanh 3 xuống thấp rồi kéo; 叫 rơi dứt khoát: thanh 4." } },
+    { q: "你 đọc thanh mấy (khi đứng một mình)?", audio: "你", opts: ["Thanh 1 (ā)", "Thanh 2 (á)", "Thanh 3 (ǎ)", "Thanh 4 (à)"], a: 2, why: { 0: "你 xuống thấp: nǐ, thanh 3.", 1: "Chỉ trong 你好 nó mới chuyển thành thanh 2. Đứng một mình là thanh 3.", 3: "你 không rơi mạnh như 是: thanh 3." } },
+    { q: "人 đọc thanh mấy?", audio: "人", opts: ["Thanh 1 (ā)", "Thanh 2 (á)", "Thanh 3 (ǎ)", "Thanh 4 (à)"], a: 1, why: { 0: "人 đi lên như dấu sắc: rén, thanh 2.", 2: "人 không xuống thấp; nó đi thẳng lên: thanh 2.", 3: "人 đi lên, không đi xuống: thanh 2." } },
+    { q: "中 đọc thanh mấy?", audio: "中", opts: ["Thanh 1 (ā)", "Thanh 2 (á)", "Thanh 3 (ǎ)", "Thanh 4 (à)"], a: 0, why: { 1: "中 giữ cao và đều: zhōng, thanh 1.", 2: "中 không xuống thấp: thanh 1.", 3: "中 không rơi: thanh 1." } },
+    { q: "老师 đọc theo cặp thanh nào?", audio: "老师", opts: ["3 + 1", "4 + 1", "3 + 4"], a: 0, why: { 1: "老 xuống thấp (thanh 3), không rơi mạnh.", 2: "师 giữ cao đều (thanh 1)." } },
+    { q: "越南 đọc theo cặp thanh nào?", audio: "越南", opts: ["4 + 2", "3 + 2", "4 + 4"], a: 0, why: { 1: "越 rơi mạnh từ cao: thanh 4.", 2: "南 đi lên: thanh 2." } },
+    { q: "你好 đọc thực tế thế nào?", audio: "你好", opts: ["ní hǎo (2 + 3)", "nǐ hǎo (3 + 3)", "nì hǎo (4 + 3)"], a: 0, why: { 1: "Hai thanh 3 đứng liền nhau thì chữ đầu đổi sang thanh 2. Viết nǐ hǎo nhưng đọc ní hǎo.", 2: "你 không đổi thành thanh 4." } },
+    { q: "不是 đọc thực tế thế nào?", audio: "不是", opts: ["bú shì (2 + 4)", "bù shì (4 + 4)"], a: 0, why: { 1: "不 đứng trước thanh 4 thì đổi thành thanh 2: bú shì." } }
+  ],
+  cloze: [
+    { q: "我___阮安。(Tôi tên là Nguyễn An.)", accept: /^(叫|jiao)$/, model: "叫",
+      diag: [[/^(是|shi)$/, "是", "Dùng được 我是阮安 khi xác nhận danh tính, nhưng câu tự giới thiệu tên tự nhiên nhất là 叫 + tên. Tuần này luyện 叫."]] },
+    { q: "我___越南人。(Tôi là người Việt Nam.)", accept: /^(是|shi)$/, model: "是",
+      diag: [[/^(叫|jiao)$/, "叫", "叫 chỉ đứng trước tên. Nói quốc tịch dùng 是 + 越南人."]] },
+    { q: "你是学生___？(Bạn là sinh viên à?)", accept: /^(吗|ma)$/, model: "吗",
+      diag: [[/^(呢|ne)$/, "呢", "Câu hỏi có/không kết thúc bằng 吗. 呢 dùng khi hỏi lại 'còn bạn?' (你呢？)."]] },
+    { q: "我是越南人。你___？(Còn bạn?)", accept: /^(呢|ne)$/, model: "呢",
+      diag: [[/^(吗|ma)$/, "吗", "你吗 không thành câu. Hỏi lại 'còn bạn?' dùng 你呢？"]] },
+    { q: "你叫___名字？(Bạn tên là gì?)", accept: /^(什么|shenme)$/, model: "什么",
+      diag: [[/^(吗|ma)$/, "吗", "Câu đã có từ để hỏi thì không thêm 吗. Cần từ để hỏi 'gì': 什么."]] },
+    { q: "我___是学生，我工作。(Tôi không phải sinh viên, tôi đi làm.)", accept: /^(不|bu)$/, model: "不",
+      diag: [[/^(没|mei)$/, "没", "没 phủ định cho 'có' (没有). Phủ định 是 luôn dùng 不: 不是."]] },
+    { q: "我___高兴认识你。(Tôi rất vui được làm quen với bạn.)", accept: /^(很|hen)$/, model: "很",
+      diag: [[/^(是|shi)$/, "是", "Trước tính từ (高兴) không dùng 是. Dùng 很: 我很高兴. Đây là lỗi hay gặp tuần 1."]] },
+    { q: "你是中国人___？——是，我是中国人。", accept: /^(吗|ma)$/, model: "吗",
+      diag: [[/^(呢|ne)$/, "呢", "Câu hỏi có/không dùng 吗."]] },
+    { q: "我___是越南人。(Tôi cũng là người Việt Nam.)", accept: /^(也|ye)$/, model: "也",
+      diag: [[/^(很|hen)$/, "很", "很 là 'rất', đứng trước tính từ. 'Cũng' là 也, đứng trước 是."]] },
+    { q: "——你是老师吗？——不___，我是学生。", accept: /^(是|shi)$/, model: "是",
+      diag: [[/^(叫|jiao)$/, "叫", "Trả lời câu hỏi có 是 thì phủ định bằng 不是."]] },
+    { q: "她叫什么名字？——她___王丽。(她 = cô ấy)", accept: /^(叫|jiao)$/, model: "叫",
+      diag: [[/^(是|shi)$/, "是", "Câu hỏi dùng 叫 thì trả lời cũng dùng 叫 + tên."]] },
+    { q: "很高兴___你！(Rất vui được làm quen với bạn!)", accept: /^(认识|renshi)$/, model: "认识",
+      diag: [[/^(见|jian)$/, "见", "见 là 'gặp'. 'Làm quen' trong câu này là 认识 (rènshi)."]] }
+  ],
+  order: [
+    { tokens: ["我", "叫", "阮安"], explain: "Chủ ngữ + 叫 + tên." },
+    { tokens: ["你", "叫", "什么", "名字", "？"], explain: "什么 đứng ngay trước 名字 (tên gì), không đứng cuối câu như tiếng Việt." },
+    { tokens: ["你", "是", "学生", "吗", "？"], explain: "吗 luôn đứng cuối câu hỏi có/không." },
+    { tokens: ["我", "不", "是", "老师"], explain: "不 đứng ngay trước 是: 不是." },
+    { tokens: ["我", "也", "是", "越南人"], explain: "也 (cũng) đứng sau chủ ngữ, trước động từ 是. Không đặt cuối câu như 'cũng vậy'." },
+    { tokens: ["很", "高兴", "认识", "你"], explain: "很 + 高兴 (rất vui) + 认识你 (làm quen với bạn)." }
+  ],
+  speak: [
+    { q: "Xin chào! Tôi tên là … (dùng tên bạn).", accept: /^(你好|nihao)?(我叫|wojiao).+$/, model: "你好！我叫阮安。", py: "nihaowojiaoruanan",
+      parts: [[/(你好|nihao)/, "lời chào 你好"], [/(我叫|wojiao)./, "我叫 + tên"]],
+      diag: [[/(我是叫|woshijiao)/, "是叫", "Thừa 是: không nói 我是叫. Nói 我叫 + tên."], [/(我名字|womingzi)/, "我名字", "Câu tiếng Việt 'tên tôi là' không dịch từng chữ. Dùng 我叫 + tên."]] },
+    { q: "Tôi là người Việt Nam.", accept: /^(我是越南人|woshiyuenanren)$/, model: "我是越南人。", py: "woshiyuenanren",
+      diag: [[/(越南|yuenan)$/, "越南", "越南 là nước Việt Nam. Người Việt Nam phải thêm 人: 越南人."], [/(我叫越南|wojiaoyuenan)/, "叫", "叫 chỉ dùng trước tên. Quốc tịch dùng 是."]] },
+    { q: "Bạn tên là gì?", accept: /^(你叫什么名字|nijiaoshenmemingzi|你叫什么|nijiaoshenme)$/, model: "你叫什么名字？", py: "nijiaoshenmemingzi",
+      diag: [[/(名字什么|mingzishenme)/, "名字什么", "什么 đứng trước 名字: 你叫什么名字？"], [/(吗|ma)$/, "吗", "Câu đã có 什么 thì không thêm 吗."]] },
+    { q: "Còn bạn?", accept: /^(你呢|nine)$/, model: "你呢？", py: "nine",
+      diag: [[/(你吗|nima)/, "吗", "Hỏi lại 'còn bạn?' dùng 呢: 你呢？"]] },
+    { q: "Bạn là sinh viên à?", accept: /^(你是学生吗|nishixueshengma)$/, model: "你是学生吗？", py: "nishixueshengma",
+      diag: [[/(呢|ne)$/, "呢", "Câu hỏi có/không dùng 吗 ở cuối."], [/(学生|xuesheng)$/, "学生", "Thiếu 吗 ở cuối câu hỏi."]] },
+    { q: "Tôi không phải giáo viên.", accept: /^(我不是老师|wobushilaoshi)$/, model: "我不是老师。", py: "wobushilaoshi",
+      diag: [[/(我是不|woshibu)/, "是不", "不 đứng trước 是: 我不是老师."], [/(没是|meishi)/, "没", "Phủ định 是 dùng 不, không dùng 没."]] },
+    { q: "Tôi đi làm.", accept: /^(我工作|wogongzuo)$/, model: "我工作。", py: "wogongzuo",
+      diag: [[/(我是工作|woshigongzuo)/, "是", "工作 là động từ, không cần 是: 我工作."]] },
+    { q: "Tôi cũng là người Việt Nam.", accept: /^(我也是越南人|woyeshiyuenanren)$/, model: "我也是越南人。", py: "woyeshiyuenanren",
+      diag: [[/(我是越南人也|woshiyuenanrenye)/, "也", "也 đứng trước 是, không đứng cuối câu."], [/(我是也|woshiye)/, "是也", "Thứ tự đúng là 也 rồi mới đến 是: 我也是…"]] },
+    { q: "Rất vui được làm quen với bạn.", accept: /^(我)?(也)?(很高兴认识你|hengaoxingrenshini)$|^(wo)?(ye)?hengaoxingrenshini$/, model: "很高兴认识你！", py: "hengaoxingrenshini",
+      diag: [[/(是高兴|shigaoxing)/, "是高兴", "Trước tính từ 高兴 không dùng 是, dùng 很."]] },
+    { q: "Cô ấy là người Trung Quốc. (她 = cô ấy)", accept: /^(她是中国人|tashizhongguoren)$/, model: "她是中国人。", py: "tashizhongguoren",
+      diag: [[/(中国|zhongguo)$/, "中国", "Thiếu 人: 中国人 = người Trung Quốc."]] },
+    { q: "(Câu khoá trạm 1) Xin chào! Tôi tên là …", accept: /^(你好|nihao)(我叫|wojiao).+$/, model: "你好！我叫阮安。", py: "nihaowojiaoruanan",
+      parts: [[/^(你好|nihao)/, "你好 ở đầu"], [/(我叫|wojiao)./, "我叫 + tên"]],
+      diag: [[/(我是叫|woshijiao)/, "是叫", "Thừa 是: nói 我叫."]] },
+    { q: "(Câu khoá trạm 1) Bạn tên là gì?", accept: /^(你叫什么名字|nijiaoshenmemingzi)$/, model: "你叫什么名字？", py: "nijiaoshenmemingzi",
+      diag: [[/(名字什么|mingzishenme)/, "名字什么", "什么 đứng trước 名字."]] },
+    { q: "(Câu khoá trạm 1) Tôi là người Việt Nam, còn bạn?", accept: /^(我是越南人你呢|woshiyuenanrennine)$/, model: "我是越南人，你呢？", py: "woshiyuenanrennine",
+      parts: [[/(我是越南人|woshiyuenanren)/, "我是越南人"], [/(你呢|nine)$/, "你呢 ở cuối"]],
+      diag: [[/(你吗|nima)/, "你吗", "Hỏi lại dùng 你呢."]] }
+  ],
+  reading: {
+    text: [
+      ["王丽 Wáng Lì", "你好！我叫王丽。我是中国人。我是老师。"],
+      ["阮明 Ruǎn Míng", "我叫阮明。我是越南人。我是学生。"],
+      ["李文 Lǐ Wén", "你好！我叫李文。我是中国人，我工作。很高兴认识你！"]
+    ],
+    bridge: "English version: Wang Li is from China and she is a teacher. Nguyen Minh is Vietnamese and he is a student. Li Wen is from China and he works. Bản tiếng Việt: Vương Lệ người Trung Quốc, giáo viên. Nguyễn Minh người Việt Nam, sinh viên. Lý Văn người Trung Quốc, đi làm.",
+    qs: [
+      { q: "Ai là sinh viên?", opts: ["王丽", "阮明", "李文"], a: 1, why: { 0: "王丽 viết 我是老师 (giáo viên).", 2: "李文 viết 我工作 (đi làm)." } },
+      { q: "王丽 là người nước nào?", opts: ["Việt Nam", "Trung Quốc"], a: 1, why: { 0: "王丽 viết 我是中国人." } },
+      { q: "Ai đi làm?", opts: ["阮明", "李文"], a: 1, why: { 0: "阮明 viết 我是学生." } },
+      { q: "阮明 là người nước nào?", opts: ["Việt Nam", "Trung Quốc"], a: 0, why: { 1: "阮明 viết 我是越南人." } }
+    ]
+  },
+  writing: {
+    task: "Viết tin nhắn WeChat (3–5 câu) kết bạn với 王丽 sau sự kiện. Có: lời chào, tên bạn, bạn là người nước nào, câu 'rất vui được làm quen', một câu hỏi lại. Gõ chữ Hán hoặc bính âm.",
+    sample: "王丽，你好！我叫阮安。我是越南人，我工作。很高兴认识你！你是老师吗？",
+    criteria: [
+      [/(你好|您好|nihao|ninhao)/, "Lời chào: 你好"],
+      [/(我叫|wojiao)./, "Tên: 我叫 + tên"],
+      [/(越南人|yuenanren)/, "Quốc tịch: 我是越南人"],
+      [/(很高兴认识你|很高兴认识您|hengaoxingrenshi)/, "很高兴认识你"],
+      [/(吗|呢)|(ma|ne)$/, "Một câu hỏi lại có 吗 hoặc 呢", true]
+    ],
+    errors: [
+      [/(我是叫|woshijiao)/, "是叫", "Thừa 是: không nói 我是叫. Dùng 我叫 + tên."],
+      [/(我是很|是高兴|woshihen|shigaoxing)/, "是", "Trước 很/高兴 không dùng 是: 我很高兴认识你."],
+      [/(我是工作|woshigongzuo)/, "是工作", "工作 là động từ, không cần 是: 我工作."],
+      [/(越南)(?!人)/, "越南", "Nói người Việt Nam phải là 越南人."]
+    ]
+  },
+  test: [
+    { k: "mc", s: "Nghe", audio: "我是老师。", q: "Người nói làm nghề gì?", opts: ["Giáo viên", "Sinh viên", "Đi làm văn phòng"], a: 0, why: { 1: "Sinh viên là 学生; câu nghe là 老师.", 2: "Câu nghe là 我是老师." } },
+    { k: "mc", s: "Nghe", audio: "我是越南人。", q: "Người nói là người nước nào?", opts: ["Việt Nam", "Trung Quốc"], a: 0, why: { 1: "Câu nghe có 越南 (Yuènán)." } },
+    { k: "mc", s: "Nghe", audio: "你叫什么名字？", q: "Câu này hỏi gì?", opts: ["Tên", "Quốc tịch", "Nghề"], a: 0, why: { 1: "Câu nghe có 名字 (tên).", 2: "Câu nghe có 名字 (tên)." } },
+    { k: "mc", s: "Nghe", audio: "不是，我工作。", q: "Người nói có phải sinh viên không?", opts: ["Không, đi làm", "Có"], a: 0, why: { 1: "Câu nghe bắt đầu bằng 不是 (không phải)." } },
+    { k: "mc", s: "Nghe", audio: "很高兴认识你！", q: "Câu này dùng khi nào?", opts: ["Khi mới làm quen", "Khi chia tay"], a: 0, why: { 1: "Chia tay là 再见." } },
+    { k: "mc", s: "Từ vựng", q: "名字 nghĩa là gì?", opts: ["tên", "người", "gì"], a: 0, why: { 1: "người là 人.", 2: "gì là 什么." } },
+    { k: "mc", s: "Từ vựng", q: "学生 nghĩa là gì?", opts: ["sinh viên", "giáo viên"], a: 0, why: { 1: "giáo viên là 老师." } },
+    { k: "mc", s: "Từ vựng", q: "中国 nghĩa là gì?", opts: ["Trung Quốc", "người Trung Quốc"], a: 0, why: { 1: "người Trung Quốc là 中国人." } },
+    { k: "mc", s: "Từ vựng", q: "工作 nghĩa là gì?", opts: ["làm việc", "học"], a: 0, why: { 1: "học là 学习." } },
+    { k: "mc", s: "Từ vựng", q: "也 nghĩa là gì?", opts: ["cũng", "không"], a: 0, why: { 1: "không là 不." } },
+    { k: "type", s: "Ngữ pháp", q: "我___阮明。(tên)", accept: /^(叫|jiao)$/, model: "叫", diag: [[/^(是|shi)$/, "是", "Nói tên dùng 叫."]] },
+    { k: "type", s: "Ngữ pháp", q: "你是学生___？", accept: /^(吗|ma)$/, model: "吗", diag: [[/^(呢|ne)$/, "呢", "Câu hỏi có/không dùng 吗."]] },
+    { k: "type", s: "Ngữ pháp", q: "我___是老师。(phủ định)", accept: /^(不|bu)$/, model: "不", diag: [[/^(没|mei)$/, "没", "Phủ định 是 dùng 不."]] },
+    { k: "type", s: "Ngữ pháp", q: "我是越南人，你___？", accept: /^(呢|ne)$/, model: "呢", diag: [[/^(吗|ma)$/, "吗", "Hỏi lại 'còn bạn?' dùng 呢."]] },
+    { k: "type", s: "Ngữ pháp", q: "我___很高兴认识你。(cũng)", accept: /^(也|ye)$/, model: "也", diag: [[/^(是|shi)$/, "是", "Trước 很 không dùng 是. 'Cũng' là 也."]] },
+    { k: "free", s: "Nói", q: "Tự giới thiệu (gõ lại đúng những gì bạn sẽ nói, chữ Hán hoặc bính âm).", m1: "Mức 1: 3–4 câu gồm lời chào, tên, quốc tịch, nghề.", m2: "Mức 2: thêm 很高兴认识你 và một câu hỏi lại có 吗 hoặc 呢.",
+      criteria: [[/(你好|nihao)/, "Lời chào 你好"], [/(我叫|wojiao)./, "Tên: 我叫 …"], [/(越南人|yuenanren)/, "Quốc tịch: 我是越南人"], [/(学生|老师|工作|xuesheng|laoshi|gongzuo)/, "Nghề: 我是学生 / 我工作 …"], [/(吗|呢)|(ma|ne)$/, "Câu hỏi lại có 吗 hoặc 呢 (Mức 2)", false, 2]],
+      errors: [[/(我是叫|woshijiao)/, "是叫", "Thừa 是 trước 叫."], [/(是很|是高兴|shihen|shigaoxing)/, "是", "Trước tính từ không dùng 是."], [/(我是工作|woshigongzuo)/, "是工作", "工作 là động từ, không cần 是."]] }
+  ],
+  roleplay: {
+    base: {
+      title: "Làm quen ở sự kiện: gặp 王丽",
+      partner: "王丽 Wáng Lì · bạn mới quen ở sự kiện",
+      turns: [
+        { ai: "你好！我叫王丽。你叫什么名字？", py: "Nǐ hǎo! Wǒ jiào Wáng Lì. Nǐ jiào shénme míngzi?", vi: "Xin chào! Tôi là Vương Lệ. Bạn tên là gì?",
+          frame: "你好！我叫___。", tag: "ten",
+          need: [[/(我叫|wojiao).|(我是|woshi)[^越中老学]/, "tên của bạn: 我叫 + tên"]],
+          diag: [[/(我是叫|woshijiao)/, "是叫", "Thừa 是: nói 我叫 + tên."], [/(我名字|womingzi)/, "我名字", "Không dịch từng chữ 'tên tôi'. Dùng 我叫 + tên."]],
+          model: "你好！我叫阮安。", praise: "Đúng khung 叫 + tên." },
+        { ai: "你是中国人吗？", py: "Nǐ shì Zhōngguó rén ma?", vi: "Bạn là người Trung Quốc à?",
+          frame: "不是，我是越南人。", tag: "que",
+          need: [[/(不是|bushi)/, "phủ định 不是 trước (bạn không phải người Trung Quốc)"], [/(越南人|yuenanren)/, "quốc tịch: 我是越南人"]],
+          diag: [[/^(是|shi)(，|,)?(我是越南人|woshiyuenanren)?$/, "是", "Bạn là người Việt, nên trả lời 不是 trước rồi mới nói 我是越南人."], [/(越南)(?!人)|yuenan(?!ren)/, "越南", "越南 là nước Việt Nam. Người Việt Nam là 越南人."]],
+          model: "不是，我是越南人。", praise: "Phủ định 不是 rồi nói lại cho đúng." },
+        { ai: "你是学生吗？", py: "Nǐ shì xuésheng ma?", vi: "Bạn là sinh viên à?",
+          frame: "是，我是学生。/ 不是，我工作。", tag: "nghe",
+          need: [[/(是|shi|不是|bushi)/, "trả lời 是 hoặc 不是"], [/(学生|工作|老师|xuesheng|gongzuo|laoshi)/, "nghề của bạn: 学生 / 工作 / 老师"]],
+          diag: [[/(我是工作|woshigongzuo)/, "是工作", "工作 là động từ: nói 我工作, không có 是."]],
+          model: "不是，我工作。", praise: "Trả lời đủ: có/không và nghề." },
+        { m2: true, ai: "哦，你叫阮山？", py: "Ò, nǐ jiào Ruǎn Shān?", vi: "À, bạn tên là Nguyễn Sơn à? (Lệ nghe nhầm tên bạn)", frame: "", tag: "phatsinh",
+          need: [[/(不是|bushi)/, "phủ định 不是"], [/(我叫|wojiao)./, "nói lại tên: 我叫 + tên"]],
+          diag: [[/(我是叫|woshijiao)/, "是叫", "Thừa 是."]],
+          model: "不是，我叫阮安。", praise: "Sửa hiểu lầm lịch sự và rõ." },
+        { ai: "嗯。", py: "Ǹg.", vi: "(Lệ chờ bạn hỏi lại.) Hãy hỏi lại Lệ: còn bạn? hoặc bạn có phải giáo viên không?",
+          frame: "你呢？/ 你是老师吗？", tag: "hoilai",
+          need: [[/(呢|吗|ne$|ma$)/, "một câu hỏi lại có 呢 hoặc 吗"]],
+          diag: [[/(你吗|nima)$/, "你吗", "Hỏi lại 'còn bạn?' dùng 你呢."]],
+          model: "你呢？你是老师吗？", praise: "Chủ động hỏi lại: đúng tiêu chí Tương tác." },
+        { ai: "我是老师。很高兴认识你！", py: "Wǒ shì lǎoshī. Hěn gāoxìng rènshi nǐ!", vi: "Tôi là giáo viên. Rất vui được làm quen với bạn!",
+          frame: "我也很高兴认识你！", tag: "chao",
+          need: [[/(很高兴|hengaoxing)/, "đáp lời: (我也)很高兴认识你"]], m2need: [[/(老师|laoshi)/, "nhắc lại thông tin của Lệ (你是老师 …) để cho thấy bạn đã nghe"]],
+          diag: [[/(是高兴|shigaoxing|我是很|woshihen)/, "是", "Trước 很/高兴 không dùng 是: 我也很高兴认识你."]],
+          model: "哦，你是老师！我也很高兴认识你！", praise: "Kết thúc tự nhiên với 也." }
+      ]
+    },
+    variant: {
+      title: "Biến thể trang trọng: gặp đối tác lần đầu",
+      partner: "王经理 Wáng jīnglǐ · quản lý, công ty Quang Minh",
+      turns: [
+        { ai: "您好！我是光明公司的王经理。您叫什么名字？", py: "Nín hǎo! Wǒ shì Guāngmíng gōngsī de Wáng jīnglǐ. Nín jiào shénme míngzi?", vi: "Chào ông/bà! Tôi là giám đốc Vương của công ty Quang Minh. Ông/bà tên là gì?",
+          frame: "您好！我叫___。", tag: "ten",
+          need: [[/(您好|ninhao)/, "lời chào trang trọng 您好"], [/(我叫|wojiao)./, "tên: 我叫 + tên"]],
+          diag: [[/^(你好|nihao)/, "你好", "Gặp đối tác lần đầu nên chào trang trọng: 您好 (nín hǎo), không dùng 你好."], [/(我是叫|woshijiao)/, "是叫", "Thừa 是."]],
+          model: "您好！我叫阮安。", praise: "Chào trang trọng đúng hoàn cảnh." },
+        { ai: "您是越南人吗？", py: "Nín shì Yuènán rén ma?", vi: "Ông/bà là người Việt Nam à?",
+          frame: "是，我是越南人。", tag: "que",
+          need: [[/(是|shi)/, "trả lời 是"], [/(越南人|yuenanren)/, "我是越南人"]], diag: [],
+          model: "是，我是越南人。", praise: "Trả lời đầy đủ." },
+        { ai: "很高兴认识您！", py: "Hěn gāoxìng rènshi nín!", vi: "Rất hân hạnh được làm quen!",
+          frame: "我也很高兴认识您！", tag: "chao",
+          need: [[/(很高兴|hengaoxing)/, "很高兴认识您"]], m2need: [[/(您|nin)/, "dùng 您 (trang trọng) thay cho 你"]],
+          diag: [[/(是高兴|shigaoxing|我是很|woshihen)/, "是", "Trước 很 không dùng 是."]],
+          model: "我也很高兴认识您！", praise: "Dùng 也 đúng chỗ." },
+        { ai: "这是我的名片。", py: "Zhè shì wǒ de míngpiàn.", vi: "Đây là danh thiếp của tôi. (Nhận bằng hai tay.)",
+          frame: "谢谢！", tag: "card",
+          need: [[/(谢谢|xiexie)/, "lời cảm ơn 谢谢"]], diag: [], model: "谢谢！", praise: "Cảm ơn khi nhận danh thiếp." },
+        { ai: "再见！", py: "Zàijiàn!", vi: "Tạm biệt!", frame: "再见！", tag: "bye",
+          need: [[/(再见|zaijian)/, "再见"]], diag: [], model: "再见！", praise: "Chào tạm biệt đúng." }
+      ]
+    }
+  },
+  sheet: {
+    host: "Host: An giới thiệu được tên và quốc tịch. Còn đọc 是 thành thanh 3 và chưa hỏi lại đối phương.",
+    native: "王丽 (người Trung Quốc): 你说得很清楚！注意：我叫阮安，不是我是叫阮安。(Bạn nói rất rõ! Chú ý: 我叫阮安, không phải 我是叫阮安.)",
+    scores: [["Hoàn thành nhiệm vụ", 3], ["Trôi chảy", 2], ["Chính xác", 2], ["Tương tác", 2], ["Phát âm / thanh điệu", 2]],
+    fixes: [
+      { q: "Sửa câu An đã nói ở trạm: 我是叫阮安。", accept: /^(我叫阮安|wojiaoruanan)$/, model: "我叫阮安。", py: "wojiaoruanan", diag: [[/(是叫|shijiao)/, "是叫", "Vẫn còn 是 trước 叫. Bỏ 是."]] },
+      { q: "Sửa câu An đã nói ở trạm: 我是很高兴。", accept: /^(我很高兴|wohengaoxing)$/, model: "我很高兴。", py: "wohengaoxing", diag: [[/(是很|shihen|是高兴|shigaoxing)/, "是", "Vẫn còn 是 trước tính từ. Bỏ 是."]] },
+      { q: "Sửa câu An đã nói ở trạm: 你是学生呢？(muốn hỏi: bạn là sinh viên à?)", accept: /^(你是学生吗|nishixueshengma)$/, model: "你是学生吗？", py: "nishixueshengma", diag: [[/(呢|ne)$/, "呢", "Câu hỏi có/không phải kết thúc bằng 吗."]] }
+    ]
+  },
+  rules: {
+    A: "Nhìn nghĩa tiếng Việt, tự nhớ rồi gõ chữ Hán hoặc bính âm không dấu (vd: nihao). Câu sai trong tuần sẽ tự quay lại đây.",
+    C: "Nghe một câu, dừng, nói to theo đúng thanh điệu. Mỗi câu nhại 3 lần, chú ý điểm ghi bên dưới.",
+    D: "Thanh 1 cao đều · Thanh 2 đi lên · Thanh 3 xuống thấp rồi hơi lên · Thanh 4 rơi mạnh từ cao. Hai thanh 3 liền nhau: chữ đầu đọc thanh 2 (你好 → ní hǎo). 不 trước thanh 4 đọc bú.",
+    E: "<b>叫</b> + tên · <b>是</b> + thân phận (越南人, 老师) · <b>吗</b> cuối câu hỏi có/không · <b>呢</b> để hỏi lại 'còn bạn?'.",
+    B: "Nghe cả đoạn trước, rồi trả lời từng câu. Sai câu nào, trang chỉ ra câu thoại chứa thông tin để bạn nghe lại.",
+    F: "Trật tự cơ bản: Chủ ngữ + (也/不) + động từ + tân ngữ. 吗 luôn ở cuối câu. Từ để hỏi (什么) đứng đúng chỗ thông tin cần hỏi.",
+    G: "我<b>叫</b>阮安 · 我<b>是</b>越南人 · 我<b>很</b>高兴 (trước tính từ <b>không</b> dùng 是) · 我<b>不</b>是老师 · 我<b>也</b>是越南人.",
+    H: "Đọc ý tiếng Việt, nói to câu tiếng Trung, rồi gõ đúng câu bạn vừa nói (chữ Hán hoặc bính âm). Web thật sẽ ghi âm và chấm thanh điệu.",
+    I: "Trả lời đủ ý từng lượt. Sai thì trang chỉ chỗ sai, bạn sửa đúng lượt đó rồi mới đi tiếp.",
+    J: "Đọc 3 hồ sơ WeChat. Bạn mạnh tiếng Anh có thể mở bản tiếng Anh song song để đối chiếu.",
+    K: "Viết đủ 5 phần theo danh sách. Bấm Kiểm tra: phần thiếu và lỗi sai được đánh dấu ngay trong bài.",
+    L: "16 câu: nghe 5, từ vựng 5, ngữ pháp 5, nói 1. Điểm tính theo lần làm đầu; sai vẫn được chỉ chỗ sai và làm lại.",
+    M: "Tự chấm thật lòng. Chọn Chưa thì trang chỉ bài cần làm lại trước Thứ Bảy.",
+    N: "Đọc nhận xét từ trạm, rồi tự sửa 3 lỗi của chính mình. Câu sửa đúng sẽ thành thẻ ôn tuần 2."
+  }
+};
+
+/* --------------------------------------------------- CAN-DO tự chấm (Thứ 6) */
+DATA.en.candoList = {
+  1: [["Tôi tự giới thiệu được tên, quê, nghề trong 3–4 câu.", "thu-4"], ["Tôi hỏi lại được: What about you? / Where are you from? / What do you do?", "thu-3"], ["Tôi dùng đúng a/an trước nghề và không nói I'm work.", "thu-3"]],
+  2: [["Tôi tự giới thiệu được khoảng 1 phút mà không nhìn khung câu.", "thu-5"], ["Tôi hỏi lại được 3 câu và nhắc lại thông tin của người kia.", "thu-4"], ["Tôi xử lý được khi người kia hiểu nhầm nghề của tôi.", "thu-4"]]
+};
+DATA.zh.candoList = {
+  1: [["Tôi nói được 我叫…, 我是越南人 và nghề của mình.", "thu-4"], ["Tôi hỏi lại được bằng 你呢？ và câu có 吗.", "thu-3"], ["Tôi đọc đúng thanh 3 và thanh 4 trong 我, 你, 是, 叫.", "thu-3"]],
+  2: [["Tôi tự giới thiệu 5–6 câu không cần khung câu.", "thu-5"], ["Tôi sửa được khi người kia gọi sai tên mình (不是，我叫…).", "thu-4"], ["Tôi chào trang trọng với 您好, 您 khi gặp đối tác.", "thu-5"]]
+};
+
+/* ============ SẢN PHẨM NGOÀI WEB: lớp nhóm, Weekend Live, workbook, lời nhắc ============ */
+const CLASS = {
+  en: {
+    title: "Lớp nhóm online · tối Thứ 4 · 60 phút · tiếng Anh",
+    errors: [
+      ["I'm work in sales.", "5/8", "Không ghép I'm với động từ thường. I work in sales hoặc I'm a sales assistant.", "Đổi nghề nhanh: I work in HR → I work in IT → I work in finance."],
+      ["I'm accountant.", "4/8", "Nghề số ít luôn có a/an: I'm an accountant.", "GV nói nghề, học viên nói câu đủ: designer → I'm a designer; engineer → I'm an engineer."],
+      ["Where you from?", "3/8", "Câu hỏi Wh- cần động từ: Where are you from?", "Hỏi vòng tròn: người này hỏi, người kế tiếp trả lời rồi hỏi tiếp."]
+    ],
+    plan: [
+      ["0–5", "Khởi động vòng tròn", "Gọi tên từng người, nghe và ghi lỗi, chưa sửa.", "Mỗi người 1 câu: Hi, I'm …, I'm from …"],
+      ["5–20", "Phòng khám lỗi từ dữ liệu AI", "Chiếu 3 câu thật (ẩn tên). Hỏi: sai ở đâu? Nói quy tắc bằng tiếng Việt, rõ ràng. Cho 3 câu luyện nhanh mỗi lỗi.", "Chỉ ra chỗ sai, nói câu đúng, luyện theo mẫu."],
+      ["20–40", "Tập theo cặp: Trạm 2 (đồng nghiệp mới)", "Phát thẻ: Mức 1 có khung câu, Mức 2 không khung. Đi vòng nghe từng cặp, ghi 1 lỗi chính mỗi người.", "A đóng Tom, B là chính mình; 4 phút rồi đổi vai. Mức 2: Tom cố ý hiểu nhầm nghề một lần."],
+      ["40–55", "Tập theo nhóm 3: Trạm 3 (ba bên)", "Ghép người mạnh tiếng Trung với người mạnh tiếng Anh.", "Một người đóng bạn Trung, một người đóng bạn Anh, người thứ ba giới thiệu hai bên."],
+      ["55–60", "Chốt và nhắc Thứ Bảy", "Nhắc giờ, địa điểm, 3 câu khoá của Trạm 2.", "Tự chấm 3 can-do trên web (Thứ 6)."]
+    ]
+  },
+  zh: {
+    title: "Lớp nhóm online · tối Thứ 4 · 60 phút · tiếng Trung",
+    errors: [
+      ["我是叫阮安。", "5/8", "Thừa 是: 叫 đã là động từ. Nói 我叫阮安.", "GV nói tên, học viên nói 我叫 + tên; rồi hỏi 你叫什么名字？"],
+      ["是 đọc thành thanh 3", "6/8", "是 là thanh 4: rơi gọn từ cao xuống, không kéo.", "Tay vẽ đường đi xuống khi nói: 是, 叫, 越, 不是 (bú shì)."],
+      ["我是很高兴。", "3/8", "Trước tính từ không dùng 是: 我很高兴.", "Đổi nhanh: 我很高兴 → 我也很高兴 → 很高兴认识你."],
+      ["你是学生呢？", "3/8", "Câu hỏi có/không dùng 吗; 呢 chỉ để hỏi lại 'còn bạn?'.", "Thẻ hai màu: 吗 hay 呢? GV đọc câu, học viên giơ thẻ."]
+    ],
+    plan: [
+      ["0–5", "Khởi động vòng tròn", "Gọi tên từng người, nghe và ghi lỗi, chưa sửa.", "Mỗi người 1 câu: 你好！我叫… 我是越南人。"],
+      ["5–20", "Phòng khám lỗi từ dữ liệu AI", "Chiếu 4 câu thật (ẩn tên). Hỏi: sai ở đâu? Nói quy tắc bằng tiếng Việt. Luyện thanh 4 bằng tay.", "Chỉ ra chỗ sai, nói câu đúng, luyện theo mẫu."],
+      ["20–40", "Tập theo cặp: Trạm 1 (bạn mới ở sự kiện)", "Phát thẻ: Mức 1 có khung câu và bính âm, Mức 2 chỉ chữ Hán. Đi vòng nghe từng cặp.", "A đóng 王丽, B là chính mình; đổi vai. Mức 2: 王丽 gọi sai tên một lần."],
+      ["40–55", "Tập theo nhóm 3: Trạm 3 (ba bên)", "Ghép người mạnh tiếng Trung với người mạnh tiếng Anh.", "Người thứ ba giới thiệu bạn Trung với bạn Anh: tên, quốc tịch, nghề."],
+      ["55–60", "Chốt và nhắc Thứ Bảy", "Nhắc giờ, địa điểm, 3 câu khoá của Trạm 1.", "Tự chấm 3 can-do trên web (Thứ 6)."]
+    ]
+  }
+};
+
+const LIVE = {
+  timeline: [
+    ["14:00", "Đón và check-in", "Host quét mã QR của học viên (+100 điểm). Phát thẻ màu: màu ngôn ngữ + màu mức."],
+    ["14:10", "Khởi động cả phòng", "Trò 'tìm người': mỗi người hỏi 3 người khác tên và quê bằng ngôn ngữ đang học."],
+    ["14:20", "Vòng trạm 1", "25 phút ở trạm, 5 phút chuyển trạm."],
+    ["14:50", "Vòng trạm 2", "Đổi trạm theo sơ đồ màu."],
+    ["15:20", "Vòng trạm 3", "Đổi trạm theo sơ đồ màu."],
+    ["15:50", "Góc văn hoá", "Trao danh thiếp bằng hai tay (Trung Quốc); bắt tay và small talk ngày đầu đi làm (Anh); khi nào dùng 您 thay cho 你."],
+    ["16:15", "Phiếu nhận xét", "Người nước ngoài và host điền phiếu trên điện thoại; ảnh nhóm chỉ chụp khi mọi người đồng ý."]
+  ],
+  stations: [
+    { name: "Trạm 1 · Tiếng Trung", tone: "zh", situation: "Bạn mới quen ở sự kiện: hỏi tên, quê, công việc",
+      staff: "1 người nói tiếng Trung + 1 host người Việt", m1: "Tự giới thiệu 3–4 câu: tên, quốc tịch, nghề.", m2: "Tự giới thiệu 1 phút, hỏi lại 3 câu, nhắc lại thông tin của đối phương; sửa khi bị gọi sai tên.",
+      roleLang: "Thẻ vai cho người nói tiếng Trung",
+      role: ["你是王丽，在一个交流活动上认识新朋友。", "1. 先自我介绍：名字、国籍、工作。", "2. 问对方：叫什么名字？是不是中国人？是不是学生？", "3. 水平一的学员：说慢一点，每句不超过八个字；等五秒再帮忙。", "4. 水平二的学员：故意叫错对方的名字一次，看对方能不能纠正。", "5. 聊天时不要纠正语法。结束后在评价表上写一个最重要的错误。"],
+      roleVi: "Bạn là Vương Lệ, làm quen bạn mới ở sự kiện. Tự giới thiệu trước; hỏi tên, quốc tịch, có phải sinh viên không. Mức 1: nói chậm, câu ngắn, chờ 5 giây rồi mới giúp. Mức 2: cố ý gọi sai tên một lần. Không sửa ngữ pháp khi đang nói; ghi 1 lỗi quan trọng nhất vào phiếu.",
+      lines: ["你好！我叫阮安。", "你叫什么名字？", "我是越南人，你呢？"] },
+    { name: "Trạm 2 · Tiếng Anh", tone: "en", situation: "Ngày đầu đi làm: gặp đồng nghiệp mới",
+      staff: "1 người nói tiếng Anh + 1 host người Việt", m1: "Tự giới thiệu 3–4 câu: tên, quê, nghề.", m2: "Tự giới thiệu 1 phút, hỏi lại 3 câu, nhắc lại thông tin của đối phương; sửa khi bị hiểu nhầm nghề.",
+      roleLang: "Role card for the English speaker",
+      role: ["You are Tom from the marketing team. Today you meet a new colleague on their first day.", "1. Introduce yourself: name, team, hometown.", "2. Ask their name, hometown, and job or team.", "3. Level 1 learners: speak slowly, use short sentences, wait 5 seconds before helping.", "4. Level 2 learners: once, get their job wrong ('So you're in sales?') and see if they correct you.", "5. Don't correct grammar during the chat. Afterwards, write the one most important error on the feedback sheet."],
+      roleVi: "Bạn là Tom, nhóm marketing, gặp đồng nghiệp mới ngày đầu đi làm. Mức 1: nói chậm, câu ngắn, chờ 5 giây. Mức 2: cố ý hiểu nhầm nghề một lần. Không sửa ngữ pháp khi đang nói; ghi 1 lỗi quan trọng nhất vào phiếu.",
+      lines: ["Hi, I'm An. I'm new here.", "Which team are you on?", "Nice to meet you. See you around!"] },
+    { name: "Trạm 3 · Ba bên", tone: "both", situation: "Giới thiệu một bạn người Trung với một bạn nói tiếng Anh",
+      staff: "1 người nói tiếng Trung + 1 người nói tiếng Anh + 1 host", m1: "Chuyển đúng 3 thông tin: tên, quốc tịch, nghề.", m2: "Chuyển đủ ý hai chiều; khi một bên hỏi thêm (Is she a student?), hỏi lại bên kia bằng ngôn ngữ của họ rồi chuyển câu trả lời.",
+      roleLang: "Thẻ vai cho hai người nước ngoài",
+      role: ["王丽：你不会说英语。请用中文介绍自己，然后等学员帮你介绍。", "Tom: You don't speak Chinese. Wait for the learner to introduce Wang Li to you, then ask one question about her (e.g. Is she a student?)."],
+      roleVi: "Vương Lệ không nói tiếng Anh, Tom không nói tiếng Trung. Học viên đứng giữa, giới thiệu hai người với nhau. Tom hỏi thêm một câu để học viên chuyển ngược lại.",
+      lines: ["Tom, this is Wang Li. She's from China. She's a teacher.", "王丽，这是 Tom。他是英国人。他工作。(这是 = đây là; 他 = anh ấy; 英国 = nước Anh: có thẻ gợi ý)"] }
+  ],
+  host: [
+    "2 phút: chào nhóm, nói mục tiêu trạm bằng tiếng Việt, phát thẻ nhiệm vụ theo màu mức.",
+    "Mỗi học viên 3–4 phút với người nước ngoài; người còn lại quan sát bằng phiếu chấm nhanh (đánh dấu đã nói tên, quê, nghề, hỏi lại).",
+    "Không ngắt lời để sửa. Ghi 1 lỗi chính mỗi người, đúng câu học viên đã nói.",
+    "Học viên Mức 2 hoặc mạnh ngôn ngữ này làm trợ host: nhắc khung câu cho bạn Mức 1 khi bạn im quá 5 giây.",
+    "3 phút cuối: người nước ngoài nói một điểm tốt của cả nhóm; host chấm rubric 5 tiêu chí trên ứng dụng."
+  ],
+  rubric: [
+    ["Hoàn thành nhiệm vụ", "Không đạt mục tiêu tình huống", "Đạt một phần, cần giúp nhiều", "Đạt mục tiêu, cần giúp ít", "Đạt trọn vẹn, xử lý được phát sinh"],
+    ["Trôi chảy", "Ngắt quãng dài, chủ yếu từ đơn", "Ngập ngừng nhiều nhưng nói được câu", "Đôi lúc ngập ngừng, vẫn duy trì hội thoại", "Tự nhiên, ít ngập ngừng"],
+    ["Chính xác", "Lỗi làm mất nghĩa", "Nhiều lỗi nhưng vẫn hiểu được", "Ít lỗi, chủ yếu lỗi nhỏ", "Gần như không lỗi ở mẫu câu của tuần"],
+    ["Tương tác", "Không phản hồi được", "Trả lời nhưng không hỏi lại", "Hỏi lại, xác nhận thông tin", "Chủ động dẫn dắt, xử lý hiểu lầm"],
+    ["Phát âm / thanh điệu", "Khó hiểu", "Hiểu được khi cố gắng", "Dễ hiểu, sai vài thanh/âm", "Rõ ràng, thanh điệu ổn định"]
+  ]
+};
+
+const WORKBOOK = {
+  zh: {
+    chars: [
+      ["你", "nǐ", "bạn", 7, "亻(người) + 尔: người đối diện"], ["我", "wǒ", "tôi", 7, "Hình một cây giáo cầm tay: 'cái tôi'"],
+      ["好", "hǎo", "tốt", 6, "女 (phụ nữ) + 子 (con): mẹ có con là điều tốt"], ["人", "rén", "người", 2, "Hình người đang bước"],
+      ["是", "shì", "là", 9, "日 (mặt trời) trên, 疋 dưới"], ["叫", "jiào", "gọi, tên là", 5, "口 (miệng) + 丩: dùng miệng gọi tên"],
+      ["中", "zhōng", "giữa", 4, "Mũi tên xuyên qua chính giữa"], ["国", "guó", "nước", 8, "囗 (vây quanh) + 玉 (ngọc): đất nước giữ ngọc quý"]
+    ],
+    dictation: ["我叫阮安。", "我是越南人。", "你是学生吗？"],
+    translate: [["Tôi tên là Minh.", "我叫阮明。"], ["Bạn là người Trung Quốc à?", "你是中国人吗？"], ["Tôi không phải giáo viên.", "我不是老师。"], ["Tôi cũng là sinh viên.", "我也是学生。"], ["Còn bạn?", "你呢？"], ["Rất vui được làm quen với bạn.", "很高兴认识你。"]]
+  },
+  en: {
+    articles: ["accountant", "teacher", "engineer", "designer", "office manager", "IT technician", "nurse", "architect", "sales assistant", "interpreter", "HR officer", "English teacher"],
+    stress: ["accountant", "engineer", "assistant", "manager", "designer", "colleague", "interpreter", "receptionist"],
+    stressKey: ["ac·COUN·tant", "en·gi·NEER", "as·SIS·tant", "MA·na·ger", "de·SIG·ner", "COL·league", "in·TER·pre·ter", "re·CEP·tion·ist"],
+    dictation: ["I'm from Da Nang, but I live in Hanoi now.", "I work as an accountant.", "Where are you from?"],
+    frame: ["Hi, I'm ___.", "I'm from ___, but I live in ___ now.", "I'm a/an ___. / I work in ___.", "I like ___.", "What about you?"]
+  }
+};
+
+const REMIND = [
+  ["Thứ 2 · 20:30", "Web hoặc Zalo", "Tuần 1 bắt đầu! 25 phút hôm nay: nghe An làm quen và nói 5 câu tự giới thiệu đầu tiên.", "Chỉ gửi khi chưa học hôm nay"],
+  ["Thứ 3 · 20:30", "Web hoặc Zalo", "Hôm nay luyện phát âm: 10 câu, 6 phút. Chuỗi của bạn đang 1 ngày.", "Chỉ gửi khi chưa học hôm nay"],
+  ["Thứ 4 · 17:00", "Zalo", "19:00 tối nay lớp nhóm. Cô sẽ sửa 3 lỗi cả lớp mắc nhiều nhất khi nói với AI.", "Nhắc lớp, 2 giờ trước"],
+  ["Thứ 5 · 20:30", "Web hoặc Zalo", "Lượt đóng vai thứ hai: lần này bạn gặp đối tác, nói trang trọng hơn. 12 phút.", "Chỉ gửi khi chưa học hôm nay"],
+  ["Thứ 6 · 20:00", "Web", "Mai bạn ở 3 trạm, bắt đầu lúc 14:00. Xem lại 3 câu khoá trước khi ngủ.", "Chuẩn bị Weekend Live"],
+  ["Thứ 7 · 9:00", "Zalo", "Hẹn 14:00 tại [địa điểm]. Mang mã QR để nhận 100 điểm.", "Sáng ngày Weekend Live"],
+  ["Chủ nhật · 19:00", "Web", "Phiếu nhận xét của người nước ngoài đã có. 3 lỗi của bạn đang chờ thành thẻ ôn.", "Sau Weekend Live"],
+  ["Nghỉ 1 ngày", "Zalo", "Hôm qua bận à? Làm bài ôn 3 phút thôi cũng giữ được nhịp.", "Một lần, hôm sau ngày bỏ học"],
+  ["Nghỉ 3 ngày", "Zalo, host viết tay", "Chào An, nhóm mình thứ 4 này luyện tiếp. Em cần chị gửi lại bài chưa làm không?", "Người thật gửi, không tự động"]
+];
+
+/* ============ ỨNG DỤNG ============ */
+const PTS = { A: 10, B: 10, C: 15, D: 10, E: 10, F: 10, G: 10, H: 20, I: 30, J: 10, K: 20, L: 40, M: 10, N: 15 };
+const TITLES = { A: "Ôn nhanh tự nhớ lại", B: "Nghe hiểu hội thoại", C: "Nghe và nhại theo", D: { en: "Trọng âm và âm cuối", zh: "Thanh điệu" }, E: "Từ mới trong ngữ cảnh",
+  F: "Sắp xếp câu", G: "Điền vào chỗ trống", H: "Nói nhanh theo gợi ý", I: "Đóng vai với AI", J: "Đọc hồ sơ thật", K: "Viết tin nhắn ngắn", L: "Kiểm tra tuần", M: "Tự chấm can-do", N: "Phiếu nhận xét Chủ nhật" };
+const MINS = { A: 3, B: 5, C: 6, D: 6, E: 6, F: 5, G: 5, H: 5, I: 12, J: 6, K: 4, L: 15, M: 2, N: 7 };
+const DAYS = [
+  { id: "thu-2", label: "Thứ 2", kind: "web", mins: 25, ex: ["A", "C", "E", "B1", "H1"] },
+  { id: "thu-3", label: "Thứ 3", kind: "web", mins: 25, extra: "+ 15 phút workbook giấy", ex: ["A", "D", "B2", "G1", "H2"] },
+  { id: "thu-4", label: "Thứ 4", kind: "web", mins: 25, ex: ["A", "F", "G2", "I1"] },
+  { id: "lop-nhom", label: "Lớp nhóm", kind: "class" },
+  { id: "thu-5", label: "Thứ 5", kind: "web", mins: 25, extra: "+ 15 phút workbook giấy", ex: ["A", "I2", "J", "K"] },
+  { id: "thu-6", label: "Thứ 6", kind: "web", mins: 25, ex: ["A", "L", "M", "H3"] },
+  { id: "weekend-live", label: "Thứ 7 · Weekend Live", kind: "live" },
+  { id: "chu-nhat", label: "Chủ nhật", kind: "web", mins: 10, ex: ["N", "A"] },
+  { id: "workbook", label: "Workbook", kind: "workbook" },
+  { id: "loi-nhac", label: "Lời nhắc", kind: "remind" }
+];
+const WEB_ONLY = typeof WEB_BUILD !== "undefined";
+const countQ = e => (e.items && e.items.length) || (e.lines && e.lines.length) || (e.list && e.list.length) || (e.rp ? e.rp.turns.filter(t => !t.m2 || S.level === 2).length : 0);
+if (WEB_ONLY) for (let i = DAYS.length - 1; i >= 0; i--) if (DAYS[i].kind !== "web") DAYS.splice(i, 1);
+const WEBDAYS = DAYS.filter(d => d.kind === "web").map(d => d.id);
+
+/* ---------- trạng thái (lưu trên trình duyệt người xem) ---------- */
+const KEY = "anh-trung-tuan-1";
+let S = { lang: "en", level: 1, points: 0, ledger: [], review: { en: [], zh: [] }, done: {}, daily: {} };
+try { const raw = localStorage.getItem(KEY); if (raw) S = Object.assign(S, JSON.parse(raw)); } catch (e) {}
+function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} }
+
+/* ---------- tiện ích ---------- */
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const el = (html) => { const t = document.createElement("template"); t.innerHTML = html.trim(); return t.content.firstElementChild; };
+function ne(s) { /* chuẩn hoá tiếng Anh */
+  return String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[’‘`]/g, "'")
+    .replace(/[.,!;:"“”()…]/g, " ").replace(/\s*\?\s*/g, "? ").replace(/\s+/g, " ").trim().replace(/\?$/, "").trim();
+}
+function neq(s) { return ne(s) + (/\?/.test(s) ? " ?" : ""); }
+function nz(s) { /* chuẩn hoá tiếng Trung: chữ Hán hoặc bính âm không dấu */
+  return String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase()
+    .replace(/[\s\d.,!?;:'"“”()…，。！？；：、～~—-]/g, "");
+}
+const N = (lang, s) => lang === "zh" ? nz(s) : ne(s);
+function lev(a, b) { const m = a.length, n = b.length; const d = Array.from({ length: m + 1 }, (_, i) => [i]);
+  for (let j = 1; j <= n; j++) d[0][j] = j;
+  for (let i = 1; i <= m; i++) for (let j = 1; j <= n; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+  return d[m][n]; }
+function markIn(raw, mark) {
+  const s = String(raw); if (!mark) return esc(s);
+  let i = -1, len = 0;
+  if (mark instanceof RegExp) { const m = s.match(new RegExp(mark.source, "i")); if (m) { i = m.index; len = m[0].length; } }
+  else { i = s.toLowerCase().indexOf(String(mark).toLowerCase()); len = String(mark).length; }
+  if (i < 0) return esc(s);
+  return esc(s.slice(0, i)) + '<mark class="bad">' + esc(s.slice(i, i + len)) + "</mark>" + esc(s.slice(i + len));
+}
+/* so sánh từng từ (Anh) hoặc từng chữ (Trung): đỏ = sai/thừa, ô trống = còn thiếu */
+function diffHTML(lang, raw, model) {
+  const L = lang === "zh" ? [...nz(raw)] : ne(raw).split(" ").filter(Boolean);
+  const M = lang === "zh" ? [...nz(model)] : ne(model).split(" ").filter(Boolean);
+  const m = L.length, n = M.length, T = Array.from({ length: m + 1 }, () => Array(n + 1).fill(0));
+  for (let i = m - 1; i >= 0; i--) for (let j = n - 1; j >= 0; j--) T[i][j] = L[i] === M[j] ? T[i + 1][j + 1] + 1 : Math.max(T[i + 1][j], T[i][j + 1]);
+  let i = 0, j = 0, out = [], bad = 0, miss = 0; const sep = lang === "zh" ? "" : " ";
+  while (i < m || j < n) {
+    if (i < m && j < n && L[i] === M[j]) { out.push(esc(L[i])); i++; j++; }
+    else if (j < n && (i >= m || T[i][j + 1] >= T[i + 1][j])) { if (!(out.length && out[out.length - 1] === '<span class="gap">＿</span>')) { out.push('<span class="gap">＿</span>'); miss++; } j++; }
+    else { out.push('<mark class="bad">' + esc(L[i]) + "</mark>"); bad++; i++; }
+  }
+  return { html: out.join(sep), bad, miss };
+}
+function fmtPts(n) { return n.toLocaleString("vi-VN").replace(/,/g, "."); }
+
+/* ---------- âm thanh: giọng đọc của trình duyệt ---------- */
+let VOICES = [];
+function loadVoices() { try { VOICES = speechSynthesis.getVoices(); } catch (e) { VOICES = []; } }
+try { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; } catch (e) {}
+function say(text, lang, slow) {
+  try {
+    const t = lang === "zh" ? "zh" : "en";
+    const v = VOICES.find(v => v.lang && v.lang.toLowerCase().startsWith(t === "zh" ? "zh-cn" : "en-us")) || VOICES.find(v => v.lang && v.lang.toLowerCase().startsWith(t));
+    if (VOICES.length && !v) { toast(t === "zh" ? "Máy bạn chưa có giọng đọc tiếng Trung. Bấm 'Lời thoại' để đọc." : "Máy bạn chưa có giọng đọc tiếng Anh. Bấm 'Lời thoại' để đọc."); return; }
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(String(text).replace(/\(.*?\)/g, ""));
+    u.lang = t === "zh" ? "zh-CN" : "en-US"; if (v) u.voice = v;
+    u.rate = slow || S.level === 1 ? 0.8 : 1;
+    speechSynthesis.speak(u);
+  } catch (e) { toast("Trình duyệt này chưa phát được âm thanh."); }
+}
+function toast(msg) { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(() => t.hidden = true, 3500); }
+
+/* ---------- điểm ---------- */
+function award(label, p) { if (!p) return; S.points += p; S.ledger.unshift({ t: label, p }); S.ledger = S.ledger.slice(0, 40); save(); renderTop(); renderSide(); }
+function addReview(lang, front, back) {
+  const list = S.review[lang]; if (!back || list.some(c => c.front === front)) return;
+  list.push({ front, back }); save(); renderTop();
+}
+
+/* ---------- dựng bài theo ngày ---------- */
+function exKey(day, code) { return S.lang + ":" + day + ":" + code; }
+function buildEx(day, code) {
+  const D = DATA[S.lang], L = S.lang, base = code[0];
+  const title = typeof TITLES[base] === "object" ? TITLES[base][L] : TITLES[base];
+  const ex = { key: exKey(day, code), code: base, title, rule: D.rules[base], pts: PTS[base], mins: MINS[base], kind: "items", items: [] };
+  const pickMC = arr => arr.map(o => Object.assign({ k: "mc" }, o));
+  const pickType = arr => arr.map(o => Object.assign({ k: "type" }, o));
+  if (base === "A") {
+    const di = WEBDAYS.indexOf(day), rev = S.review[L].slice(0, 4);
+    const items = rev.map(c => ({ k: "type", q: "Thẻ ôn từ lỗi của bạn: " + c.front, model: c.back, accept: null, review: true }));
+    const bank = D.vocab, start = (di * 7) % bank.length;
+    for (let i = 0; items.length < 10; i++) {
+      const v = bank[(start + i) % bank.length];
+      if (L === "zh") items.push({ k: "type", q: v[0], model: v[1], py: v[3], hint: v[2], accept: new RegExp("^(" + v[1] + "|" + v[3] + ")$") });
+      else items.push({ k: "type", q: v[0], model: v[1], hint: v[2], card: true });
+    }
+    ex.items = items;
+  } else if (base === "B") {
+    const two = code === "B2"; ex.dialogue = two ? D.dialogue2 : D.dialogue; ex.items = pickMC(two ? D.listen2 : D.listen1); ex.listen = true;
+  } else if (base === "C") { ex.kind = "shadow"; ex.lines = D.shadow; }
+  else if (base === "D") ex.items = pickMC(D.sound);
+  else if (base === "E") ex.items = pickMC(D.vocabQuiz);
+  else if (base === "F") ex.items = D.order.map(o => Object.assign({ k: "order" }, o));
+  else if (base === "G") ex.items = pickType(code === "G1" ? D.cloze.slice(0, 6) : D.cloze.slice(6));
+  else if (base === "H") { const r = code === "H1" ? [0, 5] : code === "H2" ? [5, 10] : [10, 13]; ex.items = pickType(D.speak.slice(r[0], r[1])); ex.speakNote = true; if (code === "H3") { ex.title = "Tập 3 câu khoá cho trạm"; ex.mins = 5; } }
+  else if (base === "I") { ex.kind = "roleplay"; ex.rp = code === "I1" ? D.roleplay.base : D.roleplay.variant; if (code === "I2") ex.title = "Đóng vai với AI · lượt 2 (biến thể)"; else ex.title = "Đóng vai với AI · lượt 1"; }
+  else if (base === "J") { ex.items = pickMC(D.reading.qs); ex.reading = D.reading; }
+  else if (base === "K") { ex.items = [{ k: "free", q: D.writing.task, criteria: D.writing.criteria, errors: D.writing.errors, sample: D.writing.sample, ai: true }]; }
+  else if (base === "L") { ex.items = D.test.map(o => Object.assign({}, o)); ex.test = true; }
+  else if (base === "M") { ex.kind = "cando"; ex.list = D.candoList[S.level]; }
+  else if (base === "N") { ex.items = pickType(D.sheet.fixes); ex.sheet = D.sheet; }
+  return ex;
+}
+
+/* ---------- khung trang ---------- */
+function renderTop() {
+  $("#pts").textContent = fmtPts(S.points);
+  $("#rev").textContent = S.review[S.lang].length;
+  document.querySelectorAll("[data-lang]").forEach(b => b.setAttribute("aria-pressed", b.dataset.lang === S.lang));
+  document.querySelectorAll("[data-level]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.level) === String(S.level)));
+  document.documentElement.dataset.track = S.lang;
+}
+function currentDay() { const h = location.hash.slice(1); return DAYS.find(d => d.id === h) || DAYS[0]; }
+function renderTabs() {
+  const day = currentDay();
+  $("#tabs").innerHTML = DAYS.map(d => {
+    let badge = "";
+    if (d.kind === "web") { const n = d.ex.filter(c => S.done[exKey(d.id, c)]).length; badge = `<span class="cnt${n === d.ex.length ? " full" : ""}">${n}/${d.ex.length}</span>`; }
+    return `<a href="#${d.id}" class="tab${d.id === day.id ? " on" : ""}" ${d.id === day.id ? 'aria-current="page"' : ""}>${esc(d.label)}${badge}</a>`;
+  }).join("");
+  const on = $("#tabs .on"); if (on) on.scrollIntoView({ block: "nearest", inline: "center" });
+}
+function renderSide() {
+  const day = currentDay(), box = $("#today");
+  if (day.kind === "web") {
+    box.innerHTML = `<h3>Hôm nay · ${esc(day.label)}</h3><ol class="chk">` + day.ex.map(c => {
+      const ex = buildExMeta(day.id, c), d = S.done[exKey(day.id, c)];
+      return `<li class="${d ? "ok" : ""}"><button type="button" class="jump" data-go="ex-${c}">${ex.code} · ${esc(ex.title)}</button><span>${d ? "+" + d.p : ex.pts + " đ"}</span></li>`;
+    }).join("") + `</ol><p class="goal">${S.daily[S.lang + day.id] ? "Đã đạt mục tiêu ngày (+20)" : "Xong cả ngày: +20 điểm mục tiêu"}</p>`;
+    box.querySelectorAll(".jump").forEach(b => b.onclick = () => { const t = document.getElementById(b.dataset.go); if (t) t.scrollIntoView({ block: "start" }); });
+  } else box.innerHTML = `<h3>${esc(day.label)}</h3><p class="muted">Phần này là tài liệu cho lớp học, trạm và giáo viên. Không tính điểm trên web.</p>`;
+  $("#ledger").innerHTML = S.ledger.length ? S.ledger.slice(0, 7).map(l => `<li><span>${esc(l.t)}</span><b>+${l.p}</b></li>`).join("") : '<li class="muted">Chưa có điểm. Làm bài đầu tiên để nhận điểm.</li>';
+}
+function buildExMeta(day, c) { const b = c[0]; return { code: b, title: typeof TITLES[b] === "object" ? TITLES[b][S.lang] : TITLES[b], pts: PTS[b] }; }
+
+function renderMain() {
+  renderTop(); renderTabs(); renderSide();
+  const day = currentDay(), main = $("#main");
+  main.innerHTML = "";
+  if (day.kind === "web") renderDay(day, main);
+  else if (day.kind === "class") renderClass(main);
+  else if (day.kind === "live") renderLive(main);
+  else if (day.kind === "workbook") renderWorkbook(main);
+  else renderRemind(main);
+  main.focus({ preventScroll: true });
+}
+function renderDay(day, main) {
+  const exs = day.ex.map(c => buildEx(day.id, c));
+  const qs = exs.reduce((s, e) => s + countQ(e), 0);
+  main.appendChild(el(`<header class="dayhead"><p class="eyebrow">${esc(DATA[S.lang].name)} · Mức ${S.level}</p><h1>${esc(day.label)}: ${exs.length} bài, ${qs} câu, ${day.mins} phút</h1>${day.extra ? `<p class="muted">${esc(day.extra)}</p>` : ""}<p class="cando"><b>Can-do tuần 1:</b> ${esc(DATA[S.lang].cando)}</p></header>`));
+  exs.forEach((ex, i) => main.appendChild(renderExercise(ex, day, day.ex[i])));
+}
+
+/* ---------- thẻ bài ---------- */
+function renderExercise(ex, day, codeKey) {
+  const card = el(`<section class="ex" id="ex-${codeKey}" aria-labelledby="h-${codeKey}">
+    <div class="exhead"><span class="code c-${ex.code}">${ex.code}</span><div><h2 id="h-${codeKey}">${esc(ex.title)}</h2>
+    <p class="meta">${countQ(ex)} ${ex.kind === "roleplay" ? "lượt" : ex.kind === "cando" ? "mục" : "câu"} · ${ex.mins} phút · ${ex.pts} điểm</p></div><span class="state"></span></div>
+    <details class="rule" open><summary>Quy tắc cần nhớ</summary><p>${ex.rule}</p></details>
+    <div class="exbody"></div></section>`);
+  const body = $(".exbody", card), d = S.done[ex.key];
+  const finish = (summary) => completeExercise(ex, day, card, summary);
+  if (d) { showDone(card, ex, d, () => { delete S.done[ex.key]; save(); card.replaceWith(renderExercise(buildEx(day.id, codeKey), day, codeKey)); renderTabs(); renderSide(); }); return card; }
+  if (ex.sheet) body.appendChild(sheetHTML(ex.sheet));
+  if (ex.reading) body.appendChild(readingHTML(ex.reading));
+  if (ex.speakNote) body.appendChild(el(`<p class="note">Bản mẫu chưa ghi âm: hãy nói to trước, rồi gõ đúng câu bạn vừa nói. Web thật ghi âm và chấm phát âm${S.lang === "zh" ? ", thanh điệu" : ""}.</p>`));
+  if (ex.listen) body.appendChild(listenBar(ex));
+  if (ex.kind === "items") runItems(ex, body, finish);
+  else if (ex.kind === "shadow") runShadow(ex, body, finish);
+  else if (ex.kind === "roleplay") runRoleplay(ex, body, finish);
+  else if (ex.kind === "cando") runCando(ex, body, finish);
+  return card;
+}
+function showDone(card, ex, d, redo) {
+  $(".state", card).textContent = "Đã xong";
+  card.classList.add("isdone");
+  $(".rule", card).open = false;
+  const b = $(".exbody", card);
+  b.innerHTML = `<div class="donebox"><p><b>+${d.p} điểm.</b> ${esc(d.sum || "")}</p><button type="button" class="btn ghost redo">Làm lại bài này</button></div>`;
+  $(".redo", b).onclick = redo;
+}
+function completeExercise(ex, day, card, sum) {
+  let p = ex.pts, parts = [ex.code + " · " + ex.title];
+  const lines = [];
+  if (sum.total) { lines.push(`Đúng ngay ${sum.first}/${sum.total} câu`); if (sum.first / sum.total >= 0.8) { p += 5; lines.push("thưởng chính xác +5"); } }
+  if (sum.repair) { p += sum.repair * 5; lines.push(`tự sửa đúng ${sum.repair} câu (+${sum.repair * 5})`); }
+  if (sum.bonus) { p += sum.bonus; lines.push(sum.bonusText); }
+  if (sum.extra) lines.push(sum.extra);
+  S.done[ex.key] = { p, sum: lines.join(" · ") + "." };
+  award(parts[0], p);
+  showDone(card, ex, S.done[ex.key], () => { delete S.done[ex.key]; save(); location.hash = "#" + day.id; renderMain(); });
+  const all = day.ex.every(c => S.done[exKey(day.id, c)]);
+  if (all && !S.daily[S.lang + day.id]) { S.daily[S.lang + day.id] = true; award("Xong mục tiêu " + day.mins + " phút · " + day.label, 20); toast("Xong cả ngày! +20 điểm mục tiêu."); }
+  save(); renderTabs(); renderSide();
+  const next = card.nextElementSibling; if (next && next.classList.contains("ex")) next.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+}
+
+/* ---------- thanh nghe hội thoại ---------- */
+function listenBar(ex) {
+  const L = S.lang, rows = ex.dialogue;
+  const bar = el(`<div class="listen"><button type="button" class="btn play">▶ Nghe cả hội thoại</button>
+    <button type="button" class="btn ghost tr" ${S.level === 2 ? "disabled" : ""}>Lời thoại</button>
+    <span class="muted small">${S.level === 1 ? "Mức 1: tốc độ chậm, được xem lời thoại." : "Mức 2: tốc độ thật, lời thoại mở khi làm xong."}</span>
+    <ol class="script" hidden>${rows.map(r => `<li><b>${esc(r[0])}:</b> <span lang="${L === "zh" ? "zh" : "en"}">${esc(r[1])}</span>${L === "zh" ? `<span class="py">${esc(r[2])}</span>` : ""}<span class="vi">${esc(L === "zh" ? r[3] : r[2])}</span></li>`).join("")}</ol></div>`);
+  $(".play", bar).onclick = () => say(rows.map(r => r[1]).join(" "), L);
+  $(".tr", bar).onclick = () => { $(".script", bar).hidden = !$(".script", bar).hidden; };
+  ex.openScript = () => { $(".tr", bar).disabled = false; };
+  return bar;
+}
+function readingHTML(r) {
+  const L = S.lang;
+  const box = el(`<div class="reading"><div class="profiles">${r.text.map(t => `<article class="prof"><h4>${esc(t[0])}</h4><p lang="${L === "zh" ? "zh" : "en"}">${esc(t[1])}</p></article>`).join("")}</div>
+    <button type="button" class="btn ghost small bridge">Mở bản song song</button><p class="bridgetext muted" hidden>${esc(r.bridge)}</p></div>`);
+  $(".bridge", box).onclick = () => { $(".bridgetext", box).hidden = !$(".bridgetext", box).hidden; };
+  return box;
+}
+function sheetHTML(s) {
+  return el(`<div class="sheet"><h4>Phiếu nhận xét Weekend Live · Học viên: An (bản mẫu)</h4>
+    <table class="tbl"><thead><tr><th>Tiêu chí</th><th>Điểm (1–4)</th></tr></thead><tbody>${s.scores.map(r => `<tr><td>${esc(r[0])}</td><td><span class="dots">${"●".repeat(r[1])}${"○".repeat(4 - r[1])}</span> ${r[1]}</td></tr>`).join("")}</tbody></table>
+    <p><b>Người nước ngoài:</b> ${esc(s.native)}</p><p><b>Host:</b> ${esc(s.host)}</p><p class="note">Bên dưới là 3 câu An đã nói sai ở trạm. Sửa đúng cả 3 câu để chúng thành thẻ ôn tuần 2.</p></div>`);
+}
+
+/* ---------- chạy các câu hỏi ---------- */
+function runItems(ex, body, finish) {
+  const L = S.lang, n = ex.items.length;
+  const st = ex.items.map(() => ({ tries: 0, done: false, revealed: false }));
+  let idx = 0;
+  const wrap = el(`<div class="items"><div class="prog" aria-hidden="true">${ex.items.map(() => "<i></i>").join("")}</div><div class="stage"></div></div>`);
+  body.appendChild(wrap);
+  const stage = $(".stage", wrap), dots = [...wrap.querySelectorAll(".prog i")];
+  function show() {
+    dots.forEach((d, i) => d.className = st[i].done ? (st[i].tries === 0 ? "ok" : "fix") : i === idx ? "now" : "");
+    const it = ex.items[idx];
+    stage.innerHTML = "";
+    const head = el(`<div class="qhead"><span class="qn">Câu ${idx + 1}/${n}${it.s ? " · " + esc(it.s) : ""}</span></div>`);
+    stage.appendChild(head);
+    const onDone = () => {
+      st[idx].done = true; dots[idx].className = st[idx].tries === 0 ? "ok" : "fix";
+      const nextBtn = el(`<button type="button" class="btn primary next">${idx < n - 1 ? "Câu tiếp →" : "Hoàn thành bài"}</button>`);
+      stage.appendChild(nextBtn); nextBtn.focus();
+      nextBtn.onclick = () => {
+        if (idx < n - 1) { idx++; show(); return; }
+        const first = st.filter(s => s.tries === 0).length, repair = st.filter(s => s.tries > 0 && !s.revealed).length;
+        let extra = "";
+        if (ex.test) {
+          const by = {}; ex.items.forEach((it, i) => { const k = it.s; by[k] = by[k] || [0, 0]; by[k][1]++; if (st[i].tries === 0) by[k][0]++; });
+          extra = "Theo kỹ năng: " + Object.keys(by).map(k => `${k} ${by[k][0]}/${by[k][1]}`).join(", ");
+        }
+        if (ex.openScript) ex.openScript();
+        finish({ total: n, first, repair, extra });
+      };
+    };
+    const ctx = { L, ex, st: st[idx], it, onDone, stage, idx };
+    if (it.k === "mc") itemMC(ctx); else if (it.k === "type") itemType(ctx); else if (it.k === "order") itemOrder(ctx); else if (it.k === "free") itemFree(ctx);
+  }
+  show();
+}
+function fbBox() { return el(`<div class="fb" role="status" aria-live="polite" hidden></div>`); }
+function wrongMsg(ctx, whereHTML, why) {
+  const { st, ex } = ctx;
+  st.tries++;
+  const shortRule = ex.rule ? `<details class="mini"><summary>Xem lại quy tắc</summary><p>${ex.rule}</p></details>` : "";
+  let html = `<p class="fbt">Chưa đúng · lần ${st.tries}</p>`;
+  if (whereHTML) html += `<p class="where"><span class="lab">Chỗ sai:</span> ${whereHTML}</p>`;
+  html += `<p class="why">${why}</p>`;
+  if (st.tries >= 2 && !st.revealed) { st.revealed = true; }
+  return html + shortRule;
+}
+
+/* trắc nghiệm */
+function itemMC(ctx) {
+  const { L, it, st, stage, onDone, ex } = ctx;
+  const q = el(`<div class="q"><p class="qt">${esc(it.q)}</p>${it.audio ? `<button type="button" class="btn ghost small au">▶ Nghe</button>` : ""}<div class="opts" role="group" aria-label="Các lựa chọn">${it.opts.map((o, i) => `<button type="button" class="opt" data-i="${i}" lang="${/[一-鿿]/.test(o) ? "zh" : ""}">${esc(o)}</button>`).join("")}</div></div>`);
+  const fb = fbBox(); stage.appendChild(q); stage.appendChild(fb);
+  if (it.audio) { $(".au", q).onclick = () => say(it.audio, L); }
+  q.querySelectorAll(".opt").forEach(b => b.onclick = () => {
+    if (st.done) return;
+    const i = +b.dataset.i;
+    if (i === it.a) {
+      b.classList.add("right"); q.querySelectorAll(".opt").forEach(x => x.disabled = true);
+      fb.className = "fb good"; fb.hidden = false;
+      fb.innerHTML = `<p class="fbt">${st.tries === 0 ? "Đúng" : st.revealed ? "Đúng. Bạn đã tự chọn lại đáp án đúng." : "Đúng rồi, bạn đã tự sửa được (+5 khi xong bài)"}</p>` + (lineReason(ctx) ? `<p class="why">Thông tin ở ${esc(lineReason(ctx))}</p>` : "");
+      onDone(); return;
+    }
+    b.classList.add("wrong"); b.disabled = true;
+    const why = (it.why && it.why[i]) ? esc(it.why[i]) : "Lựa chọn này không khớp với nội dung.";
+    let where = `bạn chọn <mark class="bad">${esc(it.opts[i])}</mark>`;
+    let html = wrongMsg(ctx, where, why);
+    if (it.line != null && ex.dialogue) {
+      const row = ex.dialogue[it.line];
+      html += `<p class="hintline">Thông tin nằm ở câu thoại: <span lang="${L === "zh" ? "zh" : "en"}">${esc(row[0])}: ${esc(row[1])}</span> <button type="button" class="btn ghost small pl">▶ Nghe lại câu này</button></p>`;
+    }
+    if (st.revealed) html += `<p class="reveal">Đáp án đúng: <b>${esc(it.opts[it.a])}</b>. Bấm vào đáp án đúng để hoàn thành câu.</p>`;
+    else html += `<p class="next-step">Chọn lại một đáp án khác.</p>`;
+    fb.className = "fb bad"; fb.hidden = false; fb.innerHTML = html;
+    const pl = $(".pl", fb); if (pl) pl.onclick = () => say(ex.dialogue[it.line][1], L, true);
+    if (st.revealed) q.querySelector(`.opt[data-i="${it.a}"]`).classList.add("hint");
+    addReview(L, it.q, it.opts[it.a]);
+  });
+}
+function lineReason(ctx) { const { it, ex } = ctx; if (it.line != null && ex.dialogue) return "câu thoại: " + ex.dialogue[it.line][1]; return ""; }
+
+/* gõ câu trả lời */
+function checkType(L, it, raw) {
+  const n = N(L, raw);
+  if (!n) return { empty: true };
+  let ok = false;
+  if (it.accept) ok = it.accept.test(n);
+  else if (it.review) ok = N(L, raw) === N(L, it.model) || (L === "zh" && it.py && n === it.py);
+  else ok = n === N(L, it.model);
+  if (ok) return { ok: true };
+  if (L === "en" && it.model && !it.parts) { const m = ne(it.model); if (m.length > 6 && lev(n, m) <= 1) return { ok: true, near: true }; }
+  if (L === "en" && it.card && ne(it.model).replace(/^(a|an) /, "") === n) return { ok: false, where: markIn(raw, raw.trim()), why: "Thiếu mạo từ: nghề số ít luôn đi với a/an → " + esc(it.model) + "." };
+  if (L === "en" && it.card && /^an? /.test(n) && /^an? /.test(ne(it.model)) && n.replace(/^an? /, "") === ne(it.model).replace(/^an? /, "")) return { ok: false, where: markIn(raw, /^\s*an?\b/i), why: "Sai mạo từ: trước âm nguyên âm dùng an, trước phụ âm dùng a." };
+  for (const d of (it.diag || [])) if (d[0].test(n)) return { ok: false, where: markIn(raw, d[1]), why: esc(d[2]) };
+  if (it.parts) {
+    const miss = it.parts.filter(p => !p[0].test(n));
+    if (miss.length) return { ok: false, where: esc(raw), why: "Câu của bạn còn thiếu: " + miss.map(p => "<b>" + esc(p[1]) + "</b>").join("; ") + "." };
+    return { ok: false, where: esc(raw), why: "Đủ các phần nhưng còn chỗ chưa đúng mẫu câu. So với khung: <span class='model'>" + esc(it.model) + "</span> (tên có thể khác)." };
+  }
+  const short = (L === "zh" ? [...nz(it.model)].length : ne(it.model).split(" ").length) <= 2;
+  if (short) return { ok: false, where: `<mark class="bad">${esc(raw)}</mark>`, why: "Từ này không hợp với chỗ trống. Đọc lại nghĩa tiếng Việt trong ngoặc và quy tắc." };
+  let model = it.model;
+  if (L === "zh" && !/[一-鿿]/.test(raw) && it.py) model = it.py;
+  const d = diffHTML(L, raw, model);
+  return { ok: false, where: d.html, why: `Có ${d.bad} chỗ sai (tô đỏ) và ${d.miss} chỗ còn thiếu (＿).` + (L === "zh" && !/[一-鿿]/.test(raw) ? " Bính âm được so từng chữ cái, không cần dấu thanh." : "") };
+}
+function itemType(ctx) {
+  const { L, it, st, stage, onDone } = ctx;
+  const isZh = L === "zh";
+  const q = el(`<form class="q" novalidate><p class="qt">${it.review ? "" : (it.hint && S.level === 1 && isZh ? "" : "")}${esc(it.q)}</p>
+    ${it.hint && isZh ? `<p class="small muted">Gợi ý Mức 1: ${S.level === 1 ? esc(it.hint) : "(ẩn ở Mức 2)"}</p>` : ""}
+    <div class="row"><input class="inp" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Câu trả lời" placeholder="${isZh ? "Gõ chữ Hán hoặc bính âm không dấu" : "Gõ câu trả lời"}">
+    <button type="submit" class="btn primary">Kiểm tra</button></div></form>`);
+  const fb = fbBox(); stage.appendChild(q); stage.appendChild(fb);
+  const inp = $(".inp", q); setTimeout(() => inp.focus({ preventScroll: true }), 0);
+  q.onsubmit = e => {
+    e.preventDefault(); if (st.done) return;
+    const r = checkType(L, it, inp.value);
+    if (r.empty) { fb.className = "fb bad"; fb.hidden = false; fb.innerHTML = `<p class="why">Bạn chưa gõ câu trả lời.</p>`; return; }
+    if (r.ok) {
+      inp.readOnly = true; $("button", q).disabled = true;
+      fb.className = "fb good"; fb.hidden = false;
+      fb.innerHTML = `<p class="fbt">${r.near ? "Chấp nhận" : st.tries === 0 ? "Đúng" : st.revealed ? "Đúng. Bạn đã tự gõ lại câu đúng." : "Đúng rồi, bạn đã tự sửa được (+5 khi xong bài)"}</p>` +
+        (r.near ? `<p class="why">Lưu ý chính tả: <span class="model">${esc(it.model)}</span></p>` : "") +
+        (it.model && !it.accept ? "" : it.model ? `<p class="why">Câu mẫu: <span class="model" lang="${isZh ? "zh" : "en"}">${esc(it.model)}</span>${isZh && it.py ? "" : ""}</p>` : "");
+      onDone(); return;
+    }
+    let html = wrongMsg(ctx, r.where, r.why);
+    if (st.revealed) html += `<p class="reveal">Đáp án đúng: <b lang="${isZh ? "zh" : "en"}">${esc(it.model)}</b>${isZh && it.py ? ` <span class="muted">(${esc(it.py)})</span>` : ""}. Gõ lại đáp án đúng vào ô để hoàn thành câu.</p>`;
+    else html += `<p class="next-step">Sửa ngay trong ô rồi bấm Kiểm tra.</p>`;
+    fb.className = "fb bad"; fb.hidden = false; fb.innerHTML = html;
+    if (st.tries === 1) addReview(L, it.q.replace(/^Thẻ ôn từ lỗi của bạn: /, ""), it.model);
+    inp.focus(); inp.select();
+  };
+}
+
+/* sắp xếp câu */
+function seeded(arr, seed) { const a = arr.map((v, i) => [v, i]); let s = seed + 7; for (let i = a.length - 1; i > 0; i--) { s = (s * 9301 + 49297) % 233280; const j = Math.floor(s / 233280 * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } if (a.every((x, i) => x[1] === i)) a.push(a.shift()); return a; }
+function itemOrder(ctx) {
+  const { L, it, st, stage, onDone, idx } = ctx;
+  const pool = seeded(it.tokens, idx + 3), picked = [];
+  const q = el(`<div class="q"><p class="qt">Bấm các ô theo đúng thứ tự để thành câu. Bấm vào ô đã chọn để trả lại.</p>
+    <div class="ans" aria-label="Câu của bạn"></div><div class="pool" aria-label="Các ô chữ"></div>
+    <div class="row"><button type="button" class="btn primary chk">Kiểm tra</button><button type="button" class="btn ghost clr">Xếp lại từ đầu</button></div></div>`);
+  const fb = fbBox(); stage.appendChild(q); stage.appendChild(fb);
+  const ans = $(".ans", q), pl = $(".pool", q);
+  function draw(marks) {
+    ans.innerHTML = picked.length ? picked.map((p, i) => `<button type="button" class="tok${marks ? (marks[i] ? " right" : " wrong") : ""}" data-a="${i}" lang="${L === "zh" ? "zh" : "en"}"><small>${i + 1}</small>${esc(p[0])}</button>`).join("") : '<span class="muted small">Câu của bạn sẽ hiện ở đây</span>';
+    pl.innerHTML = pool.map((p, i) => picked.includes(p) ? "" : `<button type="button" class="tok" data-p="${i}" lang="${L === "zh" ? "zh" : "en"}">${esc(p[0])}</button>`).join("");
+    ans.querySelectorAll("[data-a]").forEach(b => b.onclick = () => { if (st.done) return; picked.splice(+b.dataset.a, 1); draw(); });
+    pl.querySelectorAll("[data-p]").forEach(b => b.onclick = () => { if (st.done) return; picked.push(pool[+b.dataset.p]); draw(); });
+  }
+  draw();
+  $(".clr", q).onclick = () => { if (st.done) return; picked.length = 0; draw(); };
+  $(".chk", q).onclick = () => {
+    if (st.done) return;
+    if (picked.length < it.tokens.length) { fb.className = "fb bad"; fb.hidden = false; fb.innerHTML = `<p class="why">Còn ${it.tokens.length - picked.length} ô chưa dùng. Xếp hết các ô rồi bấm Kiểm tra.</p>`; return; }
+    const marks = picked.map((p, i) => p[0] === it.tokens[i]);
+    draw(marks);
+    if (marks.every(Boolean)) {
+      fb.className = "fb good"; fb.hidden = false;
+      fb.innerHTML = `<p class="fbt">${st.tries === 0 ? "Đúng" : st.revealed ? "Đúng. Bạn đã tự xếp lại câu đúng." : "Đúng rồi, bạn đã tự sửa được (+5 khi xong bài)"}</p><p class="why">${esc(it.explain)}</p>`;
+      onDone(); return;
+    }
+    const firstBad = marks.indexOf(false), wrongN = marks.filter(m => !m).length;
+    let html = wrongMsg(ctx, `ô số ${firstBad + 1} (<mark class="bad">${esc(picked[firstBad][0])}</mark>) đứng sai chỗ; tổng cộng ${wrongN} ô sai vị trí (viền đỏ).`, "Quy tắc: " + esc(it.explain));
+    const sent = it.tokens.join(L === "zh" ? "" : " ").replace(/ \?/, "?");
+    if (st.revealed) html += `<p class="reveal">Câu đúng: <b lang="${L === "zh" ? "zh" : "en"}">${esc(sent)}</b>. Bấm các ô viền đỏ để trả lại rồi xếp lại cho đúng.</p>`;
+    else html += `<p class="next-step">Ô viền xanh đã đúng chỗ. Bấm ô viền đỏ để trả lại rồi xếp lại.</p>`;
+    fb.className = "fb bad"; fb.hidden = false; fb.innerHTML = html;
+    if (st.tries === 1) addReview(L, "Sắp xếp: " + it.tokens.slice().sort().join(" / "), sent);
+  };
+}
+
+/* viết tự do (tin nhắn, bài nói trong kiểm tra) */
+let SAMPLE = null;
+function itemFree(ctx) {
+  const { L, it, st, stage, onDone } = ctx;
+  const crit = it.criteria.filter(c => !c[3] || c[3] <= S.level);
+  const q = el(`<form class="q" novalidate><p class="qt">${esc(it.q)}</p>${it.m1 ? `<p class="small muted">${esc(S.level === 1 ? it.m1 : it.m2)}</p>` : ""}
+    <ul class="crit">${crit.map((c, i) => `<li data-c="${i}">${esc(c[1])}</li>`).join("")}</ul>
+    <textarea class="inp area" rows="5" aria-label="Bài viết của bạn" placeholder="${L === "zh" ? "Gõ chữ Hán hoặc bính âm" : "Viết ở đây"}"></textarea>
+    <div class="row"><button type="submit" class="btn primary">Kiểm tra</button>${it.sample ? '<button type="button" class="btn ghost smp" hidden>Xem bài mẫu</button>' : ""}${it.ai ? '<button type="button" class="btn ghost ai" hidden>Nhờ Claude nhận xét thêm</button>' : ""}</div></form>`);
+  const fb = fbBox(), aiBox = el(`<div class="aibox" hidden></div>`);
+  stage.appendChild(q); stage.appendChild(fb); stage.appendChild(aiBox);
+  const ta = $(".area", q);
+  if (it.sample) $(".smp", q).onclick = () => { aiBox.hidden = false; aiBox.innerHTML = `<p class="small muted">Bài mẫu để tham khảo (không chép nguyên văn):</p><pre lang="${L === "zh" ? "zh" : "en"}">${esc(it.sample)}</pre>`; };
+  if (it.ai) aiButton($(".ai", q), aiBox, () => ({ task: it.q, text: ta.value }));
+  q.onsubmit = e => {
+    e.preventDefault(); if (st.done) return;
+    const raw = ta.value, n = N(L, raw.replace(/\n/g, " ")), nq = L === "zh" ? n : neq(raw.replace(/\n/g, " "));
+    if (!n) { fb.className = "fb bad"; fb.hidden = false; fb.innerHTML = `<p class="why">Bạn chưa viết gì.</p>`; return; }
+    const res = crit.map(c => c[0].test(L === "zh" ? n : nq));
+    q.querySelectorAll(".crit li").forEach((li, i) => li.className = res[i] ? "ok" : "no");
+    const errs = (it.errors || []).filter(e => e[0].test(n));
+    if (res.every(Boolean) && !errs.length) {
+      ta.readOnly = true; $("button[type=submit]", q).disabled = true;
+      fb.className = "fb good"; fb.hidden = false;
+      fb.innerHTML = `<p class="fbt">${st.tries === 0 ? "Đạt đủ các phần, không còn lỗi đã học" : "Đạt rồi, bạn đã tự sửa được (+5 khi xong bài)"}</p>`;
+      onDone(); return;
+    }
+    let marked = esc(raw);
+    errs.forEach(e => { marked = markIn(raw, e[1]); });
+    const missing = crit.filter((c, i) => !res[i]).map(c => "<b>" + esc(c[1]) + "</b>");
+    const why = [missing.length ? "Còn thiếu: " + missing.join("; ") + "." : "", ...errs.map(e => "Lỗi: " + esc(e[2]))].filter(Boolean).join("<br>");
+    let html = wrongMsg(ctx, errs.length ? `<span class="pre">${errs.length === 1 ? marked : esc(raw)}</span>` : "", why);
+    html += `<p class="next-step">Sửa ngay trong bài viết rồi bấm Kiểm tra. Mục đã đạt có dấu ✓ ở danh sách trên.</p>`;
+    fb.className = "fb bad"; fb.hidden = false; fb.innerHTML = html;
+    if (st.revealed && it.sample) $(".smp", q).hidden = false;
+  };
+}
+async function getSample() { if (SAMPLE !== null) return SAMPLE; try { SAMPLE = window.claude ? await window.claude.use("sample") : null; } catch (e) { SAMPLE = null; } return SAMPLE; }
+function aiButton(btn, box, getInput) {
+  getSample().then(s => { if (s) btn.hidden = false; });
+  btn.onclick = async () => {
+    const s = await getSample(); if (!s) return;
+    const inp = getInput(); if (!inp.text || !inp.text.trim()) { toast("Viết hoặc nói xong rồi mới nhờ nhận xét."); return; }
+    btn.disabled = true; box.hidden = false; box.innerHTML = `<p class="muted">Claude đang đọc bài…</p>`;
+    const prompt = `Bạn là giáo viên ${S.lang === "zh" ? "tiếng Trung" : "tiếng Anh"} cho người lớn Việt Nam, trình độ mới bắt đầu (tuần 1, Mức ${S.level}). Chủ đề tuần: chào hỏi, giới thiệu tên, quê, nghề, hỏi lại.
+Nhiệm vụ của học viên: ${inp.task}
+Bài của học viên:
+"""${inp.text.slice(0, 3000)}"""
+Nhận xét bằng tiếng Việt, ngắn, tường minh, chỉ đúng chỗ sai. Chỉ nhận xét những gì có trong bài. Trả về đúng một JSON:
+{"diem_manh": "1 câu nêu điều làm tốt, cụ thể", "can_sua": [{"cau_cua_ban": "trích nguyên văn đoạn sai", "sua_thanh": "câu đúng", "vi_sao": "quy tắc trong 1 câu"}], "buoc_tiep": "1 việc nên luyện tiếp"}
+Tối đa 3 mục can_sua; nếu không có lỗi thì để mảng rỗng.`;
+    try {
+      const r = await s.json(prompt, { modelTier: "quick" });
+      const fix = Array.isArray(r.can_sua) ? r.can_sua : [];
+      box.innerHTML = `<p class="fbt">Claude nhận xét</p><p><b>Làm tốt:</b> ${esc(r.diem_manh || "")}</p>` +
+        (fix.length ? `<ul class="fixes">${fix.map(f => `<li><mark class="bad">${esc(f.cau_cua_ban || "")}</mark> → <b>${esc(f.sua_thanh || "")}</b><br><span class="muted">${esc(f.vi_sao || "")}</span></li>`).join("")}</ul>` : "<p>Không thấy lỗi cần sửa.</p>") +
+        `<p><b>Luyện tiếp:</b> ${esc(r.buoc_tiep || "")}</p>`;
+    } catch (e) {
+      const c = e && e.code;
+      if (c === "not_granted" || c === "sampling_disabled" || c === "not_declared" || c === "capability_disabled") { btn.hidden = true; box.innerHTML = `<p class="muted">Nhận xét bằng Claude chưa được bật cho trang này.</p>`; }
+      else if (c === "rate_limited") box.innerHTML = `<p class="muted">Đang có quá nhiều yêu cầu. Thử lại sau ít phút.</p>`;
+      else if (c === "cancelled") box.hidden = true;
+      else box.innerHTML = `<p class="muted">Chưa lấy được nhận xét. Bấm lại để thử.</p>`;
+    } finally { btn.disabled = false; }
+  };
+}
+
+/* nghe và nhại */
+function runShadow(ex, body, finish) {
+  const L = S.lang;
+  const list = el(`<ol class="shadow">${ex.lines.map((l, i) => {
+    const t = l[0], py = L === "zh" ? l[1] : "", focus = L === "zh" ? l[2] : l[1];
+    return `<li><div class="sl"><span class="st" lang="${L === "zh" ? "zh" : "en"}">${esc(t)}</span>${py ? `<span class="py">${esc(py)}</span>` : ""}</div>
+    <div class="row"><button type="button" class="btn ghost small n1" data-i="${i}">▶ Nghe</button><button type="button" class="btn ghost small n2" data-i="${i}">▶ Chậm</button></div>
+    <p class="focus"><span class="lab">Chú ý:</span> ${esc(focus)}</p>
+    <label class="tick"><input type="checkbox" data-i="${i}"> Tôi đã nhại câu này 3 lần và để ý điểm trên</label></li>`; }).join("")}</ol>`);
+  body.appendChild(list);
+  list.querySelectorAll(".n1").forEach(b => b.onclick = () => say(ex.lines[+b.dataset.i][0], L, false));
+  list.querySelectorAll(".n2").forEach(b => b.onclick = () => say(ex.lines[+b.dataset.i][0], L, true));
+  const doneBtn = el(`<button type="button" class="btn primary" disabled>Hoàn thành bài</button>`); body.appendChild(doneBtn);
+  const boxes = [...list.querySelectorAll("input[type=checkbox]")];
+  boxes.forEach(b => b.onchange = () => { doneBtn.disabled = !boxes.every(x => x.checked); });
+  doneBtn.onclick = () => finish({ extra: "Nhại đủ " + ex.lines.length + " câu" });
+}
+
+/* tự chấm can-do */
+function runCando(ex, body, finish) {
+  const ans = {};
+  const box = el(`<div class="cando-list">${ex.list.map((c, i) => `<fieldset class="cd"><legend>${esc(c[0])}</legend>
+    <label><input type="radio" name="cd-${i}-${S.lang}" value="1"> Có</label><label><input type="radio" name="cd-${i}-${S.lang}" value="0"> Chưa</label><p class="cdmsg" hidden></p></fieldset>`).join("")}</div>`);
+  body.appendChild(box);
+  const doneBtn = el(`<button type="button" class="btn primary" disabled>Lưu tự chấm</button>`); body.appendChild(doneBtn);
+  box.querySelectorAll("input").forEach(r => r.onchange = () => {
+    const i = +r.name.split("-")[1]; ans[i] = r.value === "1";
+    const msg = box.querySelectorAll(".cdmsg")[i], target = DAYS.find(d => d.id === ex.list[i][1]);
+    msg.hidden = ans[i]; msg.innerHTML = ans[i] ? "" : `Trước Thứ Bảy, làm lại bài ở <a href="#${target.id}">${esc(target.label)}</a>. Ở trạm, hãy báo host để được giao nhiệm vụ Mức 1.`;
+    doneBtn.disabled = Object.keys(ans).length < ex.list.length;
+  });
+  doneBtn.onclick = () => { const yes = Object.values(ans).filter(Boolean).length; finish({ extra: `Tự chấm: ${yes}/${ex.list.length} can-do đã làm được` }); };
+}
+
+/* đóng vai */
+function runRoleplay(ex, body, finish) {
+  const L = S.lang, rp = ex.rp, turns = rp.turns.filter(t => !t.m2 || S.level === 2);
+  const log = [], tags = {}; let ti = 0, reveals = 0, firstOk = 0, repairs = 0;
+  const box = el(`<div class="rp"><div class="rphead"><b>${esc(rp.title)}</b><span class="muted small">${esc(rp.partner)}</span></div>
+    <div class="chat" aria-live="polite"></div>
+    <form class="rpform" novalidate><p class="frame small" hidden></p><div class="row"><input class="inp" type="text" autocomplete="off" spellcheck="false" aria-label="Câu trả lời của bạn" placeholder="${L === "zh" ? "Gõ chữ Hán hoặc bính âm" : "Gõ câu bạn nói"}"><button class="btn primary" type="submit">Gửi</button></div></form>
+    <div class="fb" role="status" aria-live="polite" hidden></div><div class="rpend"></div></div>`);
+  body.appendChild(box);
+  if (S.level === 2) box.insertBefore(el(`<p class="note">Mức 2: không có khung câu, có một tình huống phát sinh, và bạn cần nhắc lại thông tin của người kia ở lượt cuối.</p>`), $(".chat", box));
+  const chat = $(".chat", box), form = $(".rpform", box), inp = $(".inp", form), fb = $(".fb", box), frame = $(".frame", form);
+  let tries = 0, revealed = false;
+  function aiTurn() {
+    const t = turns[ti];
+    const b = el(`<div class="msg ai"><div class="bub"><span lang="${L === "zh" ? "zh" : "en"}">${esc(t.ai)}</span>${t.py ? `<span class="py">${esc(t.py)}</span>` : ""}
+      <span class="tools"><button type="button" class="btn ghost small pl">▶</button><button type="button" class="btn ghost small vi">Dịch</button></span><span class="vit" hidden>${esc(t.vi)}</span></div></div>`);
+    $(".pl", b).onclick = () => say(t.ai, L); $(".vi", b).onclick = () => { $(".vit", b).hidden = !$(".vit", b).hidden; };
+    if (/^\(|chờ bạn/.test(t.vi)) $(".vit", b).hidden = false;
+    chat.appendChild(b); chat.scrollTop = chat.scrollHeight;
+    frame.hidden = !(S.level === 1 && t.frame); frame.innerHTML = `<span class="lab">Khung câu Mức 1:</span> <span lang="${L === "zh" ? "zh" : "en"}">${esc(t.frame)}</span>`;
+    tries = 0; revealed = false; inp.value = ""; fb.hidden = true;
+  }
+  aiTurn();
+  form.onsubmit = e => {
+    e.preventDefault(); if (ti >= turns.length) return;
+    const t = turns[ti], raw = inp.value, n = N(L, raw), nq = L === "zh" ? n : neq(raw);
+    if (!n) return;
+    let err = null;
+    for (const d of t.diag) if (d[0].test(n)) { err = { where: markIn(raw, d[1]), why: esc(d[2]) }; break; }
+    if (!err) {
+      const needs = t.need.concat(S.level === 2 && t.m2need ? t.m2need : []);
+      const miss = needs.filter(p => !p[0].test(L === "zh" ? n : nq));
+      if (miss.length) err = { where: esc(raw), why: "Câu của bạn còn thiếu: " + miss.map(p => "<b>" + esc(p[1]) + "</b>").join("; ") + "." };
+    }
+    if (revealed && err && N(L, raw) === N(L, t.model)) err = null;
+    if (err) {
+      tries++; if (tries >= 2) revealed = true;
+      let html = `<p class="fbt">Chưa đạt lượt này · lần ${tries}</p><p class="where"><span class="lab">Chỗ sai:</span> ${err.where}</p><p class="why">${err.why}</p>`;
+      html += revealed ? `<p class="reveal">Câu mẫu: <b lang="${L === "zh" ? "zh" : "en"}">${esc(t.model)}</b>. Gõ lại câu mẫu (hoặc câu đúng của bạn) để đi tiếp.</p>` : `<p class="next-step">Sửa lại câu rồi bấm Gửi. Cuộc trò chuyện chờ bạn.</p>`;
+      fb.className = "fb bad"; fb.hidden = false; fb.innerHTML = html;
+      log.push({ turn: ti, said: raw, ok: false, why: err.why.replace(/<[^>]+>/g, "") });
+      if (tries === 1) addReview(L, "Đóng vai: " + t.vi.replace(/^\(.*?\)\s*/, ""), t.model);
+      inp.focus(); inp.select(); return;
+    }
+    if (tries === 0) firstOk++; else if (!revealed) repairs++; else reveals++;
+    tags[t.tag] = true;
+    chat.appendChild(el(`<div class="msg me"><div class="bub" lang="${L === "zh" ? "zh" : "en"}">${esc(raw)}</div></div>`));
+    log.push({ turn: ti, said: raw, ok: true });
+    fb.className = "fb good"; fb.hidden = false; fb.innerHTML = `<p class="fbt">${tries === 0 ? "Đạt" : "Đạt sau khi sửa"}</p><p class="why">${esc(t.praise)}</p>`;
+    ti++;
+    if (ti < turns.length) setTimeout(aiTurn, 450);
+    else endRP();
+  };
+  function endRP() {
+    form.hidden = true;
+    const cd = [["ten", "Nói tên"], ["que", "Nói quê / quốc tịch"], ["nghe", "Nói nghề"], ["hoilai", "Hỏi lại người đối diện"]].filter(c => turns.some(t => t.tag === c[0]));
+    const errs = log.filter(l => !l.ok);
+    const end = $(".rpend", box);
+    end.innerHTML = `<div class="summary"><h4>Tóm tắt lượt đóng vai</h4>
+      <ul class="crit">${cd.map(c => `<li class="${tags[c[0]] ? "ok" : "no"}">${esc(c[1])}</li>`).join("")}</ul>
+      <p><b>Đúng ngay:</b> ${firstOk}/${turns.length} lượt · <b>Tự sửa:</b> ${repairs} · <b>Cần câu mẫu:</b> ${reveals}</p>
+      ${errs.length ? `<p><b>Lỗi đã gửi giáo viên lớp nhóm:</b></p><ul class="fixes">${errs.slice(0, 4).map(e => `<li><mark class="bad">${esc(e.said)}</mark><br><span class="muted">${esc(e.why)}</span></li>`).join("")}</ul>` : "<p>Không có lỗi nào. Giáo viên lớp nhóm sẽ giao bạn vai trợ host.</p>"}
+      <div class="row"><button type="button" class="btn ghost ai" hidden>Nhờ Claude nhận xét cả cuộc hội thoại</button><button type="button" class="btn primary fin">Hoàn thành bài</button></div><div class="aibox" hidden></div></div>`;
+    aiButton($(".ai", end), $(".aibox", end), () => ({ task: "Đóng vai: " + rp.title + ". " + DATA[L].cando, text: turns.map((t, i) => { const mine = log.filter(l => l.turn === i).map(l => l.said); return "Đối tác: " + t.ai + "\nHọc viên: " + mine.join(" / "); }).join("\n") }));
+    $(".fin", end).onclick = () => {
+      const all = cd.every(c => tags[c[0]]) && reveals === 0;
+      finish({ total: turns.length, first: firstOk, repair: repairs, bonus: all ? 10 : 0, bonusText: all ? "đạt mục tiêu can-do không cần câu mẫu (+10)" : "" });
+    };
+  }
+}
+
+/* ---------- các phần ngoài web ---------- */
+function renderClass(main) {
+  const c = CLASS[S.lang];
+  main.appendChild(el(`<section class="doc"><p class="eyebrow">Giáo án cho giáo viên</p><h1>${esc(c.title)}</h1>
+    <p class="lead">Lớp 6–8 người. Giáo viên nhận danh sách lỗi từ các lượt đóng vai với AI (Thứ 4) trước giờ học và chỉ sửa đúng những lỗi đó.</p>
+    <h2>Dữ liệu lỗi từ AI tuần này (bản mẫu)</h2>
+    <div class="scroll"><table class="tbl"><thead><tr><th>Câu học viên nói</th><th>Số người</th><th>Quy tắc nói rõ</th><th>Hoạt động sửa</th></tr></thead><tbody>${c.errors.map(r => `<tr><td><mark class="bad">${esc(r[0])}</mark></td><td class="num">${esc(r[1])}</td><td>${esc(r[2])}</td><td>${esc(r[3])}</td></tr>`).join("")}</tbody></table></div>
+    <h2>Tiến trình 60 phút</h2>
+    <div class="scroll"><table class="tbl"><thead><tr><th>Phút</th><th>Hoạt động</th><th>Giáo viên</th><th>Học viên</th></tr></thead><tbody>${c.plan.map(r => `<tr><td class="num">${esc(r[0])}</td><td><b>${esc(r[1])}</b></td><td>${esc(r[2])}</td><td>${esc(r[3])}</td></tr>`).join("")}</tbody></table></div>
+    <h2>Nguyên tắc sửa lỗi trong lớp</h2>
+    <ol class="plain"><li>Chiếu câu sai thật, hỏi "sai ở đâu?" trước khi giảng.</li><li>Nói quy tắc bằng tiếng Việt, một câu, kèm một ví dụ đúng.</li><li>Cho học viên tự nói lại câu đúng ngay; chưa đúng thì gợi ý chỗ sai, chưa đọc đáp án.</li><li>Kết thúc bằng một lượt nói có ý nghĩa (tập trạm), không dừng ở bài tập câu.</li></ol></section>`));
+}
+function renderLive(main) {
+  const rub = LIVE.rubric;
+  main.appendChild(el(`<section class="doc"><p class="eyebrow">Weekend Live · Thứ Bảy · 150 phút</p><h1>Ba trạm, một buổi chiều, nói với người thật</h1>
+    <p class="lead">Mỗi trạm 4–6 học viên, một người nước ngoài, một host người Việt. Học viên xoay vòng đủ ba trạm.</p>
+    <h2>Lịch buổi</h2><div class="scroll"><table class="tbl"><tbody>${LIVE.timeline.map(r => `<tr><td class="num">${esc(r[0])}</td><td><b>${esc(r[1])}</b></td><td>${esc(r[2])}</td></tr>`).join("")}</tbody></table></div>
+    ${LIVE.stations.map(s => `<article class="station st-${s.tone}"><h2>${esc(s.name)}</h2><p><b>Tình huống:</b> ${esc(s.situation)} · <b>Nhân sự:</b> ${esc(s.staff)}</p>
+      <div class="two"><div class="task m1"><h4>Thẻ nhiệm vụ Mức 1</h4><p>${esc(s.m1)}</p></div><div class="task m2"><h4>Thẻ nhiệm vụ Mức 2</h4><p>${esc(s.m2)}</p></div></div>
+      <div class="role"><h4>${esc(s.roleLang)}</h4>${s.role.map(r => `<p lang="${/[一-鿿]/.test(r) ? "zh" : "en"}">${esc(r)}</p>`).join("")}<p class="muted small">${esc(s.roleVi)}</p></div>
+      <p><b>Câu khoá học viên mang theo:</b></p><ul class="keys">${s.lines.map(l => `<li lang="${/[一-鿿]/.test(l) ? "zh" : "en"}">${esc(l)}</li>`).join("")}</ul>
+      <p><b>Phiếu chấm nhanh cho người quan sát:</b> ☐ nói tên ☐ nói quê/quốc tịch ☐ nói nghề ☐ hỏi lại ☐ ${s.tone === "both" ? "chuyển đúng thông tin cho bên kia" : "xử lý tình huống phát sinh (Mức 2)"}</p></article>`).join("")}
+    <h2>Kịch bản host (dùng cho cả 3 trạm)</h2><ol class="plain">${LIVE.host.map(h => `<li>${esc(h)}</li>`).join("")}</ol>
+    <h2>Rubric chấm nói (dùng chung cho AI, giáo viên, người nước ngoài)</h2>
+    <div class="scroll"><table class="tbl rub"><thead><tr><th>Tiêu chí</th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody>${rub.map(r => `<tr><td><b>${esc(r[0])}</b></td>${r.slice(1).map(x => `<td>${esc(x)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+    <p class="muted small">Đạt can-do tuần (nhận tem Hộ chiếu Thực Chiến): mức 3 trở lên ở Hoàn thành nhiệm vụ và Tương tác.</p></section>`));
+}
+function renderWorkbook(main) {
+  const L = S.lang;
+  if (L === "zh") {
+    const w = WORKBOOK.zh;
+    const sec = el(`<section class="doc"><p class="eyebrow">Workbook giấy · tiếng Trung · Thứ 3 và Thứ 5, 15 phút mỗi buổi</p><h1>Tuần 1: viết 8 chữ đầu tiên</h1>
+      <p class="lead">Bản in đi kèm khóa học. Trang này là bản xem trước; ô mờ để tô theo, ô trống để tự viết.</p>
+      <h2>Trang 1 · Tập viết</h2><div class="chars">${w.chars.map(c => `<div class="crow"><div class="cinfo"><span class="big" lang="zh">${c[0]}</span><span><b>${esc(c[1])}</b> · ${esc(c[2])} · ${c[3]} nét</span><span class="muted small">${esc(c[4])}</span></div>
+        <div class="grid">${[0, 1, 2, 3, 4, 5].map(i => `<span class="cell${i === 0 ? " solid" : i < 3 ? " trace" : ""}" lang="zh">${i < 3 ? c[0] : ""}</span>`).join("")}</div></div>`).join("")}</div>
+      <h2>Trang 2 · Nghe và chép (QR âm thanh trên bản in)</h2><ol class="plain">${w.dictation.map((d, i) => `<li><button type="button" class="btn ghost small dic" data-i="${i}">▶ Nghe câu ${i + 1}</button> <span class="line"></span></li>`).join("")}</ol>
+      <details class="key"><summary>Đáp án trang 2</summary><ol>${w.dictation.map(d => `<li lang="zh">${esc(d)}</li>`).join("")}</ol></details>
+      <h2>Trang 3 · Dịch sang tiếng Trung</h2><ol class="plain">${w.translate.map(t => `<li>${esc(t[0])} <span class="line"></span></li>`).join("")}</ol>
+      <details class="key"><summary>Đáp án trang 3</summary><ol>${w.translate.map(t => `<li lang="zh">${esc(t[1])}</li>`).join("")}</ol></details></section>`);
+    sec.querySelectorAll(".dic").forEach(b => b.onclick = () => say(w.dictation[+b.dataset.i], "zh", true));
+    main.appendChild(sec);
+  } else {
+    const w = WORKBOOK.en;
+    const sec = el(`<section class="doc"><p class="eyebrow">Workbook giấy · tiếng Anh · Thứ 3 và Thứ 5, 15 phút mỗi buổi</p><h1>Tuần 1: nghề, a/an và trọng âm</h1>
+      <p class="lead">Bản in đi kèm khóa học. Trang này là bản xem trước.</p>
+      <h2>Trang 1 · Điền a hoặc an</h2><ol class="plain cols">${w.articles.map(a => `<li><span class="line short"></span> ${esc(a)}</li>`).join("")}</ol>
+      <details class="key"><summary>Đáp án trang 1</summary><p>${w.articles.map(a => (/^[aeiou]/i.test(a) || /^(hr|it)\b/i.test(a) ? "an " : "a ") + a).map(esc).join(" · ")}</p><p class="small muted">Chú ý: an HR officer, an IT technician vì đọc bằng nguyên âm /eɪtʃ/, /aɪ/.</p></details>
+      <h2>Trang 2 · Gạch dưới âm được nhấn</h2><ol class="plain cols">${w.stress.map((s, i) => `<li>${esc(s)} <button type="button" class="btn ghost small st" data-i="${i}">▶</button></li>`).join("")}</ol>
+      <details class="key"><summary>Đáp án trang 2</summary><p>${w.stressKey.map(esc).join(" · ")}</p></details>
+      <h2>Trang 3 · Viết đoạn tự giới thiệu 5 câu</h2><ol class="plain">${w.frame.map(f => `<li>${esc(f)}</li>`).join("")}</ol><div class="lines"><span class="line"></span><span class="line"></span><span class="line"></span><span class="line"></span><span class="line"></span></div>
+      <h2>Trang 4 · Nghe và chép (QR âm thanh trên bản in)</h2><ol class="plain">${w.dictation.map((d, i) => `<li><button type="button" class="btn ghost small dic" data-i="${i}">▶ Nghe câu ${i + 1}</button> <span class="line"></span></li>`).join("")}</ol>
+      <details class="key"><summary>Đáp án trang 4</summary><ol>${w.dictation.map(d => `<li>${esc(d)}</li>`).join("")}</ol></details></section>`);
+    sec.querySelectorAll(".dic").forEach(b => b.onclick = () => say(w.dictation[+b.dataset.i], "en", true));
+    sec.querySelectorAll(".st").forEach(b => b.onclick = () => say(w.stress[+b.dataset.i], "en", true));
+    main.appendChild(sec);
+  }
+}
+function renderRemind(main) {
+  main.appendChild(el(`<section class="doc"><p class="eyebrow">Lời nhắc tuần 1</p><h1>Tối đa một lời nhắc tự động mỗi ngày</h1>
+    <p class="lead">Chỉ gửi khi học viên chưa học hôm đó, đúng giờ họ chọn. Không gửi từ 22:00 đến 7:00. Nghỉ từ 3 ngày thì người thật nhắn.</p>
+    <div class="scroll"><table class="tbl"><thead><tr><th>Khi nào</th><th>Kênh</th><th>Nội dung</th><th>Điều kiện</th></tr></thead><tbody>${REMIND.map(r => `<tr><td class="num">${esc(r[0])}</td><td>${esc(r[1])}</td><td>${esc(r[2])}</td><td class="muted">${esc(r[3])}</td></tr>`).join("")}</tbody></table></div>
+    <h2>Phản hồi tức thì trên web: 4 quy tắc</h2><ol class="plain"><li>Sai lần 1: chỉ đúng chỗ sai (tô đỏ, ô trống ＿ cho phần thiếu) và nói quy tắc. Chưa đưa đáp án.</li><li>Học viên sửa ngay trong ô và kiểm tra lại. Tự sửa đúng được +5 điểm.</li><li>Sai lần 2: hiện đáp án, nhưng học viên vẫn phải tự gõ hoặc chọn lại cho đúng mới qua câu.</li><li>Mọi câu từng sai đều vào kho ôn và quay lại ở bài A những ngày sau.</li></ol></section>`));
+}
+
+/* ---------- khởi động ---------- */
+function boot() {
+  document.querySelectorAll("[data-lang]").forEach(b => b.onclick = () => { S.lang = b.dataset.lang; save(); renderMain(); });
+  document.querySelectorAll("[data-level]").forEach(b => b.onclick = () => { S.level = +b.dataset.level; save(); renderMain(); });
+  $("#reset").onclick = () => {
+    const c = $("#resetConfirm"); c.hidden = !c.hidden;
+  };
+  $("#resetYes").onclick = () => { S.points = 0; S.ledger = []; S.done = {}; S.daily = {}; S.review = { en: [], zh: [] }; save(); $("#resetConfirm").hidden = true; renderMain(); };
+  $("#resetNo").onclick = () => { $("#resetConfirm").hidden = true; };
+  addEventListener("hashchange", () => { renderMain(); scrollTo(0, 0); });
+  renderMain();
+}
+boot();
+
+</script>
+
+</body>
+</html>
