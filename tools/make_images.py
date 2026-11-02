@@ -150,6 +150,12 @@ def main():
             if f.exists() and (keys is None or it["key"] in keys):
                 f.unlink()
     if os.environ.get("AUDIT", "").strip() in ("1", "true"):
+        try:
+            req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=1000", headers={"x-goog-api-key": os.environ.get("GEMINI_API_KEY", "")})
+            ms = json.load(urllib.request.urlopen(req, timeout=60)).get("models", [])
+            print("Model ảnh/giọng đọc dùng được: " + ", ".join(m["name"].split("/")[-1] + "[" + "/".join(m.get("supportedGenerationMethods", [])) + "]" for m in ms if re.search(r"image|imagen|tts|lite", m["name"])))
+        except Exception as e:
+            print("Không liệt kê được model:", e)
         key = os.environ.get("GEMINI_API_KEY", "").strip(); bad = []
         for it in items:
             f = OUT / f'{it["key"]}.webp'
