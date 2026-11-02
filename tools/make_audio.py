@@ -11,12 +11,15 @@ import base64, hashlib, json, os, pathlib, re, subprocess, sys, time, urllib.err
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LIST = ROOT / "tools" / "audio-list.json"
 OUT = ROOT / "tuan-1" / "audio"
-MODELS = [m for m in [os.environ.get("GEMINI_TTS_MODEL", "").strip(), "gemini-3.8-flash-tts", "gemini-3.1-flash-tts-preview", "gemini-2.5-flash-preview-tts"] if m]
+MODELS = [m for m in [os.environ.get("GEMINI_TTS_MODEL", "").strip(), "gemini-3.8-flash-tts", "gemini-3.8-flash-lite-tts"] if m]
 
 # Giọng cho từng nhân vật (giọng có sẵn của Gemini). "_" = giọng đọc thẻ, câu mẫu.
 VOICES = {
     "en": {"_": "Kore", "An": "Aoede", "Tom": "Puck", "Kevin": "Charon", "Linh": "Leda", "Sarah": "Despina"},
     "vi": {"_": "Kore", "Khang": "Algieba", "Vy": "Laomedeia"},
+    # nhân vật khoá 16 tuần (tiếng Trung) và tên tương ứng bên tiếng Anh
+    "zh_course": {"刘星": "Puck", "夏东海": "Charon", "刘梅": "Gacrux", "夏雪": "Leda", "小雨": "Fenrir", "阿兰": "Aoede", "老师": "Erinome"},
+    "en_course": {"Leo": "Puck", "David": "Charon", "Mary": "Gacrux", "Sophie": "Leda", "Sam": "Fenrir", "Lan": "Aoede", "Ms Chen": "Erinome"},
     "zh": {"_": "Kore", "An": "Aoede", "王丽": "Despina", "Lệ": "Despina", "Minh": "Orus", "阮明": "Orus", "王经理": "Iapetus"},
 }
 STYLE = {
@@ -81,8 +84,11 @@ def main():
         print("::error::Chưa có secret GEMINI_API_KEY trong Settings → Secrets and variables → Actions.")
         write_index(rows); sys.exit(1)
     model_i, made, fails = 0, 0, 0
+    t0 = time.time()
     for r in todo:
-        voice = VOICES[r["lang"]].get(r["who"], VOICES[r["lang"]]["_"])
+        if time.time() - t0 > float(os.environ.get("MAX_MIN", "280")) * 60:
+            print("Hết thời gian của lần chạy này, lần sau làm tiếp."); break
+        voice = VOICES[r["lang"]].get(r["who"]) or VOICES.get(r["lang"] + "_course", {}).get(r["who"]) or VOICES[r["lang"]]["_"]
         text = r["text"]  # chỉ gửi đúng câu cần đọc: model mới (3.8) đọc luôn cả lời dặn nếu có
         for attempt in range(6):
             try:
@@ -106,6 +112,8 @@ def main():
                     print("::error::Hết tiền trả trước (prepay credits) của khoá Gemini. Nạp thêm ở https://ai.studio/projects rồi chạy lại.")
                     write_index(rows); sys.exit(1)
                 if e.code == 429:
+                    if ("PerDay" in msg or "per day" in msg.lower()) and os.environ.get("ALLOW_PAID", "1") == "1" and model_i + 1 < len(MODELS):
+                        print(f"Hết lượt miễn phí của {MODELS[model_i]}, chuyển sang {MODELS[model_i + 1]} (trả phí, rẻ)"); model_i += 1; continue
                     if "PerDay" in msg or "per day" in msg.lower():
                         print("Hết lượt miễn phí trong ngày. Lần chạy sau sẽ làm tiếp.")
                         print(f"Đã tạo thêm {made} file, tổng có {write_index(rows)} file."); return

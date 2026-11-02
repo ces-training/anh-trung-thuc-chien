@@ -85,6 +85,25 @@ HOME = {
   "room-review": ("4:3", "A neat stack of blank index cards with colourful tabs, a phone and a cup of tea on a cosy desk, soft light."),
   "room-career": ("4:3", "A confident young Vietnamese professional shaking hands with two interviewers in a modern office meeting room, a closed certificate folder on the table."),
 }
+# ---- khoá 16 tuần: chân dung nhân vật, cảnh mỗi ngày, ảnh từ vựng mới (đọc từ tools/course/*.json) ----
+COURSE_ITEMS = []
+_seen = set()
+for f in sorted(pathlib.Path(__file__).with_name("course").glob("*-w*.json")):
+    c = json.loads(f.read_text(encoding="utf-8"))
+    if c["lang"] == "zh":
+        for m in c.get("cast", []):
+            k = "cast-" + m["key"]
+            if k not in _seen:
+                _seen.add(k); COURSE_ITEMS.append({"key": k, "aspect": "1:1", "refs": [], "prompt": PORTRAIT + m["look"] + " " + STYLE})
+        for d in c["days"]:
+            sc = d["scene"]; k = sc["img"]
+            if k in _seen: continue
+            _seen.add(k)
+            refs = ["cast-" + m["key"] for m in c.get("cast", []) if m["key"] in sc["imgPrompt"]][:3]
+            COURSE_ITEMS.append({"key": k, "aspect": "16:9", "refs": refs, "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent. " + sc["imgPrompt"] + ". Natural family-drama style photo, warm light. " + STYLE})
+    for im in c.get("newImages", []):
+        if im["key"] not in _seen and im["key"] not in CARDS:
+            _seen.add(im["key"]); COURSE_ITEMS.append({"key": im["key"], "aspect": "4:3", "refs": [], "prompt": im["prompt"] + " " + STYLE})
 items = []
 for k, d in CHARS.items():
     items.append({"key": k, "aspect": "1:1", "refs": [], "prompt": PORTRAIT + d + " " + STYLE})
@@ -94,6 +113,7 @@ for k, (asp, d) in HOME.items():
     items.append({"key": k, "aspect": asp, "refs": [], "prompt": d + " " + STYLE})
 for k, (refs, d) in HOME_REF.items():
     items.append({"key": k, "aspect": "16:9", "refs": refs, "prompt": "Use the person shown in the reference image, keeping face, hair and clothes consistent. " + d + " " + STYLE})
+items += [it for it in COURSE_ITEMS if it["aspect"] == "1:1"] + [it for it in COURSE_ITEMS if it["aspect"] != "1:1"]
 for k, d in CARDS.items():
     items.append({"key": k, "aspect": "4:3", "refs": [], "prompt": d + " " + STYLE})
 pathlib.Path(__file__).with_name("image-list.json").write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")

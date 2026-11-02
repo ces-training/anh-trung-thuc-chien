@@ -17,7 +17,7 @@ LIST = ROOT / "tools" / "image-list.json"
 OUT = ROOT / "tuan-1" / "img"
 QA_FILE = ROOT / "tools" / "image-qa.json"
 API = "https://generativelanguage.googleapis.com/v1beta/models/"
-REF_MODELS = [m for m in [os.environ.get("IMAGE_MODEL_REF", "").strip(), "gemini-3.1-flash-image", "gemini-2.5-flash-image"] if m]
+REF_MODELS = [m for m in [os.environ.get("IMAGE_MODEL_REF", "").strip(), "gemini-3.1-flash-lite-image", "gemini-3.1-flash-image"] if m]
 CHEAP_MODELS = [m for m in [os.environ.get("IMAGE_MODEL_CHEAP", "").strip(), "gemini-3.1-flash-lite-image"] if m]
 QA_MODELS = [m for m in [os.environ.get("QA_MODEL", "").strip(), "gemini-2.5-flash-lite", "gemini-flash-lite-latest"] if m]
 # Giá ước tính (USD/tranh) để in báo cáo chi phí
