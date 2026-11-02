@@ -1,18 +1,6 @@
-<!doctype html>
-<html lang="vi">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Bài tập tuần 1 · Anh – Trung Thực Chiến</title>
-<meta name="description" content="Bài tập tuần 1 tiếng Anh và tiếng Trung giao tiếp: chào hỏi, giới thiệu bản thân. Sai ở đâu chỉ rõ ở đó, làm lại đến khi đúng.">
-<link rel="canonical" href="https://ces-training.github.io/anh-trung-thuc-chien/tuan-1/">
-<link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}</style>
-</head>
-<body>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Bài tập tuần 1 · Anh – Trung Thực Chiến</title><link rel="canonical" href="https://ces-training.github.io/anh-trung-thuc-chien/tuan-1/"><link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<style>body{padding-bottom:env(safe-area-inset-bottom)}</style></head><body><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;700&display=swap">
 <style>
@@ -316,6 +304,61 @@ mark.bad{background:var(--mark);color:var(--ink);border-radius:5px;padding:0 4px
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(84px + env(safe-area-inset-bottom, 0px));background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:14px;z-index:30;max-width:calc(100% - 32px)}
 .confetti{position:fixed;inset:0;pointer-events:none;z-index:40}
 @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+
+/* học trước */
+.cardsx,.scene,.pats{display:flex;flex-direction:column;gap:16px}
+.ctl{flex-wrap:wrap}
+.fcard{position:relative;min-height:300px;border-radius:22px;padding:30px 22px 22px;background:var(--surface);border:2px solid var(--line);box-shadow:var(--shadow);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;cursor:pointer;animation:flip .28s ease-out}
+.fcard.back{background:var(--acc-soft);border-color:color-mix(in srgb,var(--acc) 35%,transparent);align-items:stretch;text-align:left}
+@keyframes flip{from{transform:perspective(900px) rotateY(70deg);opacity:.3}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.fcard{animation:none}}
+.fcard .side{position:absolute;top:12px;left:16px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.fw{font-size:clamp(26px,5vw,38px);line-height:1.25;font-weight:800}
+.fw[lang=zh]{font-family:var(--han);font-size:clamp(40px,9vw,64px);font-weight:600}
+.fpy{font-size:20px;color:var(--acc);font-weight:600}
+.fcard .hint{font-size:13px;color:var(--muted)}
+.fm{font-size:22px;font-weight:800}
+.fwb{font-size:16px;font-weight:700;color:var(--acc)} .fwb[lang=zh]{font-family:var(--han);font-size:20px} .fwb small{font-family:var(--font);font-size:14px}
+.fex{background:var(--surface);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;align-items:flex-start}
+.fex span{font-size:18px;font-weight:700} .fex span[lang=zh]{font-family:var(--han);font-size:22px;font-weight:500}
+.fex small{color:var(--muted);font-size:14.5px}
+.fnote{font-size:15px} .fnote .lab{font-weight:800;color:var(--acc)}
+.stage2{background:#101830;color:#EEF2FA;border-radius:22px;padding:18px 18px 20px;display:flex;flex-direction:column;gap:14px}
+.stage2 .setting{font-size:14.5px;color:#C9D2E6;border-left:3px solid var(--sun);padding-left:10px}
+.cast{display:flex;justify-content:space-between;gap:12px}
+.actor{display:flex;flex-direction:column;align-items:center;gap:6px;opacity:.55;transition:opacity .2s,transform .2s}
+.actor b{font-size:14px} .actor.talk{opacity:1;transform:translateY(-3px)}
+.av.big{width:64px;height:64px;font-size:20px;background:#22305A;color:#fff;border:3px solid transparent}
+.actor.a .av.big{background:color-mix(in srgb,var(--acc) 70%,#101830)} .actor.b .av.big{background:#3B4A6B}
+.actor.talk .av.big{border-color:var(--sun)}
+.nowline{min-height:96px;display:flex;flex-direction:column;gap:8px}
+.nowline.left{align-items:flex-start} .nowline.right{align-items:flex-end}
+.nowline .muted{color:#A9B3C7}
+.bub2{max-width:92%;background:#fff;color:#0E1730;border-radius:18px;padding:12px 16px;display:flex;flex-direction:column;gap:3px;animation:pop .18s ease-out}
+.nowline.left .bub2{border-top-left-radius:4px} .nowline.right .bub2{border-top-right-radius:4px;background:var(--sun-soft);color:var(--ink)}
+.stage2 .btn.ghost{color:#EEF2FA;background:transparent;border-color:#3A4870}
+.bub2 .spk,.log .spk{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;opacity:.7}
+.bub2 .tx{font-size:20px;font-weight:700} .bub2 .tx[lang=zh]{font-family:var(--han);font-size:24px;font-weight:500}
+.py{color:var(--acc);font-weight:600;font-size:15px} .bub2 .py{color:#1F44D6} .vi{font-size:14.5px;opacity:.8}
+.log{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+.log li{display:flex;flex-direction:column;gap:2px;background:var(--soft);border-radius:14px;padding:8px 12px;max-width:88%}
+.log li.r{align-self:flex-end;background:var(--sun-soft)}
+.log .tx{font-weight:600} .log .tx[lang=zh]{font-family:var(--han);font-size:18px}
+.pat{display:flex;flex-direction:column;gap:14px}
+.pat h2{font-size:22px}
+.formula{display:flex;flex-direction:column;gap:8px}
+.frow{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.fchip{background:var(--soft);border:1.5px solid var(--line);border-radius:10px;padding:6px 12px;font-weight:700}
+.fchip.key{background:var(--sun);border-color:var(--sun);color:#3B2F00}
+.fchip[lang=zh]{font-family:var(--han);font-size:18px;font-weight:500}
+.plus{color:var(--muted);font-weight:700}
+.pex{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+.pex li{display:grid;grid-template-columns:auto 1fr;column-gap:10px;align-items:center}
+.pex li span{font-weight:700;font-size:17px} .pex li span[lang=zh]{font-family:var(--han);font-size:20px;font-weight:500}
+.pex li small{grid-column:2;color:var(--muted)}
+.badgood{border-radius:16px;padding:12px 16px;background:var(--surface);border:2px dashed var(--line);display:flex;flex-direction:column;gap:6px;font-size:16.5px}
+.badgood .x{color:var(--bad);font-weight:800} .badgood .v{color:var(--good);font-weight:800}
+.badgood s{color:var(--bad);text-decoration-thickness:2px} .badgood .why{font-size:14.5px;color:var(--muted)}
 </style>
 
 <header class="top">
@@ -942,25 +985,26 @@ DATA.zh.candoList = {
 };
 
 /* ============ ỨNG DỤNG ============ */
-const PTS = { A: 10, B: 10, C: 15, D: 10, E: 10, F: 10, G: 10, H: 20, I: 30, J: 10, K: 20, L: 40, M: 10, N: 15 };
-const TITLES = { A: "Ôn nhanh tự nhớ lại", B: "Nghe hiểu hội thoại", C: "Nghe và nhại theo", D: { en: "Trọng âm và âm cuối", zh: "Thanh điệu" }, E: "Từ mới trong ngữ cảnh",
+const PTS = { T: 5, S: 5, P: 5, A: 10, B: 10, C: 15, D: 10, E: 10, F: 10, G: 10, H: 20, I: 30, J: 10, K: 20, L: 40, M: 10, N: 15 };
+const TITLES = { T: "Thẻ học", S: "Xem cảnh hội thoại", P: "Mẫu câu cần nắm", A: "Ôn nhanh tự nhớ lại", B: "Nghe hiểu hội thoại", C: "Nghe và nhại theo", D: { en: "Trọng âm và âm cuối", zh: "Thanh điệu" }, E: "Từ mới trong ngữ cảnh",
   F: "Sắp xếp câu", G: "Điền vào chỗ trống", H: "Nói nhanh theo gợi ý", I: "Đóng vai với AI", J: "Đọc hồ sơ thật", K: "Viết tin nhắn ngắn", L: "Kiểm tra tuần", M: "Tự chấm can-do", N: "Phiếu nhận xét Chủ nhật" };
-const MINS = { A: 3, B: 5, C: 6, D: 6, E: 6, F: 5, G: 5, H: 5, I: 12, J: 6, K: 4, L: 15, M: 2, N: 7 };
+const MINS = { T: 4, S: 3, P: 3, A: 3, B: 5, C: 6, D: 6, E: 6, F: 5, G: 5, H: 5, I: 12, J: 6, K: 4, L: 15, M: 2, N: 7 };
 const DAYS = [
-  { id: "thu-2", label: "Thứ 2", kind: "web", mins: 25, ex: ["A", "C", "E", "B1", "H1"] },
-  { id: "thu-3", label: "Thứ 3", kind: "web", mins: 25, extra: "+ 15 phút workbook giấy", ex: ["A", "D", "B2", "G1", "H2"] },
-  { id: "thu-4", label: "Thứ 4", kind: "web", mins: 25, ex: ["A", "F", "G2", "I1"] },
+  { id: "thu-2", label: "Thứ 2", kind: "web", mins: 25, ex: ["T1", "S1", "A", "C", "E", "B1", "H1"] },
+  { id: "thu-3", label: "Thứ 3", kind: "web", mins: 25, extra: "+ 15 phút workbook giấy", ex: ["T2", "S2", "P1", "A", "D", "B2", "G1", "H2"] },
+  { id: "thu-4", label: "Thứ 4", kind: "web", mins: 25, ex: ["P2", "S3", "A", "F", "G2", "I1"] },
   { id: "lop-nhom", label: "Lớp nhóm", kind: "class" },
-  { id: "thu-5", label: "Thứ 5", kind: "web", mins: 25, extra: "+ 15 phút workbook giấy", ex: ["A", "I2", "J", "K"] },
-  { id: "thu-6", label: "Thứ 6", kind: "web", mins: 25, ex: ["A", "L", "M", "H3"] },
+  { id: "thu-5", label: "Thứ 5", kind: "web", mins: 25, extra: "+ 15 phút workbook giấy", ex: ["T3", "S4", "A", "I2", "J", "K"] },
+  { id: "thu-6", label: "Thứ 6", kind: "web", mins: 25, ex: ["T4", "A", "L", "M", "H3"] },
   { id: "weekend-live", label: "Thứ 7 · Weekend Live", kind: "live" },
   { id: "chu-nhat", label: "Chủ nhật", kind: "web", mins: 10, ex: ["N", "A"] },
   { id: "workbook", label: "Workbook", kind: "workbook" },
   { id: "loi-nhac", label: "Lời nhắc", kind: "remind" }
 ];
 const WEB_ONLY = typeof WEB_BUILD !== "undefined";
-const countQ = e => (e.items && e.items.length) || (e.lines && e.lines.length) || (e.list && e.list.length) || (e.rp ? e.rp.turns.filter(t => !t.m2 || S.level === 2).length : 0);
+const countQ = e => (e.cards && e.cards.length) || (e.lines2 && e.lines2.length) || (e.pats && e.pats.length) || (e.items && e.items.length) || (e.lines && e.lines.length) || (e.list && e.list.length) || (e.rp ? e.rp.turns.filter(t => !t.m2 || S.level === 2).length : 0);
 if (WEB_ONLY) for (let i = DAYS.length - 1; i >= 0; i--) if (DAYS[i].kind !== "web") DAYS.splice(i, 1);
+DAYS.forEach(d => { if (d.ex) d.mins = d.ex.reduce((m, c) => m + MINS[c[0]], 0); });
 const WEBDAYS = DAYS.filter(d => d.kind === "web").map(d => d.id);
 
 /* ---------- trạng thái (lưu trên trình duyệt người xem) ---------- */
@@ -1042,6 +1086,7 @@ function buildEx(day, code) {
   const D = DATA[S.lang], L = S.lang, base = code[0];
   const title = typeof TITLES[base] === "object" ? TITLES[base][L] : TITLES[base];
   const ex = { key: exKey(day, code), code: base, title, rule: D.rules[base], pts: PTS[base], mins: MINS[base], kind: "items", items: [] };
+  if ("TSP".includes(base)) return learnEx(ex, code);
   const pickMC = arr => arr.map(o => Object.assign({ k: "mc" }, o));
   const pickType = arr => arr.map(o => Object.assign({ k: "type" }, o));
   if (base === "A") {
@@ -1442,6 +1487,300 @@ function runRoleplay(ex, body, finish) {
 }
 
 
+/* ============ HỌC TRƯỚC: thẻ học, cảnh hội thoại, mẫu câu ============ */
+const LEARN = {
+  en: {
+    cards: {
+      T1: [
+        { w: "Hi, I'm An.", m: "Chào, mình là An.", ex: "Hi, I'm An. I'm new here.", exm: "Chào, mình là An. Mình là người mới.", n: "I'm = I am. Sau I'm là tên, nghề (có a/an) hoặc tính từ, không phải động từ." },
+        { w: "I'm from Hanoi.", m: "Tôi đến từ Hà Nội (quê của tôi).", ex: "I'm from Hanoi. What about you?", exm: "Tôi đến từ Hà Nội. Còn bạn?", n: "Nói quê: I'm from + nơi. I'm in Hanoi nghĩa là đang ở Hà Nội." },
+        { w: "Nice to meet you.", m: "Rất vui được gặp bạn.", ex: "Hi Tom, nice to meet you.", exm: "Chào Tom, rất vui được gặp bạn.", n: "Dùng khi gặp ai đó lần đầu." },
+        { w: "Nice to meet you too.", m: "Mình cũng rất vui được gặp bạn.", ex: "Nice to meet you too, An.", exm: "Mình cũng rất vui, An.", n: "Đáp lại lời chào: thêm too ở cuối câu." },
+        { w: "What do you do?", m: "Bạn làm nghề gì?", ex: "What do you do, Tom?", exm: "Tom làm nghề gì?", n: "Hỏi nghề. What are you doing? lại là \"bạn đang làm gì lúc này\"." },
+        { w: "an engineer", m: "một kỹ sư", ex: "I'm an engineer.", exm: "Tôi là kỹ sư.", n: "engineer bắt đầu bằng nguyên âm nên dùng an. Nhấn âm cuối: en-gi-NEER." },
+        { w: "I work as a sales assistant.", m: "Tôi làm nhân viên bán hàng.", ex: "I work as a sales assistant in a shop.", exm: "Tôi làm nhân viên bán hàng ở một cửa hàng.", n: "work as + a/an + nghề. Không nói I'm work." },
+        { w: "Where are you from?", m: "Bạn đến từ đâu?", ex: "Where are you from, Tom?", exm: "Tom đến từ đâu?", n: "Câu hỏi Wh-: Where + are + you + from. Không bỏ are." },
+        { w: "What about you?", m: "Còn bạn thì sao?", ex: "I'm an engineer. What about you?", exm: "Mình là kỹ sư. Còn bạn?", n: "Hỏi lại người đối diện đúng câu bạn vừa trả lời. Rất hữu ích ở Weekend Live." },
+        { w: "in the UK", m: "ở nước Anh", ex: "I'm from Manchester, in the UK.", exm: "Mình đến từ Manchester, ở Anh.", n: "Có the: the UK, the US." }
+      ],
+      T2: [
+        { w: "an accountant", m: "một kế toán", ex: "I'm an accountant at ABC Logistics.", exm: "Tôi là kế toán ở ABC Logistics.", n: "Dùng an. Nhấn âm 2: ac-COUN-tant; âm đầu đọc nhẹ /ə/." },
+        { w: "a teacher", m: "một giáo viên", ex: "Kevin is a teacher.", exm: "Kevin là giáo viên.", n: "Phụ âm đầu nên dùng a. Nhấn âm 1: TEA-cher." },
+        { w: "a student", m: "một sinh viên", ex: "Are you a student here?", exm: "Bạn là sinh viên ở đây à?", n: "students: chữ s cuối đọc /s/ vì đứng sau t." },
+        { w: "a designer", m: "một nhà thiết kế", ex: "She's a designer.", exm: "Cô ấy là nhà thiết kế.", n: "Nhấn âm 2: de-SIG-ner; g không đọc." },
+        { w: "a manager", m: "một quản lý", ex: "He's a manager in the sales team.", exm: "Anh ấy là quản lý nhóm bán hàng.", n: "Nhấn âm 1: MA-na-ger." },
+        { w: "colleague", m: "đồng nghiệp", ex: "This is my new colleague, Mai.", exm: "Đây là Mai, đồng nghiệp mới của tôi.", n: "Nhấn âm 1: COL-league." },
+        { w: "team", m: "nhóm, bộ phận", ex: "Which team are you on?", exm: "Bạn ở nhóm nào?", n: "teams: chữ s cuối đọc /z/ vì đứng sau m." },
+        { w: "hometown", m: "quê", ex: "My hometown is Da Nang.", exm: "Quê tôi ở Đà Nẵng.", n: "Cũng nói được: I'm from Da Nang." },
+        { w: "I live in Hanoi now.", m: "Bây giờ tôi sống ở Hà Nội.", ex: "I'm from Da Nang, but I live in Hanoi now.", exm: "Quê tôi ở Đà Nẵng nhưng giờ tôi sống ở Hà Nội.", n: "from = quê; live in = nơi đang sống." },
+        { w: "based in Hanoi", m: "sống và làm việc ở Hà Nội", ex: "I'm an accountant based in Hanoi.", exm: "Tôi là kế toán, làm việc ở Hà Nội.", n: "Hay gặp trong hồ sơ LinkedIn." }
+      ],
+      T3: [
+        { w: "Good morning.", m: "Chào buổi sáng (trang trọng).", ex: "Good morning. I'm An from Sao Viet Trading.", exm: "Chào buổi sáng. Tôi là An, công ty Sao Việt.", n: "Gặp đối tác lần đầu: chào trang trọng hơn Hi." },
+        { w: "It's a pleasure to meet you.", m: "Rất hân hạnh được gặp anh/chị.", ex: "It's a pleasure to meet you, Ms Lee.", exm: "Rất hân hạnh được gặp chị Lee.", n: "Trang trọng hơn Nice to meet you." },
+        { w: "And you are…?", m: "Còn anh/chị là…?", ex: "I'm Sarah Lee. And you are…?", exm: "Tôi là Sarah Lee. Còn anh/chị là…?", n: "Cách hỏi tên lịch sự: nghe câu này thì trả lời tên và công ty." },
+        { w: "What's your role?", m: "Anh/chị phụ trách gì?", ex: "What's your role at your company?", exm: "Anh/chị phụ trách gì ở công ty?", n: "Trả lời: I'm a/an … hoặc I work in …" },
+        { w: "purchasing manager", m: "quản lý mua hàng", ex: "I'm the purchasing manager.", exm: "Tôi là quản lý mua hàng.", n: "Dùng the khi chỉ có một người giữ vị trí đó trong công ty." },
+        { w: "Here's my card.", m: "Đây là danh thiếp của tôi.", ex: "Thank you. Here's my card.", exm: "Cảm ơn. Đây là danh thiếp của tôi.", n: "Nhận danh thiếp: nói Thank you trước, rồi đưa lại danh thiếp của mình." },
+        { w: "Nice meeting you.", m: "Rất vui vì đã gặp anh/chị (khi chia tay).", ex: "It was nice meeting you.", exm: "Rất vui vì đã gặp anh/chị.", n: "Lúc mới gặp: Nice to meet you. Lúc chia tay: Nice meeting you." },
+        { w: "I look forward to your email.", m: "Tôi chờ email của anh/chị.", ex: "Nice meeting you too. I look forward to your email.", exm: "Tôi cũng rất vui. Tôi chờ email của chị.", n: "Câu kết lịch sự trong công việc." }
+      ],
+      T4: [
+        { w: "Hi, I'm An. I'm new here.", m: "Chào, mình là An. Mình là người mới.", ex: "Hi, I'm An. I'm new here.", exm: "", n: "Câu khoá 1 ở Trạm 2. new là tính từ, không có a." },
+        { w: "Which team are you on?", m: "Bạn ở nhóm nào?", ex: "Which team are you on?", exm: "", n: "Câu khoá 2. Hỏi lại để giữ cuộc trò chuyện." },
+        { w: "Nice to meet you. See you around!", m: "Rất vui được gặp bạn. Hẹn gặp lại!", ex: "Nice to meet you. See you around!", exm: "", n: "Câu khoá 3, dùng để kết thúc lịch sự." },
+        { w: "Sorry, could you say that again?", m: "Xin lỗi, bạn nói lại được không?", ex: "Sorry, could you say that again?", exm: "", n: "Câu cứu cánh khi bạn chưa nghe kịp. Dùng thoải mái, người nước ngoài sẽ nói chậm lại." },
+        { w: "So you're from Manchester.", m: "Vậy là bạn đến từ Manchester.", ex: "Oh, so you're from Manchester!", exm: "", n: "Nhắc lại thông tin của người kia: cho thấy bạn đang nghe (nhiệm vụ Mức 2)." },
+        { w: "No, I'm an accountant.", m: "Không, tôi là kế toán.", ex: "No, I'm an accountant. I'm in the finance team.", exm: "", n: "Sửa khi người kia hiểu nhầm: No + nói lại cho đúng." }
+      ]
+    },
+    patterns: {
+      P1: [
+        { t: "Động từ be: am / is / are", f: [["I", "am · 'm", "An / an accountant"], ["He · She", "is · 's", "a teacher"], ["You · We · They", "are · 're", "students"]],
+          ex: [["I'm An.", "Tôi là An."], ["She's a teacher.", "Cô ấy là giáo viên."], ["They're students.", "Họ là sinh viên."]],
+          bad: "I'm work in sales.", good: "I work in sales.", why: "Không ghép I'm với động từ thường (work). Dùng I work… hoặc I'm a/an + nghề." },
+        { t: "a / an trước nghề", f: [["a", "+ phụ âm", "a teacher · a designer"], ["an", "+ nguyên âm", "an engineer · an accountant"]],
+          ex: [["I'm an accountant.", "Tôi là kế toán."], ["He's a designer.", "Anh ấy là nhà thiết kế."]],
+          bad: "I'm accountant.", good: "I'm an accountant.", why: "Nghề số ít luôn có a hoặc an." },
+        { t: "Hỏi quê và hỏi nghề", f: [["Where", "are you", "from?"], ["What", "do you", "do?"]],
+          ex: [["Where are you from?", "Bạn đến từ đâu?"], ["What do you do?", "Bạn làm nghề gì?"]],
+          bad: "Where you from?", good: "Where are you from?", why: "Câu hỏi Wh- cần động từ đứng trước chủ ngữ: are you, do you." }
+      ],
+      P2: [
+        { t: "work as · work in", f: [["work as", "+ a/an + nghề", "I work as an accountant."], ["work in", "+ bộ phận, lĩnh vực", "I work in sales."]],
+          ex: [["I work as a designer.", "Tôi làm nhà thiết kế."], ["She works in marketing.", "Cô ấy làm ở bộ phận marketing."]],
+          bad: "I work as sales.", good: "I work in sales.", why: "sales là bộ phận, nên dùng in." },
+        { t: "Câu phủ định với be", f: [["I'm", "not", "a student."], ["She", "isn't", "a teacher."]],
+          ex: [["No, I'm not.", "Không, tôi không phải."], ["I'm not a student.", "Tôi không phải sinh viên."]],
+          bad: "I'm don't a student.", good: "I'm not a student.", why: "Phủ định sau be dùng not. don't chỉ đi với động từ thường." },
+        { t: "Hỏi lại và giới thiệu người khác", f: [["What about you?", "", "Còn bạn?"], ["This is", "+ tên", "This is Mai."]],
+          ex: [["I'm from Hanoi. What about you?", "Tôi đến từ Hà Nội. Còn bạn?"], ["Tom, this is Mai.", "Tom, đây là Mai."]],
+          bad: "Here is Mai.", good: "This is Mai.", why: "Giới thiệu người dùng This is. Here is dùng khi đưa đồ vật." }
+      ]
+    },
+    scenes: {
+      S1: { setting: "Cuối tuần, sự kiện networking ở Hà Nội. An gặp Tom lần đầu.", src: "dialogue" },
+      S2: { setting: "Hội thảo nghề nghiệp. Kevin bắt chuyện với Linh.", src: "dialogue2" },
+      S3: { setting: "Cảnh mẫu trước khi bạn đóng vai: ngày đầu đi làm, An gặp Tom ở nhóm marketing.", src: "rpbase", me: "An" },
+      S4: { setting: "Cảnh mẫu trang trọng: An gặp chị Sarah Lee, quản lý mua hàng của Bright Logistics.", src: "rpvariant", me: "An" }
+    }
+  },
+  zh: {
+    cards: {
+      T1: [
+        { w: "你好", py: "nǐ hǎo", m: "xin chào", ex: "你好！我叫阮安。", exm: "Xin chào! Tôi tên là Nguyễn An.", n: "Hai thanh 3 đứng liền: đọc thực tế là ní hǎo." },
+        { w: "我", py: "wǒ", m: "tôi", ex: "我是越南人。", exm: "Tôi là người Việt Nam.", n: "Thanh 3: xuống thấp rồi hơi lên." },
+        { w: "你", py: "nǐ", m: "bạn", ex: "你呢？", exm: "Còn bạn?", n: "Bộ 亻(người) bên trái." },
+        { w: "叫", py: "jiào", m: "tên là, gọi là", ex: "我叫王丽。", exm: "Tôi tên là Vương Lệ.", n: "叫 + tên. Thanh 4: rơi gọn từ cao xuống." },
+        { w: "名字", py: "míngzi", m: "tên", ex: "你叫什么名字？", exm: "Bạn tên là gì?", n: "字 đọc nhẹ (thanh nhẹ)." },
+        { w: "什么", py: "shénme", m: "gì, cái gì", ex: "你叫什么名字？", exm: "Bạn tên là gì?", n: "什么 đứng ngay trước danh từ cần hỏi: 什么名字." },
+        { w: "是", py: "shì", m: "là", ex: "我是越南人。", exm: "Tôi là người Việt Nam.", n: "是 + thân phận, quốc tịch, nghề. Thanh 4, không đọc thành thanh 3." },
+        { w: "人", py: "rén", m: "người", ex: "中国人", exm: "người Trung Quốc", n: "Thanh 2: đi lên như dấu sắc." },
+        { w: "越南人", py: "Yuènán rén", m: "người Việt Nam", ex: "我是越南人。", exm: "Tôi là người Việt Nam.", n: "越南 là nước Việt Nam; thêm 人 thành người Việt Nam." },
+        { w: "中国人", py: "Zhōngguó rén", m: "người Trung Quốc", ex: "我是中国人。", exm: "Tôi là người Trung Quốc.", n: "中 thanh 1 (cao đều), 国 thanh 2 (đi lên)." }
+      ],
+      T2: [
+        { w: "学生", py: "xuésheng", m: "học sinh, sinh viên", ex: "你是学生吗？", exm: "Bạn là sinh viên à?", n: "生 đọc nhẹ." },
+        { w: "老师", py: "lǎoshī", m: "giáo viên", ex: "我是老师。", exm: "Tôi là giáo viên.", n: "老 thanh 3 + 师 thanh 1." },
+        { w: "工作", py: "gōngzuò", m: "làm việc; công việc", ex: "我工作。", exm: "Tôi đi làm.", n: "工作 là động từ: 我工作, không nói 我是工作." },
+        { w: "不", py: "bù", m: "không (phủ định)", ex: "不是，我是学生。", exm: "Không phải, tôi là sinh viên.", n: "不 đứng trước 是. Trước thanh 4 đọc bú: bú shì." },
+        { w: "吗", py: "ma", m: "trợ từ hỏi có/không", ex: "你是中国人吗？", exm: "Bạn là người Trung Quốc à?", n: "Đặt cuối câu kể để thành câu hỏi. Không cần lên giọng." },
+        { w: "呢", py: "ne", m: "còn … thì sao?", ex: "我是越南人。你呢？", exm: "Tôi là người Việt Nam. Còn bạn?", n: "Hỏi lại người đối diện." },
+        { w: "也", py: "yě", m: "cũng", ex: "我也是学生。", exm: "Tôi cũng là sinh viên.", n: "也 đứng trước động từ, không đứng cuối câu." },
+        { w: "很高兴认识你", py: "hěn gāoxìng rènshi nǐ", m: "rất vui được làm quen với bạn", ex: "我也很高兴认识你！", exm: "Tôi cũng rất vui được làm quen!", n: "Học nguyên cụm. 很 đứng trước 高兴, không dùng 是." },
+        { w: "再见", py: "zàijiàn", m: "tạm biệt", ex: "再见！", exm: "Tạm biệt!", n: "Hai thanh 4." },
+        { w: "她", py: "tā", m: "cô ấy", ex: "她叫王丽。", exm: "Cô ấy tên là Vương Lệ.", n: "Bộ 女 (phụ nữ). Đọc giống 他 (anh ấy)." }
+      ],
+      T3: [
+        { w: "您", py: "nín", m: "ông, bà, anh, chị (lịch sự)", ex: "您好！", exm: "Chào ông/bà!", n: "Dạng lịch sự của 你, dùng khi gặp đối tác hoặc người lớn tuổi." },
+        { w: "您好", py: "nín hǎo", m: "xin chào (trang trọng)", ex: "您好！我叫阮安。", exm: "Chào anh/chị! Tôi tên là Nguyễn An.", n: "Gặp đối tác lần đầu nên dùng 您好." },
+        { w: "谢谢", py: "xièxie", m: "cảm ơn", ex: "谢谢！", exm: "Cảm ơn!", n: "Chữ thứ hai đọc nhẹ." },
+        { w: "名片", py: "míngpiàn", m: "danh thiếp", ex: "这是我的名片。", exm: "Đây là danh thiếp của tôi.", n: "Nhận danh thiếp bằng hai tay và nói 谢谢." },
+        { w: "经理", py: "jīnglǐ", m: "giám đốc, quản lý", ex: "我是王经理。", exm: "Tôi là giám đốc Vương.", n: "Họ + 经理: cách gọi lịch sự (王经理)." },
+        { w: "公司", py: "gōngsī", m: "công ty", ex: "光明公司", exm: "công ty Quang Minh", n: "Tên công ty + 公司." },
+        { w: "很高兴认识您", py: "hěn gāoxìng rènshi nín", m: "rất hân hạnh được làm quen", ex: "我也很高兴认识您！", exm: "Tôi cũng rất hân hạnh!", n: "Trang trọng: thay 你 bằng 您." }
+      ],
+      T4: [
+        { w: "你好！我叫阮安。", py: "Nǐ hǎo! Wǒ jiào Ruǎn Ān.", m: "Xin chào! Tôi tên là Nguyễn An.", ex: "", exm: "", n: "Câu khoá 1 ở Trạm 1. Thay bằng tên của bạn." },
+        { w: "你叫什么名字？", py: "Nǐ jiào shénme míngzi?", m: "Bạn tên là gì?", ex: "", exm: "", n: "Câu khoá 2: hỏi lại tên." },
+        { w: "我是越南人，你呢？", py: "Wǒ shì Yuènán rén, nǐ ne?", m: "Tôi là người Việt Nam, còn bạn?", ex: "", exm: "", n: "Câu khoá 3: nói về mình rồi hỏi lại." },
+        { w: "不是，我叫阮安。", py: "Bú shì, wǒ jiào Ruǎn Ān.", m: "Không phải, tôi tên là Nguyễn An.", ex: "", exm: "", n: "Dùng khi bị gọi sai tên (nhiệm vụ Mức 2)." },
+        { w: "请再说一遍。", py: "Qǐng zài shuō yí biàn.", m: "Xin nói lại một lần nữa.", ex: "", exm: "", n: "Câu cứu cánh khi chưa nghe kịp." },
+        { w: "你是老师！", py: "Nǐ shì lǎoshī!", m: "Bạn là giáo viên à!", ex: "", exm: "", n: "Nhắc lại thông tin của người kia để cho thấy bạn đang nghe." }
+      ]
+    },
+    patterns: {
+      P1: [
+        { t: "叫 + tên · 是 + thân phận", f: [["我", "叫", "阮安"], ["我", "是", "越南人 · 老师"]],
+          ex: [["我叫王丽。", "Tôi tên là Vương Lệ."], ["我是中国人。", "Tôi là người Trung Quốc."]],
+          bad: "我是叫阮安。", good: "我叫阮安。", why: "叫 đã là động từ, không thêm 是 trước nó." },
+        { t: "Câu hỏi có/không: thêm 吗", f: [["你是学生", "吗", "？"]],
+          ex: [["你是老师吗？", "Bạn là giáo viên à?"], ["是 / 不是。", "Phải / Không phải."]],
+          bad: "你是学生呢？", good: "你是学生吗？", why: "Câu hỏi có/không kết thúc bằng 吗." },
+        { t: "Hỏi lại: 你呢？", f: [["我是越南人。", "你", "呢？"]],
+          ex: [["我是越南人。你呢？", "Tôi là người Việt Nam. Còn bạn?"]],
+          bad: "你吗？", good: "你呢？", why: "Hỏi lại \"còn bạn?\" dùng 呢." },
+        { t: "很 + tính từ (không dùng 是)", f: [["我", "很", "高兴"]],
+          ex: [["我很高兴。", "Tôi rất vui."], ["很高兴认识你。", "Rất vui được làm quen với bạn."]],
+          bad: "我是很高兴。", good: "我很高兴。", why: "Trước tính từ không dùng 是." }
+      ],
+      P2: [
+        { t: "不 đứng trước 是", f: [["我", "不是", "老师"]],
+          ex: [["我不是老师。", "Tôi không phải giáo viên."], ["不是，我是学生。", "Không phải, tôi là sinh viên."]],
+          bad: "我是不老师。", good: "我不是老师。", why: "不 đứng ngay trước động từ. Đọc bú shì." },
+        { t: "也 = cũng, đứng trước động từ", f: [["我", "也", "是越南人"]],
+          ex: [["我也是越南人。", "Tôi cũng là người Việt Nam."], ["我也很高兴认识你。", "Tôi cũng rất vui được làm quen."]],
+          bad: "我是越南人也。", good: "我也是越南人。", why: "也 không đứng cuối câu như \"cũng vậy\" trong tiếng Việt." },
+        { t: "什么 đứng trước danh từ", f: [["你", "叫", "什么", "名字？"]],
+          ex: [["你叫什么名字？", "Bạn tên là gì?"]],
+          bad: "你叫名字什么？", good: "你叫什么名字？", why: "Tiếng Việt nói \"tên gì\", tiếng Trung nói 什么名字." },
+        { t: "Đọc 你好 cho tự nhiên", f: [["nǐ (3)", "+ hǎo (3)", "→ ní hǎo"]],
+          ex: [["你好", "ní hǎo"], ["很好", "hén hǎo"]],
+          bad: "nǐ hǎo (đọc rời hai thanh 3)", good: "ní hǎo", why: "Hai thanh 3 đứng liền: chữ đầu chuyển thành thanh 2." }
+      ]
+    },
+    scenes: {
+      S1: { setting: "Buổi giao lưu sinh viên Việt – Trung. An gặp 王丽 (Vương Lệ).", src: "dialogue" },
+      S2: { setting: "Ngày đầu lớp học. 阮明 (Minh) làm quen với 王丽.", src: "dialogue2" },
+      S3: { setting: "Cảnh mẫu trước khi bạn đóng vai: An làm quen với 王丽 ở sự kiện.", src: "rpbase", me: "An" },
+      S4: { setting: "Cảnh mẫu trang trọng: An gặp giám đốc Vương (王经理) của công ty Quang Minh.", src: "rpvariant", me: "An" }
+    }
+  }
+};
+const LEARN_RULE = {
+  T: "Học trước khi làm bài. Mỗi thẻ có nghĩa, câu ví dụ và một ghi chú cách dùng. Thẻ nào khó thì bấm Lưu vào kho ôn.",
+  S: "Xem cảnh trước khi luyện. Nghe từng câu, bật phụ đề khi cần. Các bài tập sau dùng đúng những câu trong cảnh này.",
+  P: "Đọc công thức, nghe câu mẫu, rồi xem lỗi hay gặp. Bài tập ngay sau sẽ hỏi đúng các mẫu câu này."
+};
+
+/* ---------- đọc có lời kết thúc (để cảnh tự chạy) ---------- */
+function sayThen(text, lang, pitch, cb) {
+  let done = false; const end = () => { if (!done) { done = true; cb && cb(); } };
+  const ms = 900 + String(text).length * (lang === "zh" ? 260 : 75) * (S.slow ? 1.35 : 1);
+  try {
+    const t = lang === "zh" ? "zh" : "en";
+    const v = VOICES.find(v => v.lang && v.lang.toLowerCase().startsWith(t === "zh" ? "zh-cn" : "en-us")) || VOICES.find(v => v.lang && v.lang.toLowerCase().startsWith(t));
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(String(text));
+    u.lang = t === "zh" ? "zh-CN" : "en-US"; if (v) u.voice = v; u.rate = S.slow ? 0.72 : 0.95; u.pitch = pitch || 1;
+    u.onend = end; u.onerror = end;
+    speechSynthesis.speak(u);
+  } catch (e) {}
+  setTimeout(end, ms + 1500);
+}
+
+/* ---------- dựng nội dung học trước cho buildEx ---------- */
+function learnEx(ex, code) {
+  const L = S.lang, D = DATA[L], X = LEARN[L], base = code[0];
+  ex.rule = LEARN_RULE[base];
+  if (base === "T") { ex.kind = "cards"; ex.cards = X.cards[code]; ex.title = code === "T4" ? "Thẻ học: câu khoá cho trạm" : code === "T3" ? "Thẻ học: nói trang trọng" : "Thẻ học: từ và cụm câu mới"; }
+  if (base === "P") { ex.kind = "pattern"; ex.pats = X.patterns[code]; ex.title = "Mẫu câu cần nắm"; }
+  if (base === "S") {
+    const sc = X.scenes[code]; ex.kind = "scene"; ex.setting = sc.setting;
+    let lines = [];
+    if (sc.src === "dialogue" || sc.src === "dialogue2") {
+      lines = D[sc.src].map(r => L === "zh" ? { who: r[0], t: r[1], py: r[2], vi: r[3] } : { who: r[0], t: r[1], vi: r[2] });
+      ex.title = "Xem cảnh: " + (code === "S1" ? "cuộc làm quen" : "hội thoại thứ hai");
+    } else {
+      const rp = sc.src === "rpbase" ? D.roleplay.base : D.roleplay.variant, partner = rp.partner.split(" · ")[0].split(" ")[0];
+      rp.turns.filter(t => !t.m2 || S.level === 2).forEach(t => {
+        lines.push({ who: partner, t: t.ai, py: t.py || "", vi: /^\(/.test(t.vi) ? "" : t.vi });
+        lines.push({ who: sc.me, t: t.model, vi: "" });
+      });
+      ex.title = code === "S3" ? "Xem cảnh mẫu trước khi đóng vai" : "Xem cảnh mẫu trang trọng";
+    }
+    ex.lines2 = lines; ex.people = [...new Set(lines.map(l => l.who))].slice(0, 2);
+  }
+  return ex;
+}
+
+/* ---------- thẻ học ---------- */
+function runCards(ex, body, finish) {
+  const L = S.lang, cards = ex.cards; let i = 0, flipped = false, saved = 0;
+  const box = el(`<div class="cardsx"><div class="prog" aria-hidden="true">${cards.map(() => "<i></i>").join("")}</div>
+    <div class="fcard" tabindex="0" role="button" aria-label="Lật thẻ"></div>
+    <div class="row center ctl"><button type="button" class="btn ghost prev">← Thẻ trước</button><button type="button" class="btn ghost flip">Lật thẻ</button><button type="button" class="btn primary nx">Thẻ tiếp →</button></div>
+    <div class="row center"><button type="button" class="btn ghost small keep">Lưu thẻ này vào kho ôn</button></div></div>`);
+  body.appendChild(box);
+  const fc = $(".fcard", box), dots = [...box.querySelectorAll(".prog i")];
+  function draw(play) {
+    const c = cards[i];
+    dots.forEach((d, k) => d.className = k < i ? "ok" : k === i ? "now" : "");
+    fc.className = "fcard" + (flipped ? " back" : "");
+    fc.innerHTML = !flipped
+      ? `<span class="side">Mặt trước · ${i + 1}/${cards.length}</span><b class="fw" lang="${L === "zh" ? "zh" : "en"}">${esc(c.w)}</b>${c.py ? `<span class="fpy">${esc(c.py)}</span>` : ""}<button type="button" class="btn sound sp">${ICON.play} Nghe</button><span class="hint">Chạm thẻ để xem nghĩa</span>`
+      : `<span class="side">Mặt sau · ${i + 1}/${cards.length}</span><span class="fwb" lang="${L === "zh" ? "zh" : "en"}">${esc(c.w)}${c.py ? ` <small>${esc(c.py)}</small>` : ""}</span><b class="fm">${esc(c.m)}</b>
+         ${c.ex ? `<div class="fex"><span lang="${L === "zh" ? "zh" : "en"}">${esc(c.ex)}</span>${c.exm ? `<small>${esc(c.exm)}</small>` : ""}<button type="button" class="btn ghost small spx">${ICON.play} Nghe câu ví dụ</button></div>` : ""}
+         <p class="fnote"><span class="lab">Ghi nhớ:</span> ${esc(c.n)}</p>`;
+    const sp = $(".sp", fc); if (sp) sp.onclick = e => { e.stopPropagation(); say(c.w, L); };
+    const spx = $(".spx", fc); if (spx) spx.onclick = e => { e.stopPropagation(); say(c.ex, L); };
+    $(".prev", box).disabled = i === 0;
+    $(".nx", box).textContent = i === cards.length - 1 ? "Xong thẻ học" : "Thẻ tiếp →";
+    if (play && !flipped) say(c.w, L);
+  }
+  const flip = () => { flipped = !flipped; draw(false); };
+  fc.onclick = flip; fc.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); flip(); } };
+  $(".flip", box).onclick = flip;
+  $(".prev", box).onclick = () => { if (i > 0) { i--; flipped = false; draw(true); } };
+  $(".nx", box).onclick = () => { if (i < cards.length - 1) { i++; flipped = false; draw(true); } else finish({ learn: true, extra: `Học ${cards.length} thẻ${saved ? `, lưu ${saved} thẻ vào kho ôn` : ""}` }); };
+  $(".keep", box).onclick = () => { const c = cards[i]; addReview(L, c.m, c.w); saved++; toast("Đã lưu vào kho ôn."); };
+  draw(true);
+}
+
+/* ---------- cảnh hội thoại ---------- */
+function runScene(ex, body, finish) {
+  const L = S.lang, lines = ex.lines2, [pA, pB] = ex.people; let i = -1, auto = false, subVi = true, subPy = L === "zh";
+  const box = el(`<div class="scene">
+    <div class="stage2"><p class="setting">${esc(ex.setting)}</p>
+      <div class="cast"><div class="actor a"><span class="av big">${esc(pA.slice(0, 2))}</span><b>${esc(pA)}</b></div><div class="actor b"><span class="av big">${esc((pB || "").slice(0, 2))}</span><b>${esc(pB || "")}</b></div></div>
+      <div class="nowline" aria-live="polite"><p class="muted">Bấm Phát cả cảnh hoặc Câu tiếp để bắt đầu.</p></div></div>
+    <div class="row center"><button type="button" class="btn ghost prev">⏮ Câu trước</button><button type="button" class="btn primary playall">${ICON.play} Phát cả cảnh</button><button type="button" class="btn ghost nx">Câu tiếp ⏭</button></div>
+    <div class="row center small"><label class="tick"><input type="checkbox" class="cvi" checked> Phụ đề tiếng Việt</label>${L === "zh" ? `<label class="tick"><input type="checkbox" class="cpy" checked> Bính âm</label>` : ""}</div>
+    <ol class="log"></ol>
+    <div class="row center"><button type="button" class="btn primary huge fin" disabled>Xem xong, sang bài tập</button></div></div>`);
+  body.appendChild(box);
+  const now = $(".nowline", box), log = $(".log", box);
+  function lineHTML(l) { return `<span class="spk">${esc(l.who)}</span><span class="tx" lang="${L === "zh" ? "zh" : "en"}">${esc(l.t)}</span>${l.py && subPy ? `<span class="py">${esc(l.py)}</span>` : ""}${l.vi && subVi ? `<span class="vi">${esc(l.vi)}</span>` : ""}`; }
+  function show(k, chain) {
+    i = k; const l = lines[i];
+    box.querySelectorAll(".actor").forEach(a => a.classList.toggle("talk", (a.classList.contains("a") && l.who === pA) || (a.classList.contains("b") && l.who !== pA)));
+    now.className = "nowline " + (l.who === pA ? "left" : "right");
+    now.innerHTML = `<div class="bub2">${lineHTML(l)}</div><button type="button" class="btn ghost small rep">${ICON.play} Nghe lại câu này</button>`;
+    $(".rep", now).onclick = () => sayThen(l.t, L, l.who === pA ? 1.05 : 0.85);
+    log.innerHTML = lines.slice(0, i + 1).map(x => `<li class="${x.who === pA ? "l" : "r"}">${lineHTML(x)}</li>`).join("");
+    $(".prev", box).disabled = i <= 0;
+    if (i === lines.length - 1) { $(".fin", box).disabled = false; }
+    sayThen(l.t, L, l.who === pA ? 1.05 : 0.85, () => { if (chain && auto && i === k && i < lines.length - 1) show(i + 1, true); else if (i === lines.length - 1) { auto = false; $(".playall", box).innerHTML = `${ICON.play} Xem lại cả cảnh`; } });
+  }
+  $(".nx", box).onclick = () => { auto = false; if (i < lines.length - 1) show(i + 1, false); };
+  $(".prev", box).onclick = () => { auto = false; if (i > 0) show(i - 1, false); };
+  $(".playall", box).onclick = () => { auto = true; $(".playall", box).textContent = "Đang phát…"; show(i >= lines.length - 1 || i < 0 ? 0 : i, true); };
+  $(".cvi", box).onchange = e => { subVi = e.target.checked; if (i >= 0) { now.querySelector(".bub2").innerHTML = lineHTML(lines[i]); log.innerHTML = lines.slice(0, i + 1).map(x => `<li class="${x.who === pA ? "l" : "r"}">${lineHTML(x)}</li>`).join(""); } };
+  const cpy = $(".cpy", box); if (cpy) cpy.onchange = e => { subPy = e.target.checked; if (i >= 0) { now.querySelector(".bub2").innerHTML = lineHTML(lines[i]); log.innerHTML = lines.slice(0, i + 1).map(x => `<li class="${x.who === pA ? "l" : "r"}">${lineHTML(x)}</li>`).join(""); } };
+  $(".fin", box).onclick = () => { auto = false; try { speechSynthesis.cancel(); } catch (e) {} finish({ learn: true, extra: `Xem đủ ${lines.length} câu thoại` }); };
+}
+
+/* ---------- mẫu câu ---------- */
+function runPatterns(ex, body, finish) {
+  const L = S.lang, pats = ex.pats; let i = 0;
+  const box = el(`<div class="pats"><div class="prog" aria-hidden="true">${pats.map(() => "<i></i>").join("")}</div><div class="pat"></div>
+    <div class="row center"><button type="button" class="btn ghost prev">← Mẫu trước</button><button type="button" class="btn primary nx">Mẫu tiếp →</button></div></div>`);
+  body.appendChild(box);
+  const pat = $(".pat", box), dots = [...box.querySelectorAll(".prog i")];
+  function draw() {
+    const p = pats[i]; dots.forEach((d, k) => d.className = k < i ? "ok" : k === i ? "now" : "");
+    pat.innerHTML = `<p class="eyebrow">Mẫu ${i + 1}/${pats.length}</p><h2>${esc(p.t)}</h2>
+      <div class="formula">${p.f.map(r => `<div class="frow">${r.filter(Boolean).map((c, k) => `<span class="fchip${k === 1 ? " key" : ""}" lang="${/[一-鿿]/.test(c) ? "zh" : ""}">${esc(c)}</span>`).join('<span class="plus">+</span>')}</div>`).join("")}</div>
+      <ul class="pex">${p.ex.map((e, k) => `<li><button type="button" class="btn sound small" data-k="${k}">${ICON.play}</button><span lang="${L === "zh" ? "zh" : "en"}">${esc(e[0])}</span><small>${esc(e[1])}</small></li>`).join("")}</ul>
+      <div class="badgood"><p><span class="x">✗</span> <s lang="${L === "zh" ? "zh" : "en"}">${esc(p.bad)}</s></p><p><span class="v">✓</span> <b lang="${L === "zh" ? "zh" : "en"}">${esc(p.good)}</b></p><p class="why">${esc(p.why)}</p></div>`;
+    pat.querySelectorAll("[data-k]").forEach(b => b.onclick = () => { const t = p.ex[+b.dataset.k][0]; if (!/^[a-zāáǎàēéěèīíǐìōóǒòūúǔù ]+$/i.test(t)) say(t, L); });
+    $(".prev", box).disabled = i === 0; $(".nx", box).textContent = i === pats.length - 1 ? "Đã nắm, sang bài tập" : "Mẫu tiếp →";
+  }
+  $(".prev", box).onclick = () => { if (i > 0) { i--; draw(); } };
+  $(".nx", box).onclick = () => { if (i < pats.length - 1) { i++; draw(); } else finish({ learn: true, extra: `Học ${pats.length} mẫu câu` }); };
+  draw();
+}
+
 /* ============ GIAO DIỆN: trang chủ hành trình · trang buổi học · trình làm bài ============ */
 const TEACHER = /[?&]gv=1/.test(location.search);
 if (S.sound === undefined) S.sound = true;
@@ -1459,6 +1798,9 @@ const ICON = {
 };
 /* biểu tượng từng dạng bài */
 const TYPE_ICON = {
+  T: '<rect x="8" y="13" width="24" height="18" rx="3" transform="rotate(-8 20 22)"/><rect x="16" y="15" width="24" height="18" rx="3" fill="var(--tile-bg)"/><path d="M22 22h12M22 27h8"/>',
+  S: '<rect x="6" y="10" width="36" height="24" rx="4"/><path d="M21 17v10l8-5z"/><path d="M14 40h20"/>',
+  P: '<path d="M8 16h10M8 24h32M8 32h20"/><rect x="21" y="11" width="19" height="10" rx="2"/>',
   A: '<rect x="9" y="12" width="26" height="20" rx="4"/><rect x="15" y="17" width="26" height="20" rx="4" fill="var(--tile-bg)"/><path d="M22 27h12M22 31h8"/>',
   B: '<path d="M12 30v-6a12 12 0 0 1 24 0v6"/><rect x="9" y="28" width="7" height="10" rx="3"/><rect x="32" y="28" width="7" height="10" rx="3"/>',
   C: '<path d="M8 24c3-8 5-8 8 0s5 8 8 0 5-8 8 0 5 8 8 0"/>',
@@ -1475,8 +1817,11 @@ const TYPE_ICON = {
   N: '<rect x="11" y="10" width="26" height="30" rx="3"/><rect x="18" y="7" width="12" height="6" rx="2"/><path d="M17 22h14M17 28h14M17 34h8"/>',
   R: '<path d="M36 18a13 13 0 1 0 2 9"/><path d="M38 10v8h-8"/>'
 };
-const TINT = { A: "sun", B: "en", C: "zh", D: "zh", E: "en", F: "green", G: "en", H: "zh", I: "sun", J: "green", K: "en", L: "slate", M: "green", N: "zh", R: "sun" };
+const TINT = { T: "green", S: "slate", P: "en", A: "sun", B: "en", C: "zh", D: "zh", E: "en", F: "green", G: "en", H: "zh", I: "sun", J: "green", K: "en", L: "slate", M: "green", N: "zh", R: "sun" };
 const HOW = {
+  T: ["Nghe và đọc mặt trước của thẻ.", "Chạm thẻ để lật: xem nghĩa, câu ví dụ và ghi chú.", "Thẻ nào khó thì lưu vào kho ôn rồi sang thẻ tiếp."],
+  S: ["Bấm Phát cả cảnh hoặc xem từng câu.", "Bật hoặc tắt phụ đề khi cần.", "Xem hết cảnh rồi mới sang bài tập."],
+  P: ["Đọc công thức và nghe câu mẫu.", "Xem lỗi hay gặp và vì sao sai.", "Bài tập ngay sau sẽ hỏi đúng các mẫu này."],
   A: ["Đọc nghĩa tiếng Việt trên thẻ.", "Tự nhớ, gõ câu {L} rồi bấm Kiểm tra.", "Sai thì xem chỗ tô đỏ và sửa ngay trong ô."],
   B: ["Bấm Nghe cả hội thoại, nghe 1–2 lần.", "Trả lời từng câu hỏi.", "Sai câu nào, trang chỉ câu thoại có thông tin để bạn nghe lại."],
   C: ["Bấm Nghe, dừng, nói to theo.", "Nhại mỗi câu 3 lần, để ý dòng Chú ý.", "Tích ô khi xong từng câu."],
@@ -1618,17 +1963,17 @@ function stationHTML(d) {
 function viewDay(main, d) {
   const th = THEME[d.id], who = th.who[S.lang], n = dayDone(d), exs = d.ex.map(c => buildEx(d.id, c));
   const firstOpen = d.ex.findIndex(c => !S.done[exKey(d.id, c)]);
-  const qs = exs.reduce((s, e) => s + countQ(e), 0);
+  const qs = exs.filter(e => !LEARNK.includes(e.kind)).reduce((s, e) => s + countQ(e), 0), nl = exs.filter(e => LEARNK.includes(e.kind)).length;
   const tiles = exs.map((ex, k) => {
     const done = S.done[ex.key], open = isOpen(d, k), cur = k === firstOpen;
     return `<li><a class="tile t-${TINT[ex.code]}${done ? " done" : ""}${!open ? " locked" : ""}${cur ? " cur" : ""}" href="${open ? `#${d.id}-bai-${k + 1}` : "#" + d.id}" ${!open ? 'aria-disabled="true" data-locked="1"' : ""}>
       <span class="art">${tile(ex.code, 52)}</span>
-      <span class="tmeta"><small>${k + 1} · ${esc(typeName(ex.code))}</small><b>${esc(ex.title)}</b><em>${countQ(ex)} ${ex.kind === "roleplay" ? "lượt" : ex.kind === "cando" ? "mục" : "câu"} · ${ex.mins} phút · ${ex.pts} điểm</em></span>
+      <span class="tmeta"><small>${k + 1} · ${esc(typeName(ex.code))}</small><b>${esc(ex.title)}</b><em>${countQ(ex)} ${ex.kind === "roleplay" ? "lượt" : ex.kind === "cando" ? "mục" : ex.kind === "cards" ? "thẻ" : ex.kind === "scene" ? "câu thoại" : ex.kind === "pattern" ? "mẫu" : "câu"} · ${ex.mins} phút · ${ex.pts} điểm</em></span>
       <span class="st">${done ? `<span class="pill ok">${ICON.check} +${done.p}</span>` : !open ? `<span class="pill lock">${ICON.lock}</span>` : cur ? `<span class="pill go">Làm bài</span>` : ""}</span></a></li>`;
   }).join("");
   main.appendChild(el(`<div class="dayview">
     <section class="dhero">
-      <p class="chip">${esc(d.label)} · ${d.mins} phút · ${exs.length} bài · ${qs} câu</p>
+      <p class="chip">${esc(d.label)} · ${d.mins} phút · ${nl} phần học trước · ${exs.length - nl} bài tập · ${qs} câu</p>
       <h1>${esc(th.t)}</h1>
       <p class="lead">${esc(th.d)}</p>
       <div class="who"><span class="av">${esc(who[0].slice(0, 2))}</span><div><small>Người đồng hành hôm nay</small><b>${esc(who[0])}</b><span class="muted small"> · ${esc(who[1])}</span></div></div>
@@ -1643,7 +1988,8 @@ function viewDay(main, d) {
   main.querySelectorAll("[data-locked]").forEach(a => a.onclick = e => { e.preventDefault(); toast("Làm xong bài trước để mở bài này."); sfx("bad"); });
 }
 function nextDayId(d) { const i = WDAYS.indexOf(d); return i < WDAYS.length - 1 ? WDAYS[i + 1].id : "trang-chu"; }
-function typeName(c) { return { A: "Ôn nhanh", B: "Nghe hiểu", C: "Nhại theo", D: S.lang === "zh" ? "Thanh điệu" : "Phát âm", E: "Từ vựng", F: "Xếp câu", G: "Điền chỗ trống", H: "Luyện nói", I: "Đóng vai AI", J: "Đọc", K: "Viết", L: "Kiểm tra", M: "Can-do", N: "Sửa lỗi", R: "Kho ôn" }[c] || ""; }
+const LEARNK = ["cards", "scene", "pattern"];
+function typeName(c) { return { T: "Học trước · Thẻ", S: "Học trước · Cảnh", P: "Học trước · Mẫu câu", A: "Ôn nhanh", B: "Nghe hiểu", C: "Nhại theo", D: S.lang === "zh" ? "Thanh điệu" : "Phát âm", E: "Từ vựng", F: "Xếp câu", G: "Điền chỗ trống", H: "Luyện nói", I: "Đóng vai AI", J: "Đọc", K: "Viết", L: "Kiểm tra", M: "Can-do", N: "Sửa lỗi", R: "Kho ôn" }[c] || ""; }
 
 /* ---------- trình làm bài ---------- */
 function viewPlayer(main, d, k) {
@@ -1682,6 +2028,9 @@ function playerShell(main, ex, o) {
     else if (ex.kind === "shadow") runShadow(ex, body, fin);
     else if (ex.kind === "roleplay") runRoleplay(ex, body, fin);
     else if (ex.kind === "cando") runCando(ex, body, fin);
+    else if (ex.kind === "cards") runCards(ex, body, fin);
+    else if (ex.kind === "scene") runScene(ex, body, fin);
+    else if (ex.kind === "pattern") runPatterns(ex, body, fin);
     const f = body.querySelector("input,textarea,.opt,.tok,button"); if (f) setTimeout(() => f.focus({ preventScroll: true }), 50);
   };
 }
@@ -1693,6 +2042,7 @@ function scoreParts(ex, sum) {
   return { p, lines };
 }
 function praise(sum) {
+  if (sum.learn) return "Bạn đã học xong phần chuẩn bị. Bài tập tiếp theo dùng đúng nội dung này.";
   if (!sum.total) return "Xong rồi. Làm đều mỗi ngày là cách nhanh nhất để nói được.";
   const r = sum.first / sum.total;
   if (r >= 0.9) return "Rất chắc tay. Bạn gần như không cần gợi ý.";
@@ -1764,6 +2114,4 @@ function boot() {
 boot();
 
 </script>
-
-</body>
-</html>
+</body></html>
