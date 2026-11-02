@@ -1,0 +1,37 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nghe thử giọng Gemini · Anh – Trung Thực Chiến</title><meta name="robots" content="noindex">
+<style>
+:root{--bg:#F5F6FA;--card:#fff;--ink:#0E1730;--muted:#515B70;--line:#DDE2EC;--en:#1F44D6;--zh:#D3271E;--warn:#B45309;--warn-bg:#FFF4C7}
+@media (prefers-color-scheme:dark){:root{--bg:#0B1020;--card:#131B31;--ink:#EEF2FA;--muted:#A9B3C7;--line:#283553;--en:#8EA2FF;--zh:#FF8475;--warn:#FFD43B;--warn-bg:#3A3212}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 "Be Vietnam Pro",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:20px 16px 60px}h1{font-size:22px;margin:0 0 4px}p{color:var(--muted);margin:4px 0 12px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.bar button{border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 14px;font:inherit;font-weight:600;cursor:pointer}
+.bar button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+ol{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:grid;grid-template-columns:auto 1fr auto;gap:4px 12px;align-items:center}
+li.flag{border-color:var(--warn);background:var(--warn-bg)}
+.pl{width:40px;height:40px;border-radius:50%;border:0;background:var(--en);color:#fff;font-size:15px;cursor:pointer}
+.zh .pl{background:var(--zh)}.t{font-weight:700}.t[lang=zh]{font-size:18px}.m{font-size:12.5px;color:var(--muted)}
+.id{font:12px ui-monospace,monospace;color:var(--muted);user-select:all}
+input[type=checkbox]{width:20px;height:20px}
+#out{width:100%;min-height:60px;margin-top:12px;font:13px ui-monospace,monospace;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px}
+</style></head><body><main>
+<h1>Nghe thử giọng đọc Gemini</h1>
+<p>Câu có nền vàng dài bất thường so với số chữ, nên nghe kỹ trước. Câu nào đọc sai hoặc đọc thừa thì tích ô bên phải: mã các câu đó hiện ở ô cuối trang để dán vào ô <b>redo</b> khi chạy lại workflow.</p>
+<div class="bar"><button data-f="all" aria-pressed="true">Tất cả</button><button data-f="en" aria-pressed="false">Tiếng Anh</button><button data-f="zh" aria-pressed="false">Tiếng Trung</button><button data-f="flag" aria-pressed="false">Cần nghe kỹ</button></div>
+<p id="sum"></p><ol id="list"></ol>
+<p>Mã các câu cần làm lại:</p><textarea id="out" readonly></textarea>
+</main><script>
+const H=async s=>{const b=await crypto.subtle.digest("SHA-1",new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("").slice(0,12)};
+let rows=[],filter="all";const picked=new Set();
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function draw(){const L=document.getElementById("list");const v=rows.filter(r=>filter==="all"||r.lang===filter||(filter==="flag"&&r.flag));
+L.innerHTML=v.map(r=>`<li class="${r.lang}${r.flag?" flag":""}"><button class="pl" data-f="${r.f}" aria-label="Nghe">▶</button><div><div class="t" lang="${r.lang}">${esc(r.text)}</div><div class="m">${r.who==="_"?"giọng đọc thẻ":esc(r.who)} · <span class="dur">${r.d?r.d.toFixed(1)+" giây":""}</span> · <span class="id">${r.id}</span></div></div><input type="checkbox" data-id="${r.id}" ${picked.has(r.id)?"checked":""} aria-label="Cần làm lại"></li>`).join("");
+L.querySelectorAll(".pl").forEach(b=>b.onclick=()=>{new Audio("audio/"+b.dataset.f).play()});
+L.querySelectorAll("input").forEach(c=>c.onchange=()=>{c.checked?picked.add(c.dataset.id):picked.delete(c.dataset.id);document.getElementById("out").value=[...picked].join(",")});}
+document.querySelectorAll(".bar button").forEach(b=>b.onclick=()=>{filter=b.dataset.f;document.querySelectorAll(".bar button").forEach(x=>x.setAttribute("aria-pressed",x===b));draw()});
+(async()=>{const idx=await (await fetch("audio/index.json",{cache:"no-cache"})).json();
+for(const lang of ["en","zh"])for(const [text,o] of Object.entries(idx[lang]||{}))for(const [who,f] of Object.entries(o))rows.push({lang,text,who,f,id:await H(`${lang}|${who==="_"?"":who}|${text}`)});
+await Promise.all(rows.map(r=>new Promise(res=>{const a=new Audio();a.preload="metadata";a.onloadedmetadata=()=>{r.d=a.duration;const n=r.lang==="zh"?r.text.length*4:r.text.length;r.flag=r.d>1.2+n*0.13;res()};a.onerror=res;a.src="audio/"+r.f})));
+document.getElementById("sum").textContent=`Đã có ${rows.length}/220 câu · ${rows.filter(r=>r.flag).length} câu cần nghe kỹ`;draw()})();
+</script></body></html>
