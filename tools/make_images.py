@@ -85,6 +85,9 @@ def main():
                     print(f"Không thấy model {MODELS[mi]}, chuyển sang {MODELS[mi + 1]}"); mi += 1; continue
                 if e.code == 400 and size and "imageSize" in msg:
                     size = False; continue
+                if e.code == 402:
+                    print("::error::Hết tiền trả trước (prepay credits) của khoá Gemini. Nạp thêm ở https://ai.studio/projects rồi chạy lại.")
+                    write_index(items); sys.exit(1)
                 if e.code == 429:
                     if "limit: 0" in msg or "free_tier" in msg and "limit: 0" in msg:
                         print("::error::Khoá API chưa bật thanh toán: Gemini không cho vẽ tranh ở gói miễn phí. Bật billing trong Google AI Studio rồi chạy lại.")

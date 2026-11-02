@@ -97,6 +97,9 @@ def main():
                 msg = e.read().decode(errors="ignore")
                 if e.code == 404 and model_i + 1 < len(MODELS):
                     print(f"Không thấy model {MODELS[model_i]}, chuyển sang {MODELS[model_i + 1]}"); model_i += 1; continue
+                if e.code == 402:
+                    print("::error::Hết tiền trả trước (prepay credits) của khoá Gemini. Nạp thêm ở https://ai.studio/projects rồi chạy lại.")
+                    write_index(rows); sys.exit(1)
                 if e.code == 429:
                     if "PerDay" in msg or "per day" in msg.lower():
                         print("Hết lượt miễn phí trong ngày. Lần chạy sau sẽ làm tiếp.")
