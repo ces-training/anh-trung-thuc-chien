@@ -382,6 +382,26 @@ mark.bad{background:var(--mark);color:var(--ink);border-radius:5px;padding:0 4px
 .frame .pick{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px}
 .frame .pick .lab{width:100%}
 .frame .ch{font-family:var(--han);font-size:17px;display:inline-flex;flex-direction:column;align-items:flex-start;height:auto;padding:6px 12px}
+
+/* tranh minh hoạ */
+.illu{display:block;width:100%;height:auto}
+.fcard .illu.big{width:min(240px,70%);margin:0 auto 4px}
+.fcard .illu.corner{position:absolute;top:10px;right:12px;width:72px}
+.fcard.back{padding-top:44px}
+.cast2{position:relative;border-radius:16px;overflow:hidden;line-height:0}
+.cast2 .scene-svg{width:100%;height:auto;display:block}
+.cast2 .nm{position:absolute;bottom:8px;line-height:1.2;font-size:13px;font-weight:800;background:rgba(14,23,48,.72);color:#fff;border-radius:999px;padding:3px 10px;opacity:.75;transition:opacity .2s}
+.cast2 .nm.a{left:10px} .cast2 .nm.b{right:10px} .cast2 .nm.talk{opacity:1;background:var(--sun);color:#3B2F00}
+.cast2 .nm:empty{display:none}
+.cast2.sm{max-width:520px;margin:0 auto 6px}
+.listen{flex-wrap:wrap}
+.listen .cast2{width:100%}
+.qart{width:150px;margin:0 auto 4px}
+.avbox{display:flex;flex:none} .avbox .ava{background:var(--acc-soft);border-radius:50%;margin-right:-8px;border:2px solid var(--surface)}
+.rphead .ava{background:var(--acc-soft);border-radius:50%;flex:none}
+.rphead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.msg.ai{display:flex;gap:8px;align-items:flex-end} .msg.ai .ava{background:var(--soft);border-radius:50%;flex:none}
+@media (max-width:600px){.qart{width:120px} .fcard .illu.corner{width:56px}}
 </style>
 
 <header class="top">
@@ -1206,7 +1226,8 @@ function easyZH(ex) {
 /* ---------- thanh nghe hội thoại ---------- */
 function listenBar(ex) {
   const L = S.lang, rows = ex.dialogue;
-  const bar = el(`<div class="listen"><button type="button" class="btn play">▶ Nghe cả hội thoại</button>
+  const spk = [...new Set(rows.map(r => r[0]))], bgk = rows === DATA[L].dialogue ? "networking" : (L === "zh" ? "classroom" : "fair");
+  const bar = el(`<div class="listen">${spk.length ? `<div class="cast2 sm">${sceneSVG(bgk, spk[0], spk[1], null)}<span class="nm a">${esc(spk[0])}</span><span class="nm b">${esc(spk[1] || "")}</span></div>` : ""}<button type="button" class="btn play">▶ Nghe cả hội thoại</button>
     <button type="button" class="btn ghost tr" ${S.level === 2 ? "disabled" : ""}>Lời thoại</button>
     <span class="muted small">${S.level === 1 ? "Mức 1: tốc độ chậm, được xem lời thoại." : "Mức 2: tốc độ thật, lời thoại mở khi làm xong."}</span>
     <ol class="script" hidden>${rows.map(r => `<li><b>${esc(r[0])}:</b> <span lang="${L === "zh" ? "zh" : "en"}">${esc(r[1])}</span>${L === "zh" ? `<span class="py">${esc(r[2])}</span>` : ""}<span class="vi">${esc(L === "zh" ? r[3] : r[2])}</span></li>`).join("")}</ol></div>`);
@@ -1328,10 +1349,14 @@ function typeHint(L, it, level) {
   return "";
 }
 
+function itemArt(ex, it, answer) {
+  if (!ex || !"AEGHNR".includes(ex.code)) return "";
+  const k = artKey(answer, it.q.replace(/^.*?:\s*/, "")); return k ? `<div class="qart">${iconSVG(k)}</div>` : "";
+}
 /* trắc nghiệm */
 function itemMC(ctx) {
   const { L, it, st, stage, onDone, ex } = ctx;
-  const q = el(`<div class="q"><p class="qt">${esc(it.q)}</p>${it.audio ? `<button type="button" class="btn sound au" aria-label="Nghe">${ICON.play} Nghe</button>` : ""}<div class="opts" role="group" aria-label="Các lựa chọn">${it.opts.map((o, i) => `<button type="button" class="opt" data-i="${i}"><span class="badge">${"ABCD"[i]}</span><span class="ot" lang="${/[一-鿿]/.test(o) ? "zh" : "vi"}">${esc(o)}${it.optsPy && it.optsPy[i] ? `<small class="opy">${esc(it.optsPy[i])}</small>` : ""}</span></button>`).join("")}</div></div>`);
+  const q = el(`<div class="q">${itemArt(ex, it, it.opts[it.a])}<p class="qt">${esc(it.q)}</p>${it.audio ? `<button type="button" class="btn sound au" aria-label="Nghe">${ICON.play} Nghe</button>` : ""}<div class="opts" role="group" aria-label="Các lựa chọn">${it.opts.map((o, i) => `<button type="button" class="opt" data-i="${i}"><span class="badge">${"ABCD"[i]}</span><span class="ot" lang="${/[一-鿿]/.test(o) ? "zh" : "vi"}">${esc(o)}${it.optsPy && it.optsPy[i] ? `<small class="opy">${esc(it.optsPy[i])}</small>` : ""}</span></button>`).join("")}</div></div>`);
   const fb = fbBox(); stage.appendChild(q);
   const hb = el(`<div class="hintbar"><button type="button" class="btn ghost small hbtn">💡 Gợi ý</button><div class="hints"></div></div>`); stage.appendChild(hb); stage.appendChild(fb);
   if (it.audio) { $(".au", q).onclick = () => say(it.audio, L); }
@@ -1407,7 +1432,7 @@ function checkType(L, it, raw) {
 function itemType(ctx) {
   const { L, it, st, stage, onDone } = ctx;
   const isZh = L === "zh";
-  const q = el(`<form class="q" novalidate><p class="qt">${it.review ? "" : (it.hint && S.level === 1 && isZh ? "" : "")}${esc(it.q)}</p>
+  const q = el(`<form class="q" novalidate>${itemArt(ctx.ex, it, it.model)}<p class="qt">${it.review ? "" : (it.hint && S.level === 1 && isZh ? "" : "")}${esc(it.q)}</p>
     ${it.hint && isZh ? `<p class="small muted">Gợi ý Mức 1: ${S.level === 1 ? esc(it.hint) : "(ẩn ở Mức 2)"}</p>` : ""}
     <div class="row"><input class="inp" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Câu trả lời" placeholder="${isZh ? "Gõ chữ Hán hoặc bính âm không dấu" : "Gõ câu trả lời"}">
     <button type="submit" class="btn primary">Kiểm tra</button></div></form>`);
@@ -1602,7 +1627,7 @@ function runCando(ex, body, finish) {
 function runRoleplay(ex, body, finish) {
   const L = S.lang, rp = ex.rp, turns = rp.turns.filter(t => !t.m2 || S.level === 2);
   const log = [], tags = {}; let ti = 0, reveals = 0, firstOk = 0, repairs = 0;
-  const box = el(`<div class="rp"><div class="rphead"><b>${esc(rp.title)}</b><span class="muted small">${esc(rp.partner)}</span></div>
+  const box = el(`<div class="rp"><div class="rphead">${avatarSVG(rp.partner, 48)}<b>${esc(rp.title)}</b><span class="muted small">${esc(rp.partner)}</span></div>
     <div class="chat" aria-live="polite"></div>
     <form class="rpform" novalidate><p class="frame small" hidden></p><div class="row"><input class="inp" type="text" autocomplete="off" spellcheck="false" aria-label="Câu trả lời của bạn" placeholder="${L === "zh" ? "Gõ chữ Hán hoặc bính âm" : "Gõ câu bạn nói"}"><button class="btn primary" type="submit">Gửi</button></div></form>
     <div class="fb" role="status" aria-live="polite" hidden></div><div class="rpend"></div></div>`);
@@ -1612,7 +1637,7 @@ function runRoleplay(ex, body, finish) {
   let tries = 0, revealed = false;
   function aiTurn() {
     const t = turns[ti];
-    const b = el(`<div class="msg ai"><div class="bub"><span lang="${L === "zh" ? "zh" : "en"}">${esc(t.ai)}</span>${t.py ? `<span class="py">${esc(t.py)}</span>` : ""}
+    const b = el(`<div class="msg ai">${avatarSVG(rp.partner, 34)}<div class="bub"><span lang="${L === "zh" ? "zh" : "en"}">${esc(t.ai)}</span>${t.py ? `<span class="py">${esc(t.py)}</span>` : ""}
       <span class="tools"><button type="button" class="btn ghost small pl">▶</button><button type="button" class="btn ghost small vi">Dịch</button></span><span class="vit" hidden>${esc(t.vi)}</span></div></div>`);
     $(".pl", b).onclick = () => say(t.ai, L, false, rp.partner.split(" · ")[0].split(" ")[0]); $(".vi", b).onclick = () => { $(".vit", b).hidden = !$(".vit", b).hidden; };
     if (/^\(|chờ bạn/.test(t.vi)) $(".vit", b).hidden = false;
@@ -1675,6 +1700,145 @@ function runRoleplay(ex, body, finish) {
   }
 }
 
+
+/* ============ TRANH MINH HOẠ (SVG, cùng bảng màu với web) ============ */
+const AC_ = { ink: "#0E1730", en: "#1F44D6", enS: "#E7ECFF", zh: "#D3271E", zhS: "#FDECEA", sun: "#FFD43B", sunS: "#FFF4C7", gr: "#15803D", grS: "#E3F5E9", sl: "#334155", slS: "#E8ECF3", wh: "#FFFFFF", cheek: "#F59E8B" };
+
+/* ---------- nhân vật (bán thân, nhìn thẳng) ---------- */
+const CHARS = {
+  An:     { skin: "#F1C7A0", hair: "#1B1B24", style: "bob",   top: "#1F44D6", wear: "blouse", lanyard: true },
+  Tom:    { skin: "#F7D6BC", hair: "#C8642B", style: "short", top: "#15803D", wear: "tee" },
+  Kevin:  { skin: "#E3B089", hair: "#3B2A20", style: "short", top: "#334155", wear: "shirt", glasses: true },
+  Linh:   { skin: "#F1C7A0", hair: "#1B1B24", style: "long",  top: "#FFD43B", wear: "blouse" },
+  Sarah:  { skin: "#F3CFAE", hair: "#1B1B24", style: "bob",   top: "#334155", wear: "blazer" },
+  "王丽":  { skin: "#F3CFAE", hair: "#1B1B24", style: "pony",  top: "#D3271E", wear: "tee" },
+  "阮明":  { skin: "#EDBE95", hair: "#1B1B24", style: "short", top: "#15803D", wear: "shirt" },
+  "王经理": { skin: "#EDC3A0", hair: "#8A93A6", style: "short", top: "#1E293B", wear: "suit", glasses: true },
+  Host:   { skin: "#EDBE95", hair: "#1B1B24", style: "long",  top: "#FFD43B", wear: "tee", lanyard: true },
+  "Bạn":  { skin: "#F1C7A0", hair: "#1B1B24", style: "short", top: "#1F44D6", wear: "tee" }
+};
+const CHAR_ALIAS = { "Lệ": "王丽", "Minh": "阮明", "Sarah Lee": "Sarah", "王经理 Wáng jīnglǐ": "王经理" };
+function charKey(name) { name = String(name || "").trim(); if (CHARS[name]) return name; if (CHAR_ALIAS[name]) return CHAR_ALIAS[name]; const first = name.split(/[\s·]/)[0]; return CHARS[first] ? first : CHAR_ALIAS[first] || "Bạn"; }
+function shade(hex, f) { const n = parseInt(hex.slice(1), 16); let r = n >> 16, g = (n >> 8) & 255, b = n & 255; r = Math.round(r * f); g = Math.round(g * f); b = Math.round(b * f); return "#" + ((1 << 24) + (Math.min(255, r) << 16) + (Math.min(255, g) << 8) + Math.min(255, b)).toString(16).slice(1); }
+/* vẽ trong khung 0 0 120 140 */
+function personSVG(c, talk) {
+  const { skin, hair, style, top, wear } = c, sk2 = shade(skin, 0.9), ink = AC_.ink;
+  let back = "", front = "";
+  if (style === "long") back = `<path d="M33 58C29 33 45 26 60 26s31 7 27 32l4 46c-9 6-20 4-25-2H54c-5 6-16 8-25 2z" fill="${hair}"/>`;
+  if (style === "bob") back = `<path d="M33 60C30 34 45 27 60 27s30 7 27 33l2 28c-7 5-15 5-21 1H52c-6 4-14 4-21-1z" fill="${hair}"/>`;
+  if (style === "pony") back = `<circle cx="88" cy="46" r="11" fill="${hair}"/><path d="M90 52c8 10 6 24-2 30" stroke="${hair}" stroke-width="9" stroke-linecap="round" fill="none"/>`;
+  if (style === "short") front = `<path d="M35 60C33 38 46 29 60 29c15 0 28 9 25 31-4-9-12-15-25-15-12 0-21 6-25 15z" fill="${hair}"/>`;
+  if (style === "long" || style === "bob") front = `<path d="M36 58C35 39 47 31 60 31c14 0 26 8 25 27-9-2-18-8-23-16-5 9-15 15-26 16z" fill="${hair}"/>`;
+  if (style === "pony") front = `<path d="M36 58C35 38 47 30 60 30c14 0 26 8 25 28-10-1-20-6-25-13-5 7-14 12-24 13z" fill="${hair}"/>`;
+  let cloth = `<path d="M12 140c0-30 20-44 48-44s48 14 48 44z" fill="${top}"/>`;
+  if (wear === "blouse") cloth += `<path d="M50 97l10 12 10-12" fill="none" stroke="${shade(top, 0.75)}" stroke-width="3" stroke-linejoin="round"/>`;
+  if (wear === "tee") cloth += `<path d="M48 98q12 9 24 0" fill="none" stroke="${shade(top, 0.75)}" stroke-width="3"/>`;
+  if (wear === "shirt") cloth += `<path d="M48 97l12 14 12-14" fill="${AC_.wh}"/><path d="M60 111v29" stroke="${shade(top, 0.7)}" stroke-width="2"/>`;
+  if (wear === "blazer" || wear === "suit") cloth += `<path d="M47 97l13 20 13-20z" fill="${AC_.wh}"/><path d="M47 97l13 30-10 13H38zM73 97l-13 30 10 13h12z" fill="${shade(top, 1.25)}"/>` + (wear === "suit" ? `<path d="M57 104h6l2 6-5 16-5-16z" fill="${AC_.zh}"/>` : "");
+  if (c.lanyard) cloth += `<path d="M48 98l8 24M72 98l-8 24" stroke="${AC_.sun}" stroke-width="2.5"/><rect x="53" y="120" width="14" height="12" rx="2" fill="${AC_.wh}" stroke="${ink}" stroke-width="1.5"/>`;
+  const mouth = talk ? `<ellipse cx="60" cy="77" rx="5" ry="3.6" fill="#7A2E2E"/>` : `<path d="M53 75q7 6 14 0" fill="none" stroke="${ink}" stroke-width="2.4" stroke-linecap="round"/>`;
+  const glasses = c.glasses ? `<g fill="none" stroke="${ink}" stroke-width="2"><rect x="43" y="57" width="15" height="11" rx="4"/><rect x="62" y="57" width="15" height="11" rx="4"/><path d="M58 62h4"/></g>` : "";
+  return back + cloth + `<rect x="52" y="80" width="16" height="20" rx="6" fill="${sk2}"/><circle cx="36" cy="63" r="5" fill="${sk2}"/><circle cx="84" cy="63" r="5" fill="${sk2}"/><ellipse cx="60" cy="61" rx="24" ry="27" fill="${skin}"/>` +
+    front + `<circle cx="51" cy="63" r="2.7" fill="${ink}"/><circle cx="69" cy="63" r="2.7" fill="${ink}"/><path d="M46 55q5-3 9 0M65 55q5-3 9 0" stroke="${ink}" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="45" cy="71" r="4" fill="${AC_.cheek}" opacity=".35"/><circle cx="75" cy="71" r="4" fill="${AC_.cheek}" opacity=".35"/>` + mouth + glasses;
+}
+function avatarSVG(name, size) {
+  const c = CHARS[charKey(name)];
+  return `<svg class="ava" viewBox="0 0 120 140" width="${size || 56}" height="${Math.round((size || 56) * 140 / 120)}" aria-hidden="true">${personSVG(c, false)}</svg>`;
+}
+
+/* ---------- bối cảnh (0 0 640 240) ---------- */
+const BGS = {
+  networking: () => `<rect width="640" height="240" fill="${AC_.enS}"/><rect y="196" width="640" height="44" fill="#D3DBF6"/>` +
+    `<path d="M0 18q160 40 320 0t320 0" fill="none" stroke="${AC_.sl}" stroke-width="2" opacity=".5"/>` +
+    [...Array(12)].map((_, i) => { const x = 20 + i * 52, y = 18 + 18 * Math.sin((i + .5) / 12 * Math.PI * 2) * (i < 6 ? 1 : -1) * 0.6; return `<path d="M${x} ${y + 6}l12 22 12-22z" fill="${[AC_.zh, AC_.sun, AC_.en][i % 3]}"/>`; }).join("") +
+    `<g transform="translate(300 120)"><rect x="-38" y="0" width="76" height="8" rx="4" fill="${AC_.sl}"/><rect x="-4" y="8" width="8" height="70" fill="${AC_.sl}"/><rect x="-22" y="74" width="44" height="6" rx="3" fill="${AC_.sl}"/><path d="M-22-24h12l-2 24h-8zM8-28h12l-3 28h-6z" fill="${AC_.wh}" stroke="${AC_.ink}" stroke-width="2"/><path d="M-21-14h10M9-16h10" stroke="${AC_.sun}" stroke-width="5"/></g>`,
+  fair: () => `<rect width="640" height="240" fill="${AC_.sunS}"/><rect y="196" width="640" height="44" fill="#F3E3A2"/>` +
+    [[150, AC_.en], [490, AC_.zh]].map(([x, col]) => `<g transform="translate(${x} 40)"><rect x="-70" y="0" width="140" height="34" rx="8" fill="${col}"/><rect x="-46" y="13" width="92" height="8" rx="4" fill="${AC_.wh}" opacity=".8"/><rect x="-64" y="34" width="6" height="122" fill="${AC_.sl}"/><rect x="58" y="34" width="6" height="122" fill="${AC_.sl}"/><rect x="-74" y="120" width="148" height="36" rx="6" fill="${AC_.wh}" stroke="${AC_.ink}" stroke-width="2"/></g>`).join("") +
+    `<circle cx="320" cy="60" r="16" fill="${AC_.wh}" stroke="${AC_.ink}" stroke-width="2"/><path d="M320 50v10l7 5" stroke="${AC_.ink}" stroke-width="2.5" fill="none" stroke-linecap="round"/>`,
+  office: () => `<rect width="640" height="240" fill="${AC_.slS}"/><rect y="200" width="640" height="40" fill="#D5DCE8"/>` +
+    `<g transform="translate(220 26)"><rect width="200" height="120" rx="10" fill="#BFD0FF" stroke="${AC_.ink}" stroke-width="3"/>${[[14, 60, 40], [60, 40, 60], [106, 70, 30], [146, 50, 50]].map(([x, h, w]) => `<rect x="${x}" y="${120 - h}" width="${w - 8}" height="${h}" fill="${AC_.en}" opacity=".55"/>`).join("")}<path d="M100 0v120M0 60h200" stroke="${AC_.ink}" stroke-width="3"/></g>` +
+    `<g transform="translate(312 150)"><path d="M-14 50h28l-4-24h-20z" fill="${AC_.zh}"/><path d="M0 26c-16-10-22-26-12-34 4 12 10 18 12 34zM0 26c14-12 22-26 12-36-6 12-10 20-12 36z" fill="${AC_.gr}"/></g>`,
+  meeting: () => `<rect width="640" height="240" fill="${AC_.grS}"/><rect y="200" width="640" height="40" fill="#C9E9D4"/>` +
+    `<g transform="translate(170 22)"><rect width="300" height="110" rx="10" fill="#D7F0FF" stroke="${AC_.ink}" stroke-width="3"/><path d="M0 80q75-34 150 0t150 0v30H0z" fill="#9CC9A8"/><path d="M150 0v110" stroke="${AC_.ink}" stroke-width="3"/></g>` +
+    `<rect x="190" y="170" width="260" height="14" rx="7" fill="${AC_.sl}"/><g transform="translate(296 140)"><rect width="48" height="30" rx="4" fill="${AC_.wh}" stroke="${AC_.ink}" stroke-width="2.5"/><path d="M-6 30h60" stroke="${AC_.ink}" stroke-width="3" stroke-linecap="round"/></g><path d="M236 152h16v18h-16zM392 150h14l-1 20h-12z" fill="${AC_.wh}" stroke="${AC_.ink}" stroke-width="2"/>`,
+  classroom: () => `<rect width="640" height="240" fill="${AC_.zhS}"/><rect y="200" width="640" height="40" fill="#F6CFC9"/>` +
+    `<g transform="translate(190 26)"><rect width="260" height="120" rx="8" fill="#1F5D3F" stroke="${AC_.sl}" stroke-width="6"/><path d="M28 34h90M28 56h140M28 78h70" stroke="${AC_.wh}" stroke-width="4" stroke-linecap="round" opacity=".85"/><circle cx="210" cy="60" r="22" fill="none" stroke="${AC_.sun}" stroke-width="4"/></g>`
+};
+function sceneSVG(bg, left, right, talking) {
+  const L = CHARS[charKey(left)], R = right ? CHARS[charKey(right)] : null;
+  const pose = (c, x, on) => `<g transform="translate(${x} ${on ? 56 : 64}) scale(1.3)" opacity="1">${personSVG(c, on)}</g>`;
+  return `<svg class="scene-svg" viewBox="0 0 640 240" role="img" aria-label="Minh hoạ bối cảnh">${(BGS[bg] || BGS.networking)()}${pose(L, 40, talking === 0)}${R ? pose(R, 444, talking === 1) : ""}</svg>`;
+}
+
+/* ---------- tranh cho từ và câu (0 0 160 120) ---------- */
+const S3 = `stroke="${AC_.ink}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"`;
+function mini(x, y, s, shirt, hair, longHair) {
+  return `<g transform="translate(${x} ${y}) scale(${s})">${longHair ? `<path d="M-13 0c0-14 6-19 13-19s13 5 13 19l2 14H-15z" fill="${hair}"/>` : ""}<path d="M-20 44c0-16 8-24 20-24s20 8 20 24z" fill="${shirt}" ${S3}/><circle cx="0" cy="0" r="13" fill="#F1C7A0" ${S3}/><path d="M-13-2c0-10 6-15 13-15s13 5 13 15c-4-5-8-7-13-7s-9 2-13 7z" fill="${hair}"/></g>`;
+}
+const ICONS = {
+  wave: [AC_.sunS, mini(70, 50, 1, AC_.en, AC_.ink) + `<path d="M92 66l16-30" ${S3} fill="none"/><circle cx="110" cy="32" r="8" fill="#F1C7A0" ${S3}/><path d="M124 22q6 8 0 18M132 16q10 14 0 30" fill="none" ${S3}/>`],
+  me: [AC_.enS, mini(78, 46, 1.05, AC_.en, AC_.ink) + `<path d="M118 40q-12 2-22 22" fill="none" ${S3}/><path d="M92 52l4 12 10-6" fill="none" ${S3}/>`],
+  you: [AC_.enS, mini(50, 50, .85, AC_.slS, AC_.ink) + mini(112, 50, .85, AC_.zh, AC_.ink) + `<path d="M66 70h24" ${S3}/><path d="M84 62l8 8-8 8" fill="none" ${S3}/>`],
+  she: [AC_.zhS, mini(80, 48, 1.05, AC_.zh, AC_.ink, true)],
+  person: [AC_.slS, mini(80, 48, 1.05, AC_.sl, AC_.ink)],
+  name: [AC_.zhS, `<rect x="34" y="28" width="92" height="64" rx="10" fill="${AC_.wh}" ${S3}/><path d="M34 46V38a10 10 0 0 1 10-10h72a10 10 0 0 1 10 10v8z" fill="${AC_.zh}" ${S3}/><path d="M50 64h60M50 78h36" ${S3}/>`],
+  what: [AC_.sunS, `<circle cx="80" cy="60" r="34" fill="${AC_.sun}" ${S3}/><path d="M68 50a12 12 0 1 1 18 10c-4 3-6 5-6 10" fill="none" ${S3} stroke-width="5"/><circle cx="80" cy="81" r="3.5" fill="${AC_.ink}"/>`],
+  question: [AC_.enS, `<path d="M36 30h88a10 10 0 0 1 10 10v36a10 10 0 0 1-10 10H70l-18 14V86H36a10 10 0 0 1-10-10V40a10 10 0 0 1 10-10z" fill="${AC_.wh}" ${S3}/><path d="M72 48a8 8 0 1 1 12 7c-3 2-4 3-4 7" fill="none" ${S3}/><circle cx="80" cy="72" r="2.5" fill="${AC_.ink}"/>`],
+  is: [AC_.grS, mini(44, 48, .85, AC_.gr, AC_.ink) + `<path d="M70 58h18M70 68h18" ${S3}/><rect x="98" y="50" width="40" height="30" rx="5" fill="${AC_.sl}" ${S3}/><path d="M110 50v-6h16v6" fill="none" ${S3}/>`],
+  vietnam: [AC_.grS, `<path d="M80 22L22 86h116z" fill="#F3D98B" ${S3}/><path d="M80 22L52 86M80 22l28 64M80 22v64" stroke="#C7A44A" stroke-width="2"/><path d="M34 92q46 14 92 0" fill="none" ${S3}/>`],
+  china: [AC_.zhS, `<path d="M80 16v10" ${S3}/><rect x="66" y="24" width="28" height="8" rx="3" fill="${AC_.sun}" ${S3}/><ellipse cx="80" cy="56" rx="30" ry="26" fill="${AC_.zh}" ${S3}/><path d="M80 30v52M66 33q-8 23 0 46M94 33q8 23 0 46" fill="none" stroke="${AC_.ink}" stroke-width="2"/><rect x="66" y="80" width="28" height="8" rx="3" fill="${AC_.sun}" ${S3}/><path d="M74 88v16M80 88v18M86 88v16" stroke="${AC_.sun}" stroke-width="3" stroke-linecap="round"/>`],
+  student: [AC_.enS, `<rect x="38" y="34" width="50" height="62" rx="14" fill="${AC_.en}" ${S3}/><path d="M50 34v-6a13 13 0 0 1 26 0v6" fill="none" ${S3}/><rect x="48" y="60" width="30" height="20" rx="5" fill="${AC_.sun}" ${S3}/><path d="M96 46l26-8v50l-26 8z" fill="${AC_.wh}" ${S3}/><path d="M96 46l-6-4v50l6 4" fill="${AC_.zh}" ${S3}/>`],
+  teacher: [AC_.grS, `<rect x="30" y="22" width="80" height="56" rx="6" fill="#1F5D3F" ${S3}/><path d="M42 40h40M42 54h56" stroke="${AC_.wh}" stroke-width="3" stroke-linecap="round"/><path d="M50 78l-8 24M90 78l8 24" ${S3}/>` + mini(126, 52, .7, AC_.gr, AC_.ink)],
+  work: [AC_.slS, `<rect x="40" y="42" width="80" height="54" rx="8" fill="#8B5E3C" ${S3}/><path d="M66 42v-8a6 6 0 0 1 6-6h16a6 6 0 0 1 6 6v8" fill="none" ${S3}/><path d="M40 64h80" ${S3}/><rect x="74" y="58" width="12" height="12" rx="2" fill="${AC_.sun}" ${S3}/>`],
+  no: [AC_.zhS, `<circle cx="80" cy="60" r="34" fill="${AC_.wh}" stroke="${AC_.zh}" stroke-width="8"/><path d="M56 36l48 48" stroke="${AC_.zh}" stroke-width="8" stroke-linecap="round"/>`],
+  back: [AC_.sunS, `<path d="M24 34h52a8 8 0 0 1 8 8v20a8 8 0 0 1-8 8H48l-12 10V70H24a8 8 0 0 1-8-8V42a8 8 0 0 1 8-8z" fill="${AC_.en}" ${S3}/><path d="M136 52H90a8 8 0 0 0-8 8v20a8 8 0 0 0 8 8h22l12 10V88h12a8 8 0 0 0 8-8V60a8 8 0 0 0-8-8z" fill="${AC_.sun}" ${S3}/><path d="M96 30q20-6 26 14" fill="none" ${S3}/><path d="M116 40l6 6 4-8" fill="none" ${S3}/>`],
+  also: [AC_.grS, mini(52, 48, .85, AC_.gr, AC_.ink) + mini(108, 48, .85, AC_.gr, AC_.ink) + `<path d="M80 58v14M73 65h14" ${S3}/>`],
+  handshake: [AC_.sunS, `<path d="M18 70l28-18 22 6 12 14-14 10-20-8z" fill="${AC_.en}" ${S3}/><path d="M142 70l-28-18-26 4-14 14 16 12 22-6z" fill="${AC_.zh}" ${S3}/><path d="M66 70q14 14 28 0" fill="#F1C7A0" ${S3}/><path d="M80 20v12M60 26l6 9M100 26l-6 9" ${S3}/>`],
+  bye: [AC_.enS, `<rect x="92" y="22" width="44" height="78" rx="4" fill="${AC_.sun}" ${S3}/><circle cx="126" cy="62" r="3" fill="${AC_.ink}"/>` + mini(54, 50, .9, AC_.en, AC_.ink) + `<path d="M24 34q-6 8 0 16M16 28q-10 14 0 28" fill="none" ${S3}/>`],
+  thanks: [AC_.zhS, `<path d="M80 96S36 70 36 46a20 20 0 0 1 44-6 20 20 0 0 1 44 6c0 24-44 50-44 50z" fill="${AC_.zh}" ${S3}/><path d="M118 20l4 8 8 2-8 4-4 8-4-8-8-4 8-2z" fill="${AC_.sun}" ${S3}/>`],
+  polite: [AC_.grS, `<path d="M48 54h56v18a26 26 0 0 1-52 0z" fill="${AC_.wh}" ${S3}/><path d="M104 60h8a8 8 0 0 1 0 16h-10" fill="none" ${S3}/><path d="M40 98h76" ${S3}/><path d="M66 22q-6 8 0 16t0 12M84 22q-6 8 0 16t0 12" fill="none" stroke="${AC_.sl}" stroke-width="3" stroke-linecap="round"/>`],
+  card: [AC_.enS, `<rect x="28" y="30" width="104" height="62" rx="8" fill="${AC_.wh}" ${S3}/><circle cx="54" cy="58" r="12" fill="${AC_.en}" ${S3}/><path d="M78 50h38M78 62h28M78 74h34" ${S3}/><path d="M28 80h104" stroke="${AC_.zh}" stroke-width="5"/>`],
+  manager: [AC_.slS, `<rect x="30" y="80" width="14" height="18" fill="${AC_.en}" ${S3}/><rect x="52" y="60" width="14" height="38" fill="${AC_.en}" ${S3}/><rect x="74" y="40" width="14" height="58" fill="${AC_.en}" ${S3}/><path d="M112 26h14l4 10-11 46-11-46z" fill="${AC_.zh}" ${S3}/>`],
+  company: [AC_.enS, `<rect x="44" y="20" width="72" height="80" rx="4" fill="${AC_.en}" ${S3}/>${[0, 1, 2].map(r => [0, 1, 2].map(c => `<rect x="${54 + c * 20}" y="${30 + r * 18}" width="12" height="10" rx="2" fill="${AC_.sunS}"/>`).join("")).join("")}<rect x="70" y="80" width="20" height="20" fill="${AC_.sun}" ${S3}/>`],
+  engineer: [AC_.sunS, `<path d="M40 70a40 34 0 0 1 80 0z" fill="${AC_.sun}" ${S3}/><path d="M32 70h96" ${S3} stroke-width="5"/><path d="M80 36v-8" ${S3}/><circle cx="118" cy="92" r="12" fill="${AC_.sl}" ${S3}/><circle cx="118" cy="92" r="4" fill="${AC_.wh}"/>`],
+  calc: [AC_.grS, `<rect x="50" y="18" width="60" height="84" rx="8" fill="${AC_.sl}" ${S3}/><rect x="58" y="26" width="44" height="18" rx="3" fill="#BFF0CF" ${S3}/>${[0, 1, 2].map(r => [0, 1, 2].map(c => `<rect x="${58 + c * 16}" y="${52 + r * 16}" width="11" height="10" rx="2" fill="${c === 2 ? AC_.sun : AC_.wh}"/>`).join("")).join("")}`],
+  sales: [AC_.zhS, `<path d="M44 44h60l6 56H38z" fill="${AC_.zh}" ${S3}/><path d="M60 44v-8a14 14 0 0 1 28 0v8" fill="none" ${S3}/><path d="M104 30l22 0 10 12-16 16-18-18z" fill="${AC_.sun}" ${S3}/><circle cx="118" cy="38" r="3" fill="${AC_.ink}"/>`],
+  designer: [AC_.zhS, `<path d="M80 22c26 0 46 16 46 36 0 10-8 14-16 12s-14 4-10 12-4 16-20 16c-26 0-46-16-46-38S54 22 80 22z" fill="${AC_.wh}" ${S3}/><circle cx="58" cy="48" r="7" fill="${AC_.zh}"/><circle cx="80" cy="38" r="7" fill="${AC_.sun}"/><circle cx="102" cy="48" r="7" fill="${AC_.en}"/><circle cx="56" cy="72" r="7" fill="${AC_.gr}"/>`],
+  cart: [AC_.grS, `<path d="M26 30h14l12 46h62l10-34H46" fill="none" ${S3}/><circle cx="58" cy="94" r="7" fill="${AC_.wh}" ${S3}/><circle cx="108" cy="94" r="7" fill="${AC_.wh}" ${S3}/><rect x="60" y="44" width="22" height="22" fill="#C9935B" ${S3}/><rect x="86" y="50" width="20" height="16" fill="${AC_.sun}" ${S3}/>`],
+  colleague: [AC_.enS, mini(56, 46, .9, AC_.en, AC_.ink) + mini(104, 46, .9, AC_.sun, "#C8642B") + `<rect x="24" y="86" width="112" height="10" rx="5" fill="${AC_.sl}" ${S3}/>`],
+  team: [AC_.grS, mini(44, 52, .75, AC_.zh, AC_.ink) + mini(116, 52, .75, AC_.en, AC_.ink) + mini(80, 44, .85, AC_.gr, "#C8642B")],
+  home: [AC_.sunS, `<path d="M34 58l46-36 46 36" fill="none" ${S3}/><rect x="44" y="54" width="72" height="46" fill="${AC_.wh}" ${S3}/><rect x="70" y="70" width="20" height="30" fill="${AC_.zh}" ${S3}/><path d="M124 30c0-6 10-6 10 0 0 6-10 12-10 12s-10-6-10-12c0-6 10-6 10 0z" fill="${AC_.zh}"/>`],
+  city: [AC_.enS, `<rect x="30" y="50" width="26" height="50" fill="${AC_.en}" ${S3}/><rect x="62" y="30" width="30" height="70" fill="${AC_.sl}" ${S3}/><rect x="98" y="60" width="28" height="40" fill="${AC_.en}" ${S3}/><path d="M112 16a12 12 0 0 1 12 12c0 10-12 22-12 22s-12-12-12-22a12 12 0 0 1 12-12z" fill="${AC_.zh}" ${S3}/><circle cx="112" cy="28" r="4" fill="${AC_.wh}"/>`],
+  from: [AC_.enS, `<path d="M40 30a14 14 0 0 1 14 14c0 12-14 26-14 26S26 56 26 44a14 14 0 0 1 14-14z" fill="${AC_.zh}" ${S3}/><circle cx="40" cy="44" r="5" fill="${AC_.wh}"/><path d="M46 84q40 20 80-30" fill="none" stroke="${AC_.ink}" stroke-width="3" stroke-dasharray="6 7" stroke-linecap="round"/><path d="M118 36l20-8-6 20-4-6z" fill="${AC_.en}" ${S3}/>`],
+  where: [AC_.sunS, `<path d="M26 34l34-10 40 10 34-10v62l-34 10-40-10-34 10z" fill="${AC_.wh}" ${S3}/><path d="M60 24v62M100 34v62" stroke="${AC_.ink}" stroke-width="2"/><circle cx="82" cy="58" r="16" fill="${AC_.sun}" ${S3}/><path d="M77 54a5 5 0 1 1 7 5c-2 1-2 2-2 4" fill="none" ${S3}/>`],
+  uk: [AC_.slS, `<rect x="66" y="40" width="28" height="64" fill="#C9935B" ${S3}/><path d="M62 40l18-26 18 26z" fill="${AC_.sl}" ${S3}/><circle cx="80" cy="56" r="9" fill="${AC_.wh}" ${S3}/><path d="M80 51v5l3 3" stroke="${AC_.ink}" stroke-width="2" fill="none"/><rect x="104" y="70" width="40" height="30" rx="5" fill="${AC_.zh}" ${S3}/><path d="M108 78h32" stroke="${AC_.wh}" stroke-width="4"/><path d="M20 104h124" ${S3}/>`],
+  morning: [AC_.sunS, `<path d="M28 80a52 52 0 0 1 104 0" fill="${AC_.sun}" ${S3}/><path d="M80 14v10M40 30l7 7M120 30l-7 7" ${S3}/><path d="M20 80h120" ${S3}/><path d="M60 88h40v8a14 14 0 0 1-14 14H74a14 14 0 0 1-14-14z" fill="${AC_.wh}" ${S3}/>`],
+  email: [AC_.enS, `<rect x="30" y="32" width="100" height="62" rx="8" fill="${AC_.wh}" ${S3}/><path d="M32 36l48 34 48-34" fill="none" ${S3}/><circle cx="126" cy="34" r="10" fill="${AC_.zh}" ${S3}/>`],
+  new: [AC_.sunS, mini(70, 50, 1, AC_.en, AC_.ink) + `<path d="M116 24l5 12 12 5-12 5-5 12-5-12-12-5 12-5z" fill="${AC_.sun}" ${S3}/><path d="M104 74l3 6 6 3-6 3-3 6-3-6-6-3 6-3z" fill="${AC_.sun}" ${S3}/>`],
+  repeat: [AC_.zhS, `<path d="M40 28h80a10 10 0 0 1 10 10v30a10 10 0 0 1-10 10H74l-18 14V78H40a10 10 0 0 1-10-10V38a10 10 0 0 1 10-10z" fill="${AC_.wh}" ${S3}/><path d="M96 46a16 16 0 1 0 2 14" fill="none" ${S3}/><path d="M98 38v10h-10" fill="none" ${S3}/>`],
+  role: [AC_.slS, `<path d="M62 14l18 22 18-22" fill="none" stroke="${AC_.en}" stroke-width="5"/><rect x="50" y="36" width="60" height="70" rx="8" fill="${AC_.wh}" ${S3}/><circle cx="80" cy="60" r="11" fill="${AC_.sun}" ${S3}/><path d="M64 84h32M68 94h24" ${S3}/>`]
+};
+const ART_RULES = [
+  [/accountant|kế toán/i, "calc"], [/engineer|kỹ sư/i, "engineer"], [/sales/i, "sales"], [/purchasing|mua hàng/i, "cart"],
+  [/student|sinh viên|学生/i, "student"], [/teacher|giáo viên|老师/i, "teacher"], [/designer|thiết kế/i, "designer"],
+  [/manager|quản lý|经理|giám đốc/i, "manager"], [/colleague|đồng nghiệp/i, "colleague"], [/which team|team|nhóm/i, "team"],
+  [/company|công ty|公司/i, "company"], [/business card|my card|danh thiếp|名片/i, "card"], [/email/i, "email"],
+  [/hometown|quê/i, "home"], [/live in|based in|sống/i, "city"], [/the uk|nước anh|manchester/i, "uk"],
+  [/where are you from|đến từ đâu/i, "where"], [/i'?m from|đến từ/i, "from"],
+  [/what'?s your role|phụ trách/i, "role"], [/what do you do|nghề gì|work as|工作|làm việc/i, "work"],
+  [/what about you|còn bạn|你呢|^呢|còn … thì sao/i, "back"], [/say that again|nói lại|再说|一遍/i, "repeat"],
+  [/nice meeting you|see you|tạm biệt|再见/i, "bye"], [/nice to meet|pleasure|hân hạnh|vui được|高兴|认识/i, "handshake"],
+  [/good morning|buổi sáng/i, "morning"], [/new here|người mới/i, "new"], [/^no,|不是|^不$|phủ định/i, "no"],
+  [/谢谢|cảm ơn/i, "thanks"], [/您|lịch sự/i, "polite"], [/吗|có\/không/i, "question"], [/什么|^gì|cái gì/i, "what"],
+  [/名字|tên|叫|and you are/i, "name"], [/越南|việt nam/i, "vietnam"], [/中国|trung quốc/i, "china"], [/也|cũng/i, "also"],
+  [/^是$|^là$/i, "is"], [/她|cô ấy/i, "she"], [/^人$|^người$/i, "person"], [/^我$|^tôi$/i, "me"], [/^你$|^bạn$/i, "you"],
+  [/hi,|hello|你好|xin chào|chào/i, "wave"]
+];
+function artKey(...texts) { for (const t of texts) { if (!t) continue; for (const [re, k] of ART_RULES) if (re.test(String(t))) return k; } return null; }
+function iconSVG(key, cls) {
+  const ic = ICONS[key]; if (!ic) return "";
+  return `<svg class="${cls || "illu"}" viewBox="0 0 160 120" aria-hidden="true"><rect x="6" y="4" width="148" height="112" rx="28" fill="${ic[0]}"/><circle cx="24" cy="22" r="4" fill="${AC_.ink}" opacity=".08"/><circle cx="138" cy="100" r="6" fill="${AC_.ink}" opacity=".06"/>${ic[1]}</svg>`;
+}
 
 /* ============ HỌC TRƯỚC: thẻ học, cảnh hội thoại, mẫu câu ============ */
 const LEARN = {
@@ -1748,10 +1912,10 @@ const LEARN = {
       ]
     },
     scenes: {
-      S1: { setting: "Cuối tuần, sự kiện networking ở Hà Nội. An gặp Tom lần đầu.", src: "dialogue" },
-      S2: { setting: "Hội thảo nghề nghiệp. Kevin bắt chuyện với Linh.", src: "dialogue2" },
-      S3: { setting: "Cảnh mẫu trước khi bạn đóng vai: ngày đầu đi làm, An gặp Tom ở nhóm marketing.", src: "rpbase", me: "An" },
-      S4: { setting: "Cảnh mẫu trang trọng: An gặp chị Sarah Lee, quản lý mua hàng của Bright Logistics.", src: "rpvariant", me: "An" }
+      S1: { setting: "Cuối tuần, sự kiện networking ở Hà Nội. An gặp Tom lần đầu.", src: "dialogue", bg: "networking" },
+      S2: { setting: "Hội thảo nghề nghiệp. Kevin bắt chuyện với Linh.", src: "dialogue2", bg: "fair" },
+      S3: { setting: "Cảnh mẫu trước khi bạn đóng vai: ngày đầu đi làm, An gặp Tom ở nhóm marketing.", src: "rpbase", me: "An", bg: "office" },
+      S4: { setting: "Cảnh mẫu trang trọng: An gặp chị Sarah Lee, quản lý mua hàng của Bright Logistics.", src: "rpvariant", me: "An", bg: "meeting" }
     }
   },
   zh: {
@@ -1829,10 +1993,10 @@ const LEARN = {
       ]
     },
     scenes: {
-      S1: { setting: "Buổi giao lưu sinh viên Việt – Trung. An gặp 王丽 (Vương Lệ).", src: "dialogue" },
-      S2: { setting: "Ngày đầu lớp học. 阮明 (Minh) làm quen với 王丽.", src: "dialogue2" },
-      S3: { setting: "Cảnh mẫu trước khi bạn đóng vai: An làm quen với 王丽 ở sự kiện.", src: "rpbase", me: "An" },
-      S4: { setting: "Cảnh mẫu trang trọng: An gặp giám đốc Vương (王经理) của công ty Quang Minh.", src: "rpvariant", me: "An" }
+      S1: { setting: "Buổi giao lưu sinh viên Việt – Trung. An gặp 王丽 (Vương Lệ).", src: "dialogue", bg: "networking" },
+      S2: { setting: "Ngày đầu lớp học. 阮明 (Minh) làm quen với 王丽.", src: "dialogue2", bg: "classroom" },
+      S3: { setting: "Cảnh mẫu trước khi bạn đóng vai: An làm quen với 王丽 ở sự kiện.", src: "rpbase", me: "An", bg: "networking" },
+      S4: { setting: "Cảnh mẫu trang trọng: An gặp giám đốc Vương (王经理) của công ty Quang Minh.", src: "rpvariant", me: "An", bg: "meeting" }
     }
   }
 };
@@ -1867,7 +2031,7 @@ function learnEx(ex, code) {
   if (base === "T") { ex.kind = "cards"; ex.cards = X.cards[code]; ex.title = code === "T4" ? "Thẻ học: câu khoá cho trạm" : code === "T3" ? "Thẻ học: nói trang trọng" : "Thẻ học: từ và cụm câu mới"; }
   if (base === "P") { ex.kind = "pattern"; ex.pats = X.patterns[code]; ex.title = "Mẫu câu cần nắm"; }
   if (base === "S") {
-    const sc = X.scenes[code]; ex.kind = "scene"; ex.setting = sc.setting;
+    const sc = X.scenes[code]; ex.kind = "scene"; ex.setting = sc.setting; ex.bg = sc.bg;
     let lines = [];
     if (sc.src === "dialogue" || sc.src === "dialogue2") {
       lines = D[sc.src].map(r => L === "zh" ? { who: r[0], t: r[1], py: r[2], vi: r[3] } : { who: r[0], t: r[1], vi: r[2] });
@@ -1899,8 +2063,8 @@ function runCards(ex, body, finish) {
     dots.forEach((d, k) => d.className = k < i ? "ok" : k === i ? "now" : "");
     fc.className = "fcard" + (flipped ? " back" : "");
     fc.innerHTML = !flipped
-      ? `<span class="side">Mặt trước · ${i + 1}/${cards.length}</span><b class="fw" lang="${L === "zh" ? "zh" : "en"}">${esc(c.w)}</b>${c.py ? `<span class="fpy">${esc(c.py)}</span>` : ""}<button type="button" class="btn sound sp">${ICON.play} Nghe</button><span class="hint">Chạm thẻ để xem nghĩa</span>`
-      : `<span class="side">Mặt sau · ${i + 1}/${cards.length}</span><span class="fwb" lang="${L === "zh" ? "zh" : "en"}">${esc(c.w)}${c.py ? ` <small>${esc(c.py)}</small>` : ""}</span><b class="fm">${esc(c.m)}</b>
+      ? `<span class="side">Mặt trước · ${i + 1}/${cards.length}</span>${iconSVG(artKey(c.w, c.m), "illu big")}<b class="fw" lang="${L === "zh" ? "zh" : "en"}">${esc(c.w)}</b>${c.py ? `<span class="fpy">${esc(c.py)}</span>` : ""}<button type="button" class="btn sound sp">${ICON.play} Nghe</button><span class="hint">Chạm thẻ để xem nghĩa</span>`
+      : `<span class="side">Mặt sau · ${i + 1}/${cards.length}</span>${iconSVG(artKey(c.w, c.m), "illu corner")}<span class="fwb" lang="${L === "zh" ? "zh" : "en"}">${esc(c.w)}${c.py ? ` <small>${esc(c.py)}</small>` : ""}</span><b class="fm">${esc(c.m)}</b>
          ${c.ex ? `<div class="fex"><span lang="${L === "zh" ? "zh" : "en"}">${esc(c.ex)}</span>${c.exm ? `<small>${esc(c.exm)}</small>` : ""}<button type="button" class="btn ghost small spx">${ICON.play} Nghe câu ví dụ</button></div>` : ""}
          <p class="fnote"><span class="lab">Ghi nhớ:</span> ${esc(c.n)}</p>`;
     const sp = $(".sp", fc); if (sp) sp.onclick = e => { e.stopPropagation(); say(c.w, L); };
@@ -1923,7 +2087,7 @@ function runScene(ex, body, finish) {
   const L = S.lang, lines = ex.lines2, [pA, pB] = ex.people; let i = -1, auto = false, subVi = true, subPy = L === "zh";
   const box = el(`<div class="scene">
     <div class="stage2"><p class="setting">${esc(ex.setting)}</p>
-      <div class="cast"><div class="actor a"><span class="av big">${esc(pA.slice(0, 2))}</span><b>${esc(pA)}</b></div><div class="actor b"><span class="av big">${esc((pB || "").slice(0, 2))}</span><b>${esc(pB || "")}</b></div></div>
+      <div class="cast2">${sceneSVG(ex.bg, pA, pB, null)}<span class="nm a">${esc(pA)}</span><span class="nm b">${esc(pB || "")}</span></div>
       <div class="nowline" aria-live="polite"><p class="muted">Bấm Phát cả cảnh hoặc Câu tiếp để bắt đầu.</p></div></div>
     <div class="row center"><button type="button" class="btn ghost prev">⏮ Câu trước</button><button type="button" class="btn primary playall">${ICON.play} Phát cả cảnh</button><button type="button" class="btn ghost nx">Câu tiếp ⏭</button></div>
     <div class="row center small"><label class="tick"><input type="checkbox" class="cvi" checked> Phụ đề tiếng Việt</label>${L === "zh" ? `<label class="tick"><input type="checkbox" class="cpy" checked> Bính âm</label>` : ""}</div>
@@ -1934,7 +2098,8 @@ function runScene(ex, body, finish) {
   function lineHTML(l) { return `<span class="spk">${esc(l.who)}</span><span class="tx" lang="${L === "zh" ? "zh" : "en"}">${esc(l.t)}</span>${l.py && subPy ? `<span class="py">${esc(l.py)}</span>` : ""}${l.vi && subVi ? `<span class="vi">${esc(l.vi)}</span>` : ""}`; }
   function show(k, chain) {
     i = k; const l = lines[i];
-    box.querySelectorAll(".actor").forEach(a => a.classList.toggle("talk", (a.classList.contains("a") && l.who === pA) || (a.classList.contains("b") && l.who !== pA)));
+    $(".cast2 svg", box).outerHTML = sceneSVG(ex.bg, pA, pB, l.who === pA ? 0 : 1);
+    box.querySelectorAll(".cast2 .nm").forEach(n => n.classList.toggle("talk", n.classList.contains("a") === (l.who === pA)));
     now.className = "nowline " + (l.who === pA ? "left" : "right");
     now.innerHTML = `<div class="bub2">${lineHTML(l)}</div><button type="button" class="btn ghost small rep">${ICON.play} Nghe lại câu này</button>`;
     $(".rep", now).onclick = () => sayThen(l.t, L, l.who === pA ? 1.05 : 0.85, null, l.who);
@@ -2167,7 +2332,7 @@ function viewDay(main, d) {
       <p class="chip">${esc(d.label)} · ${d.mins} phút · ${nl} phần học trước · ${exs.length - nl} bài tập · ${qs} câu</p>
       <h1>${esc(th.t)}</h1>
       <p class="lead">${esc(th.d)}</p>
-      <div class="who"><span class="av">${esc(who[0].slice(0, 2))}</span><div><small>Người đồng hành hôm nay</small><b>${esc(who[0])}</b><span class="muted small"> · ${esc(who[1])}</span></div></div>
+      <div class="who"><span class="avbox">${who[0].split(" & ").map(n => avatarSVG(n, 44)).join("")}</span><div><small>Người đồng hành hôm nay</small><b>${esc(who[0])}</b><span class="muted small"> · ${esc(who[1])}</span></div></div>
       <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${exs.length}" aria-valuenow="${n}"><i style="width:${Math.round(n / exs.length * 100)}%"></i></div>
       <p class="small muted">${n}/${exs.length} bài xong${S.daily[S.lang + d.id] ? " · đã nhận +20 điểm mục tiêu ngày" : " · xong cả ngày được +20 điểm"}</p>
       ${firstOpen >= 0 ? `<a class="btn primary huge" href="#${d.id}-bai-${firstOpen + 1}">${ICON.play} ${n ? "Học tiếp" : "Bắt đầu"}</a>` : `<a class="btn primary huge" href="#${nextDayId(d)}">Sang ngày tiếp →</a>`}
