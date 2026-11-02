@@ -375,6 +375,13 @@ mark.bad{background:var(--mark);color:var(--ink);border-radius:5px;padding:0 4px
 .relearn .rl svg{width:14px;height:14px}
 .opt.out{opacity:.35;text-decoration:line-through}
 .tok.glow{box-shadow:0 0 0 4px var(--en);transform:scale(1.08)}
+
+.opy,.tpy{display:block;font-family:var(--font);font-size:13px;font-weight:600;color:var(--acc);letter-spacing:0}
+.opt .ot[lang=zh]{font-size:24px}
+.tok .tpy{color:inherit;opacity:.75;font-size:11.5px}
+.frame .pick{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px}
+.frame .pick .lab{width:100%}
+.frame .ch{font-family:var(--han);font-size:17px;display:inline-flex;flex-direction:column;align-items:flex-start;height:auto;padding:6px 12px}
 </style>
 
 <header class="top">
@@ -1150,6 +1157,49 @@ function buildEx(day, code) {
   else if (base === "L") { ex.items = D.test.map(o => Object.assign({}, o)); ex.test = true; }
   else if (base === "M") { ex.kind = "cando"; ex.list = D.candoList[S.level]; }
   else if (base === "N") { ex.items = pickType(D.sheet.fixes); ex.sheet = D.sheet; }
+  return L === "zh" && S.level === 1 ? easyZH(ex) : ex;
+}
+
+/* ---------- tiếng Trung Mức 1: nhận diện và xếp chữ thay cho gõ ---------- */
+function zhDict() {
+  if (zhDict.d) return zhDict.d;
+  const d = {};
+  learnedPool("zh").forEach(c => { const w = String(c.w).replace(/[，。！？、\s]/g, ""); if (/^[\u4e00-\u9fff]{1,6}$/.test(w) && c.py && !d[w]) d[w] = { py: c.py, m: c.m }; });
+  Object.assign(d, { "不是": { py: "bú shì", m: "không phải" }, "高兴": { py: "gāoxìng", m: "vui" }, "认识": { py: "rènshi", m: "quen biết" }, "越南": { py: "Yuènán", m: "Việt Nam" }, "中国": { py: "Zhōngguó", m: "Trung Quốc" }, "再说": { py: "zài shuō", m: "nói lại" }, "一遍": { py: "yí biàn", m: "một lần" }, "请": { py: "qǐng", m: "xin, mời" }, "这是": { py: "zhè shì", m: "đây là" }, "我的": { py: "wǒ de", m: "của tôi" },
+    "阮安": { py: "Ruǎn Ān", m: "Nguyễn An" }, "王丽": { py: "Wáng Lì", m: "Vương Lệ" }, "阮明": { py: "Ruǎn Míng", m: "Nguyễn Minh" } });
+  return zhDict.d = d;
+}
+function zhSeg(sent) {
+  const d = zhDict(), chars = [...String(sent).replace(/\s/g, "")], out = [];
+  for (let i = 0; i < chars.length;) {
+    if (/[，。！？、,.!?]/.test(chars[i])) { if (out.length) out[out.length - 1] += chars[i]; i++; continue; }
+    let len = Math.min(3, chars.length - i);
+    for (; len > 1; len--) { const w = chars.slice(i, i + len).join(""); if (d[w] && !/[，。！？]/.test(w)) break; }
+    out.push(chars.slice(i, i + len).join("")); i += len;
+  }
+  return out;
+}
+function zhPy(w) { const d = zhDict(), k = String(w).replace(/[，。！？、]/g, ""); if (d[k]) return d[k].py; return zhSeg(k).map(t => (d[t.replace(/[，。！？、]/g, "")] || {}).py || "").join(" ").trim(); }
+function easyZH(ex) {
+  if (!ex.items || !ex.items.length) return ex;
+  const bank = Object.keys(zhDict()).filter(w => [...w].length <= 3 && !/^(阮|王)/.test(w));
+  ex.items = ex.items.map((it, i) => {
+    if (it.k !== "type") return it;
+    const model = String(it.model).replace(/[。！？]$/, ""), han = [...model.replace(/[，。！？、]/g, "")].length;
+    if (han <= 3) {
+      const wrong = (it.diag || []).map(d => typeof d[1] === "string" ? d[1] : "").filter(w => w && w !== model);
+      const why = {}; (it.diag || []).forEach(d => { if (typeof d[1] === "string") why[d[1]] = d[2]; });
+      const pool = seeded(bank.filter(w => w !== model && !wrong.includes(w) && [...w].length === han), i * 5 + model.length).map(x => x[0]);
+      const opts = seeded([model, ...wrong, ...pool].slice(0, 3), i + 11).map(x => x[0]);
+      const meanings = {}; opts.forEach(o => { const e = zhDict()[o]; if (e) meanings[o] = e.m; });
+      return { k: "mc", q: (it.review ? "Ôn lại: " : "") + it.q.replace(/^Thẻ ôn từ lỗi của bạn: /, "") + " → chọn chữ Hán đúng", audio: null, hearAfter: model,
+        opts, optsPy: opts.map(zhPy), a: opts.indexOf(model), review: it.review,
+        why: Object.fromEntries(opts.map((o, k) => [k, why[o] || (meanings[o] ? `${o} (${zhPy(o)}) nghĩa là “${meanings[o]}”.` : "Chữ này không khớp với nghĩa cần tìm.")])) };
+    }
+    const tokens = zhSeg(it.model);
+    return { k: "order", q: it.q, tokens, tokPy: tokens.map(zhPy), audio: it.model, explain: "Bính âm cả câu: " + (it.hint || zhPy(it.model)) + (it.q && !/^Sửa/.test(it.q) ? " · Nghĩa: " + it.q.replace(/\s*\(dùng tên bạn\)\.?/, "") : "") };
+  });
+  if (ex.speakNote) ex.speakNote = "zh";
   return ex;
 }
 
@@ -1281,7 +1331,7 @@ function typeHint(L, it, level) {
 /* trắc nghiệm */
 function itemMC(ctx) {
   const { L, it, st, stage, onDone, ex } = ctx;
-  const q = el(`<div class="q"><p class="qt">${esc(it.q)}</p>${it.audio ? `<button type="button" class="btn sound au" aria-label="Nghe">${ICON.play} Nghe</button>` : ""}<div class="opts" role="group" aria-label="Các lựa chọn">${it.opts.map((o, i) => `<button type="button" class="opt" data-i="${i}"><span class="badge">${"ABCD"[i]}</span><span class="ot" lang="${/[一-鿿]/.test(o) ? "zh" : "vi"}">${esc(o)}</span></button>`).join("")}</div></div>`);
+  const q = el(`<div class="q"><p class="qt">${esc(it.q)}</p>${it.audio ? `<button type="button" class="btn sound au" aria-label="Nghe">${ICON.play} Nghe</button>` : ""}<div class="opts" role="group" aria-label="Các lựa chọn">${it.opts.map((o, i) => `<button type="button" class="opt" data-i="${i}"><span class="badge">${"ABCD"[i]}</span><span class="ot" lang="${/[一-鿿]/.test(o) ? "zh" : "vi"}">${esc(o)}${it.optsPy && it.optsPy[i] ? `<small class="opy">${esc(it.optsPy[i])}</small>` : ""}</span></button>`).join("")}</div></div>`);
   const fb = fbBox(); stage.appendChild(q);
   const hb = el(`<div class="hintbar"><button type="button" class="btn ghost small hbtn">💡 Gợi ý</button><div class="hints"></div></div>`); stage.appendChild(hb); stage.appendChild(fb);
   if (it.audio) { $(".au", q).onclick = () => say(it.audio, L); }
@@ -1294,7 +1344,7 @@ function itemMC(ctx) {
     let h = `<p class="hl"><span class="lab">Gợi ý ${st.hints}</span> ${wrong.length > 1 ? "Đã loại một đáp án chắc chắn sai." : "Chỉ còn đáp án đúng và một đáp án gây nhiễu."}</p>`;
     if (st.hints === 1 && it.line != null && ex.dialogue) h += `<p class="hl">Thông tin nằm ở câu thoại số ${it.line + 1}. <button type="button" class="btn ghost small hpl">${ICON.play} Nghe câu đó</button></p>`;
     if (st.hints === 1 && it.audio) h += `<p class="hl">Nghe lại thật chậm, để ý phần được nhấn. <button type="button" class="btn ghost small hau">${ICON.play} Nghe chậm</button></p>`;
-    if (st.hints === 1) h += learnHTML(L, relatedLearn(L, it.opts[it.a]).filter(c => c.exact || /[\u4e00-\u9fff]/.test(it.opts[it.a])));
+    if (st.hints === 1) h += learnHTML(L, relatedLearn(L, it.opts[it.a]).filter(c => !c.exact && /[\u4e00-\u9fff]/.test(it.opts[it.a])));
     const box = $(".hints", hb); box.insertAdjacentHTML("beforeend", h); bindLearn(box, L);
     const hp = box.querySelector(".hpl:not([data-b])"); if (hp) { hp.dataset.b = 1; hp.onclick = () => say(ex.dialogue[it.line][1], L, true, ex.dialogue[it.line][0]); }
     const ha = box.querySelector(".hau:not([data-b])"); if (ha) { ha.dataset.b = 1; ha.onclick = () => say(it.audio, L, true); }
@@ -1305,7 +1355,7 @@ function itemMC(ctx) {
     if (st.done) return;
     const i = +b.dataset.i;
     if (i === it.a) {
-      b.classList.add("right"); q.querySelectorAll(".opt").forEach(x => x.disabled = true);
+      b.classList.add("right"); q.querySelectorAll(".opt").forEach(x => x.disabled = true); if (it.hearAfter) say(it.hearAfter, L);
       fbOn(fb, "good");
       fb.innerHTML = `<p class="fbt">${st.tries === 0 ? "Đúng" : st.revealed ? "Đúng. Bạn đã tự chọn lại đáp án đúng." : "Đúng rồi, bạn đã tự sửa được (+5 khi xong bài)"}</p>` + (lineReason(ctx) ? `<p class="why">Thông tin ở ${esc(lineReason(ctx))}</p>` : "");
       onDone(); return;
@@ -1401,7 +1451,7 @@ function seeded(arr, seed) { const a = arr.map((v, i) => [v, i]); let s = seed +
 function itemOrder(ctx) {
   const { L, it, st, stage, onDone, idx } = ctx;
   const pool = seeded(it.tokens, idx + 3), picked = [];
-  const q = el(`<div class="q"><p class="qt sm">Chạm các ô theo đúng thứ tự để thành câu. Chạm ô đã chọn để trả lại.</p>
+  const q = el(`<div class="q">${it.q ? `<p class="qt">${esc(it.q)}</p>` : ""}${it.audio ? `<p class="row center"><button type="button" class="btn sound au">${ICON.play} Nghe câu mẫu</button></p>` : ""}<p class="qt sm">${it.q ? "Nghe, nói to theo, rồi chạm các ô theo đúng thứ tự." : "Chạm các ô theo đúng thứ tự để thành câu."} Chạm ô đã chọn để trả lại.</p>
     <div class="ans" aria-label="Câu của bạn"></div><div class="pool" aria-label="Các ô chữ"></div>
     <div class="row"><button type="button" class="btn primary chk">Kiểm tra</button><button type="button" class="btn ghost clr">Xếp lại từ đầu</button></div></div>`);
   const fb = fbBox(); stage.appendChild(q);
@@ -1418,12 +1468,14 @@ function itemOrder(ctx) {
   }
   $(".hbtn", hb).onclick = orderHint;
   function draw(marks) {
-    ans.innerHTML = picked.length ? picked.map((p, i) => `<button type="button" class="tok${marks ? (marks[i] ? " right" : " wrong") : ""}" data-a="${i}" lang="${L === "zh" ? "zh" : "en"}"><small>${i + 1}</small>${esc(p[0])}</button>`).join("") : '<span class="muted small">Câu của bạn sẽ hiện ở đây</span>';
-    pl.innerHTML = pool.map((p, i) => picked.includes(p) ? "" : `<button type="button" class="tok" data-p="${i}" lang="${L === "zh" ? "zh" : "en"}">${esc(p[0])}</button>`).join("");
+    const tp = p => it.tokPy ? `<small class="tpy">${esc(it.tokPy[p[1]] || "")}</small>` : "";
+    ans.innerHTML = picked.length ? picked.map((p, i) => `<button type="button" class="tok${marks ? (marks[i] ? " right" : " wrong") : ""}" data-a="${i}" lang="${L === "zh" ? "zh" : "en"}"><small>${i + 1}</small>${esc(p[0])}${tp(p)}</button>`).join("") : '<span class="muted small">Câu của bạn sẽ hiện ở đây</span>';
+    pl.innerHTML = pool.map((p, i) => picked.includes(p) ? "" : `<button type="button" class="tok" data-p="${i}" lang="${L === "zh" ? "zh" : "en"}">${esc(p[0])}${tp(p)}</button>`).join("");
     ans.querySelectorAll("[data-a]").forEach(b => b.onclick = () => { if (st.done) return; picked.splice(+b.dataset.a, 1); draw(); });
     pl.querySelectorAll("[data-p]").forEach(b => b.onclick = () => { if (st.done) return; picked.push(pool[+b.dataset.p]); draw(); });
   }
   draw();
+  const au = $(".au", q); if (au) au.onclick = () => say(it.audio, L);
   $(".clr", q).onclick = () => { if (st.done) return; picked.length = 0; draw(); };
   $(".chk", q).onclick = () => {
     if (st.done) return;
@@ -1566,6 +1618,12 @@ function runRoleplay(ex, body, finish) {
     if (/^\(|chờ bạn/.test(t.vi)) $(".vit", b).hidden = false;
     chat.appendChild(b); chat.scrollTop = chat.scrollHeight;
     frame.hidden = !(S.level === 1 && t.frame); frame.innerHTML = `<span class="lab">Khung câu Mức 1:</span> <span lang="${L === "zh" ? "zh" : "en"}">${esc(t.frame)}</span>`;
+    if (L === "zh" && S.level === 1) {
+      const others = turns.filter(x => x !== t).map(x => x.model), choices = seeded([t.model, ...seeded(others, ti).map(x => x[0]).slice(0, 2)], ti + 5).map(x => x[0]);
+      frame.hidden = false;
+      frame.insertAdjacentHTML("beforeend", `<span class="pick"><span class="lab">Chọn câu hợp lý, nghe và nói to, rồi bấm Gửi:</span>${choices.map(c => `<button type="button" class="btn ghost small ch" lang="zh">${esc(c)}<small class="opy">${esc(zhPy(c))}</small></button>`).join("")}</span>`);
+      frame.querySelectorAll(".ch").forEach(b => b.onclick = () => { inp.value = b.firstChild.textContent; say(inp.value, L); inp.focus(); });
+    }
     tries = 0; revealed = false; inp.value = ""; fb.hidden = true;
   }
   aiTurn();
@@ -2154,7 +2212,7 @@ function playerShell(main, ex, o) {
     body.innerHTML = "";
     if (ex.sheet) body.appendChild(sheetHTML(ex.sheet));
     if (ex.reading) body.appendChild(readingHTML(ex.reading));
-    if (ex.speakNote) body.appendChild(el(`<p class="note">Bản thử chưa ghi âm: nói to trước, rồi gõ đúng câu bạn vừa nói.</p>`));
+    if (ex.speakNote) body.appendChild(el(`<p class="note">${ex.speakNote === "zh" ? "Mức 1 tiếng Trung: không cần gõ. Nghe câu mẫu, nói to theo, rồi xếp các ô chữ (có bính âm) thành câu. Lên Mức 2 mới gõ." : "Bản thử chưa ghi âm: nói to trước, rồi gõ đúng câu bạn vừa nói."}</p>`));
     if (ex.listen) body.appendChild(listenBar(ex));
     const fin = sum => o.onFinish(sum, body);
     if (ex.kind === "items") runItems(ex, body, fin);
