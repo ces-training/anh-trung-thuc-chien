@@ -3,5 +3,242 @@
   "model": "gemini-3.1-flash-image",
   "ok": true,
   "problems": []
+ },
+ "char-an": {
+  "ok": true,
+  "problems": []
+ },
+ "char-tom": {
+  "ok": true,
+  "problems": []
+ },
+ "char-kevin": {
+  "ok": true,
+  "problems": []
+ },
+ "char-linh": {
+  "ok": true,
+  "problems": []
+ },
+ "char-sarah": {
+  "ok": true,
+  "problems": []
+ },
+ "char-wangli": {
+  "ok": true,
+  "problems": []
+ },
+ "char-minh": {
+  "ok": true,
+  "problems": []
+ },
+ "char-wangjl": {
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-networking": {
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-fair": {
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-office": {
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-meeting": {
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-networking": {
+  "ok": false,
+  "problems": [
+   "malformed fingers on the waving hand of the woman in the blue shirt"
+  ]
+ },
+ "scene-zh-classroom": {
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-meeting": {
+  "ok": true,
+  "problems": []
+ },
+ "wave": {
+  "ok": true,
+  "problems": []
+ },
+ "handshake": {
+  "ok": true,
+  "problems": []
+ },
+ "name": {
+  "ok": false,
+  "problems": [
+   "malformed fingers"
+  ]
+ },
+ "student": {
+  "ok": true,
+  "problems": []
+ },
+ "teacher": {
+  "ok": true,
+  "problems": []
+ },
+ "work": {
+  "ok": true,
+  "problems": []
+ },
+ "vietnam": {
+  "ok": true,
+  "problems": []
+ },
+ "china": {
+  "ok": false,
+  "problems": [
+   "readable text or distorted letters on signs in the background",
+   "distorted faces and malformed figures of people in the background"
+  ]
+ },
+ "engineer": {
+  "ok": true,
+  "problems": []
+ },
+ "calc": {
+  "ok": true,
+  "problems": []
+ },
+ "sales": {
+  "ok": false,
+  "problems": [
+   "blank name tag on the store employee's shirt"
+  ]
+ },
+ "designer": {
+  "ok": true,
+  "problems": []
+ },
+ "manager": {
+  "ok": true,
+  "problems": []
+ },
+ "colleague": {
+  "ok": false,
+  "problems": [
+   "malformed fingers on the woman's left hand"
+  ]
+ },
+ "team": {
+  "ok": true,
+  "problems": []
+ },
+ "company": {
+  "ok": true,
+  "problems": []
+ },
+ "card": {
+  "ok": false,
+  "problems": [
+   "The person in blue has multiple hands holding the business card, creating an impossible number of hands/arms."
+  ]
+ },
+ "email": {
+  "ok": true,
+  "problems": []
+ },
+ "home": {
+  "ok": true,
+  "problems": []
+ },
+ "city": {
+  "ok": true,
+  "problems": []
+ },
+ "from": {
+  "ok": true,
+  "problems": []
+ },
+ "where": {
+  "ok": true,
+  "problems": []
+ },
+ "uk": {
+  "ok": false,
+  "problems": [
+   "Readable text/numbers on the bus display ('12')"
+  ]
+ },
+ "morning": {
+  "ok": true,
+  "problems": []
+ },
+ "new": {
+  "ok": true,
+  "problems": []
+ },
+ "repeat": {
+  "ok": true,
+  "problems": []
+ },
+ "role": {
+  "ok": true,
+  "problems": []
+ },
+ "cart": {
+  "ok": true,
+  "problems": []
+ },
+ "bye": {
+  "ok": true,
+  "problems": []
+ },
+ "thanks": {
+  "ok": true,
+  "problems": []
+ },
+ "me": {
+  "ok": true,
+  "problems": []
+ },
+ "you": {
+  "ok": true,
+  "problems": []
+ },
+ "she": {
+  "ok": false,
+  "problems": [
+   "malformed fingers"
+  ]
+ },
+ "person": {
+  "ok": true,
+  "problems": []
+ },
+ "what": {
+  "ok": true,
+  "problems": []
+ },
+ "question": {
+  "ok": true,
+  "problems": []
+ },
+ "is": {
+  "ok": true,
+  "problems": []
+ },
+ "no": {
+  "ok": true,
+  "problems": []
+ },
+ "back": {
+  "ok": true,
+  "problems": []
+ },
+ "polite": {
+  "ok": true,
+  "problems": []
  }
 }
