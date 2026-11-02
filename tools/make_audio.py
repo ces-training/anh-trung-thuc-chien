@@ -82,12 +82,16 @@ def main():
     model_i, made, fails = 0, 0, 0
     for r in todo:
         voice = VOICES[r["lang"]].get(r["who"], VOICES[r["lang"]]["_"])
-        text = STYLE[r["lang"]] + r["text"]
+        text = r["text"]  # chỉ gửi đúng câu cần đọc: model mới (3.8) đọc luôn cả lời dặn nếu có
         for attempt in range(6):
             try:
                 pcm = call(MODELS[model_i], key, text, voice)
                 if len(pcm) < 24000 * 2 * 0.25:
                     raise RuntimeError("Âm thanh quá ngắn")
+                secs, n = len(pcm) / 48000, len(r["text"])
+                limit = 2.0 + (0.5 * n if r["lang"] == "zh" else 0.13 * n)
+                if secs > limit:
+                    raise RuntimeError(f"Âm thanh dài bất thường ({secs:.1f} giây, tối đa {limit:.1f}): có thể model đọc thừa, không lưu")
                 to_mp3(pcm, OUT / r["lang"] / (clip_id(r) + ".mp3"))
                 made += 1
                 print(f"✓ {clip_id(r)} [{r['lang']} {r['who'] or '_'} · {voice}] {r['text']}")
