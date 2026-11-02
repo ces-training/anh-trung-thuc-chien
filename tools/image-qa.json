@@ -238,5 +238,65 @@
  "polite": {
   "ok": true,
   "problems": []
+ },
+ "coach-khang": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "coach-vy": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "journey-en": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "journey-zh": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "room-howto": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "room-achieve": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "room-rewards": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "room-live": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "room-review": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "room-career": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "coach-khang-hello": {
+  "model": "gemini-3.1-flash-image",
+  "ok": true,
+  "problems": []
+ },
+ "coach-vy-hello": {
+  "model": "gemini-3.1-flash-image",
+  "ok": true,
+  "problems": []
  }
 }
