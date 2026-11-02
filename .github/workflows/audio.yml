@@ -1,0 +1,48 @@
+name: Tạo giọng đọc Gemini
+
+on:
+  workflow_dispatch:
+    inputs:
+      redo:
+        description: 'Để trống: chỉ tạo file còn thiếu. "all": làm lại tất cả. Hoặc ghi mã file cần làm lại, cách nhau dấu phẩy.'
+        required: false
+        default: ''
+  push:
+    branches: [main]
+    paths: ['tools/audio-list.json', 'tools/make_audio.py']
+  schedule:
+    - cron: '23 19 * * *'   # 2:23 sáng giờ Việt Nam: làm tiếp nếu hôm trước hết lượt miễn phí
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: tts
+  cancel-in-progress: false
+
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cài ffmpeg
+        run: which ffmpeg || (sudo apt-get update -q && sudo apt-get install -y -q ffmpeg)
+      - name: Gọi Gemini tạo file âm thanh
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          REDO: ${{ github.event.inputs.redo }}
+        run: python3 tools/make_audio.py
+      - name: Lưu file vào kho
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add tuan-1/audio
+          if git diff --cached --quiet; then echo "Không có file mới."; exit 0; fi
+          git commit -m "Giọng đọc Gemini: cập nhật file âm thanh"
+          git push
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+        env:
+          GH_TOKEN: ${{ github.token }}

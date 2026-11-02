@@ -1059,12 +1059,33 @@ function fmtPts(n) { return n.toLocaleString("vi-VN").replace(/,/g, "."); }
 let VOICES = [];
 function loadVoices() { try { VOICES = speechSynthesis.getVoices(); } catch (e) { VOICES = []; } }
 try { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; } catch (e) {}
-function say(text, lang, slow) {
+/* ---------- giọng thu sẵn (Gemini) nếu có, không thì dùng giọng trình duyệt ---------- */
+let AUD = null, curAudio = null;
+try { fetch("audio/index.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null).then(j => { AUD = j; }).catch(() => {}); } catch (e) {}
+const audClean = t => String(t).replace(/\(.*?\)/g, "").trim();
+function audFile(text, lang, who) {
+  const L = lang === "zh" ? "zh" : "en", e = AUD && AUD[L] && AUD[L][audClean(text)];
+  if (!e) return null; return (who && e[who]) || e._ || Object.values(e)[0];
+}
+function stopAudio() { try { speechSynthesis.cancel(); } catch (e) {} if (curAudio) { curAudio.onended = curAudio.onerror = null; try { curAudio.pause(); } catch (e) {} curAudio = null; } }
+function playFile(f, slow, cb, fail) {
+  stopAudio(); const a = new Audio("audio/" + f); curAudio = a; let done = false;
+  a.playbackRate = slow ? 0.75 : 1; a.preservesPitch = true;
+  a.onended = () => { if (!done) { done = true; curAudio = null; cb && cb(); } };
+  a.onerror = () => { if (!done) { done = true; curAudio = null; fail && fail(); } };
+  const pr = a.play(); if (pr && pr.catch) pr.catch(() => { if (!done) { done = true; curAudio = null; fail && fail(); } });
+}
+function say(text, lang, slow, who) {
+  const f = audFile(text, lang, who);
+  if (f) { playFile(f, slow || S.slow, null, () => sayTTS(text, lang, slow)); return; }
+  sayTTS(text, lang, slow);
+}
+function sayTTS(text, lang, slow) {
   try {
     const t = lang === "zh" ? "zh" : "en";
     const v = VOICES.find(v => v.lang && v.lang.toLowerCase().startsWith(t === "zh" ? "zh-cn" : "en-us")) || VOICES.find(v => v.lang && v.lang.toLowerCase().startsWith(t));
     if (VOICES.length && !v) { toast(t === "zh" ? "Máy bạn chưa có giọng đọc tiếng Trung. Bấm 'Lời thoại' để đọc." : "Máy bạn chưa có giọng đọc tiếng Anh. Bấm 'Lời thoại' để đọc."); return; }
-    speechSynthesis.cancel();
+    stopAudio();
     const u = new SpeechSynthesisUtterance(String(text).replace(/\(.*?\)/g, ""));
     u.lang = t === "zh" ? "zh-CN" : "en-US"; if (v) u.voice = v;
     u.rate = (slow || S.slow) ? 0.72 : 1;
@@ -1123,7 +1144,7 @@ function listenBar(ex) {
     <button type="button" class="btn ghost tr" ${S.level === 2 ? "disabled" : ""}>Lời thoại</button>
     <span class="muted small">${S.level === 1 ? "Mức 1: tốc độ chậm, được xem lời thoại." : "Mức 2: tốc độ thật, lời thoại mở khi làm xong."}</span>
     <ol class="script" hidden>${rows.map(r => `<li><b>${esc(r[0])}:</b> <span lang="${L === "zh" ? "zh" : "en"}">${esc(r[1])}</span>${L === "zh" ? `<span class="py">${esc(r[2])}</span>` : ""}<span class="vi">${esc(L === "zh" ? r[3] : r[2])}</span></li>`).join("")}</ol></div>`);
-  $(".play", bar).onclick = () => say(rows.map(r => r[1]).join(" "), L);
+  $(".play", bar).onclick = () => { let k = 0; const next = () => { if (k < rows.length) { const r = rows[k++]; sayThen(r[1], L, 1, next, r[0]); } }; next(); };
   $(".tr", bar).onclick = () => { $(".script", bar).hidden = !$(".script", bar).hidden; };
   ex.openScript = () => { $(".tr", bar).disabled = false; };
   return bar;
@@ -1214,7 +1235,7 @@ function itemMC(ctx) {
     if (st.revealed) html += `<p class="reveal">Đáp án đúng: <b>${esc(it.opts[it.a])}</b>. Bấm vào đáp án đúng để hoàn thành câu.</p>`;
     else html += `<p class="next-step">Chọn lại một đáp án khác.</p>`;
     fbOn(fb, "bad"); fb.innerHTML = html;
-    const pl = $(".pl", fb); if (pl) pl.onclick = () => say(ex.dialogue[it.line][1], L, true);
+    const pl = $(".pl", fb); if (pl) pl.onclick = () => say(ex.dialogue[it.line][1], L, true, ex.dialogue[it.line][0]);
     if (st.revealed) q.querySelector(`.opt[data-i="${it.a}"]`).classList.add("hint");
     addReview(L, it.q, it.opts[it.a]);
   });
@@ -1431,7 +1452,7 @@ function runRoleplay(ex, body, finish) {
     const t = turns[ti];
     const b = el(`<div class="msg ai"><div class="bub"><span lang="${L === "zh" ? "zh" : "en"}">${esc(t.ai)}</span>${t.py ? `<span class="py">${esc(t.py)}</span>` : ""}
       <span class="tools"><button type="button" class="btn ghost small pl">▶</button><button type="button" class="btn ghost small vi">Dịch</button></span><span class="vit" hidden>${esc(t.vi)}</span></div></div>`);
-    $(".pl", b).onclick = () => say(t.ai, L); $(".vi", b).onclick = () => { $(".vit", b).hidden = !$(".vit", b).hidden; };
+    $(".pl", b).onclick = () => say(t.ai, L, false, rp.partner.split(" · ")[0].split(" ")[0]); $(".vi", b).onclick = () => { $(".vit", b).hidden = !$(".vit", b).hidden; };
     if (/^\(|chờ bạn/.test(t.vi)) $(".vit", b).hidden = false;
     chat.appendChild(b); chat.scrollTop = chat.scrollHeight;
     frame.hidden = !(S.level === 1 && t.frame); frame.innerHTML = `<span class="lab">Khung câu Mức 1:</span> <span lang="${L === "zh" ? "zh" : "en"}">${esc(t.frame)}</span>`;
@@ -1654,13 +1675,15 @@ const LEARN_RULE = {
 };
 
 /* ---------- đọc có lời kết thúc (để cảnh tự chạy) ---------- */
-function sayThen(text, lang, pitch, cb) {
+function sayThen(text, lang, pitch, cb, who) {
   let done = false; const end = () => { if (!done) { done = true; cb && cb(); } };
+  const f = who === "\u0000" ? null : audFile(text, lang, who);
+  if (f) { playFile(f, S.slow, end, () => sayThen(text, lang, pitch, cb, "\u0000")); return; }
   const ms = 900 + String(text).length * (lang === "zh" ? 260 : 75) * (S.slow ? 1.35 : 1);
   try {
     const t = lang === "zh" ? "zh" : "en";
     const v = VOICES.find(v => v.lang && v.lang.toLowerCase().startsWith(t === "zh" ? "zh-cn" : "en-us")) || VOICES.find(v => v.lang && v.lang.toLowerCase().startsWith(t));
-    speechSynthesis.cancel();
+    stopAudio();
     const u = new SpeechSynthesisUtterance(String(text));
     u.lang = t === "zh" ? "zh-CN" : "en-US"; if (v) u.voice = v; u.rate = S.slow ? 0.72 : 0.95; u.pitch = pitch || 1;
     u.onend = end; u.onerror = end;
@@ -1746,18 +1769,18 @@ function runScene(ex, body, finish) {
     box.querySelectorAll(".actor").forEach(a => a.classList.toggle("talk", (a.classList.contains("a") && l.who === pA) || (a.classList.contains("b") && l.who !== pA)));
     now.className = "nowline " + (l.who === pA ? "left" : "right");
     now.innerHTML = `<div class="bub2">${lineHTML(l)}</div><button type="button" class="btn ghost small rep">${ICON.play} Nghe lại câu này</button>`;
-    $(".rep", now).onclick = () => sayThen(l.t, L, l.who === pA ? 1.05 : 0.85);
+    $(".rep", now).onclick = () => sayThen(l.t, L, l.who === pA ? 1.05 : 0.85, null, l.who);
     log.innerHTML = lines.slice(0, i + 1).map(x => `<li class="${x.who === pA ? "l" : "r"}">${lineHTML(x)}</li>`).join("");
     $(".prev", box).disabled = i <= 0;
     if (i === lines.length - 1) { $(".fin", box).disabled = false; }
-    sayThen(l.t, L, l.who === pA ? 1.05 : 0.85, () => { if (chain && auto && i === k && i < lines.length - 1) show(i + 1, true); else if (i === lines.length - 1) { auto = false; $(".playall", box).innerHTML = `${ICON.play} Xem lại cả cảnh`; } });
+    sayThen(l.t, L, l.who === pA ? 1.05 : 0.85, () => { if (chain && auto && i === k && i < lines.length - 1) show(i + 1, true); else if (i === lines.length - 1) { auto = false; $(".playall", box).innerHTML = `${ICON.play} Xem lại cả cảnh`; } }, l.who);
   }
   $(".nx", box).onclick = () => { auto = false; if (i < lines.length - 1) show(i + 1, false); };
   $(".prev", box).onclick = () => { auto = false; if (i > 0) show(i - 1, false); };
   $(".playall", box).onclick = () => { auto = true; $(".playall", box).textContent = "Đang phát…"; show(i >= lines.length - 1 || i < 0 ? 0 : i, true); };
   $(".cvi", box).onchange = e => { subVi = e.target.checked; if (i >= 0) { now.querySelector(".bub2").innerHTML = lineHTML(lines[i]); log.innerHTML = lines.slice(0, i + 1).map(x => `<li class="${x.who === pA ? "l" : "r"}">${lineHTML(x)}</li>`).join(""); } };
   const cpy = $(".cpy", box); if (cpy) cpy.onchange = e => { subPy = e.target.checked; if (i >= 0) { now.querySelector(".bub2").innerHTML = lineHTML(lines[i]); log.innerHTML = lines.slice(0, i + 1).map(x => `<li class="${x.who === pA ? "l" : "r"}">${lineHTML(x)}</li>`).join(""); } };
-  $(".fin", box).onclick = () => { auto = false; try { speechSynthesis.cancel(); } catch (e) {} finish({ learn: true, extra: `Xem đủ ${lines.length} câu thoại` }); };
+  $(".fin", box).onclick = () => { auto = false; stopAudio(); finish({ learn: true, extra: `Xem đủ ${lines.length} câu thoại` }); };
 }
 
 /* ---------- mẫu câu ---------- */
