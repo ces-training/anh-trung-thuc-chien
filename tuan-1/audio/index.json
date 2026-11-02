@@ -1,4 +1,276 @@
 {
-"en": {},
+"en": {
+"Hi, I'm An.": {
+"_": "en/8ee3e1a057c6.mp3"
+},
+"Hi, I'm An. I'm new here.": {
+"_": "en/657753afe1db.mp3"
+},
+"I'm from Hanoi.": {
+"_": "en/755f0da82e73.mp3"
+},
+"I'm from Hanoi. What about you?": {
+"_": "en/4a5068603036.mp3"
+},
+"Nice to meet you.": {
+"_": "en/a4bf1a6fce95.mp3"
+},
+"Hi Tom, nice to meet you.": {
+"_": "en/f97c47848b75.mp3"
+},
+"Nice to meet you too.": {
+"_": "en/28b266318145.mp3"
+},
+"Nice to meet you too, An.": {
+"_": "en/2e6bf04ab65c.mp3"
+},
+"What do you do?": {
+"_": "en/759e75bce8c1.mp3"
+},
+"What do you do, Tom?": {
+"_": "en/f1c65af208b5.mp3"
+},
+"an engineer": {
+"_": "en/e7fb728ca776.mp3"
+},
+"I'm an engineer.": {
+"_": "en/f97304634a8c.mp3"
+},
+"I work as a sales assistant.": {
+"_": "en/d6bc5efb6cd0.mp3"
+},
+"I work as a sales assistant in a shop.": {
+"_": "en/60667d8d6091.mp3"
+},
+"Where are you from?": {
+"_": "en/4871e40a501f.mp3",
+"Linh": "en/4b2056020c92.mp3"
+},
+"Where are you from, Tom?": {
+"_": "en/c10aeacfee9c.mp3"
+},
+"What about you?": {
+"_": "en/8aa4939da30b.mp3"
+},
+"I'm an engineer. What about you?": {
+"_": "en/fe2852719dc9.mp3",
+"Tom": "en/b36f16f922d6.mp3"
+},
+"in the UK": {
+"_": "en/177c2e2073c2.mp3"
+},
+"I'm from Manchester, in the UK.": {
+"_": "en/c097a9eebfa5.mp3",
+"Tom": "en/92d08268c086.mp3"
+},
+"Hi, I'm An. I'm from Hanoi.": {
+"An": "en/92e04c9aedb7.mp3"
+},
+"Hi An, I'm Tom. Nice to meet you.": {
+"Tom": "en/c77cbb261d86.mp3"
+},
+"Nice to meet you too. What do you do?": {
+"An": "en/9f5385e56b08.mp3"
+},
+"I work as a sales assistant. Where are you from, Tom?": {
+"An": "en/550374fbd872.mp3"
+},
+"an accountant": {
+"_": "en/368d8c2907ef.mp3"
+},
+"I'm an accountant at ABC Logistics.": {
+"_": "en/d2250da81a92.mp3"
+},
+"a teacher": {
+"_": "en/5ec7554372eb.mp3"
+},
+"Kevin is a teacher.": {
+"_": "en/9e343affa482.mp3"
+},
+"a student": {
+"_": "en/1405777e9032.mp3"
+},
+"Are you a student here?": {
+"_": "en/d7c2f120a3ff.mp3"
+},
+"a designer": {
+"_": "en/1ce79d274b82.mp3"
+},
+"She's a designer.": {
+"_": "en/3782179ccd40.mp3"
+},
+"a manager": {
+"_": "en/07910153a824.mp3"
+},
+"He's a manager in the sales team.": {
+"_": "en/89d45eaa6af7.mp3"
+},
+"colleague": {
+"_": "en/b7bac0d3bb5f.mp3"
+},
+"This is my new colleague, Mai.": {
+"_": "en/950f5cd61dd4.mp3"
+},
+"team": {
+"_": "en/f0c686455a38.mp3"
+},
+"Which team are you on?": {
+"_": "en/098db22b2b92.mp3"
+},
+"hometown": {
+"_": "en/b18f9c5fd246.mp3"
+},
+"My hometown is Da Nang.": {
+"_": "en/2c7273fe8100.mp3"
+},
+"I live in Hanoi now.": {
+"_": "en/6d8fc34879f6.mp3"
+},
+"I'm from Da Nang, but I live in Hanoi now.": {
+"_": "en/2ef237404322.mp3",
+"Linh": "en/1a924102df69.mp3"
+},
+"based in Hanoi": {
+"_": "en/a9f0882b57af.mp3"
+},
+"I'm an accountant based in Hanoi.": {
+"_": "en/135a5b79afda.mp3"
+},
+"Hello, I'm Kevin. Are you a student here?": {
+"Kevin": "en/bb038f5b1ea2.mp3"
+},
+"No, I'm not. I'm an accountant at ABC Logistics.": {
+"Linh": "en/8ec4295ffa47.mp3"
+},
+"Oh, nice. I'm a teacher. I teach English at a language school.": {
+"Kevin": "en/5fd005983505.mp3"
+},
+"I'm from Sydney. And you?": {
+"Kevin": "en/371622a22826.mp3"
+},
+"I'm An.": {
+"_": "en/21de58f91c0c.mp3"
+},
+"She's a teacher.": {
+"_": "en/40b1984fd20b.mp3"
+},
+"They're students.": {
+"_": "en/73ab65f8acc8.mp3"
+},
+"I'm an accountant.": {
+"_": "en/3f244acacdad.mp3"
+},
+"He's a designer.": {
+"_": "en/5374ae83d834.mp3"
+},
+"accountant": {
+"_": "en/6eadc2284315.mp3"
+},
+"engineer": {
+"_": "en/ebadc6e36a7e.mp3"
+},
+"assistant": {
+"_": "en/8f7056981434.mp3"
+},
+"manager": {
+"_": "en/8b42c5f69a8a.mp3"
+},
+"designer": {
+"_": "en/34fd1f7ec3ca.mp3"
+},
+"She works in sales.": {
+"_": "en/c39c86fcc7b1.mp3"
+},
+"Our teams are big.": {
+"_": "en/9d4183bfa098.mp3"
+},
+"They are students.": {
+"_": "en/11b33423c398.mp3"
+},
+"I work in sales.": {
+"_": "en/8f231a2ec588.mp3"
+},
+"I work as a designer.": {
+"_": "en/8c3881f64510.mp3"
+},
+"She works in marketing.": {
+"_": "en/e7d1f96d0047.mp3"
+},
+"No, I'm not.": {
+"_": "en/8af57f3f98ff.mp3"
+},
+"I'm not a student.": {
+"_": "en/0bc73a143bfc.mp3"
+},
+"Tom, this is Mai.": {
+"_": "en/50a716513c06.mp3"
+},
+"Hi! I'm Tom, from the marketing team. You must be new here. What's your name?": {
+"Tom": "en/416d33a0bfb2.mp3"
+},
+"Hi Tom, I'm An.": {
+"An": "en/2d28a855e9ee.mp3"
+},
+"Nice to meet you! Where are you from?": {
+"Tom": "en/32e9f0b13c2b.mp3"
+},
+"Nice to meet you too. I'm from Hanoi.": {
+"An": "en/a846b4a53d02.mp3"
+},
+"Cool. And what do you do? Which team are you joining?": {
+"Tom": "en/219b18bbe5c4.mp3"
+},
+"I'm an accountant. I'm joining the finance team.": {
+"An": "en/b355052a1a94.mp3"
+},
+"Got it.": {
+"Tom": "en/8bdb22a516ee.mp3"
+},
+"What about you? Where are you from?": {
+"An": "en/a8fca7f06f40.mp3"
+},
+"Me? I'm from Manchester, in the UK. Great to meet you!": {
+"Tom": "en/10d404b86242.mp3"
+},
+"Oh, Manchester! Great to meet you too. See you around!": {
+"An": "en/fa6c2695cec9.mp3"
+},
+"Sorry, did you say you're in sales?": {
+"Tom": "en/cd5f22cc9b3d.mp3"
+},
+"No, I'm an accountant. I'm in the finance team.": {
+"An": "en/04e7e0a4f440.mp3"
+},
+"Good morning.": {
+"_": "en/bdab0c81cc77.mp3"
+},
+"Good morning. I'm An from Sao Viet Trading.": {
+"_": "en/7f11c9fc993b.mp3"
+},
+"It's a pleasure to meet you.": {
+"_": "en/e28f4e4fd2f6.mp3"
+},
+"It's a pleasure to meet you, Ms Lee.": {
+"_": "en/12620e8ad6b9.mp3"
+},
+"And you are…?": {
+"_": "en/db4f71493dc1.mp3"
+},
+"I'm Sarah Lee. And you are…?": {
+"_": "en/456e835ec68c.mp3"
+},
+"What's your role?": {
+"_": "en/3964a4c44951.mp3"
+},
+"What's your role at your company?": {
+"_": "en/3fe02fa831c3.mp3"
+},
+"purchasing manager": {
+"_": "en/a506a5995379.mp3"
+},
+"I'm the purchasing manager.": {
+"_": "en/7ce688101135.mp3"
+}
+},
 "zh": {}
 }
