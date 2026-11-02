@@ -2,7 +2,8 @@
 import json, pathlib
 STYLE = ("Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, "
          "modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. "
-         "Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank.")
+         "Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. "
+         "Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands.")
 PORTRAIT = "Chest-up portrait, looking at the camera with a natural smile, plain soft blue-grey studio background, 50mm lens. "
 CHARS = {
   "char-an": "An, a Vietnamese woman about 26 years old, shoulder-length straight black bob haircut, cobalt blue blouse, yellow lanyard with a blank white badge.",
@@ -61,7 +62,7 @@ CARDS = {
   "what": "A young adult with a curious, slightly puzzled expression, palms turned up, asking a question to a friend in a café.",
   "question": "In a small adult language class, a learner raises her hand to ask a question while the teacher turns to listen.",
   "is": "Two colleagues talking, one nodding firmly with a confident smile as if saying 'yes, that is right', pointing at a blank document.",
-  "also": "Two friends at a meetup both raising a hand and pointing at themselves with big smiles, as if saying 'me too'.",
+  "also": "Two friends sitting at a café table, each holding an identical cup of coffee, clinking cups lightly and smiling at each other as if saying \"me too\", simple calm pose.",
   "no": "A woman politely shaking her head and raising one hand in a gentle 'no' gesture during a friendly conversation, smiling.",
   "back": "A woman finishes speaking and turns her open palm toward her conversation partner, inviting him to answer, both smiling at a networking event.",
   "polite": "A young professional politely serving tea to an older business guest in a meeting room.",
