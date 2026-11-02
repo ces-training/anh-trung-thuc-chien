@@ -31,7 +31,7 @@ CARDS = {
   "teacher": "A friendly adult teacher explaining something in front of a blank whiteboard to a small class of adult learners.",
   "work": "Adults working focused at laptops in a modern bright office in Hanoi.",
   "vietnam": "Hoan Kiem Lake in Hanoi in the morning with trees and the red bridge, people exercising, no signs.",
-  "china": "A lively street in Shanghai in the evening decorated with red lanterns, people walking, no readable signs.",
+  "china": "Close-up of glowing red Chinese paper lanterns with golden tassels hanging along a traditional old street at dusk, shallow depth of field, a few people softly blurred in the background, plain lanterns without any characters.",
   "engineer": "A Vietnamese engineer wearing a yellow hard hat and safety vest checking a tablet at a construction site.",
   "calc": "An accountant at a tidy desk using a calculator and reviewing blank paper documents, laptop beside her.",
   "sales": "A friendly sales assistant helping a customer choose a product in a bright retail store.",
