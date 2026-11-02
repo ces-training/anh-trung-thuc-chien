@@ -97,11 +97,9 @@
   "problems": []
  },
  "china": {
-  "ok": false,
-  "problems": [
-   "readable text or distorted letters on signs in the background",
-   "distorted faces and malformed figures of people in the background"
-  ]
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
  },
  "engineer": {
   "ok": true,
