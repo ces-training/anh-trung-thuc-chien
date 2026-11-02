@@ -411,8 +411,108 @@ img.photo.scene-svg{width:100%;aspect-ratio:16/9;object-fit:cover}
 img.photo.ava{border-radius:50%;object-fit:cover;aspect-ratio:1}
 .qart img.photo{border-radius:16px}
 .qart:has(img.photo){width:220px} @media (max-width:600px){.qart:has(img.photo){width:170px}}
+
+/* ===== bố cục kiểu 21 ngày ===== */
+.side{display:none}
+@media (min-width:1000px){
+  .app{display:grid;grid-template-columns:236px minmax(0,1fr);min-height:100vh}
+  .side{display:flex;flex-direction:column;gap:12px;position:sticky;top:0;height:100vh;overflow:auto;padding:16px 12px;background:var(--surface);box-shadow:1px 0 0 var(--line)}
+  .top .bar1{display:none}
+  .col{min-width:0}
+}
+.sbrand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:800;line-height:1.15;font-size:15px}
+.prof{background:var(--soft);border-radius:18px;padding:14px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:2px}
+.prof .me{width:56px;height:56px;border-radius:50%;background:var(--acc);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px;margin-bottom:4px}
+.prof small{color:var(--muted);font-size:12.5px} .prof .chips{display:flex;gap:6px;margin-top:6px}
+.snav{display:flex;flex-direction:column;gap:6px}
+.sn{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:14px;text-decoration:none;color:var(--ink);font-weight:700;font-size:15px;border:2px solid transparent}
+.sn svg{flex:none;color:var(--tc)} .sn em{margin-left:auto;font-style:normal;font-size:12px;background:var(--soft);border-radius:999px;padding:0 8px}
+.sn:hover{background:var(--soft)} .sn.on{background:var(--tc);color:#fff} .sn.on svg{color:#fff} .sn.on em{background:rgba(255,255,255,.25)}
+.sn.t-en{--tc:var(--en)} .sn.t-zh{--tc:var(--zh)} .sn.t-green{--tc:var(--green)} .sn.t-sun{--tc:#B7791F} .sn.t-slate{--tc:var(--slate)}
+.sfoot{margin-top:auto;display:flex;flex-direction:column;gap:8px}
+.sfoot .seg{display:flex} .sfoot .seg button{flex:1}
+.scoach{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);padding:8px;border-radius:14px;background:var(--soft)}
+.scoach small{display:block;color:var(--muted);font-size:12px} .scoach b{font-size:15px}
+.ava-txt{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;background:var(--acc);color:#fff;font-weight:800;flex:none}
+.home2{display:flex;flex-direction:column;gap:22px}
+.sec{font-size:20px;margin:0 0 10px}
+.cbanner{position:relative;border-radius:26px;overflow:hidden;min-height:300px;background:linear-gradient(120deg,var(--acc-soft),var(--sun-soft));display:flex;align-items:stretch}
+.cbanner .chello{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;aspect-ratio:auto}
+.cshade{position:absolute;inset:0;background:linear-gradient(90deg,transparent 30%,rgba(255,255,255,.88) 58%)}
+.cbubble{position:relative;margin-left:auto;width:min(560px,100%);padding:26px 26px;display:flex;flex-direction:column;gap:8px;justify-content:center;color:#0E1730}
+.cbubble h1{margin:0;font-size:32px} .cbubble .say{font-size:17px;margin:0} .cbubble .muted{color:#515B70}
+.cbubble .btn.ghost{background:#fff;color:#0E1730}
+@media (max-width:760px){.cbanner{flex-direction:column;min-height:0}.cbanner .chello{position:relative;height:220px}.cshade{display:none}.cbubble{margin:0;background:var(--surface);color:var(--ink);padding:18px}.cbubble .muted{color:var(--muted)}.cbubble h1{font-size:26px}}
+.jgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px} @media (max-width:860px){.jgrid{grid-template-columns:minmax(0,1fr)}}
+.jcard{position:relative;display:flex;flex-direction:column;justify-content:space-between;border-radius:24px;overflow:hidden;min-height:300px;text-decoration:none;color:#fff;background:#203060;border:4px solid var(--tc);box-shadow:var(--shadow)}
+.jcard.t-en{--tc:var(--en)} .jcard.t-zh{--tc:var(--zh)}
+.jbg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;aspect-ratio:auto}
+.jshade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,16,32,.15),rgba(10,16,32,.25) 45%,rgba(10,16,32,.85))}
+.jmap{position:relative;width:100%;height:auto;display:block;margin-top:6px}
+.jmap .road{fill:none;stroke:rgba(255,255,255,.9);stroke-width:16;stroke-linecap:round;stroke-linejoin:round}
+.jmap .roaddash{fill:none;stroke:#FFD43B;stroke-width:4;stroke-dasharray:14 14;stroke-linecap:round}
+.jmap .pin circle{fill:#fff;stroke:var(--tc);stroke-width:5} .jmap .pin text{font:800 20px var(--font);fill:#0E1730}
+.jmap .pin.done circle{fill:#15803D;stroke:#fff} .jmap .pin.cur circle{fill:#FFD43B;stroke:#fff;stroke-width:6}
+.jmap .pin.live circle{fill:var(--tc);stroke:#fff} .jmap .pin.live text{fill:#fff}
+.jmap .pin .lb{font:800 22px var(--font);fill:#fff;paint-order:stroke;stroke:rgba(10,16,32,.7);stroke-width:5px}
+.jfoot{position:relative;display:flex;align-items:flex-end;gap:12px;padding:0 18px 16px}
+.jinfo{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.jinfo b{font-size:20px} .jinfo span{font-size:14px;opacity:.95} .jinfo small{font-size:12.5px;opacity:.85}
+.jgo{flex:none;background:#FFD43B;color:#3B2F00;font-weight:800;border-radius:999px;padding:8px 16px}
+@media (max-width:600px){.jfoot{flex-direction:column;align-items:flex-start}}
+.rooms{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media (max-width:700px){.rooms{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.rband{padding:8px 10px 10px}.rband b{font-size:15px}.rband small{font-size:12px}}
+.room{display:flex;flex-direction:column;border-radius:20px;overflow:hidden;background:var(--surface);box-shadow:var(--shadow);text-decoration:none;color:#fff;border:3px solid var(--tc);transition:transform .12s}
+.room:hover{transform:translateY(-3px)}
+.room.t-en{--tc:var(--en)} .room.t-zh{--tc:var(--zh)} .room.t-green{--tc:var(--green)} .room.t-sun{--tc:#B7791F} .room.t-slate{--tc:var(--slate)}
+.rpic{position:relative;display:block;aspect-ratio:4/3;background:var(--soft);overflow:hidden}
+.rpic img{width:100%;height:100%;object-fit:cover;border-radius:0!important;aspect-ratio:auto!important}
+.rpic .rph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--tc)} .rpic .rph svg{width:56px;height:56px}
+.rpic em{position:absolute;top:10px;right:10px;font-style:normal;font-weight:800;font-size:13px;background:#FFD43B;color:#3B2F00;border-radius:999px;padding:2px 10px}
+.rband{display:flex;flex-direction:column;padding:10px 14px 12px;background:var(--tc)} .rband b{font-size:17px} .rband small{font-size:13px;opacity:.92}
+.roomv{display:flex;flex-direction:column;gap:16px;max-width:980px}
+.rhead{display:grid;grid-template-columns:260px minmax(0,1fr);gap:20px;align-items:center;background:var(--surface);border-radius:24px;padding:16px;box-shadow:var(--shadow)}
+.rhead img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:18px}
+.rhead h1{margin:2px 0 6px;font-size:28px}
+@media (max-width:700px){.rhead{grid-template-columns:minmax(0,1fr)}}
+.card2{background:var(--surface);border-radius:20px;padding:18px 20px;box-shadow:var(--shadow)}
+.card2 h2{margin:0 0 10px;font-size:20px} .card2 h3{margin:18px 0 8px;font-size:17px}
+.steps{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px} .steps li span{display:block;color:var(--muted)}
+.facts{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.kpi{background:var(--surface);border-radius:18px;padding:14px;box-shadow:var(--shadow);display:flex;flex-direction:column} .kpi b{font-size:26px} .kpi small{color:var(--muted)}
+.badges{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}
+.badges li{border:2px dashed var(--line);border-radius:16px;padding:12px;display:flex;flex-direction:column;gap:2px;opacity:.6}
+.badges li.got{border-style:solid;border-color:var(--sun);background:var(--sun-soft);opacity:1}
+.badges .bdg{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--soft);color:var(--muted)}
+.badges li.got .bdg{background:var(--sun);color:#3B2F00} .badges small{color:var(--muted);font-size:12.5px}
+.mstats{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.mstats div{background:var(--soft);border-radius:16px;padding:12px;display:flex;flex-direction:column} .mstats b{font-size:26px;color:var(--acc)} .mstats small{color:var(--muted);font-size:12px}
+.ladder{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.ladder li{display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;padding:12px;border-radius:16px;background:var(--soft)}
+.ladder li.now{background:var(--acc-soft);outline:2px solid var(--acc)}
+.ladder .step{width:34px;height:34px;border-radius:50%;background:var(--surface);display:flex;align-items:center;justify-content:center;font-weight:800}
+.ladder li.now .step{background:var(--acc);color:#fff} .ladder p{margin:2px 0} .ladder em{font-style:normal;color:var(--muted);font-size:13px}
+.phases{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
+.phases li{border-radius:16px;padding:12px;background:var(--soft);display:flex;flex-direction:column;gap:4px;opacity:.75} .phases li.on{opacity:1;background:var(--acc-soft);outline:2px solid var(--acc)}
+.phases small{color:var(--muted);font-weight:700} .phases span{font-size:14px} .phases em{font-style:normal;font-size:13px;color:var(--muted);display:flex;gap:4px;align-items:center}
+.gifts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.gifts li{display:flex;gap:12px;align-items:center;justify-content:space-between;border:1.5px solid var(--line);border-radius:16px;padding:12px 14px}
+.gifts p{margin:2px 0;color:var(--muted);font-size:14.5px} .gifts .why{font-weight:700;color:var(--green)}
+.gifts .rd{flex:none;min-width:110px;justify-content:center}
+.codes{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px} .codes li{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.codes code{background:var(--sun-soft);padding:2px 8px;border-radius:8px;font-weight:800}
+.keys2{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.keys2 li{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;align-items:center} .keys2 span{font-weight:700;font-size:18px} .keys2 span[lang=zh]{font-family:var(--han);font-size:22px;font-weight:500} .keys2 small{grid-column:2;color:var(--muted)}
+.gate{position:fixed;inset:0;z-index:50;background:rgba(14,23,48,.55);display:flex;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(3px)}
+.gcard{background:var(--surface);border:5px solid var(--sun);border-radius:28px;padding:24px;max-width:440px;width:100%;display:flex;flex-direction:column;gap:10px;align-items:center;text-align:center;box-shadow:0 20px 50px rgba(0,0,0,.3)}
+.gcard h2{margin:0;font-size:26px} .gcard .say{margin:0;font-size:16px} .gcard .gface{border:4px solid var(--sun)}
+.gcard .fl{display:flex;flex-direction:column;gap:6px;width:100%;text-align:left;font-weight:700;border:0;padding:0;margin:0}
+.gcard .seg.big{display:flex} .gcard .seg.big button{flex:1;padding:12px;font-size:16px}
+.bnav a{font-size:11.5px;white-space:nowrap;padding:6px 2px}
 </style>
 
+<div class="app"><aside class="side" id="side" aria-label="Thanh điều hướng"></aside><div class="col">
 <header class="top">
   <div class="wrap bar1">
     <a class="brand" href="#trang-chu" aria-label="Về hành trình tuần">
@@ -431,6 +531,7 @@ img.photo.ava{border-radius:50%;object-fit:cover;aspect-ratio:1}
 <main class="wrap" id="main" tabindex="-1"></main>
 
 <div class="wrap foot"><a href="../" class="btn ghost small">← Trang giới thiệu khóa học</a><span>Tiến độ lưu trên trình duyệt này.</span><button type="button" class="btn ghost small" id="reset">Làm lại tuần từ đầu</button><span id="resetConfirm" hidden>Xoá điểm và bài đã làm? <button type="button" class="btn small" id="resetYes">Xoá</button> <button type="button" class="btn ghost small" id="resetNo">Giữ lại</button></span></div>
+</div></div>
 
 <nav class="bnav" aria-label="Điều hướng nhanh">
   <a href="#trang-chu"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z" fill="currentColor"/></svg>Hành trình</a>
@@ -1147,7 +1248,9 @@ function sayTTS(text, lang, slow) {
 function toast(msg) { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(() => t.hidden = true, 3500); }
 
 /* ---------- điểm ---------- */
-function award(label, p) { if (!p) return; S.points += p; S.ledger.unshift({ t: label, p }); S.ledger = S.ledger.slice(0, 40); save(); renderTop(); renderSide(); }
+function award(label, p) { if (!p) return; S.points += p; S.earned = (S.earned == null ? S.points - p : S.earned) + p; markToday(); S.ledger.unshift({ t: label, p }); S.ledger = S.ledger.slice(0, 40); save(); renderTop(); renderSide(); }
+function todayISO() { const d = new Date(); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
+function markToday() { S.days = S.days || []; const t = todayISO(); if (!S.days.includes(t)) S.days.push(t); }
 function addReview(lang, front, back) {
   const list = S.review[lang]; if (!back || list.some(c => c.front === front)) return;
   list.push({ front, back }); save(); renderTop();
@@ -2486,7 +2589,383 @@ function boot() {
   addEventListener("hashchange", render);
   render();
 }
+
+
+/* ============ BỐ CỤC KIỂU "THỬ THÁCH 21 NGÀY" CHO NGƯỜI LỚN ============ */
+/* người hướng dẫn: học viên nữ → Khang (nam, giọng dịu dàng, ấm); học viên nam → Vy (nữ, giọng hóm hỉnh, nhẹ nhàng) */
+const COACHES = {
+  khang: { name: "Khang", img: "coach-khang", hello: "coach-khang-hello", tone: "dịu dàng, ấm áp", role: "người đồng hành của bạn", lines: {
+    welcome: "Chào bạn! Mình là Khang, người đồng hành cùng bạn trong hành trình Anh – Trung Thực Chiến. Mỗi ngày chỉ khoảng ba mươi phút thôi, mình đi cùng nhau nhé.",
+    back: "Chào mừng bạn quay lại! Bài hôm nay đã sẵn sàng rồi đó.",
+    streak: "Bạn đã học liên tục mấy ngày rồi. Giữ nhịp này là tiến bộ rõ lắm đấy.",
+    daydone: "Xong một ngày học rồi! Nghỉ ngơi chút nhé, mai mình gặp lại.",
+    live: "Thứ Bảy này là Weekend Live. Nhớ mang theo ba câu khoá đã luyện nha.",
+    reward: "Bạn vừa đủ điểm đổi một phần quà. Vào Phòng đổi quà xem thử nhé.",
+    achieve: "Nhìn lại chặng đường một chút nhé. Mỗi huy hiệu là một kỹ năng bạn đã dùng được thật." } },
+  vy: { name: "Vy", img: "coach-vy", hello: "coach-vy-hello", tone: "hóm hỉnh, nhẹ nhàng", role: "người đồng hành của bạn", lines: {
+    welcome: "Hello hello! Vy đây. Từ hôm nay Vy sẽ kèm bạn học tiếng Anh và tiếng Trung. Mỗi ngày ba mươi phút, còn ít hơn thời gian lướt điện thoại đó nha!",
+    back: "Ơ, bạn quay lại rồi! Bài hôm nay đang chờ, vào luôn thôi.",
+    streak: "Chuỗi ngày học của bạn đang dài ra rồi đấy. Đừng để nó đứt nha, tiếc lắm!",
+    daydone: "Xong rồi! Hôm nay bạn giỏi hơn hôm qua một chút. Mai gặp lại nhé.",
+    live: "Thứ Bảy là Weekend Live. Ba câu khoá đã thuộc chưa? Ra trạm là nói liền nha.",
+    reward: "Ting ting! Bạn đủ điểm đổi quà rồi. Ghé Phòng đổi quà xem có gì hay nè.",
+    achieve: "Mỗi huy hiệu ở đây là một lần bạn dám nói. Tự hào chút đi nào!" } }
+};
+const coach = () => COACHES[(S.profile && S.profile.coach) || "khang"];
+function coachFace(size, cls) {
+  const c = coach();
+  return IMG[c.img] ? `<img class="photo ava ${cls || ""}" src="img/${IMG[c.img]}" alt="${esc(c.name)}" width="${size}" height="${size}">` : `<span class="ava-txt ${cls || ""}" style="width:${size}px;height:${size}px">${esc(c.name[0])}</span>`;
+}
+function coachSay(kind, autoplay) {
+  const c = coach(), text = c.lines[kind];
+  const f = AUD && AUD.vi && AUD.vi[text] && (AUD.vi[text][c.name] || AUD.vi[text]._);
+  if (f) playFile(f, false, null, null);
+  else if (!autoplay) toast(`Giọng thật của ${c.name} đang được thu, sẽ có trong 1–2 ngày tới.`);
+}
+function pickLine() {
+  if (!S.seenWelcome) return "welcome";
+  const today = todayISO();
+  if (S.days && S.days.includes(today) && WDAYS.some(d => S.daily[S.lang + d.id])) return "daydone";
+  if (calStreak() >= 3) return "streak";
+  if (S.points >= 200 && !S.rewardHinted) { S.rewardHinted = true; save(); return "reward"; }
+  return "back";
+}
+
+/* ---------- chuỗi ngày theo lịch, có "đóng băng" ---------- */
+function calStreak() {
+  const days = new Set(S.days || []); S.freezeUsed = S.freezeUsed || []; S.freeze = S.freeze || 0;
+  const d = new Date(); let n = 0, changed = false;
+  const iso = x => x.getFullYear() + "-" + String(x.getMonth() + 1).padStart(2, "0") + "-" + String(x.getDate()).padStart(2, "0");
+  if (!days.has(iso(d))) d.setDate(d.getDate() - 1); /* hôm nay chưa học thì tính từ hôm qua */
+  for (let i = 0; i < 400; i++) {
+    const k = iso(d);
+    if (days.has(k) || S.freezeUsed.includes(k)) n += days.has(k) ? 1 : 0;
+    else if (S.freeze > 0 && n > 0) { S.freeze--; S.freezeUsed.push(k); changed = true; }
+    else break;
+    d.setDate(d.getDate() - 1);
+  }
+  if (changed) save();
+  return n;
+}
+function streak() { return calStreak(); }
+
+/* ---------- tiến độ theo từng ngôn ngữ ---------- */
+const kfor = (L, d, c) => L + ":" + d.id + ":" + c;
+const dayDoneL = (L, d) => d.ex.filter(c => S.done[kfor(L, d, c)]).length;
+function progL(L) { const all = WDAYS.reduce((s, d) => s + d.ex.length, 0), done = WDAYS.reduce((s, d) => s + dayDoneL(L, d), 0); return { all, done, days: WDAYS.filter(d => S.daily[L + d.id]).length }; }
+function nextUpL(L) { for (const d of WDAYS) { const k = d.ex.findIndex(c => !S.done[kfor(L, d, c)]); if (k >= 0) return { d, k }; } return null; }
+
+/* ---------- huy hiệu (thành tích cá nhân) ---------- */
+function doneCode(L, code) { return WDAYS.some(d => d.ex.includes(code) && S.done[kfor(L, d, code)]); }
+function spokenCount(L) {
+  const D = DATA[L]; let n = 0;
+  WDAYS.forEach(d => d.ex.forEach(c => {
+    if (!S.done[kfor(L, d, c)]) return;
+    if (c === "C") n += D.shadow.length;
+    else if (c[0] === "H") n += c === "H3" ? 3 : 5;
+    else if (c[0] === "I") n += (c === "I1" ? D.roleplay.base : D.roleplay.variant).turns.filter(t => !t.m2 || S.level === 2).length;
+  }));
+  return n;
+}
+function wordsCount(L) { let n = 0; WDAYS.forEach(d => d.ex.forEach(c => { if (c[0] === "T" && S.done[kfor(L, d, c)]) n += (LEARN[L].cards[c] || []).length; })); return n; }
+function badges(L) {
+  const p = progL(L), test = WDAYS.find(d => d.ex.includes("L")), t = test && S.done[kfor(L, test, "L")];
+  const other = L === "en" ? "zh" : "en";
+  return [
+    ["first", "Bước đầu tiên", "Hoàn thành bài đầu tiên", p.done >= 1],
+    ["day", "Tròn một ngày", "Xong trọn một ngày học", p.days >= 1],
+    ["s3", "Chuỗi 3 ngày", "Học 3 ngày liên tiếp", calStreak() >= 3],
+    ["s7", "Chuỗi 7 ngày", "Học 7 ngày liên tiếp", calStreak() >= 7],
+    ["speak", "Dám nói", "Xong bài luyện nói đầu tiên", doneCode(L, "H1")],
+    ["rp", "Đóng vai lần đầu", "Hoàn thành đóng vai với AI", doneCode(L, "I1")],
+    ["formal", "Gặp đối tác", "Đóng vai tình huống trang trọng", doneCode(L, "I2")],
+    ["test", "Vững tay", "Bài kiểm tra tuần đúng ngay từ 80%", !!(t && t.p >= PTS.L + 5)],
+    ["live", "Sẵn sàng ra trạm", "Thuộc 3 câu khoá cho Weekend Live", doneCode(L, "H3")],
+    ["fix", "Người tự sửa lỗi", "Sửa xong phiếu nhận xét Chủ nhật", doneCode(L, "N")],
+    ["week", "Xong tuần 1", "Hoàn thành mọi bài của tuần", p.done === p.all],
+    ["bi", "Song ngữ", "Xong ít nhất một ngày ở cả hai thứ tiếng", progL(L).days >= 1 && progL(other).days >= 1]
+  ];
+}
+
+/* ---------- đổi quà: theo nghiên cứu mô hình động lực cho người lớn ---------- */
+const REWARDS = [
+  { tier: "Quà nhỏ", sub: "dưới 1 tuần học đều", items: [
+    { id: "freeze", t: "Đóng băng chuỗi ngày", d: "Bận một hôm vẫn giữ được chuỗi ngày học. Giữ tối đa 2 lần.", p: 200, auto: true, why: "Giữ thói quen" },
+    { id: "invite", t: "Vé học thử 7 ngày cho bạn bè", d: "Rủ một người bạn học cùng: học cùng nhau dễ duy trì hơn.", p: 400, why: "Có bạn đồng hành" },
+    { id: "voice", t: "Giáo viên nhận xét 1 đoạn ghi âm", d: "Gửi một đoạn bạn tự nói 1 phút, giáo viên chữa phát âm và câu.", p: 600, why: "Được chữa lỗi thật" }
+  ] },
+  { tier: "Quà vừa", sub: "khoảng 2–4 tuần", items: [
+    { id: "live40", t: "Giảm 40% vé Weekend Live, ưu tiên chọn trạm", d: "Nói chuyện với người nước ngoài thật, chọn trạm trước người khác.", p: 1500, why: "Dùng tiếng thật" },
+    { id: "cert", t: "Chứng nhận chặng + huy hiệu LinkedIn", d: "Mở lượt làm bài kiểm tra chặng. Đạt mới được cấp chứng nhận để đưa vào hồ sơ.", p: 1500, why: "Tín hiệu cho nhà tuyển dụng" },
+    { id: "class", t: "Dự thính 1 buổi học nhóm", d: "Ngồi một buổi lớp nhóm online cùng giáo viên, luyện nói trực tiếp.", p: 2000, why: "Thử học với giáo viên" },
+    { id: "mock", t: "Bài thi thử HSK hoặc TOEIC có báo cáo điểm", d: "Biết mình đang ở đâu và còn cách mục tiêu chứng chỉ bao xa.", p: 2500, why: "Thấy rõ khoảng cách tới chứng chỉ" }
+  ] },
+  { tier: "Quà lớn", sub: "khoảng 1–3 tháng", items: [
+    { id: "cv", t: "Chữa CV hoặc thư xin việc bằng tiếng Anh / tiếng Trung", d: "Giáo viên sửa CV của bạn cho đúng văn phong tuyển dụng.", p: 4000, why: "Lợi ích nghề nghiệp trực tiếp" },
+    { id: "interview", t: "Phỏng vấn thử 1-1 trong 20 phút", d: "Luyện phỏng vấn xin việc bằng tiếng Anh hoặc tiếng Trung, có nhận xét bằng văn bản.", p: 5500, why: "Luyện tình huống quan trọng" },
+    { id: "ambassador", t: "Vé Weekend Live miễn phí + vai Đại sứ trạm", d: "Bạn dẫn một trạm cùng host, giúp người mới tự tin nói.", p: 7000, why: "Được ghi nhận, dẫn dắt" },
+    { id: "scholar", t: "Học bổng 500.000đ cho khoá ôn thi chứng chỉ", d: "Trừ thẳng vào học phí lớp ôn thi HSK / IELTS / TOEIC chuyên sâu.", p: 8000, why: "Bước tiếp tới chứng chỉ thật" }
+  ] }
+];
+const TIERS = [[0, "Khám phá"], [2000, "Thực chiến"], [6000, "Đại sứ"]];
+function tierOf(e) { let t = TIERS[0]; TIERS.forEach(x => { if (e >= x[0]) t = x; }); const nx = TIERS.find(x => x[0] > e); return { name: t[1], next: nx }; }
+const earned = () => (S.earned == null ? S.points : S.earned);
+
+/* ---------- số liệu việc làm (nguồn ghi ngay dưới) ---------- */
+const MARKET = {
+  zh: { head: "Tiếng Trung đang mở ra bao nhiêu việc làm?", stats: [
+      ["1.564", "tin tuyển dụng cần tiếng Trung trên JobOKO", "2/11/2026"],
+      ["~13.000", "vị trí mới cần tiếng Trung năm 2025, tăng hơn 49% so với 2024", "báo cáo JobOKO, 12/2025"],
+      ["30–100%", "mức lương cao hơn việc không cần ngoại ngữ", "báo cáo JobOKO, 12/2025"]],
+    ladder: [
+      { lv: "HSK1 → HSK3", when: "Tuần 1–16 (chương trình này)", jobs: "Lễ tân, chăm sóc khách hàng, kho vận, trợ lý bán hàng", pay: "10–15 triệu", note: "HSK3 là cửa vào: phần lớn tin tuyển dụng muốn HSK4 trở lên." },
+      { lv: "HSK4", when: "Chặng 2", jobs: "Mua hàng, kế toán, kỹ sư ở doanh nghiệp FDI; nhân viên tiếng Trung", pay: "14–40 triệu" },
+      { lv: "HSK5–6 + HSKK", when: "Chặng 3 + lớp ôn thi chuyên sâu", jobs: "Phiên dịch, quản lý sản xuất, trợ lý giám đốc", pay: "18–45 triệu" }] },
+  en: { head: "Tiếng Anh đang mở ra bao nhiêu việc làm?", stats: [
+      ["1.891", "tin tuyển dụng cần tiếng Anh trên JobOKO", "2/11/2026"],
+      ["+52%", "tin tuyển IT yêu cầu tiếng Anh so với cùng kỳ", "ITviec, quý 2/2025"],
+      ["TOEIC 650+", "mức thường gặp cho lễ tân, văn phòng (10–15 triệu)", "tin trên CareerViet"]],
+    ladder: [
+      { lv: "A1 → A2+", when: "Tuần 1–16 (chương trình này)", jobs: "Việc cần 'giao tiếp cơ bản': bán hàng, chăm sóc khách hàng, vận hành", pay: "tuỳ vị trí", note: "Giao tiếp được là lợi thế, nhưng nhiều vị trí văn phòng còn đòi chứng chỉ." },
+      { lv: "B1 (khoảng TOEIC 550–650)", when: "Chặng 2", jobs: "Lễ tân, hành chính, trợ lý ở công ty nước ngoài", pay: "10–15 triệu trở lên" },
+      { lv: "B2+ (TOEIC 750+, IELTS 6.5)", when: "Chặng 3 + lớp ôn thi chuyên sâu", jobs: "Pháp lý, IT, quản lý, làm việc trực tiếp với đối tác", pay: "cao hơn rõ rệt" }] },
+  sources: [["JobOKO: việc làm tiếng Trung", "https://vn.joboko.com/tim-viec-lam-tieng-trung"], ["JobOKO: việc làm tiếng Anh", "https://vn.joboko.com/tim-viec-lam-tieng-anh"],
+    ["CareerViet: việc làm tiếng Trung", "https://careerviet.vn/viec-lam/tieng-trung-k-vi.html"], ["Báo cáo lương JobOKO 2025–2026 (Thương hiệu Công luận)", "https://thuonghieucongluan.com.vn/2pdf/tieng-trung-tro-thanh-don-bay-thu-nhap-tren-thi-truong-lao-dong-viet-nam-giai-doan-2025-2026/297446"],
+    ["CareerLink: việc làm tiếng Trung lương cao", "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/viec-lam-tieng-trung-luong-cao-moi-nhat"], ["ITviec: thị trường tuyển dụng IT", "https://itviec.com/blog/thi-truong-tuyen-dung-it-viet-nam-quy-1-2025-ai-python-tang-truong-manh-me/"]]
+};
+
+/* ---------- biểu tượng thanh bên ---------- */
+const NAVI = {
+  home: '<path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/>', today: '<path d="M8 5v14l11-7z"/>', map: '<path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M9 4v14M15 6v14" stroke="currentColor" stroke-width="2.2"/>',
+  review: '<path d="M19 8a8 8 0 1 0 1.5 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M20 3v5h-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>',
+  trophy: '<path d="M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M5 5H3v2a4 4 0 0 0 4 4M19 5h2v2a4 4 0 0 1-4 4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 15h4v3h3v2H7v-2h3z"/>',
+  gift: '<rect x="3" y="9" width="18" height="5" rx="1"/><rect x="5" y="14" width="14" height="7" rx="1"/><path d="M12 9v12" stroke="#fff" stroke-width="2"/><path d="M12 9c-3-5-7-3-5 0M12 9c3-5 7-3 5 0" fill="none" stroke="currentColor" stroke-width="2"/>',
+  live: '<circle cx="8" cy="8" r="3.2"/><circle cx="16" cy="8" r="3.2"/><path d="M2 20c0-4 3-6 6-6s6 2 6 6zM12 20c0-3 2-6 5-6s5 2 5 6z"/>',
+  guide: '<circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.6 2.2c-.8.4-1.1.9-1.1 1.8M12 16.6v.4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>'
+};
+const nicon = k => `<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="currentColor">${NAVI[k]}</svg>`;
+
+/* ---------- thanh bên trái ---------- */
+function renderSide() {
+  const side = $("#side"); if (!side) return;
+  const r = parseRoute(), pr = S.profile || {}, tr = tierOf(earned()), nu = nextUp();
+  const item = (href, k, label, on, tint, badge) => `<a class="sn t-${tint}${on ? " on" : ""}" href="${href}">${nicon(k)}<span>${label}</span>${badge != null ? `<em>${badge}</em>` : ""}</a>`;
+  side.innerHTML = `
+    <a class="sbrand" href="#trang-chu"><svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1F44D6"/><path d="M32 0H50a14 14 0 0 1 14 14v36a14 14 0 0 1-14 14H32z" fill="#D3271E"/><text x="17" y="43" font-size="28" font-weight="800" fill="#fff" text-anchor="middle" font-family="Be Vietnam Pro, sans-serif">A</text><text x="47" y="42" font-size="24" font-weight="700" fill="#fff" text-anchor="middle" font-family="Noto Sans SC, sans-serif">文</text></svg><span>Anh – Trung<br>Thực Chiến</span></a>
+    <div class="prof"><span class="me">${esc((pr.name || "Bạn").trim().split(/\s+/).pop().slice(0, 2).toUpperCase())}</span>
+      <b>${esc(pr.name || "Học viên")}</b><small>Hạng ${esc(tr.name)} · Tuần 1</small>
+      <div class="chips"><span class="pill star">${ICON.star} ${fmtPts(S.points)}</span><span class="pill strk">${ICON.fire} ${calStreak()}</span></div></div>
+    <nav class="snav" aria-label="Điều hướng chính">
+      ${item("#trang-chu", "home", "Trang chủ", r.v === "home", "en")}
+      ${item(nu ? "#" + nu.d.id : "#chu-nhat", "today", "Học hôm nay", r.v === "day" || r.v === "player", "zh")}
+      ${item("#lo-trinh", "map", "Lộ trình", r.v === "road", "green")}
+      ${item("#kho-on", "review", "Kho ôn", r.v === "review" || r.v === "reviewrun", "sun", S.review[S.lang].length)}
+      ${item("#thanh-tich", "trophy", "Thành tích", r.v === "achieve", "slate")}
+      ${item("#doi-qua", "gift", "Đổi quà", r.v === "rewards", "zh")}
+      ${item("#weekend-live", "live", "Weekend Live", r.v === "live", "green")}
+      ${item("#huong-dan", "guide", "Hướng dẫn", r.v === "guide", "en")}
+    </nav>
+    <div class="sfoot"><div class="seg" role="group" aria-label="Ngôn ngữ"><button type="button" data-lang2="en" aria-pressed="${S.lang === "en"}">Tiếng Anh</button><button type="button" data-lang2="zh" aria-pressed="${S.lang === "zh"}">Tiếng Trung</button></div>
+      <div class="seg" role="group" aria-label="Mức"><button type="button" data-level2="1" aria-pressed="${S.level === 1}">Mức 1</button><button type="button" data-level2="2" aria-pressed="${S.level === 2}">Mức 2</button></div>
+      <a class="scoach" href="#huong-dan">${coachFace(36)}<span><small>Người hướng dẫn</small><b>${esc(coach().name)}</b></span></a></div>`;
+  side.querySelectorAll("[data-lang2]").forEach(b => b.onclick = () => { S.lang = b.dataset.lang2; save(); render(); });
+  side.querySelectorAll("[data-level2]").forEach(b => b.onclick = () => { S.level = +b.dataset.level2; save(); render(); });
+}
+
+/* ---------- định tuyến thêm các phòng ---------- */
+const ROOMS = { "lo-trinh": "road", "thanh-tich": "achieve", "doi-qua": "rewards", "weekend-live": "live", "huong-dan": "guide" };
+const _parseRoute = parseRoute;
+parseRoute = function () { const h = location.hash.slice(1); if (ROOMS[h]) return { v: ROOMS[h] }; return _parseRoute(); };
+const _render = render;
+render = function () {
+  const r = parseRoute();
+  if (["road", "achieve", "rewards", "live", "guide"].includes(r.v)) {
+    stopAudio(); renderTop(); renderSide();
+    const main = $("#main"); main.innerHTML = "";
+    ({ road: viewRoad, achieve: viewAchieve, rewards: viewRewards, live: viewLive, guide: viewGuide })[r.v](main);
+    applyPhotos(main); main.focus({ preventScroll: true }); scrollTo(0, 0); return;
+  }
+  _render(); renderSide(); applyPhotos($("#main"));
+};
+
+/* ---------- trang chủ ---------- */
+function journeyCard(L) {
+  const p = progL(L), nu = nextUpL(L), D = DATA[L];
+  const stops = [...WDAYS.slice(0, 5), { id: "live", label: "Thứ 7", live: true }, WDAYS[5]];
+  const pts = [[70, 230], [210, 160], [350, 210], [490, 110], [630, 160], [770, 70], [910, 120]];
+  const path = "M" + pts.map(q => q.join(" ")).join(" L");
+  const nodes = stops.map((s, i) => {
+    const [x, y] = pts[i], full = !s.live && dayDoneL(L, s) === s.ex.length, cur = !s.live && nu && nu.d.id === s.id;
+    return `<g class="pin${full ? " done" : ""}${cur ? " cur" : ""}${s.live ? " live" : ""}" transform="translate(${x} ${y})"><circle r="${cur ? 24 : 19}"/>${full ? '<path d="M-8 1l5 5 10-11" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>' : `<text y="6" text-anchor="middle">${s.live ? "★" : i + 1 - (i > 5 ? 1 : 0)}</text>`}<text class="lb" y="${y > 150 ? 50 : -32}" text-anchor="middle">${esc(s.live ? "Live" : s.label)}</text></g>`;
+  }).join("");
+  const bg = IMG["journey-" + L] ? `<img class="photo jbg" src="img/${IMG["journey-" + L]}" alt="">` : "";
+  return `<a class="jcard t-${L}" href="#" data-go="${L}">${bg}<div class="jshade"></div>
+    <svg class="jmap" viewBox="0 0 1000 290" aria-hidden="true"><path d="${path}" class="road"/><path d="${path}" class="roaddash"/>${nodes}</svg>
+    <div class="jfoot"><div class="jinfo"><b>${L === "zh" ? "Tiếng Trung" : "Tiếng Anh"} · Tuần 1</b><span>${esc(D.cando)}</span><small>Đã xong ${p.days}/6 ngày học · ${p.done}/${p.all} bài · lộ trình 16 tuần</small></div>
+    <span class="jgo">${nu ? (p.done ? "Học tiếp →" : "Bắt đầu →") : "Đã xong tuần 1 ✓"}</span></div></a>`;
+}
+function roomCard(href, img, tint, title, sub, badge) {
+  const pic = IMG[img] ? `<img class="photo" src="img/${IMG[img]}" alt="">` : `<span class="rph">${nicon({ "room-howto": "guide", "room-achieve": "trophy", "room-rewards": "gift", "room-live": "live", "room-review": "review", "room-career": "map" }[img] || "home")}</span>`;
+  return `<a class="room t-${tint}" href="${href}"><span class="rpic">${pic}${badge ? `<em>${badge}</em>` : ""}</span><span class="rband"><b>${title}</b><small>${sub}</small></span></a>`;
+}
+function viewHome(main) {
+  const c = coach(), pr = S.profile || {}, nu = nextUp(), line = pickLine();
+  const nuEx = nu ? buildExMeta(nu.d.id, nu.d.ex[nu.k]) : null;
+  const helloImg = IMG[c.hello] ? `<img class="photo chello" src="img/${IMG[c.hello]}" alt="">` : "";
+  main.appendChild(el(`<div class="home2">
+    <section class="cbanner">${helloImg}<div class="cshade"></div>
+      <div class="cbubble"><p class="eyebrow">${esc(c.name)} · ${esc(c.role)}</p>
+        <h1>Chào ${esc((pr.name || "bạn").trim().split(/\s+/).pop())}!</h1>
+        <p class="say">“${esc(c.lines[line])}”</p>
+        <div class="row">${nu ? `<a class="btn primary huge" href="#${nu.d.id}-bai-${nu.k + 1}">${ICON.play} ${progL(S.lang).done ? "Học tiếp" : "Bắt đầu"}: ${esc(nu.d.label)} · ${esc(nuEx.title)}</a>` : `<a class="btn primary huge" href="#thanh-tich">Xem thành tích tuần 1</a>`}
+          <button type="button" class="btn ghost hear">${ICON.sound} Nghe ${esc(c.name)}</button></div>
+        <p class="small muted">${langWord()[0].toUpperCase() + langWord().slice(1)} · Mức ${S.level} · ${fmtPts(S.points)} điểm · chuỗi ${calStreak()} ngày</p></div>
+    </section>
+    <section aria-labelledby="hj"><h2 id="hj" class="sec">Bản đồ hành trình</h2><div class="jgrid">${journeyCard("en")}${journeyCard("zh")}</div></section>
+    <section aria-labelledby="hr"><h2 id="hr" class="sec">Các phòng</h2><div class="rooms">
+      ${roomCard("#huong-dan", c.img, "en", "Hướng dẫn", `${esc(c.name)} chỉ cách học mỗi ngày`)}
+      ${roomCard("#thanh-tich", "room-achieve", "slate", "Thành tích của tôi", "Huy hiệu · số câu đã nói · việc làm")}
+      ${roomCard("#doi-qua", "room-rewards", "zh", "Phòng đổi quà", "Đổi điểm lấy quà thật", S.points ? fmtPts(S.points) + " điểm" : "")}
+      ${roomCard("#weekend-live", "room-live", "green", "Weekend Live", "Thứ Bảy nói với người thật")}
+      ${roomCard("#kho-on", "room-review", "sun", "Kho ôn", "Những câu bạn từng sai", S.review[S.lang].length ? S.review[S.lang].length + " câu" : "")}
+      ${roomCard("#lo-trinh", "room-career", "en", "Lộ trình & chứng chỉ", "16 tuần → HSK, TOEIC, IELTS")}
+    </div></section></div>`));
+  $(".hear", main).onclick = () => coachSay(line);
+  main.querySelectorAll("[data-go]").forEach(a => a.onclick = e => { e.preventDefault(); S.lang = a.dataset.go; save(); const n = nextUpL(S.lang); location.hash = n ? "#" + n.d.id : "#thanh-tich"; });
+  if (line === "welcome") { S.seenWelcome = true; save(); }
+}
+
+/* ---------- các phòng ---------- */
+function roomHead(img, eyebrow, title, lead, extra) {
+  return `<section class="rhead">${IMG[img] ? `<img class="photo" src="img/${IMG[img]}" alt="">` : ""}<div><p class="eyebrow">${eyebrow}</p><h1>${title}</h1><p class="lead">${lead}</p>${extra || ""}</div></section>`;
+}
+function viewGuide(main) {
+  const c = coach(), other = S.profile && S.profile.coach === "vy" ? "khang" : "vy";
+  main.appendChild(el(`<div class="roomv">
+    ${roomHead(c.img, "Người hướng dẫn", `${esc(c.name)} · giọng ${esc(c.tone)}`, esc(c.lines.welcome), `<div class="row"><button type="button" class="btn primary hear">${ICON.sound} Nghe ${esc(c.name)} giới thiệu</button><button type="button" class="btn ghost swap">Đổi sang ${esc(COACHES[other].name)}</button></div>`)}
+    <section class="card2"><h2>Mỗi ngày học thế nào?</h2><ol class="steps">
+      <li><b>Học trước (7–10 phút)</b><span>Thẻ học có tranh, xem cảnh hội thoại, mẫu câu có ví dụ đúng sai. Chưa cần nhớ hết.</span></li>
+      <li><b>Luyện tập (15–20 phút)</b><span>Mỗi màn một câu. Sai thì có gợi ý từng bậc, chỉ rõ sai ở đâu, sửa lại cho đúng.</span></li>
+      <li><b>Kho ôn (3 phút)</b><span>Câu nào sai tự vào kho. Bài ôn nhanh mỗi ngày lấy lại để bạn nhớ lâu.</span></li>
+      <li><b>Lớp nhóm và Weekend Live</b><span>Dùng ngay những câu đã học với giáo viên và người nước ngoài.</span></li></ol></section>
+    <section class="card2"><h2>Điểm, chuỗi ngày và quà</h2><ul class="facts">
+      <li>Mỗi bài có điểm; đúng ngay từ 80% được thêm +5, tự sửa đúng được +5 mỗi câu, xong cả ngày được +20.</li>
+      <li>Chuỗi ngày tính theo lịch: hôm nào học ít nhất một bài là giữ chuỗi. Bận thì dùng "đóng băng chuỗi" đổi ở Phòng đổi quà.</li>
+      <li>Điểm đổi được quà thật: được chữa ghi âm, vé Weekend Live, thi thử chứng chỉ, chữa CV, học bổng khoá ôn thi.</li></ul></section>
+    <section class="card2"><h2>Mức 1 và Mức 2</h2><p>Mức 1 có khung câu, lời thoại, chọn và xếp chữ (tiếng Trung không cần gõ). Mức 2 bỏ bớt gợi ý, nghe tốc độ thật và tự gõ. Đổi mức ở thanh bên trái bất cứ lúc nào.</p></section>
+  </div>`));
+  $(".hear", main).onclick = () => coachSay("welcome");
+  $(".swap", main).onclick = () => { S.profile = Object.assign({}, S.profile, { coach: other }); save(); render(); };
+}
+function viewAchieve(main) {
+  const L = S.lang, b = badges(L), got = b.filter(x => x[3]).length, p = progL(L), tr = tierOf(earned()), M = MARKET[L];
+  const weekPct = p.done / p.all, overall = Math.round(weekPct / 16 * 1000) / 10;
+  main.appendChild(el(`<div class="roomv">
+    ${roomHead("room-achieve", "Thành tích của tôi · " + langWord(), `${got}/${b.length} huy hiệu`, esc(coach().lines.achieve))}
+    <section class="kpis">
+      <div class="kpi"><b>${p.days}</b><small>ngày học trọn</small></div>
+      <div class="kpi"><b>${calStreak()}</b><small>ngày liên tiếp</small></div>
+      <div class="kpi"><b>${spokenCount(L)}</b><small>câu đã nói to</small></div>
+      <div class="kpi"><b>${wordsCount(L)}</b><small>từ và cụm đã học</small></div>
+      <div class="kpi"><b>${fmtPts(earned())}</b><small>điểm tích luỹ · hạng ${esc(tr.name)}</small></div>
+    </section>
+    ${tr.next ? `<p class="small muted">Còn ${fmtPts(tr.next[0] - earned())} điểm nữa lên hạng ${esc(tr.next[1])}.</p>` : ""}
+    <section class="card2"><h2>Huy hiệu</h2><ul class="badges">${b.map(x => `<li class="${x[3] ? "got" : ""}"><span class="bdg">${x[3] ? ICON.check : ICON.lock}</span><b>${esc(x[1])}</b><small>${esc(x[2])}</small></li>`).join("")}</ul></section>
+    <section class="card2 market"><h2>${esc(M.head)}</h2>
+      <div class="mstats">${M.stats.map(s => `<div><b>${esc(s[0])}</b><span>${esc(s[1])}</span><small>${esc(s[2])}</small></div>`).join("")}</div>
+      <h3>Bạn đang ở đâu trên thang trình độ</h3>${ladderHTML(L, overall)}</section>
+  </div>`));
+}
+function ladderHTML(L, overall) {
+  const M = MARKET[L];
+  return `<ol class="ladder">${M.ladder.map((s, i) => `<li class="${i === 0 ? "now" : ""}"><span class="step">${i + 1}</span><div><b>${esc(s.lv)}</b> <em>${esc(s.when)}</em>
+    <p>${esc(s.jobs)} · lương tham khảo ${esc(s.pay)}</p>${s.note ? `<p class="small muted">${esc(s.note)}</p>` : ""}
+    ${i === 0 ? `<div class="bar"><i style="width:${Math.max(2, overall * 1)}%"></i></div><p class="small"><b>Bạn ở đây:</b> đã đi ${overall}% chặng này (tuần 1/16)</p>` : ""}</div></li>`).join("")}
+    <li><span class="step">★</span><div><b>Lớp ôn thi chuyên sâu</b> <em>sau khi giao tiếp thành thạo</em><p>Thi chứng chỉ thật: HSK / HSKK, TOEIC, IELTS.</p></div></li></ol>
+    <p class="small muted">Số liệu tham khảo, có ghi ngày. Nguồn: ${MARKET.sources.map(s => `<a href="${s[1]}" target="_blank" rel="noopener">${esc(s[0])}</a>`).join(" · ")}.</p>`;
+}
+function viewRoad(main) {
+  const p = progL(S.lang), overall = Math.round(p.done / p.all / 16 * 1000) / 10;
+  const phases = [["Tuần 1–4", "Giao tiếp xã giao", "Chào hỏi, giới thiệu, hỏi han, hẹn gặp"], ["Tuần 5–8", "Việc hằng ngày ở công ty", "Đồng nghiệp, lịch làm việc, gọi điện, nhắn tin"], ["Tuần 9–12", "Trao đổi công việc", "Họp ngắn, báo cáo, hỏi lại, đề xuất"], ["Tuần 13–16", "Thuyết trình và phỏng vấn", "Giới thiệu dự án, phỏng vấn xin việc"]];
+  main.appendChild(el(`<div class="roomv">
+    ${roomHead("room-career", "Lộ trình & chứng chỉ", "Từ chào hỏi đến chứng chỉ thật", "16 tuần đầu đưa bạn tới giao tiếp công việc cơ bản (tương đương HSK3 và A2+). Sau đó là các chặng HSK4–5, B1–B2 và lớp ôn thi chuyên sâu.")}
+    <section class="card2"><h2>16 tuần đầu</h2><ol class="phases">${phases.map((x, i) => `<li class="${i === 0 ? "on" : ""}"><small>${x[0]}</small><b>${x[1]}</b><span>${x[2]}</span>${i === 0 ? `<a class="btn primary small" href="#trang-chu">Tuần 1 đang mở</a>` : `<em>${ICON.lock} sắp mở</em>`}</li>`).join("")}</ol>
+      <p class="small muted">Nội dung từng tuần sau đang được soạn; tên chủ đề có thể điều chỉnh.</p></section>
+    <section class="card2 market"><h2>Trình độ và việc làm · ${langWord()}</h2>${ladderHTML(S.lang, overall)}</section></div>`));
+}
+function viewRewards(main) {
+  S.redeemed = S.redeemed || [];
+  main.appendChild(el(`<div class="roomv">
+    ${roomHead("room-rewards", "Phòng đổi quà", `Bạn có ${fmtPts(S.points)} điểm`, "Quà chọn theo điều người đi làm thật sự cần: được chữa lỗi, được dùng tiếng thật, và tiến gần hơn tới công việc và chứng chỉ.")}
+    ${REWARDS.map(g => `<section class="card2"><h2>${g.tier} <small class="muted">· ${g.sub}</small></h2><ul class="gifts">${g.items.map(it => {
+      const can = S.points >= it.p, n = S.redeemed.filter(r => r.id === it.id).length, full = it.id === "freeze" && (S.freeze || 0) >= 2;
+      return `<li><div><b>${esc(it.t)}</b><p>${esc(it.d)}</p><small class="why">${esc(it.why)}</small>${n ? `<small class="muted"> · đã đổi ${n} lần</small>` : ""}</div>
+        <button type="button" class="btn ${can && !full ? "primary" : "ghost"} small rd" data-id="${it.id}" ${can && !full ? "" : "disabled"}>${ICON.star} ${fmtPts(it.p)}</button></li>`; }).join("")}</ul></section>`).join("")}
+    ${S.redeemed.length ? `<section class="card2"><h2>Quà đã đổi</h2><ul class="codes">${S.redeemed.slice().reverse().map(r => `<li><b>${esc(r.t)}</b><code>${esc(r.code)}</code><small>${esc(r.date)}${r.auto ? " · đã kích hoạt" : " · đưa mã cho giáo viên hoặc host để nhận"}</small></li>`).join("")}</ul></section>` : ""}
+    <p class="small muted">Quà (trừ đóng băng chuỗi) được CES xác nhận thủ công qua mã. Điểm lưu trên trình duyệt này.</p></div>`));
+  main.querySelectorAll(".rd").forEach(btn => btn.onclick = () => {
+    const it = REWARDS.flatMap(g => g.items).find(x => x.id === btn.dataset.id);
+    if (!it || S.points < it.p) return;
+    if (btn.dataset.confirm !== "1") { btn.dataset.confirm = "1"; btn.innerHTML = `Đổi ${fmtPts(it.p)} điểm?`; return; }
+    S.points -= it.p; S.ledger.unshift({ t: "Đổi quà · " + it.t, p: -it.p });
+    const code = "ATTC-" + it.id.slice(0, 3).toUpperCase() + "-" + Math.random().toString(36).slice(2, 6).toUpperCase();
+    S.redeemed = S.redeemed || []; S.redeemed.push({ id: it.id, t: it.t, code, date: todayISO(), auto: !!it.auto });
+    if (it.id === "freeze") S.freeze = (S.freeze || 0) + 1;
+    save(); toast("Đã đổi: " + it.t); sfx("win"); render();
+  });
+}
+function viewLive(main) {
+  const D = DATA[S.lang], L = S.lang, keys = D.speak.slice(10, 13), ready = doneCode(L, "H3");
+  main.appendChild(el(`<div class="roomv">
+    ${roomHead("room-live", "Thứ Bảy · Weekend Live", "Ba trạm, nói với người thật", "Mỗi trạm 4–6 người, một người nước ngoài và một host người Việt. Bạn dùng đúng những câu đã luyện trong tuần.")}
+    <section class="card2"><h2>3 câu khoá mang theo</h2><ul class="keys2">${keys.map((s, i) => `<li><button type="button" class="btn sound small" data-k="${i}">${ICON.play}</button><span lang="${L === "zh" ? "zh" : "en"}">${esc(s.model)}</span><small>${esc(s.q)}</small></li>`).join("")}</ul>
+      ${ready ? `<p class="donebanner">Bạn đã luyện xong 3 câu khoá. Sẵn sàng ra trạm!</p>` : `<a class="btn primary" href="#thu-6">Luyện 3 câu khoá ở Thứ 6</a>`}</section>
+    <section class="card2"><h2>Chuẩn bị trước buổi</h2><ul class="facts">
+      <li>Làm xong bài Thứ 6 (kiểm tra tuần, can-do, 3 câu khoá).</li>
+      <li>Nếu chưa nghe kịp, dùng câu cứu cánh: ${L === "zh" ? "<b lang='zh'>请再说一遍。</b>" : "<b>Sorry, could you say that again?</b>"}</li>
+      <li>Sau buổi, Chủ nhật bạn nhận phiếu nhận xét và sửa 3 câu đã nói sai.</li></ul>
+      <p class="small muted">Lịch và địa điểm buổi Live được thông báo trong lớp nhóm.</p></section></div>`));
+  main.querySelectorAll("[data-k]").forEach(b => b.onclick = () => say(keys[+b.dataset.k].model, L));
+}
+
+/* ---------- màn chào: chọn người hướng dẫn, chạm để bắt đầu ---------- */
+function gate() {
+  let started = false; try { started = sessionStorage.getItem("attc-started") === "1"; } catch (e) {}
+  if (S.profile && started) return;
+  const ov = el(`<div class="gate" role="dialog" aria-modal="true" aria-labelledby="gt"><div class="gcard"></div></div>`);
+  document.body.appendChild(ov); const card = $(".gcard", ov);
+  const done = kind => { try { sessionStorage.setItem("attc-started", "1"); } catch (e) {} ov.remove(); coachSay(kind, true); render(); };
+  if (!S.profile) {
+    card.innerHTML = `<p class="eyebrow">Anh – Trung Thực Chiến</p><h2 id="gt">Chào bạn! Mình làm quen chút nhé</h2>
+      <label class="fl">Tên bạn<input class="inp" id="gname" autocomplete="given-name" placeholder="Ví dụ: Hà"></label>
+      <fieldset class="fl"><legend>Bạn là</legend><div class="seg big"><button type="button" data-g="f">Nữ</button><button type="button" data-g="m">Nam</button></div></fieldset>
+      <p class="small muted">Người hướng dẫn sẽ được chọn theo bạn; đổi lại được trong phòng Hướng dẫn.</p>
+      <button type="button" class="btn primary huge" id="gnext" disabled>Tiếp tục</button>`;
+    let g = null;
+    card.querySelectorAll("[data-g]").forEach(b => b.onclick = () => { g = b.dataset.g; card.querySelectorAll("[data-g]").forEach(x => x.setAttribute("aria-pressed", x === b)); $("#gnext", card).disabled = false; });
+    $("#gnext", card).onclick = () => {
+      S.profile = { name: ($("#gname", card).value || "").trim() || "bạn", gender: g, coach: g === "m" ? "vy" : "khang" }; save();
+      const c = coach();
+      card.innerHTML = `${coachFace(120, "gface")}<p class="eyebrow">Người hướng dẫn của bạn</p><h2 id="gt">${esc(c.name)}</h2><p class="say">“${esc(c.lines.welcome)}”</p>
+        <button type="button" class="btn primary huge" id="ggo">${ICON.play} Chạm để bắt đầu</button><p class="small muted">Bật loa để nghe ${esc(c.name)} nhé.</p>`;
+      $("#ggo", card).onclick = () => { S.seenWelcome = true; save(); done("welcome"); };
+    };
+  } else {
+    const c = coach();
+    card.innerHTML = `${coachFace(110, "gface")}<h2 id="gt">Chào ${esc((S.profile.name || "bạn").split(/\s+/).pop())}!</h2><p class="say">“${esc(c.lines.back)}”</p>
+      <button type="button" class="btn primary huge" id="ggo">${ICON.play} Chạm để bắt đầu</button><p class="small muted">Bật loa để nghe ${esc(c.name)} hướng dẫn nhé.</p>`;
+    $("#ggo", card).onclick = () => done("back");
+  }
+  const f = card.querySelector("input,button"); if (f) setTimeout(() => f.focus(), 50);
+}
+
+/* ---------- khởi động ---------- */
+(function () {
+  const bn = document.querySelector(".bnav");
+  if (bn) bn.innerHTML = `<a href="#trang-chu">${nicon("home")}Trang chủ</a><a href="#thu-2" id="bn-today">${nicon("today")}Học</a><a href="#kho-on">${nicon("review")}Kho ôn</a><a href="#thanh-tich">${nicon("trophy")}Thành tích</a><a href="#doi-qua">${nicon("gift")}Đổi quà</a>`;
+})();
 boot();
+gate();
 
 </script>
 </body></html>
