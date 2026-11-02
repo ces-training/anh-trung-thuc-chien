@@ -11,7 +11,7 @@ import base64, hashlib, json, os, pathlib, re, subprocess, sys, time, urllib.err
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LIST = ROOT / "tools" / "audio-list.json"
 OUT = ROOT / "tuan-1" / "audio"
-MODELS = [m for m in [os.environ.get("GEMINI_TTS_MODEL", "").strip(), "gemini-3.1-flash-tts-preview", "gemini-2.5-flash-preview-tts"] if m]
+MODELS = [m for m in [os.environ.get("GEMINI_TTS_MODEL", "").strip(), "gemini-3.8-flash-tts", "gemini-3.1-flash-tts-preview", "gemini-2.5-flash-preview-tts"] if m]
 
 # Giọng cho từng nhân vật (giọng có sẵn của Gemini). "_" = giọng đọc thẻ, câu mẫu.
 VOICES = {

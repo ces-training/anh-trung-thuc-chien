@@ -18,15 +18,17 @@ OUT = ROOT / "tuan-1" / "img"
 QA_FILE = ROOT / "tools" / "image-qa.json"
 API = "https://generativelanguage.googleapis.com/v1beta/models/"
 REF_MODELS = [m for m in [os.environ.get("IMAGE_MODEL_REF", "").strip(), "gemini-3.1-flash-image", "gemini-2.5-flash-image"] if m]
-CHEAP_MODELS = [m for m in [os.environ.get("IMAGE_MODEL_CHEAP", "").strip(), "imagen-4.0-fast-generate-001"] if m]
+CHEAP_MODELS = [m for m in [os.environ.get("IMAGE_MODEL_CHEAP", "").strip(), "gemini-3.1-flash-lite-image"] if m]
 QA_MODELS = [m for m in [os.environ.get("QA_MODEL", "").strip(), "gemini-2.5-flash-lite", "gemini-flash-lite-latest"] if m]
 # Giá ước tính (USD/tranh) để in báo cáo chi phí
-PRICE = {"gemini-3.1-flash-image": 0.067, "gemini-2.5-flash-image": 0.039, "imagen-4.0-fast-generate-001": 0.02, "qa": 0.0003}
+PRICE = {"gemini-3.1-flash-image": 0.067, "gemini-3.1-flash-lite-image": 0.034, "gemini-2.5-flash-image": 0.039, "qa": 0.0003}
 WIDTH = {"1:1": 512, "16:9": 1280, "4:3": 800}
-QA_PROMPT = ("You are checking a photo for a language-learning website. Look carefully and answer only JSON: "
-             '{"ok": true|false, "problems": ["..."]}. Mark ok=false if ANY of these appear: a person with more than two arms or '
-             "hands, extra or floating hands, malformed fingers, distorted or duplicated faces, readable text, letters, numbers, "
-             "fake Chinese characters or logos on signs, badges, papers or screens. Small blurry background details are fine.")
+QA_PROMPT = ("You are checking a photo for a language-learning website. Answer only JSON: "
+             '{"ok": true|false, "problems": ["..."]}. '
+             "Set ok=false ONLY for clear, noticeable defects on the main people or the "
+             "foreground: a person with three or more arms or hands, a hand not attached to any body, a badly deformed hand or face, "
+             "or clearly readable fake text or fake Chinese characters in the foreground. Ignore blank badges or cards, tiny blurry "
+             "background details, distant signs, and numbers on buses or clocks.")
 
 
 class Stop(Exception):
@@ -42,7 +44,7 @@ def post(url, key, body, timeout=180):
 def gemini_image(model, key, prompt, refs, aspect):
     parts = [{"text": prompt}] + [{"inlineData": {"mimeType": "image/webp", "data": base64.b64encode((OUT / f"{r}.webp").read_bytes()).decode()}} for r in refs]
     cfg = {"responseModalities": ["IMAGE"], "imageConfig": {"aspectRatio": aspect}}
-    if "3.1" in model:
+    if model == "gemini-3.1-flash-image":
         cfg["imageConfig"]["imageSize"] = "1K"
     j = post(API + model + ":generateContent", key, {"contents": [{"parts": parts}], "generationConfig": cfg})
     for c in j.get("candidates", []):
