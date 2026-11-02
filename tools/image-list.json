@@ -291,6 +291,66 @@
   "prompt": "A woman smiling gratefully with a hand on her heart, thanking a colleague who hands her a coffee. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank."
  },
  {
+  "key": "me",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "At a networking event, a young Vietnamese woman introduces herself, smiling, one hand placed lightly on her chest, the listener seen from behind slightly blurred. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank."
+ },
+ {
+  "key": "you",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "A friendly man at a meetup gestures politely with an open palm toward the woman he is talking to, inviting her, both smiling. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank."
+ },
+ {
+  "key": "she",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "In an office, a man introduces a female colleague to a visitor, gesturing toward her with an open hand while she smiles and waves. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank."
+ },
+ {
+  "key": "person",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "A row of four diverse adults standing side by side at a community event, each smiling at the camera, simple and clear. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank."
+ },
+ {
+  "key": "what",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "A young adult with a curious, slightly puzzled expression, palms turned up, asking a question to a friend in a café. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank."
+ },
+ {
+  "key": "question",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "In a small adult language class, a learner raises her hand to ask a question while the teacher turns to listen. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank."
+ },
+ {
+  "key": "is",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "Two colleagues talking, one nodding firmly with a confident smile as if saying 'yes, that is right', pointing at a blank document. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank."
+ },
+ {
+  "key": "also",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "Two friends at a meetup both raising a hand and pointing at themselves with big smiles, as if saying 'me too'. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank."
+ },
+ {
+  "key": "no",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "A woman politely shaking her head and raising one hand in a gentle 'no' gesture during a friendly conversation, smiling. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank."
+ },
+ {
+  "key": "back",
+  "aspect": "4:3",
+  "refs": [],
+  "prompt": "A woman finishes speaking and turns her open palm toward her conversation partner, inviting him to answer, both smiling at a networking event. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank."
+ },
+ {
   "key": "polite",
   "aspect": "4:3",
   "refs": [],

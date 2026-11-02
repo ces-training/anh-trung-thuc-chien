@@ -54,6 +54,16 @@ CARDS = {
   "cart": "A purchasing manager checking stacked cardboard boxes with a tablet in a clean warehouse.",
   "bye": "Two colleagues waving goodbye to each other at an office door at the end of the day.",
   "thanks": "A woman smiling gratefully with a hand on her heart, thanking a colleague who hands her a coffee.",
+  "me": "At a networking event, a young Vietnamese woman introduces herself, smiling, one hand placed lightly on her chest, the listener seen from behind slightly blurred.",
+  "you": "A friendly man at a meetup gestures politely with an open palm toward the woman he is talking to, inviting her, both smiling.",
+  "she": "In an office, a man introduces a female colleague to a visitor, gesturing toward her with an open hand while she smiles and waves.",
+  "person": "A row of four diverse adults standing side by side at a community event, each smiling at the camera, simple and clear.",
+  "what": "A young adult with a curious, slightly puzzled expression, palms turned up, asking a question to a friend in a café.",
+  "question": "In a small adult language class, a learner raises her hand to ask a question while the teacher turns to listen.",
+  "is": "Two colleagues talking, one nodding firmly with a confident smile as if saying 'yes, that is right', pointing at a blank document.",
+  "also": "Two friends at a meetup both raising a hand and pointing at themselves with big smiles, as if saying 'me too'.",
+  "no": "A woman politely shaking her head and raising one hand in a gentle 'no' gesture during a friendly conversation, smiling.",
+  "back": "A woman finishes speaking and turns her open palm toward her conversation partner, inviting him to answer, both smiling at a networking event.",
   "polite": "A young professional politely serving tea to an older business guest in a meeting room.",
 }
 items = []
