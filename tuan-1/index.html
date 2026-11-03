@@ -1903,7 +1903,7 @@ function photo(k, cls) { if (!IMG[k] && typeof IMG_ALIAS !== "undefined" && IMG[
 function applyPhotos(root) {
   (root || document).querySelectorAll("svg[data-art]").forEach(sv => { const [kind, a, b, c] = sv.dataset.art.split("|"); const h = kind === "icon" ? photo(a, sv.getAttribute("class")) : kind === "char" ? photo(CHAR_IMG[a], "ava") : photo(a, "scene-svg"); if (h) { const t = document.createElement("template"); t.innerHTML = h; const im = t.content.firstChild; if (kind === "char") { im.width = sv.getAttribute("width"); im.height = sv.getAttribute("width"); } sv.replaceWith(im); } });
 }
-try { fetch("img/index.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null).then(j => { if (j && Object.keys(j).length) { IMG = j; applyPhotos(); } }).catch(() => {}); } catch (e) {}
+try { fetch("img/index.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null).then(j => { if (j && Object.keys(j).length) { if (!/github\.io$/.test(location.hostname)) for (const k in j) j[k] = String(j[k]).split("?")[0]; IMG = j; applyPhotos(); } }).catch(() => {}); } catch (e) {}
 const AC_ = { ink: "#0E1730", en: "#1F44D6", enS: "#E7ECFF", zh: "#D3271E", zhS: "#FDECEA", sun: "#FFD43B", sunS: "#FFF4C7", gr: "#15803D", grS: "#E3F5E9", sl: "#334155", slS: "#E8ECF3", wh: "#FFFFFF", cheek: "#F59E8B" };
 
 /* ---------- nhân vật (bán thân, nhìn thẳng) ---------- */
