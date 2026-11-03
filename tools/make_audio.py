@@ -50,6 +50,8 @@ def call(model, key, text, voice):
 
 
 def to_mp3(pcm, dest):
+    from audio_clean import clean_pcm
+    pcm, _ = clean_pcm(pcm)  # bỏ tiếng "tách" đầu file và tiếng "rẹt" cuối file
     dest.parent.mkdir(parents=True, exist_ok=True)
     # PCM 24 kHz, 16-bit, mono -> mp3; cắt khoảng lặng đầu, chừa 0,15 giây cuối
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "s16le", "-ar", "24000", "-ac", "1", "-i", "pipe:0",
