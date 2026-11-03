@@ -87,19 +87,22 @@ HOME = {
 }
 # ---- khoá 16 tuần: chân dung nhân vật, cảnh mỗi ngày, ảnh từ vựng mới (đọc từ tools/course/*.json) ----
 COURSE_ITEMS = []
+KNOWN_CHARS = {"an", "tom", "kevin", "linh", "sarah", "wangli", "minh", "wangjl"}
+EXISTING = set(CARDS) | set(HOME) | set(HOME_REF) | set(SCENES) | set(CHARS)
 _seen = set()
 for f in sorted(pathlib.Path(__file__).with_name("course").glob("*-w*.json")):
     c = json.loads(f.read_text(encoding="utf-8"))
-    if c["lang"] == "zh":
+    if c["lang"] in ("zh", "en"):
         for m in c.get("cast", []):
             k = "cast-" + m["key"]
+            if m["key"] in KNOWN_CHARS: continue
             if k not in _seen:
                 _seen.add(k); COURSE_ITEMS.append({"key": k, "aspect": "1:1", "refs": [], "prompt": PORTRAIT + m["look"] + " " + STYLE})
         for d in c["days"]:
             sc = d["scene"]; k = sc["img"]
-            if k in _seen: continue
+            if k in _seen or k in EXISTING: continue
             _seen.add(k)
-            refs = ["cast-" + m["key"] for m in c.get("cast", []) if m["key"] in sc["imgPrompt"]][:3]
+            refs = [("char-" if m["key"] in KNOWN_CHARS else "cast-") + m["key"] for m in c.get("cast", []) if m["key"] in sc["imgPrompt"]][:3]
             COURSE_ITEMS.append({"key": k, "aspect": "16:9", "refs": refs, "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent. " + sc["imgPrompt"] + ". Natural family-drama style photo, warm light. " + STYLE})
     for im in c.get("newImages", []):
         if im["key"] not in _seen and im["key"] not in CARDS:
