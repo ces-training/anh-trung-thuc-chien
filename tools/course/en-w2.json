@@ -1,67 +1,67 @@
 {
  "lang": "en",
  "week": 2,
- "title": "Một ngày của em: giờ giấc, bữa sáng, đồ vật, lớp học, ngày tháng",
+ "title": "Một ngày làm việc: giờ giấc, bữa sáng, đồ vật, lớp học buổi tối, ngày tháng",
  "cando": "Nói giờ, mời ăn uống, hỏi đồ vật ở đâu, hỏi cách đọc/viết một từ, nói ngày tháng, thứ và phương tiện đi lại",
  "cast": [
   {
-   "key": "liuxing",
-   "name": "Leo",
-   "vi": "cậu con trai 12 tuổi, nghịch ngợm, lười dậy sớm",
-   "look": "a 12-year-old Chinese boy, short spiky black hair, red hoodie, cheeky grin"
+   "key": "an",
+   "name": "An",
+   "vi": "nhân viên mới người Việt, 26 tuổi, làm ở phòng marketing – nhân vật đại diện cho chính bạn",
+   "look": "a Vietnamese woman about 26, shoulder-length black bob, royal-blue top, yellow lanyard with a white staff card"
   },
   {
-   "key": "liumei",
-   "name": "Mary",
-   "vi": "mẹ của Leo, khoảng 40 tuổi, tháo vát, hay nhắc nhở",
-   "look": "a Chinese woman about 40, shoulder-length black hair, cream cardigan over a floral blouse, lively expressive face"
+   "key": "tom",
+   "name": "Tom",
+   "vi": "đồng nghiệp người Anh khoảng 30 tuổi ở phòng marketing, thân thiện, hay pha trò",
+   "look": "a British man about 30, short ginger hair and light stubble, green crew-neck sweater"
   },
   {
-   "key": "xiaoyu",
-   "name": "Sam",
-   "vi": "cậu em út 7 tuổi, ngoan và hay để ý",
-   "look": "a 7-year-old Chinese boy, round face, black bowl haircut, yellow T-shirt"
+   "key": "kevin",
+   "name": "Kevin",
+   "vi": "đồng nghiệp người Mỹ gốc Á khoảng 32 tuổi, làm bộ phận kinh doanh (sales); có con trai Ben 8 tuổi, hay đến muộn",
+   "look": "an East Asian-American man about 32, short dark hair, thin rectangular glasses, navy button-up shirt"
   },
   {
-   "key": "xiaxue",
-   "name": "Sophie",
-   "vi": "chị gái 15 tuổi, chăm học, hiểu chuyện",
-   "look": "a 15-year-old Chinese girl, long black ponytail, navy school sweater, calm smile"
+   "key": "linh",
+   "name": "Linh",
+   "vi": "đồng nghiệp người Việt 24 tuổi, vui vẻ, hay để quên đồ; học lớp tiếng Anh buổi tối cùng Kevin",
+   "look": "a Vietnamese woman about 24, long straight black hair, mustard-yellow sweater"
   },
   {
-   "key": "xiadonghai",
-   "name": "David",
-   "vi": "bố dượng khoảng 40 tuổi, hiền, đang đi công tác",
-   "look": "a Chinese man about 40, short neat black hair, rectangular glasses, light blue shirt, warm smile"
+   "key": "sarah",
+   "name": "Sarah Lee",
+   "vi": "quản lý người Mỹ gốc Hàn khoảng 38 tuổi, lịch sự, chuyên nghiệp; tuần này đang đi công tác",
+   "look": "a Korean-American woman about 38, chin-length black bob, charcoal blazer over a white blouse"
   },
   {
    "key": "teacher",
    "name": "Ms Chen",
-   "vi": "cô giáo chủ nhiệm lớp của Leo, nghiêm nhưng tận tình",
-   "look": "a Chinese woman teacher about 35, black hair in a low bun, thin glasses, grey blazer"
+   "vi": "giáo viên lớp tiếng Anh buổi tối ở công ty, nghiêm nhưng tận tình",
+   "look": "an East Asian woman teacher about 40, dark hair pulled back, navy blouse with a small floral print"
   }
  ],
  "days": [
   {
    "id": "w2-thu-2",
    "label": "Thứ 2",
-   "title": "Buổi sáng đi học, nói giờ",
-   "desc": "Hỏi và nói giờ (o'clock, half past), gọi ai đó dậy, rủ đi học bằng Let's và bảo 'đừng' bằng Don't.",
-   "rule": "Hỏi giờ: What time is it? – Đáp: It's seven o'clock / It's half past seven / It's seven twenty. Nói làm gì lúc mấy giờ thì giờ đứng CUỐI câu sau 'at': I go to school at half past seven.",
+   "title": "Buổi sáng đi làm, nói giờ",
+   "desc": "Hỏi và nói giờ (o'clock, half past), nói mình đến muộn, hẹn giờ họp, rủ đi bằng Let's và bảo 'đừng' bằng Don't – qua cảnh Kevin đến văn phòng muộn sáng thứ Hai.",
+   "rule": "Hỏi giờ: What time is it? – Đáp: It's eight o'clock / It's half past eight / It's eight twenty. Nói làm gì lúc mấy giờ thì giờ đứng CUỐI câu sau 'at': The meeting is at half past eight.",
    "cards": [
     {
      "w": "morning",
      "m": "buổi sáng",
-     "ex": "Good morning, Leo!",
-     "exm": "Chào buổi sáng, Leo!",
+     "ex": "Good morning, Kevin!",
+     "exm": "Chào buổi sáng, anh Kevin!",
      "n": "Good morning = chào buổi sáng (chỉ dùng để chào, không dùng khi tạm biệt). 'vào buổi sáng' = in the morning (có in the).",
      "img": "morning"
     },
     {
      "w": "get up",
      "m": "thức dậy, ra khỏi giường",
-     "ex": "Leo, get up!",
-     "exm": "Leo, dậy đi!",
+     "ex": "I get up at six o'clock.",
+     "exm": "Tôi dậy lúc sáu giờ.",
      "n": "Đọc nối: get‿up → 'ghe-tắp'. Khác 'wake up' (tỉnh giấc): có thể wake up rồi vẫn chưa get up."
     },
     {
@@ -104,78 +104,80 @@
     {
      "w": "late",
      "m": "muộn, trễ",
-     "ex": "Oh no! I'm late for school!",
-     "exm": "Ôi không! Con muộn học rồi!",
-     "n": "be late for + nơi/việc: I'm late for school. Không nói 'I late' (thiếu am) – người Việt hay bỏ động từ to be."
+     "ex": "Oh no! I'm late for work!",
+     "exm": "Ôi không! Tôi đi làm muộn rồi!",
+     "n": "be late for + nơi/việc: late for work, late for the meeting. Không nói 'I late' (thiếu am) – người Việt hay bỏ động từ to be."
     },
     {
      "w": "sleep",
      "m": "ngủ",
-     "ex": "Don't call me! I want to sleep!",
-     "exm": "Đừng gọi con! Con muốn ngủ!",
+     "ex": "It's early. I want to sleep!",
+     "exm": "Còn sớm mà. Tôi muốn ngủ!",
      "n": "I want to sleep (có 'to'). Đi ngủ (lên giường) là 'go to bed' – sẽ học thứ 6."
     },
     {
      "w": "go to school",
      "m": "đi học, đến trường",
-     "ex": "I go to school at half past seven.",
-     "exm": "Mình đi học lúc bảy giờ rưỡi.",
-     "n": "Không có 'the': go to school (đi học). 'go to the school' = đến ngôi trường đó (vì việc khác)."
+     "ex": "Ben goes to school at seven.",
+     "exm": "Bé Ben đi học lúc bảy giờ.",
+     "n": "Không có 'the': go to school (đi học). Người đi làm nói go to work (đi làm) – cùng cấu trúc, cũng không có 'the'. He/she thêm -es: Ben goes to school."
     },
     {
      "w": "Don't …",
      "m": "Đừng …",
-     "ex": "Don't sleep! Get up!",
-     "exm": "Đừng ngủ nữa! Dậy đi!",
+     "ex": "Don't sleep! The meeting is at eight.",
+     "exm": "Đừng ngủ nữa! Tám giờ họp đấy.",
      "n": "Don't + động từ nguyên mẫu, KHÔNG có 'to': Don't call me (không nói 'Don't to call')."
     },
     {
      "w": "Let's …",
      "m": "Chúng ta … nào / … thôi",
-     "ex": "Let's go to school!",
-     "exm": "Chúng ta đi học thôi!",
+     "ex": "Let's go to the meeting!",
+     "exm": "Đi họp thôi!",
      "n": "Let's = Let us, đã có 'chúng ta' bên trong nên không thêm 'we': không nói 'Let's we go'."
+    },
+    {
+     "w": "meeting",
+     "m": "cuộc họp",
+     "ex": "The meeting is at half past eight.",
+     "exm": "Cuộc họp lúc tám giờ rưỡi.",
+     "n": "the meeting is at + giờ. late for the meeting = đến họp muộn. Đọc /ˈmiːtɪŋ/: i dài, giữ /ŋ/ cuối – không đọc 'mít-tinh'."
     }
    ],
    "scene": {
-    "setting": "Sáng thứ Hai trong phòng của Leo. Mẹ Mary gọi Leo dậy đi học, cậu đòi ngủ tiếp rồi hoảng hốt vì sắp muộn.",
-    "img": "s-w2-d1",
-    "imgPrompt": "Morning in a boy's bedroom: liumei stands by the bed pulling back the blanket, liuxing curls up under the covers hugging his pillow and refusing to get up; an alarm clock on the bedside table with hands at about 7:20 (no digits), sunlight through the curtains, a school bag on the floor. No text in the image.",
+    "setting": "8 giờ 20 sáng thứ Hai ở văn phòng (giờ làm bắt đầu lúc 8 giờ). An đến sớm, đang cầm cốc cà phê; Kevin vội vàng bước vào, đeo ba lô, còn ngái ngủ. Cuộc họp nhóm bắt đầu lúc 8 giờ rưỡi.",
+    "img": "morning",
+    "imgPrompt": "Morning in a bright open-plan office: an, in a white blouse with a lanyard, holds a takeaway coffee cup and smiles at kevin, who has just arrived in glasses and a navy shirt with a backpack over his shoulder; desks and a city view through large windows.",
     "lines": [
      {
-      "who": "Mary",
-      "t": "Good morning, Leo! Get up!",
-      "vi": "Chào buổi sáng, Leo! Dậy đi con!"
+      "who": "An",
+      "t": "Good morning, Kevin!",
+      "vi": "Chào buổi sáng, anh Kevin!"
      },
      {
-      "who": "Leo",
-      "t": "What time is it? It's still early…",
-      "vi": "Mấy giờ rồi ạ? Còn sớm mà…"
+      "who": "Kevin",
+      "t": "Good morning, An! What time is it?",
+      "vi": "Chào An! Mấy giờ rồi em?"
      },
      {
-      "who": "Mary",
-      "t": "It's seven twenty!",
-      "vi": "Bảy giờ hai mươi rồi!"
+      "who": "An",
+      "t": "It's eight twenty. You're late!",
+      "vi": "Tám giờ hai mươi rồi. Anh đến muộn đấy!"
      },
      {
-      "who": "Leo",
-      "t": "Don't call me! I want to sleep!",
-      "vi": "Đừng gọi con! Con muốn ngủ!"
+      "who": "Kevin",
+      "t": "Oh no! I'm late for work! I get up at seven o'clock… I want to sleep!",
+      "vi": "Ôi không! Anh đi làm muộn rồi! Anh dậy lúc bảy giờ… mà vẫn buồn ngủ quá!"
      },
      {
-      "who": "Mary",
-      "t": "School is at half past seven! Why are you still in bed?",
-      "vi": "Bảy rưỡi là vào học! Sao con vẫn còn nằm trên giường?"
+      "who": "An",
+      "t": "Don't sleep! The meeting is at half past eight.",
+      "vi": "Đừng ngủ nữa! Tám rưỡi là họp đấy."
      },
      {
-      "who": "Leo",
-      "t": "Oh no! I'm late! I'm late for school!",
-      "vi": "Ôi không! Muộn rồi! Con muộn học rồi!"
-     },
-     {
-      "who": "Mary",
-      "t": "Come on! Let's go!",
-      "vi": "Nhanh lên! Đi thôi!"
+      "who": "Kevin",
+      "t": "Half past eight? It's not early! OK. Let's go!",
+      "vi": "Tám rưỡi á? Không còn sớm nữa rồi! Được rồi. Đi thôi!"
      }
     ]
    },
@@ -205,12 +207,12 @@
        "Mấy giờ rồi? – Tám giờ đúng."
       ],
       [
-       "It's half past seven.",
-       "Bảy giờ rưỡi."
+       "It's half past eight.",
+       "Tám giờ rưỡi."
       ],
       [
-       "It's seven twenty.",
-       "Bảy giờ hai mươi."
+       "It's eight twenty.",
+       "Tám giờ hai mươi."
       ]
      ],
      "bad": "It's seven half.",
@@ -226,24 +228,24 @@
        "at seven."
       ],
       [
-       "I",
-       "go to school",
+       "Ben",
+       "goes to school",
        "at half past seven."
       ]
      ],
      "ex": [
       [
        "I get up at seven o'clock.",
-       "Mình dậy lúc bảy giờ."
+       "Tôi dậy lúc bảy giờ."
       ],
       [
-       "Mum gets up at half past six.",
-       "Mẹ dậy lúc sáu giờ rưỡi."
+       "Kevin gets up at half past six.",
+       "Kevin dậy lúc sáu giờ rưỡi."
       ]
      ],
-     "bad": "I at half past seven go to school.",
-     "good": "I go to school at half past seven.",
-     "why": "Tiếng Trung đặt giờ TRƯỚC động từ (我七点半去学校), còn tiếng Anh thường đặt giờ ở CUỐI câu và phải có 'at'. Lỗi hay gặp của người Việt: bỏ 'at' (I get up seven o'clock) hoặc dùng 'in' (in seven o'clock). Với he/she thêm -s: Mum gets up."
+     "bad": "I at seven o'clock get up.",
+     "good": "I get up at seven o'clock.",
+     "why": "Tiếng Trung đặt giờ TRƯỚC động từ (我七点起床), còn tiếng Anh thường đặt giờ ở CUỐI câu và phải có 'at'. Lỗi hay gặp của người Việt: bỏ 'at' (I get up seven o'clock) hoặc dùng 'in' (in seven o'clock). Với he/she thêm -s: Kevin gets up."
     },
     {
      "t": "Rủ rê và ngăn cấm: Let's + V! / Don't + V!",
@@ -261,20 +263,20 @@
      ],
      "ex": [
       [
-       "Let's go to school!",
-       "Đi học thôi!"
+       "Let's go to the meeting!",
+       "Đi họp thôi!"
       ],
       [
        "Don't call me!",
-       "Đừng gọi con!"
+       "Đừng gọi tôi!"
       ],
       [
        "Don't sleep! Get up!",
        "Đừng ngủ nữa! Dậy đi!"
       ]
      ],
-     "bad": "Let's we go to school!",
-     "good": "Let's go to school!",
+     "bad": "Let's we go to the meeting!",
+     "good": "Let's go to the meeting!",
      "why": "Let's = Let us, đã chứa sẵn 'chúng ta', nên không thêm 'we'. Sau Let's và Don't là động từ nguyên mẫu, không có 'to' (không nói 'Let's to go', 'Don't to sleep'). Let's giống 吧 trong tiếng Trung (起床吧)."
     }
    ],
@@ -358,7 +360,7 @@
      }
     },
     {
-     "q": "Điền: I want to ___. Don't call me! (Con muốn ngủ.)",
+     "q": "Điền: I want to ___. Don't call me! (Tôi muốn ngủ.)",
      "opts": [
       "sleep",
       "get up",
@@ -366,8 +368,8 @@
      ],
      "a": 0,
      "why": {
-      "1": "Sai: get up = thức dậy – người nói đang không muốn dậy, nên không hợp với 'Đừng gọi con!'.",
-      "2": "Sai: go to school = đi học; không khớp với ý 'đừng gọi con'."
+      "1": "Sai: get up = thức dậy – người nói đang không muốn dậy, nên không hợp với 'Đừng gọi tôi!'.",
+      "2": "Sai: go to school = đi học; không khớp với ý 'đừng gọi tôi'."
      }
     }
    ],
@@ -386,11 +388,11 @@
      }
     },
     {
-     "q": "Biến 'We go to school.' thành lời rủ:",
+     "q": "Biến 'We go to the meeting.' thành lời rủ:",
      "opts": [
-      "Let's to go to school!",
-      "Let's we go to school!",
-      "Let's go to school!"
+      "Let's to go to the meeting!",
+      "Let's we go to the meeting!",
+      "Let's go to the meeting!"
      ],
      "a": 2,
      "why": {
@@ -400,7 +402,7 @@
     },
     {
      "k": "type",
-     "q": "Điền 1 từ: ___ call me! (Đừng gọi con!)",
+     "q": "Điền 1 từ: ___ call me! (Đừng gọi tôi!)",
      "model": "Don't",
      "accept": [
       "Don't",
@@ -413,11 +415,11 @@
      "why": "Cấm/ngăn ai làm gì: Don't + động từ nguyên mẫu. Không dùng 'No call me' hay 'Not call me' (lỗi dịch từ 'đừng/không')."
     },
     {
-     "q": "Chọn câu ĐÚNG: 'Mình đi học lúc bảy giờ rưỡi.'",
+     "q": "Chọn câu ĐÚNG: 'Bé Ben đi học lúc bảy giờ rưỡi.'",
      "opts": [
-      "I go to school at half past seven.",
-      "I at half past seven go to school.",
-      "I go to school half past seven at."
+      "Ben goes to school at half past seven.",
+      "Ben at half past seven goes to school.",
+      "Ben goes to school half past seven at."
      ],
      "a": 0,
      "why": {
@@ -436,7 +438,7 @@
      "why": "Trước giờ cụ thể luôn dùng 'at': at seven o'clock, at half past six. Không dùng 'in' hay 'on' cho giờ."
     },
     {
-     "q": "'Sao con vẫn còn nằm trên giường?' – chọn câu đúng:",
+     "q": "Gọi điện cho bạn cùng phòng lúc 8 giờ: 'Sao bạn vẫn còn nằm trên giường?' – chọn câu đúng:",
      "opts": [
       "Why you still in bed?",
       "Why are you still in bed?",
@@ -493,7 +495,7 @@
      "audio": "I get up at seven o'clock."
     },
     {
-     "q": "Nghe: người nói đi học lúc mấy giờ?",
+     "q": "Nghe: cuộc họp lúc mấy giờ?",
      "opts": [
       "7:14",
       "4:07",
@@ -504,7 +506,7 @@
       "0": "Sai: forty (40) nhấn âm ĐẦU 'FOR-ty'; fourteen (14) nhấn âm SAU 'four-TEEN'.",
       "1": "Sai: tiếng Anh nói giờ trước, phút sau: seven forty = 7 giờ 40."
      },
-     "audio": "I go to school at seven forty."
+     "audio": "The meeting is at seven forty."
     },
     {
      "q": "Nghe: người nói cảm thấy thế nào?",
@@ -565,7 +567,7 @@
      "audio": "What time is it?"
     },
     {
-     "q": "TOEIC Bridge – Hỏi & đáp: nghe câu nói, chọn câu đáp phù hợp nhất.",
+     "q": "TOEIC Bridge – Hỏi & đáp: nghe câu nói (mẹ gọi An dậy), chọn câu đáp phù hợp nhất.",
      "opts": [
       "Nice to meet you.",
       "OK, Mum.",
@@ -576,21 +578,21 @@
       "0": "Sai: câu này dùng khi gặp người lạ lần đầu, không dùng để đáp lời gọi dậy.",
       "2": "Sai: tạm biệt không phải câu đáp khi mẹ gọi dậy."
      },
-     "audio": "Get up, Leo!"
+     "audio": "Get up, An! It's seven o'clock!"
     },
     {
      "q": "TOEIC Bridge – Hỏi & đáp: nghe câu hỏi, chọn câu đáp phù hợp nhất.",
      "opts": [
       "At school.",
-      "Yes, I go.",
-      "At half past seven."
+      "Yes, it is.",
+      "At half past eight."
      ],
      "a": 2,
      "why": {
       "0": "Sai: câu hỏi 'What time' hỏi GIỜ, còn 'At school' trả lời nơi chốn.",
       "1": "Sai: câu hỏi Wh- (What time…) không trả lời Yes/No."
      },
-     "audio": "What time do you go to school?"
+     "audio": "What time is the meeting?"
     },
     {
      "q": "TOEIC Bridge – Hỏi & đáp: nghe câu nói, chọn câu đáp phù hợp nhất.",
@@ -651,13 +653,13 @@
      "focus": "still /stɪl/: /t/ sau /s/ KHÔNG bật hơi, không chèn 'xờ' ('xờ-tiu'). Nối still‿in → 'sti-lin'. bed có /d/ cuối."
     },
     {
-     "t": "Let's go to school!",
-     "focus": "Let's kết thúc bằng /ts/. school /skuːl/: /k/ sau /s/ không bật hơi, có /l/ cuối – không đọc 'xờ-cun'."
+     "t": "Let's go to the meeting!",
+     "focus": "Let's kết thúc bằng /ts/. meeting /ˈmiːtɪŋ/: i dài, giữ /ŋ/ cuối (không bật 'g'), không đọc 'mít-tinh'."
     }
    ],
    "dialog": {
-    "title": "Bạn cùng phòng ký túc xá gọi bạn dậy buổi sáng",
-    "partner": "Sophie",
+    "title": "Bạn cùng phòng trọ gọi bạn dậy đi làm",
+    "partner": "Linh",
     "turns": [
      {
       "ai": "Good morning! Get up!",
@@ -686,14 +688,15 @@
       "hint": "Nói là vẫn còn sớm, bạn muốn ngủ."
      },
      {
-      "ai": "What time do you go to school?",
-      "vi": "Mấy giờ bạn đi học?",
+      "ai": "What time is the meeting?",
+      "vi": "Mấy giờ họp?",
       "model": "At half past seven.",
       "accept": [
        "At half past seven.",
        "Half past seven.",
        "At seven thirty.",
-       "I go to school at half past seven."
+       "It's at half past seven.",
+       "The meeting is at half past seven."
       ],
       "frame": "At half ___ seven.",
       "hint": "Trả lời: 7 giờ rưỡi (nhớ 'at' trước giờ)."
@@ -714,70 +717,70 @@
     ]
    },
    "reading": {
-    "text": "My name is Leo. I'm a student. I get up at seven twenty in the morning. I go to school at half past seven. My mum gets up at half past six. She says, \"Leo, get up! Don't be late!\"",
-    "vi": "Mình tên là Leo. Mình là học sinh. Buổi sáng mình dậy lúc bảy giờ hai mươi. Mình đi học lúc bảy giờ rưỡi. Mẹ mình dậy lúc sáu giờ rưỡi. Mẹ nói: “Leo, dậy đi! Đừng đi muộn!”",
+    "text": "My name is Kevin. I get up at seven twenty in the morning. The meeting is at half past eight. My son, Ben, gets up at half past six. He says, \"Dad, get up! Don't be late!\"",
+    "vi": "Tôi tên là Kevin. Buổi sáng tôi dậy lúc bảy giờ hai mươi. Cuộc họp lúc tám giờ rưỡi. Con trai tôi, bé Ben, dậy lúc sáu giờ rưỡi. Cháu nói: “Bố ơi, dậy đi! Đừng đi muộn!”",
     "qs": [
      {
-      "q": "Leo dậy lúc mấy giờ?",
+      "q": "Kevin dậy lúc mấy giờ?",
       "opts": [
-       "7:30",
+       "8:30",
        "6:30",
        "7:20"
       ],
       "a": 2,
       "why": {
-       "0": "Sai: 7:30 (half past seven) là giờ Leo đi học.",
-       "1": "Sai: 6:30 là giờ mẹ dậy."
+       "0": "Sai: 8:30 (half past eight) là giờ họp.",
+       "1": "Sai: 6:30 là giờ bé Ben dậy."
       }
      },
      {
-      "q": "Leo đi học lúc mấy giờ?",
+      "q": "Cuộc họp lúc mấy giờ?",
       "opts": [
-       "7:30",
+       "8:30",
        "7:20",
        "6:30"
       ],
       "a": 0,
       "why": {
-       "1": "Sai: 7:20 là giờ Leo thức dậy.",
-       "2": "Sai: 6:30 là giờ mẹ dậy."
+       "1": "Sai: 7:20 là giờ Kevin thức dậy.",
+       "2": "Sai: 6:30 là giờ Ben dậy."
       }
      },
      {
-      "q": "Mẹ dậy lúc mấy giờ?",
+      "q": "Bé Ben dậy lúc mấy giờ?",
       "opts": [
        "7:20",
        "6:30",
-       "7:30"
+       "8:30"
       ],
       "a": 1,
       "why": {
-       "0": "Sai: đó là giờ Leo dậy.",
-       "2": "Sai: đó là giờ Leo đi học."
+       "0": "Sai: đó là giờ Kevin dậy.",
+       "2": "Sai: đó là giờ họp."
       }
      },
      {
       "q": "Ai dậy sớm hơn?",
       "opts": [
-       "Leo",
+       "Kevin",
        "Hai người dậy cùng giờ",
-       "Mẹ"
+       "Ben"
       ],
       "a": 2,
       "why": {
-       "0": "Sai: Leo dậy 7:20, muộn hơn mẹ (6:30).",
+       "0": "Sai: Kevin dậy 7:20, muộn hơn Ben (6:30).",
        "1": "Sai: 6:30 và 7:20 là hai giờ khác nhau."
       }
      },
      {
-      "q": "Đúng hay sai: \"Leo is a teacher.\"",
+      "q": "Đúng hay sai: \"Ben gets up at seven twenty.\"",
       "opts": [
        "Đúng",
        "Sai"
       ],
       "a": 1,
       "why": {
-       "0": "Không đúng: bài viết nói 'I'm a student' – Leo là học sinh, không phải giáo viên."
+       "0": "Không đúng: Ben dậy lúc half past six (6:30); seven twenty (7:20) là giờ Kevin dậy."
       }
      }
     ]
@@ -787,7 +790,7 @@
    "id": "w2-thu-3",
    "label": "Thứ 3",
    "title": "Bữa sáng: mời và nhường",
-   "desc": "Gọi tên đồ ăn sáng, nói mình muốn ăn/uống gì, mời bằng Would you like…? và đưa đồ bằng Here you are.",
+   "desc": "Gọi tên đồ ăn sáng, nói mình muốn ăn/uống gì, mời bằng Would you like…?, nhận/từ chối lịch sự (Yes, please / No, thanks) và đưa đồ bằng Here you are – qua cảnh ăn sáng ở pantry công ty.",
    "rule": "Mời: Would you like some milk? – Đáp: Yes, please. / No, thanks. Muốn làm gì: I want TO + động từ (I want to drink water); milk, water, bread không đếm được nên không dùng 'a'.",
    "cards": [
     {
@@ -802,7 +805,7 @@
      "w": "eat",
      "m": "ăn",
      "ex": "I want to eat a bun.",
-     "exm": "Con muốn ăn một cái bánh bao.",
+     "exm": "Tôi muốn ăn một cái bánh bao.",
      "n": "eat đi với đồ ăn (bun, bread, egg). Đồ uống dùng drink – không nói 'eat milk'."
     },
     {
@@ -823,7 +826,7 @@
      "w": "bread",
      "m": "bánh mì",
      "ex": "I love bread and eggs.",
-     "exm": "Mình rất thích bánh mì và trứng.",
+     "exm": "Tôi rất thích bánh mì và trứng.",
      "n": "Không đếm được: KHÔNG nói 'a bread' hay 'breads'. Nói some bread / a piece of bread.",
      "img": "bread"
     },
@@ -838,8 +841,8 @@
     {
      "w": "milk",
      "m": "sữa",
-     "ex": "Have a little milk.",
-     "exm": "Uống thêm chút sữa đi.",
+     "ex": "Would you like a little milk?",
+     "exm": "Bạn uống một chút sữa không?",
      "n": "Không đếm được: không nói 'a milk'. Nói some milk / a cup of milk / a little milk.",
      "img": "milk"
     },
@@ -847,7 +850,7 @@
      "w": "water",
      "m": "nước",
      "ex": "No milk, thanks. Water, please.",
-     "exm": "Không uống sữa đâu ạ. Cho con nước.",
+     "exm": "Không uống sữa đâu, cảm ơn. Cho tôi nước nhé.",
      "n": "Không đếm được: some water, a cup of water. Đọc /ˈwɔːtə/ – 'UÔ-tơ', nhấn âm đầu."
     },
     {
@@ -860,64 +863,64 @@
     {
      "w": "half",
      "m": "một nửa",
-     "ex": "Half for you, half for Sam.",
-     "exm": "Một nửa cho con, một nửa cho Sam.",
+     "ex": "Half for you, half for Linh.",
+     "exm": "Một nửa cho bạn, một nửa cho Linh.",
      "n": "half /hɑːf/ – chữ l câm. Đã gặp trong 'half past seven' (thứ 2)."
     },
     {
      "w": "Would you like …?",
      "m": "Bạn có muốn …? (lời mời lịch sự)",
      "ex": "Would you like an egg?",
-     "exm": "Con ăn trứng không?",
-     "n": "Would you like + danh từ (an egg) hoặc + TO + động từ (to eat). Đáp: Yes, please. / No, thanks."
+     "exm": "Bạn ăn trứng không?",
+     "n": "Cách mời lịch sự ở công sở, với sếp, khách hàng. Would you like + danh từ (an egg) hoặc + TO + động từ (to eat). Đáp: Yes, please. / No, thanks."
     },
     {
      "w": "Here you are.",
      "m": "Đây (đưa cho bạn).",
      "ex": "Here you are. Have some water!",
-     "exm": "Đây con. Uống nước đi!",
+     "exm": "Của bạn đây. Uống nước đi!",
      "n": "Nói khi đưa đồ cho ai. Không nói 'You are here' (= bạn ở đây rồi) hay 'Here are you'."
     }
    ],
    "scene": {
-    "setting": "Bữa sáng vội vàng ở nhà. Mẹ Mary dọn đồ ăn, chỉ còn một cái bánh bao nên Sam và Leo tranh nhau; Leo không chịu uống sữa.",
-    "img": "s-w2-d2",
-    "imgPrompt": "Rushed family breakfast at the kitchen table: liumei puts down a plate with a single last steamed bun beside bread and boiled eggs; xiaoyu and liuxing both reach for the bun at the same time; liuxing pushes away a glass of milk while liumei holds out a cup of water. No text in the image.",
+    "setting": "8 giờ sáng ở pantry (phòng ăn nhỏ) của văn phòng. Kevin mang đồ ăn sáng đến mời mọi người; chỉ còn một cái bánh bao nên anh chia đôi cho An và Linh. An lịch sự từ chối sữa và xin nước.",
+    "img": "thanks",
+    "imgPrompt": "A small office pantry with a coffee machine and mugs on the shelves: kevin, in an olive-green shirt, hands a yellow cup to an, in a blue top, who smiles with one hand on her chest to say thank you; city view through the window.",
     "lines": [
      {
-      "who": "Mary",
-      "t": "Sit down! Let's have breakfast. We have buns, bread and eggs.",
-      "vi": "Ngồi xuống ăn sáng nào! Có bánh bao, bánh mì và trứng."
+      "who": "Kevin",
+      "t": "Good morning! Let's have breakfast. We have buns, bread and eggs.",
+      "vi": "Chào buổi sáng! Ăn sáng thôi. Có bánh bao, bánh mì và trứng nhé."
      },
      {
-      "who": "Sam",
-      "t": "I want a bun!",
-      "vi": "Con muốn ăn bánh bao!"
+      "who": "An",
+      "t": "Thank you! I want a bun, please.",
+      "vi": "Cảm ơn anh! Cho em một cái bánh bao ạ."
      },
      {
-      "who": "Leo",
-      "t": "There's only one bun! I love buns too!",
-      "vi": "Chỉ còn một cái bánh bao! Con cũng thích ăn mà!"
+      "who": "Kevin",
+      "t": "Oh, there's only one bun! Half for you, half for Linh.",
+      "vi": "Ồ, chỉ còn một cái bánh bao! Một nửa cho em, một nửa cho Linh."
      },
      {
-      "who": "Mary",
-      "t": "Half for you, half for Sam. And have a little milk.",
-      "vi": "Mỗi đứa một nửa. Uống thêm chút sữa nữa."
+      "who": "Kevin",
+      "t": "Would you like some milk?",
+      "vi": "Em uống sữa không?"
      },
      {
-      "who": "Leo",
-      "t": "No milk, thanks! Where's my cup?",
-      "vi": "Con không uống sữa đâu! Cốc của con đâu ạ?"
+      "who": "An",
+      "t": "No, thanks. I want to drink water.",
+      "vi": "Dạ không, em cảm ơn. Em muốn uống nước."
      },
      {
-      "who": "Mary",
-      "t": "Here you are. Have some water, then!",
-      "vi": "Đây. Vậy thì uống nước đi!"
+      "who": "Kevin",
+      "t": "Here you are. Have a little water… and an egg!",
+      "vi": "Của em đây. Uống chút nước… và ăn thêm quả trứng nhé!"
      },
      {
-      "who": "Sam",
-      "t": "Thank you, Mum!",
-      "vi": "Con cảm ơn mẹ!"
+      "who": "An",
+      "t": "Thank you, Kevin!",
+      "vi": "Em cảm ơn anh Kevin!"
      }
     ]
    },
@@ -944,11 +947,11 @@
      "ex": [
       [
        "Would you like some milk? – No, thanks.",
-       "Con uống sữa không? – Dạ không ạ."
+       "Bạn uống sữa không? – Không, cảm ơn."
       ],
       [
        "Would you like a bun? – Yes, please.",
-       "Ăn bánh bao không? – Vâng ạ."
+       "Ăn bánh bao không? – Vâng, cho tôi một cái."
       ]
      ],
      "bad": "Would you like eat an egg?",
@@ -972,15 +975,15 @@
      "ex": [
       [
        "I want a bun!",
-       "Con muốn bánh bao!"
+       "Tôi muốn bánh bao!"
       ],
       [
        "I want to drink water.",
-       "Con muốn uống nước."
+       "Tôi muốn uống nước."
       ],
       [
        "I don't want milk.",
-       "Con không muốn sữa."
+       "Tôi không muốn sữa."
       ]
      ],
      "bad": "I want drink milk.",
@@ -1083,7 +1086,7 @@
      }
     },
     {
-     "q": "Điền: There's only one bun. ___ for you, half for Sam.",
+     "q": "Điền: There's only one bun. ___ for you, half for Linh.",
      "opts": [
       "Half",
       "A little",
@@ -1092,7 +1095,7 @@
      "a": 0,
      "why": {
       "1": "Sai: a little dùng với danh từ không đếm được (a little milk); ở đây là chia đôi cái bánh.",
-      "2": "Sai: 'Here for you' không có nghĩa 'một nửa cho con'."
+      "2": "Sai: 'Here for you' không có nghĩa 'một nửa cho bạn'."
      }
     },
     {
@@ -1124,7 +1127,7 @@
      }
     },
     {
-     "q": "Mẹ hỏi: 'Would you like an egg?' – Bạn muốn nhận. Đáp:",
+     "q": "Kevin hỏi: 'Would you like an egg?' – Bạn muốn nhận. Đáp:",
      "opts": [
       "Yes, please.",
       "Yes, I like.",
@@ -1138,7 +1141,7 @@
     },
     {
      "k": "type",
-     "q": "Điền 1 từ: I want ___ drink water. (Con muốn uống nước.)",
+     "q": "Điền 1 từ: I want ___ drink water. (Tôi muốn uống nước.)",
      "model": "to",
      "accept": [
       "to"
@@ -1212,7 +1215,7 @@
       "0": "Sai: nước là 'water'; bạn nghe 'milk'.",
       "1": "Sai: 'a cup of' = một cốc, đi với đồ uống, không phải trứng."
      },
-     "audio": "Mum, I want a cup of milk."
+     "audio": "Kevin, I want a cup of milk."
     },
     {
      "q": "Nghe: câu này nói gì?",
@@ -1273,16 +1276,16 @@
     {
      "q": "Nghe: bánh bao được chia thế nào?",
      "opts": [
-      "Cho Sam cả cái",
+      "Cho Linh cả cái",
       "Chia đôi cho hai người",
       "Chỉ cho bạn"
      ],
      "a": 1,
      "why": {
-      "0": "Sai: 'half for you, half for Sam' – mỗi người một nửa.",
-      "2": "Sai: Sam cũng được một nửa."
+      "0": "Sai: 'half for you, half for Linh' – mỗi người một nửa.",
+      "2": "Sai: Linh cũng được một nửa."
      },
-     "audio": "Half for you, half for Sam."
+     "audio": "Half for you, half for Linh."
     }
    ],
    "hsk": [
@@ -1313,7 +1316,7 @@
      }
     },
     {
-     "q": "TOEIC Bridge – Đọc: \"Mum gets up at seven and has breakfast at half past seven.\" ★ What time does Mum have breakfast?",
+     "q": "TOEIC Bridge – Đọc: \"Sarah gets up at seven and has breakfast at half past seven.\" ★ What time does Sarah have breakfast?",
      "opts": [
       "At seven.",
       "At half past seven.",
@@ -1321,7 +1324,7 @@
      ],
      "a": 1,
      "why": {
-      "0": "Sai: 7:00 là giờ mẹ DẬY (gets up).",
+      "0": "Sai: 7:00 là giờ Sarah DẬY (gets up).",
       "2": "Sai: câu không nhắc đến 8 giờ."
      }
     },
@@ -1339,7 +1342,7 @@
      }
     },
     {
-     "q": "TOEIC Bridge – Đọc: \"Sam, have a little more water!\" ★ Sam should:",
+     "q": "TOEIC Bridge – Đọc: \"Linh, have a little more water!\" ★ Linh should:",
      "opts": [
       "drink water",
       "eat a bun",
@@ -1382,17 +1385,17 @@
      "focus": "Nối want‿a → 'won-tơ'. bun /bʌn/ có /n/ cuối rõ, âm 'ă' ngắn."
     },
     {
-     "t": "Half for you, half for Sam.",
-     "focus": "half: l câm /hɑːf/. Nhấn 'HALF' và 'YOU', 'SAM' để thể hiện chia đều."
+     "t": "Half for you, half for Linh.",
+     "focus": "half: l câm /hɑːf/. Nhấn 'HALF' và 'YOU', 'LINH' để thể hiện chia đều."
     }
    ],
    "dialog": {
-    "title": "Ăn sáng ở nhà bạn – mẹ bạn mời bạn ăn",
-    "partner": "Mary",
+    "title": "Ăn sáng ở pantry công ty – đồng nghiệp mời bạn",
+    "partner": "Kevin",
     "turns": [
      {
       "ai": "Good morning! Sit down. Let's have breakfast!",
-      "vi": "Chào cháu! Ngồi đi. Ăn sáng nào!",
+      "vi": "Chào bạn! Ngồi đi. Ăn sáng nào!",
       "model": "Thank you!",
       "accept": [
        "Thank you!",
@@ -1405,7 +1408,7 @@
      },
      {
       "ai": "What would you like? A bun or some bread?",
-      "vi": "Cháu muốn ăn gì? Bánh bao hay bánh mì?",
+      "vi": "Bạn muốn ăn gì? Bánh bao hay bánh mì?",
       "model": "A bun, please.",
       "accept": [
        "A bun, please.",
@@ -1419,7 +1422,7 @@
      },
      {
       "ai": "Would you like some milk?",
-      "vi": "Cháu uống sữa không?",
+      "vi": "Bạn uống sữa không?",
       "model": "No, thanks. A little water, please.",
       "accept": [
        "No, thanks. A little water, please.",
@@ -1432,7 +1435,7 @@
      },
      {
       "ai": "Here you are. Have an egg too!",
-      "vi": "Đây cháu. Ăn thêm quả trứng nữa nhé!",
+      "vi": "Của bạn đây. Ăn thêm quả trứng nữa nhé!",
       "model": "OK, thank you!",
       "accept": [
        "OK, thank you!",
@@ -1446,11 +1449,11 @@
     ]
    },
    "reading": {
-    "text": "At seven o'clock, I have breakfast with my mum. My mum loves buns. I love bread and eggs. I don't like milk. My mum says, \"Have a little milk!\"",
-    "vi": "Lúc bảy giờ, mình ăn sáng với mẹ. Mẹ mình rất thích bánh bao. Mình rất thích bánh mì và trứng. Mình không thích sữa. Mẹ nói: “Uống một chút sữa đi!”",
+    "text": "At seven o'clock, I have breakfast with Linh. Linh loves buns. I love bread and eggs. I don't like milk. Linh says, \"Have a little milk!\"",
+    "vi": "Lúc bảy giờ, tôi ăn sáng với Linh. Linh rất thích bánh bao. Tôi rất thích bánh mì và trứng. Tôi không thích sữa. Linh nói: “Uống một chút sữa đi!”",
     "qs": [
      {
-      "q": "Mấy giờ hai mẹ con ăn sáng?",
+      "q": "Mấy giờ người viết và Linh ăn sáng?",
       "opts": [
        "7:30",
        "7:00",
@@ -1463,7 +1466,7 @@
       }
      },
      {
-      "q": "Mẹ thích ăn gì?",
+      "q": "Linh thích ăn gì?",
       "opts": [
        "Bánh mì",
        "Trứng",
@@ -1484,32 +1487,32 @@
       ],
       "a": 0,
       "why": {
-       "1": "Sai: bánh bao là món mẹ thích.",
+       "1": "Sai: bánh bao là món Linh thích.",
        "2": "Sai: 'I don't like milk' – không thích sữa."
       }
      },
      {
-      "q": "Đúng hay sai: \"My mum loves bread.\"",
+      "q": "Đúng hay sai: \"Linh loves bread.\"",
       "opts": [
        "Đúng",
        "Sai"
       ],
       "a": 1,
       "why": {
-       "0": "Không đúng: mẹ thích buns (bánh bao); bread là món người viết thích."
+       "0": "Không đúng: Linh thích buns (bánh bao); bread là món người viết thích."
       }
      },
      {
-      "q": "Mẹ bảo người viết làm gì?",
+      "q": "Linh bảo người viết làm gì?",
       "opts": [
        "Ăn thêm trứng",
-       "Đi học đi",
+       "Đi làm đi",
        "Uống một chút sữa"
       ],
       "a": 2,
       "why": {
-       "0": "Sai: mẹ nói 'Have a little milk' – về sữa, không phải trứng.",
-       "1": "Sai: câu của mẹ không nhắc đến đi học."
+       "0": "Sai: Linh nói 'Have a little milk' – về sữa, không phải trứng.",
+       "1": "Sai: câu của Linh không nhắc đến đi làm."
       }
      }
     ]
@@ -1519,14 +1522,14 @@
    "id": "w2-thu-4",
    "label": "Thứ 4",
    "title": "Đồ vật, vị trí: tìm đồ",
-   "desc": "Hỏi đồ vật ở đâu (Where is…?), trả lời với on / under / in, nói 'có' bằng There is / There are.",
+   "desc": "Hỏi đồ vật ở đâu (Where is my book / cup / phone?), trả lời với on / under / in, nói 'có' bằng There is / There are – qua cảnh Linh tìm đồ ở khu làm việc.",
    "rule": "Where is my book? – It's ON / UNDER / IN + the + đồ vật (on the table). Giới từ đứng TRƯỚC danh từ (ngược tiếng Trung 桌子上). 'Ở đâu đó có…' dùng There is (1) / There are (nhiều), không dùng 'have'.",
    "cards": [
     {
      "w": "Where is …?",
      "m": "… ở đâu?",
-     "ex": "Mum, where's my book?",
-     "exm": "Mẹ ơi, sách của con đâu?",
+     "ex": "Kevin, where's my book?",
+     "exm": "Anh Kevin, quyển sách của em đâu?",
      "n": "Where's = Where is. Số nhiều: Where are my things? Câu hỏi xuống giọng ở cuối.",
      "img": "where"
     },
@@ -1534,7 +1537,7 @@
      "w": "look for",
      "m": "tìm",
      "ex": "I'm looking for my book.",
-     "exm": "Con đang tìm quyển sách.",
+     "exm": "Tôi đang tìm quyển sách.",
      "n": "look FOR = tìm; look AT = nhìn vào; see = nhìn thấy. Đừng quên 'for': không nói 'I look my book'."
     },
     {
@@ -1550,7 +1553,7 @@
      "m": "cái bàn",
      "ex": "The cup is on the table.",
      "exm": "Cái cốc ở trên bàn.",
-     "n": "Bàn học của học sinh thường gọi là desk; 'in the desk' = trong ngăn bàn.",
+     "n": "Bàn làm việc ở văn phòng thường gọi là desk; 'in the desk' = trong ngăn bàn.",
      "img": "table"
     },
     {
@@ -1563,9 +1566,9 @@
     },
     {
      "w": "bag",
-     "m": "cái cặp, cái túi",
+     "m": "cái túi, cái cặp",
      "ex": "My things are in my bag.",
-     "exm": "Đồ của mình ở trong cặp.",
+     "exm": "Đồ của tôi ở trong túi.",
      "n": "bag /bæɡ/ – a mở rộng miệng; khác back /bæk/ (lưng, quay lại).",
      "img": "bag"
     },
@@ -1587,7 +1590,7 @@
      "w": "in",
      "m": "ở trong",
      "ex": "There are two books in my bag.",
-     "exm": "Trong cặp mình có hai quyển sách.",
+     "exm": "Trong túi tôi có hai quyển sách.",
      "n": "in the bag, in the desk (trong ngăn bàn). in + the + đồ vật."
     },
     {
@@ -1601,51 +1604,51 @@
      "w": "see",
      "m": "nhìn thấy",
      "ex": "I see it! It's under the chair!",
-     "exm": "Em thấy rồi! Nó ở dưới ghế!",
+     "exm": "Thấy rồi! Nó ở dưới ghế!",
      "n": "see = nhìn thấy (có kết quả); look = nhìn (hành động). Giống 看见 khác 看 trong tiếng Trung."
     },
     {
      "w": "There is / There are",
      "m": "Có (ở đâu đó)",
      "ex": "There are some things in your desk.",
-     "exm": "Trong ngăn bàn con có mấy thứ này.",
+     "exm": "Trong ngăn bàn của bạn có mấy thứ này.",
      "n": "There is + 1 vật; There are + nhiều vật. Không dùng 'have' để nói 'có' ở một chỗ."
     }
    ],
    "scene": {
-    "setting": "Sáng trước giờ đi học, Leo không tìm thấy sách tiếng Anh. Sam tìm giúp, còn mẹ Mary phát hiện mấy 'món đồ' khác trong ngăn bàn của Leo.",
-    "img": "s-w2-d3",
-    "imgPrompt": "A boy's bedroom before school, messy: liuxing searches frantically through papers on the table; xiaoyu crouches on the floor pointing at a book lying under the chair; liumei stands by the open desk drawer full of comic books and snacks, raising an eyebrow. No text in the image.",
+    "setting": "Sáng thứ Tư ở khu làm việc chung. Linh sắp đi họp nhưng không tìm thấy quyển sách tiếng Anh; Kevin ngồi đối diện giúp tìm, rồi phát hiện trong túi Linh còn có cả cốc và điện thoại.",
+    "img": "work",
+    "imgPrompt": "A busy open-plan office with long shared desks: linh, in a mustard-yellow top, works on a laptop with notebooks beside her, while kevin, in glasses and a navy shirt, sits across the desk; colleagues at laptops in the background, large windows.",
     "lines": [
      {
-      "who": "Leo",
-      "t": "Mum, where's my English book?",
-      "vi": "Mẹ ơi, sách tiếng Anh của con đâu ạ?"
+      "who": "Linh",
+      "t": "Kevin, where's my English book?",
+      "vi": "Anh Kevin, quyển sách tiếng Anh của em đâu rồi?"
      },
      {
-      "who": "Mary",
+      "who": "Kevin",
       "t": "Which book? Is it on the table?",
       "vi": "Quyển nào? Trên bàn không có à?"
      },
      {
-      "who": "Leo",
-      "t": "No! It's not here, and it's not there!",
-      "vi": "Không có! Chỗ này không có, chỗ kia cũng không!"
+      "who": "Linh",
+      "t": "No! I'm looking for it… It's not here, and it's not there!",
+      "vi": "Không có! Em đang tìm… Chỗ này không có, chỗ kia cũng không!"
      },
      {
-      "who": "Sam",
+      "who": "Kevin",
       "t": "I see it! It's under the chair!",
-      "vi": "Em thấy rồi! Ở dưới ghế kìa!"
+      "vi": "Anh thấy rồi! Ở dưới ghế kìa!"
      },
      {
-      "who": "Mary",
-      "t": "And there are these things in your desk. Are they your things too?",
-      "vi": "Trong ngăn bàn còn có mấy thứ này. Cũng là đồ của con à?"
+      "who": "Kevin",
+      "t": "And there are two cups and a phone in your bag. Are they your things too?",
+      "vi": "Trong túi em còn có hai cái cốc và một cái điện thoại. Cũng là đồ của em à?"
      },
      {
-      "who": "Leo",
-      "t": "…Yes, they're my things. Thanks, Mum!",
-      "vi": "… Dạ, đồ của con ạ. Con cảm ơn mẹ!"
+      "who": "Linh",
+      "t": "…Yes, they're my things. Thanks, Kevin!",
+      "vi": "… Dạ, đồ của em ạ. Em cảm ơn anh Kevin!"
      }
     ]
    },
@@ -1672,11 +1675,11 @@
      "ex": [
       [
        "Where's my cup? – It's under the chair.",
-       "Cốc của mình đâu? – Ở dưới ghế."
+       "Cốc của tôi đâu? – Ở dưới ghế."
       ],
       [
        "Where are my things? – They're in the bag.",
-       "Đồ của mình đâu? – Ở trong cặp."
+       "Đồ của tôi đâu? – Ở trong túi."
       ]
      ],
      "bad": "It's table on.",
@@ -1732,7 +1735,7 @@
      "ex": [
       [
        "Is it in your bag? – Yes, it is.",
-       "Có trong cặp không? – Có."
+       "Có trong túi không? – Có."
       ],
       [
        "Is it on the chair? – No, it isn't.",
@@ -2011,12 +2014,12 @@
      "q": "Nghe: câu này có nghĩa là gì?",
      "opts": [
       "Mấy thứ này đều là đồ của mình",
-      "Mấy thứ này là đồ của mẹ",
+      "Mấy thứ này là đồ của Kevin",
       "Mấy thứ này không phải của mình"
      ],
      "a": 0,
      "why": {
-      "1": "Sai: câu nói 'my things' = đồ của MÌNH.",
+      "1": "Sai: câu nói 'my things' = đồ của MÌNH, không nhắc đến Kevin.",
       "2": "Sai: câu khẳng định 'These are…', không có 'not'."
      },
      "audio": "These are all my things."
@@ -2038,18 +2041,18 @@
      "audio": "My book is on the table. Where is the book?"
     },
     {
-     "q": "Movers – Listening: nghe và trả lời câu hỏi. What is he looking for?",
+     "q": "Movers – Listening: nghe và trả lời câu hỏi. What is she looking for?",
      "opts": [
-      "His book.",
+      "Her book.",
       "A chair.",
-      "His cup."
+      "Her cup."
      ],
      "a": 2,
      "why": {
       "0": "Sai: bạn nghe 'my cup', không phải book.",
       "1": "Sai: chair không có trong câu."
      },
-     "audio": "Mum, I'm looking for my cup. What is he looking for?"
+     "audio": "Kevin, I'm looking for my cup. What is she looking for?"
     },
     {
      "q": "Movers – Listening: nghe và trả lời câu hỏi. How many books are in the desk?",
@@ -2129,12 +2132,12 @@
     }
    ],
    "dialog": {
-    "title": "Tìm cái cốc trong phòng",
-    "partner": "Mary",
+    "title": "Tìm cái cốc ở văn phòng",
+    "partner": "Kevin",
     "turns": [
      {
       "ai": "What are you looking for?",
-      "vi": "Con đang tìm gì thế?",
+      "vi": "Bạn đang tìm gì thế?",
       "model": "I'm looking for my cup.",
       "accept": [
        "I'm looking for my cup.",
@@ -2173,22 +2176,22 @@
      },
      {
       "ai": "Is that book your book too?",
-      "vi": "Quyển sách kia cũng là của con à?",
-      "model": "No, it isn't. It's my sister's.",
+      "vi": "Quyển sách kia cũng là của bạn à?",
+      "model": "No, it isn't. It's Linh's.",
       "accept": [
-       "No, it isn't. It's my sister's.",
-       "No, it's my sister's book.",
-       "No, it's my sister's.",
+       "No, it isn't. It's Linh's.",
+       "No, it's Linh's book.",
+       "No, it's Linh's.",
        "No, it isn't."
       ],
-      "frame": "No, it isn't. It's my ___'s.",
-      "hint": "Nói không phải – là của chị/em gái (sister's)."
+      "frame": "No, it isn't. It's ___'s.",
+      "hint": "Nói không phải – là của Linh (Linh's)."
      }
     ]
    },
    "reading": {
-    "text": "There are three books on the table. Two are my books, and one is my sister's book. There is a cup under the chair. In my desk, there are these things: two buns and an egg.",
-    "vi": "Trên bàn có ba quyển sách. Hai quyển là của mình, một quyển là của chị gái. Dưới ghế có một cái cốc. Trong ngăn bàn của mình có mấy thứ này: hai cái bánh bao và một quả trứng.",
+    "text": "There are three books on the table. Two are my books, and one is Linh's book. There is a cup under the chair. In my desk, there are these things: two buns and an egg.",
+    "vi": "Trên bàn có ba quyển sách. Hai quyển là của tôi, một quyển là của Linh. Dưới ghế có một cái cốc. Trong ngăn bàn của tôi có mấy thứ này: hai cái bánh bao và một quả trứng.",
     "qs": [
      {
       "q": "Trên bàn có mấy quyển sách?",
@@ -2200,7 +2203,7 @@
       "a": 0,
       "why": {
        "1": "Sai: 2 là số sách của người viết; tổng cộng là 'three books'.",
-       "2": "Sai: 1 là số sách của chị gái."
+       "2": "Sai: 1 là số sách của Linh."
       }
      },
      {
@@ -2213,20 +2216,20 @@
       "a": 1,
       "why": {
        "0": "Sai: 3 là tổng số sách trên bàn.",
-       "2": "Sai: 1 quyển là của chị gái."
+       "2": "Sai: 1 quyển là của Linh."
       }
      },
      {
       "q": "Quyển còn lại là của ai?",
       "opts": [
-       "Mẹ",
-       "Bố",
-       "Chị gái (my sister)"
+       "Kevin",
+       "Sarah",
+       "Linh (Linh's)"
       ],
       "a": 2,
       "why": {
-       "0": "Sai: bài viết nói 'my sister's book', không nhắc đến mẹ.",
-       "1": "Sai: không nhắc đến bố."
+       "0": "Sai: bài viết nói 'Linh's book', không nhắc đến Kevin.",
+       "1": "Sai: không nhắc đến Sarah."
       }
      },
      {
@@ -2259,15 +2262,15 @@
   {
    "id": "w2-thu-5",
    "label": "Thứ 5",
-   "title": "Lớp học: đọc và viết",
-   "desc": "Nói về giờ học (Lesson Five, read, write, listen), hỏi cô giáo cách đọc và cách viết một từ, dùng before/after class.",
+   "title": "Lớp tiếng Anh buổi tối: đọc và viết",
+   "desc": "Nói về giờ học ở lớp tiếng Anh buổi tối của công ty (Lesson Five, read, write, listen), hỏi cô giáo cách đọc và cách viết một từ, dùng before/after class.",
    "rule": "Hỏi cách đọc: How do you say this word? – cách viết: How do you spell it? (không nói 'How to say…?'). before / after đứng TRƯỚC danh từ: after class (ngược tiếng Trung 下课后).",
    "cards": [
     {
      "w": "classroom",
      "m": "phòng học, lớp học",
      "ex": "We are in the classroom.",
-     "exm": "Chúng mình ở trong lớp học.",
+     "exm": "Chúng tôi đang ở trong phòng học.",
      "n": "classroom = căn phòng; class = lớp (nhóm học sinh) hoặc giờ học: after class = sau giờ học.",
      "img": "classroom"
     },
@@ -2275,7 +2278,7 @@
      "w": "teacher",
      "m": "giáo viên",
      "ex": "Ms Chen is our teacher.",
-     "exm": "Cô Chen là giáo viên của chúng mình.",
+     "exm": "Cô Chen là giáo viên của chúng tôi.",
      "n": "Gọi giáo viên bằng Ms/Mr + họ (Ms Chen), không gọi 'Teacher!' như dịch từ 'cô ơi/thầy ơi' (老师).",
      "img": "teacher"
     },
@@ -2289,29 +2292,29 @@
     {
      "w": "read",
      "m": "đọc",
-     "ex": "Boys, read the words, please.",
-     "exm": "Các bạn nam, đọc các từ nhé.",
+     "ex": "Linh, read the words, please.",
+     "exm": "Linh, đọc các từ nhé.",
      "n": "read /riːd/ – i dài. Đọc to = read aloud."
     },
     {
      "w": "write",
      "m": "viết",
-     "ex": "Girls, write the words.",
-     "exm": "Các bạn nữ, viết các từ.",
+     "ex": "Kevin, write the words.",
+     "exm": "Kevin, viết các từ nhé.",
      "n": "w-r-i-t-e: chữ w câm, đọc /raɪt/ giống 'right'."
     },
     {
      "w": "listen",
      "m": "nghe",
      "ex": "Listen to me, please.",
-     "exm": "Các em nghe cô nói nhé.",
+     "exm": "Cả lớp nghe cô nói nhé.",
      "n": "listen TO + người/vật. Chữ t câm: /ˈlɪsn/. Khác hear (nghe thấy)."
     },
     {
      "w": "talk",
      "m": "nói chuyện",
-     "ex": "Don't talk, please!",
-     "exm": "Không nói chuyện nhé!",
+     "ex": "Kevin, don't talk, please!",
+     "exm": "Kevin, đừng nói chuyện nhé!",
      "n": "talk /tɔːk/ – chữ l câm. 'Don't talk!' = không được nói chuyện (trong lớp)."
     },
     {
@@ -2333,7 +2336,7 @@
      "m": "các bạn nam và các bạn nữ",
      "ex": "Boys read, and girls write.",
      "exm": "Bạn nam đọc, bạn nữ viết.",
-     "n": "boy /bɔɪ/ – 'boi'; girl /ɡɜːl/ – có /l/ cuối, không đọc 'gơ'.",
+     "n": "Trong lớp người lớn, giáo viên vẫn hay gọi vui cả lớp là 'boys and girls' (các bạn nam / các bạn nữ). boy /bɔɪ/ – 'boi'; girl /ɡɜːl/ – có /l/ cuối, không đọc 'gơ'.",
      "img": "student"
     },
     {
@@ -2352,22 +2355,22 @@
     }
    ],
    "scene": {
-    "setting": "Trong lớp học của Leo. Cô giáo Ms Chen nhắc trật tự, dạy bài 5; Leo giơ tay hỏi cách đọc và cách viết một từ.",
-    "img": "s-w2-d4",
-    "imgPrompt": "A bright classroom: teacher stands at the blackboard holding an open textbook; liuxing sits at his desk with his hand raised, pointing at a word in his open book; boys around him read from their books while girls write in notebooks; the blackboard has only blank chalk marks. No readable text in the image.",
+    "setting": "6 giờ tối thứ Năm, lớp tiếng Anh buổi tối ở phòng họp của công ty. Cô Chen nhắc Kevin trật tự rồi dạy bài 5; Linh hỏi cách đọc, Kevin hỏi cách đánh vần một từ.",
+    "img": "teacher",
+    "imgPrompt": "An evening English class in a bright company meeting room: teacher, in a navy floral blouse, stands at a blank whiteboard and gestures toward it with a marker; linh, in a mustard-yellow top, takes notes; kevin and another colleague sit across the table with notebooks; city view through the windows; no readable text.",
     "lines": [
      {
       "who": "Ms Chen",
-      "t": "OK, class! Let's begin. Don't talk, please!",
-      "vi": "Nào cả lớp! Bắt đầu học. Không nói chuyện nhé!"
+      "t": "OK, class! Let's begin. Kevin, don't talk, please!",
+      "vi": "Nào cả lớp! Bắt đầu học. Kevin, không nói chuyện nhé!"
      },
      {
       "who": "Ms Chen",
       "t": "Today we learn Lesson Five. Listen to me, please.",
-      "vi": "Hôm nay chúng ta học bài 5. Các em nghe cô đọc nhé."
+      "vi": "Hôm nay chúng ta học bài 5. Cả lớp nghe cô đọc nhé."
      },
      {
-      "who": "Leo",
+      "who": "Linh",
       "t": "Ms Chen, how do you say this word?",
       "vi": "Thưa cô, từ này đọc thế nào ạ?"
      },
@@ -2377,9 +2380,9 @@
       "vi": "Đọc là 'learn' – trong 'learn English' (học tiếng Anh)."
      },
      {
-      "who": "Leo",
+      "who": "Kevin",
       "t": "How do you spell it?",
-      "vi": "Viết (đánh vần) thế nào ạ?"
+      "vi": "Đánh vần thế nào ạ?"
      },
      {
       "who": "Ms Chen",
@@ -2388,8 +2391,8 @@
      },
      {
       "who": "Ms Chen",
-      "t": "Read the words before the end of class. After class, write them ten times!",
-      "vi": "Trước khi hết giờ thì đọc từ. Sau giờ học, viết mỗi từ mười lần!"
+      "t": "After class, write the words ten times. And read Lesson Six before class!",
+      "vi": "Sau giờ học, viết mỗi từ mười lần. Và đọc trước bài 6 trước buổi học sau nhé!"
      }
     ]
    },
@@ -2483,13 +2486,13 @@
     {
      "q": "'teacher' nghĩa là:",
      "opts": [
-      "học sinh",
+      "học viên, học sinh",
       "lớp học",
       "giáo viên"
      ],
      "a": 2,
      "why": {
-      "0": "Sai: học sinh là student.",
+      "0": "Sai: học viên, học sinh là student.",
       "1": "Sai: lớp học là classroom."
      }
     },
@@ -2546,7 +2549,7 @@
      }
     },
     {
-     "q": "Điền: Please ___ to me. (Các em nghe cô nói.)",
+     "q": "Điền: Please ___ to me. (Cả lớp nghe cô nói nhé.)",
      "opts": [
       "read",
       "listen",
@@ -2743,7 +2746,7 @@
      "audio": "Boys read, girls listen."
     },
     {
-     "q": "Nghe: học sinh phải làm gì?",
+     "q": "Nghe: học viên phải làm gì?",
      "opts": [
       "Nói chuyện",
       "Viết bài",
@@ -2875,7 +2878,7 @@
     }
    ],
    "dialog": {
-    "title": "Hỏi cô giáo trong giờ học",
+    "title": "Hỏi cô giáo trong lớp tiếng Anh buổi tối",
     "partner": "Ms Chen",
     "turns": [
      {
@@ -2933,8 +2936,8 @@
     ]
    },
    "reading": {
-    "text": "I'm a student. Class begins, and our teacher says, \"Don't talk!\" Today we learn Lesson Nine. The boys read in English, and the girls write English words. After class, I write ten words.",
-    "vi": "Mình là học sinh. Vào giờ học, cô giáo nói: “Không được nói chuyện!” Hôm nay chúng mình học bài 9. Các bạn nam đọc tiếng Anh, các bạn nữ viết từ tiếng Anh. Sau giờ học, mình viết mười từ.",
+    "text": "My name is Linh. Class begins, and our teacher, Ms Chen, says, \"Don't talk!\" Today we learn Lesson Nine. The boys read in English, and the girls write English words. After class, I write ten words.",
+    "vi": "Tôi tên là Linh. Vào giờ học, cô giáo của chúng tôi – cô Chen – nói: “Không được nói chuyện!” Hôm nay chúng tôi học bài 9. Các bạn nam đọc tiếng Anh, các bạn nữ viết từ tiếng Anh. Sau giờ học, tôi viết mười từ.",
     "qs": [
      {
       "q": "Hôm nay học bài mấy?",
@@ -2980,12 +2983,12 @@
       "opts": [
        "Viết mười từ",
        "Đọc mười bài",
-       "Đi ăn sáng"
+       "Đi ăn tối"
       ],
       "a": 0,
       "why": {
        "1": "Sai: bài viết nói 'write ten words' – viết, không phải đọc.",
-       "2": "Sai: không nhắc đến ăn sáng."
+       "2": "Sai: không nhắc đến ăn uống."
       }
      },
      {
@@ -3008,42 +3011,42 @@
    "id": "w2-thu-6",
    "label": "Thứ 6",
    "title": "Ngày tháng, thứ, buổi trong ngày, phương tiện",
-   "desc": "Hỏi và nói ngày tháng, thứ, buổi chiều/tối, đi bằng phương tiện gì (by train, by bus, by car) và bảo ai đi ngủ.",
+   "desc": "Hỏi và nói ngày tháng, thứ, buổi chiều/tối, đi bằng phương tiện gì (by train, by bus, by car, by plane) khi lên kế hoạch công tác – qua cảnh Linh và Kevin xem bản đồ chuẩn bị đi Đà Nẵng.",
    "rule": "Ngày đọc bằng số thứ tự: the sixth of September. Hỏi: What's the date? / What day is it? Phương tiện: by + xe, không có 'the' (by train, by bus). on Sunday, in the evening, at ten – nhưng tomorrow/today không có giới từ.",
    "cards": [
     {
      "w": "today",
      "m": "hôm nay",
-     "ex": "Is Dad back today?",
-     "exm": "Hôm nay bố có về không?",
+     "ex": "Is Sarah back today?",
+     "exm": "Hôm nay chị Sarah có về không?",
      "n": "Không thêm giới từ: không nói 'in today' hay 'on today'. Nhấn âm 2: to-DAY."
     },
     {
      "w": "tomorrow",
      "m": "ngày mai",
-     "ex": "He comes back tomorrow afternoon.",
-     "exm": "Chiều mai bố về.",
+     "ex": "She comes back tomorrow afternoon.",
+     "exm": "Chiều mai chị ấy về.",
      "n": "tomorrow afternoon = chiều mai (không có 'in'). Viết 1 chữ m, 2 chữ r."
     },
     {
      "w": "come back",
      "m": "trở về",
-     "ex": "Dad comes back by train.",
-     "exm": "Bố về bằng tàu hỏa.",
-     "n": "he/she + comes back (thêm -s). 'Dad is back' = bố đã về nhà."
+     "ex": "Sarah comes back by train.",
+     "exm": "Chị Sarah về bằng tàu hỏa.",
+     "n": "he/she + comes back (thêm -s). 'Sarah is back' = chị Sarah đã về."
     },
     {
      "w": "afternoon",
      "m": "buổi chiều",
-     "ex": "I'm home at three in the afternoon.",
-     "exm": "Ba giờ chiều mình về đến nhà.",
+     "ex": "I'm home at five in the afternoon.",
+     "exm": "Năm giờ chiều tôi về đến nhà.",
      "n": "in the afternoon (có in the). Nhấn âm cuối: after-NOON. Chào: Good afternoon."
     },
     {
      "w": "evening",
      "m": "buổi tối",
-     "ex": "It's evening now. Go to bed!",
-     "exm": "Tối rồi. Đi ngủ đi!",
+     "ex": "It's evening now. Let's go home!",
+     "exm": "Tối rồi. Về nhà thôi!",
      "n": "in the evening. Good evening = chào buổi tối; Good night = chúc ngủ ngon / tạm biệt buổi tối."
     },
     {
@@ -3071,23 +3074,23 @@
     {
      "w": "by train",
      "m": "bằng tàu hỏa",
-     "ex": "He comes back by train, not by plane.",
-     "exm": "Bố về bằng tàu hỏa, không phải máy bay.",
+     "ex": "She comes back by train, not by plane.",
+     "exm": "Chị ấy về bằng tàu hỏa, không phải máy bay.",
      "n": "by + phương tiện, KHÔNG có the/a: by train, by plane (máy bay). Nhưng đi bộ là on foot."
     },
     {
      "w": "by bus",
      "m": "bằng xe buýt",
-     "ex": "I go to school by bus.",
-     "exm": "Mình đi học bằng xe buýt.",
+     "ex": "I go to work by bus.",
+     "exm": "Tôi đi làm bằng xe buýt.",
      "n": "bus /bʌs/ – 'bắt-s', không đọc 'buýt'. Số nhiều: buses.",
      "img": "bus"
     },
     {
      "w": "by car",
      "m": "bằng ô tô",
-     "ex": "Mum goes to work by car.",
-     "exm": "Mẹ đi làm bằng ô tô.",
+     "ex": "Kevin goes to work by car.",
+     "exm": "Kevin đi làm bằng ô tô.",
      "n": "car /kɑː/ – 'ca' dài. Xe máy là motorbike (by motorbike).",
      "img": "car"
     },
@@ -3096,43 +3099,48 @@
      "m": "đi ngủ",
      "ex": "Don't turn on the TV. Go to bed!",
      "exm": "Đừng bật tivi. Đi ngủ đi!",
-     "n": "go to bed (không có 'the'). 'turn on the TV' = bật tivi; 'I know!' = con biết rồi!"
+     "n": "go to bed (không có 'the'). 'turn on the TV' = bật tivi; 'I know!' = biết rồi!"
     }
    ],
    "scene": {
-    "setting": "Buổi tối ở nhà. Bọn trẻ hỏi bao giờ bố David đi công tác về; mẹ Mary bắt tắt tivi đi ngủ, Leo lén xem điện thoại.",
-    "img": "s-w2-d5",
-    "imgPrompt": "Living room in the evening: xiaoyu in pyjamas tugs at liumei's sleeve asking eagerly; xiaxue points at a wall calendar (blank, no numbers); liumei switches off the TV with the remote and points toward the bedrooms; liuxing sneaks a look at his mobile phone behind a cushion; a framed photo of xiadonghai on the shelf. No text in the image.",
+    "setting": "Chiều thứ Sáu, trên con phố gần văn phòng. Linh và Kevin xem bản đồ, lên kế hoạch cho chuyến công tác Đà Nẵng tuần sau. Chị Sarah (quản lý) đang đi công tác, sắp về.",
+    "img": "where",
+    "imgPrompt": "A sunny Hanoi street outside the office, motorbikes passing behind: linh, in a mustard-yellow top, points at a large paper map that kevin, in a blue polo shirt, holds open; both smile as they plan a business trip.",
     "lines": [
      {
-      "who": "Sam",
-      "t": "Is Dad back today? Is he coming by plane?",
-      "vi": "Hôm nay bố có về không ạ? Bố đi máy bay ạ?"
+      "who": "Linh",
+      "t": "Is Sarah back today? Is she coming by plane?",
+      "vi": "Hôm nay chị Sarah có về không anh? Chị ấy đi máy bay à?"
      },
      {
-      "who": "Mary",
-      "t": "No, he comes back tomorrow afternoon, by train.",
-      "vi": "Không, chiều mai bố mới về. Bố về bằng tàu hỏa."
+      "who": "Kevin",
+      "t": "No, she comes back tomorrow afternoon, by train.",
+      "vi": "Không, chiều mai chị ấy mới về. Chị ấy về bằng tàu hỏa."
      },
      {
-      "who": "Leo",
+      "who": "Linh",
       "t": "What's the date tomorrow? What day is it?",
-      "vi": "Mai là ngày mấy tháng mấy? Thứ mấy ạ?"
+      "vi": "Mai là ngày mấy tháng mấy? Thứ mấy anh nhỉ?"
      },
      {
-      "who": "Sophie",
-      "t": "It's Sunday, the sixth of September.",
-      "vi": "Chủ nhật, ngày 6 tháng 9."
+      "who": "Kevin",
+      "t": "It's Sunday, the sixth of September. On Monday, we go to Da Nang by plane.",
+      "vi": "Chủ nhật, ngày 6 tháng 9. Thứ Hai mình bay đi Đà Nẵng."
      },
      {
-      "who": "Mary",
-      "t": "It's evening now! Don't turn on the TV. Go to bed!",
-      "vi": "Tối rồi! Đừng bật tivi nữa. Đi ngủ đi!"
+      "who": "Linh",
+      "t": "By plane? Not by car or by bus?",
+      "vi": "Đi máy bay ạ? Không đi ô tô hay xe buýt à?"
      },
      {
-      "who": "Leo",
-      "t": "I know, I know! …I can look at my phone.",
-      "vi": "Con biết rồi, biết rồi! … (Thì con) xem điện thoại vậy."
+      "who": "Kevin",
+      "t": "By plane! Sunday evening, don't turn on the TV. Go to bed early!",
+      "vi": "Máy bay! Tối Chủ nhật đừng xem tivi nhé. Đi ngủ sớm đi!"
+     },
+     {
+      "who": "Linh",
+      "t": "I know, I know!",
+      "vi": "Em biết rồi, biết rồi!"
      }
     ]
    },
@@ -3178,39 +3186,39 @@
      "t": "Phương tiện: by + xe (không có the/a)",
      "f": [
       [
-       "He comes back",
+       "She comes back",
        "by",
        "train."
       ],
       [
-       "I go to school",
+       "I go to work",
        "by",
        "bus."
       ]
      ],
      "ex": [
       [
-       "Dad comes back by train.",
-       "Bố về bằng tàu hỏa."
+       "Sarah comes back by train.",
+       "Chị Sarah về bằng tàu hỏa."
       ],
       [
-       "I go to school by bus.",
-       "Mình đi học bằng xe buýt."
+       "I go to work by bus.",
+       "Tôi đi làm bằng xe buýt."
       ],
       [
-       "Mum goes to work by car.",
-       "Mẹ đi làm bằng ô tô."
+       "Kevin goes to work by car.",
+       "Kevin đi làm bằng ô tô."
       ]
      ],
-     "bad": "I go to school by the bus.",
-     "good": "I go to school by bus.",
+     "bad": "I go to work by the bus.",
+     "good": "I go to work by bus.",
      "why": "Sau 'by' dùng danh từ trơn, không có the/a/my. Tiếng Trung đặt phương tiện TRƯỚC động từ (坐火车回来), tiếng Anh đặt SAU: comes back by train. Riêng đi bộ là 'on foot'."
     },
     {
      "t": "Giới từ thời gian: at + giờ, on + thứ, in the + buổi; today/tomorrow không có giới từ",
      "f": [
       [
-       "He's back",
+       "She's back",
        "tomorrow",
        "afternoon."
       ],
@@ -3227,17 +3235,17 @@
      ],
      "ex": [
       [
-       "Dad comes back tomorrow afternoon.",
-       "Chiều mai bố về."
+       "Sarah comes back tomorrow afternoon.",
+       "Chiều mai chị Sarah về."
       ],
       [
        "I go to bed at ten in the evening.",
-       "Mình đi ngủ lúc 10 giờ tối."
+       "Tôi đi ngủ lúc 10 giờ tối."
       ]
      ],
-     "bad": "He comes back in tomorrow afternoon.",
-     "good": "He comes back tomorrow afternoon.",
-     "why": "today, tomorrow, tomorrow afternoon KHÔNG đi với in/on/at. Còn lại: at + giờ (at ten), on + thứ (on Sunday), in the + buổi (in the evening). Thời gian thường đặt ở cuối câu, không đặt trước động từ như tiếng Trung (他明天下午到)."
+     "bad": "She comes back in tomorrow afternoon.",
+     "good": "She comes back tomorrow afternoon.",
+     "why": "today, tomorrow, tomorrow afternoon KHÔNG đi với in/on/at. Còn lại: at + giờ (at ten), on + thứ (on Sunday), in the + buổi (in the evening). Thời gian thường đặt ở cuối câu, không đặt trước động từ như tiếng Trung (她明天下午到)."
     }
    ],
    "vocab": [
@@ -3333,7 +3341,7 @@
      }
     },
     {
-     "q": "Điền: He comes back ___ train.",
+     "q": "Điền: She comes back ___ train.",
      "opts": [
       "by",
       "on",
@@ -3383,11 +3391,11 @@
      "why": "Hỏi thứ: What day is it? Hỏi ngày tháng: What's the date?"
     },
     {
-     "q": "'Bố về bằng tàu hỏa.' – câu ĐÚNG:",
+     "q": "'Chị Sarah về bằng tàu hỏa.' – câu ĐÚNG:",
      "opts": [
-      "Dad comes back by train.",
-      "Dad comes back by the train.",
-      "Dad by train comes back."
+      "Sarah comes back by train.",
+      "Sarah comes back by the train.",
+      "Sarah by train comes back."
      ],
      "a": 0,
      "why": {
@@ -3396,7 +3404,7 @@
      }
     },
     {
-     "q": "Chọn giới từ: He comes back ___ Sunday.",
+     "q": "Chọn giới từ: She comes back ___ Sunday.",
      "opts": [
       "in",
       "on",
@@ -3409,20 +3417,20 @@
      }
     },
     {
-     "q": "'Chiều mai anh ấy đến.' – câu ĐÚNG:",
+     "q": "'Chiều mai chị ấy đến.' – câu ĐÚNG:",
      "opts": [
-      "He comes in tomorrow afternoon.",
-      "He tomorrow afternoon comes.",
-      "He comes tomorrow afternoon."
+      "She comes in tomorrow afternoon.",
+      "She tomorrow afternoon comes.",
+      "She comes tomorrow afternoon."
      ],
      "a": 2,
      "why": {
       "0": "Sai: 'tomorrow' không đi với giới từ 'in'.",
-      "1": "Sai: thời gian không đứng giữa chủ ngữ và động từ như tiếng Trung (他明天下午到)."
+      "1": "Sai: thời gian không đứng giữa chủ ngữ và động từ như tiếng Trung (她明天下午到)."
      }
     },
     {
-     "q": "'Con biết rồi!' nói thế nào?",
+     "q": "'Biết rồi!' (tôi biết thông tin đó rồi) nói thế nào?",
      "opts": [
       "I know!",
       "I can!",
@@ -3430,8 +3438,8 @@
      ],
      "a": 0,
      "why": {
-      "1": "Sai: 'I can' = con có thể/con làm được – không phải 'biết rồi'.",
-      "2": "Sai: 'I see it!' = con nhìn thấy nó rồi (học thứ 4)."
+      "1": "Sai: 'I can' = tôi có thể / tôi làm được – không phải 'biết rồi'.",
+      "2": "Sai: 'I see it!' = tôi nhìn thấy nó rồi (học thứ 4)."
      }
     }
    ],
@@ -3465,7 +3473,7 @@
      "audio": "Tomorrow is Sunday."
     },
     {
-     "q": "Nghe: bố về lúc nào, bằng gì?",
+     "q": "Nghe: chị Sarah về lúc nào, bằng gì?",
      "opts": [
       "Chiều mai, bằng máy bay",
       "Chiều nay, bằng tàu hỏa",
@@ -3476,7 +3484,7 @@
       "1": "Sai: 'tomorrow' = ngày mai; 'plane' = máy bay.",
       "2": "Sai: 'afternoon' = buổi chiều, không phải buổi sáng (morning)."
      },
-     "audio": "Dad comes back tomorrow afternoon, by plane."
+     "audio": "Sarah comes back tomorrow afternoon, by plane."
     },
     {
      "q": "Nghe: người nói đi ngủ lúc mấy giờ?",
@@ -3493,7 +3501,7 @@
      "audio": "I go to bed at ten in the evening."
     },
     {
-     "q": "Nghe: mẹ bảo gì?",
+     "q": "Nghe: người nói bảo gì?",
      "opts": [
       "Bật tivi lên",
       "Đi xem tivi đi",
@@ -3507,7 +3515,7 @@
      "audio": "It's evening. Don't turn on the TV."
     },
     {
-     "q": "Nghe: anh ấy đến trường bằng gì?",
+     "q": "Nghe: anh ấy đi làm bằng gì?",
      "opts": [
       "Ô tô",
       "Xe buýt",
@@ -3518,7 +3526,7 @@
       "0": "Sai: ô tô là car; bạn nghe 'bus'.",
       "2": "Sai: tàu hỏa là train."
      },
-     "audio": "He comes to school by bus."
+     "audio": "He comes to work by bus."
     },
     {
      "q": "Nghe: ngày nào?",
@@ -3562,7 +3570,7 @@
       "0": "Sai: 'How' hỏi cách/phương tiện, không hỏi lúc nào (When).",
       "2": "Sai: 'On Sunday' trả lời khi nào, không phải bằng gì."
      },
-     "audio": "How does Dad come back tomorrow?"
+     "audio": "How does Sarah come back tomorrow?"
     },
     {
      "q": "TOEIC Bridge – Hỏi & đáp: nghe câu hỏi, chọn câu đáp phù hợp nhất.",
@@ -3576,7 +3584,7 @@
       "0": "Sai: 'What time' hỏi giờ, còn 'At school' là nơi chốn.",
       "1": "Sai: 'I know' không trả lời giờ."
      },
-     "audio": "What time is Dad back?"
+     "audio": "What time is Sarah back?"
     },
     {
      "q": "TOEIC Bridge – Hỏi & đáp: nghe câu hỏi, chọn câu đáp phù hợp nhất.",
@@ -3637,13 +3645,13 @@
      "focus": "bed /bed/: /d/ cuối rung nhẹ, khác bad /bæd/ (tệ) và bet."
     },
     {
-     "t": "Dad comes back by train.",
-     "focus": "comes /kʌmz/ có /z/ cuối (ngôi thứ ba). Nhấn 'DAD', 'BACK', 'TRAIN'."
+     "t": "Sarah comes back by train.",
+     "focus": "comes /kʌmz/ có /z/ cuối (ngôi thứ ba). Nhấn 'SAR-ah', 'BACK', 'TRAIN'."
     }
    ],
    "dialog": {
-    "title": "Hỏi bạn lịch về quê cuối tuần",
-    "partner": "Sophie",
+    "title": "Đồng nghiệp hỏi lịch về quê cuối tuần của bạn",
+    "partner": "Linh",
     "turns": [
      {
       "ai": "Are you going home today?",
@@ -3700,8 +3708,8 @@
     ]
    },
    "reading": {
-    "text": "Today is Saturday, the fifth of September. Dad comes back tomorrow afternoon by train. In the evening, we don't turn on the TV. We go to bed at ten.",
-    "vi": "Hôm nay là thứ Bảy, ngày 5 tháng 9. Chiều mai bố về bằng tàu hỏa. Buổi tối chúng mình không bật tivi. Chúng mình đi ngủ lúc 10 giờ.",
+    "text": "Today is Saturday, the fifth of September. Sarah comes back tomorrow afternoon by train. In the evening, I don't turn on the TV. I go to bed at ten.",
+    "vi": "Hôm nay là thứ Bảy, ngày 5 tháng 9. Chiều mai chị Sarah về bằng tàu hỏa. Buổi tối tôi không bật tivi. Tôi đi ngủ lúc 10 giờ.",
     "qs": [
      {
       "q": "Hôm nay ngày mấy?",
@@ -3730,7 +3738,7 @@
       }
      },
      {
-      "q": "Bố về lúc nào?",
+      "q": "Chị Sarah về lúc nào?",
       "opts": [
        "Tối nay",
        "Chiều mai",
@@ -3743,7 +3751,7 @@
       }
      },
      {
-      "q": "Bố về bằng gì?",
+      "q": "Chị Sarah về bằng gì?",
       "opts": [
        "Máy bay",
        "Ô tô",
@@ -3756,14 +3764,14 @@
       }
      },
      {
-      "q": "Đúng hay sai: \"Dad comes back by plane.\"",
+      "q": "Đúng hay sai: \"Sarah comes back by plane.\"",
       "opts": [
        "Sai",
        "Đúng"
       ],
       "a": 0,
       "why": {
-       "1": "Không đúng: bố về bằng tàu hỏa (by train), không phải máy bay."
+       "1": "Không đúng: chị Sarah về bằng tàu hỏa (by train), không phải máy bay."
       }
      }
     ]
@@ -3777,7 +3785,7 @@
   },
   {
    "key": "breakfast",
-   "prompt": "Photo of a home breakfast table with steamed buns, bread, boiled eggs and a glass of milk, morning light, no text"
+   "prompt": "Photo of an office pantry table with steamed buns, bread, boiled eggs, a glass of milk and a cup of water, morning light, no text"
   },
   {
    "key": "bread",
@@ -3793,11 +3801,11 @@
   },
   {
    "key": "book",
-   "prompt": "Photo of a closed school textbook with a blank colourful cover lying on a desk, no letters or text"
+   "prompt": "Photo of a closed book with a blank colourful cover lying on an office desk beside a laptop, no letters or text"
   },
   {
    "key": "bag",
-   "prompt": "Photo of a blue school backpack standing on the floor, no logos or text"
+   "prompt": "Photo of a dark blue work backpack standing on an office floor next to a desk chair, no logos or text"
   },
   {
    "key": "calendar",
@@ -3809,7 +3817,7 @@
   },
   {
    "key": "car",
-   "prompt": "Photo of a small silver family car parked in a quiet residential street, no number plate text, no logos"
+   "prompt": "Photo of a small silver car parked in a quiet city street, no number plate text, no logos"
   }
  ]
 }
