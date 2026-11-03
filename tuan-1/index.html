@@ -511,6 +511,15 @@ img.photo.ava{border-radius:50%;object-fit:cover;aspect-ratio:1}
 .gcard .seg.big{display:flex} .gcard .seg.big button{flex:1;padding:12px;font-size:16px}
 .bnav a{font-size:11.5px;white-space:nowrap;padding:6px 2px}
 .cast2 video.scene-vid{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#101830}
+.vwrap{position:relative;border-radius:16px;overflow:hidden;background:#000}
+.svid{width:100%;aspect-ratio:16/9;display:block;background:#000}
+.subs{display:flex;flex-direction:column;padding:10px 12px;background:#0B1020;min-height:84px}
+.subs.left{align-items:flex-start}.subs.right{align-items:flex-end}.subs .muted{color:#A9B3C7;margin:0}
+.vscene .row.center{flex-wrap:wrap}
+.vscene .subs{align-items:center!important;text-align:center}
+.vscene .subs .bub2{background:transparent!important;color:#fff;max-width:100%;align-items:center;padding:4px 8px;animation:none}
+.vscene .subs .spk{color:#FFD43B;opacity:1} .vscene .subs .tx{font-size:22px} .vscene .subs .tx[lang=zh]{font-size:26px}
+.vscene .subs .py{color:#8EA2FF} .vscene .subs .vi{color:#D7DCE8;opacity:1}
 </style>
 
 <div class="app"><aside class="sidebar" id="side" aria-label="Thanh điều hướng"></aside><div class="col">
@@ -1188,7 +1197,7 @@ function courseEx(ex, dayId, code) {
     : { k: "mc", q: o.q, opts: o.opts, a: o.a, why: o.why, audio: o.audio || null });
   if (code === "T") { ex.kind = "cards"; ex.title = "Thẻ học: " + d.title; ex.cards = d.cards.map(c => ({ w: c.w, py: c.py, m: c.m, ex: c.ex, exm: c.exm, n: c.n, img: c.img })); }
   else if (code === "S") {
-    ex.kind = "scene"; ex.title = "Xem cảnh: " + d.title; ex.setting = d.scene.setting; ex.bg = d.scene.img;
+    ex.kind = "scene"; ex.title = "Xem cảnh: " + d.title; ex.setting = d.scene.setting; ex.bg = d.scene.img; ex.vkey = L + "-" + d.id;
     ex.lines2 = d.scene.lines.map(l => ({ who: l.who, t: l.t, py: l.py || "", vi: l.vi }));
     ex.people = [...new Set(ex.lines2.map(l => l.who))].slice(0, 2);
   }
@@ -2339,6 +2348,8 @@ function runCards(ex, body, finish) {
 
 /* ---------- cảnh hội thoại ---------- */
 function runScene(ex, body, finish) {
+  const VD = typeof VID !== "undefined" && ex.vkey && VID[ex.vkey];
+  if (VD && VD.clips && VD.complete) return runSceneVideo(ex, body, finish, VD);
   const L = S.lang, lines = ex.lines2, [pA, pB] = ex.people; let i = -1, auto = false, subVi = true, subPy = L === "zh";
   const box = el(`<div class="scene">
     <div class="stage2"><p class="setting">${esc(ex.setting)}</p>
@@ -2390,6 +2401,47 @@ function runPatterns(ex, body, finish) {
   $(".prev", box).onclick = () => { if (i > 0) { i--; draw(); } };
   $(".nx", box).onclick = () => { if (i < pats.length - 1) { i++; draw(); } else finish({ learn: true, extra: `Học ${pats.length} mẫu câu` }); };
   draw();
+}
+
+/* ---------- cảnh hội thoại bằng video (Google Flow) + phụ đề tự canh theo lời nói ---------- */
+function runSceneVideo(ex, body, finish, VD) {
+  const L = S.lang, lines = ex.lines2, [pA] = ex.people; let subVi = true, subPy = L === "zh", ci = 0, cur = -1, stopAt = null, seen = new Set();
+  const box = el(`<div class="scene vscene">
+    <div class="stage2"><p class="setting">${esc(ex.setting)}</p>
+      <div class="vwrap"><video class="svid" playsinline preload="auto"></video><div class="subs" aria-live="polite"><p class="muted">Bấm Phát cả cảnh để xem.</p></div></div></div>
+    <div class="row center"><button type="button" class="btn ghost prev">⏮ Câu trước</button><button type="button" class="btn primary playall">${ICON.play} Phát cả cảnh</button><button type="button" class="btn ghost rep">↻ Nghe lại câu này</button><button type="button" class="btn ghost nx">Câu tiếp ⏭</button></div>
+    <div class="row center small"><label class="tick"><input type="checkbox" class="cvi" checked> Phụ đề tiếng Việt</label>${L === "zh" ? `<label class="tick"><input type="checkbox" class="cpy" checked> Bính âm</label>` : ""}</div>
+    <ol class="log"></ol>
+    <div class="row center"><button type="button" class="btn primary huge fin" disabled>Xem xong, sang bài tập</button></div></div>`);
+  body.appendChild(box);
+  const v = $(".svid", box), subs = $(".subs", box), log = $(".log", box);
+  const lineHTML = l => `<span class="spk">${esc(l.who)}</span><span class="tx" lang="${L === "zh" ? "zh" : "en"}">${esc(l.t)}</span>${l.py && subPy ? `<span class="py">${esc(l.py)}</span>` : ""}${l.vi && subVi ? `<span class="vi">${esc(l.vi)}</span>` : ""}`;
+  const where = i => { for (let c = 0; c < VD.clips.length; c++) { const q = VD.clips[c].cues.find(x => x[2] === i); if (q) return { c, q }; } return null; };
+  function load(c) { if (ci !== c || !v.src) { ci = c; v.src = "vid/" + VD.clips[c].src; } }
+  function showLine(i) {
+    if (i === cur || i < 0) return; cur = i; seen.add(i); const l = lines[i];
+    subs.className = "subs " + (l.who === pA ? "left" : "right");
+    subs.innerHTML = `<div class="bub2">${lineHTML(l)}</div>`;
+    log.innerHTML = [...seen].sort((a, b) => a - b).map(k => `<li class="${lines[k].who === pA ? "l" : "r"}">${lineHTML(lines[k])}</li>`).join("");
+    if (seen.size === lines.length) $(".fin", box).disabled = false;
+  }
+  v.ontimeupdate = () => {
+    const t = v.currentTime, cues = VD.clips[ci].cues, q = cues.find(x => t >= x[0] - 0.1 && t <= x[1] + 0.35) || cues.filter(x => x[0] <= t).slice(-1)[0];
+    if (q) showLine(q[2]);
+    if (stopAt != null && t >= stopAt) { v.pause(); stopAt = null; }
+  };
+  v.onended = () => { if (playAll && ci < VD.clips.length - 1) { load(ci + 1); v.play().catch(() => {}); } else { playAll = false; VD.clips.forEach(c => c.cues.forEach(x => seen.add(x[2]))); showLine(cur); $(".fin", box).disabled = seen.size >= lines.length; $(".playall", box).innerHTML = `${ICON.play} Xem lại cả cảnh`; } };
+  let playAll = false;
+  const jump = (i, single) => { const w = where(i); if (!w) return; load(w.c); const go = () => { v.currentTime = Math.max(0, w.q[0] - 0.05); stopAt = single ? w.q[1] + 0.3 : null; v.play().catch(() => {}); }; if (v.readyState >= 1) go(); else v.onloadedmetadata = () => { v.onloadedmetadata = null; go(); }; };
+  $(".playall", box).onclick = () => { playAll = true; cur = -1; load(0); v.currentTime = 0; v.play().catch(() => {}); $(".playall", box).textContent = "Đang phát…"; };
+  $(".nx", box).onclick = () => { playAll = false; jump(Math.min(lines.length - 1, cur + 1), true); };
+  $(".prev", box).onclick = () => { playAll = false; jump(Math.max(0, cur - 1), true); };
+  $(".rep", box).onclick = () => { playAll = false; jump(Math.max(0, cur), true); };
+  const redraw = () => { const c = cur; cur = -1; if (c >= 0) showLine(c); };
+  $(".cvi", box).onchange = e => { subVi = e.target.checked; redraw(); };
+  const cpy = $(".cpy", box); if (cpy) cpy.onchange = e => { subPy = e.target.checked; redraw(); };
+  $(".fin", box).onclick = () => { v.pause(); finish({ learn: true, extra: `Xem đủ ${lines.length} câu thoại` }); };
+  load(0);
 }
 
 /* ============ GIAO DIỆN: trang chủ hành trình · trang buổi học · trình làm bài ============ */

@@ -1,0 +1,2734 @@
+[
+ {
+  "key": "en-w1-thu-2",
+  "lang": "en",
+  "week": 1,
+  "day": "Thứ 2",
+  "title": "Chào hỏi, cảm ơn, tạm biệt",
+  "setting": "Ngày đầu tiên An đi làm ở một công ty tại Hà Nội. Tom (phòng marketing) ra đón ở khu bàn làm việc, lúc đầu tưởng An là Linh; An đang ôm thùng đồ cá nhân. Cuối ngày, mẹ gọi điện hỏi thăm An.",
+  "image": "flow/scene-en-office.jpg",
+  "imageKey": "scene-en-office",
+  "clips": [
+   {
+    "file": "en-w1-thu-2-1.mp4",
+    "lines": [
+     0,
+     1,
+     2
+    ],
+    "speakers": [
+     "Tom",
+     "An"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright open-plan office: An, wearing a blue top and a yellow lanyard and holding a cardboard box of desk items, is welcomed by Tom in a green sweater, who smiles and gestures toward the marketing desks; colleagues work at computers in the background.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Tom (British man about 30, short ginger hair and light stubble, green crew-neck sweater) says: \"Hello! Are you Linh?\"\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"No, I'm not. My name is An.\"\n- Tom (British man about 30, short ginger hair and light stubble, green crew-neck sweater) says: \"Oh! Hi, An! I'm Tom.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Tom",
+      "t": "Hello! Are you Linh?",
+      "py": "",
+      "vi": "Xin chào! Bạn là Linh phải không?"
+     },
+     {
+      "who": "An",
+      "t": "No, I'm not. My name is An.",
+      "py": "",
+      "vi": "Dạ không ạ. Em tên là An."
+     },
+     {
+      "who": "Tom",
+      "t": "Oh! Hi, An! I'm Tom.",
+      "py": "",
+      "vi": "Ồ! Chào An! Mình là Tom."
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-2-2.mp4",
+    "lines": [
+     3,
+     4,
+     5
+    ],
+    "speakers": [
+     "An",
+     "Tom"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright open-plan office: An, wearing a blue top and a yellow lanyard and holding a cardboard box of desk items, is welcomed by Tom in a green sweater, who smiles and gestures toward the marketing desks; colleagues work at computers in the background.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"Hi, Tom! … Thank you!\"\n- Tom (British man about 30, short ginger hair and light stubble, green crew-neck sweater) says: \"You're welcome!\"\n- Tom (British man about 30, short ginger hair and light stubble, green crew-neck sweater) says: \"Goodbye, An!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "Hi, Tom! … Thank you!",
+      "py": "",
+      "vi": "Chào anh Tom! … (Tom đỡ giúp thùng đồ) Em cảm ơn anh!"
+     },
+     {
+      "who": "Tom",
+      "t": "You're welcome!",
+      "py": "",
+      "vi": "Không có gì!"
+     },
+     {
+      "who": "Tom",
+      "t": "Goodbye, An!",
+      "py": "",
+      "vi": "(Cuối giờ chiều) Tạm biệt An nhé!"
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-2-3.mp4",
+    "lines": [
+     6
+    ],
+    "speakers": [
+     "An"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright open-plan office: An, wearing a blue top and a yellow lanyard and holding a cardboard box of desk items, is welcomed by Tom in a green sweater, who smiles and gestures toward the marketing desks; colleagues work at computers in the background.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"Bye, Tom! … Hi, Mum! Yes, I'm OK. Thank you, Mum!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "Bye, Tom! … Hi, Mum! Yes, I'm OK. Thank you, Mum!",
+      "py": "",
+      "vi": "Tạm biệt anh Tom! … (Mẹ gọi điện) Con chào mẹ! Vâng, con ổn ạ. Con cảm ơn mẹ!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "An",
+    "key": "an",
+    "look": "a Vietnamese woman about 26, shoulder-length black bob, royal-blue top, yellow lanyard with a white staff card"
+   },
+   {
+    "name": "Tom",
+    "key": "tom",
+    "look": "a British man about 30, short ginger hair and light stubble, green crew-neck sweater"
+   }
+  ]
+ },
+ {
+  "key": "en-w1-thu-3",
+  "lang": "en",
+  "week": 1,
+  "day": "Thứ 3",
+  "title": "Hỏi tên, làm quen",
+  "setting": "Tối thứ Ba, công ty tổ chức buổi giao lưu (networking) cho nhân viên và khách mời. Hôm qua Tom và An mới chào nhau vội; hôm nay hai người bắt tay làm quen chính thức, rồi An hỏi tên một người đồng nghiệp đứng gần đó.",
+  "image": "flow/scene-en-networking.jpg",
+  "imageKey": "scene-en-networking",
+  "clips": [
+   {
+    "file": "en-w1-thu-3-1.mp4",
+    "lines": [
+     0,
+     1
+    ],
+    "speakers": [
+     "An",
+     "Tom"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A lively company networking event under colourful bunting: An, in a blue top and yellow lanyard, smiles and shakes hands with Tom in a green sweater; guests chat with drinks in the background of a bright brick-walled space.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"Hi! What's your name?\"\n- Tom (British man about 30, short ginger hair and light stubble, green crew-neck sweater) says: \"My name is Tom. And you?\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "Hi! What's your name?",
+      "py": "",
+      "vi": "Chào anh! Anh tên là gì ạ?"
+     },
+     {
+      "who": "Tom",
+      "t": "My name is Tom. And you?",
+      "py": "",
+      "vi": "Mình tên là Tom. Còn bạn?"
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-3-2.mp4",
+    "lines": [
+     2,
+     3
+    ],
+    "speakers": [
+     "An",
+     "Tom"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A lively company networking event under colourful bunting: An, in a blue top and yellow lanyard, smiles and shakes hands with Tom in a green sweater; guests chat with drinks in the background of a bright brick-walled space.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"I'm An. Nice to meet you, Tom!\"\n- Tom (British man about 30, short ginger hair and light stubble, green crew-neck sweater) says: \"Nice to meet you, too! We are very happy, An.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "I'm An. Nice to meet you, Tom!",
+      "py": "",
+      "vi": "Em là An. Rất vui được làm quen với anh, Tom!"
+     },
+     {
+      "who": "Tom",
+      "t": "Nice to meet you, too! We are very happy, An.",
+      "py": "",
+      "vi": "Mình cũng rất vui được làm quen! Cả nhóm rất vui (vì có em), An ạ."
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-3-3.mp4",
+    "lines": [
+     4
+    ],
+    "speakers": [
+     "An"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A lively company networking event under colourful bunting: An, in a blue top and yellow lanyard, smiles and shakes hands with Tom in a green sweater; guests chat with drinks in the background of a bright brick-walled space.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"I'm very happy, too! What's his name?\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "I'm very happy, too! What's his name?",
+      "py": "",
+      "vi": "Em cũng rất vui ạ! Anh kia tên là gì vậy?"
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-3-4.mp4",
+    "lines": [
+     5
+    ],
+    "speakers": [
+     "Tom"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A lively company networking event under colourful bunting: An, in a blue top and yellow lanyard, smiles and shakes hands with Tom in a green sweater; guests chat with drinks in the background of a bright brick-walled space.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Tom (British man about 30, short ginger hair and light stubble, green crew-neck sweater) says: \"He is Kevin. His name is Kevin. He is very happy, too!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Tom",
+      "t": "He is Kevin. His name is Kevin. He is very happy, too!",
+      "py": "",
+      "vi": "Đó là Kevin. Anh ấy tên là Kevin. Anh ấy cũng rất vui!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "An",
+    "key": "an",
+    "look": "a Vietnamese woman about 26, shoulder-length black bob, royal-blue top, yellow lanyard with a white staff card"
+   },
+   {
+    "name": "Tom",
+    "key": "tom",
+    "look": "a British man about 30, short ginger hair and light stubble, green crew-neck sweater"
+   }
+  ]
+ },
+ {
+  "key": "en-w1-thu-4",
+  "lang": "en",
+  "week": 1,
+  "day": "Thứ 4",
+  "title": "Quốc tịch, ngôn ngữ, bạn bè",
+  "setting": "Hội chợ việc làm (career fair) ở một trường đại học. Kevin (bộ phận kinh doanh, mới chuyển từ Mỹ sang) và Linh trực gian hàng của công ty, đón các bạn sinh viên. Lúc vắng khách, Kevin hỏi chuyện Linh.",
+  "image": "flow/scene-en-fair.jpg",
+  "imageKey": "scene-en-fair",
+  "clips": [
+   {
+    "file": "en-w1-thu-4-1.mp4",
+    "lines": [
+     0,
+     1
+    ],
+    "speakers": [
+     "Linh",
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A busy university career fair: Kevin, in glasses and a navy shirt, holds a sheet of paper and chats with Linh, in a mustard-yellow top holding folders, at their company booth; students and colourful booth panels fill the background.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Linh (Vietnamese woman about 24, long straight black hair, mustard-yellow sweater) says: \"Hi, everyone!\"\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"Linh, where are you from?\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Linh",
+      "t": "Hi, everyone!",
+      "py": "",
+      "vi": "(Chào các bạn sinh viên ghé gian hàng) Chào mọi người!"
+     },
+     {
+      "who": "Kevin",
+      "t": "Linh, where are you from?",
+      "py": "",
+      "vi": "Linh này, em là người ở đâu?"
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-4-2.mp4",
+    "lines": [
+     2
+    ],
+    "speakers": [
+     "Linh"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A busy university career fair: Kevin, in glasses and a navy shirt, holds a sheet of paper and chats with Linh, in a mustard-yellow top holding folders, at their company booth; students and colourful booth panels fill the background.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Linh (Vietnamese woman about 24, long straight black hair, mustard-yellow sweater) says: \"I'm from Vietnam. I'm Vietnamese. Can you speak Vietnamese?\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Linh",
+      "t": "I'm from Vietnam. I'm Vietnamese. Can you speak Vietnamese?",
+      "py": "",
+      "vi": "Em đến từ Việt Nam. Em là người Việt. Anh nói được tiếng Việt không?"
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-4-3.mp4",
+    "lines": [
+     3
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A busy university career fair: Kevin, in glasses and a navy shirt, holds a sheet of paper and chats with Linh, in a mustard-yellow top holding folders, at their company booth; students and colourful booth panels fill the background.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"No, I can't. I can speak Chinese.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "No, I can't. I can speak Chinese.",
+      "py": "",
+      "vi": "Không, anh không nói được. Anh nói được tiếng Trung."
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-4-4.mp4",
+    "lines": [
+     4
+    ],
+    "speakers": [
+     "Linh"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A busy university career fair: Kevin, in glasses and a navy shirt, holds a sheet of paper and chats with Linh, in a mustard-yellow top holding folders, at their company booth; students and colourful booth panels fill the background.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Linh (Vietnamese woman about 24, long straight black hair, mustard-yellow sweater) says: \"I can speak Chinese, too! An is my classmate. She is my friend.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Linh",
+      "t": "I can speak Chinese, too! An is my classmate. She is my friend.",
+      "py": "",
+      "vi": "Em cũng nói được tiếng Trung! (Em học lớp tiếng Trung buổi tối.) An là bạn cùng lớp của em. Cô ấy là bạn của em."
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-4-5.mp4",
+    "lines": [
+     5
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A busy university career fair: Kevin, in glasses and a navy shirt, holds a sheet of paper and chats with Linh, in a mustard-yellow top holding folders, at their company booth; students and colourful booth panels fill the background.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"They are all students. They all speak English!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "They are all students. They all speak English!",
+      "py": "",
+      "vi": "(Chỉ các bạn sinh viên) Họ đều là sinh viên. Họ đều nói tiếng Anh!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "Kevin",
+    "key": "kevin",
+    "look": "an East Asian-American man about 32, short dark hair, thin rectangular glasses, navy button-up shirt"
+   },
+   {
+    "name": "Linh",
+    "key": "linh",
+    "look": "a Vietnamese woman about 24, long straight black hair, mustard-yellow sweater"
+   }
+  ]
+ },
+ {
+  "key": "en-w1-thu-5",
+  "lang": "en",
+  "week": 1,
+  "day": "Thứ 5",
+  "title": "Số đếm 1–99, hỏi tuổi, cấp học",
+  "setting": "Giờ giải lao buổi sáng, bên máy pha cà phê ở văn phòng. An xin số điện thoại của Kevin; Kevin khoe hôm nay là sinh nhật bé Ben (con trai anh) – cậu bé cứ nói mình “không còn bé nữa”.",
+  "image": "flow/colleague.jpg",
+  "imageKey": "colleague",
+  "clips": [
+   {
+    "file": "en-w1-thu-5-1.mp4",
+    "lines": [
+     0
+    ],
+    "speakers": [
+     "An"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright office pantry beside An espresso machine: An, in a blue top and holding a mug, laughs as she chats with Kevin, in a blue shirt and also holding a mug; shelves with cups and a city view through the window.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"Kevin, what's your phone number?\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "Kevin, what's your phone number?",
+      "py": "",
+      "vi": "Anh Kevin, số điện thoại của anh là gì ạ?"
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-5-2.mp4",
+    "lines": [
+     1
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright office pantry beside An espresso machine: An, in a blue top and holding a mug, laughs as she chats with Kevin, in a blue shirt and also holding a mug; shelves with cups and a city view through the window.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"It's oh-nine-one-two, three-four-five, six-seven-eight.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "It's oh-nine-one-two, three-four-five, six-seven-eight.",
+      "py": "",
+      "vi": "Số của anh là 0912 345 678."
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-5-3.mp4",
+    "lines": [
+     2
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright office pantry beside An espresso machine: An, in a blue top and holding a mug, laughs as she chats with Kevin, in a blue shirt and also holding a mug; shelves with cups and a city view through the window.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"It's Ben's birthday! He's eight now.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "It's Ben's birthday! He's eight now.",
+      "py": "",
+      "vi": "Hôm nay sinh nhật bé Ben (con trai anh)! Bây giờ cháu tám tuổi rồi."
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-5-4.mp4",
+    "lines": [
+     3
+    ],
+    "speakers": [
+     "An"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright office pantry beside An espresso machine: An, in a blue top and holding a mug, laughs as she chats with Kevin, in a blue shirt and also holding a mug; shelves with cups and a city view through the window.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"Eight? He's little! He's in primary school.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "Eight? He's little! He's in primary school.",
+      "py": "",
+      "vi": "Tám tuổi ạ? Bé còn nhỏ nhỉ! Bé đang học tiểu học."
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-5-5.mp4",
+    "lines": [
+     4
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright office pantry beside An espresso machine: An, in a blue top and holding a mug, laughs as she chats with Kevin, in a blue shirt and also holding a mug; shelves with cups and a city view through the window.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"He says, “I'm not little! I'm big now! I'm nine next year!”\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "He says, “I'm not little! I'm big now! I'm nine next year!”",
+      "py": "",
+      "vi": "Cháu cứ nói: “Con không bé! Con lớn rồi! Sang năm con chín tuổi!”"
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-5-6.mp4",
+    "lines": [
+     5,
+     6
+    ],
+    "speakers": [
+     "Kevin",
+     "An"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright office pantry beside An espresso machine: An, in a blue top and holding a mug, laughs as she chats with Kevin, in a blue shirt and also holding a mug; shelves with cups and a city view through the window.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"And you, An? How old are you? Twenty?\"\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"No! I'm twenty-six years old!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "And you, An? How old are you? Twenty?",
+      "py": "",
+      "vi": "(Đùa) Còn em, An? Em bao nhiêu tuổi? Hai mươi à?"
+     },
+     {
+      "who": "An",
+      "t": "No! I'm twenty-six years old!",
+      "py": "",
+      "vi": "Không ạ! Em hai mươi sáu tuổi rồi!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "An",
+    "key": "an",
+    "look": "a Vietnamese woman about 26, shoulder-length black bob, royal-blue top, yellow lanyard with a white staff card"
+   },
+   {
+    "name": "Kevin",
+    "key": "kevin",
+    "look": "an East Asian-American man about 32, short dark hair, thin rectangular glasses, navy button-up shirt"
+   }
+  ]
+ },
+ {
+  "key": "en-w1-thu-6",
+  "lang": "en",
+  "week": 1,
+  "day": "Thứ 6",
+  "title": "Gia đình, người thân",
+  "setting": "Giờ nghỉ trưa ở sảnh văn phòng. Kevin và Linh gặp An; Linh mở ảnh gia đình trên điện thoại cho hai người xem, rồi mọi người kể về gia đình mình.",
+  "image": "flow/she.jpg",
+  "imageKey": "she",
+  "clips": [
+   {
+    "file": "en-w1-thu-6-1.mp4",
+    "lines": [
+     0,
+     1
+    ],
+    "speakers": [
+     "An",
+     "Linh"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright office lobby at lunchtime: An, in a blue top, smiles as Kevin, in a navy shirt and lanyard, reaches out to greet her; Linh, in a mustard-yellow top, stands beside him smiling; plants and large windows behind.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"Linh, is this your family?\"\n- Linh (Vietnamese woman about 24, long straight black hair, mustard-yellow sweater) says: \"Yes. There are five people in my family.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "Linh, is this your family?",
+      "py": "",
+      "vi": "(Linh đưa điện thoại) Linh ơi, đây là gia đình em à?"
+     },
+     {
+      "who": "Linh",
+      "t": "Yes. There are five people in my family.",
+      "py": "",
+      "vi": "Vâng. Nhà em có năm người."
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-6-2.mp4",
+    "lines": [
+     2
+    ],
+    "speakers": [
+     "An"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright office lobby at lunchtime: An, in a blue top, smiles as Kevin, in a navy shirt and lanyard, reaches out to greet her; Linh, in a mustard-yellow top, stands beside him smiling; plants and large windows behind.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"Is that your sister? And that's your brother?\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "Is that your sister? And that's your brother?",
+      "py": "",
+      "vi": "Kia là chị em à? Còn kia là em trai em?"
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-6-3.mp4",
+    "lines": [
+     3
+    ],
+    "speakers": [
+     "Linh"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright office lobby at lunchtime: An, in a blue top, smiles as Kevin, in a navy shirt and lanyard, reaches out to greet her; Linh, in a mustard-yellow top, stands beside him smiling; plants and large windows behind.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Linh (Vietnamese woman about 24, long straight black hair, mustard-yellow sweater) says: \"Yes. Thu is my older sister, and Bao is my younger brother. I don't have an older brother.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Linh",
+      "t": "Yes. Thu is my older sister, and Bao is my younger brother. I don't have an older brother.",
+      "py": "",
+      "vi": "Vâng. Thu là chị gái em, còn Bảo là em trai em. Em không có anh trai."
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-6-4.mp4",
+    "lines": [
+     4
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright office lobby at lunchtime: An, in a blue top, smiles as Kevin, in a navy shirt and lanyard, reaches out to greet her; Linh, in a mustard-yellow top, stands beside him smiling; plants and large windows behind.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"I have a son and a daughter. Ben is my son!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "I have a son and a daughter. Ben is my son!",
+      "py": "",
+      "vi": "Anh có một con trai và một con gái. Ben là con trai anh!"
+     }
+    ]
+   },
+   {
+    "file": "en-w1-thu-6-5.mp4",
+    "lines": [
+     5
+    ],
+    "speakers": [
+     "An"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A bright office lobby at lunchtime: An, in a blue top, smiles as Kevin, in a navy shirt and lanyard, reaches out to greet her; Linh, in a mustard-yellow top, stands beside him smiling; plants and large windows behind.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"There are five people in my family, too!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "There are five people in my family, too!",
+      "py": "",
+      "vi": "Nhà chị cũng có năm người!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "An",
+    "key": "an",
+    "look": "a Vietnamese woman about 26, shoulder-length black bob, royal-blue top, yellow lanyard with a white staff card"
+   },
+   {
+    "name": "Kevin",
+    "key": "kevin",
+    "look": "an East Asian-American man about 32, short dark hair, thin rectangular glasses, navy button-up shirt"
+   },
+   {
+    "name": "Linh",
+    "key": "linh",
+    "look": "a Vietnamese woman about 24, long straight black hair, mustard-yellow sweater"
+   }
+  ]
+ },
+ {
+  "key": "en-w2-thu-2",
+  "lang": "en",
+  "week": 2,
+  "day": "Thứ 2",
+  "title": "Buổi sáng đi làm, nói giờ",
+  "setting": "8 giờ 20 sáng thứ Hai ở văn phòng (giờ làm bắt đầu lúc 8 giờ). An đến sớm, đang cầm cốc cà phê; Kevin vội vàng bước vào, đeo ba lô, còn ngái ngủ. Cuộc họp nhóm bắt đầu lúc 8 giờ rưỡi.",
+  "image": "flow/morning.jpg",
+  "imageKey": "morning",
+  "clips": [
+   {
+    "file": "en-w2-thu-2-1.mp4",
+    "lines": [
+     0,
+     1
+    ],
+    "speakers": [
+     "An",
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: Morning in a bright open-plan office: An, in a white blouse with a lanyard, holds a takeaway coffee cup and smiles at Kevin, who has just arrived in glasses and a navy shirt with a backpack over his shoulder; desks and a city view through large windows.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"Good morning, Kevin!\"\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"Good morning, An! What time is it?\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "Good morning, Kevin!",
+      "py": "",
+      "vi": "Chào buổi sáng, anh Kevin!"
+     },
+     {
+      "who": "Kevin",
+      "t": "Good morning, An! What time is it?",
+      "py": "",
+      "vi": "Chào An! Mấy giờ rồi em?"
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-2-2.mp4",
+    "lines": [
+     2
+    ],
+    "speakers": [
+     "An"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: Morning in a bright open-plan office: An, in a white blouse with a lanyard, holds a takeaway coffee cup and smiles at Kevin, who has just arrived in glasses and a navy shirt with a backpack over his shoulder; desks and a city view through large windows.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"It's eight twenty. You're late!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "It's eight twenty. You're late!",
+      "py": "",
+      "vi": "Tám giờ hai mươi rồi. Anh đến muộn đấy!"
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-2-3.mp4",
+    "lines": [
+     3
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: Morning in a bright open-plan office: An, in a white blouse with a lanyard, holds a takeaway coffee cup and smiles at Kevin, who has just arrived in glasses and a navy shirt with a backpack over his shoulder; desks and a city view through large windows.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"Oh no! I'm late for work! I get up at seven o'clock… I want to sleep!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "Oh no! I'm late for work! I get up at seven o'clock… I want to sleep!",
+      "py": "",
+      "vi": "Ôi không! Anh đi làm muộn rồi! Anh dậy lúc bảy giờ… mà vẫn buồn ngủ quá!"
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-2-4.mp4",
+    "lines": [
+     4
+    ],
+    "speakers": [
+     "An"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: Morning in a bright open-plan office: An, in a white blouse with a lanyard, holds a takeaway coffee cup and smiles at Kevin, who has just arrived in glasses and a navy shirt with a backpack over his shoulder; desks and a city view through large windows.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"Don't sleep! The meeting is at half past eight.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "Don't sleep! The meeting is at half past eight.",
+      "py": "",
+      "vi": "Đừng ngủ nữa! Tám rưỡi là họp đấy."
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-2-5.mp4",
+    "lines": [
+     5
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: Morning in a bright open-plan office: An, in a white blouse with a lanyard, holds a takeaway coffee cup and smiles at Kevin, who has just arrived in glasses and a navy shirt with a backpack over his shoulder; desks and a city view through large windows.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"Half past eight? It's not early! OK. Let's go!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "Half past eight? It's not early! OK. Let's go!",
+      "py": "",
+      "vi": "Tám rưỡi á? Không còn sớm nữa rồi! Được rồi. Đi thôi!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "An",
+    "key": "an",
+    "look": "a Vietnamese woman about 26, shoulder-length black bob, royal-blue top, yellow lanyard with a white staff card"
+   },
+   {
+    "name": "Kevin",
+    "key": "kevin",
+    "look": "an East Asian-American man about 32, short dark hair, thin rectangular glasses, navy button-up shirt"
+   }
+  ]
+ },
+ {
+  "key": "en-w2-thu-3",
+  "lang": "en",
+  "week": 2,
+  "day": "Thứ 3",
+  "title": "Bữa sáng: mời và nhường",
+  "setting": "8 giờ sáng ở pantry (phòng ăn nhỏ) của văn phòng. Kevin mang đồ ăn sáng đến mời mọi người; chỉ còn một cái bánh bao nên anh chia đôi cho An và Linh. An lịch sự từ chối sữa và xin nước.",
+  "image": "flow/thanks.jpg",
+  "imageKey": "thanks",
+  "clips": [
+   {
+    "file": "en-w2-thu-3-1.mp4",
+    "lines": [
+     0
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A small office pantry with a coffee machine and mugs on the shelves: Kevin, in An olive-green shirt, hands a yellow cup to An, in a blue top, who smiles with one hand on her chest to say thank you; city view through the window.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"Good morning! Let's have breakfast. We have buns, bread and eggs.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "Good morning! Let's have breakfast. We have buns, bread and eggs.",
+      "py": "",
+      "vi": "Chào buổi sáng! Ăn sáng thôi. Có bánh bao, bánh mì và trứng nhé."
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-3-2.mp4",
+    "lines": [
+     1
+    ],
+    "speakers": [
+     "An"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A small office pantry with a coffee machine and mugs on the shelves: Kevin, in An olive-green shirt, hands a yellow cup to An, in a blue top, who smiles with one hand on her chest to say thank you; city view through the window.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"Thank you! I want a bun, please.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "An",
+      "t": "Thank you! I want a bun, please.",
+      "py": "",
+      "vi": "Cảm ơn anh! Cho em một cái bánh bao ạ."
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-3-3.mp4",
+    "lines": [
+     2
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A small office pantry with a coffee machine and mugs on the shelves: Kevin, in An olive-green shirt, hands a yellow cup to An, in a blue top, who smiles with one hand on her chest to say thank you; city view through the window.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"Oh, there's only one bun! Half for you, half for Linh.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "Oh, there's only one bun! Half for you, half for Linh.",
+      "py": "",
+      "vi": "Ồ, chỉ còn một cái bánh bao! Một nửa cho em, một nửa cho Linh."
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-3-4.mp4",
+    "lines": [
+     3,
+     4
+    ],
+    "speakers": [
+     "Kevin",
+     "An"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A small office pantry with a coffee machine and mugs on the shelves: Kevin, in An olive-green shirt, hands a yellow cup to An, in a blue top, who smiles with one hand on her chest to say thank you; city view through the window.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"Would you like some milk?\"\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"No, thanks. I want to drink water.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "Would you like some milk?",
+      "py": "",
+      "vi": "Em uống sữa không?"
+     },
+     {
+      "who": "An",
+      "t": "No, thanks. I want to drink water.",
+      "py": "",
+      "vi": "Dạ không, em cảm ơn. Em muốn uống nước."
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-3-5.mp4",
+    "lines": [
+     5,
+     6
+    ],
+    "speakers": [
+     "Kevin",
+     "An"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A small office pantry with a coffee machine and mugs on the shelves: Kevin, in An olive-green shirt, hands a yellow cup to An, in a blue top, who smiles with one hand on her chest to say thank you; city view through the window.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"Here you are. Have a little water… and an egg!\"\n- An (Vietnamese woman about 26, shoulder-length black bob, royal-blue top) says: \"Thank you, Kevin!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "Here you are. Have a little water… and an egg!",
+      "py": "",
+      "vi": "Của em đây. Uống chút nước… và ăn thêm quả trứng nhé!"
+     },
+     {
+      "who": "An",
+      "t": "Thank you, Kevin!",
+      "py": "",
+      "vi": "Em cảm ơn anh Kevin!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "An",
+    "key": "an",
+    "look": "a Vietnamese woman about 26, shoulder-length black bob, royal-blue top, yellow lanyard with a white staff card"
+   },
+   {
+    "name": "Kevin",
+    "key": "kevin",
+    "look": "an East Asian-American man about 32, short dark hair, thin rectangular glasses, navy button-up shirt"
+   }
+  ]
+ },
+ {
+  "key": "en-w2-thu-4",
+  "lang": "en",
+  "week": 2,
+  "day": "Thứ 4",
+  "title": "Đồ vật, vị trí: tìm đồ",
+  "setting": "Sáng thứ Tư ở khu làm việc chung. Linh sắp đi họp nhưng không tìm thấy quyển sách tiếng Anh; Kevin ngồi đối diện giúp tìm, rồi phát hiện trong túi Linh còn có cả cốc và điện thoại.",
+  "image": "flow/work.jpg",
+  "imageKey": "work",
+  "clips": [
+   {
+    "file": "en-w2-thu-4-1.mp4",
+    "lines": [
+     0,
+     1
+    ],
+    "speakers": [
+     "Linh",
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A busy open-plan office with long shared desks: Linh, in a mustard-yellow top, works on a laptop with notebooks beside her, while Kevin, in glasses and a navy shirt, sits across the desk; colleagues at laptops in the background, large windows.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Linh (Vietnamese woman about 24, long straight black hair, mustard-yellow sweater) says: \"Kevin, where's my English book?\"\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"Which book? Is it on the table?\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Linh",
+      "t": "Kevin, where's my English book?",
+      "py": "",
+      "vi": "Anh Kevin, quyển sách tiếng Anh của em đâu rồi?"
+     },
+     {
+      "who": "Kevin",
+      "t": "Which book? Is it on the table?",
+      "py": "",
+      "vi": "Quyển nào? Trên bàn không có à?"
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-4-2.mp4",
+    "lines": [
+     2
+    ],
+    "speakers": [
+     "Linh"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A busy open-plan office with long shared desks: Linh, in a mustard-yellow top, works on a laptop with notebooks beside her, while Kevin, in glasses and a navy shirt, sits across the desk; colleagues at laptops in the background, large windows.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Linh (Vietnamese woman about 24, long straight black hair, mustard-yellow sweater) says: \"No! I'm looking for it… It's not here, and it's not there!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Linh",
+      "t": "No! I'm looking for it… It's not here, and it's not there!",
+      "py": "",
+      "vi": "Không có! Em đang tìm… Chỗ này không có, chỗ kia cũng không!"
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-4-3.mp4",
+    "lines": [
+     3
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A busy open-plan office with long shared desks: Linh, in a mustard-yellow top, works on a laptop with notebooks beside her, while Kevin, in glasses and a navy shirt, sits across the desk; colleagues at laptops in the background, large windows.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"I see it! It's under the chair!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "I see it! It's under the chair!",
+      "py": "",
+      "vi": "Anh thấy rồi! Ở dưới ghế kìa!"
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-4-4.mp4",
+    "lines": [
+     4
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A busy open-plan office with long shared desks: Linh, in a mustard-yellow top, works on a laptop with notebooks beside her, while Kevin, in glasses and a navy shirt, sits across the desk; colleagues at laptops in the background, large windows.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"And there are two cups and a phone in your bag. Are they your things too?\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "And there are two cups and a phone in your bag. Are they your things too?",
+      "py": "",
+      "vi": "Trong túi em còn có hai cái cốc và một cái điện thoại. Cũng là đồ của em à?"
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-4-5.mp4",
+    "lines": [
+     5
+    ],
+    "speakers": [
+     "Linh"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A busy open-plan office with long shared desks: Linh, in a mustard-yellow top, works on a laptop with notebooks beside her, while Kevin, in glasses and a navy shirt, sits across the desk; colleagues at laptops in the background, large windows.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Linh (Vietnamese woman about 24, long straight black hair, mustard-yellow sweater) says: \"…Yes, they're my things. Thanks, Kevin!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Linh",
+      "t": "…Yes, they're my things. Thanks, Kevin!",
+      "py": "",
+      "vi": "… Dạ, đồ của em ạ. Em cảm ơn anh Kevin!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "Kevin",
+    "key": "kevin",
+    "look": "an East Asian-American man about 32, short dark hair, thin rectangular glasses, navy button-up shirt"
+   },
+   {
+    "name": "Linh",
+    "key": "linh",
+    "look": "a Vietnamese woman about 24, long straight black hair, mustard-yellow sweater"
+   }
+  ]
+ },
+ {
+  "key": "en-w2-thu-5",
+  "lang": "en",
+  "week": 2,
+  "day": "Thứ 5",
+  "title": "Lớp tiếng Anh buổi tối: đọc và viết",
+  "setting": "6 giờ tối thứ Năm, lớp tiếng Anh buổi tối ở phòng họp của công ty. Cô Chen nhắc Kevin trật tự rồi dạy bài 5; Linh hỏi cách đọc, Kevin hỏi cách đánh vần một từ.",
+  "image": "flow/teacher.jpg",
+  "imageKey": "teacher",
+  "clips": [
+   {
+    "file": "en-w2-thu-5-1.mp4",
+    "lines": [
+     0
+    ],
+    "speakers": [
+     "Ms Chen"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: An evening English class in a bright company meeting room: Ms Chen, in a navy floral blouse, stands at a blank whiteboard and gestures toward it with a marker; Linh, in a mustard-yellow top, takes notes; Kevin and another colleague sit across the table with notebooks; city view through the windows; no readable text.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Ms Chen (East Asian woman teacher about 40, dark hair pulled back, navy blouse with a small floral print) says: \"OK, class! Let's begin. Kevin, don't talk, please!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Ms Chen",
+      "t": "OK, class! Let's begin. Kevin, don't talk, please!",
+      "py": "",
+      "vi": "Nào cả lớp! Bắt đầu học. Kevin, không nói chuyện nhé!"
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-5-2.mp4",
+    "lines": [
+     1
+    ],
+    "speakers": [
+     "Ms Chen"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: An evening English class in a bright company meeting room: Ms Chen, in a navy floral blouse, stands at a blank whiteboard and gestures toward it with a marker; Linh, in a mustard-yellow top, takes notes; Kevin and another colleague sit across the table with notebooks; city view through the windows; no readable text.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Ms Chen (East Asian woman teacher about 40, dark hair pulled back, navy blouse with a small floral print) says: \"Today we learn Lesson Five. Listen to me, please.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Ms Chen",
+      "t": "Today we learn Lesson Five. Listen to me, please.",
+      "py": "",
+      "vi": "Hôm nay chúng ta học bài 5. Cả lớp nghe cô đọc nhé."
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-5-3.mp4",
+    "lines": [
+     2,
+     3
+    ],
+    "speakers": [
+     "Linh",
+     "Ms Chen"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: An evening English class in a bright company meeting room: Ms Chen, in a navy floral blouse, stands at a blank whiteboard and gestures toward it with a marker; Linh, in a mustard-yellow top, takes notes; Kevin and another colleague sit across the table with notebooks; city view through the windows; no readable text.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Linh (Vietnamese woman about 24, long straight black hair, mustard-yellow sweater) says: \"Ms Chen, how do you say this word?\"\n- Ms Chen (East Asian woman teacher about 40, dark hair pulled back, navy blouse with a small floral print) says: \"It's 'learn' – learn English.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Linh",
+      "t": "Ms Chen, how do you say this word?",
+      "py": "",
+      "vi": "Thưa cô, từ này đọc thế nào ạ?"
+     },
+     {
+      "who": "Ms Chen",
+      "t": "It's 'learn' – learn English.",
+      "py": "",
+      "vi": "Đọc là 'learn' – trong 'learn English' (học tiếng Anh)."
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-5-4.mp4",
+    "lines": [
+     4,
+     5
+    ],
+    "speakers": [
+     "Kevin",
+     "Ms Chen"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: An evening English class in a bright company meeting room: Ms Chen, in a navy floral blouse, stands at a blank whiteboard and gestures toward it with a marker; Linh, in a mustard-yellow top, takes notes; Kevin and another colleague sit across the table with notebooks; city view through the windows; no readable text.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"How do you spell it?\"\n- Ms Chen (East Asian woman teacher about 40, dark hair pulled back, navy blouse with a small floral print) says: \"L-E-A-R-N. Boys, read. Girls, write.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "How do you spell it?",
+      "py": "",
+      "vi": "Đánh vần thế nào ạ?"
+     },
+     {
+      "who": "Ms Chen",
+      "t": "L-E-A-R-N. Boys, read. Girls, write.",
+      "py": "",
+      "vi": "L-E-A-R-N. Các bạn nam đọc. Các bạn nữ viết."
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-5-5.mp4",
+    "lines": [
+     6
+    ],
+    "speakers": [
+     "Ms Chen"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: An evening English class in a bright company meeting room: Ms Chen, in a navy floral blouse, stands at a blank whiteboard and gestures toward it with a marker; Linh, in a mustard-yellow top, takes notes; Kevin and another colleague sit across the table with notebooks; city view through the windows; no readable text.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Ms Chen (East Asian woman teacher about 40, dark hair pulled back, navy blouse with a small floral print) says: \"After class, write the words ten times. And read Lesson Six before class!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Ms Chen",
+      "t": "After class, write the words ten times. And read Lesson Six before class!",
+      "py": "",
+      "vi": "Sau giờ học, viết mỗi từ mười lần. Và đọc trước bài 6 trước buổi học sau nhé!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "Kevin",
+    "key": "kevin",
+    "look": "an East Asian-American man about 32, short dark hair, thin rectangular glasses, navy button-up shirt"
+   },
+   {
+    "name": "Linh",
+    "key": "linh",
+    "look": "a Vietnamese woman about 24, long straight black hair, mustard-yellow sweater"
+   },
+   {
+    "name": "Ms Chen",
+    "key": "teacher",
+    "look": "an East Asian woman teacher about 40, dark hair pulled back, navy blouse with a small floral print"
+   }
+  ]
+ },
+ {
+  "key": "en-w2-thu-6",
+  "lang": "en",
+  "week": 2,
+  "day": "Thứ 6",
+  "title": "Ngày tháng, thứ, buổi trong ngày, phương tiện",
+  "setting": "Chiều thứ Sáu, trên con phố gần văn phòng. Linh và Kevin xem bản đồ, lên kế hoạch cho chuyến công tác Đà Nẵng tuần sau. Chị Sarah (quản lý) đang đi công tác, sắp về.",
+  "image": "flow/where.jpg",
+  "imageKey": "where",
+  "clips": [
+   {
+    "file": "en-w2-thu-6-1.mp4",
+    "lines": [
+     0
+    ],
+    "speakers": [
+     "Linh"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A sunny Hanoi street outside the office, motorbikes passing behind: Linh, in a mustard-yellow top, points at a large paper map that Kevin, in a blue polo shirt, holds open; both smile as they plan a business trip.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Linh (Vietnamese woman about 24, long straight black hair, mustard-yellow sweater) says: \"Is Sarah back today? Is she coming by plane?\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Linh",
+      "t": "Is Sarah back today? Is she coming by plane?",
+      "py": "",
+      "vi": "Hôm nay chị Sarah có về không anh? Chị ấy đi máy bay à?"
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-6-2.mp4",
+    "lines": [
+     1
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A sunny Hanoi street outside the office, motorbikes passing behind: Linh, in a mustard-yellow top, points at a large paper map that Kevin, in a blue polo shirt, holds open; both smile as they plan a business trip.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"No, she comes back tomorrow afternoon, by train.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "No, she comes back tomorrow afternoon, by train.",
+      "py": "",
+      "vi": "Không, chiều mai chị ấy mới về. Chị ấy về bằng tàu hỏa."
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-6-3.mp4",
+    "lines": [
+     2
+    ],
+    "speakers": [
+     "Linh"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A sunny Hanoi street outside the office, motorbikes passing behind: Linh, in a mustard-yellow top, points at a large paper map that Kevin, in a blue polo shirt, holds open; both smile as they plan a business trip.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Linh (Vietnamese woman about 24, long straight black hair, mustard-yellow sweater) says: \"What's the date tomorrow? What day is it?\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Linh",
+      "t": "What's the date tomorrow? What day is it?",
+      "py": "",
+      "vi": "Mai là ngày mấy tháng mấy? Thứ mấy anh nhỉ?"
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-6-4.mp4",
+    "lines": [
+     3
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A sunny Hanoi street outside the office, motorbikes passing behind: Linh, in a mustard-yellow top, points at a large paper map that Kevin, in a blue polo shirt, holds open; both smile as they plan a business trip.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"It's Sunday, the sixth of September. On Monday, we go to Da Nang by plane.\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "It's Sunday, the sixth of September. On Monday, we go to Da Nang by plane.",
+      "py": "",
+      "vi": "Chủ nhật, ngày 6 tháng 9. Thứ Hai mình bay đi Đà Nẵng."
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-6-5.mp4",
+    "lines": [
+     4
+    ],
+    "speakers": [
+     "Linh"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A sunny Hanoi street outside the office, motorbikes passing behind: Linh, in a mustard-yellow top, points at a large paper map that Kevin, in a blue polo shirt, holds open; both smile as they plan a business trip.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Linh (Vietnamese woman about 24, long straight black hair, mustard-yellow sweater) says: \"By plane? Not by car or by bus?\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Linh",
+      "t": "By plane? Not by car or by bus?",
+      "py": "",
+      "vi": "Đi máy bay ạ? Không đi ô tô hay xe buýt à?"
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-6-6.mp4",
+    "lines": [
+     5
+    ],
+    "speakers": [
+     "Kevin"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A sunny Hanoi street outside the office, motorbikes passing behind: Linh, in a mustard-yellow top, points at a large paper map that Kevin, in a blue polo shirt, holds open; both smile as they plan a business trip.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Kevin (East Asian-American man about 32, short dark hair, thin rectangular glasses) says: \"By plane! Sunday evening, don't turn on the TV. Go to bed early!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Kevin",
+      "t": "By plane! Sunday evening, don't turn on the TV. Go to bed early!",
+      "py": "",
+      "vi": "Máy bay! Tối Chủ nhật đừng xem tivi nhé. Đi ngủ sớm đi!"
+     }
+    ]
+   },
+   {
+    "file": "en-w2-thu-6-7.mp4",
+    "lines": [
+     6
+    ],
+    "speakers": [
+     "Linh"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: A sunny Hanoi street outside the office, motorbikes passing behind: Linh, in a mustard-yellow top, points at a large paper map that Kevin, in a blue polo shirt, holds open; both smile as they plan a business trip.\nThe characters speak in English (clear, natural, slightly slow for learners), in this exact order, with a short natural pause between lines:\n- Linh (Vietnamese woman about 24, long straight black hair, mustard-yellow sweater) says: \"I know, I know!\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "Linh",
+      "t": "I know, I know!",
+      "py": "",
+      "vi": "Em biết rồi, biết rồi!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "Kevin",
+    "key": "kevin",
+    "look": "an East Asian-American man about 32, short dark hair, thin rectangular glasses, navy button-up shirt"
+   },
+   {
+    "name": "Linh",
+    "key": "linh",
+    "look": "a Vietnamese woman about 24, long straight black hair, mustard-yellow sweater"
+   }
+  ]
+ },
+ {
+  "key": "zh-w1-thu-2",
+  "lang": "zh",
+  "week": 1,
+  "day": "Thứ 2",
+  "title": "Chào hỏi, cảm ơn, tạm biệt",
+  "setting": "Ngày đi làm đầu tiên. Nhân viên mới 阮安 vào phòng giám đốc 王经理; hai người trao danh thiếp và ông mời cô uống trà.",
+  "image": "flow/scene-zh-meeting.jpg",
+  "imageKey": "scene-zh-meeting",
+  "clips": [
+   {
+    "file": "zh-w1-thu-2-1.mp4",
+    "lines": [
+     0,
+     1
+    ],
+    "speakers": [
+     "王经理",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a formal company meeting room: 阮安 receives a blank business card from 王经理 with both hands and a slight respectful bow, tea cups on the table, both smiling politely.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王经理 (Chinese businessman about 50, short greying hair, rimless glasses) says: \"你好！你是阮明吗？\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"不，我不是阮明。我叫阮安。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王经理",
+      "t": "你好！你是阮明吗？",
+      "py": "Nǐ hǎo! Nǐ shì Ruǎn Míng ma?",
+      "vi": "Chào cô! Cô là Nguyễn Minh à?"
+     },
+     {
+      "who": "阮安",
+      "t": "不，我不是阮明。我叫阮安。",
+      "py": "Bù, wǒ bú shì Ruǎn Míng. Wǒ jiào Ruǎn Ān.",
+      "vi": "Dạ không, tôi không phải Nguyễn Minh. Tôi tên là Nguyễn An."
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-2-2.mp4",
+    "lines": [
+     2,
+     3
+    ],
+    "speakers": [
+     "王经理",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a formal company meeting room: 阮安 receives a blank business card from 王经理 with both hands and a slight respectful bow, tea cups on the table, both smiling politely.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王经理 (Chinese businessman about 50, short greying hair, rimless glasses) says: \"好，好！阮安，你好！我是王经理。\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"王经理，你好！谢谢！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王经理",
+      "t": "好，好！阮安，你好！我是王经理。",
+      "py": "Hǎo, hǎo! Ruǎn Ān, nǐ hǎo! Wǒ shì Wáng jīnglǐ.",
+      "vi": "À, vâng vâng! Chào An! Tôi là giám đốc Vương. (đưa danh thiếp bằng hai tay)"
+     },
+     {
+      "who": "阮安",
+      "t": "王经理，你好！谢谢！",
+      "py": "Wáng jīnglǐ, nǐ hǎo! Xièxie!",
+      "vi": "Chào giám đốc Vương! Cảm ơn ông! (nhận danh thiếp bằng hai tay, đưa lại danh thiếp của mình)"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-2-3.mp4",
+    "lines": [
+     4,
+     5,
+     6
+    ],
+    "speakers": [
+     "王经理",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a formal company meeting room: 阮安 receives a blank business card from 王经理 with both hands and a slight respectful bow, tea cups on the table, both smiling politely.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王经理 (Chinese businessman about 50, short greying hair, rimless glasses) says: \"不客气！\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"谢谢王经理！\"\n- 王经理 (Chinese businessman about 50, short greying hair, rimless glasses) says: \"不客气。好，阮安，再见！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王经理",
+      "t": "不客气！",
+      "py": "Bú kèqi!",
+      "vi": "Không có gì! (rót trà mời An)"
+     },
+     {
+      "who": "阮安",
+      "t": "谢谢王经理！",
+      "py": "Xièxie Wáng jīnglǐ!",
+      "vi": "Cảm ơn giám đốc Vương!"
+     },
+     {
+      "who": "王经理",
+      "t": "不客气。好，阮安，再见！",
+      "py": "Bú kèqi. Hǎo, Ruǎn Ān, zàijiàn!",
+      "vi": "Không có gì. Thôi, chào An nhé!"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-2-4.mp4",
+    "lines": [
+     7
+    ],
+    "speakers": [
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a formal company meeting room: 阮安 receives a blank business card from 王经理 with both hands and a slight respectful bow, tea cups on the table, both smiling politely.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"王经理，再见！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮安",
+      "t": "王经理，再见！",
+      "py": "Wáng jīnglǐ, zàijiàn!",
+      "vi": "Chào giám đốc Vương ạ!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "阮安",
+    "key": "an",
+    "look": "A realistic Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse, yellow lanyard with a blank white badge, natural smile"
+   },
+   {
+    "name": "王经理",
+    "key": "wangjl",
+    "look": "A realistic Chinese businessman about 50, short greying hair, rimless glasses, dark navy suit with a red tie, polite and warm"
+   }
+  ]
+ },
+ {
+  "key": "zh-w1-thu-3",
+  "lang": "zh",
+  "week": 1,
+  "day": "Thứ 3",
+  "title": "Hỏi tên, làm quen",
+  "setting": "Buổi giao lưu Việt – Trung do công ty tổ chức, hội trường treo đèn lồng đỏ. 阮安 làm quen với đồng nghiệp người Trung Quốc 王丽; 王丽 chỉ cho cô biết anh đồng nghiệp ở góc phòng tên là gì.",
+  "image": "flow/scene-zh-networking.jpg",
+  "imageKey": "scene-zh-networking",
+  "clips": [
+   {
+    "file": "zh-w1-thu-3-1.mp4",
+    "lines": [
+     0,
+     1
+    ],
+    "speakers": [
+     "王丽",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 and 王丽 meeting for the first time at a Vietnamese–Chinese exchange event in a hall decorated with red lanterns, both waving hello and smiling.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"你好！你叫什么名字？\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"我叫阮安。你呢？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "你好！你叫什么名字？",
+      "py": "Nǐ hǎo! Nǐ jiào shénme míngzi?",
+      "vi": "Chào bạn! Bạn tên là gì?"
+     },
+     {
+      "who": "阮安",
+      "t": "我叫阮安。你呢？",
+      "py": "Wǒ jiào Ruǎn Ān. Nǐ ne?",
+      "vi": "Mình tên Nguyễn An. Còn bạn?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-3-2.mp4",
+    "lines": [
+     2
+    ],
+    "speakers": [
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 and 王丽 meeting for the first time at a Vietnamese–Chinese exchange event in a hall decorated with red lanterns, both waving hello and smiling.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"我叫王丽。很高兴认识你！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "我叫王丽。很高兴认识你！",
+      "py": "Wǒ jiào Wáng Lì. Hěn gāoxìng rènshi nǐ!",
+      "vi": "Mình tên Vương Lệ. Rất vui được quen bạn!"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-3-3.mp4",
+    "lines": [
+     3
+    ],
+    "speakers": [
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 and 王丽 meeting for the first time at a Vietnamese–Chinese exchange event in a hall decorated with red lanterns, both waving hello and smiling.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"我也很高兴认识你！他呢？他叫什么名字？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮安",
+      "t": "我也很高兴认识你！他呢？他叫什么名字？",
+      "py": "Wǒ yě hěn gāoxìng rènshi nǐ! Tā ne? Tā jiào shénme míngzi?",
+      "vi": "Mình cũng rất vui được quen bạn! Còn anh kia? Anh ấy tên gì? (chỉ về góc phòng)"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-3-4.mp4",
+    "lines": [
+     4,
+     5
+    ],
+    "speakers": [
+     "王丽",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 and 王丽 meeting for the first time at a Vietnamese–Chinese exchange event in a hall decorated with red lanterns, both waving hello and smiling.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"他叫阮明。你认识他吗？\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"不认识。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "他叫阮明。你认识他吗？",
+      "py": "Tā jiào Ruǎn Míng. Nǐ rènshi tā ma?",
+      "vi": "Anh ấy tên Nguyễn Minh. Bạn quen anh ấy không?"
+     },
+     {
+      "who": "阮安",
+      "t": "不认识。",
+      "py": "Bú rènshi.",
+      "vi": "Không quen."
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-3-5.mp4",
+    "lines": [
+     6
+    ],
+    "speakers": [
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 and 王丽 meeting for the first time at a Vietnamese–Chinese exchange event in a hall decorated with red lanterns, both waving hello and smiling.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"我们认识他！阮安，我们很高兴认识你！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "我们认识他！阮安，我们很高兴认识你！",
+      "py": "Wǒmen rènshi tā! Ruǎn Ān, wǒmen hěn gāoxìng rènshi nǐ!",
+      "vi": "Bọn mình quen anh ấy! An ơi, cả nhóm bọn mình rất vui được quen bạn!"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-3-6.mp4",
+    "lines": [
+     7
+    ],
+    "speakers": [
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 and 王丽 meeting for the first time at a Vietnamese–Chinese exchange event in a hall decorated with red lanterns, both waving hello and smiling.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"谢谢！我也很高兴！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮安",
+      "t": "谢谢！我也很高兴！",
+      "py": "Xièxie! Wǒ yě hěn gāoxìng!",
+      "vi": "Cảm ơn! Mình cũng rất vui!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "阮安",
+    "key": "an",
+    "look": "A realistic Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse, yellow lanyard with a blank white badge, natural smile"
+   },
+   {
+    "name": "王丽",
+    "key": "wangli",
+    "look": "A realistic Chinese woman about 26, black hair in a high ponytail, red knit sweater, cheerful expression"
+   }
+  ]
+ },
+ {
+  "key": "zh-w1-thu-4",
+  "lang": "zh",
+  "week": 1,
+  "day": "Thứ 4",
+  "title": "Quốc tịch, ngôn ngữ, bạn bè",
+  "setting": "Cuối tuần, buổi giao lưu ngôn ngữ ở quán cà phê với đồng nghiệp và bạn nước ngoài. 王丽 giới thiệu 阮安 với cả nhóm; 阮明 nghe An nói tiếng Trung tốt quá nên tưởng cô là người Trung Quốc.",
+  "image": "flow/room-live.jpg",
+  "imageKey": "room-live",
+  "clips": [
+   {
+    "file": "zh-w1-thu-4-1.mp4",
+    "lines": [
+     0,
+     1
+    ],
+    "speakers": [
+     "王丽",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a weekend language meetup in a café: a small group of Vietnamese adults (阮安, 阮明) and foreign friends (王丽) chatting and laughing around a table, blank name tags.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"大家好！看，她是我朋友！\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"大家好！我叫阮安。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "大家好！看，她是我朋友！",
+      "py": "Dàjiā hǎo! Kàn, tā shì wǒ péngyou!",
+      "vi": "Chào mọi người! Nhìn này, đây là bạn mình!"
+     },
+     {
+      "who": "阮安",
+      "t": "大家好！我叫阮安。",
+      "py": "Dàjiā hǎo! Wǒ jiào Ruǎn Ān.",
+      "vi": "Chào mọi người! Mình tên là Nguyễn An."
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-4-2.mp4",
+    "lines": [
+     2
+    ],
+    "speakers": [
+     "阮明"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a weekend language meetup in a café: a small group of Vietnamese adults (阮安, 阮明) and foreign friends (王丽) chatting and laughing around a table, blank name tags.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"你好，阮安！你是中国人吗？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮明",
+      "t": "你好，阮安！你是中国人吗？",
+      "py": "Nǐ hǎo, Ruǎn Ān! Nǐ shì Zhōngguórén ma?",
+      "vi": "Chào An! Bạn là người Trung Quốc à? (vì An nói tiếng Trung rất tự nhiên)"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-4-3.mp4",
+    "lines": [
+     3
+    ],
+    "speakers": [
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a weekend language meetup in a café: a small group of Vietnamese adults (阮安, 阮明) and foreign friends (王丽) chatting and laughing around a table, blank name tags.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"不是，我是越南人。你是哪国人？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮安",
+      "t": "不是，我是越南人。你是哪国人？",
+      "py": "Bú shì, wǒ shì Yuènán rén. Nǐ shì nǎ guó rén?",
+      "vi": "Không, mình là người Việt Nam. (越南 Yuènán = Việt Nam) Bạn là người nước nào?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-4-4.mp4",
+    "lines": [
+     4
+    ],
+    "speakers": [
+     "阮明"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a weekend language meetup in a café: a small group of Vietnamese adults (阮安, 阮明) and foreign friends (王丽) chatting and laughing around a table, blank name tags.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"我也是越南人。王丽是中国人，是外国人。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮明",
+      "t": "我也是越南人。王丽是中国人，是外国人。",
+      "py": "Wǒ yě shì Yuènán rén. Wáng Lì shì Zhōngguórén, shì wàiguórén.",
+      "vi": "Mình cũng là người Việt Nam. Vương Lệ là người Trung Quốc — ở đây chị ấy là người nước ngoài."
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-4-5.mp4",
+    "lines": [
+     5,
+     6
+    ],
+    "speakers": [
+     "王丽",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a weekend language meetup in a café: a small group of Vietnamese adults (阮安, 阮明) and foreign friends (王丽) chatting and laughing around a table, blank name tags.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"你们都会说汉语吗？\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"会！我是学生。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "你们都会说汉语吗？",
+      "py": "Nǐmen dōu huì shuō Hànyǔ ma?",
+      "vi": "Hai bạn đều biết nói tiếng Trung à?"
+     },
+     {
+      "who": "阮安",
+      "t": "会！我是学生。",
+      "py": "Huì! Wǒ shì xuéshēng.",
+      "vi": "Biết chứ! Mình là học viên (lớp tiếng Trung buổi tối của công ty)."
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-4-6.mp4",
+    "lines": [
+     7
+    ],
+    "speakers": [
+     "阮明"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a weekend language meetup in a café: a small group of Vietnamese adults (阮安, 阮明) and foreign friends (王丽) chatting and laughing around a table, blank name tags.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"我也是学生！我们是同学，也是朋友！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮明",
+      "t": "我也是学生！我们是同学，也是朋友！",
+      "py": "Wǒ yě shì xuéshēng! Wǒmen shì tóngxué, yě shì péngyou!",
+      "vi": "Mình cũng học lớp đó! Vậy bọn mình là bạn cùng lớp, cũng là bạn bè!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "阮安",
+    "key": "an",
+    "look": "A realistic Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse, yellow lanyard with a blank white badge, natural smile"
+   },
+   {
+    "name": "王丽",
+    "key": "wangli",
+    "look": "A realistic Chinese woman about 26, black hair in a high ponytail, red knit sweater, cheerful expression"
+   },
+   {
+    "name": "阮明",
+    "key": "minh",
+    "look": "A realistic Vietnamese man about 27, short black hair, green casual shirt, friendly smile"
+   }
+  ]
+ },
+ {
+  "key": "zh-w1-thu-5",
+  "lang": "zh",
+  "week": 1,
+  "day": "Thứ 5",
+  "title": "Số đếm, hỏi tuổi",
+  "setting": "Giờ giải lao bên máy pha cà phê. 王丽 trêu 阮安 trông trẻ như học sinh, rồi khoe ảnh sinh nhật của con trai — bé 小天 — trên điện thoại.",
+  "image": "flow/colleague.jpg",
+  "imageKey": "colleague",
+  "clips": [
+   {
+    "file": "zh-w1-thu-5-1.mp4",
+    "lines": [
+     0
+    ],
+    "speakers": [
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: two colleagues, 阮安 and 王丽, chatting and laughing next to the coffee machine in the office kitchen during a break. No text or numbers in image.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"阮安，你多大了？你很小，是中学生吗？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "阮安，你多大了？你很小，是中学生吗？",
+      "py": "Ruǎn Ān, nǐ duō dà le? Nǐ hěn xiǎo, shì zhōngxuéshēng ma?",
+      "vi": "An ơi, em bao nhiêu tuổi rồi? Trông em trẻ quá, học sinh trung học à? (đùa)"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-5-2.mp4",
+    "lines": [
+     1
+    ],
+    "speakers": [
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: two colleagues, 阮安 and 王丽, chatting and laughing next to the coffee machine in the office kitchen during a break. No text or numbers in image.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"不是！我不小了！我今年二十六岁。你呢？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮安",
+      "t": "不是！我不小了！我今年二十六岁。你呢？",
+      "py": "Bú shì! Wǒ bù xiǎo le! Wǒ jīnnián èrshíliù suì. Nǐ ne?",
+      "vi": "Đâu có! Em không còn nhỏ nữa! Năm nay em hai mươi sáu tuổi. Còn chị?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-5-3.mp4",
+    "lines": [
+     2,
+     3
+    ],
+    "speakers": [
+     "王丽",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: two colleagues, 阮安 and 王丽, chatting and laughing next to the coffee machine in the office kitchen during a break. No text or numbers in image.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"我也二十六岁。\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"小天呢？小天几岁了？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "我也二十六岁。",
+      "py": "Wǒ yě èrshíliù suì.",
+      "vi": "Chị cũng hai mươi sáu."
+     },
+     {
+      "who": "阮安",
+      "t": "小天呢？小天几岁了？",
+      "py": "Xiǎotiān ne? Xiǎotiān jǐ suì le?",
+      "vi": "Còn bé Thiên? Bé mấy tuổi rồi?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-5-4.mp4",
+    "lines": [
+     4,
+     5
+    ],
+    "speakers": [
+     "王丽",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: two colleagues, 阮安 and 王丽, chatting and laughing next to the coffee machine in the office kitchen during a break. No text or numbers in image.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"看！一、二、三、四、五、六！六岁了！\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"六岁？他是小学生吗？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "看！一、二、三、四、五、六！六岁了！",
+      "py": "Kàn! Yī, èr, sān, sì, wǔ, liù! Liù suì le!",
+      "vi": "Nhìn này! (đếm nến trên bánh sinh nhật trong ảnh) Một, hai, ba, bốn, năm, sáu! Sáu tuổi rồi!"
+     },
+     {
+      "who": "阮安",
+      "t": "六岁？他是小学生吗？",
+      "py": "Liù suì? Tā shì xiǎoxuéshēng ma?",
+      "vi": "Sáu tuổi à? Bé học tiểu học chưa?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-5-5.mp4",
+    "lines": [
+     6,
+     7
+    ],
+    "speakers": [
+     "王丽",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: two colleagues, 阮安 and 王丽, chatting and laughing next to the coffee machine in the office kitchen during a break. No text or numbers in image.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"是，他是小学生。明年七岁！\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"好！小天六岁了！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "是，他是小学生。明年七岁！",
+      "py": "Shì, tā shì xiǎoxuéshēng. Míngnián qī suì!",
+      "vi": "Rồi, bé là học sinh tiểu học. Sang năm bảy tuổi!"
+     },
+     {
+      "who": "阮安",
+      "t": "好！小天六岁了！",
+      "py": "Hǎo! Xiǎotiān liù suì le!",
+      "vi": "Hay quá! Bé Thiên sáu tuổi rồi!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "阮安",
+    "key": "an",
+    "look": "A realistic Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse, yellow lanyard with a blank white badge, natural smile"
+   },
+   {
+    "name": "王丽",
+    "key": "wangli",
+    "look": "A realistic Chinese woman about 26, black hair in a high ponytail, red knit sweater, cheerful expression"
+   }
+  ]
+ },
+ {
+  "key": "zh-w1-thu-6",
+  "lang": "zh",
+  "week": 1,
+  "day": "Thứ 6",
+  "title": "Gia đình, người thân",
+  "setting": "Giờ nghỉ trưa ở công ty. Em gái của 阮明 là 阮兰 ghé mang cơm trưa cho anh. 阮明 giới thiệu đồng nghiệp 王丽 với em gái, rồi cả ba nói chuyện về gia đình.",
+  "image": "flow/she.jpg",
+  "imageKey": "she",
+  "clips": [
+   {
+    "file": "zh-w1-thu-6-1.mp4",
+    "lines": [
+     0
+    ],
+    "speakers": [
+     "阮明"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 office at lunchtime: 阮明 introduces his female colleague 王丽 to a visitor, his younger sister 阮兰, gesturing toward 王丽 with 阮安 open hand while 王丽 smiles and waves.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"阮兰，这是王丽，她是我的朋友。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮明",
+      "t": "阮兰，这是王丽，她是我的朋友。",
+      "py": "Ruǎn Lán, zhè shì Wáng Lì, tā shì wǒ de péngyou.",
+      "vi": "Lan ơi, đây là chị Vương Lệ, bạn (đồng nghiệp) của anh. (đưa tay giới thiệu)"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-6-2.mp4",
+    "lines": [
+     1,
+     2
+    ],
+    "speakers": [
+     "王丽",
+     "阮兰"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 office at lunchtime: 阮明 introduces his female colleague 王丽 to a visitor, his younger sister 阮兰, gesturing toward 王丽 with 阮安 open hand while 王丽 smiles and waves.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"你好！你是阮明的家人吗？\"\n- 阮兰 (Vietnamese woman about 22, long straight black hair, white T-shirt under a light denim jacket) says: \"是，我是他妹妹。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "你好！你是阮明的家人吗？",
+      "py": "Nǐ hǎo! Nǐ shì Ruǎn Míng de jiārén ma?",
+      "vi": "Chào em! Em là người nhà của Minh à? (vẫy tay)"
+     },
+     {
+      "who": "阮兰",
+      "t": "是，我是他妹妹。",
+      "py": "Shì, wǒ shì tā mèimei.",
+      "vi": "Vâng, em là em gái anh ấy."
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-6-3.mp4",
+    "lines": [
+     3
+    ],
+    "speakers": [
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 office at lunchtime: 阮明 introduces his female colleague 王丽 to a visitor, his younger sister 阮兰, gesturing toward 王丽 with 阮安 open hand while 王丽 smiles and waves.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"阮明，你家有几口人？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "阮明，你家有几口人？",
+      "py": "Ruǎn Míng, nǐ jiā yǒu jǐ kǒu rén?",
+      "vi": "Minh ơi, nhà anh có mấy người?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-6-4.mp4",
+    "lines": [
+     4
+    ],
+    "speakers": [
+     "阮明"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 office at lunchtime: 阮明 introduces his female colleague 王丽 to a visitor, his younger sister 阮兰, gesturing toward 王丽 with 阮安 open hand while 王丽 smiles and waves.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"我家有四口人：爸爸、妈妈、妹妹和我。我没有哥哥，也没有姐姐。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮明",
+      "t": "我家有四口人：爸爸、妈妈、妹妹和我。我没有哥哥，也没有姐姐。",
+      "py": "Wǒ jiā yǒu sì kǒu rén: bàba, māma, mèimei hé wǒ. Wǒ méiyǒu gēge, yě méiyǒu jiějie.",
+      "vi": "Nhà tôi có bốn người: bố, mẹ, em gái và tôi. Tôi không có anh trai, cũng không có chị gái."
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-6-5.mp4",
+    "lines": [
+     5,
+     6
+    ],
+    "speakers": [
+     "王丽",
+     "阮兰"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 office at lunchtime: 阮明 introduces his female colleague 王丽 to a visitor, his younger sister 阮兰, gesturing toward 王丽 with 阮安 open hand while 王丽 smiles and waves.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"我家有三口人。我有一个儿子。\"\n- 阮兰 (Vietnamese woman about 22, long straight black hair, white T-shirt under a light denim jacket) says: \"你儿子几岁了？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "我家有三口人。我有一个儿子。",
+      "py": "Wǒ jiā yǒu sān kǒu rén. Wǒ yǒu yí gè érzi.",
+      "vi": "Nhà chị có ba người. Chị có một con trai."
+     },
+     {
+      "who": "阮兰",
+      "t": "你儿子几岁了？",
+      "py": "Nǐ érzi jǐ suì le?",
+      "vi": "Con trai chị mấy tuổi rồi ạ?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w1-thu-6-6.mp4",
+    "lines": [
+     7
+    ],
+    "speakers": [
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 office at lunchtime: 阮明 introduces his female colleague 王丽 to a visitor, his younger sister 阮兰, gesturing toward 王丽 with 阮安 open hand while 王丽 smiles and waves.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"六岁了。那是他！我妹妹有两个女儿。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "六岁了。那是他！我妹妹有两个女儿。",
+      "py": "Liù suì le. Nà shì tā! Wǒ mèimei yǒu liǎng gè nǚ'ér.",
+      "vi": "Sáu tuổi rồi. Kia là bé đấy! (chỉ ảnh dán trên bàn làm việc) Em gái chị thì có hai con gái."
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "王丽",
+    "key": "wangli",
+    "look": "A realistic Chinese woman about 26, black hair in a high ponytail, red knit sweater, cheerful expression"
+   },
+   {
+    "name": "阮明",
+    "key": "minh",
+    "look": "A realistic Vietnamese man about 27, short black hair, green casual shirt, friendly smile"
+   },
+   {
+    "name": "阮兰",
+    "key": "lan",
+    "look": "A realistic Vietnamese woman about 22, long straight black hair, white T-shirt under a light denim jacket, friendly smile"
+   }
+  ]
+ },
+ {
+  "key": "zh-w2-thu-2",
+  "lang": "zh",
+  "week": 2,
+  "day": "Thứ 2",
+  "title": "Buổi sáng ở công ty, nói giờ",
+  "setting": "9 giờ 20 sáng ở văn phòng. 王丽 cầm cốc cà phê, vui vẻ chào 阮明 vừa chạy vào — anh ngủ quên, trong khi 9 rưỡi giám đốc Vương gọi cả nhóm lên họp.",
+  "image": "flow/morning.jpg",
+  "imageKey": "morning",
+  "clips": [
+   {
+    "file": "zh-w2-thu-2-1.mp4",
+    "lines": [
+     0,
+     1
+    ],
+    "speakers": [
+     "王丽",
+     "阮明"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 office worker (王丽) holding a cup of coffee and cheerfully greeting a colleague (阮明) in the morning sunlight at the office. No text or numbers in image.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"阮明，早上好！\"\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"早上好！现在几点？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "阮明，早上好！",
+      "py": "Ruǎn Míng, zǎoshang hǎo!",
+      "vi": "Minh ơi, chào buổi sáng! (tay cầm cốc cà phê)"
+     },
+     {
+      "who": "阮明",
+      "t": "早上好！现在几点？",
+      "py": "Zǎoshang hǎo! Xiànzài jǐ diǎn?",
+      "vi": "Chào buổi sáng! Mấy giờ rồi chị?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-2-2.mp4",
+    "lines": [
+     2
+    ],
+    "speakers": [
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 office worker (王丽) holding a cup of coffee and cheerfully greeting a colleague (阮明) in the morning sunlight at the office. No text or numbers in image.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"九点二十分了。我八点叫你，你怎么还睡？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "九点二十分了。我八点叫你，你怎么还睡？",
+      "py": "Jiǔ diǎn èrshí fēn le. Wǒ bā diǎn jiào nǐ, nǐ zěnme hái shuì?",
+      "vi": "9 giờ 20 rồi. 8 giờ chị gọi điện cho em, sao em vẫn còn ngủ?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-2-3.mp4",
+    "lines": [
+     3
+    ],
+    "speakers": [
+     "阮明"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 office worker (王丽) holding a cup of coffee and cheerfully greeting a colleague (阮明) in the morning sunlight at the office. No text or numbers in image.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"我八点二十分起床……你几点起床？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮明",
+      "t": "我八点二十分起床……你几点起床？",
+      "py": "Wǒ bā diǎn èrshí fēn qǐchuáng... Nǐ jǐ diǎn qǐchuáng?",
+      "vi": "Em dậy lúc 8 giờ 20… Chị dậy lúc mấy giờ?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-2-4.mp4",
+    "lines": [
+     4
+    ],
+    "speakers": [
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 office worker (王丽) holding a cup of coffee and cheerfully greeting a colleague (阮明) in the morning sunlight at the office. No text or numbers in image.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"我六点半起床。小天七点半上学。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "我六点半起床。小天七点半上学。",
+      "py": "Wǒ liù diǎn bàn qǐchuáng. Xiǎotiān qī diǎn bàn shàngxué.",
+      "vi": "Chị dậy lúc 6 rưỡi. Bé Thiên đi học lúc 7 rưỡi mà."
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-2-5.mp4",
+    "lines": [
+     5,
+     6
+    ],
+    "speakers": [
+     "王丽",
+     "阮明"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 office worker (王丽) holding a cup of coffee and cheerfully greeting a colleague (阮明) in the morning sunlight at the office. No text or numbers in image.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"九点半王经理叫我们，不要晚了！\"\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"九点半？还早……\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "九点半王经理叫我们，不要晚了！",
+      "py": "Jiǔ diǎn bàn Wáng jīnglǐ jiào wǒmen, búyào wǎn le!",
+      "vi": "9 rưỡi giám đốc Vương gọi chúng ta lên họp, đừng có muộn đấy!"
+     },
+     {
+      "who": "阮明",
+      "t": "九点半？还早……",
+      "py": "Jiǔ diǎn bàn? Hái zǎo...",
+      "vi": "9 rưỡi à? Vẫn còn sớm mà…"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-2-6.mp4",
+    "lines": [
+     7
+    ],
+    "speakers": [
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: 阮安 office worker (王丽) holding a cup of coffee and cheerfully greeting a colleague (阮明) in the morning sunlight at the office. No text or numbers in image.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"还早？现在九点二十分！要晚了！我们去吧！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "还早？现在九点二十分！要晚了！我们去吧！",
+      "py": "Hái zǎo? Xiànzài jiǔ diǎn èrshí fēn! Yào wǎn le! Wǒmen qù ba!",
+      "vi": "Còn sớm á? Bây giờ là 9 giờ 20! Sắp muộn rồi! Mình đi thôi!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "王丽",
+    "key": "wangli",
+    "look": "A realistic Chinese woman about 26, black hair in a high ponytail, red knit sweater, cheerful expression"
+   },
+   {
+    "name": "阮明",
+    "key": "minh",
+    "look": "A realistic Vietnamese man about 27, short black hair, green casual shirt, friendly smile"
+   }
+  ]
+ },
+ {
+  "key": "zh-w2-thu-3",
+  "lang": "zh",
+  "week": 2,
+  "day": "Thứ 3",
+  "title": "Bữa sáng ở pantry: ăn uống, mời và từ chối",
+  "setting": "8 giờ sáng ở phòng pantry của công ty. 王丽 mang đồ ăn sáng đến mời 阮安; chỉ còn một cái bánh bao, và An lịch sự từ chối sữa.",
+  "image": "flow/thanks.jpg",
+  "imageKey": "thanks",
+  "clips": [
+   {
+    "file": "zh-w2-thu-3-1.mp4",
+    "lines": [
+     0,
+     1
+    ],
+    "speakers": [
+     "王丽",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: the office pantry: a woman (阮安) smiles gratefully with a hand on her heart as her colleague (王丽) hands her a cup, breakfast on the counter.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"阮安，早上好！坐，吃早饭吧！\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"早上好！有什么？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "阮安，早上好！坐，吃早饭吧！",
+      "py": "Ruǎn Ān, zǎoshang hǎo! Zuò, chī zǎofàn ba!",
+      "vi": "An ơi, chào buổi sáng! Ngồi đi, ăn sáng nào!"
+     },
+     {
+      "who": "阮安",
+      "t": "早上好！有什么？",
+      "py": "Zǎoshang hǎo! Yǒu shénme?",
+      "vi": "Chào buổi sáng! Có gì thế chị?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-3-2.mp4",
+    "lines": [
+     2
+    ],
+    "speakers": [
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: the office pantry: a woman (阮安) smiles gratefully with a hand on her heart as her colleague (王丽) hands her a cup, breakfast on the counter.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"有包子、面包、鸡蛋。你想吃什么？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "有包子、面包、鸡蛋。你想吃什么？",
+      "py": "Yǒu bāozi, miànbāo, jīdàn. Nǐ xiǎng chī shénme?",
+      "vi": "Có bánh bao, bánh mì, trứng. Em muốn ăn gì?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-3-3.mp4",
+    "lines": [
+     3
+    ],
+    "speakers": [
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: the office pantry: a woman (阮安) smiles gratefully with a hand on her heart as her colleague (王丽) hands her a cup, breakfast on the counter.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"我想吃包子！我爱吃包子。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮安",
+      "t": "我想吃包子！我爱吃包子。",
+      "py": "Wǒ xiǎng chī bāozi! Wǒ ài chī bāozi.",
+      "vi": "Em muốn ăn bánh bao! Em thích bánh bao lắm."
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-3-4.mp4",
+    "lines": [
+     4,
+     5
+    ],
+    "speakers": [
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: the office pantry: a woman (阮安) smiles gratefully with a hand on her heart as her colleague (王丽) hands her a cup, breakfast on the counter.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"包子太少了……我们一人一半吧。\"\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"再喝一点儿牛奶吧！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "包子太少了……我们一人一半吧。",
+      "py": "Bāozi tài shǎo le... Wǒmen yì rén yíbàn ba.",
+      "vi": "Bánh bao ít quá… Mình chia mỗi người một nửa nhé."
+     },
+     {
+      "who": "王丽",
+      "t": "再喝一点儿牛奶吧！",
+      "py": "Zài hē yìdiǎnr niúnǎi ba!",
+      "vi": "Uống thêm chút sữa đi!"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-3-5.mp4",
+    "lines": [
+     6
+    ],
+    "speakers": [
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: the office pantry: a woman (阮安) smiles gratefully with a hand on her heart as her colleague (王丽) hands her a cup, breakfast on the counter.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"不喝了，谢谢。我不爱喝牛奶，我想喝水。我的杯子呢？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮安",
+      "t": "不喝了，谢谢。我不爱喝牛奶，我想喝水。我的杯子呢？",
+      "py": "Bù hē le, xièxie. Wǒ bú ài hē niúnǎi, wǒ xiǎng hē shuǐ. Wǒ de bēizi ne?",
+      "vi": "Em không uống đâu, cảm ơn chị. Em không thích sữa, em muốn uống nước. Cốc của em đâu nhỉ?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-3-6.mp4",
+    "lines": [
+     7,
+     8
+    ],
+    "speakers": [
+     "王丽",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: the office pantry: a woman (阮安) smiles gratefully with a hand on her heart as her colleague (王丽) hands her a cup, breakfast on the counter.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"给你。\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"谢谢你！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "给你。",
+      "py": "Gěi nǐ.",
+      "vi": "Đây em. (đưa cốc nước)"
+     },
+     {
+      "who": "阮安",
+      "t": "谢谢你！",
+      "py": "Xièxie nǐ!",
+      "vi": "Cảm ơn chị! (đặt tay lên ngực)"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "阮安",
+    "key": "an",
+    "look": "A realistic Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse, yellow lanyard with a blank white badge, natural smile"
+   },
+   {
+    "name": "王丽",
+    "key": "wangli",
+    "look": "A realistic Chinese woman about 26, black hair in a high ponytail, red knit sweater, cheerful expression"
+   }
+  ]
+ },
+ {
+  "key": "zh-w2-thu-4",
+  "lang": "zh",
+  "week": 2,
+  "day": "Thứ 4",
+  "title": "Đồ vật trong văn phòng, vị trí, tìm đồ",
+  "setting": "Cuối giờ chiều ở văn phòng. 阮明 sắp đi học lớp tiếng Trung buổi tối mà không tìm thấy sách; 阮安 ngồi bàn bên cạnh tìm giúp.",
+  "image": "flow/work.jpg",
+  "imageKey": "work",
+  "clips": [
+   {
+    "file": "zh-w2-thu-4-1.mp4",
+    "lines": [
+     0,
+     1
+    ],
+    "speakers": [
+     "阮明",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a modern bright office in Hanoi: adults (阮安, 阮明) working at laptops at their desks, focused, a few books and cups on the desks.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"阮安，我的书在哪儿？\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"你找哪本书？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮明",
+      "t": "阮安，我的书在哪儿？",
+      "py": "Ruǎn Ān, wǒ de shū zài nǎr?",
+      "vi": "An ơi, sách của anh đâu rồi?"
+     },
+     {
+      "who": "阮安",
+      "t": "你找哪本书？",
+      "py": "Nǐ zhǎo nǎ běn shū?",
+      "vi": "Anh tìm quyển nào?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-4-2.mp4",
+    "lines": [
+     2,
+     3
+    ],
+    "speakers": [
+     "阮明",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a modern bright office in Hanoi: adults (阮安, 阮明) working at laptops at their desks, focused, a few books and cups on the desks.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"汉语书！这儿没有，那儿也没有！\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"桌子上呢？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮明",
+      "t": "汉语书！这儿没有，那儿也没有！",
+      "py": "Hànyǔ shū! Zhèr méiyǒu, nàr yě méiyǒu!",
+      "vi": "Sách tiếng Trung! Chỗ này không có, chỗ kia cũng không có!"
+     },
+     {
+      "who": "阮安",
+      "t": "桌子上呢？",
+      "py": "Zhuōzi shang ne?",
+      "vi": "Thế trên bàn thì sao?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-4-3.mp4",
+    "lines": [
+     4,
+     5
+    ],
+    "speakers": [
+     "阮明",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a modern bright office in Hanoi: adults (阮安, 阮明) working at laptops at their desks, focused, a few books and cups on the desks.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"桌子上没有！\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"我看见了！在椅子下！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮明",
+      "t": "桌子上没有！",
+      "py": "Zhuōzi shang méiyǒu!",
+      "vi": "Trên bàn không có!"
+     },
+     {
+      "who": "阮安",
+      "t": "我看见了！在椅子下！",
+      "py": "Wǒ kànjiàn le! Zài yǐzi xià!",
+      "vi": "Em thấy rồi! Ở dưới ghế!"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-4-4.mp4",
+    "lines": [
+     6
+    ],
+    "speakers": [
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a modern bright office in Hanoi: adults (阮安, 阮明) working at laptops at their desks, focused, a few books and cups on the desks.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"你的桌子里有这些东西……都是你的？\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮安",
+      "t": "你的桌子里有这些东西……都是你的？",
+      "py": "Nǐ de zhuōzi li yǒu zhèxiē dōngxi... dōu shì nǐ de?",
+      "vi": "Trong ngăn bàn anh có mấy thứ này (bánh mì, ba cái cốc…)… đều là của anh à?"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-4-5.mp4",
+    "lines": [
+     7
+    ],
+    "speakers": [
+     "阮明"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a modern bright office in Hanoi: adults (阮安, 阮明) working at laptops at their desks, focused, a few books and cups on the desks.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"是……是我的。谢谢你！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮明",
+      "t": "是……是我的。谢谢你！",
+      "py": "Shì... shì wǒ de. Xièxie nǐ!",
+      "vi": "Ừ… của anh cả. Cảm ơn em!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "阮安",
+    "key": "an",
+    "look": "A realistic Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse, yellow lanyard with a blank white badge, natural smile"
+   },
+   {
+    "name": "阮明",
+    "key": "minh",
+    "look": "A realistic Vietnamese man about 27, short black hair, green casual shirt, friendly smile"
+   }
+  ]
+ },
+ {
+  "key": "zh-w2-thu-5",
+  "lang": "zh",
+  "week": 2,
+  "day": "Thứ 5",
+  "title": "Lớp tiếng Trung buổi tối: nghe, đọc, viết chữ Hán",
+  "setting": "Lớp tiếng Trung buổi tối ở công ty. 阮明 vừa ngồi xuống thì thấy 王丽 cũng đăng ký lớp (chị học thêm cách dạy chữ Hán cho đồng nghiệp Việt). Cô 李老师 bước vào khi hai người còn đang nói chuyện.",
+  "image": "flow/scene-zh-classroom.jpg",
+  "imageKey": "scene-zh-classroom",
+  "clips": [
+   {
+    "file": "zh-w2-thu-5-1.mp4",
+    "lines": [
+     0,
+     1
+    ],
+    "speakers": [
+     "阮明",
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a small adult language class with a blank whiteboard: 阮明 and 王丽 seated at desks turned towards each other, chatting before class; the 李老师 (李老师) is off-frame at the front.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"王丽，你好！你也上课吗？\"\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"是！我们是同学了！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮明",
+      "t": "王丽，你好！你也上课吗？",
+      "py": "Wáng Lì, nǐ hǎo! Nǐ yě shàngkè ma?",
+      "vi": "Chào chị Lệ! Chị cũng đi học à?"
+     },
+     {
+      "who": "王丽",
+      "t": "是！我们是同学了！",
+      "py": "Shì! Wǒmen shì tóngxué le!",
+      "vi": "Ừ! Giờ chúng mình là bạn cùng lớp rồi!"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-5-2.mp4",
+    "lines": [
+     2,
+     3
+    ],
+    "speakers": [
+     "李老师"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a small adult language class with a blank whiteboard: 阮明 and 王丽 seated at desks turned towards each other, chatting before class; the 李老师 (李老师) is off-frame at the front.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 李老师 (Chinese woman teacher in her late 30s, black hair in a low bun, thin black glasses) says: \"上课了！不要说话！\"\n- 李老师 (Chinese woman teacher in her late 30s, black hair in a low bun, thin black glasses) says: \"我们学第五课。你们听我读。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "李老师",
+      "t": "上课了！不要说话！",
+      "py": "Shàngkè le! Búyào shuōhuà!",
+      "vi": "Vào học rồi! Không nói chuyện nữa nhé!"
+     },
+     {
+      "who": "李老师",
+      "t": "我们学第五课。你们听我读。",
+      "py": "Wǒmen xué dì-wǔ kè. Nǐmen tīng wǒ dú.",
+      "vi": "Chúng ta học bài 5. Mọi người nghe tôi đọc."
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-5-3.mp4",
+    "lines": [
+     4,
+     5
+    ],
+    "speakers": [
+     "阮明",
+     "李老师"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a small adult language class with a blank whiteboard: 阮明 and 王丽 seated at desks turned towards each other, chatting before class; the 李老师 (李老师) is off-frame at the front.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"老师，这个字怎么读？\"\n- 李老师 (Chinese woman teacher in her late 30s, black hair in a low bun, thin black glasses) says: \"读“学”，学习的学。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮明",
+      "t": "老师，这个字怎么读？",
+      "py": "Lǎoshī, zhège zì zěnme dú?",
+      "vi": "Thưa cô, chữ này đọc thế nào ạ?"
+     },
+     {
+      "who": "李老师",
+      "t": "读“学”，学习的学。",
+      "py": "Dú “xué”, xuéxí de xué.",
+      "vi": "Đọc là “xué”, chữ xué trong xuéxí (học tập)."
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-5-4.mp4",
+    "lines": [
+     6,
+     7
+    ],
+    "speakers": [
+     "阮明",
+     "李老师"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a small adult language class with a blank whiteboard: 阮明 and 王丽 seated at desks turned towards each other, chatting before class; the 李老师 (李老师) is off-frame at the front.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮明 (Vietnamese man about 27, short black hair, green casual shirt) says: \"这个字怎么写？\"\n- 李老师 (Chinese woman teacher in her late 30s, black hair in a low bun, thin black glasses) says: \"你看，我写。男同学读，女同学写！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮明",
+      "t": "这个字怎么写？",
+      "py": "Zhège zì zěnme xiě?",
+      "vi": "Chữ này viết thế nào ạ?"
+     },
+     {
+      "who": "李老师",
+      "t": "你看，我写。男同学读，女同学写！",
+      "py": "Nǐ kàn, wǒ xiě. Nán tóngxué dú, nǚ tóngxué xiě!",
+      "vi": "Anh xem này, tôi viết. Các anh đọc, các chị viết!"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-5-5.mp4",
+    "lines": [
+     8,
+     9
+    ],
+    "speakers": [
+     "王丽",
+     "李老师"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: a small adult language class with a blank whiteboard: 阮明 and 王丽 seated at desks turned towards each other, chatting before class; the 李老师 (李老师) is off-frame at the front.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"老师，下课后呢？\"\n- 李老师 (Chinese woman teacher in her late 30s, black hair in a low bun, thin black glasses) says: \"下课后写十个汉字！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "老师，下课后呢？",
+      "py": "Lǎoshī, xiàkè hòu ne?",
+      "vi": "Thưa cô, thế sau giờ học thì sao ạ?"
+     },
+     {
+      "who": "李老师",
+      "t": "下课后写十个汉字！",
+      "py": "Xiàkè hòu xiě shí gè Hànzì!",
+      "vi": "Sau giờ học, mỗi người viết mười chữ Hán!"
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "王丽",
+    "key": "wangli",
+    "look": "A realistic Chinese woman about 26, black hair in a high ponytail, red knit sweater, cheerful expression"
+   },
+   {
+    "name": "阮明",
+    "key": "minh",
+    "look": "A realistic Vietnamese man about 27, short black hair, green casual shirt, friendly smile"
+   },
+   {
+    "name": "李老师",
+    "key": "teacher",
+    "look": "A realistic Chinese woman teacher in her late 30s, black hair in a low bun, thin black glasses, light blue blouse, holding a textbook"
+   }
+  ]
+ },
+ {
+  "key": "zh-w2-thu-6",
+  "lang": "zh",
+  "week": 2,
+  "day": "Thứ 6",
+  "title": "Ngày tháng, thứ, buổi trong ngày, phương tiện: lên lịch công tác",
+  "setting": "Chuyến công tác cuối tuần ở Bắc Kinh. 阮安 và 王丽 đứng trên phố xem bản đồ giấy, tính lịch: giám đốc Vương đi Thượng Hải, khi nào và bằng gì sẽ quay lại nhóm.",
+  "image": "flow/where.jpg",
+  "imageKey": "where",
+  "clips": [
+   {
+    "file": "zh-w2-thu-6-1.mp4",
+    "lines": [
+     0,
+     1
+    ],
+    "speakers": [
+     "阮安",
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: two adults, 阮安 and 王丽, looking at a paper map together on a city street, pointing and smiling while planning their trip.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"王丽，王经理今天回来吗？\"\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"不回来。他明天下午到。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮安",
+      "t": "王丽，王经理今天回来吗？",
+      "py": "Wáng Lì, Wáng jīnglǐ jīntiān huílai ma?",
+      "vi": "Chị Lệ ơi, hôm nay giám đốc Vương về (chỗ mình) không?"
+     },
+     {
+      "who": "王丽",
+      "t": "不回来。他明天下午到。",
+      "py": "Bù huílai. Tā míngtiān xiàwǔ dào.",
+      "vi": "Không về đâu. Chiều mai ông ấy mới đến."
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-6-2.mp4",
+    "lines": [
+     2,
+     3
+    ],
+    "speakers": [
+     "阮安",
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: two adults, 阮安 and 王丽, looking at a paper map together on a city street, pointing and smiling while planning their trip.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"他坐飞机回来吗？\"\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"不，他坐火车回来。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮安",
+      "t": "他坐飞机回来吗？",
+      "py": "Tā zuò fēijī huílai ma?",
+      "vi": "Ông ấy về bằng máy bay à?"
+     },
+     {
+      "who": "王丽",
+      "t": "不，他坐火车回来。",
+      "py": "Bù, tā zuò huǒchē huílai.",
+      "vi": "Không, ông ấy về bằng tàu hỏa."
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-6-3.mp4",
+    "lines": [
+     4,
+     5
+    ],
+    "speakers": [
+     "阮安",
+     "王丽"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: two adults, 阮安 and 王丽, looking at a paper map together on a city street, pointing and smiling while planning their trip.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"明天几月几号？星期几？\"\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"九月六号，星期日。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮安",
+      "t": "明天几月几号？星期几？",
+      "py": "Míngtiān jǐ yuè jǐ hào? Xīngqī jǐ?",
+      "vi": "Mai là ngày mấy tháng mấy? Thứ mấy nhỉ?"
+     },
+     {
+      "who": "王丽",
+      "t": "九月六号，星期日。",
+      "py": "Jiǔ yuè liù hào, xīngqīrì.",
+      "vi": "Ngày 6 tháng 9, Chủ nhật."
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-6-4.mp4",
+    "lines": [
+     6,
+     7
+    ],
+    "speakers": [
+     "王丽",
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: two adults, 阮安 and 王丽, looking at a paper map together on a city street, pointing and smiling while planning their trip.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 王丽 (Chinese woman about 26, black hair in a high ponytail, red knit sweater) says: \"今天晚上不要开电视，十点睡觉吧！\"\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"知道了！\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "王丽",
+      "t": "今天晚上不要开电视，十点睡觉吧！",
+      "py": "Jīntiān wǎnshang búyào kāi diànshì, shí diǎn shuìjiào ba!",
+      "vi": "Tối nay đừng bật tivi nhé, 10 giờ đi ngủ thôi!"
+     },
+     {
+      "who": "阮安",
+      "t": "知道了！",
+      "py": "Zhīdào le!",
+      "vi": "Em biết rồi!"
+     }
+    ]
+   },
+   {
+    "file": "zh-w2-thu-6-5.mp4",
+    "lines": [
+     8
+    ],
+    "speakers": [
+     "阮安"
+    ],
+    "prompt": "Use the uploaded image as the first frame and keep the same people, faces, clothes and room. Realistic 8-second video, steady camera, natural light, natural lip-sync and gestures. Scene: two adults, 阮安 and 王丽, looking at a paper map together on a city street, pointing and smiling while planning their trip.\nThe characters speak in Mandarin Chinese (standard Putonghua, clear and slightly slow for learners), in this exact order, with a short natural pause between lines:\n- 阮安 (Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse) says: \"……我看手机。\"\nNo subtitles, no on-screen text, no background music, no other speech.",
+    "say": [
+     {
+      "who": "阮安",
+      "t": "……我看手机。",
+      "py": "……Wǒ kàn shǒujī.",
+      "vi": "… (thế thì) em xem điện thoại vậy."
+     }
+    ]
+   }
+  ],
+  "cast": [
+   {
+    "name": "阮安",
+    "key": "an",
+    "look": "A realistic Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse, yellow lanyard with a blank white badge, natural smile"
+   },
+   {
+    "name": "王丽",
+    "key": "wangli",
+    "look": "A realistic Chinese woman about 26, black hair in a high ponytail, red knit sweater, cheerful expression"
+   }
+  ]
+ }
+]
