@@ -6,7 +6,7 @@
  "track": "en-b1",
  "title": "Họp nhóm, nêu ý kiến: cập nhật tiến độ, tranh luận, làm rõ, đề xuất, chốt việc",
  "cando": "Mở và dẫn một đoạn họp, nêu ý kiến kèm lý do, ngắt lời và hỏi lại lịch sự, đề xuất phương án, tóm tắt quyết định và viết email chốt việc",
- "story": "Một tuần họp kế hoạch ra mắt ứng dụng Bright Star. Kevin (sales) muốn ra mắt sớm vào tháng Sáu, Tom (marketing) muốn đợi đến tháng Chín để thử nghiệm kỹ. An (vai của bạn) đưa số liệu khảo sát khách hàng và đề xuất phương án trung gian: ra mắt thử ở Đà Nẵng vào tháng Bảy. Sarah chủ trì, Linh ghi biên bản.",
+ "story": "Một tuần họp kế hoạch ra mắt ứng dụng Bright Star. Kevin (sales) muốn ra mắt sớm vào tháng Sáu, Tom (thiết kế và thử nghiệm) muốn đợi đến tháng Chín để thử nghiệm kỹ. An (vai của bạn) đưa số liệu khảo sát khách hàng và đề xuất phương án trung gian: ra mắt thử ở Đà Nẵng vào tháng Bảy. Sarah chủ trì, Linh ghi biên bản.",
  "cast": [
   {
    "key": "an",
@@ -182,7 +182,7 @@
      "ipa": "/əbˈdʒek.tɪv/",
      "m": "mục tiêu",
      "ex": "Our main objective is to launch the app by June.",
-     "exm": "Mục tiêu chính của chúng ta là ra mắt ứng dụng trước tháng Sáu.",
+     "exm": "Mục tiêu chính của chúng ta là ra mắt ứng dụng chậm nhất là vào tháng Sáu.",
      "n": "Nhấn âm hai: ob-JEC-tive. Gần nghĩa: goal, aim.",
      "img": "chart",
      "spell": [
@@ -627,16 +627,16 @@
     },
     {
      "q": "Mục tiếp theo là gì?",
-     "audio": "Let's move on to the next item: the budget.",
+     "audio": "Let's move on to the next item: the customer survey.",
      "opts": [
-      "ngân sách",
+      "khảo sát khách hàng",
       "thiết kế",
-      "khảo sát"
+      "ngân sách"
      ],
      "a": 0,
      "why": {
-      "1": "Sai: thiết kế là mục đầu tiên; câu nói the budget.",
-      "2": "Sai: câu không nhắc đến survey."
+      "1": "Sai: thiết kế là mục đầu tiên; câu nói the customer survey.",
+      "2": "Sai: câu không nhắc đến budget."
      }
     }
    ],
@@ -1681,7 +1681,7 @@
    "hsk": [
     {
      "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
-     "audio": "Man: I think we should launch the app in June. Woman: I see your point, but our testing won't be finished until August. Man: Then what about July? Question: Why does the woman disagree?",
+     "audio": "Man: I think we should launch the app in June. Woman: I see your point, but our testing won't be finished until the end of June. Man: Then what about July? Question: Why does the woman disagree?",
      "opts": [
       "The testing is not finished",
       "The app is too expensive",
@@ -1864,8 +1864,8 @@
    },
    "reading": {
     "title": "Chuỗi tin nhắn nhóm trước cuộc họp",
-    "text": "Project chat – Monday evening\nKevin: In my view, we should launch in June. Customers keep asking about the app, and summer is a busy season.\nTom: I see your point, Kevin, but the testing isn't finished yet. If the app is slow, people will stop using it.\nLinh: As far as I know, our main competitor is launching in October. So we don't need to rush.\nAn: The survey results are ready. 70% of customers want online ordering, but 40% said the old app was too slow.\nSarah: Thanks, everyone. Let's discuss this at tomorrow's meeting.",
-    "vi": "Nhóm dự án – tối thứ Hai\nKevin: Theo tôi, nên ra mắt vào tháng Sáu. Khách hàng cứ hỏi mãi về ứng dụng, mà mùa hè lại là mùa bận.\nTom: Tôi hiểu ý anh, Kevin, nhưng thử nghiệm vẫn chưa xong. Nếu ứng dụng chậm, người ta sẽ không dùng nữa.\nLinh: Theo chỗ em biết, đối thủ chính ra mắt vào tháng Mười. Vậy mình không cần vội.\nAn: Kết quả khảo sát có rồi. 70% khách hàng muốn đặt hàng trực tuyến, nhưng 40% nói ứng dụng cũ quá chậm.\nSarah: Cảm ơn mọi người. Mai mình bàn trong cuộc họp nhé.",
+    "text": "Project chat – Monday evening\nKevin: In my view, we should launch in June. Customers keep asking about the app, and summer is a busy season.\nTom: I see your point, Kevin, but the testing isn't finished yet. If the app is slow, people will stop using it.\nTom: Also, as far as I know, our main competitor is launching in October. So we don't need to rush.\nAn: The first survey results (300 answers) are ready. 70% of customers want online ordering, but 40% said the old app was too slow.\nSarah: Thanks, everyone. Let's discuss this at tomorrow's meeting.",
+    "vi": "Nhóm dự án – tối thứ Hai\nKevin: Theo tôi, nên ra mắt vào tháng Sáu. Khách hàng cứ hỏi mãi về ứng dụng, mà mùa hè lại là mùa bận.\nTom: Tôi hiểu ý anh, Kevin, nhưng thử nghiệm vẫn chưa xong. Nếu ứng dụng chậm, người ta sẽ không dùng nữa.\nTom: Thêm nữa, theo chỗ tôi biết, đối thủ chính ra mắt vào tháng Mười. Vậy mình không cần vội.\nAn: Đã có kết quả khảo sát đầu tiên (300 câu trả lời). 70% khách hàng muốn đặt hàng trực tuyến, nhưng 40% nói ứng dụng cũ quá chậm.\nSarah: Cảm ơn mọi người. Mai mình bàn trong cuộc họp nhé.",
     "qs": [
      {
       "q": "Kevin đưa ra lý do gì?",
@@ -1894,7 +1894,7 @@
       }
      },
      {
-      "q": "Theo Linh, đối thủ ra mắt khi nào?",
+      "q": "Theo Tom, đối thủ ra mắt khi nào?",
       "opts": [
        "tháng Mười",
        "tháng Sáu",
@@ -1903,18 +1903,18 @@
       "a": 0,
       "why": {
        "1": "Sai: tháng Sáu là ngày Kevin muốn.",
-       "2": "Sai: Linh nói October."
+       "2": "Sai: Tom nói October."
       }
      },
      {
-      "q": "Đúng hay sai: \"Linh thinks the team should launch in June.\"",
+      "q": "Đúng hay sai: \"Tom thinks the team should launch in June.\"",
       "opts": [
        "Sai",
        "Đúng"
       ],
       "a": 0,
       "why": {
-       "1": "Không đúng: Linh nói we don't need to rush (không cần vội), tức là không ủng hộ ra mắt sớm vào tháng Sáu."
+       "1": "Không đúng: Tom nói the testing isn't finished yet và we don't need to rush (không cần vội), tức là không ủng hộ ra mắt vào tháng Sáu."
       }
      },
      {
@@ -2005,8 +2005,8 @@
    "write": {
     "task": "Viết tin nhắn (4–5 câu) gửi nhóm dự án nêu ý kiến của bạn về ngày ra mắt: ý kiến, lý do, ví dụ.",
     "kind": "message",
-    "model": "Hi team, in my view, we should launch the app in September. The main reason is that the testing isn't finished yet. For example, 40% of customers in our survey said the old app was too slow. I think a fast app is more important than an early launch. What do you think?",
-    "frame": "Hi team, in my view, we should launch the app in ___. The main reason is that ___. For example, ___. I think ___ is more important than ___. What do you think?",
+    "model": "Hi team, in my view, we should launch the app in September. The main reason is that the testing isn't finished yet. Also, 40% of customers in our survey said the old app was too slow. I think a fast app is more important than an early launch. What do you think?",
+    "frame": "Hi team, in my view, we should launch the app in ___. The main reason is that ___. Also, ___. I think ___ is more important than ___. What do you think?",
     "gaps": [
      "September",
      "the testing isn't finished yet",
@@ -2024,14 +2024,14 @@
     "hints": [
      "In my view, we should… / I think we ought to…",
      "The main reason is that…",
-     "For example, …",
+     "Also, … / For example, …",
      "I see Kevin's point, but…",
      "What do you think?"
     ],
     "check": [
      "Câu đầu nêu rõ ý kiến",
      "Có ít nhất một lý do (because / The main reason is that…)",
-     "Có một ví dụ hoặc số liệu (For example, …)",
+     "Có một ví dụ hoặc số liệu (Also, … / For example, …)",
      "Dùng should / ought to đúng (không thêm to sau should)",
      "Kết bằng câu hỏi mời ý kiến",
      "Dài 40–80 từ"
@@ -2129,7 +2129,7 @@
     },
     {
      "w": "sorry to interrupt",
-     "ipa": "/ˌsɒr.i tu ˌɪn.təˈrʌpt/",
+     "ipa": "/ˌsɒr.i tə ˌɪn.təˈrʌpt/",
      "m": "xin lỗi đã cắt ngang",
      "ex": "Sorry to interrupt, Kevin. Could you go back to the cost?",
      "exm": "Xin lỗi cắt ngang, Kevin. Anh quay lại phần chi phí được không?",
@@ -2155,7 +2155,7 @@
     },
     {
      "w": "in other words",
-     "ipa": "/ɪn ˈʌð.ə ˌwɜːdz/",
+     "ipa": "/ɪn ˌʌð.ə ˈwɜːdz/",
      "m": "nói cách khác",
      "ex": "In other words, waiting isn't free.",
      "exm": "Nói cách khác, chờ đợi không phải là miễn phí.",
@@ -2634,23 +2634,23 @@
    "hsk": [
     {
      "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
-     "audio": "Man: Sorry, could you repeat the cost? The line is bad. Woman: Sure, it's fifteen thousand dollars. Man: Fifteen or fifty? Woman: Fifteen – one, five. Question: How much is the cost?",
+     "audio": "Man: Sorry, could you repeat the cost? The line is bad. Woman: Sure, it's forty thousand dollars. Man: Forty or fourteen? Woman: Forty – four, zero. Question: How much is the cost?",
      "opts": [
-      "$15,000",
-      "$50,000",
-      "$5,000",
-      "$1,500"
+      "$40,000",
+      "$14,000",
+      "$4,000",
+      "$400"
      ],
      "a": 0,
      "why": {
-      "1": "Sai: người nữ xác nhận fifteen – one, five, không phải fifty.",
-      "2": "Sai: không ai nói five thousand.",
-      "3": "Sai: không ai nói one thousand five hundred."
+      "1": "Sai: người nữ xác nhận forty – four, zero, không phải fourteen.",
+      "2": "Sai: không ai nói four thousand.",
+      "3": "Sai: không ai nói four hundred."
      }
     },
     {
      "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
-     "audio": "Woman: Could you tell me when the testing will finish? Man: At the end of August, if we get two more developers. Woman: So we need more people. Question: What does the man need to finish on time?",
+     "audio": "Woman: Could you tell me when the testing will finish? Man: At the end of June, if we get two more developers. Woman: So we need more people. Question: What does the man need to finish on time?",
      "opts": [
       "Two more developers",
       "A bigger office",
@@ -2815,8 +2815,8 @@
    },
    "reading": {
     "title": "Email hỏi lại số liệu sau cuộc họp trực tuyến",
-    "text": "Subject: Questions about the testing cost\n\nHi Kevin,\n\nThanks for your update in today's online meeting. My connection was bad, so I'd like to clarify two points.\n\nFirst, you said the extra testing would cost about $40,000. Could you tell me if this includes the two new developers?\n\nSecond, I didn't hear when the testing will finish. Is it the end of August or the end of September?\n\nCould you send me the figures before Thursday's meeting?\n\nThanks,\nAn",
-    "vi": "Tiêu đề: Câu hỏi về chi phí thử nghiệm\n\nAnh Kevin thân mến,\n\nCảm ơn anh đã cập nhật trong cuộc họp trực tuyến hôm nay. Đường truyền của em kém nên em muốn hỏi rõ hai điểm.\n\nThứ nhất, anh nói thử nghiệm thêm sẽ tốn khoảng 40.000 đô. Anh cho em biết con số này đã gồm hai lập trình viên mới chưa?\n\nThứ hai, em không nghe được khi nào thử nghiệm xong. Là cuối tháng Tám hay cuối tháng Chín ạ?\n\nAnh gửi em số liệu trước cuộc họp thứ Năm được không?\n\nCảm ơn anh,\nAn",
+    "text": "Subject: Questions about the testing cost\n\nHi Kevin,\n\nThanks for your update in today's online meeting. My connection was bad, so I'd like to clarify two points.\n\nFirst, you said the extra testing would cost about $40,000. Could you tell me if this is for the June plan or the September plan?\n\nSecond, I didn't hear when the testing will finish. Is it the end of June or the end of July?\n\nCould you send me the figures before Thursday's meeting?\n\nThanks,\nAn",
+    "vi": "Tiêu đề: Câu hỏi về chi phí thử nghiệm\n\nAnh Kevin thân mến,\n\nCảm ơn anh đã cập nhật trong cuộc họp trực tuyến hôm nay. Đường truyền của em kém nên em muốn hỏi rõ hai điểm.\n\nThứ nhất, anh nói thử nghiệm thêm sẽ tốn khoảng 40.000 đô. Anh cho em biết con số này là cho kế hoạch tháng Sáu hay tháng Chín?\n\nThứ hai, em không nghe được khi nào thử nghiệm xong. Là cuối tháng Sáu hay cuối tháng Bảy ạ?\n\nAnh gửi em số liệu trước cuộc họp thứ Năm được không?\n\nCảm ơn anh,\nAn",
     "qs": [
      {
       "q": "Vì sao An viết email?",
@@ -2847,7 +2847,7 @@
      {
       "q": "Câu hỏi thứ nhất của An là gì?",
       "opts": [
-       "chi phí đã gồm hai lập trình viên mới chưa",
+       "con số đó là cho kế hoạch tháng Sáu hay tháng Chín",
        "ai sẽ thử nghiệm",
        "giá bán ứng dụng"
       ],
@@ -2877,7 +2877,7 @@
       ],
       "a": 0,
       "why": {
-       "1": "Sai: cuối tháng Tám là một trong hai ngày An hỏi, không phải hạn gửi số liệu.",
+       "1": "Sai: cuối tháng Sáu là một trong hai mốc An hỏi, không phải hạn gửi số liệu.",
        "2": "Sai: email viết before Thursday's meeting."
       }
      }
@@ -2927,8 +2927,8 @@
      "bm": "báo cáo",
      "note": "repeat có ea đọc 'i' dài ('ri-pít'); report có or đọc 'o' dài ('ri-pót').",
      "qa": {
-      "t": "Could you ___ the last figure?",
-      "vi": "Anh nhắc lại con số cuối được không?"
+      "t": "Sorry, could you ___ that? I didn't hear you.",
+      "vi": "Xin lỗi, anh nhắc lại được không? Tôi không nghe thấy."
      },
      "qb": {
       "t": "Please write a short ___ after the meeting.",
@@ -2956,14 +2956,14 @@
    "write": {
     "task": "Viết email (60–80 từ) hỏi lại một thông tin chưa rõ sau cuộc họp trực tuyến.",
     "kind": "email",
-    "model": "Subject: Question about the testing cost\n\nHi Kevin,\n\nThanks for the online meeting today. My connection was bad, so I'd like to clarify one point. You said the extra testing would cost about $40,000. Could you tell me what this figure includes? Also, could you send me the testing plan before Thursday? Thank you for your help.\n\nBest regards,\nAn",
-    "frame": "Subject: Question about the ___\n\nHi ___,\n\nThanks for the online meeting today. My connection was bad, so I'd like to ___ one point. You said ___. Could you tell me what this figure ___? Also, could you send me the testing plan before ___? Thank you for your help.\n\nBest regards,\n___",
+    "model": "Subject: Question about the testing cost\n\nHi Kevin,\n\nThanks for the online meeting today. My connection was bad, so I'd like to clarify one point. You said the extra testing would cost about $40,000. Could you tell me what this figure is for? Also, could you send me the testing plan before Thursday? Thank you for your help.\n\nBest regards,\nAn",
+    "frame": "Subject: Question about the ___\n\nHi ___,\n\nThanks for the online meeting today. My connection was bad, so I'd like to ___ one point. You said ___. Could you tell me what this figure is ___? Also, could you send me the testing plan before ___? Thank you for your help.\n\nBest regards,\n___",
     "gaps": [
      "testing cost",
      "Kevin",
      "clarify",
      "the extra testing would cost about $40,000",
-     "includes",
+     "for",
      "Thursday",
      "An"
     ],
@@ -2988,7 +2988,7 @@
      "Tiêu đề nói rõ nội dung",
      "Nói lý do viết (đường truyền kém, chưa rõ)",
      "Nhắc lại điều người kia đã nói: You said…",
-     "Câu hỏi gián tiếp đúng trật tự (what this figure includes)",
+     "Câu hỏi gián tiếp đúng trật tự (what this figure is for)",
      "Có một yêu cầu cụ thể kèm thời hạn",
      "Kết thư lịch sự",
      "Dài 60–80 từ"
@@ -4144,8 +4144,8 @@
      },
      {
       "who": "Linh",
-      "t": "Kevin will contact our customers in Da Nang by Friday.",
-      "vi": "Kevin sẽ liên hệ khách hàng ở Đà Nẵng trước thứ Sáu."
+      "t": "Kevin will contact our customers in Da Nang by next Friday.",
+      "vi": "Kevin sẽ liên hệ khách hàng ở Đà Nẵng trước thứ Sáu tuần sau."
      },
      {
       "who": "Linh",
@@ -4209,7 +4209,7 @@
       [
        "Kevin",
        "will contact",
-       "the customers by Friday."
+       "the customers by next Friday."
       ]
      ],
      "ex": [
@@ -4223,7 +4223,7 @@
       ]
      ],
      "bad": "Kevin will contact the customers until Friday.",
-     "good": "Kevin will contact the customers by Friday.",
+     "good": "Kevin will contact the customers by next Friday.",
      "why": "by + thời hạn = chậm nhất là, trước lúc đó; until = kéo dài liên tục đến lúc đó. Hạn chót luôn dùng by."
     },
     {
@@ -4372,7 +4372,7 @@
      "a": 0,
      "why": {
       "1": "Sai: không dùng to và that cùng lúc sau agree.",
-      "2": "Sai: việc ra mắt chưa xảy ra nên không dùng launched."
+      "2": "Sai: việc ra mắt chưa xảy ra nên không dùng launched. (Ở đây giữ will vì kế hoạch vẫn còn ở tương lai; we agreed that we would launch… cũng đúng.)"
      }
     },
     {
@@ -4385,7 +4385,7 @@
      "a": 0,
      "why": {
       "1": "Sai: hạn chót dùng by, không dùng until.",
-      "2": "Sai: in không đi với tên thứ trong tuần (on Friday, by Friday)."
+      "2": "Sai: in không đi với tên thứ trong tuần (on Friday, by next Friday)."
      }
     },
     {
@@ -4478,9 +4478,9 @@
     },
     {
      "q": "Kevin sẽ làm gì?",
-     "audio": "Kevin will contact our customers in Da Nang by Friday.",
+     "audio": "Kevin will contact our customers in Da Nang by next Friday.",
      "opts": [
-      "liên hệ khách hàng ở Đà Nẵng trước thứ Sáu",
+      "liên hệ khách hàng ở Đà Nẵng trước thứ Sáu tuần sau",
       "thử nghiệm ứng dụng",
       "ghi biên bản"
      ],
@@ -4550,7 +4550,7 @@
    "hsk": [
     {
      "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
-     "audio": "Man: Linh, can you sum up the action points? Woman: Sure. Tom will finish the testing by 30 June, and Kevin will call the Da Nang customers by Friday. Man: And who is doing the feedback form? Woman: An is. Question: Who is responsible for the feedback form?",
+     "audio": "Man: Linh, can you sum up the action points? Woman: Sure. Tom will finish the testing by 30 June, and Kevin will call the Da Nang customers by next Friday. Man: And who is doing the feedback form? Woman: An is. Question: Who is responsible for the feedback form?",
      "opts": [
       "An",
       "Tom",
@@ -4650,8 +4650,8 @@
      "focus": "Can I nối 'ke-nai'; nhấn con-FIRM; lên giọng ở cuối."
     },
     {
-     "t": "Kevin will contact our customers by Friday.",
-     "focus": "Nhấn CON-tact (động từ kiểu Anh cũng nhấn âm đầu); by Friday 'bai-phrai-đây'."
+     "t": "Kevin will contact our customers by next Friday.",
+     "focus": "Nhấn CON-tact (động từ kiểu Anh cũng nhấn âm đầu); by next Friday 'bai-phrai-đây'."
     },
     {
      "t": "OK, let's wrap up.",
@@ -4704,14 +4704,14 @@
      {
       "ai": "Tom said that he needed it early. Is that OK?",
       "vi": "Tom nói anh ấy cần phiếu sớm. Có được không em?",
-      "model": "No problem. I'll follow up with him tomorrow.",
+      "model": "No problem. I'll follow up with him on Monday.",
       "accept": [
-       "No problem. I'll follow up with him tomorrow.",
-       "I'll follow up with him tomorrow.",
-       "No problem, I'll follow up with Tom tomorrow.",
-       "Sure. I'll follow up with him tomorrow."
+       "No problem. I'll follow up with him on Monday.",
+       "I'll follow up with him on Monday.",
+       "No problem, I'll follow up with Tom on Monday.",
+       "Sure. I'll follow up with him on Monday."
       ],
-      "frame": "No problem. I'll follow ___ with him tomorrow.",
+      "frame": "No problem. I'll follow ___ with him on Monday.",
       "hint": "Hứa liên hệ lại: I'll follow up with him."
      },
      {
@@ -4731,8 +4731,8 @@
    },
    "reading": {
     "title": "Biên bản họp và danh sách việc cần làm",
-    "text": "MINUTES – PROJECT MEETING, FRIDAY\nPresent: Sarah Lee (chair), Tom, Kevin, Linh (minutes), An\n\nDecision: Pilot launch in Da Nang, 1 July – 31 August. Full launch in September if the pilot goes well.\n\nAction points\n1. Finish testing – Owner: Tom – Deadline: 30 June\n2. Contact Da Nang customers – Owner: Kevin – Deadline: this Friday\n3. Customer feedback form (English and Vietnamese) – Owner: An – Deadline: 20 June\n4. Send the pilot budget – Owner: Sarah – Deadline: next Wednesday\n\nNext meeting: Monday, 9.00",
-    "vi": "BIÊN BẢN – HỌP DỰ ÁN, THỨ SÁU\nCó mặt: Sarah Lee (chủ trì), Tom, Kevin, Linh (ghi biên bản), An\n\nQuyết định: Chạy thử ở Đà Nẵng từ 1/7 đến 31/8. Ra mắt toàn bộ vào tháng Chín nếu đợt thử suôn sẻ.\n\nViệc cần làm\n1. Hoàn thành thử nghiệm – Phụ trách: Tom – Hạn: 30/6\n2. Liên hệ khách hàng ở Đà Nẵng – Phụ trách: Kevin – Hạn: thứ Sáu này\n3. Phiếu ý kiến khách hàng (tiếng Anh và tiếng Việt) – Phụ trách: An – Hạn: 20/6\n4. Gửi ngân sách đợt thử – Phụ trách: Sarah – Hạn: thứ Tư tuần sau\n\nCuộc họp tiếp theo: thứ Hai, 9:00",
+    "text": "MINUTES – PROJECT MEETING, FRIDAY\nPresent: Sarah Lee (chair), Tom, Kevin, Linh (minutes), An\n\nDecision: Pilot launch in Da Nang, 1 July – 31 August. Full launch in September if the pilot goes well.\n\nAction points\n1. Finish testing – Owner: Tom – Deadline: 30 June\n2. Contact Da Nang customers – Owner: Kevin – Deadline: next Friday\n3. Customer feedback form (English and Vietnamese) – Owner: An – Deadline: 20 June\n4. Send the pilot budget – Owner: Sarah – Deadline: next Wednesday\n\nNext meeting: Monday, 9.00",
+    "vi": "BIÊN BẢN – HỌP DỰ ÁN, THỨ SÁU\nCó mặt: Sarah Lee (chủ trì), Tom, Kevin, Linh (ghi biên bản), An\n\nQuyết định: Chạy thử ở Đà Nẵng từ 1/7 đến 31/8. Ra mắt toàn bộ vào tháng Chín nếu đợt thử suôn sẻ.\n\nViệc cần làm\n1. Hoàn thành thử nghiệm – Phụ trách: Tom – Hạn: 30/6\n2. Liên hệ khách hàng ở Đà Nẵng – Phụ trách: Kevin – Hạn: thứ Sáu tuần sau\n3. Phiếu ý kiến khách hàng (tiếng Anh và tiếng Việt) – Phụ trách: An – Hạn: 20/6\n4. Gửi ngân sách đợt thử – Phụ trách: Sarah – Hạn: thứ Tư tuần sau\n\nCuộc họp tiếp theo: thứ Hai, 9:00",
     "qs": [
      {
       "q": "Ai chủ trì cuộc họp?",
@@ -4752,12 +4752,12 @@
       "opts": [
        "20/6",
        "30/6",
-       "thứ Sáu này"
+       "thứ Sáu tuần sau"
       ],
       "a": 0,
       "why": {
        "1": "Sai: 30/6 là hạn của Tom.",
-       "2": "Sai: thứ Sáu này là hạn của Kevin."
+       "2": "Sai: thứ Sáu tuần sau là hạn của Kevin."
       }
      },
      {
@@ -4870,10 +4870,10 @@
     }
    ],
    "write": {
-    "task": "Viết email tóm tắt cuộc họp và việc cần làm (khoảng 100–130 từ) gửi cả nhóm.",
+    "task": "Viết email tóm tắt cuộc họp và việc cần làm (khoảng 100–135 từ) gửi cả nhóm.",
     "kind": "email",
-    "model": "Subject: Summary of today's meeting\n\nHi everyone,\n\nThank you for a useful meeting today. To sum up, we agreed that we will do a pilot launch in Da Nang from 1 July to 31 August. If the pilot goes well, we will launch everywhere in September.\n\nHere are the action points:\n- Tom will finish the testing by 30 June.\n- Kevin will contact our customers in Da Nang by Friday.\n- I will send the customer feedback form by 20 June.\n- Sarah will send the pilot budget by next Wednesday.\n\nTom said that the testing team needed the form early, so I will follow up with him on Monday. Please let me know if I have missed anything. Our next meeting is on Monday at 9.00.\n\nBest regards,\nAn",
-    "frame": "Subject: Summary of today's meeting\n\nHi everyone,\n\nThank you for a useful meeting today. To sum up, we agreed that ___. If the pilot goes well, we will ___.\n\nHere are the action points:\n- Tom will ___ by 30 June.\n- Kevin will ___ by Friday.\n- I will ___ by 20 June.\n- Sarah will send the pilot budget ___ next Wednesday.\n\nTom said that the testing team ___ the form early, so I will ___ with him on Monday. Please let me know if I have missed anything. Our next meeting is on Monday at 9.00.\n\nBest regards,\n___",
+    "model": "Subject: Summary of today's meeting\n\nHi everyone,\n\nThank you for a useful meeting today. To sum up, we agreed that we will do a pilot launch in Da Nang from 1 July to 31 August. If the pilot goes well, we will launch everywhere in September.\n\nHere are the action points:\n- Tom will finish the testing by 30 June.\n- Kevin will contact our customers in Da Nang by next Friday.\n- I will send the customer feedback form by 20 June.\n- Sarah will send the pilot budget by next Wednesday.\n\nTom said that the testing team needed the form early, so I will follow up with him on Monday. Please let me know if I have missed anything. Our next meeting is on Monday at 9.00.\n\nBest regards,\nAn",
+    "frame": "Subject: Summary of today's meeting\n\nHi everyone,\n\nThank you for a useful meeting today. To sum up, we agreed that ___. If the pilot goes well, we will ___.\n\nHere are the action points:\n- Tom will ___ by 30 June.\n- Kevin will ___ by next Friday.\n- I will ___ by 20 June.\n- Sarah will send the pilot budget ___ next Wednesday.\n\nTom said that the testing team ___ the form early, so I will ___ with him on Monday. Please let me know if I have missed anything. Our next meeting is on Monday at 9.00.\n\nBest regards,\n___",
     "gaps": [
      "we will do a pilot launch in Da Nang from 1 July to 31 August",
      "launch everywhere in September",
@@ -4909,7 +4909,7 @@
      "Mỗi việc có người phụ trách và hạn chót với by",
      "Có ít nhất một câu tường thuật (… said that…) lùi thì đúng",
      "Có câu mời góp ý và thông tin cuộc họp tới",
-     "Dài khoảng 100–130 từ (tính cả tiêu đề và lời chào)"
+     "Dài khoảng 100–135 từ (tính cả tiêu đề và lời chào)"
     ],
     "words": [
      100,
