@@ -25,7 +25,7 @@ def voice_of(r):
 def save_pcm(r, pcm):
     if len(pcm) < 24000 * 2 * 0.25: return "quá ngắn"
     secs, n = len(pcm) / 48000, len(r["text"])
-    limit = 2.0 + (0.5 * n if r["lang"] == "zh" else 0.13 * n)
+    limit = (2.0 + (0.5 * n if r["lang"] == "zh" else 0.13 * n)) * float(os.environ.get("LIMIT_X", "1"))  # dãy số đọc chậm, có ngắt: cho dài hơn
     if secs > limit: return f"dài bất thường {secs:.1f}s"
     A.to_mp3(pcm, A.OUT / r["lang"] / (A.clip_id(r) + ".mp3")); return None
 
