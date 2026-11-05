@@ -99,7 +99,7 @@ for wk in weeks:
 for f in sorted(glob.glob(os.path.join(D, "en-*-*.json"))):
     en = json.load(open(f, encoding="utf-8"))
     tag = os.path.basename(f)
-    if not en.get("demo"): continue
+    if not en.get("demo") or en.get("adv"): continue
     if len(en["days"]) != 5: E(f"{tag}: cần đủ 5 ngày")
     for d in en["days"]:
         did = d["id"]
@@ -152,6 +152,17 @@ for f in sorted(glob.glob(os.path.join(D, "en-*-*.json"))):
                 nw = len(re.findall(r"[A-Za-z0-9'@.-]+", w["model"]))
                 if w.get("words") and not w["words"][0] <= nw <= w["words"][1]: E(f"{did}: bài mẫu có {nw} từ, ngoài khoảng {w['words']}")
             elif [x[0] for x in w["frame"]] != [x[0] for x in w["model"]] or [x[1] for x in w["model"]] != w["gaps"]: E(f"{did}: phiếu mẫu và khung không khớp")
+# ---- tuần nâng cao (Trung HSK3 → HSK4, Anh B2): kiểm bằng check_adv.py ----
+import subprocess
+for f in sorted(glob.glob(os.path.join(D, "*.json"))):
+    try: x = json.load(open(f, encoding="utf-8"))
+    except Exception: continue
+    if not isinstance(x, dict) or not x.get("adv"): continue
+    r = subprocess.run([sys.executable, os.path.join(D, "check_adv.py"), f], capture_output=True, text=True)
+    for line in r.stdout.splitlines():
+        if line.startswith("LỖI"): E(os.path.basename(f) + ": " + line[5:].strip())
+        elif line.startswith("LƯU Ý"): W(os.path.basename(f) + ": " + line[5:].strip())
+    weeks.append(os.path.basename(f))
 print(f"Kiểm tra {len(weeks)} tuần: {len(errs)} lỗi, {len(warns)} lưu ý")
 for e in errs: print("LỖI  ", e)
 for w in warns: print("LƯU Ý", w)

@@ -64,8 +64,12 @@ def main():
     if missing: sys.exit(f"DỪNG: thiếu dữ liệu nét chữ trong tools/vendor/hzdata/: {''.join(missing)}")
 
     gloss, zhpy = load(os.path.join(V, "zh-gloss.json")), load(os.path.join(V, "zhpy.json"))
+    gx = os.path.join(V, "zh-gloss-hsk3.json")   # nghĩa Anh, Việt cho 600 từ HSK1–3 (tra từ ở tuần nâng cao)
+    if os.path.exists(gx):
+        for k, v in load(gx).items(): gloss.setdefault(k, v)
     site = {k: v for k, v in load(os.path.join(T, "site.json")).items() if not k.startswith("_")}
     funnel = open(os.path.join(T, "build", "funnel.js"), encoding="utf-8").read()
+    adv = open(os.path.join(T, "build", "adv.js"), encoding="utf-8").read()
 
     # 3. ghép vào khuôn
     s = open(os.path.join(T, "build", "page-template.html"), encoding="utf-8").read()
@@ -77,7 +81,7 @@ def main():
         "/*@ZHGLOSSDATA@*/": json.dumps(gloss, ensure_ascii=False),
         "/*@ZHPYDATA@*/": J(zhpy),
         "/*@SITE@*/": J(site),
-        "/*@FUNNEL@*/": funnel,
+        "/*@FUNNEL@*/": adv + "\n" + funnel,
     }
     for k, v in fill.items():
         if s.count(k) != 1: sys.exit(f"DỪNG: khuôn trang thiếu chỗ điền {k.strip()}")

@@ -1,0 +1,2047 @@
+{
+"北京": [
+"Běijīng",
+"Beijing",
+"Bắc Kinh"
+],
+"菜": [
+"cài",
+"dish; vegetable",
+"món ăn; rau"
+],
+"电脑": [
+"diànnǎo",
+"computer",
+"máy tính"
+],
+"多少": [
+"duōshǎo",
+"how many; how much",
+"bao nhiêu"
+],
+"饭馆": [
+"fànguǎn",
+"restaurant",
+"nhà hàng, quán ăn"
+],
+"工作": [
+"gōngzuò",
+"to work; job",
+"làm việc; công việc"
+],
+"狗": [
+"gǒu",
+"dog",
+"con chó"
+],
+"后面": [
+"hòumian",
+"behind; back",
+"phía sau, đằng sau"
+],
+"回": [
+"huí",
+"to return",
+"về, trở lại"
+],
+"火车站": [
+"huǒchēzhàn",
+"train station",
+"ga tàu hoả"
+],
+"块": [
+"kuài",
+"yuan; piece",
+"đồng (tiền); miếng, cục"
+],
+"来": [
+"lái",
+"to come",
+"đến, tới"
+],
+"零": [
+"líng",
+"zero",
+"số không"
+],
+"猫": [
+"māo",
+"cat",
+"con mèo"
+],
+"没": [
+"méi",
+"not have; no",
+"không, chưa, không có"
+],
+"米饭": [
+"mǐfàn",
+"cooked rice",
+"cơm"
+],
+"年": [
+"nián",
+"year",
+"năm"
+],
+"苹果": [
+"píngguǒ",
+"apple",
+"quả táo"
+],
+"钱": [
+"qián",
+"money",
+"tiền"
+],
+"请": [
+"qǐng",
+"please; to invite",
+"mời, xin vui lòng"
+],
+"人": [
+"rén",
+"person",
+"người"
+],
+"日": [
+"rì",
+"day; sun",
+"ngày; mặt trời (nhật)"
+],
+"少": [
+"shǎo",
+"few; less",
+"ít"
+],
+"时候": [
+"shíhou",
+"time; moment",
+"lúc, khi, thời gian"
+],
+"谁": [
+"shéi",
+"who",
+"ai"
+],
+"水果": [
+"shuǐguǒ",
+"fruit",
+"trái cây, hoa quả"
+],
+"喂": [
+"wéi",
+"hello (phone)",
+"alô, này (gọi điện thoại)"
+],
+"喜欢": [
+"xǐhuan",
+"to like",
+"thích"
+],
+"先生": [
+"xiānsheng",
+"Mr.; sir",
+"ông, ngài, tiên sinh"
+],
+"小姐": [
+"xiǎojie",
+"Miss; young lady",
+"cô, tiểu thư"
+],
+"些": [
+"xiē",
+"some; a few",
+"một vài, một số"
+],
+"衣服": [
+"yīfu",
+"clothes",
+"quần áo"
+],
+"医生": [
+"yīshēng",
+"doctor",
+"bác sĩ"
+],
+"中国": [
+"Zhōngguó",
+"China",
+"Trung Quốc"
+],
+"中午": [
+"zhōngwǔ",
+"noon",
+"buổi trưa"
+],
+"字": [
+"zì",
+"character; word",
+"chữ"
+],
+"昨天": [
+"zuótiān",
+"yesterday",
+"hôm qua"
+],
+"做": [
+"zuò",
+"to do; to make",
+"làm"
+],
+"白": [
+"bái",
+"white",
+"trắng"
+],
+"百": [
+"bǎi",
+"hundred",
+"trăm"
+],
+"帮助": [
+"bāngzhù",
+"to help; help",
+"giúp đỡ, sự giúp đỡ"
+],
+"报纸": [
+"bàozhǐ",
+"newspaper",
+"báo, tờ báo"
+],
+"比": [
+"bǐ",
+"to compare; than",
+"so với, hơn (so sánh)"
+],
+"便宜": [
+"piányi",
+"cheap",
+"rẻ"
+],
+"别": [
+"bié",
+"don't",
+"đừng; khác"
+],
+"唱歌": [
+"chànggē",
+"to sing",
+"hát"
+],
+"出": [
+"chū",
+"to go out",
+"ra, đi ra"
+],
+"穿": [
+"chuān",
+"to wear",
+"mặc, đi (giày, tất)"
+],
+"船": [
+"chuán",
+"boat; ship",
+"thuyền, tàu thuỷ"
+],
+"错": [
+"cuò",
+"wrong; mistake",
+"sai, nhầm"
+],
+"打篮球": [
+"dǎlánqiú",
+"to play basketball",
+"chơi bóng rổ"
+],
+"但是": [
+"dànshì",
+"but; however",
+"nhưng, tuy nhiên"
+],
+"得": [
+"de",
+"particle: complement",
+"trợ từ bổ ngữ (chạy nhanh: 跑得快)"
+],
+"第一": [
+"dìyī",
+"first",
+"thứ nhất, đầu tiên"
+],
+"懂": [
+"dǒng",
+"to understand",
+"hiểu"
+],
+"非常": [
+"fēicháng",
+"very; extremely",
+"rất, vô cùng"
+],
+"服务员": [
+"fúwùyuán",
+"waiter; attendant",
+"nhân viên phục vụ"
+],
+"高": [
+"gāo",
+"tall; high",
+"cao"
+],
+"公共汽车": [
+"gōnggòngqìchē",
+"bus",
+"xe buýt"
+],
+"公斤": [
+"gōngjīn",
+"kilogram",
+"ki-lô-gam, cân"
+],
+"公司": [
+"gōngsī",
+"company",
+"công ty"
+],
+"孩子": [
+"háizi",
+"child",
+"đứa trẻ, con cái"
+],
+"好吃": [
+"hǎochī",
+"delicious",
+"ngon"
+],
+"黑": [
+"hēi",
+"black",
+"đen"
+],
+"红": [
+"hóng",
+"red",
+"đỏ"
+],
+"欢迎": [
+"huānyíng",
+"to welcome",
+"chào mừng, hoan nghênh"
+],
+"回答": [
+"huídá",
+"to answer; answer",
+"trả lời; câu trả lời"
+],
+"件": [
+"jiàn",
+"item (classifier)",
+"cái, chiếc (lượng từ áo, việc)"
+],
+"教室": [
+"jiàoshì",
+"classroom",
+"phòng học, lớp học"
+],
+"介绍": [
+"jièshào",
+"to introduce",
+"giới thiệu"
+],
+"就": [
+"jiù",
+"then; just",
+"thì, liền, ngay; chỉ"
+],
+"觉得": [
+"juéde",
+"to feel; to think",
+"cảm thấy, nghĩ rằng"
+],
+"咖啡": [
+"kāfēi",
+"coffee",
+"cà phê"
+],
+"开始": [
+"kāishǐ",
+"to begin",
+"bắt đầu"
+],
+"考试": [
+"kǎoshì",
+"exam; to take an exam",
+"kỳ thi; thi"
+],
+"可以": [
+"kěyǐ",
+"can; may",
+"có thể, được phép"
+],
+"快乐": [
+"kuàilè",
+"happy",
+"vui vẻ, hạnh phúc"
+],
+"累": [
+"lèi",
+"tired",
+"mệt"
+],
+"旅游": [
+"lǚyóu",
+"to travel; tourism",
+"du lịch"
+],
+"忙": [
+"máng",
+"busy",
+"bận"
+],
+"每": [
+"měi",
+"every; each",
+"mỗi"
+],
+"门": [
+"mén",
+"door",
+"cửa"
+],
+"男人": [
+"nánrén",
+"man",
+"đàn ông"
+],
+"女人": [
+"nǚrén",
+"woman",
+"phụ nữ"
+],
+"跑步": [
+"pǎobù",
+"to run; to jog",
+"chạy bộ"
+],
+"妻子": [
+"qīzi",
+"wife",
+"vợ"
+],
+"千": [
+"qiān",
+"thousand",
+"nghìn"
+],
+"去年": [
+"qùnián",
+"last year",
+"năm ngoái"
+],
+"身体": [
+"shēntǐ",
+"body; health",
+"cơ thể, sức khoẻ"
+],
+"生日": [
+"shēngrì",
+"birthday",
+"sinh nhật"
+],
+"时间": [
+"shíjiān",
+"time",
+"thời gian"
+],
+"事情": [
+"shìqing",
+"matter; thing",
+"việc, sự việc"
+],
+"手表": [
+"shǒubiǎo",
+"wristwatch",
+"đồng hồ đeo tay"
+],
+"送": [
+"sòng",
+"to give; to send",
+"tặng; tiễn; gửi"
+],
+"所以": [
+"suǒyǐ",
+"so; therefore",
+"cho nên, vì vậy"
+],
+"它": [
+"tā",
+"it",
+"nó (vật, con vật)"
+],
+"踢": [
+"tī",
+"to kick; to play (football)",
+"đá (bóng)"
+],
+"题": [
+"tí",
+"question; topic",
+"câu hỏi, đề bài"
+],
+"跳舞": [
+"tiàowǔ",
+"to dance",
+"nhảy múa, khiêu vũ"
+],
+"外": [
+"wài",
+"outside",
+"bên ngoài"
+],
+"完": [
+"wán",
+"to finish",
+"xong, hết"
+],
+"玩": [
+"wán",
+"to play; to have fun",
+"chơi"
+],
+"为": [
+"wèi",
+"for; to be",
+"vì; làm"
+],
+"问": [
+"wèn",
+"to ask",
+"hỏi"
+],
+"洗": [
+"xǐ",
+"to wash",
+"rửa, giặt, gội"
+],
+"西瓜": [
+"xīguā",
+"watermelon",
+"dưa hấu"
+],
+"向": [
+"xiàng",
+"towards",
+"hướng về, về phía"
+],
+"笑": [
+"xiào",
+"to laugh; to smile",
+"cười"
+],
+"新": [
+"xīn",
+"new",
+"mới"
+],
+"姓": [
+"xìng",
+"surname; to be surnamed",
+"họ; họ là"
+],
+"休息": [
+"xiūxi",
+"to rest",
+"nghỉ ngơi"
+],
+"雪": [
+"xuě",
+"snow",
+"tuyết"
+],
+"颜色": [
+"yánsè",
+"color",
+"màu sắc"
+],
+"眼睛": [
+"yǎnjing",
+"eye",
+"mắt"
+],
+"羊肉": [
+"yángròu",
+"mutton; lamb",
+"thịt cừu, thịt dê"
+],
+"药": [
+"yào",
+"medicine",
+"thuốc"
+],
+"意思": [
+"yìsi",
+"meaning",
+"ý nghĩa, ý"
+],
+"因为": [
+"yīnwèi",
+"because",
+"bởi vì"
+],
+"游泳": [
+"yóuyǒng",
+"to swim",
+"bơi lội"
+],
+"鱼": [
+"yú",
+"fish",
+"con cá, cá"
+],
+"元": [
+"yuán",
+"yuan (currency)",
+"nhân dân tệ, đồng (tiền Trung Quốc)"
+],
+"运动": [
+"yùndòng",
+"sports; to exercise",
+"thể thao; vận động"
+],
+"张": [
+"zhāng",
+"sheet (classifier)",
+"tờ, tấm (lượng từ giấy, bàn); họ Trương"
+],
+"丈夫": [
+"zhàngfu",
+"husband",
+"chồng"
+],
+"着": [
+"zhe",
+"particle: ongoing state",
+"đang, đã (trợ từ chỉ trạng thái kéo dài)"
+],
+"正在": [
+"zhèngzài",
+"in the process of",
+"đang (hành động đang diễn ra)"
+],
+"自行车": [
+"zìxíngchē",
+"bicycle",
+"xe đạp"
+],
+"最": [
+"zuì",
+"most",
+"nhất"
+],
+"阿姨": [
+"āyí",
+"auntie; nanny",
+"cô, dì; người giúp việc"
+],
+"矮": [
+"ǎi",
+"short (height)",
+"thấp, lùn"
+],
+"爱好": [
+"àihào",
+"hobby; to like",
+"sở thích; yêu thích"
+],
+"安静": [
+"ānjìng",
+"quiet",
+"yên tĩnh"
+],
+"把": [
+"bǎ",
+"(object marker); handle",
+"đưa tân ngữ lên trước động từ (câu chữ 把); lượng từ cái có tay cầm"
+],
+"班": [
+"bān",
+"class; shift",
+"lớp; ca làm việc"
+],
+"搬": [
+"bān",
+"to move; to carry",
+"chuyển, dọn, bê"
+],
+"办法": [
+"bànfǎ",
+"method; way",
+"cách, biện pháp"
+],
+"办公室": [
+"bàngōngshì",
+"office",
+"văn phòng"
+],
+"帮忙": [
+"bāngmáng",
+"to help out",
+"giúp một tay, giúp đỡ"
+],
+"饱": [
+"bǎo",
+"full (from eating)",
+"no"
+],
+"北方": [
+"běifāng",
+"north",
+"phương Bắc, miền Bắc"
+],
+"被": [
+"bèi",
+"(passive marker)",
+"bị, được (câu bị động)"
+],
+"鼻子": [
+"bízi",
+"nose",
+"mũi"
+],
+"比较": [
+"bǐjiào",
+"rather; to compare",
+"khá, tương đối; so sánh"
+],
+"比赛": [
+"bǐsài",
+"match; competition",
+"cuộc thi, trận đấu"
+],
+"必须": [
+"bìxū",
+"must; have to",
+"phải, nhất định phải"
+],
+"变化": [
+"biànhuà",
+"change; to change",
+"thay đổi, biến đổi"
+],
+"表示": [
+"biǎoshì",
+"to express; to show",
+"biểu thị, bày tỏ"
+],
+"表演": [
+"biǎoyǎn",
+"performance; to perform",
+"biểu diễn; buổi biểu diễn"
+],
+"别人": [
+"biéren",
+"others",
+"người khác"
+],
+"宾馆": [
+"bīnguǎn",
+"hotel; guesthouse",
+"khách sạn, nhà khách"
+],
+"冰箱": [
+"bīngxiāng",
+"refrigerator",
+"tủ lạnh"
+],
+"才": [
+"cái",
+"only then; just",
+"mới, vừa mới"
+],
+"菜单": [
+"càidān",
+"menu",
+"thực đơn"
+],
+"参加": [
+"cānjiā",
+"to take part in",
+"tham gia"
+],
+"草": [
+"cǎo",
+"grass",
+"cỏ"
+],
+"层": [
+"céng",
+"floor; layer",
+"tầng; lớp"
+],
+"差": [
+"chà",
+"to lack; poor",
+"thiếu, kém"
+],
+"衬衫": [
+"chènshān",
+"shirt",
+"áo sơ mi"
+],
+"成绩": [
+"chéngjì",
+"grades; result",
+"thành tích, điểm số"
+],
+"城市": [
+"chéngshì",
+"city",
+"thành phố"
+],
+"迟到": [
+"chídào",
+"to be late",
+"đến muộn"
+],
+"出现": [
+"chūxiàn",
+"to appear",
+"xuất hiện"
+],
+"除了": [
+"chúle",
+"besides; except",
+"ngoài ra, trừ"
+],
+"厨房": [
+"chúfáng",
+"kitchen",
+"nhà bếp"
+],
+"春": [
+"chūn",
+"spring",
+"mùa xuân"
+],
+"词语": [
+"cíyǔ",
+"word; term",
+"từ ngữ"
+],
+"聪明": [
+"cōngming",
+"smart",
+"thông minh"
+],
+"打扫": [
+"dǎsǎo",
+"to clean",
+"dọn dẹp, quét dọn"
+],
+"打算": [
+"dǎsuàn",
+"to plan; plan",
+"dự định"
+],
+"带": [
+"dài",
+"to bring; to take",
+"mang, dẫn theo"
+],
+"担心": [
+"dānxīn",
+"to worry",
+"lo lắng"
+],
+"蛋糕": [
+"dàngāo",
+"cake",
+"bánh ngọt, bánh gato"
+],
+"当然": [
+"dāngrán",
+"of course",
+"tất nhiên, đương nhiên"
+],
+"地": [
+"de",
+"adverbial particle",
+"trợ từ trạng ngữ (cách thức: 慢慢地走)"
+],
+"地方": [
+"dìfang",
+"place",
+"nơi, chỗ"
+],
+"地图": [
+"dìtú",
+"map",
+"bản đồ"
+],
+"灯": [
+"dēng",
+"lamp; light",
+"đèn"
+],
+"低": [
+"dī",
+"low",
+"thấp"
+],
+"电梯": [
+"diàntī",
+"elevator",
+"thang máy"
+],
+"电子": [
+"diànzǐ",
+"electronic",
+"điện tử"
+],
+"东": [
+"dōng",
+"east",
+"phía đông, hướng đông"
+],
+"冬": [
+"dōng",
+"winter",
+"mùa đông"
+],
+"动物": [
+"dòngwù",
+"animal",
+"động vật"
+],
+"短": [
+"duǎn",
+"short",
+"ngắn"
+],
+"段": [
+"duàn",
+"section; paragraph",
+"đoạn, khúc, quãng"
+],
+"锻炼": [
+"duànliàn",
+"to exercise",
+"rèn luyện, tập thể dục"
+],
+"多么": [
+"duōme",
+"how (exclamation)",
+"biết bao, thật là"
+],
+"饿": [
+"è",
+"hungry",
+"đói"
+],
+"而且": [
+"érqiě",
+"moreover; also",
+"hơn nữa, mà còn"
+],
+"耳朵": [
+"ěrduo",
+"ear",
+"tai"
+],
+"发烧": [
+"fāshāo",
+"to have a fever",
+"sốt"
+],
+"发现": [
+"fāxiàn",
+"to discover; to find",
+"phát hiện"
+],
+"方便": [
+"fāngbiàn",
+"convenient",
+"tiện, thuận tiện"
+],
+"放": [
+"fàng",
+"to put; to place",
+"đặt, để; cho vào"
+],
+"放心": [
+"fàngxīn",
+"to rest assured",
+"yên tâm"
+],
+"附近": [
+"fùjìn",
+"nearby",
+"gần đây, lân cận"
+],
+"复习": [
+"fùxí",
+"to review",
+"ôn tập"
+],
+"敢": [
+"gǎn",
+"to dare",
+"dám"
+],
+"感冒": [
+"gǎnmào",
+"cold; to catch a cold",
+"cảm lạnh; bị cảm"
+],
+"干净": [
+"gānjìng",
+"clean",
+"sạch sẽ"
+],
+"刚才": [
+"gāngcái",
+"just now",
+"vừa nãy, vừa rồi"
+],
+"根据": [
+"gēnjù",
+"according to",
+"dựa theo, căn cứ vào"
+],
+"更": [
+"gèng",
+"even more",
+"càng, hơn nữa"
+],
+"公园": [
+"gōngyuán",
+"park",
+"công viên"
+],
+"故事": [
+"gùshi",
+"story",
+"câu chuyện"
+],
+"刮": [
+"guā",
+"to blow (wind)",
+"thổi (gió); cạo"
+],
+"关": [
+"guān",
+"to close; to turn off",
+"đóng, tắt"
+],
+"关系": [
+"guānxi",
+"relationship",
+"quan hệ, mối quan hệ"
+],
+"关心": [
+"guānxīn",
+"to care about",
+"quan tâm"
+],
+"关于": [
+"guānyú",
+"about; regarding",
+"về, liên quan đến"
+],
+"国家": [
+"guójiā",
+"country",
+"quốc gia, đất nước"
+],
+"果汁": [
+"guǒzhī",
+"fruit juice",
+"nước ép trái cây"
+],
+"过去": [
+"guòqù",
+"past; to go over",
+"quá khứ; đi qua"
+],
+"害怕": [
+"hàipà",
+"to be afraid",
+"sợ, sợ hãi"
+],
+"河": [
+"hé",
+"river",
+"sông"
+],
+"黑板": [
+"hēibǎn",
+"blackboard",
+"bảng đen"
+],
+"护照": [
+"hùzhào",
+"passport",
+"hộ chiếu"
+],
+"花": [
+"huā",
+"flower; to spend",
+"hoa; tiêu (tiền, thời gian)"
+],
+"花园": [
+"huāyuán",
+"garden",
+"vườn hoa, khu vườn"
+],
+"画": [
+"huà",
+"to draw; painting",
+"vẽ; bức tranh"
+],
+"环境": [
+"huánjìng",
+"environment",
+"môi trường"
+],
+"换": [
+"huàn",
+"to change; to exchange",
+"đổi, thay"
+],
+"黄": [
+"huáng",
+"yellow",
+"vàng"
+],
+"会议": [
+"huìyì",
+"meeting",
+"cuộc họp, hội nghị"
+],
+"或者": [
+"huòzhě",
+"or; either",
+"hoặc, hay là"
+],
+"机会": [
+"jīhuì",
+"opportunity",
+"cơ hội"
+],
+"极": [
+"jí",
+"extremely",
+"cực kỳ, vô cùng"
+],
+"几乎": [
+"jīhū",
+"almost",
+"hầu như, gần như"
+],
+"记得": [
+"jìde",
+"to remember",
+"nhớ"
+],
+"季节": [
+"jìjié",
+"season",
+"mùa, mùa trong năm"
+],
+"检查": [
+"jiǎnchá",
+"to check; checkup",
+"kiểm tra, khám"
+],
+"简单": [
+"jiǎndān",
+"simple",
+"đơn giản"
+],
+"见面": [
+"jiànmiàn",
+"to meet",
+"gặp mặt"
+],
+"健康": [
+"jiànkāng",
+"healthy; health",
+"khoẻ mạnh; sức khoẻ"
+],
+"讲": [
+"jiǎng",
+"to speak; to explain",
+"nói, kể, giảng giải"
+],
+"角": [
+"jiǎo",
+"corner; horn; jiao",
+"góc; sừng; hào (tiền)"
+],
+"脚": [
+"jiǎo",
+"foot",
+"chân, bàn chân"
+],
+"教": [
+"jiāo",
+"to teach",
+"dạy"
+],
+"接": [
+"jiē",
+"to pick up; to receive",
+"đón; nhận; bắt (máy)"
+],
+"街道": [
+"jiēdào",
+"street",
+"đường phố, phố"
+],
+"节目": [
+"jiémù",
+"program; show",
+"chương trình, tiết mục"
+],
+"节日": [
+"jiérì",
+"festival; holiday",
+"ngày lễ, lễ hội"
+],
+"结婚": [
+"jiéhūn",
+"to get married",
+"kết hôn"
+],
+"结束": [
+"jiéshù",
+"to end",
+"kết thúc"
+],
+"解决": [
+"jiějué",
+"to solve",
+"giải quyết"
+],
+"借": [
+"jiè",
+"to borrow; to lend",
+"mượn; cho mượn"
+],
+"经常": [
+"jīngcháng",
+"often",
+"thường xuyên"
+],
+"经过": [
+"jīngguò",
+"to pass through; process",
+"đi qua; trải qua"
+],
+"久": [
+"jiǔ",
+"long (time)",
+"lâu"
+],
+"旧": [
+"jiù",
+"old (things)",
+"cũ"
+],
+"举行": [
+"jǔxíng",
+"to hold (event)",
+"tổ chức (sự kiện, buổi lễ)"
+],
+"句子": [
+"jùzi",
+"sentence",
+"câu"
+],
+"决定": [
+"juédìng",
+"to decide; decision",
+"quyết định"
+],
+"可爱": [
+"kěài",
+"cute",
+"dễ thương, đáng yêu"
+],
+"渴": [
+"kě",
+"thirsty",
+"khát"
+],
+"刻": [
+"kè",
+"quarter hour",
+"mười lăm phút, một khắc"
+],
+"客人": [
+"kèrén",
+"guest",
+"khách"
+],
+"空调": [
+"kōngtiáo",
+"air conditioner",
+"máy điều hoà"
+],
+"哭": [
+"kū",
+"to cry",
+"khóc"
+],
+"裤子": [
+"kùzi",
+"trousers",
+"quần"
+],
+"筷子": [
+"kuàizi",
+"chopsticks",
+"đũa"
+],
+"蓝": [
+"lán",
+"blue",
+"xanh dương"
+],
+"老": [
+"lǎo",
+"old; always (prefix)",
+"già, cũ; tiền tố (老师, 老王)"
+],
+"了解": [
+"liǎojiě",
+"to understand; to know about",
+"hiểu rõ, tìm hiểu"
+],
+"离开": [
+"líkāi",
+"to leave",
+"rời khỏi, rời đi"
+],
+"礼物": [
+"lǐwù",
+"gift",
+"quà tặng"
+],
+"历史": [
+"lìshǐ",
+"history",
+"lịch sử"
+],
+"脸": [
+"liǎn",
+"face",
+"mặt, khuôn mặt"
+],
+"练习": [
+"liànxí",
+"to practice; exercise",
+"luyện tập; bài tập"
+],
+"辆": [
+"liàng",
+"vehicle (classifier)",
+"chiếc (lượng từ xe cộ)"
+],
+"邻居": [
+"línjū",
+"neighbor",
+"hàng xóm"
+],
+"楼": [
+"lóu",
+"building; floor",
+"toà nhà; tầng"
+],
+"绿": [
+"lǜ",
+"green",
+"xanh lá"
+],
+"马": [
+"mǎ",
+"horse",
+"con ngựa"
+],
+"马上": [
+"mǎshàng",
+"immediately",
+"ngay lập tức"
+],
+"满意": [
+"mǎnyì",
+"satisfied",
+"hài lòng"
+],
+"帽子": [
+"màozi",
+"hat",
+"mũ, nón"
+],
+"米": [
+"mǐ",
+"meter; rice",
+"mét; gạo"
+],
+"面条": [
+"miàntiáo",
+"noodles",
+"mì, sợi mì"
+],
+"明白": [
+"míngbai",
+"to understand; clear",
+"hiểu; rõ ràng"
+],
+"奶奶": [
+"nǎinai",
+"grandma (paternal)",
+"bà nội"
+],
+"南": [
+"nán",
+"south",
+"phía nam, hướng nam"
+],
+"难": [
+"nán",
+"difficult",
+"khó"
+],
+"难过": [
+"nánguò",
+"sad; upset",
+"buồn, khó chịu"
+],
+"年级": [
+"niánjí",
+"grade; year (school)",
+"lớp, năm học"
+],
+"年轻": [
+"niánqīng",
+"young",
+"trẻ"
+],
+"鸟": [
+"niǎo",
+"bird",
+"con chim"
+],
+"努力": [
+"nǔlì",
+"to work hard",
+"cố gắng, nỗ lực"
+],
+"爬山": [
+"páshān",
+"to climb mountains",
+"leo núi"
+],
+"盘子": [
+"pánzi",
+"plate; dish",
+"cái đĩa"
+],
+"胖": [
+"pàng",
+"fat; plump",
+"béo, mập"
+],
+"啤酒": [
+"píjiǔ",
+"beer",
+"bia"
+],
+"葡萄": [
+"pútao",
+"grape",
+"nho"
+],
+"普通话": [
+"pǔtōnghuà",
+"Mandarin",
+"tiếng Phổ thông (tiếng Trung chuẩn)"
+],
+"其实": [
+"qíshí",
+"actually",
+"thực ra"
+],
+"其他": [
+"qítā",
+"other",
+"khác, những cái khác"
+],
+"奇怪": [
+"qíguài",
+"strange",
+"kỳ lạ, lạ"
+],
+"骑": [
+"qí",
+"to ride",
+"cưỡi, đi (xe đạp, xe máy)"
+],
+"铅笔": [
+"qiānbǐ",
+"pencil",
+"bút chì"
+],
+"清楚": [
+"qīngchu",
+"clear",
+"rõ ràng"
+],
+"秋": [
+"qiū",
+"autumn",
+"mùa thu"
+],
+"裙子": [
+"qúnzi",
+"skirt",
+"váy"
+],
+"然后": [
+"ránhòu",
+"then; afterwards",
+"sau đó, rồi"
+],
+"热情": [
+"rèqíng",
+"warm; enthusiastic",
+"nhiệt tình"
+],
+"认为": [
+"rènwéi",
+"to think; to consider",
+"cho rằng, nghĩ rằng"
+],
+"认真": [
+"rènzhēn",
+"serious; conscientious",
+"nghiêm túc, chăm chỉ"
+],
+"容易": [
+"róngyì",
+"easy",
+"dễ"
+],
+"如果": [
+"rúguǒ",
+"if",
+"nếu, nếu như"
+],
+"伞": [
+"sǎn",
+"umbrella",
+"cái ô, cái dù"
+],
+"上网": [
+"shàngwǎng",
+"to go online",
+"lên mạng"
+],
+"生气": [
+"shēngqì",
+"to be angry",
+"tức giận"
+],
+"声音": [
+"shēngyīn",
+"voice; sound",
+"âm thanh, giọng nói"
+],
+"使": [
+"shǐ",
+"to make; to cause",
+"khiến, làm cho, sử dụng"
+],
+"世界": [
+"shìjiè",
+"world",
+"thế giới"
+],
+"瘦": [
+"shòu",
+"thin",
+"gầy, ốm"
+],
+"叔叔": [
+"shūshu",
+"uncle",
+"chú"
+],
+"舒服": [
+"shūfu",
+"comfortable",
+"dễ chịu, thoải mái"
+],
+"树": [
+"shù",
+"tree",
+"cây"
+],
+"数学": [
+"shùxué",
+"mathematics",
+"toán học"
+],
+"刷": [
+"shuā",
+"to brush",
+"chải, đánh (răng), quẹt (thẻ)"
+],
+"双": [
+"shuāng",
+"pair (classifier)",
+"đôi, cặp (lượng từ)"
+],
+"水平": [
+"shuǐpíng",
+"level; standard",
+"trình độ, mức độ"
+],
+"虽然": [
+"suīrán",
+"although",
+"tuy, mặc dù"
+],
+"太阳": [
+"tàiyang",
+"sun",
+"mặt trời"
+],
+"糖": [
+"táng",
+"sugar; candy",
+"đường; kẹo"
+],
+"特别": [
+"tèbié",
+"especially; special",
+"đặc biệt, rất"
+],
+"疼": [
+"téng",
+"painful",
+"đau"
+],
+"提高": [
+"tígāo",
+"to improve; to raise",
+"nâng cao, cải thiện"
+],
+"体育": [
+"tǐyù",
+"sports; PE",
+"thể dục, thể thao"
+],
+"甜": [
+"tián",
+"sweet",
+"ngọt"
+],
+"条": [
+"tiáo",
+"strip (classifier)",
+"sợi, con, chiếc (lượng từ vật dài)"
+],
+"同事": [
+"tóngshì",
+"colleague",
+"đồng nghiệp"
+],
+"同意": [
+"tóngyì",
+"to agree",
+"đồng ý"
+],
+"头发": [
+"tóufa",
+"hair",
+"tóc"
+],
+"突然": [
+"tūrán",
+"suddenly",
+"đột nhiên, bỗng"
+],
+"图书馆": [
+"túshūguǎn",
+"library",
+"thư viện"
+],
+"腿": [
+"tuǐ",
+"leg",
+"chân (từ đùi đến bàn chân)"
+],
+"完成": [
+"wánchéng",
+"to complete",
+"hoàn thành"
+],
+"碗": [
+"wǎn",
+"bowl",
+"cái bát, chén"
+],
+"万": [
+"wàn",
+"ten thousand",
+"vạn, mười nghìn"
+],
+"忘记": [
+"wàngjì",
+"to forget",
+"quên"
+],
+"为了": [
+"wèile",
+"in order to",
+"để, vì (mục đích)"
+],
+"位": [
+"wèi",
+"person (polite classifier)",
+"vị (lượng từ lịch sự cho người)"
+],
+"文化": [
+"wénhuà",
+"culture",
+"văn hoá"
+],
+"习惯": [
+"xíguàn",
+"habit; to be used to",
+"thói quen; quen với"
+],
+"洗手间": [
+"xǐshǒujiān",
+"restroom",
+"nhà vệ sinh"
+],
+"洗澡": [
+"xǐzǎo",
+"to take a bath",
+"tắm"
+],
+"西": [
+"xī",
+"west",
+"phía tây, hướng tây"
+],
+"夏": [
+"xià",
+"summer",
+"mùa hè"
+],
+"先": [
+"xiān",
+"first; earlier",
+"trước, trước tiên"
+],
+"相同": [
+"xiāngtóng",
+"same; identical",
+"giống nhau"
+],
+"相信": [
+"xiāngxìn",
+"to believe",
+"tin, tin tưởng"
+],
+"香蕉": [
+"xiāngjiāo",
+"banana",
+"chuối"
+],
+"像": [
+"xiàng",
+"to resemble; like",
+"giống, như"
+],
+"小心": [
+"xiǎoxīn",
+"to be careful",
+"cẩn thận"
+],
+"校长": [
+"xiàozhǎng",
+"principal; president",
+"hiệu trưởng"
+],
+"鞋": [
+"xié",
+"shoe",
+"giày"
+],
+"新闻": [
+"xīnwén",
+"news",
+"tin tức"
+],
+"新鲜": [
+"xīnxiān",
+"fresh",
+"tươi, mới mẻ"
+],
+"信": [
+"xìn",
+"letter; to believe",
+"thư; tin"
+],
+"行李箱": [
+"xínglixiāng",
+"suitcase",
+"va-li, hành lý"
+],
+"兴趣": [
+"xìngqù",
+"interest",
+"hứng thú, sở thích"
+],
+"熊猫": [
+"xióngmāo",
+"panda",
+"gấu trúc"
+],
+"需要": [
+"xūyào",
+"to need; need",
+"cần, nhu cầu"
+],
+"选择": [
+"xuǎnzé",
+"to choose; choice",
+"lựa chọn"
+],
+"眼镜": [
+"yǎnjìng",
+"glasses",
+"kính mắt"
+],
+"要求": [
+"yāoqiú",
+"to require; requirement",
+"yêu cầu"
+],
+"爷爷": [
+"yéye",
+"grandpa (paternal)",
+"ông nội"
+],
+"一般": [
+"yìbān",
+"ordinary; generally",
+"bình thường, thường"
+],
+"一边": [
+"yìbiān",
+"at the same time",
+"vừa ... vừa ... (làm hai việc cùng lúc)"
+],
+"一定": [
+"yídìng",
+"certainly; must",
+"nhất định, chắc chắn"
+],
+"一共": [
+"yígòng",
+"altogether",
+"tổng cộng"
+],
+"一样": [
+"yíyàng",
+"same",
+"giống nhau"
+],
+"一直": [
+"yìzhí",
+"always; straight",
+"luôn luôn, suốt; thẳng một mạch"
+],
+"以后": [
+"yǐhòu",
+"after; later",
+"sau này, sau khi"
+],
+"以前": [
+"yǐqián",
+"before; formerly",
+"trước đây, trước kia"
+],
+"以为": [
+"yǐwéi",
+"to think (wrongly)",
+"tưởng rằng (thường là nhầm)"
+],
+"音乐": [
+"yīnyuè",
+"music",
+"âm nhạc"
+],
+"银行": [
+"yínháng",
+"bank",
+"ngân hàng"
+],
+"应该": [
+"yīnggāi",
+"should",
+"nên, cần phải"
+],
+"影响": [
+"yǐngxiǎng",
+"influence; to affect",
+"ảnh hưởng"
+],
+"用": [
+"yòng",
+"to use",
+"dùng, sử dụng"
+],
+"游戏": [
+"yóuxì",
+"game",
+"trò chơi"
+],
+"有名": [
+"yǒumíng",
+"famous",
+"nổi tiếng"
+],
+"又": [
+"yòu",
+"again; also",
+"lại, vừa ... vừa ..."
+],
+"遇到": [
+"yùdào",
+"to meet; to run into",
+"gặp, gặp phải"
+],
+"愿意": [
+"yuànyì",
+"to be willing",
+"sẵn lòng, muốn"
+],
+"月亮": [
+"yuèliang",
+"moon",
+"mặt trăng"
+],
+"越": [
+"yuè",
+"to exceed; more",
+"càng; vượt qua"
+],
+"云": [
+"yún",
+"cloud",
+"mây"
+],
+"照顾": [
+"zhàogu",
+"to take care of",
+"chăm sóc"
+],
+"照片": [
+"zhàopiàn",
+"photo",
+"ảnh, bức ảnh"
+],
+"照相机": [
+"zhàoxiàngjī",
+"camera",
+"máy ảnh"
+],
+"着急": [
+"zháojí",
+"anxious; in a hurry",
+"sốt ruột, vội"
+],
+"只": [
+"zhǐ",
+"only; (animal classifier)",
+"chỉ; con (lượng từ động vật, đọc zhī)"
+],
+"中间": [
+"zhōngjiān",
+"middle; between",
+"ở giữa"
+],
+"终于": [
+"zhōngyú",
+"finally",
+"cuối cùng, rốt cuộc"
+],
+"种": [
+"zhǒng",
+"kind; to plant",
+"loại; trồng"
+],
+"重要": [
+"zhòngyào",
+"important",
+"quan trọng"
+],
+"周末": [
+"zhōumò",
+"weekend",
+"cuối tuần"
+],
+"主要": [
+"zhǔyào",
+"main",
+"chủ yếu, chính"
+],
+"注意": [
+"zhùyì",
+"to pay attention",
+"chú ý, lưu ý"
+],
+"祝": [
+"zhù",
+"to wish",
+"chúc"
+],
+"字典": [
+"zìdiǎn",
+"dictionary",
+"từ điển"
+],
+"自己": [
+"zìjǐ",
+"oneself",
+"bản thân, tự mình"
+],
+"总是": [
+"zǒngshì",
+"always",
+"luôn luôn, lúc nào cũng"
+],
+"最近": [
+"zuìjìn",
+"recently",
+"gần đây"
+],
+"作业": [
+"zuòyè",
+"homework",
+"bài tập về nhà"
+],
+"作用": [
+"zuòyòng",
+"effect; function",
+"tác dụng, vai trò"
+]
+}

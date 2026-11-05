@@ -107,6 +107,8 @@ const STEP = () => {
     const n = document.querySelectorAll(".pans .ptok").length, want = T.toks[n];
     const b = pp.find(x => x.dataset.t === want); if (b) return click(b, "ptok");
   }
+  /* nói dài: nói ngay, bỏ ghi âm, hoàn thành */
+  if (document.querySelector(".lt")) { const b = q(".lt .now, .lt .skip, .lt .fin")[0]; return b ? click(b, "lt") : "wait"; }
   const order = [".usem", ".pbody .fin", ".nxp", ".pbody .next", ".simbtn", ".skp", ".go2", ".pbody .skip", ".cardsx .nx", ".pbody .nx", ".swp"];
   for (const s of order) { const e = q(s)[0]; if (e) return click(e, s); }
   /* mẫu câu bước 2–3: chọn ô hoặc đáp án */

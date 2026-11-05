@@ -703,6 +703,15 @@ img.photo.ava{border-radius:50%;object-fit:cover;aspect-ratio:1}
 .ewchk input{width:22px;height:22px;flex:none;margin-top:1px}
 .ewhints{margin:8px 0 0;padding-left:20px}
 .ewhints li{margin:4px 0}
+/* tuần nâng cao: bính âm chỉ ở từ mới; nói dài; câu xếp dài */
+[data-pymode="new"] :is(.py,.pyl,.opy,.tpy,.cpy,.bigpy,.opyb):not(.rtip *):not(.fcard *){display:none!important}
+[data-pymode="new"] .gl.showpy rt{display:none}
+[data-pymode="new"] .gl .rw.nw rt{display:revert;font-size:13px;color:var(--acc);font-weight:600;opacity:1}
+[data-pymode="new"] .gl:has(.rw.nw){line-height:2.3}
+[data-pymode="new"] .rtext:not(.showpy) .rw.nw rt{font-size:14px;opacity:1;color:var(--acc);font-weight:600}
+.q.para .pool,.q.para .ans{flex-direction:column;align-items:stretch}.q.para .tok{min-height:52px;height:auto;padding:10px 14px;font-size:18px;line-height:1.5;text-align:left;justify-content:flex-start;white-space:normal}
+.ltcue{font-size:20px;font-weight:700;line-height:1.5}.ltclock.big{font-size:48px;font-weight:800;text-align:center;margin:6px 0;font-variant-numeric:tabular-nums}
+.ltbar{height:12px;border-radius:999px;background:var(--soft);overflow:hidden}.ltbar i{display:block;height:100%;width:0;background:var(--sun);transition:width .9s linear}.ltbar i.ok{background:var(--green)}
 /* học thử → học viên */
 .offer h2{margin-bottom:6px}.offprice{font-size:20px;margin:8px 0}.offprice s{color:var(--muted);font-size:16px}
 .offform,.planform{display:flex;flex-direction:column;gap:10px;margin-top:10px}.offform .fl,.planform .fl{display:flex;flex-direction:column;gap:6px;font-weight:700;border:0;padding:0;margin:0}
@@ -1355,7 +1364,7 @@ const HZDATA = /*@HZDATA@*/;
 const CWEEKS = Object.keys(COURSE.zh).map(Number).filter(w => COURSE.en[w]).sort((a, b) => a - b);
 /* tuần học thử của các lộ trình khác (mỗi tuần chỉ một ngôn ngữ): khoá = tên file, vd. "en-a2-1" */
 const DEMO_KEYS = Object.keys(typeof COURSE_DEMO !== "undefined" ? COURSE_DEMO : {});
-const DEMO_TRACK = { "zh-w5": "zh-b", "en-a2-1": "en-b", "en-b1-1": "en-c" };
+const DEMO_TRACK = { "zh-w5": "zh-b", "en-a2-1": "en-b", "en-b1-1": "en-c", "zh-h4-1": "zh-c", "en-b2-1": "en-d" };
 const zhWeeksAll = () => CWEEKS.map(w => COURSE.zh[w]).concat(DEMO_KEYS.map(k => COURSE_DEMO[k]).filter(W => W.lang === "zh"));
 const SCENE_BG = { "s-w1-d1": "home", "s-w1-d2": "home", "s-w1-d3": "home", "s-w1-d4": "kitchen", "s-w1-d5": "home", "s-w2-d1": "bedroom", "s-w2-d2": "kitchen", "s-w2-d3": "bedroom", "s-w2-d4": "classroom", "s-w2-d5": "home",
   "scene-en-hr": "office", "scene-en-tour": "office", "scene-en-team": "meeting", "scene-en-it": "office", "scene-en-friday": "networking",
@@ -1394,7 +1403,7 @@ const COURSE_RULES_ZH = {
   W: "Nhiều chữ Hán trông gần giống nhau, chỉ hơn kém vài nét. Đếm số nét là cách nhanh nhất để không nhầm. Chưa chắc thì bấm Xem từng nét và đếm theo. Phần tập viết tay nằm trong sách workbook."
 };
 /* tiếng Trung đi theo thứ tự: nghe → nói → nhận mặt chữ và đọc → viết */
-const ZH_STAGE = { T: 1, Q: 1, S: 1, B: 1, C: 2, P: 2, I: 2, U: 3, E: 3, G: 3, J: 3, H: 3, W: 4, V: 4 };
+const ZH_STAGE = { T: 1, Q: 1, S: 1, B: 1, Y: 1, C: 2, P: 2, I: 2, X: 2, U: 3, E: 3, G: 3, J: 3, H: 3, W: 4, V: 4 };
 const EN_STAGES = { 1: ["Nghe", "Nghe từ, nghe cảnh và nghe hiểu, có tranh và phiên âm."], 2: ["Nói", "Nhại theo, nắm mẫu câu, rồi tự nói trong hội thoại."], 3: ["Từ vựng và đọc", "Nhận mặt từ, luyện từ vựng, ngữ pháp, đọc hiểu và làm quen dạng đề thi."], 4: ["Viết", "Phân biệt từ dễ nhầm, rồi viết có hướng dẫn: phiếu, tin nhắn, email."] };
 const ZH_STAGES = { 1: ["Nghe", "Nghe từ, nghe cảnh, có tranh, chữ Hán kèm bính âm và nghĩa Anh · Việt. Tập trung vào âm thanh trước."], 2: ["Nói", "Nhại theo, nắm mẫu câu, rồi tự nói trong hội thoại."], 3: ["Nhận mặt chữ và đọc", "Lúc này mới ghép âm đã quen với mặt chữ Hán, rồi đọc câu, đọc đoạn."], 4: ["Viết chữ", "Đếm nét để phân biệt các chữ trông giống nhau, rồi xem hướng dẫn viết từng chữ trước khi làm chính tả trong sách workbook."] };
 /* cặp chữ trông giống nhau mỗi ngày: phân biệt bằng số nét (tập viết tay nằm trong workbook) */
@@ -1447,9 +1456,24 @@ function courseEx(ex, dayId, code) {
   ex.mins = COURSE_MINS[code] || ex.mins; ex.rule = (L === "zh" && COURSE_RULES_ZH[code]) || (L === "en" && COURSE_RULES_EN[code]) || COURSE_RULES[code];
   if (L === "zh" || /^[a-z]\d-w\d+-/.test(dayId)) ex.stage = ZH_STAGE[code];
   if (d.scene && d.scene.img && !ex.bg) ex.bg = d.scene.img;
-  const mc = arr => (arr || []).map(o => o.k === "type"
+  const mc = arr => (arr || []).map(o => o.k === "order" ? { k: "order", q: o.q, tokens: o.tokens, explain: o.explain, vi: o.vi || "", en: o.en || "" } : o.k === "type"
     ? { k: "type", q: o.q, model: o.model, accept: accRe(L, o.accept.concat(L === "zh" ? [toneless(o.model)] : []), false), why: o.why, hint: o.hint }
     : { k: "mc", q: o.q, opts: o.opts, a: o.a, why: o.why, audio: o.audio || null, optsEn: o.optsEn && o.optsEn.some(Boolean) ? o.optsEn : null });
+  if (d.adv) {
+    /* tuần nâng cao: U, W, V đổi nội dung; thêm X (Nói dài), Y (Nghe điền) */
+    if (code === "U") { ex.title = L === "zh" ? "Từ gần nghĩa, dễ nhầm" : "Biến đổi từ (word formation)"; ex.pts = 10; ex.items = mc(d.near); return ex; }
+    if (code === "W") { ex.title = "Sắp xếp câu thành đoạn"; ex.pts = 15; ex.items = (d.orderPara || []).map(o => ({ k: "order", q: o.q, tokens: o.tokens, explain: o.explain, vi: o.vi || "", en: o.en || "", para: true })); return ex; }
+    if (code === "V") { ex.kind = "ewrite"; ex.title = "Viết theo dạng đề: " + ({ message: "tin nhắn", email: "email", report: "báo cáo", essay: "đoạn văn nghị luận" }[d.write.kind] || "bài viết"); ex.pts = 15; ex.write = d.write; return ex; }
+    if (code === "X") { ex.kind = "longturn"; ex.title = "Nói dài 1–2 phút"; ex.pts = 20; ex.lt = d.longturn; return ex; }
+    if (code === "Y") {
+      const nt = d.notes; ex.title = "Nghe điền: " + String(nt.title).replace(/^Ghi chú:\s*/, ""); ex.pts = 10; ex.listen = true;
+      ex.dialogue = nt.lines.map(l => L === "zh" ? [l.who, l.t, l.py, bi(l.en, l.vi)] : [l.who, l.t, l.vi]);
+      ex.items = nt.form.map(f => L === "zh"
+        ? { k: "mc", q: f.label + ": ___", opts: f.opts, a: f.a, why: f.why, optsEn: f.optsEn || null, hearAfter: null }
+        : { k: "type", q: f.label + ": ___", model: f.answer, accept: accRe(L, (f.accept || []).concat([f.answer]), false), why: f.why });
+      return ex;
+    }
+  }
   if (code === "T") { ex.kind = "cards"; ex.title = "Thẻ học: " + d.title; ex.cards = d.cards.map(c => ({ w: c.w, py: c.py || (L === "en" ? c.ipa || "" : c.py), m: c.m, mEn: c.mEn || "", ex: c.ex, exm: c.exm, exEn: c.exEn || "", n: c.n, img: c.img })); }
   else if (code === "S") {
     ex.kind = "scene"; ex.title = "Xem cảnh: " + d.title; ex.setting = d.scene.setting; ex.bg = d.scene.img; ex.vkey = L + "-" + d.id;
@@ -1595,10 +1619,10 @@ function demoDays() {
     const W = COURSE_DEMO[key], L = W.lang;
     W.days.forEach((dd, i) => {
       const read = !!dd.reading;
-      const ex = L === "zh"
+      const ex = W.adv ? ["T", "Q", "S", "B", "Y", "C", "P", "I", "X", "U", "E", "G", "J", "H", "W", "V"] : L === "zh"
         ? ["T", "Q", "S", "B", "C", "P", "I", "U", "E", "G"].concat(read ? ["J"] : [], ["H"], STROKE_PAIRS[dd.id] && STROKE_PAIRS[dd.id].length ? ["W"] : [], WRITE_GUIDE[dd.id] && WRITE_GUIDE[dd.id].length ? ["V"] : [])
         : ["T", "Q", "S", "B", "C", "P", "I"].concat(dd.cards.some(c => c.spell && c.spell.length) ? ["U"] : [], ["E", "G"], read ? ["J"] : [], ["H"], dd.confuse && dd.confuse.length ? ["W"] : [], dd.write ? ["V"] : []);
-      out.push({ id: dd.id, week: W.week, demo: key, lang: L, track: DEMO_TRACK[key], label: dd.label, wlabel: `Học thử ${W.level} · ${dd.label}`, kind: "web", idx: i,
+      out.push({ id: dd.id, week: W.week, demo: key, adv: !!W.adv, lang: L, track: DEMO_TRACK[key], label: dd.label, wlabel: `Học thử ${W.level} · ${dd.label}`, kind: "web", idx: i,
         ex, exFor(LL) { return LL === L ? ex : []; }, get mins() { return ex.reduce((m, c) => m + (COURSE_MINS[c[0]] || 3), 0); } });
     });
   });
@@ -1607,7 +1631,7 @@ function demoDays() {
 const DEMO_DAYS = demoDays();
 const demoStart = key => { const d = DEMO_DAYS.find(x => x.demo === key); return d ? d.id : ""; };
 const WEB_ONLY = typeof WEB_BUILD !== "undefined";
-const countQ = e => (e.write ? 4 : 0) || (e.chars && e.chars.length) || (e.cards && e.cards.length) || (e.lines2 && e.lines2.length) || (e.pats && e.pats.length) || (e.items && e.items.length) || (e.lines && e.lines.length) || (e.list && e.list.length) || (e.rp ? e.rp.turns.filter(t => !t.m2 || S.level === 2).length : 0);
+const countQ = e => (e.lt ? 1 : 0) || (e.write ? 4 : 0) || (e.chars && e.chars.length) || (e.cards && e.cards.length) || (e.lines2 && e.lines2.length) || (e.pats && e.pats.length) || (e.items && e.items.length) || (e.lines && e.lines.length) || (e.list && e.list.length) || (e.rp ? e.rp.turns.filter(t => !t.m2 || S.level === 2).length : 0);
 if (WEB_ONLY) for (let i = DAYS.length - 1; i >= 0; i--) if (DAYS[i].kind !== "web") DAYS.splice(i, 1);
 DAYS.forEach(d => { if (!d.week && d.ex) d.mins = d.ex.reduce((m, c) => m + ((d.week ? COURSE_MINS : MINS)[c[0]] || 3), 0); });
 const WEBDAYS = DAYS.filter(d => d.kind === "web").map(d => d.id);
@@ -2139,7 +2163,7 @@ function seeded(arr, seed) { const a = arr.map((v, i) => [v, i]); let s = seed +
 function itemOrder(ctx) {
   const { L, it, st, stage, onDone, idx } = ctx;
   const pool = seeded(it.tokens, idx + 3), picked = [];
-  const q = el(`<div class="q">${it.q ? `<p class="qt">${zhMixed(L, it.q)}</p>` : ""}${it.audio ? `<p class="row center"><button type="button" class="btn sound au">${ICON.play} Nghe câu mẫu</button></p>` : ""}<p class="qt sm">${it.q ? "Nghe, nói to theo, rồi chạm các ô theo đúng thứ tự." : "Chạm các ô theo đúng thứ tự để thành câu."} Chạm ô đã chọn để trả lại.</p>
+  const q = el(`<div class="q${it.para || it.tokens.some(t => String(t).length > 14) ? " para" : ""}">${it.q ? `<p class="qt">${zhMixed(L, it.q)}</p>` : ""}${it.audio ? `<p class="row center"><button type="button" class="btn sound au">${ICON.play} Nghe câu mẫu</button></p>` : ""}<p class="qt sm">${it.q ? "Nghe, nói to theo, rồi chạm các ô theo đúng thứ tự." : "Chạm các ô theo đúng thứ tự để thành câu."} Chạm ô đã chọn để trả lại.</p>
     <div class="ans" aria-label="Câu của bạn"></div><div class="pool" aria-label="Các ô chữ"></div>
     <div class="row"><button type="button" class="btn primary chk">Kiểm tra</button><button type="button" class="btn ghost clr">Xếp lại từ đầu</button></div></div>`);
   const fb = fbBox(); stage.appendChild(q);
@@ -2157,8 +2181,9 @@ function itemOrder(ctx) {
   $(".hbtn", hb).onclick = orderHint;
   function draw(marks) {
     const tp = p => it.tokPy ? `<small class="tpy">${esc(it.tokPy[p[1]] || "")}</small>` : "";
-    ans.innerHTML = picked.length ? picked.map((p, i) => `<button type="button" class="tok${marks ? (marks[i] ? " right" : " wrong") : ""}" data-a="${i}" lang="${L === "zh" ? "zh" : "en"}"><small>${i + 1}</small>${esc(p[0])}${tp(p)}</button>`).join("") : '<span class="muted small">Câu của bạn sẽ hiện ở đây</span>';
-    pl.innerHTML = pool.map((p, i) => picked.includes(p) ? "" : `<button type="button" class="tok" data-p="${i}" lang="${L === "zh" ? "zh" : "en"}">${esc(p[0])}${tp(p)}</button>`).join("");
+    const tk = t => L === "zh" ? glossHTML(t, true) : esc(t);
+    ans.innerHTML = picked.length ? picked.map((p, i) => `<button type="button" class="tok${marks ? (marks[i] ? " right" : " wrong") : ""}" data-a="${i}" lang="${L === "zh" ? "zh" : "en"}"><small>${i + 1}</small>${tk(p[0])}${tp(p)}</button>`).join("") : '<span class="muted small">Câu của bạn sẽ hiện ở đây</span>';
+    pl.innerHTML = pool.map((p, i) => picked.includes(p) ? "" : `<button type="button" class="tok" data-p="${i}" lang="${L === "zh" ? "zh" : "en"}">${tk(p[0])}${tp(p)}</button>`).join("");
     ans.querySelectorAll("[data-a]").forEach(b => b.onclick = () => { if (st.done) return; picked.splice(+b.dataset.a, 1); draw(); });
     pl.querySelectorAll("[data-p]").forEach(b => b.onclick = () => { if (st.done) return; picked.push(pool[+b.dataset.p]); draw(); });
   }
@@ -2172,7 +2197,7 @@ function itemOrder(ctx) {
     draw(marks);
     if (marks.every(Boolean)) {
       fbOn(fb, "good");
-      fb.innerHTML = `<p class="fbt">${st.tries === 0 ? "Đúng" : st.revealed ? "Đúng. Bạn đã tự xếp lại câu đúng." : "Đúng rồi, bạn đã tự sửa được (+5 khi xong bài)"}</p><p class="why">${esc(it.explain)}</p>`;
+      fb.innerHTML = `<p class="fbt">${st.tries === 0 ? "Đúng" : st.revealed ? "Đúng. Bạn đã tự xếp lại câu đúng." : "Đúng rồi, bạn đã tự sửa được (+5 khi xong bài)"}</p><p class="why">${esc(it.explain)}</p>${it.vi ? `<p class="small muted">${L === "zh" ? biHTML(it.en, it.vi) : esc(it.vi)}</p>` : ""}`;
       onDone(); return;
     }
     if (ctx.onWrong && ctx.onWrong()) return;
@@ -2451,6 +2476,8 @@ const IMG_ALIAS = { pupil: "student", friend: "colleague", school: "student", cl
   "scene-en-hr": "scene-en-office", "scene-en-tour": "scene-en-office", "scene-en-it": "scene-en-office", "scene-en-team": "scene-en-meeting", "scene-en-friday": "scene-en-networking",
   "scene-en-agenda": "scene-en-meeting", "scene-en-debate": "scene-en-meeting", "scene-en-online": "scene-en-meeting", "scene-en-proposal": "scene-en-meeting", "scene-en-wrapup": "scene-en-meeting",
   "scene-zh-airport": "from", "scene-zh-station": "from", "scene-zh-metro": "from", "scene-zh-hotel": "journey-zh", "scene-zh-roadside": "journey-zh",
+  "scene-zh-fair-d1": "scene-en-fair", "scene-zh-fair-d2": "scene-en-fair", "scene-zh-fair-d3": "scene-zh-meeting", "scene-zh-office-d4": "scene-en-office", "scene-zh-office-d5": "scene-zh-meeting",
+  "scene-en-results-d1": "scene-en-meeting", "scene-en-pitch-d2": "scene-en-meeting", "scene-en-negotiation-d3": "scene-zh-meeting", "scene-en-qa-d4": "scene-en-meeting", "scene-en-report-d5": "scene-en-office",
   airport: "from", station: "from", newyear: "home", meetingroom: "scene-en-meeting", laptop: "work", training: "teacher" };
 const ART_RULES = [
   [/accountant|kế toán/i, "calc"], [/engineer|kỹ sư/i, "engineer"], [/sales/i, "sales"], [/purchasing|mua hàng/i, "cart"],
@@ -2736,7 +2763,7 @@ function runScene(ex, body, finish) {
   body.appendChild(box);
   const now = $(".nowline", box), log = $(".log", box);
   function lineHTML(l) { const py = l.py || (L === "zh" ? pyOf(l.t) : "");
-    return `<span class="spk">${esc(l.who)}</span><span class="tx" lang="${L === "zh" ? "zh" : "en"}">${esc(l.t)}</span>${py && subPy ? `<span class="py">${esc(py)}</span>` : ""}${subVi && (l.en || l.vi) ? (L === "zh" ? `<span class="vi">${biHTML(l.en, l.vi)}</span>` : `<span class="vi">${esc(l.vi)}</span>`) : ""}`; }
+    return `<span class="spk">${esc(l.who)}</span><span class="tx" lang="${L === "zh" ? "zh" : "en"}">${L === "zh" ? glossHTML(l.t, true) : esc(l.t)}</span>${py && subPy ? `<span class="py">${esc(py)}</span>` : ""}${subVi && (l.en || l.vi) ? (L === "zh" ? `<span class="vi">${biHTML(l.en, l.vi)}</span>` : `<span class="vi">${esc(l.vi)}</span>`) : ""}`; }
   function show(k, chain) {
     i = k; const l = lines[i];
     if (!$(".cast2 > video", box)) $(".cast2 > :first-child", box).outerHTML = sceneSVG(ex.bg, pA, pB, l.who === pA ? 0 : 1);
@@ -2852,7 +2879,7 @@ function runSceneVideo(ex, body, finish, VD) {
     <div class="row center"><button type="button" class="btn primary huge fin" disabled>Xem xong, sang bài tập</button></div></div>`);
   body.appendChild(box);
   const v = $(".svid", box), subs = $(".subs", box), log = $(".log", box);
-  const lineHTML = l => `<span class="spk">${esc(l.who)}</span><span class="tx" lang="${L === "zh" ? "zh" : "en"}">${esc(l.t)}</span>${l.py && subPy ? `<span class="py">${esc(l.py)}</span>` : ""}${subVi && (l.en || l.vi) ? (L === "zh" ? `<span class="vi">${biHTML(l.en, l.vi)}</span>` : `<span class="vi">${esc(l.vi)}</span>`) : ""}`;
+  const lineHTML = l => `<span class="spk">${esc(l.who)}</span><span class="tx" lang="${L === "zh" ? "zh" : "en"}">${L === "zh" ? glossHTML(l.t, true) : esc(l.t)}</span>${l.py && subPy ? `<span class="py">${esc(l.py)}</span>` : ""}${subVi && (l.en || l.vi) ? (L === "zh" ? `<span class="vi">${biHTML(l.en, l.vi)}</span>` : `<span class="vi">${esc(l.vi)}</span>`) : ""}`;
   const where = i => { for (let c = 0; c < VD.clips.length; c++) { const q = VD.clips[c].cues.find(x => x[2] === i); if (q) return { c, q }; } return null; };
   function load(c) { if (ci !== c || !v.src) { ci = c; v.src = "vid/" + VD.clips[c].src; } }
   function showLine(i) {
@@ -2969,12 +2996,13 @@ function runStrokes(ex, body, finish) {
 /* ---------- bước 4: hướng dẫn viết, đi lần lượt từng chữ: xem thứ tự nét → tô nét (có gợi ý) → tự viết (nút gợi ý) → kiểm tra → chữ tiếp ---------- */
 /* ---------- tiếng Anh · Viết có hướng dẫn: đọc mẫu → điền khung → tự viết → tự kiểm tra ---------- */
 function runEWrite(ex, body, finish) {
-  const w = ex.write, isForm = w.kind === "form";
+  const w = ex.write, isForm = w.kind === "form", L = S.lang, zh = L === "zh", unit = zh ? "chữ" : "từ", lz = zh ? "zh" : "en";
+  const tx = t => zh ? glossHTML(t, true) : esc(t);
   const STEPS = [["model", "👀 Đọc mẫu"], ["frame", "🧩 Điền khung"], ["own", "✍️ Tự viết"], ["check", "✅ Tự kiểm tra"]];
   const seen = { model: false, frame: false, own: false, check: false };
   let step = "model", frameFirst = null, own = "", ownForm = isForm ? w.frame.map(r => r[1] || "") : [], hintsOn = false;
   const modelText = isForm ? w.model.map(r => r[0] + ": " + r[1]).join("\n") : w.model;
-  const words = t => (String(t).match(/[A-Za-z0-9][A-Za-z0-9'’.@-]*/g) || []).length;
+  const words = t => zh ? (String(t).match(/[一-鿿]/g) || []).length : (String(t).match(/[A-Za-z0-9][A-Za-z0-9'’.@-]*/g) || []).length;
   const box = el(`<div class="ew"><div class="ewbox"><h3>Nhiệm vụ</h3><p>${esc(w.task)}</p>${w.source ? `<p class="small muted">${esc(w.source)}</p>` : ""}</div>
     <div class="wgtabs" role="tablist">${STEPS.map((s, k) => `<button type="button" role="tab" data-t="${s[0]}"><small>Bước ${k + 1}</small>${s[1]}</button>`).join("")}</div>
     <div class="ewbody"></div></div>`);
@@ -2982,7 +3010,7 @@ function runEWrite(ex, body, finish) {
   const wb = $(".ewbody", box);
   const modelHTML = () => isForm
     ? `<table class="ewform"><tbody>${w.model.map(r => `<tr><th>${esc(r[0])}</th><td lang="en">${esc(r[1])}</td></tr>`).join("")}</tbody></table>`
-    : `<p class="ewmodel" lang="en">${esc(w.model)}</p>`;
+    : `<p class="ewmodel" lang="${lz}">${tx(w.model)}</p>`;
   const go = t => { step = t; draw(); scrollTo({ top: box.getBoundingClientRect().top + scrollY - 70, behavior: "smooth" }); };
   function tabs() { box.querySelectorAll(".wgtabs [data-t]").forEach(b => { b.setAttribute("aria-selected", b.dataset.t === step); b.classList.toggle("done", !!seen[b.dataset.t]); b.onclick = () => go(b.dataset.t); }); }
   function draw() {
@@ -2991,9 +3019,9 @@ function runEWrite(ex, body, finish) {
       wb.innerHTML = `<div class="ewbox"><h3>Bài mẫu</h3>${modelHTML()}<div class="row"><button type="button" class="btn ghost small pl">${ICON.play} Nghe bài mẫu</button></div></div>
         <p class="note">Đọc to bài mẫu một lần. Để ý cách mở đầu, các cụm cố định và cách kết thúc.</p>
         <div class="row center"><button type="button" class="btn primary huge nx">Tiếp: Điền khung →</button></div>`;
-      $(".pl", wb).onclick = () => say(modelText, "en");
+      $(".pl", wb).onclick = () => say(modelText, L);
       $(".nx", wb).onclick = () => { seen.model = true; go("frame"); };
-      if (autoOn()) setTimeout(() => { if (step === "model") say(modelText, "en"); }, 400);
+      if (autoOn()) setTimeout(() => { if (step === "model") say(modelText, L); }, 400);
       return;
     }
     if (step === "frame") {
@@ -3001,7 +3029,7 @@ function runEWrite(ex, body, finish) {
       const gapInp = () => { const k = gi++; const len = Math.max(6, Math.min(40, String(w.gaps[k] || "").length + 2)); return `<input class="ewgap" data-g="${k}" size="${len}" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Ô trống ${k + 1}" placeholder="${w.free && w.free[k] && !w.source ? "ý của bạn" : ""}">`; };
       const frameHTML = isForm
         ? `<table class="ewform"><tbody>${w.frame.map(r => `<tr><th>${esc(r[0])}</th><td>${gapInp()}</td></tr>`).join("")}</tbody></table>`
-        : `<div class="ewframe" lang="en">${String(w.frame).split("___").map((part, k, arr) => esc(part) + (k < arr.length - 1 ? gapInp() : "")).join("")}</div>`;
+        : `<div class="ewframe" lang="${lz}">${String(w.frame).split("___").map((part, k, arr) => tx(part) + (k < arr.length - 1 ? gapInp() : "")).join("")}</div>`;
       wb.innerHTML = `<div class="ewbox"><h3>Điền vào khung</h3><p class="small muted">${w.source ? "Điền theo thông tin trong phần Nhiệm vụ ở trên." : "Ô ghi “ý của bạn” có thể viết theo thông tin của bạn; các ô còn lại điền đúng như bài mẫu."}</p>${frameHTML}</div>
         <div class="row center"><button type="button" class="btn primary chk">Kiểm tra</button><button type="button" class="btn ghost skip">Đi tiếp →</button></div><div class="fb" hidden></div>`;
       const fb = $(".fb", wb), inps = [...wb.querySelectorAll(".ewgap")];
@@ -3009,10 +3037,10 @@ function runEWrite(ex, body, finish) {
         let bad = 0;
         inps.forEach(inp => {
           const k = +inp.dataset.g, v = inp.value.trim(), free = w.free && w.free[k];
-          const ok = free ? v.length >= 2 : ne(v) === ne(w.gaps[k]);
+          const ok = free ? v.length >= (zh ? 1 : 2) : N(L, v) === N(L, w.gaps[k]);
           inp.classList.toggle("ok", ok); inp.classList.toggle("bad", !ok);
           const old = inp.nextElementSibling && inp.nextElementSibling.classList.contains("ewans") ? inp.nextElementSibling : null; if (old) old.remove();
-          if (!ok) { bad++; inp.insertAdjacentHTML("afterend", `<span class="ewans" lang="en">→ ${esc(w.gaps[k])}</span>`); }
+          if (!ok) { bad++; inp.insertAdjacentHTML("afterend", `<span class="ewans" lang="${lz}">→ ${esc(w.gaps[k])}</span>`); }
         });
         if (frameFirst == null) frameFirst = bad === 0;
         fbOn(fb, bad ? "bad" : "good");
@@ -3025,15 +3053,15 @@ function runEWrite(ex, body, finish) {
       return;
     }
     if (step === "own") {
-      const range = w.words ? `${w.words[0]}–${w.words[1]} từ` : "";
-      const hintsHTML = `<ul class="ewhints">${(w.hints || []).map(h => `<li lang="en">${esc(h)}</li>`).join("")}</ul>`;
+      const range = w.words ? `${w.words[0]}–${w.words[1]} ${unit}` : "";
+      const hintsHTML = `<ul class="ewhints">${(w.hints || []).map(h => `<li>${zh ? glossMixed(h) : esc(h)}</li>`).join("")}</ul>`;
       wb.innerHTML = `<div class="ewbox"><h3>Tự viết bài của bạn</h3><p class="small muted">${isForm ? "Điền phiếu bằng thông tin của chính bạn." : "Viết lại theo ý của bạn (đổi tên, ngày, việc cần làm…)" + (range ? ", khoảng " + range : "") + "."} Bài mẫu vẫn xem được ở Bước 1.</p>
         ${isForm ? `<table class="ewform"><tbody>${w.frame.map((r, k) => `<tr><th>${esc(r[0])}</th><td><input data-f="${k}" autocomplete="off" value="${esc(ownForm[k] || "")}" aria-label="${esc(r[0])}"></td></tr>`).join("")}</tbody></table>`
-          : `<textarea class="ewta" lang="en" spellcheck="true" aria-label="Bài viết của bạn" placeholder="Bắt đầu viết ở đây…">${esc(own)}</textarea><p class="ewcount" aria-live="polite"></p>`}
+          : `<textarea class="ewta" lang="${lz}" spellcheck="${zh ? "false" : "true"}" aria-label="Bài viết của bạn" placeholder="Bắt đầu viết ở đây…">${esc(own)}</textarea><p class="ewcount" aria-live="polite"></p>`}
         <div class="hintbar"><button type="button" class="btn ghost small hbtn">💡 Gợi ý cụm từ</button><div class="hints">${hintsOn ? hintsHTML : ""}</div></div></div>
         <div class="row center"><button type="button" class="btn primary huge nx">Tiếp: Tự kiểm tra →</button></div>`;
       const cnt = $(".ewcount", wb), ta = $(".ewta", wb);
-      const upd = () => { if (!cnt) return; const n = words(own), ok = !w.words || (n >= w.words[0] && n <= w.words[1]); cnt.textContent = `${n} từ${w.words ? ` · cần ${range}` : ""}${ok && n ? " ✓" : ""}`; cnt.classList.toggle("ok", ok && n > 0); };
+      const upd = () => { if (!cnt) return; const n = words(own), ok = !w.words || (n >= w.words[0] && n <= w.words[1]); cnt.textContent = `${n} ${unit}${w.words ? ` · cần ${range}` : ""}${ok && n ? " ✓" : ""}`; cnt.classList.toggle("ok", ok && n > 0); };
       if (ta) { ta.oninput = () => { own = ta.value; upd(); }; upd(); setTimeout(() => ta.focus({ preventScroll: true }), 50); }
       wb.querySelectorAll("[data-f]").forEach(inp => inp.oninput = () => { ownForm[+inp.dataset.f] = inp.value; });
       $(".hbtn", wb).onclick = () => { hintsOn = true; $(".hints", wb).innerHTML = hintsHTML; };
@@ -3043,8 +3071,8 @@ function runEWrite(ex, body, finish) {
     /* bước 4: tự kiểm tra */
     const mine = isForm ? w.frame.map((r, k) => r[0] + ": " + (ownForm[k] || "")).join("\n") : own;
     const n = words(own), lenOk = !w.words || (n >= w.words[0] && n <= w.words[1]), filled = isForm ? ownForm.filter(v => String(v).trim()).length : 0;
-    wb.innerHTML = `<div class="ewbox"><h3>Bài của bạn</h3>${String(mine).trim() ? `<p class="ewmodel" lang="en">${esc(mine)}</p>` : `<p class="muted">Bạn chưa viết bài riêng. Có thể quay lại Bước 3, hoặc tự kiểm tra với bài mẫu.</p>`}
-        <p class="small ${isForm ? (filled === w.frame.length ? "ewcount ok" : "muted") : lenOk && n ? "ewcount ok" : "muted"}">${isForm ? `Đã điền ${filled}/${w.frame.length} ô` : `${n} từ${w.words ? ` (cần ${w.words[0]}–${w.words[1]})` : ""}`}</p></div>
+    wb.innerHTML = `<div class="ewbox"><h3>Bài của bạn</h3>${String(mine).trim() ? `<p class="ewmodel" lang="${lz}">${esc(mine)}</p>` : `<p class="muted">Bạn chưa viết bài riêng. Có thể quay lại Bước 3, hoặc tự kiểm tra với bài mẫu.</p>`}
+        <p class="small ${isForm ? (filled === w.frame.length ? "ewcount ok" : "muted") : lenOk && n ? "ewcount ok" : "muted"}">${isForm ? `Đã điền ${filled}/${w.frame.length} ô` : `${n} ${unit}${w.words ? ` (cần ${w.words[0]}–${w.words[1]})` : ""}`}</p></div>
       <div class="ewbox"><h3>Tự kiểm tra</h3><ul class="ewchk">${(w.check || []).map((c, k) => `<li><label><input type="checkbox" data-c="${k}"><span>${esc(c)}</span></label></li>`).join("")}</ul></div>
       <details class="ewbox"><summary>So với bài mẫu</summary>${modelHTML()}</details>
       <p class="note small">Muốn được giáo viên nhận xét, chép bài của bạn vào workbook hoặc gửi trong lớp nhóm.</p>
@@ -3053,7 +3081,7 @@ function runEWrite(ex, body, finish) {
     $(".fin", wb).onclick = () => {
       seen.check = true;
       const ticks = wb.querySelectorAll(".ewchk input:checked").length, tot = (w.check || []).length;
-      finish({ total: 1, first: frameFirst ? 1 : 0, repair: 0, extra: `Điền khung ${frameFirst ? "đúng ngay" : "đã xem đáp án"} · tự kiểm tra ${ticks}/${tot} mục${isForm ? "" : ` · bài của bạn ${n} từ`}` });
+      finish({ total: 1, first: frameFirst ? 1 : 0, repair: 0, extra: `Điền khung ${frameFirst ? "đúng ngay" : "đã xem đáp án"} · tự kiểm tra ${ticks}/${tot} mục${isForm ? "" : ` · bài của bạn ${n} ${unit}`}` });
     };
   }
   draw();
@@ -3583,16 +3611,16 @@ function enGloss(word) {
 function readingGuided(r) {
   const L = S.lang, zh = L === "zh", txt = r.text[0][1];
   const knowU = !zh || (r.dayId && S.done[exKey(r.dayId, "U")]);
-  let showPy = zh, playing = false;
+  let showPy = zh && !PYNEW(), playing = false;
   const sents = String(txt).match(/[^。！？!?.]+[。！？!?.”"]*/g) || [txt];
   const wordsHTML = s => zh
-    ? segZH(s).map(x => x.w ? `<span class="rw" tabindex="0" role="button" data-w="${esc(x.w)}" data-py="${esc(x.py)}" data-en="${esc(x.en)}" data-vi="${esc(x.vi)}"><ruby>${esc(x.w)}<rt>${esc(x.py)}</rt></ruby></span>` : esc(x.t)).join("")
+    ? segZH(s).map(x => x.w ? `<span class="rw${NEWW.has(x.w) ? " nw" : ""}" tabindex="0" role="button" data-w="${esc(x.w)}" data-py="${esc(x.py)}" data-en="${esc(x.en)}" data-vi="${esc(x.vi)}"><ruby>${esc(x.w)}<rt>${esc(x.py)}</rt></ruby></span>` : esc(x.t)).join("")
     : s.split(/(\s+)/).map(w => /\S/.test(w) ? (g => `<span class="rw" tabindex="0" role="button" data-w="${esc(w.replace(/[^A-Za-z'’-]/g, ""))}" data-vi="${esc(g ? g.vi : "")}">${esc(w)}</span>`)(enGloss(w)) : w).join("");
   const box = el(`<div class="rguide">
     <ol class="rsteps"><li><b>1 · Nghe cả đoạn</b> để nắm ý bằng tai trước.</li><li><b>2 · Đọc lại</b> từng câu${zh ? ", không nhìn bính âm nếu được" : ""}. Từ nào quên thì rê chuột (hoặc chạm) vào từ đó để xem nghĩa.</li><li><b>3 · Trả lời câu hỏi</b> bên dưới. Cần thì quay lên đọc lại.</li></ol>
     <div class="row rctl"><button type="button" class="btn primary small rplay">${ICON.play} Nghe cả đoạn</button><button type="button" class="btn ghost small rslow">🐢 Nghe chậm</button>
       ${zh ? `<label class="tick"><input type="checkbox" class="rpy" ${showPy ? "checked" : ""}> Bính âm</label>` : ""}<label class="tick"><input type="checkbox" class="rvi"> Bản dịch (Anh · Việt)</label></div>
-    ${zh ? `<p class="note small">${knowU ? "Bính âm đang bật. Bạn đã làm bài Nhận mặt chữ, nên có thể tắt bính âm để thử đọc bằng mặt chữ, rồi bật lại khi cần." : "Bính âm đang bật để bạn đọc theo. Làm xong bài Nhận mặt chữ, bạn có thể thử tắt bính âm."} Mọi chữ trong đoạn đều là chữ bạn đã học.</p>` : ""}
+    ${zh && PYNEW() ? `<p class="note small">Bính âm chỉ hiện trên từ mới của tuần. Chạm vào từ bất kỳ để xem bính âm và nghĩa; bật ô Bính âm nếu muốn xem cả đoạn.</p>` : ""}${zh && !PYNEW() ? `<p class="note small">${knowU ? "Bính âm đang bật. Bạn đã làm bài Nhận mặt chữ, nên có thể tắt bính âm để thử đọc bằng mặt chữ, rồi bật lại khi cần." : "Bính âm đang bật để bạn đọc theo. Làm xong bài Nhận mặt chữ, bạn có thể thử tắt bính âm."} Mọi chữ trong đoạn đều là chữ bạn đã học.</p>` : ""}
     <article class="rtext${showPy ? " showpy" : ""}" lang="${zh ? "zh" : "en"}"><h4>${esc(r.text[0][0])}</h4><p>${sents.map((s, i) => `<span class="rs" data-i="${i}">${wordsHTML(s)}</span>`).join("")}</p></article>
     <div class="rtrans" hidden>${r.en ? `<p class="men" lang="en">${esc(r.en)}</p>` : ""}<p class="mvi muted">${esc(r.vi || r.bridge || "")}</p></div>
     <div class="rtip" role="tooltip" hidden></div></div>`);
@@ -3898,7 +3926,7 @@ function viewDay(main, d) {
     const sg = ex.stage && (k === 0 || exs[k - 1].stage !== ex.stage) && typeof ZH_STAGES !== "undefined" ? (S.lang === "zh" ? ZH_STAGES : EN_STAGES)[ex.stage] : null;
     return (sg ? `<li class="stagehd"><span class="sgn">${ex.stage}</span><div><b>Bước ${ex.stage} · ${esc(sg[0])}</b><small>${esc(sg[1])}</small></div></li>` : "") + `<li><a class="tile t-${TINT[ex.code]}${done ? " done" : ""}${!open ? " locked" : ""}${cur ? " cur" : ""}" href="${open ? `#${d.id}-bai-${k + 1}` : "#" + d.id}" ${!open ? 'aria-disabled="true" data-locked="1"' : ""}>
       <span class="art">${tile(ex.code, 52)}</span>
-      <span class="tmeta"><small>${k + 1} · ${esc(typeName(ex.code))}</small><b>${esc(ex.title)}</b><em>${countQ(ex)} ${ex.kind === "roleplay" ? "lượt" : ex.kind === "cando" ? "mục" : ex.kind === "cards" ? "thẻ" : ex.kind === "scene" ? "câu thoại" : ex.kind === "pattern" ? "mẫu" : ex.kind === "wguide" ? "chữ" : ex.kind === "ewrite" ? "bước" : "câu"} · ${ex.mins} phút · ${ex.pts} điểm</em></span>
+      <span class="tmeta"><small>${k + 1} · ${esc(typeName(ex.code))}</small><b>${esc(ex.title)}</b><em>${countQ(ex)} ${ex.kind === "roleplay" ? "lượt" : ex.kind === "cando" ? "mục" : ex.kind === "cards" ? "thẻ" : ex.kind === "scene" ? "câu thoại" : ex.kind === "pattern" ? "mẫu" : ex.kind === "wguide" ? "chữ" : ex.kind === "ewrite" ? "bước" : ex.kind === "longturn" ? "bài nói" : "câu"} · ${ex.mins} phút · ${ex.pts} điểm</em></span>
       <span class="st">${done ? `<span class="pill ok">${ICON.check} +${done.p}</span>` : !open ? `<span class="pill lock">${ICON.lock}</span>` : cur ? `<span class="pill go">Làm bài</span>` : ""}</span></a></li>`;
   }).join("");
   main.appendChild(el(`<div class="dayview">
@@ -3943,10 +3971,10 @@ function playerShell(main, ex, o) {
   $(".apl", wrap).onclick = e => { S.autoplay = !autoOn(); save(); e.currentTarget.setAttribute("aria-pressed", autoOn()); e.currentTarget.textContent = "🔊 Tự phát: " + (autoOn() ? "Bật" : "Tắt"); };
   $(".spd", wrap).onclick = e => { S.slow = !S.slow; save(); e.currentTarget.setAttribute("aria-pressed", S.slow); e.currentTarget.textContent = S.slow ? "Đọc chậm" : "Tốc độ thường"; };
   const body = $(".pbody", wrap), done = ex.key && S.done[ex.key];
-  const how = ((S.lang === "zh" && HOW_ZH[ex.code]) || (S.lang === "en" && HOW_EN[ex.code]) || HOW[ex.code] || []).map(s => s.replace("{L}", langWord()));
+  const how = (ex.advHow || (S.lang === "zh" && HOW_ZH[ex.code]) || (S.lang === "en" && HOW_EN[ex.code]) || HOW[ex.code] || []).map(s => s.replace("{L}", langWord()));
   const intro = el(`<div class="intro"><div class="rulecard"><p class="eyebrow">Cách làm</p><ol>${how.map(s => `<li>${esc(s)}</li>`).join("")}</ol></div>
     ${ex.rule ? `<div class="rulebox"><p class="eyebrow">Quy tắc cần nhớ</p><p>${ex.rule}</p></div>` : ""}
-    ${"CISBQJT".includes(ex.code) || (S.lang === "en" && "UW".includes(ex.code)) ? browserTip(true) : ""}
+    ${"CISBQJTXY".includes(ex.code) || (S.lang === "en" && "UW".includes(ex.code)) ? browserTip(true) : ""}
     ${tipsFor(ex.code).length ? `<div class="tipbox"><p class="eyebrow">Làm sao cho hiệu quả</p><ul>${tipsFor(ex.code).map(s => `<li>${esc(s)}</li>`).join("")}</ul></div>` : ""}
     ${done ? `<p class="note">Bạn đã làm xong bài này (+${done.p} điểm). Làm lại để luyện thêm, điểm không cộng lần hai.</p>` : ""}
     <div class="row center"><button type="button" class="btn primary huge go">${ICON.play} ${done ? "Làm lại" : "Bắt đầu"}</button></div></div>`);
@@ -3968,6 +3996,7 @@ function playerShell(main, ex, o) {
     else if (ex.kind === "strokes") runStrokes(ex, body, fin);
     else if (ex.kind === "wguide") runWGuide(ex, body, fin);
     else if (ex.kind === "ewrite") runEWrite(ex, body, fin);
+    else if (ex.kind === "longturn") runLongturn(ex, body, fin);
     const f = body.querySelector("input,textarea,.opt,.tok,button"); if (f) setTimeout(() => f.focus({ preventScroll: true }), 50);
   };
 }
@@ -4503,13 +4532,13 @@ const TRACKS = {
   zh: [
     { id: "zh-a", name: "Mới bắt đầu", lv: "HSK0–1", goal: "HSK1 · 300 từ", status: "open", start: "w1-thu-2", note: "Đã có tuần 1–2" },
     { id: "zh-b", name: "Giao tiếp công việc", lv: "HSK2–3", goal: "HSK2 → HSK3 · 1.000 từ", status: "demo", demo: "zh-w5", note: "Học thử tuần 5: Đi công tác về ăn Tết" },
-    { id: "zh-c", name: "Nâng cao", lv: "HSK4+", goal: "HSK4–5", status: "soon", note: "Sắp mở" }
+    { id: "zh-c", name: "Nâng cao", lv: "HSK4+", goal: "HSK4–5", status: "demo", demo: "zh-h4-1", note: "Học thử tuần 1: Hội chợ Quảng Châu" }
   ],
   en: [
     { id: "en-a", name: "Nền tảng", lv: "A1", goal: "A2", status: "open", start: "w1-thu-2", note: "Đã có tuần 1–2" },
     { id: "en-b", name: "Giao tiếp công sở", lv: "A2", goal: "B1 · TOEIC 450–600", status: "demo", demo: "en-a2-1", note: "Học thử tuần 1: Ngày đầu đi làm" },
     { id: "en-c", name: "Công việc và chứng chỉ", lv: "B1", goal: "B2 · IELTS 5.5 · TOEIC 600–750", status: "demo", demo: "en-b1-1", note: "Học thử tuần 1: Họp nhóm, nêu ý kiến" },
-    { id: "en-d", name: "Nâng cao", lv: "B2+", goal: "IELTS 6.5+ · TOEIC 800+", status: "soon", note: "Sắp mở" }
+    { id: "en-d", name: "Nâng cao", lv: "B2+", goal: "IELTS 6.5+ · TOEIC 800+", status: "demo", demo: "en-b2-1", note: "Học thử tuần 1: Trình bày dự án với đối tác" }
   ]
 };
 const LV_NAMES = { zh: ["Chưa học (HSK0)", "HSK1", "HSK2", "HSK3", "HSK4"], en: ["Mới bắt đầu (dưới A1)", "A1", "A2", "B1", "B2"] };

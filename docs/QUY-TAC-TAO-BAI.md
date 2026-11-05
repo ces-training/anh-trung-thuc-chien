@@ -140,6 +140,17 @@
    - Commit mặc định có `[skip ci]` để GitHub không tự tạo ảnh hoặc giọng. Chỉ thêm `--ci` khi chị Duyên đã duyệt danh sách tranh, giọng mới.
 5. **Micro:** chỉ chạy trên trang thật (https), không chạy trong bản xem của Claude.
 
+## 10. Tuần nâng cao (Trung HSK3 → HSK4, Anh B2)
+Áp dụng cho lộ trình Tiếng Trung · Nâng cao và Tiếng Anh · Nâng cao B2+ (chị Duyên chốt 05/11/2026). Khung dữ liệu: `tools/course/SCHEMA-ADV.md`; kiểm tra: `tools/course/check_adv.py`.
+1. **16 bài mỗi ngày:** Nghe T → Q → S → B → **Y Nghe điền** · Nói C → P → I → **X Nói dài** · Đọc U → E → G → J → H · Viết W → V.
+2. **Đổi nội dung 3 dạng:** U = từ gần nghĩa (Trung) / biến đổi từ (Anh); W = sắp xếp câu thành đoạn; V = viết theo dạng đề (Trung: tin nhắn, email, báo cáo; Anh: IELTS Writing Task 1, Task 2, email, báo cáo). Không dùng Đếm nét, Hướng dẫn viết chữ.
+3. **Bính âm (Trung):** ẩn mặc định, **chỉ hiện trên từ mới của tuần** (từ chưa có ở cấp dưới). Chạm vào từ bất kỳ vẫn xem được bính âm, nghĩa Anh, nghĩa Việt. Bài đọc có ô bật bính âm cả đoạn. Dữ liệu vẫn ghi đủ bính âm cho mọi câu.
+4. **Chữ đã học (Trung):** chữ của 600 từ HSK1–3 (`known-hsk3.json`) + thẻ từ các tuần + thẻ từ của tuần này đến hôm nay + tên riêng.
+5. **Nói dài (X):** đề kiểu IELTS Speaking Part 2 / nói đoạn HSK; 1 phút chuẩn bị, nói 1–2 phút, ghi âm, tự chấm theo danh sách, so với bài mẫu. Luôn có "Bỏ qua, xem bài mẫu".
+6. **Nghe điền (Y):** nghe một đoạn, điền ghi chú; Anh gõ đáp án ≤ 3 từ hoặc số (có trong bài nghe), Trung chọn trong 3 phương án.
+7. **Dạng đề (H):** Trung theo HSK4 (听力, 阅读 选词填空, 书写 完成句子); Anh theo IELTS, TOEIC B2.
+8. Cuối tuần học thử: mời đăng ký chờ lớp của lộ trình, cùng ưu đãi lớp nhóm và Weekend Live (chưa bán gói web).
+
 ## 9. Danh sách kiểm tra trước khi giao một tuần mới
 - [ ] Có đủ bản `zh` và `en` cho tuần, đúng bối cảnh công sở, đúng dàn nhân vật.
 - [ ] `check_rules.py` báo 0 lỗi: chữ đã học, đủ dữ liệu hội thoại, nhại theo, mẫu câu, bài đọc, 4 cặp chữ khác số nét, 4 chữ viết.
@@ -149,5 +160,6 @@
 - [ ] Âm thanh: mọi câu có file giọng Gemini (thêm vào `tools/audio-list.json`, giọng cố định theo nhân vật), đã chạy `audio_clean.py`; không để câu nào chỉ có giọng trình duyệt.
 - [ ] Tự phát, tự chuyển 1,2 giây, sai thì hiện đáp án 2 giây, cuối bài làm lại câu tương tự, luôn có nút đi tiếp.
 - [ ] Mỗi bài có Cách làm, Quy tắc, Làm sao cho hiệu quả; bài nghe và nói có khuyến nghị trình duyệt.
+- [ ] Tuần nâng cao: `check_adv.py` 0 lỗi (đã chạy trong `check_rules.py`).
 - [ ] `node tools/t20.js` 0 lỗi; thử sai không kẹt; `--shots` không có cuộn ngang, ảnh chụp máy tính và điện thoại ổn.
 - [ ] Đẩy lên bằng tài khoản ces-training, cập nhật bản xem trong Claude, cập nhật ghi chú tiến độ trong Project.
