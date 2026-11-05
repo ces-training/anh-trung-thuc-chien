@@ -10,6 +10,7 @@
    - Chưa tạo hình hay giọng Gemini mới khi chị Duyên chưa duyệt.
    - Dùng lại ảnh có sẵn (cắt ghép, dùng tên khác qua `IMG_ALIAS`) và giọng máy.
    - Khi được duyệt: ảnh dùng flash-lite và tự kiểm lỗi; giọng dùng 3.8 flash TTS bản miễn phí, dự phòng flash-lite TTS.
+   - **Cảnh định làm video (bài S, cảnh mở đầu):** Claude chỉ sản xuất **ảnh cảnh + giọng hội thoại** (mỗi nhân vật một giọng cố định), không tạo video. Chị Duyên tự làm phim sau; khi có file, bỏ vào `tuan-1/vid/` và ghi vào `tuan-1/vid/index.json` là trang tự đổi ảnh thành video. Bộ ngữ liệu làm phim: `python3 tools/flow_kit.py` (ảnh khung đầu, câu lệnh, lời thoại từng đoạn 8 giây).
 5. **Tên nhân vật:** dùng đúng dàn nhân vật của tuần. Tên riêng phải có trong từ điển tra nhanh, ghi "(tên)".
 
 ## 2. Lộ trình một ngày
@@ -70,7 +71,8 @@
 - **Q · Nghe chọn nghĩa:** âm tự phát; chọn tranh và nghĩa; mỗi đáp án một tranh.
 - **S · Nghe cảnh:**
   - Tự phát cả cảnh. Chữ Hán luôn hiện; có công tắc bính âm và nghĩa (Anh · Việt).
-  - Video Google Flow: giữ tiếng gốc, phụ đề dưới khung hình khớp từng câu. Cần lời thoại đúng thứ tự từ chị Duyên.
+  - Chưa có video: hiện ảnh cảnh và phát giọng Gemini từng câu theo nhân vật.
+  - Có video (chị Duyên tự làm bằng Google Flow): giữ tiếng gốc, phụ đề dưới khung hình khớp từng câu.
 - **B · Nghe hiểu:** câu nghe tự phát; đáp án chữ Hán có bính âm, đáp án tiếng Việt có tiếng Anh ở trên; có tranh cho đáp án hoặc ảnh cảnh.
 - **C · Nhại theo:**
   - Mẫu tự phát. Nghe xong, nút 🎤 hiện ra. Có "Nghe lại mẫu" và "Nghe chậm".
