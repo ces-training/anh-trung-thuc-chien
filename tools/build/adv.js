@@ -42,7 +42,7 @@ buildEx = function (day, code) {
 
 /* bính âm chỉ hiện ở từ mới của tuần nâng cao tiếng Trung */
 const NEWW = new Set();
-DEMO_KEYS.forEach(k => { const W = COURSE_DEMO[k]; if (W.lang === "zh" && W.adv) W.days.forEach(d => d.cards.forEach(c => String(c.w).split(/\s*\/\s*|\s+/).forEach(w => w && NEWW.add(w)))); });
+DEMO_KEYS.forEach(k => { const W = COURSE_DEMO[k]; if (W.lang === "zh" && W.adv) { W.days.forEach(d => d.cards.forEach(c => String(c.w).split(/\s*\/\s*|\s+/).forEach(w => w && NEWW.add(w)))); (W.newWords || []).forEach(w => NEWW.add(w)); } });
 const PYNEW = () => document.documentElement.dataset.pymode === "new";
 const _glossHTML = glossHTML;
 glossHTML = function (text, noPy) {
