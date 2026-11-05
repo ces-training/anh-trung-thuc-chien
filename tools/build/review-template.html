@@ -1,0 +1,223 @@
+<title>Duyệt tranh Anh – Trung</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;700&display=swap">
+<style>
+/* Bàn duyệt: thanh tóm tắt + bộ lọc dính trên cùng, lưới thẻ mỗi chỗ cần tranh; màu lấy từ web Anh – Trung (xanh Anh, đỏ Trung, vàng nắng) */
+:root {
+  --bg: #F5F6FA; --card: #FFFFFF; --ink: #0E1730; --mute: #55607A; --line: #DDE2EC;
+  --en: #1F44D6; --enS: #E7ECFF; --zh: #D3271E; --zhS: #FDECEA; --sun: #FFD43B; --sunS: #FFF4C7;
+  --ok: #15803D; --okS: #E3F5E9; --warn: #A16207; --warnS: #FEF3C7;
+  --font: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", sans-serif; --han: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0D1222; --card: #161D33; --ink: #E8ECF6; --mute: #9AA5C0; --line: #2A3352;
+  --en: #8AA2FF; --enS: #1E2A55; --zh: #FF8A80; --zhS: #3A1E22; --sun: #FFD43B; --sunS: #3A3216;
+  --ok: #6EE7A0; --okS: #173226; --warn: #FCD34D; --warnS: #3A3216; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0D1222; --card: #161D33; --ink: #E8ECF6; --mute: #9AA5C0; --line: #2A3352;
+  --en: #8AA2FF; --enS: #1E2A55; --zh: #FF8A80; --zhS: #3A1E22; --sun: #FFD43B; --sunS: #3A3216;
+  --ok: #6EE7A0; --okS: #173226; --warn: #FCD34D; --warnS: #3A3216; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--font); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 20px 48px; }
+h1 { font-size: 26px; line-height: 1.2; margin: 0 0 6px; text-wrap: balance; letter-spacing: -.01em; }
+.lede { color: var(--mute); max-width: 68ch; margin: 0 0 16px; }
+.lede b { color: var(--ink); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 10px; }
+.tally { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 14px; color: var(--mute); font-variant-numeric: tabular-nums; }
+.tally b { color: var(--ink); font-size: 17px; }
+.meter { height: 6px; border-radius: 6px; background: var(--line); overflow: hidden; display: flex; }
+.meter i { display: block; height: 100%; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.chip { font: 600 13px var(--font); border: 1px solid var(--line); background: var(--card); color: var(--ink); padding: 6px 12px; border-radius: 999px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip:focus-visible, button:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
+.sep { width: 1px; height: 22px; background: var(--line); }
+.bulk { margin-left: auto; font: 600 13px var(--font); background: var(--okS); color: var(--ok); border: 1px solid transparent; padding: 7px 12px; border-radius: 8px; cursor: pointer; }
+.status { font-size: 13px; color: var(--mute); min-height: 1.2em; }
+.status.err { color: var(--zh); }
+h2 { font-size: 15px; text-transform: uppercase; letter-spacing: .08em; color: var(--mute); margin: 26px 0 10px; }
+h2 small { text-transform: none; letter-spacing: 0; font-weight: 500; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.grid.wide { grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); }
+.item { background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
+.item[data-st="ok"] { border-color: var(--ok); }
+.item[data-st="swap"] { border-color: var(--en); }
+.item[data-st="later"] { border-color: var(--warn); }
+.pic { position: relative; background: var(--enS); aspect-ratio: 4 / 3; display: grid; place-items: center; max-width: 100%; }
+.wide .pic { aspect-ratio: 16 / 9; }
+.char .pic { aspect-ratio: 1; }
+.pic img, .pic svg { width: 100%; height: 100%; object-fit: cover; display: block; }
+.char .pic svg { object-fit: contain; height: 92%; width: auto; margin-top: 8%; }
+.pic .none { color: var(--mute); font-size: 13px; }
+.tag { position: absolute; left: 8px; top: 8px; font: 700 11px var(--font); letter-spacing: .04em; padding: 3px 8px; border-radius: 6px; background: var(--card); color: var(--ink); border: 1px solid var(--line); }
+.tag.alias { background: var(--sunS); color: var(--warn); border-color: transparent; }
+.tag.fresh { background: var(--okS); color: var(--ok); border-color: transparent; }
+.tag.swapped { background: var(--enS); color: var(--en); border-color: transparent; }
+.body { padding: 12px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.t { font-weight: 700; font-size: 16px; line-height: 1.3; overflow-wrap: anywhere; }
+.t .han, .uses .han { font-family: var(--han); }
+.sub { color: var(--mute); font-size: 13px; }
+.uses { font-size: 13px; color: var(--ink); margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 2px; }
+.uses li { overflow-wrap: anywhere; }
+details { font-size: 13px; color: var(--mute); }
+summary { cursor: pointer; font-weight: 600; color: var(--en); }
+.acts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: auto; }
+.acts button { font: 600 13px var(--font); padding: 8px 4px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); cursor: pointer; min-height: 40px; }
+.acts button[aria-pressed="true"][data-v="ok"] { background: var(--ok); color: var(--card); border-color: var(--ok); }
+.acts button[aria-pressed="true"][data-v="swap"] { background: var(--en); color: var(--card); border-color: var(--en); }
+.acts button[aria-pressed="true"][data-v="later"] { background: var(--warn); color: var(--card); border-color: var(--warn); }
+.swap { display: flex; flex-direction: column; gap: 6px; }
+select, textarea { font: 14px var(--font); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 7px 8px; width: 100%; box-sizing: border-box; }
+textarea { min-height: 38px; resize: vertical; }
+.empty { color: var(--mute); padding: 24px 0; }
+@media (prefers-reduced-motion: no-preference) { .item { transition: border-color .2s; } }
+</style>
+
+<div class="wrap">
+  <h1>Duyệt tranh · Anh – Trung Thực Chiến</h1>
+  <p class="lede">Mọi chỗ trên web đang <b>mượn ảnh</b>, dùng <b>hình vẽ</b> hoặc còn trống, ở 9 tuần. Không tốn tiền Gemini. Với mỗi ô, chị chọn <b>Dùng được</b>, <b>Đổi ảnh</b> (chọn một ảnh có sẵn khác) hoặc <b>Vẽ mới sau</b> (để dành khi có ngân sách). Lựa chọn tự lưu; xong chị nhắn em “đã duyệt tranh” là em áp vào web.</p>
+
+  <div class="bar">
+    <div class="tally" id="tally"></div>
+    <div class="meter" id="meter" aria-hidden="true"></div>
+    <div class="row" id="filters">
+      <button class="chip" data-g="all" aria-pressed="true">Tất cả</button>
+      <button class="chip" data-g="char" aria-pressed="false">Nhân vật</button>
+      <button class="chip" data-g="scene" aria-pressed="false">Tranh cảnh</button>
+      <button class="chip" data-g="card" aria-pressed="false">Thẻ từ</button>
+      <span class="sep"></span>
+      <button class="chip" data-s="todo" aria-pressed="false">Chưa chọn</button>
+      <button class="chip" data-s="swap" aria-pressed="false">Đổi ảnh</button>
+      <button class="chip" data-s="later" aria-pressed="false">Vẽ sau</button>
+      <button class="bulk" id="bulk">Đồng ý mọi ô chưa chọn</button>
+    </div>
+    <div class="status" id="status" role="status">Đang mở chỗ lưu lựa chọn…</div>
+  </div>
+
+  <div id="list"></div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const GROUPS = [["char", "Nhân vật chưa có ảnh", "hình vẽ theo mô tả trong kịch bản"], ["scene", "Tranh cảnh mở đầu", "đang mượn ảnh cảnh khác; tranh này sau dùng làm khung đầu phim"], ["card", "Tranh thẻ từ", "mượn ảnh gần nghĩa hoặc hình vẽ"]];
+const state = {}; let db = null, coll = null, gF = "all", sF = null;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const han = s => esc(s).replace(/([一-鿿]+)/g, '<span class="han">$1</span>');
+const photoNames = Object.keys(DATA.photos);
+
+function picHTML(it) {
+  const st = state[it.doc] || {};
+  if (st.v === "swap" && st.swap && DATA.photos[st.swap]) return `<img src="${DATA.photos[st.swap]}" alt=""><span class="tag swapped">Đổi sang “${esc(st.swap)}”</span>`;
+  const n = it.now;
+  if (n.type === "alias") return `<img src="${DATA.photos[n.photo] || ""}" alt=""><span class="tag alias">${esc(n.label)}</span>`;
+  if (n.type === "icon" || n.type === "drawn") return `${n.svg}<span class="tag ${n.fresh ? "fresh" : ""}">${esc(n.label)}</span>`;
+  return `<span class="none">Đang trống</span><span class="tag">Đang trống</span>`;
+}
+function itemHTML(it) {
+  const st = state[it.doc] || {};
+  const uses = it.uses.slice(0, 4).map(u => `<li>${han(u)}</li>`).join("") + (it.uses.length > 4 ? `<li>… và ${it.uses.length - 4} chỗ nữa</li>` : "");
+  const opts = photoNames.map(n => `<option value="${esc(n)}"${st.swap === n ? " selected" : ""}>${esc(n)}</option>`).join("");
+  return `<article class="item" data-doc="${it.doc}" data-st="${st.v || ""}">
+    <div class="pic">${picHTML(it)}</div>
+    <div class="body">
+      <div class="t">${han(it.title)}</div>
+      ${it.sub ? `<div class="sub">${han(it.sub)}</div>` : ""}
+      <ul class="uses">${uses}</ul>
+      ${it.prompt ? `<details><summary>Mô tả nếu vẽ mới</summary>${esc(it.prompt)}</details>` : ""}
+      <div class="acts">
+        <button data-v="ok" aria-pressed="${st.v === "ok"}">Dùng được</button>
+        <button data-v="swap" aria-pressed="${st.v === "swap"}">Đổi ảnh</button>
+        <button data-v="later" aria-pressed="${st.v === "later"}">Vẽ mới sau</button>
+      </div>
+      <div class="swap" ${st.v === "swap" ? "" : "hidden"}>
+        <label class="sub" for="sw-${it.doc}">Thay bằng ảnh có sẵn</label>
+        <select id="sw-${it.doc}"><option value="">Chọn ảnh…</option>${opts}</select>
+      </div>
+      <label class="sub" for="nt-${it.doc}">Ghi chú cho em (không bắt buộc)</label>
+      <textarea id="nt-${it.doc}" placeholder="Ví dụ: mặt hơi trẻ, cần áo vest">${esc(st.note || "")}</textarea>
+    </div></article>`;
+}
+function visible(it) {
+  const v = (state[it.doc] || {}).v;
+  return (gF === "all" || it.group === gF) && (!sF || (sF === "todo" ? !v : v === sF));
+}
+function render() {
+  const keep = document.activeElement && document.activeElement.id;
+  let html = "";
+  for (const [g, name, note] of GROUPS) {
+    const its = DATA.items.filter(i => i.group === g && visible(i));
+    if (!its.length) continue;
+    html += `<h2>${name} · ${its.length} <small>(${note})</small></h2><div class="grid ${g === "scene" ? "wide" : ""} ${g}">${its.map(itemHTML).join("")}</div>`;
+  }
+  $("#list").innerHTML = html || `<p class="empty">Không còn ô nào trong mục này.</p>`;
+  if (keep && document.getElementById(keep)) document.getElementById(keep).focus();
+  tally();
+}
+function tally() {
+  const n = DATA.items.length, c = { ok: 0, swap: 0, later: 0 };
+  DATA.items.forEach(i => { const v = (state[i.doc] || {}).v; if (c[v] !== undefined) c[v]++; });
+  const todo = n - c.ok - c.swap - c.later;
+  $("#tally").innerHTML = `<span><b>${n}</b> chỗ cần duyệt</span><span><b>${c.ok}</b> dùng được</span><span><b>${c.swap}</b> đổi ảnh</span><span><b>${c.later}</b> vẽ mới sau</span><span><b>${todo}</b> chưa chọn</span>`;
+  $("#meter").innerHTML = [["ok", "--ok"], ["swap", "--en"], ["later", "--warn"]].map(([k, col]) => `<i style="width:${c[k] / n * 100}%;background:var(${col})"></i>`).join("");
+}
+function say(msg, err) { const s = $("#status"); s.textContent = msg; s.classList.toggle("err", !!err); }
+
+async function save(doc, patch) {
+  const prev = state[doc] || {};
+  state[doc] = { ...prev, ...patch };
+  const it = DATA.items.find(i => i.doc === doc);
+  if (!coll) { say("Chưa lưu được: trang đang mở ở chế độ chỉ xem. Mở trang từ tài khoản của chị để lựa chọn được giữ lại.", true); return; }
+  try {
+    await coll.doc(doc).set({ key: it.key, group: it.group, v: state[doc].v || "", swap: state[doc].swap || "", note: state[doc].note || "", at: new Date().toISOString() });
+    say("Đã lưu · " + new Date().toLocaleTimeString("vi-VN", { hour: "2-digit", minute: "2-digit" }));
+  } catch (e) { state[doc] = prev; say("Chưa lưu được (" + (e && e.code || "lỗi") + "). Thử chọn lại sau vài giây.", true); render(); }
+}
+
+document.addEventListener("click", e => {
+  const chip = e.target.closest(".chip");
+  if (chip) {
+    if (chip.dataset.g) { gF = chip.dataset.g; document.querySelectorAll("[data-g]").forEach(b => b.setAttribute("aria-pressed", b === chip)); }
+    if (chip.dataset.s) { sF = sF === chip.dataset.s ? null : chip.dataset.s; document.querySelectorAll("[data-s]").forEach(b => b.setAttribute("aria-pressed", b.dataset.s === sF)); }
+    render(); return;
+  }
+  const b = e.target.closest(".acts button");
+  if (b) {
+    const doc = b.closest(".item").dataset.doc, v = b.dataset.v, cur = (state[doc] || {}).v;
+    save(doc, { v: cur === v ? "" : v }).then(render); render(); return;
+  }
+  if (e.target.id === "bulk") {
+    const todo = DATA.items.filter(i => !(state[i.doc] || {}).v);
+    if (!todo.length) { say("Mọi ô đều đã có lựa chọn."); return; }
+    (async () => { for (const i of todo) await save(i.doc, { v: "ok" }); render(); say(`Đã đồng ý ${todo.length} ô.`); })();
+    todo.forEach(i => state[i.doc] = { ...(state[i.doc] || {}), v: "ok" }); render();
+  }
+});
+document.addEventListener("change", e => {
+  if (e.target.matches(".swap select")) { const doc = e.target.closest(".item").dataset.doc; save(doc, { v: "swap", swap: e.target.value }).then(render); render(); }
+});
+let noteT = {};
+document.addEventListener("input", e => {
+  if (!e.target.matches("textarea")) return;
+  const doc = e.target.closest(".item").dataset.doc, val = e.target.value;
+  clearTimeout(noteT[doc]); noteT[doc] = setTimeout(() => save(doc, { note: val }), 700);
+});
+
+render();
+(async () => {
+  const timer = setTimeout(() => say("Chỗ lưu chưa trả lời. Chị vẫn xem được; tải lại trang nếu muốn lưu lựa chọn.", true), 10000);
+  try {
+    db = window.claude && await window.claude.use("db");
+    if (!db) { clearTimeout(timer); say("Trang đang ở chế độ chỉ xem (chưa đăng nhập hoặc không có quyền lưu).", true); return; }
+    coll = db.collection("duyet");
+    let first = true;
+    coll.onSnapshot(snap => {
+      clearTimeout(timer);
+      snap.docs.forEach(d => { const x = d.data() || {}; state[d.id] = { v: x.v || "", swap: x.swap || "", note: x.note || "" }; });
+      if (first) { say(snap.size ? `Đã mở lại ${snap.size} lựa chọn trước đó.` : "Sẵn sàng. Chưa có lựa chọn nào."); first = false; }
+      if (!document.activeElement || !document.activeElement.matches("textarea")) render(); else tally();
+    }, err => { clearTimeout(timer); say("Không đọc được lựa chọn đã lưu (" + (err && err.code) + ").", true); });
+  } catch (e) { clearTimeout(timer); say("Không mở được chỗ lưu lựa chọn.", true); }
+})();
+</script>
