@@ -17,10 +17,18 @@ NAMES = set()
 for w in gloss:
     if re.search(r"\(tên|tên\)|giám đốc|cô giáo", gloss[w][2]): NAMES |= set(H(w))
 known = set()
+# từ người học đã biết trước tuần demo (vd. HSK2 vào thẳng tuần 5 đã biết thẻ tuần 1–4 của sheet)
+kb_p = os.path.join(D, "known-before.json")
+kb = json.load(open(kb_p, encoding="utf-8")) if os.path.exists(kb_p) else None
 for wk in weeks:
+    if kb and wk >= kb["from_week"]:
+        for k, ws in kb.items():
+            if isinstance(ws, list):
+                for w in ws: known |= set(H(w))
     zh = json.load(open(os.path.join(D, f"zh-w{wk}.json"), encoding="utf-8"))
     en_p = os.path.join(D, f"en-w{wk}.json")
-    if not os.path.exists(en_p): E(f"tuần {wk}: thiếu bản tiếng Anh en-w{wk}.json (hai ngôn ngữ phải song song)")
+    # tuần demo của một lộ trình riêng (vd. HSK2 tuần 5) không có bản tiếng Anh cùng số tuần
+    if not os.path.exists(en_p) and not zh.get("demo"): E(f"tuần {wk}: thiếu bản tiếng Anh en-w{wk}.json (hai ngôn ngữ phải song song)")
     for d in zh["days"]:
         did = d["id"]
         for c in d["cards"]: known |= set(H(c["w"]))

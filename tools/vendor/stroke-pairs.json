@@ -458,5 +458,235 @@
    "aen": "in 晚上 wǎnshang: evening",
    "ben": "to exempt"
   }
+ ],
+ "w5-thu-2": [
+  {
+   "a": "机",
+   "apy": "jī",
+   "am": "máy (飞机, 机场)",
+   "aen": "machine (as in plane, airport)",
+   "b": "几",
+   "bpy": "jǐ",
+   "bm": "mấy",
+   "ben": "how many",
+   "note": "机 = 木 + 几: thêm bộ 木 (cây) bên trái 几. 机 6 nét, 几 2 nét."
+  },
+  {
+   "a": "已",
+   "apy": "yǐ",
+   "am": "đã (已经)",
+   "aen": "already",
+   "b": "巴",
+   "bpy": "bā",
+   "bm": "(chữ trong 下巴: cằm)",
+   "ben": "(as in 下巴, chin)",
+   "note": "已 có nét sổ bên trái chỉ lên nửa chừng (3 nét); 巴 có thêm một nét sổ ở giữa (4 nét)."
+  },
+  {
+   "a": "等",
+   "apy": "děng",
+   "am": "đợi",
+   "aen": "to wait",
+   "b": "第",
+   "bpy": "dì",
+   "bm": "thứ (第一: thứ nhất)",
+   "ben": "(ordinal prefix)",
+   "note": "Cùng có ⺮ (tre) ở trên. Dưới 等 là 寺 = 土 + 寸 (12 nét); dưới 第 là phần có nét móc cong (11 nét)."
+  },
+  {
+   "a": "为",
+   "apy": "wèi",
+   "am": "vì (为什么)",
+   "aen": "for (as in why)",
+   "b": "力",
+   "bpy": "lì",
+   "bm": "sức",
+   "ben": "strength",
+   "note": "为 = 力 thêm một chấm bên trái và một chấm bên trong (4 nét); 力 chỉ có 2 nét."
+  }
+ ],
+ "w5-thu-3": [
+  {
+   "a": "站",
+   "apy": "zhàn",
+   "am": "trạm, ga (车站)",
+   "aen": "station",
+   "b": "占",
+   "bpy": "zhàn",
+   "bm": "chiếm",
+   "ben": "to occupy",
+   "note": "站 = 立 (đứng) + 占: người đứng chờ ở trạm. Cùng đọc zhàn. 站 10 nét, 占 5 nét."
+  },
+  {
+   "a": "拿",
+   "apy": "ná",
+   "am": "cầm, xách",
+   "aen": "to take, to hold",
+   "b": "合",
+   "bpy": "hé",
+   "bm": "hợp, đóng lại",
+   "ben": "to close, to combine",
+   "note": "拿 = 合 + 手: dùng tay (手) gom lại để cầm. 拿 10 nét, 合 6 nét."
+  },
+  {
+   "a": "让",
+   "apy": "ràng",
+   "am": "bảo, để (ai làm gì)",
+   "aen": "to let, to ask (sb to do)",
+   "b": "认",
+   "bpy": "rèn",
+   "bm": "nhận ra (认识)",
+   "ben": "to recognize (as in 认识)",
+   "note": "Cùng có 讠 (lời nói) bên trái. Bên phải 让 là 上 (3 nét) nên 5 nét; bên phải 认 là 人 nên 4 nét."
+  },
+  {
+   "a": "告",
+   "apy": "gào",
+   "am": "báo (告诉)",
+   "aen": "to tell (as in 告诉)",
+   "b": "吉",
+   "bpy": "jí",
+   "bm": "tốt lành",
+   "ben": "lucky",
+   "note": "Cùng có 口 ở dưới. Phần trên 告 có nét phẩy đầu (4 nét), phần trên 吉 là 士 (3 nét). 告 7 nét, 吉 6 nét."
+  }
+ ],
+ "w5-thu-4": [
+  {
+   "a": "从",
+   "apy": "cóng",
+   "am": "từ (điểm xuất phát)",
+   "aen": "from",
+   "b": "人",
+   "bpy": "rén",
+   "bm": "người",
+   "ben": "person",
+   "note": "从 = hai chữ 人 đứng nối nhau: người sau theo người trước. 从 4 nét, 人 2 nét."
+  },
+  {
+   "a": "往",
+   "apy": "wǎng",
+   "am": "hướng về",
+   "aen": "towards",
+   "b": "住",
+   "bpy": "zhù",
+   "bm": "ở, sống",
+   "ben": "to live, to stay",
+   "note": "Cùng có 主 bên phải. Bên trái 往 là 彳 (bước đi, 3 nét); bên trái 住 là 亻 (người, 2 nét). 往 8 nét, 住 7 nét."
+  },
+  {
+   "a": "酒",
+   "apy": "jiǔ",
+   "am": "rượu (酒店: khách sạn)",
+   "aen": "alcohol (as in 酒店, hotel)",
+   "b": "洒",
+   "bpy": "sǎ",
+   "bm": "vẩy, rắc",
+   "ben": "to sprinkle",
+   "note": "Cùng có 氵 (nước). Bên phải 酒 là 酉 (7 nét, có thêm nét ngang ở trong); bên phải 洒 là 西 (6 nét). 酒 10 nét, 洒 9 nét."
+  },
+  {
+   "a": "店",
+   "apy": "diàn",
+   "am": "cửa hàng (商店, 酒店)",
+   "aen": "shop (as in 商店, 酒店)",
+   "b": "占",
+   "bpy": "zhàn",
+   "bm": "chiếm",
+   "ben": "to occupy",
+   "note": "店 = 广 (mái nhà) che trên 占: chỗ có mái để bày hàng. 店 8 nét, 占 5 nét."
+  }
+ ],
+ "w5-thu-5": [
+  {
+   "a": "坏",
+   "apy": "huài",
+   "am": "hỏng",
+   "aen": "broken",
+   "b": "不",
+   "bpy": "bù",
+   "bm": "không",
+   "ben": "not",
+   "note": "坏 = 土 (đất) + 不: rơi xuống đất là hỏng. 坏 7 nét, 不 4 nét."
+  },
+  {
+   "a": "近",
+   "apy": "jìn",
+   "am": "gần",
+   "aen": "near",
+   "b": "斤",
+   "bpy": "jīn",
+   "bm": "cân (nửa ký)",
+   "ben": "half a kilo",
+   "note": "近 = 辶 (bước đi) + 斤: đi vài bước là tới, nên 'gần'. 近 7 nét, 斤 4 nét."
+  },
+  {
+   "a": "路",
+   "apy": "lù",
+   "am": "đường",
+   "aen": "road",
+   "b": "各",
+   "bpy": "gè",
+   "bm": "mỗi, các",
+   "ben": "each",
+   "note": "路 = 𧾷 (chân) + 各: đường là nơi bàn chân mỗi người đi qua. 路 13 nét, 各 6 nét."
+  },
+  {
+   "a": "远",
+   "apy": "yuǎn",
+   "am": "xa",
+   "aen": "far",
+   "b": "元",
+   "bpy": "yuán",
+   "bm": "đồng (tiền)",
+   "ben": "yuan",
+   "note": "远 = 辶 + 元. Hai chữ đọc gần giống: yuǎn (thanh 3) / yuán (thanh 2). 远 7 nét, 元 4 nét."
+  }
+ ],
+ "w5-thu-6": [
+  {
+   "a": "晴",
+   "apy": "qíng",
+   "am": "nắng",
+   "aen": "sunny",
+   "b": "请",
+   "bpy": "qǐng",
+   "bm": "mời",
+   "ben": "please",
+   "note": "Cùng có 青 bên phải. Bên trái 晴 là 日 (mặt trời, 4 nét); bên trái 请 là 讠 (lời nói, 2 nét). 晴 12 nét, 请 10 nét."
+  },
+  {
+   "a": "时",
+   "apy": "shí",
+   "am": "lúc, giờ",
+   "aen": "time",
+   "b": "寸",
+   "bpy": "cùn",
+   "bm": "tấc",
+   "ben": "inch",
+   "note": "时 = 日 + 寸: bóng mặt trời dịch từng tấc là thời gian trôi. 时 7 nét, 寸 3 nét."
+  },
+  {
+   "a": "铁",
+   "apy": "tiě",
+   "am": "sắt (地铁)",
+   "aen": "iron (as in 地铁)",
+   "b": "失",
+   "bpy": "shī",
+   "bm": "mất",
+   "ben": "to lose",
+   "note": "铁 = 钅 (kim loại, 5 nét) + 失. 铁 10 nét, 失 5 nét."
+  },
+  {
+   "a": "跟",
+   "apy": "gēn",
+   "am": "với, cùng",
+   "aen": "with",
+   "b": "很",
+   "bpy": "hěn",
+   "bm": "rất",
+   "ben": "very",
+   "note": "Cùng có 艮 bên phải. Bên trái 跟 là 𧾷 (chân, 7 nét); bên trái 很 là 彳 (bước đi, 3 nét). 跟 13 nét, 很 9 nét."
+  }
  ]
 }

@@ -1,0 +1,5076 @@
+{
+ "lang": "zh",
+ "week": 5,
+ "demo": true,
+ "level": "HSK2",
+ "title": "Đi công tác về ăn Tết: sân bay, taxi, hỏi đường, xe hỏng, thời tiết",
+ "cando": "Hỏi và trả lời về chuyến đi (giờ bay, vé, đường đi, khoảng cách, phương tiện); nói việc sắp xảy ra và đã xảy ra; đề xuất phương án",
+ "story": "阮安 và 王丽 đi công tác Thượng Hải (上海) ngày giáp Tết. Tuyết rơi, chuyến bay về Việt Nam bị huỷ; hai người bắt taxi ra ga, ở lại khách sạn gần ga, đi nhờ xe thì xe hỏng, cuối cùng đi tàu điện ngầm ra ga, đi tàu xuống Nam Ninh (南宁) rồi về Việt Nam. 王经理 ở Hà Nội gọi điện, nhắn tin hỏi tình hình.",
+ "cast": [
+  {
+   "key": "an",
+   "name": "阮安",
+   "py": "Ruǎn Ān",
+   "vi": "Nguyễn An, cô gái Việt Nam khoảng 26 tuổi, nhân viên công ty (vai của chính bạn)",
+   "look": "A realistic Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse under a dark winter coat, natural smile"
+  },
+  {
+   "key": "wangli",
+   "name": "王丽",
+   "py": "Wáng Lì",
+   "vi": "Vương Lệ, đồng nghiệp người Trung Quốc khoảng 26 tuổi, làm việc và sống ở Hà Nội, thân thiện",
+   "look": "A realistic Chinese woman about 26, black hair in a high ponytail, red knit sweater under a beige winter coat, cheerful expression"
+  },
+  {
+   "key": "wangjl",
+   "name": "王经理",
+   "py": "Wáng jīnglǐ",
+   "vi": "giám đốc Vương, khoảng 50 tuổi, ở văn phòng Hà Nội, gọi điện và nhắn tin hỏi tình hình",
+   "look": "A realistic Chinese businessman about 50, short greying hair, rimless glasses, dark navy suit with a red tie, polite and warm"
+  },
+  {
+   "key": "staff",
+   "name": "工作人员",
+   "py": "gōngzuò rényuán",
+   "vi": "nhân viên sân bay, nhà ga (vai phụ)",
+   "look": "A realistic Chinese airline ground staff woman in her 30s, navy uniform with a scarf, hair in a neat bun, polite"
+  },
+  {
+   "key": "driver",
+   "name": "司机",
+   "py": "sījī",
+   "vi": "tài xế của công ty đối tác ở Thượng Hải (vai phụ)",
+   "look": "A realistic Chinese man in his 40s, short hair, grey jacket, friendly, standing next to a black sedan"
+  },
+  {
+   "key": "passer",
+   "name": "路人",
+   "py": "lùrén",
+   "vi": "người đi đường ở gần ga (vai phụ)",
+   "look": "A realistic Chinese man in his 60s, wool cap and scarf, kind face, pointing the way"
+  }
+ ],
+ "days": [
+  {
+   "id": "w5-thu-2",
+   "label": "Thứ 2",
+   "title": "Sân bay ngày giáp Tết: chuyến bay bị hoãn",
+   "desc": "Nói việc sắp xảy ra (快要……了), việc đã xảy ra (已经……了) và hỏi lý do (为什么) khi chuyến bay về Việt Nam bị huỷ vì tuyết.",
+   "rule": "快要 + V/N + 了 = sắp… rồi (luôn có 了 ở cuối câu). 已经 + V + 了 = đã… rồi (thường đi với 了). Hỏi lý do: chủ ngữ + 为什么 + động từ?",
+   "cards": [
+    {
+     "w": "机场",
+     "py": "jīchǎng",
+     "m": "sân bay",
+     "mEn": "airport",
+     "ex": "我和王丽已经到机场了。",
+     "expy": "Wǒ hé Wáng Lì yǐjīng dào jīchǎng le.",
+     "exm": "Tôi và Vương Lệ đã đến sân bay rồi.",
+     "exEn": "Wang Li and I are already at the airport.",
+     "n": "机 = máy (飞机 máy bay), 场 = bãi, nơi rộng: 机场 = sân bay. jī giữ cao đều, chǎng bật hơi, xuống thấp.",
+     "img": "airport"
+    },
+    {
+     "w": "机票",
+     "py": "jīpiào",
+     "m": "vé máy bay",
+     "mEn": "plane ticket",
+     "ex": "我的机票是今天下午的。",
+     "expy": "Wǒ de jīpiào shì jīntiān xiàwǔ de.",
+     "exm": "Vé máy bay của tôi là chuyến chiều nay.",
+     "exEn": "My plane ticket is for this afternoon.",
+     "n": "票 = vé. Nói vé ngày nào, giờ nào: 机票是 + thời gian + 的. p bật hơi mạnh (khác b).",
+     "img": "ticket"
+    },
+    {
+     "w": "飞",
+     "py": "fēi",
+     "m": "bay",
+     "mEn": "to fly",
+     "ex": "下雪了，飞机今天不飞了。",
+     "expy": "Xià xuě le, fēijī jīntiān bù fēi le.",
+     "exm": "Tuyết rơi rồi, hôm nay máy bay không bay nữa.",
+     "exEn": "It's snowing, so the plane isn't flying today.",
+     "n": "飞 là động từ 'bay'; 飞机 là danh từ 'máy bay'. 不 + V + 了 = không… nữa (kế hoạch đã đổi).",
+     "img": "plane"
+    },
+    {
+     "w": "过年",
+     "py": "guònián",
+     "m": "ăn Tết, đón năm mới",
+     "mEn": "to celebrate the (Lunar) New Year",
+     "ex": "快要过年了，我想回家。",
+     "expy": "Kuàiyào guònián le, wǒ xiǎng huí jiā.",
+     "exm": "Sắp Tết rồi, tôi muốn về nhà.",
+     "exEn": "New Year is coming, and I want to go home.",
+     "n": "Hán Việt 'quá niên', nhưng nghĩa là ĂN TẾT. Thanh 4 + thanh 2: guò rơi xuống, nián đi lên; n đọc rõ, không thành l.",
+     "img": "newyear"
+    },
+    {
+     "w": "回去",
+     "py": "huíqù",
+     "m": "về (đi về nơi khác, rời chỗ người nói)",
+     "mEn": "to go back",
+     "ex": "很晚了，我们回去吧。",
+     "expy": "Hěn wǎn le, wǒmen huíqù ba.",
+     "exm": "Muộn rồi, chúng ta về thôi.",
+     "exEn": "It's late, let's go back.",
+     "n": "回去 = về, rời chỗ mình đang đứng; 回来 = về đến chỗ người nói. Ở sân bay Thượng Hải nói 回去; giám đốc ở Hà Nội gọi điện thì nói 回来.",
+     "img": "back"
+    },
+    {
+     "w": "等",
+     "py": "děng",
+     "m": "đợi, chờ",
+     "mEn": "to wait",
+     "ex": "我们在机场等了两个小时。",
+     "expy": "Wǒmen zài jīchǎng děng le liǎng ge xiǎoshí.",
+     "exm": "Chúng tôi đã đợi ở sân bay hai tiếng.",
+     "exEn": "We waited at the airport for two hours.",
+     "n": "⚠ Bẫy Hán–Việt: đọc là 'đẳng' nhưng nghĩa hay gặp là ĐỢI, không phải 'đẳng cấp'. 等 + người: 等你 = đợi bạn."
+    },
+    {
+     "w": "一会儿",
+     "py": "yíhuìr",
+     "m": "một lát, một chút",
+     "mEn": "a moment, a little while",
+     "ex": "请等一会儿。",
+     "expy": "Qǐng děng yíhuìr.",
+     "exm": "Xin đợi một lát.",
+     "exEn": "Please wait a moment.",
+     "n": "一 đọc yí vì đứng trước thanh 4 (huì). 儿 không đọc thành âm riêng, chỉ cuốn lưỡi: huìr. Đứng SAU động từ: 等一会儿, 坐一会儿."
+    },
+    {
+     "w": "已经",
+     "py": "yǐjīng",
+     "m": "đã (… rồi)",
+     "mEn": "already",
+     "ex": "我已经等了一个小时了。",
+     "expy": "Wǒ yǐjīng děng le yí ge xiǎoshí le.",
+     "exm": "Tôi đã đợi một tiếng rồi.",
+     "exEn": "I've already been waiting for an hour.",
+     "n": "已经 + V + 了: đã… rồi. 已经 đứng TRƯỚC động từ. Nói đã làm được bao lâu (và vẫn đang làm) thì có hai 了: 等了一个小时了. Chữ 已 dễ nhầm với 己 (jǐ), 巳 (sì) và 巴 (bā)."
+    },
+    {
+     "w": "快要",
+     "py": "kuàiyào",
+     "m": "sắp",
+     "mEn": "about to, soon",
+     "ex": "飞机快要飞了。",
+     "expy": "Fēijī kuàiyào fēi le.",
+     "exm": "Máy bay sắp bay rồi.",
+     "exEn": "The plane is about to take off.",
+     "n": "快要 + V/N + 了 = sắp… rồi; thiếu 了 cuối câu là sai. Hai thanh 4 liền nhau: kuài mạnh, yào nhẹ hơn một chút."
+    },
+    {
+     "w": "啊",
+     "py": "a",
+     "m": "à, nhỉ, nhé (trợ từ ngữ khí)",
+     "mEn": "(modal particle) ah, oh",
+     "ex": "你也回去过年啊？",
+     "expy": "Nǐ yě huíqù guònián a?",
+     "exm": "Bạn cũng về ăn Tết à?",
+     "exEn": "You're going home for New Year too?",
+     "n": "Đứng cuối câu, đọc nhẹ, làm câu thân mật và mềm hơn. Bỏ 啊 đi câu vẫn đúng nghĩa."
+    },
+    {
+     "w": "为什么",
+     "py": "wèi shénme",
+     "m": "tại sao",
+     "mEn": "why",
+     "ex": "飞机为什么还不飞？",
+     "expy": "Fēijī wèi shénme hái bù fēi?",
+     "exm": "Sao máy bay vẫn chưa bay?",
+     "exEn": "Why isn't the plane taking off yet?",
+     "n": "为什么 đứng sau chủ ngữ, trước động từ: 飞机为什么不飞？ 为 ở đây đọc wèi (thanh 4). 还不 + V = vẫn chưa…",
+     "img": "question"
+    }
+   ],
+   "scene": {
+    "setting": "Chiều giáp Tết ở sân bay Thượng Hải (上海). Ngoài trời tuyết rơi dày, chuyến bay 3 giờ chiều về Việt Nam của 阮安 và 王丽 vẫn chưa cất cánh. 阮安 gọi điện báo giám đốc Vương ở Hà Nội.",
+    "img": "scene-zh-airport",
+    "imgPrompt": "Realistic photo of a crowded airport departure hall in Shanghai in winter, heavy snow falling outside the large windows; an (Vietnamese woman, blue blouse, dark coat) and wangli (Chinese woman, red sweater, beige coat) stand with suitcases looking worried at a departures board, holiday travellers around, no readable text",
+    "lines": [
+     {
+      "who": "王丽",
+      "t": "快要过年了，机场人真多！",
+      "py": "Kuàiyào guònián le, jīchǎng rén zhēn duō!",
+      "vi": "Sắp Tết rồi, sân bay đông người thật!",
+      "en": "New Year's almost here, the airport is so crowded!"
+     },
+     {
+      "who": "阮安",
+      "t": "是啊。我们的机票是下午三点的。",
+      "py": "Shì a. Wǒmen de jīpiào shì xiàwǔ sān diǎn de.",
+      "vi": "Đúng thế. Vé của mình là chuyến 3 giờ chiều.",
+      "en": "Yes. Our tickets are for the 3 p.m. flight."
+     },
+     {
+      "who": "王丽",
+      "t": "现在已经四点了，飞机为什么还不飞？",
+      "py": "Xiànzài yǐjīng sì diǎn le, fēijī wèi shénme hái bù fēi?",
+      "vi": "Giờ đã 4 giờ rồi, sao máy bay vẫn chưa bay?",
+      "en": "It's already four. Why hasn't the plane taken off?"
+     },
+     {
+      "who": "工作人员",
+      "t": "对不起，下雪了，飞机今天不飞了。",
+      "py": "Duìbuqǐ, xià xuě le, fēijī jīntiān bù fēi le.",
+      "vi": "Xin lỗi, tuyết rơi, hôm nay máy bay không bay nữa.",
+      "en": "Sorry, it's snowing. The plane won't fly today."
+     },
+     {
+      "who": "阮安",
+      "t": "不飞了？我们已经等了一个小时了！",
+      "py": "Bù fēi le? Wǒmen yǐjīng děng le yí ge xiǎoshí le!",
+      "vi": "Không bay nữa ạ? Chúng tôi đã đợi một tiếng rồi!",
+      "en": "Not flying? We've already waited an hour!"
+     },
+     {
+      "who": "工作人员",
+      "t": "请等一会儿，我问一下。",
+      "py": "Qǐng děng yíhuìr, wǒ wèn yíxià.",
+      "vi": "Xin chờ một lát, để tôi hỏi thử.",
+      "en": "Please wait a moment, I'll check."
+     },
+     {
+      "who": "阮安",
+      "t": "王经理，飞机不飞了，我们今天不能回去了。",
+      "py": "Wáng jīnglǐ, fēijī bù fēi le, wǒmen jīntiān bù néng huíqù le.",
+      "vi": "Thưa giám đốc Vương, máy bay không bay nữa, hôm nay chúng em không về được rồi. (gọi điện)",
+      "en": "Mr Wang, the flight's cancelled. We can't go back today. (on the phone)"
+     },
+     {
+      "who": "王经理",
+      "t": "没关系。快要过年了，你们明天回来吧！",
+      "py": "Méi guānxi. Kuàiyào guònián le, nǐmen míngtiān huílái ba!",
+      "vi": "Không sao. Sắp Tết rồi, mai các em về nhé!",
+      "en": "That's all right. It's nearly New Year, come back tomorrow!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Sắp… rồi: 快要 + V/N + 了",
+     "f": [
+      [
+       "飞机",
+       "快要",
+       "飞了"
+      ],
+      [
+       "我们",
+       "快要",
+       "过年了"
+      ]
+     ],
+     "ex": [
+      [
+       "飞机快要飞了。",
+       "Máy bay sắp bay rồi.",
+       "The plane is about to take off."
+      ],
+      [
+       "快要过年了。",
+       "Sắp Tết rồi.",
+       "New Year is coming soon."
+      ]
+     ],
+     "bad": "飞机快要飞。",
+     "good": "飞机快要飞了。",
+     "why": "快要 luôn đi với 了 ở cuối câu. Tiếng Việt nói 'sắp bay' là đủ, nhưng tiếng Trung phải nói 快要飞了."
+    },
+    {
+     "t": "Đã… rồi: 已经 + V + 了",
+     "f": [
+      [
+       "我",
+       "已经",
+       "到机场了"
+      ],
+      [
+       "我们",
+       "已经",
+       "等了一个小时了"
+      ]
+     ],
+     "ex": [
+      [
+       "我已经到机场了。",
+       "Tôi đã đến sân bay rồi.",
+       "I'm already at the airport."
+      ],
+      [
+       "我们已经等了一个小时了。",
+       "Chúng tôi đã đợi một tiếng rồi.",
+       "We've already been waiting for an hour."
+      ]
+     ],
+     "bad": "我到机场已经了。",
+     "good": "我已经到机场了。",
+     "why": "已经 đứng TRƯỚC động từ (到), không đứng ở cuối câu. 已经 thường đi với 了 (sau động từ hoặc cuối câu)."
+    },
+    {
+     "t": "Hỏi lý do: chủ ngữ + 为什么 + V?",
+     "f": [
+      [
+       "飞机",
+       "为什么",
+       "不飞？"
+      ],
+      [
+       "你",
+       "为什么",
+       "不回去？"
+      ]
+     ],
+     "ex": [
+      [
+       "飞机为什么不飞？",
+       "Tại sao máy bay không bay?",
+       "Why isn't the plane flying?"
+      ],
+      [
+       "你为什么不回去过年？",
+       "Sao bạn không về ăn Tết?",
+       "Why aren't you going home for New Year?"
+      ]
+     ],
+     "bad": "飞机不飞为什么？",
+     "good": "飞机为什么不飞？",
+     "why": "为什么 đứng sau chủ ngữ, trước động từ. Không đặt ở cuối câu như kiểu nói 'máy bay không bay là vì sao'."
+    },
+    {
+     "t": "Làm… một lát: V + 一会儿",
+     "f": [
+      [
+       "等",
+       "一会儿"
+      ],
+      [
+       "坐",
+       "一会儿"
+      ]
+     ],
+     "ex": [
+      [
+       "请等一会儿。",
+       "Xin đợi một lát.",
+       "Please wait a moment."
+      ],
+      [
+       "你再坐一会儿吧。",
+       "Bạn ngồi thêm một lát nữa đi.",
+       "Stay a little longer."
+      ]
+     ],
+     "bad": "请一会儿等。",
+     "good": "请等一会儿。",
+     "why": "一会儿 (một khoảng thời gian ngắn) đứng SAU động từ: 等一会儿. Khác với giờ giấc (七点起床) là đứng trước động từ."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "机票 (jīpiào) nghĩa là gì?",
+     "opts": [
+      "vé máy bay",
+      "sân bay",
+      "máy bay"
+     ],
+     "optsEn": [
+      "plane ticket",
+      "airport",
+      "plane"
+     ],
+     "a": 0,
+     "why": {
+      "1": "'Sân bay' là 机场 (jīchǎng): 场 là nơi chốn. 机票 có 票 = vé.",
+      "2": "'Máy bay' là 飞机 (fēijī). 机票 có 票 = vé."
+     }
+    },
+    {
+     "q": "Điền từ: 下雪了，飞机今天不___了。(Xià xuě le, fēijī jīntiān bù ___ le.)",
+     "opts": [
+      "飞",
+      "等",
+      "过年"
+     ],
+     "a": 0,
+     "why": {
+      "1": "等 (děng) = đợi; 'hôm nay máy bay không đợi nữa' không hợp với lý do tuyết rơi.",
+      "2": "过年 (guònián) = ăn Tết; máy bay không 'ăn Tết'."
+     }
+    },
+    {
+     "q": "⚠ Bẫy Hán–Việt: 等 (děng, Hán Việt 'đẳng') trong câu 请等一会儿 (Qǐng děng yíhuìr) nghĩa là gì?",
+     "opts": [
+      "đợi",
+      "đẳng cấp",
+      "bằng nhau"
+     ],
+     "optsEn": [
+      "to wait",
+      "rank, class",
+      "equal"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Âm Hán Việt 'đẳng' gợi 'đẳng cấp', nhưng sau 请 là một động từ, và 等 ở đây là 'đợi': 请等一会儿 = xin đợi một lát.",
+      "2": "'Bằng nhau' không phải nghĩa của 等 trong câu này; 请等 = xin đợi."
+     }
+    },
+    {
+     "q": "Điền từ: 你___不去？——我生病了。(Nǐ ___ bú qù? — Wǒ shēngbìng le.)",
+     "opts": [
+      "为什么",
+      "什么",
+      "怎么样"
+     ],
+     "a": 0,
+     "why": {
+      "1": "什么 (shénme) = cái gì. Câu trả lời 'tôi bị ốm' là một LÝ DO, nên phải hỏi 为什么.",
+      "2": "怎么样 (zěnmeyàng) hỏi 'thế nào', không hỏi lý do."
+     }
+    },
+    {
+     "q": "Điền từ: 快要___了，大家都回家。(Kuàiyào ___ le, dàjiā dōu huí jiā.)",
+     "opts": [
+      "过年",
+      "机场",
+      "一会儿"
+     ],
+     "a": 0,
+     "why": {
+      "1": "机场 (jīchǎng) là nơi chốn; 快要机场了 không có nghĩa.",
+      "2": "一会儿 (yíhuìr) là 'một lát', đứng sau động từ; không đặt giữa 快要……了 như thế này."
+     }
+    },
+    {
+     "q": "Điền từ: 我们到___了，飞机还没来。(Wǒmen dào ___ le, fēijī hái méi lái.)",
+     "opts": [
+      "机场",
+      "机票",
+      "过年"
+     ],
+     "a": 0,
+     "why": {
+      "1": "机票 (jīpiào) = vé máy bay; sau 到 (đến) phải là nơi chốn.",
+      "2": "过年 (guònián) = ăn Tết, không phải nơi chốn."
+     }
+    },
+    {
+     "q": "阮安 đang ở sân bay Thượng Hải, muốn nói 'Tôi muốn về (Việt Nam) ăn Tết'. Câu nào đúng?",
+     "opts": [
+      "我想回去过年。",
+      "我想回来过年。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "回来 (huílái) = về đến chỗ người nói. 阮安 đang ở Thượng Hải và muốn rời nơi này để về Việt Nam, nên dùng 回去."
+     }
+    },
+    {
+     "q": "啊 (a) trong câu 你也回去过年啊？(Nǐ yě huíqù guònián a?) có tác dụng gì?",
+     "opts": [
+      "làm câu thân mật, nhẹ nhàng hơn",
+      "biến câu thành câu phủ định",
+      "chỉ việc đã xảy ra"
+     ],
+     "optsEn": [
+      "makes the sentence softer and friendlier",
+      "makes the sentence negative",
+      "marks a past action"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu phủ định dùng 不 (bù) hoặc 没 (méi), không dùng 啊.",
+      "2": "啊 không chỉ thời gian; câu vẫn nói về việc sắp làm (về ăn Tết)."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Ôn HSK1 · 是: Câu nào đúng?",
+     "opts": [
+      "我是越南人。",
+      "我越南人是。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu chữ 是: A 是 B, 是 đứng giữa hai vế, không đặt ở cuối câu."
+     }
+    },
+    {
+     "q": "Ôn HSK1 · 吗: Đổi 你是学生。(Nǐ shì xuésheng.) thành câu hỏi có / không.",
+     "opts": [
+      "你是学生吗？",
+      "你吗是学生？",
+      "吗你是学生？"
+     ],
+     "a": 0,
+     "why": {
+      "1": "吗 (ma) luôn đứng CUỐI câu, không chen vào giữa.",
+      "2": "吗 không bao giờ đứng đầu câu."
+     }
+    },
+    {
+     "q": "Ôn HSK1 · 呢: 我是越南人，你___？(Wǒ shì Yuènán rén, nǐ ___?) — hỏi lại 'còn bạn?'",
+     "opts": [
+      "呢",
+      "吗",
+      "吧"
+     ],
+     "a": 0,
+     "why": {
+      "1": "你吗？ không đúng: 吗 cần cả câu hỏi phía trước (你是越南人吗？). Hỏi gọn 'còn bạn?' dùng 呢 (ne).",
+      "2": "吧 (ba) dùng để rủ, đề nghị (我们去吧), không dùng để hỏi 'còn bạn?'."
+     }
+    },
+    {
+     "q": "Ôn HSK1 · 在: Câu nào nghĩa là 'Tôi đợi bạn ở sân bay'?",
+     "opts": [
+      "我在机场等你。",
+      "我等你在机场。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "在 + nơi chốn đứng TRƯỚC động từ: 在机场等你. Tiếng Việt đặt nơi chốn ở cuối, tiếng Trung thì không."
+     }
+    },
+    {
+     "q": "Ôn HSK1 · 有 / 没有: 'Hôm nay không có vé máy bay' nói thế nào?",
+     "opts": [
+      "今天没有机票。",
+      "今天不有机票。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Phủ định của 有 (yǒu) luôn là 没有 (méiyǒu), không bao giờ là 不有."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền từ: 飞机___飞了，请大家坐好。(Fēijī ___ fēi le, qǐng dàjiā zuò hǎo.) — máy bay sắp bay",
+     "model": "快要",
+     "accept": [
+      "快要",
+      "要",
+      "快",
+      "kuaiyao",
+      "yao",
+      "kuai"
+     ],
+     "why": "Việc sắp xảy ra: 快要 + V + 了 (cũng nói được 要……了 hoặc 快……了)."
+    },
+    {
+     "q": "Điền từ: 他___回家了，不在这儿。(Tā ___ huí jiā le, bú zài zhèr.)",
+     "opts": [
+      "已经",
+      "快要",
+      "为什么"
+     ],
+     "a": 0,
+     "why": {
+      "1": "快要回家了 = sắp về nhà; nhưng vế sau 不在这儿 (không còn ở đây) cho thấy anh ấy đã về rồi.",
+      "2": "为什么 (wèi shénme) dùng để hỏi lý do; đây là câu kể, không phải câu hỏi."
+     }
+    },
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "我已经等了一个小时了。",
+      "我等了一个小时已经了。",
+      "我已经等一个小时。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "已经 (yǐjīng) đứng trước động từ, không đứng cuối câu.",
+      "2": "Câu thiếu 了: nói đã đợi được bao lâu (và vẫn đang đợi) thì dùng 等了……了."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: 了 / 快要 / 下雨 (Sắp mưa rồi.)",
+     "model": "快要下雨了。",
+     "accept": [
+      "快要下雨了。",
+      "快要下雨了",
+      "kuaiyaoxiayule"
+     ],
+     "why": "快要 + V + 了: 快要 + 下雨 + 了."
+    },
+    {
+     "q": "Dịch: 'Tôi đã đợi nửa tiếng rồi.'",
+     "opts": [
+      "我已经等了半个小时了。",
+      "我快要等了半个小时了。",
+      "我已经等半个小时。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "快要 (kuàiyào) = sắp; câu tiếng Việt nói 'đã', nên dùng 已经.",
+      "2": "Thiếu 了 sau 等 và ở cuối câu."
+     }
+    },
+    {
+     "q": "Hỏi lý do cho câu 他今天不飞了。(Tā jīntiān bù fēi le.)",
+     "opts": [
+      "他今天为什么不飞了？",
+      "他今天不飞了为什么？",
+      "他今天为什么不飞了吗？"
+     ],
+     "a": 0,
+     "why": {
+      "1": "为什么 đứng sau chủ ngữ và từ chỉ thời gian, trước động từ; không đặt ở cuối câu.",
+      "2": "Câu đã có 为什么 là câu hỏi rồi, không thêm 吗 (ma)."
+     }
+    },
+    {
+     "q": "Câu nào nghĩa là 'Xin đợi một lát'?",
+     "opts": [
+      "请等一会儿。",
+      "请一会儿等。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "一会儿 (yíhuìr) đứng SAU động từ: 等一会儿."
+     }
+    }
+   ],
+   "listen": [
+    {
+     "q": "Vé máy bay của người trả lời là khi nào?",
+     "audio": "你的机票是哪天的？——是明天上午的。",
+     "opts": [
+      "sáng mai",
+      "chiều nay",
+      "sáng nay"
+     ],
+     "optsEn": [
+      "tomorrow morning",
+      "this afternoon",
+      "this morning"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời có 明天 (míngtiān, ngày mai) và 上午 (buổi sáng), không có 今天下午.",
+      "2": "上午 là buổi sáng, nhưng là 明天上午 (sáng mai), không phải sáng nay."
+     }
+    },
+    {
+     "q": "Họ đã đợi bao lâu?",
+     "audio": "我们等了几个小时了？——已经等了两个小时了。",
+     "opts": [
+      "2 tiếng",
+      "1 tiếng",
+      "nửa tiếng"
+     ],
+     "optsEn": [
+      "2 hours",
+      "1 hour",
+      "half an hour"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Nghe thấy 两个小时 (liǎng ge xiǎoshí) = 2 tiếng, không phải 一个.",
+      "2": "Nửa tiếng là 半个小时 (bàn ge xiǎoshí); câu không có 半."
+     }
+    },
+    {
+     "q": "Ngày mai người trả lời làm gì?",
+     "audio": "快要过年了，你回家吗？——回去，明天回去。",
+     "opts": [
+      "về nhà ăn Tết",
+      "đi công tác",
+      "ở lại sân bay"
+     ],
+     "optsEn": [
+      "go home for New Year",
+      "go on a business trip",
+      "stay at the airport"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 回去 (về), không nói gì về đi công tác.",
+      "2": "明天回去 = mai về, không phải ở lại."
+     }
+    },
+    {
+     "q": "Vì sao máy bay chưa bay?",
+     "audio": "飞机为什么还不飞？——下雪了。",
+     "opts": [
+      "tuyết rơi",
+      "trời mưa",
+      "không có vé"
+     ],
+     "optsEn": [
+      "it's snowing",
+      "it's raining",
+      "there are no tickets"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Mưa là 下雨 (xià yǔ); câu nói 下雪 (xià xuě) = tuyết rơi.",
+      "2": "Câu không nhắc đến 机票 (vé)."
+     }
+    },
+    {
+     "q": "Người trả lời đang ở đâu?",
+     "audio": "你在哪儿？——我在机场等你呢。",
+     "opts": [
+      "sân bay",
+      "ở nhà",
+      "công ty"
+     ],
+     "optsEn": [
+      "the airport",
+      "at home",
+      "the office"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 在机场 (ở sân bay), không phải 在家.",
+      "2": "Không nghe thấy 公司 (công ty)."
+     }
+    },
+    {
+     "q": "Vì sao người thứ hai chưa muốn về?",
+     "audio": "我们回去吧！——再等一会儿，王经理还没来。",
+     "opts": [
+      "giám đốc Vương chưa đến",
+      "máy bay sắp bay",
+      "chưa mua vé"
+     ],
+     "optsEn": [
+      "Mr Wang hasn't arrived yet",
+      "the plane is about to leave",
+      "they haven't bought tickets"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu không có 快要飞了 (sắp bay).",
+      "2": "Câu không nhắc đến 机票 (vé); lý do là 王经理还没来."
+     }
+    },
+    {
+     "q": "Thông báo nói gì?",
+     "audio": "飞机快要飞了，请大家坐好。",
+     "opts": [
+      "máy bay sắp cất cánh",
+      "máy bay đã hạ cánh",
+      "hôm nay máy bay không bay"
+     ],
+     "optsEn": [
+      "the plane is about to take off",
+      "the plane has landed",
+      "the plane isn't flying today"
+     ],
+     "a": 0,
+     "why": {
+      "1": "快要飞了 = sắp bay, không phải đã hạ cánh.",
+      "2": "Không nghe thấy 不飞了; thông báo mời mọi người ngồi yên vì sắp bay."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "HSK2 Đọc – phần 2: chọn từ điền vào chỗ trống. 他___回家了。",
+     "opts": [
+      "已经",
+      "为什么",
+      "机票"
+     ],
+     "a": 0,
+     "why": {
+      "1": "为什么 hỏi lý do; câu này là câu kể có 了 ở cuối, cần 已经 (đã).",
+      "2": "机票 (vé máy bay) là danh từ, không đứng trước động từ 回家."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 2: chọn từ điền vào chỗ trống. 你___不喝茶？",
+     "opts": [
+      "为什么",
+      "已经",
+      "过年"
+     ],
+     "a": 0,
+     "why": {
+      "1": "已经不喝茶 là câu kể, nhưng câu có dấu hỏi nên cần từ để hỏi: 为什么.",
+      "2": "过年 (ăn Tết) không hợp với 不喝茶."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 2: chọn từ điền vào chỗ trống. 你在这儿___我，我去买水。",
+     "opts": [
+      "等",
+      "飞",
+      "机票"
+     ],
+     "a": 0,
+     "why": {
+      "1": "飞 (bay) không đi với 我 làm tân ngữ; 'bạn ở đây bay tôi' không có nghĩa.",
+      "2": "机票 là danh từ; chỗ trống cần một động từ có tân ngữ 我: 等我 (đợi tôi)."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 2: chọn từ điền vào chỗ trống. 快要___了，我想回家。",
+     "opts": [
+      "过年",
+      "等",
+      "已经"
+     ],
+     "a": 0,
+     "why": {
+      "1": "快要等了 không hợp với vế sau 'tôi muốn về nhà'; lý do muốn về nhà là sắp Tết.",
+      "2": "快要 và 已经 trái nghĩa (sắp / đã), không đi cùng nhau."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 2: chọn từ điền vào chỗ trống. 我的___在哪儿？",
+     "opts": [
+      "机票",
+      "为什么",
+      "已经"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sau 我的 cần một danh từ (vật của tôi); 为什么 là từ để hỏi.",
+      "2": "已经 là phó từ, không đứng sau 我的."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "机场",
+     "py": "jīchǎng",
+     "focus": "jī giữ cao đều; ch bật hơi mạnh, cong lưỡi; chǎng thanh 3 xuống thấp.",
+     "en": "airport"
+    },
+    {
+     "t": "机票",
+     "py": "jīpiào",
+     "focus": "p bật hơi (khác b); thanh 1 + thanh 4: piào rơi mạnh và dứt khoát.",
+     "en": "plane ticket"
+    },
+    {
+     "t": "已经",
+     "py": "yǐjīng",
+     "focus": "yǐ chỉ đọc nửa thanh 3 (xuống thấp, không lên lại) vì đứng trước thanh 1; jīng có -ng mũi sau.",
+     "en": "already"
+    },
+    {
+     "t": "一会儿",
+     "py": "yíhuìr",
+     "focus": "一 đọc yí (thanh 2) vì đứng trước thanh 4; 儿 chỉ cuốn lưỡi ở cuối: huìr, không thành âm 'ơ' riêng.",
+     "en": "a moment"
+    },
+    {
+     "t": "过年",
+     "py": "guònián",
+     "focus": "thanh 4 + thanh 2: guò rơi xuống rồi nián đi lên; n đầu đọc rõ, không thành l.",
+     "en": "to celebrate New Year"
+    },
+    {
+     "t": "快要过年了",
+     "py": "kuàiyào guònián le",
+     "focus": "hai thanh 4 liền nhau: kuài mạnh, yào nhẹ hơn; 了 đọc nhẹ và ngắn.",
+     "en": "New Year is coming soon"
+    },
+    {
+     "t": "我已经等了一个小时了！",
+     "py": "Wǒ yǐjīng děng le yí ge xiǎoshí le!",
+     "focus": "我已 là thanh 3 + thanh 3 nên 我 đọc thành wó; 一个 đọc yí ge; 小时 xiǎoshí: sh cong lưỡi.",
+     "en": "I've already waited for an hour!"
+    },
+    {
+     "t": "飞机为什么还不飞？",
+     "py": "Fēijī wèi shénme hái bù fēi?",
+     "focus": "不 giữ bù vì đứng trước thanh 1 (飞); f là âm môi–răng; 什么 shénme, me đọc nhẹ.",
+     "en": "Why isn't the plane taking off yet?"
+    }
+   ],
+   "dialog": {
+    "title": "Ở quầy sân bay: chuyến bay bị hoãn, bạn hỏi vì sao và mấy giờ bay. Đổi vai: bạn là nhân viên trả lời.",
+    "partner": "工作人员",
+    "turns": [
+     {
+      "ai": "你好！你的机票是哪天的？",
+      "py": "Nǐ hǎo! Nǐ de jīpiào shì nǎ tiān de?",
+      "vi": "Chào chị! Vé máy bay của chị là ngày nào?",
+      "en": "Hello! What day is your ticket for?",
+      "model": "是今天下午的。",
+      "mpy": "Shì jīntiān xiàwǔ de.",
+      "men": "It's for this afternoon.",
+      "accept": [
+       "是今天下午的。",
+       "今天下午的。",
+       "是今天的。",
+       "今天下午。",
+       "shijintianxiawude",
+       "jintianxiawude"
+      ],
+      "frame": "是___的。",
+      "hint": "Nói vé là chiều nay: 是 + 今天下午 + 的."
+     },
+     {
+      "ai": "对不起，今天下午不飞了。",
+      "py": "Duìbuqǐ, jīntiān xiàwǔ bù fēi le.",
+      "vi": "Xin lỗi chị, chiều nay không bay nữa.",
+      "en": "Sorry, there's no flight this afternoon.",
+      "model": "为什么？我已经等了一个小时了！",
+      "mpy": "Wèi shénme? Wǒ yǐjīng děng le yí ge xiǎoshí le!",
+      "men": "Why? I've already waited an hour!",
+      "accept": [
+       "为什么？我已经等了一个小时了！",
+       "为什么？",
+       "我已经等了一个小时了！",
+       "为什么？我已经等了两个小时了！",
+       "weishenme",
+       "woyijingdengleyigexiaoshile"
+      ],
+      "frame": "为什么？我已经等了___了！",
+      "hint": "Hỏi lý do (为什么), rồi nói đã đợi bao lâu: 已经等了 + thời gian + 了."
+     },
+     {
+      "ai": "下雪了。明天上午飞。",
+      "py": "Xià xuě le. Míngtiān shàngwǔ fēi.",
+      "vi": "Tuyết rơi chị ạ. Sáng mai sẽ bay.",
+      "en": "It's snowing. It'll fly tomorrow morning.",
+      "model": "明天上午几点飞？",
+      "mpy": "Míngtiān shàngwǔ jǐ diǎn fēi?",
+      "men": "What time tomorrow morning?",
+      "accept": [
+       "明天上午几点飞？",
+       "几点飞？",
+       "明天几点飞？",
+       "mingtianshangwujidianfei",
+       "jidianfei"
+      ],
+      "frame": "明天上午___飞？",
+      "hint": "Hỏi mấy giờ bay: 几点 đứng TRƯỚC 飞."
+     },
+     {
+      "ai": "九点。请你明天七点半到机场。",
+      "py": "Jiǔ diǎn. Qǐng nǐ míngtiān qī diǎn bàn dào jīchǎng.",
+      "vi": "9 giờ. Mời chị 7 rưỡi sáng mai có mặt ở sân bay.",
+      "en": "Nine o'clock. Please be at the airport at 7:30 tomorrow.",
+      "model": "好。快要过年了，我想回家啊！",
+      "mpy": "Hǎo. Kuàiyào guònián le, wǒ xiǎng huí jiā a!",
+      "men": "OK. New Year's coming, I really want to go home!",
+      "accept": [
+       "好。快要过年了，我想回家啊！",
+       "快要过年了，我想回家啊！",
+       "快要过年了！",
+       "好。快要过年了。",
+       "haokuaiyaoguonianlewoxianghuijiaa",
+       "kuaiyaoguonianle"
+      ],
+      "frame": "好。快要___了，我想回家啊！",
+      "hint": "Đồng ý (好), rồi nói sắp Tết: 快要 + 过年 + 了."
+     },
+     {
+      "ai": "我知道。明天见！",
+      "py": "Wǒ zhīdào. Míngtiān jiàn!",
+      "vi": "Tôi hiểu mà. Hẹn mai gặp lại!",
+      "en": "I understand. See you tomorrow!",
+      "model": "谢谢，明天见！",
+      "mpy": "Xièxie, míngtiān jiàn!",
+      "men": "Thanks, see you tomorrow!",
+      "accept": [
+       "谢谢，明天见！",
+       "谢谢！",
+       "明天见！",
+       "xiexiemingtianjian",
+       "xiexie",
+       "mingtianjian"
+      ],
+      "frame": "谢谢，___见！",
+      "hint": "Cảm ơn và hẹn ngày mai: 谢谢 + 明天见."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Thông báo của sân bay",
+    "text": "大家好！今天下雪了，下午三点去越南的飞机不飞了。明天上午九点飞。请大家明天早上七点半到机场。快要过年了，大家都想回家，我们知道。对不起！谢谢大家！",
+    "py": "Dàjiā hǎo! Jīntiān xià xuě le, xiàwǔ sān diǎn qù Yuènán de fēijī bù fēi le. Míngtiān shàngwǔ jiǔ diǎn fēi. Qǐng dàjiā míngtiān zǎoshang qī diǎn bàn dào jīchǎng. Kuàiyào guònián le, dàjiā dōu xiǎng huí jiā, wǒmen zhīdào. Duìbuqǐ! Xièxie dàjiā!",
+    "en": "Hello everyone! It's snowing today, so the 3 p.m. flight to Vietnam will not fly. It will leave at 9 a.m. tomorrow. Please be at the airport at 7:30 tomorrow morning. New Year is coming and we know everyone wants to go home. We're sorry! Thank you!",
+    "vi": "Xin chào quý khách! Hôm nay tuyết rơi, chuyến bay đi Việt Nam lúc 3 giờ chiều không bay nữa. 9 giờ sáng mai sẽ bay. Mời quý khách có mặt ở sân bay lúc 7 rưỡi sáng mai. Sắp Tết rồi, chúng tôi hiểu mọi người đều muốn về nhà. Xin lỗi quý khách! Cảm ơn quý khách!",
+    "qs": [
+     {
+      "q": "Vì sao hôm nay máy bay không bay?",
+      "opts": [
+       "tuyết rơi",
+       "trời mưa",
+       "máy bay hỏng"
+      ],
+      "optsEn": [
+       "it's snowing",
+       "it's raining",
+       "the plane is broken"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 下雪了 (xià xuě le, tuyết rơi), không phải 下雨 (mưa).",
+       "2": "Bài không nói máy bay hỏng; lý do là tuyết rơi."
+      }
+     },
+     {
+      "q": "Chuyến bay bị huỷ hôm nay bay đi đâu?",
+      "opts": [
+       "Việt Nam",
+       "Trung Quốc",
+       "Thượng Hải"
+      ],
+      "optsEn": [
+       "Vietnam",
+       "China",
+       "Shanghai"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 去越南的飞机 (chuyến bay đi Việt Nam).",
+       "2": "Sân bay ở Thượng Hải, còn máy bay bay đi Việt Nam."
+      }
+     },
+     {
+      "q": "Khi nào máy bay sẽ bay?",
+      "opts": [
+       "9 giờ sáng mai",
+       "3 giờ chiều nay",
+       "7 rưỡi sáng mai"
+      ],
+      "optsEn": [
+       "9 a.m. tomorrow",
+       "3 p.m. today",
+       "7:30 tomorrow morning"
+      ],
+      "a": 0,
+      "why": {
+       "1": "3 giờ chiều nay là chuyến không bay nữa (下午三点……不飞了).",
+       "2": "7 rưỡi là giờ phải có mặt ở sân bay, không phải giờ bay."
+      }
+     },
+     {
+      "q": "Đúng hay sai: 请大家明天七点半到机场。",
+      "opts": [
+       "Đúng",
+       "Sai"
+      ],
+      "optsEn": [
+       "True",
+       "False"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết đúng như vậy: 请大家明天早上七点半到机场 (mời mọi người 7 rưỡi sáng mai đến sân bay)."
+      }
+     },
+     {
+      "q": "Mọi người đều muốn làm gì?",
+      "opts": [
+       "về nhà ăn Tết",
+       "ở lại Thượng Hải",
+       "đổi vé máy bay"
+      ],
+      "optsEn": [
+       "go home for New Year",
+       "stay in Shanghai",
+       "change their tickets"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 大家都想回家 (mọi người đều muốn về nhà) vì 快要过年了.",
+       "2": "Bài không nói đến đổi vé."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "w5-thu-3",
+   "label": "Thứ 3",
+   "title": "Bắt taxi ra ga: hết vé hôm nay",
+   "desc": "Hỏi lựa chọn (A 还是 B), nói 'có lẽ' (可能), bảo ai làm gì (让) và báo tin (告诉) khi ra ga mua vé tàu.",
+   "rule": "A 还是 B? là câu hỏi lựa chọn, KHÔNG thêm 吗. 可能 đứng trước động từ. 让 + người + việc: bảo ai làm gì. 告诉 + người: không thêm 给.",
+   "cards": [
+    {
+     "w": "车站",
+     "py": "chēzhàn",
+     "m": "nhà ga, bến xe",
+     "mEn": "station",
+     "ex": "我们打车去车站吧。",
+     "expy": "Wǒmen dǎchē qù chēzhàn ba.",
+     "exm": "Mình đi taxi ra ga đi.",
+     "exEn": "Let's take a taxi to the station.",
+     "n": "车 = xe, 站 = trạm: 车站 là ga tàu hoặc bến xe. ch bật hơi, zh không bật hơi; cả hai đều cong lưỡi.",
+     "img": "station"
+    },
+    {
+     "w": "票",
+     "py": "piào",
+     "m": "vé",
+     "mEn": "ticket",
+     "ex": "今天的票没有了。",
+     "expy": "Jīntiān de piào méiyǒu le.",
+     "exm": "Vé hôm nay hết rồi.",
+     "exEn": "Today's tickets are sold out.",
+     "n": "票 = vé nói chung: 机票 vé máy bay, 火车票 vé tàu. 没有了 = hết rồi.",
+     "img": "ticket"
+    },
+    {
+     "w": "打车",
+     "py": "dǎchē",
+     "m": "đi taxi, gọi taxi",
+     "mEn": "to take a taxi",
+     "ex": "东西很多，我们打车吧。",
+     "expy": "Dōngxi hěn duō, wǒmen dǎchē ba.",
+     "exm": "Đồ nhiều quá, mình đi taxi đi.",
+     "exEn": "We've got lots of things, let's take a taxi.",
+     "n": "打车 = 坐出租车 (đi taxi), cách nói ngắn rất hay dùng. Thanh 3 + thanh 1: dǎ thấp, chē cao.",
+     "img": "taxi"
+    },
+    {
+     "w": "还是",
+     "py": "háishi",
+     "m": "hay là (trong câu hỏi); vẫn",
+     "mEn": "or (in questions); still",
+     "ex": "我们今天走还是明天走？",
+     "expy": "Wǒmen jīntiān zǒu háishi míngtiān zǒu?",
+     "exm": "Mình đi hôm nay hay mai?",
+     "exEn": "Shall we leave today or tomorrow?",
+     "n": "Hỏi lựa chọn: A 还是 B? Câu đã là câu hỏi nên KHÔNG thêm 吗. 还 ở đây đọc hái; shi đọc nhẹ."
+    },
+    {
+     "w": "可能",
+     "py": "kěnéng",
+     "m": "có lẽ, có thể",
+     "mEn": "maybe, possibly",
+     "ex": "明天可能有票。",
+     "expy": "Míngtiān kěnéng yǒu piào.",
+     "exm": "Ngày mai có lẽ có vé.",
+     "exEn": "There might be tickets tomorrow.",
+     "n": "⚠ Bẫy Hán–Việt: 'khả năng' nhưng thường dùng như 'CÓ LẼ'. Đứng trước động từ: 可能有, 可能生病了."
+    },
+    {
+     "w": "告诉",
+     "py": "gàosu",
+     "m": "nói cho biết, báo",
+     "mEn": "to tell",
+     "ex": "有人告诉我，外边有人卖票。",
+     "expy": "Yǒu rén gàosu wǒ, wàibian yǒu rén mài piào.",
+     "exm": "Có người bảo tôi là bên ngoài có người bán vé.",
+     "exEn": "Someone told me there's a man selling tickets outside.",
+     "n": "⚠ Bẫy Hán–Việt: 'cáo tố' nhưng nghĩa là NÓI CHO BIẾT, không phải 'tố cáo'. 告诉 + người: 告诉你 (không thêm 给). su đọc nhẹ."
+    },
+    {
+     "w": "一起",
+     "py": "yìqǐ",
+     "m": "cùng nhau",
+     "mEn": "together",
+     "ex": "我们一起去车站吧。",
+     "expy": "Wǒmen yìqǐ qù chēzhàn ba.",
+     "exm": "Mình cùng ra ga nhé.",
+     "exEn": "Let's go to the station together.",
+     "n": "一 đọc yì vì đứng trước thanh 3 (起). 一起 đứng ngay trước động từ: 一起去, 一起走."
+    },
+    {
+     "w": "拿",
+     "py": "ná",
+     "m": "cầm, lấy, xách",
+     "mEn": "to take, to hold, to carry",
+     "ex": "你的东西很多，我拿你的包。",
+     "expy": "Nǐ de dōngxi hěn duō, wǒ ná nǐ de bāo.",
+     "exm": "Đồ của em nhiều, chị xách túi cho em.",
+     "exEn": "You've got a lot of things, I'll carry your bag.",
+     "n": "拿 = 合 (gom lại) + 手 (tay): dùng tay cầm. Thanh 2 đi lên: ná.",
+     "img": "bag"
+    },
+    {
+     "w": "包",
+     "py": "bāo",
+     "m": "túi, cặp",
+     "mEn": "bag",
+     "ex": "你的包在哪儿？",
+     "expy": "Nǐ de bāo zài nǎr?",
+     "exm": "Túi của bạn đâu rồi?",
+     "exEn": "Where's your bag?",
+     "n": "包 = túi (cũng là 'gói': 包子 bánh bao). b không bật hơi; thanh 1 cao đều.",
+     "img": "bag"
+    },
+    {
+     "w": "走",
+     "py": "zǒu",
+     "m": "đi, rời đi",
+     "mEn": "to walk; to leave",
+     "ex": "我们明天走。",
+     "expy": "Wǒmen míngtiān zǒu.",
+     "exm": "Mai chúng tôi đi.",
+     "exEn": "We're leaving tomorrow.",
+     "n": "走 = đi (bộ) hoặc rời đi; 我们走吧 = mình đi thôi. Không phải 'chạy' (chạy là 跑 pǎo). z không bật hơi."
+    },
+    {
+     "w": "让",
+     "py": "ràng",
+     "m": "bảo, để (ai làm gì)",
+     "mEn": "to let; to ask (sb to do sth)",
+     "ex": "王经理让我们明天走。",
+     "expy": "Wáng jīnglǐ ràng wǒmen míngtiān zǒu.",
+     "exm": "Giám đốc Vương bảo chúng tôi mai hãy đi.",
+     "exEn": "Mr Wang told us to leave tomorrow.",
+     "n": "⚠ Bẫy Hán–Việt: 'nhượng' nhưng ở đây là BẢO / ĐỂ ai làm gì: 让 + người + việc. Thanh 4 rơi mạnh, r hơi uốn lưỡi."
+    }
+   ],
+   "scene": {
+    "setting": "Sáng hôm sau tuyết vẫn rơi, chuyến bay lại bị huỷ. Giám đốc Vương bảo hai người đi tàu xuống Nam Ninh (南宁) rồi về Việt Nam. 阮安 và 王丽 bắt taxi ra ga mua vé, nhưng vé hôm nay và ngày mai đều hết.",
+    "img": "scene-zh-station",
+    "imgPrompt": "Realistic photo inside a large Chinese railway station ticket hall in winter, long queues; an (Vietnamese woman, blue blouse, dark coat) asks at a ticket window while wangli (Chinese woman, red sweater, beige coat) holds two bags beside her, no readable text",
+    "lines": [
+     {
+      "who": "阮安",
+      "t": "飞机今天也不飞！我们打车去车站吧。",
+      "py": "Fēijī jīntiān yě bù fēi! Wǒmen dǎchē qù chēzhàn ba.",
+      "vi": "Hôm nay máy bay cũng không bay! Mình đi taxi ra ga đi.",
+      "en": "No flights today either! Let's take a taxi to the station."
+     },
+     {
+      "who": "王丽",
+      "t": "好啊！你的东西很多，我拿你的包。",
+      "py": "Hǎo a! Nǐ de dōngxi hěn duō, wǒ ná nǐ de bāo.",
+      "vi": "Được! Đồ của em nhiều, chị xách túi cho em.",
+      "en": "OK! You've got lots of things, I'll carry your bag."
+     },
+     {
+      "who": "阮安",
+      "t": "你好！请问，还有去南宁的票吗？",
+      "py": "Nǐ hǎo! Qǐngwèn, hái yǒu qù Nánníng de piào ma?",
+      "vi": "Chào anh! Cho hỏi còn vé đi Nam Ninh không ạ?",
+      "en": "Hello! Excuse me, are there any tickets left to Nanning?"
+     },
+     {
+      "who": "工作人员",
+      "t": "今天和明天的都没有了，星期五的可能有。",
+      "py": "Jīntiān hé míngtiān de dōu méiyǒu le, xīngqīwǔ de kěnéng yǒu.",
+      "vi": "Hôm nay và ngày mai đều hết rồi, thứ Sáu có lẽ có.",
+      "en": "Today's and tomorrow's are all gone. There might be some for Friday."
+     },
+     {
+      "who": "王丽",
+      "t": "我们坐火车还是等飞机？",
+      "py": "Wǒmen zuò huǒchē háishi děng fēijī?",
+      "vi": "Mình đi tàu hay đợi máy bay?",
+      "en": "Shall we take the train or wait for a flight?"
+     },
+     {
+      "who": "阮安",
+      "t": "有人告诉我，外边有人卖票。",
+      "py": "Yǒu rén gàosu wǒ, wàibian yǒu rén mài piào.",
+      "vi": "Có người bảo em là bên ngoài có người bán vé.",
+      "en": "Someone told me there's a man selling tickets outside."
+     },
+     {
+      "who": "王丽",
+      "t": "王经理说外边的票不能买。他让我们明天一起走。",
+      "py": "Wáng jīnglǐ shuō wàibian de piào bù néng mǎi. Tā ràng wǒmen míngtiān yìqǐ zǒu.",
+      "vi": "Giám đốc Vương nói không được mua vé bên ngoài. Anh ấy bảo mai hai chị em mình cùng đi. (vừa nghe điện thoại)",
+      "en": "Mr Wang says we mustn't buy tickets outside. He told us to leave together tomorrow. (just off the phone)"
+     },
+     {
+      "who": "阮安",
+      "t": "好，那我们买星期五的票吧。",
+      "py": "Hǎo, nà wǒmen mǎi xīngqīwǔ de piào ba.",
+      "vi": "Vâng, vậy mình mua vé thứ Sáu nhé.",
+      "en": "OK, then let's buy tickets for Friday."
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Hỏi lựa chọn: A 还是 B? (không thêm 吗)",
+     "f": [
+      [
+       "今天走",
+       "还是",
+       "明天走？"
+      ],
+      [
+       "打车",
+       "还是",
+       "坐火车？"
+      ]
+     ],
+     "ex": [
+      [
+       "我们今天走还是明天走？",
+       "Mình đi hôm nay hay mai?",
+       "Shall we leave today or tomorrow?"
+      ],
+      [
+       "你打车还是坐火车？",
+       "Bạn đi taxi hay đi tàu?",
+       "Are you taking a taxi or the train?"
+      ]
+     ],
+     "bad": "你喝茶还是喝水吗？",
+     "good": "你喝茶还是喝水？",
+     "why": "Câu có 还是 đã là câu hỏi lựa chọn, thêm 吗 là thừa và sai."
+    },
+    {
+     "t": "Có lẽ: 可能 + V",
+     "f": [
+      [
+       "明天",
+       "可能",
+       "有票"
+      ],
+      [
+       "他",
+       "可能",
+       "生病了"
+      ]
+     ],
+     "ex": [
+      [
+       "明天可能有票。",
+       "Ngày mai có lẽ có vé.",
+       "There might be tickets tomorrow."
+      ],
+      [
+       "他今天没来，可能生病了。",
+       "Hôm nay anh ấy không đến, có lẽ bị ốm.",
+       "He didn't come today, maybe he's ill."
+      ]
+     ],
+     "bad": "明天有票可能。",
+     "good": "明天可能有票。",
+     "why": "可能 đứng TRƯỚC động từ (有), không đặt ở cuối câu."
+    },
+    {
+     "t": "Bảo ai làm gì: 让 + người + V",
+     "f": [
+      [
+       "王经理",
+       "让",
+       "我们明天走"
+      ],
+      [
+       "他",
+       "让",
+       "我等一会儿"
+      ]
+     ],
+     "ex": [
+      [
+       "王经理让我们明天走。",
+       "Giám đốc Vương bảo chúng tôi mai hãy đi.",
+       "Mr Wang told us to leave tomorrow."
+      ],
+      [
+       "他让我等一会儿。",
+       "Anh ấy bảo tôi đợi một lát.",
+       "He asked me to wait a moment."
+      ]
+     ],
+     "bad": "王经理让明天我们走。",
+     "good": "王经理让我们明天走。",
+     "why": "Sau 让 là NGƯỜI được bảo, rồi mới đến việc: 让 + 我们 + 明天走. Đừng chen thời gian vào giữa 让 và người."
+    },
+    {
+     "t": "Báo cho ai biết: 告诉 + người (+ việc)",
+     "f": [
+      [
+       "有人",
+       "告诉",
+       "我"
+      ],
+      [
+       "请你",
+       "告诉",
+       "王经理"
+      ]
+     ],
+     "ex": [
+      [
+       "有人告诉我，外边有人卖票。",
+       "Có người bảo tôi là bên ngoài có người bán vé.",
+       "Someone told me there's a man selling tickets outside."
+      ],
+      [
+       "请你告诉王经理，我们明天走。",
+       "Nhờ bạn báo giám đốc Vương là mai chúng tôi đi.",
+       "Please tell Mr Wang we're leaving tomorrow."
+      ]
+     ],
+     "bad": "我告诉给你。",
+     "good": "我告诉你。",
+     "why": "告诉 đi thẳng với người được báo: 告诉你. Đừng thêm 给 theo kiểu 'nói CHO bạn' của tiếng Việt."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "车站 (chēzhàn) nghĩa là gì?",
+     "opts": [
+      "nhà ga, bến xe",
+      "sân bay",
+      "khách sạn"
+     ],
+     "optsEn": [
+      "station",
+      "airport",
+      "hotel"
+     ],
+     "a": 0,
+     "why": {
+      "1": "'Sân bay' là 机场 (jīchǎng). 车站 có 车 = xe.",
+      "2": "'Khách sạn' là một từ khác, sẽ học ở bài Thứ 4."
+     }
+    },
+    {
+     "q": "Điền từ: 今天的___没有了。(Jīntiān de ___ méiyǒu le.)",
+     "opts": [
+      "票",
+      "包",
+      "车站"
+     ],
+     "a": 0,
+     "why": {
+      "1": "包 (bāo) = túi; ở quầy vé, thứ 'hết rồi' là vé.",
+      "2": "车站 (ga) không thể 'hết' được."
+     }
+    },
+    {
+     "q": "⚠ Bẫy Hán–Việt: 告诉 (gàosu, Hán Việt 'cáo tố') nghĩa là gì?",
+     "opts": [
+      "nói cho biết",
+      "tố cáo",
+      "hỏi"
+     ],
+     "optsEn": [
+      "to tell",
+      "to denounce",
+      "to ask"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Âm Hán Việt 'cáo tố' gợi 'tố cáo', nhưng 告诉 chỉ là nói cho ai biết: 告诉我 = bảo tôi.",
+      "2": "'Hỏi' là 问 (wèn)."
+     }
+    },
+    {
+     "q": "⚠ Bẫy Hán–Việt: 可能 (kěnéng, Hán Việt 'khả năng') trong câu 明天可能有票 nghĩa là gì?",
+     "opts": [
+      "có lẽ, có thể",
+      "năng lực làm việc",
+      "chắc chắn"
+     ],
+     "optsEn": [
+      "maybe, possibly",
+      "working ability",
+      "definitely"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Âm Hán Việt 'khả năng' gợi 'năng lực', nhưng trong câu này 可能 đứng trước 有 và nghĩa là 'có lẽ'.",
+      "2": "可能 chỉ là 'có lẽ', không chắc chắn: nhân viên chỉ nói mai CÓ THỂ có vé."
+     }
+    },
+    {
+     "q": "⚠ Bẫy Hán–Việt: 让 (ràng, Hán Việt 'nhượng') trong câu 他让我等一会儿 nghĩa là gì?",
+     "opts": [
+      "bảo, để (ai làm gì)",
+      "nhường",
+      "mời"
+     ],
+     "optsEn": [
+      "to ask, to let (sb do sth)",
+      "to give way",
+      "to invite"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Âm Hán Việt 'nhượng' gợi 'nhường', nhưng mẫu 让 + người + động từ (让我等) nghĩa là bảo ai làm gì.",
+      "2": "'Mời' là 请 (qǐng)."
+     }
+    },
+    {
+     "q": "Từ nào cùng nghĩa với 坐出租车 (zuò chūzūchē)?",
+     "opts": [
+      "打车",
+      "开车",
+      "车站"
+     ],
+     "a": 0,
+     "why": {
+      "1": "开车 (kāichē) = tự lái xe, không phải đi taxi.",
+      "2": "车站 (chēzhàn) = nhà ga, là nơi chốn."
+     }
+    },
+    {
+     "q": "Điền từ: 你的东西很多，我来___吧。(Nǐ de dōngxi hěn duō, wǒ lái ___ ba.)",
+     "opts": [
+      "拿",
+      "走",
+      "让"
+     ],
+     "a": 0,
+     "why": {
+      "1": "走 (zǒu) = đi; 'đồ bạn nhiều, để tôi đi' không giúp gì cho việc xách đồ.",
+      "2": "让 (ràng) cần người và việc theo sau (让你……), không đứng một mình ở đây."
+     }
+    },
+    {
+     "q": "Điền từ: 我和王丽___去车站。(Wǒ hé Wáng Lì ___ qù chēzhàn.)",
+     "opts": [
+      "一起",
+      "告诉",
+      "票"
+     ],
+     "a": 0,
+     "why": {
+      "1": "告诉 (gàosu) cần người nghe theo sau (告诉你); câu này nói hai người cùng đi.",
+      "2": "票 (vé) là danh từ, không đứng trước động từ 去."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "k": "type",
+     "q": "Điền từ: 你去___我去？(Nǐ qù ___ wǒ qù?) — bạn đi hay tôi đi?",
+     "model": "还是",
+     "accept": [
+      "还是",
+      "haishi"
+     ],
+     "why": "Hỏi lựa chọn giữa hai phương án: A 还是 B."
+    },
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "你喝茶还是喝水？",
+      "你喝茶还是喝水吗？"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu có 还是 đã là câu hỏi, không thêm 吗 (ma)."
+     }
+    },
+    {
+     "q": "Điền từ: 他今天没来，___生病了。(Tā jīntiān méi lái, ___ shēngbìng le.)",
+     "opts": [
+      "可能",
+      "还是",
+      "一起"
+     ],
+     "a": 0,
+     "why": {
+      "1": "还是 dùng để hỏi lựa chọn hoặc đề xuất; ở đây người nói đang đoán lý do: 'có lẽ bị ốm'.",
+      "2": "一起 (cùng nhau) không hợp: một mình anh ấy bị ốm."
+     }
+    },
+    {
+     "q": "Trả lời câu 我们今天走还是明天走？ theo gợi ý 'ngày mai'.",
+     "opts": [
+      "我们明天走。",
+      "是，我们明天走。",
+      "我们走还是明天。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu hỏi lựa chọn không trả lời bằng 是 / 不是; chọn luôn một phương án.",
+      "2": "Câu trả lời không lặp lại 还是."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: 让 / 王经理 / 我们 / 明天走",
+     "model": "王经理让我们明天走。",
+     "accept": [
+      "王经理让我们明天走。",
+      "王经理让我们明天走",
+      "wangjinglirangwomenmingtianzou"
+     ],
+     "why": "Người bảo + 让 + người được bảo + việc: 王经理 + 让 + 我们 + 明天走."
+    },
+    {
+     "q": "Dịch: 'Có lẽ ngày mai có vé.'",
+     "opts": [
+      "明天可能有票。",
+      "明天有票可能。",
+      "可能明天有票吗？"
+     ],
+     "a": 0,
+     "why": {
+      "1": "可能 đứng trước động từ 有, không đứng cuối câu.",
+      "2": "Thêm 吗 biến câu thành câu hỏi; câu gốc là câu kể."
+     }
+    },
+    {
+     "q": "Dịch: 'Anh ấy bảo tôi đợi một lát.'",
+     "opts": [
+      "他让我等一会儿。",
+      "他让等我一会儿。",
+      "他告诉给我等一会儿。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sau 让 phải là người được bảo (我) rồi mới đến việc (等): 让我等.",
+      "2": "告诉 không đi với 给; và 'bảo ai làm gì' dùng 让."
+     }
+    }
+   ],
+   "listen": [
+    {
+     "q": "Người trả lời đi đâu?",
+     "audio": "你去车站还是去机场？——去机场，我的飞机三点飞。",
+     "opts": [
+      "sân bay",
+      "nhà ga",
+      "công ty"
+     ],
+     "optsEn": [
+      "the airport",
+      "the station",
+      "the office"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 去机场 (đi sân bay), không phải 车站.",
+      "2": "Không nghe thấy 公司."
+     }
+    },
+    {
+     "q": "Hôm nay còn vé không?",
+     "audio": "还有今天的票吗？——没有了，明天可能有。",
+     "opts": [
+      "hết rồi",
+      "còn",
+      "còn vé buổi chiều"
+     ],
+     "optsEn": [
+      "sold out",
+      "yes, there are",
+      "only afternoon tickets"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 没有了 (hết rồi).",
+      "2": "Không nghe thấy 下午; hôm nay đã hết, chỉ mai có lẽ có."
+     }
+    },
+    {
+     "q": "Họ đi bằng gì?",
+     "audio": "我们怎么去？——打车吧，我们一起走。",
+     "opts": [
+      "taxi",
+      "tàu hoả",
+      "máy bay"
+     ],
+     "optsEn": [
+      "taxi",
+      "train",
+      "plane"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Tàu hoả là 火车 (huǒchē); câu nói 打车 (đi taxi).",
+      "2": "Không nghe thấy 飞机."
+     }
+    },
+    {
+     "q": "Ai đã nói cho người trả lời biết?",
+     "audio": "谁告诉你的？——是王丽。",
+     "opts": [
+      "王丽",
+      "王经理",
+      "阮安"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 是王丽, không phải 王经理.",
+      "2": "Câu trả lời không nhắc đến 阮安."
+     }
+    },
+    {
+     "q": "Túi ở đâu?",
+     "audio": "你的包在哪儿？我给你拿。——在椅子上，谢谢！",
+     "opts": [
+      "trên ghế",
+      "trên bàn",
+      "trên taxi"
+     ],
+     "optsEn": [
+      "on the chair",
+      "on the table",
+      "in the taxi"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Bàn là 桌子 (zhuōzi); câu nói 椅子 (yǐzi, ghế).",
+      "2": "Không nghe thấy 车 hay 打车."
+     }
+    },
+    {
+     "q": "Giám đốc Vương bảo người trả lời làm gì?",
+     "audio": "王经理让你做什么？——让我去车站买票。",
+     "opts": [
+      "ra ga mua vé",
+      "gọi taxi",
+      "đợi ở sân bay"
+     ],
+     "optsEn": [
+      "go to the station to buy tickets",
+      "call a taxi",
+      "wait at the airport"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Không nghe thấy 打车.",
+      "2": "Không nghe thấy 机场 hay 等."
+     }
+    },
+    {
+     "q": "Người trả lời chọn gì?",
+     "audio": "你喝茶还是喝水？——喝茶吧。",
+     "opts": [
+      "trà",
+      "nước lọc",
+      "không uống gì"
+     ],
+     "optsEn": [
+      "tea",
+      "water",
+      "nothing"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 喝茶 (uống trà), không phải 喝水.",
+      "2": "Người trả lời có chọn: 喝茶吧."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "HSK2 Nghe – phần 3: nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "我们打车还是坐火车？——坐火车吧，打车太贵了。问：他们怎么去？",
+     "opts": [
+      "打车",
+      "坐火车",
+      "开车"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Người thứ hai nói 打车太贵了 (taxi đắt quá), nên không đi taxi.",
+      "2": "Không ai nhắc đến 开车 (tự lái xe)."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 3: nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "今天还有票吗？——没有了，你明天再来吧。问：什么时候再来？",
+     "opts": [
+      "今天",
+      "明天",
+      "星期天"
+     ],
+     "a": 1,
+     "why": {
+      "0": "今天的票没有了, nên phải quay lại hôm khác.",
+      "2": "Không nghe thấy 星期天; câu nói 明天再来."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 3: nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "你的包很大，我来拿吧。——谢谢你！问：他要做什么？",
+     "opts": [
+      "买包",
+      "拿包",
+      "找包"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Không ai mua túi; câu nói 我来拿 (để tôi xách).",
+      "2": "Túi không bị mất nên không cần 找 (tìm)."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 3: nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "王经理让我们做什么？——让我们明天一起走。问：他们什么时候走？",
+     "opts": [
+      "今天",
+      "明天",
+      "下午"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu trả lời là 明天一起走, không phải hôm nay.",
+      "2": "Không nghe thấy 下午."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 3: nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "王丽为什么还没来？——她可能生病了。问：王丽可能怎么了？",
+     "opts": [
+      "生病了",
+      "回家了",
+      "在工作"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Không nghe thấy 回家.",
+      "2": "Không nghe thấy 工作; câu trả lời là 可能生病了."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "车站",
+     "py": "chēzhàn",
+     "focus": "ch bật hơi, zh không bật hơi, cả hai đều cong lưỡi; thanh 1 + thanh 4.",
+     "en": "station"
+    },
+    {
+     "t": "打车",
+     "py": "dǎchē",
+     "focus": "thanh 3 + thanh 1: dǎ chỉ đọc nửa (xuống thấp), rồi chē cao đều.",
+     "en": "to take a taxi"
+    },
+    {
+     "t": "还是",
+     "py": "háishi",
+     "focus": "hái đi lên rõ; shi đọc nhẹ, ngắn, không mang thanh.",
+     "en": "or"
+    },
+    {
+     "t": "可能",
+     "py": "kěnéng",
+     "focus": "k bật hơi mạnh; thanh 3 + thanh 2: kě thấp, néng đi lên; -ng mũi sau.",
+     "en": "maybe"
+    },
+    {
+     "t": "告诉",
+     "py": "gàosu",
+     "focus": "g không bật hơi; su đọc nhẹ. Đừng đọc theo Hán Việt 'cáo tố'.",
+     "en": "to tell"
+    },
+    {
+     "t": "一起",
+     "py": "yìqǐ",
+     "focus": "一 đọc yì (thanh 4) vì đứng trước thanh 3; q bật hơi, môi dẹt.",
+     "en": "together"
+    },
+    {
+     "t": "我们一起打车去车站吧。",
+     "py": "Wǒmen yìqǐ dǎchē qù chēzhàn ba.",
+     "focus": "起打 là thanh 3 + thanh 3 nên 起 đọc thành qí; 吧 đọc nhẹ ở cuối.",
+     "en": "Let's take a taxi to the station together."
+    },
+    {
+     "t": "你去还是我去？",
+     "py": "Nǐ qù háishi wǒ qù?",
+     "focus": "Giọng lên ở vế thứ hai (我去); không có 吗 ở cuối.",
+     "en": "Are you going or am I?"
+    }
+   ],
+   "dialog": {
+    "title": "Bàn với 王丽: đi hôm nay hay mai, đi ga bằng gì, ai xách túi. Đổi vai: bạn là 王丽.",
+    "partner": "王丽",
+    "turns": [
+     {
+      "ai": "飞机今天也不飞了，我们坐火车回去吧。",
+      "py": "Fēijī jīntiān yě bù fēi le, wǒmen zuò huǒchē huíqù ba.",
+      "vi": "Hôm nay máy bay cũng không bay, mình đi tàu về nhé.",
+      "en": "No flights today either. Let's go back by train.",
+      "model": "好！我们今天走还是明天走？",
+      "mpy": "Hǎo! Wǒmen jīntiān zǒu háishi míngtiān zǒu?",
+      "men": "OK! Shall we leave today or tomorrow?",
+      "accept": [
+       "好！我们今天走还是明天走？",
+       "我们今天走还是明天走？",
+       "今天走还是明天走？",
+       "haowomenjintianzouhaishimingtianzou",
+       "jintianzouhaishimingtianzou"
+      ],
+      "frame": "我们今天走___明天走？",
+      "hint": "Hỏi lựa chọn hôm nay hay mai: A 还是 B, không thêm 吗."
+     },
+     {
+      "ai": "今天走！我们怎么去车站？",
+      "py": "Jīntiān zǒu! Wǒmen zěnme qù chēzhàn?",
+      "vi": "Hôm nay đi! Mình ra ga bằng gì?",
+      "en": "Today! How do we get to the station?",
+      "model": "我们一起打车去吧。",
+      "mpy": "Wǒmen yìqǐ dǎchē qù ba.",
+      "men": "Let's take a taxi together.",
+      "accept": [
+       "我们一起打车去吧。",
+       "打车去吧。",
+       "打车吧。",
+       "我们打车去吧。",
+       "womenyiqidachequba",
+       "dachequba"
+      ],
+      "frame": "我们一起___去吧。",
+      "hint": "Rủ cùng đi taxi: 一起 + 打车 + 去吧."
+     },
+     {
+      "ai": "好。我的东西很多……",
+      "py": "Hǎo. Wǒ de dōngxi hěn duō...",
+      "vi": "Ừ. Đồ của chị nhiều quá…",
+      "en": "OK. I've got so many things…",
+      "model": "我拿你的包吧。",
+      "mpy": "Wǒ ná nǐ de bāo ba.",
+      "men": "I'll carry your bag.",
+      "accept": [
+       "我拿你的包吧。",
+       "我拿你的包。",
+       "我来拿吧。",
+       "我拿吧。",
+       "wonanidebaoba",
+       "wonaba"
+      ],
+      "frame": "我___你的包吧。",
+      "hint": "Đề nghị xách túi giúp: 我 + 拿 + 你的包 + 吧."
+     },
+     {
+      "ai": "谢谢！你的包呢？",
+      "py": "Xièxie! Nǐ de bāo ne?",
+      "vi": "Cảm ơn em! Thế túi của em đâu?",
+      "en": "Thanks! And your bag?",
+      "model": "在这儿。我们走吧！",
+      "mpy": "Zài zhèr. Wǒmen zǒu ba!",
+      "men": "It's here. Let's go!",
+      "accept": [
+       "在这儿。我们走吧！",
+       "在这儿。",
+       "我们走吧！",
+       "在这儿，我们走吧！",
+       "zaizherwomenzouba",
+       "zaizher"
+      ],
+      "frame": "在___。我们走吧！",
+      "hint": "Nói túi ở đây (在这儿), rồi giục đi: 我们走吧."
+     },
+     {
+      "ai": "车站人可能很多。你告诉王经理，我们今天走。",
+      "py": "Chēzhàn rén kěnéng hěn duō. Nǐ gàosu Wáng jīnglǐ, wǒmen jīntiān zǒu.",
+      "vi": "Ga chắc là đông lắm. Em báo giám đốc Vương là hôm nay mình đi nhé.",
+      "en": "The station might be crowded. Tell Mr Wang we're leaving today.",
+      "model": "好，我告诉他。",
+      "mpy": "Hǎo, wǒ gàosu tā.",
+      "men": "OK, I'll tell him.",
+      "accept": [
+       "好，我告诉他。",
+       "我告诉他。",
+       "好，我告诉王经理。",
+       "haowogaosuta",
+       "wogaosuta"
+      ],
+      "frame": "好，我___他。",
+      "hint": "Nhận lời báo cho giám đốc: 我告诉他 (không thêm 给)."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Tin nhắn WeChat của 王经理",
+    "text": "阮安、王丽：你们好！今天的飞机也不飞了，你们打车去车站买火车票吧。外边有人卖票，那些票不能买！今天的票可能没有了，你们买星期五的。你们两个人一起走，东西多，包要拿好。买了票告诉我。王经理",
+    "py": "Ruǎn Ān, Wáng Lì: Nǐmen hǎo! Jīntiān de fēijī yě bù fēi le, nǐmen dǎchē qù chēzhàn mǎi huǒchēpiào ba. Wàibian yǒu rén mài piào, nàxiē piào bù néng mǎi! Jīntiān de piào kěnéng méiyǒu le, nǐmen mǎi xīngqīwǔ de. Nǐmen liǎng ge rén yìqǐ zǒu, dōngxi duō, bāo yào ná hǎo. Mǎi le piào gàosu wǒ. Wáng jīnglǐ",
+    "en": "An, Wang Li: Hello! There are no flights today either, so take a taxi to the station and buy train tickets. There are people selling tickets outside — don't buy those! Today's tickets are probably sold out, so buy Friday's. Travel together, you have a lot of things, keep hold of your bags. Let me know once you've bought the tickets. Manager Wang",
+    "vi": "An, Lệ: Chào hai em! Hôm nay máy bay cũng không bay, hai em đi taxi ra ga mua vé tàu nhé. Bên ngoài có người bán vé, vé đó không được mua! Vé hôm nay có lẽ hết rồi, các em mua vé thứ Sáu. Hai em đi cùng nhau, đồ nhiều, nhớ giữ túi cẩn thận. Mua vé xong thì báo anh. Giám đốc Vương",
+    "qs": [
+     {
+      "q": "Giám đốc Vương bảo hai người ra ga bằng gì?",
+      "opts": [
+       "taxi",
+       "tàu điện ngầm",
+       "đi bộ"
+      ],
+      "optsEn": [
+       "taxi",
+       "metro",
+       "on foot"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Tin nhắn viết 打车去车站 (đi taxi ra ga), không phải tàu điện ngầm.",
+       "2": "Tin nhắn không bảo đi bộ."
+      }
+     },
+     {
+      "q": "Vé người ta bán ở bên ngoài thì sao?",
+      "opts": [
+       "không được mua",
+       "rẻ hơn",
+       "hết rồi"
+      ],
+      "optsEn": [
+       "they mustn't buy them",
+       "they're cheaper",
+       "they're sold out"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Tin nhắn không nói giá vé; chỉ nói 那些票不能买 (vé đó không được mua).",
+       "2": "Người bên ngoài vẫn đang bán (有人卖票), không phải hết."
+      }
+     },
+     {
+      "q": "Vé hôm nay thế nào?",
+      "opts": [
+       "có lẽ hết rồi",
+       "còn nhiều",
+       "đã mua rồi"
+      ],
+      "optsEn": [
+       "probably sold out",
+       "plenty left",
+       "already bought"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Tin nhắn viết 今天的票可能没有了 (có lẽ hết rồi).",
+       "2": "Họ chưa mua; 王经理 bảo mua xong thì báo."
+      }
+     },
+     {
+      "q": "Đúng hay sai: 王经理让他们一起走。",
+      "opts": [
+       "Đúng",
+       "Sai"
+      ],
+      "optsEn": [
+       "True",
+       "False"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Tin nhắn viết 你们两个人一起走 (hai em đi cùng nhau): giám đốc bảo họ đi cùng nhau."
+      }
+     },
+     {
+      "q": "Mua vé xong, hai người phải làm gì?",
+      "opts": [
+       "báo cho giám đốc Vương",
+       "gọi taxi",
+       "quay lại sân bay"
+      ],
+      "optsEn": [
+       "tell Mr Wang",
+       "call a taxi",
+       "go back to the airport"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Taxi là để ra ga, trước khi mua vé.",
+       "2": "Tin nhắn không bảo quay lại sân bay; câu cuối là 买了票告诉我."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "w5-thu-4",
+   "label": "Thứ 4",
+   "title": "Hỏi đường tới khách sạn gần ga",
+   "desc": "Hỏi và chỉ đường (从……往……走), nói vị trí (在 + nơi + 左边 / 右边 / 前面 / 旁边) và số lần (V + 了 + số + 次, 第一次).",
+   "rule": "从 = điểm xuất phát, 往 = hướng đi: 从这儿往前走. Vị trí: vật mốc TRƯỚC, từ chỉ vị trí SAU: 商店旁边. Số lần đứng sau động từ: 问了三次.",
+   "cards": [
+    {
+     "w": "酒店",
+     "py": "jiǔdiàn",
+     "m": "khách sạn",
+     "mEn": "hotel",
+     "ex": "我们今天住车站旁边的酒店。",
+     "expy": "Wǒmen jīntiān zhù chēzhàn pángbiān de jiǔdiàn.",
+     "exm": "Hôm nay chúng tôi ở khách sạn cạnh nhà ga.",
+     "exEn": "Tonight we're staying at the hotel next to the station.",
+     "n": "⚠ Bẫy Hán–Việt: 'tửu điếm' nhưng nghĩa là KHÁCH SẠN, không phải quán rượu. Thanh 3 + thanh 4: jiǔ thấp, diàn rơi mạnh.",
+     "img": "hotel"
+    },
+    {
+     "w": "进",
+     "py": "jìn",
+     "m": "vào",
+     "mEn": "to enter, to come in",
+     "ex": "请进！",
+     "expy": "Qǐng jìn!",
+     "exm": "Mời vào!",
+     "exEn": "Please come in!",
+     "n": "进 = vào; ngược lại là 出 (ra, như trong 出租车). -n mũi trước, lưỡi chạm lợi trên.",
+     "img": "door"
+    },
+    {
+     "w": "从",
+     "py": "cóng",
+     "m": "từ (điểm xuất phát)",
+     "mEn": "from",
+     "ex": "从这儿到车站要十分钟。",
+     "expy": "Cóng zhèr dào chēzhàn yào shí fēnzhōng.",
+     "exm": "Từ đây đến ga mất mười phút.",
+     "exEn": "It takes ten minutes from here to the station.",
+     "n": "从 + nơi chốn: điểm bắt đầu. Hay đi với 到 (đến) hoặc 往 (hướng về). c bật hơi mạnh: ts-h."
+    },
+    {
+     "w": "前面",
+     "py": "qiánmiàn",
+     "m": "phía trước",
+     "mEn": "in front, ahead",
+     "ex": "车站在前面。",
+     "expy": "Chēzhàn zài qiánmiàn.",
+     "exm": "Nhà ga ở phía trước.",
+     "exEn": "The station is up ahead.",
+     "n": "前 = trước, 面 = mặt, phía. 往前走 = đi thẳng về phía trước."
+    },
+    {
+     "w": "左边",
+     "py": "zuǒbian",
+     "m": "bên trái",
+     "mEn": "left side",
+     "ex": "酒店在左边。",
+     "expy": "Jiǔdiàn zài zuǒbian.",
+     "exm": "Khách sạn ở bên trái.",
+     "exEn": "The hotel is on the left.",
+     "n": "边 = bên, phía, đọc nhẹ: zuǒbian. z không bật hơi (không đọc thành 'd').",
+     "img": "left"
+    },
+    {
+     "w": "右边",
+     "py": "yòubian",
+     "m": "bên phải",
+     "mEn": "right side",
+     "ex": "从这儿往前走，在右边。",
+     "expy": "Cóng zhèr wǎng qián zǒu, zài yòubian.",
+     "exm": "Từ đây đi thẳng, ở bên phải.",
+     "exEn": "Go straight ahead from here, it's on the right.",
+     "n": "Mẹo nhớ chữ: 右 có 口 (miệng) ở dưới: tay phải đưa cơm lên miệng. 左 có 工 ở dưới.",
+     "img": "right"
+    },
+    {
+     "w": "旁边",
+     "py": "pángbiān",
+     "m": "bên cạnh",
+     "mEn": "next to, beside",
+     "ex": "酒店在商店旁边。",
+     "expy": "Jiǔdiàn zài shāngdiàn pángbiān.",
+     "exm": "Khách sạn ở cạnh cửa hàng.",
+     "exEn": "The hotel is next to the shop.",
+     "n": "Vật mốc đứng TRƯỚC 旁边: 商店旁边 = cạnh cửa hàng (ngược với tiếng Việt). Thanh 2 + thanh 1."
+    },
+    {
+     "w": "往",
+     "py": "wǎng",
+     "m": "hướng về, về phía",
+     "mEn": "towards",
+     "ex": "你往左边走。",
+     "expy": "Nǐ wǎng zuǒbian zǒu.",
+     "exm": "Bạn đi về phía bên trái.",
+     "exEn": "Go to the left.",
+     "n": "往 + hướng + 走: 往前走, 往左边走. Thanh 3. Chữ 往 (bộ 彳) dễ nhầm với 住 (zhù, ở)."
+    },
+    {
+     "w": "门口",
+     "py": "ménkǒu",
+     "m": "cửa ra vào, trước cửa",
+     "mEn": "entrance, doorway",
+     "ex": "我在酒店门口等你。",
+     "expy": "Wǒ zài jiǔdiàn ménkǒu děng nǐ.",
+     "exm": "Tôi đợi bạn ở cửa khách sạn.",
+     "exEn": "I'll wait for you at the hotel entrance.",
+     "n": "门 = cửa, 口 = miệng: 门口 là chỗ cửa ra vào. Thanh 2 + thanh 3.",
+     "img": "door"
+    },
+    {
+     "w": "进去",
+     "py": "jìnqù",
+     "m": "đi vào (trong đó)",
+     "mEn": "to go in",
+     "ex": "外边很冷，我们进去吧。",
+     "expy": "Wàibian hěn lěng, wǒmen jìnqù ba.",
+     "exm": "Bên ngoài lạnh lắm, mình vào trong đi.",
+     "exEn": "It's cold outside, let's go in.",
+     "n": "进去 = vào (rời chỗ người nói, đi vào trong); 进来 = vào (đến chỗ người nói). Giống cặp 回去 / 回来."
+    },
+    {
+     "w": "次",
+     "py": "cì",
+     "m": "lần",
+     "mEn": "time (occurrence)",
+     "ex": "我第一次来上海。",
+     "expy": "Wǒ dì-yī cì lái Shànghǎi.",
+     "exm": "Tôi đến Thượng Hải lần đầu.",
+     "exEn": "It's my first time in Shanghai.",
+     "n": "⚠ Bẫy Hán–Việt: 'thứ' nhưng nghĩa là LẦN. 第一次 = lần đầu; 三次 = ba lần (đứng sau động từ: 问了三次)."
+    }
+   ],
+   "scene": {
+    "setting": "Chiều Thứ 4. Vé tàu là chuyến 10 giờ sáng thứ Sáu nên hai người tìm khách sạn ngay cạnh ga để ở mấy hôm. Ra khỏi ga, trời lạnh, 王丽 hỏi đường một người đi đường.",
+    "img": "scene-zh-hotel",
+    "imgPrompt": "Realistic photo of a snowy street outside a Chinese railway station at dusk; an elderly passer-by (passer, wool cap and scarf) points ahead to the right while an (Vietnamese woman, blue blouse, dark coat) and wangli (Chinese woman, red sweater, beige coat) with suitcases listen; a small hotel entrance next to a shop in the background, no readable text",
+    "lines": [
+     {
+      "who": "阮安",
+      "t": "我们的火车是星期五上午十点的，这两天住车站旁边的酒店吧。",
+      "py": "Wǒmen de huǒchē shì xīngqīwǔ shàngwǔ shí diǎn de, zhè liǎng tiān zhù chēzhàn pángbiān de jiǔdiàn ba.",
+      "vi": "Tàu của mình là chuyến 10 giờ sáng thứ Sáu, mấy hôm này mình ở khách sạn cạnh ga nhé.",
+      "en": "Our train is at 10 a.m. on Friday. Let's stay at a hotel next to the station for the next couple of days."
+     },
+     {
+      "who": "王丽",
+      "t": "好。请问，这儿有酒店吗？",
+      "py": "Hǎo. Qǐngwèn, zhèr yǒu jiǔdiàn ma?",
+      "vi": "Ừ. Cho hỏi, gần đây có khách sạn không ạ?",
+      "en": "OK. Excuse me, is there a hotel around here?"
+     },
+     {
+      "who": "路人",
+      "t": "有。从这儿往前走，在右边。",
+      "py": "Yǒu. Cóng zhèr wǎng qián zǒu, zài yòubian.",
+      "vi": "Có. Từ đây đi thẳng, ở bên phải.",
+      "en": "Yes. Go straight ahead from here, it's on the right."
+     },
+     {
+      "who": "阮安",
+      "t": "右边？不是左边吗？",
+      "py": "Yòubian? Bú shì zuǒbian ma?",
+      "vi": "Bên phải ạ? Không phải bên trái sao?",
+      "en": "On the right? Not the left?"
+     },
+     {
+      "who": "路人",
+      "t": "不是，在前面商店的旁边。",
+      "py": "Bú shì, zài qiánmiàn shāngdiàn de pángbiān.",
+      "vi": "Không, ở cạnh cửa hàng phía trước kia.",
+      "en": "No, it's next to the shop up ahead."
+     },
+     {
+      "who": "王丽",
+      "t": "谢谢！……我们到酒店门口了！",
+      "py": "Xièxie! ... Wǒmen dào jiǔdiàn ménkǒu le!",
+      "vi": "Cảm ơn bác! … Mình đến cửa khách sạn rồi!",
+      "en": "Thank you! … We're at the hotel entrance!"
+     },
+     {
+      "who": "阮安",
+      "t": "我第一次来这儿，这个酒店很漂亮！",
+      "py": "Wǒ dì-yī cì lái zhèr, zhège jiǔdiàn hěn piàoliang!",
+      "vi": "Em đến đây lần đầu, khách sạn này đẹp thật!",
+      "en": "It's my first time here. This hotel is lovely!"
+     },
+     {
+      "who": "王丽",
+      "t": "外边很冷，我们快进去吧。",
+      "py": "Wàibian hěn lěng, wǒmen kuài jìnqù ba.",
+      "vi": "Ngoài này lạnh lắm, mình vào nhanh đi.",
+      "en": "It's cold out here, let's hurry inside."
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Chỉ đường: 从 + nơi + 往 + hướng + 走",
+     "f": [
+      [
+       "从这儿",
+       "往",
+       "前走"
+      ],
+      [
+       "从车站",
+       "往",
+       "左边走"
+      ]
+     ],
+     "ex": [
+      [
+       "从这儿往前走。",
+       "Từ đây đi thẳng về phía trước.",
+       "Go straight ahead from here."
+      ],
+      [
+       "从车站往左边走。",
+       "Từ ga đi về phía bên trái.",
+       "From the station, go left."
+      ]
+     ],
+     "bad": "我从左边往走。",
+     "good": "我往左边走。",
+     "why": "往 phải có hướng đi ngay sau (往前, 往左边). 从 là điểm xuất phát, 往 là hướng đi; không dùng lẫn chỗ của nhau."
+    },
+    {
+     "t": "Vị trí: N + 在 + vật mốc + 左边 / 右边 / 前面 / 旁边",
+     "f": [
+      [
+       "酒店",
+       "在",
+       "商店旁边"
+      ],
+      [
+       "车站",
+       "在",
+       "前面"
+      ]
+     ],
+     "ex": [
+      [
+       "酒店在商店旁边。",
+       "Khách sạn ở cạnh cửa hàng.",
+       "The hotel is next to the shop."
+      ],
+      [
+       "车站在酒店右边。",
+       "Nhà ga ở bên phải khách sạn.",
+       "The station is to the right of the hotel."
+      ]
+     ],
+     "bad": "酒店在旁边商店。",
+     "good": "酒店在商店旁边。",
+     "why": "Tiếng Việt nói 'cạnh cửa hàng' (vị trí trước, vật mốc sau); tiếng Trung ngược lại: vật mốc trước, từ chỉ vị trí sau: 商店旁边."
+    },
+    {
+     "t": "Số lần: V + 了 + (người) + số + 次",
+     "f": [
+      [
+       "我问了他",
+       "三次"
+      ],
+      [
+       "我来了",
+       "两次"
+      ]
+     ],
+     "ex": [
+      [
+       "我问了他三次。",
+       "Tôi đã hỏi anh ấy ba lần.",
+       "I asked him three times."
+      ],
+      [
+       "这个电影我看了两次。",
+       "Phim này tôi xem hai lần rồi.",
+       "I've seen this film twice."
+      ]
+     ],
+     "bad": "我三次问了他。",
+     "good": "我问了他三次。",
+     "why": "Số lần (三次) đứng SAU động từ (và sau người), không đứng trước động từ như 'ba lần hỏi'."
+    },
+    {
+     "t": "Lần đầu: 第一次 + V",
+     "f": [
+      [
+       "我",
+       "第一次",
+       "来这儿"
+      ],
+      [
+       "这是我",
+       "第一次",
+       "来上海"
+      ]
+     ],
+     "ex": [
+      [
+       "我第一次来这儿。",
+       "Tôi đến đây lần đầu.",
+       "It's my first time here."
+      ],
+      [
+       "这是我第一次来上海。",
+       "Đây là lần đầu tôi đến Thượng Hải.",
+       "This is my first time in Shanghai."
+      ]
+     ],
+     "bad": "我来这儿第一次。",
+     "good": "我第一次来这儿。",
+     "why": "第一次 đứng TRƯỚC động từ. Tiếng Việt nói 'tôi đến đây lần đầu' nhưng tiếng Trung đặt 第一次 lên trước 来."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "⚠ Bẫy Hán–Việt: 酒店 (jiǔdiàn, Hán Việt 'tửu điếm') nghĩa là gì?",
+     "opts": [
+      "khách sạn",
+      "quán rượu",
+      "cửa hàng bán rượu"
+     ],
+     "optsEn": [
+      "hotel",
+      "bar",
+      "liquor shop"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Âm Hán Việt 'tửu điếm' gợi 'quán rượu', nhưng trong tiếng Trung hiện đại 酒店 là khách sạn.",
+      "2": "Có chữ 酒 (rượu) nhưng 酒店 không phải cửa hàng rượu; ở 酒店 người ta thuê phòng để ở."
+     }
+    },
+    {
+     "q": "⚠ Bẫy Hán–Việt: 次 (cì, Hán Việt 'thứ') trong câu 我来了两次 nghĩa là gì?",
+     "opts": [
+      "lần",
+      "thứ tự",
+      "thứ trong tuần"
+     ],
+     "optsEn": [
+      "time (occurrence)",
+      "order, sequence",
+      "day of the week"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Âm Hán Việt 'thứ' gợi 'thứ tự', nhưng 两次 = hai lần.",
+      "2": "Thứ trong tuần là 星期 (xīngqī), không phải 次."
+     }
+    },
+    {
+     "q": "Điền từ: 请___来！(Qǐng ___ lái!) — mời vào!",
+     "opts": [
+      "进",
+      "从",
+      "往"
+     ],
+     "a": 0,
+     "why": {
+      "1": "从 (cóng) = từ, cần nơi chốn theo sau (从这儿); 请从来 không có nghĩa.",
+      "2": "往 (wǎng) cần hướng theo sau (往前); 请往来 không phải 'mời vào'."
+     }
+    },
+    {
+     "q": "Điền từ: 商店在酒店___。(Shāngdiàn zài jiǔdiàn ___.)",
+     "opts": [
+      "旁边",
+      "往",
+      "从"
+     ],
+     "a": 0,
+     "why": {
+      "1": "往 (wǎng) chỉ hướng đi, đứng trước hướng (往前), không đứng cuối câu chỉ vị trí.",
+      "2": "从 (cóng) chỉ điểm xuất phát, đứng trước nơi chốn, không đứng sau."
+     }
+    },
+    {
+     "q": "Điền từ: ___这儿到车站要十分钟。(___ zhèr dào chēzhàn yào shí fēnzhōng.)",
+     "opts": [
+      "从",
+      "往",
+      "进"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Có 到 (đến) phía sau nên cần điểm xuất phát: 从……到…… (từ… đến…). 往 là hướng đi.",
+      "2": "进 (vào) không đi với 这儿……到……."
+     }
+    },
+    {
+     "q": "Điền từ: 他在酒店___等你。(Tā zài jiǔdiàn ___ děng nǐ.)",
+     "opts": [
+      "门口",
+      "往",
+      "进去"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sau 在酒店 cần một vị trí; 往 là hướng đi, không phải vị trí.",
+      "2": "进去 (đi vào) là động từ, không chỉ chỗ đứng đợi."
+     }
+    },
+    {
+     "q": "Từ trái nghĩa với 左边 (zuǒbian) là gì?",
+     "opts": [
+      "右边",
+      "旁边",
+      "前面"
+     ],
+     "a": 0,
+     "why": {
+      "1": "旁边 (pángbiān) = bên cạnh, không phải bên đối diện với trái.",
+      "2": "前面 (qiánmiàn) = phía trước; trái nghĩa của nó là 后面."
+     }
+    },
+    {
+     "q": "Điền từ: 这是我们的房间，我们___吧。(Zhè shì wǒmen de fángjiān, wǒmen ___ ba.)",
+     "opts": [
+      "进去",
+      "往",
+      "门口"
+     ],
+     "a": 0,
+     "why": {
+      "1": "往 cần hướng theo sau (往前走); 我们往吧 thiếu ý.",
+      "2": "门口 (cửa ra vào) là danh từ, không làm động từ trước 吧."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: 往 / 走 / 前 / 从这儿 (Từ đây đi thẳng.)",
+     "model": "从这儿往前走。",
+     "accept": [
+      "从这儿往前走。",
+      "从这儿往前走",
+      "congzherwangqianzou"
+     ],
+     "why": "从 + nơi + 往 + hướng + 走: 从这儿 + 往前 + 走."
+    },
+    {
+     "q": "Điền vào hai chỗ trống: ___这儿___左边走。",
+     "opts": [
+      "从 … 往",
+      "往 … 从",
+      "在 … 从"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Đảo ngược: 从 là điểm xuất phát (đứng trước 这儿), 往 là hướng (đứng trước 左边).",
+      "2": "在这儿从左边走 không có nghĩa; hướng đi phải dùng 往."
+     }
+    },
+    {
+     "q": "Trả lời theo gợi ý 'cạnh cửa hàng': 酒店在哪儿？",
+     "opts": [
+      "酒店在商店旁边。",
+      "酒店在旁边商店。",
+      "酒店商店旁边在。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Vật mốc (商店) đứng TRƯỚC từ chỉ vị trí (旁边).",
+      "2": "在 phải đứng trước nơi chốn, không đứng cuối câu."
+     }
+    },
+    {
+     "q": "Dịch: 'Tôi đã hỏi anh ấy ba lần.'",
+     "opts": [
+      "我问了他三次。",
+      "我三次问了他。",
+      "我问了三他次。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Số lần đứng SAU động từ, không đứng trước 问.",
+      "2": "三次 là một cụm, không tách ra; người (他) đứng trước 三次."
+     }
+    },
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "我在门口等你。",
+      "我等你在门口。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "在 + nơi chốn đứng TRƯỚC động từ: 在门口等你."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền từ: 这个酒店我住了三___。(Zhège jiǔdiàn wǒ zhù le sān ___.)",
+     "model": "次",
+     "accept": [
+      "次",
+      "ci"
+     ],
+     "why": "Đếm số lần làm việc gì: số + 次 sau động từ: 住了三次."
+    },
+    {
+     "q": "Dịch: 'Tôi đến Thượng Hải lần đầu.'",
+     "opts": [
+      "我第一次来上海。",
+      "我来上海第一次。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "第一次 đứng TRƯỚC động từ 来, không đứng cuối câu."
+     }
+    }
+   ],
+   "listen": [
+    {
+     "q": "Khách sạn ở đâu?",
+     "audio": "请问，酒店在哪儿？——在前面，商店旁边。",
+     "opts": [
+      "phía trước, cạnh cửa hàng",
+      "bên trái nhà ga",
+      "sau cửa hàng"
+     ],
+     "optsEn": [
+      "up ahead, next to the shop",
+      "to the left of the station",
+      "behind the shop"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Không nghe thấy 左边 hay 车站.",
+      "2": "Câu nói 旁边 (bên cạnh), không phải phía sau."
+     }
+    },
+    {
+     "q": "Phải đi về phía nào?",
+     "audio": "从这儿往左边走还是往右边走？——往右边走。",
+     "opts": [
+      "bên phải",
+      "bên trái",
+      "đi thẳng"
+     ],
+     "optsEn": [
+      "right",
+      "left",
+      "straight on"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 往右边走 (đi bên phải).",
+      "2": "Không nghe thấy 往前走."
+     }
+    },
+    {
+     "q": "Người trả lời đến đây lần thứ mấy?",
+     "audio": "你是第几次来这儿？——第一次。",
+     "opts": [
+      "lần đầu",
+      "lần thứ hai",
+      "nhiều lần rồi"
+     ],
+     "optsEn": [
+      "the first time",
+      "the second time",
+      "many times"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Lần thứ hai là 第二次; câu trả lời là 第一次.",
+      "2": "第一次 = lần đầu, không phải đã đến nhiều lần."
+     }
+    },
+    {
+     "q": "Người ấy đợi họ ở đâu?",
+     "audio": "他在哪儿等我们？——在酒店门口。",
+     "opts": [
+      "ở cửa khách sạn",
+      "trong phòng",
+      "ở nhà ga"
+     ],
+     "optsEn": [
+      "at the hotel entrance",
+      "in the room",
+      "at the station"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Phòng là 房间 (fángjiān); câu nói 门口 (cửa).",
+      "2": "Không nghe thấy 车站."
+     }
+    },
+    {
+     "q": "Người hỏi muốn làm gì?",
+     "audio": "我可以进来吗？——请进！",
+     "opts": [
+      "đi vào",
+      "đi ra ngoài",
+      "ngồi đợi"
+     ],
+     "optsEn": [
+      "go in",
+      "go out",
+      "sit and wait"
+     ],
+     "a": 0,
+     "why": {
+      "1": "进来 (jìnlái) = đi vào (chỗ người kia đang ở), ngược với đi ra.",
+      "2": "Không nghe thấy 坐 hay 等."
+     }
+    },
+    {
+     "q": "Người trả lời đã gọi điện mấy lần?",
+     "audio": "你给王经理打了几次电话？——打了三次，他不在。",
+     "opts": [
+      "3 lần",
+      "2 lần",
+      "1 lần"
+     ],
+     "optsEn": [
+      "3 times",
+      "twice",
+      "once"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 三次 (ba lần), không phải 两次.",
+      "2": "Câu trả lời là 三次, không phải 一次."
+     }
+    },
+    {
+     "q": "Từ ga đi thẳng, khách sạn ở bên nào?",
+     "audio": "从车站往前走，酒店在右边。",
+     "opts": [
+      "bên phải",
+      "bên trái",
+      "ngay trong ga"
+     ],
+     "optsEn": [
+      "on the right",
+      "on the left",
+      "inside the station"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nói 在右边 (bên phải), không phải 左边.",
+      "2": "Phải đi từ ga (从车站往前走) mới tới, nên không ở trong ga."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "HSK2 Đọc – phần 4: chọn câu trả lời phù hợp. 请问，酒店在哪儿？",
+     "opts": [
+      "在前面，商店旁边。",
+      "请进！",
+      "对，我是第一次来。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "请进 (mời vào) là lời mời, không trả lời câu hỏi 'ở đâu'.",
+      "2": "Câu này trả lời câu hỏi 'lần đầu đến à?', không nói vị trí."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 4: chọn câu trả lời phù hợp. 你是第一次来这儿吗？",
+     "opts": [
+      "对，我是第一次来。",
+      "往左边走。",
+      "在门口。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "往左边走 chỉ đường, không trả lời câu hỏi về số lần.",
+      "2": "在门口 nói vị trí, không trả lời 'lần đầu không'."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 4: chọn câu trả lời phù hợp. 我可以进来吗？",
+     "opts": [
+      "请进！",
+      "在前面，商店旁边。",
+      "往左边走。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu hỏi xin phép vào, không hỏi vị trí.",
+      "2": "Câu hỏi xin phép vào, không hỏi đi hướng nào."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 4: chọn câu trả lời phù hợp. 从这儿往哪边走？",
+     "opts": [
+      "往左边走。",
+      "请进！",
+      "在门口。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "请进 là lời mời vào, không chỉ hướng đi.",
+      "2": "在门口 nói chỗ đứng, không trả lời 'đi hướng nào'."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 4: chọn câu trả lời phù hợp. 他在哪儿等我们？",
+     "opts": [
+      "在门口。",
+      "对，我是第一次来。",
+      "请进！"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu hỏi 在哪儿 (ở đâu), cần trả lời bằng nơi chốn.",
+      "2": "请进 không trả lời 'ở đâu'."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "酒店",
+     "py": "jiǔdiàn",
+     "focus": "thanh 3 + thanh 4: jiǔ thấp, diàn rơi mạnh; iu đọc như 'iêu' ngắn.",
+     "en": "hotel"
+    },
+    {
+     "t": "左边",
+     "py": "zuǒbian",
+     "focus": "z không bật hơi (không đọc thành 'd'); bian đọc nhẹ, ngắn.",
+     "en": "left side"
+    },
+    {
+     "t": "右边",
+     "py": "yòubian",
+     "focus": "yòu rơi mạnh; bian đọc nhẹ.",
+     "en": "right side"
+    },
+    {
+     "t": "旁边",
+     "py": "pángbiān",
+     "focus": "p bật hơi; thanh 2 + thanh 1; cả hai đều có âm mũi: -ng rồi -n.",
+     "en": "next to"
+    },
+    {
+     "t": "门口",
+     "py": "ménkǒu",
+     "focus": "thanh 2 + thanh 3: mén đi lên, kǒu xuống thấp; k bật hơi.",
+     "en": "entrance"
+    },
+    {
+     "t": "第一次",
+     "py": "dì-yī cì",
+     "focus": "一 là số thứ tự nên giữ yī (thanh 1), không biến thanh; c bật hơi: ts-h.",
+     "en": "the first time"
+    },
+    {
+     "t": "从这儿往前走。",
+     "py": "Cóng zhèr wǎng qián zǒu.",
+     "focus": "c bật hơi; zhèr cuốn lưỡi; 往 wǎng thanh 3, 走 zǒu thanh 3 ở cuối đọc đủ.",
+     "en": "Go straight ahead from here."
+    },
+    {
+     "t": "我们进去吧。",
+     "py": "Wǒmen jìnqù ba.",
+     "focus": "jìnqù hai thanh 4: jìn mạnh, qù nhẹ hơn; 吧 nhẹ ở cuối.",
+     "en": "Let's go in."
+    }
+   ],
+   "dialog": {
+    "title": "Ra khỏi ga, bạn hỏi người đi đường khách sạn ở đâu. Đổi vai: bạn là người chỉ đường.",
+    "partner": "路人",
+    "turns": [
+     {
+      "ai": "你好！你找什么？",
+      "py": "Nǐ hǎo! Nǐ zhǎo shénme?",
+      "vi": "Chào cháu! Cháu tìm gì thế?",
+      "en": "Hello! What are you looking for?",
+      "model": "请问，酒店在哪儿？",
+      "mpy": "Qǐngwèn, jiǔdiàn zài nǎr?",
+      "men": "Excuse me, where's the hotel?",
+      "accept": [
+       "请问，酒店在哪儿？",
+       "酒店在哪儿？",
+       "请问，这儿有酒店吗？",
+       "qingwenjiudianzainar",
+       "jiudianzainar"
+      ],
+      "frame": "请问，___在哪儿？",
+      "hint": "Mở lời lịch sự 请问, rồi hỏi: 酒店在哪儿？"
+     },
+     {
+      "ai": "从这儿往前走，在左边。",
+      "py": "Cóng zhèr wǎng qián zǒu, zài zuǒbian.",
+      "vi": "Từ đây đi thẳng, ở bên trái.",
+      "en": "Go straight ahead from here, it's on the left.",
+      "model": "在商店旁边吗？",
+      "mpy": "Zài shāngdiàn pángbiān ma?",
+      "men": "Is it next to the shop?",
+      "accept": [
+       "在商店旁边吗？",
+       "在商店旁边？",
+       "是在商店旁边吗？",
+       "zaishangdianpangbianma"
+      ],
+      "frame": "在___旁边吗？",
+      "hint": "Hỏi lại cho chắc: 在 + 商店 + 旁边吗？ (vật mốc trước 旁边)."
+     },
+     {
+      "ai": "对，在商店旁边，门口有很多人。",
+      "py": "Duì, zài shāngdiàn pángbiān, ménkǒu yǒu hěn duō rén.",
+      "vi": "Đúng rồi, cạnh cửa hàng, trước cửa có nhiều người lắm.",
+      "en": "Yes, next to the shop. There are lots of people at the entrance.",
+      "model": "要走几分钟？",
+      "mpy": "Yào zǒu jǐ fēnzhōng?",
+      "men": "How many minutes' walk is it?",
+      "accept": [
+       "要走几分钟？",
+       "走几分钟？",
+       "要几分钟？",
+       "yaozoujifenzhong",
+       "zoujifenzhong"
+      ],
+      "frame": "要走___分钟？",
+      "hint": "Hỏi đi bộ mấy phút: 要走 + 几分钟？"
+     },
+     {
+      "ai": "五分钟。你是第一次来这儿吗？",
+      "py": "Wǔ fēnzhōng. Nǐ shì dì-yī cì lái zhèr ma?",
+      "vi": "Năm phút. Cháu đến đây lần đầu à?",
+      "en": "Five minutes. Is this your first time here?",
+      "model": "对，我第一次来这儿。",
+      "mpy": "Duì, wǒ dì-yī cì lái zhèr.",
+      "men": "Yes, it's my first time here.",
+      "accept": [
+       "对，我第一次来这儿。",
+       "对，我是第一次来。",
+       "我第一次来这儿。",
+       "对，第一次。",
+       "duiwodiyicilaizher",
+       "diyici"
+      ],
+      "frame": "对，我___来这儿。",
+      "hint": "Nói lần đầu đến: 第一次 đứng TRƯỚC 来."
+     },
+     {
+      "ai": "外边很冷，你们快去吧！",
+      "py": "Wàibian hěn lěng, nǐmen kuài qù ba!",
+      "vi": "Ngoài này lạnh lắm, các cháu đi nhanh đi!",
+      "en": "It's cold out here, off you go!",
+      "model": "谢谢！再见！",
+      "mpy": "Xièxie! Zàijiàn!",
+      "men": "Thank you! Goodbye!",
+      "accept": [
+       "谢谢！再见！",
+       "谢谢！",
+       "谢谢您！",
+       "再见！",
+       "xiexiezaijian",
+       "xiexie"
+      ],
+      "frame": "___！再见！",
+      "hint": "Cảm ơn và chào: 谢谢 + 再见."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Tin nhắn chỉ đường của khách sạn",
+    "text": "王丽女士，您好！从车站出来，往左边走五分钟，前面有一个大商店。我们的酒店在商店旁边。到了门口，请进来，我们在门口等您。您是第一次来我们酒店吗？有问题请给我们打电话。谢谢！",
+    "py": "Wáng Lì nǚshì, nín hǎo! Cóng chēzhàn chūlái, wǎng zuǒbian zǒu wǔ fēnzhōng, qiánmiàn yǒu yí ge dà shāngdiàn. Wǒmen de jiǔdiàn zài shāngdiàn pángbiān. Dào le ménkǒu, qǐng jìnlái, wǒmen zài ménkǒu děng nín. Nín shì dì-yī cì lái wǒmen jiǔdiàn ma? Yǒu wèntí qǐng gěi wǒmen dǎ diànhuà. Xièxie!",
+    "en": "Dear Ms Wang Li, hello! Come out of the station and walk left for five minutes; there's a big shop ahead. Our hotel is next to the shop. When you reach the entrance, please come in, we'll be waiting for you there. Is this your first stay with us? If you have any questions, please call us. Thank you!",
+    "vi": "Kính gửi chị Vương Lệ! Từ nhà ga đi ra, đi về bên trái năm phút, phía trước có một cửa hàng lớn. Khách sạn của chúng tôi ở cạnh cửa hàng đó. Đến cửa, mời chị vào, chúng tôi đợi chị ở cửa. Chị đến khách sạn chúng tôi lần đầu phải không ạ? Có vấn đề gì xin gọi điện cho chúng tôi. Cảm ơn chị!",
+    "qs": [
+     {
+      "q": "Từ ga ra, đi về phía nào?",
+      "opts": [
+       "bên trái",
+       "bên phải",
+       "đi thẳng"
+      ],
+      "optsEn": [
+       "left",
+       "right",
+       "straight on"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Tin nhắn viết 往左边走 (đi về bên trái), không phải 右边.",
+       "2": "Tin nhắn không viết 往前走."
+      }
+     },
+     {
+      "q": "Đi bộ mất bao lâu?",
+      "opts": [
+       "5 phút",
+       "10 phút",
+       "15 phút"
+      ],
+      "optsEn": [
+       "5 minutes",
+       "10 minutes",
+       "15 minutes"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Tin nhắn viết 五分钟 (năm phút), không phải 十分钟.",
+       "2": "Tin nhắn viết 五分钟 (năm phút)."
+      }
+     },
+     {
+      "q": "Khách sạn ở đâu?",
+      "opts": [
+       "cạnh một cửa hàng lớn",
+       "trong nhà ga",
+       "sau một công ty"
+      ],
+      "optsEn": [
+       "next to a big shop",
+       "inside the station",
+       "behind an office"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Phải đi từ ga ra (从车站出来) rồi đi năm phút, nên không ở trong ga.",
+       "2": "Tin nhắn không nhắc đến công ty; khách sạn 在商店旁边."
+      }
+     },
+     {
+      "q": "Đúng hay sai: 酒店的人在门口等王丽。",
+      "opts": [
+       "Đúng",
+       "Sai"
+      ],
+      "optsEn": [
+       "True",
+       "False"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Tin nhắn viết 我们在门口等您 (chúng tôi đợi chị ở cửa), nên câu này đúng."
+      }
+     },
+     {
+      "q": "Nếu có vấn đề, 王丽 nên làm gì?",
+      "opts": [
+       "gọi điện cho khách sạn",
+       "quay lại nhà ga",
+       "hỏi người đi đường"
+      ],
+      "optsEn": [
+       "call the hotel",
+       "go back to the station",
+       "ask a passer-by"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Tin nhắn không bảo quay lại ga.",
+       "2": "Tin nhắn viết 请给我们打电话 (gọi cho chúng tôi), không nói hỏi người đi đường."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "w5-thu-5",
+   "label": "Thứ 5",
+   "title": "Đi nhờ xe đối tác: xe hỏng giữa đường",
+   "desc": "Nói khoảng cách (A 离 B 远 / 近), bảo ai xuống xe (下来), nói 'từ từ' (慢慢) và nhờ ai làm nhanh / chậm hơn (快 / 慢 + 一点儿).",
+   "rule": "Khoảng cách dùng 离, KHÔNG dùng 从: 这儿离车站很近. 慢慢 đứng trước động từ. Nhờ làm nhanh / chậm hơn: V + 快 / 慢 + 一点儿.",
+   "cards": [
+    {
+     "w": "坏",
+     "py": "huài",
+     "m": "hỏng; xấu",
+     "mEn": "broken; bad",
+     "ex": "车坏了，不能开了。",
+     "expy": "Chē huài le, bù néng kāi le.",
+     "exm": "Xe hỏng rồi, không chạy được nữa.",
+     "exEn": "The car's broken down, it won't go any more.",
+     "n": "坏了 = hỏng rồi (đồ vật). 坏 cũng là 'xấu', trái nghĩa với 好. Thanh 4 rơi mạnh.",
+     "img": "brokencar"
+    },
+    {
+     "w": "下来",
+     "py": "xiàlái",
+     "m": "xuống (về phía người nói)",
+     "mEn": "to come down, to get off/out",
+     "ex": "车坏了，你们下来吧。",
+     "expy": "Chē huài le, nǐmen xiàlái ba.",
+     "exm": "Xe hỏng rồi, các bạn xuống đi.",
+     "exEn": "The car's broken down, please get out.",
+     "n": "下 = xuống, 来 = về phía người nói: người đứng dưới gọi người trên xe xuống thì nói 下来. Giống cặp 回来 / 回去."
+    },
+    {
+     "w": "离",
+     "py": "lí",
+     "m": "cách (khoảng cách)",
+     "mEn": "away from (distance)",
+     "ex": "酒店离车站很近。",
+     "expy": "Jiǔdiàn lí chēzhàn hěn jìn.",
+     "exm": "Khách sạn cách ga rất gần.",
+     "exEn": "The hotel is very close to the station.",
+     "n": "A 离 B + 远 / 近: A cách B xa / gần. Nói khoảng cách thì dùng 离, không dùng 从. Thanh 2 đi lên."
+    },
+    {
+     "w": "远",
+     "py": "yuǎn",
+     "m": "xa",
+     "mEn": "far",
+     "ex": "机场离这儿很远。",
+     "expy": "Jīchǎng lí zhèr hěn yuǎn.",
+     "exm": "Sân bay cách đây rất xa.",
+     "exEn": "The airport is a long way from here.",
+     "n": "很 + 远 đều thanh 3 nên 很 đọc thành hén: hén yuǎn. Trái nghĩa: 近 (gần)."
+    },
+    {
+     "w": "近",
+     "py": "jìn",
+     "m": "gần",
+     "mEn": "near, close",
+     "ex": "车站很近，走路十分钟。",
+     "expy": "Chēzhàn hěn jìn, zǒulù shí fēnzhōng.",
+     "exm": "Ga gần lắm, đi bộ mười phút.",
+     "exEn": "The station is close, ten minutes on foot.",
+     "n": "近 đọc giống 进 (vào): cùng jìn. Nhìn chữ: 近 có 斤, 进 có 井. Trái nghĩa: 远."
+    },
+    {
+     "w": "走路",
+     "py": "zǒulù",
+     "m": "đi bộ",
+     "mEn": "to walk, on foot",
+     "ex": "我们走路去车站吧。",
+     "expy": "Wǒmen zǒulù qù chēzhàn ba.",
+     "exm": "Mình đi bộ ra ga nhé.",
+     "exEn": "Let's walk to the station.",
+     "n": "⚠ Bẫy Hán–Việt: 'tẩu lộ' nhưng 走 là ĐI, không phải 'chạy' hay 'tẩu thoát'. 走路 = đi bộ; 走路十分钟 = đi bộ mười phút.",
+     "img": "walk"
+    },
+    {
+     "w": "路",
+     "py": "lù",
+     "m": "đường",
+     "mEn": "road, way",
+     "ex": "路不长，我们快走吧。",
+     "expy": "Lù bù cháng, wǒmen kuài zǒu ba.",
+     "exm": "Đường không dài, mình đi nhanh lên.",
+     "exEn": "It's not far, let's walk quickly.",
+     "n": "路 = con đường. 路 có bộ 𧾷 (chân) bên trái: đường là chỗ chân đi.",
+     "img": "road"
+    },
+    {
+     "w": "长",
+     "py": "cháng",
+     "m": "dài",
+     "mEn": "long",
+     "ex": "路还很长。",
+     "expy": "Lù hái hěn cháng.",
+     "exm": "Đường còn dài lắm.",
+     "exEn": "There's still a long way to go.",
+     "n": "Nghĩa 'dài' đọc cháng (thanh 2). Cùng chữ này còn đọc zhǎng với nghĩa khác, sẽ học sau. ch bật hơi, cong lưỡi."
+    },
+    {
+     "w": "慢",
+     "py": "màn",
+     "m": "chậm",
+     "mEn": "slow",
+     "ex": "走路太慢了！",
+     "expy": "Zǒulù tài màn le!",
+     "exm": "Đi bộ chậm quá!",
+     "exEn": "Walking is too slow!",
+     "n": "慢慢 + V = từ từ làm gì: 慢慢走. Nhờ chậm lại: 慢一点儿. Thanh 4."
+    },
+    {
+     "w": "快",
+     "py": "kuài",
+     "m": "nhanh; mau lên",
+     "mEn": "fast; quickly",
+     "ex": "我们快走吧！",
+     "expy": "Wǒmen kuài zǒu ba!",
+     "exm": "Mình đi nhanh lên!",
+     "exEn": "Let's hurry!",
+     "n": "快 + V = nhanh lên: 快走. Đã gặp trong 快要 (sắp). Trái nghĩa: 慢. k bật hơi."
+    },
+    {
+     "w": "路上",
+     "py": "lùshang",
+     "m": "trên đường",
+     "mEn": "on the way, on the road",
+     "ex": "我在路上了，快到了。",
+     "expy": "Wǒ zài lùshang le, kuài dào le.",
+     "exm": "Tôi đang trên đường rồi, sắp tới rồi.",
+     "exEn": "I'm on my way, almost there.",
+     "n": "路上 = trên đường (đang đi). shang đọc nhẹ. 路上车很多 = trên đường nhiều xe."
+    }
+   ],
+   "scene": {
+    "setting": "Thứ 5, sau buổi chào Tết ở công ty đối tác, một người bạn của giám đốc Vương lái xe chở 阮安 và 王丽 về khách sạn cạnh ga. Giữa đường xe chết máy; anh xuống xe xem rồi gọi hai người xuống.",
+    "img": "scene-zh-roadside",
+    "imgPrompt": "Realistic photo of a snowy city street in Shanghai; a black sedan stopped at the roadside with its bonnet open, a Chinese driver (driver, grey jacket) apologising; an (Vietnamese woman, blue blouse, dark coat) and wangli (Chinese woman, red sweater, beige coat) step out holding bags, busy traffic, no readable text",
+    "lines": [
+     {
+      "who": "阮安",
+      "t": "车怎么不走了？",
+      "py": "Chē zěnme bù zǒu le?",
+      "vi": "Sao xe không chạy nữa vậy?",
+      "en": "Why has the car stopped?"
+     },
+     {
+      "who": "司机",
+      "t": "对不起，车坏了。你们下来吧。",
+      "py": "Duìbuqǐ, chē huài le. Nǐmen xiàlái ba.",
+      "vi": "Xin lỗi, xe hỏng rồi. Hai chị xuống xe nhé.",
+      "en": "Sorry, the car's broken down. Please get out."
+     },
+     {
+      "who": "王丽",
+      "t": "这儿离车站还远吗？",
+      "py": "Zhèr lí chēzhàn hái yuǎn ma?",
+      "vi": "Từ đây đến ga còn xa không anh?",
+      "en": "Is the station still far from here?"
+     },
+     {
+      "who": "司机",
+      "t": "不远，很近，走路十分钟。",
+      "py": "Bù yuǎn, hěn jìn, zǒulù shí fēnzhōng.",
+      "vi": "Không xa, gần lắm, đi bộ mười phút.",
+      "en": "Not far, it's close. Ten minutes on foot."
+     },
+     {
+      "who": "阮安",
+      "t": "我们的东西很多，走路太慢了！",
+      "py": "Wǒmen de dōngxi hěn duō, zǒulù tài màn le!",
+      "vi": "Đồ của mình nhiều thế này, đi bộ chậm quá!",
+      "en": "We've got so many things, walking will be too slow!"
+     },
+     {
+      "who": "司机",
+      "t": "路上车很多，打车也很慢。",
+      "py": "Lùshang chē hěn duō, dǎchē yě hěn màn.",
+      "vi": "Trên đường xe đông lắm, đi taxi cũng chậm.",
+      "en": "There's a lot of traffic, a taxi would be slow too."
+     },
+     {
+      "who": "王丽",
+      "t": "那我们走路吧，我拿包。",
+      "py": "Nà wǒmen zǒulù ba, wǒ ná bāo.",
+      "vi": "Thế thì mình đi bộ thôi, chị xách túi.",
+      "en": "Then let's walk. I'll carry the bags."
+     },
+     {
+      "who": "阮安",
+      "t": "好！路不长，我们快走吧！",
+      "py": "Hǎo! Lù bù cháng, wǒmen kuài zǒu ba!",
+      "vi": "Vâng! Đường không dài, mình đi nhanh lên!",
+      "en": "OK! It's not far, let's hurry!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Khoảng cách: A 离 B + 远 / 近 (không dùng 从)",
+     "f": [
+      [
+       "这儿",
+       "离",
+       "车站很近"
+      ],
+      [
+       "机场",
+       "离",
+       "酒店很远"
+      ]
+     ],
+     "ex": [
+      [
+       "这儿离车站很近。",
+       "Ở đây cách ga rất gần.",
+       "It's very close to the station from here."
+      ],
+      [
+       "机场离酒店很远。",
+       "Sân bay cách khách sạn rất xa.",
+       "The airport is a long way from the hotel."
+      ]
+     ],
+     "bad": "这儿从车站很近。",
+     "good": "这儿离车站很近。",
+     "why": "Nói khoảng cách dùng 离. 从 chỉ điểm xuất phát của một hành động (从这儿往前走), không đi với 远 / 近."
+    },
+    {
+     "t": "Xuống (về phía người nói): 下来",
+     "f": [
+      [
+       "你们",
+       "下来",
+       "吧"
+      ],
+      [
+       "请你",
+       "下来"
+      ]
+     ],
+     "ex": [
+      [
+       "车坏了，你们下来吧。",
+       "Xe hỏng rồi, các bạn xuống đi.",
+       "The car's broken down, please get out."
+      ],
+      [
+       "我在门口等你，你下来吧。",
+       "Tôi đợi bạn ở cửa, bạn xuống đi.",
+       "I'm waiting at the door, come on down."
+      ]
+     ],
+     "bad": "车坏了，你们来下吧。",
+     "good": "车坏了，你们下来吧。",
+     "why": "下 (xuống) đứng trước, 来 (về phía người nói) đứng sau: 下来. Người nói ở dưới gọi người ở trên xuống."
+    },
+    {
+     "t": "Từ từ: 慢慢 + V",
+     "f": [
+      [
+       "我们",
+       "慢慢",
+       "走"
+      ],
+      [
+       "请你",
+       "慢慢",
+       "说"
+      ]
+     ],
+     "ex": [
+      [
+       "我们慢慢走吧。",
+       "Mình đi từ từ thôi.",
+       "Let's take it slowly."
+      ],
+      [
+       "请你慢慢说。",
+       "Bạn nói chậm thôi nhé.",
+       "Please speak slowly."
+      ]
+     ],
+     "bad": "我们走慢慢吧。",
+     "good": "我们慢慢走吧。",
+     "why": "慢慢 (lặp lại) đứng TRƯỚC động từ. Tiếng Việt nói 'đi từ từ' (sau động từ), tiếng Trung đặt lên trước."
+    },
+    {
+     "t": "Nhờ nhanh / chậm hơn: V + 快 / 慢 + 一点儿",
+     "f": [
+      [
+       "开",
+       "慢",
+       "一点儿"
+      ],
+      [
+       "走",
+       "快",
+       "一点儿"
+      ]
+     ],
+     "ex": [
+      [
+       "请你开慢一点儿。",
+       "Anh lái chậm một chút nhé.",
+       "Please drive a little slower."
+      ],
+      [
+       "我们走快一点儿吧。",
+       "Mình đi nhanh hơn một chút đi.",
+       "Let's walk a bit faster."
+      ]
+     ],
+     "bad": "请你一点儿慢开。",
+     "good": "请你开慢一点儿。",
+     "why": "Động từ + tính từ + 一点儿; 一点儿 đứng cuối. Khác với 有一点儿 + tính từ (hơi…), dùng để than phiền."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "Điền từ: 这儿___车站很近。(Zhèr ___ chēzhàn hěn jìn.)",
+     "opts": [
+      "离",
+      "从",
+      "往"
+     ],
+     "a": 0,
+     "why": {
+      "1": "从 (cóng) chỉ điểm xuất phát của hành động; nói 'cách… gần' phải dùng 离.",
+      "2": "往 (wǎng) chỉ hướng đi (往前走), không nói khoảng cách."
+     }
+    },
+    {
+     "q": "Điền từ: 车___了，不能开了。(Chē ___ le, bù néng kāi le.)",
+     "opts": [
+      "坏",
+      "慢",
+      "远"
+     ],
+     "a": 0,
+     "why": {
+      "1": "车慢了 = xe chậm lại; nhưng vế sau 'không chạy được nữa' cho thấy xe hỏng.",
+      "2": "远 (xa) nói về khoảng cách, không nói tình trạng xe."
+     }
+    },
+    {
+     "q": "Điền từ: 这儿到机场很___，打车要一个小时。(Zhèr dào jīchǎng hěn ___, dǎchē yào yí ge xiǎoshí.)",
+     "opts": [
+      "远",
+      "近",
+      "快"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Đi taxi mất một tiếng thì không phải 'gần'.",
+      "2": "很快 = rất nhanh, mâu thuẫn với 'mất một tiếng'."
+     }
+    },
+    {
+     "q": "Điền từ: 超市很___，走路五分钟。(Chāoshì hěn ___, zǒulù wǔ fēnzhōng.)",
+     "opts": [
+      "近",
+      "远",
+      "长"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Đi bộ năm phút là gần, không phải xa.",
+      "2": "长 (dài) dùng cho con đường (路很长), không dùng cho siêu thị."
+     }
+    },
+    {
+     "q": "⚠ Bẫy Hán–Việt: 走路 (zǒulù, Hán Việt 'tẩu lộ') nghĩa là gì?",
+     "opts": [
+      "đi bộ",
+      "tẩu thoát",
+      "chạy"
+     ],
+     "optsEn": [
+      "to walk",
+      "to escape",
+      "to run"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Âm Hán Việt 'tẩu' gợi 'tẩu thoát', nhưng trong tiếng Trung hiện đại 走 là 'đi'; 走路 = đi bộ.",
+      "2": "'Chạy' là 跑 (pǎo), không phải 走."
+     }
+    },
+    {
+     "q": "Điền từ: 你开车太___了，慢一点儿！(Nǐ kāichē tài ___ le, màn yìdiǎnr!)",
+     "opts": [
+      "快",
+      "近",
+      "长"
+     ],
+     "a": 0,
+     "why": {
+      "1": "近 (gần) không nói về tốc độ lái xe; vế sau bảo 'chậm lại' nên vế trước phải là 'nhanh quá'.",
+      "2": "长 (dài) không nói về cách lái xe."
+     }
+    },
+    {
+     "q": "Điền từ: 我在___了，快到了。(Wǒ zài ___ le, kuài dào le.)",
+     "opts": [
+      "路上",
+      "下来",
+      "走路"
+     ],
+     "a": 0,
+     "why": {
+      "1": "下来 (xuống) là động từ chỉ hướng, không chỉ chỗ người đang ở.",
+      "2": "走路 (đi bộ) là động từ; sau 在 ở đây cần nơi chốn: 在路上 (đang trên đường)."
+     }
+    },
+    {
+     "q": "Điền từ: 路还很___，我们快走吧。(Lù hái hěn ___, wǒmen kuài zǒu ba.)",
+     "opts": [
+      "长",
+      "近",
+      "坏"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Đường còn gần thì không cần giục đi nhanh; nói về con đường còn xa thì dùng 长 (dài).",
+      "2": "路很坏 không phải cách nói tự nhiên ở đây; câu đang nói đường còn dài."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: 离 / 酒店 / 很近 / 车站 (Khách sạn cách ga rất gần.)",
+     "model": "酒店离车站很近。",
+     "accept": [
+      "酒店离车站很近。",
+      "酒店离车站很近",
+      "jiudianlichezhanhenjin"
+     ],
+     "why": "A + 离 + B + 很近: 酒店 + 离 + 车站 + 很近."
+    },
+    {
+     "q": "Sửa câu sai: 我家从公司很远。",
+     "opts": [
+      "我家离公司很远。",
+      "我家往公司很远。",
+      "我家公司从很远。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "往 chỉ hướng đi, không nói khoảng cách; phải dùng 离.",
+      "2": "Câu vẫn dùng 从 và sai trật tự; khoảng cách phải là A 离 B 远."
+     }
+    },
+    {
+     "q": "Trả lời theo gợi ý 'không xa, đi bộ 10 phút': 酒店离这儿远吗？",
+     "opts": [
+      "不远，走路十分钟。",
+      "不远，十分钟走路。",
+      "没远，走路十分钟。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Thời gian đi đứng sau 走路: 走路十分钟.",
+      "2": "Phủ định tính từ dùng 不 (不远), không dùng 没."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Dịch: 'Bệnh viện cách đây rất gần.'",
+     "model": "医院离这儿很近。",
+     "accept": [
+      "医院离这儿很近。",
+      "医院离这儿很近",
+      "医院离这里很近。",
+      "yiyuanlizherhenjin",
+      "yiyuanlizhelihenjin"
+     ],
+     "why": "A 离 B 很近: 医院 + 离 + 这儿 + 很近."
+    },
+    {
+     "q": "Điền từ: 车坏了，大家___吧。(Chē huài le, dàjiā ___ ba.)",
+     "opts": [
+      "下来",
+      "来下",
+      "进去"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai trật tự: 下 (xuống) trước, 来 sau.",
+      "2": "Xe hỏng thì phải xuống xe, không phải 'đi vào'."
+     }
+    },
+    {
+     "q": "Điền dạng lặp của 慢 (màn): 我们___走吧。",
+     "opts": [
+      "慢慢",
+      "慢了",
+      "慢的"
+     ],
+     "a": 0,
+     "why": {
+      "1": "慢了 = chậm lại rồi, không đứng trước động từ để nói 'từ từ'.",
+      "2": "慢的 không đứng trước động từ; 'từ từ đi' là 慢慢走."
+     }
+    },
+    {
+     "q": "Dịch: 'Anh lái chậm một chút nhé.'",
+     "opts": [
+      "请你开慢一点儿。",
+      "请你一点儿开慢。",
+      "请你有一点儿慢开。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "一点儿 đứng cuối, sau tính từ: 开慢一点儿.",
+      "2": "有一点儿 + tính từ là 'hơi…' (than phiền), không dùng để nhờ ai làm chậm lại."
+     }
+    }
+   ],
+   "listen": [
+    {
+     "q": "Từ nhà đến công ty đi bộ mất bao lâu?",
+     "audio": "你家离公司远吗？——不远，走路五分钟。",
+     "opts": [
+      "5 phút",
+      "15 phút",
+      "nửa tiếng"
+     ],
+     "optsEn": [
+      "5 minutes",
+      "15 minutes",
+      "half an hour"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 五分钟 (năm phút), không phải mười lăm phút.",
+      "2": "Nửa tiếng là 半个小时; câu nói 五分钟."
+     }
+    },
+    {
+     "q": "Xe làm sao?",
+     "audio": "车怎么不走了？——车坏了。",
+     "opts": [
+      "xe hỏng",
+      "đường đông",
+      "hết vé"
+     ],
+     "optsEn": [
+      "the car's broken down",
+      "the road is busy",
+      "tickets are sold out"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 车坏了 (xe hỏng), không nói đường đông.",
+      "2": "Không nghe thấy 票."
+     }
+    },
+    {
+     "q": "Đi taxi ra sân bay mất bao lâu?",
+     "audio": "机场离这儿近吗？——很远，打车要一个小时。",
+     "opts": [
+      "1 tiếng",
+      "10 phút",
+      "nửa tiếng"
+     ],
+     "optsEn": [
+      "1 hour",
+      "10 minutes",
+      "half an hour"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nói 一个小时 (một tiếng), không phải 十分钟.",
+      "2": "Không nghe thấy 半 (nửa)."
+     }
+    },
+    {
+     "q": "Người trả lời đang ở đâu?",
+     "audio": "你在哪儿？——在路上，快到了。",
+     "opts": [
+      "trên đường",
+      "ở nhà ga",
+      "ở khách sạn"
+     ],
+     "optsEn": [
+      "on the way",
+      "at the station",
+      "at the hotel"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nói 在路上 (trên đường), 快到了 (sắp tới) nên chưa đến ga.",
+      "2": "Không nghe thấy 酒店."
+     }
+    },
+    {
+     "q": "Người lái xe sẽ làm gì?",
+     "audio": "你开车太快了！——好，我开慢一点儿。",
+     "opts": [
+      "lái chậm lại",
+      "lái nhanh hơn",
+      "dừng xe"
+     ],
+     "optsEn": [
+      "drive more slowly",
+      "drive faster",
+      "stop the car"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 开慢一点儿 (lái chậm lại), ngược với nhanh hơn.",
+      "2": "Không nghe thấy việc dừng xe hay xuống xe."
+     }
+    },
+    {
+     "q": "Người nói thứ nhất đang ở đâu?",
+     "audio": "你们下来吧，我在门口等你们。——好的，我们现在下来。",
+     "opts": [
+      "ở cửa",
+      "trên xe",
+      "trong phòng"
+     ],
+     "optsEn": [
+      "at the door",
+      "in the car",
+      "in the room"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Người thứ nhất nói 我在门口等你们 (tôi đợi ở cửa); người trên xe / ở trên là người thứ hai.",
+      "2": "Không nghe thấy 房间."
+     }
+    },
+    {
+     "q": "Ga còn xa không?",
+     "audio": "这儿离车站还远吗？——不远，很近。",
+     "opts": [
+      "gần",
+      "xa",
+      "rất xa"
+     ],
+     "optsEn": [
+      "close",
+      "far",
+      "very far"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 不远 (không xa).",
+      "2": "Câu trả lời là 很近 (rất gần), ngược với rất xa."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "HSK2 Đọc – phần 3: đọc rồi cho biết câu ★ đúng hay sai. 我家离公司很近，我走路去上班。 ★ 他开车去上班。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu đọc nói 我走路去上班 (tôi đi bộ đi làm), không phải 开车 (lái xe)."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 3: đọc rồi cho biết câu ★ đúng hay sai. 车坏了，我们下来走路吧。 ★ 他们的车坏了。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu đọc nói rõ 车坏了 (xe hỏng rồi), nên ★ đúng."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 3: đọc rồi cho biết câu ★ đúng hay sai. 路上人很多，开车要慢一点儿。 ★ 开车要快一点儿。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu đọc nói 要慢一点儿 (phải chậm lại), ngược với 快一点儿."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 3: đọc rồi cho biết câu ★ đúng hay sai. 上海离南宁很远，坐火车要十几个小时。 ★ 上海离南宁不远。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu đọc nói 很远 (rất xa), đi tàu mất mười mấy tiếng, nên 'không xa' là sai."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 3: đọc rồi cho biết câu ★ đúng hay sai. 我在路上了，十分钟后到你那儿。 ★ 他现在在路上。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu đọc nói 我在路上了 (tôi đang trên đường), nên ★ đúng."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "离",
+     "py": "lí",
+     "focus": "l rõ (không đọc thành n); thanh 2 đi lên từ giữa lên cao.",
+     "en": "away from"
+    },
+    {
+     "t": "很远",
+     "py": "hěn yuǎn",
+     "focus": "thanh 3 + thanh 3 nên 很 đọc thành hén; yuǎn: môi tròn ü rồi mở ra 'an'.",
+     "en": "very far"
+    },
+    {
+     "t": "很近",
+     "py": "hěn jìn",
+     "focus": "j không bật hơi, môi dẹt; jìn rơi mạnh.",
+     "en": "very close"
+    },
+    {
+     "t": "走路",
+     "py": "zǒulù",
+     "focus": "z không bật hơi; thanh 3 + thanh 4: zǒu thấp, lù rơi mạnh.",
+     "en": "to walk"
+    },
+    {
+     "t": "路上",
+     "py": "lùshang",
+     "focus": "lù rơi mạnh; shang đọc nhẹ, ngắn.",
+     "en": "on the way"
+    },
+    {
+     "t": "慢慢走",
+     "py": "mànmàn zǒu",
+     "focus": "hai thanh 4 liền nhau: màn thứ nhất mạnh hơn; zǒu xuống thấp.",
+     "en": "walk slowly"
+    },
+    {
+     "t": "车坏了，你们下来吧。",
+     "py": "Chē huài le, nǐmen xiàlái ba.",
+     "focus": "huài: u lướt nhanh sang ai; xiàlái thanh 4 + thanh 2.",
+     "en": "The car's broken down, please get out."
+    },
+    {
+     "t": "这儿离车站还远吗？",
+     "py": "Zhèr lí chēzhàn hái yuǎn ma?",
+     "focus": "zhèr cuốn lưỡi; 离 lí và 还 hái đều đi lên; giọng hơi lên ở 吗.",
+     "en": "Is the station still far from here?"
+    }
+   ],
+   "dialog": {
+    "title": "Xe hỏng giữa đường: bạn hỏi tài xế ga còn xa không, đi bộ bao lâu. Đổi vai: bạn là tài xế.",
+    "partner": "司机",
+    "turns": [
+     {
+      "ai": "对不起，车坏了，不能开了。",
+      "py": "Duìbuqǐ, chē huài le, bù néng kāi le.",
+      "vi": "Xin lỗi, xe hỏng rồi, không chạy được nữa.",
+      "en": "Sorry, the car's broken down. It won't go.",
+      "model": "这儿离车站远吗？",
+      "mpy": "Zhèr lí chēzhàn yuǎn ma?",
+      "men": "Is the station far from here?",
+      "accept": [
+       "这儿离车站远吗？",
+       "这儿离车站还远吗？",
+       "离车站远吗？",
+       "车站远吗？",
+       "zherlichezhanyuanma",
+       "lichezhanyuanma"
+      ],
+      "frame": "这儿___车站远吗？",
+      "hint": "Hỏi khoảng cách: 这儿 + 离 + 车站 + 远吗？ (không dùng 从)."
+     },
+     {
+      "ai": "不远，很近。",
+      "py": "Bù yuǎn, hěn jìn.",
+      "vi": "Không xa, gần lắm.",
+      "en": "Not far, it's close.",
+      "model": "走路要几分钟？",
+      "mpy": "Zǒulù yào jǐ fēnzhōng?",
+      "men": "How many minutes on foot?",
+      "accept": [
+       "走路要几分钟？",
+       "走路几分钟？",
+       "要走几分钟？",
+       "zouluyaojifenzhong",
+       "zoulujifenzhong"
+      ],
+      "frame": "走路要___分钟？",
+      "hint": "Hỏi đi bộ mất mấy phút: 走路 + 要 + 几分钟？"
+     },
+     {
+      "ai": "走路十分钟。你们下来吧。",
+      "py": "Zǒulù shí fēnzhōng. Nǐmen xiàlái ba.",
+      "vi": "Đi bộ mười phút. Hai chị xuống xe nhé. (tài xế đã đứng ngoài xe)",
+      "en": "Ten minutes on foot. Please get out.",
+      "model": "好，我们下来。",
+      "mpy": "Hǎo, wǒmen xiàlái.",
+      "men": "OK, we're getting out.",
+      "accept": [
+       "好，我们下来。",
+       "我们下来。",
+       "好的，我们下来。",
+       "好。",
+       "haowomenxialai",
+       "womenxialai"
+      ],
+      "frame": "好，我们___。",
+      "hint": "Đồng ý xuống xe: 我们 + 下来."
+     },
+     {
+      "ai": "路上车很多，你们慢慢走。",
+      "py": "Lùshang chē hěn duō, nǐmen mànmàn zǒu.",
+      "vi": "Trên đường xe đông, hai chị đi từ từ nhé.",
+      "en": "There's a lot of traffic, take it slowly.",
+      "model": "谢谢！路不长，我们走路去。",
+      "mpy": "Xièxie! Lù bù cháng, wǒmen zǒulù qù.",
+      "men": "Thanks! It's not far, we'll walk.",
+      "accept": [
+       "谢谢！路不长，我们走路去。",
+       "路不长，我们走路去。",
+       "我们走路去。",
+       "谢谢！我们走路去。",
+       "xiexielubuchangwomenzouluqu",
+       "womenzouluqu"
+      ],
+      "frame": "谢谢！路不___，我们走路去。",
+      "hint": "Nói đường không dài (路不长), mình đi bộ (走路去)."
+     },
+     {
+      "ai": "到了车站给我打电话。",
+      "py": "Dào le chēzhàn gěi wǒ dǎ diànhuà.",
+      "vi": "Đến ga thì gọi điện cho tôi nhé.",
+      "en": "Give me a call when you get to the station.",
+      "model": "好，到了车站我给你打电话。",
+      "mpy": "Hǎo, dào le chēzhàn wǒ gěi nǐ dǎ diànhuà.",
+      "men": "OK, I'll call you when we get there.",
+      "accept": [
+       "好，到了车站我给你打电话。",
+       "好，我给你打电话。",
+       "我给你打电话。",
+       "好的。",
+       "haodaolechezhanwogeinidadianhua",
+       "wogeinidadianhua"
+      ],
+      "frame": "好，到了车站我给你___。",
+      "hint": "Hứa sẽ gọi: 我给你 + 打电话."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Nhật ký ngắn của 阮安",
+    "text": "今天上午，我和王丽坐王经理朋友的车去车站。路上，车坏了，不能开了。我们下来走路。车站离那儿不远，走路十分钟。路上人很多，我们慢慢走。十一点，我们到车站了。王丽说：“走路也很好！”",
+    "py": "Jīntiān shàngwǔ, wǒ hé Wáng Lì zuò Wáng jīnglǐ péngyou de chē qù chēzhàn. Lùshang, chē huài le, bù néng kāi le. Wǒmen xiàlái zǒulù. Chēzhàn lí nàr bù yuǎn, zǒulù shí fēnzhōng. Lùshang rén hěn duō, wǒmen mànmàn zǒu. Shíyī diǎn, wǒmen dào chēzhàn le. Wáng Lì shuō: “Zǒulù yě hěn hǎo!”",
+    "en": "This morning, Wang Li and I got a lift from Mr Wang's friend to the station. On the way, the car broke down and couldn't go on. We got out and walked. The station wasn't far from there, ten minutes on foot. There were lots of people on the way, so we walked slowly. At eleven we reached the station. Wang Li said: “Walking is nice too!”",
+    "vi": "Sáng nay, tôi và Vương Lệ đi nhờ xe của một người bạn giám đốc Vương ra ga. Trên đường xe hỏng, không chạy được nữa. Chúng tôi xuống xe đi bộ. Ga cách chỗ đó không xa, đi bộ mười phút. Trên đường đông người, chúng tôi đi từ từ. 11 giờ, chúng tôi đến ga. Vương Lệ nói: “Đi bộ cũng hay mà!”",
+    "qs": [
+     {
+      "q": "Trên đường đã xảy ra chuyện gì?",
+      "opts": [
+       "xe hỏng",
+       "trời mưa",
+       "họ bị lạc đường"
+      ],
+      "optsEn": [
+       "the car broke down",
+       "it rained",
+       "they got lost"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài không nhắc đến 下雨 (mưa).",
+       "2": "Họ biết ga không xa nên không bị lạc; chuyện xảy ra là 车坏了."
+      }
+     },
+     {
+      "q": "Từ chỗ xe hỏng đến ga bao xa?",
+      "opts": [
+       "đi bộ 10 phút",
+       "đi bộ 1 tiếng",
+       "rất xa"
+      ],
+      "optsEn": [
+       "10 minutes on foot",
+       "an hour on foot",
+       "very far"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 走路十分钟 (đi bộ mười phút), không phải một tiếng.",
+       "2": "Bài viết 不远 (không xa)."
+      }
+     },
+     {
+      "q": "Họ đi như thế nào?",
+      "opts": [
+       "đi bộ từ từ",
+       "đi taxi",
+       "đi rất nhanh"
+      ],
+      "optsEn": [
+       "they walked slowly",
+       "by taxi",
+       "very fast"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài không nói đi taxi; họ 下来走路 (xuống xe đi bộ).",
+       "2": "Bài viết 我们慢慢走 (đi từ từ), ngược với đi rất nhanh."
+      }
+     },
+     {
+      "q": "Mấy giờ họ đến ga?",
+      "opts": [
+       "11 giờ",
+       "10 giờ",
+       "10 rưỡi"
+      ],
+      "optsEn": [
+       "11 o'clock",
+       "10 o'clock",
+       "half past ten"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 十一点 (11 giờ), không phải 十点.",
+       "2": "Không có 半 trong bài; giờ đến là 十一点."
+      }
+     },
+     {
+      "q": "Đúng hay sai: 王丽觉得走路不好。",
+      "opts": [
+       "Sai",
+       "Đúng"
+      ],
+      "optsEn": [
+       "False",
+       "True"
+      ],
+      "a": 0,
+      "why": {
+       "1": "王丽 nói 走路也很好 (đi bộ cũng hay), tức là chị thấy đi bộ tốt, nên câu này sai."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "w5-thu-6",
+   "label": "Thứ 6",
+   "title": "Xem thời tiết, chọn tàu điện ngầm hay xe buýt ra ga",
+   "desc": "Nói làm gì cùng ai (跟……一起), đề xuất sau khi cân nhắc (还是……吧), nối ý 'vậy thì' (那么) và nói điều mình mong (希望) trước chuyến tàu về ăn Tết.",
+   "rule": "跟 + người + 一起 + V: cùng ai làm gì. 还是 + V + 吧 là lời ĐỀ XUẤT (câu kể), khác câu hỏi A 还是 B. 那么 đứng đầu câu: 'vậy thì…'.",
+   "cards": [
+    {
+     "w": "地铁",
+     "py": "dìtiě",
+     "m": "tàu điện ngầm",
+     "mEn": "subway, metro",
+     "ex": "坐地铁去车站很快。",
+     "expy": "Zuò dìtiě qù chēzhàn hěn kuài.",
+     "exm": "Đi tàu điện ngầm ra ga rất nhanh.",
+     "exEn": "Taking the metro to the station is quick.",
+     "n": "地 = đất, 铁 = sắt: 'đường sắt dưới đất'. 坐地铁 = đi tàu điện ngầm. Thanh 4 + thanh 3.",
+     "img": "metro"
+    },
+    {
+     "w": "公交车",
+     "py": "gōngjiāochē",
+     "m": "xe buýt",
+     "mEn": "bus",
+     "ex": "公交车站在酒店门口。",
+     "expy": "Gōngjiāochē zhàn zài jiǔdiàn ménkǒu.",
+     "exm": "Trạm xe buýt ở trước cửa khách sạn.",
+     "exEn": "The bus stop is at the hotel entrance.",
+     "n": "公交 = giao thông công cộng; 公交车 = xe buýt. Ba thanh 1 liền nhau: giữ giọng cao, đều.",
+     "img": "bus"
+    },
+    {
+     "w": "出门",
+     "py": "chūmén",
+     "m": "ra ngoài, ra khỏi nhà",
+     "mEn": "to go out, to leave home",
+     "ex": "我们八点出门。",
+     "expy": "Wǒmen bā diǎn chūmén.",
+     "exm": "Chúng tôi ra khỏi nhà lúc 8 giờ.",
+     "exEn": "We're leaving at eight.",
+     "n": "出 = ra, 门 = cửa: bước ra khỏi cửa. Giờ đứng TRƯỚC 出门: 八点出门. ch bật hơi."
+    },
+    {
+     "w": "跟",
+     "py": "gēn",
+     "m": "với, cùng (ai)",
+     "mEn": "with",
+     "ex": "我跟你一起去。",
+     "expy": "Wǒ gēn nǐ yìqǐ qù.",
+     "exm": "Tôi đi cùng bạn.",
+     "exEn": "I'll go with you.",
+     "n": "跟 + người + 一起 + V. Giống 和 (hé) nhưng hay dùng trong văn nói. -n mũi trước: gēn, không đọc thành gēng."
+    },
+    {
+     "w": "那么",
+     "py": "nàme",
+     "m": "vậy thì; như thế",
+     "mEn": "then, in that case; so",
+     "ex": "你不想打车？那么我们坐公交车吧。",
+     "expy": "Nǐ bù xiǎng dǎchē? Nàme wǒmen zuò gōngjiāochē ba.",
+     "exm": "Bạn không muốn đi taxi à? Vậy thì mình đi xe buýt.",
+     "exEn": "You don't want a taxi? Then let's take the bus.",
+     "n": "Đứng đầu câu: 'vậy thì', nối với ý người kia vừa nói. me đọc nhẹ."
+    },
+    {
+     "w": "希望",
+     "py": "xīwàng",
+     "m": "hy vọng, mong",
+     "mEn": "to hope",
+     "ex": "我希望明天是晴天。",
+     "expy": "Wǒ xīwàng míngtiān shì qíngtiān.",
+     "exm": "Tôi mong mai trời nắng.",
+     "exEn": "I hope it'll be sunny tomorrow.",
+     "n": "希望 + cả một câu: 希望明天是晴天. x: mặt lưỡi gần ngạc cứng, môi dẹt (không đọc thành 's')."
+    },
+    {
+     "w": "晴",
+     "py": "qíng",
+     "m": "(trời) nắng, quang đãng",
+     "mEn": "sunny, clear",
+     "ex": "今天是晴天。",
+     "expy": "Jīntiān shì qíngtiān.",
+     "exm": "Hôm nay trời nắng.",
+     "exEn": "It's sunny today.",
+     "n": "晴天 = ngày nắng. 晴 có 日 (mặt trời) bên trái; 请 (mời) có 讠. -ng mũi sau: qíng.",
+     "img": "sunny"
+    },
+    {
+     "w": "阴",
+     "py": "yīn",
+     "m": "(trời) âm u, nhiều mây",
+     "mEn": "cloudy, overcast",
+     "ex": "今天是阴天，可能要下雪。",
+     "expy": "Jīntiān shì yīntiān, kěnéng yào xià xuě.",
+     "exm": "Hôm nay trời âm u, có lẽ sắp có tuyết.",
+     "exEn": "It's cloudy today, it might snow.",
+     "n": "阴天 = ngày âm u. -n mũi trước: yīn (khác qíng có -ng). Trái nghĩa: 晴.",
+     "img": "cloudy"
+    },
+    {
+     "w": "准备",
+     "py": "zhǔnbèi",
+     "m": "chuẩn bị",
+     "mEn": "to prepare, to get ready",
+     "ex": "你准备好了吗？",
+     "expy": "Nǐ zhǔnbèi hǎo le ma?",
+     "exm": "Bạn chuẩn bị xong chưa?",
+     "exEn": "Are you ready?",
+     "n": "准备好了 = chuẩn bị xong rồi. 准备 + V = định, sắp làm: 准备出门. zh không bật hơi."
+    },
+    {
+     "w": "站",
+     "py": "zhàn",
+     "m": "trạm, ga",
+     "mEn": "station, stop",
+     "ex": "地铁站离酒店很近。",
+     "expy": "Dìtiězhàn lí jiǔdiàn hěn jìn.",
+     "exm": "Ga tàu điện ngầm cách khách sạn rất gần.",
+     "exEn": "The metro station is very close to the hotel.",
+     "n": "站 ghép sau phương tiện: 地铁站 ga tàu điện ngầm, 公交车站 trạm xe buýt, 车站 nhà ga.",
+     "img": "station"
+    },
+    {
+     "w": "时",
+     "py": "shí",
+     "m": "lúc, khi",
+     "mEn": "when, at the time of",
+     "ex": "过年时，我想在家。",
+     "expy": "Guònián shí, wǒ xiǎng zài jiā.",
+     "exm": "Lúc Tết, tôi muốn ở nhà.",
+     "exEn": "At New Year, I want to be at home.",
+     "n": "Sự việc + 时 = lúc… (ngắn gọn hơn 的时候). Đứng sau sự việc: 过年时. sh cong lưỡi."
+    }
+   ],
+   "scene": {
+    "setting": "Sáng Thứ 6, ngày cuối trước Tết. 阮安 và 王丽 xem trời ở cửa khách sạn, chọn đi tàu điện ngầm hay xe buýt ra ga để kịp chuyến tàu về.",
+    "img": "scene-zh-metro",
+    "imgPrompt": "Realistic photo at a Shanghai metro station entrance on a grey winter morning; an (Vietnamese woman, blue blouse, dark coat) checks the weather on her phone while wangli (Chinese woman, red sweater, beige coat) points towards the metro entrance, a bus stop and a red bus nearby, suitcases, no readable text",
+    "lines": [
+     {
+      "who": "王丽",
+      "t": "今天是晴天还是阴天？",
+      "py": "Jīntiān shì qíngtiān háishi yīntiān?",
+      "vi": "Hôm nay trời nắng hay âm u nhỉ?",
+      "en": "Is it sunny or cloudy today?"
+     },
+     {
+      "who": "阮安",
+      "t": "阴天，可能要下雪。",
+      "py": "Yīntiān, kěnéng yào xià xuě.",
+      "vi": "Âm u, chắc sắp có tuyết.",
+      "en": "Cloudy. It might snow."
+     },
+     {
+      "who": "王丽",
+      "t": "我们坐地铁还是坐公交车去车站？",
+      "py": "Wǒmen zuò dìtiě háishi zuò gōngjiāochē qù chēzhàn?",
+      "vi": "Mình ra ga bằng tàu điện ngầm hay xe buýt?",
+      "en": "Shall we take the metro or the bus to the station?"
+     },
+     {
+      "who": "阮安",
+      "t": "公交车太慢了，还是坐地铁吧。",
+      "py": "Gōngjiāochē tài màn le, háishi zuò dìtiě ba.",
+      "vi": "Xe buýt chậm quá, thôi mình cứ đi tàu điện ngầm.",
+      "en": "The bus is too slow. Let's take the metro."
+     },
+     {
+      "who": "王丽",
+      "t": "地铁站离酒店近吗？",
+      "py": "Dìtiězhàn lí jiǔdiàn jìn ma?",
+      "vi": "Ga tàu điện ngầm có gần khách sạn không?",
+      "en": "Is the metro station close to the hotel?"
+     },
+     {
+      "who": "阮安",
+      "t": "很近，在酒店右边。",
+      "py": "Hěn jìn, zài jiǔdiàn yòubian.",
+      "vi": "Gần lắm, ở bên phải khách sạn.",
+      "en": "Very close, just to the right of the hotel."
+     },
+     {
+      "who": "王丽",
+      "t": "那么，我们准备出门吧！",
+      "py": "Nàme, wǒmen zhǔnbèi chūmén ba!",
+      "vi": "Vậy thì mình chuẩn bị ra ngoài thôi!",
+      "en": "Right then, let's get ready to go!"
+     },
+     {
+      "who": "阮安",
+      "t": "好，我跟你一起走。希望过年时能到家！",
+      "py": "Hǎo, wǒ gēn nǐ yìqǐ zǒu. Xīwàng guònián shí néng dào jiā!",
+      "vi": "Vâng, em đi cùng chị. Mong là đến Tết về được tới nhà!",
+      "en": "OK, I'll go with you. I hope we make it home for New Year!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Cùng ai làm gì: 跟 + người + 一起 + V",
+     "f": [
+      [
+       "我",
+       "跟",
+       "你一起去"
+      ],
+      [
+       "王丽",
+       "跟",
+       "阮安一起走"
+      ]
+     ],
+     "ex": [
+      [
+       "我跟你一起去。",
+       "Tôi đi cùng bạn.",
+       "I'll go with you."
+      ],
+      [
+       "你跟谁一起出门？",
+       "Bạn ra ngoài với ai?",
+       "Who are you going out with?"
+      ]
+     ],
+     "bad": "我一起跟你去。",
+     "good": "我跟你一起去。",
+     "why": "跟 + người đứng trước, 一起 đứng ngay trước động từ: 跟你 + 一起 + 去."
+    },
+    {
+     "t": "Đề xuất: 还是 + V + 吧 (thôi thì cứ…)",
+     "f": [
+      [
+       "我们",
+       "还是",
+       "坐地铁吧"
+      ],
+      [
+       "我们",
+       "还是",
+       "明天走吧"
+      ]
+     ],
+     "ex": [
+      [
+       "打车太贵了，还是坐地铁吧。",
+       "Taxi đắt quá, thôi cứ đi tàu điện ngầm.",
+       "Taxis are too expensive. Let's take the metro."
+      ],
+      [
+       "下雪了，我们还是明天走吧。",
+       "Tuyết rơi rồi, thôi mình để mai đi.",
+       "It's snowing. We'd better leave tomorrow."
+      ]
+     ],
+     "bad": "打车太贵了，还是坐地铁吗？",
+     "good": "打车太贵了，还是坐地铁吧。",
+     "why": "还是……吧 là lời đề xuất (câu kể, kết bằng 吧). Đề xuất thì không dùng 吗. Đừng nhầm với câu hỏi A 还是 B?"
+    },
+    {
+     "t": "Vậy thì: 那么, + câu",
+     "f": [
+      [
+       "你不想打车？",
+       "那么",
+       "坐公交车吧"
+      ],
+      [
+       "好，",
+       "那么",
+       "八点见"
+      ]
+     ],
+     "ex": [
+      [
+       "你不想打车？那么我们坐公交车吧。",
+       "Bạn không muốn đi taxi à? Vậy thì mình đi xe buýt.",
+       "You don't want a taxi? Then let's take the bus."
+      ],
+      [
+       "那么，我们八点在地铁站见。",
+       "Vậy thì 8 giờ mình gặp nhau ở ga tàu điện ngầm.",
+       "Then let's meet at the metro station at eight."
+      ]
+     ],
+     "bad": "我们那么坐公交车吧。",
+     "good": "那么，我们坐公交车吧。",
+     "why": "那么 nghĩa 'vậy thì' đứng ĐẦU câu, nối với ý vừa nói. Đặt sau chủ ngữ (我们那么坐) thì 那么 thành 'như thế', nghĩa khác hẳn."
+    },
+    {
+     "t": "Mong rằng: 希望 + câu",
+     "f": [
+      [
+       "我",
+       "希望",
+       "明天是晴天"
+      ],
+      [
+       "我们",
+       "希望",
+       "过年时能到家"
+      ]
+     ],
+     "ex": [
+      [
+       "我希望明天是晴天。",
+       "Tôi mong mai trời nắng.",
+       "I hope it'll be sunny tomorrow."
+      ],
+      [
+       "希望过年时能到家！",
+       "Mong là đến Tết về được tới nhà!",
+       "I hope we get home in time for New Year!"
+      ]
+     ],
+     "bad": "我希望明天晴天是。",
+     "good": "我希望明天是晴天。",
+     "why": "Sau 希望 là cả một câu theo đúng trật tự: chủ ngữ + 是 + …; không đẩy 是 xuống cuối."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "Điền từ: 坐___去机场很快。(Zuò ___ qù jīchǎng hěn kuài.)",
+     "opts": [
+      "地铁",
+      "出门",
+      "希望"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sau 坐 (ngồi, đi bằng) cần một phương tiện; 出门 (ra ngoài) là động từ.",
+      "2": "希望 (hy vọng) không phải phương tiện."
+     }
+    },
+    {
+     "q": "Điền từ: 我们在公交车___等你。(Wǒmen zài gōngjiāochē ___ děng nǐ.)",
+     "opts": [
+      "站",
+      "时",
+      "晴"
+     ],
+     "a": 0,
+     "why": {
+      "1": "公交车时 = lúc đi xe buýt, không phải nơi chốn; sau 在 cần chỗ đứng đợi: 公交车站.",
+      "2": "晴 (nắng) nói về thời tiết, không ghép với 公交车."
+     }
+    },
+    {
+     "q": "Điền từ: 今天是___天，不会下雨。(Jīntiān shì ___ tiān, bú huì xià yǔ.)",
+     "opts": [
+      "晴",
+      "阴",
+      "站"
+     ],
+     "a": 0,
+     "why": {
+      "1": "阴天 (trời âm u) thì có thể mưa; câu nói chắc chắn không mưa nên hợp với 晴天 (trời nắng).",
+      "2": "站 (trạm) không ghép với 天 để nói thời tiết."
+     }
+    },
+    {
+     "q": "Điền từ: 我___你一起去。(Wǒ ___ nǐ yìqǐ qù.)",
+     "opts": [
+      "跟",
+      "那么",
+      "准备"
+     ],
+     "a": 0,
+     "why": {
+      "1": "那么 (vậy thì) đứng đầu câu, không đứng giữa 我 và 你.",
+      "2": "准备你 (chuẩn bị bạn) không có nghĩa; 'cùng bạn' là 跟你."
+     }
+    },
+    {
+     "q": "Điền từ: 我们___好了，走吧！(Wǒmen ___ hǎo le, zǒu ba!)",
+     "opts": [
+      "准备",
+      "希望",
+      "出门"
+     ],
+     "a": 0,
+     "why": {
+      "1": "希望好了 không có nghĩa; 'chuẩn bị xong rồi' là 准备好了.",
+      "2": "出门 (ra ngoài) không đi với 好了 kiểu này; câu đang nói đã sẵn sàng."
+     }
+    },
+    {
+     "q": "Điền từ: 过年___，我想在家。(Guònián ___, wǒ xiǎng zài jiā.)",
+     "opts": [
+      "时",
+      "站",
+      "跟"
+     ],
+     "a": 0,
+     "why": {
+      "1": "站 (trạm) là nơi chốn; sau 过年 cần 'lúc': 过年时.",
+      "2": "跟 (với) cần người theo sau, không đứng cuối cụm."
+     }
+    },
+    {
+     "q": "公交车 (gōngjiāochē) là gì?",
+     "opts": [
+      "xe buýt",
+      "tàu điện ngầm",
+      "taxi"
+     ],
+     "optsEn": [
+      "bus",
+      "metro",
+      "taxi"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Tàu điện ngầm là 地铁 (dìtiě).",
+      "2": "Taxi là 出租车 (chūzūchē); 打车 = đi taxi."
+     }
+    },
+    {
+     "q": "Điền từ: 我早上八点___，坐地铁去上班。(Wǒ zǎoshang bā diǎn ___, zuò dìtiě qù shàngbān.)",
+     "opts": [
+      "出门",
+      "晴",
+      "站"
+     ],
+     "a": 0,
+     "why": {
+      "1": "晴 (nắng) không nói việc người làm lúc 8 giờ.",
+      "2": "站 (trạm) là danh từ; sau giờ giấc ở đây cần một việc làm: 出门 (ra khỏi nhà)."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: 跟 / 一起 / 我 / 你 / 去 (Tôi đi cùng bạn.)",
+     "model": "我跟你一起去。",
+     "accept": [
+      "我跟你一起去。",
+      "我跟你一起去",
+      "wogenniyiqiqu"
+     ],
+     "why": "我 + 跟你 + 一起 + 去: người đi cùng đứng sau 跟, 一起 đứng ngay trước động từ."
+    },
+    {
+     "q": "Dịch: 'Bạn đi cùng ai?'",
+     "opts": [
+      "你跟谁一起去？",
+      "你一起跟谁去？",
+      "谁你跟一起去？"
+     ],
+     "a": 0,
+     "why": {
+      "1": "一起 đứng ngay trước động từ, sau 跟谁.",
+      "2": "Từ để hỏi 谁 nằm đúng chỗ người được hỏi (sau 跟), không kéo lên đầu câu."
+     }
+    },
+    {
+     "q": "Điền từ: 打车太贵了，___坐地铁吧。(Dǎchē tài guì le, ___ zuò dìtiě ba.)",
+     "opts": [
+      "还是",
+      "希望",
+      "跟"
+     ],
+     "a": 0,
+     "why": {
+      "1": "希望坐地铁吧 không tự nhiên; câu đề xuất sau khi cân nhắc dùng 还是……吧.",
+      "2": "跟 cần người theo sau (跟你), không đứng trước 坐地铁."
+     }
+    },
+    {
+     "q": "Câu nào là lời ĐỀ XUẤT?",
+     "opts": [
+      "还是坐地铁吧。",
+      "你坐地铁还是坐公交车？"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu này là câu HỎI lựa chọn (A 还是 B?), không phải lời đề xuất."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Hoàn thành câu (gợi ý: thôi cứ không ra ngoài): 下雪了，我们___吧。",
+     "model": "还是不出门",
+     "accept": [
+      "还是不出门",
+      "haishibuchumen",
+      "不出门"
+     ],
+     "why": "Đề xuất sau khi cân nhắc: 还是 + 不出门 + 吧."
+    },
+    {
+     "q": "Điền từ: 你不想打车？___我们坐公交车吧。(Nǐ bù xiǎng dǎchē? ___ wǒmen zuò gōngjiāochē ba.)",
+     "opts": [
+      "那么",
+      "希望",
+      "准备"
+     ],
+     "a": 0,
+     "why": {
+      "1": "希望 (hy vọng) không nối với ý người kia vừa nói; 'vậy thì' là 那么.",
+      "2": "准备我们 không có nghĩa; chỗ đầu câu cần từ nối 那么."
+     }
+    },
+    {
+     "q": "Dịch: 'Tôi mong mai trời nắng.'",
+     "opts": [
+      "我希望明天是晴天。",
+      "我希望明天晴天是。",
+      "我明天希望晴天。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sau 希望 câu phải đúng trật tự: 明天 + 是 + 晴天; 是 không đứng cuối.",
+      "2": "明天 phải nằm trong điều mong (mai trời nắng), không đứng trước 希望 (thành 'mai tôi mong')."
+     }
+    }
+   ],
+   "listen": [
+    {
+     "q": "Hôm nay trời thế nào?",
+     "audio": "今天是晴天还是阴天？——阴天，可能下雨。",
+     "opts": [
+      "âm u",
+      "nắng",
+      "có tuyết to"
+     ],
+     "optsEn": [
+      "cloudy",
+      "sunny",
+      "heavy snow"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 阴天 (âm u), không phải 晴天.",
+      "2": "Câu nói 可能下雨 (có lẽ mưa), không nói tuyết to."
+     }
+    },
+    {
+     "q": "Người trả lời đi làm bằng gì?",
+     "audio": "你怎么去公司？——坐地铁，地铁站离我家很近。",
+     "opts": [
+      "tàu điện ngầm",
+      "xe buýt",
+      "taxi"
+     ],
+     "optsEn": [
+      "metro",
+      "bus",
+      "taxi"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Xe buýt là 公交车; câu trả lời là 坐地铁.",
+      "2": "Không nghe thấy 打车."
+     }
+    },
+    {
+     "q": "Người trả lời ra ngoài với ai?",
+     "audio": "你跟谁一起出门？——跟王丽。",
+     "opts": [
+      "王丽",
+      "王经理",
+      "một mình"
+     ],
+     "optsEn": [
+      "",
+      "",
+      "alone"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 跟王丽, không phải 王经理.",
+      "2": "Có người đi cùng (跟王丽), không phải đi một mình."
+     }
+    },
+    {
+     "q": "Trạm xe buýt ở đâu?",
+     "audio": "公交车站在哪儿？——在酒店门口。",
+     "opts": [
+      "trước cửa khách sạn",
+      "cạnh nhà ga",
+      "bên trái công ty"
+     ],
+     "optsEn": [
+      "at the hotel entrance",
+      "next to the station",
+      "to the left of the office"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Không nghe thấy 车站旁边.",
+      "2": "Không nghe thấy 公司 hay 左边."
+     }
+    },
+    {
+     "q": "Người trả lời chuẩn bị xong chưa?",
+     "audio": "你准备好了吗？——好了，我们走吧。",
+     "opts": [
+      "xong rồi",
+      "chưa xong",
+      "đang chuẩn bị"
+     ],
+     "optsEn": [
+      "ready",
+      "not ready",
+      "still getting ready"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 好了 (xong rồi), lại còn giục 我们走吧.",
+      "2": "好了 = đã xong, không phải đang làm."
+     }
+    },
+    {
+     "q": "Họ mong mai trời thế nào?",
+     "audio": "我希望明天是晴天。——我也希望，明天我们出门。",
+     "opts": [
+      "nắng",
+      "âm u",
+      "có tuyết"
+     ],
+     "optsEn": [
+      "sunny",
+      "cloudy",
+      "snowy"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nói 晴天 (trời nắng), không phải 阴天.",
+      "2": "Không nghe thấy 下雪."
+     }
+    },
+    {
+     "q": "Người nói đề xuất gì?",
+     "audio": "公交车太慢了，还是坐地铁吧。",
+     "opts": [
+      "đi tàu điện ngầm",
+      "đi xe buýt",
+      "đi taxi"
+     ],
+     "optsEn": [
+      "take the metro",
+      "take the bus",
+      "take a taxi"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Người nói chê 公交车太慢了 (xe buýt chậm quá) nên không chọn xe buýt.",
+      "2": "Không nghe thấy 打车."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "HSK2 Nghe – phần 2: nghe hội thoại, chọn tranh phù hợp.",
+     "audio": "今天天气怎么样？——是晴天，很热。",
+     "opts": [
+      "Trời nắng chang chang",
+      "Lối vào ga tàu điện ngầm",
+      "Trời âm u, nhiều mây"
+     ],
+     "optsEn": [
+      "A hot, sunny day",
+      "A metro station entrance",
+      "A grey, cloudy sky"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Hội thoại nói về thời tiết, không nói về phương tiện.",
+      "2": "Câu trả lời là 晴天 (nắng), không phải 阴天."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 2: nghe hội thoại, chọn tranh phù hợp.",
+     "audio": "你怎么去？——我坐地铁去。",
+     "opts": [
+      "Lối vào ga tàu điện ngầm",
+      "Mọi người đợi ở trạm xe buýt",
+      "Người cầm vé máy bay"
+     ],
+     "optsEn": [
+      "A metro station entrance",
+      "People waiting at a bus stop",
+      "A person holding a plane ticket"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 坐地铁, không phải 公交车.",
+      "2": "Không nghe thấy 飞机 hay 机票."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 2: nghe hội thoại, chọn tranh phù hợp.",
+     "audio": "公交车怎么还不来？——再等一会儿吧。",
+     "opts": [
+      "Mọi người đợi ở trạm xe buýt",
+      "Trời nắng chang chang",
+      "Hai người bước ra khỏi cửa"
+     ],
+     "optsEn": [
+      "People waiting at a bus stop",
+      "A hot, sunny day",
+      "Two people stepping out of a door"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Hội thoại nói về việc đợi xe buýt, không nói thời tiết.",
+      "2": "Họ vẫn đang đợi (再等一会儿), chưa phải lúc ra khỏi nhà."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 2: nghe hội thoại, chọn tranh phù hợp.",
+     "audio": "今天是阴天吗？——对，可能下雨。",
+     "opts": [
+      "Trời âm u, nhiều mây",
+      "Trời nắng chang chang",
+      "Lối vào ga tàu điện ngầm"
+     ],
+     "optsEn": [
+      "A grey, cloudy sky",
+      "A hot, sunny day",
+      "A metro station entrance"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời 对 xác nhận 阴天 (âm u), không phải nắng.",
+      "2": "Hội thoại nói về thời tiết, không nói về tàu điện ngầm."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 2: nghe hội thoại, chọn tranh phù hợp.",
+     "audio": "你准备好了吗？——好了，我们出门吧！",
+     "opts": [
+      "Hai người bước ra khỏi cửa",
+      "Mọi người đợi ở trạm xe buýt",
+      "Người cầm vé máy bay"
+     ],
+     "optsEn": [
+      "Two people stepping out of a door",
+      "People waiting at a bus stop",
+      "A person holding a plane ticket"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Không nghe thấy 公交车; câu nói 出门 (ra ngoài).",
+      "2": "Không nghe thấy 机票."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "地铁",
+     "py": "dìtiě",
+     "focus": "thanh 4 + thanh 3: dì rơi mạnh, tiě xuống thấp; t bật hơi.",
+     "en": "metro"
+    },
+    {
+     "t": "公交车",
+     "py": "gōngjiāochē",
+     "focus": "ba thanh 1 liền nhau, giữ cao và đều; j không bật hơi, ch bật hơi.",
+     "en": "bus"
+    },
+    {
+     "t": "晴天",
+     "py": "qíngtiān",
+     "focus": "qíng có -ng mũi sau (miệng mở, lưỡi lùi); q bật hơi.",
+     "en": "sunny day"
+    },
+    {
+     "t": "阴天",
+     "py": "yīntiān",
+     "focus": "yīn có -n mũi trước (lưỡi chạm lợi trên). So sánh: qíng / yīn.",
+     "en": "cloudy day"
+    },
+    {
+     "t": "出门",
+     "py": "chūmén",
+     "focus": "ch bật hơi, cong lưỡi; thanh 1 + thanh 2.",
+     "en": "to go out"
+    },
+    {
+     "t": "我跟你一起去。",
+     "py": "Wǒ gēn nǐ yìqǐ qù.",
+     "focus": "gēn -n mũi trước (không thành gēng); 你一 là nǐ yì; 起 qǐ thanh 3 trước thanh 4 đọc nửa.",
+     "en": "I'll go with you."
+    },
+    {
+     "t": "还是坐地铁吧。",
+     "py": "Háishi zuò dìtiě ba.",
+     "focus": "z không bật hơi: zuò; giọng hạ xuống ở cuối vì đây là lời đề xuất, không phải câu hỏi.",
+     "en": "Let's take the metro."
+    },
+    {
+     "t": "希望过年时能到家！",
+     "py": "Xīwàng guònián shí néng dào jiā!",
+     "focus": "x môi dẹt; 时 shí cong lưỡi, đi lên; néng -ng mũi sau.",
+     "en": "I hope we get home for New Year!"
+    }
+   ],
+   "dialog": {
+    "title": "Bàn với 王丽: mấy giờ ra ngoài, đi tàu điện ngầm hay xe buýt, đề xuất phương án. Đổi vai: bạn là 王丽.",
+    "partner": "王丽",
+    "turns": [
+     {
+      "ai": "今天是阴天，可能下雪。我们几点出门？",
+      "py": "Jīntiān shì yīntiān, kěnéng xià xuě. Wǒmen jǐ diǎn chūmén?",
+      "vi": "Hôm nay trời âm u, có lẽ có tuyết. Mấy giờ mình ra ngoài?",
+      "en": "It's cloudy today, it might snow. What time shall we leave?",
+      "model": "八点出门吧。",
+      "mpy": "Bā diǎn chūmén ba.",
+      "men": "Let's leave at eight.",
+      "accept": [
+       "八点出门吧。",
+       "八点吧。",
+       "我们八点出门吧。",
+       "七点半出门吧。",
+       "badianchumenba",
+       "badianba"
+      ],
+      "frame": "___点出门吧。",
+      "hint": "Đề xuất giờ ra ngoài: số + 点 + 出门吧."
+     },
+     {
+      "ai": "好。我们坐公交车还是坐地铁？",
+      "py": "Hǎo. Wǒmen zuò gōngjiāochē háishi zuò dìtiě?",
+      "vi": "Ừ. Mình đi xe buýt hay tàu điện ngầm?",
+      "en": "OK. Shall we take the bus or the metro?",
+      "model": "公交车太慢了，还是坐地铁吧。",
+      "mpy": "Gōngjiāochē tài màn le, háishi zuò dìtiě ba.",
+      "men": "The bus is too slow. Let's take the metro.",
+      "accept": [
+       "公交车太慢了，还是坐地铁吧。",
+       "还是坐地铁吧。",
+       "坐地铁吧。",
+       "gongjiaochetaimanlehaishizuoditieba",
+       "haishizuoditieba"
+      ],
+      "frame": "公交车太慢了，还是___吧。",
+      "hint": "Đề xuất sau khi cân nhắc: 还是 + 坐地铁 + 吧."
+     },
+     {
+      "ai": "地铁站离酒店远吗？",
+      "py": "Dìtiězhàn lí jiǔdiàn yuǎn ma?",
+      "vi": "Ga tàu điện ngầm có xa khách sạn không?",
+      "en": "Is the metro station far from the hotel?",
+      "model": "不远，在酒店右边。",
+      "mpy": "Bù yuǎn, zài jiǔdiàn yòubian.",
+      "men": "Not far, it's to the right of the hotel.",
+      "accept": [
+       "不远，在酒店右边。",
+       "不远，在酒店旁边。",
+       "不远。",
+       "很近，在酒店右边。",
+       "buyuanzaijiudianyoubian",
+       "buyuan"
+      ],
+      "frame": "不远，在酒店___。",
+      "hint": "Nói không xa và chỉ vị trí: 在酒店 + 右边 / 旁边."
+     },
+     {
+      "ai": "那么，你跟我一起拿东西吧。",
+      "py": "Nàme, nǐ gēn wǒ yìqǐ ná dōngxi ba.",
+      "vi": "Vậy thì em xách đồ cùng chị nhé.",
+      "en": "Then help me carry the things.",
+      "model": "好，我跟你一起拿。",
+      "mpy": "Hǎo, wǒ gēn nǐ yìqǐ ná.",
+      "men": "Sure, I'll carry them with you.",
+      "accept": [
+       "好，我跟你一起拿。",
+       "我跟你一起拿。",
+       "好！",
+       "好的，我跟你一起拿。",
+       "haowogenniyiqina",
+       "wogenniyiqina"
+      ],
+      "frame": "好，我跟你___拿。",
+      "hint": "Đồng ý làm cùng: 跟你 + 一起 + 拿."
+     },
+     {
+      "ai": "希望过年时能到家！",
+      "py": "Xīwàng guònián shí néng dào jiā!",
+      "vi": "Mong là đến Tết về được tới nhà!",
+      "en": "I hope we get home for New Year!",
+      "model": "我也希望！我们走吧！",
+      "mpy": "Wǒ yě xīwàng! Wǒmen zǒu ba!",
+      "men": "Me too! Let's go!",
+      "accept": [
+       "我也希望！我们走吧！",
+       "我也希望！",
+       "我们走吧！",
+       "woyexiwangwomenzouba",
+       "woyexiwang"
+      ],
+      "frame": "我也___！我们走吧！",
+      "hint": "Đáp lại 'tôi cũng mong thế': 我也希望."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Dự báo thời tiết và tin nhắn chúc Tết gửi cả phòng",
+    "text": "天气：今天上海是阴天，很冷，下午可能下雪。明天是晴天。阮安：大家好！我跟王丽今天坐火车回去。我们八点出门，坐地铁去车站，地铁站离酒店很近。希望过年时能到家！大家过年好！",
+    "py": "Tiānqì: Jīntiān Shànghǎi shì yīntiān, hěn lěng, xiàwǔ kěnéng xià xuě. Míngtiān shì qíngtiān. Ruǎn Ān: Dàjiā hǎo! Wǒ gēn Wáng Lì jīntiān zuò huǒchē huíqù. Wǒmen bā diǎn chūmén, zuò dìtiě qù chēzhàn, dìtiězhàn lí jiǔdiàn hěn jìn. Xīwàng guònián shí néng dào jiā! Dàjiā guònián hǎo!",
+    "en": "Weather: Shanghai is cloudy and cold today, with possible snow in the afternoon. Tomorrow will be sunny. An: Hi everyone! Wang Li and I are going back by train today. We're leaving at eight and taking the metro to the station; the metro station is very close to the hotel. I hope we'll be home for New Year! Happy New Year, everyone!",
+    "vi": "Thời tiết: Hôm nay Thượng Hải trời âm u, rất lạnh, chiều có thể có tuyết. Ngày mai trời nắng. An: Chào cả nhà! Hôm nay em và chị Lệ đi tàu về. Tụi em ra khỏi khách sạn lúc 8 giờ, đi tàu điện ngầm ra ga, ga tàu điện ngầm rất gần khách sạn. Mong là đến Tết về tới nhà! Chúc cả nhà năm mới vui vẻ!",
+    "qs": [
+     {
+      "q": "Hôm nay ở Thượng Hải trời thế nào?",
+      "opts": [
+       "âm u, lạnh",
+       "nắng, nóng",
+       "mưa to"
+      ],
+      "optsEn": [
+       "cloudy and cold",
+       "sunny and hot",
+       "heavy rain"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Nắng là ngày mai (明天是晴天); hôm nay là 阴天, 很冷.",
+       "2": "Bài nói chiều có thể có tuyết (下雪), không nói mưa (下雨)."
+      }
+     },
+     {
+      "q": "Ngày mai trời thế nào?",
+      "opts": [
+       "nắng",
+       "có tuyết",
+       "âm u"
+      ],
+      "optsEn": [
+       "sunny",
+       "snowy",
+       "cloudy"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Tuyết có thể rơi chiều NAY, không phải ngày mai.",
+       "2": "Âm u là hôm nay; ngày mai là 晴天."
+      }
+     },
+     {
+      "q": "Mấy giờ hai người ra khỏi khách sạn?",
+      "opts": [
+       "8 giờ",
+       "9 giờ",
+       "7 rưỡi"
+      ],
+      "optsEn": [
+       "8 o'clock",
+       "9 o'clock",
+       "half past seven"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 八点出门 (8 giờ), không phải 九点.",
+       "2": "Không có 半 trong bài; giờ ra ngoài là 八点."
+      }
+     },
+     {
+      "q": "Họ ra ga bằng gì?",
+      "opts": [
+       "tàu điện ngầm",
+       "xe buýt",
+       "taxi"
+      ],
+      "optsEn": [
+       "metro",
+       "bus",
+       "taxi"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 坐地铁去车站, không nhắc đến 公交车.",
+       "2": "Bài không nhắc đến 打车."
+      }
+     },
+     {
+      "q": "Đúng hay sai: 地铁站离酒店很远。",
+      "opts": [
+       "Sai",
+       "Đúng"
+      ],
+      "optsEn": [
+       "False",
+       "True"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 地铁站离酒店很近 (rất gần), nên 'rất xa' là sai."
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "newImages": [
+  {
+   "key": "airport",
+   "prompt": "A modern airport departure hall with large windows, travellers with suitcases, realistic photo, no readable text"
+  },
+  {
+   "key": "ticket",
+   "prompt": "A hand holding a printed travel ticket (plane or train) with blank fields, close-up realistic photo, no readable text"
+  },
+  {
+   "key": "newyear",
+   "prompt": "Lunar New Year decorations: red lanterns and plum blossoms at a family home entrance, warm realistic photo, no readable text"
+  },
+  {
+   "key": "station",
+   "prompt": "A large Chinese railway station hall with platforms and a high-speed train, realistic photo, no readable signs"
+  },
+  {
+   "key": "taxi",
+   "prompt": "A traveller with a suitcase getting into a taxi at the kerb in a Chinese city in winter, realistic photo, no readable text or plates"
+  },
+  {
+   "key": "bag",
+   "prompt": "A woman's hand carrying a travel bag and a small suitcase, realistic photo, no logos"
+  },
+  {
+   "key": "hotel",
+   "prompt": "The glass entrance of a small modern city hotel at dusk, warm lights inside, realistic photo, no readable signs"
+  },
+  {
+   "key": "door",
+   "prompt": "A person stepping through an open glass entrance door into a warm lobby, realistic photo, no text"
+  },
+  {
+   "key": "brokencar",
+   "prompt": "A black sedan stopped at the roadside with its bonnet open and hazard lights on, snowy city street, realistic photo, no readable plates"
+  },
+  {
+   "key": "walk",
+   "prompt": "Two office workers walking along a city pavement with bags in winter, seen from behind, realistic photo, no text"
+  },
+  {
+   "key": "metro",
+   "prompt": "Entrance stairs to a city metro station with people going down, realistic photo, no readable signs"
+  },
+  {
+   "key": "bus",
+   "prompt": "A red city bus arriving at a bus stop where people wait in winter, realistic photo, no readable text"
+  }
+ ],
+ "newScenes": [
+  {
+   "key": "scene-zh-airport",
+   "prompt": "Realistic photo of a crowded airport departure hall in Shanghai in winter, heavy snow falling outside the large windows; an (Vietnamese woman, blue blouse, dark coat) and wangli (Chinese woman, red sweater, beige coat) stand with suitcases looking worried at a departures board, holiday travellers around, no readable text"
+  },
+  {
+   "key": "scene-zh-station",
+   "prompt": "Realistic photo inside a large Chinese railway station ticket hall in winter, long queues; an (Vietnamese woman, blue blouse, dark coat) asks at a ticket window while wangli (Chinese woman, red sweater, beige coat) holds two bags beside her, no readable text"
+  },
+  {
+   "key": "scene-zh-hotel",
+   "prompt": "Realistic photo of a snowy street outside a Chinese railway station at dusk; an elderly passer-by (passer, wool cap and scarf) points ahead to the right while an (Vietnamese woman, blue blouse, dark coat) and wangli (Chinese woman, red sweater, beige coat) with suitcases listen; a small hotel entrance next to a shop in the background, no readable text"
+  },
+  {
+   "key": "scene-zh-roadside",
+   "prompt": "Realistic photo of a snowy city street in Shanghai; a black sedan stopped at the roadside with its bonnet open, a Chinese driver (driver, grey jacket) apologising; an (Vietnamese woman, blue blouse, dark coat) and wangli (Chinese woman, red sweater, beige coat) step out holding bags, busy traffic, no readable text"
+  },
+  {
+   "key": "scene-zh-metro",
+   "prompt": "Realistic photo at a Shanghai metro station entrance on a grey winter morning; an (Vietnamese woman, blue blouse, dark coat) checks the weather on her phone while wangli (Chinese woman, red sweater, beige coat) points towards the metro entrance, a bus stop and a red bus nearby, suitcases, no readable text"
+  }
+ ]
+}
