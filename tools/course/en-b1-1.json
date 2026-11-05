@@ -1,0 +1,4969 @@
+{
+ "lang": "en",
+ "week": 1,
+ "demo": true,
+ "level": "B1",
+ "track": "en-b1",
+ "title": "Họp nhóm, nêu ý kiến: cập nhật tiến độ, tranh luận, làm rõ, đề xuất, chốt việc",
+ "cando": "Mở và dẫn một đoạn họp, nêu ý kiến kèm lý do, ngắt lời và hỏi lại lịch sự, đề xuất phương án, tóm tắt quyết định và viết email chốt việc",
+ "story": "Một tuần họp kế hoạch ra mắt ứng dụng Bright Star. Kevin (sales) muốn ra mắt sớm vào tháng Sáu, Tom (marketing) muốn đợi đến tháng Chín để thử nghiệm kỹ. An (vai của bạn) đưa số liệu khảo sát khách hàng và đề xuất phương án trung gian: ra mắt thử ở Đà Nẵng vào tháng Bảy. Sarah chủ trì, Linh ghi biên bản.",
+ "cast": [
+  {
+   "key": "an",
+   "name": "An",
+   "vi": "trợ lý marketing người Việt, 26 tuổi, phụ trách khảo sát khách hàng (vai của chính bạn)",
+   "look": "a Vietnamese woman about 26, shoulder-length black bob, royal-blue top, yellow lanyard with a white staff card"
+  },
+  {
+   "key": "sarah",
+   "name": "Sarah Lee",
+   "vi": "quản lý dự án, chủ trì các cuộc họp, lịch sự nhưng quyết đoán",
+   "look": "a Korean-American woman about 38, chin-length black bob, charcoal blazer over a white blouse"
+  },
+  {
+   "key": "kevin",
+   "name": "Kevin",
+   "vi": "phụ trách sales, muốn ra mắt sớm vì khách hàng đang chờ",
+   "look": "an East Asian-American man about 32, short dark hair, thin rectangular glasses, navy button-up shirt"
+  },
+  {
+   "key": "tom",
+   "name": "Tom",
+   "vi": "phụ trách thiết kế và thử nghiệm ứng dụng, muốn thêm thời gian",
+   "look": "a British man about 30, short ginger hair and light stubble, green crew-neck sweater"
+  },
+  {
+   "key": "linh",
+   "name": "Linh",
+   "vi": "đồng nghiệp khoảng 28 tuổi, ghi biên bản họp và tóm tắt quyết định",
+   "look": "a Vietnamese woman about 28, long straight black hair, mustard-yellow sweater, holding a notebook"
+  }
+ ],
+ "days": [
+  {
+   "id": "b1-w1-thu-2",
+   "label": "Thứ 2",
+   "title": "Mở cuộc họp, đọc chương trình, cập nhật tiến độ",
+   "desc": "Cập nhật kết quả bằng thì hiện tại hoàn thành (We've finished…, We haven't… yet), mở và dẫn họp (The purpose of today's meeting is to…, Let's move on to…) trong buổi họp dự án đầu tuần.",
+   "rule": "Cập nhật kết quả đến bây giờ: have / has + V3 (finished, done, talked). Có thời điểm cụ thể (yesterday, last week) thì dùng quá khứ đơn. yet: câu phủ định và câu hỏi, cuối câu; already: câu khẳng định, giữa have và V3.",
+   "cards": [
+    {
+     "w": "agenda",
+     "ipa": "/əˈdʒen.də/",
+     "m": "chương trình họp",
+     "ex": "Let's look at today's agenda.",
+     "exm": "Mình xem chương trình họp hôm nay nhé.",
+     "n": "Nhấn âm hai: a-GEN-da. on the agenda = có trong chương trình họp.",
+     "img": "agenda",
+     "spell": [
+      "agender",
+      "ajenda"
+     ]
+    },
+    {
+     "w": "item",
+     "ipa": "/ˈaɪ.təm/",
+     "m": "mục (trong danh sách, chương trình)",
+     "ex": "The first item on the agenda is the design.",
+     "exm": "Mục đầu tiên trong chương trình là thiết kế.",
+     "n": "Đọc 'ai-tầm'. item two = mục hai.",
+     "img": "agenda",
+     "spell": [
+      "itam",
+      "iteam"
+     ]
+    },
+    {
+     "w": "update",
+     "ipa": "/ˈʌp.deɪt/",
+     "m": "bản cập nhật, tin cập nhật",
+     "ex": "Could you give us a quick update?",
+     "exm": "Anh cập nhật nhanh cho mọi người được không?",
+     "n": "Danh từ nhấn UP-date; động từ nhấn up-DATE. give an update = báo cập nhật.",
+     "img": "meetingroom",
+     "spell": [
+      "apdate",
+      "up dait"
+     ]
+    },
+    {
+     "w": "progress",
+     "ipa": "/ˈprəʊ.ɡres/",
+     "m": "tiến độ, sự tiến triển",
+     "ex": "We've made good progress this month.",
+     "exm": "Tháng này chúng ta tiến triển tốt.",
+     "n": "Không đếm được: good progress (không nói a progress, progresses). make progress = tiến triển.",
+     "img": "chart",
+     "spell": [
+      "progres",
+      "progess"
+     ]
+    },
+    {
+     "w": "launch",
+     "ipa": "/lɔːntʃ/",
+     "m": "(sự) ra mắt sản phẩm",
+     "ex": "The app launch is planned for June.",
+     "exm": "Dự kiến ra mắt ứng dụng vào tháng Sáu.",
+     "n": "Đọc 'lo-n-ch' (o dài); đừng nhầm với lunch 'lăn-ch'. Vừa là danh từ vừa là động từ: launch an app.",
+     "img": "launch",
+     "spell": [
+      "lunch",
+      "lauch"
+     ]
+    },
+    {
+     "w": "on track",
+     "ipa": "/ɒn ˈtræk/",
+     "m": "đúng tiến độ",
+     "ex": "The design work is on track.",
+     "exm": "Phần thiết kế đang đúng tiến độ.",
+     "n": "Trái nghĩa: behind schedule. keep the project on track = giữ dự án đúng tiến độ.",
+     "img": "chart",
+     "spell": [
+      "on truck",
+      "on trak"
+     ]
+    },
+    {
+     "w": "behind schedule",
+     "ipa": "/bɪˌhaɪnd ˈʃedʒ.uːl/",
+     "m": "chậm so với kế hoạch",
+     "ex": "The survey is two weeks behind schedule.",
+     "exm": "Khảo sát chậm hai tuần so với kế hoạch.",
+     "n": "Kiểu Anh đọc 'shé-giu-l', kiểu Mỹ 'xké-giu-l'. Sớm hơn kế hoạch: ahead of schedule.",
+     "img": "calendar",
+     "spell": [
+      "behind shedule",
+      "behind scedule"
+     ]
+    },
+    {
+     "w": "attend",
+     "ipa": "/əˈtend/",
+     "m": "tham dự",
+     "ex": "Everyone in the team will attend the meeting.",
+     "exm": "Cả nhóm sẽ tham dự cuộc họp.",
+     "n": "attend + cuộc họp / sự kiện, KHÔNG có to: attend the meeting. Đừng nhầm với attempt (cố gắng).",
+     "img": "meetingroom",
+     "spell": [
+      "atend",
+      "attempt"
+     ]
+    },
+    {
+     "w": "chair",
+     "ipa": "/tʃeə/",
+     "m": "chủ trì (cuộc họp)",
+     "ex": "Sarah will chair the meeting.",
+     "exm": "Sarah sẽ chủ trì cuộc họp.",
+     "n": "Danh từ chair = cái ghế; động từ chair = chủ trì. Người chủ trì: the chair / the chairperson.",
+     "img": "manager",
+     "spell": [
+      "cheer",
+      "chare"
+     ]
+    },
+    {
+     "w": "minutes",
+     "ipa": "/ˈmɪn.ɪts/",
+     "m": "biên bản họp",
+     "ex": "Linh takes the minutes at every meeting.",
+     "exm": "Họp nào Linh cũng ghi biên bản.",
+     "n": "Với nghĩa biên bản luôn dùng số nhiều: the minutes. take the minutes = ghi biên bản.",
+     "img": "agenda",
+     "spell": [
+      "minits",
+      "minuts"
+     ]
+    },
+    {
+     "w": "objective",
+     "ipa": "/əbˈdʒek.tɪv/",
+     "m": "mục tiêu",
+     "ex": "Our main objective is to launch the app by June.",
+     "exm": "Mục tiêu chính của chúng ta là ra mắt ứng dụng trước tháng Sáu.",
+     "n": "Nhấn âm hai: ob-JEC-tive. Gần nghĩa: goal, aim.",
+     "img": "chart",
+     "spell": [
+      "objectif",
+      "objektive"
+     ]
+    },
+    {
+     "w": "get started",
+     "ipa": "/ɡet ˈstɑː.tɪd/",
+     "m": "bắt đầu",
+     "ex": "OK, everyone, let's get started.",
+     "exm": "Nào mọi người, mình bắt đầu nhé.",
+     "n": "Câu mở đầu cuộc họp rất hay dùng: Let's get started. Nối âm: get‿started.",
+     "img": "meetingroom",
+     "spell": [
+      "get start",
+      "get stared"
+     ]
+    }
+   ],
+   "scene": {
+    "setting": "9 giờ sáng thứ Hai, phòng họp 2. Sarah chủ trì cuộc họp dự án ra mắt ứng dụng Bright Star; Linh ghi biên bản, từng người cập nhật tiến độ phần việc của mình.",
+    "img": "scene-en-agenda",
+    "imgPrompt": "A meeting room with a large screen showing a blank agenda slide: sarah, in a charcoal blazer, stands beside the screen; tom, kevin, an and linh sit around the table with laptops, linh writing in a notebook, no readable text.",
+    "lines": [
+     {
+      "who": "Sarah",
+      "t": "Good morning, everyone. Let's get started. Linh is taking the minutes today.",
+      "vi": "Chào mọi người. Mình bắt đầu nhé. Hôm nay Linh ghi biên bản."
+     },
+     {
+      "who": "Sarah",
+      "t": "The purpose of today's meeting is to check our progress on the app launch.",
+      "vi": "Mục đích cuộc họp hôm nay là kiểm tra tiến độ ra mắt ứng dụng."
+     },
+     {
+      "who": "Sarah",
+      "t": "The first item on the agenda is the design. Tom, could you give us an update?",
+      "vi": "Mục đầu tiên là thiết kế. Tom, anh cập nhật cho mọi người nhé?"
+     },
+     {
+      "who": "Tom",
+      "t": "Sure. We've finished the main screens, but we haven't tested them yet.",
+      "vi": "Được. Bọn anh đã làm xong các màn hình chính, nhưng chưa thử nghiệm."
+     },
+     {
+      "who": "Sarah",
+      "t": "Thanks, Tom. Let's move on to the next item. Kevin?",
+      "vi": "Cảm ơn Tom. Mình chuyển sang mục tiếp theo. Kevin?"
+     },
+     {
+      "who": "Kevin",
+      "t": "Sales is on track. We've already talked to three big customers.",
+      "vi": "Bên sales đúng tiến độ. Bọn anh đã nói chuyện với ba khách hàng lớn rồi."
+     },
+     {
+      "who": "An",
+      "t": "The customer survey is a bit behind schedule. I've collected 300 answers, but I need 500.",
+      "vi": "Khảo sát khách hàng hơi chậm. Em đã thu được 300 câu trả lời, nhưng cần 500."
+     },
+     {
+      "who": "Sarah",
+      "t": "OK. Our objective is still to launch in June, so let's discuss the date tomorrow.",
+      "vi": "Được. Mục tiêu vẫn là ra mắt vào tháng Sáu, nên mai mình bàn về ngày ra mắt."
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Cập nhật kết quả: have / has + V3 (hiện tại hoàn thành)",
+     "f": [
+      [
+       "We",
+       "'ve finished",
+       "the main screens."
+      ],
+      [
+       "We",
+       "haven't tested",
+       "them yet."
+      ],
+      [
+       "I",
+       "'ve collected",
+       "300 answers."
+      ]
+     ],
+     "ex": [
+      [
+       "We've finished the main screens.",
+       "Chúng tôi đã làm xong các màn hình chính."
+      ],
+      [
+       "Kevin has talked to three big customers.",
+       "Kevin đã nói chuyện với ba khách hàng lớn."
+      ]
+     ],
+     "bad": "We have finish the design.",
+     "good": "We have finished the design.",
+     "why": "Hiện tại hoàn thành = have / has + quá khứ phân từ (finished, talked, done). Dùng để báo kết quả tính đến bây giờ. Nếu nói rõ lúc nào (yesterday, last week) thì dùng quá khứ đơn: We finished it yesterday."
+    },
+    {
+     "t": "already và yet",
+     "f": [
+      [
+       "We've",
+       "already",
+       "talked to three customers."
+      ],
+      [
+       "We haven't tested it",
+       "yet",
+       "."
+      ],
+      [
+       "Have you finished",
+       "yet",
+       "?"
+      ]
+     ],
+     "ex": [
+      [
+       "Kevin has already called the customer.",
+       "Kevin đã gọi cho khách rồi."
+      ],
+      [
+       "Have you finished the report yet?",
+       "Bạn làm xong báo cáo chưa?"
+      ]
+     ],
+     "bad": "We have tested it yet.",
+     "good": "We haven't tested it yet.",
+     "why": "yet dùng trong câu phủ định và câu hỏi, thường đứng cuối câu. already dùng trong câu khẳng định, đứng giữa have và động từ."
+    },
+    {
+     "t": "Dẫn họp: The purpose of today's meeting is to + V / Let's move on to + N",
+     "f": [
+      [
+       "The purpose of today's meeting",
+       "is to",
+       "check our progress."
+      ],
+      [
+       "Let's",
+       "move on to",
+       "the next item."
+      ]
+     ],
+     "ex": [
+      [
+       "The purpose of today's meeting is to agree on the launch date.",
+       "Mục đích cuộc họp hôm nay là thống nhất ngày ra mắt."
+      ],
+      [
+       "Let's move on to item two.",
+       "Mình chuyển sang mục hai."
+      ]
+     ],
+     "bad": "The purpose of today's meeting is check our progress.",
+     "good": "The purpose of today's meeting is to check our progress.",
+     "why": "Sau The purpose … is phải có to + động từ. Chuyển mục dùng Let's move on to + danh từ."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "'behind schedule' nghĩa là gì?",
+     "opts": [
+      "chậm so với kế hoạch",
+      "đúng tiến độ",
+      "sớm hơn kế hoạch"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: đúng tiến độ là on track.",
+      "2": "Sai: sớm hơn kế hoạch là ahead of schedule."
+     }
+    },
+    {
+     "q": "Điền từ: Linh will take the ___ and send them after the meeting.",
+     "opts": [
+      "minutes",
+      "agenda",
+      "items"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: agenda là chương trình họp, gửi TRƯỚC cuộc họp; take the agenda cũng không phải cách nói 'ghi biên bản'.",
+      "2": "Sai: take the items không có nghĩa 'ghi biên bản'."
+     }
+    },
+    {
+     "q": "Điền từ: The design work is ___. We'll finish on time.",
+     "opts": [
+      "on track",
+      "behind schedule",
+      "on the agenda"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: behind schedule (chậm) mâu thuẫn với 'xong đúng hạn'.",
+      "2": "Sai: on the agenda là 'có trong chương trình họp', không nói về tiến độ."
+     }
+    },
+    {
+     "q": "Điền từ: We've made good ___ this week.",
+     "opts": [
+      "progress",
+      "progresses",
+      "update"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: progress không đếm được, không thêm -es.",
+      "2": "Sai: make an update không phải cụm 'tiến triển', và update đếm được nên cần a."
+     }
+    },
+    {
+     "q": "Điền từ: Who will ___ the meeting? – Sarah will. She'll lead it.",
+     "opts": [
+      "chair",
+      "launch",
+      "update"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: launch dùng cho sản phẩm, không dùng cho cuộc họp.",
+      "2": "Sai: update the meeting không có nghĩa 'dẫn cuộc họp'."
+     }
+    },
+    {
+     "q": "'objective' (danh từ) là gì?",
+     "opts": [
+      "mục tiêu",
+      "ý kiến",
+      "biên bản"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: ý kiến là opinion.",
+      "2": "Sai: biên bản là minutes."
+     }
+    },
+    {
+     "q": "Điền từ: All team members must ___ the Monday meeting.",
+     "opts": [
+      "attend",
+      "attend to",
+      "attempt"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: attend to = lo, xử lý (một việc), không phải 'dự họp'. Dự họp: attend + cuộc họp, không có to.",
+      "2": "Sai: attempt = cố gắng, thử."
+     }
+    },
+    {
+     "q": "Điền từ: The first ___ on the agenda is the budget.",
+     "opts": [
+      "item",
+      "minute",
+      "objective"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: minute = một phút.",
+      "2": "Sai: objective là mục tiêu, không phải một mục trong chương trình họp."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "We've finished the main screens.",
+      "We've finish the main screens.",
+      "We finished the main screens yet."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau have phải là quá khứ phân từ finished.",
+      "2": "Sai: yet không dùng trong câu khẳng định."
+     }
+    },
+    {
+     "q": "Điền từ: We haven't tested the app ___.",
+     "opts": [
+      "yet",
+      "already",
+      "ever"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: already dùng trong câu khẳng định.",
+      "2": "Sai: ever không đứng cuối câu phủ định để nói 'chưa'."
+     }
+    },
+    {
+     "q": "Điền từ: Kevin has ___ talked to three customers.",
+     "opts": [
+      "already",
+      "yet",
+      "ever"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: yet không dùng trong câu khẳng định.",
+      "2": "Sai: has ever talked dùng trong câu hỏi về trải nghiệm, không dùng để báo đã làm xong."
+     }
+    },
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "I finished the survey last week.",
+      "I've finished the survey last week.",
+      "I have finish the survey last week."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: có last week (thời điểm cụ thể) nên dùng quá khứ đơn, không dùng hiện tại hoàn thành.",
+      "2": "Sai: sai dạng động từ và sai thì."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền một từ: The purpose of today's meeting is ___ agree on the launch date.",
+     "model": "to",
+     "accept": [
+      "to"
+     ],
+     "why": "The purpose … is + to + động từ."
+    },
+    {
+     "q": "Điền từ: Let's move on ___ the next item.",
+     "opts": [
+      "to",
+      "for",
+      "at"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: move on đi với to khi chuyển sang mục khác.",
+      "2": "Sai: move on at không đúng."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: we / tested / haven't / it / yet / .",
+     "model": "We haven't tested it yet.",
+     "accept": [
+      "We haven't tested it yet.",
+      "We haven't tested it yet",
+      "We have not tested it yet."
+     ],
+     "why": "Chủ ngữ + haven't + V3 + tân ngữ + yet."
+    }
+   ],
+   "listen": [
+    {
+     "q": "Nhóm thiết kế đã làm được gì?",
+     "audio": "We've finished the main screens, but we haven't tested them yet.",
+     "opts": [
+      "làm xong màn hình chính, chưa thử nghiệm",
+      "đã thử nghiệm xong",
+      "chưa làm gì"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: haven't tested them yet = chưa thử nghiệm.",
+      "2": "Sai: We've finished the main screens = đã làm xong màn hình chính."
+     }
+    },
+    {
+     "q": "Khảo sát đang thế nào?",
+     "audio": "The customer survey is two weeks behind schedule.",
+     "opts": [
+      "chậm 2 tuần",
+      "đúng tiến độ",
+      "sớm 2 tuần"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: đúng tiến độ là on track.",
+      "2": "Sai: behind là chậm, không phải sớm (ahead)."
+     }
+    },
+    {
+     "q": "Mục đích cuộc họp là gì?",
+     "audio": "The purpose of today's meeting is to check our progress.",
+     "opts": [
+      "kiểm tra tiến độ",
+      "chọn ngày ra mắt",
+      "chia việc"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: ngày ra mắt sẽ bàn vào hôm sau; câu nói check our progress.",
+      "2": "Sai: câu không nói chia việc."
+     }
+    },
+    {
+     "q": "Hôm nay Linh làm gì?",
+     "audio": "Linh is taking the minutes today.",
+     "opts": [
+      "ghi biên bản",
+      "chủ trì cuộc họp",
+      "trình bày khảo sát"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: chủ trì là chair.",
+      "2": "Sai: câu không nhắc đến khảo sát."
+     }
+    },
+    {
+     "q": "An còn cần bao nhiêu câu trả lời nữa?",
+     "audio": "I've collected three hundred answers, but I need five hundred.",
+     "opts": [
+      "200",
+      "300",
+      "500"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: 300 là số đã thu được.",
+      "2": "Sai: 500 là tổng số cần; còn thiếu 500 − 300 = 200."
+     }
+    },
+    {
+     "q": "Nhóm sales đã nói chuyện với mấy khách hàng lớn?",
+     "audio": "Sales is on track. We've already talked to three big customers.",
+     "opts": [
+      "3",
+      "13",
+      "30"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: 13 là thirteen; câu nói three.",
+      "2": "Sai: 30 là thirty."
+     }
+    },
+    {
+     "q": "Mục tiếp theo là gì?",
+     "audio": "Let's move on to the next item: the budget.",
+     "opts": [
+      "ngân sách",
+      "thiết kế",
+      "khảo sát"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: thiết kế là mục đầu tiên; câu nói the budget.",
+      "2": "Sai: câu không nhắc đến survey."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "Woman: Tom, have you finished the main screens? Man: Yes, I have, but we haven't tested them yet. Woman: OK, please test them before Friday. Question: What does the woman ask the man to do?",
+     "opts": [
+      "Test the screens before Friday",
+      "Design new screens",
+      "Cancel the meeting",
+      "Call a customer"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: màn hình chính đã làm xong, không cần thiết kế mới.",
+      "2": "Sai: không ai nhắc đến huỷ họp.",
+      "3": "Sai: không ai nhắc đến khách hàng."
+     }
+    },
+    {
+     "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "Man: Is the survey on track? Woman: Not really. It's about two weeks behind schedule. Man: Then let's talk about it at the next meeting. Question: What is the problem with the survey?",
+     "opts": [
+      "It is behind schedule",
+      "It is too expensive",
+      "It has no questions",
+      "It is finished"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: không ai nói về chi phí.",
+      "2": "Sai: không ai nói khảo sát không có câu hỏi.",
+      "3": "Sai: khảo sát chậm hai tuần, chưa xong."
+     }
+    },
+    {
+     "q": "TOEIC Part 6 – Chọn từ điền vào email: Dear team, the project meeting on Monday will start at 9.00. Please ___ the agenda before you come.",
+     "opts": [
+      "read",
+      "reads",
+      "reading",
+      "to read"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau Please dùng động từ nguyên mẫu.",
+      "2": "Sai: sau Please không dùng -ing.",
+      "3": "Sai: sau Please không có to."
+     }
+    },
+    {
+     "q": "IELTS Speaking Part 1 – Câu hỏi: \"Do you often attend meetings at work or at school?\" Câu trả lời nào phù hợp và phát triển ý tốt nhất?",
+     "opts": [
+      "Yes, quite often – usually twice a week. Most of them are short updates, which I find useful.",
+      "Yes.",
+      "I attended a meeting.",
+      "Meetings are a type of event."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: quá ngắn, không phát triển ý; giám khảo cần thêm chi tiết.",
+      "2": "Sai: nói về một lần trong quá khứ, không trả lời 'có thường xuyên không'.",
+      "3": "Sai: định nghĩa chung chung, không nói về bản thân."
+     }
+    },
+    {
+     "q": "IELTS Reading – True / False / Not Given. Đoạn đọc: \"The project started in January. The design work is on track, but the survey is behind schedule.\" Nhận định: The design work will finish early.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Không chọn True: đoạn đọc chỉ nói on track (đúng tiến độ), không nói sẽ xong sớm.",
+      "1": "Không chọn False: đoạn đọc cũng không nói sẽ xong muộn; thông tin 'xong sớm' không có, nên là Not Given."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "agenda",
+     "focus": "Nhấn âm hai: a-GEN-da; âm đầu và cuối đọc nhẹ /ə/."
+    },
+    {
+     "t": "behind schedule",
+     "focus": "Kiểu Anh: be-HIND SHED-ule ('shé-giu-l')."
+    },
+    {
+     "t": "Let's get started.",
+     "focus": "Nối get‿started; âm t của get gần như nuốt: 'ghe-xta-tịđ'."
+    },
+    {
+     "t": "We've finished the main screens.",
+     "focus": "We've đọc 'uyv', có âm /v/ ngắn; finished -ed đọc /t/."
+    },
+    {
+     "t": "We haven't tested them yet.",
+     "focus": "haven't 'he-vần', t cuối nhẹ; tested -ed đọc /ɪd/: 'tét-xtịđ'."
+    },
+    {
+     "t": "The purpose of today's meeting is to check our progress.",
+     "focus": "Nhấn PUR-pose và PRO-gress; purpose cuối đọc 'pợs', không đọc 'pô'."
+    },
+    {
+     "t": "Let's move on to the next item.",
+     "focus": "Nối move‿on: 'mu-von'; item 'ai-tầm'."
+    },
+    {
+     "t": "The survey is a bit behind schedule.",
+     "focus": "Nhấn SUR-vey (danh từ); a bit đọc nhẹ, nối 'ơ-bít'."
+    }
+   ],
+   "dialog": {
+    "title": "Sarah hỏi bạn về tiến độ khảo sát khách hàng; bạn cập nhật. Đổi vai: bạn chủ trì, hỏi tiến độ từng người.",
+    "partner": "Sarah",
+    "turns": [
+     {
+      "ai": "An, could you give us an update on the customer survey?",
+      "vi": "An, em cập nhật về khảo sát khách hàng nhé?",
+      "model": "Sure. I've collected three hundred answers so far.",
+      "accept": [
+       "Sure. I've collected three hundred answers so far.",
+       "I've collected three hundred answers so far.",
+       "Sure. I've collected 300 answers so far.",
+       "I've collected 300 answers."
+      ],
+      "frame": "Sure. I've ___ three hundred answers so far.",
+      "hint": "Báo kết quả đến giờ: I've + collected + số câu trả lời + so far."
+     },
+     {
+      "ai": "Is it on track?",
+      "vi": "Có đúng tiến độ không?",
+      "model": "Not really. It's a bit behind schedule.",
+      "accept": [
+       "Not really. It's a bit behind schedule.",
+       "It's a bit behind schedule.",
+       "No, it's behind schedule.",
+       "Not really, it's behind schedule."
+      ],
+      "frame": "Not really. It's a bit ___ schedule.",
+      "hint": "Nói hơi chậm: It's a bit behind schedule."
+     },
+     {
+      "ai": "Why is that?",
+      "vi": "Sao lại thế?",
+      "model": "Some customers haven't answered yet.",
+      "accept": [
+       "Some customers haven't answered yet.",
+       "Some customers haven't replied yet.",
+       "Many customers haven't answered yet.",
+       "Because some customers haven't answered yet."
+      ],
+      "frame": "Some customers haven't ___ yet.",
+      "hint": "Nêu lý do: haven't + answered + yet."
+     },
+     {
+      "ai": "When can you finish it?",
+      "vi": "Khi nào em làm xong được?",
+      "model": "I think I can finish it by next Monday.",
+      "accept": [
+       "I think I can finish it by next Monday.",
+       "I can finish it by next Monday.",
+       "By next Monday.",
+       "I think by next Monday."
+      ],
+      "frame": "I think I can finish it ___ next Monday.",
+      "hint": "Hạn chót dùng by: by next Monday."
+     },
+     {
+      "ai": "Good. Let's move on to the next item.",
+      "vi": "Tốt. Mình chuyển sang mục tiếp theo.",
+      "model": "Thank you. I'll send the results to everyone.",
+      "accept": [
+       "Thank you. I'll send the results to everyone.",
+       "Thanks. I'll send the results to everyone.",
+       "I'll send the results to everyone.",
+       "Thank you. I'll send everyone the results."
+      ],
+      "frame": "Thank you. I'll ___ the results to everyone.",
+      "hint": "Hứa gửi kết quả: I'll send the results to everyone."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Chương trình họp và bảng tiến độ dự án",
+    "text": "PROJECT MEETING – BRIGHT STAR APP\nMonday, 9.00–10.00, Meeting Room 2\nChair: Sarah Lee   Minutes: Linh Tran\nObjective: check progress and plan the launch\n\nAgenda\n1. Design update (Tom)\n2. Sales update (Kevin)\n3. Customer survey (An)\n4. Launch date\n5. Any other business\n\nProgress\nDesign: main screens finished; testing not started yet – on track\nSales: three big customers contacted – on track\nCustomer survey: 300 of 500 answers collected – two weeks behind schedule",
+    "vi": "HỌP DỰ ÁN – ỨNG DỤNG BRIGHT STAR\nThứ Hai, 9:00–10:00, phòng họp 2\nChủ trì: Sarah Lee   Biên bản: Linh Trần\nMục tiêu: kiểm tra tiến độ và lên kế hoạch ra mắt\n\nChương trình\n1. Cập nhật thiết kế (Tom)\n2. Cập nhật bán hàng (Kevin)\n3. Khảo sát khách hàng (An)\n4. Ngày ra mắt\n5. Việc khác\n\nTiến độ\nThiết kế: xong màn hình chính; chưa bắt đầu thử nghiệm – đúng tiến độ\nBán hàng: đã liên hệ ba khách hàng lớn – đúng tiến độ\nKhảo sát khách hàng: thu được 300/500 câu trả lời – chậm hai tuần",
+    "qs": [
+     {
+      "q": "Ai ghi biên bản?",
+      "opts": [
+       "Linh",
+       "Sarah",
+       "An"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: Sarah là Chair (chủ trì).",
+       "2": "Sai: An phụ trách mục khảo sát."
+      }
+     },
+     {
+      "q": "Mục thứ tư trong chương trình là gì?",
+      "opts": [
+       "ngày ra mắt",
+       "khảo sát khách hàng",
+       "cập nhật bán hàng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: khảo sát là mục 3.",
+       "2": "Sai: cập nhật bán hàng là mục 2."
+      }
+     },
+     {
+      "q": "Phần nào đang chậm tiến độ?",
+      "opts": [
+       "khảo sát khách hàng",
+       "thiết kế",
+       "bán hàng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: thiết kế ghi on track.",
+       "2": "Sai: bán hàng ghi on track."
+      }
+     },
+     {
+      "q": "Đúng hay sai: \"The testing has already started.\"",
+      "opts": [
+       "Sai",
+       "Đúng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Không đúng: bảng tiến độ ghi testing not started yet (chưa bắt đầu thử nghiệm)."
+      }
+     },
+     {
+      "q": "Khảo sát còn thiếu bao nhiêu câu trả lời?",
+      "opts": [
+       "200",
+       "300",
+       "500"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: 300 là số đã thu được.",
+       "2": "Sai: 500 là tổng số cần; còn thiếu 200."
+      }
+     }
+    ]
+   },
+   "confuse": [
+    {
+     "a": "affect",
+     "aipa": "/əˈfekt/",
+     "am": "ảnh hưởng đến (động từ)",
+     "b": "effect",
+     "bipa": "/ɪˈfekt/",
+     "bm": "tác động, hiệu quả (danh từ)",
+     "note": "Mẹo: Affect là động từ (Action), Effect là danh từ (End result). The delay will affect the launch. / The delay has a big effect on the launch.",
+     "qa": {
+      "t": "The delay will ___ the launch date.",
+      "vi": "Việc chậm trễ sẽ ảnh hưởng đến ngày ra mắt."
+     },
+     "qb": {
+      "t": "The new design had a good ___ on sales.",
+      "vi": "Thiết kế mới tác động tốt đến doanh số."
+     }
+    },
+    {
+     "a": "attend",
+     "aipa": "/əˈtend/",
+     "am": "tham dự",
+     "b": "attempt",
+     "bipa": "/əˈtempt/",
+     "bm": "cố gắng, thử",
+     "note": "attend kết thúc bằng -nd; attempt kết thúc bằng -mpt. attend the meeting / attempt to finish the design.",
+     "qa": {
+      "t": "Please ___ the meeting on Monday.",
+      "vi": "Vui lòng dự họp vào thứ Hai."
+     },
+     "qb": {
+      "t": "We will ___ to finish the design by Friday.",
+      "vi": "Chúng tôi sẽ cố gắng làm xong thiết kế trước thứ Sáu."
+     }
+    },
+    {
+     "a": "minute",
+     "aipa": "/ˈmɪn.ɪt/",
+     "am": "phút",
+     "b": "minutes",
+     "bipa": "/ˈmɪn.ɪts/",
+     "bm": "biên bản họp",
+     "note": "Số ít minute là 'một phút'. the minutes (luôn số nhiều) là biên bản họp.",
+     "qa": {
+      "t": "Can I have a ___? I have a quick question.",
+      "vi": "Cho tôi xin một phút được không? Tôi hỏi nhanh thôi."
+     },
+     "qb": {
+      "t": "Linh will send the ___ after the meeting.",
+      "vi": "Linh sẽ gửi biên bản sau cuộc họp."
+     }
+    },
+    {
+     "a": "present (noun)",
+     "aipa": "/ˈprez.ənt/",
+     "am": "món quà; hiện tại",
+     "b": "present (verb)",
+     "bipa": "/prɪˈzent/",
+     "bm": "trình bày",
+     "note": "Cùng chữ viết, khác trọng âm: danh từ nhấn âm đầu PRES-ent, động từ nhấn âm hai pre-SENT. Hãy đọc to để nghe khác biệt.",
+     "qa": {
+      "t": "We bought a ___ for Sarah's birthday.",
+      "vi": "Chúng tôi mua một món quà sinh nhật cho Sarah."
+     },
+     "qb": {
+      "t": "An will ___ the survey results tomorrow.",
+      "vi": "Ngày mai An sẽ trình bày kết quả khảo sát."
+     }
+    }
+   ],
+   "write": {
+    "task": "Soạn chương trình họp gồm 5 mục cho cuộc họp dự án hằng tuần.",
+    "kind": "form",
+    "source": "Thông tin: họp dự án hằng tuần, thứ Hai 9:00–10:00, phòng họp 2, Sarah Lee chủ trì. Các mục: cập nhật thiết kế (Tom), cập nhật bán hàng (Kevin), kết quả khảo sát khách hàng (An), ngày ra mắt, việc khác.",
+    "model": [
+     [
+      "Meeting",
+      "Weekly project meeting"
+     ],
+     [
+      "Date and time",
+      "Monday, 9.00–10.00"
+     ],
+     [
+      "Place",
+      "Meeting Room 2"
+     ],
+     [
+      "Chair",
+      "Sarah Lee"
+     ],
+     [
+      "Item 1",
+      "Design update (Tom)"
+     ],
+     [
+      "Item 2",
+      "Sales update (Kevin)"
+     ],
+     [
+      "Item 3",
+      "Customer survey results (An)"
+     ],
+     [
+      "Item 4",
+      "Launch date"
+     ],
+     [
+      "Item 5",
+      "Any other business"
+     ]
+    ],
+    "frame": [
+     [
+      "Meeting",
+      ""
+     ],
+     [
+      "Date and time",
+      ""
+     ],
+     [
+      "Place",
+      ""
+     ],
+     [
+      "Chair",
+      ""
+     ],
+     [
+      "Item 1",
+      ""
+     ],
+     [
+      "Item 2",
+      ""
+     ],
+     [
+      "Item 3",
+      ""
+     ],
+     [
+      "Item 4",
+      ""
+     ],
+     [
+      "Item 5",
+      ""
+     ]
+    ],
+    "gaps": [
+     "Weekly project meeting",
+     "Monday, 9.00–10.00",
+     "Meeting Room 2",
+     "Sarah Lee",
+     "Design update (Tom)",
+     "Sales update (Kevin)",
+     "Customer survey results (An)",
+     "Launch date",
+     "Any other business"
+    ],
+    "free": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "hints": [
+     "Mỗi mục là một cụm danh từ ngắn: Design update, Budget, Launch date",
+     "Ghi người phụ trách trong ngoặc: (Tom)",
+     "Mục cuối thường là Any other business (AOB)"
+    ],
+    "check": [
+     "Có tên cuộc họp, thời gian, địa điểm, người chủ trì",
+     "Đủ 5 mục",
+     "Mỗi mục là cụm danh từ ngắn, không viết thành câu",
+     "Ghi người phụ trách cho mục cần trình bày",
+     "Mục cuối là Any other business"
+    ]
+   }
+  },
+  {
+   "id": "b1-w1-thu-3",
+   "label": "Thứ 3",
+   "title": "Bất đồng về ngày ra mắt: nêu ý kiến có lý do",
+   "desc": "Nêu ý kiến kèm lý do (In my view, we should…, because…), khuyên nên làm gì (should / ought to) và đồng ý, phản đối lịch sự (I see your point, but… / I'm not sure that…) khi Kevin và Tom bất đồng.",
+   "rule": "should + V nguyên mẫu (không có to); ought TO + V. agree là động từ: I agree (không nói I am agree). Phản đối lịch sự: ghi nhận ý người kia trước (I see your point), rồi mới nói but….",
+   "cards": [
+    {
+     "w": "opinion",
+     "ipa": "/əˈpɪn.jən/",
+     "m": "ý kiến",
+     "ex": "What's your opinion on the launch date?",
+     "exm": "Ý kiến của bạn về ngày ra mắt thế nào?",
+     "n": "Nhấn âm hai: o-PIN-ion. in my opinion = theo tôi. Đừng nhầm với option (lựa chọn).",
+     "img": "question",
+     "spell": [
+      "oppinion",
+      "opinon"
+     ]
+    },
+    {
+     "w": "point of view",
+     "ipa": "/ˌpɔɪnt əv ˈvjuː/",
+     "m": "quan điểm",
+     "ex": "From Kevin's point of view, June is better.",
+     "exm": "Theo quan điểm của Kevin, tháng Sáu tốt hơn.",
+     "n": "from my point of view = theo quan điểm của tôi. Nối point‿of: 'poi-nơv'.",
+     "img": "question",
+     "spell": [
+      "point of vew",
+      "poin of view"
+     ]
+    },
+    {
+     "w": "agree",
+     "ipa": "/əˈɡriː/",
+     "m": "đồng ý",
+     "ex": "I agree with Tom.",
+     "exm": "Tôi đồng ý với Tom.",
+     "n": "agree with + người / ý kiến; agree that + câu. KHÔNG nói I am agree.",
+     "img": "handshake",
+     "spell": [
+      "agre",
+      "aggree"
+     ]
+    },
+    {
+     "w": "disagree",
+     "ipa": "/ˌdɪs.əˈɡriː/",
+     "m": "không đồng ý",
+     "ex": "I'm afraid I disagree with that.",
+     "exm": "Tôi e là tôi không đồng ý với điều đó.",
+     "n": "I'm afraid I disagree… nghe lịch sự hơn I disagree. Nhấn cuối: dis-a-GREE.",
+     "img": "meetingroom",
+     "spell": [
+      "dis agree",
+      "disagre"
+     ]
+    },
+    {
+     "w": "reason",
+     "ipa": "/ˈriː.zən/",
+     "m": "lý do",
+     "ex": "What's the main reason for waiting?",
+     "exm": "Lý do chính để chờ là gì?",
+     "n": "the reason for + N / the reason why + câu. s đọc /z/: 'ri-zần'.",
+     "img": "question",
+     "spell": [
+      "reson",
+      "reazon"
+     ]
+    },
+    {
+     "w": "benefit",
+     "ipa": "/ˈben.ɪ.fɪt/",
+     "m": "lợi ích",
+     "ex": "The main benefit is that customers get the app sooner.",
+     "exm": "Lợi ích chính là khách hàng có ứng dụng sớm hơn.",
+     "n": "Nhấn âm đầu: BEN-e-fit. Trái nghĩa gần: risk, disadvantage.",
+     "img": "chart",
+     "spell": [
+      "benifit",
+      "benefet"
+     ]
+    },
+    {
+     "w": "risk",
+     "ipa": "/rɪsk/",
+     "m": "rủi ro",
+     "ex": "Launching too early is a big risk.",
+     "exm": "Ra mắt quá sớm là một rủi ro lớn.",
+     "n": "take a risk = chấp nhận rủi ro. Cụm -sk cuối đọc rõ: 'rít-xk'.",
+     "img": "chart",
+     "spell": [
+      "rick",
+      "risc"
+     ]
+    },
+    {
+     "w": "survey",
+     "ipa": "/ˈsɜː.veɪ/",
+     "m": "cuộc khảo sát",
+     "ex": "We did a survey of 500 customers.",
+     "exm": "Chúng tôi khảo sát 500 khách hàng.",
+     "n": "Danh từ nhấn âm đầu SUR-vey; động từ nhấn âm hai sur-VEY.",
+     "img": "survey",
+     "spell": [
+      "servey",
+      "survay"
+     ]
+    },
+    {
+     "w": "result",
+     "ipa": "/rɪˈzʌlt/",
+     "m": "kết quả",
+     "ex": "The survey results are ready.",
+     "exm": "Kết quả khảo sát đã có.",
+     "n": "s đọc /z/: 'ri-zăn-t'. The results show that… = kết quả cho thấy….",
+     "img": "survey",
+     "spell": [
+      "resolt",
+      "rezult"
+     ]
+    },
+    {
+     "w": "in my view",
+     "ipa": "/ɪn maɪ ˈvjuː/",
+     "m": "theo tôi, theo quan điểm của tôi",
+     "ex": "In my view, we should wait until September.",
+     "exm": "Theo tôi, chúng ta nên đợi đến tháng Chín.",
+     "n": "Trang trọng hơn I think. Đặt đầu câu, có dấu phẩy sau.",
+     "img": "question",
+     "spell": [
+      "in my vue",
+      "on my view"
+     ]
+    },
+    {
+     "w": "as far as I know",
+     "ipa": "/əz ˌfɑːr əz aɪ ˈnəʊ/",
+     "m": "theo chỗ tôi biết",
+     "ex": "As far as I know, they're launching in October.",
+     "exm": "Theo chỗ tôi biết, họ ra mắt vào tháng Mười.",
+     "n": "Dùng khi nói một thông tin mà mình không chắc 100%. Kiểu Anh nối r: far‿as.",
+     "img": "question",
+     "spell": [
+      "as for as I know",
+      "as far I know"
+     ]
+    },
+    {
+     "w": "to be honest",
+     "ipa": "/tə bi ˈɒn.ɪst/",
+     "m": "nói thật là",
+     "ex": "To be honest, I think June is too early.",
+     "exm": "Nói thật, tôi nghĩ tháng Sáu sớm quá.",
+     "n": "h câm: 'o-nịt-xt'. Dùng trước một ý kiến thẳng thắn, có thể người nghe không thích.",
+     "img": "question",
+     "spell": [
+      "to be onest",
+      "to be honnest"
+     ]
+    }
+   ],
+   "scene": {
+    "setting": "Sáng thứ Ba, cuộc họp bàn về ngày ra mắt. Kevin muốn ra mắt vào tháng Sáu, Tom muốn đợi; Sarah mời An trình bày kết quả khảo sát.",
+    "img": "scene-en-debate",
+    "imgPrompt": "A meeting room discussion: kevin, in glasses and a navy shirt, gestures firmly while tom, in a green sweater, raises a hand to disagree politely; an shows a simple bar chart on her laptop to sarah, no readable text or numbers.",
+    "lines": [
+     {
+      "who": "Sarah",
+      "t": "Today we need to decide the launch date. Kevin, what's your opinion?",
+      "vi": "Hôm nay mình cần quyết định ngày ra mắt. Kevin, ý kiến của anh thế nào?"
+     },
+     {
+      "who": "Kevin",
+      "t": "In my view, we should launch in June, because our customers want the app now.",
+      "vi": "Theo tôi, nên ra mắt vào tháng Sáu, vì khách hàng muốn có ứng dụng ngay."
+     },
+     {
+      "who": "Tom",
+      "t": "I see your point, but I'm not sure that's a good idea. The testing isn't finished.",
+      "vi": "Tôi hiểu ý anh, nhưng tôi không chắc đó là ý hay. Thử nghiệm còn chưa xong."
+     },
+     {
+      "who": "Kevin",
+      "t": "To be honest, waiting is a bigger risk. Our competitors are launching soon.",
+      "vi": "Nói thật, chờ đợi còn rủi ro hơn. Đối thủ sắp ra mắt rồi."
+     },
+     {
+      "who": "Tom",
+      "t": "As far as I know, they're launching in October, not in the summer.",
+      "vi": "Theo chỗ tôi biết, họ ra mắt vào tháng Mười, chứ không phải mùa hè."
+     },
+     {
+      "who": "Sarah",
+      "t": "An, what do the survey results say?",
+      "vi": "An, kết quả khảo sát nói gì?"
+     },
+     {
+      "who": "An",
+      "t": "Seventy percent of customers want online ordering, but forty percent said our old app was too slow.",
+      "vi": "70% khách hàng muốn đặt hàng trực tuyến, nhưng 40% nói ứng dụng cũ quá chậm."
+     },
+     {
+      "who": "Sarah",
+      "t": "So speed is important. I agree with Tom: we ought to test the app carefully first.",
+      "vi": "Vậy tốc độ là quan trọng. Tôi đồng ý với Tom: chúng ta nên thử nghiệm ứng dụng kỹ trước đã."
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Nêu ý kiến có lý do: In my view / I think + we should + V, because…",
+     "f": [
+      [
+       "In my view,",
+       "we should launch in June,",
+       "because customers want it now."
+      ],
+      [
+       "I think",
+       "we should wait,",
+       "because the testing isn't finished."
+      ]
+     ],
+     "ex": [
+      [
+       "In my view, we should launch in June, because customers want the app now.",
+       "Theo tôi, nên ra mắt vào tháng Sáu, vì khách hàng muốn có ứng dụng ngay."
+      ],
+      [
+       "I think we should wait, because the testing isn't finished.",
+       "Tôi nghĩ nên đợi, vì thử nghiệm chưa xong."
+      ]
+     ],
+     "bad": "In my view, we should to launch in June.",
+     "good": "In my view, we should launch in June.",
+     "why": "Sau should là động từ nguyên mẫu, không có to. Ở trình độ B1, ý kiến nên luôn kèm lý do: …, because …."
+    },
+    {
+     "t": "Khuyên nên: should / ought to + V; không nên: shouldn't + V",
+     "f": [
+      [
+       "We",
+       "should",
+       "test it first."
+      ],
+      [
+       "We",
+       "ought to",
+       "test it first."
+      ],
+      [
+       "We",
+       "shouldn't",
+       "launch too early."
+      ]
+     ],
+     "ex": [
+      [
+       "We ought to ask more customers.",
+       "Chúng ta nên hỏi thêm khách hàng."
+      ],
+      [
+       "We shouldn't launch too early.",
+       "Chúng ta không nên ra mắt quá sớm."
+      ]
+     ],
+     "bad": "We ought test it first.",
+     "good": "We ought to test it first.",
+     "why": "ought luôn đi với to (ought to + V), còn should thì không có to. Phủ định thường dùng shouldn't."
+    },
+    {
+     "t": "Đồng ý và phản đối lịch sự",
+     "f": [
+      [
+       "I see your point,",
+       "but",
+       "the testing isn't finished."
+      ],
+      [
+       "I'm not sure",
+       "that's",
+       "a good idea."
+      ],
+      [
+       "I",
+       "agree with",
+       "Tom."
+      ]
+     ],
+     "ex": [
+      [
+       "I see your point, but I think it's too early.",
+       "Tôi hiểu ý anh, nhưng tôi nghĩ còn sớm quá."
+      ],
+      [
+       "I agree with Kevin. Customers want it now.",
+       "Tôi đồng ý với Kevin. Khách hàng muốn có ngay."
+      ]
+     ],
+     "bad": "I am agree with Tom.",
+     "good": "I agree with Tom.",
+     "why": "agree đã là động từ nên không dùng am đi kèm (lỗi do dịch 'tôi đồng ý'). Khi phản đối, ghi nhận ý người kia trước (I see your point), rồi mới nói but…."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "'benefit' là gì?",
+     "opts": [
+      "lợi ích",
+      "rủi ro",
+      "lý do"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: rủi ro là risk.",
+      "2": "Sai: lý do là reason."
+     }
+    },
+    {
+     "q": "Điền từ: What's your ___ on the launch date?",
+     "opts": [
+      "opinion",
+      "reason",
+      "survey"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: reason đi với for (reason for), không đi với on; câu đang hỏi ý kiến.",
+      "2": "Sai: your survey on… là 'bài khảo sát của bạn', không phải hỏi ý kiến."
+     }
+    },
+    {
+     "q": "Điền từ: The ___ of the survey show that customers want a faster app.",
+     "opts": [
+      "results",
+      "risks",
+      "benefits"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: risks (rủi ro) không 'cho thấy' điều khách hàng muốn.",
+      "2": "Sai: benefits of the survey là lợi ích của việc khảo sát, không phải điều nó cho thấy."
+     }
+    },
+    {
+     "q": "Điền từ: Launching too early is a big ___. The app may not work well.",
+     "opts": [
+      "risk",
+      "benefit",
+      "result"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: vế sau nói điều xấu (app có thể chạy không tốt), nên không phải lợi ích.",
+      "2": "Sai: result (kết quả) không hợp với nghĩa 'điều có thể xảy ra xấu'."
+     }
+    },
+    {
+     "q": "'To be honest' dùng khi nào?",
+     "opts": [
+      "nói thẳng ý kiến thật của mình",
+      "xin lỗi ai đó",
+      "kết thúc cuộc họp"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: xin lỗi dùng Sorry / I apologise.",
+      "2": "Sai: kết thúc họp dùng Let's wrap up."
+     }
+    },
+    {
+     "q": "Điền từ: ___, they're launching in October, but I'm not 100% sure.",
+     "opts": [
+      "As far as I know",
+      "I agree",
+      "I disagree"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: I agree cần một ý kiến của người khác để đồng ý; câu này đưa ra thông tin chưa chắc chắn.",
+      "2": "Sai: I disagree không hợp với một thông tin chưa chắc chắn."
+     }
+    },
+    {
+     "q": "Điền từ: I ___ with Tom. We need more time.",
+     "opts": [
+      "agree",
+      "am agree",
+      "agreement"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: agree là động từ, không dùng am đi kèm.",
+      "2": "Sai: agreement là danh từ, không làm động từ chính."
+     }
+    },
+    {
+     "q": "Điền từ: Why do you want to wait? What's your ___?",
+     "opts": [
+      "reason",
+      "risk",
+      "result"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu hỏi Why… nên hỏi lý do, không hỏi rủi ro.",
+      "2": "Sai: result là kết quả, không trả lời câu hỏi 'vì sao'."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "In my view, we should launch in June.",
+      "In my view, we should to launch in June.",
+      "In my view, we should launching in June."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau should không có to.",
+      "2": "Sai: sau should là động từ nguyên mẫu, không dùng -ing."
+     }
+    },
+    {
+     "q": "Điền từ: We ought ___ test the app first.",
+     "opts": [
+      "to",
+      "be",
+      "for"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: ought be test không đúng; cụm là ought to + V.",
+      "2": "Sai: ought for không tồn tại."
+     }
+    },
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "I agree with Tom.",
+      "I am agree with Tom.",
+      "I agree Tom."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: agree là động từ, không dùng am.",
+      "2": "Sai: đồng ý với ai cần with: agree with Tom."
+     }
+    },
+    {
+     "q": "Cách phản đối nào lịch sự nhất trong cuộc họp?",
+     "opts": [
+      "I see your point, but I'm not sure that's a good idea.",
+      "No, you're wrong.",
+      "Your idea is bad."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: quá thẳng, dễ gây mất lòng trong cuộc họp.",
+      "2": "Sai: chê ý tưởng trực tiếp, không lịch sự."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền: We ___ launch too early. (không nên)",
+     "model": "shouldn't",
+     "accept": [
+      "shouldn't",
+      "should not"
+     ],
+     "why": "Khuyên không nên: shouldn't + động từ nguyên mẫu."
+    },
+    {
+     "q": "Điền từ: I think we should wait, ___ the testing isn't finished.",
+     "opts": [
+      "because",
+      "so",
+      "but"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: so (vì vậy) đứng trước kết quả, nhưng 'thử nghiệm chưa xong' là lý do.",
+      "2": "Sai: but (nhưng) không nối lý do với ý kiến."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: should / I think / ask more customers / we / .",
+     "model": "I think we should ask more customers.",
+     "accept": [
+      "I think we should ask more customers.",
+      "I think we should ask more customers"
+     ],
+     "why": "I think + we + should + V."
+    }
+   ],
+   "listen": [
+    {
+     "q": "Kevin muốn ra mắt khi nào?",
+     "audio": "In my view, we should launch in June, because customers want the app now.",
+     "opts": [
+      "tháng Sáu",
+      "tháng Chín",
+      "tháng Bảy"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: tháng Chín là September; câu nói June.",
+      "2": "Sai: tháng Bảy là July."
+     }
+    },
+    {
+     "q": "Tom có đồng ý không?",
+     "audio": "I see your point, but the testing isn't finished.",
+     "opts": [
+      "không hẳn, vì thử nghiệm chưa xong",
+      "đồng ý hoàn toàn",
+      "không có ý kiến"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: có but, nên Tom không đồng ý hoàn toàn.",
+      "2": "Sai: Tom có đưa lý do riêng (the testing isn't finished)."
+     }
+    },
+    {
+     "q": "Bao nhiêu phần trăm khách hàng muốn đặt hàng trực tuyến?",
+     "audio": "Seventy percent of customers want online ordering.",
+     "opts": [
+      "70%",
+      "17%",
+      "40%"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: 17 là seventeen (nhấn âm cuối -TEEN); câu nói SEV-en-ty.",
+      "2": "Sai: 40% là số người chê ứng dụng cũ chậm."
+     }
+    },
+    {
+     "q": "40% khách hàng nói gì?",
+     "audio": "Forty percent said our old app was too slow.",
+     "opts": [
+      "ứng dụng cũ quá chậm",
+      "ứng dụng cũ quá đắt",
+      "muốn đặt hàng trực tuyến"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói too slow, không phải too expensive.",
+      "2": "Sai: muốn đặt hàng trực tuyến là 70%."
+     }
+    },
+    {
+     "q": "Theo Tom, đối thủ ra mắt khi nào?",
+     "audio": "As far as I know, they're launching in October.",
+     "opts": [
+      "tháng Mười",
+      "mùa hè",
+      "tháng Sáu"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: Tom nói October, không phải summer.",
+      "2": "Sai: tháng Sáu là ngày Kevin muốn ra mắt."
+     }
+    },
+    {
+     "q": "Người nói nghĩ gì?",
+     "audio": "To be honest, I think waiting is a bigger risk.",
+     "opts": [
+      "chờ đợi rủi ro hơn",
+      "ra mắt sớm rủi ro hơn",
+      "không có rủi ro"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói waiting is a bigger risk (chờ đợi rủi ro hơn).",
+      "2": "Sai: câu có nói về rủi ro."
+     }
+    },
+    {
+     "q": "Sarah đề nghị gì?",
+     "audio": "I agree with Tom. We ought to test the app first.",
+     "opts": [
+      "thử nghiệm ứng dụng trước",
+      "ra mắt ngay",
+      "hỏi thêm khách hàng"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: Sarah đồng ý với Tom, người muốn chờ.",
+      "2": "Sai: câu không nhắc đến hỏi khách hàng."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "Man: I think we should launch the app in June. Woman: I see your point, but our testing won't be finished until August. Man: Then what about July? Question: Why does the woman disagree?",
+     "opts": [
+      "The testing is not finished",
+      "The app is too expensive",
+      "Customers don't want the app",
+      "June is a holiday month"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: không ai nói về giá.",
+      "2": "Sai: không ai nói khách hàng không muốn.",
+      "3": "Sai: không ai nhắc đến ngày nghỉ."
+     }
+    },
+    {
+     "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "Woman: What did the survey show? Man: Most customers want online ordering, but many said the old app was slow. Woman: So we need to make it faster. Question: What does the woman think is important?",
+     "opts": [
+      "Making the app faster",
+      "Lowering the price",
+      "Hiring more staff",
+      "Changing the logo"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: không ai nói về giá.",
+      "2": "Sai: không ai nói tuyển thêm người.",
+      "3": "Sai: không ai nói về logo."
+     }
+    },
+    {
+     "q": "TOEIC Part 6 – Chọn cụm điền vào email: Dear all, thank you for your opinions yesterday. ___, I agree that we should test the app first. We will discuss the new date on Thursday.",
+     "opts": [
+      "After the discussion",
+      "Although",
+      "Because of",
+      "Unless"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: Although cần một mệnh đề theo sau, không đứng một mình với dấu phẩy.",
+      "2": "Sai: Because of cần danh từ theo sau.",
+      "3": "Sai: Unless cần một mệnh đề theo sau."
+     }
+    },
+    {
+     "q": "IELTS Speaking Part 3 – Câu hỏi: \"Is it better to make decisions quickly or slowly at work?\" Câu trả lời nào phát triển ý tốt nhất?",
+     "opts": [
+      "It depends. Quick decisions save time, but for big projects I think it's better to wait and collect information, because a wrong decision can be expensive.",
+      "Quickly.",
+      "I make decisions every day.",
+      "Yes, it is better."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: một từ, không có lý do.",
+      "2": "Sai: không trả lời câu hỏi 'nhanh hay chậm tốt hơn'.",
+      "3": "Sai: câu hỏi lựa chọn không trả lời Yes."
+     }
+    },
+    {
+     "q": "IELTS Writing Task 2 – Đề: \"Some people think companies should launch new products as early as possible. To what extent do you agree?\" Câu luận điểm (thesis) nào rõ nhất?",
+     "opts": [
+      "I partly agree: launching early can win customers, but only if the product has been tested properly.",
+      "Products are things that companies sell.",
+      "There are many companies in the world.",
+      "Some people think launching early is good."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: định nghĩa chung, không nêu quan điểm.",
+      "2": "Sai: lạc đề, không nêu quan điểm.",
+      "3": "Sai: chỉ chép lại đề, chưa nói người viết nghĩ gì."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "opinion",
+     "focus": "Nhấn âm hai: o-PIN-ion; âm cuối 'iần' đọc nhẹ."
+    },
+    {
+     "t": "disagree",
+     "focus": "Nhấn âm cuối: dis-a-GREE, ee kéo dài."
+    },
+    {
+     "t": "survey",
+     "focus": "Danh từ nhấn âm đầu: SUR-vey ('xơ-vây')."
+    },
+    {
+     "t": "in my view",
+     "focus": "Nhấn VIEW ('viu'), v là âm môi–răng, không đọc thành 'b'."
+    },
+    {
+     "t": "In my view, we should launch in June, because customers want it now.",
+     "focus": "Ngắt nhẹ sau view và sau June; should đọc nhẹ 'shợđ', l câm."
+    },
+    {
+     "t": "I see your point, but I'm not sure that's a good idea.",
+     "focus": "Hạ giọng nhẹ ở point, nhấn NOT SURE; giữ giọng lịch sự, không gắt."
+    },
+    {
+     "t": "To be honest, waiting is a bigger risk.",
+     "focus": "honest: h câm 'o-nịt-xt'; nhấn BIG-ger RISK."
+    },
+    {
+     "t": "As far as I know, they're launching in autumn.",
+     "focus": "Kiểu Anh nối r: far‿as‿I 'pha-rơ-zai'; autumn: n câm, 'o-tầm'."
+    }
+   ],
+   "dialog": {
+    "title": "Tom hỏi ý kiến của bạn về ngày ra mắt; bạn nêu ý kiến có lý do. Đổi vai: bạn hỏi và phản biện ý kiến của Tom.",
+    "partner": "Tom",
+    "turns": [
+     {
+      "ai": "An, what's your opinion on the launch date?",
+      "vi": "An, em thấy ngày ra mắt nên thế nào?",
+      "model": "In my view, we should launch in September.",
+      "accept": [
+       "In my view, we should launch in September.",
+       "I think we should launch in September.",
+       "In my opinion, we should launch in September.",
+       "In my view, we should wait until September."
+      ],
+      "frame": "In my view, we ___ launch in September.",
+      "hint": "Nêu ý kiến: In my view, we should + V."
+     },
+     {
+      "ai": "Why do you think so?",
+      "vi": "Sao em nghĩ vậy?",
+      "model": "Because the testing isn't finished, and speed is important to customers.",
+      "accept": [
+       "Because the testing isn't finished, and speed is important to customers.",
+       "Because the testing isn't finished.",
+       "The testing isn't finished, and speed is important to customers.",
+       "Because speed is important to customers."
+      ],
+      "frame": "Because the testing isn't ___, and speed is important to customers.",
+      "hint": "Nêu lý do bằng because: thử nghiệm chưa xong, tốc độ quan trọng."
+     },
+     {
+      "ai": "But Kevin says customers want the app now.",
+      "vi": "Nhưng Kevin nói khách hàng muốn có ứng dụng ngay.",
+      "model": "I see your point, but a slow app is a bigger risk.",
+      "accept": [
+       "I see your point, but a slow app is a bigger risk.",
+       "I see the point, but a slow app is a bigger risk.",
+       "I understand, but a slow app is a bigger risk.",
+       "I see your point, but I think a slow app is a bigger risk."
+      ],
+      "frame": "I see your ___, but a slow app is a bigger risk.",
+      "hint": "Ghi nhận ý người khác trước (I see your point), rồi phản đối bằng but."
+     },
+     {
+      "ai": "What do the survey results say?",
+      "vi": "Kết quả khảo sát nói gì?",
+      "model": "Forty percent of customers said the old app was too slow.",
+      "accept": [
+       "Forty percent of customers said the old app was too slow.",
+       "40% of customers said the old app was too slow.",
+       "Forty percent said the old app was too slow.",
+       "They said the old app was too slow."
+      ],
+      "frame": "Forty percent of customers said the old app was too ___.",
+      "hint": "Đưa số liệu: Forty percent of customers said…."
+     },
+     {
+      "ai": "OK, so you agree with me?",
+      "vi": "Vậy là em đồng ý với anh à?",
+      "model": "Yes, I agree with you. We ought to test it first.",
+      "accept": [
+       "Yes, I agree with you. We ought to test it first.",
+       "Yes, I agree. We ought to test it first.",
+       "I agree with you. We should test it first.",
+       "Yes, I agree with you."
+      ],
+      "frame": "Yes, I agree with you. We ought ___ test it first.",
+      "hint": "Đồng ý (I agree with you) và khuyên: ought to + V."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Chuỗi tin nhắn nhóm trước cuộc họp",
+    "text": "Project chat – Monday evening\nKevin: In my view, we should launch in June. Customers keep asking about the app, and summer is a busy season.\nTom: I see your point, Kevin, but the testing isn't finished yet. If the app is slow, people will stop using it.\nLinh: As far as I know, our main competitor is launching in October. So we don't need to rush.\nAn: The survey results are ready. 70% of customers want online ordering, but 40% said the old app was too slow.\nSarah: Thanks, everyone. Let's discuss this at tomorrow's meeting.",
+    "vi": "Nhóm dự án – tối thứ Hai\nKevin: Theo tôi, nên ra mắt vào tháng Sáu. Khách hàng cứ hỏi mãi về ứng dụng, mà mùa hè lại là mùa bận.\nTom: Tôi hiểu ý anh, Kevin, nhưng thử nghiệm vẫn chưa xong. Nếu ứng dụng chậm, người ta sẽ không dùng nữa.\nLinh: Theo chỗ em biết, đối thủ chính ra mắt vào tháng Mười. Vậy mình không cần vội.\nAn: Kết quả khảo sát có rồi. 70% khách hàng muốn đặt hàng trực tuyến, nhưng 40% nói ứng dụng cũ quá chậm.\nSarah: Cảm ơn mọi người. Mai mình bàn trong cuộc họp nhé.",
+    "qs": [
+     {
+      "q": "Kevin đưa ra lý do gì?",
+      "opts": [
+       "khách hàng cứ hỏi và mùa hè là mùa bận",
+       "thử nghiệm chưa xong",
+       "đối thủ ra mắt vào tháng Mười"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: đó là lý do của Tom.",
+       "2": "Sai: đó là thông tin của Linh."
+      }
+     },
+     {
+      "q": "Tom lo điều gì?",
+      "opts": [
+       "ứng dụng chậm thì người dùng sẽ bỏ",
+       "giá ứng dụng quá cao",
+       "thiếu nhân viên"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: tin nhắn không nhắc đến giá.",
+       "2": "Sai: tin nhắn không nhắc đến nhân viên."
+      }
+     },
+     {
+      "q": "Theo Linh, đối thủ ra mắt khi nào?",
+      "opts": [
+       "tháng Mười",
+       "tháng Sáu",
+       "tháng Chín"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: tháng Sáu là ngày Kevin muốn.",
+       "2": "Sai: Linh nói October."
+      }
+     },
+     {
+      "q": "Đúng hay sai: \"Linh thinks the team should launch in June.\"",
+      "opts": [
+       "Sai",
+       "Đúng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Không đúng: Linh nói we don't need to rush (không cần vội), tức là không ủng hộ ra mắt sớm vào tháng Sáu."
+      }
+     },
+     {
+      "q": "Bao nhiêu phần trăm khách hàng nói ứng dụng cũ quá chậm?",
+      "opts": [
+       "40%",
+       "70%",
+       "30%"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: 70% là số muốn đặt hàng trực tuyến.",
+       "2": "Sai: tin nhắn không có con số 30%."
+      }
+     }
+    ]
+   },
+   "confuse": [
+    {
+     "a": "advice",
+     "aipa": "/ədˈvaɪs/",
+     "am": "lời khuyên (danh từ)",
+     "b": "advise",
+     "bipa": "/ədˈvaɪz/",
+     "bm": "khuyên (động từ)",
+     "note": "advice có c, đọc /s/, là danh từ không đếm được (some advice, không nói an advice). advise có s, đọc /z/, là động từ.",
+     "qa": {
+      "t": "Can you give me some ___ about the launch?",
+      "vi": "Bạn cho tôi vài lời khuyên về việc ra mắt được không?"
+     },
+     "qb": {
+      "t": "I ___ you to test the app first.",
+      "vi": "Tôi khuyên bạn nên thử nghiệm ứng dụng trước."
+     }
+    },
+    {
+     "a": "opinion",
+     "aipa": "/əˈpɪn.jən/",
+     "am": "ý kiến",
+     "b": "option",
+     "bipa": "/ˈɒp.ʃən/",
+     "bm": "lựa chọn, phương án",
+     "note": "opinion = điều bạn nghĩ (o-PIN-ion); option = một phương án để chọn (OP-tion).",
+     "qa": {
+      "t": "What's your ___ on the new design?",
+      "vi": "Bạn thấy thiết kế mới thế nào?"
+     },
+     "qb": {
+      "t": "Launching in July is another ___.",
+      "vi": "Ra mắt vào tháng Bảy là một phương án khác."
+     }
+    },
+    {
+     "a": "though",
+     "aipa": "/ðəʊ/",
+     "am": "mặc dù",
+     "b": "through",
+     "bipa": "/θruː/",
+     "bm": "qua, xuyên qua; từ đầu đến cuối",
+     "note": "though đọc 'đâu' (th rung, không có r); through đọc 'thru' (th thổi hơi, có r).",
+     "qa": {
+      "t": "The app is good, ___ it is a bit slow.",
+      "vi": "Ứng dụng tốt, mặc dù hơi chậm."
+     },
+     "qb": {
+      "t": "Let's go ___ the survey results together.",
+      "vi": "Mình cùng xem lượt qua kết quả khảo sát nhé."
+     }
+    },
+    {
+     "a": "view",
+     "aipa": "/vjuː/",
+     "am": "quan điểm; tầm nhìn",
+     "b": "review",
+     "bipa": "/rɪˈvjuː/",
+     "bm": "xem xét lại, đánh giá",
+     "note": "review = re (lại) + view: xem lại, đánh giá. in my view = theo tôi.",
+     "qa": {
+      "t": "In my ___, we should wait.",
+      "vi": "Theo tôi, chúng ta nên đợi."
+     },
+     "qb": {
+      "t": "Let's ___ the plan again next week.",
+      "vi": "Tuần sau mình xem lại kế hoạch nhé."
+     }
+    }
+   ],
+   "write": {
+    "task": "Viết tin nhắn (4–5 câu) gửi nhóm dự án nêu ý kiến của bạn về ngày ra mắt: ý kiến, lý do, ví dụ.",
+    "kind": "message",
+    "model": "Hi team, in my view, we should launch the app in September. The main reason is that the testing isn't finished yet. For example, 40% of customers in our survey said the old app was too slow. I think a fast app is more important than an early launch. What do you think?",
+    "frame": "Hi team, in my view, we should launch the app in ___. The main reason is that ___. For example, ___. I think ___ is more important than ___. What do you think?",
+    "gaps": [
+     "September",
+     "the testing isn't finished yet",
+     "40% of customers in our survey said the old app was too slow",
+     "a fast app",
+     "an early launch"
+    ],
+    "free": [
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "hints": [
+     "In my view, we should… / I think we ought to…",
+     "The main reason is that…",
+     "For example, …",
+     "I see Kevin's point, but…",
+     "What do you think?"
+    ],
+    "check": [
+     "Câu đầu nêu rõ ý kiến",
+     "Có ít nhất một lý do (because / The main reason is that…)",
+     "Có một ví dụ hoặc số liệu (For example, …)",
+     "Dùng should / ought to đúng (không thêm to sau should)",
+     "Kết bằng câu hỏi mời ý kiến",
+     "Dài 40–80 từ"
+    ],
+    "words": [
+     40,
+     80
+    ]
+   }
+  },
+  {
+   "id": "b1-w1-thu-4",
+   "label": "Thứ 4",
+   "title": "Họp trực tuyến: ngắt lời, hỏi lại, xác nhận",
+   "desc": "Ngắt lời lịch sự (Sorry to interrupt…), hỏi lại bằng câu hỏi gián tiếp (Could you tell me what…?) và xác nhận lại ý (So what you're saying is…, In other words…) khi đường truyền chập chờn.",
+   "rule": "Câu hỏi gián tiếp giữ trật tự câu kể sau what / when / how much: Could you tell me what that figure includes? (không đảo, không dùng does). Ngắt lời: Sorry to interrupt, but could you…?",
+   "cards": [
+    {
+     "w": "clarify",
+     "ipa": "/ˈklær.ɪ.faɪ/",
+     "m": "làm rõ",
+     "ex": "Could you clarify that point?",
+     "exm": "Anh làm rõ ý đó được không?",
+     "n": "Nhấn âm đầu: CLAR-i-fy. Gốc từ clear (rõ ràng). Đừng nhầm với classify (phân loại).",
+     "img": "question",
+     "spell": [
+      "clearify",
+      "clarafy"
+     ]
+    },
+    {
+     "w": "interrupt",
+     "ipa": "/ˌɪn.təˈrʌpt/",
+     "m": "ngắt lời, cắt ngang",
+     "ex": "Sorry to interrupt, but I can't hear you.",
+     "exm": "Xin lỗi cắt ngang, nhưng tôi không nghe rõ.",
+     "n": "Nhấn âm cuối: in-ter-RUPT; có hai chữ r.",
+     "img": "online",
+     "spell": [
+      "interupt",
+      "enterrupt"
+     ]
+    },
+    {
+     "w": "mean",
+     "ipa": "/miːn/",
+     "m": "có nghĩa là, ý là",
+     "ex": "What do you mean by 'a small delay'?",
+     "exm": "Ý anh 'chậm một chút' là thế nào?",
+     "n": "What do you mean by + từ / cụm? = Ý bạn … là gì? Quá khứ: meant /ment/.",
+     "img": "question",
+     "spell": [
+      "meen",
+      "mien"
+     ]
+    },
+    {
+     "w": "figure",
+     "ipa": "/ˈfɪɡ.ər/",
+     "m": "con số, số liệu",
+     "ex": "Could you repeat the last figure?",
+     "exm": "Anh nhắc lại con số cuối được không?",
+     "n": "Trong cuộc họp, figures = số liệu. Kiểu Anh đọc 'phi-gơ'.",
+     "img": "chart",
+     "spell": [
+      "figur",
+      "figger"
+     ]
+    },
+    {
+     "w": "repeat",
+     "ipa": "/rɪˈpiːt/",
+     "m": "nhắc lại",
+     "ex": "Could you repeat that, please?",
+     "exm": "Anh nhắc lại được không ạ?",
+     "n": "repeat đã có nghĩa 'lặp lại', không cần thêm again.",
+     "img": "online",
+     "spell": [
+      "repit",
+      "repeet"
+     ]
+    },
+    {
+     "w": "explain",
+     "ipa": "/ɪkˈspleɪn/",
+     "m": "giải thích",
+     "ex": "Could you explain why the cost is so high?",
+     "exm": "Anh giải thích vì sao chi phí cao thế được không?",
+     "n": "explain something TO somebody (không nói explain me): Could you explain it to me?",
+     "img": "meetingroom",
+     "spell": [
+      "explane",
+      "expain"
+     ]
+    },
+    {
+     "w": "sorry to interrupt",
+     "ipa": "/ˌsɒr.i tu ˌɪn.təˈrʌpt/",
+     "m": "xin lỗi đã cắt ngang",
+     "ex": "Sorry to interrupt, Kevin. Could you go back to the cost?",
+     "exm": "Xin lỗi cắt ngang, Kevin. Anh quay lại phần chi phí được không?",
+     "n": "Câu mở đầu lịch sự khi chen vào lời người khác. Thường đi kèm but hoặc một câu hỏi.",
+     "img": "online",
+     "spell": [
+      "sorry to interupt",
+      "sory to interrupt"
+     ]
+    },
+    {
+     "w": "could you go over",
+     "ipa": "/kʊd ju ɡəʊ ˈəʊ.vər/",
+     "m": "anh / chị trình bày lại được không",
+     "ex": "Could you go over the plan again?",
+     "exm": "Anh trình bày lại kế hoạch được không?",
+     "n": "go over = xem lại, trình bày lại từng điểm. Nối go‿over: 'gâu-ô-vơ'.",
+     "img": "meetingroom",
+     "spell": [
+      "could you go ovar",
+      "could you goes over"
+     ]
+    },
+    {
+     "w": "in other words",
+     "ipa": "/ɪn ˈʌð.ə ˌwɜːdz/",
+     "m": "nói cách khác",
+     "ex": "In other words, waiting isn't free.",
+     "exm": "Nói cách khác, chờ đợi không phải là miễn phí.",
+     "n": "Dùng để nói lại một ý bằng cách đơn giản hơn. words luôn số nhiều.",
+     "img": "question",
+     "spell": [
+      "in others words",
+      "in other word"
+     ]
+    },
+    {
+     "w": "so what you're saying is",
+     "ipa": "/səʊ wɒt jɔː ˈseɪ.ɪŋ ɪz/",
+     "m": "vậy ý anh / chị là",
+     "ex": "So what you're saying is that a later launch costs more?",
+     "exm": "Vậy ý anh là ra mắt muộn thì tốn hơn?",
+     "n": "Giữ trật tự câu kể: what you're saying (không đảo are lên trước you). Thường lên giọng ở cuối để hỏi lại.",
+     "img": "question",
+     "spell": [
+      "so what your saying is",
+      "so what you saying is"
+     ]
+    },
+    {
+     "w": "mute",
+     "ipa": "/mjuːt/",
+     "m": "tắt tiếng (micro)",
+     "ex": "Tom, you're on mute!",
+     "exm": "Tom ơi, anh đang tắt micro!",
+     "n": "be on mute = đang tắt tiếng; unmute = bật tiếng. Đọc 'miu-t'.",
+     "img": "online",
+     "spell": [
+      "moot",
+      "miute"
+     ]
+    },
+    {
+     "w": "connection",
+     "ipa": "/kəˈnek.ʃən/",
+     "m": "kết nối, đường truyền",
+     "ex": "Your connection isn't very good.",
+     "exm": "Đường truyền của anh không tốt lắm.",
+     "n": "Nhấn âm hai: con-NEC-tion; có hai chữ n. a bad / poor connection = đường truyền kém.",
+     "img": "online",
+     "spell": [
+      "conection",
+      "connecsion"
+     ]
+    }
+   ],
+   "scene": {
+    "setting": "Chiều thứ Tư, họp trực tuyến vì Kevin đang ở Đà Nẵng. Đường truyền của Kevin chập chờn, An ngắt lời để hỏi lại con số chi phí; micro của Tom đang tắt.",
+    "img": "scene-en-online",
+    "imgPrompt": "An online video meeting on a laptop screen with four video tiles: kevin's tile looks slightly pixelated, tom has a muted microphone icon; an sits in front of the laptop raising her hand politely, sarah in another tile, no readable text.",
+    "lines": [
+     {
+      "who": "Kevin",
+      "t": "…so the cost of the extra testing is about forty thousand dollars.",
+      "vi": "…vậy chi phí thử nghiệm thêm khoảng bốn mươi nghìn đô."
+     },
+     {
+      "who": "An",
+      "t": "Sorry to interrupt, Kevin. Your connection isn't very good. Could you repeat the figure?",
+      "vi": "Xin lỗi cắt ngang, anh Kevin. Đường truyền của anh không tốt lắm. Anh nhắc lại con số được không?"
+     },
+     {
+      "who": "Kevin",
+      "t": "Sure. Forty thousand dollars. Four, zero.",
+      "vi": "Được. Bốn mươi nghìn đô. Bốn, không."
+     },
+     {
+      "who": "An",
+      "t": "Thanks. Could you tell me what that figure includes?",
+      "vi": "Cảm ơn anh. Anh cho em biết con số đó gồm những gì được không?"
+     },
+     {
+      "who": "Kevin",
+      "t": "It includes two extra weeks of testing and two new developers.",
+      "vi": "Gồm thêm hai tuần thử nghiệm và hai lập trình viên mới."
+     },
+     {
+      "who": "An",
+      "t": "So what you're saying is that a later launch costs more?",
+      "vi": "Vậy ý anh là ra mắt muộn thì tốn hơn?"
+     },
+     {
+      "who": "Kevin",
+      "t": "Exactly. In other words, waiting isn't free.",
+      "vi": "Đúng vậy. Nói cách khác, chờ đợi không phải là miễn phí."
+     },
+     {
+      "who": "Sarah",
+      "t": "Tom, you're on mute! … OK, could you go over your testing plan again?",
+      "vi": "Tom ơi, anh đang tắt micro! … Được rồi, anh trình bày lại kế hoạch thử nghiệm nhé?"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Câu hỏi gián tiếp: Could you tell me / Do you know + what / when / how much + chủ ngữ + động từ?",
+     "f": [
+      [
+       "Could you tell me",
+       "what",
+       "that figure includes?"
+      ],
+      [
+       "Do you know",
+       "when",
+       "the testing will finish?"
+      ]
+     ],
+     "ex": [
+      [
+       "Could you tell me what that figure includes?",
+       "Anh cho em biết con số đó gồm những gì được không?"
+      ],
+      [
+       "Do you know when the testing will finish?",
+       "Anh có biết khi nào thử nghiệm xong không?"
+      ]
+     ],
+     "bad": "Could you tell me what does that figure include?",
+     "good": "Could you tell me what that figure includes?",
+     "why": "Trong câu hỏi gián tiếp, phần sau what / when giữ trật tự câu kể (chủ ngữ + động từ), không đảo và không dùng does / do. Câu hỏi gián tiếp nghe lịch sự hơn câu hỏi trực tiếp."
+    },
+    {
+     "t": "Ngắt lời và xin nhắc lại: Sorry to interrupt, but could you…?",
+     "f": [
+      [
+       "Sorry to interrupt,",
+       "but could you",
+       "repeat the figure?"
+      ],
+      [
+       "Sorry,",
+       "could you",
+       "go over that again?"
+      ]
+     ],
+     "ex": [
+      [
+       "Sorry to interrupt, but could you repeat that?",
+       "Xin lỗi cắt ngang, anh nhắc lại được không ạ?"
+      ],
+      [
+       "Sorry, could you go over the plan again?",
+       "Xin lỗi, anh trình bày lại kế hoạch được không?"
+      ]
+     ],
+     "bad": "Repeat again!",
+     "good": "Sorry, could you repeat that, please?",
+     "why": "Trong cuộc họp, ngắt lời nên có lời xin lỗi (Sorry to interrupt) và dạng hỏi lịch sự Could you…? repeat đã có nghĩa 'lặp lại', không cần again."
+    },
+    {
+     "t": "Xác nhận lại ý: So what you're saying is (that)… / In other words, …",
+     "f": [
+      [
+       "So what you're saying is",
+       "that",
+       "a later launch costs more?"
+      ],
+      [
+       "In other words,",
+       "waiting",
+       "isn't free."
+      ]
+     ],
+     "ex": [
+      [
+       "So what you're saying is that we need two more weeks?",
+       "Vậy ý anh là mình cần thêm hai tuần?"
+      ],
+      [
+       "In other words, the app is not ready.",
+       "Nói cách khác, ứng dụng chưa sẵn sàng."
+      ]
+     ],
+     "bad": "So what are you saying is that we need more time?",
+     "good": "So what you're saying is that we need more time?",
+     "why": "Cụm này giữ trật tự câu kể: what you're saying, không đảo are lên trước you."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "'clarify' nghĩa là gì?",
+     "opts": [
+      "làm rõ",
+      "phân loại",
+      "nhắc lại"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: phân loại là classify (viết gần giống).",
+      "2": "Sai: nhắc lại là repeat."
+     }
+    },
+    {
+     "q": "Điền từ: ___, Kevin. Could you repeat that?",
+     "opts": [
+      "Sorry to interrupt",
+      "In other words",
+      "To be honest"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: In other words dùng khi nói lại ý của mình, không dùng để chen vào lời người khác.",
+      "2": "Sai: To be honest đứng trước một ý kiến thẳng thắn, không đi với lời nhờ nhắc lại."
+     }
+    },
+    {
+     "q": "Điền từ: Your ___ is bad. I can't hear you well.",
+     "opts": [
+      "connection",
+      "figure",
+      "mute"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: figure là con số, không làm ta nghe không rõ.",
+      "2": "Sai: mute đi với be on mute; your mute is bad không phải cách nói."
+     }
+    },
+    {
+     "q": "Điền từ: Tom, you're on ___! We can't hear you.",
+     "opts": [
+      "mute",
+      "connection",
+      "repeat"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: on connection không phải cách nói.",
+      "2": "Sai: on repeat là 'phát đi phát lại', không phải tắt micro."
+     }
+    },
+    {
+     "q": "'figure' trong câu 'Could you repeat the figure?' là gì?",
+     "opts": [
+      "con số",
+      "hình vẽ",
+      "nhân vật"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: Figure 1 trong tài liệu là hình minh hoạ, nhưng 'nhắc lại' (repeat) chỉ hợp với con số được nói ra.",
+      "2": "Sai: không nhắc lại một nhân vật."
+     }
+    },
+    {
+     "q": "Điền từ: What do you ___ by 'a small delay'?",
+     "opts": [
+      "mean",
+      "explain",
+      "clarify"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: What do you explain by… không đúng; explain cần tân ngữ (explain the delay).",
+      "2": "Sai: What do you clarify by… không đúng."
+     }
+    },
+    {
+     "q": "Điền từ: Could you ___ the plan again? I missed the first part.",
+     "opts": [
+      "go over",
+      "interrupt",
+      "mute"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: interrupt the plan không có nghĩa 'trình bày lại'.",
+      "2": "Sai: mute the plan không có nghĩa."
+     }
+    },
+    {
+     "q": "Điền từ: Could you ___ why the cost is so high?",
+     "opts": [
+      "explain",
+      "mean",
+      "repeat"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: mean why… không đúng cấu trúc.",
+      "2": "Sai: repeat why… không tự nhiên; muốn biết lý do thì nhờ giải thích (explain)."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "Could you tell me what that figure includes?",
+      "Could you tell me what does that figure include?",
+      "Could you tell me what includes that figure?"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu hỏi gián tiếp không dùng does và không đảo.",
+      "2": "Sai: sai trật tự; chủ ngữ (that figure) phải đứng trước động từ."
+     }
+    },
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "Do you know when the testing will finish?",
+      "Do you know when will the testing finish?",
+      "Do you know when finishes the testing?"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau when giữ trật tự câu kể, không đảo will.",
+      "2": "Sai: chủ ngữ the testing phải đứng trước động từ."
+     }
+    },
+    {
+     "q": "Cách ngắt lời nào lịch sự nhất?",
+     "opts": [
+      "Sorry to interrupt, but could you repeat the figure?",
+      "Stop! Repeat the figure.",
+      "Again, again!"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu mệnh lệnh gắt, không lịch sự trong cuộc họp.",
+      "2": "Sai: không rõ ràng và không lịch sự."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền một từ: So what you're ___ is that we need more time?",
+     "model": "saying",
+     "accept": [
+      "saying"
+     ],
+     "why": "Cụm cố định: So what you're saying is (that)…"
+    },
+    {
+     "q": "Điền: Could you tell me how much ___?",
+     "opts": [
+      "the testing costs",
+      "does the testing cost",
+      "costs the testing"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu hỏi gián tiếp không dùng does.",
+      "2": "Sai: chủ ngữ the testing phải đứng trước động từ."
+     }
+    },
+    {
+     "q": "Điền từ: In other ___, the app is not ready.",
+     "opts": [
+      "words",
+      "word",
+      "ways"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: cụm cố định dùng số nhiều words.",
+      "2": "Sai: in other ways = theo những cách khác, nghĩa khác."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu hỏi: tell me / Could you / the meeting starts / when / ?",
+     "model": "Could you tell me when the meeting starts?",
+     "accept": [
+      "Could you tell me when the meeting starts?",
+      "Could you tell me when the meeting starts"
+     ],
+     "why": "Could you tell me + when + chủ ngữ + động từ (trật tự câu kể)."
+    }
+   ],
+   "listen": [
+    {
+     "q": "Chi phí thử nghiệm thêm là bao nhiêu?",
+     "audio": "The cost of the extra testing is about forty thousand dollars.",
+     "opts": [
+      "khoảng 40.000 đô",
+      "khoảng 14.000 đô",
+      "khoảng 400.000 đô"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: 14 là four-TEEN (nhấn âm cuối, có -n); câu nói FOR-ty (nhấn âm đầu).",
+      "2": "Sai: 400.000 là four hundred thousand."
+     }
+    },
+    {
+     "q": "An nói gì với Kevin?",
+     "audio": "Sorry to interrupt, but your connection isn't very good.",
+     "opts": [
+      "đường truyền của Kevin kém",
+      "Kevin nói nhanh quá",
+      "Kevin nói sai con số"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không nói Kevin nói nhanh.",
+      "2": "Sai: câu không nói con số sai."
+     }
+    },
+    {
+     "q": "Con số đó gồm những gì?",
+     "audio": "It includes two extra weeks of testing and two new developers.",
+     "opts": [
+      "thêm 2 tuần thử nghiệm và 2 lập trình viên mới",
+      "2 tuần nghỉ và 2 máy tính mới",
+      "2 khách hàng mới"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói extra weeks of testing, không phải nghỉ.",
+      "2": "Sai: câu nói developers, không phải customers."
+     }
+    },
+    {
+     "q": "Người nói đang làm gì?",
+     "audio": "So what you're saying is that a later launch costs more?",
+     "opts": [
+      "xác nhận lại ý người kia",
+      "phản đối người kia",
+      "chuyển sang chủ đề khác"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: So what you're saying is… dùng để kiểm tra mình hiểu đúng chưa, không phải phản đối.",
+      "2": "Sai: câu vẫn nói về chi phí, không đổi chủ đề."
+     }
+    },
+    {
+     "q": "Chuyện gì xảy ra với Tom?",
+     "audio": "Tom, you're on mute!",
+     "opts": [
+      "Tom đang tắt micro",
+      "Tom bị mất mạng",
+      "Tom đến muộn"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: on mute là tắt tiếng, không phải mất kết nối.",
+      "2": "Sai: câu không nói Tom đến muộn."
+     }
+    },
+    {
+     "q": "Vì sao người nói nhờ trình bày lại?",
+     "audio": "Could you go over the plan again? I missed the first part.",
+     "opts": [
+      "bỏ lỡ phần đầu",
+      "không đồng ý với kế hoạch",
+      "muốn đổi kế hoạch"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không có ý phản đối.",
+      "2": "Sai: câu không đề nghị đổi kế hoạch."
+     }
+    },
+    {
+     "q": "Cuộc họp kết thúc lúc mấy giờ?",
+     "audio": "The meeting will finish at a quarter past four.",
+     "opts": [
+      "4:15",
+      "4:45",
+      "3:15"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: 4:45 là a quarter to five; câu nói a quarter past four.",
+      "2": "Sai: câu nói four, không phải three."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "Man: Sorry, could you repeat the cost? The line is bad. Woman: Sure, it's fifteen thousand dollars. Man: Fifteen or fifty? Woman: Fifteen – one, five. Question: How much is the cost?",
+     "opts": [
+      "$15,000",
+      "$50,000",
+      "$5,000",
+      "$1,500"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: người nữ xác nhận fifteen – one, five, không phải fifty.",
+      "2": "Sai: không ai nói five thousand.",
+      "3": "Sai: không ai nói one thousand five hundred."
+     }
+    },
+    {
+     "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "Woman: Could you tell me when the testing will finish? Man: At the end of August, if we get two more developers. Woman: So we need more people. Question: What does the man need to finish on time?",
+     "opts": [
+      "Two more developers",
+      "A bigger office",
+      "More customers",
+      "A new laptop"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: không ai nhắc đến văn phòng.",
+      "2": "Sai: không ai nhắc đến khách hàng.",
+      "3": "Sai: không ai nhắc đến laptop."
+     }
+    },
+    {
+     "q": "TOEIC Part 6 – Chọn từ điền vào email: Hi Kevin, thanks for the online meeting. I'd like to ___ one point. Did the cost include the two new developers?",
+     "opts": [
+      "clarify",
+      "classify",
+      "interrupt",
+      "mute"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: classify (phân loại) không hợp với 'một điểm cần hỏi lại'.",
+      "2": "Sai: interrupt dùng khi đang nói, không dùng trong email sau cuộc họp.",
+      "3": "Sai: mute one point không có nghĩa."
+     }
+    },
+    {
+     "q": "IELTS Speaking Part 1 – Câu hỏi: \"Do you prefer online meetings or face-to-face meetings?\" Câu trả lời nào phát triển ý tốt nhất?",
+     "opts": [
+      "I prefer face-to-face meetings, because it's easier to see people's reactions, although online meetings save travel time.",
+      "Online.",
+      "Meetings are sometimes online.",
+      "I prefer."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: một từ, không có lý do.",
+      "2": "Sai: không nói mình thích loại nào.",
+      "3": "Sai: câu chưa trọn, thiếu tân ngữ và lý do."
+     }
+    },
+    {
+     "q": "IELTS Reading – True / False / Not Given. Đoạn đọc: \"The online meeting lasted one hour. Some people had connection problems, so Sarah sent the slides by email.\" Nhận định: Everyone had connection problems.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Không chọn True: đoạn đọc nói some people, không phải everyone.",
+      "2": "Không chọn Not Given: đoạn đọc có thông tin và thông tin đó trái với nhận định (some ≠ everyone), nên là False."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "clarify",
+     "focus": "Nhấn âm đầu: CLAR-i-fy; cuối đọc 'phai'."
+    },
+    {
+     "t": "interrupt",
+     "focus": "Nhấn âm cuối: in-ter-RUPT; cụm -pt cuối đọc nhẹ, dứt khoát."
+    },
+    {
+     "t": "forty – fourteen",
+     "focus": "FOR-ty nhấn âm đầu, không có n; four-TEEN nhấn âm cuối, có -n. Đây là cặp số hay nghe nhầm nhất."
+    },
+    {
+     "t": "Sorry to interrupt.",
+     "focus": "to đọc nhẹ /tə/; nhấn RUPT; giọng mềm, xin lỗi thật lòng."
+    },
+    {
+     "t": "Could you repeat the figure?",
+     "focus": "Could you nối 'cu-diu'; nhấn PEAT và FIG; lên giọng nhẹ ở cuối."
+    },
+    {
+     "t": "Could you tell me what that figure includes?",
+     "focus": "Không lên giọng ở what (câu gián tiếp); nhấn FIG và CLUDES."
+    },
+    {
+     "t": "So what you're saying is that a later launch costs more?",
+     "focus": "Lên giọng ở cuối để hỏi lại; costs: giữ cụm -sts."
+    },
+    {
+     "t": "You're on mute!",
+     "focus": "Nối You're‿on: 'io-ron'; mute 'miu-t'."
+    }
+   ],
+   "dialog": {
+    "title": "Trong cuộc họp trực tuyến, bạn ngắt lời để hỏi lại con số của Kevin. Đổi vai: bạn là người được hỏi, giải thích lại.",
+    "partner": "Kevin",
+    "turns": [
+     {
+      "ai": "…so the total cost is about forty thousand dollars, and the testing will take…",
+      "vi": "…vậy tổng chi phí khoảng bốn mươi nghìn đô, còn thử nghiệm sẽ mất…",
+      "model": "Sorry to interrupt, Kevin. Could you repeat the figure?",
+      "accept": [
+       "Sorry to interrupt, Kevin. Could you repeat the figure?",
+       "Sorry to interrupt. Could you repeat the figure?",
+       "Sorry, could you repeat the figure?",
+       "Sorry to interrupt, could you repeat that?"
+      ],
+      "frame": "Sorry to ___, Kevin. Could you repeat the figure?",
+      "hint": "Ngắt lời lịch sự (Sorry to interrupt) rồi nhờ nhắc lại con số."
+     },
+     {
+      "ai": "Sure. Forty thousand dollars.",
+      "vi": "Được. Bốn mươi nghìn đô.",
+      "model": "Thanks. Could you tell me what it includes?",
+      "accept": [
+       "Thanks. Could you tell me what it includes?",
+       "Could you tell me what it includes?",
+       "Thank you. Could you tell me what it includes?",
+       "Could you tell me what that figure includes?"
+      ],
+      "frame": "Thanks. Could you tell me what it ___?",
+      "hint": "Câu hỏi gián tiếp: Could you tell me what it includes? (không dùng does)."
+     },
+     {
+      "ai": "Two extra weeks of testing and two new developers.",
+      "vi": "Thêm hai tuần thử nghiệm và hai lập trình viên mới.",
+      "model": "So what you're saying is that a later launch costs more?",
+      "accept": [
+       "So what you're saying is that a later launch costs more?",
+       "So what you're saying is a later launch costs more?",
+       "In other words, a later launch costs more?",
+       "So a later launch costs more?"
+      ],
+      "frame": "So what you're ___ is that a later launch costs more?",
+      "hint": "Xác nhận lại ý: So what you're saying is (that)…?"
+     },
+     {
+      "ai": "Exactly. Is everything clear now?",
+      "vi": "Đúng vậy. Giờ rõ chưa em?",
+      "model": "Yes, thanks. Could you send me the figures after the meeting?",
+      "accept": [
+       "Yes, thanks. Could you send me the figures after the meeting?",
+       "Could you send me the figures after the meeting?",
+       "Yes. Could you send me the figures, please?",
+       "Yes, thank you. Could you email me the figures?"
+      ],
+      "frame": "Yes, thanks. Could you send me the ___ after the meeting?",
+      "hint": "Nhờ gửi số liệu sau họp: Could you send me the figures…?"
+     },
+     {
+      "ai": "Of course. I'll email them this afternoon.",
+      "vi": "Tất nhiên. Chiều nay anh email cho em.",
+      "model": "Great, thank you!",
+      "accept": [
+       "Great, thank you!",
+       "Great, thanks!",
+       "Thank you!",
+       "Thanks, Kevin!"
+      ],
+      "frame": "Great, ___ you!",
+      "hint": "Cảm ơn ngắn gọn: Great, thank you!"
+     }
+    ]
+   },
+   "reading": {
+    "title": "Email hỏi lại số liệu sau cuộc họp trực tuyến",
+    "text": "Subject: Questions about the testing cost\n\nHi Kevin,\n\nThanks for your update in today's online meeting. My connection was bad, so I'd like to clarify two points.\n\nFirst, you said the extra testing would cost about $40,000. Could you tell me if this includes the two new developers?\n\nSecond, I didn't hear when the testing will finish. Is it the end of August or the end of September?\n\nCould you send me the figures before Thursday's meeting?\n\nThanks,\nAn",
+    "vi": "Tiêu đề: Câu hỏi về chi phí thử nghiệm\n\nAnh Kevin thân mến,\n\nCảm ơn anh đã cập nhật trong cuộc họp trực tuyến hôm nay. Đường truyền của em kém nên em muốn hỏi rõ hai điểm.\n\nThứ nhất, anh nói thử nghiệm thêm sẽ tốn khoảng 40.000 đô. Anh cho em biết con số này đã gồm hai lập trình viên mới chưa?\n\nThứ hai, em không nghe được khi nào thử nghiệm xong. Là cuối tháng Tám hay cuối tháng Chín ạ?\n\nAnh gửi em số liệu trước cuộc họp thứ Năm được không?\n\nCảm ơn anh,\nAn",
+    "qs": [
+     {
+      "q": "Vì sao An viết email?",
+      "opts": [
+       "đường truyền kém nên cần hỏi rõ",
+       "muốn đổi lịch họp",
+       "phàn nàn về chi phí"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: email không đề nghị đổi lịch.",
+       "2": "Sai: An chỉ hỏi, không phàn nàn."
+      }
+     },
+     {
+      "q": "An muốn hỏi rõ mấy điểm?",
+      "opts": [
+       "2",
+       "3",
+       "1"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: email viết clarify two points.",
+       "2": "Sai: có First và Second, tức hai điểm."
+      }
+     },
+     {
+      "q": "Câu hỏi thứ nhất của An là gì?",
+      "opts": [
+       "chi phí đã gồm hai lập trình viên mới chưa",
+       "ai sẽ thử nghiệm",
+       "giá bán ứng dụng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: email không hỏi ai thử nghiệm.",
+       "2": "Sai: email không hỏi giá bán."
+      }
+     },
+     {
+      "q": "Đúng hay sai: \"An knows when the testing will finish.\"",
+      "opts": [
+       "Sai",
+       "Đúng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Không đúng: An viết I didn't hear when the testing will finish, nên An chưa biết."
+      }
+     },
+     {
+      "q": "An cần số liệu trước khi nào?",
+      "opts": [
+       "trước cuộc họp thứ Năm",
+       "cuối tháng Tám",
+       "ngay hôm nay"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: cuối tháng Tám là một trong hai ngày An hỏi, không phải hạn gửi số liệu.",
+       "2": "Sai: email viết before Thursday's meeting."
+      }
+     }
+    ]
+   },
+   "confuse": [
+    {
+     "a": "clarify",
+     "aipa": "/ˈklær.ɪ.faɪ/",
+     "am": "làm rõ",
+     "b": "classify",
+     "bipa": "/ˈklæs.ɪ.faɪ/",
+     "bm": "phân loại",
+     "note": "clarify gốc từ clear (rõ); classify gốc từ class (nhóm, loại). Chỉ khác r và ss.",
+     "qa": {
+      "t": "Could you ___ what you mean?",
+      "vi": "Anh làm rõ ý anh được không?"
+     },
+     "qb": {
+      "t": "Please ___ the customer comments into three groups.",
+      "vi": "Vui lòng phân loại ý kiến khách hàng thành ba nhóm."
+     }
+    },
+    {
+     "a": "interrupt",
+     "aipa": "/ˌɪn.təˈrʌpt/",
+     "am": "ngắt lời",
+     "b": "interpret",
+     "bipa": "/ɪnˈtɜː.prɪt/",
+     "bm": "phiên dịch; diễn giải (số liệu)",
+     "note": "interrupt có rr và nhấn âm cuối; interpret nhấn âm hai in-TER-pret.",
+     "qa": {
+      "t": "Sorry to ___, but I can't hear you.",
+      "vi": "Xin lỗi cắt ngang, nhưng tôi không nghe rõ."
+     },
+     "qb": {
+      "t": "Could you help us ___ the survey results?",
+      "vi": "Bạn giúp chúng tôi diễn giải kết quả khảo sát được không?"
+     }
+    },
+    {
+     "a": "repeat",
+     "aipa": "/rɪˈpiːt/",
+     "am": "nhắc lại",
+     "b": "report",
+     "bipa": "/rɪˈpɔːt/",
+     "bm": "báo cáo",
+     "note": "repeat có ea đọc 'i' dài ('ri-pít'); report có or đọc 'o' dài ('ri-pót').",
+     "qa": {
+      "t": "Could you ___ the last figure?",
+      "vi": "Anh nhắc lại con số cuối được không?"
+     },
+     "qb": {
+      "t": "Please write a short ___ after the meeting.",
+      "vi": "Sau cuộc họp vui lòng viết một báo cáo ngắn."
+     }
+    },
+    {
+     "a": "explain",
+     "aipa": "/ɪkˈspleɪn/",
+     "am": "giải thích",
+     "b": "expand",
+     "bipa": "/ɪkˈspænd/",
+     "bm": "mở rộng",
+     "note": "explain có ai đọc 'ây'; expand có a đọc 'e' và kết thúc -nd.",
+     "qa": {
+      "t": "Could you ___ why the cost is so high?",
+      "vi": "Anh giải thích vì sao chi phí cao vậy được không?"
+     },
+     "qb": {
+      "t": "We plan to ___ the app to five more cities.",
+      "vi": "Chúng tôi định mở rộng ứng dụng ra thêm năm thành phố."
+     }
+    }
+   ],
+   "write": {
+    "task": "Viết email (60–80 từ) hỏi lại một thông tin chưa rõ sau cuộc họp trực tuyến.",
+    "kind": "email",
+    "model": "Subject: Question about the testing cost\n\nHi Kevin,\n\nThanks for the online meeting today. My connection was bad, so I'd like to clarify one point. You said the extra testing would cost about $40,000. Could you tell me what this figure includes? Also, could you send me the testing plan before Thursday? Thank you for your help.\n\nBest regards,\nAn",
+    "frame": "Subject: Question about the ___\n\nHi ___,\n\nThanks for the online meeting today. My connection was bad, so I'd like to ___ one point. You said ___. Could you tell me what this figure ___? Also, could you send me the testing plan before ___? Thank you for your help.\n\nBest regards,\n___",
+    "gaps": [
+     "testing cost",
+     "Kevin",
+     "clarify",
+     "the extra testing would cost about $40,000",
+     "includes",
+     "Thursday",
+     "An"
+    ],
+    "free": [
+     true,
+     true,
+     false,
+     true,
+     false,
+     true,
+     true
+    ],
+    "hints": [
+     "Thanks for … today.",
+     "I'd like to clarify one point / two points.",
+     "You said (that)…",
+     "Could you tell me what / when / how much…?",
+     "Could you send me … before …?",
+     "Best regards,"
+    ],
+    "check": [
+     "Tiêu đề nói rõ nội dung",
+     "Nói lý do viết (đường truyền kém, chưa rõ)",
+     "Nhắc lại điều người kia đã nói: You said…",
+     "Câu hỏi gián tiếp đúng trật tự (what this figure includes)",
+     "Có một yêu cầu cụ thể kèm thời hạn",
+     "Kết thư lịch sự",
+     "Dài 60–80 từ"
+    ],
+    "words": [
+     60,
+     80
+    ]
+   }
+  },
+  {
+   "id": "b1-w1-thu-5",
+   "label": "Thứ 5",
+   "title": "Tìm phương án trung gian: ra mắt thử ở một thành phố",
+   "desc": "Đề xuất (Why don't we…?, How about…?, I suggest that we…), nói hệ quả bằng câu điều kiện loại 1 (If we…, we'll…) và nêu lợi ích, chi phí khi cả nhóm tìm giải pháp trung gian.",
+   "rule": "Why don't we + V? / How about + V-ing? / I suggest + V-ing hoặc I suggest that we + V (không nói suggest to). Câu điều kiện loại 1: If + hiện tại đơn, … will + V (không dùng will trong vế If).",
+   "cards": [
+    {
+     "w": "suggest",
+     "ipa": "/səˈdʒest/",
+     "m": "đề nghị, gợi ý",
+     "ex": "I suggest that we start in Da Nang.",
+     "exm": "Tôi đề nghị mình bắt đầu ở Đà Nẵng.",
+     "n": "suggest + V-ing hoặc suggest that we + V. KHÔNG nói suggest to do. gg đọc /dʒ/: 'xơ-giét-xt'.",
+     "img": "question",
+     "spell": [
+      "sugest",
+      "suggets"
+     ]
+    },
+    {
+     "w": "propose",
+     "ipa": "/prəˈpəʊz/",
+     "m": "đề xuất (trang trọng)",
+     "ex": "I'd like to propose a pilot launch.",
+     "exm": "Tôi xin đề xuất một đợt ra mắt thử.",
+     "n": "Danh từ: proposal (bản đề xuất). Đừng nhầm với purpose (mục đích).",
+     "img": "agenda",
+     "spell": [
+      "purpose",
+      "propoze"
+     ]
+    },
+    {
+     "w": "option",
+     "ipa": "/ˈɒp.ʃən/",
+     "m": "lựa chọn, phương án",
+     "ex": "We have two options: June or September.",
+     "exm": "Chúng ta có hai phương án: tháng Sáu hoặc tháng Chín.",
+     "n": "Nhấn âm đầu: OP-tion. Đừng nhầm với opinion (ý kiến).",
+     "img": "chart",
+     "spell": [
+      "opsion",
+      "opion"
+     ]
+    },
+    {
+     "w": "solution",
+     "ipa": "/səˈluː.ʃən/",
+     "m": "giải pháp",
+     "ex": "We need a solution to this problem today.",
+     "exm": "Hôm nay chúng ta cần một giải pháp cho vấn đề này.",
+     "n": "a solution TO a problem (dùng to, không dùng for).",
+     "img": "handshake",
+     "spell": [
+      "solusion",
+      "soluton"
+     ]
+    },
+    {
+     "w": "compromise",
+     "ipa": "/ˈkɒm.prə.maɪz/",
+     "m": "giải pháp dung hoà, thoả hiệp",
+     "ex": "A pilot launch is a good compromise.",
+     "exm": "Ra mắt thử là một giải pháp dung hoà tốt.",
+     "n": "Mỗi bên nhường một chút. Nhấn âm đầu: COM-pro-mise; cuối đọc 'mai-z'.",
+     "img": "handshake",
+     "spell": [
+      "comprimise",
+      "compromice"
+     ]
+    },
+    {
+     "w": "budget",
+     "ipa": "/ˈbʌdʒ.ɪt/",
+     "m": "ngân sách",
+     "ex": "The pilot will use ten percent of the budget.",
+     "exm": "Đợt thử sẽ dùng mười phần trăm ngân sách.",
+     "n": "d câm: đọc 'bă-jịt'. on budget = đúng ngân sách; over budget = vượt ngân sách.",
+     "img": "chart",
+     "spell": [
+      "budjet",
+      "buget"
+     ]
+    },
+    {
+     "w": "cost",
+     "ipa": "/kɒst/",
+     "m": "chi phí; tốn (tiền)",
+     "ex": "How much will the pilot cost?",
+     "exm": "Đợt thử sẽ tốn bao nhiêu?",
+     "n": "Động từ bất quy tắc: cost – cost – cost. Đừng nhầm với coast (bờ biển).",
+     "img": "chart",
+     "spell": [
+      "coast",
+      "cots"
+     ]
+    },
+    {
+     "w": "decide",
+     "ipa": "/dɪˈsaɪd/",
+     "m": "quyết định",
+     "ex": "We've decided to start with a pilot.",
+     "exm": "Chúng ta đã quyết định bắt đầu bằng một đợt thử.",
+     "n": "decide + to V / decide that + câu. Danh từ: decision.",
+     "img": "handshake",
+     "spell": [
+      "deside",
+      "decid"
+     ]
+    },
+    {
+     "w": "vote",
+     "ipa": "/vəʊt/",
+     "m": "bỏ phiếu, biểu quyết",
+     "ex": "We can't agree, so let's vote.",
+     "exm": "Không thống nhất được thì mình biểu quyết.",
+     "n": "vote for = bỏ phiếu ủng hộ; vote against = bỏ phiếu chống.",
+     "img": "meetingroom",
+     "spell": [
+      "vot",
+      "voat"
+     ]
+    },
+    {
+     "w": "pilot",
+     "ipa": "/ˈpaɪ.lət/",
+     "m": "(đợt) thử nghiệm quy mô nhỏ",
+     "ex": "We'll run a pilot in Da Nang in July.",
+     "exm": "Chúng ta sẽ chạy thử ở Đà Nẵng vào tháng Bảy.",
+     "n": "Ngoài nghĩa 'phi công', pilot còn là thử nghiệm nhỏ trước khi làm lớn: a pilot launch.",
+     "img": "launch",
+     "spell": [
+      "pilote",
+      "pilat"
+     ]
+    },
+    {
+     "w": "why don't we",
+     "ipa": "/ˌwaɪ dəʊnt wi/",
+     "m": "sao mình không…, hay là mình…",
+     "ex": "Why don't we launch in one city first?",
+     "exm": "Hay là mình ra mắt ở một thành phố trước?",
+     "n": "Why don't we + V nguyên mẫu? là lời đề xuất, không phải hỏi lý do.",
+     "img": "question",
+     "spell": [
+      "why doesn't we",
+      "why don't us"
+     ]
+    },
+    {
+     "w": "how about",
+     "ipa": "/ˌhaʊ əˈbaʊt/",
+     "m": "… thì sao?, hay là…",
+     "ex": "How about starting in July?",
+     "exm": "Bắt đầu vào tháng Bảy thì sao?",
+     "n": "How about + V-ing / danh từ? Nối âm: how‿about 'hao-ơ-bao-t'.",
+     "img": "question",
+     "spell": [
+      "how abaut",
+      "how bout"
+     ]
+    }
+   ],
+   "scene": {
+    "setting": "Sáng thứ Năm, cả nhóm họp lại sau khi đã có số liệu chi phí. Kevin vẫn muốn ra mắt sớm, Tom muốn thêm thời gian; An đề xuất một phương án trung gian.",
+    "img": "scene-en-proposal",
+    "imgPrompt": "A meeting room with a whiteboard showing a simple blank map outline with a pin: an points at the pin and smiles; kevin and tom nod together; sarah raises her hand as if calling a vote, no readable text.",
+    "lines": [
+     {
+      "who": "Sarah",
+      "t": "We have two options: June or September. We need a solution today.",
+      "vi": "Chúng ta có hai phương án: tháng Sáu hoặc tháng Chín. Hôm nay phải có giải pháp."
+     },
+     {
+      "who": "An",
+      "t": "Why don't we do a pilot launch first? We could launch in one city.",
+      "vi": "Hay là mình ra mắt thử trước? Mình có thể ra mắt ở một thành phố."
+     },
+     {
+      "who": "Kevin",
+      "t": "How about Da Nang? We have a lot of customers there.",
+      "vi": "Đà Nẵng thì sao? Ở đó mình có nhiều khách hàng."
+     },
+     {
+      "who": "Tom",
+      "t": "That's a good compromise. If we launch in Da Nang in July, we'll get real feedback.",
+      "vi": "Đó là một giải pháp dung hoà tốt. Nếu ra mắt ở Đà Nẵng vào tháng Bảy, mình sẽ có phản hồi thật."
+     },
+     {
+      "who": "Sarah",
+      "t": "What about the budget? Will a pilot cost more?",
+      "vi": "Còn ngân sách thì sao? Ra mắt thử có tốn thêm không?"
+     },
+     {
+      "who": "An",
+      "t": "A little. I suggest that we use ten percent of the budget for the pilot.",
+      "vi": "Có, một chút. Em đề nghị dùng mười phần trăm ngân sách cho đợt thử."
+     },
+     {
+      "who": "Kevin",
+      "t": "And if it goes well, we'll launch everywhere in September.",
+      "vi": "Và nếu suôn sẻ, tháng Chín mình ra mắt toàn quốc."
+     },
+     {
+      "who": "Sarah",
+      "t": "Good. Let's vote. … OK, we've decided: a pilot in Da Nang in July.",
+      "vi": "Tốt. Mình biểu quyết nhé. … Được rồi, chúng ta đã quyết định: chạy thử ở Đà Nẵng vào tháng Bảy."
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Đề xuất: Why don't we + V? / How about + V-ing? / I suggest that we + V",
+     "f": [
+      [
+       "Why don't we",
+       "do",
+       "a pilot launch?"
+      ],
+      [
+       "How about",
+       "launching",
+       "in Da Nang?"
+      ],
+      [
+       "I suggest that we",
+       "use",
+       "10% of the budget."
+      ]
+     ],
+     "ex": [
+      [
+       "Why don't we launch in one city first?",
+       "Hay là mình ra mắt ở một thành phố trước?"
+      ],
+      [
+       "How about starting in July?",
+       "Bắt đầu vào tháng Bảy thì sao?"
+      ]
+     ],
+     "bad": "I suggest to launch in Da Nang.",
+     "good": "I suggest launching in Da Nang.",
+     "why": "suggest không đi với to + V. Dùng suggest + V-ing hoặc suggest that we + V. How about đi với V-ing; Why don't we đi với V nguyên mẫu."
+    },
+    {
+     "t": "Câu điều kiện loại 1: If + hiện tại đơn, … will + V",
+     "f": [
+      [
+       "If we launch in July,",
+       "we'll",
+       "get real feedback."
+      ],
+      [
+       "If the pilot goes well,",
+       "we'll",
+       "launch everywhere."
+      ]
+     ],
+     "ex": [
+      [
+       "If we wait, we'll lose some customers.",
+       "Nếu đợi, mình sẽ mất một số khách hàng."
+      ],
+      [
+       "If it costs too much, we won't do it.",
+       "Nếu tốn quá nhiều, mình sẽ không làm."
+      ]
+     ],
+     "bad": "If we will launch in July, we'll get feedback.",
+     "good": "If we launch in July, we'll get feedback.",
+     "why": "Vế If dùng hiện tại đơn (launch, goes), không dùng will; will chỉ có ở vế kết quả."
+    },
+    {
+     "t": "Nêu lợi ích, vấn đề: The main benefit / The only problem + is that + câu",
+     "f": [
+      [
+       "The main benefit",
+       "is that",
+       "we'll get real feedback."
+      ],
+      [
+       "The only problem",
+       "is that",
+       "it will cost more."
+      ]
+     ],
+     "ex": [
+      [
+       "The main benefit is that we can test the app with real customers.",
+       "Lợi ích chính là mình được thử ứng dụng với khách hàng thật."
+      ],
+      [
+       "The only problem is that the budget is small.",
+       "Vấn đề duy nhất là ngân sách ít."
+      ]
+     ],
+     "bad": "The main benefit is we can testing the app.",
+     "good": "The main benefit is that we can test the app.",
+     "why": "Sau is that là một câu đầy đủ (chủ ngữ + động từ). Sau can là động từ nguyên mẫu, không dùng -ing."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "'compromise' là gì?",
+     "opts": [
+      "giải pháp dung hoà, mỗi bên nhường một chút",
+      "sự phản đối",
+      "quyết định cuối cùng của sếp"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: phản đối là disagreement / objection.",
+      "2": "Sai: compromise là các bên cùng nhường, không phải một người quyết định."
+     }
+    },
+    {
+     "q": "Điền từ: A ___ launch means we test the app in one city first.",
+     "opts": [
+      "pilot",
+      "budget",
+      "vote"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: budget launch không có nghĩa.",
+      "2": "Sai: vote launch không có nghĩa."
+     }
+    },
+    {
+     "q": "Điền từ: We have two ___: June or September.",
+     "opts": [
+      "options",
+      "opinions",
+      "budgets"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: opinions là ý kiến; tháng Sáu hay tháng Chín là hai phương án để chọn.",
+      "2": "Sai: budgets là ngân sách, không phải ngày tháng."
+     }
+    },
+    {
+     "q": "Điền từ: How much will the pilot ___?",
+     "opts": [
+      "cost",
+      "budget",
+      "decide"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: budget ở đây là danh từ, không làm động từ 'tốn'.",
+      "2": "Sai: How much will the pilot decide? không có nghĩa."
+     }
+    },
+    {
+     "q": "Điền từ: We can't agree, so let's ___.",
+     "opts": [
+      "vote",
+      "propose",
+      "cost"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: propose cần tân ngữ (propose a plan) và không giải quyết việc bất đồng.",
+      "2": "Sai: let's cost không có nghĩa."
+     }
+    },
+    {
+     "q": "'budget' là gì?",
+     "opts": [
+      "ngân sách",
+      "lợi nhuận",
+      "hoá đơn"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: lợi nhuận là profit.",
+      "2": "Sai: hoá đơn là invoice / bill."
+     }
+    },
+    {
+     "q": "Điền từ: I ___ that we start in Da Nang.",
+     "opts": [
+      "suggest",
+      "cost",
+      "budget"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: cost that… không có nghĩa.",
+      "2": "Sai: budget không làm động từ trong câu này."
+     }
+    },
+    {
+     "q": "Điền từ: We need a ___ to this problem today.",
+     "opts": [
+      "solution",
+      "option",
+      "pilot"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: không nói an option to a problem; cụm đúng là a solution to a problem.",
+      "2": "Sai: a pilot to this problem không có nghĩa."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "Why don't we launch in one city first?",
+      "Why don't we launching in one city first?",
+      "Why we don't launch in one city first?"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau Why don't we là động từ nguyên mẫu.",
+      "2": "Sai: câu hỏi phải đảo don't lên trước we."
+     }
+    },
+    {
+     "q": "Điền từ: How about ___ in July?",
+     "opts": [
+      "starting",
+      "start",
+      "to start"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau How about dùng V-ing.",
+      "2": "Sai: sau How about không dùng to + V."
+     }
+    },
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "I suggest launching in Da Nang.",
+      "I suggest to launch in Da Nang.",
+      "I suggest us to launch in Da Nang."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: suggest không đi với to + V.",
+      "2": "Sai: không nói suggest + người + to V; dùng I suggest that we launch…."
+     }
+    },
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "If we launch in July, we'll get real feedback.",
+      "If we will launch in July, we'll get real feedback.",
+      "If we launched in July, we'll get real feedback."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: vế If không dùng will.",
+      "2": "Sai: câu điều kiện loại 1 dùng hiện tại đơn ở vế If, không dùng quá khứ."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền dạng đúng của go: If the pilot ___ well, we'll launch everywhere.",
+     "model": "goes",
+     "accept": [
+      "goes"
+     ],
+     "why": "Vế If dùng hiện tại đơn; chủ ngữ the pilot số ít nên go → goes."
+    },
+    {
+     "q": "Điền từ: If it costs too much, we ___ do it.",
+     "opts": [
+      "won't",
+      "don't will",
+      "not will"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: phủ định của will là won't (will not).",
+      "2": "Sai: not phải đứng sau will (will not)."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: suggest / I / that / we / use 10% of the budget / .",
+     "model": "I suggest that we use 10% of the budget.",
+     "accept": [
+      "I suggest that we use 10% of the budget.",
+      "I suggest that we use 10% of the budget"
+     ],
+     "why": "I suggest that + we + V nguyên mẫu."
+    }
+   ],
+   "listen": [
+    {
+     "q": "An đề xuất gì?",
+     "audio": "Why don't we do a pilot launch in one city first?",
+     "opts": [
+      "ra mắt thử ở một thành phố",
+      "hoãn sang năm sau",
+      "tăng ngân sách"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không nhắc đến next year.",
+      "2": "Sai: câu không nhắc đến budget."
+     }
+    },
+    {
+     "q": "Kevin chọn thành phố nào, vì sao?",
+     "audio": "How about Da Nang? We have a lot of customers there.",
+     "opts": [
+      "Đà Nẵng, vì có nhiều khách hàng",
+      "Hà Nội, vì gần công ty",
+      "Đà Nẵng, vì chi phí thấp"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: Kevin nói Da Nang, không phải Hà Nội.",
+      "2": "Sai: lý do là a lot of customers, không phải chi phí."
+     }
+    },
+    {
+     "q": "Ra mắt thử ở Đà Nẵng sẽ mang lại gì?",
+     "audio": "If we launch in Da Nang in July, we'll get real feedback.",
+     "opts": [
+      "phản hồi thật từ khách hàng",
+      "tiết kiệm ngân sách",
+      "thêm nhân viên"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không nói tiết kiệm.",
+      "2": "Sai: câu không nói thêm nhân viên."
+     }
+    },
+    {
+     "q": "An đề nghị dùng bao nhiêu ngân sách cho đợt thử?",
+     "audio": "I suggest that we use ten percent of the budget for the pilot.",
+     "opts": [
+      "10%",
+      "20%",
+      "1%"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói ten percent, không phải twenty.",
+      "2": "Sai: câu nói ten, không phải one."
+     }
+    },
+    {
+     "q": "Khi nào ra mắt toàn quốc?",
+     "audio": "If it goes well, we'll launch everywhere in September.",
+     "opts": [
+      "tháng Chín, nếu đợt thử suôn sẻ",
+      "tháng Bảy",
+      "tháng Sáu"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: tháng Bảy là đợt thử ở Đà Nẵng.",
+      "2": "Sai: câu nói September."
+     }
+    },
+    {
+     "q": "Cả nhóm sẽ làm gì?",
+     "audio": "We can't agree, so let's vote.",
+     "opts": [
+      "biểu quyết",
+      "hoãn cuộc họp",
+      "hỏi ý kiến khách hàng"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói let's vote, không phải hoãn họp.",
+      "2": "Sai: câu không nhắc đến khách hàng."
+     }
+    },
+    {
+     "q": "Cả nhóm đã quyết định gì?",
+     "audio": "We've decided: a pilot in Da Nang in July.",
+     "opts": [
+      "chạy thử ở Đà Nẵng vào tháng Bảy",
+      "ra mắt toàn quốc vào tháng Sáu",
+      "hoãn đến tháng Chín"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói a pilot in Da Nang, không phải toàn quốc.",
+      "2": "Sai: câu nói July."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "Woman: We can't agree on June or September. Man: Why don't we start with a pilot in one city? Woman: Good idea. How about Da Nang? Question: What does the man suggest?",
+     "opts": [
+      "A pilot launch in one city",
+      "Launching everywhere in June",
+      "Cancelling the project",
+      "Hiring more staff"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: người nam đề xuất thử ở MỘT thành phố, không phải toàn quốc.",
+      "2": "Sai: không ai đề nghị huỷ dự án.",
+      "3": "Sai: không ai nhắc đến tuyển người."
+     }
+    },
+    {
+     "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "Man: How much will the pilot cost? Woman: About ten percent of our budget. Man: That's fine, if it gives us real feedback. Question: What does the man want from the pilot?",
+     "opts": [
+      "Real customer feedback",
+      "A bigger budget",
+      "A new office",
+      "More meetings"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: người nam chấp nhận mười phần trăm, không đòi thêm ngân sách.",
+      "2": "Sai: không ai nhắc đến văn phòng.",
+      "3": "Sai: không ai nhắc đến họp thêm."
+     }
+    },
+    {
+     "q": "TOEIC Part 6 – Chọn từ điền vào email: Dear team, after a long discussion, we have decided ___ a pilot launch in Da Nang in July. If it goes well, we will launch nationwide in September.",
+     "opts": [
+      "to do",
+      "doing",
+      "do",
+      "done"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: decide đi với to + V, không đi với V-ing.",
+      "2": "Sai: thiếu to.",
+      "3": "Sai: không dùng quá khứ phân từ sau decided."
+     }
+    },
+    {
+     "q": "IELTS Speaking Part 3 – Câu hỏi: \"What should a manager do when two colleagues disagree?\" Câu trả lời nào phát triển ý tốt nhất?",
+     "opts": [
+      "I think a good manager should listen to both sides first and then try to find a compromise, because people work better when they feel heard.",
+      "Agree.",
+      "Managers are important people.",
+      "They disagree sometimes."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: một từ, không trả lời câu hỏi.",
+      "2": "Sai: chung chung, không nói quản lý nên làm gì.",
+      "3": "Sai: chỉ lặp lại tình huống, không đưa giải pháp."
+     }
+    },
+    {
+     "q": "IELTS Writing Task 2 – Đề: \"Should companies test new products in a small market before a full launch?\" Câu luận điểm (thesis) nào rõ nhất?",
+     "opts": [
+      "I believe companies should usually test products in a small market first, because it reduces risk and gives them real feedback.",
+      "Companies make many products.",
+      "Testing is a word with many meanings.",
+      "This essay is about companies."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: chung chung, không nêu quan điểm.",
+      "2": "Sai: lạc đề.",
+      "3": "Sai: chỉ nói chủ đề, không nêu quan điểm và lý do."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "compromise",
+     "focus": "Nhấn âm đầu: COM-pro-mise; cuối 'mai-z' có âm /z/."
+    },
+    {
+     "t": "pilot",
+     "focus": "'pai-lợt'; nhấn âm đầu, âm sau đọc nhẹ /ə/."
+    },
+    {
+     "t": "Why don't we do a pilot launch?",
+     "focus": "don't‿we nối, t gần như nuốt: 'đôn-uy'; nhấn PI-lot."
+    },
+    {
+     "t": "How about Da Nang?",
+     "focus": "Nối how‿about: 'hao-ơ-bao-t'; lên giọng ở Da Nang."
+    },
+    {
+     "t": "If we launch in July, we'll get real feedback.",
+     "focus": "Nhấn âm hai của July: ju-LY; ngắt nhẹ sau July."
+    },
+    {
+     "t": "I suggest that we use ten percent of the budget.",
+     "focus": "Nhấn sug-GEST và per-CENT; budget 'bă-jịt'."
+    },
+    {
+     "t": "Let's vote.",
+     "focus": "v là âm môi–răng, không đọc thành 'b'; vote 'vâu-t'."
+    },
+    {
+     "t": "That's a good compromise.",
+     "focus": "Nối That's‿a: 'đét-xơ'; nhấn GOOD và COM-."
+    }
+   ],
+   "dialog": {
+    "title": "Kevin hỏi ý tưởng của bạn khi nhóm chưa thống nhất; bạn đề xuất phương án và nói lợi ích. Đổi vai: bạn phản hồi đề xuất của người khác.",
+    "partner": "Kevin",
+    "turns": [
+     {
+      "ai": "We can't agree on June or September. Any ideas?",
+      "vi": "Mình chưa thống nhất được tháng Sáu hay tháng Chín. Em có ý gì không?",
+      "model": "Why don't we do a pilot launch in one city first?",
+      "accept": [
+       "Why don't we do a pilot launch in one city first?",
+       "Why don't we do a pilot launch first?",
+       "How about a pilot launch in one city?",
+       "I suggest that we do a pilot launch first."
+      ],
+      "frame": "Why don't we do a ___ launch in one city first?",
+      "hint": "Đề xuất bằng Why don't we + V…? (ra mắt thử ở một thành phố)."
+     },
+     {
+      "ai": "Hmm. Which city?",
+      "vi": "Ừm. Thành phố nào?",
+      "model": "How about Da Nang? We have a lot of customers there.",
+      "accept": [
+       "How about Da Nang? We have a lot of customers there.",
+       "How about Da Nang?",
+       "What about Da Nang? We have a lot of customers there.",
+       "Da Nang. We have a lot of customers there."
+      ],
+      "frame": "How ___ Da Nang? We have a lot of customers there.",
+      "hint": "Gợi ý thành phố: How about + Da Nang? và nói lý do."
+     },
+     {
+      "ai": "What's the main benefit?",
+      "vi": "Lợi ích chính là gì?",
+      "model": "The main benefit is that we'll get real feedback.",
+      "accept": [
+       "The main benefit is that we'll get real feedback.",
+       "The main benefit is that we will get real feedback.",
+       "We'll get real feedback.",
+       "The main benefit is real feedback."
+      ],
+      "frame": "The main benefit is ___ we'll get real feedback.",
+      "hint": "Nêu lợi ích: The main benefit is that + câu."
+     },
+     {
+      "ai": "But will it cost more?",
+      "vi": "Nhưng có tốn thêm không?",
+      "model": "A little. I suggest that we use ten percent of the budget.",
+      "accept": [
+       "A little. I suggest that we use ten percent of the budget.",
+       "I suggest that we use ten percent of the budget.",
+       "A little. I suggest using ten percent of the budget.",
+       "A little. I suggest that we use 10% of the budget."
+      ],
+      "frame": "A little. I suggest ___ we use ten percent of the budget.",
+      "hint": "Đề nghị mức chi: I suggest that we + V (không dùng suggest to)."
+     },
+     {
+      "ai": "And if it goes well?",
+      "vi": "Còn nếu suôn sẻ thì sao?",
+      "model": "If it goes well, we'll launch everywhere in September.",
+      "accept": [
+       "If it goes well, we'll launch everywhere in September.",
+       "If it goes well, we will launch everywhere in September.",
+       "We'll launch everywhere in September.",
+       "If it goes well, we'll launch nationwide in September."
+      ],
+      "frame": "If it goes well, we'll ___ everywhere in September.",
+      "hint": "Câu điều kiện loại 1: If + hiện tại đơn, we'll + V."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Bản đề xuất một trang",
+    "text": "PROPOSAL: PILOT LAUNCH IN DA NANG\n\nProblem: The team can't agree on the launch date. Launching in June is risky because the testing isn't finished. Launching in September means we may lose some customers.\n\nOption: Launch the app in Da Nang only, from 1 July to 31 August.\n\nBenefits: We will get real feedback from about 2,000 customers. If there are problems, we can fix them before the full launch.\n\nCost: About $15,000 (10% of the project budget).\n\nNext step: If the pilot goes well, we will launch nationwide in September.",
+    "vi": "ĐỀ XUẤT: RA MẮT THỬ Ở ĐÀ NẴNG\n\nVấn đề: Nhóm chưa thống nhất được ngày ra mắt. Ra mắt vào tháng Sáu có rủi ro vì chưa thử nghiệm xong. Ra mắt vào tháng Chín thì có thể mất một số khách hàng.\n\nPhương án: Chỉ ra mắt ứng dụng ở Đà Nẵng, từ 1/7 đến 31/8.\n\nLợi ích: Có phản hồi thật từ khoảng 2.000 khách hàng. Nếu có lỗi, có thể sửa trước khi ra mắt toàn bộ.\n\nChi phí: Khoảng 15.000 đô (10% ngân sách dự án).\n\nBước tiếp theo: Nếu đợt thử suôn sẻ, tháng Chín sẽ ra mắt toàn quốc.",
+    "qs": [
+     {
+      "q": "Vì sao ra mắt vào tháng Sáu có rủi ro?",
+      "opts": [
+       "chưa thử nghiệm xong",
+       "chi phí quá cao",
+       "khách hàng không muốn"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: bản đề xuất không nói tháng Sáu tốn kém hơn.",
+       "2": "Sai: bản đề xuất không nói khách hàng không muốn."
+      }
+     },
+     {
+      "q": "Đợt thử kéo dài bao lâu?",
+      "opts": [
+       "2 tháng (1/7–31/8)",
+       "1 tháng",
+       "3 tháng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: từ 1 July đến 31 August là hai tháng.",
+       "2": "Sai: tháng Chín đã là ra mắt toàn quốc, không thuộc đợt thử."
+      }
+     },
+     {
+      "q": "Sẽ có phản hồi từ khoảng bao nhiêu khách hàng?",
+      "opts": [
+       "khoảng 2.000",
+       "khoảng 200",
+       "khoảng 20.000"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: bản đề xuất ghi 2,000.",
+       "2": "Sai: bản đề xuất ghi 2,000, không phải 20,000."
+      }
+     },
+     {
+      "q": "Đợt thử tốn bao nhiêu?",
+      "opts": [
+       "khoảng 15.000 đô, tức 10% ngân sách",
+       "khoảng 40.000 đô",
+       "không tốn thêm"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: 40.000 đô là chi phí thử nghiệm thêm mà Kevin nói hôm thứ Tư, không phải chi phí đợt thử.",
+       "2": "Sai: bản đề xuất ghi rõ Cost: About $15,000."
+      }
+     },
+     {
+      "q": "Đúng hay sai: \"The full launch will happen in July.\"",
+      "opts": [
+       "Sai",
+       "Đúng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Không đúng: tháng Bảy chỉ là đợt thử ở Đà Nẵng; ra mắt toàn quốc là tháng Chín, nếu đợt thử suôn sẻ."
+      }
+     }
+    ]
+   },
+   "confuse": [
+    {
+     "a": "propose",
+     "aipa": "/prəˈpəʊz/",
+     "am": "đề xuất",
+     "b": "purpose",
+     "bipa": "/ˈpɜː.pəs/",
+     "bm": "mục đích",
+     "note": "propose là động từ, nhấn âm hai pro-POSE ('prơ-pâu-z'); purpose là danh từ, nhấn âm đầu PUR-pose ('pơ-pợs').",
+     "qa": {
+      "t": "I'd like to ___ a pilot launch.",
+      "vi": "Tôi xin đề xuất ra mắt thử."
+     },
+     "qb": {
+      "t": "The ___ of the pilot is to get feedback.",
+      "vi": "Mục đích của đợt thử là lấy phản hồi."
+     }
+    },
+    {
+     "a": "decide",
+     "aipa": "/dɪˈsaɪd/",
+     "am": "quyết định",
+     "b": "divide",
+     "bipa": "/dɪˈvaɪd/",
+     "bm": "chia",
+     "note": "Chỉ khác một chữ: de-c-ide / di-v-ide. divide the work = chia việc.",
+     "qa": {
+      "t": "We need to ___ the launch date today.",
+      "vi": "Hôm nay mình cần quyết định ngày ra mắt."
+     },
+     "qb": {
+      "t": "Let's ___ the work between Tom and Linh.",
+      "vi": "Mình chia việc cho Tom và Linh nhé."
+     }
+    },
+    {
+     "a": "cost",
+     "aipa": "/kɒst/",
+     "am": "chi phí; tốn",
+     "b": "coast",
+     "bipa": "/kəʊst/",
+     "bm": "bờ biển",
+     "note": "cost đọc 'co-xt' (o ngắn); coast có a, đọc 'câu-xt'. Đà Nẵng nằm ở the coast.",
+     "qa": {
+      "t": "How much will the pilot ___?",
+      "vi": "Đợt thử sẽ tốn bao nhiêu?"
+     },
+     "qb": {
+      "t": "Da Nang is a big city on the ___.",
+      "vi": "Đà Nẵng là một thành phố lớn ven biển."
+     }
+    },
+    {
+     "a": "raise",
+     "aipa": "/reɪz/",
+     "am": "nâng lên, nêu ra (cần tân ngữ)",
+     "b": "rise",
+     "bipa": "/raɪz/",
+     "bm": "tăng lên (tự tăng, không có tân ngữ)",
+     "note": "raise + vật: raise the price, raise a question. rise tự tăng: Costs rise. raise đọc 'rây-z', rise đọc 'rai-z'.",
+     "qa": {
+      "t": "Can I ___ a question about the budget?",
+      "vi": "Cho tôi nêu một câu hỏi về ngân sách được không?"
+     },
+     "qb": {
+      "t": "Costs will ___ if we wait too long.",
+      "vi": "Nếu chờ quá lâu, chi phí sẽ tăng."
+     }
+    }
+   ],
+   "write": {
+    "task": "Viết đoạn đề xuất (80–100 từ) theo khung: vấn đề → phương án → lợi ích.",
+    "kind": "message",
+    "model": "Problem: We can't agree on the launch date. June is risky because the testing isn't finished, but September may be too late for some customers.\nProposal: I suggest that we do a pilot launch in Da Nang in July.\nBenefit: The main benefit is that we will get real feedback from customers. If there are problems, we can fix them before the full launch, and the testing team will have more time. The pilot will cost about 10% of the budget. If it goes well, we will launch everywhere in September.",
+    "frame": "Problem: We can't agree on ___. June is risky because ___, but September may be too late for some customers.\nProposal: I suggest that we ___.\nBenefit: The main benefit is that ___. If there are problems, we can fix them before the full launch, and the testing team will have more time. The pilot will cost about ___ of the budget. If it goes well, we will ___.",
+    "gaps": [
+     "the launch date",
+     "the testing isn't finished",
+     "do a pilot launch in Da Nang in July",
+     "we will get real feedback from customers",
+     "10%",
+     "launch everywhere in September"
+    ],
+    "free": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "hints": [
+     "Problem: We can't agree on… / The problem is that…",
+     "I suggest that we… / Why don't we…?",
+     "The main benefit is that…",
+     "If…, we will… (câu điều kiện loại 1)",
+     "The pilot will cost about…"
+    ],
+    "check": [
+     "Có đủ ba phần: vấn đề, đề xuất, lợi ích",
+     "Đề xuất dùng đúng I suggest that we + V (không dùng suggest to)",
+     "Có ít nhất một câu điều kiện loại 1 đúng (If + hiện tại đơn, … will)",
+     "Có nói chi phí hoặc rủi ro",
+     "Dài 80–100 từ"
+    ],
+    "words": [
+     80,
+     100
+    ]
+   }
+  },
+  {
+   "id": "b1-w1-thu-6",
+   "label": "Thứ 6",
+   "title": "Tóm tắt quyết định, chia việc, chốt hạn",
+   "desc": "Tóm tắt (To sum up, we agreed that…), giao việc kèm hạn chót (Kevin will… by…) và tường thuật đơn giản (Tom said that…) khi Linh đọc lại quyết định và Sarah kết thúc cuộc họp.",
+   "rule": "agree that + câu, hoặc agree to + V. Hạn chót dùng by (chậm nhất là), không dùng until. Tường thuật: said (that) + câu, lùi thì (is → was, will → would); said không có người ngay sau, muốn có người thì dùng told me.",
+   "cards": [
+    {
+     "w": "summary",
+     "ipa": "/ˈsʌm.ər.i/",
+     "m": "bản tóm tắt",
+     "ex": "Linh, could you give us a summary?",
+     "exm": "Linh, em tóm tắt lại giúp mọi người nhé?",
+     "n": "Động từ: summarise. summary có a; summery (có không khí mùa hè) có e.",
+     "img": "agenda",
+     "spell": [
+      "summery",
+      "sumary"
+     ]
+    },
+    {
+     "w": "action point",
+     "ipa": "/ˈæk.ʃən ˌpɔɪnt/",
+     "m": "việc cần làm (sau cuộc họp)",
+     "ex": "Here are the action points from today's meeting.",
+     "exm": "Đây là các việc cần làm sau cuộc họp hôm nay.",
+     "n": "Mỗi action point có người phụ trách (owner) và hạn chót (deadline). Đừng nhầm action với auction (đấu giá).",
+     "img": "checklist",
+     "spell": [
+      "auction point",
+      "acsion point"
+     ]
+    },
+    {
+     "w": "follow up",
+     "ipa": "/ˌfɒl.əʊ ˈʌp/",
+     "m": "theo dõi tiếp, liên hệ lại",
+     "ex": "I'll follow up with Tom tomorrow.",
+     "exm": "Mai tôi sẽ liên hệ lại với Tom.",
+     "n": "Động từ viết rời: follow up (with someone / on something). Danh từ, tính từ có gạch nối: a follow-up meeting.",
+     "img": "email",
+     "spell": [
+      "folow up",
+      "fallow up"
+     ]
+    },
+    {
+     "w": "deadline",
+     "ipa": "/ˈded.laɪn/",
+     "m": "hạn chót",
+     "ex": "The deadline for the form is 20 June.",
+     "exm": "Hạn chót cho phiếu là ngày 20/6.",
+     "n": "meet a deadline = kịp hạn; miss a deadline = trễ hạn. Đừng nhầm với headline (tiêu đề báo).",
+     "img": "calendar",
+     "spell": [
+      "dedline",
+      "deadlin"
+     ]
+    },
+    {
+     "w": "assign",
+     "ipa": "/əˈsaɪn/",
+     "m": "giao (việc)",
+     "ex": "Sarah will assign the tasks.",
+     "exm": "Sarah sẽ giao việc.",
+     "n": "g câm: 'ơ-xai-n'. assign a task to somebody. Danh từ: assignment.",
+     "img": "checklist",
+     "spell": [
+      "asign",
+      "assing"
+     ]
+    },
+    {
+     "w": "owner",
+     "ipa": "/ˈəʊ.nər/",
+     "m": "người phụ trách (một việc)",
+     "ex": "Who is the owner of this task?",
+     "exm": "Ai phụ trách việc này?",
+     "n": "Trong biên bản họp, owner = người chịu trách nhiệm một action point. w câm: 'âu-nơ'.",
+     "img": "manager",
+     "spell": [
+      "oner",
+      "owener"
+     ]
+    },
+    {
+     "w": "by Friday",
+     "ipa": "/baɪ ˈfraɪ.deɪ/",
+     "m": "chậm nhất là thứ Sáu",
+     "ex": "Please send it by Friday.",
+     "exm": "Vui lòng gửi chậm nhất là thứ Sáu.",
+     "n": "by + thời hạn = trước hoặc đúng lúc đó. until = kéo dài liên tục đến lúc đó. Hạn chót luôn dùng by.",
+     "img": "calendar",
+     "spell": [
+      "buy Friday",
+      "by Fryday"
+     ]
+    },
+    {
+     "w": "to sum up",
+     "ipa": "/tə ˌsʌm ˈʌp/",
+     "m": "tóm lại",
+     "ex": "To sum up, we agreed to do a pilot in Da Nang.",
+     "exm": "Tóm lại, chúng ta đã thống nhất chạy thử ở Đà Nẵng.",
+     "n": "Cụm mở đầu phần tóm tắt. Nối âm: sum‿up 'xăm-mắp'.",
+     "img": "agenda",
+     "spell": [
+      "to some up",
+      "to sum op"
+     ]
+    },
+    {
+     "w": "next steps",
+     "ipa": "/ˌnekst ˈsteps/",
+     "m": "các bước tiếp theo",
+     "ex": "Let's agree on the next steps.",
+     "exm": "Mình thống nhất các bước tiếp theo nhé.",
+     "n": "Thường dùng số nhiều. t của next gần như nuốt: 'nếch-xtép-x'.",
+     "img": "checklist",
+     "spell": [
+      "next step's",
+      "nex steps"
+     ]
+    },
+    {
+     "w": "confirm",
+     "ipa": "/kənˈfɜːm/",
+     "m": "xác nhận",
+     "ex": "Can I just confirm the deadline?",
+     "exm": "Cho tôi xác nhận lại hạn chót nhé?",
+     "n": "Nhấn âm hai: con-FIRM. Danh từ: confirmation.",
+     "img": "handshake",
+     "spell": [
+      "confurm",
+      "comfirm"
+     ]
+    },
+    {
+     "w": "responsible",
+     "ipa": "/rɪˈspɒn.sə.bəl/",
+     "m": "chịu trách nhiệm",
+     "ex": "An is responsible for the feedback form.",
+     "exm": "An chịu trách nhiệm phiếu ý kiến khách hàng.",
+     "n": "be responsible for + N / V-ing. Viết -ible, không viết -able.",
+     "img": "checklist",
+     "spell": [
+      "responsable",
+      "responsibel"
+     ]
+    },
+    {
+     "w": "wrap up",
+     "ipa": "/ˌræp ˈʌp/",
+     "m": "kết thúc, chốt lại",
+     "ex": "OK, let's wrap up.",
+     "exm": "Được rồi, mình chốt lại nhé.",
+     "n": "w câm: 'rép-ắp'. Câu quen thuộc cuối buổi họp: Let's wrap up.",
+     "img": "meetingroom",
+     "spell": [
+      "rap up",
+      "wrap op"
+     ]
+    }
+   ],
+   "scene": {
+    "setting": "Chiều thứ Sáu, cuối cuộc họp. Sarah mời Linh tóm tắt quyết định, đọc các việc cần làm kèm người phụ trách và hạn chót; An xác nhận lại phần việc của mình.",
+    "img": "scene-en-wrapup",
+    "imgPrompt": "End of a meeting: linh, in a mustard-yellow sweater, reads from her notebook; a whiteboard behind her shows a blank checklist with ticks; sarah, an, tom and kevin listen around the table, some closing laptops, no readable text.",
+    "lines": [
+     {
+      "who": "Sarah",
+      "t": "OK, let's wrap up. Linh, could you give us a summary?",
+      "vi": "Được rồi, mình chốt lại nhé. Linh, em tóm tắt giúp mọi người?"
+     },
+     {
+      "who": "Linh",
+      "t": "Sure. To sum up, we agreed that we will do a pilot launch in Da Nang in July.",
+      "vi": "Vâng. Tóm lại, chúng ta đã thống nhất sẽ chạy thử ở Đà Nẵng vào tháng Bảy."
+     },
+     {
+      "who": "Linh",
+      "t": "Now the action points. Tom will finish the testing by the end of June.",
+      "vi": "Giờ là các việc cần làm. Tom sẽ thử nghiệm xong trước cuối tháng Sáu."
+     },
+     {
+      "who": "Linh",
+      "t": "Kevin will contact our customers in Da Nang by Friday.",
+      "vi": "Kevin sẽ liên hệ khách hàng ở Đà Nẵng trước thứ Sáu."
+     },
+     {
+      "who": "Linh",
+      "t": "An is responsible for the customer feedback form. The deadline is 20 June.",
+      "vi": "An chịu trách nhiệm phiếu ý kiến khách hàng. Hạn chót là 20/6."
+     },
+     {
+      "who": "An",
+      "t": "Can I just confirm: is the form in English and Vietnamese?",
+      "vi": "Cho em xác nhận lại: phiếu có cả tiếng Anh và tiếng Việt phải không ạ?"
+     },
+     {
+      "who": "Sarah",
+      "t": "Yes, both. Tom said that the testing team needed the form early, so please follow up with him.",
+      "vi": "Đúng, cả hai. Tom nói nhóm thử nghiệm cần phiếu sớm, nên em liên hệ lại với anh ấy nhé."
+     },
+     {
+      "who": "Sarah",
+      "t": "Great. Linh will send the minutes this afternoon. Thanks, everyone!",
+      "vi": "Tốt lắm. Chiều nay Linh sẽ gửi biên bản. Cảm ơn mọi người!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Tóm tắt: To sum up, we agreed that + câu / we agreed to + V",
+     "f": [
+      [
+       "To sum up,",
+       "we agreed that",
+       "we will do a pilot launch."
+      ],
+      [
+       "So,",
+       "we decided to",
+       "start in July."
+      ]
+     ],
+     "ex": [
+      [
+       "To sum up, we agreed that we will launch in Da Nang first.",
+       "Tóm lại, chúng ta đã thống nhất sẽ ra mắt ở Đà Nẵng trước."
+      ],
+      [
+       "We decided to start the pilot on 1 July.",
+       "Chúng ta đã quyết định bắt đầu chạy thử ngày 1/7."
+      ]
+     ],
+     "bad": "To sum up, we agreed to that we will launch in July.",
+     "good": "To sum up, we agreed that we will launch in July.",
+     "why": "agree that + câu (không có to), hoặc agree to + động từ: we agreed to launch in July. Không dùng cả to và that cùng lúc."
+    },
+    {
+     "t": "Giao việc kèm hạn: chủ ngữ + will + V + by + thời hạn",
+     "f": [
+      [
+       "Tom",
+       "will finish",
+       "the testing by 30 June."
+      ],
+      [
+       "Kevin",
+       "will contact",
+       "the customers by Friday."
+      ]
+     ],
+     "ex": [
+      [
+       "An will send the form by 20 June.",
+       "An sẽ gửi phiếu trước ngày 20/6."
+      ],
+      [
+       "Who will follow up with the designers?",
+       "Ai sẽ liên hệ lại với nhóm thiết kế?"
+      ]
+     ],
+     "bad": "Kevin will contact the customers until Friday.",
+     "good": "Kevin will contact the customers by Friday.",
+     "why": "by + thời hạn = chậm nhất là, trước lúc đó; until = kéo dài liên tục đến lúc đó. Hạn chót luôn dùng by."
+    },
+    {
+     "t": "Tường thuật đơn giản: said (that) + câu (lùi thì) / told + người + that",
+     "f": [
+      [
+       "Tom",
+       "said that",
+       "the testing team needed the form."
+      ],
+      [
+       "Kevin",
+       "told me that",
+       "he would call the customers."
+      ]
+     ],
+     "ex": [
+      [
+       "Tom said that the testing was on track.",
+       "Tom nói thử nghiệm đang đúng tiến độ."
+      ],
+      [
+       "Sarah told us that she would send the budget.",
+       "Sarah bảo chúng tôi là chị ấy sẽ gửi ngân sách."
+      ]
+     ],
+     "bad": "Tom said me that the testing was on track.",
+     "good": "Tom told me that the testing was on track.",
+     "why": "said không có người ngay sau (không nói said me); muốn nói 'nói với ai' thì dùng told + người. Khi tường thuật, động từ thường lùi một thì: is → was, will → would."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "'action point' là gì?",
+     "opts": [
+      "việc cần làm sau cuộc họp",
+      "chủ đề để thảo luận",
+      "điểm số đánh giá"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: chủ đề thảo luận là an item on the agenda.",
+      "2": "Sai: action point không phải điểm số."
+     }
+    },
+    {
+     "q": "Điền từ: At the end of the meeting, Linh gave a short ___.",
+     "opts": [
+      "summary",
+      "deadline",
+      "owner"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: không 'đưa ra một hạn chót' để kết thúc cuộc họp theo nghĩa này; câu nói về phần tóm tắt.",
+      "2": "Sai: owner là người phụ trách, không phải thứ người ta 'give'."
+     }
+    },
+    {
+     "q": "Điền từ: Who is the ___ of this task? – Kevin.",
+     "opts": [
+      "owner",
+      "summary",
+      "deadline"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu trả lời là một người, không phải bản tóm tắt.",
+      "2": "Sai: câu trả lời là một người, không phải một ngày."
+     }
+    },
+    {
+     "q": "Điền từ: Please ___ that you can come on Monday.",
+     "opts": [
+      "confirm",
+      "assign",
+      "wrap up"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: assign (giao việc) không đi với that you can come.",
+      "2": "Sai: wrap up (kết thúc) không đi với mệnh đề that."
+     }
+    },
+    {
+     "q": "Điền từ: Sarah will ___ the tasks to each person.",
+     "opts": [
+      "assign",
+      "confirm",
+      "follow"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: confirm the tasks to each person không đúng nghĩa 'chia việc'.",
+      "2": "Sai: follow the tasks to… không có nghĩa."
+     }
+    },
+    {
+     "q": "'wrap up' trong cuộc họp nghĩa là gì?",
+     "opts": [
+      "kết thúc, chốt lại",
+      "gói quà",
+      "bắt đầu"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: wrap a present mới là gói quà; trong họp, wrap up là kết thúc.",
+      "2": "Sai: bắt đầu là get started."
+     }
+    },
+    {
+     "q": "Điền từ: I'll ___ with the designers next week.",
+     "opts": [
+      "follow up",
+      "sum up",
+      "wrap up"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sum up with somebody không có nghĩa; sum up là tóm tắt.",
+      "2": "Sai: wrap up with the designers không phải 'liên hệ lại'."
+     }
+    },
+    {
+     "q": "Điền từ: Please send the form ___ Friday. That's the deadline.",
+     "opts": [
+      "by",
+      "until",
+      "since"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: until chỉ một việc kéo dài liên tục; gửi một lần trước hạn thì dùng by.",
+      "2": "Sai: since dùng với hiện tại hoàn thành (since Monday), không dùng cho hạn chót."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "To sum up, we agreed that we will launch in July.",
+      "To sum up, we agreed to that we will launch in July.",
+      "To sum up, we agree that we launched in July."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: không dùng to và that cùng lúc sau agree.",
+      "2": "Sai: việc ra mắt chưa xảy ra nên không dùng launched."
+     }
+    },
+    {
+     "q": "Điền từ: Kevin will contact the customers ___ Friday.",
+     "opts": [
+      "by",
+      "until",
+      "in"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: hạn chót dùng by, không dùng until.",
+      "2": "Sai: in không đi với tên thứ trong tuần (on Friday, by Friday)."
+     }
+    },
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "Tom told me that the testing was on track.",
+      "Tom said me that the testing was on track.",
+      "Tom told that the testing was on track."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: said không có người ngay sau.",
+      "2": "Sai: told cần người ngay sau (told me / told us)."
+     }
+    },
+    {
+     "q": "Tường thuật: Kevin: \"I will call the customers.\" → Kevin said that he ___ call the customers.",
+     "opts": [
+      "would",
+      "is",
+      "has"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: is call không đúng ngữ pháp.",
+      "2": "Sai: has call không đúng ngữ pháp; will lùi thì thành would."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền một từ: Who will follow ___ with the designers?",
+     "model": "up",
+     "accept": [
+      "up"
+     ],
+     "why": "Cụm động từ: follow up (with somebody)."
+    },
+    {
+     "q": "Điền từ: An is responsible ___ the feedback form.",
+     "opts": [
+      "for",
+      "to",
+      "of"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: responsible đi với for khi nói về việc mình phụ trách.",
+      "2": "Sai: responsible of không đúng."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: will / Tom / the testing / finish / by 30 June / .",
+     "model": "Tom will finish the testing by 30 June.",
+     "accept": [
+      "Tom will finish the testing by 30 June.",
+      "Tom will finish the testing by 30 June"
+     ],
+     "why": "Người + will + V + việc + by + hạn chót."
+    }
+   ],
+   "listen": [
+    {
+     "q": "Cả nhóm đã thống nhất điều gì?",
+     "audio": "To sum up, we agreed to do a pilot launch in Da Nang.",
+     "opts": [
+      "chạy thử ở Đà Nẵng",
+      "ra mắt toàn quốc ngay",
+      "hoãn dự án"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói a pilot launch in Da Nang, không phải toàn quốc.",
+      "2": "Sai: câu không nói hoãn."
+     }
+    },
+    {
+     "q": "Tom phải xong việc trước khi nào?",
+     "audio": "Tom will finish the testing by the end of June.",
+     "opts": [
+      "cuối tháng Sáu",
+      "đầu tháng Sáu",
+      "cuối tháng Bảy"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói the end of June, không phải đầu tháng.",
+      "2": "Sai: câu nói June, không phải July."
+     }
+    },
+    {
+     "q": "Kevin sẽ làm gì?",
+     "audio": "Kevin will contact our customers in Da Nang by Friday.",
+     "opts": [
+      "liên hệ khách hàng ở Đà Nẵng trước thứ Sáu",
+      "thử nghiệm ứng dụng",
+      "ghi biên bản"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: thử nghiệm là việc của Tom.",
+      "2": "Sai: ghi biên bản là việc của Linh."
+     }
+    },
+    {
+     "q": "Hạn chót của phiếu ý kiến là ngày nào?",
+     "audio": "The deadline for the feedback form is the twentieth of June.",
+     "opts": [
+      "20/6",
+      "12/6",
+      "30/6"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: 12 là the twelfth; câu nói the twentieth.",
+      "2": "Sai: 30 là the thirtieth."
+     }
+    },
+    {
+     "q": "An muốn xác nhận điều gì?",
+     "audio": "Can I just confirm: is the form in English and Vietnamese?",
+     "opts": [
+      "phiếu có cả tiếng Anh và tiếng Việt không",
+      "hạn chót là ngày nào",
+      "ai ghi biên bản"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không hỏi hạn chót.",
+      "2": "Sai: câu không hỏi về biên bản."
+     }
+    },
+    {
+     "q": "Tom đã nói gì?",
+     "audio": "Tom said that the testing team needed the form early.",
+     "opts": [
+      "nhóm thử nghiệm cần phiếu sớm",
+      "Tom cần thêm người",
+      "thử nghiệm bị chậm"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không nói cần thêm người.",
+      "2": "Sai: câu không nói thử nghiệm bị chậm."
+     }
+    },
+    {
+     "q": "Khi nào Linh gửi biên bản?",
+     "audio": "Linh will send the minutes this afternoon.",
+     "opts": [
+      "chiều nay",
+      "sáng mai",
+      "thứ Hai tới"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói this afternoon, không phải tomorrow morning.",
+      "2": "Sai: câu không nhắc đến thứ Hai."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "Man: Linh, can you sum up the action points? Woman: Sure. Tom will finish the testing by 30 June, and Kevin will call the Da Nang customers by Friday. Man: And who is doing the feedback form? Woman: An is. Question: Who is responsible for the feedback form?",
+     "opts": [
+      "An",
+      "Tom",
+      "Kevin",
+      "Linh"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: Tom phụ trách thử nghiệm.",
+      "2": "Sai: Kevin gọi cho khách hàng.",
+      "3": "Sai: Linh đang tóm tắt, không phụ trách phiếu."
+     }
+    },
+    {
+     "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
+     "audio": "Woman: When is the deadline for the form? Man: The twentieth of June. Woman: Can we move it to the twenty-fifth? Man: Sorry, the testing team needs it early. Question: Why can't the deadline change?",
+     "opts": [
+      "The testing team needs the form early",
+      "The man is going on holiday",
+      "The form is already finished",
+      "The customers want it"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: không ai nhắc đến nghỉ phép.",
+      "2": "Sai: phiếu chưa xong, họ còn đang bàn hạn chót.",
+      "3": "Sai: lý do là nhóm thử nghiệm, không phải khách hàng."
+     }
+    },
+    {
+     "q": "TOEIC Part 6 – Chọn cụm điền vào email: Dear all, please find the minutes of today's meeting attached. ___, Tom will finish the testing by 30 June.",
+     "opts": [
+      "As agreed",
+      "Despite",
+      "Unless",
+      "Instead"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: Despite cần danh từ theo sau.",
+      "2": "Sai: Unless cần một mệnh đề theo sau.",
+      "3": "Sai: Instead (thay vào đó) không hợp nghĩa; email đang nhắc lại điều đã thống nhất."
+     }
+    },
+    {
+     "q": "IELTS Speaking Part 1 – Câu hỏi: \"How do you usually remember what you have to do at work or at school?\" Câu trả lời nào phát triển ý tốt nhất?",
+     "opts": [
+      "I usually write a short to-do list after each meeting, with a deadline for every task, so I don't forget anything.",
+      "Remember.",
+      "Work is busy.",
+      "I usually."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: một từ, không trả lời câu hỏi 'bằng cách nào'.",
+      "2": "Sai: chung chung, không nói cách ghi nhớ.",
+      "3": "Sai: câu chưa trọn."
+     }
+    },
+    {
+     "q": "IELTS Reading – True / False / Not Given. Đoạn đọc: \"At the end of the meeting, Linh summarised the decisions. Tom will finish the testing by 30 June.\" Nhận định: Tom has already finished the testing.",
+     "opts": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Không chọn True: will finish… by 30 June là việc trong tương lai, nên Tom chưa xong.",
+      "2": "Không chọn Not Given: đoạn đọc có thông tin, và thông tin đó trái với nhận định, nên là False."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "summary",
+     "focus": "Nhấn âm đầu: SUM-ma-ry ('xăm-mơ-ri')."
+    },
+    {
+     "t": "action point",
+     "focus": "action 'ék-shần'; nhấn AC- và POINT."
+    },
+    {
+     "t": "To sum up,",
+     "focus": "Nối sum‿up: 'xăm-mắp'; ngắt nhẹ sau up."
+    },
+    {
+     "t": "follow up",
+     "focus": "Động từ nhấn up: fol-low UP."
+    },
+    {
+     "t": "Tom will finish the testing by the end of June.",
+     "focus": "Nối end‿of: 'en-đơv'; nhấn FIN- và JUNE."
+    },
+    {
+     "t": "Can I just confirm?",
+     "focus": "Can I nối 'ke-nai'; nhấn con-FIRM; lên giọng ở cuối."
+    },
+    {
+     "t": "Kevin will contact our customers by Friday.",
+     "focus": "Nhấn CON-tact (động từ kiểu Anh cũng nhấn âm đầu); by Friday 'bai-phrai-đây'."
+    },
+    {
+     "t": "OK, let's wrap up.",
+     "focus": "w câm trong wrap: 'rép'; nối wrap‿up: 'ré-pắp'."
+    }
+   ],
+   "dialog": {
+    "title": "Sarah nhờ bạn tóm tắt quyết định và xác nhận phần việc của mình. Đổi vai: bạn là người chủ trì, giao việc cho từng người.",
+    "partner": "Sarah",
+    "turns": [
+     {
+      "ai": "An, could you sum up today's decisions?",
+      "vi": "An, em tóm tắt các quyết định hôm nay nhé?",
+      "model": "Sure. To sum up, we agreed to do a pilot launch in Da Nang in July.",
+      "accept": [
+       "Sure. To sum up, we agreed to do a pilot launch in Da Nang in July.",
+       "To sum up, we agreed to do a pilot launch in Da Nang in July.",
+       "To sum up, we agreed that we will do a pilot launch in Da Nang in July.",
+       "To sum up, we agreed to do a pilot in Da Nang."
+      ],
+      "frame": "Sure. To ___ up, we agreed to do a pilot launch in Da Nang in July.",
+      "hint": "Mở đầu bằng To sum up, rồi nói điều đã thống nhất: we agreed to + V."
+     },
+     {
+      "ai": "Good. And what's your action point?",
+      "vi": "Tốt. Thế việc của em là gì?",
+      "model": "I'm responsible for the customer feedback form.",
+      "accept": [
+       "I'm responsible for the customer feedback form.",
+       "I'm responsible for the feedback form.",
+       "The customer feedback form.",
+       "I'm in charge of the customer feedback form."
+      ],
+      "frame": "I'm responsible ___ the customer feedback form.",
+      "hint": "Nói phần việc của mình: I'm responsible for + việc."
+     },
+     {
+      "ai": "When's the deadline?",
+      "vi": "Hạn chót khi nào?",
+      "model": "The deadline is 20 June.",
+      "accept": [
+       "The deadline is 20 June.",
+       "The deadline is the twentieth of June.",
+       "It's 20 June.",
+       "By 20 June."
+      ],
+      "frame": "The ___ is 20 June.",
+      "hint": "Nói hạn chót: The deadline is + ngày."
+     },
+     {
+      "ai": "Tom said that he needed it early. Is that OK?",
+      "vi": "Tom nói anh ấy cần phiếu sớm. Có được không em?",
+      "model": "No problem. I'll follow up with him tomorrow.",
+      "accept": [
+       "No problem. I'll follow up with him tomorrow.",
+       "I'll follow up with him tomorrow.",
+       "No problem, I'll follow up with Tom tomorrow.",
+       "Sure. I'll follow up with him tomorrow."
+      ],
+      "frame": "No problem. I'll follow ___ with him tomorrow.",
+      "hint": "Hứa liên hệ lại: I'll follow up with him."
+     },
+     {
+      "ai": "Great. Anything else?",
+      "vi": "Tốt lắm. Còn gì nữa không?",
+      "model": "Can I just confirm: Linh will send the minutes today?",
+      "accept": [
+       "Can I just confirm: Linh will send the minutes today?",
+       "Can I just confirm that Linh will send the minutes today?",
+       "Will Linh send the minutes today?",
+       "Can I confirm: Linh will send the minutes today?"
+      ],
+      "frame": "Can I just ___: Linh will send the minutes today?",
+      "hint": "Xác nhận lại một điểm: Can I just confirm…?"
+     }
+    ]
+   },
+   "reading": {
+    "title": "Biên bản họp và danh sách việc cần làm",
+    "text": "MINUTES – PROJECT MEETING, FRIDAY\nPresent: Sarah Lee (chair), Tom, Kevin, Linh (minutes), An\n\nDecision: Pilot launch in Da Nang, 1 July – 31 August. Full launch in September if the pilot goes well.\n\nAction points\n1. Finish testing – Owner: Tom – Deadline: 30 June\n2. Contact Da Nang customers – Owner: Kevin – Deadline: this Friday\n3. Customer feedback form (English and Vietnamese) – Owner: An – Deadline: 20 June\n4. Send the pilot budget – Owner: Sarah – Deadline: next Wednesday\n\nNext meeting: Monday, 9.00",
+    "vi": "BIÊN BẢN – HỌP DỰ ÁN, THỨ SÁU\nCó mặt: Sarah Lee (chủ trì), Tom, Kevin, Linh (ghi biên bản), An\n\nQuyết định: Chạy thử ở Đà Nẵng từ 1/7 đến 31/8. Ra mắt toàn bộ vào tháng Chín nếu đợt thử suôn sẻ.\n\nViệc cần làm\n1. Hoàn thành thử nghiệm – Phụ trách: Tom – Hạn: 30/6\n2. Liên hệ khách hàng ở Đà Nẵng – Phụ trách: Kevin – Hạn: thứ Sáu này\n3. Phiếu ý kiến khách hàng (tiếng Anh và tiếng Việt) – Phụ trách: An – Hạn: 20/6\n4. Gửi ngân sách đợt thử – Phụ trách: Sarah – Hạn: thứ Tư tuần sau\n\nCuộc họp tiếp theo: thứ Hai, 9:00",
+    "qs": [
+     {
+      "q": "Ai chủ trì cuộc họp?",
+      "opts": [
+       "Sarah",
+       "Linh",
+       "Tom"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: Linh ghi biên bản (minutes).",
+       "2": "Sai: Tom là người dự họp."
+      }
+     },
+     {
+      "q": "Hạn chót phần việc của An là khi nào?",
+      "opts": [
+       "20/6",
+       "30/6",
+       "thứ Sáu này"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: 30/6 là hạn của Tom.",
+       "2": "Sai: thứ Sáu này là hạn của Kevin."
+      }
+     },
+     {
+      "q": "Ai sẽ gửi ngân sách đợt thử?",
+      "opts": [
+       "Sarah",
+       "Kevin",
+       "An"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: Kevin liên hệ khách hàng.",
+       "2": "Sai: An làm phiếu ý kiến."
+      }
+     },
+     {
+      "q": "Đúng hay sai: \"The full launch will happen even if the pilot goes badly.\"",
+      "opts": [
+       "Sai",
+       "Đúng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Không đúng: biên bản ghi Full launch in September IF the pilot goes well (chỉ khi đợt thử suôn sẻ)."
+      }
+     },
+     {
+      "q": "Cuộc họp tiếp theo vào khi nào?",
+      "opts": [
+       "thứ Hai, 9 giờ",
+       "thứ Sáu, 9 giờ",
+       "thứ Tư tuần sau"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: thứ Sáu là ngày họp hôm nay.",
+       "2": "Sai: thứ Tư tuần sau là hạn gửi ngân sách."
+      }
+     }
+    ]
+   },
+   "confuse": [
+    {
+     "a": "summary",
+     "aipa": "/ˈsʌm.ər.i/",
+     "am": "bản tóm tắt",
+     "b": "summery",
+     "bipa": "/ˈsʌm.ər.i/",
+     "bm": "mang không khí mùa hè",
+     "note": "Đọc giống nhau; chỉ khác chữ viết. summary có a (gốc sum: tổng); summery có e (gốc summer: mùa hè).",
+     "qa": {
+      "t": "Linh wrote a short ___ of the meeting.",
+      "vi": "Linh viết một bản tóm tắt ngắn của cuộc họp."
+     },
+     "qb": {
+      "t": "It's a bright, ___ day today.",
+      "vi": "Hôm nay trời sáng sủa, đúng không khí mùa hè."
+     }
+    },
+    {
+     "a": "action",
+     "aipa": "/ˈæk.ʃən/",
+     "am": "hành động",
+     "b": "auction",
+     "bipa": "/ˈɔːk.ʃən/",
+     "bm": "cuộc đấu giá",
+     "note": "action bắt đầu bằng a, đọc 'ék-shần'; auction bắt đầu bằng au, đọc 'ók-shần'.",
+     "qa": {
+      "t": "Here are the ___ points from today's meeting.",
+      "vi": "Đây là các việc cần làm sau cuộc họp hôm nay."
+     },
+     "qb": {
+      "t": "They sold the old painting at an ___.",
+      "vi": "Họ bán bức tranh cũ ở một cuộc đấu giá."
+     }
+    },
+    {
+     "a": "deadline",
+     "aipa": "/ˈded.laɪn/",
+     "am": "hạn chót",
+     "b": "headline",
+     "bipa": "/ˈhed.laɪn/",
+     "bm": "tiêu đề (bài báo)",
+     "note": "Chỉ khác chữ đầu: d-eadline / h-eadline. headline = dòng tít lớn trên báo.",
+     "qa": {
+      "t": "The ___ for the form is 20 June.",
+      "vi": "Hạn chót cho phiếu là 20/6."
+     },
+     "qb": {
+      "t": "The news ___ was about our new app.",
+      "vi": "Tít bài báo nói về ứng dụng mới của chúng tôi."
+     }
+    },
+    {
+     "a": "follow up",
+     "aipa": "/ˌfɒl.əʊ ˈʌp/",
+     "am": "liên hệ lại, theo dõi tiếp (động từ)",
+     "b": "follow-up",
+     "bipa": "/ˈfɒl.əʊ.ʌp/",
+     "bm": "(cuộc) tiếp theo (danh từ, tính từ)",
+     "note": "Động từ viết rời, nhấn up: I'll follow up. Danh từ, tính từ có gạch nối, nhấn FOL-: a follow-up meeting.",
+     "qa": {
+      "t": "I will ___ with Tom tomorrow.",
+      "vi": "Mai tôi sẽ liên hệ lại với Tom."
+     },
+     "qb": {
+      "t": "Let's have a ___ meeting next week.",
+      "vi": "Tuần sau mình họp tiếp nhé."
+     }
+    }
+   ],
+   "write": {
+    "task": "Viết email tóm tắt cuộc họp và việc cần làm (khoảng 100–130 từ) gửi cả nhóm.",
+    "kind": "email",
+    "model": "Subject: Summary of today's meeting\n\nHi everyone,\n\nThank you for a useful meeting today. To sum up, we agreed that we will do a pilot launch in Da Nang from 1 July to 31 August. If the pilot goes well, we will launch everywhere in September.\n\nHere are the action points:\n- Tom will finish the testing by 30 June.\n- Kevin will contact our customers in Da Nang by Friday.\n- I will send the customer feedback form by 20 June.\n- Sarah will send the pilot budget by next Wednesday.\n\nTom said that the testing team needed the form early, so I will follow up with him on Monday. Please let me know if I have missed anything. Our next meeting is on Monday at 9.00.\n\nBest regards,\nAn",
+    "frame": "Subject: Summary of today's meeting\n\nHi everyone,\n\nThank you for a useful meeting today. To sum up, we agreed that ___. If the pilot goes well, we will ___.\n\nHere are the action points:\n- Tom will ___ by 30 June.\n- Kevin will ___ by Friday.\n- I will ___ by 20 June.\n- Sarah will send the pilot budget ___ next Wednesday.\n\nTom said that the testing team ___ the form early, so I will ___ with him on Monday. Please let me know if I have missed anything. Our next meeting is on Monday at 9.00.\n\nBest regards,\n___",
+    "gaps": [
+     "we will do a pilot launch in Da Nang from 1 July to 31 August",
+     "launch everywhere in September",
+     "finish the testing",
+     "contact our customers in Da Nang",
+     "send the customer feedback form",
+     "by",
+     "needed",
+     "follow up",
+     "An"
+    ],
+    "free": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false,
+     true
+    ],
+    "hints": [
+     "To sum up, we agreed that…",
+     "Here are the action points: … will … by …",
+     "Tom said that… (lùi thì: needs → needed)",
+     "I will follow up with…",
+     "Please let me know if I have missed anything."
+    ],
+    "check": [
+     "Có tiêu đề và lời mở đầu cảm ơn",
+     "Tóm tắt quyết định bằng To sum up, we agreed that…",
+     "Mỗi việc có người phụ trách và hạn chót với by",
+     "Có ít nhất một câu tường thuật (… said that…) lùi thì đúng",
+     "Có câu mời góp ý và thông tin cuộc họp tới",
+     "Dài khoảng 100–130 từ (tính cả tiêu đề và lời chào)"
+    ],
+    "words": [
+     100,
+     135
+    ]
+   }
+  }
+ ],
+ "newImages": [
+  {
+   "key": "agenda",
+   "prompt": "A printed meeting agenda sheet with blank lines on a meeting table next to a pen and a coffee cup, realistic photo, no readable text"
+  },
+  {
+   "key": "chart",
+   "prompt": "A laptop screen showing a simple colourful bar chart and a rising line, office desk, realistic photo, no numbers or readable text"
+  },
+  {
+   "key": "launch",
+   "prompt": "A smartphone showing a fresh app home screen with a small rocket icon, held by a hand, realistic photo, no logos or readable text"
+  },
+  {
+   "key": "survey",
+   "prompt": "A tablet showing a short online questionnaire with tick boxes and star ratings, realistic photo, no readable text"
+  },
+  {
+   "key": "online",
+   "prompt": "A laptop on a desk showing an online video meeting with four people in tiles, realistic photo, no logos or readable text"
+  },
+  {
+   "key": "checklist",
+   "prompt": "A notebook page with a hand-drawn checklist and ticks next to a pen, realistic photo, no readable text"
+  }
+ ],
+ "newScenes": [
+  {
+   "key": "scene-en-agenda",
+   "prompt": "A meeting room with a large screen showing a blank agenda slide: sarah, in a charcoal blazer, stands beside the screen; tom, kevin, an and linh sit around the table with laptops, linh writing in a notebook, no readable text."
+  },
+  {
+   "key": "scene-en-debate",
+   "prompt": "A meeting room discussion: kevin, in glasses and a navy shirt, gestures firmly while tom, in a green sweater, raises a hand to disagree politely; an shows a simple bar chart on her laptop to sarah, no readable text or numbers."
+  },
+  {
+   "key": "scene-en-online",
+   "prompt": "An online video meeting on a laptop screen with four video tiles: kevin's tile looks slightly pixelated, tom has a muted microphone icon; an sits in front of the laptop raising her hand politely, sarah in another tile, no readable text."
+  },
+  {
+   "key": "scene-en-proposal",
+   "prompt": "A meeting room with a whiteboard showing a simple blank map outline with a pin: an points at the pin and smiles; kevin and tom nod together; sarah raises her hand as if calling a vote, no readable text."
+  },
+  {
+   "key": "scene-en-wrapup",
+   "prompt": "End of a meeting: linh, in a mustard-yellow sweater, reads from her notebook; a whiteboard behind her shows a blank checklist with ticks; sarah, an, tom and kevin listen around the table, some closing laptops, no readable text."
+  }
+ ]
+}
