@@ -17,9 +17,9 @@
 
 | Bước | Bài (mã) | Hiển thị |
 |---|---|---|
-| 1 · Nghe | Thẻ nghe (T) → Nghe chọn nghĩa (Q) → Nghe cảnh (S) → Nghe hiểu (B) | Mức 1 **ẩn chữ Hán**: chỉ có tranh, bính âm, nghĩa, âm thanh. Có nút "Xem chữ Hán". Đáp án bài nghe viết bằng bính âm. |
+| 1 · Nghe | Thẻ nghe (T) → Nghe chọn nghĩa (Q) → Nghe cảnh (S) → Nghe hiểu (B) | Tranh, âm thanh, **chữ Hán luôn kèm bính âm**, nghĩa Anh · Việt. Trọng tâm là nghe, nhưng không ẩn chữ Hán. |
 | 2 · Nói | Nhại theo (C) → Mẫu câu (P) → Hội thoại (I) | **Chữ Hán kèm bính âm** (bính âm nằm trên chữ). Rê chuột hoặc chạm vào từ để xem bính âm, nghĩa tiếng Anh, nghĩa tiếng Việt. |
-| 3 · Nhận mặt chữ và đọc | Nhận mặt chữ (U) → Từ vựng (E) → Ngữ pháp (G) → Đọc (J) → Dạng đề HSK (H) | Chữ Hán là chính. Mức 1: đáp án chữ Hán có bính âm nhỏ bên dưới (trừ bài U). Mức 2: không bính âm. Chữ Hán ở đâu cũng tra được nghĩa. |
+| 3 · Nhận mặt chữ và đọc | Nhận mặt chữ (U) → Từ vựng (E) → Ngữ pháp (G) → Đọc (J) → Dạng đề HSK (H) | Chữ Hán là chính, **luôn có bính âm** (cả Mức 1 và Mức 2, cả đáp án). Chữ Hán ở đâu cũng tra được nghĩa. |
 | 4 · Viết chữ | Đếm nét (W) → Hướng dẫn viết (V) | Chính tả viết tay để trong workbook. |
 
 **Tiếng Anh:** T → S → P → E → G → B → C → I → H → J.
@@ -29,13 +29,15 @@
 ## 3. Nội dung
 1. **Chỉ dùng chữ và từ đã học.** Bài đọc, câu hỏi đọc, câu hội thoại và cặp chữ đếm nét chỉ được dùng chữ có trong thẻ từ từ Tuần 1 đến hôm nay, cộng với tên riêng. `check_rules.py` báo LỖI nếu sai.
 2. **Đủ dữ liệu cho từng câu:**
-   - Mọi câu tiếng Trung đều có bính âm và nghĩa tiếng Việt.
-   - Mọi thẻ từ có: `w, py, m, ex, expy, exm, n`, và `img` nếu có tranh.
+   - Mọi câu tiếng Trung đều có bính âm, nghĩa tiếng Anh và nghĩa tiếng Việt.
+   - Mọi thẻ từ có: `w, py, m, mEn, ex, expy, exm, exEn, n`, và `img` nếu có tranh.
+   - **Song ngữ, tiếng Anh trước:** chỗ nào có nghĩa tiếng Việt thì phải có nghĩa tiếng Anh, hiện tiếng Anh trước (đậm), tiếng Việt sau (nhạt). Trường dữ liệu: cảnh `en`; hội thoại `en` (lời đối tác) và `men` (câu mẫu); mẫu câu `ex[i][2]`; bài đọc `en`; nhại theo `en`; trắc nghiệm có đáp án tiếng Việt thì có `optsEn`; cặp đếm nét `aen, ben`; hướng dẫn viết `en`.
+   - **Chữ Hán luôn kèm bính âm** ở mọi bài, mọi mức: câu hỏi, đáp án, phản hồi, gợi ý. Chữ Hán trong câu tiếng Việt cũng có bính âm (trừ khi đã viết bính âm trong ngoặc ngay sau).
 3. **Từ điển tra nhanh:** mọi từ trong thẻ phải có trong `vendor/zh-gloss.json` dạng `[bính âm, nghĩa Anh, nghĩa Việt]`.
-4. **Hội thoại:** mỗi lượt có `ai, py, vi, model, mpy, accept, hint`, có `frame` cho Mức 1. `accept` phải gồm cả bính âm không dấu.
-5. **Nhại theo:** mỗi câu có `t, py, focus`. Dòng Chú ý nói rõ chỗ khó: thanh điệu, âm cuối, ghép âm.
-6. **Mẫu câu:** có `t` (tên mẫu, có công thức), `f` (dòng đầu là ví dụ chia ô, ô thứ 2 là phần chính), `ex` (1–3 câu kèm nghĩa), `bad`, `good`, `why`.
-7. **Bài đọc:** có `text, py, vi, qs`. Câu hỏi hỏi đúng thông tin trong bài, mỗi đáp án sai có `why`.
+4. **Hội thoại:** mỗi lượt có `ai, py, vi, en, model, mpy, men, accept, hint`, có `frame` cho Mức 1. `accept` phải gồm cả bính âm không dấu.
+5. **Nhại theo:** mỗi câu có `t, py, focus, en` (`en` để trống chỉ với câu luyện âm). Dòng Chú ý nói rõ chỗ khó: thanh điệu, âm cuối, ghép âm.
+6. **Mẫu câu:** có `t` (tên mẫu, có công thức), `f` (dòng đầu là ví dụ chia ô, ô thứ 2 là phần chính), `ex` (1–3 câu, mỗi câu `[chữ Hán, nghĩa Việt, nghĩa Anh]`), `bad`, `good`, `why`.
+7. **Bài đọc:** có `text, py, en, vi, qs`. Câu hỏi hỏi đúng thông tin trong bài, mỗi đáp án sai có `why`.
 8. **Câu trắc nghiệm:**
    - 2–4 đáp án, không trùng nhau.
    - Mỗi đáp án sai có giải thích riêng, chỉ ra đáp án đó là gì và vì sao không khớp.
@@ -63,13 +65,13 @@
 
 ## 5. Từng dạng bài
 - **T · Thẻ:**
-  - Tranh, âm thanh, bính âm. Ở bước 1, chữ Hán ẩn ở Mức 1.
-  - Mặt sau có nghĩa, câu ví dụ có bính âm, ghi nhớ. Có nút lưu vào kho ôn.
+  - Tranh, âm thanh, chữ Hán kèm bính âm.
+  - Mặt sau có nghĩa Anh rồi Việt, câu ví dụ có bính âm và nghĩa Anh, Việt, ghi nhớ. Có nút lưu vào kho ôn.
 - **Q · Nghe chọn nghĩa:** âm tự phát; chọn tranh và nghĩa; mỗi đáp án một tranh.
 - **S · Nghe cảnh:**
-  - Tự phát cả cảnh. Có phụ đề tiếng Việt, bính âm, và nút bật tắt chữ Hán.
+  - Tự phát cả cảnh. Chữ Hán luôn hiện; có công tắc bính âm và nghĩa (Anh · Việt).
   - Video Google Flow: giữ tiếng gốc, phụ đề dưới khung hình khớp từng câu. Cần lời thoại đúng thứ tự từ chị Duyên.
-- **B · Nghe hiểu:** câu nghe tự phát; đáp án bằng bính âm (tiếng Trung, bước 1); có tranh cho đáp án hoặc ảnh cảnh.
+- **B · Nghe hiểu:** câu nghe tự phát; đáp án chữ Hán có bính âm, đáp án tiếng Việt có tiếng Anh ở trên; có tranh cho đáp án hoặc ảnh cảnh.
 - **C · Nhại theo:**
   - Mẫu tự phát. Nghe xong, nút 🎤 hiện ra. Có "Nghe lại mẫu" và "Nghe chậm".
   - Máy chấm từng chữ, tô màu: xanh đúng, vàng sai thanh, xanh dương sai âm, gạch đứt là thiếu. Kèm mẹo sửa âm.
@@ -83,16 +85,16 @@
   - Có 💡 Gợi ý 2 bậc (ý chính và khung câu, rồi đáp án mẫu) và nút 🔊 Nghe đáp án mẫu.
   - Ghi âm từng lượt; cuối bài nghe lại cả cuộc hội thoại.
   - Đổi vai: Vai 1 trả lời, Vai 2 hỏi theo nhiệm vụ. Nhận xét thanh điệu và phát âm.
-- **U · Nhận mặt chữ:** xen kẽ 2 kiểu: nhìn chữ chọn cách đọc và nghĩa, hoặc nghe âm chọn chữ. Không bính âm trên đáp án chữ.
+- **U · Nhận mặt chữ:** xen kẽ 2 kiểu: nhìn chữ to (có bính âm) chọn nghĩa Anh · Việt, hoặc đọc nghĩa chọn chữ (đáp án chữ có bính âm). Không dùng kiểu "nghe âm chọn chữ" vì bính âm trên đáp án làm lộ đáp án.
 - **E, G · Từ vựng, ngữ pháp:**
   - Có tranh theo đáp án, không có thì dùng ảnh cảnh.
   - Tiếng Trung Mức 1: bài gõ đổi thành chọn hoặc xếp ô có bính âm.
 - **J · Đọc:**
   - 3 bước: nghe cả đoạn (tô sáng câu đang đọc) → đọc → câu hỏi.
-  - Bính âm ẩn nếu học viên đã làm bài U của ngày, có công tắc bật lại.
-  - Tra từ có bính âm, nghĩa Anh, nghĩa Việt và nút nghe. Có bản dịch.
+  - Bính âm luôn bật sẵn, có công tắc tắt để học viên tự thử đọc.
+  - Tra từ có bính âm, nghĩa Anh, nghĩa Việt và nút nghe. Bản dịch có tiếng Anh trước, tiếng Việt sau.
 - **H · Dạng đề HSK:** đúng dạng đề thật; điểm tính theo lần đầu.
-- **W · Đếm nét:** ô chữ có "Xem từng nét" đếm theo 1, 2, 3…; câu chọn chữ có "Đếm nét" dưới từng chữ.
+- **W · Đếm nét:** ô chữ có "Xem từng nét" đếm theo 1, 2, 3…; câu chọn chữ hỏi "Chữ nào có N nét?", dưới từng chữ có bính âm, nghĩa và nút "Đếm nét".
 - **V · Hướng dẫn viết:**
   - Đi lần lượt Xem thứ tự nét → Tô nét (sai 2 lần thì nét đúng nháy lên) → Tự viết (có nút Gợi ý) → Kiểm tra (tính giờ, không gợi ý).
   - Tự chuyển bước, tự chuyển chữ, có nút "Ở lại". Cuối có Kết quả.
@@ -142,7 +144,8 @@
 - [ ] `check_rules.py` báo 0 lỗi: chữ đã học, đủ dữ liệu hội thoại, nhại theo, mẫu câu, bài đọc, 4 cặp chữ khác số nét, 4 chữ viết.
 - [ ] Từ mới đã có trong từ điển tra nhanh (bính âm, Anh, Việt).
 - [ ] Mọi câu có tranh; mọi đáp án sai có giải thích.
-- [ ] Bước 1 ẩn chữ Hán (Mức 1); từ bước 2 có chữ Hán, bính âm và tra từ.
+- [ ] Chữ Hán luôn kèm bính âm ở mọi bài; nghĩa luôn có tiếng Anh trước, tiếng Việt sau; tra từ ở mọi chữ Hán.
+- [ ] Âm thanh: mọi câu có file giọng Gemini (thêm vào `tools/audio-list.json`, giọng cố định theo nhân vật), đã chạy `audio_clean.py`; không để câu nào chỉ có giọng trình duyệt.
 - [ ] Tự phát, tự chuyển 1,2 giây, sai thì hiện đáp án 2 giây, cuối bài làm lại câu tương tự, luôn có nút đi tiếp.
 - [ ] Mỗi bài có Cách làm, Quy tắc, Làm sao cho hiệu quả; bài nghe và nói có khuyến nghị trình duyệt.
 - [ ] `t20.js` 0 lỗi; thử sai không kẹt; ảnh chụp máy tính và điện thoại ổn.

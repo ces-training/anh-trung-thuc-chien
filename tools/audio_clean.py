@@ -35,6 +35,15 @@ def clean_pcm(raw: bytes) -> tuple[bytes, bool]:
     if j >= 0 and gap >= 5 and burst <= 15 and loud > -10 and n - 1 - last <= 10:
         a = a[: (i - gap + 4) * FR]  # giữ lại 80 ms lặng sau câu nói
         cut = True
+    elif j >= 0 and gap >= 1 and burst <= 16 and loud > -10 and n - 1 - last <= 12:
+        # khoảng lặng ngắn (20–80 ms) nhưng đoạn cuối to vọt hẳn so với câu nói ngay trước: cũng là tiếng rẹt
+        k = j
+        while k > 0 and db[k - 1] > -40:
+            k -= 1
+        bm = sum(db[i:last + 1]) / burst; pm = sum(db[k:j + 1]) / (j - k + 1)
+        if bm > -12 and bm > pm + 5:
+            a = a[: (j + 1 + min(gap, 4)) * FR]
+            cut = True
     # tiếng "tách" ở đầu: một đoạn rất ngắn (<= 60 ms) rồi lặng >= 100 ms trước khi vào câu
     db2 = [_db(a[k * FR:(k + 1) * FR]) for k in range(len(a) // FR)]
     v2 = [k for k, d in enumerate(db2) if d > -40]

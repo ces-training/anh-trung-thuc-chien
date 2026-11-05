@@ -1,461 +1,501 @@
 {
-"w1-thu-2": [
-{
-"ch": "你",
-"py": "nǐ",
-"m": "bạn",
-"k": "Bên trái là 亻 (người), bên phải là 尔: một người khác đứng cạnh mình, tức là “bạn”.",
-"r": [
-"Chữ có 7 nét.",
-"Chữ trái – phải: viết 亻 trước (2 nét), rồi đến 尔 (5 nét).",
-"尔: phẩy, ngang gập móc, sổ móc ở giữa, rồi nét phẩy bên trái và nét chấm bên phải."
-]
-},
-{
-"ch": "好",
-"py": "hǎo",
-"m": "tốt, khoẻ",
-"k": "女 (người phụ nữ) bế 子 (đứa con): có mẹ có con là điều “tốt”.",
-"r": [
-"Chữ có 6 nét.",
-"Chữ trái – phải: 女 (3 nét) trước, 子 (3 nét) sau.",
-"女 bên trái viết hẹp lại, nét ngang cuối hơi hất lên để nhường chỗ cho 子."
-]
-},
-{
-"ch": "我",
-"py": "wǒ",
-"m": "tôi",
-"k": "Bàn tay cầm cây giáo 戈: “cái tôi” giữ vũ khí của mình.",
-"r": [
-"Chữ có 7 nét.",
-"Thứ tự: phẩy, ngang, sổ móc, hất, rồi xiên móc dài, phẩy.",
-"Nét chấm phía trên bên phải viết cuối cùng."
-]
-},
-{
-"ch": "是",
-"py": "shì",
-"m": "là",
-"k": "日 (mặt trời) ở trên, bên dưới là nét thẳng ngay ngắn: điều “đúng”, điều “là”.",
-"r": [
-"Chữ có 9 nét.",
-"Chữ trên – dưới: 日 (4 nét) trước.",
-"Phần dưới: ngang dài, sổ ngắn, ngang ngắn, rồi phẩy và mác dang ra như hai chân."
-]
-}
-],
-"w1-thu-3": [
-{
-"ch": "他",
-"py": "tā",
-"m": "anh ấy",
-"k": "亻 (người) + 也: một người khác, “anh ấy”.",
-"r": [
-"Chữ có 5 nét.",
-"Chữ trái – phải: 亻 trước (2 nét), 也 sau (3 nét).",
-"也: ngang gập móc, sổ, rồi sổ cong móc dài ôm phía dưới."
-]
-},
-{
-"ch": "您",
-"py": "nín",
-"m": "ngài (lịch sự)",
-"k": "你 đặt trên 心 (trái tim): gọi “bạn” bằng cả tấm lòng nên lịch sự hơn.",
-"r": [
-"Chữ có 11 nét.",
-"Chữ trên – dưới: viết 你 trước (7 nét), 心 sau (4 nét).",
-"心: chấm, cong móc, chấm, chấm."
-]
-},
-{
-"ch": "们",
-"py": "men",
-"m": "(chỉ số nhiều)",
-"k": "亻 (người) + 门 (cửa): nhiều người trong một nhà, nên chỉ số nhiều.",
-"r": [
-"Chữ có 5 nét.",
-"Chữ trái – phải: 亻 trước, 门 sau.",
-"门: chấm, sổ, rồi ngang gập móc."
-]
-},
-{
-"ch": "呢",
-"py": "ne",
-"m": "còn … thì sao?",
-"k": "口 (miệng) + 尼: tiếng hỏi lại “còn bạn thì sao?”.",
-"r": [
-"Chữ có 8 nét.",
-"Chữ trái – phải: 口 nhỏ bên trái (3 nét) trước.",
-"尼: ngang gập, ngang, phẩy, rồi phẩy và sổ cong móc."
-]
-}
-],
-"w1-thu-4": [
-{
-"ch": "看",
-"py": "kàn",
-"m": "nhìn, xem",
-"k": "Bàn tay đặt trên 目 (con mắt): đưa tay che mắt để nhìn xa.",
-"r": [
-"Chữ có 9 nét.",
-"Chữ trên – dưới: phần tay (phẩy, ngang, ngang, phẩy dài) trước, 目 (5 nét) sau.",
-"Nét phẩy dài của phần trên kéo sang trái, ôm lấy 目."
-]
-},
-{
-"ch": "她",
-"py": "tā",
-"m": "cô ấy",
-"k": "女 (nữ) + 也: một người phụ nữ khác, “cô ấy”.",
-"r": [
-"Chữ có 6 nét.",
-"Chữ trái – phải: 女 (3 nét) trước, 也 (3 nét) sau.",
-"So với 他: thay 亻 bằng 女."
-]
-},
-{
-"ch": "会",
-"py": "huì",
-"m": "biết (làm gì)",
-"k": "Mái 人 che trên 云 (mây): mọi người tụ lại dưới một mái, cùng học để “biết”.",
-"r": [
-"Chữ có 6 nét.",
-"Chữ trên – dưới: 人 (2 nét) trước.",
-"云: hai nét ngang, rồi phẩy gập và chấm."
-]
-},
-{
-"ch": "说",
-"py": "shuō",
-"m": "nói",
-"k": "讠 (lời nói) + 兑: dùng lời để nói.",
-"r": [
-"Chữ có 9 nét.",
-"Chữ trái – phải: 讠 (2 nét) trước.",
-"兑: hai chấm trên, 口 ở giữa, rồi 儿 (phẩy, sổ cong móc)."
-]
-}
-],
-"w1-thu-5": [
-{
-"ch": "一",
-"py": "yī",
-"m": "một",
-"k": "Một que tính nằm ngang.",
-"r": [
-"Chữ có 1 nét.",
-"Một nét ngang, viết từ trái sang phải."
-]
-},
-{
-"ch": "二",
-"py": "èr",
-"m": "hai",
-"k": "Hai que tính xếp chồng.",
-"r": [
-"Chữ có 2 nét.",
-"Viết từ trên xuống dưới.",
-"Nét trên ngắn hơn nét dưới."
-]
-},
-{
-"ch": "三",
-"py": "sān",
-"m": "ba",
-"k": "Ba que tính xếp chồng.",
-"r": [
-"Chữ có 3 nét.",
-"Ba nét ngang, viết từ trên xuống.",
-"Nét giữa ngắn nhất, nét dưới dài nhất."
-]
-},
-{
-"ch": "十",
-"py": "shí",
-"m": "mười",
-"k": "Dấu cộng: đủ mười thì gộp lại thành một chục.",
-"r": [
-"Chữ có 2 nét.",
-"Ngang trước, sổ sau.",
-"Nét sổ cắt qua giữa nét ngang."
-]
-}
-],
-"w1-thu-6": [
-{
-"ch": "的",
-"py": "de",
-"m": "của",
-"k": "白 (trắng) + 勺 (cái muôi): cái muôi này là “của” ai?",
-"r": [
-"Chữ có 8 nét.",
-"Chữ trái – phải: 白 (5 nét) trước, 勺 (3 nét) sau.",
-"勺: phẩy, ngang gập móc, rồi chấm bên trong."
-]
-},
-{
-"ch": "家",
-"py": "jiā",
-"m": "nhà",
-"k": "Mái nhà 宀 che con lợn 豕: ngày xưa nhà nào cũng nuôi lợn.",
-"r": [
-"Chữ có 10 nét.",
-"Chữ trên – dưới: 宀 (3 nét) trước.",
-"豕 (7 nét): ngang, các nét phẩy và cong, nét mác viết cuối cùng."
-]
-},
-{
-"ch": "口",
-"py": "kǒu",
-"m": "miệng; người (đếm người trong nhà)",
-"k": "Hình cái miệng mở vuông.",
-"r": [
-"Chữ có 3 nét.",
-"Sổ trái trước, rồi ngang gập, cuối cùng nét ngang đóng đáy.",
-"Chỉ có 3 nét, không phải 4."
-]
-},
-{
-"ch": "和",
-"py": "hé",
-"m": "và",
-"k": "禾 (cây lúa) + 口 (miệng): có lúa để ăn thì hoà thuận.",
-"r": [
-"Chữ có 8 nét.",
-"Chữ trái – phải: 禾 (5 nét) trước, 口 sau.",
-"禾 bên trái: nét mác cuối đổi thành nét chấm để nhường chỗ."
-]
-}
-],
-"w2-thu-2": [
-{
-"ch": "吧",
-"py": "ba",
-"m": "nhé, đi (cuối câu)",
-"k": "口 (miệng) + 巴: tiếng đệm cuối câu “nhé”.",
-"r": [
-"Chữ có 7 nét.",
-"Chữ trái – phải: 口 trước.",
-"巴: ngang gập, sổ, ngang, rồi sổ cong móc."
-]
-},
-{
-"ch": "点",
-"py": "diǎn",
-"m": "giờ; chấm",
-"k": "占 ở trên, bốn chấm 灬 ở dưới: những đốm chấm.",
-"r": [
-"Chữ có 9 nét.",
-"Chữ trên – dưới: 占 (5 nét) trước.",
-"Bốn chấm dưới cùng viết từ trái sang phải."
-]
-},
-{
-"ch": "分",
-"py": "fēn",
-"m": "phút; chia",
-"k": "八 (tách ra) trên 刀 (con dao): dùng dao chia ra.",
-"r": [
-"Chữ có 4 nét.",
-"Chữ trên – dưới: 八 (phẩy, mác) trước.",
-"刀: ngang gập móc, rồi phẩy."
-]
-},
-{
-"ch": "半",
-"py": "bàn",
-"m": "rưỡi, một nửa",
-"k": "Nét sổ chẻ đôi ở giữa: “một nửa”.",
-"r": [
-"Chữ có 5 nét.",
-"Hai chấm trên trước, rồi hai nét ngang.",
-"Nét sổ dài viết cuối cùng, cắt qua giữa."
-]
-}
-],
-"w2-thu-3": [
-{
-"ch": "坐",
-"py": "zuò",
-"m": "ngồi",
-"k": "Hai người 人 人 ngồi trên mặt đất 土.",
-"r": [
-"Chữ có 7 nét.",
-"Viết 人 bên trái, rồi 人 bên phải.",
-"Cuối cùng là 土: ngang, sổ, rồi ngang dài."
-]
-},
-{
-"ch": "吃",
-"py": "chī",
-"m": "ăn",
-"k": "口 (miệng) + 乞: dùng miệng để ăn.",
-"r": [
-"Chữ có 6 nét.",
-"Chữ trái – phải: 口 trước.",
-"乞: phẩy, ngang, rồi ngang gập cong móc."
-]
-},
-{
-"ch": "想",
-"py": "xiǎng",
-"m": "muốn; nghĩ",
-"k": "相 trên 心 (trái tim): nghĩ ở trong lòng.",
-"r": [
-"Chữ có 13 nét.",
-"Chữ trên – dưới: 相 (9 nét) trước, 心 (4 nét) sau.",
-"相 = 木 + 目, viết 木 trước."
-]
-},
-{
-"ch": "太",
-"py": "tài",
-"m": "quá",
-"k": "大 (to) thêm một chấm: to hơn nữa, “quá”.",
-"r": [
-"Chữ có 4 nét.",
-"Viết 大 trước: ngang, phẩy, mác.",
-"Nét chấm viết cuối cùng."
-]
-}
-],
-"w2-thu-4": [
-{
-"ch": "在",
-"py": "zài",
-"m": "ở",
-"k": "Một người đứng trên mặt đất 土: đang “ở” đó.",
-"r": [
-"Chữ có 6 nét.",
-"Ngang, phẩy trước.",
-"Rồi nét sổ, cuối cùng là 土."
-]
-},
-{
-"ch": "找",
-"py": "zhǎo",
-"m": "tìm",
-"k": "扌 (tay) + 戈: đưa tay ra tìm.",
-"r": [
-"Chữ có 7 nét.",
-"Chữ trái – phải: 扌 (3 nét) trước.",
-"Trông giống 我 nhưng bên trái là 扌."
-]
-},
-{
-"ch": "书",
-"py": "shū",
-"m": "sách",
-"k": "Hình cuốn sách đang mở.",
-"r": [
-"Chữ có 4 nét.",
-"Ngang gập, rồi ngang gập móc trước.",
-"Nét sổ dài, rồi nét chấm viết cuối cùng."
-]
-},
-{
-"ch": "本",
-"py": "běn",
-"m": "quyển (lượng từ)",
-"k": "木 (cây) thêm nét ngang ở gốc: gốc rễ, cũng là lượng từ cho sách.",
-"r": [
-"Chữ có 5 nét.",
-"Viết 木 trước: ngang, sổ, phẩy, mác.",
-"Nét ngang ngắn ở gốc viết cuối cùng."
-]
-}
-],
-"w2-thu-5": [
-{
-"ch": "第",
-"py": "dì",
-"m": "thứ (第一: thứ nhất)",
-"k": "⺮ (tre) ở trên: thẻ tre xếp theo thứ tự.",
-"r": [
-"Chữ có 11 nét.",
-"Chữ trên – dưới: ⺮ (6 nét) trước.",
-"Phần dưới viết giống chữ 弟 nhưng không có hai chấm đầu."
-]
-},
-{
-"ch": "男",
-"py": "nán",
-"m": "nam",
-"k": "田 (ruộng) + 力 (sức): người dùng sức làm ruộng.",
-"r": [
-"Chữ có 7 nét.",
-"Chữ trên – dưới: 田 (5 nét) trước.",
-"力: ngang gập móc, rồi phẩy."
-]
-},
-{
-"ch": "女",
-"py": "nǚ",
-"m": "nữ",
-"k": "Hình người phụ nữ ngồi khoanh tay.",
-"r": [
-"Chữ có 3 nét.",
-"Phẩy gập trước, rồi phẩy, cuối cùng là ngang.",
-"Chỉ có 3 nét."
-]
-},
-{
-"ch": "读",
-"py": "dú",
-"m": "đọc",
-"k": "讠 (lời nói) + 卖: đọc thành lời.",
-"r": [
-"Chữ có 10 nét.",
-"Chữ trái – phải: 讠 trước.",
-"卖: 十, ngang gập, hai chấm, rồi 大."
-]
-}
-],
-"w2-thu-6": [
-{
-"ch": "到",
-"py": "dào",
-"m": "đến",
-"k": "至 (tới nơi) + 刂: đã “đến” nơi.",
-"r": [
-"Chữ có 8 nét.",
-"Chữ trái – phải: 至 (6 nét) trước.",
-"刂: sổ ngắn, rồi sổ móc dài."
-]
-},
-{
-"ch": "月",
-"py": "yuè",
-"m": "tháng; mặt trăng",
-"k": "Hình mặt trăng khuyết.",
-"r": [
-"Chữ có 4 nét.",
-"Phẩy, rồi ngang gập móc trước.",
-"Hai nét ngang bên trong viết sau."
-]
-},
-{
-"ch": "号",
-"py": "hào",
-"m": "ngày (trong tháng); số",
-"k": "口 (miệng) trên 丂: gọi to số thứ tự.",
-"r": [
-"Chữ có 5 nét.",
-"Chữ trên – dưới: 口 trước.",
-"丂: ngang, rồi ngang gập gập móc."
-]
-},
-{
-"ch": "开",
-"py": "kāi",
-"m": "mở",
-"k": "Hai cánh cửa được mở ra.",
-"r": [
-"Chữ có 4 nét.",
-"Hai nét ngang trước.",
-"Rồi phẩy, cuối cùng là sổ."
-]
-}
-]
+ "w1-thu-2": [
+  {
+   "ch": "你",
+   "py": "nǐ",
+   "m": "bạn",
+   "k": "Bên trái là 亻 (người), bên phải là 尔: một người khác đứng cạnh mình, tức là “bạn”.",
+   "r": [
+    "Chữ có 7 nét.",
+    "Chữ trái – phải: viết 亻 trước (2 nét), rồi đến 尔 (5 nét).",
+    "尔: phẩy, ngang gập móc, sổ móc ở giữa, rồi nét phẩy bên trái và nét chấm bên phải."
+   ],
+   "en": "you"
+  },
+  {
+   "ch": "好",
+   "py": "hǎo",
+   "m": "tốt, khoẻ",
+   "k": "女 (người phụ nữ) bế 子 (đứa con): có mẹ có con là điều “tốt”.",
+   "r": [
+    "Chữ có 6 nét.",
+    "Chữ trái – phải: 女 (3 nét) trước, 子 (3 nét) sau.",
+    "女 bên trái viết hẹp lại, nét ngang cuối hơi hất lên để nhường chỗ cho 子."
+   ],
+   "en": "good, well"
+  },
+  {
+   "ch": "我",
+   "py": "wǒ",
+   "m": "tôi",
+   "k": "Bàn tay cầm cây giáo 戈: “cái tôi” giữ vũ khí của mình.",
+   "r": [
+    "Chữ có 7 nét.",
+    "Thứ tự: phẩy, ngang, sổ móc, hất, rồi xiên móc dài, phẩy.",
+    "Nét chấm phía trên bên phải viết cuối cùng."
+   ],
+   "en": "I, me"
+  },
+  {
+   "ch": "是",
+   "py": "shì",
+   "m": "là",
+   "k": "日 (mặt trời) ở trên, bên dưới là nét thẳng ngay ngắn: điều “đúng”, điều “là”.",
+   "r": [
+    "Chữ có 9 nét.",
+    "Chữ trên – dưới: 日 (4 nét) trước.",
+    "Phần dưới: ngang dài, sổ ngắn, ngang ngắn, rồi phẩy và mác dang ra như hai chân."
+   ],
+   "en": "to be"
+  }
+ ],
+ "w1-thu-3": [
+  {
+   "ch": "他",
+   "py": "tā",
+   "m": "anh ấy",
+   "k": "亻 (người) + 也: một người khác, “anh ấy”.",
+   "r": [
+    "Chữ có 5 nét.",
+    "Chữ trái – phải: 亻 trước (2 nét), 也 sau (3 nét).",
+    "也: ngang gập móc, sổ, rồi sổ cong móc dài ôm phía dưới."
+   ],
+   "en": "he"
+  },
+  {
+   "ch": "您",
+   "py": "nín",
+   "m": "ngài (lịch sự)",
+   "k": "你 đặt trên 心 (trái tim): gọi “bạn” bằng cả tấm lòng nên lịch sự hơn.",
+   "r": [
+    "Chữ có 11 nét.",
+    "Chữ trên – dưới: viết 你 trước (7 nét), 心 sau (4 nét).",
+    "心: chấm, cong móc, chấm, chấm."
+   ],
+   "en": "you (polite)"
+  },
+  {
+   "ch": "们",
+   "py": "men",
+   "m": "(chỉ số nhiều)",
+   "k": "亻 (người) + 门 (cửa): nhiều người trong một nhà, nên chỉ số nhiều.",
+   "r": [
+    "Chữ có 5 nét.",
+    "Chữ trái – phải: 亻 trước, 门 sau.",
+    "门: chấm, sổ, rồi ngang gập móc."
+   ],
+   "en": "(plural marker)"
+  },
+  {
+   "ch": "呢",
+   "py": "ne",
+   "m": "còn … thì sao?",
+   "k": "口 (miệng) + 尼: tiếng hỏi lại “còn bạn thì sao?”.",
+   "r": [
+    "Chữ có 8 nét.",
+    "Chữ trái – phải: 口 nhỏ bên trái (3 nét) trước.",
+    "尼: ngang gập, ngang, phẩy, rồi phẩy và sổ cong móc."
+   ],
+   "en": "and you? / what about…?"
+  }
+ ],
+ "w1-thu-4": [
+  {
+   "ch": "看",
+   "py": "kàn",
+   "m": "nhìn, xem",
+   "k": "Bàn tay đặt trên 目 (con mắt): đưa tay che mắt để nhìn xa.",
+   "r": [
+    "Chữ có 9 nét.",
+    "Chữ trên – dưới: phần tay (phẩy, ngang, ngang, phẩy dài) trước, 目 (5 nét) sau.",
+    "Nét phẩy dài của phần trên kéo sang trái, ôm lấy 目."
+   ],
+   "en": "to look, to watch"
+  },
+  {
+   "ch": "她",
+   "py": "tā",
+   "m": "cô ấy",
+   "k": "女 (nữ) + 也: một người phụ nữ khác, “cô ấy”.",
+   "r": [
+    "Chữ có 6 nét.",
+    "Chữ trái – phải: 女 (3 nét) trước, 也 (3 nét) sau.",
+    "So với 他: thay 亻 bằng 女."
+   ],
+   "en": "she"
+  },
+  {
+   "ch": "会",
+   "py": "huì",
+   "m": "biết (làm gì)",
+   "k": "Mái 人 che trên 云 (mây): mọi người tụ lại dưới một mái, cùng học để “biết”.",
+   "r": [
+    "Chữ có 6 nét.",
+    "Chữ trên – dưới: 人 (2 nét) trước.",
+    "云: hai nét ngang, rồi phẩy gập và chấm."
+   ],
+   "en": "can (know how to)"
+  },
+  {
+   "ch": "说",
+   "py": "shuō",
+   "m": "nói",
+   "k": "讠 (lời nói) + 兑: dùng lời để nói.",
+   "r": [
+    "Chữ có 9 nét.",
+    "Chữ trái – phải: 讠 (2 nét) trước.",
+    "兑: hai chấm trên, 口 ở giữa, rồi 儿 (phẩy, sổ cong móc)."
+   ],
+   "en": "to speak"
+  }
+ ],
+ "w1-thu-5": [
+  {
+   "ch": "一",
+   "py": "yī",
+   "m": "một",
+   "k": "Một que tính nằm ngang.",
+   "r": [
+    "Chữ có 1 nét.",
+    "Một nét ngang, viết từ trái sang phải."
+   ],
+   "en": "one"
+  },
+  {
+   "ch": "二",
+   "py": "èr",
+   "m": "hai",
+   "k": "Hai que tính xếp chồng.",
+   "r": [
+    "Chữ có 2 nét.",
+    "Viết từ trên xuống dưới.",
+    "Nét trên ngắn hơn nét dưới."
+   ],
+   "en": "two"
+  },
+  {
+   "ch": "三",
+   "py": "sān",
+   "m": "ba",
+   "k": "Ba que tính xếp chồng.",
+   "r": [
+    "Chữ có 3 nét.",
+    "Ba nét ngang, viết từ trên xuống.",
+    "Nét giữa ngắn nhất, nét dưới dài nhất."
+   ],
+   "en": "three"
+  },
+  {
+   "ch": "十",
+   "py": "shí",
+   "m": "mười",
+   "k": "Dấu cộng: đủ mười thì gộp lại thành một chục.",
+   "r": [
+    "Chữ có 2 nét.",
+    "Ngang trước, sổ sau.",
+    "Nét sổ cắt qua giữa nét ngang."
+   ],
+   "en": "ten"
+  }
+ ],
+ "w1-thu-6": [
+  {
+   "ch": "的",
+   "py": "de",
+   "m": "của",
+   "k": "白 (trắng) + 勺 (cái muôi): cái muôi này là “của” ai?",
+   "r": [
+    "Chữ có 8 nét.",
+    "Chữ trái – phải: 白 (5 nét) trước, 勺 (3 nét) sau.",
+    "勺: phẩy, ngang gập móc, rồi chấm bên trong."
+   ],
+   "en": "of ('s)"
+  },
+  {
+   "ch": "家",
+   "py": "jiā",
+   "m": "nhà",
+   "k": "Mái nhà 宀 che con lợn 豕: ngày xưa nhà nào cũng nuôi lợn.",
+   "r": [
+    "Chữ có 10 nét.",
+    "Chữ trên – dưới: 宀 (3 nét) trước.",
+    "豕 (7 nét): ngang, các nét phẩy và cong, nét mác viết cuối cùng."
+   ],
+   "en": "home, family"
+  },
+  {
+   "ch": "口",
+   "py": "kǒu",
+   "m": "miệng; người (đếm người trong nhà)",
+   "k": "Hình cái miệng mở vuông.",
+   "r": [
+    "Chữ có 3 nét.",
+    "Sổ trái trước, rồi ngang gập, cuối cùng nét ngang đóng đáy.",
+    "Chỉ có 3 nét, không phải 4."
+   ],
+   "en": "mouth; (people in a family)"
+  },
+  {
+   "ch": "和",
+   "py": "hé",
+   "m": "và",
+   "k": "禾 (cây lúa) + 口 (miệng): có lúa để ăn thì hoà thuận.",
+   "r": [
+    "Chữ có 8 nét.",
+    "Chữ trái – phải: 禾 (5 nét) trước, 口 sau.",
+    "禾 bên trái: nét mác cuối đổi thành nét chấm để nhường chỗ."
+   ],
+   "en": "and"
+  }
+ ],
+ "w2-thu-2": [
+  {
+   "ch": "吧",
+   "py": "ba",
+   "m": "nhé, đi (cuối câu)",
+   "k": "口 (miệng) + 巴: tiếng đệm cuối câu “nhé”.",
+   "r": [
+    "Chữ có 7 nét.",
+    "Chữ trái – phải: 口 trước.",
+    "巴: ngang gập, sổ, ngang, rồi sổ cong móc."
+   ],
+   "en": "particle: let's / OK?"
+  },
+  {
+   "ch": "点",
+   "py": "diǎn",
+   "m": "giờ; chấm",
+   "k": "占 ở trên, bốn chấm 灬 ở dưới: những đốm chấm.",
+   "r": [
+    "Chữ có 9 nét.",
+    "Chữ trên – dưới: 占 (5 nét) trước.",
+    "Bốn chấm dưới cùng viết từ trái sang phải."
+   ],
+   "en": "o'clock; dot"
+  },
+  {
+   "ch": "分",
+   "py": "fēn",
+   "m": "phút; chia",
+   "k": "八 (tách ra) trên 刀 (con dao): dùng dao chia ra.",
+   "r": [
+    "Chữ có 4 nét.",
+    "Chữ trên – dưới: 八 (phẩy, mác) trước.",
+    "刀: ngang gập móc, rồi phẩy."
+   ],
+   "en": "minute; to divide"
+  },
+  {
+   "ch": "半",
+   "py": "bàn",
+   "m": "rưỡi, một nửa",
+   "k": "Nét sổ chẻ đôi ở giữa: “một nửa”.",
+   "r": [
+    "Chữ có 5 nét.",
+    "Hai chấm trên trước, rồi hai nét ngang.",
+    "Nét sổ dài viết cuối cùng, cắt qua giữa."
+   ],
+   "en": "half"
+  }
+ ],
+ "w2-thu-3": [
+  {
+   "ch": "坐",
+   "py": "zuò",
+   "m": "ngồi",
+   "k": "Hai người 人 人 ngồi trên mặt đất 土.",
+   "r": [
+    "Chữ có 7 nét.",
+    "Viết 人 bên trái, rồi 人 bên phải.",
+    "Cuối cùng là 土: ngang, sổ, rồi ngang dài."
+   ],
+   "en": "to sit"
+  },
+  {
+   "ch": "吃",
+   "py": "chī",
+   "m": "ăn",
+   "k": "口 (miệng) + 乞: dùng miệng để ăn.",
+   "r": [
+    "Chữ có 6 nét.",
+    "Chữ trái – phải: 口 trước.",
+    "乞: phẩy, ngang, rồi ngang gập cong móc."
+   ],
+   "en": "to eat"
+  },
+  {
+   "ch": "想",
+   "py": "xiǎng",
+   "m": "muốn; nghĩ",
+   "k": "相 trên 心 (trái tim): nghĩ ở trong lòng.",
+   "r": [
+    "Chữ có 13 nét.",
+    "Chữ trên – dưới: 相 (9 nét) trước, 心 (4 nét) sau.",
+    "相 = 木 + 目, viết 木 trước."
+   ],
+   "en": "to want; to think"
+  },
+  {
+   "ch": "太",
+   "py": "tài",
+   "m": "quá",
+   "k": "大 (to) thêm một chấm: to hơn nữa, “quá”.",
+   "r": [
+    "Chữ có 4 nét.",
+    "Viết 大 trước: ngang, phẩy, mác.",
+    "Nét chấm viết cuối cùng."
+   ],
+   "en": "too (much)"
+  }
+ ],
+ "w2-thu-4": [
+  {
+   "ch": "在",
+   "py": "zài",
+   "m": "ở",
+   "k": "Một người đứng trên mặt đất 土: đang “ở” đó.",
+   "r": [
+    "Chữ có 6 nét.",
+    "Ngang, phẩy trước.",
+    "Rồi nét sổ, cuối cùng là 土."
+   ],
+   "en": "at, in"
+  },
+  {
+   "ch": "找",
+   "py": "zhǎo",
+   "m": "tìm",
+   "k": "扌 (tay) + 戈: đưa tay ra tìm.",
+   "r": [
+    "Chữ có 7 nét.",
+    "Chữ trái – phải: 扌 (3 nét) trước.",
+    "Trông giống 我 nhưng bên trái là 扌."
+   ],
+   "en": "to look for"
+  },
+  {
+   "ch": "书",
+   "py": "shū",
+   "m": "sách",
+   "k": "Hình cuốn sách đang mở.",
+   "r": [
+    "Chữ có 4 nét.",
+    "Ngang gập, rồi ngang gập móc trước.",
+    "Nét sổ dài, rồi nét chấm viết cuối cùng."
+   ],
+   "en": "book"
+  },
+  {
+   "ch": "本",
+   "py": "běn",
+   "m": "quyển (lượng từ)",
+   "k": "木 (cây) thêm nét ngang ở gốc: gốc rễ, cũng là lượng từ cho sách.",
+   "r": [
+    "Chữ có 5 nét.",
+    "Viết 木 trước: ngang, sổ, phẩy, mác.",
+    "Nét ngang ngắn ở gốc viết cuối cùng."
+   ],
+   "en": "(measure word for books)"
+  }
+ ],
+ "w2-thu-5": [
+  {
+   "ch": "第",
+   "py": "dì",
+   "m": "thứ (第一: thứ nhất)",
+   "k": "⺮ (tre) ở trên: thẻ tre xếp theo thứ tự.",
+   "r": [
+    "Chữ có 11 nét.",
+    "Chữ trên – dưới: ⺮ (6 nét) trước.",
+    "Phần dưới viết giống chữ 弟 nhưng không có hai chấm đầu."
+   ],
+   "en": "(ordinal) 第一: first"
+  },
+  {
+   "ch": "男",
+   "py": "nán",
+   "m": "nam",
+   "k": "田 (ruộng) + 力 (sức): người dùng sức làm ruộng.",
+   "r": [
+    "Chữ có 7 nét.",
+    "Chữ trên – dưới: 田 (5 nét) trước.",
+    "力: ngang gập móc, rồi phẩy."
+   ],
+   "en": "male"
+  },
+  {
+   "ch": "女",
+   "py": "nǚ",
+   "m": "nữ",
+   "k": "Hình người phụ nữ ngồi khoanh tay.",
+   "r": [
+    "Chữ có 3 nét.",
+    "Phẩy gập trước, rồi phẩy, cuối cùng là ngang.",
+    "Chỉ có 3 nét."
+   ],
+   "en": "female"
+  },
+  {
+   "ch": "读",
+   "py": "dú",
+   "m": "đọc",
+   "k": "讠 (lời nói) + 卖: đọc thành lời.",
+   "r": [
+    "Chữ có 10 nét.",
+    "Chữ trái – phải: 讠 trước.",
+    "卖: 十, ngang gập, hai chấm, rồi 大."
+   ],
+   "en": "to read"
+  }
+ ],
+ "w2-thu-6": [
+  {
+   "ch": "到",
+   "py": "dào",
+   "m": "đến",
+   "k": "至 (tới nơi) + 刂: đã “đến” nơi.",
+   "r": [
+    "Chữ có 8 nét.",
+    "Chữ trái – phải: 至 (6 nét) trước.",
+    "刂: sổ ngắn, rồi sổ móc dài."
+   ],
+   "en": "to arrive"
+  },
+  {
+   "ch": "月",
+   "py": "yuè",
+   "m": "tháng; mặt trăng",
+   "k": "Hình mặt trăng khuyết.",
+   "r": [
+    "Chữ có 4 nét.",
+    "Phẩy, rồi ngang gập móc trước.",
+    "Hai nét ngang bên trong viết sau."
+   ],
+   "en": "month; moon"
+  },
+  {
+   "ch": "号",
+   "py": "hào",
+   "m": "ngày (trong tháng); số",
+   "k": "口 (miệng) trên 丂: gọi to số thứ tự.",
+   "r": [
+    "Chữ có 5 nét.",
+    "Chữ trên – dưới: 口 trước.",
+    "丂: ngang, rồi ngang gập gập móc."
+   ],
+   "en": "date (day of month); number"
+  },
+  {
+   "ch": "开",
+   "py": "kāi",
+   "m": "mở",
+   "k": "Hai cánh cửa được mở ra.",
+   "r": [
+    "Chữ có 4 nét.",
+    "Hai nét ngang trước.",
+    "Rồi phẩy, cuối cùng là sổ."
+   ],
+   "en": "to open"
+  }
+ ]
 }

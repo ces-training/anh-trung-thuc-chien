@@ -64,6 +64,28 @@ for wk in weeks:
             if g["ch"] not in known: E(f"{did}: chữ viết {g['ch']} chưa học")
             if not g.get("k") or len(g.get("r", [])) < 2: E(f"{did}: chữ viết {g['ch']} thiếu cách nhớ/quy tắc")
             if strokes(g["ch"]) is None: E(f"{did}: thiếu dữ liệu nét cho {g['ch']}")
+        # 8. nghĩa song ngữ: mọi chỗ có nghĩa tiếng Việt phải có nghĩa tiếng Anh (hiện tiếng Anh trước)
+        for c in d["cards"]:
+            if not c.get("mEn"): E(f"{did}: thẻ “{c['w']}” thiếu mEn (nghĩa tiếng Anh)")
+            if c.get("exm") and not c.get("exEn"): E(f"{did}: câu ví dụ của “{c['w']}” thiếu exEn")
+        for l in d["scene"]["lines"]:
+            if l.get("vi") and not l.get("en"): E(f"{did}: câu cảnh “{l['t']}” thiếu en")
+        for t in d["dialog"]["turns"]:
+            if not t.get("en") or not t.get("men"): E(f"{did}: lượt hội thoại “{t['ai']}” thiếu en/men")
+        for p in d["patterns"]:
+            for x in p.get("ex", []):
+                if len(x) < 3 or not x[2]: E(f"{did}: câu mẫu “{x[0]}” thiếu nghĩa tiếng Anh (phần tử thứ 3)")
+        if r and not r.get("en"): E(f"{did}: bài đọc thiếu en")
+        VIOPT = lambda o: not H(o) and len(o.strip()) > 3 and re.search(r"[a-zA-ZÀ-ỹ]{2,}", o) and not re.fullmatch(r"[\d:.\s]+", o)
+        for sec in ("vocab", "listen", "hsk", "grammar") + (("reading",) if r else ()):
+            items = d[sec]["qs"] if sec == "reading" else d.get(sec, [])
+            for it in items:
+                if it.get("k") == "type" or not it.get("opts"): continue
+                if any(VIOPT(o) for o in it["opts"]) and not any(it.get("optsEn") or []): E(f"{did}/{sec}: câu “{it['q'][:30]}” có đáp án tiếng Việt nhưng thiếu optsEn")
+        for p in ps:
+            if not p.get("aen") or not p.get("ben"): E(f"{did}: cặp đếm nét {p['a']}/{p['b']} thiếu aen/ben")
+        for g in gs:
+            if not g.get("en"): E(f"{did}: chữ viết {g['ch']} thiếu en")
 print(f"Kiểm tra {len(weeks)} tuần: {len(errs)} lỗi, {len(warns)} lưu ý")
 for e in errs: print("LỖI  ", e)
 for w in warns: print("LƯU Ý", w)

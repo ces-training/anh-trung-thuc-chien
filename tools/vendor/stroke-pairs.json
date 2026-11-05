@@ -1,382 +1,462 @@
 {
-"w1-thu-2": [
-{
-"a": "你",
-"apy": "nǐ",
-"am": "bạn",
-"b": "您",
-"bpy": "nín",
-"bm": "ngài (lịch sự)",
-"note": "您 = 你 + 心 ở dưới: lịch sự hơn, nhiều nét hơn."
-},
-{
-"a": "不",
-"apy": "bù",
-"am": "không",
-"b": "下",
-"bpy": "xià",
-"bm": "dưới",
-"note": "不 có thêm một nét phẩy ở giữa; 下 chỉ có ngang, sổ và một chấm."
-},
-{
-"a": "吗",
-"apy": "ma",
-"am": "trợ từ hỏi “… không?”",
-"b": "马",
-"bpy": "mǎ",
-"bm": "ngựa",
-"note": "吗 = 口 + 马: thêm bộ 口 (miệng) vì là trợ từ khi nói."
-},
-{
-"a": "爸",
-"apy": "bà",
-"am": "bố",
-"b": "巴",
-"bpy": "bā",
-"bm": "(thường gặp trong 吧, 爸)",
-"note": "爸 = 父 (cha) ở trên + 巴 ở dưới."
-}
-],
-"w1-thu-3": [
-{
-"a": "他",
-"apy": "tā",
-"am": "anh ấy",
-"b": "她",
-"bpy": "tā",
-"bm": "cô ấy",
-"note": "他 có bộ 亻 (người, 2 nét), 她 có bộ 女 (nữ, 3 nét)."
-},
-{
-"a": "们",
-"apy": "men",
-"am": "(chỉ số nhiều)",
-"b": "门",
-"bpy": "mén",
-"bm": "cửa",
-"note": "们 = 亻 + 门: thêm bộ người ở bên trái."
-},
-{
-"a": "呢",
-"apy": "ne",
-"am": "còn … thì sao?",
-"b": "尼",
-"bpy": "ní",
-"bm": "(gặp trong tên nước, tên người)",
-"note": "呢 = 口 + 尼: thêm bộ 口."
-},
-{
-"a": "认",
-"apy": "rèn",
-"am": "trong 认识 rènshi: quen biết",
-"b": "人",
-"bpy": "rén",
-"bm": "người",
-"note": "认 = 讠 (lời nói) + 人."
-}
-],
-"w1-thu-4": [
-{
-"a": "大",
-"apy": "dà",
-"am": "to; trong 大家 dàjiā: mọi người",
-"b": "太",
-"bpy": "tài",
-"bm": "quá",
-"note": "太 = 大 + một chấm ở dưới."
-},
-{
-"a": "会",
-"apy": "huì",
-"am": "biết (làm gì)",
-"b": "云",
-"bpy": "yún",
-"bm": "mây",
-"note": "会 = mái 人 ở trên + 云 ở dưới."
-},
-{
-"a": "哪",
-"apy": "nǎ",
-"am": "nào",
-"b": "那",
-"bpy": "nà",
-"bm": "kia, đó",
-"note": "哪 = 口 + 那: hỏi “nào” thì thêm bộ 口."
-},
-{
-"a": "朋",
-"apy": "péng",
-"am": "trong 朋友 péngyou: bạn bè",
-"b": "月",
-"bpy": "yuè",
-"bm": "tháng; mặt trăng",
-"note": "朋 = hai chữ 月 đứng cạnh nhau."
-}
-],
-"w1-thu-5": [
-{
-"a": "十",
-"apy": "shí",
-"am": "mười",
-"b": "千",
-"bpy": "qiān",
-"bm": "nghìn",
-"note": "千 = 十 + một nét phẩy ở trên."
-},
-{
-"a": "小",
-"apy": "xiǎo",
-"am": "nhỏ",
-"b": "少",
-"bpy": "shǎo",
-"bm": "ít",
-"note": "少 = 小 + một nét phẩy dài ở dưới."
-},
-{
-"a": "了",
-"apy": "le",
-"am": "trợ từ “rồi”",
-"b": "子",
-"bpy": "zǐ",
-"bm": "con",
-"note": "子 có thêm một nét ngang cắt qua; 了 không có."
-},
-{
-"a": "今",
-"apy": "jīn",
-"am": "trong 今年 jīnnián: năm nay",
-"b": "令",
-"bpy": "lìng",
-"bm": "lệnh",
-"note": "Phần dưới: 今 là ngang + gập; 令 là gập + chấm."
-}
-],
-"w1-thu-6": [
-{
-"a": "的",
-"apy": "de",
-"am": "của",
-"b": "白",
-"bpy": "bái",
-"bm": "trắng",
-"note": "的 = 白 + 勺 ở bên phải."
-},
-{
-"a": "口",
-"apy": "kǒu",
-"am": "miệng; lượng từ đếm người trong nhà",
-"b": "回",
-"bpy": "huí",
-"bm": "về",
-"note": "回 = một 口 lớn bọc một 口 nhỏ."
-},
-{
-"a": "和",
-"apy": "hé",
-"am": "và",
-"b": "禾",
-"bpy": "hé",
-"bm": "cây lúa",
-"note": "和 = 禾 + 口 ở bên phải."
-},
-{
-"a": "姐",
-"apy": "jiě",
-"am": "trong 姐姐 jiějie: chị gái",
-"b": "且",
-"bpy": "qiě",
-"bm": "hơn nữa",
-"note": "姐 = 女 + 且."
-}
-],
-"w2-thu-2": [
-{
-"a": "点",
-"apy": "diǎn",
-"am": "giờ",
-"b": "占",
-"bpy": "zhàn",
-"bm": "chiếm",
-"note": "点 = 占 + bốn chấm ở dưới."
-},
-{
-"a": "半",
-"apy": "bàn",
-"am": "rưỡi, một nửa",
-"b": "羊",
-"bpy": "yáng",
-"bm": "con dê",
-"note": "羊 có 3 nét ngang, 半 chỉ có 2."
-},
-{
-"a": "早",
-"apy": "zǎo",
-"am": "trong 早上 zǎoshang: buổi sáng",
-"b": "草",
-"bpy": "cǎo",
-"bm": "cỏ",
-"note": "草 = 艹 (bộ thảo) + 早."
-},
-{
-"a": "去",
-"apy": "qù",
-"am": "đi",
-"b": "云",
-"bpy": "yún",
-"bm": "mây",
-"note": "去 = 土 + 厶; 云 = 二 + 厶."
-}
-],
-"w2-thu-3": [
-{
-"a": "坐",
-"apy": "zuò",
-"am": "ngồi",
-"b": "座",
-"bpy": "zuò",
-"bm": "chỗ ngồi",
-"note": "座 = 广 bọc ngoài 坐."
-},
-{
-"a": "想",
-"apy": "xiǎng",
-"am": "muốn; nghĩ",
-"b": "相",
-"bpy": "xiāng",
-"bm": "lẫn nhau",
-"note": "想 = 相 + 心 ở dưới."
-},
-{
-"a": "太",
-"apy": "tài",
-"am": "quá",
-"b": "大",
-"bpy": "dà",
-"bm": "to",
-"note": "太 = 大 + một chấm."
-},
-{
-"a": "水",
-"apy": "shuǐ",
-"am": "nước",
-"b": "永",
-"bpy": "yǒng",
-"bm": "mãi mãi",
-"note": "永 = 水 thêm một chấm trên đầu."
-}
-],
-"w2-thu-4": [
-{
-"a": "在",
-"apy": "zài",
-"am": "ở",
-"b": "左",
-"bpy": "zuǒ",
-"bm": "bên trái",
-"note": "Phần dưới: 左 là 工, 在 là 亻+ 土 nên nhiều hơn một nét."
-},
-{
-"a": "本",
-"apy": "běn",
-"am": "quyển",
-"b": "木",
-"bpy": "mù",
-"bm": "cây, gỗ",
-"note": "本 = 木 + một nét ngang ngắn ở dưới."
-},
-{
-"a": "上",
-"apy": "shàng",
-"am": "trên",
-"b": "止",
-"bpy": "zhǐ",
-"bm": "dừng",
-"note": "止 có thêm một nét sổ ở bên trái."
-},
-{
-"a": "里",
-"apy": "lǐ",
-"am": "trong",
-"b": "理",
-"bpy": "lǐ",
-"bm": "lý, lẽ",
-"note": "理 = 王 (bộ ngọc) + 里."
-}
-],
-"w2-thu-5": [
-{
-"a": "男",
-"apy": "nán",
-"am": "nam",
-"b": "田",
-"bpy": "tián",
-"bm": "ruộng",
-"note": "男 = 田 + 力 ở dưới."
-},
-{
-"a": "读",
-"apy": "dú",
-"am": "đọc",
-"b": "卖",
-"bpy": "mài",
-"bm": "bán",
-"note": "读 = 讠 + 卖."
-},
-{
-"a": "第",
-"apy": "dì",
-"am": "thứ (第一: thứ nhất)",
-"b": "弟",
-"bpy": "dì",
-"bm": "em trai",
-"note": "第 có bộ trúc ⺮ ở trên; 弟 không có."
-},
-{
-"a": "听",
-"apy": "tīng",
-"am": "nghe",
-"b": "斤",
-"bpy": "jīn",
-"bm": "cân (đơn vị)",
-"note": "听 = 口 + 斤."
-}
-],
-"w2-thu-6": [
-{
-"a": "到",
-"apy": "dào",
-"am": "đến",
-"b": "倒",
-"bpy": "dào",
-"bm": "đổ, ngã",
-"note": "倒 = 亻 + 到."
-},
-{
-"a": "月",
-"apy": "yuè",
-"am": "tháng",
-"b": "用",
-"bpy": "yòng",
-"bm": "dùng",
-"note": "用 có thêm một nét sổ ở giữa."
-},
-{
-"a": "机",
-"apy": "jī",
-"am": "trong 飞机 fēijī: máy bay",
-"b": "几",
-"bpy": "jǐ",
-"bm": "mấy",
-"note": "机 = 木 + 几."
-},
-{
-"a": "晚",
-"apy": "wǎn",
-"am": "trong 晚上 wǎnshang: buổi tối",
-"b": "免",
-"bpy": "miǎn",
-"bm": "miễn",
-"note": "晚 = 日 + 免."
-}
-]
+ "w1-thu-2": [
+  {
+   "a": "你",
+   "apy": "nǐ",
+   "am": "bạn",
+   "b": "您",
+   "bpy": "nín",
+   "bm": "ngài (lịch sự)",
+   "note": "您 = 你 + 心 ở dưới: lịch sự hơn, nhiều nét hơn.",
+   "aen": "you",
+   "ben": "you (polite)"
+  },
+  {
+   "a": "不",
+   "apy": "bù",
+   "am": "không",
+   "b": "下",
+   "bpy": "xià",
+   "bm": "dưới",
+   "note": "不 có thêm một nét phẩy ở giữa; 下 chỉ có ngang, sổ và một chấm.",
+   "aen": "not",
+   "ben": "below, down"
+  },
+  {
+   "a": "吗",
+   "apy": "ma",
+   "am": "trợ từ hỏi “… không?”",
+   "b": "马",
+   "bpy": "mǎ",
+   "bm": "ngựa",
+   "note": "吗 = 口 + 马: thêm bộ 口 (miệng) vì là trợ từ khi nói.",
+   "aen": "question particle (yes/no)",
+   "ben": "horse"
+  },
+  {
+   "a": "爸",
+   "apy": "bà",
+   "am": "bố",
+   "b": "巴",
+   "bpy": "bā",
+   "bm": "(thường gặp trong 吧, 爸)",
+   "note": "爸 = 父 (cha) ở trên + 巴 ở dưới.",
+   "aen": "dad",
+   "ben": "(part of 吧, 爸)"
+  }
+ ],
+ "w1-thu-3": [
+  {
+   "a": "他",
+   "apy": "tā",
+   "am": "anh ấy",
+   "b": "她",
+   "bpy": "tā",
+   "bm": "cô ấy",
+   "note": "他 có bộ 亻 (người, 2 nét), 她 có bộ 女 (nữ, 3 nét).",
+   "aen": "he",
+   "ben": "she"
+  },
+  {
+   "a": "们",
+   "apy": "men",
+   "am": "(chỉ số nhiều)",
+   "b": "门",
+   "bpy": "mén",
+   "bm": "cửa",
+   "note": "们 = 亻 + 门: thêm bộ người ở bên trái.",
+   "aen": "(plural marker)",
+   "ben": "door"
+  },
+  {
+   "a": "呢",
+   "apy": "ne",
+   "am": "còn … thì sao?",
+   "b": "尼",
+   "bpy": "ní",
+   "bm": "(gặp trong tên nước, tên người)",
+   "note": "呢 = 口 + 尼: thêm bộ 口.",
+   "aen": "and you? / what about…?",
+   "ben": "(used in names)"
+  },
+  {
+   "a": "认",
+   "apy": "rèn",
+   "am": "trong 认识 rènshi: quen biết",
+   "b": "人",
+   "bpy": "rén",
+   "bm": "người",
+   "note": "认 = 讠 (lời nói) + 人.",
+   "aen": "in 认识 rènshi: to know (a person)",
+   "ben": "person"
+  }
+ ],
+ "w1-thu-4": [
+  {
+   "a": "大",
+   "apy": "dà",
+   "am": "to; trong 大家 dàjiā: mọi người",
+   "b": "太",
+   "bpy": "tài",
+   "bm": "quá",
+   "note": "太 = 大 + một chấm ở dưới.",
+   "aen": "big",
+   "ben": "too (much)"
+  },
+  {
+   "a": "会",
+   "apy": "huì",
+   "am": "biết (làm gì)",
+   "b": "云",
+   "bpy": "yún",
+   "bm": "mây",
+   "note": "会 = mái 人 ở trên + 云 ở dưới.",
+   "aen": "can (know how to)",
+   "ben": "cloud"
+  },
+  {
+   "a": "哪",
+   "apy": "nǎ",
+   "am": "nào",
+   "b": "那",
+   "bpy": "nà",
+   "bm": "kia, đó",
+   "note": "哪 = 口 + 那: hỏi “nào” thì thêm bộ 口.",
+   "aen": "which",
+   "ben": "that"
+  },
+  {
+   "a": "朋",
+   "apy": "péng",
+   "am": "trong 朋友 péngyou: bạn bè",
+   "b": "月",
+   "bpy": "yuè",
+   "bm": "tháng; mặt trăng",
+   "note": "朋 = hai chữ 月 đứng cạnh nhau.",
+   "aen": "in 朋友 péngyou: friend",
+   "ben": "month; moon"
+  }
+ ],
+ "w1-thu-5": [
+  {
+   "a": "十",
+   "apy": "shí",
+   "am": "mười",
+   "b": "千",
+   "bpy": "qiān",
+   "bm": "nghìn",
+   "note": "千 = 十 + một nét phẩy ở trên.",
+   "aen": "ten",
+   "ben": "thousand"
+  },
+  {
+   "a": "小",
+   "apy": "xiǎo",
+   "am": "nhỏ",
+   "b": "少",
+   "bpy": "shǎo",
+   "bm": "ít",
+   "note": "少 = 小 + một nét phẩy dài ở dưới.",
+   "aen": "small",
+   "ben": "few, little"
+  },
+  {
+   "a": "了",
+   "apy": "le",
+   "am": "trợ từ “rồi”",
+   "b": "子",
+   "bpy": "zǐ",
+   "bm": "con",
+   "note": "子 có thêm một nét ngang cắt qua; 了 không có.",
+   "aen": "particle: done / already",
+   "ben": "child"
+  },
+  {
+   "a": "今",
+   "apy": "jīn",
+   "am": "trong 今年 jīnnián: năm nay",
+   "b": "令",
+   "bpy": "lìng",
+   "bm": "lệnh",
+   "note": "Phần dưới: 今 là ngang + gập; 令 là gập + chấm.",
+   "aen": "in 今年 jīnnián: this year",
+   "ben": "order, command"
+  }
+ ],
+ "w1-thu-6": [
+  {
+   "a": "的",
+   "apy": "de",
+   "am": "của",
+   "b": "白",
+   "bpy": "bái",
+   "bm": "trắng",
+   "note": "的 = 白 + 勺 ở bên phải.",
+   "aen": "of ('s)",
+   "ben": "white"
+  },
+  {
+   "a": "口",
+   "apy": "kǒu",
+   "am": "miệng; lượng từ đếm người trong nhà",
+   "b": "回",
+   "bpy": "huí",
+   "bm": "về",
+   "note": "回 = một 口 lớn bọc một 口 nhỏ.",
+   "aen": "mouth; (people in a family)",
+   "ben": "to return"
+  },
+  {
+   "a": "和",
+   "apy": "hé",
+   "am": "và",
+   "b": "禾",
+   "bpy": "hé",
+   "bm": "cây lúa",
+   "note": "和 = 禾 + 口 ở bên phải.",
+   "aen": "and",
+   "ben": "grain plant"
+  },
+  {
+   "a": "姐",
+   "apy": "jiě",
+   "am": "trong 姐姐 jiějie: chị gái",
+   "b": "且",
+   "bpy": "qiě",
+   "bm": "hơn nữa",
+   "note": "姐 = 女 + 且.",
+   "aen": "in 姐姐 jiějie: older sister",
+   "ben": "moreover"
+  }
+ ],
+ "w2-thu-2": [
+  {
+   "a": "点",
+   "apy": "diǎn",
+   "am": "giờ",
+   "b": "占",
+   "bpy": "zhàn",
+   "bm": "chiếm",
+   "note": "点 = 占 + bốn chấm ở dưới.",
+   "aen": "o'clock; dot",
+   "ben": "to occupy"
+  },
+  {
+   "a": "半",
+   "apy": "bàn",
+   "am": "rưỡi, một nửa",
+   "b": "羊",
+   "bpy": "yáng",
+   "bm": "con dê",
+   "note": "羊 có 3 nét ngang, 半 chỉ có 2.",
+   "aen": "half",
+   "ben": "goat, sheep"
+  },
+  {
+   "a": "早",
+   "apy": "zǎo",
+   "am": "trong 早上 zǎoshang: buổi sáng",
+   "b": "草",
+   "bpy": "cǎo",
+   "bm": "cỏ",
+   "note": "草 = 艹 (bộ thảo) + 早.",
+   "aen": "in 早上 zǎoshang: morning",
+   "ben": "grass"
+  },
+  {
+   "a": "去",
+   "apy": "qù",
+   "am": "đi",
+   "b": "云",
+   "bpy": "yún",
+   "bm": "mây",
+   "note": "去 = 土 + 厶; 云 = 二 + 厶.",
+   "aen": "to go",
+   "ben": "cloud"
+  }
+ ],
+ "w2-thu-3": [
+  {
+   "a": "坐",
+   "apy": "zuò",
+   "am": "ngồi",
+   "b": "座",
+   "bpy": "zuò",
+   "bm": "chỗ ngồi",
+   "note": "座 = 广 bọc ngoài 坐.",
+   "aen": "to sit",
+   "ben": "seat"
+  },
+  {
+   "a": "想",
+   "apy": "xiǎng",
+   "am": "muốn; nghĩ",
+   "b": "相",
+   "bpy": "xiāng",
+   "bm": "lẫn nhau",
+   "note": "想 = 相 + 心 ở dưới.",
+   "aen": "to want; to think",
+   "ben": "each other"
+  },
+  {
+   "a": "太",
+   "apy": "tài",
+   "am": "quá",
+   "b": "大",
+   "bpy": "dà",
+   "bm": "to",
+   "note": "太 = 大 + một chấm.",
+   "aen": "too (much)",
+   "ben": "big"
+  },
+  {
+   "a": "水",
+   "apy": "shuǐ",
+   "am": "nước",
+   "b": "永",
+   "bpy": "yǒng",
+   "bm": "mãi mãi",
+   "note": "永 = 水 thêm một chấm trên đầu.",
+   "aen": "water",
+   "ben": "forever"
+  }
+ ],
+ "w2-thu-4": [
+  {
+   "a": "在",
+   "apy": "zài",
+   "am": "ở",
+   "b": "左",
+   "bpy": "zuǒ",
+   "bm": "bên trái",
+   "note": "Phần dưới: 左 là 工, 在 là 亻+ 土 nên nhiều hơn một nét.",
+   "aen": "at, in",
+   "ben": "left"
+  },
+  {
+   "a": "本",
+   "apy": "běn",
+   "am": "quyển",
+   "b": "木",
+   "bpy": "mù",
+   "bm": "cây, gỗ",
+   "note": "本 = 木 + một nét ngang ngắn ở dưới.",
+   "aen": "(measure word for books)",
+   "ben": "tree, wood"
+  },
+  {
+   "a": "上",
+   "apy": "shàng",
+   "am": "trên",
+   "b": "止",
+   "bpy": "zhǐ",
+   "bm": "dừng",
+   "note": "止 có thêm một nét sổ ở bên trái.",
+   "aen": "above, up",
+   "ben": "to stop"
+  },
+  {
+   "a": "里",
+   "apy": "lǐ",
+   "am": "trong",
+   "b": "理",
+   "bpy": "lǐ",
+   "bm": "lý, lẽ",
+   "note": "理 = 王 (bộ ngọc) + 里.",
+   "aen": "inside",
+   "ben": "reason, logic"
+  }
+ ],
+ "w2-thu-5": [
+  {
+   "a": "男",
+   "apy": "nán",
+   "am": "nam",
+   "b": "田",
+   "bpy": "tián",
+   "bm": "ruộng",
+   "note": "男 = 田 + 力 ở dưới.",
+   "aen": "male",
+   "ben": "field"
+  },
+  {
+   "a": "读",
+   "apy": "dú",
+   "am": "đọc",
+   "b": "卖",
+   "bpy": "mài",
+   "bm": "bán",
+   "note": "读 = 讠 + 卖.",
+   "aen": "to read",
+   "ben": "to sell"
+  },
+  {
+   "a": "第",
+   "apy": "dì",
+   "am": "thứ (第一: thứ nhất)",
+   "b": "弟",
+   "bpy": "dì",
+   "bm": "em trai",
+   "note": "第 có bộ trúc ⺮ ở trên; 弟 không có.",
+   "aen": "(ordinal) 第一: first",
+   "ben": "younger brother"
+  },
+  {
+   "a": "听",
+   "apy": "tīng",
+   "am": "nghe",
+   "b": "斤",
+   "bpy": "jīn",
+   "bm": "cân (đơn vị)",
+   "note": "听 = 口 + 斤.",
+   "aen": "to listen",
+   "ben": "jin (half a kilo)"
+  }
+ ],
+ "w2-thu-6": [
+  {
+   "a": "到",
+   "apy": "dào",
+   "am": "đến",
+   "b": "倒",
+   "bpy": "dào",
+   "bm": "đổ, ngã",
+   "note": "倒 = 亻 + 到.",
+   "aen": "to arrive",
+   "ben": "to fall over, to pour"
+  },
+  {
+   "a": "月",
+   "apy": "yuè",
+   "am": "tháng",
+   "b": "用",
+   "bpy": "yòng",
+   "bm": "dùng",
+   "note": "用 có thêm một nét sổ ở giữa.",
+   "aen": "month; moon",
+   "ben": "to use"
+  },
+  {
+   "a": "机",
+   "apy": "jī",
+   "am": "trong 飞机 fēijī: máy bay",
+   "b": "几",
+   "bpy": "jǐ",
+   "bm": "mấy",
+   "note": "机 = 木 + 几.",
+   "aen": "in 飞机 fēijī: plane",
+   "ben": "how many"
+  },
+  {
+   "a": "晚",
+   "apy": "wǎn",
+   "am": "trong 晚上 wǎnshang: buổi tối",
+   "b": "免",
+   "bpy": "miǎn",
+   "bm": "miễn",
+   "note": "晚 = 日 + 免.",
+   "aen": "in 晚上 wǎnshang: evening",
+   "ben": "to exempt"
+  }
+ ]
 }
