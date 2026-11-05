@@ -3,19 +3,21 @@
    - Làm từng bài của mọi ngày (hành trình chính + tuần học thử), 2 ngôn ngữ, 2 mức.
    - Câu đầu mỗi bài cố ý trả lời SAI để chắc luồng "hiện đáp án 2 giây → làm lại câu tương tự" không kẹt.
    - Báo lỗi: bài không về được màn "Xong bài!", lỗi JavaScript, câu không có tranh.
+   - --funnel: thử luồng học thử → học viên (khoá tuần 2, ưu đãi 89k/179k, chọn gói, mở khoá) với Apps Script giả.
    - --shots: chụp màn hình máy tính (1280) và điện thoại (390) vào tools/shots/, kiểm tra không có thanh cuộn ngang.
    Cần Playwright (npm i playwright) và Chrome. */
 const http = require("http"), fs = require("fs"), path = require("path");
 const { chromium } = require("playwright");
 const ROOT = path.resolve(__dirname, "..");
 const arg = k => { const a = process.argv.find(x => x.startsWith("--" + k)); return a ? (a.split("=")[1] ?? true) : null; };
-const WORKERS = +(arg("workers") || 6), ONLY = arg("only"), ONLY_LANG = arg("lang"), SHOTS = !!arg("shots");
+const WORKERS = +(arg("workers") || 6), ONLY = arg("only"), ONLY_LANG = arg("lang"), SHOTS = !!arg("shots"), FUNNEL = !!arg("funnel");
 
 const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".json": "application/json", ".webp": "image/webp", ".png": "image/png", ".jpg": "image/jpeg", ".svg": "image/svg+xml", ".mp3": "audio/mpeg", ".mp4": "video/mp4" };
 function serve() {
   return new Promise(res => {
     const srv = http.createServer((req, rsp) => {
       let p = decodeURIComponent(req.url.split("?")[0]); if (p.endsWith("/")) p += "index.html";
+      if (p === "/tuan-1/test-funnel.html") { rsp.writeHead(200, { "content-type": TYPES[".html"] }); return rsp.end(fs.readFileSync(path.join(ROOT, "tuan-1/index.html"), "utf8").replace('"sheetUrl":""', '"sheetUrl":"https://script.google.com/macros/s/TEST/exec"')); }
       const f = path.join(ROOT, p); if (!f.startsWith(ROOT) || !fs.existsSync(f)) { rsp.writeHead(404); return rsp.end(); }
       rsp.writeHead(200, { "content-type": TYPES[path.extname(f)] || "application/octet-stream" }); fs.createReadStream(f).pipe(rsp);
     }).listen(0, "127.0.0.1", () => res(srv));
@@ -171,13 +173,69 @@ async function shots(browser, base) {
   console.log(report.join("\n")); console.log("Ảnh chụp: tools/shots/");
 }
 
+/* luồng học thử → học viên, với Apps Script giả */
+async function funnel(browser, base) {
+  const ok = [], bad = [], check = (c, m) => (c ? ok : bad).push(m);
+  const ctx = await browser.newContext({ viewport: { width: 390, height: 844 } }); await ctx.addInitScript(INIT);
+  const posts = []; let paid = false;
+  await ctx.route("https://script.google.com/**", async route => {
+    const r = route.request();
+    if (r.method() === "POST") { try { posts.push(JSON.parse(r.postData())); } catch (e) {} return route.fulfill({ status: 200, body: "{\"ok\":true}" }); }
+    const u = new URL(r.url()), code = u.searchParams.get("code");
+    const o = posts.filter(p => p.type === "order");
+    return route.fulfill({ status: 200, contentType: "application/json", headers: { "access-control-allow-origin": "*" }, body: JSON.stringify({ ok: true, id: u.searchParams.get("id"),
+      active: paid, plan: paid ? "Gói Online · 1 tháng" : "", until: paid ? Date.now() + 30 * 864e5 : 0,
+      orders: o.map(p => ({ code: p.code, type: p.kind, item: p.item, amount: p.amount, status: paid ? "Đã thu" : "Chờ chuyển khoản" })) }) });
+  });
+  const page = await ctx.newPage(); const errs = []; page.on("pageerror", e => errs.push(e.message));
+  await page.goto(base + "tuan-1/test-funnel.html"); await page.waitForTimeout(800);
+  const go = async h => { await page.evaluate(x => { location.hash = x; }, h); await page.waitForTimeout(500); };
+  const txt = () => page.evaluate(() => document.querySelector("#main").innerText);
+  check(posts.some(p => p.type === "seen" && /^HV/.test(p.id)), "gửi 'seen' kèm mã học viên");
+  await go("#w2-thu-2"); check(/dành cho học viên/.test(await txt()), "tuần 2 bị khoá khi chưa có gói");
+  await go("#w1-thu-2"); check(!/dành cho học viên/.test(await txt()), "tuần 1 vẫn mở");
+  await go("#a2-w1-thu-3"); check(!/dành cho học viên/.test(await txt()), "tuần học thử A2 vẫn mở");
+  await go("#trang-chu"); check(/Ưu đãi tuần học thử/.test(await txt()), "trang chủ có thẻ ưu đãi");
+  await go("#uu-dai");
+  check(/89\.000đ/.test(await txt()) && /179\.000đ/.test(await txt()) && /358\.000đ/.test(await txt()), "trang ưu đãi đúng giá 89k, 179k, gốc 358k");
+  await page.click('.offer[data-off="class"] button[type=submit]'); await page.waitForTimeout(200);
+  check(/Zalo/.test(await page.evaluate(() => document.querySelector('.offer[data-off="class"] .err').textContent)) && !posts.some(p => p.type === "order"), "thiếu số Zalo thì báo lỗi, không gửi đơn");
+  await page.fill('.offer[data-off="class"] [name=nm]', "Nguyễn Thử"); await page.fill('.offer[data-off="class"] [name=ct]', "0912345678");
+  await page.click('.offer[data-off="class"] [data-v]:nth-child(2)'); await page.click('.offer[data-off="class"] button[type=submit]'); await page.waitForTimeout(400);
+  const ord = posts.find(p => p.type === "order" && p.kind === "lop-nhom");
+  check(ord && ord.amount === 89000 && /20:30/.test(ord.when) && ord.name === "Nguyễn Thử", "đơn lớp nhóm gửi đúng giá, ca, tên");
+  check(await page.$('.offer[data-off="class"] .paybox') !== null, "hiện khung chuyển khoản có mã đơn");
+  await page.click('.offer[data-off="class"] .claim'); await page.waitForTimeout(300);
+  check(posts.some(p => p.type === "paid_claim" && p.code === (ord || {}).code), "bấm 'Tôi đã chuyển khoản' báo về Sheet");
+  await page.fill('.offer[data-off="live"] [name=nm]', "Nguyễn Thử"); await page.click('.offer[data-off="live"] button[type=submit]'); await page.waitForTimeout(400);
+  check(posts.some(p => p.type === "order" && p.kind === "weekend-live" && p.amount === 179000), "đơn Weekend Live 179k (tên, Zalo tự điền lại)");
+  await go("#chon-goi"); await page.click('.pk[data-k="online"]'); await page.waitForTimeout(200); await page.click(".planform button[type=submit]"); await page.waitForTimeout(400);
+  check(posts.some(p => p.type === "order" && p.kind === "goi" && p.amount === 249000), "đơn gói Online tháng 249k");
+  paid = true; await page.click(".paybox .chk"); await page.waitForTimeout(800);
+  await go("#w2-thu-2"); check(!/dành cho học viên/.test(await txt()), "admin đánh 'Đã thu' → tuần 2 tự mở");
+  /* mời đúng lúc: xong Thứ 2 tuần 1 → mời lớp nhóm (dùng học viên mới) */
+  const p2 = await (await browser.newContext({ viewport: { width: 1100, height: 900 } })).newPage(); await p2.context().addInitScript(INIT); await p2.context().route("https://script.google.com/**", r => r.fulfill({ status: 200, body: "{}" }));
+  await p2.goto(base + "tuan-1/test-funnel.html"); await p2.waitForTimeout(600);
+  await p2.evaluate(() => { const d = WDAYS[0]; d.exFor("en").forEach((c, i) => { if (i) S.done["en:" + d.id + ":" + c] = { p: 5 }; }); S.lang = "en"; save(); location.hash = "#" + d.id + "-bai-1"; });
+  await p2.waitForTimeout(500); await p2.evaluate(HOOK);
+  for (let i = 0; i < 60 && !(await p2.$(".endcard")); i++) { await p2.evaluate(STEP); await p2.waitForTimeout(30); }
+  check(/lớp nhóm với giáo viên/i.test(await p2.evaluate(() => (document.querySelector(".endcard") || {}).innerText || "")), "xong Thứ 2 tuần 1 → mời lớp nhóm 89k");
+  check(!errs.length, "không lỗi JavaScript" + (errs.length ? ": " + errs.join(" | ") : ""));
+  await go("#uu-dai"); await page.screenshot({ path: path.join(ROOT, "tools", "shots", "390-uu-dai.png"), fullPage: true });
+  await go("#w1-thu-3"); check(!(await page.$(".stagehd")), "ngày tiếng Anh của hành trình chính không có tiêu đề bước");
+  await go("#chon-goi"); await page.screenshot({ path: path.join(ROOT, "tools", "shots", "390-chon-goi.png"), fullPage: true });
+  ok.forEach(m => console.log("✓ " + m)); bad.forEach(m => console.log("✗ " + m));
+  console.log(bad.length ? bad.length + " lỗi" : "0 lỗi"); return bad.length;
+}
+
 (async () => {
   const srv = await serve(), base = `http://127.0.0.1:${srv.address().port}/`;
   const browser = await chromium.launch({ executablePath: fs.existsSync("/usr/bin/google-chrome") ? "/usr/bin/google-chrome" : undefined, args: ["--autoplay-policy=no-user-gesture-required"] });
   if (SHOTS) { await shots(browser, base); await browser.close(); srv.close(); return; }
+  if (FUNNEL) { fs.mkdirSync(path.join(ROOT, "tools", "shots"), { recursive: true }); const n = await funnel(browser, base); await browser.close(); srv.close(); process.exit(n ? 1 : 0); }
   /* danh sách bài lấy từ chính trang */
   const ctx0 = await browser.newContext(); await ctx0.addInitScript(INIT); const p0 = await ctx0.newPage();
-  await p0.goto(base + "tuan-1/index.html"); await p0.waitForTimeout(500);
+  await p0.goto(base + "tuan-1/index.html?gv=1"); await p0.waitForTimeout(500);
   const days = await p0.evaluate(() => WDAYS.map(d => ({ id: d.id, demo: null, en: d.exFor("en"), zh: d.exFor("zh") })).concat(DEMO_DAYS.map(d => ({ id: d.id, demo: d.demo, [d.lang]: d.ex }))));
   await ctx0.close();
   const jobs = [];
@@ -189,8 +247,8 @@ async function shots(browser, base) {
   const results = []; let ji = 0;
   await Promise.all(Array.from({ length: WORKERS }, async () => {
     const ctx = await browser.newContext({ viewport: { width: 1100, height: 900 } }); await ctx.addInitScript(INIT);
-    const page = await ctx.newPage(); await page.goto(base + "tuan-1/index.html"); await page.waitForTimeout(400);
-    while (ji < jobs.length) { const j = jobs[ji++]; try { results.push(await runEx(page, j)); } catch (e) { results.push({ ...j, res: "crash", errs: [String(e)] }); await page.goto(base + "tuan-1/index.html"); } }
+    const page = await ctx.newPage(); await page.goto(base + "tuan-1/index.html?gv=1"); await page.waitForTimeout(400);
+    while (ji < jobs.length) { const j = jobs[ji++]; try { results.push(await runEx(page, j)); } catch (e) { results.push({ ...j, res: "crash", errs: [String(e)] }); await page.goto(base + "tuan-1/index.html?gv=1"); } }
     await ctx.close();
   }));
   await browser.close(); srv.close();

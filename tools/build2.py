@@ -64,6 +64,8 @@ def main():
     if missing: sys.exit(f"DỪNG: thiếu dữ liệu nét chữ trong tools/vendor/hzdata/: {''.join(missing)}")
 
     gloss, zhpy = load(os.path.join(V, "zh-gloss.json")), load(os.path.join(V, "zhpy.json"))
+    site = {k: v for k, v in load(os.path.join(T, "site.json")).items() if not k.startswith("_")}
+    funnel = open(os.path.join(T, "build", "funnel.js"), encoding="utf-8").read()
 
     # 3. ghép vào khuôn
     s = open(os.path.join(T, "build", "page-template.html"), encoding="utf-8").read()
@@ -74,15 +76,37 @@ def main():
         "/*@WRITE_GUIDE@*/": json.dumps(guide, ensure_ascii=False, indent=1),
         "/*@ZHGLOSSDATA@*/": json.dumps(gloss, ensure_ascii=False),
         "/*@ZHPYDATA@*/": J(zhpy),
+        "/*@SITE@*/": J(site),
+        "/*@FUNNEL@*/": funnel,
     }
     for k, v in fill.items():
         if s.count(k) != 1: sys.exit(f"DỪNG: khuôn trang thiếu chỗ điền {k.strip()}")
         s = s.replace(k, v)
     if "/*@" in s: sys.exit("DỪNG: còn chỗ điền chưa có dữ liệu: " + re.search(r"/\*@\w+@\*/", s).group(0))
     open(OUT, "w", encoding="utf-8").write(s)
+    sync_landing(site)
     nd = sum(len(main_w["zh"][w]["days"]) for w in weeks)
     print(f"Đã dựng tuan-1/index.html ({len(s.encode('utf-8')) // 1024} KB): tuần {weeks} ({nd} ngày × 2 ngôn ngữ), "
           f"học thử {', '.join(f'{k} ({len(W['days'])} ngày)' for k, W in demo.items())}, {len(hz)} chữ có dữ liệu nét.")
+
+
+def sync_landing(site):
+    """Trang chủ (index.html) dùng chung cấu hình: địa chỉ nhận form, Zalo, ngân hàng, giá."""
+    p = os.path.join(R, "index.html"); h = open(p, encoding="utf-8").read(); h0 = h
+    q = lambda v: json.dumps(v, ensure_ascii=False)
+    h = re.sub(r'formEndpoint: "[^"]*"', "formEndpoint: " + q(site.get("sheetUrl", "")), h, count=1)
+    h = re.sub(r'(\n  zalo: )"[^"]*"', lambda m: m.group(1) + q(site.get("zalo", "")), h, count=1)
+    h = re.sub(r'(\n  hotline: )"[^"]*"', lambda m: m.group(1) + q(site.get("hotline", "")), h, count=1)
+    b = site.get("bank", {})
+    h = re.sub(r'bank: \{ id: "[^"]*", account: "[^"]*", name: "[^"]*" \}', f'bank: {{ id: {q(b.get("id", ""))}, account: {q(b.get("account", ""))}, name: {q(b.get("name", ""))} }}', h, count=1)
+    P = site["prices"]
+    for k in ("online", "member", "vip"):
+        h = re.sub(r"(\b" + k + r": \{ month: )\d+,(\s+)term: \d+", lambda m: f"{m.group(1)}{P[k]['month']},{m.group(2)}term: {P[k]['term']}", h, count=1)
+    h = re.sub(r"(\n    ticket: )\d+", lambda m: m.group(1) + str(P["ticket"]), h, count=1)
+    tr = site.get("trial", {})
+    note = f' · học thử lần đầu {tr["live"]:,}đ'.replace(",", ".") if tr.get("live") else ""
+    h = re.sub(r'(<span data-price="ticket">[^<]*</span>/buổi, gồm đồ uống)(<span class="trialnote">[^<]*</span>)?', lambda m: m.group(1) + (f'<span class="trialnote">{note}</span>' if note else ""), h, count=1)
+    if h != h0: open(p, "w", encoding="utf-8").write(h); print("Đã cập nhật trang chủ theo tools/site.json.")
 
 
 if __name__ == "__main__":

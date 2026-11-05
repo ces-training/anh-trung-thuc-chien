@@ -703,6 +703,16 @@ img.photo.ava{border-radius:50%;object-fit:cover;aspect-ratio:1}
 .ewchk input{width:22px;height:22px;flex:none;margin-top:1px}
 .ewhints{margin:8px 0 0;padding-left:20px}
 .ewhints li{margin:4px 0}
+/* học thử → học viên */
+.offer h2{margin-bottom:6px}.offprice{font-size:20px;margin:8px 0}.offprice s{color:var(--muted);font-size:16px}
+.offform,.planform{display:flex;flex-direction:column;gap:10px;margin-top:10px}.offform .fl,.planform .fl{display:flex;flex-direction:column;gap:6px;font-weight:700;border:0;padding:0;margin:0}
+.seg.wrapseg{flex-wrap:wrap}.seg.wrapseg.col{flex-direction:column}.seg.big button{padding:10px 12px;font-size:16.5px;text-align:left}
+.err{color:var(--bad);min-height:1em;margin:0}
+.paybox{border:2px dashed var(--line);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;margin-top:10px}.paybox.paid{border-style:solid;border-color:var(--good);background:var(--good-bg)}
+.payamt{font-size:24px;font-weight:800;margin:0}.payamt small{font-size:15px;font-weight:600;color:var(--muted)}.paybox .qr{width:220px;max-width:100%;border-radius:12px;background:#fff}.paybox .code{letter-spacing:.05em}
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-top:12px}
+.plan{border:2px solid var(--line);border-radius:18px;padding:14px;display:flex;flex-direction:column;gap:6px;align-items:flex-start}.plan.best{border-color:var(--sun)}.plan.on{outline:3px solid var(--acc)}.plan h3{margin:0;font-size:20px}.plan .facts{margin:4px 0 8px}
+.offmini{display:flex;flex-direction:column;gap:6px;align-items:center;background:var(--sun-soft);border-radius:16px;padding:14px;max-width:460px}.offmini span{font-size:16px;color:var(--muted)}
 @media (max-width:560px){.trk{flex-wrap:wrap}.trk>div{flex:1 1 100%;min-width:0}}
 </style>
 
@@ -2881,7 +2891,7 @@ function toneless(py) { return String(py || "").normalize("NFD").replace(/[̀-ͯ
 function courseEx(ex, dayId, code) {
   const L = S.lang, d = cday(L, dayId); if (!d) return ex;
   ex.mins = COURSE_MINS[code] || ex.mins; ex.rule = (L === "zh" && COURSE_RULES_ZH[code]) || (L === "en" && COURSE_RULES_EN[code]) || COURSE_RULES[code];
-  if (L === "zh" || /^[a-z]\d-/.test(dayId)) ex.stage = ZH_STAGE[code];
+  if (L === "zh" || /^[a-z]\d-w\d+-/.test(dayId)) ex.stage = ZH_STAGE[code];
   if (d.scene && d.scene.img && !ex.bg) ex.bg = d.scene.img;
   const mc = arr => (arr || []).map(o => o.k === "type"
     ? { k: "type", q: o.q, model: o.model, accept: accRe(L, o.accept.concat(L === "zh" ? [toneless(o.model)] : []), false), why: o.why, hint: o.hint }
@@ -5933,7 +5943,8 @@ function gate() {
 })();
 /* ============ BÀI KIỂM TRA ĐẦU VÀO + LỘ TRÌNH ============ */
 /* Dán địa chỉ Web App của Apps Script vào đây để kết quả tự về Google Sheet (xem docs/placement-apps-script.gs) */
-const SHEET_URL = "";
+const SITE = {"sheetUrl":"","zalo":"","hotline":"","bank":{"id":"","account":"","name":""},"prices":{"online":{"month":249000,"term":790000},"member":{"month":1490000,"term":4990000},"vip":{"month":3500000,"term":11900000},"ticket":358000},"trial":{"class":89000,"live":179000,"liveFull":358000},"classSlots":["Tối 19:00–20:00","Tối 20:30–21:30","Trưa 12:00–13:00"]};
+const SHEET_URL = SITE.sheetUrl || "";
 const TRACKS = {
   zh: [
     { id: "zh-a", name: "Mới bắt đầu", lv: "HSK0–1", goal: "HSK1 · 300 từ", status: "open", start: "w1-thu-2", note: "Đã có tuần 1–2" },
@@ -6034,7 +6045,7 @@ function form(body) {
   body.innerHTML = `<section class="card2"><h2>1 · Thông tin của bạn</h2>
     <div class="pform2">
       <label class="fl">Họ tên<input class="inp" id="pname" autocomplete="name" value="${esc(P.name || pr.name || "")}"></label>
-      <label class="fl">Số điện thoại hoặc email (để CES tư vấn)<input class="inp" id="pcontact" autocomplete="email" value="${esc(P.contact || "")}"></label>
+      <label class="fl">Số Zalo hoặc điện thoại (để CES nhắn tư vấn)<input class="inp" id="pcontact" autocomplete="email" value="${esc(P.contact || "")}"></label>
       <fieldset class="fl"><legend>Bạn muốn học</legend><div class="seg big" id="plang"><button type="button" data-v="zh">Tiếng Trung</button><button type="button" data-v="en">Tiếng Anh</button></div></fieldset>
       <fieldset class="fl"><legend>Mục tiêu chính</legend><div class="seg big wrap" id="pgoal"><button type="button" data-v="Đi làm">Đi làm</button><button type="button" data-v="Du học">Du học</button><button type="button" data-v="Thi chứng chỉ">Thi chứng chỉ</button><button type="button" data-v="Giao tiếp, du lịch">Giao tiếp, du lịch</button></div></fieldset>
       <label class="fl">Chứng chỉ muốn đạt (nếu có)<input class="inp" id="pcert" placeholder="Ví dụ: HSK3, TOEIC 650, IELTS 6.0" value="${esc(P.cert || "")}"></label>
@@ -6138,6 +6149,218 @@ ROOMS["kiem-tra-dau-vao"] = "place";
     if (r.v === "home") { const h = $("#main"); const first = h && h.firstElementChild; const P = S.place; if (first) first.insertAdjacentHTML("afterend", P && P.result ? `<section class="card2 pcta"><div><h2>Trình độ của bạn: ${esc(P.result.levelName)}</h2><p>Lộ trình phù hợp: ${esc(trackOf(P.lang, P.result.track).name)} (${esc(trackOf(P.lang, P.result.track).lv)}).</p></div><a class="btn ghost" href="#kiem-tra-dau-vao">Xem kết quả</a></section>` : `<section class="card2 pcta"><div><h2>Bạn mới đến?</h2><p>Làm bài kiểm tra đầu vào 10–15 phút để được xếp đúng trình độ và học thử ngay.</p></div><a class="btn primary" href="#kiem-tra-dau-vao">${ICON.play} Kiểm tra đầu vào</a></section>`); }
   };
 })();
+
+/* ============ HỌC THỬ → HỌC VIÊN: mã học viên, ưu đãi học thử, chọn gói, mở khoá từ tuần 2 ============ */
+/* Cấu hình (Apps Script, ngân hàng, Zalo, giá) lấy từ tools/site.json khi dựng trang. */
+const fmtVND = n => Number(n || 0).toLocaleString("vi-VN").replace(/,/g, ".") + "đ";
+const PLANS = [
+  { k: "online", name: "Online", sub: "Tự học với AI, theo nhịp của bạn", month: SITE.prices.online.month, term: SITE.prices.online.term, has: ["Mở toàn bộ bài trên web từ tuần 2", "Đóng vai với AI, chấm phát âm và thanh điệu", "1 buổi Weekend Live mỗi tháng"] },
+  { k: "member", name: "Thành viên", sub: "Trọn vòng học, sửa, nói thật mỗi tuần", month: SITE.prices.member.month, term: SITE.prices.member.term, best: true, has: ["Mọi thứ trong gói Online", "Lớp nhóm online 6–8 người mỗi tuần", "4 buổi Weekend Live mỗi tháng, đủ 3 trạm", "Phiếu nhận xét cá nhân sau mỗi buổi"] },
+  { k: "vip", name: "VIP", sub: "Có người kèm cho mục tiêu lớn", month: SITE.prices.vip.month, term: SITE.prices.vip.term, has: ["Mọi thứ trong gói Thành viên", "2 buổi kèm 1-1 mỗi tháng", "Luyện phỏng vấn xin việc, học bổng, visa theo hồ sơ thật"] }
+];
+const LIVE_STATIONS = ["Trạm 1 · Tiếng Anh: phỏng vấn xin việc", "Trạm 2 · Tiếng Trung: đàm phán với nhà cung cấp", "Trạm 3 · Ba bên: làm cầu nối"];
+const OFFER = {
+  class: { kind: "lop-nhom", title: "Lớp nhóm online với giáo viên", price: SITE.trial.class, full: 0,
+    lead: "Tối thứ 4, 6–8 người. Giáo viên sửa đúng những lỗi bạn hay sai trên web, rồi cả lớp tập kịch bản cho cuối tuần." },
+  live: { kind: "weekend-live", title: "Weekend Live", price: SITE.trial.live, full: SITE.trial.liveFull,
+    lead: "Một buổi chiều nói với người thật: giao lưu với cộng đồng, người nước ngoài, xoay vòng 3 trạm và nhận phiếu nhận xét riêng. Có đồ uống." }
+};
+/* mã học viên: tạo một lần, đi kèm mọi dữ liệu gửi về Sheet */
+function meId() { S.me = S.me || {}; if (!S.me.id) { S.me.id = "HV" + Date.now().toString(36).slice(-4).toUpperCase() + Math.random().toString(36).slice(2, 5).toUpperCase(); save(); } return S.me.id; }
+const newCode = () => "AT" + Date.now().toString(36).slice(-5).toUpperCase() + Math.floor(Math.random() * 36).toString(36).toUpperCase();
+const _sendSheet = sendSheet;
+sendSheet = function (row) {
+  S.me = S.me || {};
+  if (row.name) S.me.name = row.name; if (row.contact) S.me.contact = row.contact;
+  return _sendSheet(Object.assign({ id: meId(), name: S.me.name || (S.profile && S.profile.name) || "", contact: S.me.contact || "", time: new Date().toISOString() }, row));
+};
+const track = (type, data) => sendSheet(Object.assign({ type }, data || {}));
+/* ngày học kế tiếp theo thứ trong tuần (3 = thứ 4, 6 = thứ 7) */
+function nextDow(dow) { const d = new Date(); d.setHours(12); const add = (dow - d.getDay() + 7) % 7; d.setDate(d.getDate() + add); return d; }
+const ddmm = d => String(d.getDate()).padStart(2, "0") + "/" + String(d.getMonth() + 1).padStart(2, "0");
+
+/* trạng thái gói và đơn: hỏi Apps Script, lưu trên máy */
+function planActive() { return !!(S.plan && S.plan.until > Date.now()); }
+function orderOf(kind) { return (S.orders || []).filter(o => o.kind === kind && o.status !== "Huỷ").slice(-1)[0] || null; }
+async function refreshStatus(code) {
+  if (!SITE.sheetUrl) return { ok: false, offline: true };
+  try {
+    const r = await fetch(SITE.sheetUrl + "?a=status&id=" + encodeURIComponent(meId()) + (code ? "&code=" + encodeURIComponent(code) : ""), { cache: "no-store" });
+    const j = await r.json(); if (!j.ok) return j;
+    if (j.active) S.plan = { name: j.plan, until: j.until };
+    S.orders = S.orders || [];
+    (j.orders || []).forEach(o => { const m = S.orders.find(x => x.code === o.code); if (m) m.status = o.status; else S.orders.push({ code: o.code, kind: o.type !== "dang-ky" ? o.type : /^Gói/.test(o.item) ? "goi" : /Weekend/.test(o.item) ? "weekend-live" : "khac", item: o.item, amount: o.amount, status: o.status }); });
+    S.statusAt = Date.now(); save(); return j;
+  } catch (e) { return { ok: false }; }
+}
+/* khoá từ tuần 2 của hành trình chính; tuần học thử và tuần 1 luôn mở */
+function locked(d) { return !TEACHER && d && !d.demo && (d.week || 1) >= 2 && !planActive(); }
+
+/* ---------- thẻ ưu đãi, biểu mẫu đặt chỗ, khung chuyển khoản ---------- */
+function payBox(o) {
+  const bank = SITE.bank || {}, hasBank = bank.id && bank.account;
+  const qr = hasBank ? `https://img.vietqr.io/image/${encodeURIComponent(bank.id)}-${encodeURIComponent(bank.account)}-compact2.png?amount=${o.amount}&addInfo=${encodeURIComponent(o.code)}&accountName=${encodeURIComponent(bank.name || "")}` : "";
+  const st = o.status || "Chờ chuyển khoản", paid = st === "Đã thu";
+  return `<div class="paybox${paid ? " paid" : ""}" data-code="${esc(o.code)}">
+    <p class="eyebrow">${paid ? "Đã xác nhận" : "Thanh toán"}</p>
+    <p><b>${esc(o.item)}</b>${o.when ? ` · ${esc(o.when)}` : ""}</p>
+    <p class="payamt">${fmtVND(o.amount)} <span class="pill ${paid ? "ok" : "go"}">${paid ? ICON.check + " Đã thu" : esc(st)}</span></p>
+    ${paid ? `<p class="small">CES đã nhận tiền. ${o.kind === "goi" ? "Gói học đã mở, bạn vào học tuần 2 được rồi." : "Hẹn gặp bạn ở buổi học! CES sẽ nhắn Zalo lịch và link."}</p>` : `
+    ${qr ? `<img class="qr" src="${qr}" alt="Mã QR chuyển khoản" width="220" height="220" loading="lazy">` : ""}
+    <p class="small">Mã đơn: <b class="code">${esc(o.code)}</b> · Nội dung chuyển khoản: <b>${esc(o.code)}</b>${hasBank ? ` · ${esc(bank.name || "")}` : ""}</p>
+    ${hasBank ? "" : `<p class="small muted">CES sẽ nhắn số tài khoản qua Zalo${SITE.zalo ? " " + esc(SITE.zalo) : ""} trong giờ làm việc.</p>`}
+    <div class="row"><button type="button" class="btn primary small claim"${st === "Đã báo chuyển" ? " disabled" : ""}>${st === "Đã báo chuyển" ? "Đã báo CES, chờ xác nhận" : "Tôi đã chuyển khoản"}</button><button type="button" class="btn ghost small chk">Kiểm tra trạng thái</button></div>`}
+  </div>`;
+}
+function bindPay(root, rerender) {
+  root.querySelectorAll(".paybox").forEach(b => {
+    const code = b.dataset.code, o = (S.orders || []).find(x => x.code === code); if (!o) return;
+    const cl = $(".claim", b); if (cl) cl.onclick = () => { o.status = "Đã báo chuyển"; save(); track("paid_claim", { code, amount: o.amount }); toast("Đã báo CES. Bạn sẽ nhận xác nhận qua Zalo."); rerender(); };
+    const ck = $(".chk", b); if (ck) ck.onclick = async () => { ck.disabled = true; ck.textContent = "Đang kiểm tra…"; const j = await refreshStatus(); if (j.offline) toast("Trang chưa kết nối hệ thống của CES. CES sẽ xác nhận qua Zalo."); rerender(); };
+  });
+}
+function contactFields() {
+  const me = S.me || {}, P = S.place || {};
+  return `<label class="fl">Họ tên<input class="inp" name="nm" autocomplete="name" value="${esc(me.name || P.name || (S.profile && S.profile.name !== "bạn" ? S.profile.name : "") || "")}"></label>
+    <label class="fl">Số Zalo hoặc điện thoại<input class="inp" name="ct" inputmode="tel" autocomplete="tel" value="${esc(me.contact || P.contact || "")}"></label>`;
+}
+function readContact(f) {
+  const nm = f.querySelector('[name="nm"]').value.trim(), ct = f.querySelector('[name="ct"]').value.trim();
+  if (!nm) return { err: "Bạn nhập họ tên giúp CES nhé." };
+  if (ct.replace(/\D/g, "").length < 9 && !/@/.test(ct)) return { err: "Số Zalo hoặc điện thoại cần ít nhất 9 chữ số." };
+  S.me = S.me || {}; S.me.name = nm; S.me.contact = ct; return { nm, ct };
+}
+function placeOrder(kind, item, amount, when) {
+  const o = { code: newCode(), kind, item, amount, when: when || "", status: "Chờ chuyển khoản", at: Date.now() };
+  S.orders = (S.orders || []).concat([o]); save();
+  track("order", { code: o.code, kind, item, amount, when: o.when });
+  return o;
+}
+function offerSection(key) {
+  const f = OFFER[key], o = orderOf(f.kind);
+  const date = key === "class" ? nextDow(3) : nextDow(6);
+  const head = `<p class="eyebrow">Ưu đãi học thử</p><h2>${esc(f.title)} · ${key === "class" ? "tối thứ 4" : "thứ 7"} ${ddmm(date)}</h2><p>${esc(f.lead)}</p>
+    <p class="offprice"><b>${fmtVND(f.price)}</b>${f.full ? ` <s>${fmtVND(f.full)}</s> <span class="pill star">Giảm ${Math.round((1 - f.price / f.full) * 100)}%</span>` : ` <span class="muted small">giá học thử, chỉ một lần</span>`}</p>`;
+  if (o) return `<section class="card2 offer" data-off="${key}">${head}${payBox(o)}</section>`;
+  const pick = key === "class"
+    ? `<fieldset class="fl"><legend>Chọn ca</legend><div class="seg big wrapseg">${SITE.classSlots.map((s, i) => `<button type="button" data-v="${esc(s)}" aria-pressed="${i === 0}">${esc(s)}</button>`).join("")}</div></fieldset>
+       <fieldset class="fl"><legend>Lớp</legend><div class="seg big"><button type="button" data-l="Tiếng Anh" aria-pressed="${S.lang === "en"}">Tiếng Anh</button><button type="button" data-l="Tiếng Trung" aria-pressed="${S.lang === "zh"}">Tiếng Trung</button></div></fieldset>`
+    : `<fieldset class="fl"><legend>Trạm bạn muốn bắt đầu (cả buổi bạn xoay vòng đủ 3 trạm)</legend><div class="seg big wrapseg col">${LIVE_STATIONS.map((s, i) => `<button type="button" data-v="${esc(s)}" aria-pressed="${(S.lang === "zh" ? 1 : 0) === i}">${esc(s)}</button>`).join("")}</div></fieldset>`;
+  return `<section class="card2 offer" data-off="${key}">${head}<form class="offform" novalidate>${pick}${contactFields()}<p class="err small" role="alert"></p>
+    <button type="submit" class="btn primary huge">${key === "class" ? "Đặt chỗ lớp nhóm" : "Giữ vé Weekend Live"} · ${fmtVND(f.price)}</button></form></section>`;
+}
+function bindOffers(root, rerender) {
+  root.querySelectorAll(".offer").forEach(sec => {
+    const key = sec.dataset.off, f = OFFER[key], form = $(".offform", sec);
+    if (!form) return;
+    form.querySelectorAll(".seg").forEach(g => g.querySelectorAll("button").forEach(b => b.onclick = () => g.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b))));
+    form.onsubmit = e => {
+      e.preventDefault();
+      const c = readContact(form), err = $(".err", form); if (c.err) { err.textContent = c.err; return; }
+      const v = (form.querySelector("[data-v][aria-pressed=true]") || {}).dataset, lg = (form.querySelector("[data-l][aria-pressed=true]") || {}).dataset;
+      const date = ddmm(key === "class" ? nextDow(3) : nextDow(6));
+      const item = key === "class" ? `Lớp nhóm ${(lg && lg.l) || ""} học thử` : `Weekend Live học thử · ${(v && v.v) || ""}`;
+      placeOrder(f.kind, item, f.price, key === "class" ? `Thứ 4 ${date}, ${(v && v.v) || ""}` : `Thứ 7 ${date}`);
+      toast("Đã giữ chỗ cho bạn. Chuyển khoản để CES xác nhận.");
+      rerender();
+    };
+  });
+  bindPay(root, rerender);
+}
+
+/* ---------- trang Ưu đãi học thử ---------- */
+function viewOffers(main) {
+  const draw = () => {
+    main.innerHTML = "";
+    main.appendChild(el(`<div class="roomv">
+      ${roomHead("room-live", "Học thử", "Ưu đãi cho tuần học thử", "Một tuần trên web miễn phí. Thêm một buổi lớp nhóm với giáo viên và một buổi Weekend Live để thử trọn vòng học: web dạy, lớp nhóm sửa, cuối tuần nói thật.")}
+      ${offerSection("class")}${offerSection("live")}
+      <section class="card2"><h2>Học tiếp từ tuần 2</h2><p>Hết tuần học thử, chọn một gói để mở tiếp các tuần sau.</p><a class="btn primary" href="#chon-goi">Xem các gói học</a></section></div>`));
+    bindOffers(main, draw); applyPhotos(main);
+  };
+  draw();
+}
+
+/* ---------- trang Chọn gói ---------- */
+function viewPlans(main) {
+  let bill = S.bill || "month", pick = null;
+  const draw = () => {
+    const mine = orderOf("goi");
+    main.innerHTML = "";
+    main.appendChild(el(`<div class="roomv">
+      ${roomHead("room-career", "Học tiếp", planActive() ? "Gói học của bạn đang mở" : "Chọn gói để học tiếp từ tuần 2", planActive() ? `${esc(S.plan.name || "Gói học")} còn hạn đến ${ddmm(new Date(S.plan.until))}.` : "Tuần 1 và các tuần học thử luôn mở. Từ tuần 2, bài học mở cho học viên có gói.")}
+      ${mine && mine.status !== "Đã thu" ? `<section class="card2">${payBox(mine)}</section>` : ""}
+      <section class="card2"><div class="seg" role="group" aria-label="Kỳ thanh toán"><button type="button" data-b="month" aria-pressed="${bill === "month"}">Theo tháng</button><button type="button" data-b="term" aria-pressed="${bill === "term"}">Trọn 16 tuần · tiết kiệm hơn</button></div>
+        <div class="plans">${PLANS.map(p => `<div class="plan${p.best ? " best" : ""}${pick === p.k ? " on" : ""}">${p.best ? `<span class="pill star">Được chọn nhiều nhất</span>` : ""}<h3>${esc(p.name)}</h3><p class="small muted">${esc(p.sub)}</p>
+          <p class="payamt">${fmtVND(bill === "term" ? p.term : p.month)}<small> / ${bill === "term" ? "16 tuần" : "tháng"}</small></p>
+          <ul class="facts small">${p.has.map(h => `<li>${esc(h)}</li>`).join("")}</ul><button type="button" class="btn ${p.best ? "primary" : "ghost"} pk" data-k="${p.k}">Chọn gói ${esc(p.name)}</button></div>`).join("")}</div>
+        ${pick ? `<form class="planform" novalidate><p><b>Gói ${esc(PLANS.find(p => p.k === pick).name)} · ${bill === "term" ? "16 tuần" : "1 tháng"}</b></p>${contactFields()}<p class="err small" role="alert"></p><button type="submit" class="btn primary huge">Đăng ký gói · ${fmtVND(bill === "term" ? PLANS.find(p => p.k === pick).term : PLANS.find(p => p.k === pick).month)}</button></form>` : ""}</section>
+      <section class="card2"><h2>Đã có mã đăng ký?</h2><p class="small">Mã ở trang chủ, hoặc mã đơn bạn đặt trên máy khác.</p>
+        <form class="codeform row" novalidate><input class="inp" name="code" placeholder="Ví dụ: AT1K2M3P" autocapitalize="characters" aria-label="Mã đăng ký"><button type="submit" class="btn primary">Kiểm tra mã</button></form><p class="codemsg small" role="status"></p></section></div>`));
+    main.querySelectorAll("[data-b]").forEach(b => b.onclick = () => { bill = b.dataset.b; S.bill = bill; save(); draw(); });
+    main.querySelectorAll(".pk").forEach(b => b.onclick = () => { pick = b.dataset.k; draw(); const f = $(".planform", main); if (f) f.scrollIntoView({ behavior: "smooth", block: "center" }); });
+    const pf = $(".planform", main);
+    if (pf) pf.onsubmit = e => { e.preventDefault(); const c = readContact(pf); if (c.err) { $(".err", pf).textContent = c.err; return; }
+      const p = PLANS.find(x => x.k === pick); placeOrder("goi", `Gói ${p.name} · ${bill === "term" ? "16 tuần" : "1 tháng"}`, bill === "term" ? p.term : p.month); pick = null; draw(); scrollTo(0, 0); };
+    $(".codeform", main).onsubmit = async e => {
+      e.preventDefault(); const code = e.target.code.value.trim().toUpperCase(), msg = $(".codemsg", main); if (!code) { msg.textContent = "Bạn nhập mã giúp CES nhé."; return; }
+      msg.textContent = "Đang kiểm tra…"; const j = await refreshStatus(code);
+      if (j.offline) msg.textContent = "Trang chưa kết nối hệ thống của CES. Nhắn Zalo CES kèm mã để được mở.";
+      else if (!j.ok) msg.textContent = j.error || "Chưa kiểm tra được, bạn thử lại sau ít phút.";
+      else if (j.active) { toast("Gói học đã mở!"); draw(); }
+      else msg.textContent = "Đã thấy mã, nhưng CES chưa xác nhận thanh toán. Bạn sẽ được mở ngay khi CES xác nhận.";
+    };
+    bindPay(main, draw); applyPhotos(main);
+  };
+  draw();
+}
+
+/* ---------- ngày bị khoá ---------- */
+function viewLocked(main, d) {
+  main.appendChild(el(`<div class="roomv">
+    ${roomHead("journey-" + S.lang, d.wlabel || d.label, `Tuần ${d.week} dành cho học viên`, "Bạn đã học xong tuần học thử. Chọn một gói để mở tiếp tuần " + d.week + " và các tuần sau. Bài tuần 1 vẫn mở để bạn ôn lại.")}
+    <section class="card2"><div class="row"><a class="btn primary huge" href="#chon-goi">${ICON.play} Chọn gói học tiếp</a><a class="btn ghost" href="#uu-dai">Ưu đãi lớp nhóm và Weekend Live</a></div>
+    <p class="small muted">Đã đăng ký và chuyển khoản? Vào Chọn gói, bấm Kiểm tra trạng thái hoặc nhập mã đăng ký.</p></section></div>`));
+  applyPhotos(main);
+  if (SITE.sheetUrl && (!S.statusAt || Date.now() - S.statusAt > 60000)) refreshStatus().then(() => { if (!locked(d)) render(); });
+}
+const _viewDay = viewDay; viewDay = function (main, d) { if (locked(d)) return viewLocked(main, d); return _viewDay(main, d); };
+const _viewPlayer = viewPlayer; viewPlayer = function (main, d, k) { if (locked(d)) return viewLocked(main, d); return _viewPlayer(main, d, k); };
+
+/* ---------- sau mỗi ngày học: gửi tiến độ và mời đúng lúc ---------- */
+const _finishEx = finishEx;
+finishEx = function (ex, d, k, sum, body) {
+  const before = !!S.daily[S.lang + d.id];
+  _finishEx(ex, d, k, sum, body);
+  if (before || !S.daily[S.lang + d.id]) return;
+  const doneN = Object.keys(S.done).length;
+  track("day", { day: (d.wlabel || d.label) + (S.lang === "zh" ? " · Trung" : " · Anh"), doneN });
+  const trial = d.demo || (d.week || 1) === 1, card = $(".endcard", body); if (!trial || !card || planActive()) return;
+  let html = "";
+  if (d.idx === 0 && !orderOf("lop-nhom")) html = `<div class="offmini"><b>Tối thứ 4 có lớp nhóm với giáo viên</b><span>Giáo viên sửa đúng lỗi bạn hay sai. Giá học thử ${fmtVND(SITE.trial.class)}.</span><a class="btn primary" href="#uu-dai">Giữ chỗ</a></div>`;
+  else if (d.idx === 2 && !orderOf("weekend-live")) html = `<div class="offmini"><b>Thứ 7 này mang 3 câu khoá ra Weekend Live</b><span>Giao lưu với cộng đồng và người nước ngoài, có đồ uống. Vé học thử ${fmtVND(SITE.trial.live)} (giảm 50%).</span><a class="btn primary" href="#uu-dai">Giữ vé</a></div>`;
+  else if (d.idx === 4) html = `<div class="offmini"><b>Bạn đã xong tuần học thử!</b><span>Chọn gói để học tiếp tuần 2 và các tuần sau.</span><a class="btn primary" href="#chon-goi">Chọn gói học tiếp</a></div>`;
+  if (html) card.insertAdjacentHTML("beforeend", html);
+};
+
+/* ---------- định tuyến: Ưu đãi, Chọn gói; thẻ ưu đãi ở trang chủ và phòng Weekend Live ---------- */
+ROOMS["uu-dai"] = "offers"; ROOMS["chon-goi"] = "plans";
+const _viewLive = viewLive;
+viewLive = function (main) { _viewLive(main); if (planActive()) return; const m = $(".roomv", main); if (!m) return; m.insertAdjacentHTML("beforeend", offerSection("live")); bindOffers(m, () => { main.innerHTML = ""; viewLive(main); }); };
+(function () {
+  const r0 = render;
+  render = function () {
+    const r = parseRoute();
+    if (r.v === "offers" || r.v === "plans") { stopAudio(); renderTop(); renderSide(); const main = $("#main"); main.innerHTML = ""; (r.v === "offers" ? viewOffers : viewPlans)(main); main.focus({ preventScroll: true }); scrollTo(0, 0); return; }
+    r0();
+    if (r.v === "home" && !planActive()) {
+      const h = $("#main"), first = h && h.firstElementChild, oc = orderOf("lop-nhom"), ol = orderOf("weekend-live");
+      if (first && (!oc || !ol)) first.insertAdjacentHTML("afterend", `<section class="card2 pcta"><div><h2>Ưu đãi tuần học thử</h2><p>Lớp nhóm với giáo viên ${fmtVND(SITE.trial.class)} · Weekend Live ${fmtVND(SITE.trial.live)} (giảm 50%, có đồ uống).</p></div><a class="btn primary" href="#uu-dai">Xem ưu đãi</a></section>`);
+    }
+  };
+})();
+/* mỗi ngày báo "đã vào học" một lần, để CES biết ai đang học, ai nghỉ */
+(function () { const t = new Date().toDateString(); if (S.seenDay !== t && S.profile) { S.seenDay = t; save(); track("seen", { lang: S.lang === "zh" ? "Tiếng Trung" : "Tiếng Anh" }); } if (SITE.sheetUrl && ((S.orders || []).some(o => o.status !== "Đã thu") || (S.plan && S.plan.until < Date.now() + 864e5))) refreshStatus(); })();
 
 boot();
 gate();
