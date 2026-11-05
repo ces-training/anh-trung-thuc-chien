@@ -468,7 +468,7 @@
  ],
  "hsk": [
   {
-   "q": "HSK4 听力 · 判断对错: ★ 买两千五百个可以打折。",
+   "q": "HSK4 听力 · Đúng hay sai (对 / 错): ★ 买两千五百个可以打折。",
    "audio": "我们的杯子一个订单至少要一千个。如果数量超过两千个，我们就打九折。",
    "opts": ["对", "错"],
    "a": 0,
@@ -477,7 +477,7 @@
    }
   },
   {
-   "q": "HSK4 听力 · 判断对错: ★ 新星公司对订单数量的要求不高。",
+   "q": "HSK4 听力 · Đúng hay sai (对 / 错): ★ 新星公司对订单数量的要求不高。",
    "audio": "新星公司的杯子虽然比较便宜，但是一个订单至少要五千个，对我们来说太多了。",
    "opts": ["对", "错"],
    "a": 1,
@@ -497,7 +497,7 @@
    }
   },
   {
-   "q": "HSK4 阅读 · 选词填空: 这张价格单写得非常___，每种杯子的价格和数量都很清楚。",
+   "q": "HSK4 Đọc · Chọn từ điền vào chỗ trống: 这张价格单写得非常___，每种杯子的价格和数量都很清楚。",
    "opts": ["详细", "至少", "考虑", "合适"],
    "a": 0,
    "why": {
@@ -735,7 +735,7 @@
  "orderPara": [
   {
    "k": "order",
-   "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · sắp xếp thứ tự câu)",
    "tokens": ["我们公司想买一些办公室用的杯子。", "因为数量比较多，所以想问一下能不能打折。", "如果价格合适，我们就下订单。"],
    "explain": "Câu đầu nêu việc (想买杯子). Câu có 因为……所以 nói lý do hỏi giảm giá, dựa vào 数量 của câu trước. Câu 如果……就 là bước tiếp theo, nên đứng cuối.",
    "vi": "Công ty chúng tôi muốn mua một ít cốc dùng cho văn phòng. Vì số lượng khá nhiều nên muốn hỏi có giảm giá được không. Nếu giá phù hợp, chúng tôi sẽ đặt hàng.",
@@ -743,7 +743,7 @@
   },
   {
    "k": "order",
-   "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · sắp xếp thứ tự câu)",
    "tokens": ["新星公司的杯子比较便宜，每个只要二十元。", "但是他们一个订单至少要五千个。", "这个数量对我们来说太多了，所以我们没有选他们。"],
    "explain": "Câu đầu có tên 新星公司 nên mở đoạn. 但是 đưa ra điểm trái ngược với 'rẻ'. 这个数量 chỉ lại 五千个 ở câu trước, nên đứng cuối.",
    "vi": "Cốc của công ty Tân Tinh khá rẻ, mỗi chiếc chỉ 20 tệ. Nhưng một đơn của họ ít nhất phải 5.000 chiếc. Số lượng này đối với chúng tôi quá nhiều, nên chúng tôi không chọn họ.",
@@ -751,7 +751,7 @@
   },
   {
    "k": "order",
-   "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · sắp xếp thứ tự câu)",
    "tokens": ["昨天晚上陈总给我们发了一个报价。", "这个报价写得很详细，每种杯子的价格都很清楚。", "我们看了以后，觉得价格比较合适。", "所以我们决定先下一个两千个的订单。"],
    "explain": "Câu đầu giới thiệu 一个报价. 这个报价 chỉ lại báo giá vừa nhắc. 看了以后 là việc xảy ra sau khi nhận. 所以 nêu kết quả, nên đứng cuối.",
    "vi": "Tối qua giám đốc Trần gửi cho chúng tôi một bản báo giá. Bản báo giá này viết rất chi tiết, giá từng loại cốc đều rất rõ ràng. Xem xong, chúng tôi thấy giá khá phù hợp. Vì vậy chúng tôi quyết định đặt trước một đơn 2.000 chiếc.",
@@ -759,7 +759,7 @@
   },
   {
    "k": "order",
-   "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · sắp xếp thứ tự câu)",
    "tokens": ["王经理问我第一个订单要多少个杯子。", "我估计两千个左右。", "虽然现在不多，但是以后可能会越来越多。"],
    "explain": "Câu hỏi của 王经理 phải đứng trước. 我估计 là câu trả lời. 虽然现在不多 nói về con số 两千个 vừa nêu, nên đứng cuối.",
    "vi": "Giám đốc Vương hỏi tôi đơn hàng đầu tiên cần bao nhiêu chiếc cốc. Tôi ước tính khoảng 2.000 chiếc. Tuy bây giờ chưa nhiều, nhưng sau này có thể ngày càng nhiều hơn.",
@@ -914,8 +914,8 @@
  "write": {
   "task": "Viết email ngắn gửi 陈总 (Chén zǒng) xin báo giá chi tiết: nói số lượng bạn ước tính, xin giá từng loại, số lượng tối thiểu, mức giảm giá và tiêu chuẩn chất lượng. (80–120 chữ Hán)",
   "kind": "email",
-  "model": "陈总：您好！我是越南公司的阮安。昨天在大会上看了你们的杯子，我们觉得质量很好。我估计我们第一次要两千个左右。请您给我们一个详细的报价，说明一下每种杯子的价格、一个订单至少要多少个、超过多少个可以打折。还有，请您说明一下你们的质量标准。如果价格合适，我们就下订单。谢谢！阮安",
-  "frame": "陈总：您好！我是越南公司的阮安。昨天在大会上看了你们的杯子，我们觉得质量很好。我___我们第一次要___左右。请您给我们一个___的报价，说明一下每种杯子的价格、一个订单___要多少个、超过多少个可以___。还有，请您说明一下你们的质量标准。如果价格合适，我们就___。谢谢！阮安",
+  "model": "陈总：您好！我是越南公司的阮安。昨天在大会上看了你们的杯子，觉得质量很好。我估计我们第一次要两千个左右。请您给我们一个详细的报价，说明一下每种杯子的价格、一个订单至少要多少个、超过多少个可以打折。还有，请您说明一下你们的质量标准。如果价格合适，我们就下订单。谢谢！阮安",
+  "frame": "陈总：您好！我是越南公司的阮安。昨天在大会上看了你们的杯子，觉得质量很好。我___我们第一次要___左右。请您给我们一个___的报价，说明一下每种杯子的价格、一个订单___要多少个、超过多少个可以___。还有，请您说明一下你们的质量标准。如果价格合适，我们就___。谢谢！阮安",
   "gaps": ["估计", "两千个", "详细", "至少", "打折", "下订单"],
   "free": [false, true, false, false, false, false],
   "hints": ["Mở đầu: 陈总：您好！我是……的阮安。", "Ước tính số lượng: 我估计 + số lượng + 左右", "Xin báo giá: 请您给我们一个详细的报价", "Hỏi điều kiện: 至少要多少个？超过多少个可以打折？", "Kết: 如果价格合适，我们就下订单。谢谢！"],

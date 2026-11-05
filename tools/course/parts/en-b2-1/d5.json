@@ -1,0 +1,888 @@
+{
+ "id": "b2-w1-thu-6",
+ "label": "Thứ 6",
+ "title": "Viết báo cáo cho ban giám đốc, email chốt điều khoản",
+ "desc": "Viết executive summary cho ban giám đốc theo đúng cấu trúc báo cáo (mục đích, kết quả, đề xuất), dùng câu bị động trang trọng (Customer data will be stored…, It is recommended that…) và từ nối consequently, whereas, overall; sau đó gửi email cho Ingrid xác nhận điều khoản, kèm bản thảo thỏa thuận.",
+ "rule": "Báo cáo trang trọng dùng nhiều câu bị động (be + V3) khi việc được làm quan trọng hơn người làm: The terms were agreed. Approval is requested. Kết quả: Consequently, … đứng đầu câu mới hoặc sau dấu chấm phẩy, có dấu phẩy theo sau. Đối lập trong cùng một câu: A, whereas B. Tổng kết cả đoạn: Overall, … đặt ở đầu câu.",
+ "cards": [
+  {
+   "w": "executive summary",
+   "ipa": "/ɪɡˈzek.jə.tɪv ˈsʌm.ər.i/",
+   "m": "bản tóm tắt dành cho lãnh đạo (phần đầu báo cáo)",
+   "ex": "The board usually reads only the executive summary.",
+   "exm": "Ban giám đốc thường chỉ đọc phần tóm tắt dành cho lãnh đạo.",
+   "n": "Nằm ở đầu báo cáo, dài khoảng một trang, gồm mục đích, kết quả chính và đề xuất. Nhấn ex-EC-u-tive; x đọc /ɡz/."
+  },
+  {
+   "w": "findings",
+   "ipa": "/ˈfaɪn.dɪŋz/",
+   "m": "các kết quả, điều phát hiện được (từ nghiên cứu, khảo sát)",
+   "ex": "The main findings of the pilot are summarised below.",
+   "exm": "Các kết quả chính của đợt chạy thử được tóm tắt dưới đây.",
+   "n": "Trong báo cáo thường dùng số nhiều: the findings. The findings show that… = Kết quả cho thấy…"
+  },
+  {
+   "w": "recommendation",
+   "ipa": "/ˌrek.ə.menˈdeɪ.ʃən/",
+   "m": "đề xuất, khuyến nghị",
+   "ex": "Our main recommendation is to sign the agreement with Nordwind.",
+   "exm": "Đề xuất chính của chúng tôi là ký thỏa thuận với Nordwind.",
+   "n": "Nhấn rec-om-men-DA-tion. Viết một c, hai m. Động từ: recommend + V-ing hoặc recommend that + S + V nguyên mẫu."
+  },
+  {
+   "w": "outcome",
+   "ipa": "/ˈaʊt.kʌm/",
+   "m": "kết quả (cuối cùng)",
+   "ex": "The outcome of the negotiation was positive for both sides.",
+   "exm": "Kết quả của buổi đàm phán có lợi cho cả hai bên.",
+   "n": "Nhấn OUT-come. outcome là kết quả cuối cùng của một quá trình (cuộc họp, đàm phán); findings là điều rút ra từ số liệu."
+  },
+  {
+   "w": "implement",
+   "ipa": "/ˈɪm.plɪ.ment/",
+   "m": "triển khai, thực hiện (kế hoạch, quyết định)",
+   "ex": "The plan will be implemented in all partner stores.",
+   "exm": "Kế hoạch sẽ được triển khai ở tất cả cửa hàng đối tác.",
+   "n": "Nhấn IM-ple-ment. Danh từ: implementation. Hay đi với: implement a plan / a decision / a policy."
+  },
+  {
+   "w": "allocate",
+   "ipa": "/ˈæl.ə.keɪt/",
+   "m": "phân bổ (ngân sách, nguồn lực)",
+   "ex": "The board is asked to allocate a budget for in-store training.",
+   "exm": "Ban giám đốc được đề nghị phân bổ ngân sách cho việc đào tạo tại cửa hàng.",
+   "n": "Nhấn AL-lo-cate. allocate + tiền / người + to / for + việc. Danh từ: allocation."
+  },
+  {
+   "w": "timeline",
+   "ipa": "/ˈtaɪm.laɪn/",
+   "m": "lịch trình, các mốc thời gian",
+   "ex": "The timeline for the partnership is shown in the final section.",
+   "exm": "Lịch trình của việc hợp tác được trình bày ở phần cuối.",
+   "n": "Gần nghĩa: schedule. a tight timeline = lịch trình gấp; set a timeline = đặt các mốc thời gian."
+  },
+  {
+   "w": "approval",
+   "ipa": "/əˈpruː.vəl/",
+   "m": "sự phê duyệt, sự chấp thuận",
+   "ex": "We are seeking the board's approval for the partnership.",
+   "exm": "Chúng tôi đang xin ban giám đốc phê duyệt việc hợp tác.",
+   "n": "approve (động từ) → approval (danh từ). Cụm hay dùng: seek / request / give approval. Nhấn ap-PRO-val."
+  },
+  {
+   "w": "consequently",
+   "ipa": "/ˈkɒn.sɪ.kwənt.li/",
+   "m": "do đó, vì vậy",
+   "ex": "The pilot results were strong. Consequently, Nordwind agreed to work with us.",
+   "exm": "Kết quả chạy thử rất tốt. Do đó, Nordwind đồng ý hợp tác với chúng tôi.",
+   "n": "Trạng từ nối, đứng đầu câu mới hoặc sau dấu chấm phẩy, có dấu phẩy theo sau. Gần nghĩa: as a result, therefore. Nhấn âm đầu: CON-se-quent-ly."
+  },
+  {
+   "w": "whereas",
+   "ipa": "/weərˈæz/",
+   "m": "trong khi (đối lập hai ý)",
+   "ex": "The pilot ran in one city, whereas the partnership will cover two countries.",
+   "exm": "Đợt chạy thử chỉ diễn ra ở một thành phố, trong khi việc hợp tác sẽ trải rộng ở hai quốc gia.",
+   "n": "Liên từ nối hai mệnh đề đối lập trong cùng một câu: A, whereas B. Khác với however (thường mở đầu câu mới). Nhấn âm hai: where-AS."
+  },
+  {
+   "w": "overall",
+   "ipa": "/ˌəʊ.vəˈrɔːl/",
+   "m": "nhìn chung, tổng thể",
+   "ex": "Overall, the partnership offers strong growth at a low risk.",
+   "exm": "Nhìn chung, việc hợp tác mang lại tăng trưởng mạnh với rủi ro thấp.",
+   "n": "Đầu câu (Overall, …) để tổng kết cả đoạn. Làm tính từ thì đứng trước danh từ: the overall cost = tổng chi phí. Trạng từ nhấn âm cuối: o-ver-ALL."
+  },
+  {
+   "w": "attached",
+   "ipa": "/əˈtætʃt/",
+   "m": "được đính kèm",
+   "ex": "Please find the draft agreement attached.",
+   "exm": "Vui lòng xem bản thảo thỏa thuận đính kèm.",
+   "n": "-ed đọc /t/: 'ơ-tácht'. Cách viết trang trọng trong email: Please find … attached. / I have attached … / the attached file.",
+   "img": "email"
+  }
+ ],
+ "scene": {
+  "setting": "Sáng thứ Sáu, phòng họp nhỏ. An và Sarah cùng viết executive summary cho ban giám đốc về việc hợp tác với Nordwind Retail, rồi Sarah nhờ An gửi email cho Ingrid để xác nhận các điều khoản.",
+  "img": "scene-en-report-d5",
+  "imgPrompt": "A small meeting room on a Friday morning: an, in a royal-blue top with a yellow lanyard, types on a laptop showing a blank document; sarah, in a charcoal blazer over a white blouse, sits beside her and points at the screen; a printed report and two coffee cups on the table, no readable text.",
+  "lines": [
+   {
+    "who": "Sarah",
+    "t": "Right, An. The board meets on Tuesday, so we need to finish the executive summary today.",
+    "vi": "Nào An. Thứ Ba ban giám đốc họp, nên hôm nay mình phải viết xong bản tóm tắt cho lãnh đạo."
+   },
+   {
+    "who": "An",
+    "t": "I've drafted the purpose: the report outlines the proposed partnership with Nordwind Retail.",
+    "vi": "Em đã viết nháp phần mục đích: báo cáo trình bày khái quát đề xuất hợp tác với Nordwind Retail."
+   },
+   {
+    "who": "Sarah",
+    "t": "Good. Next, the findings. Keep them short; board members are very busy.",
+    "vi": "Tốt. Tiếp theo là phần kết quả. Viết ngắn gọn thôi em, các thành viên ban giám đốc rất bận."
+   },
+   {
+    "who": "An",
+    "t": "The pilot was a clear success. Users more than doubled, and retention improved significantly.",
+    "vi": "Đợt chạy thử thành công rõ rệt. Số người dùng tăng hơn gấp đôi, và tỷ lệ giữ chân người dùng cải thiện đáng kể."
+   },
+   {
+    "who": "An",
+    "t": "Consequently, Nordwind agreed in principle to a 15% commission and 18 months' exclusivity in Vietnam and Thailand.",
+    "vi": "Vì vậy, Nordwind đã đồng ý về nguyên tắc với mức hoa hồng 15% và 18 tháng độc quyền ở Việt Nam và Thái Lan."
+   },
+   {
+    "who": "Sarah",
+    "t": "Mention their concerns too. Customer data will be stored in Singapore, encrypted and shared only in anonymised form.",
+    "vi": "Nhắc cả những điều họ lo ngại nữa. Dữ liệu khách hàng sẽ được lưu ở Singapore, được mã hóa và chỉ chia sẻ ở dạng ẩn danh."
+   },
+   {
+    "who": "An",
+    "t": "And the recommendations? We need the board's approval and a budget for extra in-store training.",
+    "vi": "Còn phần đề xuất thì sao chị? Mình cần ban giám đốc phê duyệt và cần ngân sách cho việc đào tạo thêm tại cửa hàng."
+   },
+   {
+    "who": "Sarah",
+    "t": "Exactly. Write: It is recommended that the board approve the agreement and allocate a training budget.",
+    "vi": "Đúng vậy. Em viết: Đề nghị ban giám đốc phê duyệt thỏa thuận và phân bổ ngân sách đào tạo."
+   },
+   {
+    "who": "Sarah",
+    "t": "Overall, the outcome is very positive. Could you email Ingrid to confirm the terms?",
+    "vi": "Nhìn chung, kết quả rất khả quan. Em gửi email cho Ingrid để xác nhận các điều khoản nhé?"
+   },
+   {
+    "who": "An",
+    "t": "Sure. I'll send it this afternoon with the draft agreement attached.",
+    "vi": "Vâng ạ. Chiều nay em sẽ gửi, kèm bản thảo thỏa thuận."
+   }
+  ]
+ },
+ "patterns": [
+  {
+   "t": "Bị động trong báo cáo: be + V3 (will be stored, were agreed, is recommended)",
+   "f": [
+    ["Customer data", "will be stored", "in Singapore."],
+    ["The terms", "were agreed", "in principle."],
+    ["It", "is recommended", "that the board approve the agreement."]
+   ],
+   "ex": [
+    ["The pilot was launched in Da Nang in July.", "Đợt chạy thử được triển khai ở Đà Nẵng vào tháng Bảy."],
+    ["Extra training will be provided in all partner stores.", "Việc đào tạo bổ sung sẽ được thực hiện ở tất cả cửa hàng đối tác."]
+   ],
+   "bad": "Customer data will store in Singapore.",
+   "good": "Customer data will be stored in Singapore.",
+   "why": "Dữ liệu không tự lưu mà được lưu, nên cần bị động: will be + V3 (stored). Báo cáo trang trọng hay dùng bị động khi việc được làm quan trọng hơn người làm. Sau It is recommended that, động từ để nguyên mẫu: the board approve (không thêm s)."
+  },
+  {
+   "t": "Nêu kết quả: Câu 1. Consequently, câu 2. / Câu 1; consequently, câu 2.",
+   "f": [
+    ["The pilot results were strong.", "Consequently,", "Nordwind agreed to the partnership."],
+    ["The data is encrypted;", "consequently,", "the risk is low."],
+    ["Users more than doubled.", "As a result,", "Nordwind showed strong interest."]
+   ],
+   "ex": [
+    ["Nordwind's concerns were addressed. Consequently, the terms were agreed in principle.", "Những lo ngại của Nordwind đã được giải đáp. Do đó, các điều khoản được thống nhất về nguyên tắc."],
+    ["Retention improved; consequently, the app was launched nationwide.", "Tỷ lệ giữ chân người dùng tăng; vì vậy, ứng dụng được ra mắt toàn quốc."]
+   ],
+   "bad": "The pilot was successful, consequently Nordwind agreed to the deal.",
+   "good": "The pilot was successful. Consequently, Nordwind agreed to the deal.",
+   "why": "consequently là trạng từ nối, không phải liên từ, nên không nối hai mệnh đề chỉ bằng dấu phẩy. Đặt nó ở đầu câu mới (sau dấu chấm) hoặc sau dấu chấm phẩy, rồi thêm dấu phẩy phía sau."
+  },
+  {
+   "t": "Đối lập: A, whereas B · Tổng kết: Overall, …",
+   "f": [
+    ["The pilot covered one city,", "whereas", "the partnership will cover two countries."],
+    ["Commission is paid only on sales,", "whereas", "training is a fixed cost."],
+    ["The risks are manageable.", "Overall,", "the partnership is a good opportunity."]
+   ],
+   "ex": [
+    ["Kevin wanted to sign quickly, whereas Tom wanted more security checks.", "Kevin muốn ký nhanh, trong khi Tom muốn kiểm tra bảo mật thêm."],
+    ["Overall, the benefits clearly outweigh the risks.", "Nhìn chung, lợi ích rõ ràng lớn hơn rủi ro."]
+   ],
+   "bad": "The pilot covered one city. Whereas the partnership will cover two countries.",
+   "good": "The pilot covered one city, whereas the partnership will cover two countries.",
+   "why": "whereas là liên từ: nối hai mệnh đề đối lập trong CÙNG một câu, thường có dấu phẩy phía trước. Không tách phần có whereas thành một câu riêng. Overall, đứng đầu câu để tổng kết cả đoạn."
+  }
+ ],
+ "vocab": [
+  {
+   "q": "Điền từ: The board usually reads only the ___, so it must be short and clear.",
+   "opts": ["executive summary", "appendix", "agenda"],
+   "a": 0,
+   "why": {
+    "1": "appendix là phụ lục ở cuối báo cáo, chứa số liệu chi tiết; lãnh đạo bận thường đọc phần tóm tắt ở đầu.",
+    "2": "agenda là chương trình họp, không phải một phần của báo cáo."
+   }
+  },
+  {
+   "q": "'findings' trong báo cáo nghĩa là gì?",
+   "opts": ["các kết quả, điều phát hiện được", "các khoản phí", "các bước triển khai"],
+   "a": 0,
+   "why": {
+    "1": "Các khoản phí là fees hoặc charges.",
+    "2": "Các bước triển khai là steps hoặc phases."
+   }
+  },
+  {
+   "q": "Điền từ: Our main ___ is to sign the agreement with Nordwind.",
+   "opts": ["recommendation", "recommend", "timeline"],
+   "a": 0,
+   "why": {
+    "1": "recommend là động từ; sau Our main cần một danh từ.",
+    "2": "timeline là lịch trình; 'lịch trình chính là ký thỏa thuận' không hợp nghĩa."
+   }
+  },
+  {
+   "q": "Điền từ: The ___ of the negotiation was a 15% commission and 18 months' exclusivity.",
+   "opts": ["outcome", "income", "output"],
+   "a": 0,
+   "why": {
+    "1": "income là thu nhập, không dùng cho kết quả của buổi đàm phán.",
+    "2": "output là sản lượng, lượng hàng làm ra."
+   }
+  },
+  {
+   "q": "Điền từ: Once it is approved, the agreement will be ___ in all partner stores.",
+   "opts": ["implemented", "allocated", "attached"],
+   "a": 0,
+   "why": {
+    "1": "allocate là phân bổ tiền hoặc người; thỏa thuận thì được triển khai (implemented).",
+    "2": "attached là được đính kèm (vào email), không hợp với 'in all partner stores'."
+   }
+  },
+  {
+   "q": "Điền từ: The board is asked to ___ a budget for extra in-store training.",
+   "opts": ["allocate", "implement", "outline"],
+   "a": 0,
+   "why": {
+    "1": "implement là triển khai kế hoạch; với ngân sách ta nói allocate a budget.",
+    "2": "outline là trình bày khái quát, không dùng với nghĩa cấp tiền."
+   }
+  },
+  {
+   "q": "Điền từ: We cannot sign the agreement without the board's ___.",
+   "opts": ["approval", "findings", "proposal"],
+   "a": 0,
+   "why": {
+    "1": "findings là kết quả phân tích; ban giám đốc không đưa ra findings để cho phép ký.",
+    "2": "proposal là đề xuất do nhóm dự án đưa lên; ban giám đốc là người phê duyệt."
+   }
+  },
+  {
+   "q": "Điền từ: The ___ shows the key dates: board approval, signing and the first review.",
+   "opts": ["timeline", "findings", "commission"],
+   "a": 0,
+   "why": {
+    "1": "findings là các kết quả rút ra từ số liệu, không phải các mốc thời gian.",
+    "2": "commission là tiền hoa hồng."
+   }
+  }
+ ],
+ "grammar": [
+  {
+   "q": "Câu nào đúng?",
+   "opts": ["Customer data will be stored in Singapore.", "Customer data will store in Singapore.", "Customer data will be store in Singapore."],
+   "a": 0,
+   "why": {
+    "1": "Dữ liệu không tự lưu, nên cần bị động: will be + V3.",
+    "2": "Sau be phải là quá khứ phân từ stored, không dùng nguyên mẫu store."
+   }
+  },
+  {
+   "q": "Điền từ: The pilot results were strong. ___, Nordwind agreed to the partnership.",
+   "opts": ["Consequently", "Whereas", "Although"],
+   "a": 0,
+   "why": {
+    "1": "whereas chỉ sự đối lập giữa hai mệnh đề trong một câu, trong khi câu sau ở đây là kết quả của câu trước.",
+    "2": "Although (mặc dù) cần hai mệnh đề trong cùng một câu và chỉ sự nhượng bộ, không chỉ kết quả."
+   }
+  },
+  {
+   "q": "Điền từ: The pilot covered one city, ___ the partnership will cover two countries.",
+   "opts": ["whereas", "consequently", "therefore"],
+   "a": 0,
+   "why": {
+    "1": "consequently chỉ kết quả và là trạng từ, không nối hai mệnh đề chỉ bằng dấu phẩy; ý ở đây là đối lập.",
+    "2": "therefore cũng chỉ kết quả, không phải đối lập."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Điền một từ: Please find the draft agreement ___. (đính kèm)",
+   "model": "attached",
+   "accept": ["attached"],
+   "why": "Please find + tài liệu + attached. attached là quá khứ phân từ, mang nghĩa bị động: tài liệu được đính kèm."
+  },
+  {
+   "q": "Câu nào đúng văn phong báo cáo gửi ban giám đốc?",
+   "opts": ["It is recommended that the board approve the agreement.", "We think the board should maybe say yes to the deal.", "The board is recommended to approving the agreement."],
+   "a": 0,
+   "why": {
+    "1": "Ý đúng nhưng văn phong thân mật (maybe, say yes to the deal), chưa hợp với báo cáo trang trọng.",
+    "2": "Sau to phải là động từ nguyên mẫu, không dùng approving; cách tự nhiên nhất là It is recommended that the board approve…"
+   }
+  },
+  {
+   "q": "Câu cuối của báo cáo, tổng kết toàn bộ: ___, the partnership offers strong growth at a manageable risk.",
+   "opts": ["Overall", "Whereas", "On the contrary"],
+   "a": 0,
+   "why": {
+    "1": "whereas cần hai mệnh đề đối lập trong một câu, không dùng để mở đầu câu tổng kết.",
+    "2": "On the contrary dùng để bác bỏ ý vừa nói, không dùng để tổng kết."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Chuyển sang bị động: We will review the results after three months. → The results ___ after three months.",
+   "model": "will be reviewed",
+   "accept": ["will be reviewed", "will be reviewed by us"],
+   "why": "Bị động tương lai: will be + V3 (reviewed). Người làm (we) thường được lược bỏ vì không cần nhấn mạnh."
+  }
+ ],
+ "listen": [
+  {
+   "q": "Báo cáo được trình ban giám đốc vào hôm nào?",
+   "audio": "The report will be presented to the board on Tuesday.",
+   "opts": ["thứ Ba", "thứ Năm", "thứ Sáu"],
+   "a": 0,
+   "why": {
+    "1": "Thứ Năm là Thursday; câu nói Tuesday (thứ Ba).",
+    "2": "Thứ Sáu là Friday, là hôm nay, ngày nhóm viết báo cáo."
+   }
+  },
+  {
+   "q": "Số người dùng trong đợt chạy thử thay đổi thế nào?",
+   "audio": "During the pilot, the number of users more than doubled.",
+   "opts": ["tăng hơn gấp đôi", "tăng gần gấp đôi", "giảm một nửa"],
+   "a": 0,
+   "why": {
+    "1": "more than doubled là tăng HƠN gấp đôi; gần gấp đôi phải nói almost doubled.",
+    "2": "doubled là tăng gấp đôi, không phải giảm."
+   }
+  },
+  {
+   "q": "Mức hoa hồng đã thống nhất là bao nhiêu?",
+   "audio": "Nordwind agreed in principle to a fifteen per cent commission.",
+   "opts": ["15%", "50%", "5%"],
+   "a": 0,
+   "why": {
+    "1": "50 là fifty, nhấn âm đầu FIF-ty; câu nói fifteen, nhấn âm cuối fif-TEEN.",
+    "2": "5% là five per cent."
+   }
+  },
+  {
+   "q": "Dữ liệu khách hàng được lưu ở đâu?",
+   "audio": "Customer data will be stored in Singapore and shared only in anonymised form.",
+   "opts": ["Singapore", "Việt Nam", "Đan Mạch"],
+   "a": 0,
+   "why": {
+    "1": "Bright Star ở Việt Nam, nhưng câu nói dữ liệu được lưu ở Singapore.",
+    "2": "Nordwind là công ty Đan Mạch, nhưng dữ liệu không lưu ở đó."
+   }
+  },
+  {
+   "q": "Ban giám đốc được đề nghị làm gì?",
+   "audio": "The board is asked to approve the agreement and allocate a budget for in-store training.",
+   "opts": ["phê duyệt thỏa thuận và phân bổ ngân sách đào tạo", "ký hợp đồng ngay hôm nay", "gặp Ingrid vào thứ Ba"],
+   "a": 0,
+   "why": {
+    "1": "Câu không nói ký ngay; thỏa thuận cần được phê duyệt trước.",
+    "2": "Câu không nhắc đến việc gặp Ingrid."
+   }
+  },
+  {
+   "q": "Kết quả hợp tác sẽ được đánh giá lại khi nào?",
+   "audio": "As a safeguard, the results will be reviewed after three months.",
+   "opts": ["sau ba tháng", "sau sáu tháng", "sau 18 tháng"],
+   "a": 0,
+   "why": {
+    "1": "Sáu tháng là thời hạn để Nordwind quảng bá ở ít nhất 25 cửa hàng; câu nói three months.",
+    "2": "18 tháng là thời hạn độc quyền, không phải lúc đánh giá lại."
+   }
+  },
+  {
+   "q": "An gửi kèm tài liệu gì trong email cho Ingrid?",
+   "audio": "Dear Ingrid, please find the draft agreement attached.",
+   "opts": ["bản thảo thỏa thuận", "báo cáo cho ban giám đốc", "số liệu chạy thử"],
+   "a": 0,
+   "why": {
+    "1": "Báo cáo là tài liệu nội bộ gửi ban giám đốc; câu nói draft agreement.",
+    "2": "Câu không nhắc đến số liệu chạy thử (pilot results)."
+   }
+  }
+ ],
+ "hsk": [
+  {
+   "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
+   "audio": "Woman: Have you finished the executive summary yet? Man: Almost. I've written the purpose and the findings, but the recommendations still need some work. Woman: OK. Please send it to me by Monday, because the board meets on Tuesday morning. Question: Which part of the summary is not finished yet?",
+   "opts": ["The recommendations", "The purpose", "The findings", "The timeline for the board"],
+   "a": 0,
+   "why": {
+    "1": "Phần mục đích (purpose) đã viết xong.",
+    "2": "Phần kết quả (findings) cũng đã xong.",
+    "3": "Không ai nói đến lịch trình; thứ Ba chỉ là ngày ban giám đốc họp."
+   }
+  },
+  {
+   "q": "TOEIC Part 4 – Nghe bài nói ngắn và câu hỏi, chọn đáp án.",
+   "audio": "Woman: Good afternoon, everyone. I'm pleased to report that our partnership with Nordwind Retail has been agreed in principle. Nordwind will promote our app in at least twenty-five of its stores in the first six months. Consequently, we expect a significant rise in new users next year. Question: What will Nordwind do in the first six months?",
+   "opts": ["Promote the app in at least 25 stores", "Open 25 new stores", "Pay a 25% commission", "Train 25 members of staff"],
+   "a": 0,
+   "why": {
+    "1": "Nordwind không mở cửa hàng mới; họ quảng bá ứng dụng trong cửa hàng sẵn có.",
+    "2": "Số 25 là số cửa hàng, không phải mức hoa hồng.",
+    "3": "Bài nói không nhắc đến việc đào tạo 25 nhân viên."
+   }
+  },
+  {
+   "q": "TOEIC Part 5 – Chọn từ đúng: ___ the pilot was limited to one city, the results were very encouraging.",
+   "opts": ["Although", "Consequently", "Despite", "Overall"],
+   "a": 0,
+   "why": {
+    "1": "Consequently là trạng từ chỉ kết quả, không nối được hai mệnh đề, và ý câu là nhượng bộ.",
+    "2": "Despite phải đi với danh từ hoặc V-ing (Despite the limited pilot), không đi với một mệnh đề.",
+    "3": "Overall dùng để tổng kết, không phải liên từ nối hai mệnh đề."
+   }
+  },
+  {
+   "q": "TOEIC Part 6 – Chọn cụm điền vào email: Dear Ms Larsen, Thank you for a productive meeting this week. I am writing to confirm the terms we agreed. The draft agreement ___ to this email for your review.",
+   "opts": ["is attached", "attaches", "is attaching", "attach"],
+   "a": 0,
+   "why": {
+    "1": "Bản thảo không tự đính kèm; cần bị động is attached.",
+    "2": "is attaching là chủ động tiếp diễn, sai nghĩa vì tài liệu không làm hành động đính kèm.",
+    "3": "attach không hợp với chủ ngữ số ít và vẫn là chủ động."
+   }
+  },
+  {
+   "q": "IELTS Reading – True / False / Not Given. Đoạn đọc: \"The Da Nang pilot was a clear success: users more than doubled and retention improved. Nordwind Retail, which has 40 stores in Southeast Asia, has agreed in principle to an 18-month exclusive partnership in Vietnam and Thailand.\" Nhận định: Nordwind has more stores in Thailand than in Vietnam.",
+   "opts": ["True", "False", "Not Given"],
+   "a": 2,
+   "why": {
+    "0": "Không chọn True: đoạn đọc chỉ nói tổng số 40 cửa hàng ở Đông Nam Á, không chia theo từng nước.",
+    "1": "Không chọn False: đoạn đọc cũng không nói Việt Nam có nhiều cửa hàng hơn; thông tin này không có, nên là Not Given."
+   }
+  }
+ ],
+ "shadow": [
+  {
+   "t": "executive summary",
+   "focus": "Nhấn ex-EC-u-tive và SUM-ma-ry; x đọc /ɡz/: 'ích-de-kiu-tịv xăm-mơ-ri'."
+  },
+  {
+   "t": "It is recommended that the board approve the agreement.",
+   "focus": "Nhấn rec-om-MEND-ed và a-GREE-ment; -ed sau âm d đọc /ɪd/: 'rê-cờ-men-địd'. Nối It‿is."
+  },
+  {
+   "t": "Consequently, Nordwind agreed to the partnership.",
+   "focus": "Nhấn âm đầu CON-se-quent-ly; ngừng ngắn sau dấu phẩy. agreed: -ed đọc /d/."
+  },
+  {
+   "t": "The pilot covered one city, whereas the partnership will cover two countries.",
+   "focus": "whereas nhấn âm hai: 'que-RÁZ'. Lên giọng nhẹ trước dấu phẩy, xuống giọng ở cuối câu."
+  },
+  {
+   "t": "Overall, the outcome is very positive.",
+   "focus": "overall nhấn âm cuối o-ver-ALL; outcome nhấn âm đầu OUT-come; nối outcome‿is."
+  },
+  {
+   "t": "Please find the draft agreement attached.",
+   "focus": "attached: -ed đọc /t/, 'ơ-TÁCHT'. draft giữ rõ cụm âm cuối /ft/."
+  }
+ ],
+ "dialog": {
+  "title": "Sarah cùng bạn duyệt lại executive summary trước khi gửi ban giám đốc. Đổi vai: bạn là Sarah, hỏi lần lượt từng phần của báo cáo.",
+  "partner": "Sarah",
+  "turns": [
+   {
+    "ai": "An, what's the purpose of the report? Can you put it in one sentence?",
+    "vi": "An, mục đích của báo cáo là gì? Em nói gọn trong một câu được không?",
+    "model": "The report outlines the proposed partnership with Nordwind Retail.",
+    "accept": [
+     "The report outlines the proposed partnership with Nordwind Retail.",
+     "This report outlines the proposed partnership with Nordwind Retail.",
+     "The report outlines the proposed partnership with Nordwind.",
+     "It outlines the proposed partnership with Nordwind Retail."
+    ],
+    "frame": "The report ___ the proposed partnership with Nordwind Retail.",
+    "hint": "Nêu mục đích bằng động từ trang trọng: The report outlines + nội dung."
+   },
+   {
+    "ai": "Good. What are the main findings?",
+    "vi": "Tốt. Các kết quả chính là gì?",
+    "model": "The pilot was a success: users more than doubled and retention improved.",
+    "accept": [
+     "The pilot was a success: users more than doubled and retention improved.",
+     "The pilot was a success. Users more than doubled and retention improved.",
+     "Users more than doubled and retention improved.",
+     "The pilot was successful: users more than doubled and retention improved."
+    ],
+    "frame": "The pilot was a success: users more than ___ and retention improved.",
+    "hint": "Hai điểm chính: số người dùng (more than doubled) và tỷ lệ giữ chân (retention improved)."
+   },
+   {
+    "ai": "And what did Nordwind agree to?",
+    "vi": "Còn Nordwind đã đồng ý những gì?",
+    "model": "They agreed in principle to a 15% commission and 18 months' exclusivity.",
+    "accept": [
+     "They agreed in principle to a 15% commission and 18 months' exclusivity.",
+     "They agreed in principle to a 15% commission and 18-month exclusivity.",
+     "They agreed to a 15% commission and 18 months' exclusivity.",
+     "Nordwind agreed in principle to a 15% commission and 18 months' exclusivity."
+    ],
+    "frame": "They agreed in ___ to a 15% commission and 18 months' exclusivity.",
+    "hint": "agree in principle = đồng ý về nguyên tắc (chưa ký). Nêu hai điều khoản: commission và exclusivity."
+   },
+   {
+    "ai": "What exactly do we need from the board?",
+    "vi": "Cụ thể mình cần ban giám đốc làm gì?",
+    "model": "We need their approval, and they need to allocate a budget for in-store training.",
+    "accept": [
+     "We need their approval, and they need to allocate a budget for in-store training.",
+     "We need their approval and a budget for in-store training.",
+     "We need their approval, and they need to allocate a training budget.",
+     "We need the board's approval, and they need to allocate a budget for in-store training."
+    ],
+    "frame": "We need their ___, and they need to allocate a budget for in-store training.",
+    "hint": "Hai việc: approval (phê duyệt) và allocate a budget (phân bổ ngân sách)."
+   },
+   {
+    "ai": "Perfect. Can you confirm the terms with Ingrid today?",
+    "vi": "Tuyệt. Hôm nay em xác nhận các điều khoản với Ingrid được không?",
+    "model": "Yes, I'll email her this afternoon with the draft agreement attached.",
+    "accept": [
+     "Yes, I'll email her this afternoon with the draft agreement attached.",
+     "Yes, I'll email her this afternoon and attach the draft agreement.",
+     "Sure, I'll email her this afternoon with the draft agreement attached.",
+     "I'll email her this afternoon with the draft agreement attached."
+    ],
+    "frame": "Yes, I'll email her this afternoon with the draft agreement ___.",
+    "hint": "with + tài liệu + attached = kèm theo tài liệu."
+   }
+  ]
+ },
+ "reading": {
+  "title": "Email chốt điều khoản gửi Ingrid Larsen",
+  "text": "Subject: Nordwind partnership – confirmation of agreed terms\n\nDear Ingrid,\n\nThank you once again for your time and for the constructive discussions this week. I am writing to confirm the terms that were agreed in principle at our last meeting.\n\n1. Commission: Nordwind will receive a 15% commission on sales made through its stores.\n2. Exclusivity: Nordwind will be our exclusive retail partner in Vietnam and Thailand for 18 months.\n3. Promotion: the app will be promoted in at least 25 Nordwind stores within the first six months.\n4. Customer data: all data will be stored in Singapore and encrypted. Only anonymised data will be shared.\n\nIn addition, our team will provide extra in-store training, and the results will be reviewed jointly after three months.\n\nPlease find the draft agreement attached. The proposal will be presented to our board on Tuesday, and we would be grateful for any comments on the draft by next Friday. If it is approved, we hope to sign the agreement by the end of the month.\n\nKind regards,\nAn\nMarketing Specialist, Bright Star",
+  "vi": "Tiêu đề: Hợp tác với Nordwind, xác nhận các điều khoản đã thống nhất\n\nChị Ingrid thân mến,\n\nMột lần nữa xin cảm ơn chị đã dành thời gian và cho những buổi trao đổi rất xây dựng trong tuần này. Tôi viết thư này để xác nhận các điều khoản đã được thống nhất về nguyên tắc trong buổi họp gần nhất.\n\n1. Hoa hồng: Nordwind sẽ nhận 15% hoa hồng trên doanh số bán qua các cửa hàng của mình.\n2. Độc quyền: Nordwind sẽ là đối tác bán lẻ độc quyền của chúng tôi tại Việt Nam và Thái Lan trong 18 tháng.\n3. Quảng bá: ứng dụng sẽ được quảng bá tại ít nhất 25 cửa hàng Nordwind trong sáu tháng đầu.\n4. Dữ liệu khách hàng: toàn bộ dữ liệu sẽ được lưu ở Singapore và được mã hóa. Chỉ dữ liệu đã ẩn danh mới được chia sẻ.\n\nNgoài ra, nhóm chúng tôi sẽ đào tạo thêm tại cửa hàng, và hai bên sẽ cùng đánh giá lại kết quả sau ba tháng.\n\nChị vui lòng xem bản thảo thỏa thuận đính kèm. Đề xuất sẽ được trình ban giám đốc của chúng tôi vào thứ Ba, và chúng tôi rất mong nhận được góp ý của chị về bản thảo trước thứ Sáu tuần sau. Nếu được phê duyệt, chúng tôi hy vọng sẽ ký thỏa thuận trước cuối tháng.\n\nTrân trọng,\nAn\nChuyên viên marketing, Bright Star",
+  "qs": [
+   {
+    "q": "Mục đích chính của email là gì?",
+    "opts": ["xác nhận các điều khoản đã thống nhất", "đề nghị một mức hoa hồng mới", "mời Ingrid sang Việt Nam"],
+    "a": 0,
+    "why": {
+     "1": "Mức hoa hồng 15% đã được thống nhất, email chỉ nhắc lại chứ không đề nghị mức mới.",
+     "2": "Email không nhắc đến chuyến đi nào; câu I am writing to confirm the terms cho biết mục đích."
+    }
+   },
+   {
+    "q": "Trong sáu tháng đầu, ứng dụng được quảng bá ở ít nhất bao nhiêu cửa hàng Nordwind?",
+    "opts": ["25", "40", "15"],
+    "a": 0,
+    "why": {
+     "1": "40 là tổng số cửa hàng của Nordwind ở Đông Nam Á; email nói at least 25.",
+     "2": "15 là mức hoa hồng (15%), không phải số cửa hàng."
+    }
+   },
+   {
+    "q": "Đúng hay sai: \"Nordwind will receive all customer data in full.\"",
+    "opts": ["Sai", "Đúng"],
+    "a": 0,
+    "why": {
+     "1": "Không đúng: email ghi Only anonymised data will be shared, tức chỉ chia sẻ dữ liệu đã ẩn danh."
+    }
+   },
+   {
+    "q": "An mong nhận góp ý của Ingrid về bản thảo trước khi nào?",
+    "opts": ["thứ Sáu tuần sau", "thứ Ba", "cuối tháng"],
+    "a": 0,
+    "why": {
+     "1": "Thứ Ba là ngày đề xuất được trình ban giám đốc.",
+     "2": "Cuối tháng là lúc hai bên dự định ký thỏa thuận."
+    }
+   },
+   {
+    "q": "Trong câu 'the results will be reviewed jointly', từ jointly gần nghĩa nhất với từ nào?",
+    "opts": ["together", "quickly", "separately"],
+    "a": 0,
+    "why": {
+     "1": "quickly là nhanh chóng, không liên quan đến việc hai bên cùng làm.",
+     "2": "separately là riêng rẽ, ngược nghĩa với jointly (cùng nhau)."
+    }
+   }
+  ]
+ },
+ "near": [
+  {
+   "q": "Chọn dạng đúng: We are seeking the board's ___ for the partnership. (approve)",
+   "opts": ["approval", "approve", "approved"],
+   "a": 0,
+   "why": {
+    "1": "approve là động từ; sau sở hữu cách the board's cần một danh từ: approval.",
+    "2": "approved là quá khứ phân từ hoặc tính từ, không đứng một mình sau the board's."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: The ___ of the agreement will start next month. (implement)",
+   "opts": ["implementation", "implement", "implemented"],
+   "a": 0,
+   "why": {
+    "1": "implement là động từ; giữa The và of cần một danh từ.",
+    "2": "implemented là dạng V3 của động từ, không làm chủ ngữ sau The."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: The pilot results were very ___. (encourage)",
+   "opts": ["encouraging", "encouraged", "encouragement"],
+   "a": 0,
+   "why": {
+    "1": "encouraged (tính từ -ed) tả cảm xúc của người: We felt encouraged. Kết quả gây ra cảm giác đó nên dùng -ing.",
+    "2": "encouragement là danh từ; sau very cần một tính từ."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: All customer data will be stored ___ in Singapore. (secure)",
+   "opts": ["securely", "secure", "security"],
+   "a": 0,
+   "why": {
+    "1": "secure là tính từ; bổ nghĩa cho động từ stored cần trạng từ securely.",
+    "2": "security là danh từ (sự bảo mật), không bổ nghĩa cho động từ."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: The pilot was a success; ___, Nordwind agreed to the partnership. (consequent)",
+   "opts": ["consequently", "consequent", "consequence"],
+   "a": 0,
+   "why": {
+    "1": "consequent là tính từ, phải đứng trước danh từ; ở đây cần trạng từ nối hai câu.",
+    "2": "consequence là danh từ (hậu quả); muốn dùng thì phải nói As a consequence, …"
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: The agreed terms are ___ for both companies. (benefit)",
+   "opts": ["beneficial", "benefit", "beneficially"],
+   "a": 0,
+   "why": {
+    "1": "benefit là danh từ hoặc động từ; sau are cần một tính từ: beneficial.",
+    "2": "beneficially là trạng từ, không đứng sau are để mô tả chủ ngữ."
+   }
+  }
+ ],
+ "orderPara": [
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (Báo cáo · phần Purpose)",
+   "tokens": [
+    "This report outlines the proposed partnership with Nordwind Retail.",
+    "It summarises the results of the Da Nang pilot and the terms agreed in principle.",
+    "Finally, it sets out the decisions required from the board."
+   ],
+   "explain": "Câu mở nêu chủ đề của báo cáo (This report outlines…). Câu hai dùng It để thay cho this report, nói thêm nội dung. Finally báo hiệu ý cuối cùng: những gì cần ban giám đốc quyết định.",
+   "vi": "Báo cáo này trình bày khái quát đề xuất hợp tác với Nordwind Retail. Báo cáo tóm tắt kết quả chạy thử ở Đà Nẵng và các điều khoản đã thống nhất về nguyên tắc. Cuối cùng, báo cáo nêu những quyết định cần ban giám đốc đưa ra."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (Báo cáo · phần Findings)",
+   "tokens": [
+    "The pilot ran in Da Nang from July to August.",
+    "During this period, the number of users more than doubled and retention improved.",
+    "Consequently, Nordwind expressed strong interest in a partnership."
+   ],
+   "explain": "Câu đầu nêu bối cảnh và thời gian chạy thử. During this period nhắc lại khoảng thời gian vừa nói nên phải đứng sau. Consequently nêu kết quả của những con số đó nên đứng cuối.",
+   "vi": "Đợt chạy thử diễn ra ở Đà Nẵng từ tháng Bảy đến tháng Tám. Trong thời gian này, số người dùng tăng hơn gấp đôi và tỷ lệ giữ chân người dùng được cải thiện. Do đó, Nordwind tỏ ra rất quan tâm đến việc hợp tác."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (Báo cáo · lo ngại và cách giải quyết)",
+   "tokens": [
+    "Nordwind raised concerns about the security of customer data.",
+    "In response, we confirmed that all data will be stored in Singapore and encrypted.",
+    "In addition, only anonymised data will be shared with partners.",
+    "As a result, these concerns have now been addressed."
+   ],
+   "explain": "Câu đầu nêu vấn đề (concerns). In response là câu trả lời cho vấn đề đó. In addition bổ sung thêm một biện pháp. As a result và these concerns nhắc lại vấn đề ở câu đầu để kết luận nên đứng cuối.",
+   "vi": "Nordwind nêu lo ngại về việc bảo mật dữ liệu khách hàng. Để trả lời, chúng tôi xác nhận rằng toàn bộ dữ liệu sẽ được lưu ở Singapore và được mã hóa. Ngoài ra, chỉ dữ liệu đã ẩn danh mới được chia sẻ với đối tác. Nhờ vậy, những lo ngại này nay đã được giải quyết."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (Báo cáo · rủi ro và tổng kết)",
+   "tokens": [
+    "The main risk is that store staff may not explain the app clearly.",
+    "To mitigate this, extra in-store training will be provided.",
+    "The results will then be reviewed after three months.",
+    "Overall, the risks are manageable, whereas the benefits are significant."
+   ],
+   "explain": "Câu đầu nêu rủi ro chính. To mitigate this dùng this để chỉ rủi ro vừa nói nên đứng ngay sau. then cho biết bước tiếp theo sau khi đào tạo. Overall tổng kết cả đoạn nên luôn đứng cuối.",
+   "vi": "Rủi ro chính là nhân viên cửa hàng có thể giới thiệu ứng dụng chưa rõ ràng. Để giảm rủi ro này, chúng tôi sẽ đào tạo thêm tại cửa hàng. Sau đó, kết quả sẽ được đánh giá lại sau ba tháng. Nhìn chung, rủi ro có thể kiểm soát được, trong khi lợi ích rất đáng kể."
+  }
+ ],
+ "notes": {
+  "title": "Ghi chú: việc cần làm và các mốc thời gian",
+  "lines": [
+   {
+    "who": "Sarah",
+    "t": "Before I send the report, let's go through the action points and the timeline.",
+    "vi": "Trước khi chị gửi báo cáo, mình điểm lại các việc cần làm và các mốc thời gian nhé."
+   },
+   {
+    "who": "Sarah",
+    "t": "The report will be presented to the board on Tuesday.",
+    "vi": "Báo cáo sẽ được trình ban giám đốc vào thứ Ba."
+   },
+   {
+    "who": "An",
+    "t": "I'll email Ingrid this afternoon and attach the draft agreement.",
+    "vi": "Chiều nay em sẽ gửi email cho Ingrid và đính kèm bản thảo thỏa thuận."
+   },
+   {
+    "who": "Sarah",
+    "t": "Good. Ask her to send any comments by next Friday.",
+    "vi": "Tốt. Em nhờ chị ấy gửi góp ý trước thứ Sáu tuần sau nhé."
+   },
+   {
+    "who": "An",
+    "t": "Sure. And Linh will send us the final training budget on Monday morning.",
+    "vi": "Vâng. Còn Linh sẽ gửi bản ngân sách đào tạo chính thức vào sáng thứ Hai."
+   },
+   {
+    "who": "Sarah",
+    "t": "If the board approves, we'll sign the agreement by the end of the month.",
+    "vi": "Nếu ban giám đốc phê duyệt, mình sẽ ký thỏa thuận trước cuối tháng."
+   },
+   {
+    "who": "An",
+    "t": "After that, Nordwind will promote the app in at least 25 stores in the first six months.",
+    "vi": "Sau đó, Nordwind sẽ quảng bá ứng dụng ở ít nhất 25 cửa hàng trong sáu tháng đầu."
+   },
+   {
+    "who": "Sarah",
+    "t": "And Tom's team will provide extra training for store staff.",
+    "vi": "Và nhóm của Tom sẽ đào tạo thêm cho nhân viên cửa hàng."
+   },
+   {
+    "who": "Sarah",
+    "t": "Finally, we'll review the results together after three months.",
+    "vi": "Cuối cùng, hai bên sẽ cùng đánh giá lại kết quả sau ba tháng."
+   }
+  ],
+  "form": [
+   {
+    "label": "Report presented to the board on:",
+    "answer": "Tuesday",
+    "accept": ["Tuesday", "tuesday", "on Tuesday"],
+    "why": "Sarah nói: The report will be presented to the board on Tuesday."
+   },
+   {
+    "label": "Document attached to An's email:",
+    "answer": "draft agreement",
+    "accept": ["draft agreement", "the draft agreement", "a draft agreement"],
+    "why": "An nói: I'll email Ingrid this afternoon and attach the draft agreement."
+   },
+   {
+    "label": "Deadline for Ingrid's comments:",
+    "answer": "next Friday",
+    "accept": ["next Friday", "by next Friday", "Friday"],
+    "why": "Sarah nói: Ask her to send any comments by next Friday."
+   },
+   {
+    "label": "Linh sends the final ___ on Monday morning",
+    "answer": "training budget",
+    "accept": ["training budget", "the training budget", "final training budget"],
+    "why": "An nói: Linh will send us the final training budget on Monday morning."
+   },
+   {
+    "label": "Minimum number of stores promoting the app:",
+    "answer": "25",
+    "accept": ["25", "twenty-five", "twenty five", "at least 25"],
+    "why": "An nói: Nordwind will promote the app in at least 25 stores in the first six months."
+   },
+   {
+    "label": "Joint review of results after:",
+    "answer": "three months",
+    "accept": ["three months", "3 months", "3"],
+    "why": "Sarah nói: we'll review the results together after three months."
+   }
+  ]
+ },
+ "longturn": {
+  "cue": "Summarise a meeting or decision for someone who was not there.\nYou should say:\n- what the meeting or decision was about\n- who was involved\n- what was decided\nand explain what will happen next.",
+  "cueVi": "Hãy tóm tắt một cuộc họp hoặc một quyết định cho một người không có mặt, trong khoảng 2 phút. Bạn nên nói: cuộc họp hoặc quyết định đó về việc gì, ai tham gia, đã quyết định những gì, và giải thích việc gì sẽ diễn ra tiếp theo.",
+  "points": [
+   "what the meeting or decision was about",
+   "who was involved",
+   "what was decided",
+   "what will happen next"
+  ],
+  "pointsVi": [
+   "cuộc họp hoặc quyết định về việc gì",
+   "ai tham gia",
+   "đã quyết định những gì",
+   "việc gì sẽ diễn ra tiếp theo"
+  ],
+  "prep": 60,
+  "speak": [90, 120],
+  "model": "I'd like to summarise an important meeting from this week for a colleague who was on holiday. The meeting was about a possible partnership with Nordwind Retail, a Danish chain with forty stores in Southeast Asia. Sarah, our project manager, led the discussion, and Ingrid Larsen, their Head of Partnerships, represented Nordwind. First, I presented the results of our pilot in Da Nang. Users more than doubled, and retention improved significantly. Ingrid raised some valid concerns about customer data, so we explained that all data would be stored in Singapore and encrypted. In the end, both sides agreed in principle to a fifteen per cent commission and eighteen months of exclusivity in Vietnam and Thailand. As for the next steps, the proposal will be presented to our board on Tuesday. If it is approved, we will sign the agreement by the end of the month. Overall, it was a very productive meeting.",
+  "modelVi": "Tôi muốn tóm tắt một cuộc họp quan trọng trong tuần này cho một đồng nghiệp đang nghỉ phép. Cuộc họp bàn về khả năng hợp tác với Nordwind Retail, một chuỗi bán lẻ của Đan Mạch có bốn mươi cửa hàng ở Đông Nam Á. Sarah, quản lý dự án của chúng tôi, dẫn dắt buổi thảo luận, còn Ingrid Larsen, trưởng bộ phận hợp tác, đại diện cho Nordwind. Đầu tiên, tôi trình bày kết quả chạy thử ở Đà Nẵng. Số người dùng tăng hơn gấp đôi, và tỷ lệ giữ chân người dùng cải thiện đáng kể. Ingrid nêu một số lo ngại có cơ sở về dữ liệu khách hàng, nên chúng tôi giải thích rằng toàn bộ dữ liệu sẽ được lưu ở Singapore và được mã hóa. Cuối cùng, hai bên đồng ý về nguyên tắc với mức hoa hồng mười lăm phần trăm và mười tám tháng độc quyền tại Việt Nam và Thái Lan. Về các bước tiếp theo, đề xuất sẽ được trình ban giám đốc vào thứ Ba. Nếu được phê duyệt, chúng tôi sẽ ký thỏa thuận trước cuối tháng. Nhìn chung, đó là một cuộc họp rất hiệu quả.",
+  "useful": [
+   "I'd like to summarise…",
+   "The meeting was about…",
+   "… led the discussion.",
+   "… raised some valid concerns about…",
+   "In the end, both sides agreed in principle to…",
+   "As for the next steps, …",
+   "If it is approved, we will…",
+   "Overall, …"
+  ],
+  "check": [
+   "Nói đủ 4 ý: chủ đề, người tham gia, quyết định, bước tiếp theo",
+   "Dùng ít nhất 3 từ nối (First, so, In the end, As for, Overall)",
+   "Có ít nhất 2 câu bị động (will be presented, would be stored…)",
+   "Có chi tiết cụ thể: số liệu, điều khoản, ngày tháng",
+   "Nói được khoảng 1,5 đến 2 phút, ngắt nghỉ tự nhiên sau mỗi ý"
+  ]
+ },
+ "write": {
+  "task": "Viết executive summary (150–190 từ) cho báo cáo gửi ban giám đốc về việc hợp tác với Nordwind Retail, gồm ba phần có tiêu đề: Purpose (mục đích), Findings (kết quả chính), Recommendations (đề xuất: cần phê duyệt gì, phân bổ ngân sách cho việc gì, lịch trình). Kết bằng một câu tổng kết bắt đầu bằng Overall.",
+  "kind": "report",
+  "source": "Thông tin: chạy thử ở Đà Nẵng thành công (người dùng tăng hơn gấp đôi, tỷ lệ giữ chân tăng). Nordwind Retail (40 cửa hàng ở Đông Nam Á) đồng ý về nguyên tắc: hoa hồng 15%, độc quyền 18 tháng ở Việt Nam và Thái Lan, quảng bá ứng dụng ở ít nhất 25 cửa hàng trong sáu tháng đầu. Dữ liệu khách hàng lưu ở Singapore, mã hóa, chỉ chia sẻ dạng ẩn danh. Cần ban giám đốc phê duyệt và phân bổ ngân sách đào tạo thêm tại cửa hàng. Lịch trình: trình ban giám đốc thứ Ba, ký trước cuối tháng, cùng đánh giá lại sau ba tháng.",
+  "model": "EXECUTIVE SUMMARY: PROPOSED PARTNERSHIP WITH NORDWIND RETAIL\n\nPurpose\nThis report outlines the proposed partnership with Nordwind Retail and requests the board's approval.\n\nFindings\nThe Da Nang pilot was a clear success: the number of users more than doubled and retention improved significantly. Consequently, Nordwind, which has 40 stores in Southeast Asia, has agreed in principle to the following terms: a 15% commission, 18 months' exclusivity in Vietnam and Thailand, and promotion of the app in at least 25 stores in the first six months. Nordwind's concerns about customer data have been addressed: all data will be stored in Singapore, encrypted and shared only in anonymised form.\n\nRecommendations\nIt is recommended that the board approve the agreement and allocate a budget for extra in-store training. Whereas the commission is paid only on actual sales, the training budget is a fixed cost and should therefore be agreed in advance. The proposed timeline is as follows: board approval on Tuesday, signing by the end of the month and a joint review after three months.\n\nOverall, the partnership offers significant growth at a manageable level of risk.",
+  "frame": "EXECUTIVE SUMMARY: PROPOSED PARTNERSHIP WITH NORDWIND RETAIL\n\nPurpose\nThis report ___ the proposed partnership with Nordwind Retail and requests the board's approval.\n\nFindings\nThe Da Nang pilot was a clear success: ___. ___, Nordwind, which has 40 stores in Southeast Asia, has agreed in principle to the following terms: ___. Nordwind's concerns about customer data have been addressed: all data ___ in Singapore, encrypted and shared only in anonymised form.\n\nRecommendations\n___ the board approve the agreement and ___ a budget for extra in-store training. ___ the commission is paid only on actual sales, the training budget is a fixed cost and should therefore be agreed in advance. The proposed timeline is as follows: ___.\n\n___, the partnership offers significant growth at a manageable level of risk.",
+  "gaps": [
+   "outlines",
+   "the number of users more than doubled and retention improved significantly",
+   "Consequently",
+   "a 15% commission, 18 months' exclusivity in Vietnam and Thailand, and promotion of the app in at least 25 stores in the first six months",
+   "will be stored",
+   "It is recommended that",
+   "allocate",
+   "Whereas",
+   "board approval on Tuesday, signing by the end of the month and a joint review after three months",
+   "Overall"
+  ],
+  "free": [false, true, false, true, false, false, false, false, true, false],
+  "hints": [
+   "This report outlines… and requests the board's approval.",
+   "The pilot was a clear success: … (số liệu chính)",
+   "Consequently, … (nêu kết quả)",
+   "… will be stored / have been addressed (câu bị động)",
+   "It is recommended that the board approve… (động từ để nguyên mẫu)",
+   "Whereas A, B (đối lập hai ý)",
+   "The proposed timeline is as follows: …",
+   "Overall, … (câu tổng kết)"
+  ],
+  "check": [
+   "Có đủ ba phần có tiêu đề: Purpose, Findings, Recommendations",
+   "Phần mục đích nói rõ báo cáo về việc gì và cần ban giám đốc làm gì",
+   "Phần kết quả có số liệu chạy thử và các điều khoản chính",
+   "Có ít nhất 3 câu bị động (will be stored, have been addressed, is recommended…)",
+   "Dùng đúng consequently, whereas và overall",
+   "Có lịch trình với các mốc thời gian cụ thể",
+   "Văn phong trang trọng, không viết tắt (it is, không viết it's)",
+   "Dài 150–190 từ"
+  ],
+  "words": [150, 190]
+ }
+}
