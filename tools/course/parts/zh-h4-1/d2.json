@@ -1,0 +1,947 @@
+{
+ "id": "h4-w1-thu-3",
+ "label": "Thứ 3",
+ "title": "Hỏi báo giá theo số lượng, so sánh nhà cung cấp",
+ "desc": "Gặp 陈总 (Chén zǒng) ở gian hàng tại hội chợ Quảng Châu: hỏi giá theo số lượng tối thiểu (至少), mức giảm giá khi vượt số lượng (超过……就打折), so sánh với một nhà cung cấp khác và xin báo giá chi tiết.",
+ "rule": "如果 + điều kiện，chủ ngữ + 就 + kết quả (就 đứng sau chủ ngữ). 至少 + (要) + số lượng = ít nhất; 超过 + số lượng = vượt quá. So sánh: A 比 B + tính từ (không thêm 很); A 没有 B + tính từ = A không bằng B. 打九折 = trả 90% giá, tức là giảm 10%.",
+ "cards": [
+  {
+   "w": "数量",
+   "py": "shùliàng",
+   "m": "số lượng",
+   "mEn": "quantity",
+   "ex": "价格要看数量，买得越多，价格越低。",
+   "expy": "Jiàgé yào kàn shùliàng, mǎi de yuè duō, jiàgé yuè dī.",
+   "exm": "Giá còn tùy số lượng, mua càng nhiều thì giá càng thấp.",
+   "exEn": "The price depends on the quantity: the more you buy, the lower the price.",
+   "n": "数 = số, 量 = lượng: Hán Việt 'số lượng', nghĩa y như tiếng Việt. 数 ở đây đọc shù (thanh 4); khi là động từ 'đếm' thì đọc shǔ. 要看数量 = còn tùy số lượng.",
+   "img": "cart"
+  },
+  {
+   "w": "打折",
+   "py": "dǎ zhé",
+   "m": "giảm giá, chiết khấu",
+   "mEn": "to give a discount",
+   "ex": "如果超过两千个，我们就打九折。",
+   "expy": "Rúguǒ chāoguò liǎngqiān ge, wǒmen jiù dǎ jiǔ zhé.",
+   "exm": "Nếu vượt quá 2.000 chiếc, chúng tôi giảm 10%.",
+   "exEn": "If it's over 2,000 pieces, we'll give you 10% off.",
+   "n": "Bẫy cho người Việt: 打九折 = trả 9 phần 10 giá = giảm 10%, KHÔNG phải giảm 90%. 打八折 = giảm 20%, 打八五折 = giảm 15%. Hỏi mức giảm: 能打几折？"
+  },
+  {
+   "w": "估计",
+   "py": "gūjì",
+   "m": "ước tính, đoán chừng",
+   "mEn": "to estimate",
+   "ex": "我估计第一个订单有两千个左右。",
+   "expy": "Wǒ gūjì dì yī ge dìngdān yǒu liǎngqiān ge zuǒyòu.",
+   "exm": "Tôi ước tính đơn hàng đầu tiên khoảng 2.000 chiếc.",
+   "exEn": "I estimate the first order will be about 2,000 pieces.",
+   "n": "我估计 + cả một câu: dùng khi đoán con số, thời gian, kết quả. Hay đi với 左右 (zuǒyòu, khoảng). gū thanh 1 giữ cao đều, jì thanh 4 rơi dứt khoát.",
+   "img": "calc"
+  },
+  {
+   "w": "至少",
+   "py": "zhìshǎo",
+   "m": "ít nhất, tối thiểu",
+   "mEn": "at least",
+   "ex": "一个订单至少要一千个。",
+   "expy": "Yí ge dìngdān zhìshǎo yào yìqiān ge.",
+   "exm": "Một đơn hàng ít nhất phải 1.000 chiếc.",
+   "exEn": "Each order has to be at least 1,000 pieces.",
+   "n": "至少 đứng TRƯỚC động từ hoặc số lượng: 至少要一千个, 至少两天. Trái nghĩa: 最多 (zuì duō, nhiều nhất). zh và sh đều uốn lưỡi."
+  },
+  {
+   "w": "超过",
+   "py": "chāoguò",
+   "m": "vượt quá, nhiều hơn",
+   "mEn": "to exceed, to be more than",
+   "ex": "我们的订单已经超过两千个了。",
+   "expy": "Wǒmen de dìngdān yǐjīng chāoguò liǎngqiān ge le.",
+   "exm": "Đơn hàng của chúng tôi đã vượt quá 2.000 chiếc rồi.",
+   "exEn": "Our order is already over 2,000 pieces.",
+   "n": "超过 là động từ, theo sau là số lượng hoặc người, vật: 超过两千个, 超过他. Khác 至少 (ít nhất). ch bật hơi mạnh và uốn lưỡi."
+  },
+  {
+   "w": "详细",
+   "py": "xiángxì",
+   "m": "chi tiết, tỉ mỉ",
+   "mEn": "detailed",
+   "ex": "请给我们一个详细的报价。",
+   "expy": "Qǐng gěi wǒmen yí ge xiángxì de bàojià.",
+   "exm": "Xin gửi cho chúng tôi một bản báo giá chi tiết.",
+   "exEn": "Please give us a detailed quotation.",
+   "n": "Hán Việt 'tường tế'. Dùng: 详细的 + danh từ (详细的报价), hoặc V + 得很详细 (写得很详细). x: đầu lưỡi chạm răng dưới, môi dẹt."
+  },
+  {
+   "w": "说明",
+   "py": "shuōmíng",
+   "m": "giải thích, trình bày rõ",
+   "mEn": "to explain, to make clear",
+   "ex": "请您说明一下你们的质量标准。",
+   "expy": "Qǐng nín shuōmíng yíxià nǐmen de zhìliàng biāozhǔn.",
+   "exm": "Xin ông giải thích rõ tiêu chuẩn chất lượng của bên ông.",
+   "exEn": "Could you please explain your quality standards?",
+   "n": "说明 + sự việc (说明价格, 说明标准): nói cho rõ một việc. Khác 告诉 + người + việc (告诉我价格). Làm danh từ, 说明 là phần giải thích, hướng dẫn."
+  },
+  {
+   "w": "考虑",
+   "py": "kǎolǜ",
+   "m": "cân nhắc, suy nghĩ kỹ",
+   "mEn": "to consider, to think over",
+   "ex": "我们考虑一下，明天给您回答。",
+   "expy": "Wǒmen kǎolǜ yíxià, míngtiān gěi nín huídá.",
+   "exm": "Chúng tôi cân nhắc thêm, mai sẽ trả lời ông.",
+   "exEn": "We'll think it over and give you an answer tomorrow.",
+   "n": "考 = khảo (考试 là thi), 虑 = lự: 'khảo lự' = cân nhắc. 考虑一下 là cách lịch sự để chưa trả lời ngay. lǜ: đọc 'i' nhưng tròn môi."
+  },
+  {
+   "w": "合适",
+   "py": "héshì",
+   "m": "phù hợp, vừa",
+   "mEn": "suitable, right",
+   "ex": "这个价格对我们来说很合适。",
+   "expy": "Zhège jiàgé duì wǒmen lái shuō hěn héshì.",
+   "exm": "Giá này đối với chúng tôi rất phù hợp.",
+   "exEn": "This price is just right for us.",
+   "n": "合适 là TÍNH TỪ: 很合适, 不合适, 合适的价格; không có tân ngữ. 适合 (thẻ hôm qua) là ĐỘNG TỪ: 适合 + người, việc (适合办公室用). Mẹo: 合适 hay đứng cuối câu."
+  },
+  {
+   "w": "标准",
+   "py": "biāozhǔn",
+   "m": "tiêu chuẩn; chuẩn",
+   "mEn": "standard",
+   "ex": "他们的质量标准没有我们高。",
+   "expy": "Tāmen de zhìliàng biāozhǔn méiyǒu wǒmen gāo.",
+   "exm": "Tiêu chuẩn chất lượng của họ không cao bằng chúng tôi.",
+   "exEn": "Their quality standards aren't as high as ours.",
+   "n": "Hán Việt 'tiêu chuẩn'. Danh từ: 质量标准; tính từ: 他的普通话很标准 (anh ấy nói tiếng phổ thông rất chuẩn). zhǔn uốn lưỡi, thanh 3."
+  },
+  {
+   "w": "订单",
+   "py": "dìngdān",
+   "m": "đơn đặt hàng",
+   "mEn": "order (purchase order)",
+   "ex": "如果价格合适，我们就下订单。",
+   "expy": "Rúguǒ jiàgé héshì, wǒmen jiù xià dìngdān.",
+   "exm": "Nếu giá phù hợp, chúng tôi sẽ đặt hàng.",
+   "exEn": "If the price is right, we'll place an order.",
+   "n": "订 = đặt trước (订机票 = đặt vé máy bay), 单 = tờ, đơn: 订单 = đơn đặt hàng. 下订单 = đặt hàng. Lượng từ: 一个订单."
+  }
+ ],
+ "scene": {
+  "setting": "Sáng hôm sau ở gian hàng cốc và bình nước văn phòng tại hội chợ Quảng Châu. 陈总 (Chén zǒng), giám đốc nhà máy, mời 阮安 và 王丽 ngồi bàn nhỏ trong gian hàng để nói chuyện giá. Hôm qua 王丽 đã hỏi giá ở gian của công ty Tân Tinh (新星公司) để so sánh.",
+  "img": "scene-zh-fair-d2",
+  "imgPrompt": "Realistic photo of a small meeting table inside a trade fair booth with shelves of office cups and water bottles behind; chenzong (a Chinese man about 50, short grey hair, navy suit, no tie, friendly but firm) shows a blank price sheet to an (Vietnamese woman about 27, short black bob, cobalt blue blouse, yellow lanyard) and wangli (Chinese woman about 30, red blouse) who take notes, busy fair hall in the background, no readable text",
+  "lines": [
+   {
+    "who": "陈总",
+    "t": "欢迎欢迎！小刘说你们昨天对我们的杯子很有兴趣。",
+    "py": "Huānyíng huānyíng! Xiǎo Liú shuō nǐmen zuótiān duì wǒmen de bēizi hěn yǒu xìngqù.",
+    "vi": "Chào mừng, chào mừng! Tiểu Lưu nói hôm qua hai cô rất quan tâm đến cốc của chúng tôi.",
+    "en": "Welcome! Xiao Liu said you were very interested in our cups yesterday."
+   },
+   {
+    "who": "阮安",
+    "t": "是的，陈总。样品的质量很好，今天我们想问一下价格。",
+    "py": "Shì de, Chén zǒng. Yàngpǐn de zhìliàng hěn hǎo, jīntiān wǒmen xiǎng wèn yíxià jiàgé.",
+    "vi": "Vâng, thưa giám đốc Trần. Chất lượng hàng mẫu rất tốt, hôm nay chúng tôi muốn hỏi về giá.",
+    "en": "Yes, Mr Chen. The samples are very good quality, and today we'd like to ask about prices."
+   },
+   {
+    "who": "陈总",
+    "t": "那要看数量。一个订单至少要一千个，每个二十五元。",
+    "py": "Nà yào kàn shùliàng. Yí ge dìngdān zhìshǎo yào yìqiān ge, měi ge èrshíwǔ yuán.",
+    "vi": "Cái đó còn tùy số lượng. Một đơn ít nhất phải 1.000 chiếc, mỗi chiếc 25 tệ.",
+    "en": "That depends on the quantity. Each order is at least 1,000 pieces, at 25 yuan each."
+   },
+   {
+    "who": "王丽",
+    "t": "如果数量多一点儿，能打折吗？",
+    "py": "Rúguǒ shùliàng duō yìdiǎnr, néng dǎ zhé ma?",
+    "vi": "Nếu số lượng nhiều hơn một chút thì có giảm giá được không?",
+    "en": "If the quantity is a bit bigger, can you give a discount?"
+   },
+   {
+    "who": "陈总",
+    "t": "当然可以。如果超过两千个，我们就打九折。",
+    "py": "Dāngrán kěyǐ. Rúguǒ chāoguò liǎngqiān ge, wǒmen jiù dǎ jiǔ zhé.",
+    "vi": "Tất nhiên là được. Nếu vượt quá 2.000 chiếc, chúng tôi giảm 10%.",
+    "en": "Of course. If it's over 2,000 pieces, we'll give 10% off."
+   },
+   {
+    "who": "阮安",
+    "t": "我估计第一个订单有两千个左右，以后可能会更多。",
+    "py": "Wǒ gūjì dì yī ge dìngdān yǒu liǎngqiān ge zuǒyòu, yǐhòu kěnéng huì gèng duō.",
+    "vi": "Tôi ước tính đơn đầu tiên khoảng 2.000 chiếc, sau này có thể còn nhiều hơn.",
+    "en": "I estimate the first order will be about 2,000 pieces, and maybe more later."
+   },
+   {
+    "who": "王丽",
+    "t": "不过，新星公司的价格比你们低，每个只要二十元。",
+    "py": "Búguò, Xīnxīng gōngsī de jiàgé bǐ nǐmen dī, měi ge zhǐ yào èrshí yuán.",
+    "vi": "Có điều, giá của công ty Tân Tinh thấp hơn bên ông, mỗi chiếc chỉ 20 tệ.",
+    "en": "But Xinxing's price is lower than yours, only 20 yuan each."
+   },
+   {
+    "who": "陈总",
+    "t": "他们虽然便宜，但是质量标准没有我们高。",
+    "py": "Tāmen suīrán piányi, dànshì zhìliàng biāozhǔn méiyǒu wǒmen gāo.",
+    "vi": "Họ tuy rẻ, nhưng tiêu chuẩn chất lượng không cao bằng chúng tôi.",
+    "en": "They may be cheaper, but their quality standards aren't as high as ours."
+   },
+   {
+    "who": "阮安",
+    "t": "明白了。您能给我们一个详细的报价吗？最好也说明一下质量标准。",
+    "py": "Míngbai le. Nín néng gěi wǒmen yí ge xiángxì de bàojià ma? Zuìhǎo yě shuōmíng yíxià zhìliàng biāozhǔn.",
+    "vi": "Tôi hiểu rồi. Ông có thể gửi chúng tôi một bản báo giá chi tiết không? Tốt nhất là giải thích luôn tiêu chuẩn chất lượng.",
+    "en": "I see. Could you give us a detailed quotation? Ideally with an explanation of your quality standards too."
+   },
+   {
+    "who": "陈总",
+    "t": "没问题，我今天晚上发给你们。你们好好考虑一下，觉得合适就下订单。",
+    "py": "Méi wèntí, wǒ jīntiān wǎnshang fā gěi nǐmen. Nǐmen hǎohāo kǎolǜ yíxià, juéde héshì jiù xià dìngdān.",
+    "vi": "Không vấn đề gì, tối nay tôi gửi cho hai cô. Hai cô cứ cân nhắc kỹ, thấy phù hợp thì đặt hàng.",
+    "en": "No problem, I'll send it to you tonight. Think it over, and if it suits you, place an order."
+   }
+  ]
+ },
+ "patterns": [
+  {
+   "t": "Nếu… thì…: 如果 + điều kiện，chủ ngữ + 就 + kết quả",
+   "f": [
+    ["如果超过两千个，", "我们就", "打九折"],
+    ["如果价格合适，", "我们就", "下订单"]
+   ],
+   "ex": [
+    ["如果超过两千个，我们就打九折。", "Nếu vượt quá 2.000 chiếc, chúng tôi sẽ giảm 10%.", "If it's over 2,000 pieces, we'll give 10% off."],
+    ["如果价格合适，我们就下订单。", "Nếu giá phù hợp, chúng tôi sẽ đặt hàng.", "If the price is right, we'll place an order."]
+   ],
+   "bad": "如果价格合适，就我们下订单。",
+   "good": "如果价格合适，我们就下订单。",
+   "why": "就 là phó từ, đứng SAU chủ ngữ (我们) và TRƯỚC động từ (下). Tiếng Việt nói 'thì chúng tôi đặt hàng', nhưng tiếng Trung phải nói 我们就下订单. Nếu vế sau không có chủ ngữ thì 就 đứng đầu vế: 觉得合适就下订单."
+  },
+  {
+   "t": "Ít nhất / vượt quá: 至少 + (要) + số lượng; 超过 + số lượng",
+   "f": [
+    ["一个订单", "至少", "要一千个"],
+    ["我们的订单", "超过", "两千个了"]
+   ],
+   "ex": [
+    ["一个订单至少要一千个。", "Một đơn hàng ít nhất phải 1.000 chiếc.", "Each order has to be at least 1,000 pieces."],
+    ["我们的订单已经超过两千个了。", "Đơn hàng của chúng tôi đã vượt quá 2.000 chiếc rồi.", "Our order is already over 2,000 pieces."]
+   ],
+   "bad": "一个订单要一千个至少。",
+   "good": "一个订单至少要一千个。",
+   "why": "至少 là phó từ, đứng TRƯỚC động từ (要) hoặc trước số lượng, không đặt ở cuối câu. Còn 超过 là động từ nên số lượng đứng ngay SAU nó: 超过两千个."
+  },
+  {
+   "t": "So sánh: A 比 B + tính từ; A 没有 B + tính từ; 虽然…，但是…",
+   "f": [
+    ["新星公司", "比我们", "便宜"],
+    ["他们的质量", "没有我们", "好"]
+   ],
+   "ex": [
+    ["新星公司的价格比我们低。", "Giá của công ty Tân Tinh thấp hơn chúng tôi.", "Xinxing's price is lower than ours."],
+    ["他们虽然便宜，但是质量没有我们好。", "Họ tuy rẻ, nhưng chất lượng không bằng chúng tôi.", "They're cheaper, but their quality isn't as good as ours."]
+   ],
+   "bad": "他们的质量没有我们很好。",
+   "good": "他们的质量没有我们好。",
+   "why": "Trong câu so sánh với 比 hoặc 没有, tính từ đứng một mình, không thêm 很 (hěn). Muốn nói mức độ thì thêm SAU tính từ: 比我们好一点儿, 比我们便宜多了."
+  }
+ ],
+ "vocab": [
+  {
+   "q": "⚠ Bẫy cho người Việt: 打九折 nghĩa là gì?",
+   "opts": ["giảm 10% (trả 90% giá)", "giảm 90%", "mua 9 tặng 1"],
+   "optsEn": ["10% off (you pay 90%)", "90% off", "buy 9, get 1 free"],
+   "a": 0,
+   "why": {
+    "1": "'Giảm 90%' là cách hiểu ngược: số trong 打九折 là phần giá bạn TRẢ (9 phần 10), nên chỉ giảm 10%.",
+    "2": "'Mua 9 tặng 1' là một kiểu khuyến mãi khác; 打九折 nói về phần trăm giá phải trả."
+   }
+  },
+  {
+   "q": "Điền từ: 一个订单___要一千个，少了不行。(Một đơn ít nhất phải 1.000 chiếc, ít hơn thì không được.)",
+   "opts": ["至少", "超过", "估计"],
+   "a": 0,
+   "why": {
+    "1": "超过 (chāoguò) = vượt quá, là động từ, phải có số lượng ngay sau (超过一千个); vế 少了不行 cho thấy đây là mức tối thiểu.",
+    "2": "估计 (gūjì) = ước tính; đây là quy định chắc chắn (少了不行), không phải con số đoán chừng."
+   }
+  },
+  {
+   "q": "Điền từ: 请给我们一个___的报价，每种杯子的价格都写清楚。(Xin gửi một bản báo giá chi tiết, ghi rõ giá từng loại cốc.)",
+   "opts": ["详细", "至少", "考虑"],
+   "a": 0,
+   "why": {
+    "1": "至少 (zhìshǎo) = ít nhất, là phó từ, không đứng trước 的 để bổ nghĩa cho danh từ 报价.",
+    "2": "考虑 (kǎolǜ) = cân nhắc, là động từ; 'một bản báo giá cân nhắc' không có nghĩa. Ý 'ghi rõ từng loại' là 详细."
+   }
+  },
+  {
+   "q": "Điền từ: 价格要看___，买得越多，价格越低。(Giá còn tùy số lượng, mua càng nhiều giá càng thấp.)",
+   "opts": ["数量", "质量", "订单"],
+   "a": 0,
+   "why": {
+    "1": "质量 (zhìliàng) = chất lượng; vế sau nói 'mua càng nhiều', tức là nói về số lượng, không phải chất lượng.",
+    "2": "订单 (dìngdān) = đơn đặt hàng; 'giá tùy đơn hàng' chưa rõ ý, vế sau nói đến nhiều hay ít, nên cần 数量."
+   }
+  },
+  {
+   "q": "Điền từ: 我___这次的订单有三千个左右。(Tôi ước tính đơn lần này khoảng 3.000 chiếc.)",
+   "opts": ["估计", "说明", "打折"],
+   "a": 0,
+   "why": {
+    "1": "说明 (shuōmíng) = giải thích cho rõ; câu có 左右 (khoảng) là một con số đoán chừng, nên dùng 估计.",
+    "2": "打折 (dǎ zhé) = giảm giá, không đi với một câu phía sau như 'đơn lần này khoảng 3.000 chiếc'."
+   }
+  },
+  {
+   "q": "⚠ Bẫy Hán Việt: 考 trong 考试 là 'thi'. Vậy 我们考虑一下 nghĩa là gì?",
+   "opts": ["Chúng tôi cân nhắc thêm đã.", "Chúng tôi đi kiểm tra một chút.", "Chúng tôi thi lại một lần."],
+   "optsEn": ["We'll think it over first.", "We'll go and check it.", "We'll take the test again."],
+   "a": 0,
+   "why": {
+    "1": "'Kiểm tra' là 检查 (jiǎnchá); 考虑 là suy nghĩ, cân nhắc trước khi quyết định.",
+    "2": "'Thi' là 考试 (kǎoshì); 虑 nghĩa là lo nghĩ, nên 考虑 = cân nhắc, không liên quan đến thi."
+   }
+  },
+  {
+   "q": "Điền từ: 这家公司的质量___很高，很多大公司都买他们的杯子。(Tiêu chuẩn chất lượng của công ty này rất cao, nhiều công ty lớn đều mua cốc của họ.)",
+   "opts": ["标准", "数量", "订单"],
+   "a": 0,
+   "why": {
+    "1": "质量数量 không thành cụm có nghĩa; 'số lượng cao' cũng không giải thích vì sao công ty lớn tin mua.",
+    "2": "质量订单 không có nghĩa; 订单 (đơn hàng) không đi sau 质量. Cụm cố định là 质量标准 (tiêu chuẩn chất lượng)."
+   }
+  },
+  {
+   "q": "Điền từ: 这个月我们有五个新___，每个都超过一千个杯子。(Tháng này chúng tôi có 5 đơn hàng mới, đơn nào cũng hơn 1.000 chiếc cốc.)",
+   "opts": ["订单", "样品", "标准"],
+   "a": 0,
+   "why": {
+    "1": "样品 (yàngpǐn) = hàng mẫu, thường chỉ vài chiếc; không có hàng mẫu nào hơn 1.000 chiếc.",
+    "2": "标准 (biāozhǔn) = tiêu chuẩn, không đếm bằng 'hơn 1.000 chiếc cốc'."
+   }
+  }
+ ],
+ "grammar": [
+  {
+   "q": "Câu nào đúng?",
+   "opts": ["如果数量超过两千个，我们就打九折。", "如果数量超过两千个，就我们打九折。", "数量超过两千个如果，我们就打九折。"],
+   "a": 0,
+   "why": {
+    "1": "就 phải đứng SAU chủ ngữ 我们: 我们就打九折, không phải 就我们.",
+    "2": "如果 đứng ở đầu vế điều kiện (hoặc ngay sau chủ ngữ), không đặt ở cuối vế."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Điền từ: 如果价格合适，我们___下订单。(Nếu giá phù hợp, chúng tôi sẽ đặt hàng.)",
+   "model": "就",
+   "accept": ["就", "jiu"],
+   "why": "Cặp 如果……就……: vế sau dùng 就, đứng sau chủ ngữ 我们 và trước động từ 下."
+  },
+  {
+   "q": "Câu nào đúng?",
+   "opts": ["新星公司的价格比我们低。", "新星公司的价格比我们很低。", "新星公司的价格比我们不低。"],
+   "a": 0,
+   "why": {
+    "1": "Câu có 比 không thêm 很 trước tính từ. Muốn nhấn mạnh thì nói 低一点儿 hoặc 低多了.",
+    "2": "Phủ định câu 比 thì đặt 不 trước 比 (不比我们低) hoặc dùng 没有 (没有我们低), không đặt 不 trước tính từ."
+   }
+  },
+  {
+   "q": "'Chất lượng của họ không bằng chúng tôi' nói thế nào?",
+   "opts": ["他们的质量没有我们好。", "他们的质量比我们没有好。", "他们的质量没有我们很好。"],
+   "a": 0,
+   "why": {
+    "1": "没有 đã là từ so sánh (A 没有 B + tính từ), không dùng chung với 比.",
+    "2": "Câu so sánh với 没有 không thêm 很 trước tính từ: 没有我们好."
+   }
+  },
+  {
+   "q": "Điền từ: ___他们的价格低，但是质量不太好。(Tuy giá của họ thấp, nhưng chất lượng không tốt lắm.)",
+   "opts": ["虽然", "因为", "如果"],
+   "a": 0,
+   "why": {
+    "1": "因为 (yīnwèi) = vì, đi cặp với 所以; vế sau có 但是 (nhưng) là ý trái ngược, nên cần 虽然.",
+    "2": "如果 (rúguǒ) = nếu, đi cặp với 就; câu này nói sự thật trái ngược, không phải giả định."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Sắp xếp thành câu: 至少 / 一个订单 / 一千个 / 要 (Một đơn hàng ít nhất phải 1.000 chiếc.)",
+   "model": "一个订单至少要一千个。",
+   "accept": ["一个订单至少要一千个。", "一个订单至少要一千个", "yigedingdanzhishaoyaoyiqiange"],
+   "why": "Chủ ngữ (一个订单) + 至少 + 要 + số lượng: 至少 đứng trước động từ 要."
+  },
+  {
+   "q": "Điền từ: 买得___多，价格___低。(Mua càng nhiều, giá càng thấp.)",
+   "opts": ["越……越", "又……又", "如果……就"],
+   "a": 0,
+   "why": {
+    "1": "又……又 nối hai tính chất cùng lúc của một vật (又便宜又好), không diễn tả 'càng… càng'.",
+    "2": "如果……就 cần một vế điều kiện đầy đủ (如果买得多，价格就低); đặt vào chỗ trống thì câu không đúng ngữ pháp."
+   }
+  }
+ ],
+ "listen": [
+  {
+   "q": "Một đơn hàng ít nhất phải bao nhiêu chiếc?",
+   "audio": "这种杯子一个订单至少要多少个？——至少五百个，但是超过一千个才能打折。",
+   "opts": ["500 chiếc", "1.000 chiếc", "1.500 chiếc"],
+   "optsEn": ["500 pieces", "1,000 pieces", "1,500 pieces"],
+   "a": 0,
+   "why": {
+    "1": "1.000 chiếc (一千个) là mức để được giảm giá (超过一千个才能打折), không phải số tối thiểu.",
+    "2": "Bài nghe không có 一千五百个; số tối thiểu là 至少五百个."
+   }
+  },
+  {
+   "q": "Mua 3.000 chiếc thì được giảm bao nhiêu?",
+   "audio": "如果我们买三千个，你们能打几折？——三千个的话，我们就打八五折。",
+   "opts": ["giảm 15%", "giảm 85%", "giảm 5%"],
+   "optsEn": ["15% off", "85% off", "5% off"],
+   "a": 0,
+   "why": {
+    "1": "打八五折 = trả 85% giá, nên chỉ giảm 15%, không phải giảm 85%.",
+    "2": "Con số 五 nằm trong 八五 (85%); giảm 5% sẽ là 打九五折."
+   }
+  },
+  {
+   "q": "Người trả lời ước tính đơn hàng khoảng bao nhiêu?",
+   "audio": "你估计这次的订单有多少？——我估计两千个左右，最多不会超过三千个。",
+   "opts": ["khoảng 2.000 chiếc", "khoảng 3.000 chiếc", "hơn 3.000 chiếc"],
+   "optsEn": ["about 2,000 pieces", "about 3,000 pieces", "over 3,000 pieces"],
+   "a": 0,
+   "why": {
+    "1": "3.000 chiếc (三千个) là mức cao nhất (最多不会超过), không phải con số ước tính.",
+    "2": "Người nói khẳng định 不会超过三千个, tức là không quá 3.000."
+   }
+  },
+  {
+   "q": "Công ty Tân Tinh so với bên giám đốc Trần thế nào?",
+   "audio": "新星公司的价格怎么样？——比陈总的便宜，但是质量标准没有他们高。",
+   "opts": ["rẻ hơn nhưng tiêu chuẩn chất lượng thấp hơn", "đắt hơn và chất lượng tốt hơn", "giá như nhau nhưng chất lượng thấp hơn"],
+   "optsEn": ["cheaper but with lower quality standards", "more expensive and better quality", "the same price but lower quality"],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe nói 比陈总的便宜 (rẻ hơn), không phải đắt hơn; 没有他们高 nghĩa là chất lượng thấp hơn.",
+    "2": "Giá không như nhau: 比……便宜 là rẻ hơn."
+   }
+  },
+  {
+   "q": "Khi nào giám đốc Trần gửi báo giá?",
+   "audio": "陈总，报价什么时候能发给我们？——今天晚上就发，我会写得很详细。",
+   "opts": ["tối nay", "sáng mai", "chiều nay"],
+   "optsEn": ["tonight", "tomorrow morning", "this afternoon"],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe không có 明天上午 (sáng mai); câu trả lời là 今天晚上 (tối nay).",
+    "2": "Chiều nay là 今天下午; câu trả lời nói 晚上 (buổi tối)."
+   }
+  },
+  {
+   "q": "Người trả lời quyết định thế nào?",
+   "audio": "这个价格你们觉得合适吗？——还不错，不过我们要考虑一下，明天给您回答。",
+   "opts": ["cân nhắc thêm, mai trả lời", "đặt hàng ngay", "không chấp nhận giá này"],
+   "optsEn": ["think it over and answer tomorrow", "place an order right away", "reject this price"],
+   "a": 0,
+   "why": {
+    "1": "Người nói chưa đặt hàng: 我们要考虑一下 (chúng tôi cần cân nhắc).",
+    "2": "Người nói thấy giá 还不错 (cũng được), không hề từ chối."
+   }
+  },
+  {
+   "q": "Vì sao Vương Lệ không chọn công ty Tân Tinh?",
+   "audio": "王丽，你为什么不选新星公司？——因为他们一个订单至少要五千个，太多了。",
+   "opts": ["số lượng tối thiểu quá nhiều", "giá quá cao", "không có hàng mẫu"],
+   "optsEn": ["the minimum order is too large", "the price is too high", "they have no samples"],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe không nói giá cao; lý do là 至少要五千个，太多了.",
+    "2": "Bài nghe không nhắc đến 样品 (hàng mẫu)."
+   }
+  }
+ ],
+ "hsk": [
+  {
+   "q": "HSK4 听力 · 判断对错: ★ 买两千五百个可以打折。",
+   "audio": "我们的杯子一个订单至少要一千个。如果数量超过两千个，我们就打九折。",
+   "opts": ["对", "错"],
+   "a": 0,
+   "why": {
+    "1": "Chọn 错 (sai) là chưa khớp: bài nghe nói 超过两千个就打九折, mà 2.500 chiếc đã vượt quá 2.000, nên câu ★ là 对 (đúng)."
+   }
+  },
+  {
+   "q": "HSK4 听力 · 判断对错: ★ 新星公司对订单数量的要求不高。",
+   "audio": "新星公司的杯子虽然比较便宜，但是一个订单至少要五千个，对我们来说太多了。",
+   "opts": ["对", "错"],
+   "a": 1,
+   "why": {
+    "0": "Chọn 对 (đúng) là chưa khớp: bài nghe nói 至少要五千个 và 太多了, nghĩa là yêu cầu số lượng rất cao."
+   }
+  },
+  {
+   "q": "HSK4 听力 · 对话: 男的什么时候发报价？",
+   "audio": "女：陈总，你们的报价什么时候能发给我们？男：今天太忙了，明天上午发给你，我会写得很详细。问：男的什么时候发报价？",
+   "opts": ["明天上午", "今天晚上", "今天上午", "明天晚上"],
+   "a": 0,
+   "why": {
+    "1": "今天晚上 (tối nay) không đúng: người đàn ông nói 今天太忙了 (hôm nay bận quá).",
+    "2": "今天上午 (sáng nay) không đúng: hôm nay ông ấy bận, hẹn 明天 (ngày mai).",
+    "3": "明天晚上 (tối mai) không đúng: ông ấy nói 明天上午 (sáng mai)."
+   }
+  },
+  {
+   "q": "HSK4 阅读 · 选词填空: 这张价格单写得非常___，每种杯子的价格和数量都很清楚。",
+   "opts": ["详细", "至少", "考虑", "合适"],
+   "a": 0,
+   "why": {
+    "1": "至少 (ít nhất) là phó từ, không đứng sau 写得非常 để miêu tả cách viết.",
+    "2": "考虑 (cân nhắc) là động từ, không dùng để miêu tả một tờ giấy được viết ra sao.",
+    "3": "合适 (phù hợp) là tính từ, nhưng vế sau nói 'giá và số lượng đều rất rõ', tức là viết chi tiết, nên 详细 khớp nhất."
+   }
+  },
+  {
+   "k": "order",
+   "q": "HSK4 书写 · 完成句子: xếp các từ thành câu",
+   "tokens": ["他们的", "质量标准", "比", "新星公司", "高"],
+   "explain": "Câu so sánh: A (他们的质量标准) + 比 + B (新星公司) + tính từ (高). 他们的 đứng trước danh từ 质量标准; tính từ đứng cuối, không thêm 很.",
+   "vi": "Tiêu chuẩn chất lượng của họ cao hơn công ty Tân Tinh.",
+   "en": "Their quality standards are higher than Xinxing's."
+  }
+ ],
+ "shadow": [
+  {
+   "t": "数量",
+   "py": "shùliàng",
+   "focus": "sh uốn lưỡi; hai thanh 4 liền nhau: shù rơi mạnh, liàng rơi nhẹ hơn; -ng mũi sau, miệng mở.",
+   "en": "quantity"
+  },
+  {
+   "t": "至少",
+   "py": "zhìshǎo",
+   "focus": "zh và sh đều uốn lưỡi; zhì thanh 4 rơi xuống, shǎo thanh 3 xuống thấp rồi lên nhẹ ở cuối từ.",
+   "en": "at least"
+  },
+  {
+   "t": "考虑",
+   "py": "kǎolǜ",
+   "focus": "k bật hơi; kǎo chỉ đọc nửa thanh 3 (xuống thấp, không lên) vì đứng trước thanh 4; lǜ tròn môi như đọc 'i' mà chu môi.",
+   "en": "to consider"
+  },
+  {
+   "t": "如果超过两千个，我们就打九折。",
+   "py": "Rúguǒ chāoguò liǎngqiān ge, wǒmen jiù dǎ jiǔ zhé.",
+   "focus": "打九 là thanh 3 + thanh 3 nên 打 đọc thành dá; r trong rú uốn lưỡi, không thành 'z'; chāo ch bật hơi.",
+   "en": "If it's over 2,000 pieces, we'll give 10% off."
+  },
+  {
+   "t": "请给我们一个详细的报价。",
+   "py": "Qǐng gěi wǒmen yí ge xiángxì de bàojià.",
+   "focus": "请给我 là ba thanh 3 liền nhau: đọc qíng géi wǒ; 一个 đọc yí ge; xiáng lên giọng, xì rơi xuống.",
+   "en": "Please give us a detailed quotation."
+  },
+  {
+   "t": "我们考虑一下，明天给您回答。",
+   "py": "Wǒmen kǎolǜ yíxià, míngtiān gěi nín huídá.",
+   "focus": "一下 đọc yíxià (一 thành thanh 2 trước thanh 4); 回答 là hai thanh 2 đều đi lên; nín có -n đầu lưỡi, không thành -ng.",
+   "en": "We'll think it over and answer you tomorrow."
+  }
+ ],
+ "dialog": {
+  "title": "Ngồi với 陈总 (Chén zǒng) ở gian hàng: nói số lượng ước tính, hỏi giảm giá, so sánh với công ty Tân Tinh và xin báo giá chi tiết. Đổi vai: bạn là 陈总 trả lời.",
+  "partner": "陈总",
+  "turns": [
+   {
+    "ai": "阮小姐，你们这次想买多少个杯子？",
+    "py": "Ruǎn xiǎojiě, nǐmen zhè cì xiǎng mǎi duōshao ge bēizi?",
+    "vi": "Cô Nguyễn, lần này các cô muốn mua bao nhiêu chiếc cốc?",
+    "en": "Ms Nguyen, how many cups would you like to buy this time?",
+    "model": "我估计第一个订单有两千个左右。",
+    "mpy": "Wǒ gūjì dì yī ge dìngdān yǒu liǎngqiān ge zuǒyòu.",
+    "men": "I estimate the first order will be about 2,000 pieces.",
+    "accept": ["我估计第一个订单有两千个左右。", "我估计有两千个左右。", "两千个左右。", "我估计第一个订单有三千个左右。", "woguji diyige dingdan you liangqiange zuoyou", "wogujidiyigedingdanyouliangqiangezuoyou", "liangqiangezuoyou"],
+    "frame": "我估计第一个订单有___个左右。",
+    "hint": "Đoán con số: 我估计 + câu + 左右 (khoảng). Ví dụ: 两千个左右."
+   },
+   {
+    "ai": "两千个没问题。我们一个订单至少要一千个。",
+    "py": "Liǎngqiān ge méi wèntí. Wǒmen yí ge dìngdān zhìshǎo yào yìqiān ge.",
+    "vi": "2.000 chiếc thì không vấn đề gì. Một đơn của chúng tôi ít nhất phải 1.000 chiếc.",
+    "en": "2,000 is no problem. Our orders are at least 1,000 pieces.",
+    "model": "如果超过两千个，你们能打折吗？",
+    "mpy": "Rúguǒ chāoguò liǎngqiān ge, nǐmen néng dǎ zhé ma?",
+    "men": "If it's over 2,000 pieces, can you give a discount?",
+    "accept": ["如果超过两千个，你们能打折吗？", "如果超过两千个，能打折吗？", "能打折吗？", "如果超过两千个，你们能打几折？", "ruguochaoguoliangqiange nimen neng dazhe ma", "ruguochaoguoliangqiangenimennengdazhema", "nengdazhema"],
+    "frame": "如果超过两千个，你们能___吗？",
+    "hint": "Đặt điều kiện với 如果 + 超过 + số lượng, rồi hỏi có giảm giá không: 能打折吗？"
+   },
+   {
+    "ai": "可以。超过两千个就打九折，每个二十二块五。",
+    "py": "Kěyǐ. Chāoguò liǎngqiān ge jiù dǎ jiǔ zhé, měi ge èrshí'èr kuài wǔ.",
+    "vi": "Được. Vượt 2.000 chiếc thì giảm 10%, mỗi chiếc 22,5 tệ.",
+    "en": "Yes. Over 2,000 pieces we give 10% off, which is 22.5 yuan each.",
+    "model": "新星公司每个只要二十元，比你们便宜。",
+    "mpy": "Xīnxīng gōngsī měi ge zhǐ yào èrshí yuán, bǐ nǐmen piányi.",
+    "men": "Xinxing only charges 20 yuan each, which is cheaper than you.",
+    "accept": ["新星公司每个只要二十元，比你们便宜。", "新星公司比你们便宜。", "新星公司每个只要二十元。", "新星公司的价格比你们低。", "xinxinggongsimeigezhiyaoershiyuan bi nimen pianyi", "xinxinggongsimeigezhiyaoershiyuanbinimenpianyi", "xinxinggongsibinimenpianyi"],
+    "frame": "新星公司每个只要二十元，比你们___。",
+    "hint": "So sánh để thương lượng: A 比 B + tính từ (便宜), không thêm 很."
+   },
+   {
+    "ai": "他们虽然便宜，但是质量没有我们的好。我们的标准很高。",
+    "py": "Tāmen suīrán piányi, dànshì zhìliàng méiyǒu wǒmen de hǎo. Wǒmen de biāozhǔn hěn gāo.",
+    "vi": "Họ tuy rẻ, nhưng chất lượng không tốt bằng của chúng tôi. Tiêu chuẩn của chúng tôi rất cao.",
+    "en": "They may be cheaper, but their quality isn't as good as ours. Our standards are very high.",
+    "model": "那请您给我们一个详细的报价，说明一下质量标准。",
+    "mpy": "Nà qǐng nín gěi wǒmen yí ge xiángxì de bàojià, shuōmíng yíxià zhìliàng biāozhǔn.",
+    "men": "Then please give us a detailed quotation and explain your quality standards.",
+    "accept": ["那请您给我们一个详细的报价，说明一下质量标准。", "请您给我们一个详细的报价。", "请给我们一个详细的报价。", "请说明一下质量标准。", "qingningeiwomenyigexiangxidebaojia", "qinggeiwomenyigexiangxidebaojia", "naqingningeiwomenyigexiangxidebaojiashuomingyixiazhiliangbiaozhun"],
+    "frame": "那请您给我们一个___的报价，说明一下质量标准。",
+    "hint": "Xin báo giá chi tiết: 请您给我们一个 + 详细的 + 报价; thêm 说明一下 + việc cần làm rõ."
+   },
+   {
+    "ai": "好的，我今天晚上发给你。你们觉得合适，就下订单吧。",
+    "py": "Hǎo de, wǒ jīntiān wǎnshang fā gěi nǐ. Nǐmen juéde héshì, jiù xià dìngdān ba.",
+    "vi": "Được, tối nay tôi gửi cho cô. Các cô thấy phù hợp thì đặt hàng nhé.",
+    "en": "OK, I'll send it to you tonight. If it suits you, go ahead and place an order.",
+    "model": "谢谢陈总！我们考虑一下，明天给您回答。",
+    "mpy": "Xièxie Chén zǒng! Wǒmen kǎolǜ yíxià, míngtiān gěi nín huídá.",
+    "men": "Thank you, Mr Chen! We'll think it over and give you an answer tomorrow.",
+    "accept": ["谢谢陈总！我们考虑一下，明天给您回答。", "我们考虑一下，明天给您回答。", "我们考虑一下。", "谢谢！我们考虑一下。", "xiexiechenzong women kaolv yixia", "xiexiechenzongwomenkaolvyixiamingtiangeininhuida", "womenkaolvyixia", "womenkaoluyixia"],
+    "frame": "谢谢陈总！我们___一下，明天给您回答。",
+    "hint": "Cảm ơn, rồi lịch sự chưa trả lời ngay: 我们考虑一下 + 明天给您回答."
+   }
+  ]
+ },
+ "reading": {
+  "title": "Báo giá chi tiết của giám đốc Trần",
+  "text": "阮小姐、王小姐：你们好！谢谢你们对我们产品的兴趣。下面是我们的详细报价：每个杯子二十五元，一个订单至少要一千个。如果数量超过两千个，我们就打九折；超过五千个，就打八折。我们的杯子不但质量好，而且质量标准比一般的公司高。从下订单到送到河内，一般要三十天左右。请你们考虑一下，如果觉得合适，可以给我打电话。陈总",
+  "py": "Ruǎn xiǎojiě, Wáng xiǎojiě: nǐmen hǎo! Xièxie nǐmen duì wǒmen chǎnpǐn de xìngqù. Xiàmiàn shì wǒmen de xiángxì bàojià: měi ge bēizi èrshíwǔ yuán, yí ge dìngdān zhìshǎo yào yìqiān ge. Rúguǒ shùliàng chāoguò liǎngqiān ge, wǒmen jiù dǎ jiǔ zhé; chāoguò wǔqiān ge, jiù dǎ bā zhé. Wǒmen de bēizi búdàn zhìliàng hǎo, érqiě zhìliàng biāozhǔn bǐ yìbān de gōngsī gāo. Cóng xià dìngdān dào sòng dào Hénèi, yìbān yào sānshí tiān zuǒyòu. Qǐng nǐmen kǎolǜ yíxià, rúguǒ juéde héshì, kěyǐ gěi wǒ dǎ diànhuà. Chén zǒng",
+  "en": "Dear Ms Nguyen and Ms Wang, thank you for your interest in our products. Here is our detailed quotation: each cup is 25 yuan, and each order must be at least 1,000 pieces. If the quantity is over 2,000 pieces, we give 10% off; over 5,000 pieces, 20% off. Our cups are not only good quality, but our quality standards are also higher than most companies'. From placing the order to delivery in Hanoi usually takes about 30 days. Please think it over, and if it suits you, give me a call. Chen",
+  "vi": "Cô Nguyễn, cô Vương thân mến! Cảm ơn hai cô đã quan tâm đến sản phẩm của chúng tôi. Dưới đây là báo giá chi tiết: mỗi chiếc cốc 25 tệ, một đơn hàng ít nhất 1.000 chiếc. Nếu số lượng vượt quá 2.000 chiếc, chúng tôi giảm 10%; vượt quá 5.000 chiếc thì giảm 20%. Cốc của chúng tôi không những chất lượng tốt mà tiêu chuẩn chất lượng còn cao hơn các công ty thông thường. Từ lúc đặt hàng đến khi giao tới Hà Nội thường mất khoảng 30 ngày. Mời hai cô cân nhắc, nếu thấy phù hợp thì có thể gọi điện cho tôi. Giám đốc Trần",
+  "qs": [
+   {
+    "q": "Mỗi chiếc cốc giá bao nhiêu (chưa giảm giá)?",
+    "opts": ["25 tệ", "20 tệ", "22,5 tệ"],
+    "optsEn": ["25 yuan", "20 yuan", "22.5 yuan"],
+    "a": 0,
+    "why": {
+     "1": "Bài không có 二十元 (20 tệ); bài viết 每个杯子二十五元.",
+     "2": "22,5 tệ là giá sau khi giảm 10% (mua hơn 2.000 chiếc); câu hỏi hỏi giá gốc là 二十五元."
+    }
+   },
+   {
+    "q": "Một đơn hàng ít nhất phải bao nhiêu chiếc?",
+    "opts": ["1.000 chiếc", "2.000 chiếc", "5.000 chiếc"],
+    "optsEn": ["1,000 pieces", "2,000 pieces", "5,000 pieces"],
+    "a": 0,
+    "why": {
+     "1": "2.000 chiếc là mức để được giảm 10% (超过两千个), không phải mức tối thiểu.",
+     "2": "5.000 chiếc là mức để được giảm 20% (超过五千个); mức tối thiểu là 至少要一千个."
+    }
+   },
+   {
+    "q": "Mua hơn 5.000 chiếc thì được giảm bao nhiêu?",
+    "opts": ["giảm 20%", "giảm 80%", "giảm 10%"],
+    "optsEn": ["20% off", "80% off", "10% off"],
+    "a": 0,
+    "why": {
+     "1": "打八折 = trả 80% giá, nên chỉ giảm 20%, không phải giảm 80%.",
+     "2": "Giảm 10% (打九折) là mức cho đơn hơn 2.000 chiếc."
+    }
+   },
+   {
+    "q": "Đúng hay sai: 数量超过两千个，就打八折。",
+    "opts": ["Đúng", "Sai"],
+    "optsEn": ["True", "False"],
+    "a": 1,
+    "why": {
+     "0": "Chọn 'Đúng' là chưa khớp: bài viết 超过两千个打九折 (giảm 10%); 打八折 là cho đơn hơn 5.000 chiếc."
+    }
+   },
+   {
+    "q": "Từ lúc đặt hàng đến khi hàng tới Hà Nội thường mất bao lâu?",
+    "opts": ["khoảng 30 ngày", "khoảng 13 ngày", "khoảng 3 ngày"],
+    "optsEn": ["about 30 days", "about 13 days", "about 3 days"],
+    "a": 0,
+    "why": {
+     "1": "13 ngày là 十三天; bài viết 三十天左右 (khoảng 30 ngày), chú ý thứ tự 三 và 十.",
+     "2": "3 ngày là 三天; bài viết 三十天, có thêm 十."
+    }
+   }
+  ]
+ },
+ "near": [
+  {
+   "q": "Chọn từ đúng: 这个价格对我们来说很___。(Giá này đối với chúng tôi rất phù hợp.)",
+   "opts": ["合适", "适合", "标准"],
+   "a": 0,
+   "why": {
+    "1": "适合 (shìhé) là động từ, phải có tân ngữ phía sau (适合我们). Câu này kết thúc bằng 很___, cần một tính từ, nên dùng 合适 (héshì).",
+    "2": "标准 (biāozhǔn) làm tính từ nghĩa là 'chuẩn' (发音很标准); nói giá có hợp với mình hay không thì dùng 合适."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 这种杯子很___办公室用。(Loại cốc này rất hợp để dùng ở văn phòng.)",
+   "opts": ["适合", "合适"],
+   "a": 0,
+   "why": {
+    "1": "合适 là tính từ, không mang tân ngữ: không nói 合适办公室. Phía sau có 办公室用 nên cần động từ 适合."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 一个订单___要一千个，少一个都不行。(Một đơn ít nhất phải 1.000 chiếc, thiếu một chiếc cũng không được.)",
+   "opts": ["至少", "超过", "最多"],
+   "a": 0,
+   "why": {
+    "1": "超过 (chāoguò) = vượt quá, là động từ, số lượng phải đứng ngay sau nó (超过一千个), không đứng trước 要. Ý câu là mức thấp nhất.",
+    "2": "最多 (zuì duō) = nhiều nhất, ngược nghĩa với vế sau 少一个都不行 (thiếu một chiếc cũng không được)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 你们的订单已经___五千个了，可以打八折。(Đơn của các bạn đã vượt 5.000 chiếc rồi, được giảm 20%.)",
+   "opts": ["超过", "至少", "多"],
+   "a": 0,
+   "why": {
+    "1": "至少 (zhìshǎo) chỉ nêu mức thấp nhất, không có nghĩa 'vượt qua'. Sau 已经 ở đây cần động từ: 已经超过……了.",
+    "2": "多 (duō) là tính từ 'nhiều'; muốn nói 'hơn 5.000' thì nói 五千多个, không đặt 多 trước số."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 价格我们还要___一下，明天给您回答。(Về giá, chúng tôi còn phải cân nhắc thêm, mai trả lời ông.)",
+   "opts": ["考虑", "认为", "觉得"],
+   "a": 0,
+   "why": {
+    "1": "认为 (rènwéi) = cho rằng, phía sau là một ý kiến (我认为价格合适), không đi với 一下.",
+    "2": "觉得 (juéde) = cảm thấy, cũng cần một ý kiến phía sau; 'cân nhắc trước khi quyết định' là 考虑."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我___这次的订单有两千个左右。(Tôi ước chừng đơn lần này khoảng 2.000 chiếc.)",
+   "opts": ["估计", "以为", "说明"],
+   "a": 0,
+   "why": {
+    "1": "以为 (yǐwéi) = tưởng là, thường là tưởng sai (我以为很便宜 = tôi cứ tưởng rẻ). Câu này đoán một con số, có 左右, nên dùng 估计.",
+    "2": "说明 (shuōmíng) = giải thích cho rõ, không đi với ý đoán chừng 左右."
+   }
+  }
+ ],
+ "orderPara": [
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+   "tokens": ["我们公司想买一些办公室用的杯子。", "因为数量比较多，所以想问一下能不能打折。", "如果价格合适，我们就下订单。"],
+   "explain": "Câu đầu nêu việc (想买杯子). Câu có 因为……所以 nói lý do hỏi giảm giá, dựa vào 数量 của câu trước. Câu 如果……就 là bước tiếp theo, nên đứng cuối.",
+   "vi": "Công ty chúng tôi muốn mua một ít cốc dùng cho văn phòng. Vì số lượng khá nhiều nên muốn hỏi có giảm giá được không. Nếu giá phù hợp, chúng tôi sẽ đặt hàng.",
+   "en": "Our company would like to buy some cups for office use. Because the quantity is fairly large, we'd like to ask whether you can give a discount. If the price is right, we'll place an order."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+   "tokens": ["新星公司的杯子比较便宜，每个只要二十元。", "但是他们一个订单至少要五千个。", "这个数量对我们来说太多了，所以我们没有选他们。"],
+   "explain": "Câu đầu có tên 新星公司 nên mở đoạn. 但是 đưa ra điểm trái ngược với 'rẻ'. 这个数量 chỉ lại 五千个 ở câu trước, nên đứng cuối.",
+   "vi": "Cốc của công ty Tân Tinh khá rẻ, mỗi chiếc chỉ 20 tệ. Nhưng một đơn của họ ít nhất phải 5.000 chiếc. Số lượng này đối với chúng tôi quá nhiều, nên chúng tôi không chọn họ.",
+   "en": "Xinxing's cups are fairly cheap, only 20 yuan each. But their orders must be at least 5,000 pieces. That quantity is too large for us, so we didn't choose them."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+   "tokens": ["昨天晚上陈总给我们发了一个报价。", "这个报价写得很详细，每种杯子的价格都很清楚。", "我们看了以后，觉得价格比较合适。", "所以我们决定先下一个两千个的订单。"],
+   "explain": "Câu đầu giới thiệu 一个报价. 这个报价 chỉ lại báo giá vừa nhắc. 看了以后 là việc xảy ra sau khi nhận. 所以 nêu kết quả, nên đứng cuối.",
+   "vi": "Tối qua giám đốc Trần gửi cho chúng tôi một bản báo giá. Bản báo giá này viết rất chi tiết, giá từng loại cốc đều rất rõ ràng. Xem xong, chúng tôi thấy giá khá phù hợp. Vì vậy chúng tôi quyết định đặt trước một đơn 2.000 chiếc.",
+   "en": "Last night Mr Chen sent us a quotation. It was very detailed, and the price of each kind of cup was clear. After reading it, we felt the price was fairly reasonable. So we decided to place a first order of 2,000 pieces."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+   "tokens": ["王经理问我第一个订单要多少个杯子。", "我估计两千个左右。", "虽然现在不多，但是以后可能会越来越多。"],
+   "explain": "Câu hỏi của 王经理 phải đứng trước. 我估计 là câu trả lời. 虽然现在不多 nói về con số 两千个 vừa nêu, nên đứng cuối.",
+   "vi": "Giám đốc Vương hỏi tôi đơn hàng đầu tiên cần bao nhiêu chiếc cốc. Tôi ước tính khoảng 2.000 chiếc. Tuy bây giờ chưa nhiều, nhưng sau này có thể ngày càng nhiều hơn.",
+   "en": "Manager Wang asked me how many cups the first order would be. I estimated about 2,000. It isn't many now, but it may keep growing later."
+  }
+ ],
+ "notes": {
+  "title": "Ghi chú: báo giá qua điện thoại",
+  "lines": [
+   {
+    "who": "阮安",
+    "t": "陈总，您好！我想再问一下价格的问题。",
+    "py": "Chén zǒng, nín hǎo! Wǒ xiǎng zài wèn yíxià jiàgé de wèntí.",
+    "vi": "Chào giám đốc Trần! Tôi muốn hỏi lại một chút về giá.",
+    "en": "Hello, Mr Chen! I'd like to ask a few more questions about the price."
+   },
+   {
+    "who": "陈总",
+    "t": "好的。我们的大杯子每个二十五元，小杯子每个十八元。",
+    "py": "Hǎo de. Wǒmen de dà bēizi měi ge èrshíwǔ yuán, xiǎo bēizi měi ge shíbā yuán.",
+    "vi": "Được. Cốc lớn của chúng tôi mỗi chiếc 25 tệ, cốc nhỏ mỗi chiếc 18 tệ.",
+    "en": "Sure. Our large cups are 25 yuan each and the small cups are 18 yuan each."
+   },
+   {
+    "who": "阮安",
+    "t": "一个订单至少要多少个？",
+    "py": "Yí ge dìngdān zhìshǎo yào duōshao ge?",
+    "vi": "Một đơn ít nhất phải bao nhiêu chiếc?",
+    "en": "What's the minimum for one order?"
+   },
+   {
+    "who": "陈总",
+    "t": "至少一千个。大杯子和小杯子可以一起算。",
+    "py": "Zhìshǎo yìqiān ge. Dà bēizi hé xiǎo bēizi kěyǐ yìqǐ suàn.",
+    "vi": "Ít nhất 1.000 chiếc. Cốc lớn và cốc nhỏ có thể tính chung.",
+    "en": "At least 1,000. Large and small cups can be counted together."
+   },
+   {
+    "who": "阮安",
+    "t": "如果我们买两千五百个，能打几折？",
+    "py": "Rúguǒ wǒmen mǎi liǎngqiān wǔbǎi ge, néng dǎ jǐ zhé?",
+    "vi": "Nếu chúng tôi mua 2.500 chiếc thì được giảm bao nhiêu?",
+    "en": "If we buy 2,500 pieces, how much discount can you give?"
+   },
+   {
+    "who": "陈总",
+    "t": "超过两千个就打九折，超过五千个打八折。",
+    "py": "Chāoguò liǎngqiān ge jiù dǎ jiǔ zhé, chāoguò wǔqiān ge dǎ bā zhé.",
+    "vi": "Hơn 2.000 chiếc thì giảm 10%, hơn 5.000 chiếc giảm 20%.",
+    "en": "Over 2,000 pieces is 10% off, over 5,000 is 20% off."
+   },
+   {
+    "who": "阮安",
+    "t": "从下订单到送到河内，要多长时间？",
+    "py": "Cóng xià dìngdān dào sòng dào Hénèi, yào duō cháng shíjiān?",
+    "vi": "Từ lúc đặt hàng đến khi giao tới Hà Nội mất bao lâu?",
+    "en": "How long does it take from placing the order to delivery in Hanoi?"
+   },
+   {
+    "who": "陈总",
+    "t": "一般要三十天左右。",
+    "py": "Yìbān yào sānshí tiān zuǒyòu.",
+    "vi": "Thường mất khoảng 30 ngày.",
+    "en": "Usually about 30 days."
+   },
+   {
+    "who": "阮安",
+    "t": "好的。详细的报价请您发给王丽，谢谢！",
+    "py": "Hǎo de. Xiángxì de bàojià qǐng nín fā gěi Wáng Lì, xièxie!",
+    "vi": "Vâng. Bản báo giá chi tiết xin ông gửi cho Vương Lệ, cảm ơn ông!",
+    "en": "All right. Please send the detailed quotation to Wang Li. Thank you!"
+   },
+   {
+    "who": "陈总",
+    "t": "没问题，今天晚上就发给她。",
+    "py": "Méi wèntí, jīntiān wǎnshang jiù fā gěi tā.",
+    "vi": "Không vấn đề gì, tối nay tôi gửi cho cô ấy.",
+    "en": "No problem, I'll send it to her tonight."
+   }
+  ],
+  "form": [
+   {
+    "label": "Giá cốc lớn (mỗi chiếc)",
+    "opts": ["二十五元", "十八元", "二十元"],
+    "a": 0,
+    "why": {
+     "1": "十八元 (18 tệ) là giá cốc NHỎ (小杯子).",
+     "2": "Bài nghe không có 二十元; cốc lớn là 二十五元."
+    }
+   },
+   {
+    "label": "Giá cốc nhỏ (mỗi chiếc)",
+    "opts": ["十八元", "八十元", "二十五元"],
+    "a": 0,
+    "why": {
+     "1": "八十 (80) và 十八 (18) đảo thứ tự: 十 đứng trước là 'mười mấy', đứng sau là 'mấy mươi'. Bài nghe nói 十八元.",
+     "2": "二十五元 (25 tệ) là giá cốc LỚN (大杯子)."
+    }
+   },
+   {
+    "label": "Số lượng tối thiểu một đơn",
+    "opts": ["一千个", "两千个", "五千个"],
+    "a": 0,
+    "why": {
+     "1": "两千个 là mức để được giảm 10%, không phải mức tối thiểu.",
+     "2": "五千个 là mức để được giảm 20%; mức tối thiểu là 至少一千个."
+    }
+   },
+   {
+    "label": "Mua 2.500 chiếc được",
+    "opts": ["打九折", "打八折", "不打折"],
+    "a": 0,
+    "why": {
+     "1": "打八折 chỉ dành cho đơn 超过五千个; 2.500 chiếc chưa tới 5.000.",
+     "2": "2.500 chiếc đã 超过两千个 nên có giảm giá, không phải 不打折."
+    }
+   },
+   {
+    "label": "Thời gian giao hàng tới Hà Nội",
+    "opts": ["三十天左右", "十三天左右", "三天左右"],
+    "a": 0,
+    "why": {
+     "1": "十三天 là 13 ngày; bài nghe nói 三十天 (30 ngày).",
+     "2": "三天 là 3 ngày; bài nghe nói 三十天, có thêm 十."
+    }
+   },
+   {
+    "label": "Gửi báo giá chi tiết cho ai",
+    "opts": ["王丽", "阮安", "王经理"],
+    "a": 0,
+    "why": {
+     "1": "阮安 là người gọi điện, nhưng chị nhờ gửi báo giá cho 王丽.",
+     "2": "王经理 không được nhắc đến trong cuộc gọi này."
+    }
+   }
+  ]
+ },
+ "longturn": {
+  "cue": "请比较两家供应商，说说你会选哪一家，为什么。",
+  "cueVi": "Hãy so sánh hai nhà cung cấp, nói bạn sẽ chọn bên nào và vì sao. (nói khoảng 1 phút)",
+  "cuePy": "Qǐng bǐjiào liǎng jiā gōngyìngshāng, shuōshuo nǐ huì xuǎn nǎ yì jiā, wèi shénme.",
+  "points": ["两家供应商的价格", "质量和质量标准", "订单至少要多少个，能不能打折", "你选哪一家，为什么"],
+  "pointsVi": ["Giá của hai nhà cung cấp", "Chất lượng và tiêu chuẩn chất lượng", "Đơn hàng tối thiểu bao nhiêu, có giảm giá không", "Bạn chọn bên nào, vì sao"],
+  "prep": 60,
+  "speak": [60, 120],
+  "model": "这次在广州，我们比较了两家供应商。新星公司的价格比较低，每个杯子只要二十元，但是一个订单至少要五千个，对我们来说太多了。陈总的公司虽然贵一点儿，但是质量标准很高，而且一千个就可以下订单。如果超过两千个，他们还能打九折。我估计我们第一个订单有两千个左右，所以我觉得陈总的公司更合适。",
+  "modelPy": "Zhè cì zài Guǎngzhōu, wǒmen bǐjiào le liǎng jiā gōngyìngshāng. Xīnxīng gōngsī de jiàgé bǐjiào dī, měi ge bēizi zhǐ yào èrshí yuán, dànshì yí ge dìngdān zhìshǎo yào wǔqiān ge, duì wǒmen lái shuō tài duō le. Chén zǒng de gōngsī suīrán guì yìdiǎnr, dànshì zhìliàng biāozhǔn hěn gāo, érqiě yìqiān ge jiù kěyǐ xià dìngdān. Rúguǒ chāoguò liǎngqiān ge, tāmen hái néng dǎ jiǔ zhé. Wǒ gūjì wǒmen dì yī ge dìngdān yǒu liǎngqiān ge zuǒyòu, suǒyǐ wǒ juéde Chén zǒng de gōngsī gèng héshì.",
+  "modelVi": "Lần này ở Quảng Châu, chúng tôi đã so sánh hai nhà cung cấp. Giá của công ty Tân Tinh khá thấp, mỗi chiếc cốc chỉ 20 tệ, nhưng một đơn ít nhất phải 5.000 chiếc, đối với chúng tôi là quá nhiều. Công ty của giám đốc Trần tuy đắt hơn một chút, nhưng tiêu chuẩn chất lượng rất cao, hơn nữa chỉ cần 1.000 chiếc là đặt hàng được. Nếu vượt quá 2.000 chiếc, họ còn giảm 10%. Tôi ước tính đơn đầu tiên của chúng tôi khoảng 2.000 chiếc, nên tôi thấy công ty của giám đốc Trần phù hợp hơn.",
+  "useful": ["A比B便宜一点儿", "A没有B那么好", "虽然……，但是……", "不但……，而且……", "如果……，就……", "对我们来说……", "我估计……左右", "所以我觉得……更合适"],
+  "check": ["Nói đủ 4 ý: giá, chất lượng, số lượng tối thiểu và giảm giá, lựa chọn của bạn", "Dùng ít nhất 3 cặp từ nối (虽然……但是, 不但……而且, 如果……就, 因为……所以)", "Có ít nhất một câu so sánh với 比 hoặc 没有 (không thêm 很)", "Dùng đúng 至少 và 超过 với con số", "Kết thúc bằng lựa chọn rõ ràng và lý do", "Nói liền khoảng 1 phút, không dừng quá lâu"]
+ },
+ "write": {
+  "task": "Viết email ngắn gửi 陈总 (Chén zǒng) xin báo giá chi tiết: nói số lượng bạn ước tính, xin giá từng loại, số lượng tối thiểu, mức giảm giá và tiêu chuẩn chất lượng. (80–120 chữ Hán)",
+  "kind": "email",
+  "model": "陈总：您好！我是越南公司的阮安。昨天在大会上看了你们的杯子，我们觉得质量很好。我估计我们第一次要两千个左右。请您给我们一个详细的报价，说明一下每种杯子的价格、一个订单至少要多少个、超过多少个可以打折。还有，请您说明一下你们的质量标准。如果价格合适，我们就下订单。谢谢！阮安",
+  "frame": "陈总：您好！我是越南公司的阮安。昨天在大会上看了你们的杯子，我们觉得质量很好。我___我们第一次要___左右。请您给我们一个___的报价，说明一下每种杯子的价格、一个订单___要多少个、超过多少个可以___。还有，请您说明一下你们的质量标准。如果价格合适，我们就___。谢谢！阮安",
+  "gaps": ["估计", "两千个", "详细", "至少", "打折", "下订单"],
+  "free": [false, true, false, false, false, false],
+  "hints": ["Mở đầu: 陈总：您好！我是……的阮安。", "Ước tính số lượng: 我估计 + số lượng + 左右", "Xin báo giá: 请您给我们一个详细的报价", "Hỏi điều kiện: 至少要多少个？超过多少个可以打折？", "Kết: 如果价格合适，我们就下订单。谢谢！"],
+  "check": ["Có lời chào và tự giới thiệu", "Nêu số lượng ước tính với 估计……左右", "Xin báo giá chi tiết (详细的报价) và hỏi 至少, 打折", "Có câu 如果……就……", "Có lời cảm ơn và tên người viết", "Dài 80–120 chữ Hán"],
+  "words": [80, 120]
+ },
+ "gloss": {
+  "数量": ["shùliàng", "quantity", "số lượng"],
+  "打折": ["dǎ zhé", "to give a discount", "giảm giá, chiết khấu"],
+  "估计": ["gūjì", "to estimate", "ước tính, đoán chừng"],
+  "至少": ["zhìshǎo", "at least", "ít nhất, tối thiểu"],
+  "超过": ["chāoguò", "to exceed, to be more than", "vượt quá, nhiều hơn"],
+  "详细": ["xiángxì", "detailed", "chi tiết, tỉ mỉ"],
+  "说明": ["shuōmíng", "to explain, to make clear", "giải thích, trình bày rõ"],
+  "考虑": ["kǎolǜ", "to consider, to think over", "cân nhắc, suy nghĩ kỹ"],
+  "合适": ["héshì", "suitable, right", "phù hợp, vừa"],
+  "标准": ["biāozhǔn", "standard", "tiêu chuẩn; chuẩn"],
+  "订单": ["dìngdān", "order (purchase order)", "đơn đặt hàng"],
+  "陈总": ["Chén zǒng", "Mr Chen, the company head", "giám đốc Trần (tên)"],
+  "小刘": ["Xiǎo Liú", "Xiao Liu (name)", "Tiểu Lưu (tên)"],
+  "新星公司": ["Xīnxīng gōngsī", "Xinxing Company (name)", "công ty Tân Tinh (tên)"],
+  "广州": ["Guǎngzhōu", "Guangzhou", "Quảng Châu (tên)"],
+  "河内": ["Hénèi", "Hanoi", "Hà Nội (tên)"],
+  "报价": ["bàojià", "quotation, price quote", "báo giá"],
+  "供应商": ["gōngyìngshāng", "supplier", "nhà cung cấp"],
+  "下订单": ["xià dìngdān", "to place an order", "đặt hàng"],
+  "打九折": ["dǎ jiǔ zhé", "10% off", "giảm 10% (trả 90% giá)"]
+ }
+}

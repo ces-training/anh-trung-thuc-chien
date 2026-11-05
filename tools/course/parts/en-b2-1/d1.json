@@ -1,0 +1,888 @@
+{
+ "id": "b2-w1-thu-2",
+ "label": "Thứ 2",
+ "title": "Đọc số liệu chạy thử, mô tả xu hướng",
+ "desc": "Sáng thứ Hai, cả nhóm xem lại số liệu chạy thử ứng dụng Bright Star ở Đà Nẵng trước buổi gặp Nordwind Retail. Bạn mô tả xu hướng (surge, fluctuate, peak at, remain steady), ước lượng và so sánh số liệu (approximately, just over, almost twice as high as), rồi viết đoạn mô tả biểu đồ kiểu IELTS Writing Task 1.",
+ "rule": "Mô tả xu hướng theo hai cách: động từ + trạng từ (rose sharply, fell slightly) hoặc a + tính từ + danh từ + in (a sharp rise in, a slight fall in). Giới từ với số liệu: rise from A to B, rise by + mức chênh, peak at + số. Có mốc thời gian đã qua (in July, last month) thì dùng quá khứ đơn; nói kết quả tính đến nay (since…, so far) thì dùng hiện tại hoàn thành.",
+ "cards": [
+  {
+   "w": "surge",
+   "ipa": "/sɜːdʒ/",
+   "m": "tăng vọt; sự tăng vọt",
+   "ex": "Downloads surged after the free-delivery weekend.",
+   "exm": "Lượt tải tăng vọt sau dịp cuối tuần miễn phí giao hàng.",
+   "n": "Vừa là động từ vừa là danh từ: a surge in demand = nhu cầu tăng vọt. Mạnh và đột ngột hơn rise. Đọc gần như 'xơ-gi', âm ơ kéo dài."
+  },
+  {
+   "w": "steady",
+   "ipa": "/ˈsted.i/",
+   "m": "ổn định, đều đặn",
+   "ex": "Retention remained steady at 62% throughout the summer.",
+   "exm": "Tỷ lệ giữ chân người dùng giữ ổn định ở mức 62% suốt mùa hè.",
+   "n": "remain / stay steady = giữ ổn định; a steady rise = tăng đều. Trạng từ: steadily (grew steadily). ea đọc /e/: 'xté-đi'."
+  },
+  {
+   "w": "fluctuate",
+   "ipa": "/ˈflʌk.tʃu.eɪt/",
+   "m": "dao động, lên xuống thất thường",
+   "ex": "Weekly downloads fluctuated between 500 and 700 in July.",
+   "exm": "Trong tháng Bảy, lượt tải mỗi tuần dao động trong khoảng 500 đến 700.",
+   "n": "fluctuate between A and B = dao động trong khoảng A đến B. Danh từ: fluctuation. Nhấn âm đầu: FLUC-tu-ate."
+  },
+  {
+   "w": "peak",
+   "ipa": "/piːk/",
+   "m": "đạt đỉnh; đỉnh, mức cao nhất",
+   "ex": "Downloads peaked at 1,250 in the week of 19 August.",
+   "exm": "Lượt tải đạt đỉnh 1.250 vào tuần bắt đầu ngày 19/8.",
+   "n": "peak at + số = đạt đỉnh ở mức…; reach a peak of + số. Đọc giống peek (nhìn trộm) nhưng nghĩa khác hẳn."
+  },
+  {
+   "w": "decline",
+   "ipa": "/dɪˈklaɪn/",
+   "m": "giảm; sự sụt giảm",
+   "ex": "Complaints about speed declined sharply in August.",
+   "exm": "Phàn nàn về tốc độ giảm mạnh trong tháng Tám.",
+   "n": "Trang trọng hơn fall, drop. Danh từ: a decline in + danh từ. Nghĩa khác: decline an offer = từ chối một đề nghị."
+  },
+  {
+   "w": "significant",
+   "ipa": "/sɪɡˈnɪf.ɪ.kənt/",
+   "m": "đáng kể, quan trọng",
+   "ex": "The faster loading time made a significant difference.",
+   "exm": "Thời gian tải nhanh hơn đã tạo ra khác biệt đáng kể.",
+   "n": "Trạng từ: significantly (rose significantly). Nhấn âm hai: sig-NIF-i-cant. Trong báo cáo số liệu, significant hay hơn big."
+  },
+  {
+   "w": "approximately",
+   "ipa": "/əˈprɒk.sɪ.mət.li/",
+   "m": "khoảng, xấp xỉ",
+   "ex": "We forecast approximately 2,000 users for the pilot.",
+   "exm": "Chúng tôi dự báo khoảng 2.000 người dùng cho đợt chạy thử.",
+   "n": "Trang trọng hơn about, around; đứng trước số. Muốn chính xác hơn: just over (hơn một chút), just under (gần đến), roughly (đại khái)."
+  },
+  {
+   "w": "proportion",
+   "ipa": "/prəˈpɔː.ʃən/",
+   "m": "tỷ lệ, phần (trong tổng thể)",
+   "ex": "A large proportion of orders were placed after 6 p.m.",
+   "exm": "Một tỷ lệ lớn đơn hàng được đặt sau 6 giờ tối.",
+   "n": "the proportion of + danh từ; a large / small proportion. Nhấn âm hai: pro-POR-tion."
+  },
+  {
+   "w": "outperform",
+   "ipa": "/ˌaʊt.pəˈfɔːm/",
+   "m": "vượt trội hơn, làm tốt hơn (so với)",
+   "ex": "Da Nang has outperformed other cities in terms of retention.",
+   "exm": "Xét về tỷ lệ giữ chân người dùng, Đà Nẵng vượt trội hơn các thành phố khác.",
+   "n": "Là ngoại động từ, KHÔNG dùng than: outperform the forecast, outperform our competitors. Nhấn âm cuối: out-per-FORM."
+  },
+  {
+   "w": "forecast",
+   "ipa": "/ˈfɔː.kɑːst/",
+   "m": "dự báo; bản dự báo",
+   "ex": "We forecast 25,000 monthly active users by December.",
+   "exm": "Chúng tôi dự báo có 25.000 người dùng hoạt động hằng tháng vào tháng Mười Hai.",
+   "n": "Quá khứ và quá khứ phân từ thường vẫn là forecast. Danh từ: Our forecast was too low. Nhấn âm đầu: FORE-cast.",
+   "img": "calc"
+  },
+  {
+   "w": "retention",
+   "ipa": "/rɪˈten.ʃən/",
+   "m": "(tỷ lệ) giữ chân khách hàng, người dùng",
+   "ex": "Our 30-day retention rate was almost twice the industry average.",
+   "exm": "Tỷ lệ giữ chân người dùng sau 30 ngày của chúng tôi gần gấp đôi mức trung bình ngành.",
+   "n": "Động từ: retain (giữ lại). customer retention = giữ chân khách hàng. Nhấn âm hai: re-TEN-tion."
+  },
+  {
+   "w": "conversion rate",
+   "ipa": "/kənˈvɜː.ʃən ˌreɪt/",
+   "m": "tỷ lệ chuyển đổi (khách truy cập thực sự mua, đặt hàng)",
+   "ex": "The conversion rate rose from 9% to 14%.",
+   "exm": "Tỷ lệ chuyển đổi tăng từ 9% lên 14%.",
+   "n": "Tỷ lệ phần trăm khách truy cập làm hành động mong muốn, ví dụ đặt hàng. Tăng từ 9% lên 14% là tăng 5 điểm phần trăm: rose by five percentage points.",
+   "img": "sales"
+  }
+ ],
+ "scene": {
+  "setting": "9 giờ sáng thứ Hai, phòng họp 2. Ngày mai bà Ingrid Larsen của Nordwind Retail sẽ đến, nên Sarah họp nhanh với cả nhóm để thống nhất cách trình bày số liệu chạy thử ở Đà Nẵng (1/7 đến 31/8). An trình bày số liệu trên màn hình lớn.",
+  "img": "scene-en-results-d1",
+  "imgPrompt": "A modern meeting room on a Monday morning: an, a Vietnamese woman about 26 with a black bob and a royal-blue top, points at a large screen showing a simple line graph that rises sharply to one clear peak; sarah, in a charcoal blazer, kevin, tom and linh sit around the table with laptops, looking interested, no readable text or numbers.",
+  "lines": [
+   {
+    "who": "Sarah",
+    "t": "Morning, everyone. As you know, Ingrid Larsen from Nordwind Retail is visiting tomorrow, so we need to agree on how to present the pilot results.",
+    "vi": "Chào cả nhóm. Như mọi người biết, ngày mai bà Ingrid Larsen của Nordwind Retail sẽ đến, nên mình cần thống nhất cách trình bày kết quả chạy thử."
+   },
+   {
+    "who": "An",
+    "t": "Overall, the pilot significantly outperformed our forecast. We expected approximately 2,000 monthly active users by the end of August, but we reached 4,300.",
+    "vi": "Nhìn chung, đợt chạy thử vượt dự báo đáng kể. Mình dự kiến khoảng 2.000 người dùng hoạt động hằng tháng vào cuối tháng Tám, nhưng thực tế đạt 4.300."
+   },
+   {
+    "who": "Kevin",
+    "t": "That's more than double! What caused such a surge?",
+    "vi": "Hơn gấp đôi luôn! Điều gì khiến số liệu tăng vọt như vậy?"
+   },
+   {
+    "who": "An",
+    "t": "Weekly downloads fluctuated between 500 and 700 in July. Then, after the free-delivery weekend, they peaked at 1,250 in the week of 19 August.",
+    "vi": "Trong tháng Bảy, lượt tải mỗi tuần dao động trong khoảng 500 đến 700. Sau đó, nhờ dịp cuối tuần miễn phí giao hàng, lượt tải đạt đỉnh 1.250 vào tuần bắt đầu ngày 19/8."
+   },
+   {
+    "who": "Tom",
+    "t": "And complaints about speed have declined sharply since we fixed the loading problem: from 140 in July to just 35 in August.",
+    "vi": "Còn phàn nàn về tốc độ thì đã giảm mạnh từ khi bọn anh sửa lỗi tải chậm: từ 140 trong tháng Bảy xuống chỉ còn 35 trong tháng Tám."
+   },
+   {
+    "who": "Linh",
+    "t": "What about retention? Nordwind will want to know whether people keep using the app after the first month.",
+    "vi": "Thế còn tỷ lệ giữ chân người dùng? Nordwind sẽ muốn biết người dùng có tiếp tục dùng ứng dụng sau tháng đầu không."
+   },
+   {
+    "who": "An",
+    "t": "Our 30-day retention rate remained steady at 62%, which is almost twice the industry average of approximately 35%.",
+    "vi": "Tỷ lệ giữ chân người dùng sau 30 ngày giữ ổn định ở mức 62%, gần gấp đôi mức trung bình ngành là khoảng 35%."
+   },
+   {
+    "who": "Sarah",
+    "t": "Impressive. And the conversion rate?",
+    "vi": "Ấn tượng đấy. Còn tỷ lệ chuyển đổi thì sao?"
+   },
+   {
+    "who": "An",
+    "t": "It rose from 9% in July to 14% in August. In other words, a much larger proportion of visitors actually placed an order.",
+    "vi": "Tỷ lệ này tăng từ 9% trong tháng Bảy lên 14% trong tháng Tám. Nói cách khác, tỷ lệ khách truy cập thực sự đặt hàng đã cao hơn nhiều."
+   },
+   {
+    "who": "Sarah",
+    "t": "Excellent. If we present the data this clearly, Ingrid will be convinced. An, could you prepare the slides by 4 p.m.?",
+    "vi": "Tuyệt vời. Nếu mình trình bày số liệu rõ ràng thế này, Ingrid sẽ bị thuyết phục. An, em chuẩn bị slide xong trước 4 giờ chiều được không?"
+   }
+  ]
+ },
+ "patterns": [
+  {
+   "t": "Mô tả xu hướng: động từ + trạng từ / a + tính từ + danh từ + in",
+   "f": [
+    ["Monthly users", "rose sharply", "in August."],
+    ["There was", "a sharp rise in", "monthly users."],
+    ["Complaints", "fell significantly", "after the update."]
+   ],
+   "ex": [
+    ["Downloads rose sharply in the second half of August.", "Lượt tải tăng mạnh vào nửa cuối tháng Tám."],
+    ["There was a slight decline in users in other cities in October.", "Số người dùng ở các thành phố khác giảm nhẹ trong tháng Mười."]
+   ],
+   "bad": "Monthly users rose sharp in August.",
+   "good": "Monthly users rose sharply in August.",
+   "why": "Động từ (rose, fell, declined) đi với trạng từ đuôi -ly: rose sharply, fell slightly. Muốn dùng tính từ (sharp, slight) thì đổi sang danh từ: There was a sharp rise in monthly users. Lưu ý giới từ in sau rise, fall, decline."
+  },
+  {
+   "t": "Số liệu và giới từ: rise from A to B / by + mức chênh / peak at + số",
+   "f": [
+    ["The conversion rate rose", "from 9% to 14%", "."],
+    ["It rose", "by five percentage points", "."],
+    ["Downloads peaked", "at 1,250", "in mid-August."]
+   ],
+   "ex": [
+    ["Complaints about speed fell from 140 to 35.", "Số phàn nàn về tốc độ giảm từ 140 xuống 35."],
+    ["Users in other cities fell by 800 in October.", "Người dùng ở các thành phố khác giảm 800 trong tháng Mười."]
+   ],
+   "bad": "Downloads peaked in 1,250 in mid-August.",
+   "good": "Downloads peaked at 1,250 in mid-August.",
+   "why": "from A to B = từ mức A đến mức B; by + số = tăng, giảm bao nhiêu (mức chênh); peak at, stand at, remain steady at + số = ở mức. in chỉ dùng cho thời gian: in August, in mid-August."
+  },
+  {
+   "t": "Ước lượng và so sánh: approximately / just over / almost twice as … as",
+   "f": [
+    ["We expected", "approximately", "2,000 users."],
+    ["We reached", "just over double", "the forecast."],
+    ["Retention was", "almost twice as high as", "the industry average."]
+   ],
+   "ex": [
+    ["Just over 40% of orders were placed after 6 p.m.", "Hơn 40% một chút số đơn hàng được đặt sau 6 giờ tối."],
+    ["Da Nang's retention rate was significantly higher than that of other cities.", "Tỷ lệ giữ chân người dùng ở Đà Nẵng cao hơn đáng kể so với các thành phố khác."]
+   ],
+   "bad": "Retention was almost twice as higher as the industry average.",
+   "good": "Retention was almost twice as high as the industry average.",
+   "why": "Cấu trúc gấp bao nhiêu lần: twice / three times + as + tính từ NGUYÊN DẠNG + as (twice as high as), hoặc twice + danh từ (twice the industry average). Không dùng dạng so sánh hơn higher giữa as … as. approximately, just over, just under đứng ngay trước con số."
+  }
+ ],
+ "vocab": [
+  {
+   "q": "'surge' (động từ) nghĩa là gì?",
+   "opts": ["tăng vọt, tăng đột ngột", "giảm dần", "giữ nguyên"],
+   "a": 0,
+   "why": {
+    "1": "Giảm dần là decline gradually hoặc fall steadily.",
+    "2": "Giữ nguyên là remain steady hoặc stay the same."
+   }
+  },
+  {
+   "q": "Điền từ: Weekly downloads ___ between 500 and 700 in July, rising one week and falling the next.",
+   "opts": ["fluctuated", "surged", "outperformed"],
+   "a": 0,
+   "why": {
+    "1": "surged là tăng vọt một chiều, không hợp với 'tuần tăng tuần giảm'.",
+    "2": "outperformed cần tân ngữ (outperformed the forecast) và không đi với between A and B."
+   }
+  },
+  {
+   "q": "Điền từ: Our retention rate remained ___ at 62% all summer; it hardly changed.",
+   "opts": ["steady", "sharp", "significant"],
+   "a": 0,
+   "why": {
+    "1": "sharp dùng cho thay đổi mạnh (a sharp rise), trái với 'hầu như không đổi'.",
+    "2": "significant nghĩa là đáng kể; remain significant at 62% không phải cách nói 'giữ ổn định'."
+   }
+  },
+  {
+   "q": "Điền từ: The pilot ___ our forecast: we expected 2,000 users but reached 4,300.",
+   "opts": ["outperformed", "forecast", "declined"],
+   "a": 0,
+   "why": {
+    "1": "forecast là dự báo, không diễn tả việc kết quả vượt dự báo.",
+    "2": "declined là giảm, trong khi số liệu tăng từ 2.000 dự kiến lên 4.300."
+   }
+  },
+  {
+   "q": "Điền từ: Our 30-day ___ rate was 62%, so most users kept using the app after a month.",
+   "opts": ["retention", "conversion", "proportion"],
+   "a": 0,
+   "why": {
+    "1": "conversion rate là tỷ lệ khách truy cập đặt hàng, không đo việc người dùng ở lại.",
+    "2": "proportion rate không phải cụm từ dùng trong báo cáo số liệu."
+   }
+  },
+  {
+   "q": "'conversion rate' của một ứng dụng bán hàng đo điều gì?",
+   "opts": ["tỷ lệ khách truy cập thực sự đặt hàng", "tỷ lệ người dùng quay lại sau 30 ngày", "số lượt tải mỗi tuần"],
+   "a": 0,
+   "why": {
+    "1": "Tỷ lệ người dùng quay lại là retention rate.",
+    "2": "Số lượt tải mỗi tuần là weekly downloads, một con số chứ không phải tỷ lệ."
+   }
+  },
+  {
+   "q": "Điền từ: The pilot cost ___ $15,000; we don't have the exact figure yet.",
+   "opts": ["approximately", "exactly", "significantly"],
+   "a": 0,
+   "why": {
+    "1": "exactly là chính xác, mâu thuẫn với 'chưa có con số chính xác'.",
+    "2": "significantly là đáng kể, bổ nghĩa cho động từ hoặc tính từ, không đứng trước một con số để ước lượng."
+   }
+  },
+  {
+   "q": "Điền từ: A large ___ of orders, just over 40%, were placed after 6 p.m.",
+   "opts": ["proportion", "forecast", "peak"],
+   "a": 0,
+   "why": {
+    "1": "a large forecast of orders không có nghĩa 'một phần lớn số đơn'.",
+    "2": "peak là mức cao nhất, không dùng để nói một phần trong tổng thể."
+   }
+  }
+ ],
+ "grammar": [
+  {
+   "q": "Câu nào đúng?",
+   "opts": ["Monthly users rose sharply in August.", "Monthly users rose sharp in August.", "Monthly users raised sharply in August."],
+   "a": 0,
+   "why": {
+    "1": "Bổ nghĩa cho động từ rose phải dùng trạng từ sharply, không dùng tính từ sharp.",
+    "2": "raise là ngoại động từ, cần tân ngữ (raise prices). Số liệu tự tăng thì dùng rise / rose."
+   }
+  },
+  {
+   "q": "Điền từ: There was a sharp ___ in monthly users in August.",
+   "opts": ["rise", "rose", "risen"],
+   "a": 0,
+   "why": {
+    "1": "rose là động từ quá khứ; sau a sharp cần danh từ.",
+    "2": "risen là quá khứ phân từ, dùng sau have / has, không đứng sau a sharp."
+   }
+  },
+  {
+   "q": "Điền giới từ: Complaints about speed fell ___ 140 ___ 35.",
+   "opts": ["from … to", "between … and", "at … by"],
+   "a": 0,
+   "why": {
+    "1": "between … and dùng cho khoảng dao động (fluctuated between 500 and 700), không dùng cho thay đổi từ mức này sang mức khác.",
+    "2": "at chỉ một mức (peaked at), by chỉ mức chênh; ghép at … by không diễn tả 'từ… xuống…'."
+   }
+  },
+  {
+   "q": "Điền từ: The conversion rate rose ___ five percentage points, from 9% to 14%.",
+   "opts": ["by", "to", "at"],
+   "a": 0,
+   "why": {
+    "1": "to + mức cuối (rose to 14%), còn five percentage points là mức chênh.",
+    "2": "at + một mức cố định (remained at, peaked at), không chỉ mức tăng."
+   }
+  },
+  {
+   "q": "Điền dạng đúng: Since we fixed the loading problem, complaints ___ (decline) sharply.",
+   "opts": ["have declined", "declined", "decline"],
+   "a": 0,
+   "why": {
+    "1": "Có since + mốc thời gian, nói kết quả kéo dài đến nay nên dùng hiện tại hoàn thành, không dùng quá khứ đơn.",
+    "2": "decline là hiện tại đơn, chỉ thói quen hoặc sự thật chung, không hợp với since."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Viết lại bằng danh từ, giữ nguyên nghĩa (điền 3 từ): Downloads rose sharply in August. → There was ___ in downloads in August.",
+   "model": "a sharp rise",
+   "accept": ["a sharp rise", "a sharp increase"],
+   "why": "rose sharply (động từ + trạng từ) → a sharp rise (a + tính từ + danh từ), sau đó dùng in + đối tượng: a sharp rise in downloads."
+  },
+  {
+   "k": "type",
+   "q": "Điền một từ: Our retention rate was almost twice as ___ as the industry average.",
+   "model": "high",
+   "accept": ["high"],
+   "why": "twice as + tính từ nguyên dạng + as. Tỷ lệ cao thấp dùng high, không dùng higher hay big."
+  }
+ ],
+ "listen": [
+  {
+   "q": "Số người dùng hoạt động hằng tháng thực tế vào cuối tháng Tám là bao nhiêu?",
+   "audio": "We expected approximately two thousand users, but we reached four thousand three hundred.",
+   "opts": ["4.300", "2.000", "2.300"],
+   "a": 0,
+   "why": {
+    "1": "2.000 là con số dự kiến (we expected approximately two thousand).",
+    "2": "2.300 là mức chênh giữa thực tế và dự kiến, không phải con số được nói ra."
+   }
+  },
+  {
+   "q": "Trong tháng Bảy, lượt tải mỗi tuần thay đổi thế nào?",
+   "audio": "Weekly downloads fluctuated between five hundred and seven hundred in July.",
+   "opts": ["lên xuống trong khoảng 500 đến 700", "tăng đều từ 500 lên 700", "giảm từ 700 xuống 500"],
+   "a": 0,
+   "why": {
+    "1": "fluctuated là lên xuống thất thường, không phải tăng đều (rose steadily).",
+    "2": "Câu nói fluctuated between, không nói giảm (fell from … to)."
+   }
+  },
+  {
+   "q": "Lượt tải đạt đỉnh vào lúc nào?",
+   "audio": "Downloads peaked at one thousand two hundred and fifty in the week of the nineteenth of August.",
+   "opts": ["tuần bắt đầu ngày 19/8", "tuần bắt đầu ngày 9/8", "cuối tháng Bảy"],
+   "a": 0,
+   "why": {
+    "1": "Câu nói the nineteenth (19), không phải the ninth (9).",
+    "2": "Câu nhắc đến tháng Tám (August), không phải tháng Bảy."
+   }
+  },
+  {
+   "q": "Vì sao phàn nàn về tốc độ giảm mạnh?",
+   "audio": "Complaints about speed have declined sharply since we fixed the loading problem.",
+   "opts": ["vì đã sửa lỗi tải chậm", "vì có ít người dùng hơn", "vì có khuyến mãi miễn phí giao hàng"],
+   "a": 0,
+   "why": {
+    "1": "Câu không nói số người dùng giảm; thực tế người dùng còn tăng.",
+    "2": "Khuyến mãi miễn phí giao hàng làm lượt tải tăng vọt, không liên quan đến phàn nàn về tốc độ."
+   }
+  },
+  {
+   "q": "Tỷ lệ giữ chân người dùng so với mức trung bình ngành thế nào?",
+   "audio": "Our retention rate remained steady at sixty-two per cent, almost twice the industry average.",
+   "opts": ["gần gấp đôi", "chỉ bằng một nửa", "ngang bằng"],
+   "a": 0,
+   "why": {
+    "1": "almost twice nghĩa là gần gấp đôi, không phải một nửa (half).",
+    "2": "Ngang bằng là the same as hoặc in line with the industry average."
+   }
+  },
+  {
+   "q": "Tỷ lệ chuyển đổi tăng bao nhiêu điểm phần trăm?",
+   "audio": "The conversion rate rose from nine per cent in July to fourteen per cent in August.",
+   "opts": ["5", "9", "14"],
+   "a": 0,
+   "why": {
+    "1": "9% là mức tháng Bảy (mức xuất phát).",
+    "2": "14% là mức tháng Tám (mức cuối); mức tăng là 14 − 9 = 5 điểm phần trăm."
+   }
+  },
+  {
+   "q": "Câu nói gì về đơn hàng?",
+   "audio": "Just over forty per cent of all orders were placed after six p.m.",
+   "opts": ["hơn 40% một chút được đặt sau 6 giờ tối", "gần 40% được đặt trước 6 giờ tối", "đúng 40% được đặt vào buổi sáng"],
+   "a": 0,
+   "why": {
+    "1": "just over là hơn một chút (không phải gần đến), và after là sau, không phải trước.",
+    "2": "Câu không nói đúng 40% và cũng không nhắc đến buổi sáng."
+   }
+  }
+ ],
+ "hsk": [
+  {
+   "q": "IELTS Listening (Part 3) – Nghe đoạn trao đổi và chọn A, B hoặc C. What does the woman think will impress Nordwind most?",
+   "audio": "Woman: I've been looking at the pilot figures again, and the retention rate really stands out. Man: Yes, sixty-two per cent is far above the industry average of about thirty-five. Woman: Exactly. I think Nordwind will be more impressed by that than by the download numbers, which went up and down quite a lot in July. Man: Fair enough. Let's put retention on the first slide, then.",
+   "opts": ["The retention rate", "The number of downloads", "The industry average"],
+   "a": 0,
+   "why": {
+    "1": "Người phụ nữ nói Nordwind sẽ ấn tượng với retention MORE THAN download numbers, nên lượt tải không phải đáp án.",
+    "2": "Mức trung bình ngành chỉ được dùng để so sánh, không phải điều làm Nordwind ấn tượng."
+   }
+  },
+  {
+   "q": "TOEIC Part 3 – Nghe hội thoại và câu hỏi, chọn đáp án.",
+   "audio": "Man: An, have you seen the conversion figures for August? Woman: Yes, the rate went up from nine to fourteen per cent. That's a significant improvement. Man: Great. Could you add it to the presentation slides before four o'clock? Woman: Sure, I'll do it right after lunch. Question: What will the woman probably do after lunch?",
+   "opts": ["Update the presentation slides", "Call a customer in Da Nang", "Recalculate the conversion rate", "Cancel the afternoon meeting"],
+   "a": 0,
+   "why": {
+    "1": "Không ai nhắc đến việc gọi cho khách hàng.",
+    "2": "Tỷ lệ chuyển đổi đã có (9% lên 14%), không cần tính lại.",
+    "3": "Không ai nói huỷ cuộc họp; người đàn ông chỉ nhờ thêm số liệu vào slide."
+   }
+  },
+  {
+   "q": "TOEIC Part 5 – Chọn từ đúng: Downloads of the new app ___ sharply after the free-delivery promotion was launched.",
+   "opts": ["rose", "raised", "arose", "risen"],
+   "a": 0,
+   "why": {
+    "1": "raised là ngoại động từ, cần tân ngữ (raised prices); câu không có tân ngữ.",
+    "2": "arose nghĩa là nảy sinh (a problem arose), không dùng cho số liệu tăng.",
+    "3": "risen là quá khứ phân từ, cần have / had đứng trước."
+   }
+  },
+  {
+   "q": "TOEIC Part 7 – Đọc thông báo và trả lời. \"MEMO. To: Marketing team. From: Sarah Lee. Ms Ingrid Larsen of Nordwind Retail will visit our office tomorrow at 10 a.m. Please make sure that all figures in the presentation are taken from the final pilot report, not from the July update, as several numbers have since been revised.\" Question: Why should staff avoid using the July update?",
+   "opts": ["Some of its figures have been changed.", "It was written by Nordwind Retail.", "It is too long to present.", "It does not include Da Nang."],
+   "a": 0,
+   "why": {
+    "1": "Thông báo không nói Nordwind viết bản cập nhật tháng Bảy.",
+    "2": "Thông báo không nhắc đến độ dài của tài liệu.",
+    "3": "Thông báo không nói bản cập nhật thiếu Đà Nẵng; lý do là several numbers have since been revised (một số con số đã được sửa)."
+   }
+  },
+  {
+   "q": "IELTS Reading – True / False / Not Given. Đoạn đọc: \"During the pilot, the app's 30-day retention rate was 62 per cent, almost twice the industry average. Complaints about speed fell sharply after the loading problem was fixed.\" Nhận định: Most users who stopped using the app did so because it was too slow.",
+   "opts": ["True", "False", "Not Given"],
+   "a": 2,
+   "why": {
+    "0": "Không chọn True: đoạn đọc có nói về phàn nàn tốc độ, nhưng không nói đó là lý do khiến phần lớn người dùng bỏ ứng dụng.",
+    "1": "Không chọn False: đoạn đọc cũng không đưa ra lý do nào khác; thông tin về lý do bỏ ứng dụng không có, nên là Not Given."
+   }
+  }
+ ],
+ "shadow": [
+  {
+   "t": "approximately",
+   "focus": "Nhấn âm hai: ap-PROX-i-mate-ly. Đuôi -mately đọc nhẹ, nhanh: 'mợt-li', không đọc 'mây-li'."
+  },
+  {
+   "t": "The pilot significantly outperformed our forecast.",
+   "focus": "Ba trọng âm: sig-NIF-i-cant-ly, out-per-FORM-ed, FORE-cast. outperformed đuôi -ed đọc /d/."
+  },
+  {
+   "t": "Weekly downloads fluctuated throughout July.",
+   "focus": "FLUC-tu-a-ted 'flắc-chu-ây-tịđ', đuôi -ed đọc /ɪd/ vì trước nó là âm t. July nhấn âm hai: ju-LY."
+  },
+  {
+   "t": "Downloads peaked in the middle of August.",
+   "focus": "peaked đuôi -ed đọc /t/: 'pích-t'; nối peaked‿in. August nhấn âm đầu: AU-gust."
+  },
+  {
+   "t": "Our retention rate remained steady all summer.",
+   "focus": "re-TEN-tion; steady 'xté-đi'; nối steady‿all. remained đuôi -ed đọc /d/."
+  },
+  {
+   "t": "The conversion rate rose sharply in August.",
+   "focus": "con-VER-sion, âm /ʒ/ hoặc /ʃ/ ở giữa; rose đọc /z/ ở cuối: 'râu-z', khác rows; nhấn SHARP-ly."
+  }
+ ],
+ "dialog": {
+  "title": "Sarah tập dượt với bạn trước buổi gặp Nordwind: chị hỏi về số liệu chạy thử, bạn mô tả xu hướng bằng con số cụ thể. Đổi vai: bạn hỏi như Ingrid, Sarah trả lời.",
+  "partner": "Sarah",
+  "turns": [
+   {
+    "ai": "An, let's rehearse for tomorrow. How did the pilot perform compared with our forecast?",
+    "vi": "An, mình tập trước cho buổi ngày mai nhé. Đợt chạy thử đạt kết quả thế nào so với dự báo?",
+    "model": "It significantly outperformed our forecast. We reached 4,300 monthly active users, more than double what we expected.",
+    "accept": [
+     "It significantly outperformed our forecast. We reached 4,300 monthly active users, more than double what we expected.",
+     "It significantly outperformed our forecast.",
+     "It outperformed our forecast. We reached 4,300 monthly active users.",
+     "The pilot significantly outperformed our forecast. We reached 4,300 users, more than double what we expected.",
+     "It significantly outperformed our forecast. We reached four thousand three hundred monthly active users, more than double what we expected."
+    ],
+    "frame": "It significantly ___ our forecast. We reached 4,300 monthly active users, more than double what we expected.",
+    "hint": "Dùng outperform + danh từ, không có than: It significantly outperformed our forecast. Rồi đưa con số 4,300 và so sánh: more than double what we expected."
+   },
+   {
+    "ai": "Ingrid likes to see trends. How did weekly downloads change over the summer?",
+    "vi": "Ingrid thích xem xu hướng. Lượt tải mỗi tuần thay đổi thế nào trong mùa hè?",
+    "model": "They fluctuated between 500 and 700 in July, and then they surged in August.",
+    "accept": [
+     "They fluctuated between 500 and 700 in July, and then they surged in August.",
+     "They fluctuated between 500 and 700 in July, then surged in August.",
+     "Weekly downloads fluctuated between 500 and 700 in July, and then they surged in August.",
+     "They fluctuated in July and then surged in August.",
+     "They fluctuated between five hundred and seven hundred in July, and then they surged in August."
+    ],
+    "frame": "They ___ between 500 and 700 in July, and then they surged in August.",
+    "hint": "Hai giai đoạn: tháng Bảy lên xuống (fluctuated between A and B), tháng Tám tăng vọt (surged). Nối bằng and then."
+   },
+   {
+    "ai": "What was the highest point, and what caused it?",
+    "vi": "Mức cao nhất là bao nhiêu, và do đâu?",
+    "model": "Downloads peaked at 1,250 in the week of 19 August, mainly because of the free-delivery weekend.",
+    "accept": [
+     "Downloads peaked at 1,250 in the week of 19 August, mainly because of the free-delivery weekend.",
+     "They peaked at 1,250 in the week of 19 August, mainly because of the free-delivery weekend.",
+     "Downloads peaked at 1,250 in the week of 19 August because of the free-delivery weekend.",
+     "Downloads peaked at 1,250, mainly because of the free delivery weekend.",
+     "Downloads peaked at one thousand two hundred and fifty in the week of 19 August, mainly because of the free-delivery weekend."
+    ],
+    "frame": "Downloads ___ at 1,250 in the week of 19 August, mainly because of the free-delivery weekend.",
+    "hint": "Mức cao nhất: peaked at + số. Nêu nguyên nhân: mainly because of + danh từ (the free-delivery weekend)."
+   },
+   {
+    "ai": "She'll definitely ask whether people keep using the app.",
+    "vi": "Chắc chắn chị ấy sẽ hỏi người dùng có tiếp tục dùng ứng dụng không.",
+    "model": "Our 30-day retention rate remained steady at 62%, which is almost twice the industry average.",
+    "accept": [
+     "Our 30-day retention rate remained steady at 62%, which is almost twice the industry average.",
+     "Our retention rate remained steady at 62%, which is almost twice the industry average.",
+     "Our 30-day retention rate remained steady at 62%.",
+     "Our 30-day retention rate remained steady at 62 per cent, which is almost twice the industry average.",
+     "The retention rate stayed steady at 62%, almost twice the industry average."
+    ],
+    "frame": "Our 30-day retention rate remained ___ at 62%, which is almost twice the industry average.",
+    "hint": "Giữ ổn định: remained steady at + số. Thêm mệnh đề quan hệ which is almost twice the industry average để so sánh."
+   },
+   {
+    "ai": "Good. And if she asked about sales, what would you say?",
+    "vi": "Tốt. Còn nếu chị ấy hỏi về doanh số thì em sẽ nói gì?",
+    "model": "I would say that the conversion rate rose from 9% to 14%, so a larger proportion of visitors placed an order.",
+    "accept": [
+     "I would say that the conversion rate rose from 9% to 14%, so a larger proportion of visitors placed an order.",
+     "I'd say that the conversion rate rose from 9% to 14%, so a larger proportion of visitors placed an order.",
+     "I would say the conversion rate rose from 9% to 14%.",
+     "The conversion rate rose from 9% to 14%, so a larger proportion of visitors placed an order.",
+     "I would say that the conversion rate rose from nine to fourteen per cent, so a larger proportion of visitors placed an order."
+    ],
+    "frame": "I would say that the conversion rate rose ___ 9% to 14%, so a larger proportion of visitors placed an order.",
+    "hint": "Câu điều kiện loại 2 trả lời bằng I would say that… Thay đổi từ mức này sang mức khác: rose from 9% to 14%."
+   }
+  ]
+ },
+ "reading": {
+  "title": "Báo cáo kết quả chạy thử và số liệu sau khi ra mắt toàn quốc",
+  "text": "BRIGHT STAR APP: PILOT RESULTS AND NATIONAL UPDATE\nPrepared by An (Marketing) for the Nordwind Retail presentation\n\n1. Pilot overview\nThe app was tested in Da Nang from 1 July to 31 August. Before the pilot, we forecast approximately 2,000 monthly active users by the end of August. In fact, the figure rose from 2,100 in July to 4,300 in August, more than double the forecast. Approximately 6,800 people downloaded the app during the pilot.\n\n2. Downloads and engagement\nWeekly downloads fluctuated between 500 and 700 in July. They then surged and peaked at 1,250 in the week of 19 August, which coincided with a free-delivery weekend. The 30-day retention rate remained steady at 62%, almost twice the industry average of approximately 35%. The conversion rate, which measures the proportion of visitors who place an order, rose from 9% to 14%.\n\n3. Speed\nAfter the average loading time was reduced from 4 seconds to 1.5 seconds, complaints about speed declined from 140 in July to 35 in August.\n\n4. National launch\nSince the app was launched nationwide on 1 September, it has attracted a significant number of new users. Monthly active users reached 18,500 in September before falling slightly to 17,900 in October. Da Nang has continued to outperform other cities, with a retention rate of 62% compared with 48%. We forecast 25,000 monthly active users by December.",
+  "vi": "ỨNG DỤNG BRIGHT STAR: KẾT QUẢ CHẠY THỬ VÀ CẬP NHẬT TOÀN QUỐC\nDo An (Marketing) soạn cho buổi thuyết trình với Nordwind Retail\n\n1. Tổng quan đợt chạy thử\nỨng dụng được chạy thử ở Đà Nẵng từ 1/7 đến 31/8. Trước đợt chạy thử, chúng tôi dự báo có khoảng 2.000 người dùng hoạt động hằng tháng vào cuối tháng Tám. Trên thực tế, con số này tăng từ 2.100 trong tháng Bảy lên 4.300 trong tháng Tám, hơn gấp đôi dự báo. Khoảng 6.800 người đã tải ứng dụng trong thời gian chạy thử.\n\n2. Lượt tải và mức độ gắn bó\nTrong tháng Bảy, lượt tải mỗi tuần dao động trong khoảng 500 đến 700. Sau đó lượt tải tăng vọt và đạt đỉnh 1.250 vào tuần bắt đầu ngày 19/8, trùng với dịp cuối tuần miễn phí giao hàng. Tỷ lệ giữ chân người dùng sau 30 ngày giữ ổn định ở mức 62%, gần gấp đôi mức trung bình ngành là khoảng 35%. Tỷ lệ chuyển đổi, tức tỷ lệ khách truy cập đặt hàng, tăng từ 9% lên 14%.\n\n3. Tốc độ\nSau khi thời gian tải trung bình được rút ngắn từ 4 giây xuống 1,5 giây, phàn nàn về tốc độ giảm từ 140 trong tháng Bảy xuống 35 trong tháng Tám.\n\n4. Ra mắt toàn quốc\nTừ khi ứng dụng ra mắt toàn quốc ngày 1/9, số người dùng mới tăng đáng kể. Số người dùng hoạt động hằng tháng đạt 18.500 trong tháng Chín, rồi giảm nhẹ xuống 17.900 trong tháng Mười. Đà Nẵng tiếp tục vượt trội hơn các thành phố khác, với tỷ lệ giữ chân người dùng 62% so với 48%. Chúng tôi dự báo có 25.000 người dùng hoạt động hằng tháng vào tháng Mười Hai.",
+  "qs": [
+   {
+    "q": "Trước đợt chạy thử, công ty dự báo có bao nhiêu người dùng hoạt động hằng tháng?",
+    "opts": ["khoảng 2.000", "2.100", "4.300"],
+    "a": 0,
+    "why": {
+     "1": "2.100 là số người dùng thực tế trong tháng Bảy.",
+     "2": "4.300 là số người dùng thực tế trong tháng Tám, hơn gấp đôi dự báo."
+    }
+   },
+   {
+    "q": "Tuần lượt tải đạt đỉnh trùng với sự kiện gì?",
+    "opts": ["dịp cuối tuần miễn phí giao hàng", "ngày ra mắt toàn quốc", "buổi thuyết trình với Nordwind"],
+    "a": 0,
+    "why": {
+     "1": "Ra mắt toàn quốc là ngày 1/9, sau tuần đạt đỉnh (19/8).",
+     "2": "Bài đọc không nói buổi thuyết trình gắn với lượt tải; báo cáo được soạn cho buổi thuyết trình đó."
+    }
+   },
+   {
+    "q": "Theo bài đọc, conversion rate đo điều gì?",
+    "opts": ["tỷ lệ khách truy cập đặt hàng", "tỷ lệ người dùng còn dùng ứng dụng sau 30 ngày", "số lượt tải mỗi tuần"],
+    "a": 0,
+    "why": {
+     "1": "Đó là retention rate (62%).",
+     "2": "Đó là weekly downloads, dao động 500 đến 700 trong tháng Bảy."
+    }
+   },
+   {
+    "q": "Đúng hay sai: \"Monthly active users kept rising after September.\"",
+    "opts": ["Sai", "Đúng"],
+    "a": 0,
+    "why": {
+     "1": "Chưa khớp: số người dùng đạt 18.500 trong tháng Chín rồi falling slightly (giảm nhẹ) xuống 17.900 trong tháng Mười."
+    }
+   },
+   {
+    "q": "Đà Nẵng vượt trội hơn các thành phố khác ở chỉ số nào?",
+    "opts": ["tỷ lệ giữ chân người dùng", "số người dùng hoạt động", "tỷ lệ chuyển đổi"],
+    "a": 0,
+    "why": {
+     "1": "Bài không so sánh số người dùng giữa Đà Nẵng và các thành phố khác; câu outperform đi kèm with a retention rate of 62% compared with 48%.",
+     "2": "Bài chỉ nêu tỷ lệ chuyển đổi trong đợt chạy thử ở Đà Nẵng, không so sánh với thành phố khác."
+    }
+   }
+  ]
+ },
+ "near": [
+  {
+   "q": "Chọn dạng đúng: Complaints about speed fell ___ after the update. (significant)",
+   "opts": ["significantly", "significant", "significance"],
+   "a": 0,
+   "why": {
+    "1": "significant là tính từ, không bổ nghĩa cho động từ fell. Cần trạng từ đuôi -ly.",
+    "2": "significance là danh từ (tầm quan trọng), không đứng sau động từ để chỉ mức độ."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: The Da Nang pilot was far more ___ than anyone had expected. (success)",
+   "opts": ["successful", "success", "successfully"],
+   "a": 0,
+   "why": {
+    "1": "Sau was … more cần tính từ để so sánh; success là danh từ.",
+    "2": "successfully là trạng từ, không đứng sau động từ to be để miêu tả chủ ngữ."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: There were small ___ in weekly downloads throughout July. (fluctuate)",
+   "opts": ["fluctuations", "fluctuate", "fluctuating"],
+   "a": 0,
+   "why": {
+    "1": "Sau tính từ small cần danh từ; fluctuate là động từ.",
+    "2": "fluctuating là tính từ hoặc V-ing; small fluctuating không có danh từ làm chủ thể. Cần danh từ số nhiều vì có There were."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: Customer ___ is one of the figures that Nordwind cares about most. (retain)",
+   "opts": ["retention", "retain", "retained"],
+   "a": 0,
+   "why": {
+    "1": "Chỗ trống là chủ ngữ (Customer ___ is…) nên cần danh từ; retain là động từ.",
+    "2": "retained là quá khứ hoặc quá khứ phân từ, không làm chủ ngữ trong cụm danh từ này."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: The pilot cost ___ $15,000. (approximate)",
+   "opts": ["approximately", "approximate", "approximation"],
+   "a": 0,
+   "why": {
+    "1": "approximate là tính từ, đi trước danh từ (an approximate cost). Đứng ngay trước con số cần trạng từ approximately.",
+    "2": "approximation là danh từ (con số ước tính), không đứng trước số tiền."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: A detailed ___ of the pilot data will be sent to Nordwind before the meeting. (analyse)",
+   "opts": ["analysis", "analyse", "analytical"],
+   "a": 0,
+   "why": {
+    "1": "Sau mạo từ a và tính từ detailed cần danh từ; analyse là động từ.",
+    "2": "analytical là tính từ (có tính phân tích); sau detailed vẫn cần một danh từ."
+   }
+  }
+ ],
+ "orderPara": [
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (IELTS Reading · cohesion)",
+   "tokens": [
+    "Weekly downloads fluctuated between 500 and 700 throughout July.",
+    "However, they surged in the second half of August.",
+    "This sudden rise was largely caused by a free-delivery weekend promotion."
+   ],
+   "explain": "Câu mở đầu nêu tình hình tháng Bảy. However đánh dấu sự đối lập (từ lên xuống sang tăng vọt) nên đứng thứ hai. This sudden rise chỉ lại việc surged ở câu trước nên đứng cuối.",
+   "vi": "Trong suốt tháng Bảy, lượt tải mỗi tuần dao động trong khoảng 500 đến 700. Tuy nhiên, lượt tải tăng vọt vào nửa cuối tháng Tám. Mức tăng đột ngột này chủ yếu là nhờ chương trình khuyến mãi cuối tuần miễn phí giao hàng."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (IELTS Reading · cohesion)",
+   "tokens": [
+    "Before the pilot, we forecast approximately 2,000 monthly active users.",
+    "In fact, the figure reached 4,300 by the end of August.",
+    "As a result, the board agreed to launch the app nationwide in September."
+   ],
+   "explain": "Before the pilot mở đầu bằng dự báo. In fact đưa ra con số thực tế khác với dự báo, và the figure chỉ lại monthly active users. As a result nêu hệ quả nên đứng cuối.",
+   "vi": "Trước đợt chạy thử, chúng tôi dự báo có khoảng 2.000 người dùng hoạt động hằng tháng. Trên thực tế, con số này đạt 4.300 vào cuối tháng Tám. Vì vậy, ban giám đốc đồng ý ra mắt ứng dụng toàn quốc vào tháng Chín."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (IELTS Reading · cohesion)",
+   "tokens": [
+    "Many users complained that the old app was too slow.",
+    "To solve this problem, the product team reduced the average loading time from 4 seconds to 1.5 seconds.",
+    "Consequently, complaints about speed fell from 140 in July to 35 in August."
+   ],
+   "explain": "Câu đầu nêu vấn đề. To solve this problem chỉ lại vấn đề vừa nêu nên đứng thứ hai. Consequently (vì vậy) nêu kết quả của giải pháp nên đứng cuối.",
+   "vi": "Nhiều người dùng phàn nàn rằng ứng dụng cũ quá chậm. Để giải quyết vấn đề này, nhóm sản phẩm đã rút ngắn thời gian tải trung bình từ 4 giây xuống 1,5 giây. Nhờ vậy, phàn nàn về tốc độ giảm từ 140 trong tháng Bảy xuống 35 trong tháng Tám."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (IELTS Reading · cohesion)",
+   "tokens": [
+    "The national launch on 1 September led to a surge in users in other cities.",
+    "The number of users there jumped from zero to 13,900 in a single month.",
+    "In Da Nang, by contrast, the figure grew only slightly, to 4,600.",
+    "Overall, the app had 18,500 monthly active users in September."
+   ],
+   "explain": "Câu đầu nêu sự kiện chính (ra mắt toàn quốc). there chỉ lại other cities nên câu hai nối tiếp. by contrast so sánh Đà Nẵng với các thành phố khác vừa nói. Overall tổng kết (13.900 + 4.600 = 18.500) nên đứng cuối.",
+   "vi": "Việc ra mắt toàn quốc ngày 1/9 khiến số người dùng ở các thành phố khác tăng vọt. Số người dùng ở đó tăng từ 0 lên 13.900 chỉ trong một tháng. Ngược lại, ở Đà Nẵng con số này chỉ tăng nhẹ, lên 4.600. Tính chung, ứng dụng có 18.500 người dùng hoạt động hằng tháng trong tháng Chín."
+  }
+ ],
+ "notes": {
+  "title": "Ghi chú: số liệu kỹ thuật cho buổi thuyết trình",
+  "lines": [
+   {
+    "who": "Tom",
+    "t": "Hi An, it's Tom. You asked for the technical figures for tomorrow's presentation, so here they are.",
+    "vi": "Chào An, anh Tom đây. Em hỏi số liệu kỹ thuật cho buổi thuyết trình ngày mai, anh gửi đây."
+   },
+   {
+    "who": "An",
+    "t": "Great, thanks, Tom. Let me write them down.",
+    "vi": "Tuyệt quá, cảm ơn anh Tom. Để em ghi lại."
+   },
+   {
+    "who": "Tom",
+    "t": "First, the average loading time. It was 4 seconds in July, and we've reduced it to 1.5 seconds.",
+    "vi": "Đầu tiên là thời gian tải trung bình. Tháng Bảy là 4 giây, giờ bọn anh đã rút xuống còn 1,5 giây."
+   },
+   {
+    "who": "An",
+    "t": "That's a huge improvement. Did complaints fall as well?",
+    "vi": "Cải thiện lớn quá. Phàn nàn cũng giảm theo chứ anh?"
+   },
+   {
+    "who": "Tom",
+    "t": "Yes, significantly. We had 140 complaints about speed in July, but only 35 in August.",
+    "vi": "Ừ, giảm đáng kể. Tháng Bảy có 140 phàn nàn về tốc độ, nhưng tháng Tám chỉ còn 35."
+   },
+   {
+    "who": "An",
+    "t": "And what about the busiest week for downloads?",
+    "vi": "Còn tuần có nhiều lượt tải nhất thì sao anh?"
+   },
+   {
+    "who": "Tom",
+    "t": "Downloads peaked at 1,250 in the week of 19 August, right after the free delivery weekend.",
+    "vi": "Lượt tải đạt đỉnh 1.250 vào tuần bắt đầu ngày 19/8, ngay sau dịp cuối tuần miễn phí giao hàng."
+   },
+   {
+    "who": "An",
+    "t": "Got it. Is there anything else I should mention?",
+    "vi": "Em ghi rồi. Còn gì em nên nhắc đến nữa không anh?"
+   },
+   {
+    "who": "Tom",
+    "t": "Just one thing: just over 40% of orders were placed after 6 p.m., so the evening is our busiest time. Oh, and Sarah wants the slides by 4 p.m.",
+    "vi": "Còn một điều thôi: hơn 40% một chút số đơn được đặt sau 6 giờ tối, nên buổi tối là lúc đông khách nhất. À, Sarah muốn có slide trước 4 giờ chiều nhé."
+   }
+  ],
+  "form": [
+   {
+    "label": "Average loading time in August: ___ seconds",
+    "answer": "1.5",
+    "accept": ["1.5", "1,5", "one point five"],
+    "why": "Tom nói: we've reduced it to 1.5 seconds. Con số 4 giây là thời gian tải của tháng Bảy."
+   },
+   {
+    "label": "Complaints about speed in August: ___",
+    "answer": "35",
+    "accept": ["35", "thirty-five", "thirty five"],
+    "why": "Tom nói: 140 complaints about speed in July, but only 35 in August. 140 là con số tháng Bảy."
+   },
+   {
+    "label": "Busiest week for downloads: the week of ___",
+    "answer": "19 August",
+    "accept": ["19 August", "19th August", "August 19", "August 19th", "19 Aug", "19/8"],
+    "why": "Tom nói: Downloads peaked at 1,250 in the week of 19 August."
+   },
+   {
+    "label": "The peak came right after the ___ weekend",
+    "answer": "free delivery",
+    "accept": ["free delivery", "free-delivery"],
+    "why": "Tom nói: right after the free delivery weekend (dịp cuối tuần miễn phí giao hàng)."
+   },
+   {
+    "label": "Just over 40% of orders were placed after: ___",
+    "answer": "6 p.m.",
+    "accept": ["6 p.m.", "6 p.m", "6pm", "6 pm", "six p.m.", "six pm", "6"],
+    "why": "Tom nói: just over 40% of orders were placed after 6 p.m."
+   },
+   {
+    "label": "Deadline for the slides: ___",
+    "answer": "4 p.m.",
+    "accept": ["4 p.m.", "4 p.m", "4pm", "4 pm", "four p.m.", "four pm", "4"],
+    "why": "Tom nhắc: Sarah wants the slides by 4 p.m. (by = hạn chót)."
+   }
+  ]
+ },
+ "longturn": {
+  "cue": "Describe a project you worked on that had surprising results.\nYou should say:\n- what the project was\n- who you worked with\n- what results you expected\nand explain why the results surprised you.",
+  "cueVi": "Hãy kể về một dự án bạn từng làm có kết quả bất ngờ. Bạn nên nói: dự án đó là gì, bạn làm cùng ai, bạn đã dự đoán kết quả thế nào, và giải thích vì sao kết quả khiến bạn bất ngờ.",
+  "points": [
+   "What the project was (when, where, how long)",
+   "Who you worked with and what your role was",
+   "What results you expected (give an approximate figure)",
+   "Why the results surprised you and what you learnt"
+  ],
+  "pointsVi": [
+   "Dự án là gì (khi nào, ở đâu, kéo dài bao lâu)",
+   "Bạn làm cùng ai và vai trò của bạn",
+   "Bạn dự đoán kết quả thế nào (đưa một con số ước lượng)",
+   "Vì sao kết quả bất ngờ và bạn rút ra điều gì"
+  ],
+  "prep": 60,
+  "speak": [60, 120],
+  "model": "I'd like to talk about a pilot project I worked on last summer, when my company tested a new ordering app in Da Nang for two months. I was responsible for the data, so I worked closely with our project manager, the product team and a colleague from finance. To be honest, we expected fairly modest results. Our forecast was approximately 2,000 monthly active users by the end of August, and some people thought even that was optimistic. However, the numbers surged in August after a free-delivery promotion, and we finished with 4,300 users, which was more than double the forecast. What surprised me most was not the growth itself but how loyal the users were: our retention rate remained steady at 62%, almost twice the industry average. It taught me that a small, well-planned pilot can tell you far more than a big forecast. Since then, I've always tried to look beyond the headline figures and ask why people keep using a product.",
+  "modelVi": "Tôi muốn kể về một dự án chạy thử tôi tham gia hồi mùa hè năm ngoái, khi công ty tôi thử nghiệm một ứng dụng đặt hàng mới ở Đà Nẵng trong hai tháng. Tôi phụ trách số liệu nên làm việc sát với quản lý dự án, nhóm sản phẩm và một đồng nghiệp bên tài chính. Thật lòng mà nói, chúng tôi chỉ kỳ vọng kết quả khá khiêm tốn. Dự báo của chúng tôi là khoảng 2.000 người dùng hoạt động hằng tháng vào cuối tháng Tám, và có người còn cho rằng như vậy là lạc quan. Tuy nhiên, số liệu tăng vọt trong tháng Tám sau một đợt khuyến mãi miễn phí giao hàng, và chúng tôi kết thúc với 4.300 người dùng, hơn gấp đôi dự báo. Điều làm tôi bất ngờ nhất không phải là mức tăng, mà là người dùng gắn bó đến mức nào: tỷ lệ giữ chân người dùng giữ ổn định ở mức 62%, gần gấp đôi mức trung bình ngành. Dự án dạy tôi rằng một đợt chạy thử nhỏ, được lên kế hoạch kỹ có thể cho ta biết nhiều hơn hẳn một bản dự báo lớn. Từ đó, tôi luôn cố nhìn xa hơn những con số nổi bật và tự hỏi vì sao người dùng tiếp tục dùng một sản phẩm.",
+  "useful": [
+   "I'd like to talk about…",
+   "I was responsible for…, so I worked closely with…",
+   "To be honest, we expected fairly modest results.",
+   "Our forecast was approximately…",
+   "However, the numbers surged / rose sharply after…",
+   "…, which was more than double the forecast.",
+   "What surprised me most was…",
+   "It taught me that… / Since then, I've…"
+  ],
+  "check": [
+   "Nói đủ 4 ý trong đề, theo đúng thứ tự gợi ý",
+   "Dùng ít nhất 3 cụm mô tả số liệu, xu hướng (approximately, surged, more than double, remained steady…)",
+   "Kể chuyện bằng quá khứ đơn; câu kết dùng hiện tại hoàn thành (Since then, I've…)",
+   "Có câu nhấn mạnh What surprised me most was…",
+   "Dùng ít nhất 3 từ nối (However, so, which…, Since then)",
+   "Nói liền từ 1 đến 2 phút, ít ngập ngừng"
+  ]
+ },
+ "write": {
+  "task": "IELTS Writing Task 1: Viết một đoạn văn (150–190 từ) mô tả biểu đồ đường về số người dùng hoạt động hằng tháng của ứng dụng Bright Star ở Đà Nẵng và ở các thành phố khác, từ tháng Bảy đến tháng Mười. Chọn và nêu các đặc điểm chính, có so sánh.",
+  "kind": "report",
+  "source": "Biểu đồ đường: Monthly active users of the Bright Star app, July to October.\nĐà Nẵng: tháng 7: 2,100 · tháng 8: 4,300 · tháng 9: 4,600 · tháng 10: 4,800.\nCác thành phố khác (ứng dụng ra mắt toàn quốc ngày 1/9): tháng 7 và tháng 8: 0 · tháng 9: 13,900 · tháng 10: 13,100.\nTổng: tháng 9: 18,500 · tháng 10: 17,900.\nDự báo cho đợt chạy thử ở Đà Nẵng: khoảng 2,000 người dùng vào cuối tháng 8.",
+  "model": "The line graph compares the number of monthly active users of the Bright Star app in Da Nang and in other Vietnamese cities from July to October. Overall, the total number of users rose dramatically, mainly because of the national launch in September, while the figure for Da Nang grew steadily throughout the period. In July, when the app was available only in Da Nang, there were approximately 2,100 active users. This figure more than doubled to 4,300 in August, which was just over twice the pilot forecast of 2,000. Following the national launch on 1 September, the number of users in other cities surged from zero to 13,900, and the total peaked at 18,500. Meanwhile, Da Nang continued to grow, but at a much slower rate, reaching 4,600. In October, however, the figure for other cities declined slightly to 13,100, whereas Da Nang remained relatively steady at 4,800. As a result, the total fell to 17,900, although it was still more than four times higher than the August level.",
+  "frame": "The line graph ___ the number of monthly active users of the Bright Star app in Da Nang and in other Vietnamese cities from July to October. Overall, the total number of users ___, mainly because of the national launch in September, while the figure for Da Nang grew steadily throughout the period. In July, when the app was available only in Da Nang, there were ___ 2,100 active users. This figure ___ to 4,300 in August, which was ___ the pilot forecast of 2,000. Following the national launch on 1 September, the number of users in other cities ___ from zero to 13,900, and the total ___ 18,500. Meanwhile, Da Nang continued to grow, but at a much slower rate, reaching 4,600. In October, however, the figure for other cities ___ to 13,100, whereas Da Nang remained relatively ___ at 4,800. ___, the total fell to 17,900, although it was still more than four times higher than the August level.",
+  "gaps": [
+   "compares",
+   "rose dramatically",
+   "approximately",
+   "more than doubled",
+   "just over twice",
+   "surged",
+   "peaked at",
+   "declined slightly",
+   "steady",
+   "As a result"
+  ],
+  "free": [false, false, false, false, false, false, false, false, false, false],
+  "hints": [
+   "Câu mở: The line graph compares / shows + the number of… + from … to …",
+   "Câu tổng quan bắt đầu bằng Overall, nêu xu hướng chính, không đưa số chi tiết",
+   "Động từ + trạng từ: rose dramatically, declined slightly; mức cao nhất: peaked at + số",
+   "Ước lượng và so sánh: approximately, just over twice, more than four times higher than",
+   "Từ nối đối lập và kết quả: Meanwhile, however, whereas, As a result"
+  ],
+  "check": [
+   "Câu mở diễn đạt lại đề (không chép nguyên văn)",
+   "Có câu tổng quan Overall nêu xu hướng chính",
+   "Có số liệu cụ thể kèm mốc thời gian, dùng đúng from … to, at, by",
+   "Có so sánh giữa Đà Nẵng và các thành phố khác (whereas, by contrast, meanwhile)",
+   "Dùng quá khứ đơn vì các mốc thời gian đã qua",
+   "Dài khoảng 150–190 từ, không nêu ý kiến cá nhân"
+  ],
+  "words": [150, 190]
+ }
+}
