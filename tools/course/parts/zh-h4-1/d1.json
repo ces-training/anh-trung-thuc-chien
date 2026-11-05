@@ -1005,7 +1005,7 @@
    }
   },
   {
-   "q": "Chọn từ đúng: 我___这种杯子很贵，问了以后才知道只要二十块。(Tôi cứ tưởng loại cốc này đắt lắm, hỏi rồi mới biết chỉ hai mươi tệ.)",
+   "q": "Chọn từ đúng: 我___这种杯子很贵，问了以后才知道只要二十五块。(Tôi cứ tưởng loại cốc này đắt lắm, hỏi rồi mới biết chỉ hai mươi lăm tệ.)",
    "opts": [
     "以为",
     "认为"
@@ -1112,10 +1112,10 @@
    },
    {
     "who": "小刘",
-    "t": "一个三十五块，比去年的产品贵五块，但是质量好多了。",
-    "py": "Yí ge sānshíwǔ kuài, bǐ qùnián de chǎnpǐn guì wǔ kuài, dànshì zhìliàng hǎo duō le.",
-    "vi": "Một cái ba mươi lăm tệ, đắt hơn sản phẩm năm ngoái năm tệ, nhưng chất lượng tốt hơn nhiều.",
-    "en": "Thirty-five yuan each, five yuan more than last year's product, but the quality is much better."
+    "t": "一个二十五块，比去年的产品贵五块，但是质量好多了。",
+    "py": "Yí ge èrshíwǔ kuài, bǐ qùnián de chǎnpǐn guì wǔ kuài, dànshì zhìliàng hǎo duō le.",
+    "vi": "Một cái hai mươi lăm tệ, đắt hơn sản phẩm năm ngoái năm tệ, nhưng chất lượng tốt hơn nhiều.",
+    "en": "Twenty-five yuan each, five yuan more than last year's product, but the quality is much better."
    },
    {
     "who": "阮安",
@@ -1169,14 +1169,14 @@
    {
     "label": "Giá một cái",
     "opts": [
-     "三十五块",
-     "三十块",
-     "四十五块"
+     "二十五块",
+     "二十块",
+     "三十五块"
     ],
     "a": 0,
     "why": {
-     "1": "三十块 là 30 tệ; bài nghe nói 三十五块 (sānshíwǔ kuài), có thêm 五.",
-     "2": "四十五块 là 45 tệ; bài nghe bắt đầu bằng 三十 (sānshí), không phải 四十 (sìshí)."
+     "1": "二十块 là 20 tệ; bài nghe nói 二十五块 (èrshíwǔ kuài), có thêm 五.",
+     "2": "三十五块 là 35 tệ; bài nghe bắt đầu bằng 二十 (èrshí), không phải 三十 (sānshí)."
     }
    },
    {

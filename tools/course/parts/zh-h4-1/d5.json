@@ -1,0 +1,923 @@
+{
+ "id": "h4-w1-thu-6",
+ "label": "Thứ 6",
+ "title": "Tổng kết chuyến đi, báo cáo quản lý",
+ "desc": "Về lại Hà Nội, bạn tóm tắt chuyến công tác Quảng Châu cho giám đốc Vương: kể việc theo thứ tự (先……然后……最后), nêu kết quả, sự cố lô hàng đầu và việc tiếp theo; nhắn tin chốt việc với giám đốc Trần, viết báo cáo ngắn và nói 1 phút tổng kết.",
+ "rule": "先 A，然后 B，最后 C = trước tiên… sau đó… cuối cùng… (先 đứng trước động từ). 通过 + việc / cách，chủ ngữ + V = thông qua… (vế sau phải có chủ ngữ, không thêm 让). 对 + người + 来说，… = đối với ai mà nói. 总的来说 = nhìn chung.",
+ "cards": [
+  {
+   "w": "总结",
+   "py": "zǒngjié",
+   "m": "tổng kết, tóm tắt",
+   "mEn": "to sum up; summary",
+   "ex": "你先给我总结一下这次出差的情况。",
+   "expy": "Nǐ xiān gěi wǒ zǒngjié yíxià zhè cì chūchāi de qíngkuàng.",
+   "exm": "Em tóm tắt trước cho anh tình hình chuyến công tác lần này nhé.",
+   "exEn": "First, give me a quick summary of how this business trip went.",
+   "n": "Hán Việt 'tổng kết'. Vừa là động từ (总结一下 = tóm tắt một chút) vừa là danh từ (写一个总结 = viết bản tổng kết). z không bật hơi; zǒng thanh 3 chỉ đọc nửa vì đứng trước thanh 2 (jié)."
+  },
+  {
+   "w": "结果",
+   "py": "jiéguǒ",
+   "m": "kết quả; rốt cuộc",
+   "mEn": "result, outcome; in the end",
+   "ex": "这次出差的结果比我们想的还好。",
+   "expy": "Zhè cì chūchāi de jiéguǒ bǐ wǒmen xiǎng de hái hǎo.",
+   "exm": "Kết quả chuyến công tác lần này còn tốt hơn chúng tôi nghĩ.",
+   "exEn": "The trip turned out even better than we expected.",
+   "n": "Danh từ 'kết quả': 结果怎么样？ Cũng làm từ nối đầu vế sau, nghĩa 'rốt cuộc, kết cục là': 我们等了三天，结果杯子还是没送到。 jié thanh 2 đi lên, guǒ thanh 3."
+  },
+  {
+   "w": "顺利",
+   "py": "shùnlì",
+   "m": "suôn sẻ, trôi chảy",
+   "mEn": "smooth, without problems",
+   "ex": "总的来说，这次去广州出差很顺利。",
+   "expy": "Zǒng de lái shuō, zhè cì qù Guǎngzhōu chūchāi hěn shùnlì.",
+   "exm": "Nhìn chung, chuyến công tác Quảng Châu lần này rất suôn sẻ.",
+   "exEn": "All in all, the trip to Guangzhou went very smoothly.",
+   "n": "顺利 nói một VIỆC diễn ra trôi chảy, không trục trặc: 很顺利, V得很顺利. Hán Việt 'thuận lợi', nhưng 'điều kiện thuận lợi' thì tiếng Trung không dùng 顺利 (nói 条件很好). sh cong lưỡi; hai thanh 4 liền nhau."
+  },
+  {
+   "w": "进行",
+   "py": "jìnxíng",
+   "m": "tiến hành, diễn ra",
+   "mEn": "to carry out, to conduct; to go on",
+   "ex": "下星期一我们要进行一次总结。",
+   "expy": "Xià xīngqīyī wǒmen yào jìnxíng yí cì zǒngjié.",
+   "exm": "Thứ Hai tuần sau chúng ta sẽ tiến hành một buổi tổng kết.",
+   "exEn": "Next Monday we're going to hold a review.",
+   "n": "进行 + động từ hai âm tiết, sắc thái trang trọng: 进行检查, 进行总结. Không dùng cho việc nhỏ hằng ngày (không nói 进行吃饭). 会议进行得很顺利 = cuộc họp diễn ra suôn sẻ. jìn có -n trước, xíng có -ng sau."
+  },
+  {
+   "w": "安排",
+   "py": "ānpái",
+   "m": "sắp xếp, bố trí, phân công",
+   "mEn": "to arrange; arrangement",
+   "ex": "王经理安排我和王丽去广州出差。",
+   "expy": "Wáng jīnglǐ ānpái wǒ hé Wáng Lì qù Guǎngzhōu chūchāi.",
+   "exm": "Giám đốc Vương cử tôi và Vương Lệ đi công tác Quảng Châu.",
+   "exEn": "Manager Wang arranged for Wang Li and me to go to Guangzhou on business.",
+   "n": "安排 + người + làm việc gì = phân công, bố trí ai làm gì. Danh từ: 这个安排很好 (sự sắp xếp này rất tốt). ān thanh 1, pái thanh 2; p bật hơi.",
+   "img": "manager"
+  },
+  {
+   "w": "通知",
+   "py": "tōngzhī",
+   "m": "thông báo, báo cho biết",
+   "mEn": "to notify; notice",
+   "ex": "请你通知大家，明天上午十点开会。",
+   "expy": "Qǐng nǐ tōngzhī dàjiā, míngtiān shàngwǔ shí diǎn kāihuì.",
+   "exm": "Em báo cho mọi người: 10 giờ sáng mai họp.",
+   "exEn": "Please let everyone know there's a meeting at 10 tomorrow morning.",
+   "n": "通知 + người + việc: báo chính thức, thường cho nhiều người. Kể riêng cho một người chuyện nhỏ thì hay dùng 告诉. Danh từ: 接到通知 = nhận được thông báo. Hai thanh 1: giữ cao đều; zh cong lưỡi.",
+   "img": "email"
+  },
+  {
+   "w": "联系",
+   "py": "liánxì",
+   "m": "liên hệ, liên lạc",
+   "mEn": "to contact, to get in touch",
+   "ex": "我回到河内以后，马上跟陈总联系了。",
+   "expy": "Wǒ huídào Hénèi yǐhòu, mǎshàng gēn Chén zǒng liánxì le.",
+   "exm": "Về đến Hà Nội, tôi liên hệ ngay với giám đốc Trần.",
+   "exEn": "After I got back to Hanoi, I contacted Mr Chen right away.",
+   "n": "跟 / 和 + người + 联系, hoặc 联系 + người. Đừng lẫn với 关系 (guānxi, mối quan hệ): 'liên hệ với ai' là 跟……联系. lián thanh 2, xì thanh 4."
+  },
+  {
+   "w": "任务",
+   "py": "rènwu",
+   "m": "nhiệm vụ",
+   "mEn": "task, assignment",
+   "ex": "这次出差的任务，我们都完成了。",
+   "expy": "Zhè cì chūchāi de rènwu, wǒmen dōu wánchéng le.",
+   "exm": "Nhiệm vụ của chuyến công tác này, chúng tôi đều đã hoàn thành.",
+   "exEn": "We've completed all the tasks for this trip.",
+   "n": "Hay đi với 完成任务 (hoàn thành nhiệm vụ), 安排任务 (giao nhiệm vụ), 新的任务. r cong lưỡi, không đọc thành 'd' hay 'z'; 务 thường đọc nhẹ: rènwu.",
+   "img": "work"
+  },
+  {
+   "w": "效果",
+   "py": "xiàoguǒ",
+   "m": "hiệu quả, tác dụng",
+   "mEn": "effect, result",
+   "ex": "我们先在两家店里卖了一个星期，效果不错。",
+   "expy": "Wǒmen xiān zài liǎng jiā diàn li mài le yí ge xīngqī, xiàoguǒ búcuò.",
+   "exm": "Chúng tôi bán thử ở hai cửa hàng một tuần trước, hiệu quả khá tốt.",
+   "exEn": "We sold them in two shops for a week first, and the results were quite good.",
+   "n": "⚠ Bẫy Hán–Việt: 效果 là DANH TỪ (tác dụng mà một cách làm mang lại): 效果很好 / 效果不好. 'Làm việc rất hiệu quả' (tính từ) không dịch là 很效果. xiào: x đọc dẹt môi, thanh 4."
+  },
+  {
+   "w": "获得",
+   "py": "huòdé",
+   "m": "đạt được, thu được, giành được",
+   "mEn": "to gain, to obtain",
+   "ex": "通过这次大会，我们获得了很多市场信息。",
+   "expy": "Tōngguò zhè cì dàhuì, wǒmen huòdé le hěn duō shìchǎng xìnxī.",
+   "exm": "Thông qua hội chợ lần này, chúng tôi thu được nhiều thông tin thị trường.",
+   "exEn": "Through this fair, we gained a lot of market information.",
+   "n": "获得 + danh từ trừu tượng, sắc thái trang trọng: 获得信息, 获得机会, 获得好的结果. Đồ vật cụ thể thường nói 拿到 / 得到. 得 ở đây đọc dé (thanh 2), khác 得 (de) nhẹ sau động từ."
+  },
+  {
+   "w": "市场",
+   "py": "shìchǎng",
+   "m": "thị trường; chợ",
+   "mEn": "market",
+   "ex": "这种杯子在越南市场一定卖得很好。",
+   "expy": "Zhè zhǒng bēizi zài Yuènán shìchǎng yídìng mài de hěn hǎo.",
+   "exm": "Loại cốc này chắc chắn sẽ bán rất chạy ở thị trường Việt Nam.",
+   "exEn": "These cups will definitely sell well in the Vietnamese market.",
+   "n": "市场 vừa là 'chợ' (去市场买菜) vừa là 'thị trường' (越南市场, 市场信息). shì và chǎng đều cong lưỡi; ch bật hơi, chǎng thanh 3.",
+   "img": "sales"
+  }
+ ],
+ "scene": {
+  "setting": "Sáng thứ Sáu ở văn phòng công ty tại Hà Nội (河内). 阮安 và 王丽 vừa đi công tác Quảng Châu về, vào phòng giám đốc Vương để báo cáo: hội chợ, hợp đồng 2.000 chiếc cốc giao trước Tết, sự cố lô hàng đầu và việc tiếp theo.",
+  "img": "scene-zh-office-d5",
+  "imgPrompt": "Realistic photo of a bright modern manager's office in Hanoi in winter; wangjl (Chinese businessman about 50, short greying hair, rimless glasses, dark navy suit with a red tie) sits behind a desk listening with a warm smile; an (Vietnamese woman about 27, shoulder-length straight black bob, cobalt blue blouse) stands beside the desk presenting a blank printed report, while wangli (Chinese woman about 26, high black ponytail, red knit sweater) holds a plain white office cup sample; laptop and a small stack of cup boxes on the desk, no readable text",
+  "lines": [
+   {
+    "who": "王经理",
+    "t": "阮安，王丽，你们回来了！这次去广州出差，结果怎么样？",
+    "py": "Ruǎn Ān, Wáng Lì, nǐmen huílái le! Zhè cì qù Guǎngzhōu chūchāi, jiéguǒ zěnmeyàng?",
+    "vi": "An, Vương Lệ, các em về rồi! Chuyến công tác Quảng Châu lần này kết quả thế nào?",
+    "en": "An, Wang Li, you're back! How did the Guangzhou trip turn out?"
+   },
+   {
+    "who": "阮安",
+    "t": "总的来说很顺利。我先给您总结一下。",
+    "py": "Zǒng de lái shuō hěn shùnlì. Wǒ xiān gěi nín zǒngjié yíxià.",
+    "vi": "Nhìn chung rất suôn sẻ ạ. Em xin tóm tắt trước để anh nắm.",
+    "en": "All in all, it went very smoothly. Let me give you a quick summary first."
+   },
+   {
+    "who": "阮安",
+    "t": "我们先在大会上看了陈总公司的样品，然后跟陈总商量了价格，最后订了两千个杯子。",
+    "py": "Wǒmen xiān zài dàhuì shang kàn le Chén zǒng gōngsī de yàngpǐn, ránhòu gēn Chén zǒng shāngliang le jiàgé, zuìhòu dìng le liǎngqiān ge bēizi.",
+    "vi": "Đầu tiên bọn em xem hàng mẫu của công ty giám đốc Trần ở hội chợ, sau đó bàn giá với ông ấy, cuối cùng đặt 2.000 chiếc cốc.",
+    "en": "First we looked at Mr Chen's company's samples at the fair, then we discussed the price with him, and finally we ordered 2,000 cups."
+   },
+   {
+    "who": "王经理",
+    "t": "很好。对我们来说，最重要的是春节以前能按时送到。",
+    "py": "Hěn hǎo. Duì wǒmen lái shuō, zuì zhòngyào de shì Chūnjié yǐqián néng ànshí sòngdào.",
+    "vi": "Tốt lắm. Với chúng ta, quan trọng nhất là giao đúng hạn trước Tết.",
+    "en": "Very good. For us, the most important thing is on-time delivery before Spring Festival."
+   },
+   {
+    "who": "王丽",
+    "t": "合同里写了，春节以前一定送到。不过第一次送来的杯子有质量问题，还晚了三天。",
+    "py": "Hétong li xiě le, Chūnjié yǐqián yídìng sòngdào. Búguò dì-yī cì sònglái de bēizi yǒu zhìliàng wèntí, hái wǎn le sān tiān.",
+    "vi": "Hợp đồng có ghi là chắc chắn giao trước Tết ạ. Có điều lô cốc đầu tiên bị lỗi chất lượng, lại còn chậm ba ngày.",
+    "en": "The contract says they'll definitely deliver before Spring Festival. But the first batch of cups had quality problems and arrived three days late."
+   },
+   {
+    "who": "阮安",
+    "t": "我马上跟陈总联系了。他说他们会负责，重新做，还会赔偿我们。",
+    "py": "Wǒ mǎshàng gēn Chén zǒng liánxì le. Tā shuō tāmen huì fùzé, chóngxīn zuò, hái huì péicháng wǒmen.",
+    "vi": "Em đã liên hệ ngay với giám đốc Trần. Ông ấy nói bên họ sẽ chịu trách nhiệm, làm lại, và còn bồi thường cho mình.",
+    "en": "I contacted Mr Chen right away. He said they'd take responsibility, remake the cups and compensate us."
+   },
+   {
+    "who": "王经理",
+    "t": "你联系得很及时。通过这次出差，你们还获得了什么？",
+    "py": "Nǐ liánxì de hěn jíshí. Tōngguò zhè cì chūchāi, nǐmen hái huòdé le shénme?",
+    "vi": "Em liên hệ rất kịp thời. Qua chuyến công tác này, các em còn thu được gì nữa?",
+    "en": "You got in touch very promptly. What else did you gain from this trip?"
+   },
+   {
+    "who": "王丽",
+    "t": "我们在大会上认识了很多新公司，也获得了很多市场信息。",
+    "py": "Wǒmen zài dàhuì shang rènshi le hěn duō xīn gōngsī, yě huòdé le hěn duō shìchǎng xìnxī.",
+    "vi": "Ở hội chợ bọn em quen được nhiều công ty mới, cũng thu được nhiều thông tin thị trường.",
+    "en": "At the fair we met lots of new companies and gained a lot of market information too."
+   },
+   {
+    "who": "王经理",
+    "t": "太好了。下星期一我们进行一次总结，我再安排新的任务。",
+    "py": "Tài hǎo le. Xià xīngqīyī wǒmen jìnxíng yí cì zǒngjié, wǒ zài ānpái xīn de rènwu.",
+    "vi": "Tuyệt quá. Thứ Hai tuần sau mình họp tổng kết, rồi anh sẽ giao nhiệm vụ mới.",
+    "en": "Great. Next Monday we'll hold a review, and then I'll assign new tasks."
+   },
+   {
+    "who": "王经理",
+    "t": "王丽，请你通知大家。阮安，你写一个简单的报告发给我。",
+    "py": "Wáng Lì, qǐng nǐ tōngzhī dàjiā. Ruǎn Ān, nǐ xiě yí ge jiǎndān de bàogào fā gěi wǒ.",
+    "vi": "Vương Lệ, em báo cho mọi người nhé. An, em viết một bản báo cáo ngắn gửi anh.",
+    "en": "Wang Li, please let everyone know. An, write me a short report."
+   }
+  ]
+ },
+ "patterns": [
+  {
+   "t": "Kể theo thứ tự: 先 A，然后 B，最后 C",
+   "f": [
+    ["我们", "先看样品，然后商量价格，最后", "订了杯子。"],
+    ["我", "先跟陈总联系，然后", "通知了大家。"]
+   ],
+   "ex": [
+    ["我们先看了样品，然后商量了价格，最后订了两千个杯子。", "Chúng tôi xem hàng mẫu trước, sau đó bàn giá, cuối cùng đặt 2.000 chiếc cốc.", "We looked at the samples first, then discussed the price, and finally ordered 2,000 cups."],
+    ["你先总结一下，然后我再安排新的任务。", "Em tóm tắt trước, sau đó anh sẽ giao nhiệm vụ mới.", "You sum up first, and then I'll assign the new tasks."]
+   ],
+   "bad": "我们看了样品先，然后商量了价格。",
+   "good": "我们先看了样品，然后商量了价格。",
+   "why": "先 (xiān) là phó từ, đứng TRƯỚC động từ: 先看. Tiếng Việt nói 'xem trước' nên rất dễ đặt 先 ra sau. 然后 (ránhòu) đứng đầu vế sau, 最后 (zuìhòu) dành cho việc cuối cùng."
+  },
+  {
+   "t": "Thông qua…: 通过 + việc / cách，chủ ngữ + V",
+   "f": [
+    ["我们", "通过这次大会", "认识了很多新公司。"],
+    ["王经理", "通过王丽", "通知了大家。"]
+   ],
+   "ex": [
+    ["通过这次大会，我们获得了很多市场信息。", "Thông qua hội chợ lần này, chúng tôi thu được nhiều thông tin thị trường.", "Through this fair, we gained a lot of market information."],
+    ["我们通过电话跟陈总联系。", "Chúng tôi liên hệ với giám đốc Trần qua điện thoại.", "We contact Mr Chen by phone."]
+   ],
+   "bad": "通过这次大会，让我们认识了很多新公司。",
+   "good": "通过这次大会，我们认识了很多新公司。",
+   "why": "Câu mở đầu bằng 通过…… thì vế sau cần chủ ngữ thật (我们). Thêm 让 (ràng) làm câu mất chủ ngữ, đây là lỗi người học hay mắc. Muốn dùng 让 thì bỏ 通过: 这次大会让我们认识了很多新公司。"
+  },
+  {
+   "t": "Đối với… mà nói: 对 + người / đơn vị + 来说，…",
+   "f": [
+    ["我觉得，", "对我们来说，", "按时送到最重要。"],
+    ["这个价格", "对小公司来说", "有点儿贵。"]
+   ],
+   "ex": [
+    ["对我们来说，按时送到比价格更重要。", "Đối với chúng ta, giao đúng hạn còn quan trọng hơn giá.", "For us, on-time delivery matters more than price."],
+    ["对陈总的公司来说，越南是一个新市场。", "Đối với công ty của giám đốc Trần, Việt Nam là một thị trường mới.", "For Mr Chen's company, Vietnam is a new market."]
+   ],
+   "bad": "对我们说，按时送到最重要。",
+   "good": "对我们来说，按时送到最重要。",
+   "why": "Nói theo góc nhìn của ai thì phải đủ khung 对……来说 (duì… lái shuō). 对我们说 nghĩa là 'nói với chúng tôi', nghĩa khác hẳn."
+  }
+ ],
+ "vocab": [
+  {
+   "q": "总结 (zǒngjié) nghĩa là gì?",
+   "opts": ["tổng kết, tóm tắt", "kết quả", "nhiệm vụ"],
+   "optsEn": ["to sum up", "result", "task"],
+   "a": 0,
+   "why": {
+    "1": "'Kết quả' là 结果 (jiéguǒ). Hai từ cùng có 结, nhưng 结果 là cái thu được sau cùng, còn 总结 là việc nhìn lại và tóm tắt.",
+    "2": "'Nhiệm vụ' là 任务 (rènwu), việc được giao phải làm."
+   }
+  },
+  {
+   "q": "Điền từ: 这次出差很___，任务都完成了。(Zhè cì chūchāi hěn ___, rènwu dōu wánchéng le.)",
+   "opts": ["顺利", "效果", "市场"],
+   "a": 0,
+   "why": {
+    "1": "效果 (xiàoguǒ) là danh từ 'tác dụng', không đứng sau 很 để tả một chuyến đi.",
+    "2": "市场 (shìchǎng) = thị trường, là danh từ; 'chuyến công tác rất thị trường' không có nghĩa."
+   }
+  },
+  {
+   "q": "Điền từ: 王经理___我负责这个任务。(Wáng jīnglǐ ___ wǒ fùzé zhège rènwu.)",
+   "opts": ["安排", "获得", "进行"],
+   "a": 0,
+   "why": {
+    "1": "获得 (huòdé) = thu được, đi với danh từ trừu tượng (获得信息); không dùng kiểu 获得 + người + làm việc gì.",
+    "2": "进行 (jìnxíng) đi với động từ hai âm tiết (进行检查), không đi với người + việc như 我负责这个任务."
+   }
+  },
+  {
+   "q": "⚠ Bẫy Hán–Việt: muốn nói 'Cách này rất hiệu quả', câu nào đúng?",
+   "opts": ["这个办法效果很好。", "这个办法很效果。"],
+   "a": 0,
+   "why": {
+    "1": "效果 (xiàoguǒ) là danh từ, không làm tính từ sau 很. Phải nói 效果很好 (tác dụng rất tốt)."
+   }
+  },
+  {
+   "q": "Điền từ: 通过这次大会，我们___了很多新的信息。(Tōngguò zhè cì dàhuì, wǒmen ___ le hěn duō xīn de xìnxī.)",
+   "opts": ["获得", "进行", "安排"],
+   "a": 0,
+   "why": {
+    "1": "进行 (jìnxíng) cần một động từ hai âm tiết phía sau (进行检查), không đi với 信息 (thông tin).",
+    "2": "安排 (ānpái) = sắp xếp, phân công; câu muốn nói 'thu được' thông tin nhờ hội chợ, nên dùng 获得."
+   }
+  },
+  {
+   "q": "Điền từ: 我回到河内以后，马上跟陈总___了。(Wǒ huídào Hénèi yǐhòu, mǎshàng gēn Chén zǒng ___ le.)",
+   "opts": ["联系", "通知", "安排"],
+   "a": 0,
+   "why": {
+    "1": "通知 (tōngzhī) cần người và nội dung đi sau: 通知陈总 + việc gì; không nói 跟陈总通知了.",
+    "2": "安排 (ānpái) cần người + việc: 安排他做什么; 跟陈总安排了 không đủ nghĩa."
+   }
+  },
+  {
+   "q": "Điền từ: 下午三点，我们要对这次出差___一次总结。(Xiàwǔ sān diǎn, wǒmen yào duì zhè cì chūchāi ___ yí cì zǒngjié.)",
+   "opts": ["进行", "获得", "通知"],
+   "a": 0,
+   "why": {
+    "1": "获得 (huòdé) = thu được (信息, 机会); 'thu được một lần tổng kết' không có nghĩa.",
+    "2": "通知 (tōngzhī) = thông báo cho ai; 通知一次总结 không có nghĩa. Khung đúng: 对 + việc + 进行 + 总结."
+   }
+  },
+  {
+   "q": "市场 (shìchǎng) trong câu 越南市场很大 (Yuènán shìchǎng hěn dà) nghĩa là gì?",
+   "opts": ["thị trường", "cái chợ", "quảng trường"],
+   "optsEn": ["market (economy)", "marketplace", "public square"],
+   "a": 0,
+   "why": {
+    "1": "市场 cũng có nghĩa 'chợ' (去市场买菜), nhưng 越南市场很大 nói về thị trường của cả nước Việt Nam.",
+    "2": "'Quảng trường' là khoảng sân rộng ngoài trời; 市场 không có nghĩa này."
+   }
+  }
+ ],
+ "grammar": [
+  {
+   "q": "Câu nào đúng?",
+   "opts": ["我们先看了样品，然后商量了价格。", "我们看了样品先，然后商量了价格。", "我们然后看了样品，先商量了价格。"],
+   "a": 0,
+   "why": {
+    "1": "先 (xiān) là phó từ, phải đứng TRƯỚC động từ: 先看. Tiếng Việt nói 'xem trước' nên dễ đặt 先 ra sau.",
+    "2": "Thứ tự bị đảo: 先 dùng cho việc làm trước, 然后 (ránhòu) cho việc làm sau và đứng đầu vế sau."
+   }
+  },
+  {
+   "q": "Điền từ: 我们先看样品，___商量价格，最后订杯子。(Wǒmen xiān kàn yàngpǐn, ___ shāngliang jiàgé, zuìhòu dìng bēizi.)",
+   "opts": ["然后", "最后", "先"],
+   "a": 0,
+   "why": {
+    "1": "最后 (zuìhòu) dành cho việc cuối cùng, mà câu đã có 最后订杯子 ở sau.",
+    "2": "先 (xiān) đã dùng cho việc đầu tiên (先看样品); việc thứ hai cần 然后."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Điền từ: ___我们来说，春节以前按时送到最重要。(___ wǒmen lái shuō, Chūnjié yǐqián ànshí sòngdào zuì zhòngyào.) Đối với chúng ta, giao đúng hạn trước Tết là quan trọng nhất.",
+   "model": "对",
+   "accept": ["对", "dui"],
+   "why": "Nói theo góc nhìn của ai dùng khung 对 + người + 来说 (duì… lái shuō)."
+  },
+  {
+   "q": "Câu nào đúng?",
+   "opts": ["通过这次大会，我们认识了很多新公司。", "通过这次大会，让我们认识了很多新公司。", "这次大会通过，我们认识了很多新公司。"],
+   "a": 0,
+   "why": {
+    "1": "Câu có 通过…… ở đầu thì vế sau cần chủ ngữ (我们); thêm 让 (ràng) làm câu mất chủ ngữ. Muốn dùng 让 thì bỏ 通过: 这次大会让我们……",
+    "2": "通过 (tōngguò) là giới từ, phải đứng TRƯỚC: 通过 + 这次大会, không đặt sau."
+   }
+  },
+  {
+   "q": "Câu nào nghĩa là 'Cuộc họp diễn ra rất suôn sẻ'?",
+   "opts": ["会议进行得很顺利。", "会议很顺利进行得。", "会议进行很顺利得。"],
+   "a": 0,
+   "why": {
+    "1": "得 (de) đứng ngay sau động từ rồi mới đến lời đánh giá: 进行得 + 很顺利.",
+    "2": "得 không đứng cuối câu; khung đúng là V + 得 + 很 + tính từ."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Sắp xếp thành câu: 联系 / 跟陈总 / 我 / 马上 / 了 (Tôi đã liên hệ ngay với giám đốc Trần.)",
+   "model": "我马上跟陈总联系了。",
+   "accept": ["我马上跟陈总联系了。", "我马上跟陈总联系了", "我马上和陈总联系了。", "womashanggenchenzonglianxile"],
+   "why": "Thứ tự: chủ ngữ (我) + 马上 + 跟 + người + 联系 + 了. 跟陈总 đứng TRƯỚC 联系, không nói 联系跟陈总."
+  },
+  {
+   "q": "Điền từ: ___，这次出差很顺利，任务都完成了。(___, zhè cì chūchāi hěn shùnlì, rènwu dōu wánchéng le.)",
+   "opts": ["总的来说", "然后", "通过"],
+   "a": 0,
+   "why": {
+    "1": "然后 (ránhòu) nối với một việc đã kể trước đó; câu này là câu mở đầu để nói ý chung, nên dùng 总的来说 (nhìn chung).",
+    "2": "通过 (tōngguò) cần một danh từ theo sau (通过这次大会); đứng một mình thì không đủ nghĩa."
+   }
+  }
+ ],
+ "listen": [
+  {
+   "q": "Chuyến công tác thế nào?",
+   "audio": "这次出差怎么样？——总的来说很顺利，任务都完成了。",
+   "opts": ["suôn sẻ, đã xong mọi nhiệm vụ", "gặp nhiều trục trặc", "chưa xong nhiệm vụ"],
+   "optsEn": ["smooth, all tasks done", "lots of problems", "tasks not finished"],
+   "a": 0,
+   "why": {
+    "1": "Câu trả lời có 很顺利 (rất suôn sẻ), không nói có nhiều trục trặc.",
+    "2": "Câu trả lời nói 任务都完成了 (nhiệm vụ đều đã xong)."
+   }
+  },
+  {
+   "q": "Việc cuối cùng họ làm là gì?",
+   "audio": "王经理，我们先看了样品，然后商量了价格，最后订了两千个杯子。",
+   "opts": ["đặt 2.000 chiếc cốc", "xem hàng mẫu", "bàn giá"],
+   "optsEn": ["ordered 2,000 cups", "looked at samples", "discussed the price"],
+   "a": 0,
+   "why": {
+    "1": "Xem hàng mẫu là việc đầu tiên (先看了样品), không phải việc cuối.",
+    "2": "Bàn giá là việc thứ hai (然后商量了价格); sau 最后 là 订了两千个杯子."
+   }
+  },
+  {
+   "q": "Người trả lời sẽ làm gì?",
+   "audio": "明天上午开会的事，你通知王丽了吗？——还没有，我现在就给她打电话。",
+   "opts": ["gọi điện ngay cho Vương Lệ", "đi họp ngay bây giờ", "gửi email cho Vương Lệ"],
+   "optsEn": ["call Wang Li right now", "go to the meeting now", "email Wang Li"],
+   "a": 0,
+   "why": {
+    "1": "Cuộc họp là sáng mai (明天上午), không phải bây giờ; việc làm ngay là 打电话 (gọi điện).",
+    "2": "Câu nói 打电话 (gọi điện), không nói gửi email."
+   }
+  },
+  {
+   "q": "Với họ, điều gì quan trọng nhất?",
+   "audio": "对我们来说，什么最重要？——春节以前按时送到，这比价格更重要。",
+   "opts": ["giao đúng hạn trước Tết", "giá thấp", "có nhiều mẫu mới"],
+   "optsEn": ["on-time delivery before Tết", "a low price", "lots of new designs"],
+   "a": 0,
+   "why": {
+    "1": "Câu nói giao đúng hạn 比价格更重要 (quan trọng hơn giá), nên giá không phải điều quan trọng nhất.",
+    "2": "Câu không nhắc đến mẫu mới."
+   }
+  },
+  {
+   "q": "Cốc mới bán ở cửa hàng ra sao?",
+   "audio": "新杯子在店里卖得怎么样？——我们卖了一个星期，效果很好，顾客都很喜欢。",
+   "opts": ["tốt, khách đều thích", "chưa bán thử", "khách chê giá cao"],
+   "optsEn": ["well, customers all like them", "not on sale yet", "customers say it's too expensive"],
+   "a": 0,
+   "why": {
+    "1": "Họ đã bán một tuần rồi (卖了一个星期).",
+    "2": "Câu không nói về giá; câu nói 顾客都很喜欢 (khách đều rất thích)."
+   }
+  },
+  {
+   "q": "Khi nào cốc mới đến?",
+   "audio": "陈总那边怎么样了？——他说会负责，新的杯子下个星期三送到。",
+   "opts": ["thứ Tư tuần sau", "thứ Ba tuần này", "sau Tết"],
+   "optsEn": ["next Wednesday", "this Tuesday", "after Tết"],
+   "a": 0,
+   "why": {
+    "1": "Nghe thấy 下个星期三 (thứ Tư tuần sau), không phải 星期二 (thứ Ba).",
+    "2": "Câu không nói sau Tết; ngày giao là 下个星期三."
+   }
+  },
+  {
+   "q": "Qua hội chợ, họ thu được gì?",
+   "audio": "通过这次大会，你们获得了什么？——我们认识了很多新公司，也获得了很多市场信息。",
+   "opts": ["quen nhiều công ty mới và có nhiều thông tin thị trường", "nhiều đơn hàng mới", "giá rẻ hơn"],
+   "optsEn": ["met many new companies and gained market information", "many new orders", "lower prices"],
+   "a": 0,
+   "why": {
+    "1": "Câu không nhắc đến 订单 (đơn hàng).",
+    "2": "Câu không nói về giá; câu nói về 新公司 và 市场信息."
+   }
+  }
+ ],
+ "hsk": [
+  {
+   "q": "HSK4 听力 · 判断对错: Nghe đoạn văn rồi chọn 对 (đúng) hoặc 错 (sai). ★ 他们这次出差不太顺利。",
+   "audio": "这次去广州出差，我们先参加了大会，然后跟陈总商量了价格，最后订了两千个杯子。总的来说，这次出差很顺利。",
+   "opts": ["对", "错"],
+   "a": 1,
+   "why": {
+    "0": "Đoạn nghe kết luận 总的来说，这次出差很顺利 (nhìn chung rất suôn sẻ), nên câu ★ 'không suôn sẻ lắm' là sai."
+   }
+  },
+  {
+   "q": "HSK4 听力 · 对话: 问：女的是什么意思？",
+   "audio": "小阮，明天上午的会，你通知大家了吗？——都通知了，王丽也知道了。",
+   "opts": ["她已经通知大家了", "她忘了通知大家", "王丽还不知道开会"],
+   "a": 0,
+   "why": {
+    "1": "Cô ấy nói 都通知了 (đã báo hết rồi), không phải quên báo.",
+    "2": "Cô ấy nói 王丽也知道了 (Vương Lệ cũng biết rồi)."
+   }
+  },
+  {
+   "q": "HSK4 阅读 · 选词填空: 这个月的___我们都完成了，下个月王经理会安排新的工作。",
+   "opts": ["任务", "市场", "效果", "结果"],
+   "a": 0,
+   "why": {
+    "1": "市场 (shìchǎng) là thị trường; không 'hoàn thành' một thị trường.",
+    "2": "效果 (xiàoguǒ) là tác dụng của một cách làm; 完成效果 không phải cách kết hợp đúng.",
+    "3": "结果 (jiéguǒ) là cái có được sau cùng, không đi với 完成; việc được giao để làm là 任务 (rènwu)."
+   }
+  },
+  {
+   "q": "HSK4 阅读 · 选词填空: A：新的办法用了一个月了，___怎么样？ B：很好，顾客比以前多了。",
+   "opts": ["效果", "任务", "市场"],
+   "a": 0,
+   "why": {
+    "1": "任务怎么样 hỏi về nhiệm vụ; câu trả lời 'khách nhiều hơn trước' là tác dụng của cách làm mới, nên dùng 效果 (xiàoguǒ).",
+    "2": "市场 (shìchǎng) là thị trường; câu đang hỏi cách làm mới mang lại tác dụng gì."
+   }
+  },
+  {
+   "k": "order",
+   "q": "HSK4 书写 · 完成句子: xếp các từ thành câu",
+   "tokens": ["这次出差", "进行得", "非常", "顺利"],
+   "explain": "Chủ ngữ 这次出差 + động từ có 得 (进行得) + mức độ (非常) + tính từ (顺利). Khung bổ ngữ trạng thái: V + 得 + 很 / 非常 + tính từ.",
+   "vi": "Chuyến công tác này diễn ra rất suôn sẻ.",
+   "en": "This business trip went very smoothly."
+  }
+ ],
+ "shadow": [
+  {
+   "t": "总结",
+   "py": "zǒngjié",
+   "focus": "z không bật hơi, đầu lưỡi chạm sau răng (không đọc thành 'd'); zǒng chỉ đọc nửa thanh 3 (xuống thấp) vì đứng trước thanh 2; jié đi lên rõ.",
+   "en": "to sum up"
+  },
+  {
+   "t": "顺利",
+   "py": "shùnlì",
+   "focus": "sh cong lưỡi; shùn có -n trước, không thành -ng; hai thanh 4 liền nhau: shùn mạnh, lì vẫn rơi xuống dứt khoát.",
+   "en": "smooth"
+  },
+  {
+   "t": "获得",
+   "py": "huòdé",
+   "focus": "得 ở đây đọc dé (thanh 2), không đọc nhẹ thành de như trong 卖得很好; huò thanh 4 rơi dứt khoát.",
+   "en": "to gain"
+  },
+  {
+   "t": "总的来说，这次出差很顺利。",
+   "py": "Zǒng de lái shuō, zhè cì chūchāi hěn shùnlì.",
+   "focus": "的 đọc nhẹ và ngắn; 出差 chūchāi: hai âm ch bật hơi, cong lưỡi; 差 ở đây đọc chāi, không phải chà.",
+   "en": "All in all, this trip went very smoothly."
+  },
+  {
+   "t": "我们先看了样品，然后商量了价格，最后订了两千个杯子。",
+   "py": "Wǒmen xiān kàn le yàngpǐn, ránhòu shāngliang le jiàgé, zuìhòu dìng le liǎngqiān ge bēizi.",
+   "focus": "Ngắt hơi sau mỗi dấu phẩy; nhấn vào 先, 然后, 最后 để người nghe theo được thứ tự; 商量 shāngliang: liang đọc nhẹ; 两千 liǎngqiān: q bật hơi.",
+   "en": "We looked at the samples first, then discussed the price, and finally ordered 2,000 cups."
+  },
+  {
+   "t": "对我们来说，按时送到最重要。",
+   "py": "Duì wǒmen lái shuō, ànshí sòngdào zuì zhòngyào.",
+   "focus": "zuì (z không bật hơi) khác cuì; zhòngyào: zh cong lưỡi; 来说 đọc lướt, nhấn vào 最重要.",
+   "en": "For us, on-time delivery matters most."
+  }
+ ],
+ "dialog": {
+  "title": "Báo cáo giám đốc Vương: bạn tóm tắt chuyến công tác, nêu kết quả, sự cố và việc tiếp theo. Đổi vai: bạn là giám đốc Vương đặt câu hỏi.",
+  "partner": "王经理",
+  "turns": [
+   {
+    "ai": "阮安，欢迎回来！这次出差怎么样？",
+    "py": "Ruǎn Ān, huānyíng huílái! Zhè cì chūchāi zěnmeyàng?",
+    "vi": "An, chào mừng em về! Chuyến công tác lần này thế nào?",
+    "en": "Welcome back, An! How was the trip?",
+    "model": "总的来说很顺利，任务都完成了。",
+    "mpy": "Zǒng de lái shuō hěn shùnlì, rènwu dōu wánchéng le.",
+    "men": "All in all it went smoothly, and we completed all our tasks.",
+    "accept": ["总的来说很顺利，任务都完成了。", "总的来说很顺利。", "很顺利，任务都完成了。", "很顺利。", "zongdelaishuohenshunlirenwudouwanchengle", "zongdelaishuohenshunli", "henshunli"],
+    "frame": "总的来说很___，任务都完成了。",
+    "hint": "Nói ý chung trước: 总的来说 (nhìn chung) + 很顺利 (rất suôn sẻ), rồi thêm 任务都完成了."
+   },
+   {
+    "ai": "好。你先简单总结一下吧。",
+    "py": "Hǎo. Nǐ xiān jiǎndān zǒngjié yíxià ba.",
+    "vi": "Tốt. Em tóm tắt ngắn gọn trước đi.",
+    "en": "Good. Give me a short summary first.",
+    "model": "我们先看了样品，然后商量了价格，最后订了两千个杯子。",
+    "mpy": "Wǒmen xiān kàn le yàngpǐn, ránhòu shāngliang le jiàgé, zuìhòu dìng le liǎngqiān ge bēizi.",
+    "men": "We looked at the samples first, then discussed the price, and finally ordered 2,000 cups.",
+    "accept": ["我们先看了样品，然后商量了价格，最后订了两千个杯子。", "先看了样品，然后商量了价格，最后订了两千个杯子。", "我们先看了样品，然后商量了价格，最后订了杯子。", "womenxiankanleyangpinranhoushangliangle jiagezuihoudingleliangqiangebeizi", "womenxiankanleyangpinranhoushangliangle", "womenxiankanleyangpinranhoushangliangleJiage"],
+    "frame": "我们先看了样品，___商量了价格，___订了两千个杯子。",
+    "hint": "Kể theo thứ tự: 先 (trước) → 然后 (sau đó) → 最后 (cuối cùng)."
+   },
+   {
+    "ai": "我听说第一次送来的杯子有问题？",
+    "py": "Wǒ tīngshuō dì-yī cì sònglái de bēizi yǒu wèntí?",
+    "vi": "Anh nghe nói lô cốc đầu tiên có vấn đề à?",
+    "en": "I heard the first batch of cups had problems?",
+    "model": "是的，不过我马上跟陈总联系了，他们会重新做。",
+    "mpy": "Shì de, búguò wǒ mǎshàng gēn Chén zǒng liánxì le, tāmen huì chóngxīn zuò.",
+    "men": "Yes, but I contacted Mr Chen right away, and they'll remake them.",
+    "accept": ["是的，不过我马上跟陈总联系了，他们会重新做。", "我马上跟陈总联系了，他们会重新做。", "我马上跟陈总联系了。", "是的，我马上跟陈总联系了。", "shidebuguowomashanggenchenzonglianxiletamenhuichongxinzuo", "womashanggenchenzonglianxile"],
+    "frame": "是的，不过我马上跟陈总___了，他们会重新做。",
+    "hint": "Nhận là có (是的), rồi nói đã liên hệ ngay: 跟 + 陈总 + 联系了, họ sẽ 重新做 (làm lại)."
+   },
+   {
+    "ai": "很好。通过这次出差，你们还获得了什么？",
+    "py": "Hěn hǎo. Tōngguò zhè cì chūchāi, nǐmen hái huòdé le shénme?",
+    "vi": "Tốt. Qua chuyến này, các em còn thu được gì nữa?",
+    "en": "Good. What else did you gain from this trip?",
+    "model": "通过这次大会，我们获得了很多市场信息。",
+    "mpy": "Tōngguò zhè cì dàhuì, wǒmen huòdé le hěn duō shìchǎng xìnxī.",
+    "men": "Through the fair, we gained a lot of market information.",
+    "accept": ["通过这次大会，我们获得了很多市场信息。", "我们获得了很多市场信息。", "通过这次大会，我们认识了很多新公司。", "tongguozhecidahuiwomenhuodelehenduoshichangxinxi", "womenhuodelehenduoshichangxinxi"],
+    "frame": "通过这次大会，我们___了很多市场信息。",
+    "hint": "Dùng 通过 + 这次大会, vế sau có chủ ngữ: 我们 + 获得了 + 很多市场信息."
+   },
+   {
+    "ai": "下星期一我们进行一次总结，你看怎么安排？",
+    "py": "Xià xīngqīyī wǒmen jìnxíng yí cì zǒngjié, nǐ kàn zěnme ānpái?",
+    "vi": "Thứ Hai tuần sau mình họp tổng kết, em xem nên sắp xếp thế nào?",
+    "en": "Next Monday we'll hold a review. How do you think we should arrange it?",
+    "model": "我先写一个报告，然后通知大家上午十点开会。",
+    "mpy": "Wǒ xiān xiě yí ge bàogào, ránhòu tōngzhī dàjiā shàngwǔ shí diǎn kāihuì.",
+    "men": "I'll write a report first, then let everyone know the meeting is at 10 a.m.",
+    "accept": ["我先写一个报告，然后通知大家上午十点开会。", "我先写报告，然后通知大家开会。", "我先写一个报告，然后通知大家。", "woxianxieyigebaogaoranhoutongzhidajiashangwushidiankaihui", "woxianxiebaogaoranhoutongzhidajiakaihui"],
+    "frame": "我先写一个报告，然后___大家上午十点开会。",
+    "hint": "Nói việc của mình theo thứ tự: 先 + 写报告, 然后 + 通知大家 + giờ họp."
+   }
+  ]
+ },
+ "reading": {
+  "title": "Tin nhắn WeChat gửi giám đốc Trần",
+  "text": "陈总，您好！我已经回到河内了。这次在广州，谢谢您和小刘的安排。第一次送来的杯子有质量问题，您很快就给了我们解释，还答应重新做，我们非常感谢。对我们来说，最重要的是春节以前能按时送到。新的杯子下个星期三送到，请您在杯子送出以前通知我，我会安排同事检查。如果这次效果好，明年我们还想再订三千个。有什么问题，请跟我联系。阮安",
+  "py": "Chén zǒng, nín hǎo! Wǒ yǐjīng huídào Hénèi le. Zhè cì zài Guǎngzhōu, xièxie nín hé Xiǎo Liú de ānpái. Dì-yī cì sònglái de bēizi yǒu zhìliàng wèntí, nín hěn kuài jiù gěi le wǒmen jiěshì, hái dāying chóngxīn zuò, wǒmen fēicháng gǎnxiè. Duì wǒmen lái shuō, zuì zhòngyào de shì Chūnjié yǐqián néng ànshí sòngdào. Xīn de bēizi xià ge xīngqīsān sòngdào, qǐng nín zài bēizi sòngchū yǐqián tōngzhī wǒ, wǒ huì ānpái tóngshì jiǎnchá. Rúguǒ zhè cì xiàoguǒ hǎo, míngnián wǒmen hái xiǎng zài dìng sānqiān ge. Yǒu shénme wèntí, qǐng gēn wǒ liánxì. Ruǎn Ān",
+  "en": "Hello Mr Chen! I'm back in Hanoi now. Thank you and Xiao Liu for all your arrangements in Guangzhou. The first batch of cups had quality problems, but you quickly gave us an explanation and agreed to remake them, which we really appreciate. For us, the most important thing is on-time delivery before Spring Festival. The new cups will arrive next Wednesday; please let me know before they are sent out, and I'll arrange for a colleague to check them. If the results are good this time, next year we'd like to order another 3,000. If there are any problems, please get in touch with me. An",
+  "vi": "Chào giám đốc Trần! Tôi đã về đến Hà Nội rồi. Cảm ơn anh và Tiểu Lưu đã sắp xếp mọi việc ở Quảng Châu. Lô cốc đầu tiên có lỗi chất lượng, anh đã nhanh chóng giải thích cho chúng tôi và còn đồng ý làm lại, chúng tôi rất cảm ơn. Đối với chúng tôi, quan trọng nhất là giao đúng hạn trước Tết. Cốc mới sẽ đến vào thứ Tư tuần sau, trước khi gửi cốc đi xin anh báo cho tôi, tôi sẽ cử đồng nghiệp kiểm tra. Nếu lần này hiệu quả tốt, năm sau chúng tôi muốn đặt thêm 3.000 chiếc. Có vấn đề gì xin anh liên hệ với tôi. An",
+  "qs": [
+   {
+    "q": "阮安 (Ruǎn Ān) bây giờ đang ở đâu?",
+    "opts": ["Hà Nội", "Quảng Châu", "Thượng Hải"],
+    "optsEn": ["Hanoi", "Guangzhou", "Shanghai"],
+    "a": 0,
+    "why": {
+     "1": "Quảng Châu là nơi đã đi công tác; bài viết 我已经回到河内了 (đã về đến Hà Nội rồi).",
+     "2": "Bài không nhắc đến Thượng Hải."
+    }
+   },
+   {
+    "q": "Vì sao 阮安 (Ruǎn Ān) cảm ơn giám đốc Trần về lô cốc đầu tiên?",
+    "opts": ["ông ấy giải thích nhanh và đồng ý làm lại", "ông ấy giảm giá thêm", "ông ấy gửi thêm hàng mẫu"],
+    "optsEn": ["he explained quickly and agreed to remake them", "he gave a further discount", "he sent more samples"],
+    "a": 0,
+    "why": {
+     "1": "Bài không nói giảm giá; bài viết 很快就给了我们解释，还答应重新做.",
+     "2": "Bài không nhắc đến 样品 (hàng mẫu)."
+    }
+   },
+   {
+    "q": "Đối với công ty của 阮安 (Ruǎn Ān), điều gì quan trọng nhất?",
+    "opts": ["giao đúng hạn trước Tết", "giá rẻ nhất", "có nhiều mẫu mới"],
+    "optsEn": ["on-time delivery before Tết", "the lowest price", "lots of new designs"],
+    "a": 0,
+    "why": {
+     "1": "Bài không nói về giá; câu 对我们来说，最重要的是春节以前能按时送到 nói giao đúng hạn trước Tết.",
+     "2": "Bài không nhắc đến mẫu mới."
+    }
+   },
+   {
+    "q": "Giám đốc Trần cần làm gì trước khi gửi cốc mới đi?",
+    "opts": ["báo cho 阮安 (Ruǎn Ān) biết", "gọi điện cho giám đốc Vương", "tự kiểm tra lại toàn bộ cốc"],
+    "optsEn": ["let An know", "call Manager Wang", "check all the cups himself"],
+    "a": 0,
+    "why": {
+     "1": "Bài không nhắc đến giám đốc Vương; người cần được báo là 阮安 (请您……通知我).",
+     "2": "Việc kiểm tra do đồng nghiệp bên 阮安 làm: 我会安排同事检查."
+    }
+   },
+   {
+    "q": "Đúng hay sai: 阮安明年不想再订陈总公司的杯子了。",
+    "opts": ["Đúng", "Sai"],
+    "optsEn": ["True", "False"],
+    "a": 1,
+    "why": {
+     "0": "Bài viết 如果这次效果好，明年我们还想再订三千个: nếu lần này tốt, năm sau còn muốn đặt thêm 3.000 chiếc, nên câu này sai."
+    }
+   }
+  ]
+ },
+ "near": [
+  {
+   "q": "Chọn từ đúng: 我接到了公司的___：下星期一上午开会。(Tôi nhận được thông báo của công ty: sáng thứ Hai tuần sau họp.)",
+   "opts": ["通知", "告诉"],
+   "a": 0,
+   "why": {
+    "1": "告诉 (gàosu) chỉ là động từ 'nói cho biết', không làm danh từ sau 的. 通知 vừa là động từ vừa là danh từ 'thông báo'."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 回到河内以后，请你跟我___。(Về Hà Nội rồi thì liên hệ với tôi nhé.)",
+   "opts": ["联系", "关系"],
+   "a": 0,
+   "why": {
+    "1": "关系 (guānxi) là danh từ 'mối quan hệ' (我们的关系很好), không làm động từ. 'Liên hệ với ai' là 跟……联系 (liánxì)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 王经理___王丽负责通知大家。(Giám đốc Vương phân công Vương Lệ lo việc báo cho mọi người.)",
+   "opts": ["安排", "准备"],
+   "a": 0,
+   "why": {
+    "1": "准备 (zhǔnbèi) = chuẩn bị, đi với việc: 准备报告; không dùng 准备 + người + làm gì để phân công. Phân công ai làm gì là 安排 (ānpái)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我们等了三天，___杯子还是没送到。(Chúng tôi đợi ba ngày, rốt cuộc cốc vẫn chưa đến.)",
+   "opts": ["结果", "效果"],
+   "a": 0,
+   "why": {
+    "1": "效果 (xiàoguǒ) là danh từ 'tác dụng' của một cách làm, không làm từ nối. Đứng đầu vế sau với nghĩa 'rốt cuộc, kết cục là' chỉ có 结果 (jiéguǒ)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 这次出差进行得很___，任务都完成了。(Chuyến công tác diễn ra rất suôn sẻ, nhiệm vụ đều xong.)",
+   "opts": ["顺利", "方便"],
+   "a": 0,
+   "why": {
+    "1": "方便 (fāngbiàn) = tiện, thuận tiện, dùng cho điều kiện, chỗ ở, giờ giấc (这儿坐车很方便). Một việc diễn ra trôi chảy, không trục trặc thì dùng 顺利 (shùnlì)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 这个价格对我们来说很___。(Giá này đối với chúng tôi rất phù hợp.)",
+   "opts": ["合适", "适合"],
+   "a": 0,
+   "why": {
+    "1": "适合 (shìhé) là động từ, phải có tân ngữ phía sau: 适合我们. Đứng sau 很 ở cuối câu thì dùng tính từ 合适 (héshì)."
+   }
+  }
+ ],
+ "orderPara": [
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+   "tokens": ["这次去广州出差，我们先参加了大会。", "然后，我们跟陈总商量了价格。", "最后，我们订了两千个杯子，春节以前送到。"],
+   "explain": "Câu có 先 (xiān) mở đầu chuỗi việc; câu có 然后 (ránhòu) là việc thứ hai; câu có 最后 (zuìhòu) đứng cuối.",
+   "vi": "Chuyến công tác Quảng Châu lần này, đầu tiên chúng tôi tham dự hội chợ. Sau đó chúng tôi bàn giá với giám đốc Trần. Cuối cùng chúng tôi đặt 2.000 chiếc cốc, giao trước Tết.",
+   "en": "On this trip to Guangzhou, we first attended the fair. Then we discussed the price with Mr Chen. Finally, we ordered 2,000 cups, to be delivered before Spring Festival."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+   "tokens": ["第一次送来的杯子有质量问题，还晚了三天。", "我马上给陈总打了电话。", "他解释了原因，还答应重新做。"],
+   "explain": "Câu nêu vấn đề đứng đầu; 马上 (mǎshàng, ngay lập tức) cho thấy việc làm ngay sau khi phát hiện vấn đề; 他 (tā) chỉ 陈总 nên phải đứng sau câu có 陈总.",
+   "vi": "Lô cốc đầu tiên có lỗi chất lượng, lại còn chậm ba ngày. Tôi gọi điện ngay cho giám đốc Trần. Ông ấy giải thích nguyên nhân và còn đồng ý làm lại.",
+   "en": "The first batch of cups had quality problems and was three days late. I called Mr Chen right away. He explained the reason and agreed to remake them."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+   "tokens": ["虽然第一次送来的杯子有问题，但是陈总的公司很负责。", "他们答应很快重新做，还会赔偿我们。", "所以，我们明年还想跟他们做生意。"],
+   "explain": "Câu 1 có cặp 虽然……但是 (tuy… nhưng) nêu tình huống; 他们 (tāmen) ở câu 2 chỉ 陈总的公司 nên đứng sau câu 1; 所以 (suǒyǐ, vì vậy) rút ra kết luận nên đứng cuối.",
+   "vi": "Tuy lô cốc đầu tiên có vấn đề, nhưng công ty của giám đốc Trần rất có trách nhiệm. Họ đồng ý nhanh chóng làm lại và còn bồi thường cho chúng tôi. Vì vậy, năm sau chúng tôi vẫn muốn làm ăn với họ.",
+   "en": "Although the first batch of cups had problems, Mr Chen's company was very responsible. They agreed to remake them quickly and to compensate us. So next year we still want to do business with them."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+   "tokens": ["王经理，下星期一的会我已经安排好了。", "王丽会通知大家上午十点到会议室。", "会上，我先总结这次出差的结果，然后大家一起商量下个月的任务。"],
+   "explain": "Câu 1 mở đầu bằng lời gọi 王经理 và nêu chủ đề (cuộc họp đã sắp xếp xong); câu 2 nói ai thông báo và mấy giờ; câu 3 bắt đầu bằng 会上 (trong cuộc họp) nói nội dung họp, nên đứng cuối.",
+   "vi": "Thưa giám đốc Vương, cuộc họp thứ Hai tuần sau em đã sắp xếp xong. Vương Lệ sẽ báo mọi người 10 giờ sáng đến phòng họp. Trong cuộc họp, em sẽ tổng kết kết quả chuyến công tác trước, sau đó mọi người cùng bàn nhiệm vụ tháng sau.",
+   "en": "Mr Wang, I've arranged next Monday's meeting. Wang Li will tell everyone to come to the meeting room at 10 a.m. At the meeting, I'll first sum up the results of the trip, and then we'll all discuss next month's tasks."
+  }
+ ],
+ "notes": {
+  "title": "Ghi chú: việc cần làm tuần tới",
+  "lines": [
+   {
+    "who": "王经理",
+    "t": "大家好，我来安排一下下个星期的工作。",
+    "py": "Dàjiā hǎo, wǒ lái ānpái yíxià xià ge xīngqī de gōngzuò.",
+    "vi": "Chào mọi người, tôi sắp xếp công việc tuần sau một chút.",
+    "en": "Hello everyone, let me go over next week's work."
+   },
+   {
+    "who": "王经理",
+    "t": "星期一上午十点，我们在会议室进行这次出差的总结。",
+    "py": "Xīngqīyī shàngwǔ shí diǎn, wǒmen zài huìyìshì jìnxíng zhè cì chūchāi de zǒngjié.",
+    "vi": "10 giờ sáng thứ Hai, chúng ta họp tổng kết chuyến công tác này ở phòng họp.",
+    "en": "At 10 a.m. on Monday, we'll hold the review of this trip in the meeting room."
+   },
+   {
+    "who": "王经理",
+    "t": "阮安，请你今天下午五点以前把报告发给我。",
+    "py": "Ruǎn Ān, qǐng nǐ jīntiān xiàwǔ wǔ diǎn yǐqián bǎ bàogào fā gěi wǒ.",
+    "vi": "An, em gửi báo cáo cho anh trước 5 giờ chiều nay nhé.",
+    "en": "An, please send me the report before 5 p.m. today."
+   },
+   {
+    "who": "阮安",
+    "t": "好的。陈总说新的杯子下个星期三送到。",
+    "py": "Hǎo de. Chén zǒng shuō xīn de bēizi xià ge xīngqīsān sòngdào.",
+    "vi": "Vâng ạ. Giám đốc Trần nói cốc mới sẽ đến vào thứ Tư tuần sau.",
+    "en": "OK. Mr Chen says the new cups will arrive next Wednesday."
+   },
+   {
+    "who": "王经理",
+    "t": "杯子到了以后，王丽负责检查质量。",
+    "py": "Bēizi dào le yǐhòu, Wáng Lì fùzé jiǎnchá zhìliàng.",
+    "vi": "Cốc đến rồi thì Vương Lệ phụ trách kiểm tra chất lượng.",
+    "en": "Once the cups arrive, Wang Li will be in charge of checking the quality."
+   },
+   {
+    "who": "王丽",
+    "t": "没问题。如果还有问题，我马上跟小刘联系。",
+    "py": "Méi wèntí. Rúguǒ hái yǒu wèntí, wǒ mǎshàng gēn Xiǎo Liú liánxì.",
+    "vi": "Không vấn đề gì ạ. Nếu vẫn còn lỗi, em sẽ liên hệ ngay với Tiểu Lưu.",
+    "en": "No problem. If there are still problems, I'll contact Xiao Liu right away."
+   },
+   {
+    "who": "王经理",
+    "t": "检查以后，先送到河内的五家店，卖两个星期，看看效果。",
+    "py": "Jiǎnchá yǐhòu, xiān sòngdào Hénèi de wǔ jiā diàn, mài liǎng ge xīngqī, kànkan xiàoguǒ.",
+    "vi": "Kiểm tra xong thì trước hết đưa đến năm cửa hàng ở Hà Nội, bán hai tuần, xem hiệu quả thế nào.",
+    "en": "After checking, send them first to our five shops in Hanoi, sell them for two weeks and see how it goes."
+   },
+   {
+    "who": "王经理",
+    "t": "如果效果好，明年我们再订三千个。",
+    "py": "Rúguǒ xiàoguǒ hǎo, míngnián wǒmen zài dìng sānqiān ge.",
+    "vi": "Nếu hiệu quả tốt, năm sau chúng ta đặt thêm 3.000 chiếc.",
+    "en": "If the results are good, we'll order another 3,000 next year."
+   }
+  ],
+  "form": [
+   {
+    "label": "Giờ họp tổng kết",
+    "opts": ["星期一上午十点", "星期一下午五点", "星期三上午十点"],
+    "a": 0,
+    "why": {
+     "1": "5 giờ chiều (下午五点) là hạn gửi báo cáo, và là chiều nay chứ không phải thứ Hai; giờ họp là 星期一上午十点.",
+     "2": "星期三 (thứ Tư) là ngày cốc mới đến, không phải ngày họp."
+    }
+   },
+   {
+    "label": "Hạn gửi báo cáo",
+    "opts": ["今天下午五点以前", "星期一上午十点以前", "下个星期三以前"],
+    "a": 0,
+    "why": {
+     "1": "10 giờ sáng thứ Hai là giờ họp tổng kết, không phải hạn gửi báo cáo.",
+     "2": "Thứ Tư tuần sau là ngày cốc mới đến; báo cáo phải gửi 今天下午五点以前 (trước 5 giờ chiều nay)."
+    }
+   },
+   {
+    "label": "Ngày cốc mới đến",
+    "opts": ["下个星期三", "下个星期一", "今天下午"],
+    "a": 0,
+    "why": {
+     "1": "Thứ Hai tuần sau (星期一) là ngày họp tổng kết.",
+     "2": "Chiều nay (今天下午) là hạn gửi báo cáo."
+    }
+   },
+   {
+    "label": "Người kiểm tra chất lượng",
+    "opts": ["王丽", "阮安", "小刘"],
+    "a": 0,
+    "why": {
+     "1": "阮安 (Ruǎn Ān) phụ trách viết báo cáo; người kiểm tra chất lượng là 王丽.",
+     "2": "小刘 (Xiǎo Liú) ở công ty của giám đốc Trần, là người 王丽 sẽ liên hệ nếu còn lỗi."
+    }
+   },
+   {
+    "label": "Số cửa hàng bán thử",
+    "opts": ["五家店", "两家店", "三家店"],
+    "a": 0,
+    "why": {
+     "1": "两 (liǎng) là thời gian bán thử (两个星期, hai tuần), không phải số cửa hàng.",
+     "2": "三 (sān) xuất hiện trong 三千个 (3.000 chiếc đặt năm sau), không phải số cửa hàng."
+    }
+   },
+   {
+    "label": "Thời gian bán thử",
+    "opts": ["两个星期", "一个星期", "两个月"],
+    "a": 0,
+    "why": {
+     "1": "Bài nghe nói 卖两个星期 (bán hai tuần), không phải một tuần.",
+     "2": "Đơn vị là 星期 (tuần), không phải 月 (tháng)."
+    }
+   }
+  ]
+ },
+ "longturn": {
+  "cue": "请用一分钟总结一次出差或者一个工作任务：你们做了什么？结果怎么样？有什么问题，是怎么解决的？下一步有什么安排？",
+  "cueVi": "Hãy nói 1 phút tổng kết một chuyến công tác hoặc một nhiệm vụ: đã làm những gì, kết quả ra sao, có vấn đề gì và đã giải quyết thế nào, bước tiếp theo sắp xếp ra sao.",
+  "cuePy": "Qǐng yòng yì fēnzhōng zǒngjié yí cì chūchāi huòzhě yí ge gōngzuò rènwu: nǐmen zuò le shénme? Jiéguǒ zěnmeyàng? Yǒu shénme wèntí, shì zěnme jiějué de? Xià yí bù yǒu shénme ānpái?",
+  "points": ["任务和结果：总的来说……", "先……然后……最后……：做了哪些事", "有什么问题，是怎么解决的", "下一步的安排"],
+  "pointsVi": ["Nhiệm vụ và kết quả chung: 总的来说……", "Kể các việc đã làm theo thứ tự 先……然后……最后……", "Vấn đề gặp phải và cách giải quyết", "Sắp xếp cho bước tiếp theo"],
+  "prep": 60,
+  "speak": [60, 120],
+  "model": "王经理，我来总结一下这次出差。总的来说，这次出差很顺利。我们先在大会上看了样品，然后跟陈总商量了价格，最后订了两千个杯子，春节以前送到。虽然第一次送来的杯子有质量问题，但是我马上跟陈总联系了，他们会重新做。通过这次大会，我们还获得了很多市场信息。下一步，我会安排同事检查新杯子，然后通知大家开会。",
+  "modelPy": "Wáng jīnglǐ, wǒ lái zǒngjié yíxià zhè cì chūchāi. Zǒng de lái shuō, zhè cì chūchāi hěn shùnlì. Wǒmen xiān zài dàhuì shang kàn le yàngpǐn, ránhòu gēn Chén zǒng shāngliang le jiàgé, zuìhòu dìng le liǎngqiān ge bēizi, Chūnjié yǐqián sòngdào. Suīrán dì-yī cì sònglái de bēizi yǒu zhìliàng wèntí, dànshì wǒ mǎshàng gēn Chén zǒng liánxì le, tāmen huì chóngxīn zuò. Tōngguò zhè cì dàhuì, wǒmen hái huòdé le hěn duō shìchǎng xìnxī. Xià yí bù, wǒ huì ānpái tóngshì jiǎnchá xīn bēizi, ránhòu tōngzhī dàjiā kāihuì.",
+  "modelVi": "Thưa giám đốc Vương, em xin tổng kết chuyến công tác lần này. Nhìn chung, chuyến đi rất suôn sẻ. Đầu tiên bọn em xem hàng mẫu ở hội chợ, sau đó bàn giá với giám đốc Trần, cuối cùng đặt 2.000 chiếc cốc, giao trước Tết. Tuy lô cốc đầu tiên có lỗi chất lượng, nhưng em đã liên hệ ngay với giám đốc Trần, bên họ sẽ làm lại. Thông qua hội chợ, bọn em còn thu được nhiều thông tin thị trường. Bước tiếp theo, em sẽ cử đồng nghiệp kiểm tra cốc mới, sau đó báo mọi người đi họp.",
+  "useful": ["我来总结一下……", "总的来说，……", "先……，然后……，最后……", "虽然……，但是……", "通过这次……，我们获得了……", "对我们来说，……", "下一步，我会安排……"],
+  "check": ["Nói đủ 4 ý: nhiệm vụ và kết quả, các việc đã làm, vấn đề và cách giải quyết, bước tiếp theo", "Kể theo thứ tự bằng 先……然后……最后……", "Dùng ít nhất 3 từ nối (总的来说, 虽然……但是, 通过, 对……来说…)", "Dùng ít nhất 4 từ mới của hôm nay", "Nói liền khoảng 1 phút, không dừng lâu giữa các câu"]
+ },
+ "write": {
+  "task": "Viết báo cáo ngắn gửi giám đốc Vương về chuyến công tác Quảng Châu (100–140 chữ Hán), chia 3 phần: kết quả, vấn đề và cách giải quyết, bước tiếp theo.",
+  "kind": "report",
+  "model": "王经理：\n您好！这是这次广州出差的总结。\n一、结果：这次出差很顺利。我们先看了样品，然后跟陈总商量了价格，最后订了两千个杯子，春节以前送到。\n二、问题：第一次送来的杯子有质量问题，还晚了三天。我已经跟陈总联系了，他们会重新做。\n三、下一步：通过这次大会，我们获得了很多市场信息。我会安排王丽检查新杯子。\n阮安",
+  "frame": "王经理：\n您好！这是这次广州出差的总结。\n一、结果：这次出差很___。我们___看了样品，___跟陈总商量了价格，___订了___，春节以前送到。\n二、问题：第一次送来的杯子有质量问题，还___。我已经跟陈总___了，他们会重新做。\n三、下一步：___这次大会，我们___了很多市场信息。我会___王丽检查新杯子。\n阮安",
+  "gaps": ["顺利", "先", "然后", "最后", "两千个杯子", "晚了三天", "联系", "通过", "获得", "安排"],
+  "free": [false, false, false, false, true, true, false, false, false, false],
+  "hints": ["Mở đầu: 王经理：您好！这是……的总结。", "一、结果：先……，然后……，最后……", "二、问题：……，我已经跟……联系了，他们会……", "三、下一步：通过……，我们获得了……；我会安排……", "Cuối báo cáo ký tên: 阮安"],
+  "check": ["Có lời chào và câu nêu mục đích báo cáo", "Chia 3 phần: kết quả, vấn đề, bước tiếp theo", "Kể theo thứ tự bằng 先……然后……最后……", "Có câu dùng 通过 (hoặc 对……来说)", "Dùng ít nhất 5 từ mới của hôm nay", "Dài khoảng 100–140 chữ Hán"],
+  "words": [100, 140]
+ },
+ "gloss": {
+  "总结": ["zǒngjié", "to sum up; summary", "tổng kết, tóm tắt"],
+  "结果": ["jiéguǒ", "result; in the end", "kết quả; rốt cuộc"],
+  "顺利": ["shùnlì", "smooth, without problems", "suôn sẻ, trôi chảy"],
+  "进行": ["jìnxíng", "to carry out; to go on", "tiến hành, diễn ra"],
+  "安排": ["ānpái", "to arrange; arrangement", "sắp xếp, phân công"],
+  "通知": ["tōngzhī", "to notify; notice", "thông báo"],
+  "联系": ["liánxì", "to contact", "liên hệ, liên lạc"],
+  "任务": ["rènwu", "task", "nhiệm vụ"],
+  "效果": ["xiàoguǒ", "effect, result", "hiệu quả, tác dụng"],
+  "获得": ["huòdé", "to gain, to obtain", "đạt được, thu được"],
+  "市场": ["shìchǎng", "market", "thị trường; chợ"],
+  "陈总": ["Chén zǒng", "Mr Chen, the company head", "giám đốc Trần (tên)"],
+  "小刘": ["Xiǎo Liú", "Xiao Liu (name)", "Tiểu Lưu (tên)"],
+  "广州": ["Guǎngzhōu", "Guangzhou", "Quảng Châu (tên thành phố)"],
+  "河内": ["Hénèi", "Hanoi", "Hà Nội (tên thành phố)"]
+ }
+}
