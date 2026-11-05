@@ -125,8 +125,8 @@
    },
    {
     "who": "An",
-    "t": "The pilot was a clear success. Users more than doubled, and retention improved significantly.",
-    "vi": "Đợt chạy thử thành công rõ rệt. Số người dùng tăng hơn gấp đôi, và tỷ lệ giữ chân người dùng cải thiện đáng kể."
+    "t": "The pilot was a clear success. Users more than doubled, and retention stayed high at 62%.",
+    "vi": "Đợt chạy thử thành công rõ rệt. Số người dùng tăng hơn gấp đôi, và tỷ lệ giữ chân người dùng luôn ở mức cao (62%)."
    },
    {
     "who": "An",
@@ -185,7 +185,7 @@
    ],
    "ex": [
     ["Nordwind's concerns were addressed. Consequently, the terms were agreed in principle.", "Những lo ngại của Nordwind đã được giải đáp. Do đó, các điều khoản được thống nhất về nguyên tắc."],
-    ["Retention improved; consequently, the app was launched nationwide.", "Tỷ lệ giữ chân người dùng tăng; vì vậy, ứng dụng được ra mắt toàn quốc."]
+    ["Retention stayed high; consequently, the app was launched nationwide.", "Tỷ lệ giữ chân người dùng luôn ở mức cao; vì vậy, ứng dụng được ra mắt toàn quốc."]
    ],
    "bad": "The pilot was successful, consequently Nordwind agreed to the deal.",
    "good": "The pilot was successful. Consequently, Nordwind agreed to the deal.",
@@ -458,7 +458,7 @@
    }
   },
   {
-   "q": "IELTS Reading – True / False / Not Given. Đoạn đọc: \"The Da Nang pilot was a clear success: users more than doubled and retention improved. Nordwind Retail, which has 40 stores in Southeast Asia, has agreed in principle to an 18-month exclusive partnership in Vietnam and Thailand.\" Nhận định: Nordwind has more stores in Thailand than in Vietnam.",
+   "q": "IELTS Reading – True / False / Not Given. Đoạn đọc: \"The Da Nang pilot was a clear success: users more than doubled and retention stayed high. Nordwind Retail, which has 40 stores in Southeast Asia, has agreed in principle to an 18-month exclusive partnership in Vietnam and Thailand.\" Nhận định: Nordwind has more stores in Thailand than in Vietnam.",
    "opts": ["True", "False", "Not Given"],
    "a": 2,
    "why": {
@@ -513,15 +513,15 @@
    {
     "ai": "Good. What are the main findings?",
     "vi": "Tốt. Các kết quả chính là gì?",
-    "model": "The pilot was a success: users more than doubled and retention improved.",
+    "model": "The pilot was a success: users more than doubled and retention stayed high.",
     "accept": [
-     "The pilot was a success: users more than doubled and retention improved.",
-     "The pilot was a success. Users more than doubled and retention improved.",
-     "Users more than doubled and retention improved.",
-     "The pilot was successful: users more than doubled and retention improved."
+     "The pilot was a success: users more than doubled and retention stayed high.",
+     "The pilot was a success. Users more than doubled and retention stayed high.",
+     "Users more than doubled and retention stayed high.",
+     "The pilot was successful: users more than doubled and retention stayed high."
     ],
-    "frame": "The pilot was a success: users more than ___ and retention improved.",
-    "hint": "Hai điểm chính: số người dùng (more than doubled) và tỷ lệ giữ chân (retention improved)."
+    "frame": "The pilot was a success: users more than ___ and retention stayed high.",
+    "hint": "Hai điểm chính: số người dùng (more than doubled) và tỷ lệ giữ chân (retention stayed high)."
    },
    {
     "ai": "And what did Nordwind agree to?",
@@ -688,11 +688,11 @@
    "q": "Sắp xếp thành đoạn văn đúng (Báo cáo · phần Findings)",
    "tokens": [
     "The pilot ran in Da Nang from July to August.",
-    "During this period, the number of users more than doubled and retention improved.",
+    "During this period, the number of users more than doubled and retention stayed high.",
     "Consequently, Nordwind expressed strong interest in a partnership."
    ],
    "explain": "Câu đầu nêu bối cảnh và thời gian chạy thử. During this period nhắc lại khoảng thời gian vừa nói nên phải đứng sau. Consequently nêu kết quả của những con số đó nên đứng cuối.",
-   "vi": "Đợt chạy thử diễn ra ở Đà Nẵng từ tháng Bảy đến tháng Tám. Trong thời gian này, số người dùng tăng hơn gấp đôi và tỷ lệ giữ chân người dùng được cải thiện. Do đó, Nordwind tỏ ra rất quan tâm đến việc hợp tác."
+   "vi": "Đợt chạy thử diễn ra ở Đà Nẵng từ tháng Bảy đến tháng Tám. Trong thời gian này, số người dùng tăng hơn gấp đôi và tỷ lệ giữ chân người dùng luôn ở mức cao. Do đó, Nordwind tỏ ra rất quan tâm đến việc hợp tác."
   },
   {
    "k": "order",
@@ -824,8 +824,8 @@
   ],
   "prep": 60,
   "speak": [90, 120],
-  "model": "I'd like to summarise an important meeting from this week for a colleague who was on holiday. The meeting was about a possible partnership with Nordwind Retail, a Danish chain with forty stores in Southeast Asia. Sarah, our project manager, led the discussion, and Ingrid Larsen, their Head of Partnerships, represented Nordwind. First, I presented the results of our pilot in Da Nang. Users more than doubled, and retention improved significantly. Ingrid raised some valid concerns about customer data, so we explained that all data would be stored in Singapore and encrypted. In the end, both sides agreed in principle to a fifteen per cent commission and eighteen months of exclusivity in Vietnam and Thailand. As for the next steps, the proposal will be presented to our board on Tuesday. If it is approved, we will sign the agreement by the end of the month. Overall, it was a very productive meeting.",
-  "modelVi": "Tôi muốn tóm tắt một cuộc họp quan trọng trong tuần này cho một đồng nghiệp đang nghỉ phép. Cuộc họp bàn về khả năng hợp tác với Nordwind Retail, một chuỗi bán lẻ của Đan Mạch có bốn mươi cửa hàng ở Đông Nam Á. Sarah, quản lý dự án của chúng tôi, dẫn dắt buổi thảo luận, còn Ingrid Larsen, trưởng bộ phận hợp tác, đại diện cho Nordwind. Đầu tiên, tôi trình bày kết quả chạy thử ở Đà Nẵng. Số người dùng tăng hơn gấp đôi, và tỷ lệ giữ chân người dùng cải thiện đáng kể. Ingrid nêu một số lo ngại có cơ sở về dữ liệu khách hàng, nên chúng tôi giải thích rằng toàn bộ dữ liệu sẽ được lưu ở Singapore và được mã hóa. Cuối cùng, hai bên đồng ý về nguyên tắc với mức hoa hồng mười lăm phần trăm và mười tám tháng độc quyền tại Việt Nam và Thái Lan. Về các bước tiếp theo, đề xuất sẽ được trình ban giám đốc vào thứ Ba. Nếu được phê duyệt, chúng tôi sẽ ký thỏa thuận trước cuối tháng. Nhìn chung, đó là một cuộc họp rất hiệu quả.",
+  "model": "I'd like to summarise an important meeting from this week for a colleague who was on holiday. The meeting was about a possible partnership with Nordwind Retail, a Danish chain with forty stores in Southeast Asia. Sarah, our project manager, led the discussion, and Ingrid Larsen, their Head of Partnerships, represented Nordwind. First, I presented the results of our pilot in Da Nang. Users more than doubled, and retention stayed high at 62%. Ingrid raised some valid concerns about customer data, so we explained that all data would be stored in Singapore and encrypted. In the end, both sides agreed in principle to a fifteen per cent commission and eighteen months of exclusivity in Vietnam and Thailand. As for the next steps, the proposal will be presented to our board on Tuesday. If it is approved, we will sign the agreement by the end of the month. Overall, it was a very productive meeting.",
+  "modelVi": "Tôi muốn tóm tắt một cuộc họp quan trọng trong tuần này cho một đồng nghiệp đang nghỉ phép. Cuộc họp bàn về khả năng hợp tác với Nordwind Retail, một chuỗi bán lẻ của Đan Mạch có bốn mươi cửa hàng ở Đông Nam Á. Sarah, quản lý dự án của chúng tôi, dẫn dắt buổi thảo luận, còn Ingrid Larsen, trưởng bộ phận hợp tác, đại diện cho Nordwind. Đầu tiên, tôi trình bày kết quả chạy thử ở Đà Nẵng. Số người dùng tăng hơn gấp đôi, và tỷ lệ giữ chân người dùng luôn ở mức cao (62%). Ingrid nêu một số lo ngại có cơ sở về dữ liệu khách hàng, nên chúng tôi giải thích rằng toàn bộ dữ liệu sẽ được lưu ở Singapore và được mã hóa. Cuối cùng, hai bên đồng ý về nguyên tắc với mức hoa hồng mười lăm phần trăm và mười tám tháng độc quyền tại Việt Nam và Thái Lan. Về các bước tiếp theo, đề xuất sẽ được trình ban giám đốc vào thứ Ba. Nếu được phê duyệt, chúng tôi sẽ ký thỏa thuận trước cuối tháng. Nhìn chung, đó là một cuộc họp rất hiệu quả.",
   "useful": [
    "I'd like to summarise…",
    "The meeting was about…",
@@ -847,12 +847,12 @@
  "write": {
   "task": "Viết executive summary (150–190 từ) cho báo cáo gửi ban giám đốc về việc hợp tác với Nordwind Retail, gồm ba phần có tiêu đề: Purpose (mục đích), Findings (kết quả chính), Recommendations (đề xuất: cần phê duyệt gì, phân bổ ngân sách cho việc gì, lịch trình). Kết bằng một câu tổng kết bắt đầu bằng Overall.",
   "kind": "report",
-  "source": "Thông tin: chạy thử ở Đà Nẵng thành công (người dùng tăng hơn gấp đôi, tỷ lệ giữ chân tăng). Nordwind Retail (40 cửa hàng ở Đông Nam Á) đồng ý về nguyên tắc: hoa hồng 15%, độc quyền 18 tháng ở Việt Nam và Thái Lan, quảng bá ứng dụng ở ít nhất 25 cửa hàng trong sáu tháng đầu. Dữ liệu khách hàng lưu ở Singapore, mã hóa, chỉ chia sẻ dạng ẩn danh. Cần ban giám đốc phê duyệt và phân bổ ngân sách đào tạo thêm tại cửa hàng. Lịch trình: trình ban giám đốc thứ Ba, ký trước cuối tháng, cùng đánh giá lại sau ba tháng.",
-  "model": "EXECUTIVE SUMMARY: PROPOSED PARTNERSHIP WITH NORDWIND RETAIL\n\nPurpose\nThis report outlines the proposed partnership with Nordwind Retail and requests the board's approval.\n\nFindings\nThe Da Nang pilot was a clear success: the number of users more than doubled and retention improved significantly. Consequently, Nordwind, which has 40 stores in Southeast Asia, has agreed in principle to the following terms: a 15% commission, 18 months' exclusivity in Vietnam and Thailand, and promotion of the app in at least 25 stores in the first six months. Nordwind's concerns about customer data have been addressed: all data will be stored in Singapore, encrypted and shared only in anonymised form.\n\nRecommendations\nIt is recommended that the board approve the agreement and allocate a budget for extra in-store training. Whereas the commission is paid only on actual sales, the training budget is a fixed cost and should therefore be agreed in advance. The proposed timeline is as follows: board approval on Tuesday, signing by the end of the month and a joint review after three months.\n\nOverall, the partnership offers significant growth at a manageable level of risk.",
+  "source": "Thông tin: chạy thử ở Đà Nẵng thành công (người dùng tăng hơn gấp đôi, tỷ lệ giữ chân cao). Nordwind Retail (40 cửa hàng ở Đông Nam Á) đồng ý về nguyên tắc: hoa hồng 15%, độc quyền 18 tháng ở Việt Nam và Thái Lan, quảng bá ứng dụng ở ít nhất 25 cửa hàng trong sáu tháng đầu. Dữ liệu khách hàng lưu ở Singapore, mã hóa, chỉ chia sẻ dạng ẩn danh. Cần ban giám đốc phê duyệt và phân bổ ngân sách đào tạo thêm tại cửa hàng. Lịch trình: trình ban giám đốc thứ Ba, ký trước cuối tháng, cùng đánh giá lại sau ba tháng.",
+  "model": "EXECUTIVE SUMMARY: PROPOSED PARTNERSHIP WITH NORDWIND RETAIL\n\nPurpose\nThis report outlines the proposed partnership with Nordwind Retail and requests the board's approval.\n\nFindings\nThe Da Nang pilot was a clear success: the number of users more than doubled and retention stayed high at 62%. Consequently, Nordwind, which has 40 stores in Southeast Asia, has agreed in principle to the following terms: a 15% commission, 18 months' exclusivity in Vietnam and Thailand, and promotion of the app in at least 25 stores in the first six months. Nordwind's concerns about customer data have been addressed: all data will be stored in Singapore, encrypted and shared only in anonymised form.\n\nRecommendations\nIt is recommended that the board approve the agreement and allocate a budget for extra in-store training. Whereas the commission is paid only on actual sales, the training budget is a fixed cost and should therefore be agreed in advance. The proposed timeline is as follows: board approval on Tuesday, signing by the end of the month and a joint review after three months.\n\nOverall, the partnership offers significant growth at a manageable level of risk.",
   "frame": "EXECUTIVE SUMMARY: PROPOSED PARTNERSHIP WITH NORDWIND RETAIL\n\nPurpose\nThis report ___ the proposed partnership with Nordwind Retail and requests the board's approval.\n\nFindings\nThe Da Nang pilot was a clear success: ___. ___, Nordwind, which has 40 stores in Southeast Asia, has agreed in principle to the following terms: ___. Nordwind's concerns about customer data have been addressed: all data ___ in Singapore, encrypted and shared only in anonymised form.\n\nRecommendations\n___ the board approve the agreement and ___ a budget for extra in-store training. ___ the commission is paid only on actual sales, the training budget is a fixed cost and should therefore be agreed in advance. The proposed timeline is as follows: ___.\n\n___, the partnership offers significant growth at a manageable level of risk.",
   "gaps": [
    "outlines",
-   "the number of users more than doubled and retention improved significantly",
+   "the number of users more than doubled and retention stayed high at 62%",
    "Consequently",
    "a 15% commission, 18 months' exclusivity in Vietnam and Thailand, and promotion of the app in at least 25 stores in the first six months",
    "will be stored",

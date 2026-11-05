@@ -1,0 +1,928 @@
+{
+  "id": "h4-w1-thu-4",
+  "label": "Thứ 4",
+  "title": "Đàm phán giá, thời gian giao hàng, ký hợp đồng",
+  "desc": "Ngồi với 陈总 (Chén zǒng) để chốt đơn 2.000 chiếc cốc: đề nghị hạ giá có điều kiện (只要…就), nêu hậu quả nếu giao trễ (否则), giữ hạn giao trước Tết và ký hợp đồng.",
+  "rule": "只要 + điều kiện，(chủ ngữ) + 就 + kết quả: 就 đứng sau chủ ngữ, trước động từ. A，否则 + hậu quả: vế trước nói việc phải làm, không ghép 如果…不… với 否则. 提前 / 推迟 + khoảng thời gian + động từ: 提前三天送到.",
+  "cards": [
+    {
+      "w": "商量",
+      "py": "shāngliang",
+      "m": "bàn bạc, thương lượng",
+      "mEn": "to discuss, to talk over",
+      "ex": "价格的问题，我们可以再商量一下。",
+      "expy": "Jiàgé de wèntí, wǒmen kěyǐ zài shāngliang yíxià.",
+      "exm": "Chuyện giá cả, chúng ta có thể bàn thêm một chút.",
+      "exEn": "We can talk a bit more about the price.",
+      "n": "商 = buôn bán (商店), 量 = cân đo: 商量 = cùng nhau cân nhắc. Hay đi với 跟 + người + 商量一下. 量 ở đây đọc nhẹ (liang)."
+    },
+    {
+      "w": "降低",
+      "py": "jiàngdī",
+      "m": "hạ, giảm (giá, mức)",
+      "mEn": "to lower, to reduce",
+      "ex": "如果数量超过两千个，价格能不能降低一点儿？",
+      "expy": "Rúguǒ shùliàng chāoguò liǎngqiān ge, jiàgé néng bu néng jiàngdī yìdiǎnr?",
+      "exm": "Nếu số lượng vượt 2.000 chiếc, giá có thể hạ xuống một chút không?",
+      "exEn": "If the quantity is over 2,000, could the price come down a little?",
+      "n": "降 = hạ xuống, 低 = thấp. 降低 + 价格 / 标准; 降低到 + mức mới (降低到二十八块). Ngược nghĩa: 提高 (tígāo)."
+    },
+    {
+      "w": "按时",
+      "py": "ànshí",
+      "m": "đúng hạn, đúng thời gian",
+      "mEn": "on time",
+      "ex": "我们一定按时把杯子送到河内。",
+      "expy": "Wǒmen yídìng ànshí bǎ bēizi sòngdào Hénèi.",
+      "exm": "Chúng tôi nhất định giao cốc đến Hà Nội đúng hạn.",
+      "exEn": "We will definitely deliver the cups to Hanoi on time.",
+      "n": "按 = theo, 时 = thời gian: 按时 = theo đúng thời gian đã hẹn. Đứng TRƯỚC động từ: 按时送到, 按时付款."
+    },
+    {
+      "w": "保证",
+      "py": "bǎozhèng",
+      "m": "bảo đảm, cam kết",
+      "mEn": "to guarantee, to promise",
+      "ex": "我保证产品的质量没有问题。",
+      "expy": "Wǒ bǎozhèng chǎnpǐn de zhìliàng méiyǒu wèntí.",
+      "exm": "Tôi bảo đảm chất lượng sản phẩm không có vấn đề gì.",
+      "exEn": "I guarantee there's nothing wrong with the product quality.",
+      "n": "保 = giữ, 证 = chứng: 保证 + danh từ (保证质量) hoặc + cả một việc (保证按时送到). Mạnh hơn 希望 (mong): đã 保证 là cam kết."
+    },
+    {
+      "w": "条件",
+      "py": "tiáojiàn",
+      "m": "điều kiện",
+      "mEn": "condition, terms",
+      "ex": "我们可以降低价格，但是有一个条件。",
+      "expy": "Wǒmen kěyǐ jiàngdī jiàgé, dànshì yǒu yí ge tiáojiàn.",
+      "exm": "Chúng tôi có thể hạ giá, nhưng có một điều kiện.",
+      "exEn": "We can lower the price, but on one condition.",
+      "n": "条 = điều (lượng từ 一条), 件 = việc (一件事). Hay dùng: 有一个条件, 什么条件?, 接受你们的条件."
+    },
+    {
+      "w": "合同",
+      "py": "hétong",
+      "m": "hợp đồng",
+      "mEn": "contract",
+      "ex": "合同上写着：一月十五号以前送到。",
+      "expy": "Hétong shang xiězhe: yī yuè shíwǔ hào yǐqián sòngdào.",
+      "exm": "Trong hợp đồng ghi: giao trước ngày 15 tháng 1.",
+      "exEn": "The contract says: delivery before January 15.",
+      "n": "合 = hợp, 同 = cùng: đọc gần giống 'hợp đồng'. 同 ở đây đọc nhẹ (tong). Ký hợp đồng: 订合同 (dìng hétong); trong hợp đồng: 合同上.",
+      "img": "handshake"
+    },
+    {
+      "w": "提前",
+      "py": "tíqián",
+      "m": "trước thời hạn, sớm hơn",
+      "mEn": "in advance, ahead of time",
+      "ex": "你们能不能提前五天送到？",
+      "expy": "Nǐmen néng bu néng tíqián wǔ tiān sòngdào?",
+      "exm": "Các anh có thể giao sớm 5 ngày không?",
+      "exEn": "Could you deliver five days early?",
+      "n": "提 = nâng lên, 前 = trước: đưa việc lên trước. 提前 + khoảng thời gian + động từ (提前五天送到, 提前告诉). Ngược nghĩa: 推迟."
+    },
+    {
+      "w": "推迟",
+      "py": "tuīchí",
+      "m": "lùi lại, hoãn",
+      "mEn": "to postpone, to delay",
+      "ex": "如果送到的时间推迟了，顾客过年以前就买不到了。",
+      "expy": "Rúguǒ sòngdào de shíjiān tuīchí le, gùkè guònián yǐqián jiù mǎi bu dào le.",
+      "exm": "Nếu thời gian giao bị lùi, khách sẽ không mua được trước Tết.",
+      "exEn": "If the delivery is delayed, customers won't be able to buy before New Year.",
+      "n": "推 = đẩy, 迟 = muộn (迟到): đẩy lùi về sau. 推迟三天 = lùi 3 ngày; 推迟到二十号 = lùi đến ngày 20."
+    },
+    {
+      "w": "付款",
+      "py": "fùkuǎn",
+      "m": "thanh toán, trả tiền",
+      "mEn": "to pay, payment",
+      "ex": "产品到了河内以后，我们马上付款。",
+      "expy": "Chǎnpǐn dào le Hénèi yǐhòu, wǒmen mǎshàng fùkuǎn.",
+      "exm": "Sau khi sản phẩm đến Hà Nội, chúng tôi thanh toán ngay.",
+      "exEn": "Once the products arrive in Hanoi, we'll pay right away.",
+      "n": "付 = trả, 款 = khoản tiền. 付款 đã có tân ngữ (款) nên không thêm tân ngữ phía sau: muốn nói 'trả một nửa' thì nói 付一半的钱."
+    },
+    {
+      "w": "否则",
+      "py": "fǒuzé",
+      "m": "nếu không thì",
+      "mEn": "otherwise",
+      "ex": "你们一定要按时送到，否则我们就不能在过年以前卖了。",
+      "expy": "Nǐmen yídìng yào ànshí sòngdào, fǒuzé wǒmen jiù bù néng zài guònián yǐqián mài le.",
+      "exm": "Các anh nhất định phải giao đúng hạn, nếu không chúng tôi sẽ không bán được trước Tết.",
+      "exEn": "You must deliver on time, otherwise we won't be able to sell before New Year.",
+      "n": "否 = không, 则 = thì. Đứng đầu vế SAU, nêu hậu quả: việc phải làm，否则 + (chủ ngữ) + 就 / 会 + hậu quả. Văn nói hay dùng 不然."
+    },
+    {
+      "w": "接受",
+      "py": "jiēshòu",
+      "m": "chấp nhận, nhận",
+      "mEn": "to accept",
+      "ex": "这个价格我们可以接受。",
+      "expy": "Zhège jiàgé wǒmen kěyǐ jiēshòu.",
+      "exm": "Mức giá này chúng tôi có thể chấp nhận.",
+      "exEn": "We can accept this price.",
+      "n": "接 = đón, nhận (接电话), 受 = chịu, nhận. 接受 + danh từ: 接受价格, 接受条件. Đồng ý cho ai làm việc gì thì dùng 同意 (同意我们订合同)."
+    }
+  ],
+  "scene": {
+    "setting": "Sáng thứ Tư ở Hội chợ Quảng Châu. 阮安 và 王丽 ngồi với 陈总 trong phòng họp nhỏ sau gian hàng cốc và bình nước. Hai bên chốt giá cho đơn 2.000 chiếc, hạn giao về Hà Nội trước Tết và cách thanh toán, rồi ký hợp đồng.",
+    "img": "scene-zh-fair-d3",
+    "imgPrompt": "Realistic photo of a small glass-walled meeting room behind a trade fair booth in Guangzhou, shelves of colourful office cups and water bottles visible through the glass; an (Vietnamese woman about 27, shoulder-length straight black bob haircut, cobalt blue blouse) and wangli (Chinese woman about 26, black hair in a high ponytail, red knit sweater) sit across a white table from chenzong (Chinese man about 50, short grey hair, navy suit, no tie, friendly but firm), sample cups, a calculator and a blank contract on the table, serious but friendly negotiation mood, no readable text",
+    "lines": [
+      {
+        "who": "陈总",
+        "t": "阮小姐，两千个杯子的订单，你们考虑得怎么样了？",
+        "py": "Ruǎn xiǎojiě, liǎngqiān ge bēizi de dìngdān, nǐmen kǎolǜ de zěnmeyàng le?",
+        "vi": "Chị Nguyễn, đơn hàng 2.000 chiếc cốc, bên chị cân nhắc thế nào rồi?",
+        "en": "Ms Nguyen, how are you getting on with the order for 2,000 cups?"
+      },
+      {
+        "who": "阮安",
+        "t": "我们想订，但是价格还想跟您再商量一下。",
+        "py": "Wǒmen xiǎng dìng, dànshì jiàgé hái xiǎng gēn nín zài shāngliang yíxià.",
+        "vi": "Chúng tôi muốn đặt, nhưng giá thì vẫn muốn bàn thêm với ông một chút.",
+        "en": "We'd like to order, but we'd like to discuss the price with you a little more."
+      },
+      {
+        "who": "陈总",
+        "t": "每个三十块已经很便宜了。您希望降低到多少？",
+        "py": "Měi ge sānshí kuài yǐjīng hěn piányi le. Nín xīwàng jiàngdī dào duōshao?",
+        "vi": "Mỗi chiếc 30 tệ là rẻ lắm rồi. Chị muốn hạ xuống bao nhiêu?",
+        "en": "Thirty yuan each is already very cheap. How low would you like it to go?"
+      },
+      {
+        "who": "阮安",
+        "t": "如果每个二十六块，我们今天就订合同。",
+        "py": "Rúguǒ měi ge èrshíliù kuài, wǒmen jīntiān jiù dìng hétong.",
+        "vi": "Nếu mỗi chiếc 26 tệ, chúng tôi ký hợp đồng ngay hôm nay.",
+        "en": "If it's 26 yuan each, we'll sign the contract today."
+      },
+      {
+        "who": "陈总",
+        "t": "二十六太低了。二十八块，这是最低的价格了。",
+        "py": "Èrshíliù tài dī le. Èrshíbā kuài, zhè shì zuì dī de jiàgé le.",
+        "vi": "26 thì thấp quá. 28 tệ, đây là giá thấp nhất rồi.",
+        "en": "Twenty-six is too low. Twenty-eight is our lowest price."
+      },
+      {
+        "who": "王丽",
+        "t": "二十八块也可以，但是我们有一个条件：一月十五号以前一定要送到河内。",
+        "py": "Èrshíbā kuài yě kěyǐ, dànshì wǒmen yǒu yí ge tiáojiàn: yī yuè shíwǔ hào yǐqián yídìng yào sòngdào Hénèi.",
+        "vi": "28 tệ cũng được, nhưng chúng tôi có một điều kiện: trước ngày 15 tháng 1 nhất định phải giao đến Hà Nội.",
+        "en": "Twenty-eight is fine, but we have one condition: the cups must reach Hanoi before January 15."
+      },
+      {
+        "who": "陈总",
+        "t": "十五号有点儿急。能不能推迟到二十号？",
+        "py": "Shíwǔ hào yǒudiǎnr jí. Néng bu néng tuīchí dào èrshí hào?",
+        "vi": "Ngày 15 thì hơi gấp. Có thể lùi đến ngày 20 không?",
+        "en": "The 15th is a bit tight. Could we push it back to the 20th?"
+      },
+      {
+        "who": "阮安",
+        "t": "不行。我们必须在过年以前把杯子卖给顾客，否则就晚了。",
+        "py": "Bù xíng. Wǒmen bìxū zài guònián yǐqián bǎ bēizi mài gěi gùkè, fǒuzé jiù wǎn le.",
+        "vi": "Không được ạ. Chúng tôi phải bán cốc cho khách trước Tết, nếu không thì muộn mất.",
+        "en": "I'm afraid not. We have to sell the cups to our customers before New Year, otherwise it'll be too late."
+      },
+      {
+        "who": "陈总",
+        "t": "好吧。只要你们先付一半的钱，我们就保证按时送到。",
+        "py": "Hǎo ba. Zhǐyào nǐmen xiān fù yíbàn de qián, wǒmen jiù bǎozhèng ànshí sòngdào.",
+        "vi": "Thôi được. Chỉ cần bên chị trả trước một nửa tiền, chúng tôi bảo đảm giao đúng hạn.",
+        "en": "All right. As long as you pay half up front, we guarantee delivery on time."
+      },
+      {
+        "who": "阮安",
+        "t": "我们接受。下午订好合同，我们马上付款。",
+        "py": "Wǒmen jiēshòu. Xiàwǔ dìng hǎo hétong, wǒmen mǎshàng fùkuǎn.",
+        "vi": "Chúng tôi chấp nhận. Chiều nay ký xong hợp đồng, chúng tôi thanh toán ngay.",
+        "en": "We accept. Once the contract is signed this afternoon, we'll pay right away."
+      }
+    ]
+  },
+  "patterns": [
+    {
+      "t": "Chỉ cần… thì…: 只要 + điều kiện，(chủ ngữ) + 就 + kết quả",
+      "f": [["只要价格合适，", "我们就", "订合同"], ["只要你们先付一半，", "我们就", "保证按时送到"]],
+      "ex": [
+        ["只要价格合适，我们就订合同。", "Chỉ cần giá phù hợp, chúng tôi sẽ ký hợp đồng.", "As long as the price is right, we'll sign the contract."],
+        ["只要你们先付一半的钱，我们就保证按时送到。", "Chỉ cần các chị trả trước một nửa tiền, chúng tôi bảo đảm giao đúng hạn.", "As long as you pay half up front, we guarantee on-time delivery."],
+        ["只要质量没有问题，我们以后还会订。", "Chỉ cần chất lượng không có vấn đề, sau này chúng tôi sẽ còn đặt nữa.", "As long as the quality is fine, we'll order again."]
+      ],
+      "bad": "只要价格合适，就我们订合同。",
+      "good": "只要价格合适，我们就订合同。",
+      "why": "就 là phó từ, đứng SAU chủ ngữ của vế sau và TRƯỚC động từ: 我们就订. Tiếng Việt nói 'thì chúng tôi ký' nên dễ đặt 就 lên trước 我们, nhưng tiếng Trung không nói 就我们."
+    },
+    {
+      "t": "Nếu không thì: việc phải làm，否则 + (chủ ngữ) + 就 / 会 + hậu quả",
+      "f": [["一定要按时送到，", "否则", "顾客就买不到了"], ["请先付一半，", "否则", "我们不能开始做"]],
+      "ex": [
+        ["你们一定要按时送到，否则顾客过年以前就买不到了。", "Các anh nhất định phải giao đúng hạn, nếu không khách sẽ không mua được trước Tết.", "You must deliver on time, otherwise customers won't be able to buy before New Year."],
+        ["请先付一半的钱，否则我们不能开始做。", "Xin trả trước một nửa tiền, nếu không chúng tôi không thể bắt đầu làm.", "Please pay half first, otherwise we can't start production."]
+      ],
+      "bad": "如果你们不按时送到，否则我们就不订了。",
+      "good": "你们一定要按时送到，否则我们就不订了。",
+      "why": "否则 đã mang nghĩa 'nếu không thì', nên vế trước nói việc PHẢI làm (一定要…). Ghép 如果…不… với 否则 là lặp ý 'nếu không' hai lần. Muốn dùng 如果 thì nói: 如果你们不按时送到，我们就不订了。"
+    },
+    {
+      "t": "Sớm / muộn bao lâu: 提前 / 推迟 + khoảng thời gian + động từ",
+      "f": [["我们可以", "提前三天", "送到"], ["会议", "推迟一个小时", "开始"]],
+      "ex": [
+        ["我们可以提前三天送到。", "Chúng tôi có thể giao sớm 3 ngày.", "We can deliver three days early."],
+        ["会议推迟一个小时开始。", "Cuộc họp lùi lại một tiếng mới bắt đầu.", "The meeting will start an hour later."],
+        ["能不能推迟到二十号？", "Có thể lùi đến ngày 20 không?", "Could it be pushed back to the 20th?"]
+      ],
+      "bad": "我们可以送到提前三天。",
+      "good": "我们可以提前三天送到。",
+      "why": "Tiếng Việt nói 'giao sớm 3 ngày' (động từ đứng trước), còn tiếng Trung đặt 提前三天 TRƯỚC động từ: 提前三天送到. Với mốc thời gian thì dùng 到: 推迟到二十号."
+    }
+  ],
+  "vocab": [
+    {
+      "q": "按时 (ànshí) nghĩa là gì?",
+      "opts": ["đúng hạn", "sớm hơn hạn", "lùi lại"],
+      "optsEn": ["on time", "ahead of time", "postponed"],
+      "a": 0,
+      "why": {
+        "1": "'Sớm hơn hạn' là 提前 (tíqián): 提 = nâng lên, 前 = trước. 按时 là 'theo đúng thời gian'.",
+        "2": "'Lùi lại' là 推迟 (tuīchí): 推 = đẩy, 迟 = muộn. 按时 không đổi thời gian, chỉ làm đúng hẹn."
+      }
+    },
+    {
+      "q": "Điền từ: 您的价格太高了，能不能再___一点儿？(Giá của ông cao quá, có thể hạ thêm một chút không?)",
+      "opts": ["降低", "提前", "保证"],
+      "a": 0,
+      "why": {
+        "1": "提前 (tíqián) = làm sớm hơn, dùng cho thời gian, không dùng cho giá.",
+        "2": "保证 (bǎozhèng) = bảo đảm; 'bảo đảm thêm một chút' không khớp với vế trước 'giá cao quá'. Giá cao thì cần 降低 (hạ)."
+      }
+    },
+    {
+      "q": "合同 (hétong) nghĩa là gì?",
+      "opts": ["hợp đồng", "điều kiện", "đơn hàng"],
+      "optsEn": ["contract", "condition", "order"],
+      "a": 0,
+      "why": {
+        "1": "'Điều kiện' là 条件 (tiáojiàn). 合同 đọc gần giống 'hợp đồng'.",
+        "2": "'Đơn hàng' là 订单 (dìngdān), từ đã học hôm thứ Ba."
+      }
+    },
+    {
+      "q": "Điền từ: 我们可以打九折，但是有一个___：你们要先付一半的钱。(Chúng tôi có thể giảm 10%, nhưng có một điều kiện: các chị phải trả trước một nửa tiền.)",
+      "opts": ["条件", "合同", "付款"],
+      "a": 0,
+      "why": {
+        "1": "合同 (hétong) = hợp đồng; phần sau dấu hai chấm là một yêu cầu, tức là điều kiện, không phải cả bản hợp đồng.",
+        "2": "付款 (fùkuǎn) là động từ 'thanh toán', không đứng sau 一个 như một danh từ đếm được."
+      }
+    },
+    {
+      "q": "否则 (fǒuzé) nghĩa là gì?",
+      "opts": ["nếu không thì", "chỉ cần", "tuy rằng"],
+      "optsEn": ["otherwise", "as long as", "although"],
+      "a": 0,
+      "why": {
+        "1": "'Chỉ cần' là 只要 (zhǐyào), đi với 就 ở vế sau.",
+        "2": "'Tuy rằng' là 虽然 (suīrán), đi với 但是 ở vế sau."
+      }
+    },
+    {
+      "q": "Điền từ: 二十八块的价格，我们可以___。(Giá 28 tệ, chúng tôi có thể chấp nhận.)",
+      "opts": ["接受", "推迟", "降低"],
+      "a": 0,
+      "why": {
+        "1": "推迟 (tuīchí) = lùi thời gian; giá cả không 'lùi lại' được.",
+        "2": "降低 (jiàngdī) = hạ giá, là việc bên BÁN làm. Người mua nói 'giá này chúng tôi có thể…' là nói chấp nhận: 接受."
+      }
+    },
+    {
+      "q": "付款 (fùkuǎn) nghĩa là gì?",
+      "opts": ["thanh toán, trả tiền", "giảm giá", "đặt hàng"],
+      "optsEn": ["to pay", "to give a discount", "to place an order"],
+      "a": 0,
+      "why": {
+        "1": "'Giảm giá' là 打折 (dǎzhé) hoặc 降低价格. 付款 có 付 = trả, 款 = khoản tiền.",
+        "2": "'Đặt hàng' là 订 (dìng) hoặc 下订单. 付款 là trả tiền."
+      }
+    },
+    {
+      "q": "Điền từ: 我们先___一下，明天再告诉您。(Chúng tôi bàn bạc một chút đã, mai sẽ báo ông.)",
+      "opts": ["商量", "保证", "接受"],
+      "a": 0,
+      "why": {
+        "1": "保证 (bǎozhèng) = cam kết; 'cam kết một chút rồi mai mới báo' không hợp nghĩa. Muốn trả lời sau thì trước hết phải bàn bạc.",
+        "2": "接受 (jiēshòu) là chấp nhận hẳn, không đi với 一下; nếu đã chấp nhận thì không cần đợi đến mai mới trả lời."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "q": "Câu nào đúng?",
+      "opts": ["只要你们先付一半，我们就按时送到。", "只要你们先付一半，就我们按时送到。", "你们只要先付一半，我们按时送到就。"],
+      "a": 0,
+      "why": {
+        "1": "就 phải đứng SAU chủ ngữ 我们 và trước động từ: 我们就按时送到.",
+        "2": "就 không đứng cuối câu; nó đứng trước phần động từ 按时送到."
+      }
+    },
+    {
+      "k": "type",
+      "q": "Điền từ: ___价格合适，我们就订合同。(Chỉ cần giá phù hợp, chúng tôi sẽ ký hợp đồng.)",
+      "model": "只要",
+      "accept": ["只要", "如果", "zhiyao", "ruguo"],
+      "why": "Vế sau có 就, nên vế trước cần từ nêu điều kiện: 只要 (chỉ cần) hoặc 如果 (nếu)."
+    },
+    {
+      "q": "Câu nào dùng 否则 đúng?",
+      "opts": ["一定要按时送到，否则顾客就买不到了。", "如果不按时送到，否则顾客就买不到了。", "否则按时送到，顾客就买不到了。"],
+      "a": 0,
+      "why": {
+        "1": "否则 đã có nghĩa 'nếu không thì', nên đi cùng 如果…不… là lặp ý 'nếu không' hai lần. Bỏ 否则 hoặc bỏ 如果 là đúng.",
+        "2": "否则 đứng đầu vế SAU để nêu hậu quả, không đứng trước việc cần làm."
+      }
+    },
+    {
+      "q": "Dịch: 'Chúng tôi có thể giao sớm 3 ngày.'",
+      "opts": ["我们可以提前三天送到。", "我们可以送到提前三天。", "我们可以三天提前送到。"],
+      "a": 0,
+      "why": {
+        "1": "提前 + thời gian đứng TRƯỚC động từ; tiếng Việt nói 'giao sớm 3 ngày' nhưng tiếng Trung là 提前三天送到.",
+        "2": "Khoảng thời gian 三天 đứng SAU 提前: 提前三天, không nói 三天提前."
+      }
+    },
+    {
+      "q": "Điền từ: 价格能不能降低___二十六块？(Giá có thể hạ xuống còn 26 tệ không?)",
+      "opts": ["到", "了", "在"],
+      "a": 0,
+      "why": {
+        "1": "降低了二十六块 là 'đã hạ đi 26 tệ' (bớt đi 26), khác nghĩa 'hạ xuống còn 26'. Mức giá mới dùng 降低到.",
+        "2": "在 chỉ nơi chốn hoặc việc đang làm; mức đích đến dùng 到."
+      }
+    },
+    {
+      "k": "type",
+      "q": "Sắp xếp thành câu: 按时 / 我们 / 送到 / 保证 (Chúng tôi bảo đảm giao đúng hạn.)",
+      "model": "我们保证按时送到。",
+      "accept": ["我们保证按时送到。", "我们保证按时送到", "womenbaozhenganshisongdao"],
+      "why": "Chủ ngữ 我们 + 保证 + việc được bảo đảm; trong việc đó 按时 đứng trước động từ 送到."
+    },
+    {
+      "q": "Câu nào đúng?",
+      "opts": ["产品到了以后，我们马上付款。", "产品到了以后，我们马上付款一半。", "产品到了以后，我们付款马上。"],
+      "a": 0,
+      "why": {
+        "1": "付款 đã có tân ngữ 款 (khoản tiền) nên không thêm 一半 phía sau. Muốn nói 'trả một nửa' thì nói 付一半的钱.",
+        "2": "马上 (mǎshàng, ngay) là phó từ, đứng TRƯỚC động từ: 马上付款."
+      }
+    }
+  ],
+  "listen": [
+    {
+      "q": "Giá cuối cùng mỗi chiếc là bao nhiêu?",
+      "audio": "每个三十块太贵了，二十六块可以吗？——二十六太低了，二十八块吧。——好，我们接受。",
+      "opts": ["28 tệ", "26 tệ", "30 tệ"],
+      "optsEn": ["28 yuan", "26 yuan", "30 yuan"],
+      "a": 0,
+      "why": {
+        "1": "26 tệ là giá người mua đề nghị, người bán trả lời 太低了 (thấp quá).",
+        "2": "30 tệ là giá ban đầu, người mua chê 太贵了 (đắt quá)."
+      }
+    },
+    {
+      "q": "Hàng phải đến Hà Nội trước ngày nào?",
+      "audio": "合同上写着，一月十五号以前送到河内。",
+      "opts": ["15/1", "5/1", "25/1"],
+      "optsEn": ["January 15", "January 5", "January 25"],
+      "a": 0,
+      "why": {
+        "1": "Câu nói 十五号 (shíwǔ hào) = ngày 15, không phải 五号 (ngày 5).",
+        "2": "Không nghe thấy 二十五号 (ngày 25); câu nói 十五号."
+      }
+    },
+    {
+      "q": "Người bán đề nghị gì?",
+      "audio": "十五号有点儿急，我们能不能推迟三天？",
+      "opts": ["lùi lại 3 ngày", "giao sớm 3 ngày", "giảm giá 3 tệ"],
+      "optsEn": ["push it back 3 days", "deliver 3 days early", "cut the price by 3 yuan"],
+      "a": 0,
+      "why": {
+        "1": "Giao sớm là 提前 (tíqián); câu nói 推迟 (tuīchí) = lùi lại.",
+        "2": "Câu không nói về giá; 三天 là 3 ngày, không phải 3 tệ (三块)."
+      }
+    },
+    {
+      "q": "Điều kiện của người bán là gì?",
+      "audio": "只要你们先付一半的钱，我们就保证按时送到。",
+      "opts": ["trả trước một nửa tiền", "đặt ít nhất 2.000 chiếc", "ký hợp đồng hôm nay"],
+      "optsEn": ["pay half up front", "order at least 2,000 cups", "sign the contract today"],
+      "a": 0,
+      "why": {
+        "1": "Câu không có 至少 hay 两千个; điều kiện sau 只要 là 先付一半的钱.",
+        "2": "Câu không nhắc 合同 (hợp đồng); điều kiện là trả trước một nửa tiền."
+      }
+    },
+    {
+      "q": "Vì sao người mua cần hàng sớm?",
+      "audio": "你们为什么要这么早送到？——因为过年以前买杯子的顾客最多。",
+      "opts": ["trước Tết khách mua cốc nhiều nhất", "công ty nghỉ Tết sớm", "trước Tết giá rẻ hơn"],
+      "optsEn": ["most customers buy cups before New Year", "the company closes early for New Year", "prices are lower before New Year"],
+      "a": 0,
+      "why": {
+        "1": "Câu trả lời không nói công ty nghỉ; lý do là 顾客最多 (khách đông nhất).",
+        "2": "Câu trả lời không nói về giá; chỉ nói 买杯子的顾客最多."
+      }
+    },
+    {
+      "q": "Nửa tiền thứ hai trả khi nào?",
+      "audio": "合同订好以后，我们先付一半；杯子到了河内以后，再付一半。",
+      "opts": ["khi cốc đến Hà Nội", "khi ký xong hợp đồng", "sau Tết"],
+      "optsEn": ["when the cups arrive in Hanoi", "when the contract is signed", "after New Year"],
+      "a": 0,
+      "why": {
+        "1": "合同订好以后 (sau khi ký hợp đồng) là lúc trả nửa ĐẦU (先付一半).",
+        "2": "Câu không nhắc 过年 (Tết); nửa sau trả 杯子到了河内以后."
+      }
+    },
+    {
+      "q": "Điều gì KHÔNG thể thay đổi?",
+      "audio": "价格我们可以再商量，但是送到的时间不能推迟，否则我们就不订了。",
+      "opts": ["thời gian giao hàng", "giá", "số lượng"],
+      "optsEn": ["the delivery time", "the price", "the quantity"],
+      "a": 0,
+      "why": {
+        "1": "价格我们可以再商量 = giá còn bàn được, nên giá vẫn có thể đổi.",
+        "2": "Câu không nhắc 数量 (số lượng); điều không đổi là 送到的时间 (thời gian giao)."
+      }
+    }
+  ],
+  "hsk": [
+    {
+      "q": "HSK4 听力 · 判断对错: ★ 他们已经订好合同了。",
+      "audio": "陈总，价格我们已经商量好了，但是合同明天上午才能订，因为我们还要问一下王经理。",
+      "opts": ["对", "错"],
+      "a": 1,
+      "why": {
+        "0": "Người nói bảo 合同明天上午才能订 (sáng mai mới ký được hợp đồng), nên bây giờ chưa ký. 已经商量好了 là nói giá đã bàn xong, không phải hợp đồng."
+      }
+    },
+    {
+      "q": "HSK4 听力 · 对话: 男的是什么意思？",
+      "audio": "女：陈总，你们能提前五天送到吗？男：提前五天不行，提前两天可以。问：男的是什么意思？",
+      "opts": ["可以提前两天", "可以提前五天", "不能提前送到"],
+      "a": 0,
+      "why": {
+        "1": "Người đàn ông nói 提前五天不行 (sớm 5 ngày thì không được).",
+        "2": "Anh ấy vẫn đồng ý 提前两天可以 (sớm 2 ngày thì được), nên không phải là hoàn toàn không giao sớm được."
+      }
+    },
+    {
+      "q": "HSK4 阅读 · 选词填空: 这个价格我们可以___，但是你们一定要按时送到。",
+      "opts": ["接受", "推迟", "降低", "保证"],
+      "a": 0,
+      "why": {
+        "1": "推迟 (tuīchí) = lùi thời gian; 'giá này chúng tôi có thể lùi lại' không có nghĩa.",
+        "2": "降低 (jiàngdī) = hạ giá, là việc bên bán làm; người nói ở đây là bên mua, đang đồng ý giá rồi thêm yêu cầu.",
+        "3": "保证 (bǎozhèng) = cam kết; bên mua không 'cam kết giá'. Vế sau 但是… cho thấy họ chấp nhận giá: 接受."
+      }
+    },
+    {
+      "q": "HSK4 阅读 · 选词填空: 你们要先付一半的钱，___我们不能开始做。",
+      "opts": ["否则", "只要", "如果", "虽然"],
+      "a": 0,
+      "why": {
+        "1": "只要 (chỉ cần) đứng ở vế điều kiện và cần 就 ở vế sau; ở đây chỗ trống mở đầu vế hậu quả.",
+        "2": "如果 (nếu) đứng đầu vế điều kiện, không đứng đầu vế hậu quả. Câu cần nghĩa 'nếu không thì'.",
+        "3": "虽然 (tuy) cần 但是 ở vế sau và nói ý trái ngược, không hợp với 'phải trả trước… thì mới làm'."
+      }
+    },
+    {
+      "k": "order",
+      "q": "HSK4 书写 · 完成句子: xếp các từ thành câu",
+      "tokens": ["我们", "保证", "一月十五号以前", "把杯子", "送到河内"],
+      "explain": "Chủ ngữ 我们 + 保证 + thời gian (一月十五号以前) + 把 + tân ngữ (杯子) + động từ và nơi đến (送到河内). Thời gian đứng trước 把.",
+      "vi": "Chúng tôi bảo đảm giao cốc đến Hà Nội trước ngày 15 tháng 1.",
+      "en": "We guarantee to deliver the cups to Hanoi before January 15."
+    }
+  ],
+  "shadow": [
+    {
+      "t": "只要价格合适，我们就订合同。",
+      "py": "Zhǐyào jiàgé héshì, wǒmen jiù dìng hétong.",
+      "focus": "只要 zhǐyào: zh cong lưỡi, không bật hơi; 合同 hétong: hé đi lên, tong đọc nhẹ và ngắn.",
+      "en": "As long as the price is right, we'll sign the contract."
+    },
+    {
+      "t": "我们保证按时送到。",
+      "py": "Wǒmen bǎozhèng ànshí sòngdào.",
+      "focus": "保证 bǎozhèng: bǎo hạ thấp (nửa thanh 3), zhèng rơi mạnh; 按时 ànshí: nối n cuối sang sh cong lưỡi, shí đi lên.",
+      "en": "We guarantee delivery on time."
+    },
+    {
+      "t": "一定要过年以前送到，否则就晚了。",
+      "py": "Yídìng yào guònián yǐqián sòngdào, fǒuzé jiù wǎn le.",
+      "focus": "一定 yídìng: 一 đọc thanh 2 trước thanh 4; 否则 fǒuzé: f môi răng, z không bật hơi, zé đi lên.",
+      "en": "It must arrive before New Year, otherwise it'll be too late."
+    },
+    {
+      "t": "能不能推迟到二十号？",
+      "py": "Néng bu néng tuīchí dào èrshí hào?",
+      "focus": "推迟 tuīchí: t bật hơi, tuī giữ cao; chí cong lưỡi bật hơi, đi lên. 不 trong 能不能 đọc nhẹ.",
+      "en": "Could it be pushed back to the 20th?"
+    },
+    {
+      "t": "价格能不能再降低一点儿？",
+      "py": "Jiàgé néng bu néng zài jiàngdī yìdiǎnr?",
+      "focus": "降低 jiàngdī: jiàng rơi mạnh, có âm cuối ng; dī giữ cao đều. 一点儿 yìdiǎnr: uốn lưỡi ở cuối.",
+      "en": "Could the price come down a little more?"
+    },
+    {
+      "t": "这个条件我们可以接受。",
+      "py": "Zhège tiáojiàn wǒmen kěyǐ jiēshòu.",
+      "focus": "条件 tiáojiàn: tiáo đi lên, jiàn rơi; 可以 kěyǐ: hai thanh 3 liền nhau, kě đọc thành thanh 2; 接受 jiēshòu: shòu cong lưỡi, rơi mạnh.",
+      "en": "We can accept this condition."
+    }
+  ],
+  "dialog": {
+    "title": "Đàm phán với 陈总: xin hạ giá, nêu điều kiện giao hàng, chốt hợp đồng. Đổi vai: bạn là 陈总.",
+    "partner": "陈总",
+    "turns": [
+      {
+        "ai": "阮小姐，您好！两千个杯子，每个三十块，您看怎么样？",
+        "py": "Ruǎn xiǎojiě, nín hǎo! Liǎngqiān ge bēizi, měi ge sānshí kuài, nín kàn zěnmeyàng?",
+        "vi": "Chào chị Nguyễn! 2.000 chiếc cốc, mỗi chiếc 30 tệ, chị thấy thế nào?",
+        "en": "Hello, Ms Nguyen! 2,000 cups at 30 yuan each. What do you think?",
+        "model": "价格有点儿高，我们想跟您再商量一下。",
+        "mpy": "Jiàgé yǒudiǎnr gāo, wǒmen xiǎng gēn nín zài shāngliang yíxià.",
+        "men": "The price is a bit high. We'd like to discuss it with you a little more.",
+        "accept": ["价格有点儿高，我们想跟您再商量一下。", "价格有点儿高，我们想再商量一下。", "价格有点儿高。", "我们想跟您再商量一下。", "我们想再商量一下。", "jiageyoudianrgao", "jiageyoudiangao", "womenxianggenninzaishangliangyixia", "womenxiangzaishangliangyixia"],
+        "frame": "价格有点儿高，我们想跟您再___一下。",
+        "hint": "Nói giá hơi cao (有点儿高), rồi đề nghị bàn thêm: 跟您再商量一下."
+      },
+      {
+        "ai": "那您希望降低到多少？",
+        "py": "Nà nín xīwàng jiàngdī dào duōshao?",
+        "vi": "Vậy chị muốn hạ xuống bao nhiêu?",
+        "en": "Then how low would you like it to go?",
+        "model": "如果每个二十六块，我们今天就订合同。",
+        "mpy": "Rúguǒ měi ge èrshíliù kuài, wǒmen jīntiān jiù dìng hétong.",
+        "men": "If it's 26 yuan each, we'll sign the contract today.",
+        "accept": ["如果每个二十六块，我们今天就订合同。", "如果每个二十六块，我们今天就订。", "每个二十六块。", "二十六块。", "如果每个二十七块，我们今天就订合同。", "如果每个二十五块，我们今天就订合同。", "ruguomeigeershiliukuaiwomenjintianjiudinghetong", "meigeershiliukuai", "ershiliukuai"],
+        "frame": "如果每个___块，我们今天就订合同。",
+        "hint": "Đưa ra giá bạn muốn và hứa ký ngay: 如果 + giá，我们今天就 + 订合同."
+      },
+      {
+        "ai": "二十六太低了。二十八块，可以吗？",
+        "py": "Èrshíliù tài dī le. Èrshíbā kuài, kěyǐ ma?",
+        "vi": "26 thì thấp quá. 28 tệ, được không?",
+        "en": "Twenty-six is too low. How about twenty-eight?",
+        "model": "二十八块可以，但是我们有一个条件。",
+        "mpy": "Èrshíbā kuài kěyǐ, dànshì wǒmen yǒu yí ge tiáojiàn.",
+        "men": "Twenty-eight is fine, but we have one condition.",
+        "accept": ["二十八块可以，但是我们有一个条件。", "可以，但是我们有一个条件。", "二十八块也可以，但是我们有一个条件。", "我们有一个条件。", "ershibakuaikeyidanshiwomenyouyigetiaojian", "keyidanshiwomenyouyigetiaojian", "womenyouyigetiaojian"],
+        "frame": "二十八块可以，但是我们有一个___。",
+        "hint": "Nhận giá nhưng thêm điều kiện: 可以，但是我们有一个条件."
+      },
+      {
+        "ai": "什么条件？您说吧。",
+        "py": "Shénme tiáojiàn? Nín shuō ba.",
+        "vi": "Điều kiện gì? Chị cứ nói.",
+        "en": "What condition? Go ahead.",
+        "model": "你们一定要一月十五号以前送到，否则我们的顾客过年以前就买不到了。",
+        "mpy": "Nǐmen yídìng yào yī yuè shíwǔ hào yǐqián sòngdào, fǒuzé wǒmen de gùkè guònián yǐqián jiù mǎi bu dào le.",
+        "men": "You must deliver before January 15, otherwise our customers won't be able to buy before New Year.",
+        "accept": ["你们一定要一月十五号以前送到，否则我们的顾客过年以前就买不到了。", "你们一定要一月十五号以前送到，否则就晚了。", "一定要一月十五号以前送到，否则我们的顾客就买不到了。", "一月十五号以前一定要送到河内。", "你们一定要一月十五号以前送到。", "nimenyidingyaoyiyueshiwuhaoyiqiansongdao", "yidingyaoyiyueshiwuhaoyiqiansongdaofouzejiuwanle", "nimenyidingyaoyiyueshiwuhaoyiqiansongdaofouzewomendegukeguonianyiqianjiumaibudaole"],
+        "frame": "你们一定要一月十五号以前送到，___我们的顾客过年以前就买不到了。",
+        "hint": "Nêu hạn giao (一月十五号以前) rồi nói hậu quả nếu trễ, mở đầu bằng 否则."
+      },
+      {
+        "ai": "好吧。只要你们先付一半的钱，我们就保证按时送到。",
+        "py": "Hǎo ba. Zhǐyào nǐmen xiān fù yíbàn de qián, wǒmen jiù bǎozhèng ànshí sòngdào.",
+        "vi": "Thôi được. Chỉ cần bên chị trả trước một nửa tiền, chúng tôi bảo đảm giao đúng hạn.",
+        "en": "All right. As long as you pay half up front, we guarantee delivery on time.",
+        "model": "没问题，我们接受。合同订好以后，我们马上付款。",
+        "mpy": "Méi wèntí, wǒmen jiēshòu. Hétong dìng hǎo yǐhòu, wǒmen mǎshàng fùkuǎn.",
+        "men": "No problem, we accept. Once the contract is signed, we'll pay right away.",
+        "accept": ["没问题，我们接受。合同订好以后，我们马上付款。", "没问题，我们接受。", "我们接受。", "我们接受，合同订好以后马上付款。", "合同订好以后，我们马上付款。", "meiwentiwomenjieshou", "womenjieshou", "hetongdinghaoyihouwomenmashangfukuan"],
+        "frame": "没问题，我们___。合同订好以后，我们马上付款。",
+        "hint": "Đồng ý điều kiện (我们接受), rồi nói khi nào thanh toán: 合同订好以后 + 马上付款."
+      }
+    ]
+  },
+  "reading": {
+    "title": "阮安给王经理的信息",
+    "text": "王经理，您好！今天上午我们跟陈总商量了很长时间，最后把合同订好了。我们订了两千个杯子，每个二十八块，比他们开始说的价格降低了两块。陈总本来想把送到的时间推迟到一月二十号，但是我们告诉他，杯子一定要在过年以前卖给顾客，否则就晚了。最后他同意一月十五号以前送到河内。付款的条件是：合同订好以后先付一半，杯子到了河内，我们检查了质量以后再付一半。虽然这个价格不是最低的，但是陈总的产品质量很好，我觉得我们可以接受。阮安",
+    "py": "Wáng jīnglǐ, nín hǎo! Jīntiān shàngwǔ wǒmen gēn Chén zǒng shāngliang le hěn cháng shíjiān, zuìhòu bǎ hétong dìng hǎo le. Wǒmen dìng le liǎngqiān ge bēizi, měi ge èrshíbā kuài, bǐ tāmen kāishǐ shuō de jiàgé jiàngdī le liǎng kuài. Chén zǒng běnlái xiǎng bǎ sòngdào de shíjiān tuīchí dào yī yuè èrshí hào, dànshì wǒmen gàosu tā, bēizi yídìng yào zài guònián yǐqián mài gěi gùkè, fǒuzé jiù wǎn le. Zuìhòu tā tóngyì yī yuè shíwǔ hào yǐqián sòngdào Hénèi. Fùkuǎn de tiáojiàn shì: hétong dìng hǎo yǐhòu xiān fù yíbàn, bēizi dào le Hénèi, wǒmen jiǎnchá le zhìliàng yǐhòu zài fù yíbàn. Suīrán zhège jiàgé bú shì zuì dī de, dànshì Chén zǒng de chǎnpǐn zhìliàng hěn hǎo, wǒ juéde wǒmen kěyǐ jiēshòu. Ruǎn Ān",
+    "en": "Hello, Mr Wang! This morning we spent a long time negotiating with Mr Chen and finally signed the contract. We ordered 2,000 cups at 28 yuan each, two yuan lower than the price they first quoted. Mr Chen originally wanted to push the delivery back to January 20, but we told him the cups must be sold to customers before New Year, otherwise it would be too late. In the end he agreed to deliver to Hanoi before January 15. The payment terms: we pay half once the contract is signed, and the other half after the cups reach Hanoi and we have checked the quality. Although this isn't the lowest price, Mr Chen's products are of very good quality, so I think we can accept it. Nguyen An",
+    "vi": "Chào anh Vương! Sáng nay chúng em bàn với giám đốc Trần rất lâu, cuối cùng đã ký xong hợp đồng. Chúng em đặt 2.000 chiếc cốc, mỗi chiếc 28 tệ, thấp hơn 2 tệ so với giá họ đưa lúc đầu. Ông Trần lúc đầu muốn lùi ngày giao đến 20 tháng 1, nhưng chúng em nói với ông ấy là cốc nhất định phải bán cho khách trước Tết, nếu không thì muộn mất. Cuối cùng ông ấy đồng ý giao đến Hà Nội trước ngày 15 tháng 1. Điều kiện thanh toán: ký hợp đồng xong thì trả trước một nửa, cốc đến Hà Nội và chúng ta kiểm tra chất lượng xong thì trả nốt nửa còn lại. Tuy giá này không phải thấp nhất, nhưng chất lượng sản phẩm của ông Trần rất tốt, em nghĩ chúng ta có thể chấp nhận. Nguyễn An",
+    "qs": [
+      {
+        "q": "So với giá ban đầu, giá mỗi chiếc giảm bao nhiêu?",
+        "opts": ["2 tệ", "8 tệ", "28 tệ"],
+        "optsEn": ["2 yuan", "8 yuan", "28 yuan"],
+        "a": 0,
+        "why": {
+          "1": "Bài không có số 8; bài viết 降低了两块 = giảm 2 tệ.",
+          "2": "28 tệ là giá mới (每个二十八块), không phải số tiền được giảm."
+        }
+      },
+      {
+        "q": "Lúc đầu 陈总 muốn gì?",
+        "opts": ["lùi ngày giao đến 20/1", "giao sớm hơn ngày 15/1", "tăng giá thêm 2 tệ"],
+        "optsEn": ["push delivery back to January 20", "deliver earlier than January 15", "raise the price by 2 yuan"],
+        "a": 0,
+        "why": {
+          "1": "Bài viết 推迟到一月二十号 (lùi đến 20/1); không có 提前 (giao sớm).",
+          "2": "Bài không nói tăng giá; 两块 là số tiền giá đã GIẢM (降低了两块)."
+        }
+      },
+      {
+        "q": "Vì sao 阮安 không đồng ý lùi ngày giao?",
+        "opts": ["vì cốc phải bán cho khách trước Tết", "vì giá đã rất thấp", "vì 王经理 không đồng ý"],
+        "optsEn": ["because the cups must be sold before New Year", "because the price is already very low", "because Mr Wang doesn't agree"],
+        "a": 0,
+        "why": {
+          "1": "Bài không lấy giá làm lý do; lý do là 一定要在过年以前卖给顾客，否则就晚了.",
+          "2": "Bài không nói 王经理 phản đối; tin nhắn này là để báo cho 王经理 biết."
+        }
+      },
+      {
+        "q": "Nửa tiền còn lại trả khi nào?",
+        "opts": ["khi cốc đến Hà Nội và đã kiểm tra chất lượng", "ngay khi ký hợp đồng", "sau Tết"],
+        "optsEn": ["after the cups reach Hanoi and the quality is checked", "as soon as the contract is signed", "after New Year"],
+        "a": 0,
+        "why": {
+          "1": "合同订好以后 (sau khi ký hợp đồng) là lúc trả nửa ĐẦU (先付一半).",
+          "2": "Bài không nói trả sau Tết; nửa sau trả khi 杯子到了河内 và 检查了质量以后."
+        }
+      },
+      {
+        "q": "阮安 nghĩ gì về thoả thuận này?",
+        "opts": ["giá chưa thấp nhất nhưng chất lượng tốt, nên chấp nhận được", "giá thấp nhất nên rất hài lòng", "chất lượng chưa tốt nên cần bàn thêm"],
+        "optsEn": ["the price isn't the lowest, but the quality is good, so it's acceptable", "it's the lowest price, so she's very happy", "the quality isn't good enough, so they need to talk more"],
+        "a": 0,
+        "why": {
+          "1": "Bài viết 这个价格不是最低的 (giá này không phải thấp nhất).",
+          "2": "Bài viết 质量很好 (chất lượng rất tốt), và 阮安 thấy 可以接受, không cần bàn thêm."
+        }
+      }
+    ]
+  },
+  "near": [
+    {
+      "q": "Chọn từ đúng: 这件事我要跟王经理___一下。(Việc này tôi phải bàn với giám đốc Vương một chút.)",
+      "opts": ["商量", "考虑"],
+      "a": 0,
+      "why": {
+        "1": "考虑 (kǎolǜ) là tự mình cân nhắc, không đi với 跟 + người. Cùng người khác bàn thì dùng 跟……商量."
+      }
+    },
+    {
+      "q": "Chọn từ đúng: 王经理___我们订这个合同。(Giám đốc Vương đồng ý cho chúng ta ký hợp đồng này.)",
+      "opts": ["同意", "接受"],
+      "a": 0,
+      "why": {
+        "1": "接受 (jiēshòu) đi với danh từ (接受价格, 接受条件), không đi với cả một việc như 我们订合同. Đồng ý cho ai làm gì thì dùng 同意."
+      }
+    },
+    {
+      "q": "Chọn từ đúng: 我们想把价格___到二十六块。(Chúng tôi muốn hạ giá xuống 26 tệ.)",
+      "opts": ["降低", "便宜", "打折"],
+      "a": 0,
+      "why": {
+        "1": "便宜 (piányi) là tính từ 'rẻ', không dùng trong khung 把价格 + động từ + 到 + mức.",
+        "2": "打折 (dǎzhé) đi với số 'phần mười' (打九折 = giảm 10%), không đi với 到 + mức giá."
+      }
+    },
+    {
+      "q": "Chọn từ đúng: 我们___按时送到，请您放心。(Chúng tôi bảo đảm giao đúng hạn, xin ông yên tâm.)",
+      "opts": ["保证", "希望"],
+      "a": 0,
+      "why": {
+        "1": "希望 (xīwàng) chỉ là mong, chưa chắc chắn, nên không làm người nghe 'yên tâm' được. 请您放心 cần một lời cam kết: 保证."
+      }
+    },
+    {
+      "q": "Chọn từ đúng: 会议___到明天下午了。(Cuộc họp đã lùi sang chiều mai.)",
+      "opts": ["推迟", "迟到", "晚"],
+      "a": 0,
+      "why": {
+        "1": "迟到 (chídào) là người đến muộn, không đi với 到 + thời gian mới. Đổi lịch về sau thì dùng 推迟.",
+        "2": "晚 (wǎn) là tính từ 'muộn', không có nghĩa 'dời lịch đến…'."
+      }
+    },
+    {
+      "q": "Chọn từ đúng: 如果有问题，请您___告诉我们。(Nếu có vấn đề, xin ông báo trước cho chúng tôi.)",
+      "opts": ["提前", "以前"],
+      "a": 0,
+      "why": {
+        "1": "以前 (yǐqián) là 'trước đây' hoặc đứng sau một mốc (过年以前), không đứng ngay trước động từ để nói 'làm trước'. Báo trước dùng 提前告诉."
+      }
+    }
+  ],
+  "orderPara": [
+    {
+      "k": "order",
+      "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+      "tokens": ["陈总开始说每个杯子三十块。", "我们觉得有点儿贵，就跟他商量了很长时间。", "最后他同意把价格降低到二十八块。"],
+      "explain": "Đi theo thời gian: 开始 (lúc đầu) mở đoạn; câu giữa có 就 nối tiếp phản ứng của bên mua; 最后 (cuối cùng) đứng cuối.",
+      "vi": "Lúc đầu ông Trần nói mỗi chiếc cốc 30 tệ. Chúng tôi thấy hơi đắt nên bàn với ông ấy rất lâu. Cuối cùng ông ấy đồng ý hạ giá xuống 28 tệ.",
+      "en": "At first Mr Chen said each cup was 30 yuan. We felt it was a bit expensive, so we negotiated with him for a long time. In the end he agreed to lower the price to 28 yuan."
+    },
+    {
+      "k": "order",
+      "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+      "tokens": ["陈总想把送到的时间推迟到二十号。", "但是二十号离过年太近了。", "所以我们没有接受，他也同意十五号以前送到。"],
+      "explain": "Câu nêu đề nghị của 陈总 đứng đầu; 但是 phản bác ý trước nên đứng sau nó; 所以 nêu kết quả nên đứng cuối.",
+      "vi": "Ông Trần muốn lùi ngày giao đến ngày 20. Nhưng ngày 20 quá gần Tết. Vì vậy chúng tôi không chấp nhận, và ông ấy cũng đồng ý giao trước ngày 15.",
+      "en": "Mr Chen wanted to push the delivery back to the 20th. But the 20th is too close to New Year. So we didn't accept, and he agreed to deliver before the 15th."
+    },
+    {
+      "k": "order",
+      "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+      "tokens": ["付款的条件是这样的：", "合同订好以后，我们先付一半。", "杯子到了河内，检查了质量以后，再付一半。"],
+      "explain": "Câu có 这样的： giới thiệu chủ đề nên đứng đầu; 先 (trước) rồi đến 再 (sau đó) cho biết thứ tự hai lần trả tiền.",
+      "vi": "Điều kiện thanh toán như sau: ký hợp đồng xong, chúng tôi trả trước một nửa. Cốc đến Hà Nội, kiểm tra chất lượng xong thì trả nửa còn lại.",
+      "en": "The payment terms are as follows: once the contract is signed, we pay half. When the cups reach Hanoi and the quality has been checked, we pay the other half."
+    },
+    {
+      "k": "order",
+      "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+      "tokens": ["王丽觉得这个价格有点儿高。", "但是她也知道，陈总的产品质量比别的公司好。", "所以她说，这个价格我们可以接受。"],
+      "explain": "Câu có tên 王丽 mở đoạn; 但是 + 也 đưa ra ý ngược lại nên theo sau; 所以 là kết luận, đứng cuối.",
+      "vi": "Vương Lệ thấy giá này hơi cao. Nhưng cô ấy cũng biết chất lượng sản phẩm của ông Trần tốt hơn các công ty khác. Vì vậy cô ấy nói giá này chúng ta có thể chấp nhận.",
+      "en": "Wang Li felt the price was a bit high. But she also knew Mr Chen's products were better than other companies'. So she said we could accept this price."
+    }
+  ],
+  "notes": {
+    "title": "Ghi chú: các điều khoản trong hợp đồng",
+    "lines": [
+      {
+        "who": "小刘",
+        "t": "阮小姐，我把合同上的主要条件再说一下，您听听对不对。",
+        "py": "Ruǎn xiǎojiě, wǒ bǎ hétong shang de zhǔyào tiáojiàn zài shuō yíxià, nín tīngting duì bu duì.",
+        "vi": "Chị Nguyễn, em nói lại các điều kiện chính trong hợp đồng, chị nghe xem có đúng không.",
+        "en": "Ms Nguyen, let me go over the main terms of the contract again. Please check if they're right."
+      },
+      {
+        "who": "小刘",
+        "t": "你们订的杯子一共两千个，每个二十八块。",
+        "py": "Nǐmen dìng de bēizi yígòng liǎngqiān ge, měi ge èrshíbā kuài.",
+        "vi": "Bên chị đặt tổng cộng 2.000 chiếc cốc, mỗi chiếc 28 tệ.",
+        "en": "You've ordered 2,000 cups in total, at 28 yuan each."
+      },
+      {
+        "who": "小刘",
+        "t": "一共是五万六千块。",
+        "py": "Yígòng shì wǔwàn liùqiān kuài.",
+        "vi": "Tổng cộng là 56.000 tệ.",
+        "en": "That's 56,000 yuan in total."
+      },
+      {
+        "who": "小刘",
+        "t": "合同订好以后，你们先付一半，也就是两万八千块。",
+        "py": "Hétong dìng hǎo yǐhòu, nǐmen xiān fù yíbàn, yě jiù shì liǎngwàn bāqiān kuài.",
+        "vi": "Ký hợp đồng xong, bên chị trả trước một nửa, tức là 28.000 tệ.",
+        "en": "Once the contract is signed, you pay half first, that is 28,000 yuan."
+      },
+      {
+        "who": "小刘",
+        "t": "杯子一月十五号以前送到河内，我们保证按时送到。",
+        "py": "Bēizi yī yuè shíwǔ hào yǐqián sòngdào Hénèi, wǒmen bǎozhèng ànshí sòngdào.",
+        "vi": "Cốc sẽ được giao đến Hà Nội trước ngày 15 tháng 1, chúng em bảo đảm giao đúng hạn.",
+        "en": "The cups will reach Hanoi before January 15. We guarantee on-time delivery."
+      },
+      {
+        "who": "小刘",
+        "t": "如果你们需要提前送到，请至少早一个星期告诉我们。",
+        "py": "Rúguǒ nǐmen xūyào tíqián sòngdào, qǐng zhìshǎo zǎo yí ge xīngqī gàosu wǒmen.",
+        "vi": "Nếu bên chị cần giao sớm hơn, xin báo cho chúng em trước ít nhất một tuần.",
+        "en": "If you need an earlier delivery, please tell us at least a week in advance."
+      },
+      {
+        "who": "阮安",
+        "t": "好的。送到河内的钱要我们付吗？",
+        "py": "Hǎo de. Sòngdào Hénèi de qián yào wǒmen fù ma?",
+        "vi": "Được. Tiền chuyển hàng đến Hà Nội bên chị có phải trả không?",
+        "en": "OK. Do we have to pay for delivery to Hanoi?"
+      },
+      {
+        "who": "小刘",
+        "t": "不用，这个钱我们来付。",
+        "py": "Búyòng, zhège qián wǒmen lái fù.",
+        "vi": "Không cần ạ, khoản đó bên em trả.",
+        "en": "No, we'll cover that."
+      },
+      {
+        "who": "阮安",
+        "t": "太好了，别的都没问题。谢谢你！",
+        "py": "Tài hǎo le, bié de dōu méi wèntí. Xièxie nǐ!",
+        "vi": "Tốt quá, những phần khác đều ổn. Cảm ơn em!",
+        "en": "Great, everything else is fine. Thank you!"
+      }
+    ],
+    "form": [
+      {
+        "label": "Số lượng cốc",
+        "opts": ["两千个", "两百个", "一千个"],
+        "a": 0,
+        "why": {
+          "1": "两百个 là 200 chiếc; 小刘 nói 一共两千个 (2.000 chiếc).",
+          "2": "Không nghe thấy 一千个 (1.000 chiếc); con số là 两千个."
+        }
+      },
+      {
+        "label": "Giá mỗi chiếc",
+        "opts": ["二十八块", "二十六块", "三十块"],
+        "a": 0,
+        "why": {
+          "1": "26 tệ là giá 阮安 đề nghị lúc đầu; trong hợp đồng là 每个二十八块.",
+          "2": "30 tệ là giá ban đầu của 陈总, chưa giảm; trong hợp đồng là 28 tệ."
+        }
+      },
+      {
+        "label": "Tổng số tiền",
+        "opts": ["五万六千块", "两万八千块", "五千六百块"],
+        "a": 0,
+        "why": {
+          "1": "两万八千块 (28.000 tệ) là số tiền trả trước, tức một nửa, không phải tổng.",
+          "2": "五千六百块 là 5.600 tệ; 小刘 nói 五万六千块 (56.000 tệ), 万 là chục nghìn."
+        }
+      },
+      {
+        "label": "Số tiền trả trước",
+        "opts": ["两万八千块", "五万六千块", "两千八百块"],
+        "a": 0,
+        "why": {
+          "1": "五万六千块 là tổng tiền; trả trước chỉ là 一半 (một nửa).",
+          "2": "两千八百块 là 2.800 tệ; 小刘 nói 两万八千块 (28.000 tệ)."
+        }
+      },
+      {
+        "label": "Hạn giao đến Hà Nội",
+        "opts": ["一月十五号以前", "一月二十号以前", "一月五号以前"],
+        "a": 0,
+        "why": {
+          "1": "Ngày 20 là ngày 陈总 muốn lùi đến, nhưng hợp đồng ghi 一月十五号以前.",
+          "2": "Không nghe thấy 五号 (ngày 5); 小刘 nói 十五号 (ngày 15)."
+        }
+      },
+      {
+        "label": "Muốn giao sớm thì phải báo trước ít nhất",
+        "opts": ["一个星期", "两个星期", "三天"],
+        "a": 0,
+        "why": {
+          "1": "小刘 nói 至少早一个星期 (ít nhất một tuần), không phải hai tuần.",
+          "2": "Không nghe thấy 三天 (3 ngày); thời gian báo trước là 一个星期."
+        }
+      }
+    ]
+  },
+  "longturn": {
+    "cue": "请你用一分钟说一说：你怎么跟对方商量价格和送到的时间，让双方都满意？",
+    "cueVi": "Hãy nói khoảng 1 phút: bạn bàn với đối tác về giá và thời gian giao hàng như thế nào để cả hai bên đều hài lòng?",
+    "cuePy": "Qǐng nǐ yòng yì fēnzhōng shuō yi shuō: nǐ zěnme gēn duìfāng shāngliang jiàgé hé sòngdào de shíjiān, ràng shuāngfāng dōu mǎnyì?",
+    "points": ["说你们的要求：数量、价格、送到的时间", "说你们可以接受什么条件", "说如果对方不同意，会有什么问题（用“否则”）", "最后说为什么这样对双方都好"],
+    "pointsVi": ["Nêu yêu cầu của bên bạn: số lượng, giá, thời gian giao", "Nói bên bạn có thể chấp nhận điều kiện gì", "Nói nếu đối tác không đồng ý thì sẽ có vấn đề gì (dùng 否则)", "Cuối cùng nói vì sao cách này tốt cho cả hai bên"],
+    "prep": 60,
+    "speak": [60, 120],
+    "model": "陈总，您好！我们很想跟您做这笔生意。我们需要两千个杯子，希望每个二十六块。我知道这个价格有点儿低，但是只要价格合适，我们以后每年都会给您订单。还有，杯子一定要在一月十五号以前送到河内，否则顾客过年以前就买不到了。如果您能保证按时送到，我们可以接受二十八块，而且合同订好以后马上付一半。这样对我们双方都好。您看怎么样？",
+    "modelPy": "Chén zǒng, nín hǎo! Wǒmen hěn xiǎng gēn nín zuò zhè bǐ shēngyi. Wǒmen xūyào liǎngqiān ge bēizi, xīwàng měi ge èrshíliù kuài. Wǒ zhīdào zhège jiàgé yǒudiǎnr dī, dànshì zhǐyào jiàgé héshì, wǒmen yǐhòu měi nián dōu huì gěi nín dìngdān. Háiyǒu, bēizi yídìng yào zài yī yuè shíwǔ hào yǐqián sòngdào Hénèi, fǒuzé gùkè guònián yǐqián jiù mǎi bu dào le. Rúguǒ nín néng bǎozhèng ànshí sòngdào, wǒmen kěyǐ jiēshòu èrshíbā kuài, érqiě hétong dìng hǎo yǐhòu mǎshàng fù yíbàn. Zhèyàng duì wǒmen shuāngfāng dōu hǎo. Nín kàn zěnmeyàng?",
+    "modelVi": "Chào ông Trần! Chúng tôi rất muốn làm thương vụ này với ông. Chúng tôi cần 2.000 chiếc cốc, mong là mỗi chiếc 26 tệ. Tôi biết giá này hơi thấp, nhưng chỉ cần giá phù hợp, sau này năm nào chúng tôi cũng sẽ đặt hàng của ông. Ngoài ra, cốc nhất định phải đến Hà Nội trước ngày 15 tháng 1, nếu không khách hàng sẽ không mua được trước Tết. Nếu ông có thể bảo đảm giao đúng hạn, chúng tôi có thể chấp nhận 28 tệ, hơn nữa ký hợp đồng xong sẽ trả ngay một nửa. Như vậy tốt cho cả hai bên. Ông thấy thế nào?",
+    "useful": ["只要……，我们就……", "……，否则……", "如果您能保证……，我们可以……", "我们可以接受……", "这样对我们双方都好。", "您看怎么样？"],
+    "check": ["Nói đủ 4 ý: yêu cầu, điều kiện chấp nhận, hậu quả nếu không đồng ý, lợi ích cho hai bên", "Dùng ít nhất 3 từ nối (只要…就, 如果…就, 否则, 但是, 而且)", "Có con số cụ thể: số lượng, giá, ngày giao", "Giữ giọng lịch sự với đối tác (您, 您看怎么样？)", "Nói được 60–120 giây, thanh điệu rõ ở 商量, 保证, 否则"]
+  },
+  "write": {
+    "task": "Viết tin nhắn gửi 陈总 xác nhận các điều kiện hai bên đã thống nhất: số lượng, giá, cách thanh toán, hạn giao (70–100 chữ Hán).",
+    "kind": "message",
+    "model": "陈总，您好！谢谢您今天跟我们商量了这么长时间。我把说好的条件再写一下：我们订两千个杯子，每个二十八块。合同订好以后，我们先付一半，杯子到了河内再付一半。你们保证一月十五号以前送到，否则我们的顾客过年以前就买不到了。阮安",
+    "frame": "陈总，您好！谢谢您今天跟我们___。我把说好的条件再写一下：我们订___，每个___。合同订好以后，我们先___，杯子到了河内再付一半。你们保证___送到，否则___。阮安",
+    "gaps": ["商量了这么长时间", "两千个杯子", "二十八块", "付一半", "一月十五号以前", "我们的顾客过年以前就买不到了"],
+    "free": [false, true, true, false, true, true],
+    "hints": ["谢谢您今天跟我们商量了这么长时间。", "我把说好的条件再写一下：", "合同订好以后，我们先……，……再……", "你们保证……，否则……", "如果有问题，请您提前告诉我们。"],
+    "check": ["Mở đầu có lời chào và lời cảm ơn", "Đủ 4 điều kiện: số lượng, giá, thanh toán, hạn giao", "Dùng 先……再…… để nói thứ tự thanh toán", "Có một câu với 否则 nêu hậu quả nếu giao trễ", "Ký tên ở cuối", "Dài 70–100 chữ Hán"],
+    "words": [70, 100]
+  },
+  "gloss": {
+    "商量": ["shāngliang", "to discuss, to talk over", "bàn bạc, thương lượng"],
+    "降低": ["jiàngdī", "to lower, to reduce", "hạ, giảm"],
+    "按时": ["ànshí", "on time", "đúng hạn"],
+    "保证": ["bǎozhèng", "to guarantee", "bảo đảm, cam kết"],
+    "条件": ["tiáojiàn", "condition, terms", "điều kiện"],
+    "合同": ["hétong", "contract", "hợp đồng"],
+    "提前": ["tíqián", "in advance, ahead of time", "trước thời hạn, sớm hơn"],
+    "推迟": ["tuīchí", "to postpone, to delay", "lùi lại, hoãn"],
+    "付款": ["fùkuǎn", "to pay, payment", "thanh toán, trả tiền"],
+    "否则": ["fǒuzé", "otherwise", "nếu không thì"],
+    "接受": ["jiēshòu", "to accept", "chấp nhận"],
+    "订合同": ["dìng hétong", "to sign a contract", "ký hợp đồng"],
+    "陈总": ["Chén zǒng", "Mr Chen, the company head", "giám đốc Trần (tên)"],
+    "小刘": ["Xiǎo Liú", "Xiao Liu (name)", "Tiểu Lưu (tên)"],
+    "河内": ["Hénèi", "Hanoi", "Hà Nội (tên)"],
+    "阮小姐": ["Ruǎn xiǎojiě", "Ms Nguyen", "chị Nguyễn (tên)"]
+  }
+}
