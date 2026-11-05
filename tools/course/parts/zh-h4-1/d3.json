@@ -462,7 +462,7 @@
   ],
   "hsk": [
     {
-      "q": "HSK4 听力 · 判断对错: ★ 他们已经订好合同了。",
+      "q": "HSK4 听力 · Nghe và chọn đúng (对) hay sai (错): ★ 他们已经订好合同了。",
       "audio": "陈总，价格我们已经商量好了，但是合同明天上午才能订，因为我们还要问一下王经理。",
       "opts": ["对", "错"],
       "a": 1,
@@ -481,7 +481,7 @@
       }
     },
     {
-      "q": "HSK4 阅读 · 选词填空: 这个价格我们可以___，但是你们一定要按时送到。",
+      "q": "HSK4 Đọc · Chọn từ điền vào chỗ trống: 这个价格我们可以___，但是你们一定要按时送到。",
       "opts": ["接受", "推迟", "降低", "保证"],
       "a": 0,
       "why": {
@@ -491,7 +491,7 @@
       }
     },
     {
-      "q": "HSK4 阅读 · 选词填空: 你们要先付一半的钱，___我们不能开始做。",
+      "q": "HSK4 Đọc · Chọn từ điền vào chỗ trống: 你们要先付一半的钱，___我们不能开始做。",
       "opts": ["否则", "只要", "如果", "虽然"],
       "a": 0,
       "why": {
@@ -727,7 +727,7 @@
   "orderPara": [
     {
       "k": "order",
-      "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+      "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Sắp xếp thứ tự câu)",
       "tokens": ["陈总开始说每个杯子三十块。", "我们觉得有点儿贵，就跟他商量了很长时间。", "最后他同意把价格降低到二十八块。"],
       "explain": "Đi theo thời gian: 开始 (lúc đầu) mở đoạn; câu giữa có 就 nối tiếp phản ứng của bên mua; 最后 (cuối cùng) đứng cuối.",
       "vi": "Lúc đầu ông Trần nói mỗi chiếc cốc 30 tệ. Chúng tôi thấy hơi đắt nên bàn với ông ấy rất lâu. Cuối cùng ông ấy đồng ý hạ giá xuống 28 tệ.",
@@ -735,7 +735,7 @@
     },
     {
       "k": "order",
-      "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+      "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Sắp xếp thứ tự câu)",
       "tokens": ["陈总想把送到的时间推迟到二十号。", "但是二十号离过年太近了。", "所以我们没有接受，他也同意十五号以前送到。"],
       "explain": "Câu nêu đề nghị của 陈总 đứng đầu; 但是 phản bác ý trước nên đứng sau nó; 所以 nêu kết quả nên đứng cuối.",
       "vi": "Ông Trần muốn lùi ngày giao đến ngày 20. Nhưng ngày 20 quá gần Tết. Vì vậy chúng tôi không chấp nhận, và ông ấy cũng đồng ý giao trước ngày 15.",
@@ -743,7 +743,7 @@
     },
     {
       "k": "order",
-      "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+      "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Sắp xếp thứ tự câu)",
       "tokens": ["付款的条件是这样的：", "合同订好以后，我们先付一半。", "杯子到了河内，检查了质量以后，再付一半。"],
       "explain": "Câu có 这样的： giới thiệu chủ đề nên đứng đầu; 先 (trước) rồi đến 再 (sau đó) cho biết thứ tự hai lần trả tiền.",
       "vi": "Điều kiện thanh toán như sau: ký hợp đồng xong, chúng tôi trả trước một nửa. Cốc đến Hà Nội, kiểm tra chất lượng xong thì trả nửa còn lại.",
@@ -751,7 +751,7 @@
     },
     {
       "k": "order",
-      "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+      "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Sắp xếp thứ tự câu)",
       "tokens": ["王丽觉得这个价格有点儿高。", "但是她也知道，陈总的产品质量比别的公司好。", "所以她说，这个价格我们可以接受。"],
       "explain": "Câu có tên 王丽 mở đoạn; 但是 + 也 đưa ra ý ngược lại nên theo sau; 所以 là kết luận, đứng cuối.",
       "vi": "Vương Lệ thấy giá này hơi cao. Nhưng cô ấy cũng biết chất lượng sản phẩm của ông Trần tốt hơn các công ty khác. Vì vậy cô ấy nói giá này chúng ta có thể chấp nhận.",
@@ -890,9 +890,9 @@
     "pointsVi": ["Nêu yêu cầu của bên bạn: số lượng, giá, thời gian giao", "Nói bên bạn có thể chấp nhận điều kiện gì", "Nói nếu đối tác không đồng ý thì sẽ có vấn đề gì (dùng 否则)", "Cuối cùng nói vì sao cách này tốt cho cả hai bên"],
     "prep": 60,
     "speak": [60, 120],
-    "model": "陈总，您好！我们很想跟您做这笔生意。我们需要两千个杯子，希望每个二十六块。我知道这个价格有点儿低，但是只要价格合适，我们以后每年都会给您订单。还有，杯子一定要在一月十五号以前送到河内，否则顾客过年以前就买不到了。如果您能保证按时送到，我们可以接受二十八块，而且合同订好以后马上付一半。这样对我们双方都好。您看怎么样？",
-    "modelPy": "Chén zǒng, nín hǎo! Wǒmen hěn xiǎng gēn nín zuò zhè bǐ shēngyi. Wǒmen xūyào liǎngqiān ge bēizi, xīwàng měi ge èrshíliù kuài. Wǒ zhīdào zhège jiàgé yǒudiǎnr dī, dànshì zhǐyào jiàgé héshì, wǒmen yǐhòu měi nián dōu huì gěi nín dìngdān. Háiyǒu, bēizi yídìng yào zài yī yuè shíwǔ hào yǐqián sòngdào Hénèi, fǒuzé gùkè guònián yǐqián jiù mǎi bu dào le. Rúguǒ nín néng bǎozhèng ànshí sòngdào, wǒmen kěyǐ jiēshòu èrshíbā kuài, érqiě hétong dìng hǎo yǐhòu mǎshàng fù yíbàn. Zhèyàng duì wǒmen shuāngfāng dōu hǎo. Nín kàn zěnmeyàng?",
-    "modelVi": "Chào ông Trần! Chúng tôi rất muốn làm thương vụ này với ông. Chúng tôi cần 2.000 chiếc cốc, mong là mỗi chiếc 26 tệ. Tôi biết giá này hơi thấp, nhưng chỉ cần giá phù hợp, sau này năm nào chúng tôi cũng sẽ đặt hàng của ông. Ngoài ra, cốc nhất định phải đến Hà Nội trước ngày 15 tháng 1, nếu không khách hàng sẽ không mua được trước Tết. Nếu ông có thể bảo đảm giao đúng hạn, chúng tôi có thể chấp nhận 28 tệ, hơn nữa ký hợp đồng xong sẽ trả ngay một nửa. Như vậy tốt cho cả hai bên. Ông thấy thế nào?",
+    "model": "陈总，您好！我们很想跟您做这笔生意。我们需要两千个杯子，希望每个二十六块。这个价格有点儿低，但是只要价格合适，我们以后每年都会给您订单。杯子一定要在一月十五号以前送到河内，否则顾客过年以前就买不到了。如果您能保证按时送到，我们可以接受二十八块，而且合同订好以后马上付一半。这样对我们双方都好。您看怎么样？",
+    "modelPy": "Chén zǒng, nín hǎo! Wǒmen hěn xiǎng gēn nín zuò zhè bǐ shēngyi. Wǒmen xūyào liǎngqiān ge bēizi, xīwàng měi ge èrshíliù kuài. Zhège jiàgé yǒudiǎnr dī, dànshì zhǐyào jiàgé héshì, wǒmen yǐhòu měi nián dōu huì gěi nín dìngdān. Bēizi yídìng yào zài yī yuè shíwǔ hào yǐqián sòngdào Hénèi, fǒuzé gùkè guònián yǐqián jiù mǎi bu dào le. Rúguǒ nín néng bǎozhèng ànshí sòngdào, wǒmen kěyǐ jiēshòu èrshíbā kuài, érqiě hétong dìng hǎo yǐhòu mǎshàng fù yíbàn. Zhèyàng duì wǒmen shuāngfāng dōu hǎo. Nín kàn zěnmeyàng?",
+    "modelVi": "Chào ông Trần! Chúng tôi rất muốn làm thương vụ này với ông. Chúng tôi cần 2.000 chiếc cốc, mong là mỗi chiếc 26 tệ. Giá này hơi thấp, nhưng chỉ cần giá phù hợp, sau này năm nào chúng tôi cũng sẽ đặt hàng của ông. Cốc nhất định phải đến Hà Nội trước ngày 15 tháng 1, nếu không khách hàng sẽ không mua được trước Tết. Nếu ông có thể bảo đảm giao đúng hạn, chúng tôi có thể chấp nhận 28 tệ, hơn nữa ký hợp đồng xong sẽ trả ngay một nửa. Như vậy tốt cho cả hai bên. Ông thấy thế nào?",
     "useful": ["只要……，我们就……", "……，否则……", "如果您能保证……，我们可以……", "我们可以接受……", "这样对我们双方都好。", "您看怎么样？"],
     "check": ["Nói đủ 4 ý: yêu cầu, điều kiện chấp nhận, hậu quả nếu không đồng ý, lợi ích cho hai bên", "Dùng ít nhất 3 từ nối (只要…就, 如果…就, 否则, 但是, 而且)", "Có con số cụ thể: số lượng, giá, ngày giao", "Giữ giọng lịch sự với đối tác (您, 您看怎么样？)", "Nói được 60–120 giây, thanh điệu rõ ở 商量, 保证, 否则"]
   },
