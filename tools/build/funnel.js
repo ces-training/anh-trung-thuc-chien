@@ -187,6 +187,15 @@ finishEx = function (ex, d, k, sum, body) {
   let html = "";
   if (d.idx === 0 && !orderOf("lop-nhom")) html = `<div class="offmini"><b>Tối thứ 4 có lớp nhóm với giáo viên</b><span>Giáo viên sửa đúng lỗi bạn hay sai. Giá học thử ${fmtVND(SITE.trial.class)}.</span><a class="btn primary" href="#uu-dai">Giữ chỗ</a></div>`;
   else if (d.idx === 2 && !orderOf("weekend-live")) html = `<div class="offmini"><b>Thứ 7 này mang 3 câu khoá ra Weekend Live</b><span>Giao lưu với cộng đồng và người nước ngoài, có đồ uống. Vé học thử ${fmtVND(SITE.trial.live)} (giảm 50%).</span><a class="btn primary" href="#uu-dai">Giữ vé</a></div>`;
+  else if (d.idx === 4 && d.demo) {
+    /* tuần học thử HSK2, A2, B1 chưa có tuần 2: mời đăng ký chờ lớp của đúng lộ trình, chưa bán gói web */
+    const t = trackOf(d.lang, d.track), done = S.waitDemo && S.waitDemo[d.demo];
+    html = `<div class="offmini"><b>Bạn đã xong tuần học thử ${esc(t ? t.name + " (" + t.lv + ")" : "")}!</b><span>Lộ trình này đang mở lớp dần. Đăng ký chờ để CES báo bạn ngay khi có lớp, và thử lớp nhóm, Weekend Live với giá học thử.</span>
+      <div class="row center"><button type="button" class="btn primary wlx"${done ? " disabled" : ""}>${done ? "Đã đăng ký chờ ✓" : "Đăng ký chờ lớp"}</button><a class="btn ghost" href="#uu-dai">Ưu đãi lớp nhóm, Weekend Live</a></div></div>`;
+    card.insertAdjacentHTML("beforeend", html);
+    const b = $(".wlx", card); if (b && !done) b.onclick = () => { S.waitDemo = Object.assign({}, S.waitDemo, { [d.demo]: true }); save(); sendSheet({ type: "waitlist", lang: d.lang === "zh" ? "Tiếng Trung" : "Tiếng Anh", track: t ? t.name + " (" + t.lv + ")" : d.demo }); b.disabled = true; b.textContent = "Đã đăng ký chờ ✓"; toast("CES sẽ báo bạn qua Zalo khi lớp mở."); };
+    return;
+  }
   else if (d.idx === 4) html = `<div class="offmini"><b>Bạn đã xong tuần học thử!</b><span>Chọn gói để học tiếp tuần 2 và các tuần sau.</span><a class="btn primary" href="#chon-goi">Chọn gói học tiếp</a></div>`;
   if (html) card.insertAdjacentHTML("beforeend", html);
 };

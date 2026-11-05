@@ -220,6 +220,15 @@ async function funnel(browser, base) {
   await p2.waitForTimeout(500); await p2.evaluate(HOOK);
   for (let i = 0; i < 60 && !(await p2.$(".endcard")); i++) { await p2.evaluate(STEP); await p2.waitForTimeout(30); }
   check(/lớp nhóm với giáo viên/i.test(await p2.evaluate(() => (document.querySelector(".endcard") || {}).innerText || "")), "xong Thứ 2 tuần 1 → mời lớp nhóm 89k");
+  /* xong Thứ 6 tuần học thử A2 → mời đăng ký chờ lớp, không mời mua gói */
+  await p2.evaluate(() => { const d = DEMO_DAYS.find(x => x.id === "a2-w1-thu-6"); d.ex.forEach((c, i) => { if (i) S.done["en:" + d.id + ":" + c] = { p: 5 }; }); S.lang = "en"; save(); location.hash = "#" + d.id + "-bai-1"; });
+  await p2.waitForTimeout(500); await p2.evaluate(HOOK);
+  for (let i = 0; i < 60 && !(await p2.$(".endcard")); i++) { await p2.evaluate(STEP); await p2.waitForTimeout(30); }
+  const endA2 = await p2.evaluate(() => (document.querySelector(".endcard") || {}).innerText || "");
+  check(/Đăng ký chờ lớp/.test(endA2) && !/Chọn gói/.test(endA2), "xong tuần học thử A2 → mời chờ lớp, không mời mua gói");
+  /* kết quả B2 (lộ trình chưa mở) → gợi ý tuần học thử B1, không phải tuần 1 */
+  const near = await p2.evaluate(() => { const t = trackOf("en", "en-d"), n = nearTrial("en", t); return n ? trackStart(n) : ""; });
+  check(near === "b1-w1-thu-2", "B2 chưa mở → gợi ý học thử B1 (" + near + ")");
   check(!errs.length, "không lỗi JavaScript" + (errs.length ? ": " + errs.join(" | ") : ""));
   await go("#uu-dai"); await page.screenshot({ path: path.join(ROOT, "tools", "shots", "390-uu-dai.png"), fullPage: true });
   await go("#w1-thu-3"); check(!(await page.$(".stagehd")), "ngày tiếng Anh của hành trình chính không có tiêu đề bước");

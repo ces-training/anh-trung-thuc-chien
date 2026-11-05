@@ -6025,6 +6025,8 @@ const QB = {
 const MIN_LV = { zh: 0, en: 1 }, MAX_LV = { zh: 4, en: 4 };
 function trackOf(L, id) { return TRACKS[L].find(t => t.id === id); }
 const trackStart = t => t.start || (t.demo ? demoStart(t.demo) : "");
+/* lộ trình chưa mở: gợi ý tuần học thử gần nhất BÊN DƯỚI, không đẩy về lộ trình mới bắt đầu */
+function nearTrial(L, t) { const i = TRACKS[L].indexOf(t); for (let j = i - 1; j >= 0; j--) if (trackStart(TRACKS[L][j])) return TRACKS[L][j]; return null; }
 function sendSheet(row) {
   S.sentRows = S.sentRows || []; S.sentRows.push(row); save();
   if (!SHEET_URL) return false;
@@ -6123,7 +6125,7 @@ function showResult(body, P) {
       : t.status === "demo" && trackStart(t) ? `<div class="note">Lộ trình <b>${esc(t.name)}</b> đang mở lớp dần. Bạn học thử ngay một tuần trọn vẹn (${esc(t.note.replace(/^Học thử /, ""))}), rồi đăng ký để CES báo khi lớp mở.</div>
          <div class="row"><a class="btn primary huge" href="#${trackStart(t)}">${ICON.play} Học thử ngay: ${esc(t.name)}</a><button type="button" class="btn ghost wl">Đăng ký chờ lớp ${esc(t.lv)}</button></div>`
       : `<div class="note">Lộ trình <b>${esc(t.name)}</b> đang được soạn (${esc(t.note)}). Đăng ký để CES báo bạn ngay khi mở, và học thử trước lộ trình gần nhất.</div>
-         <div class="row"><button type="button" class="btn primary wl">Đăng ký chờ lớp ${esc(t.lv)}</button><a class="btn ghost" href="#${TRACKS[L][0].start}">Học thử lộ trình ${esc(TRACKS[L][0].name)}</a></div>`}
+         <div class="row"><button type="button" class="btn primary wl">Đăng ký chờ lớp ${esc(t.lv)}</button>${(() => { const near = nearTrial(L, t); return near ? `<a class="btn ghost" href="#${trackStart(near)}">Học thử tuần gần nhất: ${esc(near.name)} (${esc(near.lv)})</a>` : ""; })()}</div>`}
     <p class="small muted">${P.sent ? "Kết quả đã gửi cho CES." : SHEET_URL ? "" : "Kết quả đang lưu trên máy này (CES chưa kết nối bảng nhận kết quả)."}</p>
     <div class="row"><button type="button" class="btn ghost small again">Làm lại bài kiểm tra</button><button type="button" class="btn ghost small other">Kiểm tra ${L === "zh" ? "tiếng Anh" : "tiếng Trung"}</button><a class="btn ghost small" href="#lo-trinh">Xem tất cả lộ trình</a></div></section>`;
   const wl = $(".wl", body); if (wl) wl.onclick = () => { P.waitlist = (P.waitlist || []).concat([t.id]); save(); sendSheet({ type: "waitlist", time: new Date().toISOString(), name: P.name, contact: P.contact, lang: L, track: t.name + " (" + t.lv + ")" }); wl.disabled = true; wl.textContent = "Đã đăng ký chờ ✓"; toast("CES sẽ báo bạn khi lộ trình mở."); };
@@ -6339,6 +6341,15 @@ finishEx = function (ex, d, k, sum, body) {
   let html = "";
   if (d.idx === 0 && !orderOf("lop-nhom")) html = `<div class="offmini"><b>Tối thứ 4 có lớp nhóm với giáo viên</b><span>Giáo viên sửa đúng lỗi bạn hay sai. Giá học thử ${fmtVND(SITE.trial.class)}.</span><a class="btn primary" href="#uu-dai">Giữ chỗ</a></div>`;
   else if (d.idx === 2 && !orderOf("weekend-live")) html = `<div class="offmini"><b>Thứ 7 này mang 3 câu khoá ra Weekend Live</b><span>Giao lưu với cộng đồng và người nước ngoài, có đồ uống. Vé học thử ${fmtVND(SITE.trial.live)} (giảm 50%).</span><a class="btn primary" href="#uu-dai">Giữ vé</a></div>`;
+  else if (d.idx === 4 && d.demo) {
+    /* tuần học thử HSK2, A2, B1 chưa có tuần 2: mời đăng ký chờ lớp của đúng lộ trình, chưa bán gói web */
+    const t = trackOf(d.lang, d.track), done = S.waitDemo && S.waitDemo[d.demo];
+    html = `<div class="offmini"><b>Bạn đã xong tuần học thử ${esc(t ? t.name + " (" + t.lv + ")" : "")}!</b><span>Lộ trình này đang mở lớp dần. Đăng ký chờ để CES báo bạn ngay khi có lớp, và thử lớp nhóm, Weekend Live với giá học thử.</span>
+      <div class="row center"><button type="button" class="btn primary wlx"${done ? " disabled" : ""}>${done ? "Đã đăng ký chờ ✓" : "Đăng ký chờ lớp"}</button><a class="btn ghost" href="#uu-dai">Ưu đãi lớp nhóm, Weekend Live</a></div></div>`;
+    card.insertAdjacentHTML("beforeend", html);
+    const b = $(".wlx", card); if (b && !done) b.onclick = () => { S.waitDemo = Object.assign({}, S.waitDemo, { [d.demo]: true }); save(); sendSheet({ type: "waitlist", lang: d.lang === "zh" ? "Tiếng Trung" : "Tiếng Anh", track: t ? t.name + " (" + t.lv + ")" : d.demo }); b.disabled = true; b.textContent = "Đã đăng ký chờ ✓"; toast("CES sẽ báo bạn qua Zalo khi lớp mở."); };
+    return;
+  }
   else if (d.idx === 4) html = `<div class="offmini"><b>Bạn đã xong tuần học thử!</b><span>Chọn gói để học tiếp tuần 2 và các tuần sau.</span><a class="btn primary" href="#chon-goi">Chọn gói học tiếp</a></div>`;
   if (html) card.insertAdjacentHTML("beforeend", html);
 };

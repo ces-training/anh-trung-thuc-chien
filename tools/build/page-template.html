@@ -4579,6 +4579,8 @@ const QB = {
 const MIN_LV = { zh: 0, en: 1 }, MAX_LV = { zh: 4, en: 4 };
 function trackOf(L, id) { return TRACKS[L].find(t => t.id === id); }
 const trackStart = t => t.start || (t.demo ? demoStart(t.demo) : "");
+/* lộ trình chưa mở: gợi ý tuần học thử gần nhất BÊN DƯỚI, không đẩy về lộ trình mới bắt đầu */
+function nearTrial(L, t) { const i = TRACKS[L].indexOf(t); for (let j = i - 1; j >= 0; j--) if (trackStart(TRACKS[L][j])) return TRACKS[L][j]; return null; }
 function sendSheet(row) {
   S.sentRows = S.sentRows || []; S.sentRows.push(row); save();
   if (!SHEET_URL) return false;
@@ -4677,7 +4679,7 @@ function showResult(body, P) {
       : t.status === "demo" && trackStart(t) ? `<div class="note">Lộ trình <b>${esc(t.name)}</b> đang mở lớp dần. Bạn học thử ngay một tuần trọn vẹn (${esc(t.note.replace(/^Học thử /, ""))}), rồi đăng ký để CES báo khi lớp mở.</div>
          <div class="row"><a class="btn primary huge" href="#${trackStart(t)}">${ICON.play} Học thử ngay: ${esc(t.name)}</a><button type="button" class="btn ghost wl">Đăng ký chờ lớp ${esc(t.lv)}</button></div>`
       : `<div class="note">Lộ trình <b>${esc(t.name)}</b> đang được soạn (${esc(t.note)}). Đăng ký để CES báo bạn ngay khi mở, và học thử trước lộ trình gần nhất.</div>
-         <div class="row"><button type="button" class="btn primary wl">Đăng ký chờ lớp ${esc(t.lv)}</button><a class="btn ghost" href="#${TRACKS[L][0].start}">Học thử lộ trình ${esc(TRACKS[L][0].name)}</a></div>`}
+         <div class="row"><button type="button" class="btn primary wl">Đăng ký chờ lớp ${esc(t.lv)}</button>${(() => { const near = nearTrial(L, t); return near ? `<a class="btn ghost" href="#${trackStart(near)}">Học thử tuần gần nhất: ${esc(near.name)} (${esc(near.lv)})</a>` : ""; })()}</div>`}
     <p class="small muted">${P.sent ? "Kết quả đã gửi cho CES." : SHEET_URL ? "" : "Kết quả đang lưu trên máy này (CES chưa kết nối bảng nhận kết quả)."}</p>
     <div class="row"><button type="button" class="btn ghost small again">Làm lại bài kiểm tra</button><button type="button" class="btn ghost small other">Kiểm tra ${L === "zh" ? "tiếng Anh" : "tiếng Trung"}</button><a class="btn ghost small" href="#lo-trinh">Xem tất cả lộ trình</a></div></section>`;
   const wl = $(".wl", body); if (wl) wl.onclick = () => { P.waitlist = (P.waitlist || []).concat([t.id]); save(); sendSheet({ type: "waitlist", time: new Date().toISOString(), name: P.name, contact: P.contact, lang: L, track: t.name + " (" + t.lv + ")" }); wl.disabled = true; wl.textContent = "Đã đăng ký chờ ✓"; toast("CES sẽ báo bạn khi lộ trình mở."); };
