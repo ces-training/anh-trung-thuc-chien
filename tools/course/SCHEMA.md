@@ -120,3 +120,4 @@ Q (listen, choose the meaning) is generated from `cards` like the Chinese versio
   "words": [min, max]                      // word range for step 3 (omit for forms)
 }
 ```
+- U, kiểu "nghe từ, chọn cách viết đúng": trang hiện kèm nghĩa tiếng Việt (m) của từ, vì một số cách viết sai trong spell là từ đồng âm (meat / meet).

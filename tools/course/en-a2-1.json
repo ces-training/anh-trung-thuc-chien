@@ -35,8 +35,8 @@
   {
    "key": "linh",
    "name": "Linh",
-   "vi": "đồng nghiệp người Việt 24 tuổi ở phòng marketing, vui vẻ",
-   "look": "a Vietnamese woman about 24, long straight black hair, mustard-yellow sweater"
+   "vi": "đồng nghiệp người Việt khoảng 28 tuổi ở phòng marketing, vui vẻ",
+   "look": "a Vietnamese woman about 28, long straight black hair, mustard-yellow sweater"
   },
   {
    "key": "hoa",
@@ -108,7 +108,7 @@
      "img": "contract",
      "spell": [
       "sing",
-      "sine"
+      "sin"
      ]
     },
     {
@@ -141,9 +141,9 @@
      "w": "start date",
      "ipa": "/ˈstɑːt deɪt/",
      "m": "ngày bắt đầu làm việc",
-     "ex": "My start date is Monday, 3 March.",
-     "exm": "Ngày bắt đầu làm của tôi là thứ Hai, mùng 3 tháng 3.",
-     "n": "Đọc ngày: Monday, the third of March. Không nói 'start day'.",
+     "ex": "My start date is Monday, 2 March.",
+     "exm": "Ngày bắt đầu làm của tôi là thứ Hai, mùng 2 tháng 3.",
+     "n": "Đọc ngày: Monday, the second of March. Không nói 'start day'.",
      "img": "new",
      "spell": [
       "start day",
@@ -160,7 +160,7 @@
      "img": "work",
      "spell": [
       "walking hours",
-      "working ours"
+      "working horse"
      ]
     },
     {
@@ -172,7 +172,7 @@
      "n": "break = giờ nghỉ (coffee break: giờ nghỉ uống cà phê). Đừng viết brake (phanh xe).",
      "img": "kitchen",
      "spell": [
-      "lunch brake",
+      "lunch brek",
       "launch break"
      ]
     },
@@ -421,7 +421,7 @@
      }
     },
     {
-     "q": "Điền từ: Your ___ is Monday, 3 March. Please come at 8.30.",
+     "q": "Điền từ: Your ___ is Monday, 2 March. Please come at 8.30.",
      "opts": [
       "start date",
       "payslip",
@@ -524,7 +524,7 @@
      }
     },
     {
-     "q": "Điền từ: The team meeting ___ at ten every Monday.",
+     "q": "Điền từ: The team meeting ___ at ten every Wednesday.",
      "opts": [
       "is",
       "are",
@@ -607,15 +607,15 @@
     },
     {
      "q": "Ngày bắt đầu làm là ngày nào?",
-     "audio": "Your start date is Monday, the third of March.",
+     "audio": "Your start date is Monday, the second of March.",
      "opts": [
-      "thứ Hai, 3/3",
-      "thứ Hai, 13/3",
-      "thứ Ba, 3/3"
+      "thứ Hai, 2/3",
+      "thứ Hai, 12/3",
+      "thứ Ba, 2/3"
      ],
      "a": 0,
      "why": {
-      "1": "Sai: 13 là the thirteenth; câu nói the third (mùng 3).",
+      "1": "Sai: 12 là the twelfth; câu nói the second (mùng 2).",
       "2": "Sai: câu nói Monday (thứ Hai), không phải Tuesday."
      }
     },
@@ -829,8 +829,8 @@
    },
    "reading": {
     "title": "Email chào mừng của phòng nhân sự",
-    "text": "Subject: Welcome to Bright Star!\n\nDear An,\n\nWelcome to the team! Your start date is Monday, 3 March. Please come to HR on the second floor at 8.30. On Monday, you will fill in some forms and sign your contract. On Tuesday, Tom will show you the office. Please bring your passport and two photos. The lunch break is from 12 to 1, and the staff kitchen is on the third floor.\n\nBest wishes,\nHoa (HR)",
-    "vi": "Tiêu đề: Chào mừng em đến Bright Star!\n\nAn thân mến,\n\nChào mừng em gia nhập! Ngày bắt đầu làm của em là thứ Hai, mùng 3 tháng 3. Em lên phòng nhân sự ở tầng hai lúc 8:30 nhé. Thứ Hai em sẽ điền một số phiếu và ký hợp đồng. Thứ Ba Tom sẽ dẫn em đi xem văn phòng. Em nhớ mang hộ chiếu và hai ảnh. Nghỉ trưa từ 12 đến 1 giờ, bếp chung cho nhân viên ở tầng ba.\n\nThân,\nHoa (phòng nhân sự)",
+    "text": "Subject: Welcome to Bright Star!\n\nDear An,\n\nWelcome to the team! Your start date is Monday, 2 March. Please come to HR on the second floor at 8.30. On Monday, you will fill in some forms and sign your contract. On Tuesday, Tom will show you the office. Please bring your passport and two photos. The lunch break is from 12 to 1, and the staff kitchen is on the third floor.\n\nBest wishes,\nHoa (HR)",
+    "vi": "Tiêu đề: Chào mừng em đến Bright Star!\n\nAn thân mến,\n\nChào mừng em gia nhập! Ngày bắt đầu làm của em là thứ Hai, mùng 2 tháng 3. Em lên phòng nhân sự ở tầng hai lúc 8:30 nhé. Thứ Hai em sẽ điền một số phiếu và ký hợp đồng. Thứ Ba Tom sẽ dẫn em đi xem văn phòng. Em nhớ mang hộ chiếu và hai ảnh. Nghỉ trưa từ 12 đến 1 giờ, bếp chung cho nhân viên ở tầng ba.\n\nThân,\nHoa (phòng nhân sự)",
     "qs": [
      {
       "q": "8:30 sáng thứ Hai An phải đến đâu?",
@@ -970,7 +970,7 @@
    "write": {
     "task": "Điền phiếu thông tin nhân viên mới (6 ô) cho phòng nhân sự.",
     "kind": "form",
-    "source": "Thông tin của An: tên Nguyễn Thị An, sinh ngày 12 tháng 5 năm 2000, số điện thoại 0912 345 678, email an.nguyen@mail.com, chức danh trợ lý marketing, bắt đầu làm ngày 3 tháng 3 năm 2026.",
+    "source": "Thông tin của An: tên Nguyễn Thị An, sinh ngày 12 tháng 5 năm 1999, số điện thoại 0912 345 678, email an.nguyen@mail.com, chức danh trợ lý marketing, bắt đầu làm ngày 2 tháng 3 năm 2026.",
     "model": [
      [
       "Full name",
@@ -978,7 +978,7 @@
      ],
      [
       "Date of birth",
-      "12 May 2000"
+      "12 May 1999"
      ],
      [
       "Phone number",
@@ -994,7 +994,7 @@
      ],
      [
       "Start date",
-      "3 March 2026"
+      "2 March 2026"
      ]
     ],
     "frame": [
@@ -1025,11 +1025,11 @@
     ],
     "gaps": [
      "Nguyen Thi An",
-     "12 May 2000",
+     "12 May 1999",
      "0912 345 678",
      "an.nguyen@mail.com",
      "Marketing Assistant",
-     "3 March 2026"
+     "2 March 2026"
     ],
     "free": [
      true,
@@ -1040,13 +1040,13 @@
      true
     ],
     "hints": [
-     "Date of birth: ngày + tên tháng + năm, ví dụ 12 May 2000",
+     "Date of birth: ngày + tên tháng + năm, ví dụ 12 May 1999",
      "Job title: chức danh, viết hoa chữ cái đầu (Marketing Assistant)",
-     "Start date: ngày bắt đầu làm, ví dụ 3 March 2026"
+     "Start date: ngày bắt đầu làm, ví dụ 2 March 2026"
     ],
     "check": [
      "Đủ 6 ô",
-     "Ngày tháng viết theo kiểu 12 May 2000",
+     "Ngày tháng viết theo kiểu 12 May 1999",
      "Viết hoa họ tên, tên tháng và chức danh",
      "Email viết liền, không có dấu cách"
     ]
@@ -1065,7 +1065,7 @@
      "m": "tầng (nhà)",
      "ex": "The kitchen is on the third floor.",
      "exm": "Bếp ở tầng ba.",
-     "n": "Kiểu Anh: tầng trệt là the ground floor, tầng ngay trên là the first floor. Đọc 'phlo', o dài; flour (bột mì) đọc khác.",
+     "n": "Kiểu Anh: tầng trệt là the ground floor, the first floor là tầng ngay trên (ở miền Bắc gọi là tầng 2). Trong bài, 'tầng một, tầng hai…' dịch theo cách đếm kiểu Anh. Đọc 'phlo', o dài.",
      "img": "company",
      "spell": [
       "flor",
@@ -1172,7 +1172,7 @@
      "n": "Luôn có to: next to + nơi chốn. Âm t cuối next gần như nuốt: 'nếch-tơ'.",
      "spell": [
       "nex to",
-      "next too"
+      "nest to"
      ]
     },
     {
@@ -1825,7 +1825,7 @@
    "reading": {
     "title": "Sơ đồ tầng và nội quy bếp chung",
     "text": "BRIGHT STAR – FLOOR GUIDE\nGround floor: reception, staff lockers (opposite reception)\nFirst floor: Sales team, meeting room 1\nSecond floor: HR, Marketing team, meeting room 2, printer (next to meeting room 2)\nThird floor: staff kitchen\n\nKITCHEN RULES\nThe kitchen is open from 7.30 a.m. to 7 p.m. Please wash your cup after you use it. There is a fridge for staff, but please don't leave food in it on Friday evening.",
-    "vi": "BRIGHT STAR – SƠ ĐỒ CÁC TẦNG\nTầng trệt: quầy lễ tân, tủ đồ nhân viên (đối diện lễ tân)\nTầng một: nhóm Kinh doanh, phòng họp 1\nTầng hai: phòng Nhân sự, nhóm Marketing, phòng họp 2, máy in (cạnh phòng họp 2)\nTầng ba: bếp chung cho nhân viên\n\nNỘI QUY BẾP\nBếp mở cửa từ 7:30 sáng đến 7 giờ tối. Dùng cốc xong vui lòng rửa. Có tủ lạnh cho nhân viên, nhưng vui lòng không để đồ ăn trong tủ vào tối thứ Sáu.",
+    "vi": "BRIGHT STAR – SƠ ĐỒ CÁC TẦNG (đếm tầng kiểu Anh: tầng trệt = ground floor)\nTầng trệt: quầy lễ tân, tủ đồ nhân viên (đối diện lễ tân)\nTầng một: nhóm Kinh doanh, phòng họp 1\nTầng hai: phòng Nhân sự, nhóm Marketing, phòng họp 2, máy in (cạnh phòng họp 2)\nTầng ba: bếp chung cho nhân viên\n\nNỘI QUY BẾP\nBếp mở cửa từ 7:30 sáng đến 7 giờ tối. Dùng cốc xong vui lòng rửa. Có tủ lạnh cho nhân viên, nhưng vui lòng không để đồ ăn trong tủ vào tối thứ Sáu.",
     "qs": [
      {
       "q": "Tủ đồ nhân viên ở đâu?",
@@ -1862,7 +1862,7 @@
       ],
       "a": 0,
       "why": {
-       "1": "Sai: cạnh (đối diện) lễ tân là tủ đồ.",
+       "1": "Sai: đối diện lễ tân là tủ đồ, không phải máy in.",
        "2": "Sai: bài không nói có máy in trong bếp."
       }
      },
@@ -2011,7 +2011,7 @@
      "n": "ea đọc 'i' dài: 'thi-m'. on the team / in the team đều dùng được.",
      "img": "team",
      "spell": [
-      "teem",
+      "tame",
       "tiem"
      ]
     },
@@ -2024,7 +2024,7 @@
      "n": "Đọc giống roll (cuộn) nhưng nghĩa khác. Hỏi việc của ai: What's your role?",
      "img": "role",
      "spell": [
-      "roll",
+      "rule",
       "rool"
      ]
     },
@@ -2064,7 +2064,7 @@
      "img": "manager",
      "spell": [
       "repot to",
-      "report too"
+      "rapport to"
      ]
     },
     {
@@ -2152,7 +2152,7 @@
      "n": "every + danh từ số ít: every day, every Monday. Thường đứng cuối câu.",
      "img": "calendar",
      "spell": [
-      "every weak",
+      "every wick",
       "evry week"
      ]
     }
@@ -2357,7 +2357,7 @@
      }
     },
     {
-     "q": "Điền từ: We have a team meeting ___, on Monday at ten.",
+     "q": "Điền từ: We have a team meeting ___, on Wednesday at ten.",
      "opts": [
       "every week",
       "usually",
@@ -2569,16 +2569,16 @@
     },
     {
      "q": "Nhóm họp khi nào?",
-     "audio": "We have a team meeting every Monday at ten.",
+     "audio": "We have a team meeting every Wednesday at ten.",
      "opts": [
-      "10 giờ thứ Hai hằng tuần",
+      "10 giờ thứ Tư hằng tuần",
       "10 giờ mỗi ngày",
-      "chỉ thứ Hai tuần sau"
+      "chỉ thứ Tư tuần sau"
      ],
      "a": 0,
      "why": {
-      "1": "Sai: câu nói every Monday, không phải every day.",
-      "2": "Sai: every Monday là thứ Hai nào cũng họp, không chỉ tuần sau."
+      "1": "Sai: câu nói every Wednesday, không phải every day.",
+      "2": "Sai: every Wednesday là thứ Tư nào cũng họp, không chỉ tuần sau."
      }
     }
    ],
@@ -2641,7 +2641,7 @@
      }
     },
     {
-     "q": "TOEIC Part 5 – Chọn từ đúng: Our team ___ meets on Monday mornings.",
+     "q": "TOEIC Part 5 – Chọn từ đúng: Our team ___ meets on Wednesday mornings.",
      "opts": [
       "usually",
       "usual",
@@ -2747,17 +2747,17 @@
       "hint": "Việc tuần này: I'm + V-ing (helping you with customer emails)."
      },
      {
-      "ai": "Great! We usually have coffee at ten. Join us!",
-      "vi": "Tuyệt! Bọn chị thường uống cà phê lúc 10 giờ. Đi cùng nhé!",
-      "model": "Sure, see you at ten!",
+      "ai": "Great! We usually have coffee at three. Join us!",
+      "vi": "Tuyệt! Bọn chị thường uống cà phê lúc 3 giờ chiều. Đi cùng nhé!",
+      "model": "Sure, see you at three!",
       "accept": [
-       "Sure, see you at ten!",
-       "Sure! See you at ten.",
-       "Great, see you at ten!",
-       "OK, see you at ten!"
+       "Sure, see you at three!",
+       "Sure! See you at three.",
+       "Great, see you at three!",
+       "OK, see you at three!"
       ],
-      "frame": "Sure, see you ___ ten!",
-      "hint": "Nhận lời và hẹn giờ: See you at ten!"
+      "frame": "Sure, see you ___ three!",
+      "hint": "Nhận lời và hẹn giờ: See you at three!"
      }
     ]
    },
@@ -2845,8 +2845,8 @@
       "vi": "Mọi nhân viên phải đeo thẻ."
      },
      "qb": {
-      "t": "Please take your ___ out of the meeting room.",
-      "vi": "Vui lòng mang đồ của bạn ra khỏi phòng họp."
+      "t": "There's a lot of ___ on my desk.",
+      "vi": "Trên bàn tôi có nhiều đồ lặt vặt quá."
      }
     },
     {
@@ -2887,17 +2887,17 @@
      "a": "manager",
      "aipa": "/ˈmæn.ɪ.dʒər/",
      "am": "quản lý",
-     "b": "manger",
-     "bipa": "/ˈmeɪn.dʒər/",
-     "bm": "máng cỏ",
-     "note": "manager có ba âm tiết, có a ở giữa (man-a-ger). Gõ thiếu a thành manger (máng cỏ) là lỗi hay gặp, mà máy kiểm tra chính tả không bắt được.",
+     "b": "manage",
+     "bipa": "/ˈmæn.ɪdʒ/",
+     "bm": "quản lý, điều hành (động từ)",
+     "note": "manager là danh từ (người quản lý), có đuôi -er; manage là động từ (quản lý một việc), không có -r. Đọc: man-a-ger / man-age.",
      "qa": {
       "t": "Sarah is our ___.",
       "vi": "Sarah là quản lý của chúng tôi."
      },
      "qb": {
-      "t": "The animals eat from the ___ on the farm.",
-      "vi": "Gia súc ăn ở máng cỏ trong trang trại."
+      "t": "Can you ___ this project?",
+      "vi": "Bạn quản lý dự án này được không?"
      }
     }
    ],
@@ -3108,7 +3108,7 @@
    "scene": {
     "setting": "Sáng thứ Năm, An mở laptop mới nhưng không đăng nhập được. An gọi bộ phận IT, anh Dave nghe máy rồi hướng dẫn từng bước.",
     "img": "scene-en-it",
-    "imgPrompt": "An office desk: an, with a yellow lanyard, holds a phone to her ear and looks at a laptop showing a blank login screen; dave, in a black hoodie with a headset, leans in and points at the screen, no readable text.",
+    "imgPrompt": "An office desk: an, with a yellow lanyard, holds a phone to her ear and looks worried at a laptop showing a blank login screen, coffee cup and notebook on the desk, no readable text.",
     "lines": [
      {
       "who": "An",
@@ -3537,7 +3537,7 @@
    "hsk": [
     {
      "q": "TOEIC Part 1 – Nhìn tranh cảnh hôm nay, nghe ba câu A, B, C, chọn câu tả đúng tranh.",
-     "audio": "A. A man is helping a woman with her laptop. B. A woman is opening a window. C. Two people are carrying a printer.",
+     "audio": "A. A woman is talking on the phone at her desk. B. A woman is opening a window. C. Two people are carrying a printer.",
      "opts": [
       "A",
       "B",
@@ -3545,7 +3545,7 @@
      ],
      "a": 0,
      "why": {
-      "1": "Sai: trong tranh không ai mở cửa sổ.",
+      "1": "Sai: trong tranh An đang nghe điện thoại, không mở cửa sổ.",
       "2": "Sai: không ai đang khiêng máy in."
      }
     },
@@ -3921,7 +3921,7 @@
      "n": "Âm t cuối first gần như nuốt khi đứng trước week: 'phơ-xuy-k'.",
      "img": "calendar",
      "spell": [
-      "first weak",
+      "first wick",
       "firts week"
      ]
     },
@@ -3948,7 +3948,7 @@
      "img": "handshake",
      "spell": [
       "meat",
-      "met"
+      "meett"
      ]
     },
     {
@@ -3986,8 +3986,8 @@
      "n": "Không đếm được: some feedback (không nói a feedback / feedbacks). Nhấn FEED-back.",
      "img": "colleague",
      "spell": [
-      "feed back",
-      "fidback"
+      "fidback",
+      "feetback"
      ]
     },
     {
@@ -4013,14 +4013,14 @@
      "img": "calendar",
      "spell": [
       "nex week",
-      "next weak"
+      "next wick"
      ]
     },
     {
      "w": "training",
      "ipa": "/ˈtreɪ.nɪŋ/",
      "m": "khoá đào tạo, buổi tập huấn",
-     "ex": "The training is three days.",
+     "ex": "The training lasts three days.",
      "exm": "Khoá đào tạo kéo dài ba ngày.",
      "n": "Thường không đếm được: some training, a training course. tr- đọc liền 'trây'.",
      "img": "training",
@@ -4039,7 +4039,7 @@
      "img": "thanks",
      "spell": [
       "go wel",
-      "goes well"
+      "goe well"
      ]
     },
     {
@@ -4052,7 +4052,7 @@
      "img": "new",
      "spell": [
       "look foward to",
-      "look forward too"
+      "lock forward to"
      ]
     },
     {
@@ -4235,7 +4235,7 @@
      }
     },
     {
-     "q": "Điền từ: Next week I'm going to start my ___. It's three days.",
+     "q": "Điền từ: Next week I'm going to start my ___. It lasts three days.",
      "opts": [
       "training",
       "feedback",
@@ -4544,7 +4544,7 @@
      }
     },
     {
-     "q": "TOEIC Part 5 – Chọn từ đúng: An ___ the whole team last Wednesday.",
+     "q": "TOEIC Part 5 – Chọn từ đúng: An ___ the whole team on Wednesday.",
      "opts": [
       "met",
       "meets",
@@ -4553,9 +4553,9 @@
      ],
      "a": 0,
      "why": {
-      "1": "Sai: có last Wednesday nên dùng quá khứ.",
+      "1": "Sai: việc đã xảy ra (thứ Tư vừa rồi), nên dùng quá khứ met.",
       "2": "Sai: câu cần động từ chính; meeting đứng một mình không được.",
-      "3": "Sai: will meet là tương lai, mâu thuẫn với last Wednesday."
+      "3": "Sai: will meet là tương lai, nhưng hôm nay đã là thứ Sáu."
      }
     },
     {
@@ -4789,17 +4789,17 @@
      "a": "later",
      "aipa": "/ˈleɪ.tər/",
      "am": "lát nữa, sau đó",
-     "b": "latter",
-     "bipa": "/ˈlæt.ər/",
-     "bm": "cái sau (trong hai cái)",
-     "note": "later một chữ t, đọc 'lây-tơ'; latter hai chữ t, đọc 'le-tơ', hay gặp trong văn viết: the former… the latter….",
+     "b": "letter",
+     "bipa": "/ˈlet.ər/",
+     "bm": "lá thư; chữ cái",
+     "note": "later có một chữ t và a đọc 'ây' ('lây-tơ'); letter có hai chữ t và e đọc 'e' ('le-tơ').",
      "qa": {
       "t": "I'm busy now. Can I call you ___?",
       "vi": "Giờ tôi đang bận. Lát nữa tôi gọi lại được không?"
      },
      "qb": {
-      "t": "We have two plans. The ___ is cheaper.",
-      "vi": "Ta có hai phương án. Phương án sau rẻ hơn."
+      "t": "Please send a ___ to the customer.",
+      "vi": "Vui lòng gửi một lá thư cho khách hàng."
      }
     },
     {
@@ -4932,7 +4932,7 @@
   },
   {
    "key": "scene-en-it",
-   "prompt": "An office desk: an, with a yellow lanyard, holds a phone to her ear and looks at a laptop showing a blank login screen; dave, in a black hoodie with a headset, leans in and points at the screen, no readable text."
+   "prompt": "An office desk: an, with a yellow lanyard, holds a phone to her ear and looks worried at a laptop showing a blank login screen, coffee cup and notebook on the desk, no readable text."
   },
   {
    "key": "scene-en-friday",
