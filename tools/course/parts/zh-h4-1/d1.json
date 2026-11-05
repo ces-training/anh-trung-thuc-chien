@@ -1,0 +1,1393 @@
+{
+ "id": "h4-w1-thu-2",
+ "label": "Thứ 2",
+ "title": "Ở gian hàng: giới thiệu sản phẩm, xin hàng mẫu",
+ "desc": "Ngày đầu ở Hội chợ Quảng Châu: 阮安 (Ruǎn Ān) và 王丽 (Wáng Lì) ghé gian hàng cốc, bình nước văn phòng. Nhân viên 小刘 (Xiǎo Liú) giới thiệu sản phẩm; bạn hỏi đặc điểm, so sánh giá và xin hàng mẫu mang về cho 王经理 (Wáng jīnglǐ).",
+ "rule": "Nói hai điểm tốt: 不但 A，而且 B (búdàn… érqiě…: không những A mà còn B); hai vế cùng chủ ngữ thì chủ ngữ đứng trước 不但. So sánh: A 比 B + tính từ (+ 一点儿 / 多了); muốn nhấn mạnh dùng 更 (gèng), không dùng 很. Xin hàng mẫu: 你们能不能给我们几个样品？ (không thêm 吗).",
+ "cards": [
+  {
+   "w": "做生意",
+   "py": "zuò shēngyi",
+   "m": "làm ăn, buôn bán",
+   "mEn": "to do business",
+   "ex": "我们公司跟中国公司做生意已经十年了。",
+   "expy": "Wǒmen gōngsī gēn Zhōngguó gōngsī zuò shēngyi yǐjīng shí nián le.",
+   "exm": "Công ty chúng tôi làm ăn với các công ty Trung Quốc đã mười năm rồi.",
+   "exEn": "Our company has been doing business with Chinese companies for ten years.",
+   "n": "生意 (shēngyi) = việc làm ăn; 做生意 = làm ăn, buôn bán. Làm ăn với ai: 跟 + ai + 做生意. 意 trong 生意 đọc nhẹ: shēngyi.",
+   "img": "handshake"
+  },
+  {
+   "w": "产品",
+   "py": "chǎnpǐn",
+   "m": "sản phẩm",
+   "mEn": "product",
+   "ex": "这是我们公司今年的新产品。",
+   "expy": "Zhè shì wǒmen gōngsī jīnnián de xīn chǎnpǐn.",
+   "exm": "Đây là sản phẩm mới năm nay của công ty chúng tôi.",
+   "exEn": "This is our company's new product this year.",
+   "n": "Hán Việt 'sản phẩm', nghĩa giống tiếng Việt. Trang trọng hơn 东西 (dōngxi, đồ). Hai thanh 3 liền nhau: 产 đọc gần như chán, 品 giữ thanh 3."
+  },
+  {
+   "w": "质量",
+   "py": "zhìliàng",
+   "m": "chất lượng",
+   "mEn": "quality",
+   "ex": "这种杯子的质量非常好，用了三年还像新的一样。",
+   "expy": "Zhè zhǒng bēizi de zhìliàng fēicháng hǎo, yòng le sān nián hái xiàng xīn de yíyàng.",
+   "exm": "Loại cốc này chất lượng rất tốt, dùng ba năm rồi vẫn như mới.",
+   "exEn": "These cups are of excellent quality; after three years they still look new.",
+   "n": "Hán Việt 'chất lượng'. Nói chất lượng tốt: 质量好 hoặc 质量很高; không nói 质量很贵. zh cong lưỡi; 量 đọc liàng, thanh 4."
+  },
+  {
+   "w": "价格",
+   "py": "jiàgé",
+   "m": "giá cả",
+   "mEn": "price",
+   "ex": "我们的价格比别的公司低一点儿。",
+   "expy": "Wǒmen de jiàgé bǐ bié de gōngsī dī yìdiǎnr.",
+   "exm": "Giá của chúng tôi thấp hơn các công ty khác một chút.",
+   "exEn": "Our prices are a little lower than other companies'.",
+   "n": "价格 đi với 高 / 低 (giá cao / thấp): 价格很低. Hỏi nhanh vẫn nói 多少钱？ (duōshao qián); 价格 trang trọng hơn, dùng khi bàn chuyện làm ăn."
+  },
+  {
+   "w": "样品",
+   "py": "yàngpǐn",
+   "m": "hàng mẫu",
+   "mEn": "sample",
+   "ex": "我们可以带几个样品回去给经理看看吗？",
+   "expy": "Wǒmen kěyǐ dài jǐ ge yàngpǐn huíqù gěi jīnglǐ kànkan ma?",
+   "exm": "Chúng tôi có thể mang vài cái hàng mẫu về cho quản lý xem không?",
+   "exEn": "Could we take a few samples back for our manager to look at?",
+   "n": "样 = mẫu, kiểu; 品 = hàng: 样品 = hàng mẫu. Đừng nhầm với 样子 (yàngzi, hình dáng). Mang mẫu về: 带 + 样品 + 回去."
+  },
+  {
+   "w": "技术",
+   "py": "jìshù",
+   "m": "công nghệ, kỹ thuật",
+   "mEn": "technology, technique",
+   "ex": "这种水杯用了新技术，放了热水六个小时以后，水还是热的。",
+   "expy": "Zhè zhǒng shuǐbēi yòng le xīn jìshù, fàng le rè shuǐ liù ge xiǎoshí yǐhòu, shuǐ háishi rè de.",
+   "exm": "Loại bình nước này dùng công nghệ mới, rót nước nóng vào sáu tiếng sau nước vẫn còn nóng.",
+   "exEn": "This water bottle uses new technology: six hours after you pour in hot water, it's still hot.",
+   "n": "Hán Việt 'kỹ thuật'; trong làm ăn hay dịch là 'công nghệ': 新技术 = công nghệ mới. 术 đọc shù: sh cong lưỡi, thanh 4."
+  },
+  {
+   "w": "特点",
+   "py": "tèdiǎn",
+   "m": "đặc điểm",
+   "mEn": "feature, characteristic",
+   "ex": "这种杯子的特点是很轻，带着很方便。",
+   "expy": "Zhè zhǒng bēizi de tèdiǎn shì hěn qīng, dàizhe hěn fāngbiàn.",
+   "exm": "Đặc điểm của loại cốc này là rất nhẹ, mang theo rất tiện.",
+   "exEn": "The key feature of this cup is that it's very light and easy to carry.",
+   "n": "Hán Việt 'đặc điểm'. Mẫu hay dùng: A 的特点是… (đặc điểm của A là…). 特点 là nét riêng, tốt hay không tốt đều được; điểm tốt thì dùng 优点."
+  },
+  {
+   "w": "优点",
+   "py": "yōudiǎn",
+   "m": "ưu điểm",
+   "mEn": "advantage, strength",
+   "ex": "这种杯子最大的优点是容易洗。",
+   "expy": "Zhè zhǒng bēizi zuì dà de yōudiǎn shì róngyì xǐ.",
+   "exm": "Ưu điểm lớn nhất của loại cốc này là dễ rửa.",
+   "exEn": "The biggest advantage of this cup is that it's easy to wash.",
+   "n": "Hán Việt 'ưu điểm', luôn là điểm TỐT. Mẫu: 最大的优点是… (ưu điểm lớn nhất là…). yōu giữ cao đều, diǎn xuống thấp."
+  },
+  {
+   "w": "适合",
+   "py": "shìhé",
+   "m": "phù hợp với, hợp với",
+   "mEn": "to suit, to be suitable for",
+   "ex": "这种杯子很适合在办公室用。",
+   "expy": "Zhè zhǒng bēizi hěn shìhé zài bàngōngshì yòng.",
+   "exm": "Loại cốc này rất hợp để dùng ở văn phòng.",
+   "exEn": "This kind of cup is ideal for use in the office.",
+   "n": "Hán Việt 'thích hợp'. 适合 là động từ, đi thẳng với tân ngữ: 适合年轻人 (hợp với người trẻ), 适合在办公室用. sh cong lưỡi, hé đi lên."
+  },
+  {
+   "w": "顾客",
+   "py": "gùkè",
+   "m": "khách hàng (người mua)",
+   "mEn": "customer",
+   "ex": "我们的顾客主要是在办公室工作的年轻人。",
+   "expy": "Wǒmen de gùkè zhǔyào shì zài bàngōngshì gōngzuò de niánqīng rén.",
+   "exm": "Khách hàng của chúng tôi chủ yếu là người trẻ làm việc ở văn phòng.",
+   "exEn": "Our customers are mainly young people who work in offices.",
+   "n": "顾客 = người mua hàng của cửa hàng, công ty. 客人 (kèrén) = khách đến nhà, khách mời. Hai thanh 4: gù và kè đều rơi dứt khoát; k bật hơi.",
+   "img": "sales"
+  },
+  {
+   "w": "提供",
+   "py": "tígōng",
+   "m": "cung cấp",
+   "mEn": "to provide, to offer",
+   "ex": "我们可以为顾客提供样品。",
+   "expy": "Wǒmen kěyǐ wèi gùkè tígōng yàngpǐn.",
+   "exm": "Chúng tôi có thể cung cấp hàng mẫu cho khách hàng.",
+   "exEn": "We can provide samples for customers.",
+   "n": "Hán Việt 'đề cung', nghĩa là CUNG CẤP. Hai cách nói: 为 + ai + 提供 + thứ gì, hoặc 提供 + thứ gì + 给 + ai. Sau 提供 là thứ được cung cấp (样品, 机会…), không phải người."
+  }
+ ],
+ "scene": {
+  "setting": "Sáng thứ Hai, ngày đầu của Hội chợ Quảng Châu (广州 Guǎngzhōu). 阮安 (Ruǎn Ān) và 王丽 (Wáng Lì) dừng lại ở gian hàng cốc và bình nước văn phòng của công ty do 陈总 (Chén zǒng) làm giám đốc. Nhân viên bán hàng 小刘 (Xiǎo Liú) nhiệt tình giới thiệu sản phẩm.",
+  "img": "scene-zh-fair-d1",
+  "imgPrompt": "Realistic photo of a busy trade fair hall in Guangzhou; a bright exhibition booth with shelves of colourful office cups and stainless steel water bottles; xiaoliu (Chinese woman about 25, ponytail, white shirt with a company lanyard) holds up a water bottle and smiles while explaining; an (Vietnamese woman about 26, shoulder-length black bob, cobalt blue blouse, dark blazer) takes notes, and wangli (Chinese woman about 26, high ponytail, red knit sweater) holds a cup and looks at it closely; other visitors in the background, no readable text",
+  "lines": [
+   {
+    "who": "小刘",
+    "t": "你们好！欢迎来我们这儿看看，这些都是我们公司今年的新产品。",
+    "py": "Nǐmen hǎo! Huānyíng lái wǒmen zhèr kànkan, zhèxiē dōu shì wǒmen gōngsī jīnnián de xīn chǎnpǐn.",
+    "vi": "Chào hai chị! Mời các chị ghé xem, đây đều là sản phẩm mới năm nay của công ty em.",
+    "en": "Hello! Welcome, please have a look. These are all our company's new products this year."
+   },
+   {
+    "who": "阮安",
+    "t": "你好！我们是从越南来的，想找一些质量好、价格不太高的杯子。",
+    "py": "Nǐ hǎo! Wǒmen shì cóng Yuènán lái de, xiǎng zhǎo yìxiē zhìliàng hǎo, jiàgé bú tài gāo de bēizi.",
+    "vi": "Chào bạn! Chúng tôi từ Việt Nam sang, muốn tìm một số loại cốc chất lượng tốt mà giá không quá cao.",
+    "en": "Hi! We're from Vietnam, looking for good-quality cups that aren't too expensive."
+   },
+   {
+    "who": "小刘",
+    "t": "那您看看这种水杯。它不但很轻，而且用了新技术，放了热水六个小时以后还是热的。",
+    "py": "Nà nín kànkan zhè zhǒng shuǐbēi. Tā búdàn hěn qīng, érqiě yòng le xīn jìshù, fàng le rè shuǐ liù ge xiǎoshí yǐhòu háishi rè de.",
+    "vi": "Vậy chị xem thử loại bình nước này. Nó không những rất nhẹ mà còn dùng công nghệ mới, rót nước nóng vào sáu tiếng sau vẫn còn nóng.",
+    "en": "Then take a look at this water bottle. Not only is it very light, it also uses new technology: hot water is still hot six hours later."
+   },
+   {
+    "who": "王丽",
+    "t": "这个特点很好。冬天在办公室，大家都想喝热水。",
+    "py": "Zhège tèdiǎn hěn hǎo. Dōngtiān zài bàngōngshì, dàjiā dōu xiǎng hē rè shuǐ.",
+    "vi": "Đặc điểm này hay đấy. Mùa đông ở văn phòng, ai cũng muốn uống nước nóng.",
+    "en": "That's a great feature. In winter everyone in the office wants hot water."
+   },
+   {
+    "who": "阮安",
+    "t": "这种比那种贵多少？",
+    "py": "Zhè zhǒng bǐ nà zhǒng guì duōshao?",
+    "vi": "Loại này đắt hơn loại kia bao nhiêu?",
+    "en": "How much more does this one cost than that one?"
+   },
+   {
+    "who": "小刘",
+    "t": "只贵五块，但是质量比那种好多了。",
+    "py": "Zhǐ guì wǔ kuài, dànshì zhìliàng bǐ nà zhǒng hǎo duō le.",
+    "vi": "Chỉ đắt hơn năm tệ thôi, nhưng chất lượng tốt hơn loại kia nhiều.",
+    "en": "Only five yuan more, but the quality is much better."
+   },
+   {
+    "who": "王丽",
+    "t": "我们的顾客很多是年轻人，他们更喜欢颜色漂亮的。",
+    "py": "Wǒmen de gùkè hěn duō shì niánqīng rén, tāmen gèng xǐhuan yánsè piàoliang de.",
+    "vi": "Khách hàng của chúng tôi phần lớn là người trẻ, họ thích loại có màu đẹp hơn.",
+    "en": "Many of our customers are young people; they prefer nicely coloured ones."
+   },
+   {
+    "who": "小刘",
+    "t": "没问题，这种有十二种颜色，很适合年轻人。我们还可以为你们提供样品。",
+    "py": "Méi wèntí, zhè zhǒng yǒu shí'èr zhǒng yánsè, hěn shìhé niánqīng rén. Wǒmen hái kěyǐ wèi nǐmen tígōng yàngpǐn.",
+    "vi": "Không vấn đề gì, loại này có mười hai màu, rất hợp với người trẻ. Bên em còn có thể cung cấp hàng mẫu cho các chị.",
+    "en": "No problem, this one comes in twelve colours, perfect for young people. We can also provide samples for you."
+   },
+   {
+    "who": "阮安",
+    "t": "太好了！我们可以带几个样品回去，给王经理看看吗？",
+    "py": "Tài hǎo le! Wǒmen kěyǐ dài jǐ ge yàngpǐn huíqù, gěi Wáng jīnglǐ kànkan ma?",
+    "vi": "Tốt quá! Chúng tôi có thể mang vài cái mẫu về cho quản lý Vương xem không?",
+    "en": "Great! Could we take a few samples back to show our manager, Mr Wang?"
+   },
+   {
+    "who": "小刘",
+    "t": "当然可以！明天陈总也来，他很想跟越南的公司做生意。",
+    "py": "Dāngrán kěyǐ! Míngtiān Chén zǒng yě lái, tā hěn xiǎng gēn Yuènán de gōngsī zuò shēngyi.",
+    "vi": "Tất nhiên được ạ! Mai giám đốc Trần cũng đến, anh ấy rất muốn làm ăn với các công ty Việt Nam.",
+    "en": "Of course! Mr Chen, our boss, is coming tomorrow too; he's very keen to do business with Vietnamese companies."
+   }
+  ]
+ },
+ "patterns": [
+  {
+   "t": "Không những… mà còn…: 不但 A，而且 B",
+   "f": [
+    [
+     "它",
+     "不但",
+     "很轻，",
+     "而且",
+     "很好看"
+    ],
+    [
+     "我们的产品",
+     "不但",
+     "质量好，",
+     "而且",
+     "价格低"
+    ]
+   ],
+   "ex": [
+    [
+     "这种水杯不但很轻，而且很好看。",
+     "Loại bình nước này không những nhẹ mà còn đẹp.",
+     "This water bottle is not only light but also good-looking."
+    ],
+    [
+     "我们的产品不但质量好，而且价格低。",
+     "Sản phẩm của chúng tôi không những chất lượng tốt mà giá còn thấp.",
+     "Our products are not only high quality but also low-priced."
+    ]
+   ],
+   "bad": "不但这种水杯很轻，而且很好看。",
+   "good": "这种水杯不但很轻，而且很好看。",
+   "why": "Hai vế cùng một chủ ngữ (这种水杯) thì chủ ngữ đứng TRƯỚC 不但 (búdàn). Chỉ khi hai vế có hai chủ ngữ khác nhau mới đặt 不但 lên đầu câu: 不但价格低，而且质量也好."
+  },
+  {
+   "t": "So sánh hơn: A 比 B + tính từ (+ 一点儿 / 多了)",
+   "f": [
+    [
+     "这种",
+     "比",
+     "那种",
+     "轻一点儿"
+    ],
+    [
+     "质量",
+     "比",
+     "去年的",
+     "好多了"
+    ]
+   ],
+   "ex": [
+    [
+     "这种杯子比那种轻一点儿。",
+     "Loại cốc này nhẹ hơn loại kia một chút.",
+     "This cup is a little lighter than that one."
+    ],
+    [
+     "新产品的质量比去年的好多了。",
+     "Chất lượng sản phẩm mới tốt hơn của năm ngoái nhiều.",
+     "The new product's quality is much better than last year's."
+    ]
+   ],
+   "bad": "这种杯子比那种很轻。",
+   "good": "这种杯子比那种更轻。",
+   "why": "Trong câu 比 (bǐ) không dùng 很 (hěn) hay 非常 (fēicháng) trước tính từ. Muốn nhấn mạnh thì dùng 更 (gèng, hơn nữa), hoặc nói mức chênh sau tính từ: 轻一点儿 (nhẹ hơn một chút), 轻多了 (nhẹ hơn nhiều)."
+  },
+  {
+   "t": "Xin lịch sự: 能不能 + V + …？ (xin hàng mẫu)",
+   "f": [
+    [
+     "你们",
+     "能不能",
+     "给我们",
+     "几个样品？"
+    ],
+    [
+     "我们",
+     "能不能",
+     "带样品",
+     "回去？"
+    ]
+   ],
+   "ex": [
+    [
+     "你们能不能给我们几个样品？",
+     "Các bạn có thể cho chúng tôi vài cái hàng mẫu được không?",
+     "Could you give us a few samples?"
+    ],
+    [
+     "我们能不能带样品回去？",
+     "Chúng tôi mang hàng mẫu về được không?",
+     "Can we take the samples back with us?"
+    ]
+   ],
+   "bad": "你们能不能给我们几个样品吗？",
+   "good": "你们能不能给我们几个样品？",
+   "why": "能不能 (néng bu néng) đã là câu hỏi (khẳng định + phủ định), nên cuối câu không thêm 吗 (ma). Muốn dùng 吗 thì nói: 你们能给我们几个样品吗？"
+  }
+ ],
+ "vocab": [
+  {
+   "q": "顾客 (gùkè) nghĩa là gì?",
+   "opts": [
+    "khách hàng (người mua)",
+    "khách mời đến nhà",
+    "nhân viên bán hàng"
+   ],
+   "optsEn": [
+    "customer",
+    "house guest",
+    "salesperson"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Khách mời đến nhà là 客人 (kèrén). 顾客 là người mua hàng của cửa hàng, công ty.",
+    "2": "Nhân viên bán hàng là người giới thiệu sản phẩm, như 小刘 (Xiǎo Liú). 顾客 là người MUA."
+   }
+  },
+  {
+   "q": "Điền từ: 这种杯子的___是很轻，带着很方便。(Zhè zhǒng bēizi de ___ shì hěn qīng, dàizhe hěn fāngbiàn.)",
+   "opts": [
+    "特点",
+    "技术",
+    "顾客"
+   ],
+   "a": 0,
+   "why": {
+    "1": "技术 (jìshù) = công nghệ; 'công nghệ của cốc là rất nhẹ' không hợp. Câu nói nét riêng của chiếc cốc nên dùng 特点 (tèdiǎn).",
+    "2": "顾客 (gùkè) = khách hàng; 'khách hàng của cốc là rất nhẹ' không có nghĩa."
+   }
+  },
+  {
+   "q": "⚠ Bẫy Hán–Việt: 提供 (tígōng), Hán Việt 'đề cung'. Trong câu 我们可以为顾客提供样品 (Wǒmen kěyǐ wèi gùkè tígōng yàngpǐn), 提供 nghĩa là gì?",
+   "opts": [
+    "cung cấp",
+    "đề nghị",
+    "cung kính"
+   ],
+   "optsEn": [
+    "to provide",
+    "to suggest",
+    "respectful"
+   ],
+   "a": 0,
+   "why": {
+    "1": "'Đề nghị' chỉ giống âm 'đề'. Câu nói công ty đưa hàng mẫu cho khách: 提供样品 = cung cấp hàng mẫu.",
+    "2": "'Cung kính' chỉ giống âm 'cung'. Sau 提供 là thứ được đưa cho người khác (样品), nên nghĩa là cung cấp."
+   }
+  },
+  {
+   "q": "Điền từ: 这种杯子很___在办公室用。(Zhè zhǒng bēizi hěn ___ zài bàngōngshì yòng.)",
+   "opts": [
+    "适合",
+    "特点",
+    "提供"
+   ],
+   "a": 0,
+   "why": {
+    "1": "特点 (tèdiǎn) là danh từ 'đặc điểm', không đứng sau 很 để nối với 在办公室用.",
+    "2": "提供 (tígōng) = cung cấp; 'cốc rất cung cấp dùng ở văn phòng' không có nghĩa. Câu muốn nói 'rất hợp để dùng ở văn phòng'."
+   }
+  },
+  {
+   "q": "Điền từ: 我们公司跟中国公司___已经十年了。(Wǒmen gōngsī gēn Zhōngguó gōngsī ___ yǐjīng shí nián le.)",
+   "opts": [
+    "做生意",
+    "提供",
+    "适合"
+   ],
+   "a": 0,
+   "why": {
+    "1": "提供 (tígōng) cần tân ngữ là thứ được cung cấp (提供样品); ở đây không có tân ngữ, và 跟…提供 không đi với nhau.",
+    "2": "适合 (shìhé) = phù hợp với; câu nói 'làm ăn với công ty Trung Quốc mười năm', nên cần 做生意 (zuò shēngyi)."
+   }
+  },
+  {
+   "q": "Điền từ: 这种水杯用了新___，放了热水六个小时以后还是热的。(Zhè zhǒng shuǐbēi yòng le xīn ___, fàng le rè shuǐ liù ge xiǎoshí yǐhòu háishi rè de.)",
+   "opts": [
+    "技术",
+    "价格",
+    "样品"
+   ],
+   "a": 0,
+   "why": {
+    "1": "价格 (jiàgé) = giá; 'dùng giá mới' nên nước nóng lâu là không hợp lý.",
+    "2": "样品 (yàngpǐn) = hàng mẫu. Giữ nước nóng sáu tiếng là nhờ công nghệ (技术 jìshù), không phải nhờ hàng mẫu."
+   }
+  },
+  {
+   "q": "Điền từ: 这种杯子的___非常好，用了三年还像新的一样。(Zhè zhǒng bēizi de ___ fēicháng hǎo, yòng le sān nián hái xiàng xīn de yíyàng.)",
+   "opts": [
+    "质量",
+    "价格",
+    "顾客"
+   ],
+   "a": 0,
+   "why": {
+    "1": "价格 (jiàgé) = giá; vế sau 'dùng ba năm vẫn như mới' nói về độ bền, tức là chất lượng (质量 zhìliàng), không phải giá.",
+    "2": "顾客 (gùkè) = khách hàng, không liên quan đến việc chiếc cốc bền."
+   }
+  },
+  {
+   "q": "样品 (yàngpǐn) nghĩa là gì?",
+   "opts": [
+    "hàng mẫu",
+    "kiểu dáng",
+    "sản phẩm bán chạy"
+   ],
+   "optsEn": [
+    "sample",
+    "style, look",
+    "best-selling product"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Kiểu dáng, hình dáng là 样子 (yàngzi). 样品 có 品 = hàng: hàng mẫu.",
+    "2": "Sản phẩm nói chung là 产品 (chǎnpǐn). 样品 là hàng mẫu để khách xem, thử trước khi mua."
+   }
+  }
+ ],
+ "grammar": [
+  {
+   "q": "Câu nào đúng?",
+   "opts": [
+    "这种杯子不但很轻，而且很好看。",
+    "不但这种杯子很轻，而且很好看。",
+    "这种杯子不但很轻，但是很好看。"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Hai vế cùng chủ ngữ 这种杯子 (zhè zhǒng bēizi), nên chủ ngữ phải đứng TRƯỚC 不但.",
+    "2": "不但 (búdàn) đi với 而且 (érqiě, mà còn), không đi với 但是 (dànshì, nhưng); 但是 dùng cho ý trái ngược."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Điền từ: 这种水杯不但质量好，___价格也不高。(Zhè zhǒng shuǐbēi búdàn zhìliàng hǎo, ___ jiàgé yě bù gāo.)",
+   "model": "而且",
+   "accept": [
+    "而且",
+    "erqie"
+   ],
+   "why": "不但 A，而且 B: vế sau dùng 而且 (érqiě), thường thêm 也 (yě) hoặc 还 (hái) cho tự nhiên."
+  },
+  {
+   "q": "Điền từ: 这种杯子比那种___。(Loại cốc này nhẹ hơn loại kia nhiều.)",
+   "opts": [
+    "轻多了",
+    "很轻",
+    "非常轻"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Trong câu 比 (bǐ) không dùng 很 (hěn) trước tính từ.",
+    "2": "Trong câu 比 cũng không dùng 非常 (fēicháng). Muốn nói 'hơn nhiều' thì đặt 多了 sau tính từ: 轻多了."
+   }
+  },
+  {
+   "q": "Câu nào nghĩa là 'Giá của chúng tôi không cao bằng giá của họ'?",
+   "opts": [
+    "我们的价格没有他们的高。",
+    "我们的价格比他们的不高。",
+    "我们的价格比他们的很高。"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Phủ định của câu 比 thường dùng 没有 (méiyǒu): A 没有 B + tính từ. Không đặt 不 trước tính từ sau 比 như 比他们的不高.",
+    "2": "Câu này dùng 很 trong câu 比 (không đúng), và nghĩa lại là 'cao hơn', ngược với câu cần dịch."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Sắp xếp thành câu: 样品 / 能不能 / 给我们 / 你们 (Các bạn cho chúng tôi hàng mẫu được không?)",
+   "model": "你们能不能给我们样品？",
+   "accept": [
+    "你们能不能给我们样品？",
+    "你们能不能给我们样品",
+    "nimennengbunenggeiwomenyangpin"
+   ],
+   "why": "Chủ ngữ 你们 + 能不能 + động từ 给 + 我们 + 样品. Câu hỏi 能不能 không thêm 吗 (ma) ở cuối."
+  },
+  {
+   "q": "Câu nào đúng?",
+   "opts": [
+    "我们可以为顾客提供样品。",
+    "我们可以提供顾客样品。",
+    "我们可以为顾客提供。"
+   ],
+   "a": 0,
+   "why": {
+    "1": "提供 (tígōng) không đi với hai tân ngữ liền nhau như 给 (gěi). Nói 为顾客提供样品 hoặc 提供样品给顾客.",
+    "2": "Câu thiếu thứ được cung cấp: sau 提供 cần một danh từ như 样品 (yàngpǐn)."
+   }
+  },
+  {
+   "q": "Điền từ: 喜欢这种水杯的顾客___多。(Khách hàng thích loại bình nước này ngày càng nhiều.)",
+   "opts": [
+    "越来越",
+    "比",
+    "更"
+   ],
+   "a": 0,
+   "why": {
+    "1": "比 (bǐ) cần hai thứ để so sánh (A 比 B); câu này không có B.",
+    "2": "更多 (gèng duō, nhiều hơn) đúng ngữ pháp nhưng không có nghĩa 'ngày càng'. 'Ngày càng nhiều' là 越来越多 (yuè lái yuè duō)."
+   }
+  }
+ ],
+ "listen": [
+  {
+   "q": "Loại bình này giữ nước nóng được bao lâu?",
+   "audio": "这种水杯放了热水，能热多长时间？——六个小时。",
+   "opts": [
+    "6 tiếng",
+    "2 tiếng",
+    "16 tiếng"
+   ],
+   "optsEn": [
+    "6 hours",
+    "2 hours",
+    "16 hours"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Hai tiếng là 两个小时 (liǎng ge xiǎoshí); câu trả lời là 六个小时 (liù ge xiǎoshí).",
+    "2": "Mười sáu là 十六 (shíliù); câu trả lời chỉ có 六 (liù)."
+   }
+  },
+  {
+   "q": "Loại này đắt hơn loại kia bao nhiêu?",
+   "audio": "这种比那种贵多少？——只贵五块。",
+   "opts": [
+    "5 tệ",
+    "15 tệ",
+    "50 tệ"
+   ],
+   "optsEn": [
+    "5 yuan",
+    "15 yuan",
+    "50 yuan"
+   ],
+   "a": 0,
+   "why": {
+    "1": "15 là 十五 (shíwǔ); câu trả lời là 五块 (wǔ kuài).",
+    "2": "50 là 五十 (wǔshí). Câu trả lời 只贵五块 = chỉ đắt hơn 5 tệ."
+   }
+  },
+  {
+   "q": "Khách hàng của công ty chủ yếu là ai?",
+   "audio": "你们的顾客主要是什么人？——主要是在办公室工作的年轻人。",
+   "opts": [
+    "người trẻ làm văn phòng",
+    "học sinh, sinh viên",
+    "người lớn tuổi"
+   ],
+   "optsEn": [
+    "young office workers",
+    "students",
+    "older people"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Không nghe thấy 学生 (xuésheng); câu trả lời là 年轻人 (niánqīng rén, người trẻ).",
+    "2": "年轻人 là người trẻ, ngược với người lớn tuổi (老人 lǎorén)."
+   }
+  },
+  {
+   "q": "Ưu điểm lớn nhất của sản phẩm là gì?",
+   "audio": "它最大的优点是什么？——很容易洗，用热水洗一下就干净了。",
+   "opts": [
+    "dễ rửa",
+    "rất nhẹ",
+    "giá rẻ"
+   ],
+   "optsEn": [
+    "easy to wash",
+    "very light",
+    "cheap"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Không nghe thấy 轻 (qīng, nhẹ); ưu điểm được nói là 容易洗 (róngyì xǐ, dễ rửa).",
+    "2": "Đoạn hội thoại không nói về giá (价格 jiàgé)."
+   }
+  },
+  {
+   "q": "Người hỏi muốn làm gì?",
+   "audio": "我们能不能带几个样品回去？——当然可以，这些都送给你们。",
+   "opts": [
+    "mang vài cái hàng mẫu về",
+    "mua hai nghìn cái",
+    "gặp giám đốc Trần"
+   ],
+   "optsEn": [
+    "take a few samples back",
+    "buy two thousand",
+    "meet Mr Chen"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Không nghe thấy 两千 (liǎngqiān, hai nghìn); người hỏi chỉ xin 几个样品 (vài cái mẫu).",
+    "2": "Đoạn hội thoại không nhắc đến 陈总 (Chén zǒng)."
+   }
+  },
+  {
+   "q": "Câu nói gì về loại cốc này?",
+   "audio": "这种杯子有十二种颜色，很适合年轻人。",
+   "opts": [
+    "có nhiều màu, hợp với người trẻ",
+    "rất rẻ, hợp với học sinh",
+    "rất to, hợp với văn phòng"
+   ],
+   "optsEn": [
+    "many colours, good for young people",
+    "very cheap, good for students",
+    "very big, good for offices"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Câu không nói giá rẻ, cũng không nhắc 学生 (xuésheng); câu nói 很适合年轻人 (rất hợp với người trẻ).",
+    "2": "Câu không nói cốc to; lý do hợp với người trẻ là 十二种颜色 (12 màu)."
+   }
+  },
+  {
+   "q": "Ngày mai ai sẽ đến gian hàng?",
+   "audio": "明天陈总也来，他很想跟越南的公司做生意。",
+   "opts": [
+    "giám đốc Trần",
+    "quản lý Vương",
+    "Vương Lệ"
+   ],
+   "optsEn": [
+    "Mr Chen",
+    "Mr Wang, the manager",
+    "Wang Li"
+   ],
+   "a": 0,
+   "why": {
+    "1": "王经理 (Wáng jīnglǐ) đang ở Hà Nội; câu nói 陈总也来 (giám đốc Trần cũng đến).",
+    "2": "王丽 (Wáng Lì) đã ở hội chợ cùng 阮安 rồi; người ngày mai đến là 陈总 (Chén zǒng)."
+   }
+  }
+ ],
+ "hsk": [
+  {
+   "q": "HSK4 听力 · Phần 1, đúng hay sai: ★ 这种杯子比那种便宜。",
+   "audio": "这种杯子虽然比那种贵一点儿，但是质量好多了，用了三年还像新的一样。",
+   "opts": [
+    "对",
+    "错"
+   ],
+   "a": 1,
+   "why": {
+    "0": "Bài nghe nói 比那种贵一点儿 (đắt hơn loại kia một chút), không phải rẻ hơn (便宜), nên câu ★ sai."
+   }
+  },
+  {
+   "q": "HSK4 听力 · Phần 2, hội thoại ngắn: 男的公司的顾客主要是谁？",
+   "audio": "女：你们的产品主要卖给谁？男：主要卖给公司，很多公司买我们的杯子给员工用。问：男的公司的顾客主要是谁？",
+   "opts": [
+    "公司",
+    "学生",
+    "商店"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe không nhắc 学生 (xuésheng, học sinh).",
+    "2": "Không nghe thấy 商店 (shāngdiàn, cửa hàng); người nam nói 主要卖给公司 (chủ yếu bán cho công ty)."
+   }
+  },
+  {
+   "q": "HSK4 Đọc · Phần 1, chọn từ điền vào chỗ trống: 我们公司可以为顾客（　）样品，不要钱。",
+   "opts": [
+    "提供",
+    "适合",
+    "特点",
+    "做生意"
+   ],
+   "a": 0,
+   "why": {
+    "1": "适合 (shìhé) = phù hợp với; 'phù hợp với hàng mẫu cho khách' không có nghĩa.",
+    "2": "特点 (tèdiǎn) là danh từ, không làm động từ trong câu.",
+    "3": "做生意 (zuò shēngyi) đã có tân ngữ riêng (生意), không thêm 样品 phía sau."
+   }
+  },
+  {
+   "q": "HSK4 Đọc · Phần 1, chọn từ điền vào chỗ trống: 这种水杯最大的（　）是很轻，放在包里一点儿也不重。",
+   "opts": [
+    "优点",
+    "价格",
+    "顾客",
+    "样品"
+   ],
+   "a": 0,
+   "why": {
+    "1": "价格 (jiàgé, giá) không thể 'rất nhẹ'.",
+    "2": "顾客 (gùkè, khách hàng) không phải tính chất của bình nước.",
+    "3": "样品 (yàngpǐn) là chiếc bình mẫu, không phải điểm tốt của nó; 最大的样品 không hợp nghĩa câu."
+   }
+  },
+  {
+   "k": "order",
+   "q": "HSK4 书写 · 完成句子: xếp các từ thành câu",
+   "tokens": [
+    "我们的价格",
+    "比",
+    "别的公司",
+    "低",
+    "一点儿"
+   ],
+   "explain": "Câu so sánh: A (我们的价格) + 比 + B (别的公司) + tính từ (低) + mức chênh (一点儿). 一点儿 luôn đứng SAU tính từ.",
+   "vi": "Giá của chúng tôi thấp hơn các công ty khác một chút.",
+   "en": "Our prices are a little lower than other companies'."
+  }
+ ],
+ "shadow": [
+  {
+   "t": "产品",
+   "py": "chǎnpǐn",
+   "focus": "Hai thanh 3 liền nhau: 产 đọc gần như chán (đi lên), 品 giữ thanh 3 xuống thấp; ch cong lưỡi, bật hơi.",
+   "en": "product"
+  },
+  {
+   "t": "质量",
+   "py": "zhìliàng",
+   "focus": "zh cong lưỡi, không bật hơi; liàng có -ng mũi sau, thanh 4 rơi dứt khoát.",
+   "en": "quality"
+  },
+  {
+   "t": "顾客",
+   "py": "gùkè",
+   "focus": "Hai thanh 4 liền nhau: gù mạnh, kè cũng rơi nhưng nhẹ hơn; k bật hơi (khác g).",
+   "en": "customer"
+  },
+  {
+   "t": "不但很轻，而且很好看",
+   "py": "búdàn hěn qīng, érqiě hěn hǎokàn",
+   "focus": "不 đọc bú vì đứng trước thanh 4 (但); 而 ér cuốn lưỡi, đi lên; 很好 là hai thanh 3 nên 很 đọc gần như hén.",
+   "en": "not only light but also good-looking"
+  },
+  {
+   "t": "这种杯子比那种轻一点儿。",
+   "py": "Zhè zhǒng bēizi bǐ nà zhǒng qīng yìdiǎnr.",
+   "focus": "种 zhǒng cong lưỡi, thanh 3; 一 đọc yì vì đứng trước thanh 3 (点); 点儿 chỉ cuốn lưỡi ở cuối: diǎnr.",
+   "en": "This cup is a little lighter than that one."
+  },
+  {
+   "t": "我们能不能带几个样品回去？",
+   "py": "Wǒmen néng bu néng dài jǐ ge yàngpǐn huíqù?",
+   "focus": "能不能: 不 ở giữa đọc nhẹ (bu); 个 đọc nhẹ (ge); yàng có -ng mũi sau, pǐn có -n đầu lưỡi.",
+   "en": "Could we take a few samples back?"
+  }
+ ],
+ "dialog": {
+  "title": "Ở gian hàng của 小刘 (Xiǎo Liú): bạn hỏi đặc điểm, so sánh giá hai loại bình nước và xin hàng mẫu. Đổi vai: bạn là 小刘 giới thiệu sản phẩm.",
+  "partner": "小刘",
+  "turns": [
+   {
+    "ai": "你好！欢迎！你想看看哪种产品？",
+    "py": "Nǐ hǎo! Huānyíng! Nǐ xiǎng kànkan nǎ zhǒng chǎnpǐn?",
+    "vi": "Chào chị! Mời chị! Chị muốn xem loại sản phẩm nào ạ?",
+    "en": "Hello, welcome! Which products would you like to see?",
+    "model": "我想看看你们的水杯，我们的顾客都在办公室工作。",
+    "mpy": "Wǒ xiǎng kànkan nǐmen de shuǐbēi, wǒmen de gùkè dōu zài bàngōngshì gōngzuò.",
+    "men": "I'd like to see your water bottles; our customers all work in offices.",
+    "accept": [
+     "我想看看你们的水杯，我们的顾客都在办公室工作。",
+     "我想看看你们的水杯。",
+     "我想看看水杯。",
+     "woxiangkankannimendeshuibei",
+     "woxiangkankanshuibei"
+    ],
+    "frame": "我想看看你们的___，我们的顾客都在办公室工作。",
+    "hint": "Nói muốn xem bình nước (水杯 shuǐbēi), rồi nói khách hàng (顾客 gùkè) của bạn làm ở đâu."
+   },
+   {
+    "ai": "这种水杯很适合办公室。它不但很轻，而且放了热水六个小时以后还是热的。",
+    "py": "Zhè zhǒng shuǐbēi hěn shìhé bàngōngshì. Tā búdàn hěn qīng, érqiě fàng le rè shuǐ liù ge xiǎoshí yǐhòu háishi rè de.",
+    "vi": "Loại bình này rất hợp với văn phòng. Nó không những nhẹ mà rót nước nóng vào sáu tiếng sau vẫn còn nóng.",
+    "en": "This bottle is perfect for offices. Not only is it light, hot water is still hot six hours later.",
+    "model": "这个特点很好！它用了什么技术？",
+    "mpy": "Zhège tèdiǎn hěn hǎo! Tā yòng le shénme jìshù?",
+    "men": "That's a great feature! What technology does it use?",
+    "accept": [
+     "这个特点很好！它用了什么技术？",
+     "这个特点很好！",
+     "它用了什么技术？",
+     "用了什么技术？",
+     "zhegetedianhenhao",
+     "tayongleshenmejishu"
+    ],
+    "frame": "这个特点很好！它用了什么___？",
+    "hint": "Khen đặc điểm (特点 tèdiǎn), rồi hỏi nó dùng công nghệ (技术 jìshù) gì."
+   },
+   {
+    "ai": "这是我们公司的新技术，很多顾客都说好。",
+    "py": "Zhè shì wǒmen gōngsī de xīn jìshù, hěn duō gùkè dōu shuō hǎo.",
+    "vi": "Đây là công nghệ mới của công ty em, nhiều khách hàng đều khen.",
+    "en": "It's our company's new technology; lots of customers love it.",
+    "model": "这种比那种贵多少？",
+    "mpy": "Zhè zhǒng bǐ nà zhǒng guì duōshao?",
+    "men": "How much more does this one cost than that one?",
+    "accept": [
+     "这种比那种贵多少？",
+     "比那种贵多少？",
+     "贵多少？",
+     "zhezhongbinazhongguiduoshao",
+     "guiduoshao"
+    ],
+    "frame": "这种___那种贵多少？",
+    "hint": "So sánh giá hai loại: A 比 B 贵多少？ (đắt hơn bao nhiêu)."
+   },
+   {
+    "ai": "只贵五块，但是质量比那种好多了。",
+    "py": "Zhǐ guì wǔ kuài, dànshì zhìliàng bǐ nà zhǒng hǎo duō le.",
+    "vi": "Chỉ đắt hơn năm tệ, nhưng chất lượng tốt hơn loại kia nhiều.",
+    "en": "Just five yuan more, but the quality is much better.",
+    "model": "好。你们能不能给我们几个样品？",
+    "mpy": "Hǎo. Nǐmen néng bu néng gěi wǒmen jǐ ge yàngpǐn?",
+    "men": "OK. Could you give us a few samples?",
+    "accept": [
+     "好。你们能不能给我们几个样品？",
+     "你们能不能给我们几个样品？",
+     "能不能给我们几个样品？",
+     "能不能给我们样品？",
+     "nimennengbunenggeiwomenjigeyangpin",
+     "nengbunenggeiwomenyangpin"
+    ],
+    "frame": "好。你们能不能给我们几个___？",
+    "hint": "Xin hàng mẫu: 能不能 + 给我们 + 几个样品？ (không thêm 吗)."
+   },
+   {
+    "ai": "当然可以！我们可以为顾客提供样品，不要钱。",
+    "py": "Dāngrán kěyǐ! Wǒmen kěyǐ wèi gùkè tígōng yàngpǐn, bú yào qián.",
+    "vi": "Tất nhiên được ạ! Bên em có thể cung cấp hàng mẫu cho khách, không mất tiền.",
+    "en": "Of course! We can provide samples to customers free of charge.",
+    "model": "太好了，谢谢！我带回去给王经理看看。",
+    "mpy": "Tài hǎo le, xièxie! Wǒ dài huíqù gěi Wáng jīnglǐ kànkan.",
+    "men": "Great, thank you! I'll take them back to show Mr Wang.",
+    "accept": [
+     "太好了，谢谢！我带回去给王经理看看。",
+     "太好了，谢谢！",
+     "谢谢！我带回去给王经理看看。",
+     "taihaolexiexie",
+     "xiexie",
+     "wodaihuiqugeiwangjinglikankan"
+    ],
+    "frame": "太好了，谢谢！我带___给王经理看看。",
+    "hint": "Cảm ơn, rồi nói sẽ mang mẫu về (带回去 dài huíqù) cho 王经理 (Wáng jīnglǐ) xem."
+   }
+  ]
+ },
+ "reading": {
+  "title": "Tờ giới thiệu sản phẩm ở gian hàng",
+  "text": "我们公司做杯子已经二十年了，跟很多国家的公司都做过生意。今年我们最主要的新产品是一种办公室水杯。这种水杯有三个特点：第一，它比一般的水杯轻，带着很方便；第二，它用了新技术，放了热水六个小时以后，水还是热的；第三，它有十二种颜色，很适合年轻人。虽然它的价格比一般的水杯高一点儿，但是质量好多了，用三年也不会坏。如果您想先看看，我们可以为您提供样品。",
+  "py": "Wǒmen gōngsī zuò bēizi yǐjīng èrshí nián le, gēn hěn duō guójiā de gōngsī dōu zuò guo shēngyi. Jīnnián wǒmen zuì zhǔyào de xīn chǎnpǐn shì yì zhǒng bàngōngshì shuǐbēi. Zhè zhǒng shuǐbēi yǒu sān ge tèdiǎn: dì yī, tā bǐ yìbān de shuǐbēi qīng, dàizhe hěn fāngbiàn; dì èr, tā yòng le xīn jìshù, fàng le rè shuǐ liù ge xiǎoshí yǐhòu, shuǐ háishi rè de; dì sān, tā yǒu shí'èr zhǒng yánsè, hěn shìhé niánqīng rén. Suīrán tā de jiàgé bǐ yìbān de shuǐbēi gāo yìdiǎnr, dànshì zhìliàng hǎo duō le, yòng sān nián yě bú huì huài. Rúguǒ nín xiǎng xiān kànkan, wǒmen kěyǐ wèi nín tígōng yàngpǐn.",
+  "en": "Our company has been making cups for twenty years and has done business with companies in many countries. This year our main new product is an office water bottle. It has three features: first, it is lighter than ordinary bottles and easy to carry; second, it uses new technology, so hot water is still hot six hours later; third, it comes in twelve colours, which suits young people. Although its price is a little higher than ordinary bottles, the quality is much better, and it won't break even after three years of use. If you'd like to see it first, we can provide samples.",
+  "vi": "Công ty chúng tôi làm cốc đã hai mươi năm, đã làm ăn với các công ty của nhiều nước. Năm nay sản phẩm mới chủ lực của chúng tôi là một loại bình nước văn phòng. Loại bình này có ba đặc điểm: thứ nhất, nó nhẹ hơn bình nước thông thường, mang theo rất tiện; thứ hai, nó dùng công nghệ mới, rót nước nóng vào sáu tiếng sau nước vẫn còn nóng; thứ ba, nó có mười hai màu, rất hợp với người trẻ. Tuy giá cao hơn bình thông thường một chút nhưng chất lượng tốt hơn nhiều, dùng ba năm cũng không hỏng. Nếu quý khách muốn xem trước, chúng tôi có thể cung cấp hàng mẫu.",
+  "qs": [
+   {
+    "q": "Công ty này làm cốc được bao lâu rồi?",
+    "opts": [
+     "20 năm",
+     "12 năm",
+     "3 năm"
+    ],
+    "optsEn": [
+     "20 years",
+     "12 years",
+     "3 years"
+    ],
+    "a": 0,
+    "why": {
+     "1": "12 là số màu (十二种颜色 shí'èr zhǒng yánsè), không phải số năm.",
+     "2": "3 năm là thời gian dùng mà không hỏng (用三年也不会坏)."
+    }
+   },
+   {
+    "q": "Điều nào KHÔNG được nói trong bài?",
+    "opts": [
+     "bình rẻ hơn bình thông thường",
+     "bình nhẹ hơn bình thông thường",
+     "bình giữ nước nóng sáu tiếng"
+    ],
+    "optsEn": [
+     "it's cheaper than ordinary bottles",
+     "it's lighter than ordinary bottles",
+     "it keeps water hot for six hours"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài có nói điều này: 它比一般的水杯轻 (nó nhẹ hơn bình thông thường).",
+     "2": "Bài có nói điều này: 六个小时以后，水还是热的 (sáu tiếng sau nước vẫn nóng)."
+    }
+   },
+   {
+    "q": "Đúng hay sai: 这种水杯的价格比一般的水杯低。(Zhè zhǒng shuǐbēi de jiàgé bǐ yìbān de shuǐbēi dī.)",
+    "opts": [
+     "Đúng",
+     "Sai"
+    ],
+    "optsEn": [
+     "True",
+     "False"
+    ],
+    "a": 1,
+    "why": {
+     "0": "Bài viết 价格比一般的水杯高一点儿 (giá cao hơn một chút), không phải thấp hơn."
+    }
+   },
+   {
+    "q": "Vì sao loại bình này hợp với người trẻ?",
+    "opts": [
+     "vì có 12 màu",
+     "vì rất nhẹ",
+     "vì dùng công nghệ mới"
+    ],
+    "optsEn": [
+     "it comes in 12 colours",
+     "it's very light",
+     "it uses new technology"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài nói nhẹ nên mang theo tiện (带着很方便), không nói vì nhẹ mà hợp với người trẻ.",
+     "2": "Công nghệ mới dùng để giữ nước nóng. Câu 很适合年轻人 đi ngay sau 有十二种颜色."
+    }
+   },
+   {
+    "q": "Nếu muốn xem trước, khách hàng có thể làm gì?",
+    "opts": [
+     "nhận hàng mẫu",
+     "mua với giá thấp hơn",
+     "gặp giám đốc công ty"
+    ],
+    "optsEn": [
+     "get samples",
+     "buy at a lower price",
+     "meet the company head"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài không nói giảm giá cho người muốn xem trước.",
+     "2": "Bài không nhắc đến giám đốc; câu cuối là 我们可以为您提供样品 (chúng tôi có thể cung cấp hàng mẫu)."
+    }
+   }
+  ]
+ },
+ "near": [
+  {
+   "q": "Chọn từ đúng: 来我们商店买东西的___越来越多。(Khách đến cửa hàng chúng tôi mua đồ ngày càng nhiều.)",
+   "opts": [
+    "顾客",
+    "客人"
+   ],
+   "a": 0,
+   "why": {
+    "1": "客人 (kèrén) là khách đến nhà chơi hoặc khách mời. Người đến cửa hàng để MUA đồ là 顾客 (gùkè)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我们能带几个___回去吗？(Chúng tôi mang vài cái hàng mẫu về được không?)",
+   "opts": [
+    "样品",
+    "样子",
+    "产品"
+   ],
+   "a": 0,
+   "why": {
+    "1": "样子 (yàngzi) = hình dáng, kiểu dáng; 'mang vài cái kiểu dáng về' không có nghĩa.",
+    "2": "产品 (chǎnpǐn) = sản phẩm nói chung, hàng để bán. Thứ mang về để xem, thử trước khi mua là 样品 (yàngpǐn)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 这两种杯子的___不一样：一种很轻，一种比较重。(Hai loại cốc này có đặc điểm khác nhau: một loại rất nhẹ, một loại khá nặng.)",
+   "opts": [
+    "特点",
+    "优点"
+   ],
+   "a": 0,
+   "why": {
+    "1": "优点 (yōudiǎn) chỉ điểm TỐT. 'Khá nặng' không phải ưu điểm, nên ở đây dùng 特点 (tèdiǎn) = đặc điểm, nét riêng, tốt hay không tốt đều được."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我们可以为顾客___样品。(Chúng tôi có thể cung cấp hàng mẫu cho khách hàng.)",
+   "opts": [
+    "提供",
+    "帮助",
+    "给"
+   ],
+   "a": 0,
+   "why": {
+    "1": "帮助 (bāngzhù) = giúp đỡ, tân ngữ là NGƯỜI (帮助顾客), không nói 帮助样品.",
+    "2": "给 (gěi) dùng được trong 给顾客样品, nhưng không đi sau 为 + ai. Mẫu 为 + ai + 提供 + thứ gì cần 提供 (tígōng)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我___这种杯子很贵，问了以后才知道只要二十块。(Tôi cứ tưởng loại cốc này đắt lắm, hỏi rồi mới biết chỉ hai mươi tệ.)",
+   "opts": [
+    "以为",
+    "认为"
+   ],
+   "a": 0,
+   "why": {
+    "1": "认为 (rènwéi) = cho rằng, nêu ý kiến của mình, không mang ý 'nghĩ sai'. Vế sau cho thấy suy nghĩ lúc đầu sai, nên dùng 以为 (yǐwéi) = tưởng (nhầm)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 这种水杯___那种轻一点儿。(Loại bình này nhẹ hơn loại kia một chút.)",
+   "opts": [
+    "比",
+    "比较"
+   ],
+   "a": 0,
+   "why": {
+    "1": "比较 (bǐjiào) = khá, tương đối, đứng trước tính từ (比较轻 = khá nhẹ), không nối hai thứ được so sánh. Nói 'A hơn B' phải dùng 比 (bǐ): A 比 B 轻."
+   }
+  }
+ ],
+ "orderPara": [
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "小刘给我们介绍了一种新水杯。",
+    "这种水杯不但很轻，而且用了新技术。",
+    "所以我们想带几个样品回去。"
+   ],
+   "explain": "Câu giới thiệu chung (介绍了一种新水杯) đứng đầu; câu thứ hai dùng 这种水杯 để nói lại thứ vừa được nhắc; câu có 所以 (suǒyǐ) nêu kết quả nên đứng cuối.",
+   "vi": "小刘 (Xiǎo Liú) giới thiệu cho chúng tôi một loại bình nước mới. Loại bình này không những nhẹ mà còn dùng công nghệ mới. Vì vậy chúng tôi muốn mang vài cái mẫu về.",
+   "en": "Xiao Liu showed us a new water bottle. It is not only light but also uses new technology. So we'd like to take a few samples back."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "我们公司做杯子已经二十年了。",
+    "虽然我们的价格比别的公司高一点儿，",
+    "但是质量好多了，",
+    "所以很多顾客都喜欢我们的产品。"
+   ],
+   "explain": "Câu giới thiệu công ty đứng đầu; 虽然 (suīrán) mở vế 'tuy', 但是 (dànshì) nối ngay sau; câu có 所以 nêu kết quả nên đứng cuối.",
+   "vi": "Công ty chúng tôi làm cốc đã hai mươi năm. Tuy giá của chúng tôi cao hơn các công ty khác một chút nhưng chất lượng tốt hơn nhiều, vì vậy nhiều khách hàng thích sản phẩm của chúng tôi.",
+   "en": "Our company has been making cups for twenty years. Although our prices are a little higher than other companies', the quality is much better, so many customers like our products."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "我们的顾客主要是年轻人。",
+    "他们不但喜欢好看的杯子，",
+    "而且希望杯子带着方便。",
+    "所以这种水杯很适合他们。"
+   ],
+   "explain": "Câu đầu nói khách hàng là ai; 他们 (tāmen) thay cho 年轻人 nên phải đứng sau; 不但 đi trước 而且; câu có 所以 là kết luận nên đứng cuối.",
+   "vi": "Khách hàng của chúng tôi chủ yếu là người trẻ. Họ không những thích cốc đẹp mà còn muốn cốc mang theo tiện. Vì vậy loại bình nước này rất hợp với họ.",
+   "en": "Our customers are mainly young people. They not only like good-looking cups but also want cups that are easy to carry. So this water bottle suits them very well."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "晚上我给在河内的王经理发了一个信息。",
+    "我告诉他，这次大会上有一种很好的水杯。",
+    "他说：“你先带几个样品回来吧。”"
+   ],
+   "explain": "Việc gửi tin nhắn đứng đầu; nội dung tin (我告诉他…, 他 = 王经理) theo sau; câu trả lời của 王经理 (他说…) đứng cuối. 王经理 ở Hà Nội nên nói 回来 (về đây).",
+   "vi": "Buổi tối tôi gửi tin nhắn cho quản lý Vương ở Hà Nội. Tôi nói với anh ấy rằng ở hội chợ lần này có một loại bình nước rất tốt. Anh ấy nói: 'Em cứ mang vài cái mẫu về đã.'",
+   "en": "In the evening I sent a message to Mr Wang in Hanoi. I told him there was a very good water bottle at this fair. He said, 'Bring a few samples back first.'"
+  }
+ ],
+ "notes": {
+  "title": "Ghi chú: thông tin sản phẩm ở gian hàng",
+  "lines": [
+   {
+    "who": "小刘",
+    "t": "这是我们今年最主要的新产品，一种办公室水杯。",
+    "py": "Zhè shì wǒmen jīnnián zuì zhǔyào de xīn chǎnpǐn, yì zhǒng bàngōngshì shuǐbēi.",
+    "vi": "Đây là sản phẩm mới chủ lực năm nay của chúng em, một loại bình nước văn phòng.",
+    "en": "This is our main new product this year, an office water bottle."
+   },
+   {
+    "who": "阮安",
+    "t": "它有什么特点？",
+    "py": "Tā yǒu shénme tèdiǎn?",
+    "vi": "Nó có đặc điểm gì?",
+    "en": "What are its features?"
+   },
+   {
+    "who": "小刘",
+    "t": "它用了新技术，放了热水，六个小时以后还是热的。而且它有十二种颜色。",
+    "py": "Tā yòng le xīn jìshù, fàng le rè shuǐ, liù ge xiǎoshí yǐhòu háishi rè de. Érqiě tā yǒu shí'èr zhǒng yánsè.",
+    "vi": "Nó dùng công nghệ mới, rót nước nóng vào, sáu tiếng sau vẫn còn nóng. Hơn nữa nó có mười hai màu.",
+    "en": "It uses new technology: pour in hot water and it's still hot six hours later. It also comes in twelve colours."
+   },
+   {
+    "who": "阮安",
+    "t": "一个多少钱？",
+    "py": "Yí ge duōshao qián?",
+    "vi": "Một cái bao nhiêu tiền?",
+    "en": "How much is one?"
+   },
+   {
+    "who": "小刘",
+    "t": "一个三十五块，比去年的产品贵五块，但是质量好多了。",
+    "py": "Yí ge sānshíwǔ kuài, bǐ qùnián de chǎnpǐn guì wǔ kuài, dànshì zhìliàng hǎo duō le.",
+    "vi": "Một cái ba mươi lăm tệ, đắt hơn sản phẩm năm ngoái năm tệ, nhưng chất lượng tốt hơn nhiều.",
+    "en": "Thirty-five yuan each, five yuan more than last year's product, but the quality is much better."
+   },
+   {
+    "who": "阮安",
+    "t": "我们能不能带几个样品回去？",
+    "py": "Wǒmen néng bu néng dài jǐ ge yàngpǐn huíqù?",
+    "vi": "Chúng tôi mang vài cái mẫu về được không?",
+    "en": "Could we take a few samples back?"
+   },
+   {
+    "who": "小刘",
+    "t": "可以，我们给每个公司提供三个样品，不要钱。",
+    "py": "Kěyǐ, wǒmen gěi měi ge gōngsī tígōng sān ge yàngpǐn, bú yào qián.",
+    "vi": "Được ạ, bên em cung cấp cho mỗi công ty ba cái mẫu, không mất tiền.",
+    "en": "Yes, we provide three samples to each company, free of charge."
+   },
+   {
+    "who": "小刘",
+    "t": "明天上午陈总也来，你们可以跟他见个面。",
+    "py": "Míngtiān shàngwǔ Chén zǒng yě lái, nǐmen kěyǐ gēn tā jiàn ge miàn.",
+    "vi": "Sáng mai giám đốc Trần cũng đến, các chị có thể gặp anh ấy.",
+    "en": "Mr Chen is coming tomorrow morning too, so you can meet him."
+   }
+  ],
+  "form": [
+   {
+    "label": "Giữ nước nóng được bao lâu",
+    "opts": [
+     "六个小时",
+     "四个小时",
+     "十个小时"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Không nghe thấy 四 (sì); 小刘 nói 六个小时以后还是热的 (sáu tiếng sau vẫn nóng).",
+     "2": "Không nghe thấy 十个小时; con số là 六 (liù)."
+    }
+   },
+   {
+    "label": "Số màu",
+    "opts": [
+     "十二种",
+     "十种",
+     "二十种"
+    ],
+    "a": 0,
+    "why": {
+     "1": "十种 là 10 màu; bài nghe nói 十二种 (shí'èr zhǒng), có thêm 二.",
+     "2": "二十种 là 20 màu (二 đứng trước 十). Bài nghe nói 十二 (12): 十 đứng trước."
+    }
+   },
+   {
+    "label": "Giá một cái",
+    "opts": [
+     "三十五块",
+     "三十块",
+     "四十五块"
+    ],
+    "a": 0,
+    "why": {
+     "1": "三十块 là 30 tệ; bài nghe nói 三十五块 (sānshíwǔ kuài), có thêm 五.",
+     "2": "四十五块 là 45 tệ; bài nghe bắt đầu bằng 三十 (sānshí), không phải 四十 (sìshí)."
+    }
+   },
+   {
+    "label": "Đắt hơn sản phẩm năm ngoái",
+    "opts": [
+     "五块",
+     "十五块",
+     "三块"
+    ],
+    "a": 0,
+    "why": {
+     "1": "十五块 là 15 tệ; bài nghe nói 贵五块 (đắt hơn 5 tệ).",
+     "2": "三 (sān) là số hàng mẫu (三个样品), không phải số tiền đắt hơn."
+    }
+   },
+   {
+    "label": "Số hàng mẫu mỗi công ty được nhận",
+    "opts": [
+     "三个",
+     "五个",
+     "两个"
+    ],
+    "a": 0,
+    "why": {
+     "1": "五 (wǔ) là số tiền đắt hơn (贵五块), không phải số mẫu.",
+     "2": "Không nghe thấy 两个 (liǎng ge); 小刘 nói 提供三个样品."
+    }
+   },
+   {
+    "label": "Người đến gian hàng sáng mai",
+    "opts": [
+     "陈总",
+     "王经理",
+     "小刘"
+    ],
+    "a": 0,
+    "why": {
+     "1": "王经理 (Wáng jīnglǐ) ở Hà Nội, không đến hội chợ.",
+     "2": "小刘 (Xiǎo Liú) là người đang nói; người sáng mai đến là 陈总 (Chén zǒng)."
+    }
+   }
+  ]
+ },
+ "longturn": {
+  "cue": "请你用一分钟给顾客介绍你们公司的一种产品。",
+  "cueVi": "Hãy nói khoảng 1 phút, giới thiệu một sản phẩm của công ty bạn cho khách hàng.",
+  "cuePy": "Qǐng nǐ yòng yì fēnzhōng gěi gùkè jièshào nǐmen gōngsī de yì zhǒng chǎnpǐn.",
+  "points": [
+   "这是什么产品？",
+   "它有什么特点和优点？",
+   "它适合什么顾客？",
+   "价格怎么样？可以提供样品吗？"
+  ],
+  "pointsVi": [
+   "Đó là sản phẩm gì?",
+   "Nó có đặc điểm, ưu điểm gì?",
+   "Nó hợp với khách hàng nào?",
+   "Giá thế nào? Có cung cấp hàng mẫu không?"
+  ],
+  "prep": 60,
+  "speak": [
+   60,
+   120
+  ],
+  "model": "大家好！我们公司是做咖啡的，已经做了十五年了。今天我想给大家介绍我们的新产品：越南咖啡。它的特点是很香，喝起来有一点儿甜。这种咖啡不但质量好，而且价格不高，比别的公司的便宜一点儿。它很适合在办公室工作的年轻人，因为他们每天上班都很忙，需要喝咖啡。如果您有兴趣，我们可以为您提供样品，您可以先喝喝看。谢谢大家！",
+  "modelPy": "Dàjiā hǎo! Wǒmen gōngsī shì zuò kāfēi de, yǐjīng zuò le shíwǔ nián le. Jīntiān wǒ xiǎng gěi dàjiā jièshào wǒmen de xīn chǎnpǐn: Yuènán kāfēi. Tā de tèdiǎn shì hěn xiāng, hē qǐlai yǒu yìdiǎnr tián. Zhè zhǒng kāfēi búdàn zhìliàng hǎo, érqiě jiàgé bù gāo, bǐ bié de gōngsī de piányi yìdiǎnr. Tā hěn shìhé zài bàngōngshì gōngzuò de niánqīng rén, yīnwèi tāmen měi tiān shàngbān dōu hěn máng, xūyào hē kāfēi. Rúguǒ nín yǒu xìngqù, wǒmen kěyǐ wèi nín tígōng yàngpǐn, nín kěyǐ xiān hēhe kàn. Xièxie dàjiā!",
+  "modelVi": "Chào mọi người! Công ty chúng tôi làm cà phê, đã mười lăm năm rồi. Hôm nay tôi muốn giới thiệu với mọi người sản phẩm mới của chúng tôi: cà phê Việt Nam. Đặc điểm của nó là rất thơm, uống vào có vị hơi ngọt. Loại cà phê này không những chất lượng tốt mà giá cũng không cao, rẻ hơn của các công ty khác một chút. Nó rất hợp với người trẻ làm việc ở văn phòng, vì ngày nào đi làm họ cũng bận, cần uống cà phê. Nếu quý khách quan tâm, chúng tôi có thể cung cấp hàng mẫu để quý khách uống thử trước. Cảm ơn mọi người!",
+  "useful": [
+   "今天我想给大家介绍……",
+   "它的特点是……",
+   "它最大的优点是……",
+   "不但……，而且……",
+   "比……便宜一点儿",
+   "很适合……",
+   "我们可以为您提供样品"
+  ],
+  "check": [
+   "Nói đủ 4 ý: sản phẩm gì, đặc điểm và ưu điểm, hợp với ai, giá và hàng mẫu",
+   "Dùng ít nhất 3 từ mới hôm nay (特点 tèdiǎn, 优点 yōudiǎn, 适合 shìhé, 顾客 gùkè, 提供 tígōng…)",
+   "Có 1 câu 不但……而且…… (búdàn… érqiě…)",
+   "Có 1 câu so sánh với 比 (bǐ)",
+   "Có lời chào mở đầu và lời cảm ơn kết thúc",
+   "Nói liền mạch được ít nhất 1 phút"
+  ]
+ },
+ "write": {
+  "task": "Viết tin nhắn WeChat cho 王经理 (Wáng jīnglǐ) ở Hà Nội: giới thiệu nhanh loại bình nước vừa xem ở gian hàng (chất lượng, đặc điểm, giá, hợp với khách nào) và hỏi có nên mang hàng mẫu về không.",
+  "kind": "message",
+  "model": "王经理，您好！今天在广州看了一种水杯，质量很好。它不但很轻，而且用了新技术，热水放六个小时还是热的。价格比去年的贵五块，但是很适合我们的顾客。他们可以提供三个样品，我带回去给您看看，好吗？阮安",
+  "frame": "王经理，您好！今天在广州看了一种水杯，___很好。它___很轻，___用了新技术，热水放六个小时还是热的。价格___去年的贵五块，但是很___我们的顾客。他们可以___三个样品，我带回去给您看看，好吗？阮安",
+  "gaps": [
+   "质量",
+   "不但",
+   "而且",
+   "比",
+   "适合",
+   "提供"
+  ],
+  "free": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "hints": [
+   "Mở đầu: 王经理，您好！今天我们在……看了…… (hôm nay chúng tôi đã xem…)",
+   "Nói hai điểm tốt: 它不但……，而且……",
+   "So sánh giá: 价格比去年的贵 / 便宜 + số tiền",
+   "Nói hợp với ai: 很适合我们的顾客",
+   "Kết bằng câu hỏi xin ý kiến: ……，好吗？ rồi ký tên"
+  ],
+  "check": [
+   "Có lời chào 王经理 (Wáng jīnglǐ) và ký tên cuối tin",
+   "Nói ít nhất 2 đặc điểm hoặc ưu điểm của sản phẩm",
+   "Có 1 câu 不但……而且…… (búdàn… érqiě…)",
+   "Có 1 câu so sánh với 比 (bǐ)",
+   "Kết bằng câu hỏi xin ý kiến (……好吗？ / ……可以吗？)",
+   "Dài 60–90 chữ Hán"
+  ],
+  "words": [
+   60,
+   90
+  ]
+ },
+ "gloss": {
+  "做生意": [
+   "zuò shēngyi",
+   "to do business",
+   "làm ăn, buôn bán"
+  ],
+  "产品": [
+   "chǎnpǐn",
+   "product",
+   "sản phẩm"
+  ],
+  "质量": [
+   "zhìliàng",
+   "quality",
+   "chất lượng"
+  ],
+  "价格": [
+   "jiàgé",
+   "price",
+   "giá cả"
+  ],
+  "样品": [
+   "yàngpǐn",
+   "sample",
+   "hàng mẫu"
+  ],
+  "技术": [
+   "jìshù",
+   "technology, technique",
+   "công nghệ, kỹ thuật"
+  ],
+  "特点": [
+   "tèdiǎn",
+   "feature, characteristic",
+   "đặc điểm"
+  ],
+  "优点": [
+   "yōudiǎn",
+   "advantage, strength",
+   "ưu điểm"
+  ],
+  "适合": [
+   "shìhé",
+   "to suit, to be suitable for",
+   "phù hợp với"
+  ],
+  "顾客": [
+   "gùkè",
+   "customer",
+   "khách hàng"
+  ],
+  "提供": [
+   "tígōng",
+   "to provide",
+   "cung cấp"
+  ],
+  "不但": [
+   "búdàn",
+   "not only",
+   "không những"
+  ],
+  "水杯": [
+   "shuǐbēi",
+   "water bottle, drinking cup",
+   "bình nước, cốc uống nước"
+  ],
+  "陈总": [
+   "Chén zǒng",
+   "Mr Chen, the company head",
+   "giám đốc Trần (tên)"
+  ],
+  "小刘": [
+   "Xiǎo Liú",
+   "Xiao Liu (name)",
+   "Tiểu Lưu (tên)"
+  ],
+  "广州": [
+   "Guǎngzhōu",
+   "Guangzhou",
+   "Quảng Châu (tên thành phố)"
+  ],
+  "河内": [
+   "Hénèi",
+   "Hanoi",
+   "Hà Nội (tên thành phố)"
+  ]
+ }
+}
