@@ -708,6 +708,8 @@ img.photo.ava{border-radius:50%;object-fit:cover;aspect-ratio:1}
 [data-pymode="new"] .gl.showpy rt{display:none}
 [data-pymode="new"] .gl .rw.nw rt{display:revert;font-size:13px;color:var(--acc);font-weight:600;opacity:1}
 [data-pymode="new"] .gl:has(.rw.nw){line-height:2.3}
+[data-pymode="new"] .rw.nw ruby,[data-pymode="new"] ruby.rw.nw{ruby-align:center}
+[data-pymode="new"] .rw.nw rt{letter-spacing:-.02em}
 [data-pymode="new"] .rtext:not(.showpy) .rw.nw rt{font-size:14px;opacity:1;color:var(--acc);font-weight:600}
 .q.para .pool,.q.para .ans{flex-direction:column;align-items:stretch}.q.para .tok{min-height:52px;height:auto;padding:10px 14px;font-size:18px;line-height:1.5;text-align:left;justify-content:flex-start;white-space:normal}
 .ltcue{font-size:20px;font-weight:700;line-height:1.5}.ltclock.big{font-size:48px;font-weight:800;text-align:center;margin:6px 0;font-variant-numeric:tabular-nums}
@@ -1469,8 +1471,8 @@ function courseEx(ex, dayId, code) {
       const nt = d.notes; ex.title = "Nghe điền: " + String(nt.title).replace(/^Ghi chú:\s*/, ""); ex.pts = 10; ex.listen = true;
       ex.dialogue = nt.lines.map(l => L === "zh" ? [l.who, l.t, l.py, bi(l.en, l.vi)] : [l.who, l.t, l.vi]);
       ex.items = nt.form.map(f => L === "zh"
-        ? { k: "mc", q: f.label + ": ___", opts: f.opts, a: f.a, why: f.why, optsEn: f.optsEn || null, hearAfter: null }
-        : { k: "type", q: f.label + ": ___", model: f.answer, accept: accRe(L, (f.accept || []).concat([f.answer]), false), why: f.why });
+        ? { k: "mc", q: (/_{3}/.test(f.label) ? f.label : f.label + ": ___"), opts: f.opts, a: f.a, why: f.why, optsEn: f.optsEn || null, hearAfter: null }
+        : { k: "type", q: (/_{3}/.test(f.label) ? f.label : f.label + ": ___"), model: f.answer, accept: accRe(L, (f.accept || []).concat([f.answer]), false), why: f.why });
       return ex;
     }
   }
@@ -2181,9 +2183,9 @@ function itemOrder(ctx) {
   $(".hbtn", hb).onclick = orderHint;
   function draw(marks) {
     const tp = p => it.tokPy ? `<small class="tpy">${esc(it.tokPy[p[1]] || "")}</small>` : "";
-    const tk = t => L === "zh" ? glossHTML(t, true) : esc(t);
-    ans.innerHTML = picked.length ? picked.map((p, i) => `<button type="button" class="tok${marks ? (marks[i] ? " right" : " wrong") : ""}" data-a="${i}" lang="${L === "zh" ? "zh" : "en"}"><small>${i + 1}</small>${tk(p[0])}${tp(p)}</button>`).join("") : '<span class="muted small">Câu của bạn sẽ hiện ở đây</span>';
-    pl.innerHTML = pool.map((p, i) => picked.includes(p) ? "" : `<button type="button" class="tok" data-p="${i}" lang="${L === "zh" ? "zh" : "en"}">${tk(p[0])}${tp(p)}</button>`).join("");
+    const tk = t => L === "zh" && PYNEW() ? glossHTML(t, true) : esc(t);
+    ans.innerHTML = picked.length ? picked.map((p, i) => `<button type="button" class="tok${marks ? (marks[i] ? " right" : " wrong") : ""}" data-a="${i}" data-t="${esc(p[0])}" lang="${L === "zh" ? "zh" : "en"}"><small>${i + 1}</small>${tk(p[0])}${tp(p)}</button>`).join("") : '<span class="muted small">Câu của bạn sẽ hiện ở đây</span>';
+    pl.innerHTML = pool.map((p, i) => picked.includes(p) ? "" : `<button type="button" class="tok" data-p="${i}" data-t="${esc(p[0])}" lang="${L === "zh" ? "zh" : "en"}">${tk(p[0])}${tp(p)}</button>`).join("");
     ans.querySelectorAll("[data-a]").forEach(b => b.onclick = () => { if (st.done) return; picked.splice(+b.dataset.a, 1); draw(); });
     pl.querySelectorAll("[data-p]").forEach(b => b.onclick = () => { if (st.done) return; picked.push(pool[+b.dataset.p]); draw(); });
   }

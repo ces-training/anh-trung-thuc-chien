@@ -574,7 +574,7 @@
         "vi": "Muộn ba ngày à? Thật ngại quá. Còn vấn đề gì khác không?",
         "en": "Three days late? I'm really sorry about that. Is there anything else?",
         "model": "有。两千个杯子里有两百个坏了，问题比较严重。",
-        "mpy": "Yǒu. Yìqiān ge bēizi lǐ yǒu liǎngbǎi ge huài le, wèntí bǐjiào yánzhòng.",
+        "mpy": "Yǒu. Liǎngqiān ge bēizi lǐ yǒu liǎngbǎi ge huài le, wèntí bǐjiào yánzhòng.",
         "men": "Yes. 200 of the 2,000 cups are broken. It's quite serious.",
         "accept": ["有。两千个杯子里有两百个坏了，问题比较严重。", "两千个杯子里有两百个坏了，问题比较严重。", "两千个杯子里有两百个坏了。", "有两百个坏了，问题比较严重。", "问题比较严重。", "youliangqiangebeiziliyouliangbaigehuailewentibijiaoyanzhong", "liangqiangebeiziliyouliangbaigehuaile", "youliangbaigehuaile", "wentibijiaoyanzhong"],
         "frame": "有。两千个杯子里有两百个坏了，问题比较___。",

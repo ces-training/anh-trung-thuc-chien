@@ -65,7 +65,7 @@ const STEP = () => {
       if (wrongFirst && ans === 0) { T.wrong = true; const pool = q(".items .stage .pool .tok"); pool.slice().reverse().forEach(b => b.click()); return chk ? click(chk, "order-wrong") : "wait"; }
       if (ans > 0 && !st.querySelector(".ans .tok.right")) { const clr = q(".items .stage .clr")[0]; if (clr && st.querySelector(".ans .tok.wrong")) return click(clr, "clear"); }
       if (ans < it.tokens.length) {
-        const want = it.tokens[ans], b = q(".items .stage .pool .tok").find(x => x.firstChild && x.firstChild.textContent === want);
+        const want = it.tokens[ans], b = q(".items .stage .pool .tok").find(x => (x.dataset.t != null ? x.dataset.t : x.firstChild && x.firstChild.textContent) === want);
         return b ? click(b, "tok") : "wait";
       }
       return chk ? click(chk, "check") : "wait";
@@ -156,7 +156,7 @@ async function runEx(page, job) {
 
 async function shots(browser, base) {
   const out = path.join(ROOT, "tools", "shots"); fs.mkdirSync(out, { recursive: true });
-  const pages = [["trang-chu", "en"], ["lo-trinh", "en"], ["a2-w1-thu-2", "en"], ["a2-w1-thu-2-bai-8", "en"], ["a2-w1-thu-2-bai-14", "en"], ["b1-w1-thu-6-bai-14", "en"], ["b1-w1-thu-3-bai-13", "en"], ["w5-thu-2", "zh"], ["w5-thu-2-bai-1", "zh"], ["w5-thu-4-bai-11", "zh"]];
+  const pages = [["trang-chu", "en"], ["lo-trinh", "en"], ["a2-w1-thu-2", "en"], ["a2-w1-thu-2-bai-8", "en"], ["a2-w1-thu-2-bai-14", "en"], ["b1-w1-thu-6-bai-14", "en"], ["b1-w1-thu-3-bai-13", "en"], ["w5-thu-2", "zh"], ["w5-thu-2-bai-1", "zh"], ["w5-thu-4-bai-11", "zh"], ["h4-w1-thu-2", "zh"], ["h4-w1-thu-2-bai-1", "zh"], ["h4-w1-thu-3-bai-5", "zh"], ["h4-w1-thu-4-bai-9", "zh"], ["h4-w1-thu-2-bai-13", "zh"], ["h4-w1-thu-5-bai-15", "zh"], ["b2-w1-thu-2-bai-5", "en"], ["b2-w1-thu-3-bai-9", "en"], ["b2-w1-thu-6-bai-16", "en"]];
   const report = [];
   for (const [w, h] of [[1280, 860], [390, 844]]) {
     const ctx = await browser.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: 1 }); await ctx.addInitScript(INIT);
@@ -164,7 +164,7 @@ async function shots(browser, base) {
     for (const [hash, lang] of pages) {
       await page.evaluate(L => { S.lang = L; save(); }, lang);
       await page.evaluate(x => { location.hash = x; }, "#" + hash); await page.waitForTimeout(500);
-      const go = await page.$(".pbody .intro .go"); if (go && /bai-(8|13|14)$/.test(hash)) { await go.click(); await page.waitForTimeout(500); }
+      const go = await page.$(".pbody .intro .go"); if (go && (/bai-(8|13|14)$/.test(hash) || /^(h4|b2)-.*bai-\d+$/.test(hash))) { await go.click(); await page.waitForTimeout(500); }
       if (/bai-14$/.test(hash)) { for (const t of ["frame"]) { const b = await page.$(`.ew [data-t="${t}"]`); if (b) { await b.click(); await page.waitForTimeout(300); } } }
       const sx = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
       const f = path.join(out, `${w}-${hash}.png`); await page.screenshot({ path: f, fullPage: w > 400 ? false : true });
@@ -228,9 +228,11 @@ async function funnel(browser, base) {
   for (let i = 0; i < 60 && !(await p2.$(".endcard")); i++) { await p2.evaluate(STEP); await p2.waitForTimeout(30); }
   const endA2 = await p2.evaluate(() => (document.querySelector(".endcard") || {}).innerText || "");
   check(/Đăng ký chờ lớp/.test(endA2) && !/Chọn gói/.test(endA2), "xong tuần học thử A2 → mời chờ lớp, không mời mua gói");
-  /* kết quả B2 (lộ trình chưa mở) → gợi ý tuần học thử B1, không phải tuần 1 */
+  /* B2, HSK4 đã có tuần học thử riêng; lộ trình chưa mở (giả lập) → gợi ý tuần học thử gần nhất bên dưới */
+  const adv = await p2.evaluate(() => [trackStart(trackOf("en", "en-d")), trackStart(trackOf("zh", "zh-c"))].join(" "));
+  check(adv === "b2-w1-thu-2 h4-w1-thu-2", "B2 → học thử B2, HSK4 → học thử HSK4 (" + adv + ")");
   const near = await p2.evaluate(() => { const t = trackOf("en", "en-d"), n = nearTrial("en", t); return n ? trackStart(n) : ""; });
-  check(near === "b1-w1-thu-2", "B2 chưa mở → gợi ý học thử B1 (" + near + ")");
+  check(near === "b1-w1-thu-2", "nếu B2 chưa mở → gợi ý học thử B1 (" + near + ")");
   check(!errs.length, "không lỗi JavaScript" + (errs.length ? ": " + errs.join(" | ") : ""));
   await go("#uu-dai"); await page.screenshot({ path: path.join(ROOT, "tools", "shots", "390-uu-dai.png"), fullPage: true });
   await go("#w1-thu-3"); check(!(await page.$(".stagehd")), "ngày tiếng Anh của hành trình chính không có tiêu đề bước");
