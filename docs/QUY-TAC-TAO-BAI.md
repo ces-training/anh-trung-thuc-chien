@@ -122,21 +122,22 @@
 3. **Màn hình nhỏ:** chạy tốt ở 390px, không có thanh cuộn ngang. Nút bấm đủ lớn cho ngón tay.
 
 ## 8. Kỹ thuật và xuất bản
-1. **Dữ liệu và mã nguồn:**
-   - Dữ liệu nằm ở `week1/course/{zh,en}-wN.json`.
-   - Dữ liệu bước 4: `vendor/stroke-pairs.json`, `vendor/write-guide.json`, `vendor/hzdata/*.json` (lấy từ hanzi-writer-data).
-   - Từ điển: `vendor/zh-gloss.json`. Bính âm từng chữ: `vendor/zhpy.json` (sinh bằng pinyin-pro).
-2. **Dựng trang:** `python3 build2.py`. Bản dựng tự chạy `check_rules.py`; còn LỖI thì dừng.
+1. **Dữ liệu và mã nguồn** (tất cả trong repo):
+   - Dữ liệu tuần: `tools/course/{zh,en}-wN.json`. Tuần học thử của lộ trình khác: `tools/course/zh-w5.json`, `en-a2-1.json`, `en-b1-1.json` (có `"demo": true`, mỗi tuần một ngôn ngữ).
+   - Khuôn trang (giao diện, mã chạy bài): `tools/build/page-template.html`. Sửa giao diện ở đây, không sửa thẳng `tuan-1/index.html`.
+   - Dữ liệu bước 4: `tools/vendor/stroke-pairs.json`, `tools/vendor/write-guide.json`, `tools/vendor/hzdata/*.json` (lấy từ hanzi-writer-data).
+   - Từ điển: `tools/vendor/zh-gloss.json`. Bính âm từng chữ: `tools/vendor/zhpy.json` (sinh bằng pinyin-pro).
+2. **Dựng trang:** `python3 tools/build2.py` → `tuan-1/index.html`. Bản dựng tự chạy `tools/course/check_rules.py`; còn LỖI thì dừng.
 3. **Kiểm thử trước khi giao:**
-   - `t20.js`: tất cả bài, 2 ngôn ngữ, 2 mức.
-   - Thử trả lời sai để chắc không có câu nào kẹt.
-   - Kiểm tra tranh qua máy chủ http.
-   - Chụp màn hình máy tính và điện thoại.
+   - `node tools/t20.js`: tất cả bài, 2 ngôn ngữ, 2 mức, chạy qua máy chủ http; câu đầu mỗi bài cố ý trả lời sai để chắc không có câu nào kẹt.
+   - `node tools/t20.js --shots`: chụp màn hình máy tính (1280) và điện thoại (390) vào `tools/shots/`, báo trang nào có thanh cuộn ngang.
+   - Hướng dẫn viết chữ Hán (V) cần vẽ nét bằng tay: máy chỉ kiểm tra mở được 4 bước, phải thử tay trên điện thoại.
 4. **Xuất bản:**
+   - `python3 tools/deploy.py "nội dung thay đổi" [--test]`: dựng, kiểm tra, rồi mới đẩy.
    - Bản xem trong Claude: artifact JKSzCSN4FVjwQhXtu9L7wv.
    - Trang thật: repo `ces-training/anh-trung-thuc-chien`, thư mục `tuan-1/`.
-   - **Chỉ đẩy lên khi kết nối GitHub đang là tài khoản ces-training.** Tài khoản ivythaibinh dành cho Lingo Cub và Rung Chuông Vàng. Nếu kết nối đang sai tài khoản, báo chị và chỉ cách đổi; không tự đổi, không cấp quyền chéo.
-   - Commit có `[skip ci]` khi không cần chạy tạo ảnh hoặc giọng.
+   - **Chỉ đẩy lên khi kết nối GitHub đang là tài khoản ces-training** (`deploy.py` tự dừng nếu kho trỏ chỗ khác). Tài khoản ivythaibinh dành cho Lingo Cub và Rung Chuông Vàng. Nếu kết nối đang sai tài khoản, báo chị và chỉ cách đổi; không tự đổi, không cấp quyền chéo.
+   - Commit mặc định có `[skip ci]` để GitHub không tự tạo ảnh hoặc giọng. Chỉ thêm `--ci` khi chị Duyên đã duyệt danh sách tranh, giọng mới.
 5. **Micro:** chỉ chạy trên trang thật (https), không chạy trong bản xem của Claude.
 
 ## 9. Danh sách kiểm tra trước khi giao một tuần mới
@@ -148,5 +149,5 @@
 - [ ] Âm thanh: mọi câu có file giọng Gemini (thêm vào `tools/audio-list.json`, giọng cố định theo nhân vật), đã chạy `audio_clean.py`; không để câu nào chỉ có giọng trình duyệt.
 - [ ] Tự phát, tự chuyển 1,2 giây, sai thì hiện đáp án 2 giây, cuối bài làm lại câu tương tự, luôn có nút đi tiếp.
 - [ ] Mỗi bài có Cách làm, Quy tắc, Làm sao cho hiệu quả; bài nghe và nói có khuyến nghị trình duyệt.
-- [ ] `t20.js` 0 lỗi; thử sai không kẹt; ảnh chụp máy tính và điện thoại ổn.
+- [ ] `node tools/t20.js` 0 lỗi; thử sai không kẹt; `--shots` không có cuộn ngang, ảnh chụp máy tính và điện thoại ổn.
 - [ ] Đẩy lên bằng tài khoản ces-training, cập nhật bản xem trong Claude, cập nhật ghi chú tiến độ trong Project.
