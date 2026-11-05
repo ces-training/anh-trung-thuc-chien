@@ -1,0 +1,898 @@
+{
+ "id": "b2-w1-thu-5",
+ "label": "Thứ 5",
+ "title": "Trả lời câu hỏi khó, phản biện có lập luận",
+ "desc": "Ghi nhận ý kiến rồi phản biện lịch sự (That's a valid point, but…; With all due respect…; On the contrary…), đưa bằng chứng và dùng câu bị động (data is stored…, is encrypted…) khi bà Ingrid nêu lo ngại về dữ liệu khách hàng, thị trường Thái Lan và việc phụ thuộc một đối tác.",
+ "rule": "Phản biện lịch sự đi theo 3 bước: ghi nhận (That's a valid point / I take your point / I acknowledge that…), chuyển ý (but, however), rồi đưa bằng chứng (The pilot data suggests…). Nói về quy trình, bảo mật thì dùng bị động be + V3: is stored, are encrypted, will be reviewed. Khi chưa chắc chắn, nói giảm nhẹ bằng may, might, seems, tends to, it is likely that.",
+ "cards": [
+  {
+   "w": "concern",
+   "ipa": "/kənˈsɜːn/",
+   "m": "mối lo ngại",
+   "ex": "Ingrid raised three concerns about the partnership.",
+   "exm": "Ingrid nêu ba mối lo ngại về việc hợp tác.",
+   "n": "Nhấn âm hai: con-CERN. raise a concern = nêu lo ngại; a concern about / over something. Tính từ: be concerned about = lo ngại về.",
+   "img": "what"
+  },
+  {
+   "w": "valid",
+   "ipa": "/ˈvæl.ɪd/",
+   "m": "xác đáng, có cơ sở",
+   "ex": "That's a valid point, but our pilot data suggests otherwise.",
+   "exm": "Ý đó xác đáng, nhưng số liệu chạy thử của chúng tôi lại cho thấy điều khác.",
+   "n": "Nhấn âm đầu: VAL-id. a valid point / concern = ý kiến, lo ngại xác đáng. Nghĩa khác: còn hiệu lực (a valid passport). Danh từ: validity.",
+   "img": "is"
+  },
+  {
+   "w": "address",
+   "ipa": "/əˈdres/",
+   "m": "giải quyết, trả lời thẳng vào (vấn đề)",
+   "ex": "Let me address your concern about data first.",
+   "exm": "Để tôi trả lời mối lo ngại của chị về dữ liệu trước.",
+   "n": "Động từ luôn nhấn âm hai: ad-DRESS. address a concern / an issue / a question. Đừng nhầm với danh từ address (địa chỉ); kiểu Mỹ đọc danh từ là AD-dress."
+  },
+  {
+   "w": "assumption",
+   "ipa": "/əˈsʌmp.ʃən/",
+   "m": "giả định, điều cho là đúng",
+   "ex": "Your assumption is that Thai customers will be slower to use the app.",
+   "exm": "Chị đang giả định rằng khách hàng Thái Lan sẽ dùng ứng dụng chậm hơn.",
+   "n": "Nhấn âm hai: as-SUMP-tion. make an assumption = đưa ra giả định; động từ assume. Câu hay dùng: That assumption isn't supported by the data."
+  },
+  {
+   "w": "evidence",
+   "ipa": "/ˈev.ɪ.dəns/",
+   "m": "bằng chứng",
+   "ex": "We have clear evidence from the pilot in Da Nang.",
+   "exm": "Chúng tôi có bằng chứng rõ ràng từ đợt chạy thử ở Đà Nẵng.",
+   "n": "Danh từ không đếm được: some evidence, a piece of evidence (không nói an evidence, evidences). Tính từ: evident (rõ ràng)."
+  },
+  {
+   "w": "mitigate",
+   "ipa": "/ˈmɪt.ɪ.ɡeɪt/",
+   "m": "giảm nhẹ (rủi ro, tác động)",
+   "ex": "Extra in-store training will mitigate the risk of slow adoption.",
+   "exm": "Đào tạo thêm tại cửa hàng sẽ giảm nhẹ rủi ro khách chậm dùng ứng dụng.",
+   "n": "Nhấn âm đầu: MIT-i-gate. Hay đi với risk, impact, effect. Gần nghĩa: reduce, minimise. Danh từ: mitigation."
+  },
+  {
+   "w": "contingency",
+   "ipa": "/kənˈtɪn.dʒən.si/",
+   "m": "tình huống bất ngờ; contingency plan = kế hoạch dự phòng",
+   "ex": "We have a contingency plan in case adoption in Thailand is slower than expected.",
+   "exm": "Chúng tôi có kế hoạch dự phòng phòng khi ở Thái Lan khách dùng ứng dụng chậm hơn dự kiến.",
+   "n": "Nhấn âm hai: con-TIN-gen-cy; chữ g đọc /dʒ/. Cụm hay gặp nhất: a contingency plan. in case = phòng khi."
+  },
+  {
+   "w": "reassure",
+   "ipa": "/ˌriː.əˈʃɔː/",
+   "m": "trấn an, làm (ai) yên tâm",
+   "ex": "Let me reassure you that no personal data is shared.",
+   "exm": "Tôi muốn chị yên tâm rằng không có dữ liệu cá nhân nào bị chia sẻ.",
+   "n": "Cấu trúc: reassure somebody (that)… (phải có người sau reassure). Tính từ: reassuring = khiến yên tâm. Đừng nhầm với ensure (đảm bảo một việc sẽ xảy ra)."
+  },
+  {
+   "w": "acknowledge",
+   "ipa": "/əkˈnɒl.ɪdʒ/",
+   "m": "thừa nhận, ghi nhận",
+   "ex": "We acknowledge that Thailand is a new market for us.",
+   "exm": "Chúng tôi thừa nhận Thái Lan là thị trường mới với chúng tôi.",
+   "n": "Chữ k không đọc: ək-NOL-idge. acknowledge something / acknowledge that… Ghi nhận ý người khác trước khi phản biện giúp cuộc trao đổi lịch sự hơn.",
+   "img": "is"
+  },
+  {
+   "w": "with all due respect",
+   "ipa": "/wɪð ˌɔːl ˌdjuː rɪˈspekt/",
+   "m": "với tất cả sự tôn trọng (câu mở đầu lời phản đối lịch sự)",
+   "ex": "With all due respect, the data doesn't support that view.",
+   "exm": "Tôi rất tôn trọng ý kiến của chị, nhưng số liệu không ủng hộ quan điểm đó.",
+   "n": "Dùng ngay trước khi phản đối, nhất là với người có vị trí cao hơn. Giọng cần nhẹ nhàng; nói gay gắt sẽ nghe như mỉa mai. Sau đó luôn là một ý trái chiều.",
+   "img": "no"
+  },
+  {
+   "w": "safeguard",
+   "ipa": "/ˈseɪf.ɡɑːd/",
+   "m": "biện pháp bảo vệ; (động từ) bảo vệ",
+   "ex": "Strong safeguards are in place to protect customer data.",
+   "exm": "Chúng tôi đã có các biện pháp chặt chẽ để bảo vệ dữ liệu khách hàng.",
+   "n": "Nhấn âm đầu: SAFE-guard. Danh từ đếm được: safeguards. Động từ: safeguard data = bảo vệ dữ liệu. be in place = đã có, đang được áp dụng."
+  },
+  {
+   "w": "on the contrary",
+   "ipa": "/ɒn ðə ˈkɒn.trə.ri/",
+   "m": "ngược lại (bác bỏ ý vừa nêu)",
+   "ex": "The risk isn't higher in Thailand. On the contrary, the market is growing faster.",
+   "exm": "Rủi ro ở Thái Lan không cao hơn. Ngược lại, thị trường ở đó còn tăng trưởng nhanh hơn.",
+   "n": "Dùng để bác bỏ ý trước (thường là câu phủ định hoặc ý của người khác) và khẳng định điều ngược lại. Khác on the other hand: nêu một mặt khác, cả hai ý đều đúng.",
+   "img": "no"
+  }
+ ],
+ "scene": {
+  "setting": "Chiều thứ Năm, phòng họp của Bright Star. Trước khi trình ban giám đốc Nordwind, bà Ingrid Larsen quay lại với ba câu hỏi khó: dữ liệu khách hàng, rủi ro ở Thái Lan và việc phụ thuộc vào một đối tác. Tom, An và Sarah lần lượt trả lời.",
+  "img": "scene-en-qa-d4",
+  "imgPrompt": "A bright meeting room: ingrid, a Danish woman about 45 with short blonde hair, glasses and a grey blazer, sits upright holding a blank sheet with a serious but polite expression; tom gestures toward a blank screen showing a simple padlock icon; an points at a simple blank bar chart on her laptop; sarah listens and nods calmly, no readable text.",
+  "lines": [
+   {
+    "who": "Ingrid",
+    "t": "Before I take this to our board, I have three concerns I'd like you to address.",
+    "vi": "Trước khi trình ban giám đốc, tôi có ba mối lo ngại muốn các bạn trả lời."
+   },
+   {
+    "who": "Ingrid",
+    "t": "First, customer data. Who owns it, and where is it stored?",
+    "vi": "Thứ nhất là dữ liệu khách hàng. Ai sở hữu nó, và nó được lưu ở đâu?"
+   },
+   {
+    "who": "Tom",
+    "t": "That's a valid concern. All the data is stored in Singapore and encrypted at every stage.",
+    "vi": "Đó là lo ngại xác đáng. Toàn bộ dữ liệu được lưu ở Singapore và được mã hoá ở mọi khâu."
+   },
+   {
+    "who": "Tom",
+    "t": "Customers own their personal data, and it's only shared with partners in anonymised form.",
+    "vi": "Khách hàng sở hữu dữ liệu cá nhân của họ, và dữ liệu chỉ được chia sẻ với đối tác ở dạng ẩn danh."
+   },
+   {
+    "who": "Ingrid",
+    "t": "Second, I'm assuming adoption will be slower in Thailand. Customers there don't know your brand.",
+    "vi": "Thứ hai, tôi cho rằng ở Thái Lan khách sẽ chậm dùng ứng dụng hơn. Khách ở đó chưa biết thương hiệu của các bạn."
+   },
+   {
+    "who": "An",
+    "t": "I acknowledge that, but there's evidence that training works. In the Da Nang pilot, stores with trained staff got twice as many sign-ups.",
+    "vi": "Tôi thừa nhận điều đó, nhưng có bằng chứng cho thấy đào tạo có hiệu quả. Trong đợt chạy thử ở Đà Nẵng, cửa hàng có nhân viên được đào tạo có số lượt đăng ký gấp đôi."
+   },
+   {
+    "who": "An",
+    "t": "To mitigate the risk, we'd provide extra in-store training and review the results after three months.",
+    "vi": "Để giảm rủi ro, chúng tôi sẽ đào tạo thêm tại cửa hàng và xem xét lại kết quả sau ba tháng."
+   },
+   {
+    "who": "Ingrid",
+    "t": "Fine. My last concern is that Nordwind would depend on just one partner.",
+    "vi": "Được. Lo ngại cuối cùng của tôi là Nordwind sẽ phụ thuộc vào chỉ một đối tác."
+   },
+   {
+    "who": "Sarah",
+    "t": "With all due respect, the deal doesn't lock you in. On the contrary, the three-month review gives both sides a clear way out.",
+    "vi": "Tôi rất tôn trọng ý kiến của chị, nhưng thoả thuận này không ràng buộc chị. Ngược lại, buổi xem xét sau ba tháng cho cả hai bên một lối ra rõ ràng."
+   },
+   {
+    "who": "Ingrid",
+    "t": "That's reassuring. I'll share your answers with the board tomorrow.",
+    "vi": "Vậy thì tôi yên tâm hơn. Ngày mai tôi sẽ chia sẻ câu trả lời của các bạn với ban giám đốc."
+   }
+  ]
+ },
+ "patterns": [
+  {
+   "t": "Ghi nhận rồi phản biện: That's a valid point / I acknowledge that + but / however + bằng chứng",
+   "f": [
+    ["That's a valid point,", "but", "our pilot data suggests otherwise."],
+    ["I take your point.", "However,", "the risk is lower than it seems."],
+    ["I acknowledge that,", "but", "there's clear evidence that training works."]
+   ],
+   "ex": [
+    ["That's a valid point, but the data tells a different story.", "Ý đó xác đáng, nhưng số liệu lại cho thấy một câu chuyện khác."],
+    ["I acknowledge the risk, but we have a contingency plan.", "Tôi thừa nhận có rủi ro, nhưng chúng tôi đã có kế hoạch dự phòng."]
+   ],
+   "bad": "That's a valid point, but you are wrong.",
+   "good": "That's a valid point, but the pilot data suggests otherwise.",
+   "why": "Phản biện lịch sự = ghi nhận + but / however + bằng chứng. Câu 'you are wrong' làm đối tác mất mặt, dù trước đó bạn đã khen ý của họ. Hãy để số liệu nói thay bạn: The data suggests… / Our pilot shows…"
+  },
+  {
+   "t": "Bị động: is / are + V3, will be + V3 (khi việc được làm quan trọng hơn người làm)",
+   "f": [
+    ["All customer data", "is stored", "in Singapore."],
+    ["The files", "are encrypted", "at every stage."],
+    ["The results", "will be reviewed", "after three months."]
+   ],
+   "ex": [
+    ["The data is stored in Singapore and encrypted at every stage.", "Dữ liệu được lưu ở Singapore và được mã hoá ở mọi khâu."],
+    ["Personal details are never shared with third parties.", "Thông tin cá nhân không bao giờ được chia sẻ với bên thứ ba."]
+   ],
+   "bad": "All customer data is store in Singapore.",
+   "good": "All customer data is stored in Singapore.",
+   "why": "Bị động = be + quá khứ phân từ (stored, encrypted, shared). Dùng khi muốn nhấn vào việc được làm, rất hợp khi nói về quy trình và bảo mật. Hai động từ bị động nối bằng and thì không cần nhắc lại is: is stored and encrypted. Tương lai: will be + V3."
+  },
+  {
+   "t": "Phản đối nhẹ nhàng: With all due respect, … / On the contrary, …",
+   "f": [
+    ["With all due respect,", "I don't think", "that's the case."],
+    ["The deal doesn't lock you in.", "On the contrary,", "it gives you a clear way out."]
+   ],
+   "ex": [
+    ["With all due respect, the numbers don't support that assumption.", "Tôi rất tôn trọng ý kiến của chị, nhưng số liệu không ủng hộ giả định đó."],
+    ["The app isn't hard to use. On the contrary, older customers find it very simple.", "Ứng dụng không khó dùng. Ngược lại, khách lớn tuổi còn thấy nó rất đơn giản."]
+   ],
+   "bad": "The app is easy to use. On the contrary, it's very popular.",
+   "good": "The app isn't hard to use. On the contrary, older customers find it very simple.",
+   "why": "On the contrary dùng để bác bỏ ý trước (thường là câu phủ định hoặc ý của người khác) rồi khẳng định điều ngược lại. Hai ý cùng chiều thì dùng In fact hoặc What's more; muốn nêu một mặt khác thì dùng On the other hand."
+  }
+ ],
+ "vocab": [
+  {
+   "q": "'mitigate the risk' nghĩa là gì?",
+   "opts": ["giảm nhẹ rủi ro", "chấp nhận rủi ro", "bỏ qua rủi ro"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: chấp nhận rủi ro là accept the risk.",
+    "2": "Chưa đúng: bỏ qua rủi ro là ignore the risk; mitigate là chủ động làm cho rủi ro nhỏ đi."
+   }
+  },
+  {
+   "q": "Điền từ: We have a ___ plan in case adoption in Thailand is slower than expected.",
+   "opts": ["contingency", "concern", "consequence"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: concern là mối lo ngại; không có cụm a concern plan.",
+    "2": "Chưa đúng: consequence là hậu quả; kế hoạch phòng khi có chuyện xảy ra là a contingency plan."
+   }
+  },
+  {
+   "q": "Điền từ: Let me ___ your question about data storage first. All data is stored in Singapore.",
+   "opts": ["address", "reassure", "assume"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: reassure cần một người phía sau (reassure you), không đi với your question.",
+    "2": "Chưa đúng: assume là giả định, không phải trả lời câu hỏi."
+   }
+  },
+  {
+   "q": "Từ nào gần nghĩa nhất với 'valid' trong câu 'That's a valid point'?",
+   "opts": ["reasonable", "wrong", "official"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: wrong mang nghĩa ngược lại.",
+    "2": "Chưa đúng: valid có nghĩa 'còn hiệu lực' khi nói về giấy tờ (a valid ticket), nhưng đi với point thì nghĩa là hợp lý, xác đáng."
+   }
+  },
+  {
+   "q": "Điền từ: Ingrid's ___ is that Thai customers will be slow to use the app. Our data suggests otherwise.",
+   "opts": ["assumption", "evidence", "safeguard"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: evidence là bằng chứng; ở đây Ingrid chỉ đang cho rằng, chưa có số liệu.",
+    "2": "Chưa đúng: safeguard là biện pháp bảo vệ, không hợp nghĩa câu."
+   }
+  },
+  {
+   "q": "Điền từ: We don't just believe training works. We have ___ from the Da Nang pilot.",
+   "opts": ["evidence", "assumption", "contingency"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: assumption là giả định, trái với ý 'không chỉ tin mà có số liệu'. Nếu dùng thì phải là an assumption.",
+    "2": "Chưa đúng: contingency là tình huống bất ngờ, không phải số liệu chứng minh."
+   }
+  },
+  {
+   "q": "Câu nào dùng 'reassure' đúng?",
+   "opts": ["Let me reassure you that the data is safe.", "Let me reassure that the data is safe.", "Let me reassure the data is safe for you."],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: thiếu người được trấn an. Cấu trúc đúng: reassure somebody that…",
+    "2": "Chưa đúng: reassure không đi thẳng với một mệnh đề như vậy; cần reassure you that…"
+   }
+  },
+  {
+   "q": "Điền từ: Strong ___ are in place, so partners only see anonymised data.",
+   "opts": ["safeguards", "assumptions", "concerns"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: assumptions are in place không có nghĩa; giả định không 'được áp dụng'.",
+    "2": "Chưa đúng: concerns là lo ngại; lo ngại không làm cho dữ liệu được ẩn danh."
+   }
+  }
+ ],
+ "grammar": [
+  {
+   "q": "Câu nào đúng?",
+   "opts": ["All customer data is stored in Singapore.", "All customer data stores in Singapore.", "All customer data is store in Singapore."],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: dữ liệu không tự lưu; cần bị động is stored.",
+    "2": "Chưa đúng: bị động cần quá khứ phân từ stored, không phải store."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Điền dạng đúng của encrypt (bị động, hiện tại): The files ___ at every stage.",
+   "model": "are encrypted",
+   "accept": ["are encrypted"],
+   "why": "Chủ ngữ the files số nhiều nên dùng are; bị động = be + V3: are encrypted."
+  },
+  {
+   "q": "Điền: The results ___ after three months.",
+   "opts": ["will be reviewed", "will review", "are reviewing"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: will review là chủ động, nghĩa là kết quả tự xem xét; cần bị động.",
+    "2": "Chưa đúng: are reviewing là chủ động, lại ở hiện tại tiếp diễn, không hợp với after three months."
+   }
+  },
+  {
+   "q": "Câu nào đúng?",
+   "opts": ["We have strong evidence from the pilot.", "We have a strong evidence from the pilot.", "We have strong evidences from the pilot."],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: evidence không đếm được nên không dùng a. Muốn đếm thì nói a piece of evidence.",
+    "2": "Chưa đúng: evidence không có dạng số nhiều evidences."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Điền một từ: I take your ___, but the evidence suggests the risk is quite small.",
+   "model": "point",
+   "accept": ["point"],
+   "why": "Cụm cố định để ghi nhận ý người khác: I take your point, but…"
+  },
+  {
+   "q": "Điền: The app isn't difficult for older users. ___, they rated it higher than younger users did.",
+   "opts": ["On the contrary", "On the other hand", "As a result"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: On the other hand nêu một mặt khác cũng đúng, còn ở đây câu sau bác bỏ ý 'khó dùng'.",
+    "2": "Chưa đúng: As a result chỉ kết quả, nhưng việc 'không khó dùng' không dẫn đến kết quả được chấm điểm cao hơn."
+   }
+  },
+  {
+   "q": "Khi chưa có đủ số liệu, câu nào nói giảm nhẹ (hedging) phù hợp nhất?",
+   "opts": ["Adoption in Thailand may be slightly slower at first.", "Adoption in Thailand will definitely fail.", "Adoption in Thailand is always slower."],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: definitely fail là khẳng định quá mạnh khi chưa có bằng chứng.",
+    "2": "Chưa đúng: always là khẳng định tuyệt đối; nên dùng may, might, tends to."
+   }
+  }
+ ],
+ "listen": [
+  {
+   "q": "Dữ liệu khách hàng được lưu ở đâu?",
+   "audio": "All customer data is stored in Singapore and encrypted at every stage.",
+   "opts": ["ở Singapore", "ở Việt Nam", "ở Thái Lan"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: câu nghe nói stored in Singapore, không nhắc đến Việt Nam.",
+    "2": "Chưa đúng: Thái Lan là thị trường mới, không phải nơi lưu dữ liệu."
+   }
+  },
+  {
+   "q": "Đối tác nhận dữ liệu ở dạng nào?",
+   "audio": "Customers own their personal data. Partners only receive it in anonymised form.",
+   "opts": ["dạng ẩn danh", "đầy đủ tên và số điện thoại", "không nhận dữ liệu nào"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: in anonymised form là đã ẩn danh, không có tên hay số điện thoại.",
+    "2": "Chưa đúng: đối tác vẫn nhận dữ liệu, nhưng chỉ ở dạng ẩn danh."
+   }
+  },
+  {
+   "q": "Ingrid lo ngại điều gì về Thái Lan?",
+   "audio": "I'm assuming adoption will be slower in Thailand, because customers there don't know your brand yet.",
+   "opts": ["khách sẽ chậm dùng ứng dụng hơn", "chi phí cửa hàng cao hơn", "dữ liệu bị lưu ở Thái Lan"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: câu nghe không nói đến chi phí cửa hàng.",
+    "2": "Chưa đúng: câu nghe nói về adoption (mức độ khách sử dụng), không nói nơi lưu dữ liệu."
+   }
+  },
+  {
+   "q": "Bằng chứng từ đợt chạy thử ở Đà Nẵng là gì?",
+   "audio": "In the Da Nang pilot, stores with trained staff got twice as many sign-ups.",
+   "opts": ["cửa hàng có nhân viên được đào tạo có số đăng ký gấp đôi", "số đăng ký giảm một nửa", "nhân viên không cần đào tạo"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: twice as many là gấp đôi, không phải giảm một nửa.",
+    "2": "Chưa đúng: câu nghe cho thấy đào tạo nhân viên giúp tăng đăng ký."
+   }
+  },
+  {
+   "q": "Khi nào kết quả được xem xét lại?",
+   "audio": "If adoption is slow, we'll add extra in-store training, and the results will be reviewed after three months.",
+   "opts": ["sau ba tháng", "sau sáu tháng", "sau mười tám tháng"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: sáu tháng là thời hạn quảng bá ở ít nhất 25 cửa hàng, không phải lúc xem xét.",
+    "2": "Chưa đúng: mười tám tháng là thời hạn độc quyền."
+   }
+  },
+  {
+   "q": "Sarah muốn nói gì?",
+   "audio": "With all due respect, the deal doesn't lock you in. The exclusivity lasts only eighteen months.",
+   "opts": ["Thoả thuận không ràng buộc Nordwind quá lâu", "Sarah đồng ý hoàn toàn với Ingrid", "Độc quyền kéo dài vô thời hạn"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: With all due respect mở đầu một ý phản đối, nên Sarah không đồng ý hoàn toàn.",
+    "2": "Chưa đúng: độc quyền chỉ kéo dài mười tám tháng (only eighteen months)."
+   }
+  },
+  {
+   "q": "Ingrid cảm thấy thế nào và sẽ làm gì?",
+   "audio": "That's reassuring. I'll share your answers with our board tomorrow.",
+   "opts": ["yên tâm hơn, sẽ chia sẻ câu trả lời với ban giám đốc", "vẫn lo, sẽ huỷ thoả thuận", "vui, sẽ ký hợp đồng ngay hôm nay"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: That's reassuring nghĩa là thấy yên tâm hơn; không ai nói huỷ thoả thuận.",
+    "2": "Chưa đúng: Ingrid chỉ nói sẽ chia sẻ với ban giám đốc vào ngày mai, chưa ký hợp đồng."
+   }
+  }
+ ],
+ "hsk": [
+  {
+   "q": "TOEIC Part 3 · Nghe hội thoại và câu hỏi, chọn đáp án.",
+   "audio": "Woman: Tom, Ms Larsen asked where our customer data is kept. Man: It's stored on servers in Singapore, and it's encrypted at every stage. Woman: Good. Could you put that in writing before her board meeting? Man: Sure, I'll send her a short summary this afternoon. Question: What will the man do this afternoon?",
+   "opts": ["Send a summary to Ms Larsen", "Move the servers to Singapore", "Attend the board meeting", "Encrypt the customer data"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: máy chủ vốn đã ở Singapore, không ai nói chuyển máy chủ.",
+    "2": "Chưa đúng: cuộc họp ban giám đốc là của Ms Larsen; người đàn ông không nói sẽ dự.",
+    "3": "Chưa đúng: dữ liệu đã được mã hoá sẵn (it's encrypted), việc chiều nay là gửi bản tóm tắt."
+   }
+  },
+  {
+   "q": "TOEIC Part 4 · Nghe tin nhắn thoại và câu hỏi, chọn đáp án.",
+   "audio": "Woman: Hello, this is Ingrid Larsen from Nordwind Retail. Thank you for answering our questions so clearly today. Our board has read your notes, and they'd like one more detail: a timeline for the extra in-store training in Thailand. Could you send it to me by Monday? Thanks. Question: What does the speaker ask for?",
+   "opts": ["A timeline for training in Thailand", "A lower commission", "A list of customer names", "A meeting in Singapore"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: người nói không nhắc đến hoa hồng.",
+    "2": "Chưa đúng: không ai xin danh sách tên khách; dữ liệu chỉ được chia sẻ ở dạng ẩn danh.",
+    "3": "Chưa đúng: Singapore là nơi lưu dữ liệu, không có cuộc họp nào ở đó."
+   }
+  },
+  {
+   "q": "TOEIC Part 5 · Chọn đáp án đúng: Customer data ___ only in anonymised form, so individual shoppers cannot be identified.",
+   "opts": ["is shared", "shares", "is sharing", "has shared"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: dữ liệu không tự chia sẻ; cần bị động is shared.",
+    "2": "Chưa đúng: is sharing là chủ động tiếp diễn, nghĩa là dữ liệu đang tự chia sẻ.",
+    "3": "Chưa đúng: has shared cũng là chủ động; câu cần bị động be + V3."
+   }
+  },
+  {
+   "q": "IELTS Reading · True / False / Not Given. Đoạn đọc: \"All customer data collected by the app is stored on servers in Singapore and encrypted. Partner retailers receive monthly reports in anonymised form. The data is never sold to third parties.\" Nhận định: Partner retailers can see the names of individual customers.",
+   "opts": ["True", "False", "Not Given"],
+   "a": 1,
+   "why": {
+    "0": "Không chọn True: đối tác chỉ nhận báo cáo dạng ẩn danh (anonymised), nên không thấy tên khách.",
+    "2": "Không chọn Not Given: đoạn đọc có thông tin này; anonymised form mâu thuẫn trực tiếp với việc thấy tên, nên là False."
+   }
+  },
+  {
+   "q": "IELTS Writing Task 2 · Đề: \"Some people believe companies should never share customer data with business partners. To what extent do you agree or disagree?\" Câu luận điểm (thesis) nào rõ ràng và phù hợp nhất?",
+   "opts": ["While a complete ban seems unnecessary, I believe data should only be shared when it is anonymised and strictly protected.", "Customer data is very important in the modern world.", "In this essay, I will talk about data.", "Companies share data, and some people like it but some people do not."],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: câu quá chung chung, không trả lời mức độ đồng ý.",
+    "2": "Chưa đúng: chỉ giới thiệu chủ đề, không nêu quan điểm; giám khảo cần thấy lập trường rõ ràng.",
+    "3": "Chưa đúng: chỉ mô tả hai phía, người viết chưa nói mình đồng ý đến mức nào."
+   }
+  }
+ ],
+ "shadow": [
+  {
+   "t": "acknowledge",
+   "focus": "Chữ k không đọc: ək-NOL-idge; âm cuối /dʒ/ như 'ch' nhẹ có rung."
+  },
+  {
+   "t": "contingency",
+   "focus": "Nhấn âm hai: con-TIN-gen-cy; chữ g đọc /dʒ/, không đọc 'g' cứng."
+  },
+  {
+   "t": "That's a valid point, but our data suggests otherwise.",
+   "focus": "Nối That's‿a: 'đét-xơ'; nhấn VAL-id và sug-GESTS; ngắt nhẹ trước but."
+  },
+  {
+   "t": "All customer data is stored in Singapore and encrypted.",
+   "focus": "stored đuôi -ed đọc /d/; encrypted đuôi -ed đọc /ɪd/ vì gốc tận cùng bằng t. Nhấn en-CRYP-ted."
+  },
+  {
+   "t": "With all due respect, I don't think that's the case.",
+   "focus": "due đọc /djuː/ 'điu'; nhấn re-SPECT. Giọng nhẹ, xuống giọng cuối câu để không nghe gay gắt."
+  },
+  {
+   "t": "On the contrary, the risk is lower than it seems.",
+   "focus": "Nhấn âm đầu: CON-tra-ry; than đọc yếu /ðən/; nhấn LOW-er."
+  }
+ ],
+ "dialog": {
+  "title": "Bà Ingrid nêu từng lo ngại; bạn ghi nhận, trả lời bằng bằng chứng và phản biện lịch sự. Đổi vai: bạn là Ingrid, hỏi khó về dữ liệu, thị trường Thái Lan và rủi ro.",
+  "partner": "Ingrid Larsen",
+  "turns": [
+   {
+    "ai": "Let's start with data. Where is our customers' data stored?",
+    "vi": "Bắt đầu với dữ liệu nhé. Dữ liệu khách hàng của chúng tôi được lưu ở đâu?",
+    "model": "It's stored in Singapore, and it's encrypted at every stage.",
+    "accept": [
+     "It's stored in Singapore, and it's encrypted at every stage.",
+     "It's stored in Singapore and encrypted at every stage.",
+     "It is stored in Singapore, and it is encrypted at every stage.",
+     "All the data is stored in Singapore and encrypted.",
+     "It's stored in Singapore."
+    ],
+    "frame": "It's ___ in Singapore, and it's encrypted at every stage.",
+    "hint": "Dùng bị động: It's stored in… and it's encrypted…"
+   },
+   {
+    "ai": "But who owns the data? We can't take any risks with privacy.",
+    "vi": "Nhưng ai sở hữu dữ liệu? Chúng tôi không thể mạo hiểm với quyền riêng tư.",
+    "model": "Customers own their personal data, and we only share it in anonymised form.",
+    "accept": [
+     "Customers own their personal data, and we only share it in anonymised form.",
+     "Customers own their data, and we only share it in anonymised form.",
+     "Customers own their personal data, and it's only shared in anonymised form.",
+     "Customers own their personal data and we only share it in anonymized form.",
+     "The customers own it, and we only share anonymised data."
+    ],
+    "frame": "Customers own their personal data, and we only share it in ___ form.",
+    "hint": "Nói ai sở hữu dữ liệu, rồi nói chỉ chia sẻ ở dạng ẩn danh: in anonymised form."
+   },
+   {
+    "ai": "I'm also worried that adoption will be slower in Thailand.",
+    "vi": "Tôi cũng lo là ở Thái Lan khách sẽ chậm dùng ứng dụng hơn.",
+    "model": "That's a valid concern, but we have a contingency plan for it.",
+    "accept": [
+     "That's a valid concern, but we have a contingency plan for it.",
+     "That's a valid concern, but we have a contingency plan.",
+     "That is a valid concern, but we have a contingency plan for it.",
+     "That's a valid point, but we have a contingency plan for it.",
+     "I acknowledge that, but we have a contingency plan."
+    ],
+    "frame": "That's a ___ concern, but we have a contingency plan for it.",
+    "hint": "Ghi nhận trước: That's a valid concern, rồi but + kế hoạch dự phòng (a contingency plan)."
+   },
+   {
+    "ai": "What would that plan involve?",
+    "vi": "Kế hoạch đó gồm những gì?",
+    "model": "We'd provide extra in-store training and review the results after three months.",
+    "accept": [
+     "We'd provide extra in-store training and review the results after three months.",
+     "We would provide extra in-store training and review the results after three months.",
+     "We'd provide extra in-store training, and the results would be reviewed after three months.",
+     "Extra in-store training and a review after three months.",
+     "We'd provide extra training in stores and review the results after three months."
+    ],
+    "frame": "We'd provide extra in-store ___ and review the results after three months.",
+    "hint": "Hai biện pháp: extra in-store training và review the results after three months."
+   },
+   {
+    "ai": "Still, relying on one partner feels risky to me.",
+    "vi": "Dù vậy, tôi vẫn thấy dựa vào một đối tác là rủi ro.",
+    "model": "With all due respect, the three-month review means you're never locked in.",
+    "accept": [
+     "With all due respect, the three-month review means you're never locked in.",
+     "With all due respect, the three-month review means you are never locked in.",
+     "With all due respect, the review after three months means you're never locked in.",
+     "With all due respect, you're not locked in because of the three-month review.",
+     "With all due respect, the deal doesn't lock you in."
+    ],
+    "frame": "With all due ___, the three-month review means you're never locked in.",
+    "hint": "Phản đối nhẹ nhàng: With all due respect, + lý do (buổi xem xét sau ba tháng)."
+   }
+  ]
+ },
+ "reading": {
+  "title": "Tài liệu trả lời các lo ngại của Nordwind",
+  "text": "BRIGHT STAR × NORDWIND RETAIL\nResponses to partnership concerns (prepared for Ingrid Larsen)\n\n1. Customer data\nAll data collected through the app is stored on secure servers in Singapore and encrypted both in transit and at rest. Customers remain the owners of their personal data. Nordwind would receive monthly reports in anonymised form only, so individual shoppers cannot be identified. No data is sold to third parties.\n\n2. Adoption in Thailand\nWe acknowledge that Bright Star is a new brand in Thailand, and adoption may be slower at first. However, evidence from the Da Nang pilot suggests that in-store support makes a significant difference: stores with trained staff recorded twice as many sign-ups as those without. To mitigate the risk, we propose extra in-store training in all Thai stores and a joint review of the results after three months.\n\n3. Dependence on one partner\nThe exclusivity period is limited to 18 months. Progress towards the agreed target of at least 25 stores in the first six months will be checked at the three-month review, and if necessary, both sides may adjust the plan. We therefore believe the partnership offers flexibility rather than dependence.",
+  "vi": "BRIGHT STAR × NORDWIND RETAIL\nTrả lời các lo ngại về hợp tác (gửi bà Ingrid Larsen)\n\n1. Dữ liệu khách hàng\nMọi dữ liệu thu thập qua ứng dụng được lưu trên máy chủ bảo mật ở Singapore và được mã hoá cả khi truyền đi lẫn khi lưu trữ. Khách hàng vẫn là chủ sở hữu dữ liệu cá nhân của mình. Nordwind chỉ nhận báo cáo hằng tháng ở dạng ẩn danh, nên không thể nhận ra từng người mua. Không có dữ liệu nào được bán cho bên thứ ba.\n\n2. Mức độ sử dụng ở Thái Lan\nChúng tôi thừa nhận Bright Star là thương hiệu mới ở Thái Lan, và lúc đầu khách có thể dùng ứng dụng chậm hơn. Tuy nhiên, bằng chứng từ đợt chạy thử ở Đà Nẵng cho thấy hỗ trợ tại cửa hàng tạo ra khác biệt đáng kể: cửa hàng có nhân viên được đào tạo ghi nhận số lượt đăng ký gấp đôi cửa hàng không có. Để giảm nhẹ rủi ro, chúng tôi đề xuất đào tạo thêm tại tất cả cửa hàng ở Thái Lan và hai bên cùng xem xét kết quả sau ba tháng.\n\n3. Phụ thuộc vào một đối tác\nThời hạn độc quyền chỉ là 18 tháng. Tiến độ đạt mục tiêu đã thống nhất (ít nhất 25 cửa hàng trong sáu tháng đầu) sẽ được kiểm tra ở buổi xem xét sau ba tháng, và nếu cần, hai bên có thể điều chỉnh kế hoạch. Vì vậy, chúng tôi tin rằng sự hợp tác này mang lại sự linh hoạt chứ không phải sự phụ thuộc.",
+  "qs": [
+   {
+    "q": "Dữ liệu được mã hoá khi nào?",
+    "opts": ["cả khi truyền đi và khi lưu trữ", "chỉ khi gửi cho Nordwind", "không được mã hoá"],
+    "a": 0,
+    "why": {
+     "1": "Chưa đúng: bài đọc ghi encrypted both in transit and at rest, tức là cả khi truyền đi lẫn khi lưu trữ.",
+     "2": "Chưa đúng: bài đọc ghi rõ dữ liệu được mã hoá (encrypted)."
+    }
+   },
+   {
+    "q": "Nordwind nhận gì về dữ liệu khách hàng?",
+    "opts": ["báo cáo hằng tháng ở dạng ẩn danh", "danh sách tên và số điện thoại khách", "toàn bộ dữ liệu gốc"],
+    "a": 0,
+    "why": {
+     "1": "Chưa đúng: individual shoppers cannot be identified, nên không có tên hay số điện thoại.",
+     "2": "Chưa đúng: Nordwind chỉ nhận monthly reports in anonymised form only."
+    }
+   },
+   {
+    "q": "Bằng chứng nào được dùng để trả lời lo ngại về Thái Lan?",
+    "opts": ["cửa hàng có nhân viên được đào tạo có số đăng ký gấp đôi", "người Thái thích dùng ứng dụng hơn người Việt", "Nordwind có nhiều cửa hàng ở Thái Lan"],
+    "a": 0,
+    "why": {
+     "1": "Chưa đúng: bài không so sánh người Thái với người Việt.",
+     "2": "Chưa đúng: bài không nói số cửa hàng của Nordwind ở Thái Lan; bằng chứng là số liệu chạy thử ở Đà Nẵng."
+    }
+   },
+   {
+    "q": "Đúng hay sai: \"Bright Star sells anonymised data to other companies.\"",
+    "opts": ["Sai", "Đúng"],
+    "a": 0,
+    "why": {
+     "1": "Không đúng: bài đọc ghi No data is sold to third parties (không bán dữ liệu cho bên thứ ba)."
+    }
+   },
+   {
+    "q": "Tiến độ của mục tiêu 25 cửa hàng sẽ được kiểm tra khi nào?",
+    "opts": ["ở buổi xem xét sau ba tháng", "sau 18 tháng", "sau sáu tháng"],
+    "a": 0,
+    "why": {
+     "1": "Chưa đúng: 18 tháng là thời hạn độc quyền.",
+     "2": "Chưa đúng: sáu tháng là thời hạn để đạt mục tiêu; việc kiểm tra tiến độ diễn ra ở buổi xem xét sau ba tháng."
+    }
+   }
+  ]
+ },
+ "near": [
+  {
+   "q": "Chọn dạng đúng: The data is stored ___ in Singapore. (secure)",
+   "opts": ["securely", "secure", "security"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: secure là tính từ; bổ nghĩa cho động từ is stored cần trạng từ securely.",
+    "2": "Chưa đúng: security là danh từ, không đứng sau động từ để chỉ cách thức."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: Customer data is shared only in ___ form. (anonymise)",
+   "opts": ["anonymised", "anonymise", "anonymously"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: anonymise là động từ; trước danh từ form cần tính từ (dạng V3) anonymised.",
+    "2": "Chưa đúng: anonymously là trạng từ, không bổ nghĩa cho danh từ form."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: The pilot provides strong ___ that training works. (evident)",
+   "opts": ["evidence", "evident", "evidently"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: evident là tính từ; sau tính từ strong cần danh từ evidence.",
+    "2": "Chưa đúng: evidently là trạng từ, không làm tân ngữ cho provides."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: Tom's answer was very ___, so Ingrid felt calmer. (reassure)",
+   "opts": ["reassuring", "reassured", "reassurance"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: reassured (-ed) chỉ cảm giác của người được trấn an (Ingrid felt reassured); câu trả lời là thứ gây ra cảm giác nên dùng -ing.",
+    "2": "Chưa đúng: reassurance là danh từ; sau very cần tính từ."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: We need more data to ___ this assumption. (valid)",
+   "opts": ["validate", "valid", "validity"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: valid là tính từ; sau to và trước tân ngữ this assumption cần động từ validate.",
+    "2": "Chưa đúng: validity là danh từ, không đứng sau to để làm động từ."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: Sarah began with a brief ___ of Ingrid's concerns. (acknowledge)",
+   "opts": ["acknowledgement", "acknowledge", "acknowledged"],
+   "a": 0,
+   "why": {
+    "1": "Chưa đúng: acknowledge là động từ; sau a brief cần danh từ acknowledgement.",
+    "2": "Chưa đúng: acknowledged là quá khứ phân từ, không đứng sau a brief làm danh từ."
+   }
+  }
+ ],
+ "orderPara": [
+  {
+   "k": "order",
+   "q": "Sắp xếp các câu thành đoạn văn đúng (IELTS Writing · mạch lập luận)",
+   "tokens": [
+    "Ms Larsen raised a concern about customer data privacy.",
+    "This is understandable, as the app collects a large amount of personal information.",
+    "However, all data is encrypted and shared with partners only in anonymised form.",
+    "As a result, no individual customer can be identified."
+   ],
+   "explain": "Câu 1 nêu vấn đề. This ở câu 2 chỉ lại mối lo ngại vừa nêu. However đổi chiều sang câu trả lời. As a result nêu kết quả của việc mã hoá và ẩn danh.",
+   "vi": "Bà Larsen nêu lo ngại về quyền riêng tư của dữ liệu khách hàng. Điều này dễ hiểu, vì ứng dụng thu thập rất nhiều thông tin cá nhân. Tuy nhiên, mọi dữ liệu đều được mã hoá và chỉ được chia sẻ với đối tác ở dạng ẩn danh. Nhờ vậy, không thể nhận ra bất kỳ khách hàng nào."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp các câu thành đoạn văn đúng (IELTS Writing · mạch lập luận)",
+   "tokens": [
+    "Some people assume that adoption will be slower in Thailand.",
+    "There is, however, little evidence to support this view.",
+    "On the contrary, the Da Nang pilot showed that trained staff can double sign-ups.",
+    "Training should therefore be the first step in any new market."
+   ],
+   "explain": "Câu 1 nêu giả định. Câu 2 có however và this view, chỉ lại giả định đó. On the contrary đưa bằng chứng ngược lại. therefore rút ra kết luận nên đứng cuối.",
+   "vi": "Có người cho rằng ở Thái Lan khách sẽ chậm dùng ứng dụng hơn. Tuy nhiên, có rất ít bằng chứng ủng hộ quan điểm này. Ngược lại, đợt chạy thử ở Đà Nẵng cho thấy nhân viên được đào tạo có thể giúp số đăng ký tăng gấp đôi. Vì vậy, đào tạo nên là bước đầu tiên ở bất kỳ thị trường mới nào."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp các câu thành đoạn văn đúng (IELTS Writing · mạch lập luận)",
+   "tokens": [
+    "We acknowledge that relying on one partner carries some risk.",
+    "To mitigate this risk, a review will be held after three months.",
+    "If the targets are not met, the plan can be adjusted.",
+    "In other words, neither side is locked in."
+   ],
+   "explain": "Câu 1 thừa nhận rủi ro. this risk ở câu 2 chỉ lại rủi ro đó và nêu biện pháp. Câu 3 nói điều gì xảy ra ở buổi xem xét. In other words tóm lại ý, nên đứng cuối.",
+   "vi": "Chúng tôi thừa nhận việc dựa vào một đối tác có phần rủi ro. Để giảm nhẹ rủi ro này, sẽ có một buổi xem xét sau ba tháng. Nếu không đạt mục tiêu, kế hoạch có thể được điều chỉnh. Nói cách khác, không bên nào bị ràng buộc."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp các câu thành đoạn văn đúng (IELTS Writing · mạch lập luận)",
+   "tokens": [
+    "Any new launch involves a degree of uncertainty.",
+    "For this reason, we have prepared a contingency plan.",
+    "It includes extra in-store training and a joint review after three months.",
+    "These steps should reassure partners that problems will be addressed quickly."
+   ],
+   "explain": "Câu 1 nêu bối cảnh chung. For this reason dẫn tới việc lập kế hoạch dự phòng. It ở câu 3 chỉ kế hoạch đó. These steps tóm lại các biện pháp vừa kể, nên đứng cuối.",
+   "vi": "Mọi đợt ra mắt mới đều có phần không chắc chắn. Vì lý do đó, chúng tôi đã chuẩn bị kế hoạch dự phòng. Kế hoạch gồm đào tạo thêm tại cửa hàng và một buổi cùng xem xét sau ba tháng. Những bước này sẽ giúp đối tác yên tâm rằng mọi vấn đề sẽ được giải quyết nhanh chóng."
+  }
+ ],
+ "notes": {
+  "title": "Ghi chú: kết quả buổi hỏi đáp với Nordwind",
+  "lines": [
+   {
+    "who": "Kevin",
+    "t": "I missed the Q&A with Ingrid. How did it go?",
+    "vi": "Anh lỡ mất buổi hỏi đáp với Ingrid. Mọi chuyện thế nào?"
+   },
+   {
+    "who": "An",
+    "t": "Quite well. Her first concern was data, so Tom explained that everything is stored in Singapore.",
+    "vi": "Khá ổn ạ. Lo ngại đầu tiên của chị ấy là dữ liệu, nên Tom giải thích là mọi thứ được lưu ở Singapore."
+   },
+   {
+    "who": "An",
+    "t": "He also said the data is encrypted and only shared in anonymised form.",
+    "vi": "Anh ấy cũng nói dữ liệu được mã hoá và chỉ được chia sẻ ở dạng ẩn danh."
+   },
+   {
+    "who": "Kevin",
+    "t": "And what about Thailand?",
+    "vi": "Còn Thái Lan thì sao?"
+   },
+   {
+    "who": "An",
+    "t": "We offered extra in-store training, and the results will be reviewed after three months.",
+    "vi": "Bên mình đề xuất đào tạo thêm tại cửa hàng, và kết quả sẽ được xem xét lại sau ba tháng."
+   },
+   {
+    "who": "Kevin",
+    "t": "Is the store target still the same?",
+    "vi": "Mục tiêu số cửa hàng vẫn giữ nguyên chứ?"
+   },
+   {
+    "who": "An",
+    "t": "Yes, at least 25 stores in the first six months.",
+    "vi": "Vâng, ít nhất 25 cửa hàng trong sáu tháng đầu."
+   },
+   {
+    "who": "An",
+    "t": "Her last concern was dependence on one partner, but Sarah pointed out that the exclusivity lasts only 18 months.",
+    "vi": "Lo ngại cuối cùng của chị ấy là phụ thuộc vào một đối tác, nhưng Sarah chỉ ra rằng độc quyền chỉ kéo dài 18 tháng."
+   },
+   {
+    "who": "Kevin",
+    "t": "Great. So when does she meet her board?",
+    "vi": "Tốt quá. Vậy khi nào chị ấy họp với ban giám đốc?"
+   },
+   {
+    "who": "An",
+    "t": "Tomorrow morning. She'll email us straight after the meeting.",
+    "vi": "Sáng mai ạ. Họp xong chị ấy sẽ email cho mình ngay."
+   }
+  ],
+  "form": [
+   {
+    "label": "Where customer data is stored",
+    "answer": "Singapore",
+    "accept": ["Singapore", "in Singapore"],
+    "why": "An nói: everything is stored in Singapore."
+   },
+   {
+    "label": "Data is shared only in ______ form",
+    "answer": "anonymised",
+    "accept": ["anonymised", "anonymized", "anonymised form", "anonymized form"],
+    "why": "An nói: only shared in anonymised form (kiểu Mỹ viết anonymized cũng được chấp nhận)."
+   },
+   {
+    "label": "Support for Thai stores: extra in-store ______",
+    "answer": "training",
+    "accept": ["training", "in-store training", "extra training", "extra in-store training"],
+    "why": "An nói: We offered extra in-store training."
+   },
+   {
+    "label": "Results reviewed after",
+    "answer": "three months",
+    "accept": ["three months", "3 months"],
+    "why": "An nói: the results will be reviewed after three months."
+   },
+   {
+    "label": "Minimum number of stores (first six months)",
+    "answer": "25",
+    "accept": ["25", "twenty-five", "twenty five", "25 stores"],
+    "why": "An nói: at least 25 stores in the first six months. Đề hỏi số nên chỉ cần ghi 25."
+   },
+   {
+    "label": "Length of exclusivity",
+    "answer": "18 months",
+    "accept": ["18 months", "eighteen months", "18"],
+    "why": "An nói: the exclusivity lasts only 18 months."
+   }
+  ]
+ },
+ "longturn": {
+  "cue": "IELTS Speaking Part 3 (long answer): Should companies share customer data with business partners? Give reasons and examples.",
+  "cueVi": "IELTS Speaking Phần 3 (trả lời dài): Các công ty có nên chia sẻ dữ liệu khách hàng với đối tác kinh doanh không? Hãy nêu lý do và ví dụ.",
+  "points": [
+   "Give your overall opinion (under what conditions)",
+   "Explain one benefit of sharing data",
+   "Acknowledge a concern and respond to it with evidence",
+   "Give a real example and conclude"
+  ],
+  "pointsVi": [
+   "Nêu quan điểm chung (chia sẻ trong điều kiện nào)",
+   "Giải thích một lợi ích của việc chia sẻ dữ liệu",
+   "Ghi nhận một lo ngại rồi phản biện bằng bằng chứng",
+   "Đưa một ví dụ thật và kết luận"
+  ],
+  "prep": 60,
+  "speak": [60, 120],
+  "model": "In my view, companies should be allowed to share customer data with partners, but only under strict conditions. The main benefit is that partners can understand their customers better. For example, if a retailer knows which products are popular in each store, it can plan its stock more efficiently and offer more relevant deals. That said, I acknowledge that privacy is a valid concern. Many people worry that their personal details might be sold or misused, and those fears are not unreasonable. However, I'd argue that the risk can be mitigated. Data can be anonymised, so no individual can be identified, and it can be encrypted and stored securely. In my own work, for instance, we share only anonymised monthly reports with our retail partner, and no customer names are ever included. So, on balance, I don't think a total ban is necessary. On the contrary, sharing data responsibly can benefit both businesses and customers, as long as clear safeguards are in place.",
+  "modelVi": "Theo tôi, các công ty nên được phép chia sẻ dữ liệu khách hàng với đối tác, nhưng chỉ trong những điều kiện chặt chẽ. Lợi ích chính là đối tác có thể hiểu khách hàng của họ rõ hơn. Ví dụ, nếu một nhà bán lẻ biết sản phẩm nào bán chạy ở từng cửa hàng, họ có thể lên kế hoạch hàng tồn kho hiệu quả hơn và đưa ra ưu đãi phù hợp hơn. Dù vậy, tôi thừa nhận quyền riêng tư là một lo ngại xác đáng. Nhiều người sợ thông tin cá nhân của họ có thể bị bán hoặc bị lạm dụng, và nỗi lo đó không phải vô lý. Tuy nhiên, tôi cho rằng rủi ro này có thể được giảm nhẹ. Dữ liệu có thể được ẩn danh để không ai bị nhận ra, đồng thời được mã hoá và lưu trữ an toàn. Chẳng hạn, ở chỗ tôi làm, chúng tôi chỉ chia sẻ báo cáo hằng tháng dạng ẩn danh với đối tác bán lẻ, và không bao giờ có tên khách hàng trong đó. Vì vậy, xét tổng thể, tôi không nghĩ cần cấm hoàn toàn. Ngược lại, chia sẻ dữ liệu một cách có trách nhiệm có thể mang lại lợi ích cho cả doanh nghiệp lẫn khách hàng, miễn là có các biện pháp bảo vệ rõ ràng.",
+  "useful": [
+   "In my view, … but only under strict conditions.",
+   "The main benefit is that…",
+   "That said, I acknowledge that … is a valid concern.",
+   "However, I'd argue that the risk can be mitigated.",
+   "Data can be anonymised / encrypted / stored securely.",
+   "In my own work, for instance, …",
+   "So, on balance, …",
+   "as long as clear safeguards are in place"
+  ],
+  "check": [
+   "Nêu rõ quan điểm ngay câu đầu, có kèm điều kiện",
+   "Có một lợi ích và một ví dụ cụ thể",
+   "Ghi nhận ý phản đối (I acknowledge… / That said…) trước khi phản biện",
+   "Dùng ít nhất 2 câu bị động (can be anonymised, is stored…)",
+   "Có từ nối mạch lạc: However, For example, So, on balance",
+   "Nói được từ 1 đến 2 phút, không dừng quá lâu giữa các ý"
+  ]
+ },
+ "write": {
+  "task": "IELTS Writing Task 2: viết MỘT đoạn thân bài (150–190 từ) cho đề \"Some people think companies should never share customer data with business partners. To what extent do you agree or disagree?\" Đoạn văn cần: thừa nhận lo ngại về quyền riêng tư, phản biện rằng rủi ro có thể giảm nhẹ, đưa hai biện pháp và một ví dụ, rồi kết lại quan điểm.",
+  "kind": "essay",
+  "model": "Admittedly, sharing customer data with business partners raises valid concerns about privacy. Customers rarely know where their information is stored, and a single leak could seriously damage public trust. However, I would argue that these risks can be effectively mitigated rather than avoided altogether. First, personal data can be anonymised before it is shared, which means that partners see shopping patterns rather than names or phone numbers. Second, the information can be encrypted and stored on secure servers, so that even if a system is attacked, the data cannot easily be read. A good example is a mobile shopping app that shares only monthly anonymised reports with its retail partners. In this way, stores can plan their stock more efficiently, while customers still receive more relevant offers without giving up their privacy. A complete ban, by contrast, would prevent many small companies from growing through partnerships. Therefore, the most sensible approach is not to stop sharing data altogether, but to ensure that strict safeguards are always in place.",
+  "frame": "___, sharing customer data with business partners raises ___. Customers rarely know where their information is stored, and a single leak could seriously damage public trust. However, I would argue that these risks can be effectively ___ rather than avoided altogether. First, personal data can be ___ before it ___, which means that partners see shopping patterns rather than names or phone numbers. Second, the information can be ___, so that even if a system is attacked, the data cannot easily be read. A good example is ___. In this way, stores can plan their stock more efficiently, while customers still receive more relevant offers without giving up their privacy. A complete ban, by contrast, would prevent many small companies from growing through partnerships. ___, the most sensible approach is not to stop sharing data altogether, but to ensure that ___.",
+  "gaps": [
+   "Admittedly",
+   "valid concerns about privacy",
+   "mitigated",
+   "anonymised",
+   "is shared",
+   "encrypted and stored on secure servers",
+   "a mobile shopping app that shares only monthly anonymised reports with its retail partners",
+   "Therefore",
+   "strict safeguards are always in place"
+  ],
+  "free": [false, true, false, false, false, true, true, false, true],
+  "hints": [
+   "Mở đoạn bằng nhượng bộ: Admittedly, … / It is true that …",
+   "Chuyển sang phản biện: However, I would argue that …",
+   "Bị động với can: can be anonymised / can be encrypted and stored",
+   "Liệt kê biện pháp: First, … Second, …",
+   "Đưa ví dụ: A good example is …",
+   "Kết đoạn: Therefore, the most sensible approach is not to …, but to …"
+  ],
+  "check": [
+   "Có câu nhượng bộ ở đầu đoạn (Admittedly / It is true that) rồi mới phản biện",
+   "Có ít nhất hai biện pháp và một ví dụ cụ thể",
+   "Dùng đúng ít nhất 3 câu bị động (is stored, can be anonymised, is shared…)",
+   "Từ nối rõ ràng: However, First, Second, In this way, Therefore",
+   "Câu cuối nhắc lại quan điểm, không thêm ý mới",
+   "Dài 150–190 từ"
+  ],
+  "words": [150, 190]
+ }
+}

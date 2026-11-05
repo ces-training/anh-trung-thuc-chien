@@ -1,0 +1,906 @@
+{
+  "id": "b2-w1-thu-4",
+  "label": "Thứ 4",
+  "title": "Đàm phán điều khoản: độc quyền, hoa hồng",
+  "desc": "Đưa ra đề nghị và nhượng bộ có điều kiện (If you could…, we would…; provided that, as long as), từ chối lịch sự và tìm điểm chung khi Bright Star đàm phán hoa hồng và quyền độc quyền với Nordwind Retail.",
+  "rule": "Đề nghị giả định: If + quá khứ đơn / could + V, … would / could + V nguyên mẫu. Đặt điều kiện: provided that / as long as + hiện tại đơn (không dùng will). Từ chối mềm: I'm afraid… would be difficult for us.",
+  "cards": [
+    {
+      "w": "terms",
+      "ipa": "/tɜːmz/",
+      "m": "điều khoản (của thỏa thuận, hợp đồng)",
+      "ex": "Before we sign anything, let's go through the terms one by one.",
+      "exm": "Trước khi ký, mình cùng xem lại từng điều khoản nhé.",
+      "n": "Với nghĩa điều khoản thì luôn dùng số nhiều: the terms of the deal. agree on terms = thống nhất điều khoản; be on good terms = có quan hệ tốt."
+    },
+    {
+      "w": "exclusivity",
+      "ipa": "/ˌek.skluːˈsɪv.ə.ti/",
+      "m": "quyền độc quyền (chỉ hợp tác với một bên)",
+      "ex": "Nordwind is asking for two years of exclusivity in Southeast Asia.",
+      "exm": "Nordwind đề nghị được độc quyền hai năm ở Đông Nam Á.",
+      "n": "Nhấn âm thứ ba: ex-clu-SIV-i-ty. Tính từ là exclusive (exclusive rights = quyền độc quyền). Cấu trúc: exclusivity in + khu vực."
+    },
+    {
+      "w": "commission",
+      "ipa": "/kəˈmɪʃ.ən/",
+      "m": "tiền hoa hồng",
+      "ex": "They want a 20% commission on in-app sales.",
+      "exm": "Họ muốn hưởng 20% hoa hồng trên doanh thu mua trong ứng dụng.",
+      "n": "a … % commission on + khoản được tính hoa hồng. Nhấn âm hai: com-MIS-sion. Đừng nhầm với concession (sự nhượng bộ)."
+    },
+    {
+      "w": "concession",
+      "ipa": "/kənˈseʃ.ən/",
+      "m": "sự nhượng bộ",
+      "ex": "We're willing to make a small concession on the commission.",
+      "exm": "Chúng tôi sẵn sàng nhượng bộ một chút về mức hoa hồng.",
+      "n": "make a concession (on something) = nhượng bộ (về việc gì). Động từ là concede. Nhấn âm hai: con-CES-sion."
+    },
+    {
+      "w": "counter-offer",
+      "ipa": "/ˈkaʊn.tər ˌɒf.ər/",
+      "m": "đề nghị đáp lại (sau khi nhận đề nghị của bên kia)",
+      "ex": "Linh needs an hour to check the costs before we make a counter-offer.",
+      "exm": "Linh cần một tiếng để kiểm tra chi phí trước khi mình đưa ra đề nghị đáp lại.",
+      "n": "make a counter-offer. Nhấn âm đầu: COUN-ter-of-fer. Cũng viết liền: counteroffer."
+    },
+    {
+      "w": "non-negotiable",
+      "ipa": "/ˌnɒn.nɪˈɡəʊ.ʃi.ə.bəl/",
+      "m": "không thể thương lượng, không bàn lại",
+      "ex": "For Bright Star, keeping control of customer data is non-negotiable.",
+      "exm": "Với Bright Star, giữ quyền kiểm soát dữ liệu khách hàng là điều không thể thương lượng.",
+      "n": "Dùng để nêu giới hạn cuối cùng, nhưng nên nói mềm: I'm afraid this point is non-negotiable for us. Trái nghĩa: negotiable, flexible."
+    },
+    {
+      "w": "leeway",
+      "ipa": "/ˈliː.weɪ/",
+      "m": "khoảng linh động, dư địa để điều chỉnh",
+      "ex": "We have some leeway on the commission, but not much.",
+      "exm": "Chúng tôi có thể linh động một chút về hoa hồng, nhưng không nhiều.",
+      "n": "Danh từ không đếm được: some / a little / no leeway on + vấn đề. Is there any leeway on the price? = Giá còn điều chỉnh được không?"
+    },
+    {
+      "w": "flexible",
+      "ipa": "/ˈflek.sə.bəl/",
+      "m": "linh hoạt, linh động",
+      "ex": "We could be more flexible on the commission if you could promote the app in more stores.",
+      "exm": "Chúng tôi có thể linh hoạt hơn về hoa hồng nếu bên chị quảng bá ứng dụng ở nhiều cửa hàng hơn.",
+      "n": "be flexible on / about + vấn đề. Danh từ: flexibility. Nhấn âm đầu: FLEX-i-ble."
+    },
+    {
+      "w": "trade-off",
+      "ipa": "/ˈtreɪd.ɒf/",
+      "m": "sự đánh đổi (được cái này, chịu mất cái kia)",
+      "ex": "A lower commission in exchange for exclusivity is a fair trade-off.",
+      "exm": "Hoa hồng thấp hơn để đổi lấy quyền độc quyền là một sự đánh đổi hợp lý.",
+      "n": "a trade-off between A and B. Nhấn âm đầu: TRADE-off. Động từ: trade A off against B."
+    },
+    {
+      "w": "in return",
+      "ipa": "/ɪn rɪˈtɜːn/",
+      "m": "đổi lại",
+      "ex": "In return, Nordwind will promote the app in at least 25 stores.",
+      "exm": "Đổi lại, Nordwind sẽ quảng bá ứng dụng ở ít nhất 25 cửa hàng.",
+      "n": "Đứng đầu câu (In return, …) hoặc dùng in return for + danh từ: in return for exclusivity = để đổi lấy quyền độc quyền."
+    },
+    {
+      "w": "deal-breaker",
+      "ipa": "/ˈdiːl ˌbreɪ.kər/",
+      "m": "điều khiến thỏa thuận đổ vỡ, điều không thể chấp nhận",
+      "ex": "Two years of exclusivity in the whole region would be a deal-breaker for us.",
+      "exm": "Độc quyền hai năm trên toàn khu vực là điều chúng tôi không thể chấp nhận.",
+      "n": "be a deal-breaker for somebody. Nói mềm: I'm afraid that would be a deal-breaker for us. Nhấn DEAL."
+    },
+    {
+      "w": "meet halfway",
+      "ipa": "/miːt ˌhɑːfˈweɪ/",
+      "m": "mỗi bên nhường một bước, gặp nhau ở giữa",
+      "ex": "Why don't we meet halfway at 15%?",
+      "exm": "Hay mỗi bên nhường một bước, mình chốt ở 15% nhé?",
+      "n": "meet somebody halfway. Chữ l trong halfway là âm câm: đọc 'háp-uây'. Hay đi với Why don't we…? / Shall we…?",
+      "img": "handshake"
+    }
+  ],
+  "scene": {
+    "setting": "2 giờ chiều thứ Tư, phòng họp lớn của Bright Star. Bà Ingrid Larsen quay lại để bàn điều khoản hợp tác; Sarah dẫn cuộc họp, Linh mang bảng tính chi phí, còn Kevin muốn chốt thật nhanh.",
+    "img": "scene-en-negotiation-d3",
+    "imgPrompt": "A meeting room negotiation: ingrid, a Danish woman about 45 with short blonde hair, glasses and a grey blazer, sits across the table from sarah and an; linh shows a simple spreadsheet on her laptop to kevin, who leans forward eagerly; documents and coffee cups on the table, no readable text or numbers.",
+    "lines": [
+      {
+        "who": "Ingrid",
+        "t": "Let's get down to the terms. We'd like two years of exclusivity in Southeast Asia and a twenty percent commission on in-app sales.",
+        "vi": "Mình vào phần điều khoản nhé. Chúng tôi muốn được độc quyền hai năm ở Đông Nam Á và hưởng 20% hoa hồng trên doanh thu mua trong ứng dụng."
+      },
+      {
+        "who": "Sarah",
+        "t": "Thank you, Ingrid. I'm afraid that's a little higher than we expected. We were thinking of twelve percent and no exclusivity.",
+        "vi": "Cảm ơn chị Ingrid. E là mức đó hơi cao hơn chúng tôi dự tính. Chúng tôi đang nghĩ đến 12% và không độc quyền."
+      },
+      {
+        "who": "Kevin",
+        "t": "To be fair, twenty percent might be OK if we could sign this week.",
+        "vi": "Nói cho công bằng thì 20% có lẽ cũng được, nếu mình ký được ngay trong tuần này."
+      },
+      {
+        "who": "Linh",
+        "t": "Let me check the costs first, Kevin. At twenty percent, we would keep very little from each sale.",
+        "vi": "Để em kiểm tra chi phí trước đã, anh Kevin. Với mức 20%, mỗi giao dịch mình giữ lại được rất ít."
+      },
+      {
+        "who": "Ingrid",
+        "t": "I see. Is there any leeway on exclusivity, then?",
+        "vi": "Tôi hiểu. Vậy về độc quyền thì có linh động được không?"
+      },
+      {
+        "who": "Sarah",
+        "t": "Exclusivity across the whole region would be a deal-breaker for us. But if you could focus on Vietnam and Thailand, we would be more flexible.",
+        "vi": "Độc quyền trên toàn khu vực là điều chúng tôi không thể chấp nhận. Nhưng nếu bên chị tập trung vào Việt Nam và Thái Lan, chúng tôi sẽ linh hoạt hơn."
+      },
+      {
+        "who": "Ingrid",
+        "t": "In that case, why don't we meet halfway? Fifteen percent, and eighteen months of exclusivity in Vietnam and Thailand.",
+        "vi": "Nếu vậy, sao mình không mỗi bên nhường một bước? 15% hoa hồng, và độc quyền 18 tháng ở Việt Nam và Thái Lan."
+      },
+      {
+        "who": "Linh",
+        "t": "That could work, provided that Nordwind promotes the app in at least twenty-five stores in the first six months.",
+        "vi": "Phương án đó có thể được, với điều kiện Nordwind quảng bá ứng dụng ở ít nhất 25 cửa hàng trong sáu tháng đầu."
+      },
+      {
+        "who": "Ingrid",
+        "t": "Twenty-five stores is ambitious, but it's a fair trade-off. We agree in principle.",
+        "vi": "25 cửa hàng là mục tiêu lớn, nhưng đó là một sự đánh đổi hợp lý. Về nguyên tắc, chúng tôi đồng ý."
+      },
+      {
+        "who": "Sarah",
+        "t": "Wonderful. Of course, the final terms will still need approval from our board.",
+        "vi": "Tuyệt quá. Tất nhiên, các điều khoản cuối cùng vẫn cần ban giám đốc của chúng tôi phê duyệt."
+      }
+    ]
+  },
+  "patterns": [
+    {
+      "t": "Đề nghị có điều kiện: If you could + V, we would + V (câu điều kiện loại 2)",
+      "f": [
+        ["If you could promote the app in 25 stores,", "we would", "lower the commission."],
+        ["If we gave you exclusivity,", "would you", "accept 15%?"],
+        ["If you could focus on two countries,", "we could", "be more flexible."]
+      ],
+      "ex": [
+        ["If you could promote the app in 25 stores, we would lower the commission.", "Nếu bên chị quảng bá ứng dụng ở 25 cửa hàng, chúng tôi sẽ giảm mức hoa hồng."],
+        ["If we offered you exclusivity in Vietnam, would you accept a lower commission?", "Nếu chúng tôi cho bên chị độc quyền ở Việt Nam, bên chị có chấp nhận mức hoa hồng thấp hơn không?"]
+      ],
+      "bad": "If you could promote the app in 25 stores, we would lowered the commission.",
+      "good": "If you could promote the app in 25 stores, we would lower the commission.",
+      "why": "Câu điều kiện loại 2: If + quá khứ đơn hoặc could + V, … would / could + V nguyên mẫu. Sau would luôn là động từ nguyên mẫu (lower, accept), không thêm -ed. Khi đàm phán, người ta hay dùng loại 2 thay cho loại 1 (If you promote…, we will…) để đề nghị nghe như một khả năng để cân nhắc, chưa phải lời cam kết, nên mềm và lịch sự hơn."
+    },
+    {
+      "t": "Đặt điều kiện: provided that / as long as + hiện tại đơn",
+      "f": [
+        ["We can accept 15%,", "provided that", "you promote the app in 25 stores."],
+        ["Exclusivity is fine", "as long as", "it covers only Vietnam and Thailand."]
+      ],
+      "ex": [
+        ["We can accept 15%, provided that you promote the app in at least 25 stores.", "Chúng tôi có thể nhận mức 15%, với điều kiện bên chị quảng bá ứng dụng ở ít nhất 25 cửa hàng."],
+        ["Exclusivity is fine as long as it covers only Vietnam and Thailand.", "Độc quyền thì được, miễn là chỉ ở Việt Nam và Thái Lan."]
+      ],
+      "bad": "We can accept 15%, provided that you will promote the app in 25 stores.",
+      "good": "We can accept 15%, provided that you promote the app in 25 stores.",
+      "why": "provided that và as long as nghĩa là 'với điều kiện là, miễn là', chặt chẽ hơn if. Vế điều kiện dùng hiện tại đơn dù nói về tương lai, không dùng will. provided that trang trọng hơn, hợp với email và hợp đồng; as long as thân mật hơn, hay dùng khi nói."
+    },
+    {
+      "t": "Từ chối lịch sự, nói giảm: I'm afraid… would be / I'm not sure we could…",
+      "f": [
+        ["I'm afraid", "that would be", "difficult for us."],
+        ["I'm not sure", "we could", "accept 20%."],
+        ["To be honest,", "it would be", "a deal-breaker for us."]
+      ],
+      "ex": [
+        ["I'm afraid twenty percent would be difficult for us.", "E là mức 20% sẽ khó cho chúng tôi."],
+        ["I'm not sure we could offer exclusivity in the whole region.", "Tôi không chắc chúng tôi có thể cho độc quyền trên toàn khu vực."]
+      ],
+      "bad": "No. We don't accept 20%.",
+      "good": "I'm afraid 20% would be difficult for us.",
+      "why": "Trong đàm phán, từ chối thẳng (No. We don't accept…) dễ làm không khí căng thẳng. Hãy làm mềm bằng I'm afraid…, dùng would / could thay cho will / can, và thêm từ giảm nhẹ như a little, quite: That would be a little difficult for us. Bên kia vẫn hiểu là 'không', nhưng cuộc đàm phán vẫn còn mở."
+    }
+  ],
+  "vocab": [
+    {
+      "q": "'exclusivity' nghĩa là gì?",
+      "opts": ["quyền độc quyền", "tiền hoa hồng", "sự nhượng bộ"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: tiền hoa hồng là commission.",
+        "2": "Chưa đúng: sự nhượng bộ là concession."
+      }
+    },
+    {
+      "q": "Điền từ: Nordwind wants a 20% ___ on in-app sales.",
+      "opts": ["commission", "concession", "leeway"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: concession là sự nhượng bộ; cụm 'a 20% … on sales' chỉ khoản tiền được hưởng trên doanh thu, tức là hoa hồng.",
+        "2": "Chưa đúng: leeway là khoảng linh động, không đi với con số phần trăm trên doanh thu."
+      }
+    },
+    {
+      "q": "'That would be a deal-breaker for us.' nghĩa là gì?",
+      "opts": ["Điều đó khiến chúng tôi không thể ký thỏa thuận.", "Điều đó là chi tiết nhỏ, có thể bỏ qua.", "Điều đó giúp thỏa thuận được ký nhanh hơn."],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: deal-breaker là điều nghiêm trọng đến mức làm thỏa thuận đổ vỡ, không phải chi tiết nhỏ.",
+        "2": "Chưa đúng: break = phá vỡ; deal-breaker làm thỏa thuận không thành, ngược với ký nhanh."
+      }
+    },
+    {
+      "q": "Điền từ: Let's ___ halfway: 15% and 18 months.",
+      "opts": ["meet", "go", "make"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: go halfway không phải cụm cố định với nghĩa 'mỗi bên nhường một bước'.",
+        "2": "Chưa đúng: make đi với a concession hoặc a counter-offer, không đi với halfway."
+      }
+    },
+    {
+      "q": "Điền từ: We don't have much ___ on the price. Fifteen percent is our limit.",
+      "opts": ["leeway", "terms", "exclusivity"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: terms là các điều khoản; câu đang nói 'không còn nhiều dư địa để điều chỉnh'.",
+        "2": "Chưa đúng: exclusivity là quyền độc quyền, không liên quan đến giới hạn về giá."
+      }
+    },
+    {
+      "q": "Điền từ: A lower commission in exchange for exclusivity is a fair ___.",
+      "opts": ["trade-off", "deal-breaker", "counter-offer"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: deal-breaker là điều làm hỏng thỏa thuận, không thể 'fair' (hợp lý).",
+        "2": "Chưa đúng: counter-offer là đề nghị đáp lại; câu đang mô tả việc được cái này, nhường cái kia, tức là sự đánh đổi."
+      }
+    },
+    {
+      "q": "Điền từ: Moving from 20% to 15% was a big ___ for Nordwind.",
+      "opts": ["concession", "commission", "deal-breaker"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: commission là mức hoa hồng; câu nói Nordwind đã nhường bớt, tức là một sự nhượng bộ.",
+        "2": "Chưa đúng: Nordwind vẫn đồng ý ở mức 15%, nên đó không phải điều làm hỏng thỏa thuận."
+      }
+    },
+    {
+      "q": "Từ nào trái nghĩa với 'non-negotiable'?",
+      "opts": ["flexible", "exclusive", "final"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: exclusive là độc quyền, không nói về việc có thể thương lượng hay không.",
+        "2": "Chưa đúng: final (cuối cùng, không đổi nữa) gần nghĩa với non-negotiable, không phải trái nghĩa."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "q": "Câu nào đúng?",
+      "opts": [
+        "If you could promote the app in 25 stores, we would lower the commission.",
+        "If you could promoted the app in 25 stores, we would lower the commission.",
+        "If you could promote the app in 25 stores, we would lowering the commission."
+      ],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: sau could là động từ nguyên mẫu promote, không thêm -ed.",
+        "2": "Chưa đúng: sau would là động từ nguyên mẫu lower, không dùng -ing."
+      }
+    },
+    {
+      "k": "type",
+      "q": "Điền dạng đúng của promote: We can accept 15%, provided that Nordwind ___ the app in 25 stores.",
+      "model": "promotes",
+      "accept": ["promotes"],
+      "why": "Sau provided that dùng hiện tại đơn (không dùng will) dù nói về tương lai; chủ ngữ Nordwind số ít nên promote thêm -s."
+    },
+    {
+      "q": "Điền từ: Exclusivity is fine ___ it covers only Vietnam and Thailand.",
+      "opts": ["as long as", "unless", "even though"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: unless = trừ khi, làm câu thành 'độc quyền thì được trừ khi chỉ ở hai nước', ngược ý.",
+        "2": "Chưa đúng: even though = mặc dù, dùng để nhượng bộ, không nêu điều kiện."
+      }
+    },
+    {
+      "k": "type",
+      "q": "Điền dạng đúng của accept: If we ___ 20%, we would keep only 15% of each sale.",
+      "model": "accepted",
+      "accept": ["accepted"],
+      "why": "Câu điều kiện loại 2: vế If dùng quá khứ đơn (accepted), vế kia dùng would + V nguyên mẫu."
+    },
+    {
+      "q": "Câu từ chối nào lịch sự và phù hợp nhất trong buổi đàm phán?",
+      "opts": [
+        "I'm afraid that would be difficult for us.",
+        "No, that's impossible.",
+        "We don't want that."
+      ],
+      "a": 0,
+      "why": {
+        "1": "Chưa phù hợp: câu đúng ngữ pháp nhưng quá thẳng, dễ làm bên kia mất thiện cảm.",
+        "2": "Chưa phù hợp: câu cộc, không có từ làm mềm như I'm afraid hay would."
+      }
+    },
+    {
+      "k": "type",
+      "q": "Điền một từ: ___ return, Nordwind will promote the app in at least 25 stores.",
+      "model": "In",
+      "accept": ["In", "in"],
+      "why": "Cụm cố định in return (đổi lại); in return for + danh từ."
+    },
+    {
+      "q": "Điền từ: Would you be willing ___ a 15% commission?",
+      "opts": ["to accept", "accepting", "accept"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: be willing đi với to + V, không đi với V-ing.",
+        "2": "Chưa đúng: thiếu to; cấu trúc đúng là be willing to + V."
+      }
+    }
+  ],
+  "listen": [
+    {
+      "q": "Nordwind muốn mức hoa hồng bao nhiêu?",
+      "audio": "Nordwind is asking for a twenty percent commission on in-app sales.",
+      "opts": ["20%", "12%", "15%"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: 12% là mức Bright Star đưa ra lúc đầu.",
+        "2": "Chưa đúng: 15% là mức hai bên chốt sau đó; câu này nói twenty percent."
+      }
+    },
+    {
+      "q": "Nordwind muốn độc quyền như thế nào?",
+      "audio": "We'd like exclusivity for two years across Southeast Asia.",
+      "opts": ["2 năm, toàn Đông Nam Á", "18 tháng, Việt Nam và Thái Lan", "2 năm, chỉ ở Việt Nam"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: 18 tháng ở hai nước là phương án gặp nhau ở giữa, không phải yêu cầu ban đầu.",
+        "2": "Chưa đúng: across Southeast Asia là trên toàn Đông Nam Á, không chỉ Việt Nam."
+      }
+    },
+    {
+      "q": "Sarah đề nghị điều gì?",
+      "audio": "If you could focus on Vietnam and Thailand, we would be more flexible on the commission.",
+      "opts": [
+        "Nếu Nordwind chỉ tập trung vào Việt Nam và Thái Lan, Bright Star sẽ linh hoạt hơn về hoa hồng.",
+        "Bright Star đồng ý độc quyền trên toàn khu vực.",
+        "Bright Star không thay đổi mức hoa hồng."
+      ],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: Sarah chỉ nhắc Việt Nam và Thái Lan, không phải toàn khu vực.",
+        "2": "Chưa đúng: more flexible on the commission nghĩa là sẵn sàng điều chỉnh hoa hồng."
+      }
+    },
+    {
+      "q": "Câu này cho biết điều gì?",
+      "audio": "I'm afraid exclusivity across the whole region would be a deal-breaker for us.",
+      "opts": [
+        "Bright Star sẽ không ký nếu phải độc quyền toàn khu vực.",
+        "Bright Star vui vẻ đồng ý độc quyền toàn khu vực.",
+        "Bright Star chưa nghĩ về chuyện độc quyền."
+      ],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: I'm afraid… deal-breaker là lời từ chối lịch sự, không phải đồng ý.",
+        "2": "Chưa đúng: người nói đã có quan điểm rõ: đây là điều không thể chấp nhận."
+      }
+    },
+    {
+      "q": "Điều kiện để Bright Star nhận mức 15% là gì?",
+      "audio": "We can accept fifteen percent, provided that you promote the app in at least twenty-five stores.",
+      "opts": ["quảng bá ở ít nhất 25 cửa hàng", "quảng bá ở cả 40 cửa hàng", "quảng bá trong 25 ngày"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: câu nói at least twenty-five stores, không phải cả 40 cửa hàng.",
+        "2": "Chưa đúng: twenty-five đi với stores (cửa hàng), không phải days (ngày)."
+      }
+    },
+    {
+      "q": "Linh muốn làm gì trước?",
+      "audio": "Let me check the costs before we make a counter-offer.",
+      "opts": ["kiểm tra chi phí rồi mới đưa ra đề nghị đáp lại", "ký hợp đồng ngay", "hủy cuộc họp"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: Linh muốn kiểm tra chi phí trước, chưa nói đến chuyện ký.",
+        "2": "Chưa đúng: câu không nhắc đến việc hủy họp."
+      }
+    },
+    {
+      "q": "Ingrid phản ứng thế nào với điều kiện 25 cửa hàng?",
+      "audio": "Twenty-five stores in six months is ambitious, but I think we can manage it.",
+      "opts": ["thấy khó nhưng vẫn nhận", "từ chối thẳng", "muốn kéo dài thành 12 tháng"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: but I think we can manage it nghĩa là bà ấy nghĩ có thể làm được.",
+        "2": "Chưa đúng: câu vẫn giữ mốc six months, không nhắc 12 tháng."
+      }
+    }
+  ],
+  "hsk": [
+    {
+      "q": "TOEIC Part 3 · Nghe hội thoại và câu hỏi, chọn đáp án.",
+      "audio": "Woman: To be honest, we'd need at least two years of exclusivity. Man: I'm afraid two years would be difficult for us. Could you accept eighteen months? Woman: Eighteen months is fine, as long as it covers both Vietnam and Thailand. Question: What does the woman agree to?",
+      "opts": [
+        "Eighteen months of exclusivity",
+        "Two years of exclusivity",
+        "Exclusivity in the whole region",
+        "No exclusivity at all"
+      ],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: hai năm là yêu cầu ban đầu của người phụ nữ, sau đó bà nhận 18 tháng.",
+        "2": "Chưa đúng: bà chỉ nhắc Việt Nam và Thái Lan, không phải toàn khu vực.",
+        "3": "Chưa đúng: hai bên vẫn thống nhất có độc quyền, chỉ rút ngắn thời gian."
+      }
+    },
+    {
+      "q": "TOEIC Part 4 · Nghe bài nói ngắn và câu hỏi, chọn đáp án.",
+      "audio": "Woman: Good morning, everyone. Before we meet Nordwind again this afternoon, here's a quick update on costs. If we accepted a twenty percent commission, our profit on each sale would be too small. So our counter-offer will be fifteen percent, and only in return for exclusivity in Vietnam and Thailand. Please don't agree to anything higher without checking with me first. Question: What does the speaker ask the listeners to do?",
+      "opts": [
+        "Check with her before agreeing to a higher commission",
+        "Sign the contract this afternoon",
+        "Offer exclusivity in the whole region",
+        "Prepare a new sales report"
+      ],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: chiều nay là buổi gặp Nordwind, người nói không yêu cầu ký hợp đồng.",
+        "2": "Chưa đúng: người nói chỉ muốn độc quyền ở Việt Nam và Thái Lan.",
+        "3": "Chưa đúng: bài nói không nhắc đến báo cáo bán hàng."
+      }
+    },
+    {
+      "q": "TOEIC Part 5 · Chọn từ đúng: We are willing to lower the commission ___ Nordwind promotes the app in at least 25 stores.",
+      "opts": ["provided that", "unless", "despite", "in spite"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: unless = trừ khi, làm câu ngược nghĩa (giảm hoa hồng trừ khi họ quảng bá).",
+        "2": "Chưa đúng: despite là giới từ, phải đi với danh từ, không đi với mệnh đề có chủ ngữ và động từ.",
+        "3": "Chưa đúng: cụm đầy đủ là in spite of, và cũng chỉ đi với danh từ."
+      }
+    },
+    {
+      "q": "IELTS Reading · True / False / Not Given. Đoạn đọc: \"After two hours of negotiation, Bright Star and Nordwind agreed to meet halfway. Nordwind accepted a 15% commission, and in return it received 18 months of exclusivity in Vietnam and Thailand only. The final terms still need approval from Bright Star's board.\" Nhận định: Ingrid Larsen had negotiated with other app companies before this meeting.",
+      "opts": ["True", "False", "Not Given"],
+      "a": 2,
+      "why": {
+        "0": "Không chọn True: đoạn đọc không hề nhắc đến các công ty ứng dụng khác.",
+        "1": "Không chọn False: đoạn đọc cũng không nói bà ấy chưa từng đàm phán với ai khác, nên không có thông tin trái ngược."
+      }
+    },
+    {
+      "q": "TOEIC Part 6 · Chọn từ nối điền vào email: Dear Ms Larsen, thank you for meeting us on Wednesday. As discussed, we can offer a 15% commission. ___, Nordwind will receive 18 months of exclusivity in Vietnam and Thailand.",
+      "opts": ["In addition", "However", "Otherwise", "Instead"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: However dùng để nêu ý đối lập, nhưng câu sau chỉ bổ sung thêm một điều khoản.",
+        "2": "Chưa đúng: Otherwise = nếu không thì, không hợp khi liệt kê điều khoản.",
+        "3": "Chưa đúng: Instead = thay vào đó, ngụ ý bỏ mức 15%, trong khi cả hai điều khoản đều được giữ."
+      }
+    }
+  ],
+  "shadow": [
+    {
+      "t": "exclusivity",
+      "focus": "Nhấn âm thứ ba: ex-clu-SIV-i-ty ('éc-xclu-XÍ-vơ-ti'); hai âm cuối đọc nhẹ."
+    },
+    {
+      "t": "commission",
+      "focus": "Nhấn âm hai: com-MIS-sion ('kơ-MÍ-shần'); âm đầu đọc nhẹ /kə/, không đọc 'côm'."
+    },
+    {
+      "t": "If you could focus on Vietnam and Thailand, we would be more flexible.",
+      "focus": "could, would đọc nhẹ /kəd/, /wəd/; Thailand đọc 'THAI-lần', th ở đây là /t/; nhấn FLEX-."
+    },
+    {
+      "t": "I'm afraid that would be a deal-breaker for us.",
+      "focus": "Nhấn DEAL; nối for‿us thành 'fơ-rớt-s'; xuống giọng nhẹ ở cuối để lời từ chối nghe mềm."
+    },
+    {
+      "t": "Why don't we meet halfway?",
+      "focus": "l trong halfway là âm câm: 'háp-uây'; nhấn MEET và HALF; câu gợi ý nên xuống giọng ở cuối."
+    },
+    {
+      "t": "We can accept fifteen percent, provided that you promote the app in twenty-five stores.",
+      "focus": "can đọc nhẹ /kən/; nhấn fif-TEEN để không nhầm với fifty; ngắt nhẹ trước provided that; nối the‿app 'đi-ép'."
+    }
+  ],
+  "dialog": {
+    "title": "Ingrid đưa ra yêu cầu về hoa hồng và độc quyền; bạn (An) từ chối lịch sự, đưa ra đề nghị có điều kiện và tìm điểm chung. Đổi vai: bạn là Ingrid, đòi 20% và độc quyền hai năm.",
+    "partner": "Ingrid Larsen",
+    "turns": [
+      {
+        "ai": "We'd like a twenty percent commission on all in-app sales. What do you think?",
+        "vi": "Chúng tôi muốn hưởng 20% hoa hồng trên mọi giao dịch mua trong ứng dụng. Bên bạn nghĩ sao?",
+        "model": "I'm afraid twenty percent would be difficult for us. We were thinking of twelve percent.",
+        "accept": [
+          "I'm afraid twenty percent would be difficult for us. We were thinking of twelve percent.",
+          "I'm afraid 20% would be difficult for us. We were thinking of 12%.",
+          "I'm afraid that would be difficult for us. We were thinking of twelve percent.",
+          "I'm afraid twenty percent would be difficult for us."
+        ],
+        "frame": "I'm afraid twenty percent would be ___ for us. We were thinking of twelve percent.",
+        "hint": "Từ chối mềm: I'm afraid + would be difficult for us, rồi nêu mức của mình: We were thinking of…"
+      },
+      {
+        "ai": "Twelve percent is too low for us. Is there any leeway on that?",
+        "vi": "12% quá thấp với chúng tôi. Mức đó có linh động được không?",
+        "model": "We could be more flexible on the commission if you could promote the app in more stores.",
+        "accept": [
+          "We could be more flexible on the commission if you could promote the app in more stores.",
+          "We could be more flexible if you could promote the app in more stores.",
+          "We would be more flexible on the commission if you could promote the app in more stores.",
+          "If you could promote the app in more stores, we could be more flexible."
+        ],
+        "frame": "We could be more ___ on the commission if you could promote the app in more stores.",
+        "hint": "Đề nghị có điều kiện: We could be more flexible… if you could + V."
+      },
+      {
+        "ai": "And exclusivity? We need two years across Southeast Asia.",
+        "vi": "Còn độc quyền thì sao? Chúng tôi cần hai năm trên toàn Đông Nam Á.",
+        "model": "Exclusivity across the whole region would be a deal-breaker for us.",
+        "accept": [
+          "Exclusivity across the whole region would be a deal-breaker for us.",
+          "I'm afraid exclusivity across the whole region would be a deal-breaker for us.",
+          "Exclusivity in the whole region would be a deal-breaker for us.",
+          "That would be a deal-breaker for us."
+        ],
+        "frame": "Exclusivity across the whole region would be a ___ for us.",
+        "hint": "Nêu giới hạn: … would be a deal-breaker for us."
+      },
+      {
+        "ai": "So what would you suggest?",
+        "vi": "Vậy bên bạn đề xuất thế nào?",
+        "model": "Why don't we meet halfway: fifteen percent and eighteen months in Vietnam and Thailand?",
+        "accept": [
+          "Why don't we meet halfway: fifteen percent and eighteen months in Vietnam and Thailand?",
+          "Why don't we meet halfway: 15% and 18 months in Vietnam and Thailand?",
+          "Why don't we meet halfway? Fifteen percent and eighteen months in Vietnam and Thailand.",
+          "Let's meet halfway: fifteen percent and eighteen months in Vietnam and Thailand."
+        ],
+        "frame": "Why don't we ___ halfway: fifteen percent and eighteen months in Vietnam and Thailand?",
+        "hint": "Gợi ý gặp nhau ở giữa: Why don't we meet halfway…? rồi nêu con số."
+      },
+      {
+        "ai": "That sounds reasonable. Do you have any conditions?",
+        "vi": "Nghe hợp lý đấy. Bên bạn có điều kiện gì không?",
+        "model": "Yes, provided that you promote the app in at least twenty-five stores in the first six months.",
+        "accept": [
+          "Yes, provided that you promote the app in at least twenty-five stores in the first six months.",
+          "Yes, provided that you promote the app in at least 25 stores in the first six months.",
+          "Yes, as long as you promote the app in at least twenty-five stores in the first six months.",
+          "Provided that you promote the app in at least twenty-five stores in the first six months."
+        ],
+        "frame": "Yes, ___ that you promote the app in at least twenty-five stores in the first six months.",
+        "hint": "Đặt điều kiện: provided that / as long as + hiện tại đơn (promote, không dùng will)."
+      }
+    ]
+  },
+  "reading": {
+    "title": "Email nội bộ: kiểm tra chi phí trước buổi đàm phán",
+    "text": "To: Sarah Lee; Kevin\nFrom: Linh\nSubject: Cost check before tomorrow's meeting with Nordwind\n\nHi both,\n\nAs requested, I have checked the costs of the offers on the table.\n\nNordwind is asking for a 20% commission on in-app sales and two years of exclusivity in Southeast Asia. Our payment, server and support costs already take about 65% of every in-app sale. If we accepted 20%, we would keep only 15%, which would not be enough to cover marketing in a new market.\n\nOur first offer of 12% is safe for us, but Ingrid is unlikely to accept it without some exclusivity in return.\n\nI therefore suggest a counter-offer: a 15% commission and 18 months of exclusivity, but only in Vietnam and Thailand. This trade-off would leave us 20% of each sale, and we would still be free to work with other partners in the rest of the region.\n\nHowever, we should only agree provided that Nordwind promotes the app in at least 25 of its 40 stores in the first six months. Without this condition, exclusivity would cost us more than it brings in.\n\nKevin, I know you'd like to close the deal quickly, but please don't agree to anything above 15% on the day.\n\nBest,\nLinh",
+    "vi": "Gửi: Sarah Lee; Kevin\nTừ: Linh\nTiêu đề: Kiểm tra chi phí trước buổi họp với Nordwind ngày mai\n\nChào chị Sarah và anh Kevin,\n\nTheo yêu cầu, em đã kiểm tra chi phí của các đề nghị đang được bàn.\n\nNordwind đề nghị hưởng 20% hoa hồng trên doanh thu mua trong ứng dụng và độc quyền hai năm ở Đông Nam Á. Chi phí thanh toán, máy chủ và hỗ trợ khách hàng của mình đã chiếm khoảng 65% mỗi giao dịch. Nếu nhận mức 20%, mình chỉ giữ lại được 15%, không đủ để chi cho marketing ở một thị trường mới.\n\nMức 12% mình đưa ra lúc đầu thì an toàn cho mình, nhưng nhiều khả năng chị Ingrid sẽ không chấp nhận nếu không được độc quyền phần nào để đổi lại.\n\nVì vậy em đề xuất một đề nghị đáp lại: hoa hồng 15% và độc quyền 18 tháng, nhưng chỉ ở Việt Nam và Thái Lan. Sự đánh đổi này giúp mình giữ lại 20% mỗi giao dịch, và mình vẫn được tự do hợp tác với đối tác khác ở phần còn lại của khu vực.\n\nTuy nhiên, mình chỉ nên đồng ý với điều kiện Nordwind quảng bá ứng dụng ở ít nhất 25 trong số 40 cửa hàng của họ trong sáu tháng đầu. Không có điều kiện này, độc quyền sẽ khiến mình tốn nhiều hơn số tiền nó mang lại.\n\nAnh Kevin, em biết anh muốn chốt thỏa thuận nhanh, nhưng trong buổi họp anh đừng đồng ý mức nào trên 15% nhé.\n\nThân,\nLinh",
+    "qs": [
+      {
+        "q": "Theo Linh, chi phí thanh toán, máy chủ và hỗ trợ khách hàng chiếm khoảng bao nhiêu mỗi giao dịch?",
+        "opts": ["65%", "20%", "15%"],
+        "a": 0,
+        "why": {
+          "1": "Chưa đúng: 20% là mức hoa hồng Nordwind muốn.",
+          "2": "Chưa đúng: 15% là phần Bright Star còn giữ lại nếu nhận mức hoa hồng 20%."
+        }
+      },
+      {
+        "q": "Với đề nghị đáp lại của Linh (hoa hồng 15%), Bright Star giữ lại bao nhiêu mỗi giao dịch?",
+        "opts": ["20%", "15%", "35%"],
+        "a": 0,
+        "why": {
+          "1": "Chưa đúng: 15% là phần còn lại nếu nhận mức hoa hồng 20%.",
+          "2": "Chưa đúng: 35% là phần còn lại khi chưa trừ hoa hồng (100% trừ 65%); trừ thêm 15% hoa hồng thì còn 20%, như Linh viết: leave us 20% of each sale."
+        }
+      },
+      {
+        "q": "Linh đề xuất độc quyền ở đâu và trong bao lâu?",
+        "opts": ["Việt Nam và Thái Lan, 18 tháng", "toàn Đông Nam Á, 2 năm", "chỉ Việt Nam, 18 tháng"],
+        "a": 0,
+        "why": {
+          "1": "Chưa đúng: đây là yêu cầu ban đầu của Nordwind.",
+          "2": "Chưa đúng: Linh viết only in Vietnam and Thailand, tức là cả hai nước."
+        }
+      },
+      {
+        "q": "Đúng hay sai: \"Linh thinks Ingrid will probably accept 12% without anything in return.\"",
+        "opts": ["Sai", "Đúng"],
+        "a": 0,
+        "why": {
+          "1": "Không đúng: Linh viết Ingrid is unlikely to accept it without some exclusivity in return, tức là nhiều khả năng Ingrid sẽ không nhận 12% nếu không được độc quyền phần nào."
+        }
+      },
+      {
+        "q": "Linh nhắc Kevin điều gì?",
+        "opts": [
+          "không đồng ý mức nào trên 15% trong buổi họp",
+          "chốt thỏa thuận thật nhanh",
+          "gửi hợp đồng cho Ingrid ngay"
+        ],
+        "a": 0,
+        "why": {
+          "1": "Chưa đúng: chốt nhanh là điều Kevin muốn; Linh lại nhắc anh ấy cẩn thận.",
+          "2": "Chưa đúng: email không nhắc đến việc gửi hợp đồng."
+        }
+      }
+    ]
+  },
+  "near": [
+    {
+      "q": "Chọn dạng đúng: We are willing to be more ___ on the commission. (flexibility)",
+      "opts": ["flexible", "flexibility", "flexibly"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: flexibility là danh từ; sau be more cần một tính từ.",
+        "2": "Chưa đúng: flexibly là trạng từ, dùng để bổ nghĩa cho động từ, không đứng sau be."
+      }
+    },
+    {
+      "q": "Chọn dạng đúng: Nordwind wants ___ rights in Vietnam and Thailand. (exclusivity)",
+      "opts": ["exclusive", "exclusivity", "exclusively"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: exclusivity là danh từ; trước danh từ rights cần một tính từ.",
+        "2": "Chưa đúng: exclusively là trạng từ, không bổ nghĩa cho danh từ."
+      }
+    },
+    {
+      "q": "Chọn dạng đúng: The two teams ___ for three hours before they reached an agreement. (negotiation)",
+      "opts": ["negotiated", "negotiation", "negotiable"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: negotiation là danh từ; sau chủ ngữ The two teams cần một động từ chia ở quá khứ.",
+        "2": "Chưa đúng: negotiable là tính từ (có thể thương lượng), không làm động từ chính."
+      }
+    },
+    {
+      "q": "Chọn dạng đúng: Twenty-five stores in six months is an ___ target. (ambition)",
+      "opts": ["ambitious", "ambition", "ambitiously"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: ambition là danh từ; giữa an và danh từ target cần một tính từ.",
+        "2": "Chưa đúng: ambitiously là trạng từ, không đứng trước danh từ."
+      }
+    },
+    {
+      "q": "Chọn dạng đúng: Linh's cost check showed that a 20% commission would not be ___ for us. (profit)",
+      "opts": ["profitable", "profit", "profitably"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: profit là danh từ hoặc động từ; sau would not be cần tính từ để mô tả tính chất.",
+        "2": "Chưa đúng: profitably là trạng từ, không đứng sau be để làm vị ngữ."
+      }
+    },
+    {
+      "q": "Chọn dạng đúng: After a long discussion, Ingrid ___ agreed to the 25-store condition. (eventual)",
+      "opts": ["eventually", "eventual", "event"],
+      "a": 0,
+      "why": {
+        "1": "Chưa đúng: eventual là tính từ; để bổ nghĩa cho động từ agreed cần trạng từ.",
+        "2": "Chưa đúng: event là danh từ (sự kiện), không đứng giữa chủ ngữ và động từ."
+      }
+    }
+  ],
+  "orderPara": [
+    {
+      "k": "order",
+      "q": "Sắp xếp thành đoạn văn đúng (IELTS Reading · nối ý theo trình tự)",
+      "tokens": [
+        "At the first meeting, Nordwind asked for a 20% commission and two years of exclusivity.",
+        "However, Bright Star could only offer 12% and no exclusivity.",
+        "After a long discussion, both sides agreed to meet halfway.",
+        "As a result, the commission was set at 15%."
+      ],
+      "explain": "Câu mở có mốc thời gian At the first meeting nêu yêu cầu ban đầu. However mở ý đối lập (đề nghị của Bright Star). After a long discussion cho biết diễn biến tiếp theo. As a result nêu kết quả cuối cùng nên đứng cuối.",
+      "vi": "Ở buổi gặp đầu tiên, Nordwind đề nghị 20% hoa hồng và độc quyền hai năm. Tuy nhiên, Bright Star chỉ có thể đưa ra mức 12% và không độc quyền. Sau một hồi thảo luận, hai bên đồng ý mỗi bên nhường một bước. Kết quả là mức hoa hồng được chốt ở 15%."
+    },
+    {
+      "k": "order",
+      "q": "Sắp xếp thành đoạn văn đúng (IELTS Reading · nối ý theo trình tự)",
+      "tokens": [
+        "Kevin wanted to accept Nordwind's offer immediately.",
+        "Linh, however, asked for time to check the costs.",
+        "Her calculations showed that a 20% commission would leave very little profit.",
+        "This convinced Kevin to wait for a better offer."
+      ],
+      "explain": "Câu đầu giới thiệu Kevin và mong muốn của anh ấy. however chen giữa câu nêu ý ngược lại của Linh. Her calculations dùng đại từ Her chỉ Linh nên phải đứng sau câu về Linh. This ở câu cuối chỉ kết quả tính toán vừa nêu.",
+      "vi": "Kevin muốn nhận ngay đề nghị của Nordwind. Tuy nhiên, Linh xin thời gian để kiểm tra chi phí. Kết quả tính toán của cô cho thấy mức hoa hồng 20% sẽ để lại rất ít lợi nhuận. Điều này thuyết phục Kevin chờ một đề nghị tốt hơn."
+    },
+    {
+      "k": "order",
+      "q": "Sắp xếp thành đoạn văn đúng (IELTS Reading · nối ý theo trình tự)",
+      "tokens": [
+        "Exclusivity across the whole region was a deal-breaker for Bright Star.",
+        "Instead, Sarah suggested limiting it to Vietnam and Thailand.",
+        "In return, she asked Nordwind to promote the app in at least 25 stores."
+      ],
+      "explain": "Câu đầu nêu vấn đề (độc quyền toàn khu vực). Instead đưa ra phương án thay thế cho vấn đề vừa nêu. In return và đại từ she (Sarah) cho biết câu này nói tiếp điều Sarah đề nghị, nên đứng cuối.",
+      "vi": "Độc quyền trên toàn khu vực là điều Bright Star không thể chấp nhận. Thay vào đó, Sarah đề nghị giới hạn ở Việt Nam và Thái Lan. Đổi lại, chị đề nghị Nordwind quảng bá ứng dụng ở ít nhất 25 cửa hàng."
+    },
+    {
+      "k": "order",
+      "q": "Sắp xếp thành đoạn văn đúng (IELTS Reading · nối ý theo trình tự)",
+      "tokens": [
+        "Both sides have now agreed on the main terms in principle.",
+        "However, these terms still need approval from Bright Star's board.",
+        "Once they are approved, Sarah will send a draft contract to Ingrid."
+      ],
+      "explain": "Câu đầu nêu tình hình hiện tại (đã đồng ý về nguyên tắc). However và these terms quay lại các điều khoản vừa nhắc để nêu điều còn thiếu. Once they are approved nói bước tiếp theo sau khi được duyệt nên đứng cuối.",
+      "vi": "Hiện hai bên đã đồng ý về nguyên tắc với các điều khoản chính. Tuy nhiên, các điều khoản này vẫn cần ban giám đốc Bright Star phê duyệt. Khi được duyệt, Sarah sẽ gửi bản thảo hợp đồng cho Ingrid."
+    }
+  ],
+  "notes": {
+    "title": "Ghi chú: các điều khoản đã thống nhất với Nordwind",
+    "lines": [
+      {
+        "who": "Sarah",
+        "t": "Before we finish, let me just go through what we've agreed.",
+        "vi": "Trước khi kết thúc, tôi xin điểm lại những gì mình đã thống nhất."
+      },
+      {
+        "who": "Sarah",
+        "t": "First, the commission on in-app sales will be fifteen percent, not twenty.",
+        "vi": "Thứ nhất, hoa hồng trên doanh thu mua trong ứng dụng sẽ là 15%, không phải 20%."
+      },
+      {
+        "who": "Ingrid",
+        "t": "Correct. And our exclusivity will last eighteen months.",
+        "vi": "Đúng vậy. Và quyền độc quyền của chúng tôi kéo dài 18 tháng."
+      },
+      {
+        "who": "Sarah",
+        "t": "Yes, but it will cover Vietnam and Thailand only, not the rest of the region.",
+        "vi": "Vâng, nhưng chỉ áp dụng ở Việt Nam và Thái Lan, không phải phần còn lại của khu vực."
+      },
+      {
+        "who": "Ingrid",
+        "t": "That's fine. In return, we'll promote the app in at least twenty-five stores.",
+        "vi": "Được. Đổi lại, chúng tôi sẽ quảng bá ứng dụng ở ít nhất 25 cửa hàng."
+      },
+      {
+        "who": "Sarah",
+        "t": "Within the first six months, as we discussed.",
+        "vi": "Trong sáu tháng đầu, như đã bàn."
+      },
+      {
+        "who": "Sarah",
+        "t": "Finally, all of this is subject to approval from our board.",
+        "vi": "Cuối cùng, tất cả những điều này còn chờ ban giám đốc của chúng tôi phê duyệt."
+      },
+      {
+        "who": "Ingrid",
+        "t": "Understood. I look forward to your written summary.",
+        "vi": "Tôi hiểu. Tôi chờ bản tóm tắt bằng văn bản của bên bạn."
+      }
+    ],
+    "form": [
+      {
+        "label": "Commission on in-app sales",
+        "answer": "fifteen percent",
+        "accept": ["fifteen percent", "15%", "15 percent", "15", "fifteen", "fifteen per cent", "15 per cent"],
+        "why": "Sarah nói: the commission on in-app sales will be fifteen percent, not twenty. Con số twenty là mức cũ, không phải mức đã chốt."
+      },
+      {
+        "label": "Length of exclusivity",
+        "answer": "eighteen months",
+        "accept": ["eighteen months", "18 months", "18", "eighteen", "18 month"],
+        "why": "Ingrid nói: our exclusivity will last eighteen months."
+      },
+      {
+        "label": "Countries covered",
+        "answer": "Vietnam and Thailand",
+        "accept": ["Vietnam and Thailand", "Thailand and Vietnam", "Vietnam, Thailand", "Vietnam & Thailand", "Viet Nam and Thailand"],
+        "why": "Sarah nói: it will cover Vietnam and Thailand only, not the rest of the region."
+      },
+      {
+        "label": "Minimum number of stores promoting the app",
+        "answer": "twenty-five",
+        "accept": ["twenty-five", "25", "twenty five", "25 stores", "twenty-five stores"],
+        "why": "Ingrid nói: we'll promote the app in at least twenty-five stores. at least = ít nhất, nên đây là số tối thiểu."
+      },
+      {
+        "label": "Time to reach the store target: the first ___",
+        "answer": "six months",
+        "accept": ["six months", "6 months", "6", "six"],
+        "why": "Sarah nói: Within the first six months, as we discussed."
+      },
+      {
+        "label": "Final terms need approval from the",
+        "answer": "board",
+        "accept": ["board", "the board", "our board", "board of directors", "the board of directors"],
+        "why": "Sarah nói: all of this is subject to approval from our board."
+      }
+    ]
+  },
+  "longturn": {
+    "cue": "Describe a time you had to negotiate or compromise to reach an agreement.\nYou should say:\n• what the situation was\n• who you negotiated with\n• what each side wanted\nand explain how you reached an agreement and how you felt about it.",
+    "cueVi": "Hãy tả một lần bạn phải đàm phán hoặc nhượng bộ để đi đến thỏa thuận. Bạn nên nói: đó là tình huống gì, bạn đàm phán với ai, mỗi bên muốn gì; và giải thích hai bên đã đạt thỏa thuận như thế nào, bạn cảm thấy ra sao.",
+    "points": [
+      "What the situation was",
+      "Who you negotiated with",
+      "What each side wanted",
+      "How you reached an agreement and how you felt"
+    ],
+    "pointsVi": [
+      "Tình huống là gì",
+      "Bạn đàm phán với ai",
+      "Mỗi bên muốn gì",
+      "Hai bên đạt thỏa thuận ra sao và bạn cảm thấy thế nào"
+    ],
+    "prep": 60,
+    "speak": [60, 120],
+    "model": "I'd like to talk about a negotiation I took part in recently at work. My company, which makes a learning app, wanted to work with Nordwind, a Danish retail chain with forty stores in Southeast Asia. At the first meeting, their Head of Partnerships asked for a twenty percent commission and two years of exclusivity across the whole region. To be honest, that was a deal-breaker for us, because our costs are quite high. On the other hand, we really wanted access to their stores, so we had to find a trade-off. After checking the numbers with our finance team, we suggested a compromise: if they promoted our app in at least twenty-five stores, we would give them exclusivity in Vietnam and Thailand. In the end, we met halfway at fifteen percent and eighteen months. I felt nervous at first, but also quite proud, because both sides got something important. It taught me that a good deal is not about winning, but about understanding what the other side really needs.",
+    "modelVi": "Tôi muốn kể về một cuộc đàm phán tôi tham gia gần đây ở công ty. Công ty tôi làm một ứng dụng học tập và muốn hợp tác với Nordwind, một chuỗi bán lẻ của Đan Mạch có 40 cửa hàng ở Đông Nam Á. Ở buổi gặp đầu tiên, trưởng bộ phận đối tác của họ đề nghị 20% hoa hồng và độc quyền hai năm trên toàn khu vực. Thật lòng mà nói, đó là điều chúng tôi không thể chấp nhận, vì chi phí của chúng tôi khá cao. Mặt khác, chúng tôi rất muốn đưa ứng dụng vào cửa hàng của họ, nên phải tìm một sự đánh đổi. Sau khi cùng nhóm tài chính kiểm tra số liệu, chúng tôi đưa ra một phương án dung hòa: nếu họ quảng bá ứng dụng ở ít nhất 25 cửa hàng, chúng tôi sẽ cho họ độc quyền ở Việt Nam và Thái Lan. Cuối cùng, hai bên gặp nhau ở mức 15% và 18 tháng. Lúc đầu tôi khá hồi hộp, nhưng sau đó cũng thấy tự hào, vì cả hai bên đều có được điều quan trọng với mình. Tôi rút ra rằng một thỏa thuận tốt không phải là thắng bên kia, mà là hiểu điều bên kia thật sự cần.",
+    "useful": [
+      "I'd like to talk about…",
+      "At the first meeting, they asked for…",
+      "To be honest, that was a deal-breaker for us.",
+      "On the other hand, …",
+      "We had to find a trade-off.",
+      "If they…, we would…",
+      "In the end, we met halfway at…",
+      "It taught me that…"
+    ],
+    "check": [
+      "Nói đủ 4 ý trong đề",
+      "Dùng ít nhất một câu điều kiện (If they…, we would… hoặc provided that…)",
+      "Dùng ít nhất 3 từ nối (At first, On the other hand, In the end…)",
+      "Dùng ít nhất 3 từ mới của hôm nay (trade-off, meet halfway, deal-breaker…)",
+      "Nói liền mạch từ 1 đến 2 phút, không ngừng quá lâu",
+      "Kết bằng cảm nghĩ hoặc bài học rút ra"
+    ]
+  },
+  "write": {
+    "task": "Viết email (130–170 từ) gửi bà Ingrid Larsen sau buổi đàm phán: cảm ơn, tóm tắt đề nghị ban đầu của hai bên, các nhượng bộ và điều kiện đã thống nhất, nhắc rằng điều khoản còn chờ ban giám đốc duyệt, đề nghị bà xác nhận.",
+    "kind": "email",
+    "model": "Dear Ms Larsen,\n\nThank you for meeting us this afternoon. I am writing to summarise the offers and concessions we discussed.\n\nAt the start, Nordwind asked for a 20% commission on in-app sales and two years of exclusivity in Southeast Asia, while we offered 12% and no exclusivity. After a long discussion, both sides agreed to meet halfway.\n\nBright Star is willing to accept a 15% commission. In return, Nordwind will have 18 months of exclusivity in Vietnam and Thailand only, provided that it promotes the app in at least 25 stores in the first six months.\n\nPlease note that these terms are still subject to approval from our board. If you could confirm that this summary is correct, we would be able to prepare a draft contract next week.\n\nThank you again for your flexibility.\n\nBest regards,\nAn\nMarketing, Bright Star",
+    "frame": "Dear ___,\n\nThank you for meeting us this afternoon. I am writing to ___ the offers and concessions we discussed.\n\nAt the start, Nordwind asked for a ___ commission on in-app sales and two years of exclusivity in Southeast Asia, while we offered 12% and no exclusivity. After a long discussion, both sides agreed to ___.\n\nBright Star is willing to accept a 15% commission. ___, Nordwind will have 18 months of exclusivity in Vietnam and Thailand only, ___ that it promotes the app in at least 25 stores in the first six months.\n\nPlease note that these terms are still ___ approval from our board. If you could confirm that this summary is correct, we ___ be able to prepare a draft contract next week.\n\nThank you again for your ___.\n\nBest regards,\nAn\nMarketing, Bright Star",
+    "gaps": [
+      "Ms Larsen",
+      "summarise",
+      "20%",
+      "meet halfway",
+      "In return",
+      "provided",
+      "subject to",
+      "would",
+      "flexibility"
+    ],
+    "free": [false, false, false, false, false, false, false, false, true],
+    "hints": [
+      "I am writing to summarise… / I am writing to confirm…",
+      "At the start, … asked for…, while we offered…",
+      "Both sides agreed to meet halfway.",
+      "In return, … / provided that + hiện tại đơn",
+      "These terms are subject to approval from…",
+      "If you could confirm…, we would be able to…",
+      "Thank you again for your flexibility / time."
+    ],
+    "check": [
+      "Mở đầu bằng lời cảm ơn và nêu mục đích email",
+      "Tóm tắt đề nghị ban đầu của cả hai bên",
+      "Nêu rõ các nhượng bộ và điều kiện (15%, 18 tháng, Việt Nam và Thái Lan, 25 cửa hàng trong sáu tháng đầu)",
+      "Dùng ít nhất một câu điều kiện lịch sự (If you could…, we would…) và provided that + hiện tại đơn",
+      "Nhắc điều khoản còn chờ ban giám đốc duyệt và đề nghị người nhận xác nhận",
+      "Dài 130–170 từ, giọng trang trọng, kết thư đúng (Best regards, tên, bộ phận)"
+    ],
+    "words": [130, 170]
+  }
+}

@@ -1,0 +1,900 @@
+{
+ "id": "b2-w1-thu-3",
+ "label": "Thứ 3",
+ "title": "Thuyết trình đề xuất hợp tác",
+ "desc": "Dẫn dắt một bài thuyết trình bằng các cụm chuyển ý (I'd like to walk you through…, Moving on to…, To sum up…), nêu lợi ích cho đối tác, trình bày lộ trình triển khai theo giai đoạn và dùng mệnh đề quan hệ để nói gọn, rõ trong buổi gặp với Nordwind Retail.",
+ "rule": "Mệnh đề quan hệ: who (người), which (vật, sự việc), where (nơi chốn), whose (của ai, của cái gì). Mệnh đề xác định không có dấu phẩy và dùng được that; mệnh đề không xác định đặt giữa hai dấu phẩy, không dùng that, và ', which' ở cuối câu có thể nói về cả ý phía trước. Bài thuyết trình có ba nhịp: mở (I'd like to walk you through…), chuyển phần (Moving on to…), kết (To sum up… / In a nutshell…).",
+ "cards": [
+  {
+   "w": "stakeholder",
+   "ipa": "/ˈsteɪkˌhəʊl.də/",
+   "m": "bên liên quan (người hoặc nhóm có quyền lợi trong dự án)",
+   "ex": "We have spoken to every stakeholder who will be affected by the rollout.",
+   "exm": "Chúng tôi đã trao đổi với mọi bên liên quan sẽ chịu ảnh hưởng của đợt triển khai.",
+   "n": "Nhấn âm đầu: STAKE-holder. key stakeholders = các bên liên quan chính. Đừng nhầm với shareholder (cổ đông): stakeholder rộng hơn, gồm cả nhân viên, khách hàng, đối tác.",
+   "img": "team"
+  },
+  {
+   "w": "proposition",
+   "ipa": "/ˌprɒp.əˈzɪʃ.ən/",
+   "m": "đề xuất kinh doanh, lời chào mời hợp tác",
+   "ex": "Our value proposition is simple: more online sales without extra development costs.",
+   "exm": "Giá trị chúng tôi mang lại rất đơn giản: thêm doanh số trực tuyến mà không tốn thêm chi phí phát triển.",
+   "n": "Nhấn âm ba: prop-o-SI-tion. value proposition = lợi ích cốt lõi bạn hứa mang lại cho khách hàng hoặc đối tác. Cách nói thân mật hơn: offer.",
+   "img": "handshake"
+  },
+  {
+   "w": "scalable",
+   "ipa": "/ˈskeɪ.lə.bəl/",
+   "m": "dễ mở rộng quy mô",
+   "ex": "The platform is fully scalable, so adding 28 more stores will not be a problem.",
+   "exm": "Nền tảng có thể mở rộng hoàn toàn, nên thêm 28 cửa hàng nữa không thành vấn đề.",
+   "n": "Đọc 'xkây-lơ-bồ', nhấn âm đầu. scale up = mở rộng quy mô; danh từ: scalability (khả năng mở rộng)."
+  },
+  {
+   "w": "leverage",
+   "ipa": "/ˈliː.vər.ɪdʒ/",
+   "m": "tận dụng (thế mạnh, nguồn lực sẵn có)",
+   "ex": "We would like to leverage your store network to reach shoppers in new cities.",
+   "exm": "Chúng tôi muốn tận dụng hệ thống cửa hàng của quý công ty để tiếp cận người mua sắm ở các thành phố mới.",
+   "n": "Động từ đi thẳng với tân ngữ, không thêm on: leverage our data. Kiểu Anh đọc 'lí-vơ-rịtch', kiểu Mỹ đọc 'le-vơ-rịtch'."
+  },
+  {
+   "w": "rollout",
+   "ipa": "/ˈrəʊl.aʊt/",
+   "m": "đợt triển khai, việc đưa vào sử dụng rộng rãi",
+   "ex": "The rollout will start in twelve stores in January.",
+   "exm": "Việc triển khai sẽ bắt đầu ở mười hai cửa hàng vào tháng Một.",
+   "n": "Danh từ viết liền: rollout (hoặc roll-out); động từ viết tách: roll out the app. a phased rollout = triển khai theo từng giai đoạn."
+  },
+  {
+   "w": "phase",
+   "ipa": "/feɪz/",
+   "m": "giai đoạn",
+   "ex": "In phase one, the app will be available in the twelve stores in Vietnam.",
+   "exm": "Ở giai đoạn một, ứng dụng sẽ có mặt tại mười hai cửa hàng ở Việt Nam.",
+   "n": "Đọc 'phây-z', âm cuối /z/ rung nhẹ. in the first phase = in phase one. Tính từ: a phased rollout (triển khai chia giai đoạn)."
+  },
+  {
+   "w": "highlight",
+   "ipa": "/ˈhaɪ.laɪt/",
+   "m": "nêu bật, nhấn mạnh (động từ); điểm nổi bật (danh từ)",
+   "ex": "I'd like to highlight three key results from the pilot.",
+   "exm": "Tôi muốn nêu bật ba kết quả chính của đợt chạy thử.",
+   "n": "Nhấn âm đầu: HIGH-light. the highlights of the pilot = những điểm nổi bật của đợt chạy thử. Dùng khi chỉ chọn vài ý quan trọng nhất."
+  },
+  {
+   "w": "outline",
+   "ipa": "/ˈaʊt.laɪn/",
+   "m": "trình bày khái quát (động từ); dàn ý, nét chính (danh từ)",
+   "ex": "Let me briefly outline the plan before we look at the numbers.",
+   "exm": "Tôi xin trình bày khái quát kế hoạch trước khi chúng ta xem số liệu.",
+   "n": "Nhấn âm đầu: OUT-line. briefly outline = trình bày ngắn gọn các phần chính. Hay dùng ở đầu bài thuyết trình để giới thiệu bố cục."
+  },
+  {
+   "w": "roadmap",
+   "ipa": "/ˈrəʊd.mæp/",
+   "m": "lộ trình (kế hoạch các bước, các mốc theo thời gian)",
+   "ex": "This slide shows our roadmap for the next twelve months.",
+   "exm": "Trang chiếu này cho thấy lộ trình của chúng tôi trong mười hai tháng tới.",
+   "n": "Viết liền một từ. Gần nghĩa với timeline, nhưng roadmap nhấn vào các giai đoạn và mục tiêu, không chỉ ngày tháng."
+  },
+  {
+   "w": "initiative",
+   "ipa": "/ɪˈnɪʃ.ə.tɪv/",
+   "m": "sáng kiến, chương trình mới; sự chủ động",
+   "ex": "This partnership could become a key digital initiative for Nordwind in the region.",
+   "exm": "Hợp tác này có thể trở thành một chương trình số quan trọng của Nordwind trong khu vực.",
+   "n": "Nhấn âm hai: i-NI-tia-tive, đọc 'i-ní-sơ-tịv'. take the initiative = chủ động làm trước."
+  },
+  {
+   "w": "compelling",
+   "ipa": "/kəmˈpel.ɪŋ/",
+   "m": "rất thuyết phục, hấp dẫn",
+   "ex": "The pilot results make a compelling case for a partnership.",
+   "exm": "Kết quả chạy thử là lý lẽ rất thuyết phục cho việc hợp tác.",
+   "n": "Hay đi với case, reason, argument, offer: a compelling reason = lý do rất thuyết phục. Mạnh hơn convincing."
+  },
+  {
+   "w": "in a nutshell",
+   "ipa": "/ɪn ə ˈnʌt.ʃel/",
+   "m": "nói ngắn gọn, tóm lại",
+   "ex": "In a nutshell, we bring the app and you bring the stores.",
+   "exm": "Nói ngắn gọn, chúng tôi mang đến ứng dụng, còn quý công ty có hệ thống cửa hàng.",
+   "n": "Thân mật hơn To sum up. Sau cụm này chỉ nói MỘT câu chứa ý chính. Nối âm: in‿a‿nutshell, nhấn NUT."
+  }
+ ],
+ "scene": {
+  "setting": "10 giờ sáng thứ Ba, phòng họp lớn ở văn phòng công ty tại Hà Nội. Bà Ingrid Larsen, Head of Partnerships của Nordwind Retail, đến nghe đề xuất hợp tác. Sarah mở đầu và kết bài, An trình bày kết quả chạy thử và lộ trình triển khai.",
+  "img": "scene-en-pitch-d2",
+  "imgPrompt": "A bright meeting room: sarah, in a charcoal blazer, stands beside a large screen showing a blank slide with a simple three-step arrow diagram; an, in a royal-blue top with a yellow lanyard, holds a presentation clicker; ingrid, a Danish woman about 45 with short blonde hair, glasses and a grey blazer, listens at the table and takes notes, no readable text or numbers.",
+  "lines": [
+   {
+    "who": "Sarah",
+    "t": "Good morning, Ingrid, and thank you for coming. I'd like to walk you through our proposal, which has three parts.",
+    "vi": "Chào chị Ingrid, cảm ơn chị đã đến. Tôi xin lần lượt trình bày đề xuất của chúng tôi, gồm ba phần."
+   },
+   {
+    "who": "Sarah",
+    "t": "First, An will highlight the results of our pilot. Then I'll outline our proposition and the roadmap.",
+    "vi": "Đầu tiên, An sẽ nêu bật kết quả đợt chạy thử. Sau đó tôi sẽ trình bày khái quát đề xuất và lộ trình."
+   },
+   {
+    "who": "An",
+    "t": "Thank you, Sarah. As you can see on this slide, user numbers more than doubled during the pilot in Da Nang.",
+    "vi": "Cảm ơn chị Sarah. Như chị thấy trên trang chiếu này, số người dùng đã tăng hơn gấp đôi trong đợt chạy thử ở Đà Nẵng."
+   },
+   {
+    "who": "An",
+    "t": "And customers who tried online ordering kept coming back, which is exactly what retailers need.",
+    "vi": "Và những khách hàng đã thử đặt hàng trực tuyến vẫn tiếp tục quay lại, đó chính là điều các nhà bán lẻ cần."
+   },
+   {
+    "who": "Sarah",
+    "t": "Thanks, An. Moving on to our value proposition: your shoppers order through our app and collect their orders in your stores.",
+    "vi": "Cảm ơn An. Chuyển sang lợi ích chúng tôi mang lại: khách của chị đặt hàng qua ứng dụng của chúng tôi và nhận hàng tại cửa hàng của chị."
+   },
+   {
+    "who": "Ingrid",
+    "t": "Interesting. But how would you roll it out across forty stores?",
+    "vi": "Thú vị đấy. Nhưng các bạn sẽ triển khai trên bốn mươi cửa hàng như thế nào?"
+   },
+   {
+    "who": "An",
+    "t": "We suggest a phased rollout. Phase one covers the twelve stores in Vietnam, from January to March.",
+    "vi": "Chúng tôi đề xuất triển khai theo giai đoạn. Giai đoạn một gồm mười hai cửa hàng ở Việt Nam, từ tháng Một đến tháng Ba."
+   },
+   {
+    "who": "An",
+    "t": "Phase two, which starts in April, adds the remaining twenty-eight stores across the region.",
+    "vi": "Giai đoạn hai, bắt đầu từ tháng Tư, bổ sung hai mươi tám cửa hàng còn lại trong khu vực."
+   },
+   {
+    "who": "Ingrid",
+    "t": "And why is that more compelling than building our own app?",
+    "vi": "Vậy vì sao phương án đó thuyết phục hơn việc chúng tôi tự xây ứng dụng riêng?"
+   },
+   {
+    "who": "Sarah",
+    "t": "In a nutshell, it's faster and less risky: the app is already tested, and the platform is fully scalable.",
+    "vi": "Nói ngắn gọn, cách này nhanh hơn và ít rủi ro hơn: ứng dụng đã được kiểm chứng, và nền tảng có thể mở rộng hoàn toàn."
+   }
+  ]
+ },
+ "patterns": [
+  {
+   "t": "Dẫn dắt bài thuyết trình: I'd like to walk you through + N / Moving on to + N / To sum up, + câu",
+   "f": [
+    ["I'd like to", "walk you through", "our proposal."],
+    ["Now,", "moving on to", "the roadmap."],
+    ["So,", "to sum up,", "the app is ready to scale."]
+   ],
+   "ex": [
+    ["I'd like to walk you through the results of our pilot.", "Tôi xin lần lượt trình bày các kết quả của đợt chạy thử."],
+    ["Moving on to the second part: our roadmap.", "Chuyển sang phần thứ hai: lộ trình của chúng tôi."],
+    ["To sum up, the app is tested and ready to scale.", "Tóm lại, ứng dụng đã được kiểm chứng và sẵn sàng mở rộng."]
+   ],
+   "bad": "I'd like to walk you through on our proposal.",
+   "good": "I'd like to walk you through our proposal.",
+   "why": "walk someone through + danh từ: dẫn người nghe đi qua từng phần, không thêm on hay about. Chuyển phần dùng Moving on to + danh từ; kết bài dùng To sum up, + một câu đầy đủ."
+  },
+  {
+   "t": "Mệnh đề quan hệ xác định: N + who / which / where + mệnh đề (không dấu phẩy)",
+   "f": [
+    ["Customers", "who ordered online", "came back more often."],
+    ["This is the app", "which we tested", "in Da Nang."],
+    ["We start with the stores", "where demand is highest", "."]
+   ],
+   "ex": [
+    ["Shoppers who order online usually come back more often.", "Những người mua sắm đặt hàng trực tuyến thường quay lại nhiều hơn."],
+    ["Phase one covers the stores where demand is highest.", "Giai đoạn một gồm những cửa hàng có nhu cầu cao nhất."]
+   ],
+   "bad": "Customers which ordered online came back more often.",
+   "good": "Customers who ordered online came back more often.",
+   "why": "Người dùng who (hoặc that); vật, sự việc dùng which (hoặc that); nơi chốn dùng where. Mệnh đề xác định cho biết ĐÚNG đối tượng nào đang được nói đến, nên không đặt dấu phẩy."
+  },
+  {
+   "t": "Mệnh đề quan hệ không xác định: N, which / who + mệnh đề, … (có dấu phẩy, không dùng that)",
+   "f": [
+    ["Phase two,", "which starts in April,", "covers 28 stores."],
+    ["Ingrid,", "who leads partnerships at Nordwind,", "asked about the rollout."],
+    ["User numbers more than doubled,", "which", "surprised everyone."]
+   ],
+   "ex": [
+    ["Phase two, which starts in April, covers the remaining 28 stores.", "Giai đoạn hai, bắt đầu từ tháng Tư, gồm 28 cửa hàng còn lại."],
+    ["User numbers more than doubled, which shows strong demand.", "Số người dùng tăng hơn gấp đôi, điều này cho thấy nhu cầu rất lớn."]
+   ],
+   "bad": "Phase two, that starts in April, covers 28 stores.",
+   "good": "Phase two, which starts in April, covers 28 stores.",
+   "why": "Mệnh đề không xác định chỉ thêm thông tin phụ, đặt giữa hai dấu phẩy và không dùng that. ', which' ở cuối câu có thể nói về cả ý phía trước: …more than doubled, which shows strong demand (việc tăng gấp đôi cho thấy nhu cầu lớn)."
+  }
+ ],
+ "vocab": [
+  {
+   "q": "'stakeholder' nghĩa là gì?",
+   "opts": ["bên liên quan có quyền lợi trong dự án", "cổ đông nắm giữ cổ phần", "nhà cung cấp hàng hoá"],
+   "a": 0,
+   "why": {
+    "1": "Cổ đông là shareholder; stakeholder rộng hơn, gồm cả nhân viên, khách hàng, đối tác.",
+    "2": "Nhà cung cấp là supplier, không phải stakeholder."
+   }
+  },
+  {
+   "q": "Điền từ: Our app runs on cloud servers, so it is fully ___. Adding 28 stores will not slow it down.",
+   "opts": ["scalable", "compelling", "initiative"],
+   "a": 0,
+   "why": {
+    "1": "compelling (rất thuyết phục) mô tả lý lẽ, lời đề nghị, không nói về khả năng mở rộng của hệ thống.",
+    "2": "initiative là danh từ (sáng kiến), không đứng sau is fully để mô tả nền tảng."
+   }
+  },
+  {
+   "q": "Điền từ: We want to ___ your store network to reach shoppers in new cities.",
+   "opts": ["leverage", "leverage on", "outline"],
+   "a": 0,
+   "why": {
+    "1": "leverage đi thẳng với tân ngữ (leverage your store network), không cần on.",
+    "2": "outline là trình bày khái quát; câu này nói 'tận dụng hệ thống cửa hàng', nên dùng leverage."
+   }
+  },
+  {
+   "q": "Điền từ: The ___ will start in twelve stores and then move to the rest of the region.",
+   "opts": ["rollout", "roll out", "roadmap"],
+   "a": 0,
+   "why": {
+    "1": "roll out viết tách là động từ; sau The cần danh từ, viết liền: rollout.",
+    "2": "roadmap là bản lộ trình; cái 'bắt đầu ở 12 cửa hàng rồi chuyển sang nơi khác' là đợt triển khai (rollout)."
+   }
+  },
+  {
+   "q": "Điền từ: Before I go into detail, let me briefly ___ the three parts of this presentation.",
+   "opts": ["outline", "highlight", "leverage"],
+   "a": 0,
+   "why": {
+    "1": "highlight là nhấn mạnh vài điểm nổi bật; ở đây giới thiệu khái quát cả ba phần, nên dùng outline.",
+    "2": "leverage (tận dụng) không dùng để giới thiệu nội dung bài nói."
+   }
+  },
+  {
+   "q": "'In a nutshell' dùng khi nào?",
+   "opts": ["khi tóm lại ý chính thật ngắn gọn", "khi chuyển sang một phần mới", "khi xin phép ngắt lời"],
+   "a": 0,
+   "why": {
+    "1": "Chuyển sang phần mới dùng Moving on to… hoặc Let me move on to…",
+    "2": "Xin phép ngắt lời dùng Sorry to interrupt, but…"
+   }
+  },
+  {
+   "q": "Điền từ: The pilot results make a ___ case for working together.",
+   "opts": ["compelling", "scalable", "phase"],
+   "a": 0,
+   "why": {
+    "1": "scalable mô tả hệ thống có thể mở rộng, không mô tả một lý lẽ (case).",
+    "2": "phase là danh từ (giai đoạn), không dùng để bổ nghĩa cho case."
+   }
+  },
+  {
+   "q": "Điền từ: This slide shows our ___ for the next twelve months: two phases and five key dates.",
+   "opts": ["roadmap", "stakeholder", "proposition"],
+   "a": 0,
+   "why": {
+    "1": "stakeholder là bên liên quan (người hoặc nhóm), không phải một kế hoạch theo thời gian.",
+    "2": "proposition là lời đề xuất, lợi ích chào mời; kế hoạch có các giai đoạn và mốc thời gian là roadmap."
+   }
+  }
+ ],
+ "grammar": [
+  {
+   "q": "Chọn từ đúng: Customers ___ ordered online came back more often.",
+   "opts": ["who", "which", "where"],
+   "a": 0,
+   "why": {
+    "1": "which dùng cho vật, sự việc; customers là người nên dùng who.",
+    "2": "where dùng cho nơi chốn, không dùng cho người."
+   }
+  },
+  {
+   "q": "Câu nào đúng?",
+   "opts": [
+    "Phase two, which starts in April, covers 28 stores.",
+    "Phase two, that starts in April, covers 28 stores.",
+    "Phase two which starts in April, covers 28 stores."
+   ],
+   "a": 0,
+   "why": {
+    "1": "Mệnh đề không xác định (đặt giữa hai dấu phẩy) không dùng that.",
+    "2": "Thiếu dấu phẩy thứ nhất: mệnh đề thêm thông tin phải nằm giữa hai dấu phẩy."
+   }
+  },
+  {
+   "q": "Điền từ: Phase one covers the stores ___ demand is highest.",
+   "opts": ["where", "which", "who"],
+   "a": 0,
+   "why": {
+    "1": "Sau chỗ trống đã đủ chủ ngữ (demand) và động từ (is), nên cần where (= ở đó) chứ không cần which làm chủ ngữ hay tân ngữ.",
+    "2": "who chỉ dùng cho người, còn stores là nơi chốn."
+   }
+  },
+  {
+   "q": "Điền từ: User numbers more than doubled, ___ shows strong demand for online ordering.",
+   "opts": ["which", "that", "what"],
+   "a": 0,
+   "why": {
+    "1": "Sau dấu phẩy, nói về cả ý phía trước thì dùng which; that không đứng sau dấu phẩy.",
+    "2": "what nghĩa là 'cái mà', không nối với cả mệnh đề phía trước."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Điền một từ: Ingrid, ___ team manages forty stores, asked about the rollout.",
+   "model": "whose",
+   "accept": ["whose", "Whose"],
+   "why": "whose + danh từ chỉ sự sở hữu: Ingrid, whose team manages forty stores = Ingrid, người có đội ngũ quản lý bốn mươi cửa hàng."
+  },
+  {
+   "q": "Điền từ: I'd like to walk you ___ our proposal.",
+   "opts": ["through", "on", "about"],
+   "a": 0,
+   "why": {
+    "1": "walk someone on không phải cụm đúng; dẫn người nghe qua từng phần là walk someone through.",
+    "2": "about đi với talk (talk about), không đi với walk you."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Gộp thành một câu, dùng which: The app was tested in Da Nang. It is ready to scale.",
+   "model": "The app, which was tested in Da Nang, is ready to scale.",
+   "accept": [
+    "The app, which was tested in Da Nang, is ready to scale.",
+    "The app, which was tested in Da Nang, is ready to scale",
+    "The app which was tested in Da Nang is ready to scale.",
+    "The app which was tested in Da Nang is ready to scale",
+    "The app that was tested in Da Nang is ready to scale."
+   ],
+   "why": "Thay It bằng which và đặt mệnh đề ngay sau danh từ the app. Thêm hai dấu phẩy khi chỉ bổ sung thông tin; bỏ dấu phẩy (khi đó dùng được that) khi muốn phân biệt với ứng dụng khác."
+  }
+ ],
+ "listen": [
+  {
+   "q": "Bài thuyết trình gồm mấy phần?",
+   "audio": "I'd like to walk you through our proposal, which has three parts: the pilot results, our offer and the roadmap.",
+   "opts": ["ba phần", "hai phần", "bốn phần"],
+   "a": 0,
+   "why": {
+    "1": "Người nói nói three parts và kể đủ ba: kết quả chạy thử, đề xuất, lộ trình.",
+    "2": "Chỉ có ba mục được kể ra, không có phần thứ tư."
+   }
+  },
+  {
+   "q": "Số người dùng thay đổi thế nào trong đợt chạy thử?",
+   "audio": "During the pilot in Da Nang, user numbers more than doubled.",
+   "opts": ["tăng hơn gấp đôi", "tăng gần gấp đôi", "giảm một nửa"],
+   "a": 0,
+   "why": {
+    "1": "more than doubled là tăng HƠN gấp đôi; 'gần gấp đôi' sẽ là nearly doubled.",
+    "2": "doubled là tăng; giảm một nửa sẽ là halved."
+   }
+  },
+  {
+   "q": "Giai đoạn một có bao nhiêu cửa hàng?",
+   "audio": "Phase one covers the twelve stores in Vietnam, starting in January.",
+   "opts": ["12", "20", "28"],
+   "a": 0,
+   "why": {
+    "1": "20 là twenty; câu nói twelve.",
+    "2": "28 là số cửa hàng còn lại ở giai đoạn hai, câu này không nhắc đến."
+   }
+  },
+  {
+   "q": "Giai đoạn hai bắt đầu khi nào?",
+   "audio": "Phase two, which starts in April, will add the remaining twenty-eight stores.",
+   "opts": ["tháng Tư", "tháng Tám", "tháng Một"],
+   "a": 0,
+   "why": {
+    "1": "tháng Tám là August; câu nói April.",
+    "2": "tháng Một (January) là lúc bắt đầu giai đoạn một."
+   }
+  },
+  {
+   "q": "Người nói muốn tận dụng điều gì của Nordwind?",
+   "audio": "We'd like to leverage your store network to reach shoppers in new cities.",
+   "opts": ["hệ thống cửa hàng", "dữ liệu khách hàng", "đội ngũ bán hàng"],
+   "a": 0,
+   "why": {
+    "1": "Câu không nhắc đến customer data; người nói nói store network.",
+    "2": "Câu không nhắc đến sales team; người nói nói store network."
+   }
+  },
+  {
+   "q": "Người nói đang làm gì?",
+   "audio": "Moving on to the second part of my presentation: our roadmap.",
+   "opts": ["chuyển sang phần lộ trình", "kết thúc bài thuyết trình", "trả lời một câu hỏi"],
+   "a": 0,
+   "why": {
+    "1": "Kết thúc sẽ dùng To sum up hoặc In a nutshell; Moving on to là chuyển phần.",
+    "2": "Không có câu hỏi nào; người nói đang chuyển sang phần thứ hai."
+   }
+  },
+  {
+   "q": "Theo người nói, lợi ích chính cho Nordwind là gì?",
+   "audio": "In a nutshell, you get an online ordering channel without building your own app.",
+   "opts": ["có kênh đặt hàng trực tuyến mà không phải tự xây ứng dụng", "tự xây ứng dụng riêng nhanh hơn", "mở thêm cửa hàng mới"],
+   "a": 0,
+   "why": {
+    "1": "without building your own app nghĩa là KHÔNG phải tự xây ứng dụng.",
+    "2": "Câu không nói đến việc mở thêm cửa hàng."
+   }
+  }
+ ],
+ "hsk": [
+  {
+   "q": "TOEIC Part 3: Nghe hội thoại và câu hỏi, chọn đáp án.",
+   "audio": "Woman: Thanks for the presentation. How would the rollout work? Man: We suggest two phases. We'd start with the twelve stores in Vietnam in January. Woman: And the rest of the stores? Man: They would follow in April, once we've reviewed the first results together. Question: What will happen before the second phase starts?",
+   "opts": ["The first results will be reviewed", "All forty stores will open", "A new app will be built", "The price will be agreed"],
+   "a": 0,
+   "why": {
+    "1": "Bốn mươi cửa hàng không triển khai cùng lúc; kế hoạch chia làm hai giai đoạn.",
+    "2": "Không ai nói đến việc xây ứng dụng mới.",
+    "3": "Không ai nhắc đến giá cả."
+   }
+  },
+  {
+   "q": "TOEIC Part 4: Nghe bài nói ngắn và câu hỏi, chọn đáp án.",
+   "audio": "Woman: Good morning, everyone. I'd like to walk you through our proposal for Nordwind Retail. First, I'll highlight the key results of our pilot. After that, I'll outline our roadmap, and finally, we'll have time for your questions. Question: What will the speaker do first?",
+   "opts": ["Present the pilot results", "Explain the roadmap", "Answer questions", "Introduce Nordwind Retail"],
+   "a": 0,
+   "why": {
+    "1": "Lộ trình được trình bày sau: After that, I'll outline our roadmap.",
+    "2": "Phần hỏi đáp ở cuối: finally, we'll have time for your questions.",
+    "3": "Người nói không giới thiệu Nordwind; Nordwind là đối tác đang nghe."
+   }
+  },
+  {
+   "q": "TOEIC Part 5: Chọn từ đúng điền vào câu. The new platform is highly ___, so the company can add more stores at a low cost.",
+   "opts": ["scalable", "scale", "scaling", "scaled"],
+   "a": 0,
+   "why": {
+    "1": "scale là danh từ hoặc động từ; sau highly cần một tính từ.",
+    "2": "scaling là V-ing, không đi sau highly để mô tả đặc điểm của nền tảng.",
+    "3": "scaled là phân từ quá khứ (đã được điều chỉnh quy mô), không mang nghĩa 'dễ mở rộng'."
+   }
+  },
+  {
+   "q": "TOEIC Part 6: Chọn từ điền vào email. Dear Ms Larsen, Thank you for meeting us on Tuesday. As promised, I have attached the roadmap, ___ shows the two phases of the rollout.",
+   "opts": ["which", "who", "where", "what"],
+   "a": 0,
+   "why": {
+    "1": "who chỉ dùng cho người; roadmap là vật.",
+    "2": "where dùng cho nơi chốn; ở đây cần chủ ngữ cho động từ shows.",
+    "3": "what không đứng sau danh từ để nối mệnh đề."
+   }
+  },
+  {
+   "q": "IELTS Reading: True / False / Not Given. Đoạn đọc: 'Nordwind Retail, which operates forty stores in Southeast Asia, is considering a partnership with a Vietnamese app company. If the two sides reach an agreement, the rollout will begin with twelve stores in Vietnam.' Nhận định: Nordwind has already agreed to the partnership.",
+   "opts": ["True", "False", "Not Given"],
+   "a": 1,
+   "why": {
+    "0": "Không chọn True: is considering (đang cân nhắc) và If the two sides reach an agreement cho thấy hai bên chưa đồng ý.",
+    "2": "Không chọn Not Given: đoạn đọc có thông tin rõ ràng là chưa có thoả thuận, trái với nhận định, nên đáp án là False."
+   }
+  }
+ ],
+ "shadow": [
+  {
+   "t": "stakeholder",
+   "focus": "Nhấn âm đầu STAKE; ake đọc 'ây': 'xtấyk-hâu-đơ'."
+  },
+  {
+   "t": "I'd like to walk you through our proposal.",
+   "focus": "walk không đọc âm l: 'wók'; through bắt đầu bằng /θ/, đặt đầu lưỡi giữa hai răng; nhấn pro-PO-sal."
+  },
+  {
+   "t": "Moving on to our value proposition.",
+   "focus": "Nối moving‿on: 'mu-vinh-gon'; nhấn VAL-ue và prop-o-SI-tion."
+  },
+  {
+   "t": "Phase two, which starts in April, covers twenty-eight stores.",
+   "focus": "Ngắt nhẹ ở hai dấu phẩy và hạ giọng ở phần which starts in April; phase có âm cuối /z/; starts đọc rõ cụm /ts/."
+  },
+  {
+   "t": "The platform is fully scalable.",
+   "focus": "Nhấn PLAT-form và SCA-la-ble ('xkây-lơ-bồ'); fully đọc 'phú-li'."
+  },
+  {
+   "t": "In a nutshell, it's faster and less risky.",
+   "focus": "Nối in‿a‿nutshell: 'i-nơ-nát-sheo', nhấn NUT; ngừng nhẹ sau dấu phẩy rồi lên giọng ở faster."
+  }
+ ],
+ "dialog": {
+  "title": "Bà Ingrid hỏi bạn về kết quả chạy thử, lợi ích và lộ trình triển khai; bạn trả lời bằng các cụm thuyết trình. Đổi vai: bạn là Ingrid, hỏi về lợi ích và các giai đoạn triển khai.",
+  "partner": "Ingrid Larsen",
+  "turns": [
+   {
+    "ai": "So, An, what would you like to show me first?",
+    "vi": "Vậy An, em muốn cho chị xem gì trước?",
+    "model": "I'd like to walk you through the results of our pilot.",
+    "accept": [
+     "I'd like to walk you through the results of our pilot.",
+     "I'd like to walk you through our pilot results.",
+     "I'd like to walk you through the pilot results.",
+     "First, I'd like to walk you through the results of our pilot."
+    ],
+    "frame": "I'd like to ___ you through the results of our pilot.",
+    "hint": "Mở bài: I'd like to walk you through + nội dung sẽ trình bày."
+   },
+   {
+    "ai": "What was the most important result?",
+    "vi": "Kết quả quan trọng nhất là gì?",
+    "model": "User numbers more than doubled during the pilot.",
+    "accept": [
+     "User numbers more than doubled during the pilot.",
+     "User numbers more than doubled.",
+     "Our user numbers more than doubled during the pilot.",
+     "The number of users more than doubled during the pilot."
+    ],
+    "frame": "User numbers more than ___ during the pilot.",
+    "hint": "Nêu kết quả chung: more than doubled = tăng hơn gấp đôi."
+   },
+   {
+    "ai": "Interesting. And what exactly are you offering Nordwind?",
+    "vi": "Thú vị đấy. Thế cụ thể các em đề xuất gì cho Nordwind?",
+    "model": "We'd like to leverage your stores to bring online ordering to your shoppers.",
+    "accept": [
+     "We'd like to leverage your stores to bring online ordering to your shoppers.",
+     "We would like to leverage your stores to bring online ordering to your shoppers.",
+     "We'd like to leverage your stores to bring online ordering to your customers.",
+     "We want to leverage your stores to bring online ordering to your shoppers."
+    ],
+    "frame": "We'd like to ___ your stores to bring online ordering to your shoppers.",
+    "hint": "Nêu lợi ích: leverage + thế mạnh của đối tác + to + mục đích."
+   },
+   {
+    "ai": "Forty stores is a lot. How would the rollout work?",
+    "vi": "Bốn mươi cửa hàng là nhiều đấy. Việc triển khai sẽ diễn ra thế nào?",
+    "model": "We suggest a phased rollout, starting with the twelve stores in Vietnam.",
+    "accept": [
+     "We suggest a phased rollout, starting with the twelve stores in Vietnam.",
+     "We suggest a phased rollout, starting with twelve stores in Vietnam.",
+     "We suggest a phased rollout, starting with the 12 stores in Vietnam.",
+     "We suggest a phased rollout."
+    ],
+    "frame": "We suggest a ___ rollout, starting with the twelve stores in Vietnam.",
+    "hint": "Chia giai đoạn: a phased rollout, starting with + nơi bắt đầu."
+   },
+   {
+    "ai": "OK. Can you sum it up for me in one sentence?",
+    "vi": "Được. Em tóm lại trong một câu cho chị nhé?",
+    "model": "In a nutshell, you get a tested, scalable app without building your own.",
+    "accept": [
+     "In a nutshell, you get a tested, scalable app without building your own.",
+     "In a nutshell, you get a tested app without building your own.",
+     "To sum up, you get a tested, scalable app without building your own.",
+     "In a nutshell, you get a scalable app without building your own."
+    ],
+    "frame": "In a ___, you get a tested, scalable app without building your own.",
+    "hint": "Kết thật gọn: In a nutshell / To sum up + lợi ích chính trong một câu."
+   }
+  ]
+ },
+ "reading": {
+  "title": "Tóm tắt đề xuất hợp tác gửi Nordwind Retail",
+  "text": "PARTNERSHIP PROPOSAL: BRIGHT STAR AND NORDWIND RETAIL\nPrepared for: Ingrid Larsen, Head of Partnerships\n\n1. Background\nBright Star is an online ordering app which was tested in Da Nang from 1 July to 31 August and launched nationwide in September. During the pilot, user numbers more than doubled, and customers who tried online ordering kept coming back.\n\n2. Our value proposition\nNordwind shoppers would order through the Bright Star app and collect their orders in any Nordwind store. Nordwind would gain an online sales channel without the cost and risk of building its own app. The platform, which already serves customers across Vietnam, is fully scalable.\n\n3. Roadmap\nPhase 1 (January to March): the twelve Nordwind stores in Vietnam.\nPhase 2 (from April): the remaining twenty-eight stores in Southeast Asia, subject to a joint review of Phase 1.\n\n4. Next steps\nBoth teams will meet on Wednesday to discuss the terms of the partnership, including exclusivity and commission.",
+  "vi": "ĐỀ XUẤT HỢP TÁC: BRIGHT STAR VÀ NORDWIND RETAIL\nGửi: bà Ingrid Larsen, Trưởng bộ phận Hợp tác\n\n1. Bối cảnh\nBright Star là ứng dụng đặt hàng trực tuyến, đã chạy thử ở Đà Nẵng từ 1/7 đến 31/8 và ra mắt toàn quốc vào tháng Chín. Trong đợt chạy thử, số người dùng tăng hơn gấp đôi, và những khách hàng đã thử đặt hàng trực tuyến vẫn tiếp tục quay lại.\n\n2. Lợi ích chúng tôi mang lại\nKhách của Nordwind sẽ đặt hàng qua ứng dụng Bright Star và nhận hàng tại bất kỳ cửa hàng Nordwind nào. Nordwind có thêm một kênh bán hàng trực tuyến mà không phải chịu chi phí và rủi ro khi tự xây ứng dụng. Nền tảng này, vốn đang phục vụ khách hàng trên khắp Việt Nam, có thể mở rộng hoàn toàn.\n\n3. Lộ trình\nGiai đoạn 1 (tháng Một đến tháng Ba): mười hai cửa hàng Nordwind ở Việt Nam.\nGiai đoạn 2 (từ tháng Tư): hai mươi tám cửa hàng còn lại ở Đông Nam Á, tuỳ theo kết quả hai bên cùng đánh giá giai đoạn 1.\n\n4. Bước tiếp theo\nHai bên sẽ gặp lại vào thứ Tư để bàn các điều khoản hợp tác, gồm quyền độc quyền và hoa hồng.",
+  "qs": [
+   {
+    "q": "Ứng dụng Bright Star đã chạy thử ở đâu?",
+    "opts": ["Đà Nẵng", "Hà Nội", "TP. Hồ Chí Minh"],
+    "a": 0,
+    "why": {
+     "1": "Bài đọc ghi tested in Da Nang; Hà Nội không được nhắc đến.",
+     "2": "Bài đọc ghi tested in Da Nang; TP. Hồ Chí Minh không được nhắc đến."
+    }
+   },
+   {
+    "q": "Theo đề xuất, khách của Nordwind sẽ nhận hàng ở đâu?",
+    "opts": ["tại cửa hàng Nordwind", "tại nhà, do Bright Star giao", "tại kho của Bright Star"],
+    "a": 0,
+    "why": {
+     "1": "Bài đọc không nói giao hàng tận nhà; khách collect their orders in any Nordwind store.",
+     "2": "Bài đọc không nhắc đến kho; khách nhận hàng tại cửa hàng Nordwind."
+    }
+   },
+   {
+    "q": "Đúng hay sai: Giai đoạn 2 chắc chắn bắt đầu vào tháng Tư, dù kết quả giai đoạn 1 thế nào.",
+    "opts": ["Sai", "Đúng"],
+    "a": 0,
+    "why": {
+     "1": "subject to a joint review of Phase 1 nghĩa là còn tuỳ vào việc hai bên cùng đánh giá giai đoạn 1, nên chưa chắc chắn."
+    }
+   },
+   {
+    "q": "Trong câu 'The platform, which already serves customers across Vietnam, is fully scalable', từ which chỉ điều gì?",
+    "opts": ["nền tảng (the platform)", "khách hàng (customers)", "Việt Nam"],
+    "a": 0,
+    "why": {
+     "1": "which đứng ngay sau the platform và bổ sung thông tin cho nó; customers là tân ngữ bên trong mệnh đề.",
+     "2": "Vietnam nằm trong mệnh đề, không phải danh từ mà which thay thế."
+    }
+   },
+   {
+    "q": "Ở buổi gặp thứ Tư, hai bên sẽ bàn về điều gì?",
+    "opts": ["điều khoản hợp tác, gồm độc quyền và hoa hồng", "kết quả giai đoạn 1", "thiết kế lại ứng dụng"],
+    "a": 0,
+    "why": {
+     "1": "Kết quả giai đoạn 1 chỉ có sau tháng Ba; buổi thứ Tư bàn the terms of the partnership.",
+     "2": "Bài đọc không nhắc đến việc thiết kế lại ứng dụng."
+    }
+   }
+  ]
+ },
+ "near": [
+  {
+   "q": "Chọn dạng đúng: The platform's ___ is one of its biggest strengths. (scalable)",
+   "opts": ["scalability", "scalable", "scalably"],
+   "a": 0,
+   "why": {
+    "1": "Sau sở hữu cách The platform's và làm chủ ngữ của is cần danh từ; scalable là tính từ.",
+    "2": "scalably là trạng từ, không làm chủ ngữ được; cần danh từ scalability."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: The pilot results were very ___. (compel)",
+   "opts": ["compelling", "compelled", "compulsion"],
+   "a": 0,
+   "why": {
+    "1": "Sau very cần tính từ mô tả kết quả; compelled (bị buộc phải) dùng cho người bị tác động, không mô tả kết quả.",
+    "2": "compulsion là danh từ (sự ép buộc); sau were very cần tính từ."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: We propose a ___ rollout over six months. (phase)",
+   "opts": ["phased", "phase", "phasing"],
+   "a": 0,
+   "why": {
+    "1": "Trước danh từ rollout cần tính từ; phase là danh từ. Dạng phân từ phased (được chia giai đoạn) làm tính từ.",
+    "2": "a phasing rollout không phải cách kết hợp tự nhiên; cách nói chuẩn là a phased rollout."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: Ingrid listened ___ to the whole presentation. (attention)",
+   "opts": ["attentively", "attentive", "attention"],
+   "a": 0,
+   "why": {
+    "1": "Bổ nghĩa cho động từ listened cần trạng từ; attentive là tính từ.",
+    "2": "attention là danh từ, không bổ nghĩa cho động từ."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: We are excited about a possible ___ between our two companies. (partner)",
+   "opts": ["partnership", "partner", "partnered"],
+   "a": 0,
+   "why": {
+    "1": "partner là một đối tác (một bên); between our two companies cần danh từ chỉ mối quan hệ giữa hai bên: partnership.",
+    "2": "partnered là động từ chia quá khứ, không đứng sau a possible; ở đây cần danh từ."
+   }
+  },
+  {
+   "q": "Chọn dạng đúng: The rollout will be ___ for both companies. (profit)",
+   "opts": ["profitable", "profit", "profitably"],
+   "a": 0,
+   "why": {
+    "1": "Sau will be cần tính từ mô tả đợt triển khai; profit là danh từ (lợi nhuận).",
+    "2": "profitably là trạng từ, không đứng sau be để mô tả chủ ngữ."
+   }
+  }
+ ],
+ "orderPara": [
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (mở đầu bài thuyết trình)",
+   "tokens": [
+    "I'd like to walk you through our proposal, which has three parts.",
+    "First, I'll highlight the results of our pilot in Da Nang.",
+    "After that, I'll outline the roadmap for the rollout.",
+    "Finally, we'll leave some time for your questions."
+   ],
+   "explain": "Câu nêu tổng quát (which has three parts) đứng đầu; sau đó các từ chỉ thứ tự First → After that → Finally sắp xếp ba phần.",
+   "vi": "Tôi xin lần lượt trình bày đề xuất của chúng tôi, gồm ba phần. Đầu tiên, tôi sẽ nêu bật kết quả đợt chạy thử ở Đà Nẵng. Sau đó, tôi sẽ trình bày khái quát lộ trình triển khai. Cuối cùng, chúng ta sẽ dành thời gian cho các câu hỏi của chị."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (trình bày kết quả)",
+   "tokens": [
+    "User numbers more than doubled during the pilot.",
+    "This growth came mainly from customers who tried online ordering.",
+    "As a result, we believe your shoppers would respond in a similar way."
+   ],
+   "explain": "This growth thay cho ý 'tăng hơn gấp đôi' ở câu trước nên phải đứng sau; As a result rút ra kết luận nên đứng cuối.",
+   "vi": "Số người dùng tăng hơn gấp đôi trong đợt chạy thử. Mức tăng này chủ yếu đến từ những khách hàng đã thử đặt hàng trực tuyến. Vì vậy, chúng tôi tin rằng khách của quý công ty cũng sẽ phản hồi tương tự."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (lộ trình triển khai)",
+   "tokens": [
+    "We suggest a phased rollout.",
+    "In phase one, the app will be available in the twelve stores in Vietnam.",
+    "Once this phase has been reviewed, we will move on to the remaining twenty-eight stores.",
+    "This approach keeps the risk low for both sides."
+   ],
+   "explain": "Câu đầu nêu ý chính (phased rollout); In phase one mở giai đoạn đầu; this phase chỉ lại giai đoạn một nên đứng sau; This approach tóm cả cách làm nên đứng cuối.",
+   "vi": "Chúng tôi đề xuất triển khai theo giai đoạn. Ở giai đoạn một, ứng dụng sẽ có mặt tại mười hai cửa hàng ở Việt Nam. Sau khi giai đoạn này được đánh giá, chúng tôi sẽ chuyển sang hai mươi tám cửa hàng còn lại. Cách làm này giúp giảm rủi ro cho cả hai bên."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (kết bài thuyết trình)",
+   "tokens": [
+    "Building your own app would take at least a year.",
+    "However, our platform is already tested and fully scalable.",
+    "In a nutshell, you could offer online ordering in weeks rather than years."
+   ],
+   "explain": "However đối lập với ý của câu trước (tự xây ứng dụng mất nhiều thời gian), nên đứng thứ hai; In a nutshell tóm ý nên đứng cuối.",
+   "vi": "Tự xây ứng dụng riêng sẽ mất ít nhất một năm. Tuy nhiên, nền tảng của chúng tôi đã được kiểm chứng và có thể mở rộng hoàn toàn. Nói ngắn gọn, quý công ty có thể triển khai đặt hàng trực tuyến trong vài tuần thay vì vài năm."
+  }
+ ],
+ "notes": {
+  "title": "Ghi chú: lộ trình triển khai với Nordwind",
+  "lines": [
+   {
+    "who": "Ingrid",
+    "t": "Before I leave, let me check the key points of your plan.",
+    "vi": "Trước khi về, tôi xin kiểm tra lại các điểm chính trong kế hoạch của các bạn."
+   },
+   {
+    "who": "An",
+    "t": "Of course. Phase one covers the 12 stores in Vietnam.",
+    "vi": "Vâng ạ. Giai đoạn một gồm 12 cửa hàng ở Việt Nam."
+   },
+   {
+    "who": "Ingrid",
+    "t": "And when would that phase start?",
+    "vi": "Giai đoạn đó sẽ bắt đầu khi nào?"
+   },
+   {
+    "who": "An",
+    "t": "In January. It would run for three months, until the end of March.",
+    "vi": "Vào tháng Một. Giai đoạn này kéo dài ba tháng, đến cuối tháng Ba."
+   },
+   {
+    "who": "Ingrid",
+    "t": "So phase two starts in April, is that right?",
+    "vi": "Vậy giai đoạn hai bắt đầu vào tháng Tư, đúng không?"
+   },
+   {
+    "who": "Sarah",
+    "t": "Exactly. In April we would add the remaining 28 stores across the region, after a joint review.",
+    "vi": "Đúng vậy. Tháng Tư chúng tôi sẽ bổ sung 28 cửa hàng còn lại trong khu vực, sau khi hai bên cùng đánh giá."
+   },
+   {
+    "who": "Ingrid",
+    "t": "Good. Could you send me the roadmap by email today?",
+    "vi": "Tốt. Hôm nay bạn gửi cho tôi bản lộ trình qua email được không?"
+   },
+   {
+    "who": "Sarah",
+    "t": "Certainly. And shall we meet again on Wednesday at 2 pm to discuss the terms?",
+    "vi": "Chắc chắn rồi. Và mình gặp lại vào 2 giờ chiều thứ Tư để bàn các điều khoản nhé?"
+   },
+   {
+    "who": "Ingrid",
+    "t": "Wednesday at 2 pm works for me. See you then.",
+    "vi": "2 giờ chiều thứ Tư thì tôi được. Hẹn gặp lại."
+   }
+  ],
+  "form": [
+   {
+    "label": "Phase one: number of stores",
+    "answer": "12",
+    "accept": ["12", "twelve"],
+    "why": "An nói: Phase one covers the 12 stores in Vietnam."
+   },
+   {
+    "label": "Phase one: start month",
+    "answer": "January",
+    "accept": ["January", "january", "Jan"],
+    "why": "Ingrid hỏi khi nào bắt đầu, An trả lời: In January."
+   },
+   {
+    "label": "Phase two: start month",
+    "answer": "April",
+    "accept": ["April", "april", "Apr"],
+    "why": "Ingrid hỏi lại: So phase two starts in April, Sarah xác nhận: Exactly."
+   },
+   {
+    "label": "Phase two: number of stores",
+    "answer": "28",
+    "accept": ["28", "twenty-eight", "twenty eight"],
+    "why": "Sarah nói: we would add the remaining 28 stores across the region."
+   },
+   {
+    "label": "Document to send by email today: the ___",
+    "answer": "roadmap",
+    "accept": ["roadmap", "the roadmap", "road map"],
+    "why": "Ingrid đề nghị: Could you send me the roadmap by email today?"
+   },
+   {
+    "label": "Next meeting: Wednesday at ___",
+    "answer": "2 pm",
+    "accept": ["2 pm", "2pm", "2 p.m.", "2.00 pm", "2:00 pm", "14:00", "two pm"],
+    "why": "Sarah đề nghị gặp on Wednesday at 2 pm và Ingrid đồng ý."
+   }
+  ]
+ },
+ "longturn": {
+  "cue": "Present a 2-minute pitch for a product or service you believe in.\nYou should say:\nwhat the product or service is\nwho it is for\nwhat makes it better than the alternatives\nand explain why you believe in it.",
+  "cueVi": "Thuyết trình 2 phút giới thiệu một sản phẩm hoặc dịch vụ mà bạn tin tưởng. Bạn nên nói: đó là sản phẩm, dịch vụ gì; dành cho ai; điều gì làm nó tốt hơn các lựa chọn khác; và giải thích vì sao bạn tin vào nó.",
+  "points": [
+   "what the product or service is",
+   "who it is for",
+   "what makes it better than the alternatives",
+   "why you believe in it"
+  ],
+  "pointsVi": [
+   "sản phẩm, dịch vụ đó là gì",
+   "dành cho ai",
+   "điều gì làm nó tốt hơn các lựa chọn khác",
+   "vì sao bạn tin vào nó"
+  ],
+  "prep": 60,
+  "speak": [60, 120],
+  "model": "I'd like to walk you through a service I genuinely believe in: a meal-planning app called FreshPlate, which I've used for about a year. In a nutshell, it plans healthy meals for the whole week and orders the ingredients for you. It's aimed at busy office workers who want to eat well but don't have time to shop every day. Moving on to what makes it different, most delivery apps simply sell ready-made food, whereas this one helps you plan, so you waste less and spend less. Another strength is that it's highly scalable: it started in one district of Hanoi and now operates in five cities. Personally, I believe in it because it has changed my routine. I used to order fast food three times a week, but now I cook most evenings, which saves me quite a lot of money. To sum up, it's a simple, affordable service with a compelling value proposition, and I'd happily recommend it to anyone with a busy schedule.",
+  "modelVi": "Tôi xin giới thiệu một dịch vụ mà tôi thực sự tin tưởng: ứng dụng lên thực đơn tên FreshPlate, tôi đã dùng khoảng một năm nay. Nói ngắn gọn, ứng dụng lên thực đơn lành mạnh cho cả tuần và đặt mua nguyên liệu giúp bạn. Nó dành cho dân văn phòng bận rộn, muốn ăn uống tốt nhưng không có thời gian đi chợ mỗi ngày. Chuyển sang điểm khác biệt, phần lớn ứng dụng giao đồ ăn chỉ bán món nấu sẵn, còn ứng dụng này giúp bạn lên kế hoạch, nên bạn bỏ phí ít hơn và tiêu ít tiền hơn. Một thế mạnh nữa là nó rất dễ mở rộng: ban đầu chỉ có ở một quận của Hà Nội, giờ đã hoạt động ở năm thành phố. Riêng tôi tin vào nó vì nó đã thay đổi thói quen của tôi. Trước đây tôi gọi đồ ăn nhanh ba lần một tuần, giờ hầu hết các tối tôi tự nấu, nhờ vậy tiết kiệm được khá nhiều tiền. Tóm lại, đây là một dịch vụ đơn giản, giá hợp lý, mang lại lợi ích rất thuyết phục, và tôi sẵn lòng giới thiệu cho bất kỳ ai có lịch làm việc bận rộn.",
+  "useful": [
+   "I'd like to walk you through…",
+   "In a nutshell, …",
+   "It's aimed at people who…",
+   "Moving on to what makes it different, …",
+   "Another strength is that…",
+   "…, which saves / which means…",
+   "To sum up, …",
+   "a compelling value proposition"
+  ],
+  "check": [
+   "Nói đủ 4 ý trong đề",
+   "Mở bài bằng một câu dẫn (I'd like to walk you through…)",
+   "Dùng ít nhất 3 cụm chuyển ý (Moving on to…, Another strength…, To sum up…)",
+   "Dùng ít nhất 2 mệnh đề quan hệ (who, which, where)",
+   "Có một ví dụ cụ thể từ trải nghiệm của chính bạn",
+   "Nói liền mạch từ 1 đến 2 phút, không dừng quá lâu"
+  ]
+ },
+ "write": {
+  "task": "Viết email (130–170 từ) gửi bà Ingrid Larsen sau buổi thuyết trình: cảm ơn, tóm tắt lợi ích chính và lộ trình hai giai đoạn, nhắc tệp lộ trình đính kèm và xác nhận buổi gặp tiếp theo.",
+  "kind": "email",
+  "model": "Subject: Follow-up on our partnership proposal\n\nDear Ingrid,\n\nThank you for taking the time to meet us today. We really appreciated your questions, which helped us see the proposal from Nordwind's point of view.\n\nAs promised, I would like to outline the key points of our proposal. In a nutshell, your shoppers would be able to order through the Bright Star app and collect their orders in any Nordwind store. This would give Nordwind an online sales channel without the cost of building its own app.\n\nWe suggest a phased rollout. Phase one would cover the 12 stores in Vietnam from January to March. Phase two, which would start in April, would add the remaining 28 stores after a joint review.\n\nI have attached the roadmap, which shows each phase in more detail. We look forward to discussing the terms with you on Wednesday at 2 pm.\n\nKind regards,\nAn",
+  "frame": "Subject: Follow-up on our partnership proposal\n\nDear ___,\n\nThank you for ___ to meet us today. We really appreciated your questions, ___ helped us see the proposal from Nordwind's point of view.\n\nAs promised, I would like to ___ the key points of our proposal. ___, your shoppers would be able to order through the Bright Star app and collect their orders in any Nordwind store. This would give Nordwind an online sales channel without ___.\n\nWe suggest a ___ rollout. Phase one would cover the 12 stores in Vietnam from January to March. Phase two, ___, would add the remaining 28 stores after a joint review.\n\nI have attached ___, which shows each phase in more detail. We look forward to discussing the terms with you ___.\n\nKind regards,\n___",
+  "gaps": [
+   "Ingrid",
+   "taking the time",
+   "which",
+   "outline",
+   "In a nutshell",
+   "the cost of building its own app",
+   "phased",
+   "which would start in April",
+   "the roadmap",
+   "on Wednesday at 2 pm",
+   "An"
+  ],
+  "free": [true, false, false, false, false, true, false, true, false, true, true],
+  "hints": [
+   "Thank you for taking the time to…",
+   "…, which helped us…",
+   "I would like to outline…",
+   "In a nutshell, …",
+   "We suggest a phased rollout. Phase one would…",
+   "I have attached…, which shows…",
+   "We look forward to + V-ing…"
+  ],
+  "check": [
+   "Tiêu đề nêu rõ mục đích email",
+   "Mở thư bằng lời cảm ơn và nhắc lại buổi gặp",
+   "Tóm tắt lợi ích chính cho Nordwind trong một hai câu",
+   "Trình bày lộ trình theo giai đoạn, có mốc thời gian",
+   "Có ít nhất 2 mệnh đề quan hệ (which, who)",
+   "Nhắc tệp đính kèm và bước tiếp theo",
+   "Văn phong trang trọng, kết thư lịch sự",
+   "Dài 130–170 từ"
+  ],
+  "words": [130, 170]
+ }
+}
