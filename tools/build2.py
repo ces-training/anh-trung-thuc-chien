@@ -96,6 +96,7 @@ def sync_landing(site):
     q = lambda v: json.dumps(v, ensure_ascii=False)
     h = re.sub(r'formEndpoint: "[^"]*"', "formEndpoint: " + q(site.get("sheetUrl", "")), h, count=1)
     h = re.sub(r'(\n  zalo: )"[^"]*"', lambda m: m.group(1) + q(site.get("zalo", "")), h, count=1)
+    h = re.sub(r'(\n  zaloUrl: )"[^"]*"', lambda m: m.group(1) + q(site.get("zaloUrl", "")), h, count=1)
     h = re.sub(r'(\n  hotline: )"[^"]*"', lambda m: m.group(1) + q(site.get("hotline", "")), h, count=1)
     b = site.get("bank", {})
     h = re.sub(r'bank: \{ id: "[^"]*", account: "[^"]*", name: "[^"]*" \}', f'bank: {{ id: {q(b.get("id", ""))}, account: {q(b.get("account", ""))}, name: {q(b.get("name", ""))} }}', h, count=1)

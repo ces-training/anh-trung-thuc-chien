@@ -55,15 +55,15 @@ function payBox(o) {
     <p class="payamt">${fmtVND(o.amount)} <span class="pill ${paid ? "ok" : "go"}">${paid ? ICON.check + " Đã thu" : esc(st)}</span></p>
     ${paid ? `<p class="small">CES đã nhận tiền. ${o.kind === "goi" ? "Gói học đã mở, bạn vào học tuần 2 được rồi." : "Hẹn gặp bạn ở buổi học! CES sẽ nhắn Zalo lịch và link."}</p>` : `
     ${qr ? `<img class="qr" src="${qr}" alt="Mã QR chuyển khoản" width="220" height="220" loading="lazy">` : ""}
-    <p class="small">Mã đơn: <b class="code">${esc(o.code)}</b> · Nội dung chuyển khoản: <b>${esc(o.code)}</b>${hasBank ? ` · ${esc(bank.name || "")}` : ""}</p>
-    ${hasBank ? "" : `<p class="small muted">CES sẽ nhắn số tài khoản qua Zalo${SITE.zalo ? " " + esc(SITE.zalo) : ""} trong giờ làm việc.</p>`}
-    <div class="row"><button type="button" class="btn primary small claim"${st === "Đã báo chuyển" ? " disabled" : ""}>${st === "Đã báo chuyển" ? "Đã báo CES, chờ xác nhận" : "Tôi đã chuyển khoản"}</button><button type="button" class="btn ghost small chk">Kiểm tra trạng thái</button></div>`}
+    <p class="small">Mã đơn của bạn: <b class="code">${esc(o.code)}</b>${hasBank ? ` · Nội dung chuyển khoản: <b>${esc(o.code)}</b> · ${esc(bank.name || "")}` : ""}</p>
+    ${hasBank ? "" : `<p class="small">Nhắn <b>Zalo ${esc(SITE.zalo || "OA Học viện đa ngữ CES")}</b> kèm mã đơn <b>${esc(o.code)}</b>, CES sẽ hướng dẫn thanh toán và giữ chỗ cho bạn.</p>`}
+    <div class="row">${!hasBank && SITE.zaloUrl ? `<a class="btn primary small" href="${esc(SITE.zaloUrl)}" target="_blank" rel="noopener">Nhắn Zalo OA</a>` : ""}<button type="button" class="btn ${!hasBank && SITE.zaloUrl ? "ghost" : "primary"} small claim"${st === "Đã báo chuyển" ? " disabled" : ""}>${st === "Đã báo chuyển" ? "Đã báo CES, chờ xác nhận" : "Tôi đã thanh toán"}</button><button type="button" class="btn ghost small chk">Kiểm tra trạng thái</button></div>`}
   </div>`;
 }
 function bindPay(root, rerender) {
   root.querySelectorAll(".paybox").forEach(b => {
     const code = b.dataset.code, o = (S.orders || []).find(x => x.code === code); if (!o) return;
-    const cl = $(".claim", b); if (cl) cl.onclick = () => { o.status = "Đã báo chuyển"; save(); track("paid_claim", { code, amount: o.amount }); toast("Đã báo CES. Bạn sẽ nhận xác nhận qua Zalo."); rerender(); };
+    const cl = $(".claim", b); if (cl) cl.onclick = () => { o.status = "Đã báo chuyển"; save(); track("paid_claim", { code, amount: o.amount }); toast("Đã báo CES. Bạn sẽ nhận xác nhận qua Zalo OA."); rerender(); };
     const ck = $(".chk", b); if (ck) ck.onclick = async () => { ck.disabled = true; ck.textContent = "Đang kiểm tra…"; const j = await refreshStatus(); if (j.offline) toast("Trang chưa kết nối hệ thống của CES. CES sẽ xác nhận qua Zalo."); rerender(); };
   });
 }
@@ -109,7 +109,7 @@ function bindOffers(root, rerender) {
       const date = ddmm(key === "class" ? nextDow(3) : nextDow(6));
       const item = key === "class" ? `Lớp nhóm ${(lg && lg.l) || ""} học thử` : `Weekend Live học thử · ${(v && v.v) || ""}`;
       placeOrder(f.kind, item, f.price, key === "class" ? `Thứ 4 ${date}, ${(v && v.v) || ""}` : `Thứ 7 ${date}`);
-      toast("Đã giữ chỗ cho bạn. Chuyển khoản để CES xác nhận.");
+      toast("Đã giữ chỗ cho bạn. Nhắn Zalo OA kèm mã đơn để thanh toán.");
       rerender();
     };
   });

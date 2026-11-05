@@ -1,15 +1,37 @@
 {
-  "_ghi_chu": "Cấu hình chung cho trang chủ và trang học. Sửa ở đây rồi chạy python3 tools/build2.py. sheetUrl = URL Web App của Apps Script (docs/apps-script.gs).",
+  "_ghi_chu": "Cấu hình chung cho trang chủ và trang học. Sửa ở đây rồi chạy python3 tools/build2.py. sheetUrl = URL Web App của Apps Script (docs/apps-script.gs). zaloOA.url = đường dẫn zalo.me của OA. bank để trống: học viên nhắn OA để được hướng dẫn thanh toán.",
   "sheetUrl": "",
-  "zalo": "",
+  "zalo": "OA Học viện đa ngữ CES",
   "hotline": "",
-  "bank": { "id": "", "account": "", "name": "" },
+  "bank": {
+    "id": "",
+    "account": "",
+    "name": ""
+  },
   "prices": {
-    "online": { "month": 249000, "term": 790000 },
-    "member": { "month": 1490000, "term": 4990000 },
-    "vip": { "month": 3500000, "term": 11900000 },
+    "online": {
+      "month": 249000,
+      "term": 790000
+    },
+    "member": {
+      "month": 1490000,
+      "term": 4990000
+    },
+    "vip": {
+      "month": 3500000,
+      "term": 11900000
+    },
     "ticket": 358000
   },
-  "trial": { "class": 89000, "live": 179000, "liveFull": 358000 },
-  "classSlots": ["Tối 19:00–20:00", "Tối 20:30–21:30", "Trưa 12:00–13:00"]
+  "trial": {
+    "class": 89000,
+    "live": 179000,
+    "liveFull": 358000
+  },
+  "classSlots": [
+    "Tối 19:00–20:00",
+    "Tối 20:30–21:30",
+    "Trưa 12:00–13:00"
+  ],
+  "zaloUrl": ""
 }

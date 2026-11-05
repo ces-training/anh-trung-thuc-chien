@@ -42,16 +42,18 @@ Cần người có quyền quản trị OA.
 | Tin Zalo | Việc của admin |
 |---|---|
 | 🆕 Có người mới làm kiểm tra đầu vào | Nhắn Zalo chào, mời học thử trong 24 giờ |
-| 🧾 Đơn mới (lớp nhóm 89k, Weekend Live 179k, gói học) | Chờ tiền về đúng nội dung mã đơn |
-| 💸 Học viên báo đã chuyển khoản | Kiểm tra tài khoản; đúng thì ở bảng **Đơn hàng** đổi **Trạng thái** thành **Đã thu** |
+| 🧾 Đơn mới (lớp nhóm 89k, Weekend Live 179k, gói học) | Học viên sẽ nhắn OA kèm mã đơn: hướng dẫn thanh toán |
+| 💸 Học viên báo đã thanh toán | Kiểm tra tiền về; đúng thì ở bảng **Đơn hàng** đổi **Trạng thái** thành **Đã thu** |
 | 📝 Đăng ký ở trang chủ | Gọi hoặc nhắn Zalo trong giờ làm việc |
 | ⏳ Đăng ký chờ lớp (báo khi đủ 6 người) | Gom lớp, báo ngày mở |
 | ☀️ Việc hôm nay (8 giờ sáng) | Người học thử nghỉ 2 ngày, đơn chưa thu quá 1 ngày, danh sách lớp nhóm theo ca (thứ 3, thứ 4), danh sách Weekend Live theo trạm (thứ 5, thứ 6), gói sắp hết hạn |
 
 Đổi **Trạng thái** thành **Đã thu** là đủ: học viên mở web là gói tự kích hoạt (mở từ tuần 2), đơn lớp nhóm và Weekend Live hiện "Đã thu". Học viên dùng máy khác thì nhập mã đơn ở trang **Chọn gói**.
 
-## D. Ngân hàng (mã QR chuyển khoản)
-Điền vào `tools/site.json`, mục `"bank"`: mã ngân hàng theo VietQR (ví dụ `"VCB"`), số tài khoản, tên chủ tài khoản; điền `"zalo"`, `"hotline"`. Chạy lại `python3 tools/deploy.py "Cập nhật ngân hàng"`. Trang chủ và trang học cùng hiện mã QR có sẵn số tiền và nội dung là mã đơn.
+## D. Zalo OA để học viên liên hệ
+Trang không hiện số tài khoản. Mỗi đơn có một mã; học viên bấm **Nhắn Zalo OA** và gửi mã đơn, CES hướng dẫn thanh toán ngay trong Zalo.
+Dán đường dẫn của OA (dạng `https://zalo.me/…`, lấy ở OA Manager → Chia sẻ OA) vào `"zaloUrl"` trong `tools/site.json`, rồi chạy `python3 tools/deploy.py "Thêm Zalo OA"`. Trang chủ và trang học cùng hiện nút nhắn OA.
+(Nếu sau này muốn hiện mã QR chuyển khoản, điền mục `"bank"` trong cùng file.)
 
 ## Lưu ý
 - Khoá từ tuần 2 là khoá trên trình duyệt: đủ cho học viên thông thường, nhưng người rành kỹ thuật vẫn xem được nội dung trong mã trang. Muốn khoá chặt cần chuyển bài học lên máy chủ có đăng nhập.

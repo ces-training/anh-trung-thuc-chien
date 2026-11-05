@@ -729,7 +729,8 @@ footer details p{margin-top:8px;max-width:80ch}
    chưa có thì trang dùng hình minh họa. */
 window.SITE_CONFIG = {
   formEndpoint: "",          // URL Web App của Google Apps Script (xem HUONG-DAN.md). Để trống = bản xem thử.
-  zalo: "",                  // ví dụ "0912345678"
+  zalo: "OA Học viện đa ngữ CES",                  // tên hiển thị, ví dụ "OA Học viện đa ngữ CES"
+  zaloUrl: "",               // đường dẫn zalo.me của OA (bấm để nhắn)
   hotline: "",               // ví dụ "0912 345 678"
   email: "",                 // ví dụ "hello@tenmien.vn"
   address: "",               // địa điểm Weekend Live
@@ -804,7 +805,7 @@ window.SITE_CONFIG = {
   }
   if (C.foreignerInfo){ $("#faq-foreign-a").textContent = C.foreignerInfo; $("#faq-foreign").hidden = false; }
   var contacts = [];
-  if (C.zalo) contacts.push("Zalo: " + C.zalo);
+  if (C.zalo) contacts.push("Zalo " + C.zalo);
   if (C.hotline) contacts.push("Hotline: " + C.hotline);
   if (C.email) contacts.push("Email: " + C.email);
   if (C.address) contacts.push("Địa điểm Weekend Live: " + C.address);
@@ -858,7 +859,7 @@ window.SITE_CONFIG = {
       $("#d-bank").textContent = "Số tiền " + fmt(d.amount) + " · Nội dung: " + d.code + (C.bank.name ? " · " + C.bank.name : "");
       $("#d-pay").hidden = false;
     }
-    if (C.zalo){ var z=$("#d-zalo"); z.textContent = "Cần hỏi ngay: nhắn Zalo " + C.zalo + " kèm mã " + d.code + "."; z.hidden=false; }
+    if (C.zalo){ var z=$("#d-zalo"); z.textContent = "Nhắn Zalo " + C.zalo + " kèm mã " + d.code + " để CES hướng dẫn thanh toán và xếp lớp."; if (C.zaloUrl){ var a=document.createElement("a"); a.href=C.zaloUrl; a.target="_blank"; a.rel="noopener"; a.textContent=" Nhắn ngay →"; a.style.fontWeight="700"; z.appendChild(a); } z.hidden=false; }
     $("#d-demo").hidden = !demo;
     done.focus();
   }

@@ -204,9 +204,9 @@ async function funnel(browser, base) {
   await page.click('.offer[data-off="class"] [data-v]:nth-child(2)'); await page.click('.offer[data-off="class"] button[type=submit]'); await page.waitForTimeout(400);
   const ord = posts.find(p => p.type === "order" && p.kind === "lop-nhom");
   check(ord && ord.amount === 89000 && /20:30/.test(ord.when) && ord.name === "Nguyễn Thử", "đơn lớp nhóm gửi đúng giá, ca, tên");
-  check(await page.$('.offer[data-off="class"] .paybox') !== null, "hiện khung chuyển khoản có mã đơn");
+  check(await page.$('.offer[data-off="class"] .paybox') !== null && /Zalo OA Học viện đa ngữ CES/.test(await txt()) && !(await page.$('.paybox .qr')), "hiện khung thanh toán có mã đơn, dẫn sang Zalo OA");
   await page.click('.offer[data-off="class"] .claim'); await page.waitForTimeout(300);
-  check(posts.some(p => p.type === "paid_claim" && p.code === (ord || {}).code), "bấm 'Tôi đã chuyển khoản' báo về Sheet");
+  check(posts.some(p => p.type === "paid_claim" && p.code === (ord || {}).code), "bấm 'Tôi đã thanh toán' báo về Sheet");
   await page.fill('.offer[data-off="live"] [name=nm]', "Nguyễn Thử"); await page.click('.offer[data-off="live"] button[type=submit]'); await page.waitForTimeout(400);
   check(posts.some(p => p.type === "order" && p.kind === "weekend-live" && p.amount === 179000), "đơn Weekend Live 179k (tên, Zalo tự điền lại)");
   await go("#chon-goi"); await page.click('.pk[data-k="online"]'); await page.waitForTimeout(200); await page.click(".planform button[type=submit]"); await page.waitForTimeout(400);

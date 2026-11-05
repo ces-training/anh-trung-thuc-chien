@@ -88,12 +88,12 @@ function onOrder(d) {
   sheet("don").appendRow([now(), d.code, d.id || "", d.name, d.contact, d.kind, d.item, d.amount, d.when || "", STATUS[0], "", "web", ""].map(clip));
   upsertHV(d, { name: d.name, contact: d.contact });
   setStatusRule();
-  zalo(`🧾 Đơn mới ${d.code}: ${TYPE_NAME[d.kind] || d.kind}\n${d.item} · ${money(d.amount)}${d.when ? "\nLịch: " + d.when : ""}\n${d.name} · ${d.contact}\n👉 Khi thấy tiền về (nội dung ${d.code}), đổi Trạng thái thành "Đã thu" trong Sheet.`);
+  zalo(`🧾 Đơn mới ${d.code}: ${TYPE_NAME[d.kind] || d.kind}\n${d.item} · ${money(d.amount)}${d.when ? "\nLịch: " + d.when : ""}\n${d.name} · ${d.contact}\n👉 Học viên sẽ nhắn OA kèm mã ${d.code}: hướng dẫn thanh toán; thu xong thì đổi Trạng thái thành "Đã thu" trong Sheet.`);
 }
 function onPaidClaim(d) {
   const sh = sheet("don"), v = sh.getDataRange().getValues(), H = SHEETS.don;
   for (let i = 1; i < v.length; i++) if (v[i][H.indexOf("Mã đơn")] === d.code && v[i][H.indexOf("Trạng thái")] === STATUS[0]) sh.getRange(i + 1, H.indexOf("Trạng thái") + 1).setValue(STATUS[1]);
-  zalo(`💸 ${d.name || "Học viên"} báo đã chuyển khoản đơn ${d.code} (${money(d.amount)}).\n👉 Kiểm tra tài khoản, đúng thì đổi Trạng thái thành "Đã thu".`);
+  zalo(`💸 ${d.name || "Học viên"} báo đã thanh toán đơn ${d.code} (${money(d.amount)}).\n👉 Kiểm tra tài khoản, đúng thì đổi Trạng thái thành "Đã thu".`);
 }
 function onLanding(d) {
   const plan = { test: "Làm bài test miễn phí", online: "Gói Online", member: "Gói Thành viên", vip: "Gói VIP", ticket: "Vé lẻ Weekend Live", b2b: "Lớp doanh nghiệp" }[d.plan] || d.plan;
