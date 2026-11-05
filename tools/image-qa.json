@@ -298,5 +298,460 @@
   "model": "gemini-3.1-flash-image",
   "ok": true,
   "problems": []
+ },
+ "cast-hoa": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "cast-dave": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "cast-ingrid": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "cast-teacher": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "cast-chenzong": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "cast-xiaoliu": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "cast-lan": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "cast-lilaoshi": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "cast-staff": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "cast-driver": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "cast-passer": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-hr": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-tour": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-team": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-it": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-friday": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "form": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "contract": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "lift": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "kitchen": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "printer": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "reception": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "locker": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "password": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "calendar": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-agenda": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-debate": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-online": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-proposal": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-wrapup": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "agenda": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "chart": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "launch": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "survey": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "online": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "checklist": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-results-d1": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-pitch-d2": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-negotiation-d3": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-qa-d4": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-en-report-d5": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "dad": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "mom": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "brother": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "sister": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "family": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "birthday-cake": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "numbers": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "clock": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "breakfast": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "bread": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "milk": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "egg": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "book": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "bag": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "car": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-fair-d1": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-fair-d2": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-fair-d3": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-office-d4": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-office-d5": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "older-brother": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "older-sister": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "younger-brother": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "younger-sister": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "school": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "baozi": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "cup": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "desk": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "chair": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "train": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-airport": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-station": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-hotel": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-roadside": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-metro": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "ticket": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "newyear": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "station": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "taxi": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "hotel": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "door": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "brokencar": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "walk": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "metro": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "sunny": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "cloudy": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "left": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "right": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "road": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "table": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
  }
 }

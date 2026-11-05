@@ -4224,7 +4224,7 @@ if (HAS_COURSE) {
     const lk = looks[i % looks.length];
     if (!CHARS[c.name]) CHARS[c.name] = { skin: lk[0], hair: lk[1], style: lk[2], top: lk[3], wear: "tee" };
     const known = { an: "char-an", tom: "char-tom", kevin: "char-kevin", linh: "char-linh", sarah: "char-sarah", wangli: "char-wangli", minh: "char-minh", wangjl: "char-wangjl" };
-    if (!CHAR_IMG[c.name]) CHAR_IMG[c.name] = known[c.key] || "cast-" + c.key;
+    if (!CHAR_IMG[c.name]) CHAR_IMG[c.name] = known[c.key] || c.img || "cast-" + c.key;
   })));
 }
 function nextUpL(L) { for (const d of WDAYS) { const k = exL(d, L).findIndex(c => !S.done[kfor(L, d, c)]); if (k >= 0) return { d, k }; } return null; }

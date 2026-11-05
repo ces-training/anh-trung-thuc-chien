@@ -76,7 +76,7 @@ textarea { min-height: 38px; resize: vertical; }
 
 <div class="wrap">
   <h1>Duyệt tranh · Anh – Trung Thực Chiến</h1>
-  <p class="lede">Mọi chỗ trên web đang <b>mượn ảnh</b>, dùng <b>hình vẽ</b> hoặc còn trống, ở 9 tuần. Không tốn tiền Gemini. Với mỗi ô, chị chọn <b>Dùng được</b>, <b>Đổi ảnh</b> (chọn một ảnh có sẵn khác) hoặc <b>Vẽ mới sau</b> (để dành khi có ngân sách). Lựa chọn tự lưu; xong chị nhắn em “đã duyệt tranh” là em áp vào web.</p>
+  <p class="lede">Mọi chỗ trên web vừa có <b>tranh mới vẽ</b> (kiểu ảnh thật, Gemini) hoặc vẫn <b>mượn ảnh</b> có sẵn, ở 9 tuần. Với mỗi ô, chị chọn <b>Dùng được</b>, <b>Đổi ảnh</b> (chọn một ảnh có sẵn khác) hoặc <b>Vẽ lại</b> (ghi chú điều cần sửa). Lựa chọn tự lưu; xong chị nhắn em “đã duyệt tranh” là em áp vào web.</p>
 
   <div class="bar">
     <div class="tally" id="tally"></div>
@@ -89,7 +89,7 @@ textarea { min-height: 38px; resize: vertical; }
       <span class="sep"></span>
       <button class="chip" data-s="todo" aria-pressed="false">Chưa chọn</button>
       <button class="chip" data-s="swap" aria-pressed="false">Đổi ảnh</button>
-      <button class="chip" data-s="later" aria-pressed="false">Vẽ sau</button>
+      <button class="chip" data-s="later" aria-pressed="false">Vẽ lại</button>
       <button class="bulk" id="bulk">Đồng ý mọi ô chưa chọn</button>
     </div>
     <div class="status" id="status" role="status">Đang mở chỗ lưu lựa chọn…</div>
@@ -100,7 +100,7 @@ textarea { min-height: 38px; resize: vertical; }
 
 <script>
 const DATA = /*__DATA__*/null;
-const GROUPS = [["char", "Nhân vật chưa có ảnh", "hình vẽ theo mô tả trong kịch bản"], ["scene", "Tranh cảnh mở đầu", "đang mượn ảnh cảnh khác; tranh này sau dùng làm khung đầu phim"], ["card", "Tranh thẻ từ", "mượn ảnh gần nghĩa hoặc hình vẽ"]];
+const GROUPS = [["char", "Nhân vật mới", "chân dung dùng làm mẫu mặt cho tranh cảnh"], ["scene", "Tranh cảnh mở đầu", "khung 16:9, dùng luôn làm khung đầu phim"], ["card", "Tranh thẻ từ", "tranh mới hoặc ảnh mượn gần nghĩa"]];
 const state = {}; let db = null, coll = null, gF = "all", sF = null;
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -111,6 +111,7 @@ function picHTML(it) {
   const st = state[it.doc] || {};
   if (st.v === "swap" && st.swap && DATA.photos[st.swap]) return `<img src="${DATA.photos[st.swap]}" alt=""><span class="tag swapped">Đổi sang “${esc(st.swap)}”</span>`;
   const n = it.now;
+  if (n.type === "new") return `<img src="${DATA.photos[n.photo] || ""}" alt=""><span class="tag fresh">${esc(n.label)}</span>`;
   if (n.type === "alias") return `<img src="${DATA.photos[n.photo] || ""}" alt=""><span class="tag alias">${esc(n.label)}</span>`;
   if (n.type === "icon" || n.type === "drawn") return `${n.svg}<span class="tag ${n.fresh ? "fresh" : ""}">${esc(n.label)}</span>`;
   return `<span class="none">Đang trống</span><span class="tag">Đang trống</span>`;
@@ -129,14 +130,14 @@ function itemHTML(it) {
       <div class="acts">
         <button data-v="ok" aria-pressed="${st.v === "ok"}">Dùng được</button>
         <button data-v="swap" aria-pressed="${st.v === "swap"}">Đổi ảnh</button>
-        <button data-v="later" aria-pressed="${st.v === "later"}">Vẽ mới sau</button>
+        <button data-v="later" aria-pressed="${st.v === "later"}">Vẽ lại</button>
       </div>
       <div class="swap" ${st.v === "swap" ? "" : "hidden"}>
         <label class="sub" for="sw-${it.doc}">Thay bằng ảnh có sẵn</label>
         <select id="sw-${it.doc}"><option value="">Chọn ảnh…</option>${opts}</select>
       </div>
       <label class="sub" for="nt-${it.doc}">Ghi chú cho em (không bắt buộc)</label>
-      <textarea id="nt-${it.doc}" placeholder="Ví dụ: mặt hơi trẻ, cần áo vest">${esc(st.note || "")}</textarea>
+      <textarea id="nt-${it.doc}" placeholder="Ví dụ: tay bị thừa, cần thêm biển taxi">${esc(st.note || "")}</textarea>
     </div></article>`;
 }
 function visible(it) {
@@ -159,7 +160,7 @@ function tally() {
   const n = DATA.items.length, c = { ok: 0, swap: 0, later: 0 };
   DATA.items.forEach(i => { const v = (state[i.doc] || {}).v; if (c[v] !== undefined) c[v]++; });
   const todo = n - c.ok - c.swap - c.later;
-  $("#tally").innerHTML = `<span><b>${n}</b> chỗ cần duyệt</span><span><b>${c.ok}</b> dùng được</span><span><b>${c.swap}</b> đổi ảnh</span><span><b>${c.later}</b> vẽ mới sau</span><span><b>${todo}</b> chưa chọn</span>`;
+  $("#tally").innerHTML = `<span><b>${n}</b> chỗ cần duyệt</span><span><b>${c.ok}</b> dùng được</span><span><b>${c.swap}</b> đổi ảnh</span><span><b>${c.later}</b> vẽ lại</span><span><b>${todo}</b> chưa chọn</span>`;
   $("#meter").innerHTML = [["ok", "--ok"], ["swap", "--en"], ["later", "--warn"]].map(([k, col]) => `<i style="width:${c[k] / n * 100}%;background:var(${col})"></i>`).join("");
 }
 function say(msg, err) { const s = $("#status"); s.textContent = msg; s.classList.toggle("err", !!err); }

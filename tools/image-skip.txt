@@ -1,0 +1,1 @@
+meetingroom,laptop,training,friend,bus,plane,airport

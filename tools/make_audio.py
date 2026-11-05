@@ -15,14 +15,16 @@ MODELS = [m for m in [os.environ.get("GEMINI_TTS_MODEL", "").strip(), "gemini-3.
 
 # Giọng cho từng nhân vật (giọng có sẵn của Gemini). "_" = giọng đọc thẻ, câu mẫu.
 VOICES = {
-    "en": {"_": "Kore", "An": "Aoede", "Tom": "Puck", "Kevin": "Charon", "Linh": "Leda", "Sarah": "Despina", "Hoa": "Autonoe", "Dave": "Enceladus"},
+    "en": {"_": "Kore", "An": "Aoede", "Tom": "Puck", "Kevin": "Charon", "Linh": "Leda", "Sarah": "Despina", "Hoa": "Autonoe", "Dave": "Enceladus",
+           "Ingrid": "Pulcherrima", "Ingrid Larsen": "Pulcherrima", "Ms Chen": "Erinome", "Sarah Lee": "Despina"},
     "vi": {"_": "Kore", "Khang": "Algieba", "Vy": "Laomedeia"},
     # nhân vật khoá 16 tuần (tiếng Trung) và tên tương ứng bên tiếng Anh
     "zh_course": {"刘星": "Puck", "夏东海": "Charon", "刘梅": "Gacrux", "夏雪": "Leda", "小雨": "Fenrir", "阿兰": "Aoede", "老师": "Erinome"},
     "en_course": {"Leo": "Puck", "David": "Charon", "Mary": "Gacrux", "Sophie": "Leda", "Sam": "Fenrir", "Lan": "Aoede", "Ms Chen": "Erinome"},
     # mỗi nhân vật một giọng cố định, dù dữ liệu ghi tên Việt hay tên chữ Hán
     "zh": {"_": "Kore", "An": "Aoede", "阮安": "Aoede", "王丽": "Despina", "Lệ": "Despina", "Minh": "Orus", "阮明": "Orus",
-           "王经理": "Iapetus", "工作人员": "Callirrhoe", "司机": "Algenib", "路人": "Achird"},
+           "王经理": "Iapetus", "工作人员": "Callirrhoe", "司机": "Algenib", "路人": "Achird",
+           "陈总": "Alnilam", "小刘": "Zephyr", "阮兰": "Leda", "李老师": "Erinome"},
 }
 STYLE = {
     "en": "Say this clearly and naturally, in a warm, friendly tone, at a calm pace for language learners: ",
@@ -82,6 +84,8 @@ def main():
             if f.exists() and (ids is None or clip_id(r) in ids):
                 f.unlink()
     todo = [r for r in rows if not (OUT / r["lang"] / (clip_id(r) + ".mp3")).exists()]
+    langs = {x for x in os.environ.get("LANGS", "").split(",") if x}  # chạy song song mỗi ngôn ngữ một model để không chờ giới hạn tốc độ
+    if langs: todo = [r for r in todo if r["lang"] in langs]
     print(f"Tổng {len(rows)} câu, cần tạo {len(todo)}.")
     key = os.environ.get("GEMINI_API_KEY", "").strip()
     if todo and not key:

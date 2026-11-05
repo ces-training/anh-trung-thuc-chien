@@ -8,6 +8,8 @@ R = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 TPL = open(os.path.join(R, "tools", "build", "page-template.html"), encoding="utf-8").read()
 IMGDIR = os.path.join(R, "tuan-1", "img")
 PHOTOS = {os.path.splitext(f)[0]: f for f in os.listdir(IMGDIR) if f.endswith(".webp")}
+NEW = set(open(os.path.join(R, "tools", "image-new.txt")).read().split()) if os.path.exists(os.path.join(R, "tools", "image-new.txt")) else set()
+QA = json.load(open(os.path.join(R, "tools", "image-qa.json"), encoding="utf-8")) if os.path.exists(os.path.join(R, "tools", "image-qa.json")) else {}
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(R, "tools", "shots", "duyet-tranh.html")
 NEW_ICONS = set(re.findall(r'^\s+"?([a-z][\w-]*)"?: \[', TPL[TPL.find("/* hình vẽ bằng mã cho các thẻ chưa có tranh"):TPL.find("/* dùng lại ảnh thật")], re.M))
 DAYN = ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6"]
@@ -41,17 +43,19 @@ for f in sorted(glob.glob(os.path.join(R, "tools", "course", "*.json"))):
     prompts = {x["key"]: x.get("prompt", "") for x in (W.get("newImages") or []) + (W.get("newScenes") or [])}
     for c in W.get("cast", []):
         if c["key"] in known_char: continue
-        s = slot("char-" + c["key"] + "-" + c["name"], group="char", key=c["name"], title=c["name"] + (f" ({c['py']})" if c.get("py") else ""),
+        ck = c.get("img") or "cast-" + c["key"]
+        if ck in PHOTOS and ck not in NEW: continue
+        s = slot("char-" + c["key"] + "-" + c["name"], group="char", key=c["name"], photo=ck if ck in PHOTOS else "", title=c["name"] + (f" ({c['py']})" if c.get("py") else ""),
                  sub=c.get("vi", ""), prompt=c.get("look", ""), use=wk)
         need_people.add(c["name"])
     for i, d in enumerate(W["days"]):
         where = f"{wk} · {DAYN[i] if i < 5 else d.get('label', '')}"
         sc = (d.get("scene") or {}).get("img")
-        if sc and sc not in PHOTOS:
+        if sc and (sc not in PHOTOS or sc in NEW):
             slot(sc, group="scene", key=sc, title=d.get("title") or sc, sub="Tranh cảnh mở đầu (khung 16:9, dùng làm khung đầu cho phim)", prompt=prompts.get(sc, ""), use=where)
         for c in d.get("cards", []):
             k = c.get("img")
-            if not k or k in PHOTOS: continue
+            if not k or (k in PHOTOS and k not in NEW): continue
             word = c["w"] + (f" ({c['py']})" if c.get("py") else "")
             s = slot(k, group="card", key=k, title=k, sub="", prompt=prompts.get(k, ""), use=f"{where} · {word} = {c.get('mEn') or ''} / {c.get('m') or ''}".replace(" =  / ", ""))
             need_icons.add(k)
@@ -68,7 +72,10 @@ ALIAS = art["alias"]
 
 for s in slots.values():
     k = s["key"]; s["doc"] = re.sub(r"[^A-Za-z0-9_-]", "", s["id"])[:40] + "-" + hashlib.md5(s["id"].encode()).hexdigest()[:6]
-    if s["group"] == "char":
+    if s.get("photo") or (s["group"] != "char" and k in PHOTOS):
+        ph = s.get("photo") or k; q = QA.get(ph, {})
+        s["now"] = {"type": "new", "photo": ph, "label": "Tranh mới vẽ" + ("" if q.get("ok", True) else " · máy báo cần xem")}
+    elif s["group"] == "char":
         p = art["people"].get(k, {})
         s["now"] = {"type": "drawn", "svg": p.get("svg", ""), "label": "Hình vẽ theo mô tả nhân vật" if p.get("own") else "Hình vẽ chung (chưa có mô tả riêng)"}
     elif ALIAS.get(k) in PHOTOS:

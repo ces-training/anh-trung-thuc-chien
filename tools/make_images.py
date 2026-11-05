@@ -172,6 +172,8 @@ def main():
         print(f"Kiểm tra xong, chi phí ước tính {len(items) * PRICE['qa']:.3f} USD. Cần xem lại: " + (", ".join(bad) or "không có"))
         return
     todo = [it for it in items if not (OUT / f'{it["key"]}.webp').exists()]
+    skip = {x.strip() for x in os.environ.get("SKIP", "").split(",") if x.strip()}  # chỗ đã có ảnh mượn dùng được, không vẽ
+    todo = [it for it in todo if it["key"] not in skip]
     print(f"Tổng {len(items)} tranh, cần vẽ {len(todo)}.")
     key = os.environ.get("GEMINI_API_KEY", "").strip()
     if todo and not key:

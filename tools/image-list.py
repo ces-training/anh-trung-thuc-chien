@@ -1,5 +1,5 @@
 # Sinh tools/image-list.json: danh sách tranh cần Gemini vẽ (chạy: python3 tools/image-list.py)
-import json, pathlib
+import json, pathlib, re
 STYLE = ("Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, "
          "modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. "
          "Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. "
@@ -90,23 +90,49 @@ COURSE_ITEMS = []
 KNOWN_CHARS = {"an", "tom", "kevin", "linh", "sarah", "wangli", "minh", "wangjl"}
 EXISTING = set(CARDS) | set(HOME) | set(HOME_REF) | set(SCENES) | set(CHARS)
 _seen = set()
-for f in sorted(pathlib.Path(__file__).with_name("course").glob("*-w*.json")):
+# thẻ từ chưa có mô tả trong newImages (05/11)
+EXTRA_CARDS = {
+  "sunny": "A bright sunny day over a modern city street with blue sky and a few people in light clothes walking, warm sunlight and soft shadows.",
+  "cloudy": "A grey overcast sky over a modern city street, thick clouds, people walking with jackets, soft diffuse light.",
+  "left": "A person at a street corner pointing clearly to their left with the left arm, a crossroads behind, natural daylight.",
+  "right": "A person at a street corner pointing clearly to their right with the right arm, a crossroads behind, natural daylight.",
+  "road": "A wide straight city road with lane markings and a few cars in the distance, trees on both sides, daylight.",
+  "table": "A plain wooden table in a bright office pantry, nothing on it except a small plant, natural light.",
+  "chair": "A single modern office chair beside a desk in a bright office, natural light.",
+}
+def _week_files():
+    for f in sorted(pathlib.Path(__file__).with_name("course").glob("*.json")):
+        if re.match(r"^(zh|en)-(w\d+|[a-z]\d-\d)$", f.stem): yield f
+def _cast_key(m):
+    return ("char-" + m["key"]) if m["key"] in KNOWN_CHARS else (m.get("img") or "cast-" + m["key"])
+used_cards = set()
+for f in _week_files():
+    c = json.loads(f.read_text(encoding="utf-8"))
+    for d in c["days"]:
+        for cd in d.get("cards", []):
+            if cd.get("img"): used_cards.add(cd["img"])
+for f in _week_files():
     c = json.loads(f.read_text(encoding="utf-8"))
     if c["lang"] in ("zh", "en"):
         for m in c.get("cast", []):
-            k = "cast-" + m["key"]
-            if m["key"] in KNOWN_CHARS: continue
+            k = _cast_key(m)
+            if m["key"] in KNOWN_CHARS or not m.get("look"): continue
             if k not in _seen:
                 _seen.add(k); COURSE_ITEMS.append({"key": k, "aspect": "1:1", "refs": [], "prompt": PORTRAIT + m["look"] + " " + STYLE})
         for d in c["days"]:
             sc = d["scene"]; k = sc["img"]
             if k in _seen or k in EXISTING: continue
             _seen.add(k)
-            refs = [("char-" if m["key"] in KNOWN_CHARS else "cast-") + m["key"] for m in c.get("cast", []) if m["key"] in sc["imgPrompt"]][:3]
-            COURSE_ITEMS.append({"key": k, "aspect": "16:9", "refs": refs, "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent. " + sc["imgPrompt"] + ". Natural family-drama style photo, warm light. " + STYLE})
+            who = [m for m in c.get("cast", []) if re.search(r"\b" + re.escape(m["key"]) + r"\b", sc["imgPrompt"], re.I)][:3]
+            refs = [_cast_key(m) for m in who]
+            names = ", ".join(f"reference {i + 1} is {m['key']} ({m['name']})" for i, m in enumerate(who))
+            COURSE_ITEMS.append({"key": k, "aspect": "16:9", "refs": refs, "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent" + (f" ({names})" if names else "") + ". " + sc["imgPrompt"] + ". Natural documentary-style workplace photo, warm light. " + STYLE})
     for im in c.get("newImages", []):
         if im["key"] not in _seen and im["key"] not in CARDS:
             _seen.add(im["key"]); COURSE_ITEMS.append({"key": im["key"], "aspect": "4:3", "refs": [], "prompt": im["prompt"] + " " + STYLE})
+for k, d in EXTRA_CARDS.items():
+    if k not in _seen and k not in CARDS and k in used_cards:
+        _seen.add(k); COURSE_ITEMS.append({"key": k, "aspect": "4:3", "refs": [], "prompt": d + " " + STYLE})
 items = []
 for k, d in CHARS.items():
     items.append({"key": k, "aspect": "1:1", "refs": [], "prompt": PORTRAIT + d + " " + STYLE})

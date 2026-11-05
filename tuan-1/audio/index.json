@@ -337,6 +337,281 @@
 },
 "This is Mai, my new colleague.": {
 "_": "en/c3eed5560c6b.mp3"
+},
+"It's half past seven.": {
+"_": "en/5df09d680c1b.mp3"
+},
+"Could you tell me how to get to the station?": {
+"_": "en/f8d7a598c41c.mp3"
+},
+"I'm afraid I can't make it to the meeting. Something urgent has come up.": {
+"_": "en/5f08dbe97b9a.mp3"
+},
+"Given the current market conditions, I'd suggest we postpone the launch until the second quarter.": {
+"_": "en/1b834bf792fc.mp3"
+},
+"Hello! / Hi!": {
+"_": "en/e372ca8ae3f1.mp3"
+},
+"Hello! I'm An.": {
+"_": "en/c43d584dfc9a.mp3"
+},
+"I / I'm": {
+"_": "en/2514eb0edefc.mp3"
+},
+"you": {
+"_": "en/35988b7e8aca.mp3"
+},
+"Are you Linh?": {
+"_": "en/1482f9210b5a.mp3"
+},
+"am / is / are": {
+"_": "en/c6034d92a670.mp3"
+},
+"I am An. You are Tom. My mum is Mai.": {
+"_": "en/3b66f4acaa55.mp3"
+},
+"yes": {
+"_": "en/28999816e313.mp3"
+},
+"Yes, I am.": {
+"_": "en/4f0b3a60fec8.mp3"
+},
+"no / not": {
+"_": "en/affb5b407c31.mp3"
+},
+"No, I'm not Linh.": {
+"_": "en/ab92e2a86d28.mp3"
+},
+"My name is …": {
+"_": "en/b7d46dbeaf5f.mp3"
+},
+"My name is An.": {
+"_": "en/4614a6049494.mp3"
+},
+"Thank you! / Thanks!": {
+"_": "en/cf507a57a7ba.mp3"
+},
+"Thank you, Tom!": {
+"_": "en/d9339e97d040.mp3"
+},
+"You're welcome.": {
+"_": "en/f9a681ebf66c.mp3"
+},
+"Thank you! – You're welcome!": {
+"_": "en/c65f036338a9.mp3"
+},
+"Goodbye! / Bye!": {
+"_": "en/8302239e6d04.mp3"
+},
+"Bye, Tom! Goodbye, Ms Lee!": {
+"_": "en/7733e8160c0b.mp3"
+},
+"Mum": {
+"_": "en/6dc320df7ca2.mp3"
+},
+"Hi, Mum! I'm OK.": {
+"_": "en/18a7dcad8e70.mp3"
+},
+"Dad": {
+"_": "en/763f7829a110.mp3"
+},
+"Thank you, Dad!": {
+"_": "en/fb80faf3d01e.mp3"
+},
+"Hello! Are you Linh?": {
+"Tom": "en/3047f4d550e9.mp3"
+},
+"No, I'm not. My name is An.": {
+"An": "en/371538b9b526.mp3"
+},
+"Oh! Hi, An! I'm Tom.": {
+"Tom": "en/8b545c7f7b7a.mp3"
+},
+"Hi, Tom! … Thank you!": {
+"An": "en/daf2120f18ef.mp3"
+},
+"You're welcome!": {
+"Tom": "en/835f4c4d535d.mp3",
+"_": "en/7cd9e60f9e0d.mp3"
+},
+"Goodbye, An!": {
+"Tom": "en/c0dabd8433e9.mp3"
+},
+"Bye, Tom! … Hi, Mum! Yes, I'm OK. Thank you, Mum!": {
+"An": "en/a46c73a4c3ca.mp3"
+},
+"I am An.": {
+"_": "en/110bcddfe914.mp3"
+},
+"You are Tom.": {
+"_": "en/ec4af6a5225b.mp3"
+},
+"My mum is Mai.": {
+"_": "en/d637ad99b7e8.mp3"
+},
+"I'm Tom.": {
+"_": "en/79e5769308a4.mp3"
+},
+"I'm not Linh.": {
+"_": "en/8eb923cf5a29.mp3"
+},
+"You aren't Kevin.": {
+"_": "en/ab4f7036ace5.mp3"
+},
+"Hello!": {
+"_": "en/598a6e3440d8.mp3"
+},
+"Thank you!": {
+"_": "en/4d088ca87e3c.mp3"
+},
+"Goodbye!": {
+"_": "en/7693a474c8ed.mp3"
+},
+"I'm Dad.": {
+"_": "en/1c5266b2b708.mp3"
+},
+"Are you Tom?": {
+"_": "en/1892ea5bdd97.mp3"
+},
+"Thank you.": {
+"_": "en/85d7d62f75ac.mp3"
+},
+"Are you An?": {
+"_": "en/b8a4bbad028a.mp3"
+},
+"not": {
+"_": "en/31e930aefd03.mp3"
+},
+"Mum. Dad.": {
+"_": "en/133b60656f90.mp3"
+},
+"I'm An. My name is An.": {
+"_": "en/c9fd6fb2711b.mp3"
+},
+"No, I'm not. My name is Minh.": {
+"_": "en/8b83c895e41d.mp3"
+},
+"Hello! My name is An. I'm not Linh. Mai is my mum. Nam is my dad. Thank you, Tom! Bye, Tom!": {
+"_": "en/eeb569e459c4.mp3"
+},
+"What's your name?": {
+"_": "en/a0e9c9311829.mp3"
+},
+"Hi! What's your name?": {
+"_": "en/0eacc1b83aa4.mp3"
+},
+"what": {
+"_": "en/7ffe035b4524.mp3"
+},
+"What's his name?": {
+"_": "en/1780a4721f35.mp3"
+},
+"your": {
+"_": "en/bc2066a314b3.mp3"
+},
+"Your name is Linh.": {
+"_": "en/ee18738fd388.mp3"
+},
+"And you?": {
+"_": "en/0ca9fba74c82.mp3"
+},
+"I'm Tom. And you?": {
+"_": "en/ee410605562e.mp3"
+},
+"he": {
+"_": "en/d6568011c82b.mp3"
+},
+"He is Kevin.": {
+"_": "en/015748d9049f.mp3"
+},
+"his": {
+"_": "en/c6522d0e4169.mp3"
+},
+"we": {
+"_": "en/bfd682260adb.mp3"
+},
+"We are very happy.": {
+"_": "en/6fb0bd08c6e4.mp3"
+},
+"very": {
+"_": "en/b8d4ddbb04ce.mp3"
+},
+"I'm very happy.": {
+"_": "en/6c3f98bdffae.mp3"
+},
+"happy": {
+"_": "en/0a719e7583a4.mp3"
+},
+"We are happy.": {
+"_": "en/4be63a78e340.mp3"
+},
+"Hi, Tom! Nice to meet you.": {
+"_": "en/2ff2ceff6f8c.mp3"
+},
+"too": {
+"_": "en/71b5601641e4.mp3"
+},
+"I'm happy, too.": {
+"_": "en/374e9848d6ea.mp3"
+},
+"My name is Tom. And you?": {
+"Tom": "en/b640e2983b55.mp3",
+"_": "en/c846f0d9b802.mp3"
+},
+"I'm An. Nice to meet you, Tom!": {
+"An": "en/a8cd48130789.mp3"
+},
+"Nice to meet you, too! We are very happy, An.": {
+"Tom": "en/c08f725fbf3f.mp3"
+},
+"I'm very happy, too! What's his name?": {
+"An": "en/ec3baeb4bd4e.mp3"
+},
+"He is Kevin. His name is Kevin. He is very happy, too!": {
+"Tom": "en/4ca49df654da.mp3"
+},
+"Nice to meet you, too.": {
+"_": "en/1259f551317b.mp3"
+},
+"We are very happy. Nice to meet you!": {
+"_": "en/d233b66d8976.mp3"
+},
+"is": {
+"_": "en/64289de996e3.mp3"
+},
+"name": {
+"_": "en/8137405d1eb2.mp3"
+},
+"My name is Minh. And you?": {
+"_": "en/700206c692a0.mp3"
+},
+"My name is Tom.": {
+"Tom": "en/c0ef2df53dcc.mp3"
+},
+"Nice to meet you!": {
+"_": "en/01e874e20be0.mp3"
+},
+"Nice to meet you, too! Goodbye!": {
+"Tom": "en/0fcea84d284f.mp3"
+},
+"Hello! My name is Tom. He is Kevin. We are very happy. An, nice to meet you!": {
+"_": "en/7ad33d6fcc99.mp3"
+},
+"everyone": {
+"_": "en/d0b0d0de053f.mp3"
+},
+"Hi, everyone!": {
+"_": "en/edcde341fac3.mp3"
+},
+"she": {
+"_": "en/19df9d2a3d6b.mp3"
+},
+"She is my friend.": {
+"_": "en/2b3017e4c379.mp3"
+},
+"friend": {
+"_": "en/e19bc8bbbde8.mp3"
 }
 },
 "zh": {
@@ -617,6 +892,33 @@
 },
 "她是中国人。": {
 "_": "zh/eb380e835fd5.mp3"
+},
+"妈": {
+"_": "zh/c15f91966a08.mp3"
+},
+"你好！": {
+"_": "zh/62c8690cfeda.mp3"
+},
+"现在三点。": {
+"_": "zh/ff012d74a9ef.mp3"
+},
+"我们一起去看电影吧！": {
+"_": "zh/6d3537b73313.mp3"
+},
+"对不起，我来晚了，路上堵车。": {
+"_": "zh/e54b924fe3dd.mp3"
+},
+"这次谈判比我们想象的顺利，对方基本同意了我们的条件。": {
+"_": "zh/333a4c59fa1a.mp3"
+},
+"你是阮安吗？": {
+"_": "zh/9d40298d2b16.mp3"
+},
+"好": {
+"_": "zh/e27fab12ae9b.mp3"
+},
+"好，谢谢！": {
+"_": "zh/d4c6e79dae1c.mp3"
 }
 },
 "vi": {
