@@ -20,7 +20,9 @@ VOICES = {
     # nhân vật khoá 16 tuần (tiếng Trung) và tên tương ứng bên tiếng Anh
     "zh_course": {"刘星": "Puck", "夏东海": "Charon", "刘梅": "Gacrux", "夏雪": "Leda", "小雨": "Fenrir", "阿兰": "Aoede", "老师": "Erinome"},
     "en_course": {"Leo": "Puck", "David": "Charon", "Mary": "Gacrux", "Sophie": "Leda", "Sam": "Fenrir", "Lan": "Aoede", "Ms Chen": "Erinome"},
-    "zh": {"_": "Kore", "An": "Aoede", "王丽": "Despina", "Lệ": "Despina", "Minh": "Orus", "阮明": "Orus", "王经理": "Iapetus"},
+    # mỗi nhân vật một giọng cố định, dù dữ liệu ghi tên Việt hay tên chữ Hán
+    "zh": {"_": "Kore", "An": "Aoede", "阮安": "Aoede", "王丽": "Despina", "Lệ": "Despina", "Minh": "Orus", "阮明": "Orus",
+           "王经理": "Iapetus", "工作人员": "Callirrhoe", "司机": "Algenib", "路人": "Achird"},
 }
 STYLE = {
     "en": "Say this clearly and naturally, in a warm, friendly tone, at a calm pace for language learners: ",
