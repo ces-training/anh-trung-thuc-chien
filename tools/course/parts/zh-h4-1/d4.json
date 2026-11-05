@@ -1,0 +1,932 @@
+{
+  "id": "h4-w1-thu-5",
+  "label": "Thứ 5",
+  "title": "Hàng về bị lỗi và chậm: gọi điện giải quyết",
+  "desc": "Lô 1.000 chiếc cốc đầu tiên về Hà Nội chậm 3 ngày và có 100 chiếc bị hỏng. Bạn gọi cho 陈总 (Chén zǒng): nói tình hình, hỏi nguyên nhân, đề nghị gửi lại hàng và bồi thường, mà vẫn giữ thiện chí hợp tác.",
+  "rule": "虽然 A，但是 B = tuy A nhưng B (ý chính nằm ở vế 但是). Chủ ngữ + 一 + việc 1 + 就 + việc 2 = vừa… là… ngay. 因为 A，所以 B = vì A nên B; nói nguyên nhân: …的原因是…. Phàn nàn lịch sự: 请您解释一下…, 希望你们能…",
+  "cards": [
+    {
+      "w": "情况",
+      "py": "qíngkuàng",
+      "m": "tình hình",
+      "mEn": "situation",
+      "ex": "我先跟您说一下这边的情况。",
+      "expy": "Wǒ xiān gēn nín shuō yíxià zhèbiān de qíngkuàng.",
+      "exm": "Tôi xin nói qua với anh tình hình bên này trước.",
+      "exEn": "Let me first tell you about the situation here.",
+      "n": "情 = tình, 况 = huống: 情况 = tình hình (Hán Việt: tình huống). Hay đi với: 说一下情况, 情况怎么样？, 情况不太好. kuàng có u ở giữa (k-u-ang), thanh 4 rơi mạnh."
+    },
+    {
+      "w": "严重",
+      "py": "yánzhòng",
+      "m": "nghiêm trọng",
+      "mEn": "serious",
+      "ex": "这次的问题比较严重，我们要马上解决。",
+      "expy": "Zhè cì de wèntí bǐjiào yánzhòng, wǒmen yào mǎshàng jiějué.",
+      "exm": "Vấn đề lần này khá nghiêm trọng, chúng ta phải giải quyết ngay.",
+      "exEn": "This problem is quite serious; we need to solve it right away.",
+      "n": "Hán Việt: nghiêm trọng. Chỉ dùng cho chuyện xấu (问题很严重), khác 重要 (quan trọng). 重 ở đây đọc zhòng (nặng), không đọc chóng như trong 重新."
+    },
+    {
+      "w": "原因",
+      "py": "yuányīn",
+      "m": "nguyên nhân",
+      "mEn": "reason, cause",
+      "ex": "杯子坏了的原因是箱子里没有放好。",
+      "expy": "Bēizi huài le de yuányīn shì xiāngzi lǐ méiyǒu fàng hǎo.",
+      "exm": "Nguyên nhân cốc bị hỏng là trong thùng xếp không chắc.",
+      "exEn": "The reason the cups broke is that they weren't packed properly in the boxes.",
+      "n": "Hán Việt: nguyên nhân. Mẫu hay dùng: …的原因是… (nguyên nhân của… là…), 原因是什么？ yuán thanh 2 đi lên, yīn thanh 1 cao đều."
+    },
+    {
+      "w": "解释",
+      "py": "jiěshì",
+      "m": "giải thích",
+      "mEn": "to explain; explanation",
+      "ex": "请您解释一下，为什么杯子晚到了三天？",
+      "expy": "Qǐng nín jiěshì yíxià, wèi shénme bēizi wǎn dào le sān tiān?",
+      "exm": "Xin anh giải thích giúp, vì sao cốc đến muộn ba ngày?",
+      "exEn": "Could you please explain why the cups arrived three days late?",
+      "n": "Hán Việt: giải thích. Hỏi lịch sự: 请您解释一下 + câu hỏi. Cũng là danh từ: 谢谢您的解释 (cảm ơn lời giải thích của anh). jiě thanh 3 đứng trước thanh 4 nên chỉ đọc nửa thanh 3: xuống thấp rồi dừng."
+    },
+    {
+      "w": "抱歉",
+      "py": "bàoqiàn",
+      "m": "xin lỗi, lấy làm tiếc",
+      "mEn": "sorry",
+      "ex": "非常抱歉，这次给你们送晚了。",
+      "expy": "Fēicháng bàoqiàn, zhè cì gěi nǐmen sòng wǎn le.",
+      "exm": "Thành thật xin lỗi, lần này chúng tôi giao hàng cho các anh bị muộn.",
+      "exEn": "We're very sorry that we delivered late this time.",
+      "n": "Trang trọng hơn 对不起, hay dùng trong công việc: 很抱歉, 非常抱歉, 真抱歉. 抱歉 là tính từ, không mang tân ngữ (không nói 抱歉你). Hai thanh 4 liền nhau: bào nhẹ hơn, qiàn rơi mạnh; q bật hơi."
+    },
+    {
+      "w": "负责",
+      "py": "fùzé",
+      "m": "chịu trách nhiệm, phụ trách",
+      "mEn": "to be responsible (for)",
+      "ex": "这件事是我们的问题，我们一定负责。",
+      "expy": "Zhè jiàn shì shì wǒmen de wèntí, wǒmen yídìng fùzé.",
+      "exm": "Việc này là lỗi của chúng tôi, chúng tôi nhất định chịu trách nhiệm.",
+      "exEn": "This is our problem; we will definitely take responsibility.",
+      "n": "Hán Việt: phụ trách. Là động từ: 负责 + việc (小刘负责检查 = 小刘 phụ trách kiểm tra) hoặc đứng một mình (我们负责). Khác 责任 (danh từ). z không bật hơi, zé thanh 2."
+    },
+    {
+      "w": "及时",
+      "py": "jíshí",
+      "m": "kịp thời",
+      "mEn": "promptly, in time",
+      "ex": "有问题请及时通知我们。",
+      "expy": "Yǒu wèntí qǐng jíshí tōngzhī wǒmen.",
+      "exm": "Có vấn đề xin báo cho chúng tôi kịp thời.",
+      "exEn": "If there's a problem, please let us know promptly.",
+      "n": "Hán Việt: cập thời = kịp thời, ngay khi cần, không để chậm. Khác 按时 (đúng giờ đã hẹn): 按时送到 = giao đúng hạn; 及时解决 = giải quyết kịp thời. Hai thanh 2 liền nhau: jí, shí đều đi lên."
+    },
+    {
+      "w": "责任",
+      "py": "zérèn",
+      "m": "trách nhiệm",
+      "mEn": "responsibility",
+      "ex": "杯子没有放好，这是我们的责任。",
+      "expy": "Bēizi méiyǒu fàng hǎo, zhè shì wǒmen de zérèn.",
+      "exm": "Cốc không được xếp chắc, đây là trách nhiệm của chúng tôi.",
+      "exEn": "The cups weren't packed properly; that's our responsibility.",
+      "n": "Hán Việt: trách nhiệm. Là danh từ: 是我们的责任, 有责任. Muốn nói 'chịu trách nhiệm' thì dùng động từ 负责. z không bật hơi; r cong lưỡi, không rung: zé thanh 2, rèn thanh 4."
+    },
+    {
+      "w": "赔偿",
+      "py": "péicháng",
+      "m": "bồi thường",
+      "mEn": "to compensate; compensation",
+      "ex": "坏了的杯子，我们按合同上的价格赔偿。",
+      "expy": "Huài le de bēizi, wǒmen àn hétong shàng de jiàgé péicháng.",
+      "exm": "Những chiếc cốc bị hỏng, chúng tôi bồi thường theo giá trong hợp đồng.",
+      "exEn": "We'll compensate for the broken cups at the contract price.",
+      "n": "Hán Việt: bồi thường. 赔 = đền, có bộ 贝 (tiền bạc); 偿 = trả. Hay đi với: 按价格赔偿, 赔偿你们. p và ch đều bật hơi; hai âm đều thanh 2."
+    },
+    {
+      "w": "重新",
+      "py": "chóngxīn",
+      "m": "lại, làm lại từ đầu",
+      "mEn": "again, anew",
+      "ex": "我们这个星期五重新送一百个新杯子。",
+      "expy": "Wǒmen zhège xīngqīwǔ chóngxīn sòng yìbǎi ge xīn bēizi.",
+      "exm": "Thứ Sáu tuần này chúng tôi sẽ gửi lại 100 chiếc cốc mới.",
+      "exEn": "This Friday we'll send 100 new cups as replacements.",
+      "n": "重新 + động từ = làm lại (vì lần trước chưa được): 重新送, 重新做, 重新检查. 重 ở đây đọc chóng (lặp lại), khác 严重 đọc zhòng: cùng mặt chữ, khác âm, nhớ theo nghĩa."
+    },
+    {
+      "w": "误会",
+      "py": "wùhuì",
+      "m": "hiểu lầm",
+      "mEn": "to misunderstand; misunderstanding",
+      "ex": "您误会了，杯子不是我们搬坏的。",
+      "expy": "Nín wùhuì le, bēizi bú shì wǒmen bān huài de.",
+      "exm": "Anh hiểu lầm rồi, cốc không phải do chúng tôi bê chuyển làm hỏng.",
+      "exEn": "You've misunderstood. We didn't break the cups when moving them.",
+      "n": "Hán Việt: ngộ hội = hiểu lầm. Vừa là động từ (您误会了, 别误会) vừa là danh từ (这是一个误会). Khác 以为 (tưởng là) + cả một câu. wù và huì đều thanh 4."
+    }
+  ],
+  "scene": {
+    "setting": "Sáng thứ Năm ở văn phòng công ty tại Hà Nội. Lô 1.000 chiếc cốc đầu tiên về muộn 3 ngày so với hợp đồng, mở thùng ra thì có 100 chiếc bị nứt vỡ. 阮安 gọi điện cho 陈总 ở Quảng Châu để báo tình hình, hỏi nguyên nhân và đề nghị cách giải quyết.",
+    "img": "scene-zh-office-d4",
+    "imgPrompt": "Realistic photo of a modern office in Hanoi in the morning; an (Vietnamese woman about 27, shoulder-length straight black bob, cobalt blue blouse) sits at a desk talking on her mobile phone with a calm but serious expression; next to her several opened cardboard boxes of white office cups, a few cracked cups laid out on the desk, a laptop showing photos of the boxes; no readable text",
+    "lines": [
+      {
+        "who": "陈总",
+        "t": "喂，阮安你好！第一次送的杯子到了吧？",
+        "py": "Wéi, Ruǎn Ān nǐ hǎo! Dì yī cì sòng de bēizi dào le ba?",
+        "vi": "A lô, chào An! Lô cốc giao lần đầu đến nơi rồi chứ?",
+        "en": "Hello, An! The first delivery of cups has arrived, right?"
+      },
+      {
+        "who": "阮安",
+        "t": "陈总您好！到了，但是情况不太好，比合同上的时间晚了三天。",
+        "py": "Chén zǒng nín hǎo! Dào le, dànshì qíngkuàng bú tài hǎo, bǐ hétong shàng de shíjiān wǎn le sān tiān.",
+        "vi": "Chào giám đốc Trần! Đến rồi ạ, nhưng tình hình không được tốt lắm: muộn ba ngày so với thời gian trong hợp đồng.",
+        "en": "Hello, Mr Chen! Yes, but things aren't great: they arrived three days later than the contract date."
+      },
+      {
+        "who": "阮安",
+        "t": "而且一千个杯子里有一百个坏了，问题比较严重。",
+        "py": "Érqiě yìqiān ge bēizi lǐ yǒu yìbǎi ge huài le, wèntí bǐjiào yánzhòng.",
+        "vi": "Hơn nữa, trong 1.000 chiếc cốc có 100 chiếc bị hỏng, vấn đề khá nghiêm trọng.",
+        "en": "Also, 100 of the 1,000 cups are broken. It's quite a serious problem."
+      },
+      {
+        "who": "陈总",
+        "t": "一百个？是不是你们搬的时候不小心？",
+        "py": "Yìbǎi ge? Shì bu shì nǐmen bān de shíhou bù xiǎoxīn?",
+        "vi": "100 chiếc á? Có phải lúc bê chuyển bên chị không cẩn thận không?",
+        "en": "A hundred? Could your people have been careless when moving them?"
+      },
+      {
+        "who": "阮安",
+        "t": "这可能是个误会。我们一打开箱子就发现坏了，照片已经发给小刘了。",
+        "py": "Zhè kěnéng shì ge wùhuì. Wǒmen yì dǎkāi xiāngzi jiù fāxiàn huài le, zhàopiàn yǐjīng fā gěi Xiǎo Liú le.",
+        "vi": "Có lẽ đây là hiểu lầm ạ. Chúng tôi vừa mở thùng là thấy cốc đã hỏng, ảnh tôi đã gửi cho Tiểu Lưu rồi.",
+        "en": "That may be a misunderstanding. We found them broken as soon as we opened the boxes, and I've sent the photos to Xiao Liu."
+      },
+      {
+        "who": "陈总",
+        "t": "我看到了，非常抱歉！原因是杯子没有放好，路上一动就坏了。",
+        "py": "Wǒ kàndào le, fēicháng bàoqiàn! Yuányīn shì bēizi méiyǒu fàng hǎo, lùshang yí dòng jiù huài le.",
+        "vi": "Tôi thấy rồi, thành thật xin lỗi! Nguyên nhân là cốc xếp không chắc, đi đường bị xóc là vỡ.",
+        "en": "I've seen them. I'm very sorry! The reason is the cups weren't packed properly, so they broke as soon as they were shaken on the road."
+      },
+      {
+        "who": "阮安",
+        "t": "那晚了三天呢？请您解释一下。",
+        "py": "Nà wǎn le sān tiān ne? Qǐng nín jiěshì yíxià.",
+        "vi": "Thế còn việc muộn ba ngày thì sao ạ? Xin anh giải thích giúp.",
+        "en": "And what about the three-day delay? Could you please explain?"
+      },
+      {
+        "who": "陈总",
+        "t": "春节前订单太多，我们没有及时送出去。这是我们的责任。",
+        "py": "Chūnjié qián dìngdān tài duō, wǒmen méiyǒu jíshí sòng chūqu. Zhè shì wǒmen de zérèn.",
+        "vi": "Trước Tết đơn hàng quá nhiều, chúng tôi đã không gửi hàng đi kịp thời. Đây là trách nhiệm của chúng tôi.",
+        "en": "Before Spring Festival we had too many orders and didn't send the goods out in time. That's our responsibility."
+      },
+      {
+        "who": "阮安",
+        "t": "虽然出了问题，但是我们还想长期合作。你们能重新送一百个吗？",
+        "py": "Suīrán chū le wèntí, dànshì wǒmen hái xiǎng chángqī hézuò. Nǐmen néng chóngxīn sòng yìbǎi ge ma?",
+        "vi": "Tuy có trục trặc, nhưng chúng tôi vẫn muốn hợp tác lâu dài. Bên anh có thể gửi lại 100 chiếc được không?",
+        "en": "Although there's been a problem, we still want to work together long-term. Could you send another hundred?"
+      },
+      {
+        "who": "陈总",
+        "t": "没问题，我们负责！下星期一以前送到，坏了的杯子也按价格赔偿。",
+        "py": "Méi wèntí, wǒmen fùzé! Xià xīngqīyī yǐqián sòng dào, huài le de bēizi yě àn jiàgé péicháng.",
+        "vi": "Không vấn đề gì, chúng tôi chịu trách nhiệm! Trước thứ Hai tuần sau sẽ giao đến, cốc hỏng cũng sẽ bồi thường theo giá.",
+        "en": "No problem, we'll take responsibility! They'll arrive before next Monday, and we'll compensate for the broken cups at the agreed price."
+      }
+    ]
+  },
+  "patterns": [
+    {
+      "t": "Tuy… nhưng…: 虽然 A，但是 B",
+      "f": [
+        ["虽然出了问题，", "但是", "我们还想长期合作。"],
+        ["虽然价格比较高，", "但是", "质量很好。"]
+      ],
+      "ex": [
+        ["虽然出了问题，但是我们还想长期合作。", "Tuy có trục trặc, nhưng chúng tôi vẫn muốn hợp tác lâu dài.", "Although there was a problem, we still want a long-term partnership."],
+        ["虽然订单很多，但是你们应该按时送到。", "Tuy đơn hàng nhiều, nhưng bên anh vẫn nên giao đúng hạn.", "Even though you had many orders, you should still have delivered on time."]
+      ],
+      "bad": "虽然出了问题，所以我们还想合作。",
+      "good": "虽然出了问题，但是我们还想合作。",
+      "why": "虽然 (tuy) đi với 但是 hoặc 可是 (nhưng), không đi với 所以 (cho nên). Ý chính nằm ở vế 但是. Khi phàn nàn, nói điều chưa hài lòng ở vế 虽然, rồi nói thiện chí ở vế 但是 để lời nói mềm mỏng hơn."
+    },
+    {
+      "t": "Vừa… là… ngay: Chủ ngữ + 一 + V1 + 就 + V2",
+      "f": [
+        ["我们", "一打开箱子就", "发现了问题。"],
+        ["杯子", "一动就", "坏了。"]
+      ],
+      "ex": [
+        ["我们一打开箱子就发现了问题。", "Chúng tôi vừa mở thùng là phát hiện ra vấn đề.", "We found the problem as soon as we opened the boxes."],
+        ["新杯子一到河内，我就给您打电话。", "Cốc mới vừa đến Hà Nội là tôi gọi cho anh ngay.", "As soon as the new cups reach Hanoi, I'll call you."]
+      ],
+      "bad": "我们就打开箱子一发现了问题。",
+      "good": "我们一打开箱子就发现了问题。",
+      "why": "一 đứng trước việc thứ nhất (打开箱子), 就 đứng trước việc thứ hai (发现), không đổi chỗ cho nhau. Nếu hai vế có hai chủ ngữ khác nhau thì 就 đứng sau chủ ngữ thứ hai: 新杯子一到河内，我就给您打电话。"
+    },
+    {
+      "t": "Nói nguyên nhân: 因为 A，所以 B / …的原因是…",
+      "f": [
+        ["因为订单太多，", "所以", "我们没有及时送出去。"],
+        ["杯子坏了的原因", "是", "没有放好。"]
+      ],
+      "ex": [
+        ["因为订单太多，所以我们没有及时送出去。", "Vì đơn hàng quá nhiều nên chúng tôi đã không gửi đi kịp thời.", "Because we had too many orders, we didn't send them out in time."],
+        ["杯子坏了的原因是箱子里没有放好。", "Nguyên nhân cốc bị hỏng là trong thùng xếp không chắc.", "The reason the cups broke is that they weren't packed properly in the boxes."]
+      ],
+      "bad": "因为订单太多，我们所以没有及时送出去。",
+      "good": "因为订单太多，所以我们没有及时送出去。",
+      "why": "所以 đứng ĐẦU vế sau, trước chủ ngữ 我们, không chen giữa chủ ngữ và động từ. Muốn hỏi nguyên nhân một cách lịch sự, nói: 请问原因是什么？ hoặc 能解释一下原因吗？"
+    }
+  ],
+  "vocab": [
+    {
+      "q": "赔偿 (péicháng) nghĩa là gì?",
+      "opts": ["bồi thường", "xin lỗi", "chịu trách nhiệm"],
+      "optsEn": ["to compensate", "to apologise", "to be responsible"],
+      "a": 0,
+      "why": {
+        "1": "'Xin lỗi' là 抱歉 (bàoqiàn): chỉ là lời xin lỗi. 赔偿 là đền lại tiền hoặc hàng.",
+        "2": "'Chịu trách nhiệm' là 负责 (fùzé). Nhận trách nhiệm rồi mới 赔偿 (đền)."
+      }
+    },
+    {
+      "q": "Điền từ: 一千个杯子里有一百个坏了，问题很___。(Trong 1.000 chiếc cốc có 100 chiếc bị hỏng, vấn đề rất nghiêm trọng.)",
+      "opts": ["严重", "及时", "重新"],
+      "a": 0,
+      "why": {
+        "1": "及时 (jíshí) = kịp thời, nói về thời điểm làm việc; 问题很及时 không có nghĩa.",
+        "2": "重新 (chóngxīn) = làm lại, đứng trước động từ (重新送), không đứng sau 很 để mô tả vấn đề."
+      }
+    },
+    {
+      "q": "Điền từ: 请您___一下，为什么杯子晚到了三天？(Xin anh giải thích giúp, vì sao cốc đến muộn ba ngày?)",
+      "opts": ["解释", "赔偿", "误会"],
+      "a": 0,
+      "why": {
+        "1": "赔偿 (péicháng) = bồi thường. Câu đang hỏi 'vì sao', nên cần 'giải thích'.",
+        "2": "误会 (wùhuì) = hiểu lầm; 请您误会一下 thành 'mời anh hiểu lầm', không hợp lý."
+      }
+    },
+    {
+      "q": "及时 (jíshí) nghĩa là gì?",
+      "opts": ["kịp thời", "đúng hạn đã hẹn", "lại từ đầu"],
+      "optsEn": ["promptly, in time", "on schedule", "again, anew"],
+      "a": 0,
+      "why": {
+        "1": "'Đúng hạn đã hẹn' là 按时 (ànshí), học ở Thứ 4: 按时送到 = giao đúng ngày trong hợp đồng. 及时 là ngay khi cần, không để chậm.",
+        "2": "'Lại từ đầu' là 重新 (chóngxīn), ví dụ 重新送 (gửi lại)."
+      }
+    },
+    {
+      "q": "Điền từ: 我先跟您说一下这边的___。(Tôi xin nói qua với anh tình hình bên này trước.)",
+      "opts": ["情况", "原因", "责任"],
+      "a": 0,
+      "why": {
+        "1": "原因 (yuányīn) = nguyên nhân. Câu muốn kể 'tình hình' trước, chưa nói đến lý do.",
+        "2": "责任 (zérèn) = trách nhiệm; 'nói trách nhiệm bên này' không khớp với nghĩa câu."
+      }
+    },
+    {
+      "q": "Điền từ: 杯子没有放好，这是我们的___。(Cốc không được xếp chắc, đây là trách nhiệm của chúng tôi.)",
+      "opts": ["责任", "负责", "抱歉"],
+      "a": 0,
+      "why": {
+        "1": "负责 (fùzé) là động từ 'chịu trách nhiệm'. Sau 我们的 cần danh từ, nên dùng 责任. Dùng 负责 thì nói: 我们负责.",
+        "2": "抱歉 (bàoqiàn) là tính từ 'xin lỗi', không đứng sau 我们的."
+      }
+    },
+    {
+      "q": "Điền từ: 这次的样品不合适，请你们___做一个。(Hàng mẫu lần này không phù hợp, mời bên anh làm lại một cái.)",
+      "opts": ["重新", "原因", "严重"],
+      "a": 0,
+      "why": {
+        "1": "原因 (yuányīn) là danh từ 'nguyên nhân', không đứng trước động từ 做.",
+        "2": "严重 (yánzhòng) = nghiêm trọng, dùng để mô tả vấn đề, không mang nghĩa 'làm lại'."
+      }
+    },
+    {
+      "q": "Điền từ: 我们没有说不要你们的杯子，您___了。(Chúng tôi không nói là không lấy cốc của bên anh, anh hiểu lầm rồi.)",
+      "opts": ["误会", "解释", "负责"],
+      "a": 0,
+      "why": {
+        "1": "解释 (jiěshì) = giải thích; 您解释了 là 'anh đã giải thích', không hợp với vế trước.",
+        "2": "负责 (fùzé) = chịu trách nhiệm; 您负责了 không có nghĩa 'hiểu sai'."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "q": "虽然…但是: Câu nào đúng?",
+      "opts": ["虽然价格比较高，但是质量很好。", "虽然价格比较高，所以质量很好。", "但是价格比较高，虽然质量很好。"],
+      "a": 0,
+      "why": {
+        "1": "虽然 (tuy) đi với 但是 (nhưng), không đi với 所以 (cho nên): hai vế ở đây ngược ý nhau, không phải nguyên nhân và kết quả.",
+        "2": "Thứ tự bị đảo: 虽然 ở vế trước, 但是 ở vế sau."
+      }
+    },
+    {
+      "q": "一…就: Câu nào đúng? (Chúng tôi vừa mở thùng là phát hiện ra vấn đề.)",
+      "opts": ["我们一打开箱子就发现了问题。", "我们就打开箱子一发现了问题。", "一我们打开箱子就发现了问题。"],
+      "a": 0,
+      "why": {
+        "1": "一 và 就 bị đổi chỗ: 一 đi với việc thứ nhất (打开箱子), 就 đi với việc thứ hai (发现).",
+        "2": "一 đứng sau chủ ngữ 我们, không đứng đầu câu."
+      }
+    },
+    {
+      "k": "type",
+      "q": "Điền từ: 因为春节前订单太多，___我们没有及时送出去。(Vì trước Tết đơn hàng quá nhiều nên chúng tôi đã không gửi đi kịp thời.)",
+      "model": "所以",
+      "accept": ["所以", "suoyi"],
+      "why": "因为 A，所以 B = vì A nên B. 所以 đứng đầu vế sau, trước chủ ngữ 我们."
+    },
+    {
+      "q": "Chọn từ nối: ___这次出了问题，但是我们还想跟你们合作。(Tuy lần này có trục trặc, nhưng chúng tôi vẫn muốn hợp tác với bên anh.)",
+      "opts": ["虽然", "因为", "一"],
+      "a": 0,
+      "why": {
+        "1": "因为 (vì) đi với 所以, không đi với 但是; 'vì có trục trặc nhưng vẫn muốn hợp tác' không hợp lý.",
+        "2": "一 phải đi với 就 (一…就 = vừa… là…). Câu này có 但是 nên cần 虽然."
+      }
+    },
+    {
+      "k": "type",
+      "q": "Sắp xếp thành câu: 就 / 我 / 一 / 到办公室 / 给您打电话了 (Tôi vừa đến văn phòng là gọi cho anh ngay.)",
+      "model": "我一到办公室就给您打电话了。",
+      "accept": ["我一到办公室就给您打电话了。", "我一到办公室就给您打电话了", "我一到办公室就给你打电话了。", "我一到办公室就给你打电话了", "woyidaobangongshijiugeinindadianhuale", "woyidaobangongshijiugeinidadianhuale"],
+      "why": "Chủ ngữ 我 + 一 + 到办公室 (việc thứ nhất) + 就 + 给您打电话了 (việc thứ hai)."
+    },
+    {
+      "q": "因为…所以: Câu nào đúng?",
+      "opts": ["因为路上下雨，所以杯子晚到了。", "因为路上下雨，杯子所以晚到了。", "所以路上下雨，因为杯子晚到了。"],
+      "a": 0,
+      "why": {
+        "1": "所以 đứng đầu vế sau, trước chủ ngữ 杯子, không chen giữa chủ ngữ và động từ.",
+        "2": "Hai từ nối bị đảo: 因为 đi với nguyên nhân (trời mưa), 所以 đi với kết quả (cốc đến muộn)."
+      }
+    },
+    {
+      "q": "Phàn nàn lịch sự: Câu nào phù hợp nhất để hỏi 陈总 (Chén zǒng) về nguyên nhân?",
+      "opts": ["能不能请您解释一下原因？", "你们为什么做得这么差？", "快说，原因是什么？"],
+      "a": 0,
+      "why": {
+        "1": "Câu này nghĩa là 'Sao các anh làm tệ thế?'. Đúng ngữ pháp, nhưng nghe như trách móc, dễ làm đối tác khó chịu.",
+        "2": "Câu này nghĩa là 'Nói nhanh lên, nguyên nhân là gì?', nghe như ra lệnh. Với giám đốc đối tác nên dùng 请您 + 一下 cho mềm mỏng."
+      }
+    }
+  ],
+  "listen": [
+    {
+      "q": "Cốc đến khi nào?",
+      "audio": "杯子是什么时候到的？——比合同上的时间晚了三天。",
+      "opts": ["muộn 3 ngày so với hợp đồng", "sớm 3 ngày so với hợp đồng", "đúng ngày trong hợp đồng"],
+      "optsEn": ["3 days later than the contract date", "3 days earlier than the contract date", "on the contract date"],
+      "a": 0,
+      "why": {
+        "1": "Câu trả lời có 晚了三天 (muộn 3 ngày); 'sớm' thì phải nói 早 hoặc 提前.",
+        "2": "Câu trả lời có 晚了 (muộn), nên không phải đúng ngày."
+      }
+    },
+    {
+      "q": "Có bao nhiêu chiếc cốc bị hỏng?",
+      "audio": "坏了多少个？——一千个杯子里有一百个坏了。",
+      "opts": ["100 chiếc", "1.000 chiếc", "10 chiếc"],
+      "optsEn": ["100", "1,000", "10"],
+      "a": 0,
+      "why": {
+        "1": "一千个 (1.000 chiếc) là tổng số cốc đã đến; số bị hỏng là 一百个.",
+        "2": "Câu nói 一百个 (100), không phải 十个 (10). 100 trên 1.000 chiếc là 10%."
+      }
+    },
+    {
+      "q": "Vì sao cốc bị hỏng?",
+      "audio": "这是什么原因？——箱子里的杯子没有放好，路上一动就坏了。",
+      "opts": ["cốc không được xếp chắc trong thùng", "bên nhận bê chuyển không cẩn thận", "chất lượng cốc kém"],
+      "optsEn": ["the cups weren't packed properly in the boxes", "the buyer moved them carelessly", "the cups were poor quality"],
+      "a": 0,
+      "why": {
+        "1": "Câu trả lời không nói đến việc bê chuyển (搬); nguyên nhân là 没有放好 (xếp không chắc).",
+        "2": "Câu không nhắc đến 质量 (chất lượng); cốc hỏng vì 路上一动就坏了 (đi đường bị xóc là vỡ)."
+      }
+    },
+    {
+      "q": "Họ phát hiện ra vấn đề khi nào?",
+      "audio": "你们是什么时候发现问题的？——我们一打开箱子就发现了。",
+      "opts": ["ngay khi mở thùng", "khi bán cho khách", "một tuần sau khi hàng đến"],
+      "optsEn": ["as soon as they opened the boxes", "when selling to customers", "a week after delivery"],
+      "a": 0,
+      "why": {
+        "1": "Câu không có 顾客 (khách hàng) hay 卖 (bán); câu trả lời là 一打开箱子就 (vừa mở thùng là).",
+        "2": "一…就 nghĩa là ngay lập tức, không phải một tuần sau."
+      }
+    },
+    {
+      "q": "Người nói muốn gì?",
+      "audio": "虽然这次出了问题，但是我们还想跟你们长期合作。",
+      "opts": ["vẫn muốn hợp tác lâu dài", "muốn huỷ hợp đồng", "muốn tìm nhà cung cấp khác"],
+      "optsEn": ["still to work together long-term", "to cancel the contract", "to find another supplier"],
+      "a": 0,
+      "why": {
+        "1": "Câu không nhắc đến 合同 (hợp đồng); vế 但是 nói 还想…合作 (vẫn muốn hợp tác).",
+        "2": "还想跟你们合作 = vẫn muốn hợp tác với chính bên này, không tìm bên khác."
+      }
+    },
+    {
+      "q": "Khi nào cốc mới đến nơi?",
+      "audio": "新的杯子什么时候能送到？——下星期一以前一定送到。",
+      "opts": ["trước thứ Hai tuần sau", "thứ Hai tuần này", "sau Tết"],
+      "optsEn": ["before next Monday", "this Monday", "after Tết"],
+      "a": 0,
+      "why": {
+        "1": "Câu trả lời là 下星期一 (thứ Hai tuần SAU), không phải 这个星期一 (thứ Hai tuần này).",
+        "2": "Câu không nhắc đến Tết (春节); hạn là 下星期一以前."
+      }
+    },
+    {
+      "q": "Nhà máy làm gì với những chiếc cốc bị hỏng?",
+      "audio": "坏了的杯子怎么办？——我们按合同上的价格赔偿。",
+      "opts": ["bồi thường theo giá trong hợp đồng", "giảm 5% cho đơn hàng sau", "chỉ xin lỗi, không bồi thường"],
+      "optsEn": ["compensate at the contract price", "give 5% off the next order", "only apologise, no compensation"],
+      "a": 0,
+      "why": {
+        "1": "Câu trả lời không nhắc đến 打折 (giảm giá); họ 按价格赔偿 (bồi thường theo giá).",
+        "2": "Câu trả lời có 赔偿 (bồi thường), nên không phải chỉ xin lỗi."
+      }
+    }
+  ],
+  "hsk": [
+    {
+      "q": "HSK4 听力 · 判断对错: ★ 他们过了几天才发现杯子坏了。",
+      "audio": "我们一打开箱子就发现杯子坏了，所以马上给陈总打了电话。",
+      "opts": ["对", "错"],
+      "a": 1,
+      "why": {
+        "0": "Bài nghe nói 一打开箱子就发现 (vừa mở thùng là phát hiện ngay), không phải 过了几天才发现 (mấy ngày sau mới phát hiện), nên câu ★ sai."
+      }
+    },
+    {
+      "q": "HSK4 听力 · 对话: 杯子为什么晚到了？",
+      "audio": "女：陈总，杯子晚到了三天，能解释一下原因吗？男：真抱歉，春节前订单太多，我们没有按时送出去。问：杯子为什么晚到了？",
+      "opts": ["订单太多", "路上下雨", "箱子坏了", "合同写错了"],
+      "a": 0,
+      "why": {
+        "1": "Bài nghe không nhắc đến trời mưa (下雨).",
+        "2": "Bài nghe không nói thùng hỏng; người nam nói 订单太多 (đơn hàng quá nhiều).",
+        "3": "Không ai nói hợp đồng viết sai; lý do người nam đưa ra là đơn hàng quá nhiều."
+      }
+    },
+    {
+      "q": "HSK4 阅读 · 选词填空: 发现问题以后，请（　）告诉我们，这样我们能早一点儿解决。",
+      "opts": ["及时", "责任", "误会", "赔偿"],
+      "a": 0,
+      "why": {
+        "1": "责任 (trách nhiệm) là danh từ, không đứng trước động từ 告诉 để chỉ cách làm.",
+        "2": "误会 (hiểu lầm); 'xin hãy hiểu lầm báo cho chúng tôi' không có nghĩa.",
+        "3": "赔偿 (bồi thường) là một việc khác; 请赔偿告诉我们 sai ngữ pháp. Trước 告诉 cần từ chỉ cách làm: 及时 (kịp thời)."
+      }
+    },
+    {
+      "q": "HSK4 阅读 · 选词填空: A：杯子坏了这么多，你们打算怎么办？ B：真对不起，这是我们的（　），我们一定负责。",
+      "opts": ["责任", "情况", "解释", "重新"],
+      "a": 0,
+      "why": {
+        "1": "情况 (tình hình) không khớp với 对不起 và 一定负责: B đang nhận lỗi, nên cần 'trách nhiệm'.",
+        "2": "解释 (giải thích); 'đây là lời giải thích của chúng tôi' không ăn khớp với vế sau 一定负责.",
+        "3": "重新 (lại từ đầu) là phó từ, phải đứng trước động từ, không đứng sau 我们的."
+      }
+    },
+    {
+      "k": "order",
+      "q": "HSK4 书写 · 完成句子: xếp các từ thành câu",
+      "tokens": ["我们", "一打开箱子", "就", "发现了", "这个问题"],
+      "explain": "Chủ ngữ 我们 đứng đầu; 一 + việc thứ nhất (打开箱子); 就 + việc thứ hai (发现了这个问题).",
+      "vi": "Chúng tôi vừa mở thùng là phát hiện ra vấn đề này.",
+      "en": "We found this problem as soon as we opened the boxes."
+    }
+  ],
+  "shadow": [
+    {
+      "t": "赔偿",
+      "py": "péicháng",
+      "focus": "péi và cháng đều thanh 2 (đi lên); p bật hơi mạnh; ch cong lưỡi, cũng bật hơi; -ng là âm mũi, miệng mở rộng.",
+      "en": "to compensate"
+    },
+    {
+      "t": "责任",
+      "py": "zérèn",
+      "focus": "z không bật hơi, đầu lưỡi chạm sau răng; zé thanh 2 đi lên; r cong lưỡi, không rung như 'r' tiếng Việt; rèn thanh 4 rơi mạnh.",
+      "en": "responsibility"
+    },
+    {
+      "t": "非常抱歉！",
+      "py": "Fēicháng bàoqiàn!",
+      "focus": "Hai thanh 4 liền nhau (bào qiàn): chữ đầu rơi nhẹ hơn, chữ sau rơi mạnh; q bật hơi, môi dẹt, đừng đọc thành 'kiên'.",
+      "en": "I'm very sorry!"
+    },
+    {
+      "t": "能解释一下原因吗？",
+      "py": "Néng jiěshì yíxià yuányīn ma?",
+      "focus": "jiě (thanh 3) đứng trước shì (thanh 4) nên chỉ đọc nửa thanh 3; 一 trước thanh 4 đọc yí; yuányīn: thanh 2 rồi thanh 1; 吗 cuối câu nhẹ.",
+      "en": "Could you explain the reason?"
+    },
+    {
+      "t": "我们一打开箱子就发现杯子坏了。",
+      "py": "Wǒmen yì dǎkāi xiāngzi jiù fāxiàn bēizi huài le.",
+      "focus": "一 trước thanh 3 (打) đọc yì; ngắt hơi nhẹ sau 箱子 rồi nhấn 就; huài rơi mạnh, 了 nhẹ và ngắn.",
+      "en": "We found the cups broken as soon as we opened the boxes."
+    },
+    {
+      "t": "虽然出了问题，但是我们还想长期合作。",
+      "py": "Suīrán chū le wèntí, dànshì wǒmen hái xiǎng chángqī hézuò.",
+      "focus": "Ngắt ở dấu phẩy; nhấn 但是 để làm rõ ý chính; 长期 đọc cháng (thanh 2), không đọc zhǎng; 合作 hézuò: z không bật hơi.",
+      "en": "Although there's been a problem, we still want to work together long-term."
+    }
+  ],
+  "dialog": {
+    "title": "Gọi điện cho 陈总 (Chén zǒng): báo hàng chậm và hỏng, hỏi nguyên nhân, đề nghị gửi lại và bồi thường. Đổi vai: bạn là 陈总 trả lời.",
+    "partner": "陈总",
+    "turns": [
+      {
+        "ai": "喂，阮安你好！第一次送的杯子到了吧？",
+        "py": "Wéi, Ruǎn Ān nǐ hǎo! Dì yī cì sòng de bēizi dào le ba?",
+        "vi": "A lô, chào An! Lô cốc giao lần đầu đến nơi rồi chứ?",
+        "en": "Hello, An! The first delivery of cups has arrived, right?",
+        "model": "陈总您好！到了，但是情况不太好，晚了三天。",
+        "mpy": "Chén zǒng nín hǎo! Dào le, dànshì qíngkuàng bú tài hǎo, wǎn le sān tiān.",
+        "men": "Hello, Mr Chen! Yes, but things aren't great: they were three days late.",
+        "accept": ["陈总您好！到了，但是情况不太好，晚了三天。", "到了，但是情况不太好，晚了三天。", "到了，但是情况不太好。", "情况不太好，晚了三天。", "晚了三天。", "chenzongninhaodaoledanshiqingkuangbutaihaowanlesantian", "daoledanshiqingkuangbutaihaowanlesantian", "qingkuangbutaihao", "wanlesantian"],
+        "frame": "陈总您好！到了，但是___不太好，晚了三天。",
+        "hint": "Chào lại, nói 'đến rồi nhưng tình hình không tốt lắm' (但是 + 情况不太好), rồi nói muộn bao lâu: 晚了 + 三天."
+      },
+      {
+        "ai": "晚了三天？真不好意思。还有别的问题吗？",
+        "py": "Wǎn le sān tiān? Zhēn bù hǎoyìsi. Hái yǒu bié de wèntí ma?",
+        "vi": "Muộn ba ngày à? Thật ngại quá. Còn vấn đề gì khác không?",
+        "en": "Three days late? I'm really sorry about that. Is there anything else?",
+        "model": "有。一千个杯子里有一百个坏了，问题比较严重。",
+        "mpy": "Yǒu. Yìqiān ge bēizi lǐ yǒu yìbǎi ge huài le, wèntí bǐjiào yánzhòng.",
+        "men": "Yes. 100 of the 1,000 cups are broken. It's quite serious.",
+        "accept": ["有。一千个杯子里有一百个坏了，问题比较严重。", "一千个杯子里有一百个坏了，问题比较严重。", "一千个杯子里有一百个坏了。", "有一百个坏了，问题比较严重。", "问题比较严重。", "youyiqiangebeiziliyouyibaigehuailewentibijiaoyanzhong", "yiqiangebeiziliyouyibaigehuaile", "youyibaigehuaile", "wentibijiaoyanzhong"],
+        "frame": "有。一千个杯子里有一百个坏了，问题比较___。",
+        "hint": "Nói số cốc hỏng: 一千个杯子里有 + 一百个 + 坏了, rồi nói mức độ: 问题比较 + 严重."
+      },
+      {
+        "ai": "一百个？是不是你们搬的时候不小心？",
+        "py": "Yìbǎi ge? Shì bu shì nǐmen bān de shíhou bù xiǎoxīn?",
+        "vi": "100 chiếc á? Có phải lúc bê chuyển bên chị không cẩn thận không?",
+        "en": "A hundred? Could your people have been careless when moving them?",
+        "model": "这可能是个误会。我们一打开箱子就发现坏了。",
+        "mpy": "Zhè kěnéng shì ge wùhuì. Wǒmen yì dǎkāi xiāngzi jiù fāxiàn huài le.",
+        "men": "That may be a misunderstanding. We found them broken as soon as we opened the boxes.",
+        "accept": ["这可能是个误会。我们一打开箱子就发现坏了。", "这可能是个误会。", "这是个误会。", "我们一打开箱子就发现坏了。", "您误会了，我们一打开箱子就发现坏了。", "zhekenengshigewuhuiwomenyidakaixiangzijiufaxianhuaile", "zhekenengshigewuhui", "womenyidakaixiangzijiufaxianhuaile", "ninwuhuile"],
+        "frame": "这可能是个___。我们一打开箱子就发现坏了。",
+        "hint": "Nhẹ nhàng nói đây là hiểu lầm (误会), rồi giải thích bằng 一…就: 一打开箱子 + 就发现坏了."
+      },
+      {
+        "ai": "我看到照片了，非常抱歉。原因是箱子里的杯子没有放好。",
+        "py": "Wǒ kàndào zhàopiàn le, fēicháng bàoqiàn. Yuányīn shì xiāngzi lǐ de bēizi méiyǒu fàng hǎo.",
+        "vi": "Tôi xem ảnh rồi, thành thật xin lỗi. Nguyên nhân là cốc trong thùng xếp không chắc.",
+        "en": "I've seen the photos. I'm very sorry. The reason is the cups weren't packed properly in the boxes.",
+        "model": "谢谢您的解释。你们能重新送一百个新的吗？",
+        "mpy": "Xièxie nín de jiěshì. Nǐmen néng chóngxīn sòng yìbǎi ge xīn de ma?",
+        "men": "Thank you for explaining. Could you send 100 new ones as replacements?",
+        "accept": ["谢谢您的解释。你们能重新送一百个新的吗？", "谢谢您的解释。", "你们能重新送一百个新的吗？", "能重新送一百个吗？", "请你们重新送一百个新的。", "xiexienindejieshinimennengchongxinsongyibaigexindema", "xiexienindejieshi", "nimennengchongxinsongyibaigexindema", "chongxinsongyibaige"],
+        "frame": "谢谢您的解释。你们能___送一百个新的吗？",
+        "hint": "Cảm ơn lời giải thích (谢谢您的解释), rồi đề nghị gửi lại: 能 + 重新送 + 一百个新的 + 吗？"
+      },
+      {
+        "ai": "没问题，这是我们的责任。下星期一以前一定送到。",
+        "py": "Méi wèntí, zhè shì wǒmen de zérèn. Xià xīngqīyī yǐqián yídìng sòng dào.",
+        "vi": "Không vấn đề gì, đây là trách nhiệm của chúng tôi. Trước thứ Hai tuần sau chắc chắn sẽ giao đến.",
+        "en": "No problem, it's our responsibility. They'll definitely arrive before next Monday.",
+        "model": "好的。坏了的杯子，也希望你们按价格赔偿。",
+        "mpy": "Hǎo de. Huài le de bēizi, yě xīwàng nǐmen àn jiàgé péicháng.",
+        "men": "All right. For the broken cups, we'd also like you to compensate us at the agreed price.",
+        "accept": ["好的。坏了的杯子，也希望你们按价格赔偿。", "坏了的杯子，也希望你们按价格赔偿。", "希望你们按价格赔偿。", "好的，请你们按价格赔偿。", "haodehuailedebeiziyexiwangnimenanjiagepeichang", "xiwangnimenanjiagepeichang", "anjiagepeichang"],
+        "frame": "好的。坏了的杯子，也希望你们按价格___。",
+        "hint": "Đồng ý (好的), rồi đề nghị lịch sự bằng 希望 (mong): 希望你们 + 按价格 + 赔偿."
+      }
+    ]
+  },
+  "reading": {
+    "title": "Thư trả lời của giám đốc Trần (陈总)",
+    "text": "阮安你好！非常抱歉，第一次送的杯子出了问题。我们已经找到了原因：因为春节前订单太多，大家都很忙，所以箱子里的杯子没有放好，路上一动就坏了。也因为这样，我们没有按时送出去，晚了三天。这些都是我们的责任。我们会这样负责：第一，这个星期五重新送一百个新杯子，下星期一以前一定到河内；第二，坏了的一百个杯子，我们按合同上的价格赔偿；第三，以后每次送杯子以前，小刘都会再检查一次，有问题会及时通知你们。虽然这次让你们很不满意，但是我们希望还能跟你们长期合作。陈总",
+    "py": "Ruǎn Ān nǐ hǎo! Fēicháng bàoqiàn, dì yī cì sòng de bēizi chū le wèntí. Wǒmen yǐjīng zhǎodào le yuányīn: yīnwèi Chūnjié qián dìngdān tài duō, dàjiā dōu hěn máng, suǒyǐ xiāngzi lǐ de bēizi méiyǒu fàng hǎo, lùshang yí dòng jiù huài le. Yě yīnwèi zhèyàng, wǒmen méiyǒu ànshí sòng chūqu, wǎn le sān tiān. Zhèxiē dōu shì wǒmen de zérèn. Wǒmen huì zhèyàng fùzé: dì yī, zhège xīngqīwǔ chóngxīn sòng yìbǎi ge xīn bēizi, xià xīngqīyī yǐqián yídìng dào Hénèi; dì èr, huài le de yìbǎi ge bēizi, wǒmen àn hétong shàng de jiàgé péicháng; dì sān, yǐhòu měi cì sòng bēizi yǐqián, Xiǎo Liú dōu huì zài jiǎnchá yí cì, yǒu wèntí huì jíshí tōngzhī nǐmen. Suīrán zhè cì ràng nǐmen hěn bù mǎnyì, dànshì wǒmen xīwàng hái néng gēn nǐmen chángqī hézuò. Chén zǒng",
+    "en": "Hello An, we are very sorry that the first delivery of cups had problems. We have found the cause: because we had too many orders before Spring Festival and everyone was very busy, the cups weren't packed properly in the boxes, so they broke as soon as they were shaken on the road. For the same reason, we didn't send the goods out on time, and they were three days late. All of this is our responsibility. This is how we will make it right: first, this Friday we will send 100 new cups, which will definitely reach Hanoi before next Monday; second, we will compensate for the 100 broken cups at the contract price; third, from now on Xiao Liu will check the cups again before every delivery and let you know promptly if there is a problem. Although we have disappointed you this time, we hope we can still work with you long-term. Chen",
+    "vi": "Chào An! Thành thật xin lỗi vì lô cốc giao lần đầu đã gặp sự cố. Chúng tôi đã tìm ra nguyên nhân: vì trước Tết đơn hàng quá nhiều, mọi người đều rất bận, nên cốc trong thùng xếp không chắc, đi đường bị xóc là vỡ. Cũng vì vậy mà chúng tôi không gửi hàng đi đúng hạn, muộn ba ngày. Tất cả đều là trách nhiệm của chúng tôi. Chúng tôi sẽ chịu trách nhiệm như sau: thứ nhất, thứ Sáu tuần này gửi lại 100 chiếc cốc mới, chắc chắn đến Hà Nội trước thứ Hai tuần sau; thứ hai, 100 chiếc cốc bị hỏng, chúng tôi bồi thường theo giá trong hợp đồng; thứ ba, từ nay trước mỗi lần gửi cốc, Tiểu Lưu sẽ kiểm tra lại một lần, có vấn đề sẽ báo cho bên chị kịp thời. Tuy lần này đã làm bên chị rất không hài lòng, nhưng chúng tôi mong vẫn được hợp tác lâu dài với bên chị. Giám đốc Trần",
+    "qs": [
+      {
+        "q": "Theo 陈总 (Chén zǒng), vì sao cốc bị hỏng?",
+        "opts": ["cốc trong thùng xếp không chắc", "bên An bê chuyển không cẩn thận", "trời mưa trên đường"],
+        "optsEn": ["the cups weren't packed properly in the boxes", "An's side moved them carelessly", "it rained on the way"],
+        "a": 0,
+        "why": {
+          "1": "Thư không nói bên An bê chuyển; thư viết 箱子里的杯子没有放好 (cốc trong thùng xếp không chắc).",
+          "2": "Thư không nhắc đến mưa (下雨); cốc vỡ vì 路上一动就坏了."
+        }
+      },
+      {
+        "q": "Vì sao hàng đến muộn ba ngày?",
+        "opts": ["trước Tết đơn hàng quá nhiều", "xe hỏng trên đường", "hợp đồng ghi sai ngày"],
+        "optsEn": ["there were too many orders before Tết", "the truck broke down on the way", "the contract had the wrong date"],
+        "a": 0,
+        "why": {
+          "1": "Thư không nói xe hỏng; nguyên nhân là 订单太多，大家都很忙.",
+          "2": "Thư không nói hợp đồng sai; chính nhà máy nhận 这些都是我们的责任."
+        }
+      },
+      {
+        "q": "Cốc mới sẽ đến Hà Nội khi nào?",
+        "opts": ["trước thứ Hai tuần sau", "thứ Sáu tuần này", "sau Tết"],
+        "optsEn": ["before next Monday", "this Friday", "after Tết"],
+        "a": 0,
+        "why": {
+          "1": "Thứ Sáu tuần này (这个星期五) là ngày GỬI đi; ngày đến Hà Nội là 下星期一以前.",
+          "2": "Thư không nói sau Tết; hạn là 下星期一以前."
+        }
+      },
+      {
+        "q": "Từ nay, trước mỗi lần gửi hàng, 小刘 (Xiǎo Liú) sẽ làm gì?",
+        "opts": ["kiểm tra lại cốc một lần", "gọi điện cho 王经理 (Wáng jīnglǐ)", "giảm giá cho đơn sau"],
+        "optsEn": ["check the cups again", "phone Manager Wang", "give a discount on the next order"],
+        "a": 0,
+        "why": {
+          "1": "Thư chỉ nói có vấn đề thì 及时通知你们 (báo cho bên An), không nói gọi cho 王经理.",
+          "2": "Thư không nhắc đến 打折 (giảm giá); việc của 小刘 là 再检查一次."
+        }
+      },
+      {
+        "q": "Câu nào ĐÚNG theo bức thư?",
+        "opts": ["陈总希望以后还能跟他们合作。", "坏了的杯子，陈总不打算赔偿。", "杯子是按时送到的。"],
+        "a": 0,
+        "why": {
+          "1": "Thư viết 我们按合同上的价格赔偿: có bồi thường theo giá hợp đồng.",
+          "2": "Thư viết 我们没有按时送出去，晚了三天: cốc không đến đúng hạn."
+        }
+      }
+    ]
+  },
+  "near": [
+    {
+      "q": "Chọn từ đúng: 这件事是我们的问题，我们一定___。(Việc này là lỗi của chúng tôi, chúng tôi nhất định chịu trách nhiệm.)",
+      "opts": ["负责", "责任"],
+      "a": 0,
+      "why": {
+        "1": "责任 (zérèn) là danh từ 'trách nhiệm', dùng sau 是…的 hoặc 有: 这是我们的责任. Sau 一定 cần động từ, nên dùng 负责 (fùzé)."
+      }
+    },
+    {
+      "q": "Chọn từ đúng: 合同上写的是十五号，你们没有___送到。(Hợp đồng ghi ngày 15, bên anh đã không giao đúng hạn.)",
+      "opts": ["按时", "及时"],
+      "a": 0,
+      "why": {
+        "1": "及时 (jíshí) = kịp thời, ngay khi cần (及时通知, 及时解决). Câu này so với ngày đã hẹn trong hợp đồng, nên dùng 按时 (đúng thời gian đã định)."
+      }
+    },
+    {
+      "q": "Chọn từ đúng: 一千个里坏了一百个，这个问题很___。(1.000 chiếc hỏng 100 chiếc, vấn đề này rất nghiêm trọng.)",
+      "opts": ["严重", "重要"],
+      "a": 0,
+      "why": {
+        "1": "重要 (zhòngyào) = quan trọng, không mang nghĩa xấu. Nói mức độ tồi tệ của sự cố thì dùng 严重 (nghiêm trọng)."
+      }
+    },
+    {
+      "q": "Chọn từ đúng: 真___，这次是我们没有检查好。(Thật xin lỗi, lần này là do chúng tôi kiểm tra không kỹ.)",
+      "opts": ["抱歉", "道歉"],
+      "a": 0,
+      "why": {
+        "1": "道歉 (dàoqiàn) là động từ 'xin lỗi ai': 我们向你们道歉. Không nói 真道歉. Sau 真, 很, 非常 dùng tính từ 抱歉."
+      }
+    },
+    {
+      "q": "Chọn từ đúng: 我___你们搬的时候不小心，原来是我们没有放好。(Tôi cứ tưởng bên chị bê chuyển không cẩn thận, hoá ra là chúng tôi xếp không chắc.)",
+      "opts": ["以为", "误会"],
+      "a": 0,
+      "why": {
+        "1": "误会 (wùhuì) đi với người (误会你们了) hoặc đứng một mình (这是个误会), không nối với cả một câu phía sau. 'Tưởng (sai) là…' + câu thì dùng 以为 (yǐwéi)."
+      }
+    },
+    {
+      "q": "Chọn từ đúng: 坏了的杯子，我们按合同上的价格___。(Cốc bị hỏng, chúng tôi bồi thường theo giá trong hợp đồng.)",
+      "opts": ["赔偿", "付款"],
+      "a": 0,
+      "why": {
+        "1": "付款 (fùkuǎn, học ở Thứ 4) = trả tiền hàng, là việc bên mua làm. Bên bán đền lại cho phần hàng bị hỏng thì dùng 赔偿 (péicháng)."
+      }
+    }
+  ],
+  "orderPara": [
+    {
+      "k": "order",
+      "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+      "tokens": ["上个星期，第一次送的一千个杯子到了河内。", "但是我们一打开箱子，就发现有一百个坏了。", "所以我马上给陈总打了电话，说明了情况。"],
+      "explain": "Câu có thời gian (上个星期) và giới thiệu sự việc đứng đầu. Câu bắt đầu bằng 但是 (nhưng) chuyển sang chuyện không hay. Câu có 所以 (vì vậy) nói việc làm sau khi phát hiện ra vấn đề.",
+      "vi": "Tuần trước, 1.000 chiếc cốc giao lần đầu đã đến Hà Nội. Nhưng vừa mở thùng, chúng tôi phát hiện có 100 chiếc bị hỏng. Vì vậy tôi lập tức gọi điện cho giám đốc Trần, trình bày tình hình.",
+      "en": "Last week, the first 1,000 cups arrived in Hanoi. But as soon as we opened the boxes, we found that 100 were broken. So I immediately called Mr Chen and explained the situation."
+    },
+    {
+      "k": "order",
+      "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+      "tokens": ["陈总说，这次的问题是他们的责任。", "原因是春节前订单太多，他们没有检查好。", "所以他答应重新送一百个新的，还会按价格赔偿。"],
+      "explain": "Câu đầu nêu ý chính (陈总 nhận trách nhiệm). Câu có 原因是 giải thích vì sao. Câu có 所以 nói cách giải quyết, là kết quả của hai câu trước.",
+      "vi": "Giám đốc Trần nói sự cố lần này là trách nhiệm của họ. Nguyên nhân là trước Tết đơn hàng quá nhiều, họ đã không kiểm tra kỹ. Vì vậy ông ấy đồng ý gửi lại 100 chiếc mới và còn bồi thường theo giá.",
+      "en": "Mr Chen said this problem was their responsibility. The reason was that they had too many orders before Spring Festival and didn't check properly. So he agreed to send 100 new cups and to compensate at the agreed price."
+    },
+    {
+      "k": "order",
+      "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+      "tokens": ["发现问题以后，第一件事是及时通知对方。", "然后，请对方解释一下原因。", "最后，大家再一起商量怎么解决。"],
+      "explain": "Ba bước theo thứ tự thời gian: 第一件事 (việc đầu tiên), 然后 (sau đó), 最后 (cuối cùng).",
+      "vi": "Sau khi phát hiện vấn đề, việc đầu tiên là báo cho đối tác kịp thời. Sau đó, đề nghị đối tác giải thích nguyên nhân. Cuối cùng, hai bên cùng bàn cách giải quyết.",
+      "en": "After finding a problem, the first thing to do is to let the other side know promptly. Then ask them to explain the reason. Finally, both sides discuss together how to solve it."
+    },
+    {
+      "k": "order",
+      "q": "Sắp xếp thành đoạn văn đúng (HSK4 阅读 · 排列顺序)",
+      "tokens": ["这次的事情让我们很不满意。", "但是陈总很快就解释了原因，也答应赔偿。", "所以我们决定还是跟他们长期合作。"],
+      "explain": "Câu đầu nói cảm nhận ban đầu (không hài lòng). 但是 đổi hướng sang điểm tích cực. 所以 dẫn đến quyết định cuối cùng.",
+      "vi": "Chuyện lần này khiến chúng tôi rất không hài lòng. Nhưng giám đốc Trần đã nhanh chóng giải thích nguyên nhân và đồng ý bồi thường. Vì vậy chúng tôi quyết định vẫn hợp tác lâu dài với họ.",
+      "en": "This incident left us very dissatisfied. But Mr Chen quickly explained the reason and agreed to compensate us. So we decided to continue a long-term partnership with them."
+    }
+  ],
+  "notes": {
+    "title": "Ghi chú: phương án xử lý của nhà máy",
+    "lines": [
+      {
+        "who": "陈总",
+        "t": "阮安，我把解决的办法再说一下，你记一下。",
+        "py": "Ruǎn Ān, wǒ bǎ jiějué de bànfǎ zài shuō yíxià, nǐ jì yíxià.",
+        "vi": "An này, tôi nói lại cách giải quyết một lần nữa, chị ghi lại nhé.",
+        "en": "An, let me go over the solution again. Please note it down."
+      },
+      {
+        "who": "陈总",
+        "t": "第一，我们重新送一百个新杯子。",
+        "py": "Dì yī, wǒmen chóngxīn sòng yìbǎi ge xīn bēizi.",
+        "vi": "Thứ nhất, chúng tôi gửi lại 100 chiếc cốc mới.",
+        "en": "First, we'll send 100 new cups."
+      },
+      {
+        "who": "陈总",
+        "t": "新杯子这个星期五从广州送出去。",
+        "py": "Xīn bēizi zhège xīngqīwǔ cóng Guǎngzhōu sòng chūqu.",
+        "vi": "Cốc mới sẽ được gửi đi từ Quảng Châu vào thứ Sáu tuần này.",
+        "en": "The new cups will be sent from Guangzhou this Friday."
+      },
+      {
+        "who": "阮安",
+        "t": "什么时候能到河内？",
+        "py": "Shénme shíhou néng dào Hénèi?",
+        "vi": "Khi nào thì đến được Hà Nội ạ?",
+        "en": "When will they reach Hanoi?"
+      },
+      {
+        "who": "陈总",
+        "t": "下星期一以前一定到。",
+        "py": "Xià xīngqīyī yǐqián yídìng dào.",
+        "vi": "Chắc chắn đến trước thứ Hai tuần sau.",
+        "en": "They'll definitely be there before next Monday."
+      },
+      {
+        "who": "陈总",
+        "t": "第二，坏了的杯子，我们按合同上的价格赔偿。",
+        "py": "Dì èr, huài le de bēizi, wǒmen àn hétong shàng de jiàgé péicháng.",
+        "vi": "Thứ hai, những chiếc cốc bị hỏng, chúng tôi bồi thường theo giá trong hợp đồng.",
+        "en": "Second, we'll compensate for the broken cups at the contract price."
+      },
+      {
+        "who": "阮安",
+        "t": "那还有一千个杯子呢？",
+        "py": "Nà hái yǒu yìqiān ge bēizi ne?",
+        "vi": "Thế còn 1.000 chiếc cốc còn lại thì sao ạ?",
+        "en": "And what about the other 1,000 cups?"
+      },
+      {
+        "who": "陈总",
+        "t": "那一千个我们会提前送，一月十号以前送到。",
+        "py": "Nà yìqiān ge wǒmen huì tíqián sòng, yīyuè shí hào yǐqián sòng dào.",
+        "vi": "1.000 chiếc đó chúng tôi sẽ gửi sớm, đến nơi trước ngày 10 tháng 1.",
+        "en": "We'll send those 1,000 early, so they arrive before 10 January."
+      },
+      {
+        "who": "陈总",
+        "t": "还有，以后每次送以前，小刘都会再检查一次，有问题会及时给你打电话。",
+        "py": "Hái yǒu, yǐhòu měi cì sòng yǐqián, Xiǎo Liú dōu huì zài jiǎnchá yí cì, yǒu wèntí huì jíshí gěi nǐ dǎ diànhuà.",
+        "vi": "Ngoài ra, từ nay trước mỗi lần gửi, Tiểu Lưu sẽ kiểm tra lại một lần, có vấn đề sẽ gọi điện cho chị kịp thời.",
+        "en": "Also, from now on Xiao Liu will check again before every delivery and call you promptly if there's a problem."
+      }
+    ],
+    "form": [
+      {
+        "label": "Số cốc mới được gửi lại",
+        "opts": ["一百个", "一千个", "两百个"],
+        "a": 0,
+        "why": {
+          "1": "一千个 là số cốc còn lại của hợp đồng, sẽ gửi sau; số gửi lại là 一百个.",
+          "2": "Bài nghe không có 两百个; 陈总 nói 重新送一百个新杯子."
+        }
+      },
+      {
+        "label": "Ngày gửi đi từ Quảng Châu",
+        "opts": ["这个星期五", "下星期一", "一月十号"],
+        "a": 0,
+        "why": {
+          "1": "下星期一 là hạn đến Hà Nội, không phải ngày gửi đi.",
+          "2": "一月十号 là hạn của 1.000 chiếc còn lại."
+        }
+      },
+      {
+        "label": "Hạn đến Hà Nội của cốc gửi lại",
+        "opts": ["下星期一以前", "这个星期五以前", "一月十号以前"],
+        "a": 0,
+        "why": {
+          "1": "这个星期五 là ngày gửi đi từ Quảng Châu, không phải hạn đến Hà Nội.",
+          "2": "一月十号以前 là hạn của 1.000 chiếc còn lại, không phải 100 chiếc gửi lại."
+        }
+      },
+      {
+        "label": "Cách bồi thường cốc hỏng",
+        "opts": ["按合同上的价格", "打九五折", "不赔偿"],
+        "a": 0,
+        "why": {
+          "1": "Bài nghe không nhắc đến 打折 (giảm giá).",
+          "2": "陈总 nói rõ 我们…赔偿, nên có bồi thường."
+        }
+      },
+      {
+        "label": "1.000 chiếc còn lại đến trước ngày",
+        "opts": ["一月十号以前", "下星期一以前", "春节以后"],
+        "a": 0,
+        "why": {
+          "1": "下星期一以前 là hạn của 100 chiếc gửi lại.",
+          "2": "陈总 nói 提前送 (gửi sớm) và hạn là 一月十号以前, không phải sau Tết."
+        }
+      },
+      {
+        "label": "Người kiểm tra lại trước mỗi lần gửi",
+        "opts": ["小刘", "陈总", "王丽"],
+        "a": 0,
+        "why": {
+          "1": "陈总 là người nói, ông không nói mình sẽ kiểm tra; người kiểm tra là 小刘.",
+          "2": "王丽 là đồng nghiệp của 阮安, không có trong bài nghe."
+        }
+      }
+    ]
+  },
+  "longturn": {
+    "cue": "请用一分钟说一说这次杯子出问题的事情：发生了什么？原因是什么？你是怎么解决的？",
+    "cuePy": "Qǐng yòng yì fēnzhōng shuō yi shuō zhè cì bēizi chū wèntí de shìqing: fāshēng le shénme? Yuányīn shì shénme? Nǐ shì zěnme jiějué de?",
+    "cueVi": "Nói trong 1 phút về sự cố lô cốc lần này: chuyện gì đã xảy ra? Nguyên nhân là gì? Bạn đã giải quyết thế nào? (Bạn cũng có thể kể một sự cố hàng lỗi mà bạn từng gặp ở chỗ làm.)",
+    "cueEn": "Speak for one minute about the problem with the cups: what happened, what the cause was, and how you solved it. (You may also talk about a faulty-goods problem you have dealt with at work.)",
+    "points": ["情况：什么时候，发生了什么", "原因：陈总是怎么解释的", "解决：你提了什么要求，对方答应了什么", "结果：你们以后还合作吗？为什么？"],
+    "pointsVi": ["Tình hình: khi nào, chuyện gì đã xảy ra", "Nguyên nhân: 陈总 giải thích thế nào", "Cách giải quyết: bạn đề nghị gì, đối tác đồng ý gì", "Kết quả: sau này còn hợp tác không, vì sao"],
+    "pointsEn": ["Situation: when and what happened", "Cause: how Mr Chen explained it", "Solution: what you asked for and what they agreed to", "Outcome: will you keep working together, and why"],
+    "prep": 60,
+    "speak": [60, 120],
+    "model": "上个星期，我们第一次订的杯子到了河内，但是情况不太好：晚到了三天，而且一千个里有一百个坏了。我们一打开箱子就发现了，所以我马上给陈总打了电话。陈总解释说，因为订单太多，杯子没有放好，路上一动就坏了。他说这是他们的责任，会重新送一百个，还会按价格赔偿。虽然出了问题，但是他们解决得很及时，所以我们还想跟他们合作。",
+    "modelPy": "Shàng ge xīngqī, wǒmen dì yī cì dìng de bēizi dào le Hénèi, dànshì qíngkuàng bú tài hǎo: wǎn dào le sān tiān, érqiě yìqiān ge lǐ yǒu yìbǎi ge huài le. Wǒmen yì dǎkāi xiāngzi jiù fāxiàn le, suǒyǐ wǒ mǎshàng gěi Chén zǒng dǎ le diànhuà. Chén zǒng jiěshì shuō, yīnwèi dìngdān tài duō, bēizi méiyǒu fàng hǎo, lùshang yí dòng jiù huài le. Tā shuō zhè shì tāmen de zérèn, huì chóngxīn sòng yìbǎi ge, hái huì àn jiàgé péicháng. Suīrán chū le wèntí, dànshì tāmen jiějué de hěn jíshí, suǒyǐ wǒmen hái xiǎng gēn tāmen hézuò.",
+    "modelVi": "Tuần trước, lô cốc đầu tiên chúng tôi đặt đã đến Hà Nội, nhưng tình hình không tốt lắm: hàng đến muộn ba ngày, hơn nữa trong 1.000 chiếc có 100 chiếc bị hỏng. Chúng tôi vừa mở thùng là phát hiện ra, nên tôi gọi ngay cho giám đốc Trần. Giám đốc Trần giải thích rằng vì đơn hàng quá nhiều, cốc xếp không chắc, đi đường bị xóc là vỡ. Ông nói đây là trách nhiệm của họ, sẽ gửi lại 100 chiếc và bồi thường theo giá. Tuy có trục trặc, nhưng họ giải quyết rất kịp thời, nên chúng tôi vẫn muốn hợp tác với họ.",
+    "modelEn": "Last week our first order of cups arrived in Hanoi, but things weren't great: it was three days late, and 100 of the 1,000 cups were broken. We noticed as soon as we opened the boxes, so I called Mr Chen right away. He explained that because they had too many orders, the cups weren't packed properly and broke as soon as they were shaken on the road. He said it was their responsibility; they will send 100 new cups and compensate us at the agreed price. Although there was a problem, they dealt with it promptly, so we still want to keep working with them.",
+    "useful": ["情况不太好", "比合同上的时间晚了……", "……里有……个坏了", "一……就……", "原因是……", "这是他们的责任", "虽然……，但是……", "按价格赔偿"],
+    "check": ["Nói đủ 4 ý: tình hình, nguyên nhân, cách giải quyết, kết quả", "Dùng ít nhất 3 cặp từ nối (因为…所以, 虽然…但是, 一…就)", "Dùng ít nhất 5 từ mới của hôm nay (情况, 原因, 责任, 赔偿, 重新…)", "Nói rõ số liệu: số cốc hỏng, số ngày bị chậm", "Giọng bình tĩnh, khách quan, không trách móc", "Nói liền mạch khoảng 1 phút, không dừng quá lâu"]
+  },
+  "write": {
+    "task": "Viết email phàn nàn lịch sự gửi 陈总 (Chén zǒng): nêu tình hình (chậm 3 ngày, 100 trên 1.000 chiếc bị hỏng), đề nghị giải thích nguyên nhân, đề nghị cách giải quyết (gửi lại hàng, bồi thường) và giữ thiện chí hợp tác. Dài 90–130 chữ Hán.",
+    "kind": "email",
+    "model": "陈总：您好！我们订的一千个杯子已经到河内了，但是情况不太好。第一，杯子比合同上的时间晚了三天；第二，我们一打开箱子就发现有一百个坏了。请您解释一下原因。我们希望你们能重新送一百个新的，下星期一以前送到；坏了的杯子，也请按价格赔偿。虽然这次出了问题，但是我们还想跟你们长期合作。以后有问题，希望能及时通知我们。谢谢！阮安",
+    "frame": "陈总：您好！我们订的一千个杯子已经到河内了，但是___不太好。第一，杯子比合同上的时间晚了___；第二，我们一打开箱子___发现有一百个坏了。请您___一下原因。我们希望你们能___送一百个新的，___送到；坏了的杯子，也请按价格___。虽然这次出了问题，___我们还想跟你们长期合作。以后有问题，希望能___通知我们。谢谢！阮安",
+    "gaps": ["情况", "三天", "就", "解释", "重新", "下星期一以前", "赔偿", "但是", "及时"],
+    "free": [false, false, false, false, false, true, false, false, false],
+    "hints": ["Mở đầu: 陈总：您好！", "Nêu tình hình: ……已经到了，但是情况不太好。", "Liệt kê vấn đề: 第一，……；第二，……", "Hỏi nguyên nhân lịch sự: 请您解释一下原因。", "Đề nghị: 我们希望你们能……；也请……", "Giữ thiện chí: 虽然……，但是我们还想……"],
+    "check": ["Có lời chào và ký tên", "Nêu rõ số liệu: chậm mấy ngày, hỏng bao nhiêu chiếc", "Hỏi nguyên nhân bằng câu lịch sự (请您…一下)", "Đưa ra ít nhất 2 đề nghị giải quyết (重新送, 赔偿)", "Có câu 虽然…但是 để giữ thiện chí", "Dài 90–130 chữ Hán"],
+    "words": [90, 130]
+  },
+  "gloss": {
+    "情况": ["qíngkuàng", "situation", "tình hình"],
+    "严重": ["yánzhòng", "serious", "nghiêm trọng"],
+    "原因": ["yuányīn", "reason, cause", "nguyên nhân"],
+    "解释": ["jiěshì", "to explain", "giải thích"],
+    "抱歉": ["bàoqiàn", "sorry", "xin lỗi, lấy làm tiếc"],
+    "负责": ["fùzé", "to be responsible (for)", "chịu trách nhiệm, phụ trách"],
+    "及时": ["jíshí", "promptly, in time", "kịp thời"],
+    "责任": ["zérèn", "responsibility", "trách nhiệm"],
+    "赔偿": ["péicháng", "to compensate", "bồi thường"],
+    "重新": ["chóngxīn", "again, anew", "lại, làm lại từ đầu"],
+    "误会": ["wùhuì", "to misunderstand; misunderstanding", "hiểu lầm"],
+    "陈总": ["Chén zǒng", "Mr Chen, the company head", "giám đốc Trần (tên)"],
+    "小刘": ["Xiǎo Liú", "Xiao Liu (name)", "Tiểu Lưu (tên)"],
+    "广州": ["Guǎngzhōu", "Guangzhou", "Quảng Châu (tên)"],
+    "河内": ["Hénèi", "Hanoi", "Hà Nội (tên)"]
+  }
+}

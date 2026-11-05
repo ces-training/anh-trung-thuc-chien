@@ -25,7 +25,7 @@
       "expy": "Rúguǒ shùliàng chāoguò liǎngqiān ge, jiàgé néng bu néng jiàngdī yìdiǎnr?",
       "exm": "Nếu số lượng vượt 2.000 chiếc, giá có thể hạ xuống một chút không?",
       "exEn": "If the quantity is over 2,000, could the price come down a little?",
-      "n": "降 = hạ xuống, 低 = thấp. 降低 + 价格 / 标准; 降低到 + mức mới (降低到二十八块). Ngược nghĩa: 提高 (tígāo)."
+      "n": "降 = hạ xuống, 低 = thấp. 降低 + 价格 / 标准; 降低到 + mức mới (降低到二十一块). Ngược nghĩa: 提高 (tígāo)."
     },
     {
       "w": "按时",
@@ -149,31 +149,31 @@
       },
       {
         "who": "陈总",
-        "t": "每个三十块已经很便宜了。您希望降低到多少？",
-        "py": "Měi ge sānshí kuài yǐjīng hěn piányi le. Nín xīwàng jiàngdī dào duōshao?",
-        "vi": "Mỗi chiếc 30 tệ là rẻ lắm rồi. Chị muốn hạ xuống bao nhiêu?",
-        "en": "Thirty yuan each is already very cheap. How low would you like it to go?"
+        "t": "两千个打九折，每个二十二块五，已经很便宜了。您希望降低到多少？",
+        "py": "Liǎngqiān ge dǎ jiǔ zhé, měi ge èrshí'èr kuài wǔ, yǐjīng hěn piányi le. Nín xīwàng jiàngdī dào duōshao?",
+        "vi": "2.000 chiếc thì giảm 10%, mỗi chiếc 22,5 tệ, rẻ lắm rồi. Chị muốn hạ xuống bao nhiêu?",
+        "en": "For 2,000 cups it's 10% off, 22.5 yuan each. That's already very cheap. How low would you like it to go?"
       },
       {
         "who": "阮安",
-        "t": "如果每个二十六块，我们今天就订合同。",
-        "py": "Rúguǒ měi ge èrshíliù kuài, wǒmen jīntiān jiù dìng hétong.",
-        "vi": "Nếu mỗi chiếc 26 tệ, chúng tôi ký hợp đồng ngay hôm nay.",
-        "en": "If it's 26 yuan each, we'll sign the contract today."
+        "t": "如果每个二十块，我们今天就订合同。",
+        "py": "Rúguǒ měi ge èrshí kuài, wǒmen jīntiān jiù dìng hétong.",
+        "vi": "Nếu mỗi chiếc 20 tệ, chúng tôi ký hợp đồng ngay hôm nay.",
+        "en": "If it's 20 yuan each, we'll sign the contract today."
       },
       {
         "who": "陈总",
-        "t": "二十六太低了。二十八块，这是最低的价格了。",
-        "py": "Èrshíliù tài dī le. Èrshíbā kuài, zhè shì zuì dī de jiàgé le.",
-        "vi": "26 thì thấp quá. 28 tệ, đây là giá thấp nhất rồi.",
-        "en": "Twenty-six is too low. Twenty-eight is our lowest price."
+        "t": "二十块太低了。二十一块，这是最低的价格了。",
+        "py": "Èrshí kuài tài dī le. Èrshíyī kuài, zhè shì zuì dī de jiàgé le.",
+        "vi": "20 tệ thì thấp quá. 21 tệ, đây là giá thấp nhất rồi.",
+        "en": "Twenty is too low. Twenty-one yuan is our lowest price."
       },
       {
         "who": "王丽",
-        "t": "二十八块也可以，但是我们有一个条件：一月十五号以前一定要送到河内。",
-        "py": "Èrshíbā kuài yě kěyǐ, dànshì wǒmen yǒu yí ge tiáojiàn: yī yuè shíwǔ hào yǐqián yídìng yào sòngdào Hénèi.",
-        "vi": "28 tệ cũng được, nhưng chúng tôi có một điều kiện: trước ngày 15 tháng 1 nhất định phải giao đến Hà Nội.",
-        "en": "Twenty-eight is fine, but we have one condition: the cups must reach Hanoi before January 15."
+        "t": "二十一块也可以，但是我们有一个条件：一月十五号以前一定要送到河内。",
+        "py": "Èrshíyī kuài yě kěyǐ, dànshì wǒmen yǒu yí ge tiáojiàn: yī yuè shíwǔ hào yǐqián yídìng yào sòngdào Hénèi.",
+        "vi": "21 tệ cũng được, nhưng chúng tôi có một điều kiện: trước ngày 15 tháng 1 nhất định phải giao đến Hà Nội.",
+        "en": "Twenty-one is fine, but we have one condition: the cups must reach Hanoi before January 15."
       },
       {
         "who": "陈总",
@@ -292,7 +292,7 @@
       }
     },
     {
-      "q": "Điền từ: 二十八块的价格，我们可以___。(Giá 28 tệ, chúng tôi có thể chấp nhận.)",
+      "q": "Điền từ: 二十一块的价格，我们可以___。(Giá 21 tệ, chúng tôi có thể chấp nhận.)",
       "opts": ["接受", "推迟", "降低"],
       "a": 0,
       "why": {
@@ -356,11 +356,11 @@
       }
     },
     {
-      "q": "Điền từ: 价格能不能降低___二十六块？(Giá có thể hạ xuống còn 26 tệ không?)",
+      "q": "Điền từ: 价格能不能降低___二十块？(Giá có thể hạ xuống còn 20 tệ không?)",
       "opts": ["到", "了", "在"],
       "a": 0,
       "why": {
-        "1": "降低了二十六块 là 'đã hạ đi 26 tệ' (bớt đi 26), khác nghĩa 'hạ xuống còn 26'. Mức giá mới dùng 降低到.",
+        "1": "降低了二十块 là 'đã hạ đi 20 tệ' (bớt đi 20), khác nghĩa 'hạ xuống còn 20'. Mức giá mới dùng 降低到.",
         "2": "在 chỉ nơi chốn hoặc việc đang làm; mức đích đến dùng 到."
       }
     },
@@ -384,13 +384,13 @@
   "listen": [
     {
       "q": "Giá cuối cùng mỗi chiếc là bao nhiêu?",
-      "audio": "每个三十块太贵了，二十六块可以吗？——二十六太低了，二十八块吧。——好，我们接受。",
-      "opts": ["28 tệ", "26 tệ", "30 tệ"],
-      "optsEn": ["28 yuan", "26 yuan", "30 yuan"],
+      "audio": "打九折以后每个二十二块五，还是有点儿贵，二十块可以吗？——二十块太低了，二十一块吧。——好，我们接受。",
+      "opts": ["21 tệ", "20 tệ", "22,5 tệ"],
+      "optsEn": ["21 yuan", "20 yuan", "22.5 yuan"],
       "a": 0,
       "why": {
-        "1": "26 tệ là giá người mua đề nghị, người bán trả lời 太低了 (thấp quá).",
-        "2": "30 tệ là giá ban đầu, người mua chê 太贵了 (đắt quá)."
+        "1": "20 tệ là giá người mua đề nghị, người bán trả lời 太低了 (thấp quá).",
+        "2": "22,5 tệ là giá sau khi 打九折, người mua vẫn thấy 有点儿贵 (hơi đắt)."
       }
     },
     {
@@ -552,10 +552,10 @@
     "partner": "陈总",
     "turns": [
       {
-        "ai": "阮小姐，您好！两千个杯子，每个三十块，您看怎么样？",
-        "py": "Ruǎn xiǎojiě, nín hǎo! Liǎngqiān ge bēizi, měi ge sānshí kuài, nín kàn zěnmeyàng?",
-        "vi": "Chào chị Nguyễn! 2.000 chiếc cốc, mỗi chiếc 30 tệ, chị thấy thế nào?",
-        "en": "Hello, Ms Nguyen! 2,000 cups at 30 yuan each. What do you think?",
+        "ai": "阮小姐，您好！两千个杯子打九折，每个二十二块五，您看怎么样？",
+        "py": "Ruǎn xiǎojiě, nín hǎo! Liǎngqiān ge bēizi dǎ jiǔ zhé, měi ge èrshí'èr kuài wǔ, nín kàn zěnmeyàng?",
+        "vi": "Chào chị Nguyễn! 2.000 chiếc cốc giảm 10%, mỗi chiếc 22,5 tệ, chị thấy thế nào?",
+        "en": "Hello, Ms Nguyen! 2,000 cups at 10% off, 22.5 yuan each. What do you think?",
         "model": "价格有点儿高，我们想跟您再商量一下。",
         "mpy": "Jiàgé yǒudiǎnr gāo, wǒmen xiǎng gēn nín zài shāngliang yíxià.",
         "men": "The price is a bit high. We'd like to discuss it with you a little more.",
@@ -568,23 +568,23 @@
         "py": "Nà nín xīwàng jiàngdī dào duōshao?",
         "vi": "Vậy chị muốn hạ xuống bao nhiêu?",
         "en": "Then how low would you like it to go?",
-        "model": "如果每个二十六块，我们今天就订合同。",
-        "mpy": "Rúguǒ měi ge èrshíliù kuài, wǒmen jīntiān jiù dìng hétong.",
-        "men": "If it's 26 yuan each, we'll sign the contract today.",
-        "accept": ["如果每个二十六块，我们今天就订合同。", "如果每个二十六块，我们今天就订。", "每个二十六块。", "二十六块。", "如果每个二十七块，我们今天就订合同。", "如果每个二十五块，我们今天就订合同。", "ruguomeigeershiliukuaiwomenjintianjiudinghetong", "meigeershiliukuai", "ershiliukuai"],
+        "model": "如果每个二十块，我们今天就订合同。",
+        "mpy": "Rúguǒ měi ge èrshí kuài, wǒmen jīntiān jiù dìng hétong.",
+        "men": "If it's 20 yuan each, we'll sign the contract today.",
+        "accept": ["如果每个二十块，我们今天就订合同。", "如果每个二十块，我们今天就订。", "每个二十块。", "二十块。", "如果每个二十一块，我们今天就订合同。", "ruguomeigeershikuaiwomenjintianjiudinghetong", "meigeershikuai", "ershikuai"],
         "frame": "如果每个___块，我们今天就订合同。",
         "hint": "Đưa ra giá bạn muốn và hứa ký ngay: 如果 + giá，我们今天就 + 订合同."
       },
       {
-        "ai": "二十六太低了。二十八块，可以吗？",
-        "py": "Èrshíliù tài dī le. Èrshíbā kuài, kěyǐ ma?",
-        "vi": "26 thì thấp quá. 28 tệ, được không?",
-        "en": "Twenty-six is too low. How about twenty-eight?",
-        "model": "二十八块可以，但是我们有一个条件。",
-        "mpy": "Èrshíbā kuài kěyǐ, dànshì wǒmen yǒu yí ge tiáojiàn.",
-        "men": "Twenty-eight is fine, but we have one condition.",
-        "accept": ["二十八块可以，但是我们有一个条件。", "可以，但是我们有一个条件。", "二十八块也可以，但是我们有一个条件。", "我们有一个条件。", "ershibakuaikeyidanshiwomenyouyigetiaojian", "keyidanshiwomenyouyigetiaojian", "womenyouyigetiaojian"],
-        "frame": "二十八块可以，但是我们有一个___。",
+        "ai": "二十块太低了。二十一块，可以吗？",
+        "py": "Èrshí kuài tài dī le. Èrshíyī kuài, kěyǐ ma?",
+        "vi": "20 tệ thì thấp quá. 21 tệ, được không?",
+        "en": "Twenty is too low. How about twenty-one?",
+        "model": "二十一块可以，但是我们有一个条件。",
+        "mpy": "Èrshíyī kuài kěyǐ, dànshì wǒmen yǒu yí ge tiáojiàn.",
+        "men": "Twenty-one is fine, but we have one condition.",
+        "accept": ["二十一块可以，但是我们有一个条件。", "可以，但是我们有一个条件。", "二十一块也可以，但是我们有一个条件。", "我们有一个条件。", "ershiyikuaikeyidanshiwomenyouyigetiaojian", "keyidanshiwomenyouyigetiaojian", "womenyouyigetiaojian"],
+        "frame": "二十一块可以，但是我们有一个___。",
         "hint": "Nhận giá nhưng thêm điều kiện: 可以，但是我们有一个条件."
       },
       {
@@ -615,19 +615,19 @@
   },
   "reading": {
     "title": "阮安给王经理的信息",
-    "text": "王经理，您好！今天上午我们跟陈总商量了很长时间，最后把合同订好了。我们订了两千个杯子，每个二十八块，比他们开始说的价格降低了两块。陈总本来想把送到的时间推迟到一月二十号，但是我们告诉他，杯子一定要在过年以前卖给顾客，否则就晚了。最后他同意一月十五号以前送到河内。付款的条件是：合同订好以后先付一半，杯子到了河内，我们检查了质量以后再付一半。虽然这个价格不是最低的，但是陈总的产品质量很好，我觉得我们可以接受。阮安",
-    "py": "Wáng jīnglǐ, nín hǎo! Jīntiān shàngwǔ wǒmen gēn Chén zǒng shāngliang le hěn cháng shíjiān, zuìhòu bǎ hétong dìng hǎo le. Wǒmen dìng le liǎngqiān ge bēizi, měi ge èrshíbā kuài, bǐ tāmen kāishǐ shuō de jiàgé jiàngdī le liǎng kuài. Chén zǒng běnlái xiǎng bǎ sòngdào de shíjiān tuīchí dào yī yuè èrshí hào, dànshì wǒmen gàosu tā, bēizi yídìng yào zài guònián yǐqián mài gěi gùkè, fǒuzé jiù wǎn le. Zuìhòu tā tóngyì yī yuè shíwǔ hào yǐqián sòngdào Hénèi. Fùkuǎn de tiáojiàn shì: hétong dìng hǎo yǐhòu xiān fù yíbàn, bēizi dào le Hénèi, wǒmen jiǎnchá le zhìliàng yǐhòu zài fù yíbàn. Suīrán zhège jiàgé bú shì zuì dī de, dànshì Chén zǒng de chǎnpǐn zhìliàng hěn hǎo, wǒ juéde wǒmen kěyǐ jiēshòu. Ruǎn Ān",
-    "en": "Hello, Mr Wang! This morning we spent a long time negotiating with Mr Chen and finally signed the contract. We ordered 2,000 cups at 28 yuan each, two yuan lower than the price they first quoted. Mr Chen originally wanted to push the delivery back to January 20, but we told him the cups must be sold to customers before New Year, otherwise it would be too late. In the end he agreed to deliver to Hanoi before January 15. The payment terms: we pay half once the contract is signed, and the other half after the cups reach Hanoi and we have checked the quality. Although this isn't the lowest price, Mr Chen's products are of very good quality, so I think we can accept it. Nguyen An",
-    "vi": "Chào anh Vương! Sáng nay chúng em bàn với giám đốc Trần rất lâu, cuối cùng đã ký xong hợp đồng. Chúng em đặt 2.000 chiếc cốc, mỗi chiếc 28 tệ, thấp hơn 2 tệ so với giá họ đưa lúc đầu. Ông Trần lúc đầu muốn lùi ngày giao đến 20 tháng 1, nhưng chúng em nói với ông ấy là cốc nhất định phải bán cho khách trước Tết, nếu không thì muộn mất. Cuối cùng ông ấy đồng ý giao đến Hà Nội trước ngày 15 tháng 1. Điều kiện thanh toán: ký hợp đồng xong thì trả trước một nửa, cốc đến Hà Nội và chúng ta kiểm tra chất lượng xong thì trả nốt nửa còn lại. Tuy giá này không phải thấp nhất, nhưng chất lượng sản phẩm của ông Trần rất tốt, em nghĩ chúng ta có thể chấp nhận. Nguyễn An",
+    "text": "王经理，您好！今天上午我们跟陈总商量了很长时间，最后把合同订好了。我们订了两千个杯子，每个二十一块，比他们开始说的价格降低了一块五。陈总本来想把送到的时间推迟到一月二十号，但是我们告诉他，杯子一定要在过年以前卖给顾客，否则就晚了。最后他同意一月十五号以前送到河内。付款的条件是：合同订好以后先付一半，杯子到了河内，我们检查了质量以后再付一半。虽然这个价格比新星公司的高一块，但是陈总的产品质量好多了，我觉得我们可以接受。阮安",
+    "py": "Wáng jīnglǐ, nín hǎo! Jīntiān shàngwǔ wǒmen gēn Chén zǒng shāngliang le hěn cháng shíjiān, zuìhòu bǎ hétong dìng hǎo le. Wǒmen dìng le liǎngqiān ge bēizi, měi ge èrshíyī kuài, bǐ tāmen kāishǐ shuō de jiàgé jiàngdī le yí kuài wǔ. Chén zǒng běnlái xiǎng bǎ sòngdào de shíjiān tuīchí dào yī yuè èrshí hào, dànshì wǒmen gàosu tā, bēizi yídìng yào zài guònián yǐqián mài gěi gùkè, fǒuzé jiù wǎn le. Zuìhòu tā tóngyì yī yuè shíwǔ hào yǐqián sòngdào Hénèi. Fùkuǎn de tiáojiàn shì: hétong dìng hǎo yǐhòu xiān fù yíbàn, bēizi dào le Hénèi, wǒmen jiǎnchá le zhìliàng yǐhòu zài fù yíbàn. Suīrán zhège jiàgé bǐ Xīnxīng gōngsī de gāo yí kuài, dànshì Chén zǒng de chǎnpǐn zhìliàng hǎo duō le, wǒ juéde wǒmen kěyǐ jiēshòu. Ruǎn Ān",
+    "en": "Hello, Mr Wang! This morning we spent a long time negotiating with Mr Chen and finally signed the contract. We ordered 2,000 cups at 21 yuan each, 1.5 yuan lower than the price they first quoted. Mr Chen originally wanted to push the delivery back to January 20, but we told him the cups must be sold to customers before New Year, otherwise it would be too late. In the end he agreed to deliver to Hanoi before January 15. The payment terms: we pay half once the contract is signed, and the other half after the cups reach Hanoi and we have checked the quality. Although this price is one yuan higher than Xinxing Company's, Mr Chen's products are of much better quality, so I think we can accept it. Nguyen An",
+    "vi": "Chào anh Vương! Sáng nay chúng em bàn với giám đốc Trần rất lâu, cuối cùng đã ký xong hợp đồng. Chúng em đặt 2.000 chiếc cốc, mỗi chiếc 21 tệ, thấp hơn 1,5 tệ so với giá họ đưa lúc đầu. Ông Trần lúc đầu muốn lùi ngày giao đến 20 tháng 1, nhưng chúng em nói với ông ấy là cốc nhất định phải bán cho khách trước Tết, nếu không thì muộn mất. Cuối cùng ông ấy đồng ý giao đến Hà Nội trước ngày 15 tháng 1. Điều kiện thanh toán: ký hợp đồng xong thì trả trước một nửa, cốc đến Hà Nội và chúng ta kiểm tra chất lượng xong thì trả nốt nửa còn lại. Tuy giá này cao hơn công ty Tân Tinh 1 tệ, nhưng chất lượng sản phẩm của ông Trần tốt hơn nhiều, em nghĩ chúng ta có thể chấp nhận. Nguyễn An",
     "qs": [
       {
-        "q": "So với giá ban đầu, giá mỗi chiếc giảm bao nhiêu?",
-        "opts": ["2 tệ", "8 tệ", "28 tệ"],
-        "optsEn": ["2 yuan", "8 yuan", "28 yuan"],
+        "q": "So với giá 陈总 đưa ra lúc đầu, giá mỗi chiếc giảm bao nhiêu?",
+        "opts": ["1,5 tệ", "2,5 tệ", "21 tệ"],
+        "optsEn": ["1.5 yuan", "2.5 yuan", "21 yuan"],
         "a": 0,
         "why": {
-          "1": "Bài không có số 8; bài viết 降低了两块 = giảm 2 tệ.",
-          "2": "28 tệ là giá mới (每个二十八块), không phải số tiền được giảm."
+          "1": "Bài viết 降低了一块五 = giảm 1,5 tệ (一块五), không phải 两块五 (2,5 tệ).",
+          "2": "21 tệ là giá mới (每个二十一块), không phải số tiền được giảm."
         }
       },
       {
@@ -637,7 +637,7 @@
         "a": 0,
         "why": {
           "1": "Bài viết 推迟到一月二十号 (lùi đến 20/1); không có 提前 (giao sớm).",
-          "2": "Bài không nói tăng giá; 两块 là số tiền giá đã GIẢM (降低了两块)."
+          "2": "Bài không nói tăng giá; 一块五 là số tiền giá đã GIẢM (降低了一块五)."
         }
       },
       {
@@ -662,12 +662,12 @@
       },
       {
         "q": "阮安 nghĩ gì về thoả thuận này?",
-        "opts": ["giá chưa thấp nhất nhưng chất lượng tốt, nên chấp nhận được", "giá thấp nhất nên rất hài lòng", "chất lượng chưa tốt nên cần bàn thêm"],
-        "optsEn": ["the price isn't the lowest, but the quality is good, so it's acceptable", "it's the lowest price, so she's very happy", "the quality isn't good enough, so they need to talk more"],
+        "opts": ["giá cao hơn công ty Tân Tinh nhưng chất lượng tốt hơn nhiều, nên chấp nhận được", "giá thấp nhất nên rất hài lòng", "chất lượng chưa tốt nên cần bàn thêm"],
+        "optsEn": ["the price is higher than Xinxing's, but the quality is much better, so it's acceptable", "it's the lowest price, so she's very happy", "the quality isn't good enough, so they need to talk more"],
         "a": 0,
         "why": {
-          "1": "Bài viết 这个价格不是最低的 (giá này không phải thấp nhất).",
-          "2": "Bài viết 质量很好 (chất lượng rất tốt), và 阮安 thấy 可以接受, không cần bàn thêm."
+          "1": "Bài viết 这个价格比新星公司的高一块 (giá này cao hơn công ty Tân Tinh 1 tệ), nên không phải giá thấp nhất.",
+          "2": "Bài viết 质量好多了 (chất lượng tốt hơn nhiều), và 阮安 thấy 可以接受, không cần bàn thêm."
         }
       }
     ]
@@ -690,7 +690,7 @@
       }
     },
     {
-      "q": "Chọn từ đúng: 我们想把价格___到二十六块。(Chúng tôi muốn hạ giá xuống 26 tệ.)",
+      "q": "Chọn từ đúng: 我们想把价格___到二十块。(Chúng tôi muốn hạ giá xuống 20 tệ.)",
       "opts": ["降低", "便宜", "打折"],
       "a": 0,
       "why": {
@@ -728,10 +728,10 @@
     {
       "k": "order",
       "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Sắp xếp thứ tự câu)",
-      "tokens": ["陈总开始说每个杯子三十块。", "我们觉得有点儿贵，就跟他商量了很长时间。", "最后他同意把价格降低到二十八块。"],
+      "tokens": ["陈总开始说，两千个杯子打九折，每个二十二块五。", "我们觉得还是有点儿贵，就跟他商量了很长时间。", "最后他同意把价格降低到二十一块。"],
       "explain": "Đi theo thời gian: 开始 (lúc đầu) mở đoạn; câu giữa có 就 nối tiếp phản ứng của bên mua; 最后 (cuối cùng) đứng cuối.",
-      "vi": "Lúc đầu ông Trần nói mỗi chiếc cốc 30 tệ. Chúng tôi thấy hơi đắt nên bàn với ông ấy rất lâu. Cuối cùng ông ấy đồng ý hạ giá xuống 28 tệ.",
-      "en": "At first Mr Chen said each cup was 30 yuan. We felt it was a bit expensive, so we negotiated with him for a long time. In the end he agreed to lower the price to 28 yuan."
+      "vi": "Lúc đầu ông Trần nói 2.000 chiếc cốc được giảm 10%, mỗi chiếc 22,5 tệ. Chúng tôi vẫn thấy hơi đắt nên bàn với ông ấy rất lâu. Cuối cùng ông ấy đồng ý hạ giá xuống 21 tệ.",
+      "en": "At first Mr Chen said 2,000 cups would get 10% off, at 22.5 yuan each. We still felt it was a bit expensive, so we negotiated with him for a long time. In the end he agreed to lower the price to 21 yuan."
     },
     {
       "k": "order",
@@ -770,24 +770,24 @@
       },
       {
         "who": "小刘",
-        "t": "你们订的杯子一共两千个，每个二十八块。",
-        "py": "Nǐmen dìng de bēizi yígòng liǎngqiān ge, měi ge èrshíbā kuài.",
-        "vi": "Bên chị đặt tổng cộng 2.000 chiếc cốc, mỗi chiếc 28 tệ.",
-        "en": "You've ordered 2,000 cups in total, at 28 yuan each."
+        "t": "你们订的杯子一共两千个，每个二十一块。",
+        "py": "Nǐmen dìng de bēizi yígòng liǎngqiān ge, měi ge èrshíyī kuài.",
+        "vi": "Bên chị đặt tổng cộng 2.000 chiếc cốc, mỗi chiếc 21 tệ.",
+        "en": "You've ordered 2,000 cups in total, at 21 yuan each."
       },
       {
         "who": "小刘",
-        "t": "一共是五万六千块。",
-        "py": "Yígòng shì wǔwàn liùqiān kuài.",
-        "vi": "Tổng cộng là 56.000 tệ.",
-        "en": "That's 56,000 yuan in total."
+        "t": "一共是四万两千块。",
+        "py": "Yígòng shì sìwàn liǎngqiān kuài.",
+        "vi": "Tổng cộng là 42.000 tệ.",
+        "en": "That's 42,000 yuan in total."
       },
       {
         "who": "小刘",
-        "t": "合同订好以后，你们先付一半，也就是两万八千块。",
-        "py": "Hétong dìng hǎo yǐhòu, nǐmen xiān fù yíbàn, yě jiù shì liǎngwàn bāqiān kuài.",
-        "vi": "Ký hợp đồng xong, bên chị trả trước một nửa, tức là 28.000 tệ.",
-        "en": "Once the contract is signed, you pay half first, that is 28,000 yuan."
+        "t": "合同订好以后，你们先付一半，也就是两万一千块。",
+        "py": "Hétong dìng hǎo yǐhòu, nǐmen xiān fù yíbàn, yě jiù shì liǎngwàn yìqiān kuài.",
+        "vi": "Ký hợp đồng xong, bên chị trả trước một nửa, tức là 21.000 tệ.",
+        "en": "Once the contract is signed, you pay half first, that is 21,000 yuan."
       },
       {
         "who": "小刘",
@@ -837,29 +837,29 @@
       },
       {
         "label": "Giá mỗi chiếc",
-        "opts": ["二十八块", "二十六块", "三十块"],
+        "opts": ["二十一块", "二十块", "二十二块五"],
         "a": 0,
         "why": {
-          "1": "26 tệ là giá 阮安 đề nghị lúc đầu; trong hợp đồng là 每个二十八块.",
-          "2": "30 tệ là giá ban đầu của 陈总, chưa giảm; trong hợp đồng là 28 tệ."
+          "1": "20 tệ là giá 阮安 đề nghị lúc đầu; trong hợp đồng là 每个二十一块.",
+          "2": "22,5 tệ là giá 打九折 lúc đầu của 陈总; sau khi bàn, trong hợp đồng là 21 tệ."
         }
       },
       {
         "label": "Tổng số tiền",
-        "opts": ["五万六千块", "两万八千块", "五千六百块"],
+        "opts": ["四万两千块", "两万一千块", "四千二百块"],
         "a": 0,
         "why": {
-          "1": "两万八千块 (28.000 tệ) là số tiền trả trước, tức một nửa, không phải tổng.",
-          "2": "五千六百块 là 5.600 tệ; 小刘 nói 五万六千块 (56.000 tệ), 万 là chục nghìn."
+          "1": "两万一千块 (21.000 tệ) là số tiền trả trước, tức một nửa, không phải tổng.",
+          "2": "四千二百块 là 4.200 tệ; 小刘 nói 四万两千块 (42.000 tệ), 万 là chục nghìn."
         }
       },
       {
         "label": "Số tiền trả trước",
-        "opts": ["两万八千块", "五万六千块", "两千八百块"],
+        "opts": ["两万一千块", "四万两千块", "两千一百块"],
         "a": 0,
         "why": {
-          "1": "五万六千块 là tổng tiền; trả trước chỉ là 一半 (một nửa).",
-          "2": "两千八百块 là 2.800 tệ; 小刘 nói 两万八千块 (28.000 tệ)."
+          "1": "四万两千块 là tổng tiền; trả trước chỉ là 一半 (một nửa).",
+          "2": "两千一百块 là 2.100 tệ; 小刘 nói 两万一千块 (21.000 tệ)."
         }
       },
       {
@@ -890,18 +890,18 @@
     "pointsVi": ["Nêu yêu cầu của bên bạn: số lượng, giá, thời gian giao", "Nói bên bạn có thể chấp nhận điều kiện gì", "Nói nếu đối tác không đồng ý thì sẽ có vấn đề gì (dùng 否则)", "Cuối cùng nói vì sao cách này tốt cho cả hai bên"],
     "prep": 60,
     "speak": [60, 120],
-    "model": "陈总，您好！我们需要两千个杯子，希望每个二十六块。这个价格有点儿低，但是只要价格合适，我们以后每年都会给您订单。杯子一定要在一月十五号以前送到河内，否则顾客过年以前就买不到了。如果您能保证按时送到，我们可以接受二十八块，而且合同订好以后马上付一半。这样对我们双方都好。您看怎么样？",
-    "modelPy": "Chén zǒng, nín hǎo! Wǒmen xūyào liǎngqiān ge bēizi, xīwàng měi ge èrshíliù kuài. Zhège jiàgé yǒudiǎnr dī, dànshì zhǐyào jiàgé héshì, wǒmen yǐhòu měi nián dōu huì gěi nín dìngdān. Bēizi yídìng yào zài yī yuè shíwǔ hào yǐqián sòngdào Hénèi, fǒuzé gùkè guònián yǐqián jiù mǎi bu dào le. Rúguǒ nín néng bǎozhèng ànshí sòngdào, wǒmen kěyǐ jiēshòu èrshíbā kuài, érqiě hétong dìng hǎo yǐhòu mǎshàng fù yíbàn. Zhèyàng duì wǒmen shuāngfāng dōu hǎo. Nín kàn zěnmeyàng?",
-    "modelVi": "Chào ông Trần! Chúng tôi cần 2.000 chiếc cốc, mong là mỗi chiếc 26 tệ. Giá này hơi thấp, nhưng chỉ cần giá phù hợp, sau này năm nào chúng tôi cũng sẽ đặt hàng của ông. Cốc nhất định phải đến Hà Nội trước ngày 15 tháng 1, nếu không khách hàng sẽ không mua được trước Tết. Nếu ông có thể bảo đảm giao đúng hạn, chúng tôi có thể chấp nhận 28 tệ, hơn nữa ký hợp đồng xong sẽ trả ngay một nửa. Như vậy tốt cho cả hai bên. Ông thấy thế nào?",
+    "model": "陈总，您好！我们需要两千个杯子，希望每个二十块。这个价格有点儿低，但是只要价格合适，我们以后每年都会给您订单。杯子一定要在一月十五号以前送到河内，否则顾客过年以前就买不到了。如果您能保证按时送到，我们可以接受二十一块，而且合同订好以后马上付一半。这样对我们双方都好。您看怎么样？",
+    "modelPy": "Chén zǒng, nín hǎo! Wǒmen xūyào liǎngqiān ge bēizi, xīwàng měi ge èrshí kuài. Zhège jiàgé yǒudiǎnr dī, dànshì zhǐyào jiàgé héshì, wǒmen yǐhòu měi nián dōu huì gěi nín dìngdān. Bēizi yídìng yào zài yī yuè shíwǔ hào yǐqián sòngdào Hénèi, fǒuzé gùkè guònián yǐqián jiù mǎi bu dào le. Rúguǒ nín néng bǎozhèng ànshí sòngdào, wǒmen kěyǐ jiēshòu èrshíyī kuài, érqiě hétong dìng hǎo yǐhòu mǎshàng fù yíbàn. Zhèyàng duì wǒmen shuāngfāng dōu hǎo. Nín kàn zěnmeyàng?",
+    "modelVi": "Chào ông Trần! Chúng tôi cần 2.000 chiếc cốc, mong là mỗi chiếc 20 tệ. Giá này hơi thấp, nhưng chỉ cần giá phù hợp, sau này năm nào chúng tôi cũng sẽ đặt hàng của ông. Cốc nhất định phải đến Hà Nội trước ngày 15 tháng 1, nếu không khách hàng sẽ không mua được trước Tết. Nếu ông có thể bảo đảm giao đúng hạn, chúng tôi có thể chấp nhận 21 tệ, hơn nữa ký hợp đồng xong sẽ trả ngay một nửa. Như vậy tốt cho cả hai bên. Ông thấy thế nào?",
     "useful": ["只要……，我们就……", "……，否则……", "如果您能保证……，我们可以……", "我们可以接受……", "这样对我们双方都好。", "您看怎么样？"],
     "check": ["Nói đủ 4 ý: yêu cầu, điều kiện chấp nhận, hậu quả nếu không đồng ý, lợi ích cho hai bên", "Dùng ít nhất 3 từ nối (只要…就, 如果…就, 否则, 但是, 而且)", "Có con số cụ thể: số lượng, giá, ngày giao", "Giữ giọng lịch sự với đối tác (您, 您看怎么样？)", "Nói được 60–120 giây, thanh điệu rõ ở 商量, 保证, 否则"]
   },
   "write": {
     "task": "Viết tin nhắn gửi 陈总 xác nhận các điều kiện hai bên đã thống nhất: số lượng, giá, cách thanh toán, hạn giao (70–100 chữ Hán).",
     "kind": "message",
-    "model": "陈总，您好！谢谢您今天跟我们商量了这么长时间。我把说好的条件再写一下：我们订两千个杯子，每个二十八块。合同订好以后，我们先付一半，杯子到了河内再付一半。你们保证一月十五号以前送到，否则我们的顾客过年以前就买不到了。阮安",
+    "model": "陈总，您好！谢谢您今天跟我们商量了这么长时间。我把说好的条件再写一下：我们订两千个杯子，每个二十一块。合同订好以后，我们先付一半，杯子到了河内再付一半。你们保证一月十五号以前送到，否则我们的顾客过年以前就买不到了。阮安",
     "frame": "陈总，您好！谢谢您今天跟我们___。我把说好的条件再写一下：我们订___，每个___。合同订好以后，我们先___，杯子到了河内再付一半。你们保证___送到，否则___。阮安",
-    "gaps": ["商量了这么长时间", "两千个杯子", "二十八块", "付一半", "一月十五号以前", "我们的顾客过年以前就买不到了"],
+    "gaps": ["商量了这么长时间", "两千个杯子", "二十一块", "付一半", "一月十五号以前", "我们的顾客过年以前就买不到了"],
     "free": [false, true, true, false, true, true],
     "hints": ["谢谢您今天跟我们商量了这么长时间。", "我把说好的条件再写一下：", "合同订好以后，我们先……，……再……", "你们保证……，否则……", "如果有问题，请您提前告诉我们。"],
     "check": ["Mở đầu có lời chào và lời cảm ơn", "Đủ 4 điều kiện: số lượng, giá, thanh toán, hạn giao", "Dùng 先……再…… để nói thứ tự thanh toán", "Có một câu với 否则 nêu hậu quả nếu giao trễ", "Ký tên ở cuối", "Dài 70–100 chữ Hán"],
@@ -923,6 +923,7 @@
     "陈总": ["Chén zǒng", "Mr Chen, the company head", "giám đốc Trần (tên)"],
     "小刘": ["Xiǎo Liú", "Xiao Liu (name)", "Tiểu Lưu (tên)"],
     "河内": ["Hénèi", "Hanoi", "Hà Nội (tên)"],
-    "阮小姐": ["Ruǎn xiǎojiě", "Ms Nguyen", "chị Nguyễn (tên)"]
+    "阮小姐": ["Ruǎn xiǎojiě", "Ms Nguyen", "chị Nguyễn (tên)"],
+    "新星公司": ["Xīnxīng gōngsī", "Xinxing Company (name)", "công ty Tân Tinh (tên)"]
   }
 }
