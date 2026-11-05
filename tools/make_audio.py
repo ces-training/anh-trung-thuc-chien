@@ -15,7 +15,7 @@ MODELS = [m for m in [os.environ.get("GEMINI_TTS_MODEL", "").strip(), "gemini-3.
 
 # Giọng cho từng nhân vật (giọng có sẵn của Gemini). "_" = giọng đọc thẻ, câu mẫu.
 VOICES = {
-    "en": {"_": "Kore", "An": "Aoede", "Tom": "Puck", "Kevin": "Charon", "Linh": "Leda", "Sarah": "Despina"},
+    "en": {"_": "Kore", "An": "Aoede", "Tom": "Puck", "Kevin": "Charon", "Linh": "Leda", "Sarah": "Despina", "Hoa": "Autonoe", "Dave": "Enceladus"},
     "vi": {"_": "Kore", "Khang": "Algieba", "Vy": "Laomedeia"},
     # nhân vật khoá 16 tuần (tiếng Trung) và tên tương ứng bên tiếng Anh
     "zh_course": {"刘星": "Puck", "夏东海": "Charon", "刘梅": "Gacrux", "夏雪": "Leda", "小雨": "Fenrir", "阿兰": "Aoede", "老师": "Erinome"},

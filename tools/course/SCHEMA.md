@@ -88,3 +88,35 @@ Quality rules:
 - Answers must be unambiguous. Explanations explicit: say exactly why a wrong option is wrong.
 - Scenes are ORIGINAL short dialogues inspired by the sheet's scene description (do not copy copyrighted script text).
 - No trailing commas; run `python3 course/validate.py course/<file>.json` until it prints OK.
+
+## Tuần demo tiếng Anh (A2, B1): 14 bài như tiếng Trung
+
+Files: `course/en-a2-1.json`, `course/en-b1-1.json`. Same keys as an en week, plus `"demo": true`, `"level": "A2" | "B1"`, and the fields below.
+Order of exercises: T → Q → S → B → C → P → I → U → E → G → J → H → W → V.
+Q (listen, choose the meaning) is generated from `cards` like the Chinese version.
+
+```jsonc
+// in each card (T, Q, U):
+{ "w": "contract", "ipa": "/ˈkɒn.trækt/", "m": "hợp đồng", "ex": "...", "exm": "...", "n": "...", "img": "card",
+  "spell": ["contrat", "contract"]   // U · 2 WRONG spellings learners really make (for "nghe từ, chọn cách viết đúng")
+}
+
+// in each day:
+"confuse": [                         // W · Phân biệt từ dễ nhầm: exactly 4 pairs
+  { "a": "form", "aipa": "/fɔːm/", "am": "mẫu đơn, phiếu", "b": "from", "bipa": "/frɒm/", "bm": "từ (đâu đến)",
+    "note": "Vietnamese: why they get mixed up (spelling / sound) and how to tell them apart",
+    "qa": { "t": "Please fill in this ___.", "vi": "Vui lòng điền vào phiếu này." },   // blank answered by a
+    "qb": { "t": "I'm ___ Da Nang.", "vi": "Tôi đến từ Đà Nẵng." } }                  // blank answered by b
+],
+"write": {                           // V · Viết có hướng dẫn: 4 steps
+  "task": "Vietnamese: what to write, for whom",
+  "kind": "form" | "message" | "email",
+  "model": "the model text (English); for kind=form a list of [label, value]",
+  "frame": "the same text with ___ gaps (or form labels with empty values)",
+  "gaps": ["answer for gap 1", "..."],     // step 2: fill the frame (accept also any value marked * in "free")
+  "free": [true, false, ...],              // gap i accepts the learner's own information
+  "hints": ["useful phrase 1", "..."],     // step 3: phrase bank behind the Gợi ý button
+  "check": ["Vietnamese checklist item", "..."],  // step 4: self-check list (đủ ý, đúng mẫu câu, chính tả)
+  "words": [min, max]                      // word range for step 3 (omit for forms)
+}
+```

@@ -1,0 +1,4942 @@
+{
+ "lang": "en",
+ "week": 1,
+ "demo": true,
+ "level": "A2",
+ "track": "en-a2",
+ "title": "Ngày đầu đi làm: hồ sơ nhân sự, văn phòng, nhóm, IT, báo cáo cuối tuần",
+ "cando": "Điền hồ sơ nhân sự, hỏi chỗ trong văn phòng, giới thiệu vai trò của mình, nhờ IT hỗ trợ, kể lại tuần đầu và viết email ngắn cho quản lý",
+ "story": "An (vai của bạn) bắt đầu tuần đầu tiên ở phòng marketing của công ty Bright Star. Thứ Hai làm giấy tờ ở phòng nhân sự với chị Hoa, Thứ Ba được Tom dẫn đi một vòng văn phòng, Thứ Tư gặp cả nhóm, Thứ Năm nhờ Dave bên IT, Thứ Sáu kể lại tuần đầu với Kevin và báo cáo quản lý Sarah Lee.",
+ "cast": [
+  {
+   "key": "an",
+   "name": "An",
+   "vi": "nhân viên mới người Việt, 26 tuổi, trợ lý marketing (vai của chính bạn)",
+   "look": "a Vietnamese woman about 26, shoulder-length black bob, royal-blue top, yellow lanyard with a white staff card"
+  },
+  {
+   "key": "sarah",
+   "name": "Sarah Lee",
+   "vi": "quản lý phòng marketing, người Mỹ gốc Hàn khoảng 38 tuổi, lịch sự, chuyên nghiệp",
+   "look": "a Korean-American woman about 38, chin-length black bob, charcoal blazer over a white blouse"
+  },
+  {
+   "key": "tom",
+   "name": "Tom",
+   "vi": "đồng nghiệp người Anh khoảng 30 tuổi ở phòng marketing, thân thiện, hay pha trò",
+   "look": "a British man about 30, short ginger hair and light stubble, green crew-neck sweater"
+  },
+  {
+   "key": "kevin",
+   "name": "Kevin",
+   "vi": "đồng nghiệp người Mỹ gốc Á khoảng 32 tuổi, phòng kinh doanh (sales)",
+   "look": "an East Asian-American man about 32, short dark hair, thin rectangular glasses, navy button-up shirt"
+  },
+  {
+   "key": "linh",
+   "name": "Linh",
+   "vi": "đồng nghiệp người Việt 24 tuổi ở phòng marketing, vui vẻ",
+   "look": "a Vietnamese woman about 24, long straight black hair, mustard-yellow sweater"
+  },
+  {
+   "key": "hoa",
+   "name": "Hoa",
+   "vi": "chị Hoa, nhân viên phòng nhân sự (HR), khoảng 35 tuổi (vai phụ)",
+   "look": "a Vietnamese woman about 35, hair in a low bun, light grey blazer, holding a folder"
+  },
+  {
+   "key": "dave",
+   "name": "Dave",
+   "vi": "anh Dave, bộ phận IT, khoảng 28 tuổi, kiên nhẫn (vai phụ)",
+   "look": "a British man about 28, curly brown hair, black hoodie with a staff lanyard, headset around his neck"
+  }
+ ],
+ "days": [
+  {
+   "id": "a2-w1-thu-2",
+   "label": "Thứ 2",
+   "title": "Phòng nhân sự: nhận thẻ, điền hồ sơ, hỏi giờ làm",
+   "desc": "Nói thông tin cố định bằng thì hiện tại đơn (Work starts at 8.30), hỏi What time / How long / When và xin phép lịch sự bằng Could I…? khi làm giấy tờ ngày đầu đi làm.",
+   "rule": "Chủ ngữ số ít + động từ thêm -s: Work starts at 8.30. Câu hỏi cần does / do: What time does work start? Xin phép: Could I + động từ nguyên mẫu (không có to)?",
+   "cards": [
+    {
+     "w": "HR",
+     "ipa": "/ˌeɪtʃ ˈɑː/",
+     "m": "phòng nhân sự",
+     "ex": "Please go to HR on the second floor.",
+     "exm": "Mời bạn lên phòng nhân sự ở tầng hai.",
+     "n": "HR = Human Resources. Đọc từng chữ cái: 'ây-ch a'. Người Anh cũng nói the HR department.",
+     "img": "company",
+     "spell": [
+      "RH",
+      "HE"
+     ]
+    },
+    {
+     "w": "form",
+     "ipa": "/fɔːm/",
+     "m": "phiếu, mẫu đơn",
+     "ex": "Please fill in this form.",
+     "exm": "Vui lòng điền vào phiếu này.",
+     "n": "Đừng nhầm với from (từ đâu): chỉ đổi chỗ o và r. form đọc 'pho-m', o dài.",
+     "img": "form",
+     "spell": [
+      "foam",
+      "fourm"
+     ]
+    },
+    {
+     "w": "fill in",
+     "ipa": "/fɪl ɪn/",
+     "m": "điền (vào phiếu)",
+     "ex": "Could I fill in the form now?",
+     "exm": "Em điền phiếu bây giờ được không ạ?",
+     "n": "Nối âm: fill‿in → 'phi-lin'. fill in a form = điền phiếu (người Mỹ hay nói fill out).",
+     "img": "form",
+     "spell": [
+      "fil in",
+      "fill on"
+     ]
+    },
+    {
+     "w": "sign",
+     "ipa": "/saɪn/",
+     "m": "ký tên",
+     "ex": "Please sign here.",
+     "exm": "Vui lòng ký vào đây.",
+     "n": "Chữ g câm: đọc 'xai-n'. Danh từ 'chữ ký' là signature.",
+     "img": "contract",
+     "spell": [
+      "sing",
+      "sine"
+     ]
+    },
+    {
+     "w": "contract",
+     "ipa": "/ˈkɒn.trækt/",
+     "m": "hợp đồng",
+     "ex": "Please read the contract and sign it.",
+     "exm": "Vui lòng đọc hợp đồng rồi ký.",
+     "n": "Nhấn âm đầu: CON-tract. Có chữ r; không có r là contact (liên hệ).",
+     "img": "contract",
+     "spell": [
+      "contact",
+      "contrac"
+     ]
+    },
+    {
+     "w": "ID card",
+     "ipa": "/ˌaɪˈdiː kɑːd/",
+     "m": "thẻ nhân viên, thẻ căn cước",
+     "ex": "This is your ID card. Wear it every day.",
+     "exm": "Đây là thẻ nhân viên của em. Ngày nào cũng đeo nhé.",
+     "n": "ID đọc từng chữ cái 'ai-đi'. Thẻ ra vào công ty cũng gọi là staff card.",
+     "img": "card",
+     "spell": [
+      "ID cart",
+      "ID car"
+     ]
+    },
+    {
+     "w": "start date",
+     "ipa": "/ˈstɑːt deɪt/",
+     "m": "ngày bắt đầu làm việc",
+     "ex": "My start date is Monday, 3 March.",
+     "exm": "Ngày bắt đầu làm của tôi là thứ Hai, mùng 3 tháng 3.",
+     "n": "Đọc ngày: Monday, the third of March. Không nói 'start day'.",
+     "img": "new",
+     "spell": [
+      "start day",
+      "stard date"
+     ]
+    },
+    {
+     "w": "working hours",
+     "ipa": "/ˈwɜː.kɪŋ ˌaʊəz/",
+     "m": "giờ làm việc",
+     "ex": "Our working hours are 8.30 to 5.30.",
+     "exm": "Giờ làm của chúng tôi là từ 8:30 đến 5:30.",
+     "n": "hours đọc 'ao-ơz', chữ h câm. Viết giờ kiểu Anh: 8.30 (dấu chấm) hoặc 8:30.",
+     "img": "work",
+     "spell": [
+      "walking hours",
+      "working ours"
+     ]
+    },
+    {
+     "w": "lunch break",
+     "ipa": "/ˈlʌntʃ breɪk/",
+     "m": "giờ nghỉ trưa",
+     "ex": "The lunch break is from twelve to one.",
+     "exm": "Giờ nghỉ trưa từ 12 giờ đến 1 giờ.",
+     "n": "break = giờ nghỉ (coffee break: giờ nghỉ uống cà phê). Đừng viết brake (phanh xe).",
+     "img": "kitchen",
+     "spell": [
+      "lunch brake",
+      "launch break"
+     ]
+    },
+    {
+     "w": "full-time",
+     "ipa": "/ˌfʊlˈtaɪm/",
+     "m": "toàn thời gian",
+     "ex": "This is a full-time job.",
+     "exm": "Đây là công việc toàn thời gian.",
+     "n": "Trái nghĩa: part-time (bán thời gian). Đứng trước danh từ thì có gạch nối: a full-time job.",
+     "img": "work",
+     "spell": [
+      "fool-time",
+      "full-taim"
+     ]
+    },
+    {
+     "w": "probation",
+     "ipa": "/prəˈbeɪ.ʃən/",
+     "m": "thời gian thử việc",
+     "ex": "Your probation is two months.",
+     "exm": "Thời gian thử việc của em là hai tháng.",
+     "n": "Nhấn âm hai: pro-BA-tion. -tion đọc 'shần'.",
+     "img": "contract",
+     "spell": [
+      "probasion",
+      "probaton"
+     ]
+    },
+    {
+     "w": "payslip",
+     "ipa": "/ˈpeɪ.slɪp/",
+     "m": "phiếu lương",
+     "ex": "You get your payslip at the end of the month.",
+     "exm": "Cuối tháng em sẽ nhận phiếu lương.",
+     "n": "pay = trả lương, slip = mẩu giấy. Người Mỹ nói pay stub.",
+     "img": "contract",
+     "spell": [
+      "pay sleep",
+      "payslipe"
+     ]
+    }
+   ],
+   "scene": {
+    "setting": "8 giờ 30 sáng thứ Hai, ngày đầu đi làm của An ở công ty Bright Star. Chị Hoa bên phòng nhân sự đón An, đưa phiếu thông tin, hợp đồng và thẻ nhân viên.",
+    "img": "scene-en-hr",
+    "imgPrompt": "A bright HR office: hoa, in a light grey blazer, hands a blank form and a pen across the desk to an, who smiles and sits with a yellow lanyard; a folder and a blank ID card on the desk, no readable text.",
+    "lines": [
+     {
+      "who": "Hoa",
+      "t": "Good morning! You must be An. Welcome to Bright Star!",
+      "vi": "Chào buổi sáng! Em là An phải không? Chào mừng em đến Bright Star!"
+     },
+     {
+      "who": "An",
+      "t": "Good morning. Yes, today is my start date.",
+      "vi": "Chào chị ạ. Vâng, hôm nay là ngày đầu em đi làm."
+     },
+     {
+      "who": "Hoa",
+      "t": "Great. Please fill in this form and sign the contract here.",
+      "vi": "Tốt quá. Em điền phiếu này rồi ký hợp đồng ở đây nhé."
+     },
+     {
+      "who": "An",
+      "t": "Sure. Could I ask about the working hours?",
+      "vi": "Vâng ạ. Em hỏi về giờ làm được không ạ?"
+     },
+     {
+      "who": "Hoa",
+      "t": "Of course. Work starts at 8.30 and finishes at 5.30.",
+      "vi": "Được chứ. Giờ làm bắt đầu lúc 8:30 và kết thúc lúc 5:30."
+     },
+     {
+      "who": "An",
+      "t": "And how long is the lunch break?",
+      "vi": "Thế nghỉ trưa bao lâu ạ?"
+     },
+     {
+      "who": "Hoa",
+      "t": "One hour, from twelve to one. And here's your ID card.",
+      "vi": "Một tiếng, từ 12 đến 1 giờ. Còn đây là thẻ nhân viên của em."
+     },
+     {
+      "who": "Hoa",
+      "t": "Your probation is two months. You get your payslip at the end of every month.",
+      "vi": "Em thử việc hai tháng. Cuối mỗi tháng em nhận phiếu lương."
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Thông tin cố định: chủ ngữ + động từ (-s) + giờ",
+     "f": [
+      [
+       "Work",
+       "starts",
+       "at 8.30."
+      ],
+      [
+       "The lunch break",
+       "is",
+       "from 12 to 1."
+      ]
+     ],
+     "ex": [
+      [
+       "Work starts at 8.30 and finishes at 5.30.",
+       "Giờ làm bắt đầu lúc 8:30 và kết thúc lúc 5:30."
+      ],
+      [
+       "The lunch break is one hour.",
+       "Nghỉ trưa một tiếng."
+      ]
+     ],
+     "bad": "Work start at 8.30.",
+     "good": "Work starts at 8.30.",
+     "why": "Chủ ngữ số ít (work, the meeting, she) thì động từ thêm -s: starts, finishes. Người Việt hay quên -s vì tiếng Việt không chia động từ."
+    },
+    {
+     "t": "Hỏi giờ và thời lượng: What time / How long / When + does / is …?",
+     "f": [
+      [
+       "What time",
+       "does work",
+       "start?"
+      ],
+      [
+       "How long",
+       "is",
+       "the lunch break?"
+      ],
+      [
+       "When",
+       "do I get",
+       "my payslip?"
+      ]
+     ],
+     "ex": [
+      [
+       "What time does work start? – At 8.30.",
+       "Mấy giờ bắt đầu làm? – Lúc 8:30."
+      ],
+      [
+       "How long is the probation? – Two months.",
+       "Thử việc bao lâu? – Hai tháng."
+      ]
+     ],
+     "bad": "What time work starts?",
+     "good": "What time does work start?",
+     "why": "Câu hỏi với động từ thường cần does / do đứng trước chủ ngữ, và động từ quay về nguyên mẫu (start, không còn -s)."
+    },
+    {
+     "t": "Xin phép lịch sự: Could I + động từ nguyên mẫu?",
+     "f": [
+      [
+       "Could I",
+       "ask",
+       "a question?"
+      ],
+      [
+       "Could I",
+       "sign",
+       "it tomorrow?"
+      ]
+     ],
+     "ex": [
+      [
+       "Could I ask about the working hours?",
+       "Em hỏi về giờ làm được không ạ?"
+      ],
+      [
+       "Could I take the contract home?",
+       "Em mang hợp đồng về nhà được không ạ?"
+      ]
+     ],
+     "bad": "Could I to ask a question?",
+     "good": "Could I ask a question?",
+     "why": "Sau could là động từ nguyên mẫu KHÔNG có to. Could I…? lịch sự hơn Can I…?, rất hợp khi nói với phòng nhân sự hay quản lý."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "'probation' nghĩa là gì?",
+     "opts": [
+      "thời gian thử việc",
+      "hợp đồng chính thức",
+      "phiếu lương"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: hợp đồng là contract.",
+      "2": "Sai: phiếu lương là payslip."
+     }
+    },
+    {
+     "q": "Điền từ: Please ___ this form in black pen.",
+     "opts": [
+      "fill in",
+      "pay",
+      "start"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: pay = trả tiền; không 'trả' một tờ phiếu.",
+      "2": "Sai: start = bắt đầu; với phiếu ta dùng fill in (điền)."
+     }
+    },
+    {
+     "q": "Điền từ: Please ___ here, at the bottom of the contract.",
+     "opts": [
+      "sign",
+      "sing",
+      "fill"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sing = hát. sign (ký) có g câm, viết gần giống nên dễ nhầm.",
+      "2": "Sai: fill phải đi với in (fill in) và dùng cho phiếu, không phải chỗ ký tên."
+     }
+    },
+    {
+     "q": "'payslip' là gì?",
+     "opts": [
+      "phiếu lương hằng tháng",
+      "giấy xin nghỉ phép",
+      "thẻ nhân viên"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: giấy xin nghỉ phép là leave form.",
+      "2": "Sai: thẻ nhân viên là ID card."
+     }
+    },
+    {
+     "q": "Điền từ: I work 40 hours a week. It's a ___ job.",
+     "opts": [
+      "full-time",
+      "part-time",
+      "probation"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: part-time là bán thời gian, ít giờ hơn; 40 giờ một tuần là toàn thời gian.",
+      "2": "Sai: probation là thời gian thử việc, không mô tả loại công việc như thế này."
+     }
+    },
+    {
+     "q": "Điền từ: Your ___ is Monday, 3 March. Please come at 8.30.",
+     "opts": [
+      "start date",
+      "payslip",
+      "working hours"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: payslip là phiếu lương, không phải một ngày.",
+      "2": "Sai: working hours là khoảng giờ làm (8.30 to 5.30), không phải một ngày."
+     }
+    },
+    {
+     "q": "Cụm nào chỉ khoảng thời gian nghỉ để ăn trưa?",
+     "opts": [
+      "lunch break",
+      "working hours",
+      "start date"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: working hours là giờ làm việc.",
+      "2": "Sai: start date là ngày bắt đầu làm việc."
+     }
+    },
+    {
+     "q": "Điền từ: Wear your ___ every day. You need it to open the door.",
+     "opts": [
+      "ID card",
+      "contract",
+      "form"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: hợp đồng không dùng để mở cửa và không đeo hằng ngày.",
+      "2": "Sai: phiếu dùng để điền thông tin, không đeo."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "Work starts at 8.30.",
+      "Work start at 8.30.",
+      "Work is start at 8.30."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: chủ ngữ số ít (work) nên động từ phải thêm -s: starts.",
+      "2": "Sai: không dùng is cùng động từ start ở thì hiện tại đơn."
+     }
+    },
+    {
+     "q": "Câu hỏi nào đúng?",
+     "opts": [
+      "What time does work start?",
+      "What time work starts?",
+      "What time does work starts?"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: thiếu does. Câu hỏi với động từ thường cần does / do trước chủ ngữ.",
+      "2": "Sai: đã có does thì động từ quay về nguyên mẫu start, không thêm -s."
+     }
+    },
+    {
+     "q": "Hỏi giờ nghỉ trưa kéo dài bao lâu:",
+     "opts": [
+      "How long is the lunch break?",
+      "How much is the lunch break?",
+      "What long is the lunch break?"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: How much hỏi giá tiền hoặc số lượng không đếm được.",
+      "2": "Sai: không có cách hỏi What long; hỏi thời lượng là How long."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền một từ: ___ do I get my payslip? – At the end of the month.",
+     "model": "When",
+     "accept": [
+      "When",
+      "when"
+     ],
+     "why": "Câu trả lời là một thời điểm (at the end of the month) nên hỏi bằng When."
+    },
+    {
+     "q": "Xin phép hỏi một câu, cách nào đúng?",
+     "opts": [
+      "Could I ask a question?",
+      "Could I asking a question?",
+      "Could I to ask a question?"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau could dùng động từ nguyên mẫu (ask), không dùng -ing.",
+      "2": "Sai: sau could không có to."
+     }
+    },
+    {
+     "q": "Điền từ: The team meeting ___ at ten every Monday.",
+     "opts": [
+      "is",
+      "are",
+      "be"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: the team meeting là số ít, dùng is.",
+      "2": "Sai: be là nguyên mẫu; trong câu cần chia is."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu hỏi: does / finish / What time / work / ?",
+     "model": "What time does work finish?",
+     "accept": [
+      "What time does work finish?",
+      "What time does work finish",
+      "what time does work finish?"
+     ],
+     "why": "Từ để hỏi + does + chủ ngữ + động từ nguyên mẫu: What time + does + work + finish?"
+    }
+   ],
+   "listen": [
+    {
+     "q": "Mấy giờ bắt đầu làm?",
+     "audio": "Work starts at half past eight.",
+     "opts": [
+      "8:30",
+      "8:00",
+      "9:30"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: 8:00 là eight o'clock; bạn nghe half past eight = 8 giờ rưỡi.",
+      "2": "Sai: half past NINE mới là 9:30; câu nói eight."
+     }
+    },
+    {
+     "q": "Giờ nghỉ trưa bao lâu?",
+     "audio": "How long is the lunch break? – One hour.",
+     "opts": [
+      "1 tiếng",
+      "30 phút",
+      "2 tiếng"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: 30 phút là half an hour; câu trả lời là one hour.",
+      "2": "Sai: 2 tiếng là two hours."
+     }
+    },
+    {
+     "q": "Thời gian thử việc bao lâu?",
+     "audio": "Your probation is two months.",
+     "opts": [
+      "2 tháng",
+      "2 tuần",
+      "1 tháng"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: 2 tuần là two weeks; câu nói months (tháng).",
+      "2": "Sai: câu nói two, không phải one."
+     }
+    },
+    {
+     "q": "Chị Hoa bảo An làm gì?",
+     "audio": "Please fill in the form and sign it here.",
+     "opts": [
+      "điền phiếu và ký",
+      "đọc email",
+      "đeo thẻ nhân viên"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không nhắc đến email.",
+      "2": "Sai: câu không nhắc đến ID card."
+     }
+    },
+    {
+     "q": "Ngày bắt đầu làm là ngày nào?",
+     "audio": "Your start date is Monday, the third of March.",
+     "opts": [
+      "thứ Hai, 3/3",
+      "thứ Hai, 13/3",
+      "thứ Ba, 3/3"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: 13 là the thirteenth; câu nói the third (mùng 3).",
+      "2": "Sai: câu nói Monday (thứ Hai), không phải Tuesday."
+     }
+    },
+    {
+     "q": "Khi nào An nhận phiếu lương?",
+     "audio": "You get your payslip at the end of every month.",
+     "opts": [
+      "cuối mỗi tháng",
+      "đầu mỗi tháng",
+      "mỗi tuần"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: đầu tháng là at the beginning of the month; câu nói at the end.",
+      "2": "Sai: câu nói every month, không phải every week."
+     }
+    },
+    {
+     "q": "An muốn làm gì?",
+     "audio": "Could I take the contract home and sign it tomorrow?",
+     "opts": [
+      "mang hợp đồng về, mai ký",
+      "ký ngay hôm nay",
+      "đổi hợp đồng khác"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: An xin ký vào tomorrow (ngày mai), không phải hôm nay.",
+      "2": "Sai: An không xin đổi hợp đồng."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "TOEIC Part 1 – Nhìn tranh cảnh hôm nay (phòng nhân sự), nghe ba câu A, B, C, chọn câu tả đúng tranh.",
+     "audio": "A. A woman is giving a form to a new employee. B. A man is drinking coffee in the kitchen. C. Two people are leaving the building.",
+     "opts": [
+      "A",
+      "B",
+      "C"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: trong tranh không có người đàn ông và không phải nhà bếp.",
+      "2": "Sai: hai người đang ngồi ở bàn, không rời khỏi toà nhà."
+     }
+    },
+    {
+     "q": "TOEIC Part 2 – Nghe câu hỏi, chọn câu đáp phù hợp nhất.",
+     "audio": "When is your start date?",
+     "opts": [
+      "Next Monday.",
+      "At the HR office.",
+      "Yes, I am."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu hỏi When (khi nào), không hỏi ở đâu.",
+      "2": "Sai: câu hỏi Wh- không trả lời bằng Yes / No."
+     }
+    },
+    {
+     "q": "TOEIC Part 2 – Nghe câu hỏi, chọn câu đáp phù hợp nhất.",
+     "audio": "How long is the probation period?",
+     "opts": [
+      "Two months.",
+      "It's on the second floor.",
+      "I'll sign it now."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu này nói vị trí, nhưng câu hỏi How long hỏi thời lượng.",
+      "2": "Sai: câu này nói về việc ký, không trả lời 'bao lâu'."
+     }
+    },
+    {
+     "q": "TOEIC Part 5 – Chọn từ đúng: New staff ___ their ID cards at reception.",
+     "opts": [
+      "collect",
+      "collects",
+      "collecting",
+      "to collect"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: staff (nhân viên) ở đây là số nhiều, nên không thêm -s.",
+      "2": "Sai: câu cần một động từ chính; collecting đứng một mình không làm động từ chính.",
+      "3": "Sai: to collect không làm động từ chính sau chủ ngữ."
+     }
+    },
+    {
+     "q": "TOEIC Part 5 – Chọn từ đúng: Please ___ the form before you sign the contract.",
+     "opts": [
+      "fill in",
+      "fills in",
+      "filled in",
+      "filling in"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau Please dùng động từ nguyên mẫu, không thêm -s.",
+      "2": "Sai: câu mệnh lệnh không dùng quá khứ.",
+      "3": "Sai: sau Please không dùng -ing."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "fill in",
+     "focus": "Nối âm fill‿in → 'phi-lin'. f là âm môi–răng, không đọc thành 'ph' bật hơi."
+    },
+    {
+     "t": "sign",
+     "focus": "g câm: 'xai-n'. Kết thúc bằng /n/, chạm lưỡi lên lợi trên."
+    },
+    {
+     "t": "contract",
+     "focus": "Nhấn âm đầu: CON-tract. Cụm cuối -ct: đọc nhẹ /k/ rồi bật /t/."
+    },
+    {
+     "t": "probation",
+     "focus": "Nhấn âm hai: pro-BA-tion; âm đầu pro đọc nhẹ /prə/."
+    },
+    {
+     "t": "Could I fill in the form?",
+     "focus": "Nối Could‿I → 'cu-đai'; fill‿in nối liền. Câu hỏi Yes/No nên lên giọng ở cuối."
+    },
+    {
+     "t": "Work starts at half past eight.",
+     "focus": "starts‿at nối liền; giữ âm -ts cuối starts. half: chữ l câm, đọc 'ha-f'."
+    },
+    {
+     "t": "How long is the lunch break?",
+     "focus": "Câu hỏi Wh- nên xuống giọng ở cuối. lunch đọc 'lăn-ch', không thành 'lâu-ch'."
+    },
+    {
+     "t": "Here's your ID card.",
+     "focus": "Here's đọc 'hia-z'; nhấn vào ID card. ID đọc 'ai-đi'."
+    }
+   ],
+   "dialog": {
+    "title": "Ở phòng nhân sự: chị Hoa hỏi thông tin, bạn (An) trả lời và hỏi lại về giờ làm. Đổi vai: bạn là nhân sự hỏi thông tin nhân viên mới.",
+    "partner": "Hoa",
+    "turns": [
+     {
+      "ai": "Good morning! What's your full name, please?",
+      "vi": "Chào em! Cho chị xin họ tên đầy đủ nhé?",
+      "model": "My name is Nguyen Thi An.",
+      "accept": [
+       "My name is Nguyen Thi An.",
+       "My name is Nguyen An.",
+       "I'm Nguyen Thi An.",
+       "It's Nguyen Thi An.",
+       "Nguyen Thi An."
+      ],
+      "frame": "My ___ is Nguyen Thi An.",
+      "hint": "Nói họ tên đầy đủ: My name is + họ tên."
+     },
+     {
+      "ai": "Thank you. And what's your phone number?",
+      "vi": "Cảm ơn em. Còn số điện thoại của em?",
+      "model": "It's 0912 345 678.",
+      "accept": [
+       "It's 0912 345 678.",
+       "My phone number is 0912 345 678.",
+       "0912 345 678.",
+       "It's oh nine one two, three four five, six seven eight."
+      ],
+      "frame": "It's ___.",
+      "hint": "Đọc từng số: oh nine one two, three four five, six seven eight."
+     },
+     {
+      "ai": "Great. Do you have any questions?",
+      "vi": "Tốt rồi. Em có câu hỏi gì không?",
+      "model": "Yes. What time does work start?",
+      "accept": [
+       "Yes. What time does work start?",
+       "What time does work start?",
+       "Yes, what time does work start?",
+       "What time do we start?"
+      ],
+      "frame": "Yes. What time ___ work start?",
+      "hint": "Hỏi mấy giờ bắt đầu làm: What time + does + work + start?"
+     },
+     {
+      "ai": "It starts at 8.30 and finishes at 5.30.",
+      "vi": "Bắt đầu lúc 8:30 và kết thúc lúc 5:30.",
+      "model": "How long is the lunch break?",
+      "accept": [
+       "How long is the lunch break?",
+       "And how long is the lunch break?",
+       "How long is lunch?"
+      ],
+      "frame": "How ___ is the lunch break?",
+      "hint": "Hỏi nghỉ trưa bao lâu: How long is…?"
+     },
+     {
+      "ai": "One hour. Now please sign the contract here.",
+      "vi": "Một tiếng. Giờ em ký hợp đồng ở đây nhé.",
+      "model": "Sure. Could I read it first?",
+      "accept": [
+       "Sure. Could I read it first?",
+       "Could I read it first?",
+       "OK. Could I read it first?",
+       "Sure, could I read it first?"
+      ],
+      "frame": "Sure. Could I ___ it first?",
+      "hint": "Xin phép đọc trước khi ký: Could I + read it first?"
+     }
+    ]
+   },
+   "reading": {
+    "title": "Email chào mừng của phòng nhân sự",
+    "text": "Subject: Welcome to Bright Star!\n\nDear An,\n\nWelcome to the team! Your start date is Monday, 3 March. Please come to HR on the second floor at 8.30. On Monday, you will fill in some forms and sign your contract. On Tuesday, Tom will show you the office. Please bring your passport and two photos. The lunch break is from 12 to 1, and the staff kitchen is on the third floor.\n\nBest wishes,\nHoa (HR)",
+    "vi": "Tiêu đề: Chào mừng em đến Bright Star!\n\nAn thân mến,\n\nChào mừng em gia nhập! Ngày bắt đầu làm của em là thứ Hai, mùng 3 tháng 3. Em lên phòng nhân sự ở tầng hai lúc 8:30 nhé. Thứ Hai em sẽ điền một số phiếu và ký hợp đồng. Thứ Ba Tom sẽ dẫn em đi xem văn phòng. Em nhớ mang hộ chiếu và hai ảnh. Nghỉ trưa từ 12 đến 1 giờ, bếp chung cho nhân viên ở tầng ba.\n\nThân,\nHoa (phòng nhân sự)",
+    "qs": [
+     {
+      "q": "8:30 sáng thứ Hai An phải đến đâu?",
+      "opts": [
+       "phòng nhân sự ở tầng hai",
+       "bếp ở tầng ba",
+       "phòng họp ở tầng một"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: bếp ở tầng ba là chỗ ăn trưa, không phải chỗ đến lúc 8:30.",
+       "2": "Sai: email không nhắc đến phòng họp."
+      }
+     },
+     {
+      "q": "An cần mang theo gì?",
+      "opts": [
+       "hộ chiếu và hai ảnh",
+       "hợp đồng đã ký",
+       "máy tính xách tay"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: An sẽ ký hợp đồng ở công ty vào thứ Hai, không mang theo.",
+       "2": "Sai: email không nhắc đến laptop."
+      }
+     },
+     {
+      "q": "Ai sẽ dẫn An đi xem văn phòng vào thứ Ba?",
+      "opts": [
+       "Tom",
+       "Hoa",
+       "Sarah"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: Hoa là người viết email; email nói Tom will show you the office.",
+       "2": "Sai: email không nhắc đến Sarah."
+      }
+     },
+     {
+      "q": "Đúng hay sai: \"The staff kitchen is on the second floor.\"",
+      "opts": [
+       "Sai",
+       "Đúng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Không đúng: tầng hai là phòng nhân sự; bếp ở the third floor (tầng ba)."
+      }
+     },
+     {
+      "q": "Thứ Hai An sẽ làm gì?",
+      "opts": [
+       "điền phiếu và ký hợp đồng",
+       "gặp cả nhóm",
+       "nhận laptop"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: email không nói gặp nhóm vào thứ Hai.",
+       "2": "Sai: email không nhắc đến laptop."
+      }
+     }
+    ]
+   },
+   "confuse": [
+    {
+     "a": "form",
+     "aipa": "/fɔːm/",
+     "am": "phiếu, mẫu đơn",
+     "b": "from",
+     "bipa": "/frɒm/",
+     "bm": "từ (đâu đến)",
+     "note": "Cùng bốn chữ cái, chỉ đổi chỗ o và r. form đọc 'pho-m' (o dài); from đọc 'phrơm'.",
+     "qa": {
+      "t": "Please fill in this ___.",
+      "vi": "Vui lòng điền vào phiếu này."
+     },
+     "qb": {
+      "t": "I'm ___ Da Nang.",
+      "vi": "Tôi đến từ Đà Nẵng."
+     }
+    },
+    {
+     "a": "sign",
+     "aipa": "/saɪn/",
+     "am": "ký tên",
+     "b": "sing",
+     "bipa": "/sɪŋ/",
+     "bm": "hát",
+     "note": "sign có g câm, đọc 'xai-n'; sing đọc 'xinh', kết thúc bằng âm -ng.",
+     "qa": {
+      "t": "Please ___ your name here.",
+      "vi": "Vui lòng ký tên vào đây."
+     },
+     "qb": {
+      "t": "We ___ karaoke after work on Fridays.",
+      "vi": "Thứ Sáu tan làm bọn mình đi hát karaoke."
+     }
+    },
+    {
+     "a": "contract",
+     "aipa": "/ˈkɒn.trækt/",
+     "am": "hợp đồng",
+     "b": "contact",
+     "bipa": "/ˈkɒn.tækt/",
+     "bm": "liên hệ",
+     "note": "contract có thêm r: con-TR-act. contact = liên lạc; contact details = thông tin liên hệ.",
+     "qa": {
+      "t": "Please read the ___ and sign it.",
+      "vi": "Vui lòng đọc hợp đồng rồi ký."
+     },
+     "qb": {
+      "t": "Please write your ___ details: phone and email.",
+      "vi": "Vui lòng ghi thông tin liên hệ: điện thoại và email."
+     }
+    },
+    {
+     "a": "personal",
+     "aipa": "/ˈpɜː.sən.əl/",
+     "am": "cá nhân",
+     "b": "personnel",
+     "bipa": "/ˌpɜː.səˈnel/",
+     "bm": "nhân sự (toàn bộ nhân viên)",
+     "note": "personal nhấn âm đầu (PER-), nghĩa 'cá nhân'; personnel có hai chữ n, nhấn âm cuối (-NEL), nghĩa 'nhân sự'.",
+     "qa": {
+      "t": "Write your ___ information: name, date of birth, address.",
+      "vi": "Ghi thông tin cá nhân: tên, ngày sinh, địa chỉ."
+     },
+     "qb": {
+      "t": "The ___ department is now called HR.",
+      "vi": "Phòng nhân sự giờ gọi là HR."
+     }
+    }
+   ],
+   "write": {
+    "task": "Điền phiếu thông tin nhân viên mới (6 ô) cho phòng nhân sự.",
+    "kind": "form",
+    "source": "Thông tin của An: tên Nguyễn Thị An, sinh ngày 12 tháng 5 năm 2000, số điện thoại 0912 345 678, email an.nguyen@mail.com, chức danh trợ lý marketing, bắt đầu làm ngày 3 tháng 3 năm 2026.",
+    "model": [
+     [
+      "Full name",
+      "Nguyen Thi An"
+     ],
+     [
+      "Date of birth",
+      "12 May 2000"
+     ],
+     [
+      "Phone number",
+      "0912 345 678"
+     ],
+     [
+      "Email",
+      "an.nguyen@mail.com"
+     ],
+     [
+      "Job title",
+      "Marketing Assistant"
+     ],
+     [
+      "Start date",
+      "3 March 2026"
+     ]
+    ],
+    "frame": [
+     [
+      "Full name",
+      ""
+     ],
+     [
+      "Date of birth",
+      ""
+     ],
+     [
+      "Phone number",
+      ""
+     ],
+     [
+      "Email",
+      ""
+     ],
+     [
+      "Job title",
+      ""
+     ],
+     [
+      "Start date",
+      ""
+     ]
+    ],
+    "gaps": [
+     "Nguyen Thi An",
+     "12 May 2000",
+     "0912 345 678",
+     "an.nguyen@mail.com",
+     "Marketing Assistant",
+     "3 March 2026"
+    ],
+    "free": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "hints": [
+     "Date of birth: ngày + tên tháng + năm, ví dụ 12 May 2000",
+     "Job title: chức danh, viết hoa chữ cái đầu (Marketing Assistant)",
+     "Start date: ngày bắt đầu làm, ví dụ 3 March 2026"
+    ],
+    "check": [
+     "Đủ 6 ô",
+     "Ngày tháng viết theo kiểu 12 May 2000",
+     "Viết hoa họ tên, tên tháng và chức danh",
+     "Email viết liền, không có dấu cách"
+    ]
+   }
+  },
+  {
+   "id": "a2-w1-thu-3",
+   "label": "Thứ 3",
+   "title": "Đi một vòng văn phòng: bếp, phòng họp, máy in",
+   "desc": "Nói ở đâu có gì (There is / There are), chỉ vị trí bằng next to, opposite, at the end of, và hỏi chỗ bằng Where can I find…? / Is there…? khi Tom dẫn An đi xem văn phòng.",
+   "rule": "There is + số ít, There are + số nhiều (không dùng Have để nói 'có'). next TO, opposite (không thêm to / of), at the end OF. Hỏi: Where can I find…? Is there…?",
+   "cards": [
+    {
+     "w": "floor",
+     "ipa": "/flɔː/",
+     "m": "tầng (nhà)",
+     "ex": "The kitchen is on the third floor.",
+     "exm": "Bếp ở tầng ba.",
+     "n": "Kiểu Anh: tầng trệt là the ground floor, tầng ngay trên là the first floor. Đọc 'phlo', o dài; flour (bột mì) đọc khác.",
+     "img": "company",
+     "spell": [
+      "flor",
+      "flour"
+     ]
+    },
+    {
+     "w": "lift",
+     "ipa": "/lɪft/",
+     "m": "thang máy",
+     "ex": "Take the lift to the third floor.",
+     "exm": "Đi thang máy lên tầng ba.",
+     "n": "Người Mỹ nói elevator. Đừng nhầm với left (bên trái): lift có i.",
+     "img": "lift",
+     "spell": [
+      "left",
+      "lifft"
+     ]
+    },
+    {
+     "w": "meeting room",
+     "ipa": "/ˈmiː.tɪŋ ruːm/",
+     "m": "phòng họp",
+     "ex": "The meeting room is at the end of the corridor.",
+     "exm": "Phòng họp ở cuối hành lang.",
+     "n": "Nhấn vào MEET-ing. Đặt phòng họp: book a meeting room.",
+     "img": "meetingroom",
+     "spell": [
+      "meting room",
+      "meeting rum"
+     ]
+    },
+    {
+     "w": "kitchen",
+     "ipa": "/ˈkɪtʃ.ɪn/",
+     "m": "bếp (khu pha trà, ăn nhẹ)",
+     "ex": "There is a kitchen upstairs.",
+     "exm": "Ở tầng trên có bếp.",
+     "n": "t câm: đọc 'kít-chin'. Đừng nhầm với chicken (thịt gà).",
+     "img": "kitchen",
+     "spell": [
+      "kitchin",
+      "chicken"
+     ]
+    },
+    {
+     "w": "printer",
+     "ipa": "/ˈprɪn.tər/",
+     "m": "máy in",
+     "ex": "Where can I find the printer?",
+     "exm": "Máy in ở đâu ạ?",
+     "n": "print = in; printer = máy in (thêm -er chỉ máy móc, người làm việc đó).",
+     "img": "printer",
+     "spell": [
+      "printor",
+      "prineter"
+     ]
+    },
+    {
+     "w": "reception",
+     "ipa": "/rɪˈsep.ʃən/",
+     "m": "quầy lễ tân",
+     "ex": "Please wait at reception.",
+     "exm": "Vui lòng đợi ở quầy lễ tân.",
+     "n": "Nhấn âm hai: re-CEP-tion. Thường nói at reception, không cần the.",
+     "img": "reception",
+     "spell": [
+      "recepsion",
+      "resception"
+     ]
+    },
+    {
+     "w": "desk",
+     "ipa": "/desk/",
+     "m": "bàn làm việc",
+     "ex": "This is your desk.",
+     "exm": "Đây là bàn làm việc của em.",
+     "n": "Chữ e đọc 'e': 'đét-xk'. Đừng nhầm với disk (đĩa).",
+     "img": "work",
+     "spell": [
+      "disk",
+      "desc"
+     ]
+    },
+    {
+     "w": "locker",
+     "ipa": "/ˈlɒk.ər/",
+     "m": "tủ đồ cá nhân (có khoá)",
+     "ex": "You can keep your bag in a locker.",
+     "exm": "Em có thể để túi trong tủ đồ.",
+     "n": "lock = khoá; locker = tủ có khoá.",
+     "img": "locker",
+     "spell": [
+      "looker",
+      "lokker"
+     ]
+    },
+    {
+     "w": "next to",
+     "ipa": "/ˈneks tə/",
+     "m": "bên cạnh",
+     "ex": "The printer is next to the meeting room.",
+     "exm": "Máy in ở cạnh phòng họp.",
+     "n": "Luôn có to: next to + nơi chốn. Âm t cuối next gần như nuốt: 'nếch-tơ'.",
+     "spell": [
+      "nex to",
+      "next too"
+     ]
+    },
+    {
+     "w": "opposite",
+     "ipa": "/ˈɒp.ə.zɪt/",
+     "m": "đối diện",
+     "ex": "The lockers are opposite reception.",
+     "exm": "Tủ đồ ở đối diện quầy lễ tân.",
+     "n": "KHÔNG thêm to hay of: opposite reception. Nhấn âm đầu OP-po-site, đọc cuối là 'zit'.",
+     "spell": [
+      "oposite",
+      "opposit"
+     ]
+    },
+    {
+     "w": "at the end of",
+     "ipa": "/ət ði ˈend əv/",
+     "m": "ở cuối (hành lang, dãy…)",
+     "ex": "The toilets are at the end of the corridor.",
+     "exm": "Nhà vệ sinh ở cuối hành lang.",
+     "n": "Nối âm: end‿of → 'en-đơv'. Cũng dùng cho thời gian: at the end of the month.",
+     "spell": [
+      "at the and of",
+      "at the end off"
+     ]
+    },
+    {
+     "w": "upstairs",
+     "ipa": "/ʌpˈsteəz/",
+     "m": "ở tầng trên, lên tầng trên",
+     "ex": "The kitchen is upstairs.",
+     "exm": "Bếp ở tầng trên.",
+     "n": "Không cần giới từ trước upstairs: go upstairs (không nói go to upstairs). Ngược lại: downstairs.",
+     "spell": [
+      "upstair",
+      "up stares"
+     ]
+    }
+   ],
+   "scene": {
+    "setting": "9 giờ sáng thứ Ba. Tom, đồng nghiệp phòng marketing, dẫn An đi một vòng tầng hai: phòng họp, máy in, tủ đồ, rồi dừng ở bàn làm việc mới của An.",
+    "img": "scene-en-tour",
+    "imgPrompt": "A modern open-plan office corridor: tom, in a green sweater, points down the corridor while an, with a yellow lanyard and a notebook, listens and smiles; a glass meeting room and a printer in the background, no readable text.",
+    "lines": [
+     {
+      "who": "Tom",
+      "t": "Hi An! I'm Tom. Let me show you the office.",
+      "vi": "Chào An! Anh là Tom. Để anh dẫn em đi xem văn phòng nhé."
+     },
+     {
+      "who": "An",
+      "t": "Thanks, Tom. Is there a kitchen on this floor?",
+      "vi": "Cảm ơn anh Tom. Tầng này có bếp không anh?"
+     },
+     {
+      "who": "Tom",
+      "t": "No, the kitchen is upstairs, on the third floor. You can take the lift.",
+      "vi": "Không, bếp ở tầng trên, tầng ba. Em đi thang máy nhé."
+     },
+     {
+      "who": "An",
+      "t": "And where can I find the printer?",
+      "vi": "Thế máy in ở đâu ạ?"
+     },
+     {
+      "who": "Tom",
+      "t": "It's at the end of the corridor, next to the meeting room.",
+      "vi": "Ở cuối hành lang, cạnh phòng họp."
+     },
+     {
+      "who": "An",
+      "t": "Are there any lockers for staff?",
+      "vi": "Có tủ đồ cho nhân viên không anh?"
+     },
+     {
+      "who": "Tom",
+      "t": "Yes, there are. They're downstairs, opposite reception.",
+      "vi": "Có chứ. Ở tầng dưới, đối diện quầy lễ tân."
+     },
+     {
+      "who": "Tom",
+      "t": "And this is your desk, next to Linh. Welcome to the team!",
+      "vi": "Còn đây là bàn của em, cạnh Linh. Chào mừng em vào nhóm!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Ở đâu có gì: There is + số ít / There are + số nhiều",
+     "f": [
+      [
+       "There is",
+       "a kitchen",
+       "upstairs."
+      ],
+      [
+       "There are",
+       "two printers",
+       "on this floor."
+      ]
+     ],
+     "ex": [
+      [
+       "There is a printer next to the meeting room.",
+       "Có một máy in cạnh phòng họp."
+      ],
+      [
+       "There are lockers opposite reception.",
+       "Đối diện quầy lễ tân có tủ đồ."
+      ]
+     ],
+     "bad": "Have a kitchen on the third floor.",
+     "good": "There is a kitchen on the third floor.",
+     "why": "Tiếng Việt nói 'Có một cái bếp…' nên người Việt hay dịch thành Have…. Muốn nói ở đâu có cái gì, tiếng Anh dùng There is (số ít) / There are (số nhiều)."
+    },
+    {
+     "t": "Chỉ vị trí: next to / opposite / at the end of + nơi chốn",
+     "f": [
+      [
+       "The printer is",
+       "next to",
+       "the meeting room."
+      ],
+      [
+       "The lockers are",
+       "opposite",
+       "reception."
+      ],
+      [
+       "The toilets are",
+       "at the end of",
+       "the corridor."
+      ]
+     ],
+     "ex": [
+      [
+       "My desk is next to Linh's desk.",
+       "Bàn của tôi cạnh bàn của Linh."
+      ],
+      [
+       "The lift is opposite the kitchen.",
+       "Thang máy đối diện bếp."
+      ]
+     ],
+     "bad": "The printer is next the meeting room.",
+     "good": "The printer is next to the meeting room.",
+     "why": "next phải có to: next to. Ngược lại, opposite đứng thẳng trước nơi chốn, không thêm to hay of."
+    },
+    {
+     "t": "Hỏi chỗ: Where can I find…? / Is there…?",
+     "f": [
+      [
+       "Where",
+       "can I find",
+       "the printer?"
+      ],
+      [
+       "Is there",
+       "a kitchen",
+       "on this floor?"
+      ]
+     ],
+     "ex": [
+      [
+       "Excuse me, where can I find the meeting room?",
+       "Xin lỗi, phòng họp ở đâu ạ?"
+      ],
+      [
+       "Is there a lift in this building?",
+       "Toà nhà này có thang máy không?"
+      ]
+     ],
+     "bad": "Where I can find the printer?",
+     "good": "Where can I find the printer?",
+     "why": "Câu hỏi phải đảo can lên trước I. Với There is, đảo is lên đầu: Is there…?"
+    }
+   ],
+   "vocab": [
+    {
+     "q": "'lift' trong văn phòng là gì?",
+     "opts": [
+      "thang máy",
+      "cầu thang bộ",
+      "bên trái"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: cầu thang bộ là stairs.",
+      "2": "Sai: bên trái là left (có e), viết gần giống lift (có i)."
+     }
+    },
+    {
+     "q": "Điền từ: We're on the second floor. The kitchen is ___, on the third floor.",
+     "opts": [
+      "upstairs",
+      "opposite",
+      "downstairs"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: opposite (đối diện) cần một nơi chốn theo sau.",
+      "2": "Sai: tầng ba ở TRÊN tầng hai, nên là upstairs, không phải downstairs."
+     }
+    },
+    {
+     "q": "Điền từ: I need to print this report. Where is the ___?",
+     "opts": [
+      "printer",
+      "locker",
+      "floor"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: locker là tủ đồ, không in được.",
+      "2": "Sai: floor là tầng nhà."
+     }
+    },
+    {
+     "q": "'opposite' nghĩa là gì?",
+     "opts": [
+      "đối diện",
+      "bên cạnh",
+      "phía sau"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: bên cạnh là next to.",
+      "2": "Sai: phía sau là behind."
+     }
+    },
+    {
+     "q": "Điền từ: Visitors wait at ___ on the ground floor.",
+     "opts": [
+      "reception",
+      "upstairs",
+      "the printer"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: upstairs không đi sau at và mâu thuẫn với the ground floor.",
+      "2": "Sai: khách đợi ở quầy lễ tân, không đợi ở máy in."
+     }
+    },
+    {
+     "q": "Điền từ: You can keep your bag in a ___.",
+     "opts": [
+      "locker",
+      "printer",
+      "lift"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: không để túi trong máy in.",
+      "2": "Sai: lift (thang máy) không dùng để cất túi."
+     }
+    },
+    {
+     "q": "Điền từ: The toilets are ___ the corridor.",
+     "opts": [
+      "at the end of",
+      "next",
+      "opposite of"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: next phải có to (next to).",
+      "2": "Sai: opposite không đi với of."
+     }
+    },
+    {
+     "q": "'meeting room' là gì?",
+     "opts": [
+      "phòng họp",
+      "phòng chờ",
+      "phòng ăn"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: phòng chờ là waiting room.",
+      "2": "Sai: khu ăn uống trong văn phòng là kitchen."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "There is a kitchen on the third floor.",
+      "Have a kitchen on the third floor.",
+      "There are a kitchen on the third floor."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: dịch từng chữ 'Có một cái bếp'. Nói ở đâu có gì dùng There is.",
+      "2": "Sai: a kitchen là số ít, dùng There is."
+     }
+    },
+    {
+     "q": "Điền từ: There ___ two meeting rooms on this floor.",
+     "opts": [
+      "are",
+      "is",
+      "have"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: two meeting rooms là số nhiều, dùng are.",
+      "2": "Sai: không dùng There have để nói 'có'."
+     }
+    },
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "The printer is next to the meeting room.",
+      "The printer is next the meeting room.",
+      "The printer is next of the meeting room."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: thiếu to sau next.",
+      "2": "Sai: next đi với to, không đi với of."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền một từ: Excuse me, where ___ I find the lift?",
+     "model": "can",
+     "accept": [
+      "can",
+      "could"
+     ],
+     "why": "Hỏi chỗ: Where can I find…? (đảo can lên trước I; could cũng đúng, lịch sự hơn)."
+    },
+    {
+     "q": "Hỏi xem tầng này có bếp không:",
+     "opts": [
+      "Is there a kitchen on this floor?",
+      "Are there a kitchen on this floor?",
+      "Has there a kitchen on this floor?"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: a kitchen là số ít, dùng Is there.",
+      "2": "Sai: không dùng Has there để hỏi 'có… không'."
+     }
+    },
+    {
+     "q": "Điền từ: The lockers are ___ reception.",
+     "opts": [
+      "opposite",
+      "next",
+      "at the end"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: next thiếu to (next to).",
+      "2": "Sai: at the end thiếu of (at the end of)."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: is / There / a printer / next to / my desk / .",
+     "model": "There is a printer next to my desk.",
+     "accept": [
+      "There is a printer next to my desk.",
+      "There is a printer next to my desk",
+      "There's a printer next to my desk."
+     ],
+     "why": "There is + vật + vị trí: There is + a printer + next to my desk."
+    }
+   ],
+   "listen": [
+    {
+     "q": "Bếp ở đâu?",
+     "audio": "The kitchen is upstairs, on the third floor.",
+     "opts": [
+      "tầng ba",
+      "tầng một",
+      "tầng hai"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: first floor là tầng một; câu nói third (thứ ba).",
+      "2": "Sai: câu nói third floor, không phải second."
+     }
+    },
+    {
+     "q": "Máy in ở đâu?",
+     "audio": "The printer is at the end of the corridor.",
+     "opts": [
+      "cuối hành lang",
+      "cạnh thang máy",
+      "đối diện quầy lễ tân"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: không nghe thấy next to the lift.",
+      "2": "Sai: không nghe thấy opposite reception."
+     }
+    },
+    {
+     "q": "Thang máy ở đâu?",
+     "audio": "Is there a lift? – Yes, it's next to reception.",
+     "opts": [
+      "cạnh quầy lễ tân",
+      "đối diện phòng họp",
+      "ở tầng trên"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu trả lời là next to (bên cạnh), không phải opposite.",
+      "2": "Sai: không nghe thấy upstairs."
+     }
+    },
+    {
+     "q": "Tầng này có mấy phòng họp?",
+     "audio": "There are two meeting rooms on this floor.",
+     "opts": [
+      "2 phòng",
+      "1 phòng",
+      "3 phòng"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu dùng There are + two (số nhiều).",
+      "2": "Sai: câu nói two, không phải three."
+     }
+    },
+    {
+     "q": "Bàn của An ở đâu?",
+     "audio": "Your desk is next to Linh's desk.",
+     "opts": [
+      "cạnh bàn của Linh",
+      "đối diện bàn của Linh",
+      "cạnh bàn của Tom"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói next to (bên cạnh), không phải opposite.",
+      "2": "Sai: câu nói Linh's desk, không nhắc đến Tom."
+     }
+    },
+    {
+     "q": "Tủ đồ ở đâu?",
+     "audio": "The lockers are opposite reception.",
+     "opts": [
+      "đối diện quầy lễ tân",
+      "cạnh quầy lễ tân",
+      "ở tầng ba"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: opposite là đối diện, không phải bên cạnh.",
+      "2": "Sai: câu không nói tầng; tủ đồ ở chỗ lễ tân."
+     }
+    },
+    {
+     "q": "Người nói muốn tìm gì?",
+     "audio": "Excuse me, where can I find the printer?",
+     "opts": [
+      "máy in",
+      "thang máy",
+      "bếp"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: thang máy là lift; câu nói printer.",
+      "2": "Sai: bếp là kitchen; câu nói printer."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "TOEIC Part 1 – Nhìn tranh cảnh hôm nay, nghe ba câu A, B, C, chọn câu tả đúng tranh.",
+     "audio": "A. A man is showing a woman around the office. B. A woman is fixing a printer. C. Some people are eating in a kitchen.",
+     "opts": [
+      "A",
+      "B",
+      "C"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: An đang nghe Tom chỉ đường, không sửa máy in.",
+      "2": "Sai: tranh là hành lang văn phòng, không phải bếp."
+     }
+    },
+    {
+     "q": "TOEIC Part 2 – Nghe câu hỏi, chọn câu đáp phù hợp nhất.",
+     "audio": "Where can I find the meeting room?",
+     "opts": [
+      "At the end of the corridor.",
+      "At ten o'clock.",
+      "Yes, I can."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu hỏi Where (ở đâu), không hỏi giờ.",
+      "2": "Sai: câu hỏi Wh- không trả lời bằng Yes."
+     }
+    },
+    {
+     "q": "TOEIC Part 2 – Nghe câu hỏi, chọn câu đáp phù hợp nhất.",
+     "audio": "Is there a printer on this floor?",
+     "opts": [
+      "Yes, next to the lift.",
+      "I printed it yesterday.",
+      "It's a big floor."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: bẫy lặp âm (print); câu này nói đã in xong, không trả lời có máy in không.",
+      "2": "Sai: bẫy lặp từ floor; câu không trả lời câu hỏi."
+     }
+    },
+    {
+     "q": "TOEIC Part 5 – Chọn từ đúng: There ___ a staff kitchen on the third floor.",
+     "opts": [
+      "is",
+      "are",
+      "be",
+      "have"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: a staff kitchen là số ít.",
+      "2": "Sai: be là nguyên mẫu, câu cần chia is.",
+      "3": "Sai: không dùng There have."
+     }
+    },
+    {
+     "q": "TOEIC Part 5 – Chọn từ đúng: The lockers are ___ reception.",
+     "opts": [
+      "opposite",
+      "between",
+      "among",
+      "during"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: between cần hai vật (between A and B).",
+      "2": "Sai: among dùng cho 'giữa một nhóm' (among the desks).",
+      "3": "Sai: during chỉ thời gian (during the meeting), không chỉ vị trí."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "lift",
+     "focus": "i ngắn: 'líp-t'. Bật nhẹ âm t cuối, đừng đọc thành left."
+    },
+    {
+     "t": "meeting room",
+     "focus": "Nhấn MEET-ing; room có u dài 'ru-m'."
+    },
+    {
+     "t": "next to",
+     "focus": "Âm t cuối next gần như nuốt: 'nếch-tơ'; to đọc nhẹ /tə/."
+    },
+    {
+     "t": "opposite",
+     "focus": "Ba âm tiết, nhấn âm đầu: OP-po-site; cuối đọc 'zit', không đọc 'sai'."
+    },
+    {
+     "t": "upstairs",
+     "focus": "Nhấn âm hai: up-STAIRS; giữ âm -z cuối."
+    },
+    {
+     "t": "Is there a kitchen on this floor?",
+     "focus": "Câu hỏi Yes / No nên lên giọng ở floor. kitchen: t câm, 'kít-chin'."
+    },
+    {
+     "t": "Where can I find the printer?",
+     "focus": "Câu hỏi Wh- nên xuống giọng ở cuối; can‿I nối thành 'ke-nai'."
+    },
+    {
+     "t": "It's at the end of the corridor.",
+     "focus": "Nối at‿the end‿of: 'ơt-đi-en-đơv'; nhấn END và CORR-."
+    }
+   ],
+   "dialog": {
+    "title": "Tom dẫn bạn đi xem văn phòng; bạn hỏi phòng họp, máy in, bếp ở đâu. Đổi vai: bạn chỉ đường cho một nhân viên mới.",
+    "partner": "Tom",
+    "turns": [
+     {
+      "ai": "So, this is the second floor. Any questions?",
+      "vi": "Đây là tầng hai. Em có hỏi gì không?",
+      "model": "Yes. Where can I find the meeting room?",
+      "accept": [
+       "Yes. Where can I find the meeting room?",
+       "Where can I find the meeting room?",
+       "Where is the meeting room?",
+       "Yes, where is the meeting room?"
+      ],
+      "frame": "Where can I ___ the meeting room?",
+      "hint": "Hỏi phòng họp ở đâu: Where can I find…?"
+     },
+     {
+      "ai": "It's at the end of the corridor, on the left.",
+      "vi": "Ở cuối hành lang, bên trái.",
+      "model": "Is there a printer on this floor?",
+      "accept": [
+       "Is there a printer on this floor?",
+       "Is there a printer here?",
+       "And is there a printer on this floor?"
+      ],
+      "frame": "Is ___ a printer on this floor?",
+      "hint": "Hỏi tầng này có máy in không: Is there + a printer…?"
+     },
+     {
+      "ai": "Yes, there is. It's next to the meeting room.",
+      "vi": "Có. Ở cạnh phòng họp.",
+      "model": "Great. And where is the kitchen?",
+      "accept": [
+       "Great. And where is the kitchen?",
+       "Where is the kitchen?",
+       "And where's the kitchen?",
+       "Where can I find the kitchen?"
+      ],
+      "frame": "Great. And where ___ the kitchen?",
+      "hint": "Hỏi bếp ở đâu: Where is the kitchen?"
+     },
+     {
+      "ai": "It's upstairs, on the third floor. Take the lift.",
+      "vi": "Ở tầng trên, tầng ba. Đi thang máy nhé.",
+      "model": "Thanks! Is the lift next to reception?",
+      "accept": [
+       "Thanks! Is the lift next to reception?",
+       "Is the lift next to reception?",
+       "Where is the lift?",
+       "Thanks! Where is the lift?"
+      ],
+      "frame": "Thanks! Is the lift ___ reception?",
+      "hint": "Hỏi lại cho chắc: Is the lift + next to reception?"
+     },
+     {
+      "ai": "That's right. Any more questions?",
+      "vi": "Đúng rồi. Còn hỏi gì nữa không?",
+      "model": "No, that's all. Thank you, Tom!",
+      "accept": [
+       "No, that's all. Thank you, Tom!",
+       "No, that's all. Thanks!",
+       "That's all. Thank you!",
+       "No, thank you, Tom!"
+      ],
+      "frame": "No, that's ___. Thank you, Tom!",
+      "hint": "Nói vậy là đủ rồi, cảm ơn: No, that's all. Thank you!"
+     }
+    ]
+   },
+   "reading": {
+    "title": "Sơ đồ tầng và nội quy bếp chung",
+    "text": "BRIGHT STAR – FLOOR GUIDE\nGround floor: reception, staff lockers (opposite reception)\nFirst floor: Sales team, meeting room 1\nSecond floor: HR, Marketing team, meeting room 2, printer (next to meeting room 2)\nThird floor: staff kitchen\n\nKITCHEN RULES\nThe kitchen is open from 7.30 a.m. to 7 p.m. Please wash your cup after you use it. There is a fridge for staff, but please don't leave food in it on Friday evening.",
+    "vi": "BRIGHT STAR – SƠ ĐỒ CÁC TẦNG\nTầng trệt: quầy lễ tân, tủ đồ nhân viên (đối diện lễ tân)\nTầng một: nhóm Kinh doanh, phòng họp 1\nTầng hai: phòng Nhân sự, nhóm Marketing, phòng họp 2, máy in (cạnh phòng họp 2)\nTầng ba: bếp chung cho nhân viên\n\nNỘI QUY BẾP\nBếp mở cửa từ 7:30 sáng đến 7 giờ tối. Dùng cốc xong vui lòng rửa. Có tủ lạnh cho nhân viên, nhưng vui lòng không để đồ ăn trong tủ vào tối thứ Sáu.",
+    "qs": [
+     {
+      "q": "Tủ đồ nhân viên ở đâu?",
+      "opts": [
+       "tầng trệt, đối diện lễ tân",
+       "tầng ba, trong bếp",
+       "tầng hai, cạnh máy in"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: tầng ba chỉ có bếp.",
+       "2": "Sai: cạnh phòng họp 2 ở tầng hai là máy in."
+      }
+     },
+     {
+      "q": "Nhóm Marketing ở tầng mấy?",
+      "opts": [
+       "tầng hai",
+       "tầng một",
+       "tầng ba"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: tầng một là nhóm Sales.",
+       "2": "Sai: tầng ba là bếp."
+      }
+     },
+     {
+      "q": "Máy in ở đâu?",
+      "opts": [
+       "cạnh phòng họp 2",
+       "cạnh quầy lễ tân",
+       "trong bếp"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: cạnh (đối diện) lễ tân là tủ đồ.",
+       "2": "Sai: bài không nói có máy in trong bếp."
+      }
+     },
+     {
+      "q": "Đúng hay sai: \"You can leave food in the fridge on Friday evening.\"",
+      "opts": [
+       "Sai",
+       "Đúng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Không đúng: nội quy viết please don't leave food in it on Friday evening."
+      }
+     },
+     {
+      "q": "Bếp mở cửa lúc nào?",
+      "opts": [
+       "7:30 sáng đến 7 giờ tối",
+       "8:30 đến 5:30",
+       "cả ngày lẫn đêm"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: 8:30 đến 5:30 là giờ làm việc (Thứ Hai), không phải giờ mở bếp.",
+       "2": "Sai: bài ghi rõ from 7.30 a.m. to 7 p.m."
+      }
+     }
+    ]
+   },
+   "confuse": [
+    {
+     "a": "lift",
+     "aipa": "/lɪft/",
+     "am": "thang máy",
+     "b": "left",
+     "bipa": "/left/",
+     "bm": "bên trái",
+     "note": "Khác một nguyên âm: lift có i ('líp-t'), left có e ('lép-t'). Hai từ hay đi cùng nhau khi chỉ đường: Take the lift, then turn left.",
+     "qa": {
+      "t": "Take the ___ to the third floor.",
+      "vi": "Đi thang máy lên tầng ba."
+     },
+     "qb": {
+      "t": "The meeting room is on the ___.",
+      "vi": "Phòng họp ở bên trái."
+     }
+    },
+    {
+     "a": "quite",
+     "aipa": "/kwaɪt/",
+     "am": "khá",
+     "b": "quiet",
+     "bipa": "/ˈkwaɪ.ət/",
+     "bm": "yên tĩnh",
+     "note": "quite có một âm tiết, e ở cuối ('quai-t'); quiet có hai âm tiết, e đứng trước t ('quai-ợt').",
+     "qa": {
+      "t": "The office is ___ big.",
+      "vi": "Văn phòng khá rộng."
+     },
+     "qb": {
+      "t": "Please be ___ in the meeting room.",
+      "vi": "Vui lòng giữ yên lặng trong phòng họp."
+     }
+    },
+    {
+     "a": "floor",
+     "aipa": "/flɔː/",
+     "am": "tầng",
+     "b": "flour",
+     "bipa": "/ˈflaʊ.ər/",
+     "bm": "bột mì",
+     "note": "floor đọc 'phlo' (o dài); flour đọc giống flower 'phlao-ơ'.",
+     "qa": {
+      "t": "The kitchen is on the third ___.",
+      "vi": "Bếp ở tầng ba."
+     },
+     "qb": {
+      "t": "We need ___ and eggs to make a cake.",
+      "vi": "Cần bột mì và trứng để làm bánh."
+     }
+    },
+    {
+     "a": "desk",
+     "aipa": "/desk/",
+     "am": "bàn làm việc",
+     "b": "disk",
+     "bipa": "/dɪsk/",
+     "bm": "đĩa, ổ đĩa",
+     "note": "desk có e ('đét-xk'); disk có i ('đít-xk'), hay gặp trong hard disk (ổ cứng).",
+     "qa": {
+      "t": "Your ___ is next to Linh.",
+      "vi": "Bàn của em ở cạnh Linh."
+     },
+     "qb": {
+      "t": "My laptop has a 500 GB hard ___.",
+      "vi": "Laptop của tôi có ổ cứng 500 GB."
+     }
+    }
+   ],
+   "write": {
+    "task": "Viết tin nhắn ngắn (2–3 câu) hỏi Linh một chỗ trong văn phòng.",
+    "kind": "message",
+    "model": "Hi Linh, where can I find the printer? Is it on this floor? Thanks!",
+    "frame": "Hi ___, where can I find the ___? Is it ___ this floor? Thanks!",
+    "gaps": [
+     "Linh",
+     "printer",
+     "on"
+    ],
+    "free": [
+     true,
+     true,
+     false
+    ],
+    "hints": [
+     "Where can I find the…?",
+     "Is there a … on this floor?",
+     "Is it next to / opposite …?",
+     "Thanks! / Thank you!"
+    ],
+    "check": [
+     "Có lời chào và tên người nhận",
+     "Có 1–2 câu hỏi về vị trí",
+     "Câu hỏi đảo đúng: Where can I…? / Is there…? / Is it…?",
+     "Có lời cảm ơn ở cuối"
+    ],
+    "words": [
+     12,
+     40
+    ]
+   }
+  },
+  {
+   "id": "a2-w1-thu-4",
+   "label": "Thứ 4",
+   "title": "Gặp cả nhóm: mỗi người làm gì",
+   "desc": "Nói mình phụ trách việc gì (in charge of, responsible for), mình thường làm gì (usually, often) và tuần này đang làm gì (am + V-ing) trong buổi Sarah giới thiệu An với nhóm.",
+   "rule": "Sau of / for động từ thêm -ing: responsible for answering. usually / often đứng TRƯỚC động từ thường, SAU be. Việc thường ngày: hiện tại đơn; việc tuần này: am / is / are + V-ing.",
+   "cards": [
+    {
+     "w": "team",
+     "ipa": "/tiːm/",
+     "m": "nhóm, đội",
+     "ex": "Welcome to the marketing team!",
+     "exm": "Chào mừng em đến với nhóm marketing!",
+     "n": "ea đọc 'i' dài: 'thi-m'. on the team / in the team đều dùng được.",
+     "img": "team",
+     "spell": [
+      "teem",
+      "tiem"
+     ]
+    },
+    {
+     "w": "role",
+     "ipa": "/rəʊl/",
+     "m": "vai trò, vị trí",
+     "ex": "What's your role in the team?",
+     "exm": "Vai trò của bạn trong nhóm là gì?",
+     "n": "Đọc giống roll (cuộn) nhưng nghĩa khác. Hỏi việc của ai: What's your role?",
+     "img": "role",
+     "spell": [
+      "roll",
+      "rool"
+     ]
+    },
+    {
+     "w": "in charge of",
+     "ipa": "/ɪn ˈtʃɑːdʒ əv/",
+     "m": "phụ trách",
+     "ex": "Tom is in charge of social media.",
+     "exm": "Tom phụ trách mạng xã hội.",
+     "n": "be in charge of + việc / V-ing. Nối âm: charge‿of → 'cha-jơv'.",
+     "img": "manager",
+     "spell": [
+      "in charge off",
+      "in chart of"
+     ]
+    },
+    {
+     "w": "responsible for",
+     "ipa": "/rɪˈspɒn.sə.bəl fə/",
+     "m": "chịu trách nhiệm về",
+     "ex": "Linh is responsible for customer emails.",
+     "exm": "Linh chịu trách nhiệm email khách hàng.",
+     "n": "Nhấn âm hai: re-SPON-si-ble. Đi với for (không phải to): responsible for + N / V-ing.",
+     "img": "work",
+     "spell": [
+      "responsable for",
+      "responsible to"
+     ]
+    },
+    {
+     "w": "report to",
+     "ipa": "/rɪˈpɔːt tə/",
+     "m": "báo cáo cho, làm dưới quyền (ai)",
+     "ex": "Everyone in the team reports to Sarah.",
+     "exm": "Mọi người trong nhóm đều báo cáo cho Sarah.",
+     "n": "report to + người = ai là cấp trên trực tiếp của mình. Hỏi: Who do you report to?",
+     "img": "manager",
+     "spell": [
+      "repot to",
+      "report too"
+     ]
+    },
+    {
+     "w": "task",
+     "ipa": "/tɑːsk/",
+     "m": "nhiệm vụ, đầu việc",
+     "ex": "My first task is to write a short report.",
+     "exm": "Việc đầu tiên của tôi là viết một báo cáo ngắn.",
+     "n": "Đếm được: one task, two tasks. Đọc 'ta-xk', a dài (kiểu Anh).",
+     "img": "work",
+     "spell": [
+      "taks",
+      "tusk"
+     ]
+    },
+    {
+     "w": "customer",
+     "ipa": "/ˈkʌs.tə.mər/",
+     "m": "khách hàng",
+     "ex": "We answer customer emails every day.",
+     "exm": "Ngày nào chúng tôi cũng trả lời email khách hàng.",
+     "n": "Nhấn âm đầu: CUS-to-mer. client thường dùng cho khách của dịch vụ chuyên môn (luật, tư vấn).",
+     "img": "handshake",
+     "spell": [
+      "costumer",
+      "custommer"
+     ]
+    },
+    {
+     "w": "project",
+     "ipa": "/ˈprɒdʒ.ekt/",
+     "m": "dự án",
+     "ex": "This week I'm working on a new project.",
+     "exm": "Tuần này tôi đang làm một dự án mới.",
+     "n": "Danh từ nhấn âm đầu: PRO-ject. work on a project = làm một dự án.",
+     "img": "team",
+     "spell": [
+      "projet",
+      "progect"
+     ]
+    },
+    {
+     "w": "deadline",
+     "ipa": "/ˈded.laɪn/",
+     "m": "hạn chót",
+     "ex": "The deadline is Friday.",
+     "exm": "Hạn chót là thứ Sáu.",
+     "n": "Nhấn DEAD-line. meet a deadline = kịp hạn; miss a deadline = trễ hạn.",
+     "img": "calendar",
+     "spell": [
+      "dateline",
+      "deadlain"
+     ]
+    },
+    {
+     "w": "usually",
+     "ipa": "/ˈjuː.ʒu.ə.li/",
+     "m": "thường thường",
+     "ex": "I usually start work at 8.30.",
+     "exm": "Tôi thường bắt đầu làm lúc 8:30.",
+     "n": "Đứng TRƯỚC động từ thường: I usually start. Đọc 'iu-zhu-ơ-li', có âm /ʒ/ như trong 'measure'.",
+     "spell": [
+      "usualy",
+      "usally"
+     ]
+    },
+    {
+     "w": "often",
+     "ipa": "/ˈɒf.ən/",
+     "m": "hay, thường xuyên",
+     "ex": "We often work with the sales team.",
+     "exm": "Chúng tôi hay làm việc với nhóm sales.",
+     "n": "Chữ t thường câm: 'o-phần'. Đứng sau be: She is often busy.",
+     "spell": [
+      "ofen",
+      "offten"
+     ]
+    },
+    {
+     "w": "every week",
+     "ipa": "/ˈev.ri wiːk/",
+     "m": "hằng tuần, mỗi tuần",
+     "ex": "We have a team meeting every week.",
+     "exm": "Tuần nào nhóm cũng họp.",
+     "n": "every + danh từ số ít: every day, every Monday. Thường đứng cuối câu.",
+     "img": "calendar",
+     "spell": [
+      "every weak",
+      "evry week"
+     ]
+    }
+   ],
+   "scene": {
+    "setting": "10 giờ sáng thứ Tư, buổi họp nhóm marketing hằng tuần. Sarah Lee giới thiệu An, rồi mỗi người nói mình phụ trách việc gì; Kevin bên sales cũng ngồi dự.",
+    "img": "scene-en-team",
+    "imgPrompt": "A small glass-walled meeting room: sarah, in a charcoal blazer, stands at the head of the table introducing an to tom, linh and kevin, who smile and wave; laptops and coffee cups on the table, no readable text.",
+    "lines": [
+     {
+      "who": "Sarah",
+      "t": "Good morning, everyone. This is An. She's our new marketing assistant.",
+      "vi": "Chào cả nhóm. Đây là An, trợ lý marketing mới của chúng ta."
+     },
+     {
+      "who": "An",
+      "t": "Hi everyone! I'm happy to be here.",
+      "vi": "Chào mọi người! Em rất vui được làm việc ở đây."
+     },
+     {
+      "who": "Sarah",
+      "t": "I'm the marketing manager. Everyone in this team reports to me.",
+      "vi": "Chị là quản lý marketing. Mọi người trong nhóm đều báo cáo cho chị."
+     },
+     {
+      "who": "Tom",
+      "t": "I'm in charge of our social media. I usually post every day.",
+      "vi": "Anh phụ trách mạng xã hội. Ngày nào anh cũng thường đăng bài."
+     },
+     {
+      "who": "Linh",
+      "t": "I'm responsible for customer emails. This week I'm working on a new project.",
+      "vi": "Em chịu trách nhiệm email khách hàng. Tuần này em đang làm một dự án mới."
+     },
+     {
+      "who": "Kevin",
+      "t": "I'm from the sales team. We often work with marketing.",
+      "vi": "Anh ở nhóm sales. Bọn anh hay làm việc với bên marketing."
+     },
+     {
+      "who": "An",
+      "t": "What are my tasks this week?",
+      "vi": "Tuần này em làm những việc gì ạ?"
+     },
+     {
+      "who": "Sarah",
+      "t": "This week you're helping Linh. The deadline is Friday.",
+      "vi": "Tuần này em giúp Linh. Hạn chót là thứ Sáu."
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Nói trách nhiệm: in charge of / responsible for + N / V-ing",
+     "f": [
+      [
+       "I'm",
+       "in charge of",
+       "social media."
+      ],
+      [
+       "I'm",
+       "responsible for",
+       "answering customer emails."
+      ]
+     ],
+     "ex": [
+      [
+       "Tom is in charge of social media.",
+       "Tom phụ trách mạng xã hội."
+      ],
+      [
+       "Linh is responsible for answering customer emails.",
+       "Linh chịu trách nhiệm trả lời email khách hàng."
+      ]
+     ],
+     "bad": "I'm responsible for answer emails.",
+     "good": "I'm responsible for answering emails.",
+     "why": "of và for là giới từ, nên động từ đứng sau phải thêm -ing (answering). Cũng đừng nói responsible to."
+    },
+    {
+     "t": "Trạng từ tần suất: usually / often + động từ thường; be + usually / often",
+     "f": [
+      [
+       "I",
+       "usually",
+       "start at 8.30."
+      ],
+      [
+       "She",
+       "is often",
+       "busy on Mondays."
+      ]
+     ],
+     "ex": [
+      [
+       "I usually post on social media every day.",
+       "Tôi thường đăng bài mỗi ngày."
+      ],
+      [
+       "We often work with the sales team.",
+       "Chúng tôi hay làm việc với nhóm sales."
+      ]
+     ],
+     "bad": "I post usually every day.",
+     "good": "I usually post every day.",
+     "why": "usually, often đứng TRƯỚC động từ thường (post), nhưng đứng SAU be (She is often busy)."
+    },
+    {
+     "t": "Việc thường ngày và việc tuần này: I usually + V / This week I'm + V-ing",
+     "f": [
+      [
+       "I usually",
+       "write",
+       "emails."
+      ],
+      [
+       "This week",
+       "I'm writing",
+       "a report."
+      ]
+     ],
+     "ex": [
+      [
+       "I usually answer emails, but this week I'm working on a new project.",
+       "Tôi thường trả lời email, nhưng tuần này tôi đang làm một dự án mới."
+      ],
+      [
+       "This week An is helping Linh.",
+       "Tuần này An đang giúp Linh."
+      ]
+     ],
+     "bad": "This week I working on a new project.",
+     "good": "This week I'm working on a new project.",
+     "why": "Việc tạm thời (tuần này, hôm nay) dùng am / is / are + V-ing; thiếu am là sai. Việc lặp lại thường ngày dùng hiện tại đơn (I usually answer)."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "'deadline' nghĩa là gì?",
+     "opts": [
+      "hạn chót",
+      "cuộc họp",
+      "khách hàng"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: cuộc họp là meeting.",
+      "2": "Sai: khách hàng là customer."
+     }
+    },
+    {
+     "q": "Điền từ: Tom is ___ social media.",
+     "opts": [
+      "in charge of",
+      "in charge",
+      "charge of"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: thiếu of trước việc được phụ trách.",
+      "2": "Sai: thiếu in; cụm đầy đủ là in charge of."
+     }
+    },
+    {
+     "q": "Điền từ: Everyone in our team ___ Sarah, the manager.",
+     "opts": [
+      "reports to",
+      "reports",
+      "is responsible"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: thiếu to; 'báo cáo cho ai' là report to + người.",
+      "2": "Sai: is responsible cần for + việc, và không nói ai là cấp trên."
+     }
+    },
+    {
+     "q": "'customer' là ai?",
+     "opts": [
+      "khách hàng",
+      "đồng nghiệp",
+      "quản lý"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: đồng nghiệp là colleague.",
+      "2": "Sai: quản lý là manager."
+     }
+    },
+    {
+     "q": "Điền từ: What is your ___ in the team? – I'm the marketing assistant.",
+     "opts": [
+      "role",
+      "task",
+      "deadline"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: task là một đầu việc cụ thể (viết báo cáo); câu trả lời là một vị trí, nên hỏi role.",
+      "2": "Sai: deadline là hạn chót, không trả lời bằng chức danh."
+     }
+    },
+    {
+     "q": "Điền từ: We have a team meeting ___, on Monday at ten.",
+     "opts": [
+      "every week",
+      "usually",
+      "deadline"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: usually đứng trước động từ (we usually have), không đứng ở vị trí này.",
+      "2": "Sai: deadline là danh từ 'hạn chót', không chỉ tần suất."
+     }
+    },
+    {
+     "q": "Điền từ: My first ___ is to write a short report.",
+     "opts": [
+      "task",
+      "customer",
+      "deadline"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: customer là người, không phải việc phải làm.",
+      "2": "Sai: deadline là hạn chót, không phải việc phải làm."
+     }
+    },
+    {
+     "q": "Điền từ: The new ___ starts in April. It's a big campaign.",
+     "opts": [
+      "project",
+      "deadline",
+      "customer"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: hạn chót không 'bắt đầu' và không phải một chiến dịch.",
+      "2": "Sai: customer là khách hàng, không phải chiến dịch."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "I'm responsible for answering emails.",
+      "I'm responsible for answer emails.",
+      "I'm responsible to answering emails."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau for động từ phải thêm -ing.",
+      "2": "Sai: responsible đi với for, không đi với to."
+     }
+    },
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "I usually start work at 8.30.",
+      "I start usually work at 8.30.",
+      "Usually I starts work at 8.30."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: usually phải đứng trước động từ start.",
+      "2": "Sai: chủ ngữ I không thêm -s (start). (Đặt Usually ở đầu câu thì vẫn được.)"
+     }
+    },
+    {
+     "q": "Điền từ: She ___ busy on Mondays.",
+     "opts": [
+      "is often",
+      "often is",
+      "often"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: với be, often đứng SAU be: is often.",
+      "2": "Sai: thiếu động từ be; busy là tính từ nên cần is."
+     }
+    },
+    {
+     "q": "Dịch: 'Tuần này tôi đang làm một dự án mới.'",
+     "opts": [
+      "This week I'm working on a new project.",
+      "This week I working on a new project.",
+      "This week I'm work on a new project."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: thiếu am (I'm).",
+      "2": "Sai: sau am phải là V-ing (working)."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền một từ: Tom is in charge ___ social media.",
+     "model": "of",
+     "accept": [
+      "of"
+     ],
+     "why": "Cụm cố định: be in charge of + việc."
+    },
+    {
+     "q": "Điền từ: Kevin usually ___ customers on Tuesdays.",
+     "opts": [
+      "visits",
+      "visit",
+      "visiting"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: chủ ngữ Kevin số ít, động từ thêm -s.",
+      "2": "Sai: câu thường ngày dùng hiện tại đơn, không dùng -ing một mình."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: often / We / with the sales team / work / .",
+     "model": "We often work with the sales team.",
+     "accept": [
+      "We often work with the sales team.",
+      "We often work with the sales team"
+     ],
+     "why": "Chủ ngữ + often + động từ thường: We + often + work + with the sales team."
+    }
+   ],
+   "listen": [
+    {
+     "q": "Người nói phụ trách việc gì?",
+     "audio": "I'm in charge of social media.",
+     "opts": [
+      "mạng xã hội",
+      "email khách hàng",
+      "tuyển dụng"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: email khách hàng là customer emails; câu nói social media.",
+      "2": "Sai: câu không nhắc đến tuyển dụng."
+     }
+    },
+    {
+     "q": "Ai là cấp trên của nhóm marketing?",
+     "audio": "Everyone in the marketing team reports to Sarah.",
+     "opts": [
+      "Sarah",
+      "Tom",
+      "Kevin"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói reports to Sarah.",
+      "2": "Sai: Kevin ở nhóm sales, câu không nhắc đến anh ấy."
+     }
+    },
+    {
+     "q": "Hạn chót nộp báo cáo là khi nào?",
+     "audio": "The deadline for the report is Friday.",
+     "opts": [
+      "thứ Sáu",
+      "thứ Năm",
+      "thứ Hai"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: thứ Năm là Thursday; câu nói Friday.",
+      "2": "Sai: thứ Hai là Monday."
+     }
+    },
+    {
+     "q": "Tuần này người nói bắt đầu làm lúc mấy giờ?",
+     "audio": "I usually start work at eight, but this week I'm starting at nine.",
+     "opts": [
+      "9 giờ",
+      "8 giờ",
+      "8 rưỡi"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: 8 giờ là giờ thường ngày (usually); tuần này (this week) là 9 giờ.",
+      "2": "Sai: câu không có half past."
+     }
+    },
+    {
+     "q": "Họ hay làm việc với ai?",
+     "audio": "We often work with the sales team.",
+     "opts": [
+      "nhóm sales",
+      "khách hàng",
+      "nhóm IT"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không nhắc đến customers.",
+      "2": "Sai: câu nói sales team, không phải IT."
+     }
+    },
+    {
+     "q": "Tuần này An làm gì?",
+     "audio": "This week An is helping Linh with customer emails.",
+     "opts": [
+      "giúp Linh trả lời email khách hàng",
+      "viết bài mạng xã hội",
+      "đi gặp khách hàng"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: mạng xã hội là việc của Tom.",
+      "2": "Sai: câu nói về customer emails, không phải đi gặp khách."
+     }
+    },
+    {
+     "q": "Nhóm họp khi nào?",
+     "audio": "We have a team meeting every Monday at ten.",
+     "opts": [
+      "10 giờ thứ Hai hằng tuần",
+      "10 giờ mỗi ngày",
+      "chỉ thứ Hai tuần sau"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói every Monday, không phải every day.",
+      "2": "Sai: every Monday là thứ Hai nào cũng họp, không chỉ tuần sau."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "TOEIC Part 1 – Nhìn tranh cảnh hôm nay, nghe ba câu A, B, C, chọn câu tả đúng tranh.",
+     "audio": "A. Some people are sitting around a meeting table. B. A man is printing some documents. C. The meeting room is empty.",
+     "opts": [
+      "A",
+      "B",
+      "C"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: trong tranh không có ai đang in tài liệu.",
+      "2": "Sai: phòng họp có nhiều người, không trống."
+     }
+    },
+    {
+     "q": "TOEIC Part 2 – Nghe câu hỏi, chọn câu đáp phù hợp nhất.",
+     "audio": "Who is in charge of social media?",
+     "opts": [
+      "Tom is.",
+      "On Monday.",
+      "Yes, it is."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu hỏi Who (ai), không hỏi thời gian.",
+      "2": "Sai: câu hỏi Wh- không trả lời bằng Yes."
+     }
+    },
+    {
+     "q": "TOEIC Part 2 – Nghe câu hỏi, chọn câu đáp phù hợp nhất.",
+     "audio": "What's your role in the team?",
+     "opts": [
+      "I'm the marketing assistant.",
+      "It's a big team.",
+      "I'll call the customer."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: bẫy lặp từ team; câu này nói nhóm lớn, không nói vai trò.",
+      "2": "Sai: câu này nói việc sắp làm, không trả lời vai trò."
+     }
+    },
+    {
+     "q": "TOEIC Part 5 – Chọn từ đúng: Linh is responsible for ___ customer emails.",
+     "opts": [
+      "answering",
+      "answer",
+      "answers",
+      "to answer"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau giới từ for không dùng động từ nguyên mẫu.",
+      "2": "Sai: sau giới từ không dùng động từ chia -s.",
+      "3": "Sai: responsible for không đi với to + V."
+     }
+    },
+    {
+     "q": "TOEIC Part 5 – Chọn từ đúng: Our team ___ meets on Monday mornings.",
+     "opts": [
+      "usually",
+      "usual",
+      "use",
+      "used"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: usual là tính từ, không đứng trước động từ meets.",
+      "2": "Sai: use là động từ 'dùng', không hợp nghĩa.",
+      "3": "Sai: used không đứng trước một động từ đã chia (meets)."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "in charge of",
+     "focus": "Nối in‿charge‿of → 'in-cha-jơv'; nhấn CHARGE."
+    },
+    {
+     "t": "responsible for",
+     "focus": "Nhấn âm hai: re-SPON-si-ble; for đọc nhẹ /fə/."
+    },
+    {
+     "t": "deadline",
+     "focus": "Nhấn DEAD; âm d cuối dead gần như nuốt vào line."
+    },
+    {
+     "t": "customer",
+     "focus": "Nhấn âm đầu CUS-to-mer; âm cuối nhẹ 'mơ'."
+    },
+    {
+     "t": "I'm responsible for customer emails.",
+     "focus": "Nhấn SPON và CUS; emails đọc 'i-mây-lz', giữ âm -lz cuối."
+    },
+    {
+     "t": "I usually post every day.",
+     "focus": "usually 'iu-zhu-ơ-li'; post có âm -st cuối, đừng bỏ t."
+    },
+    {
+     "t": "This week I'm working on a new project.",
+     "focus": "Nối working‿on‿a → 'uơ-king-o-nơ'; nhấn PRO-ject."
+    },
+    {
+     "t": "Who do you report to?",
+     "focus": "Câu hỏi Wh- xuống giọng ở cuối; to cuối câu đọc đầy đủ /tuː/."
+    }
+   ],
+   "dialog": {
+    "title": "Sau buổi họp, Linh hỏi về việc của bạn; bạn giới thiệu vai trò. Đổi vai: bạn hỏi Linh về việc của chị ấy.",
+    "partner": "Linh",
+    "turns": [
+     {
+      "ai": "Hi An! So, what's your role in the team?",
+      "vi": "Chào An! Vậy vai trò của em trong nhóm là gì?",
+      "model": "I'm the new marketing assistant.",
+      "accept": [
+       "I'm the new marketing assistant.",
+       "I'm the marketing assistant.",
+       "I'm a marketing assistant.",
+       "I'm the new marketing assistant here."
+      ],
+      "frame": "I'm the new ___.",
+      "hint": "Nói chức danh: I'm the new + marketing assistant."
+     },
+     {
+      "ai": "Nice! What are you responsible for?",
+      "vi": "Hay quá! Em chịu trách nhiệm việc gì?",
+      "model": "I'm responsible for the weekly newsletter.",
+      "accept": [
+       "I'm responsible for the weekly newsletter.",
+       "I'm in charge of the weekly newsletter.",
+       "The weekly newsletter.",
+       "I'm responsible for the newsletter."
+      ],
+      "frame": "I'm responsible ___ the weekly newsletter.",
+      "hint": "Nói việc mình phụ trách: responsible for / in charge of + the weekly newsletter (bản tin hằng tuần)."
+     },
+     {
+      "ai": "Who do you report to?",
+      "vi": "Em báo cáo cho ai?",
+      "model": "I report to Sarah.",
+      "accept": [
+       "I report to Sarah.",
+       "I report to Sarah Lee.",
+       "To Sarah.",
+       "Sarah."
+      ],
+      "frame": "I report ___ Sarah.",
+      "hint": "Nói cấp trên: I report to + Sarah."
+     },
+     {
+      "ai": "And what are you doing this week?",
+      "vi": "Thế tuần này em làm gì?",
+      "model": "This week I'm helping you with customer emails!",
+      "accept": [
+       "This week I'm helping you with customer emails!",
+       "I'm helping you with customer emails.",
+       "This week I'm helping you.",
+       "I'm helping you this week."
+      ],
+      "frame": "This week I'm ___ you with customer emails!",
+      "hint": "Việc tuần này: I'm + V-ing (helping you with customer emails)."
+     },
+     {
+      "ai": "Great! We usually have coffee at ten. Join us!",
+      "vi": "Tuyệt! Bọn chị thường uống cà phê lúc 10 giờ. Đi cùng nhé!",
+      "model": "Sure, see you at ten!",
+      "accept": [
+       "Sure, see you at ten!",
+       "Sure! See you at ten.",
+       "Great, see you at ten!",
+       "OK, see you at ten!"
+      ],
+      "frame": "Sure, see you ___ ten!",
+      "hint": "Nhận lời và hẹn giờ: See you at ten!"
+     }
+    ]
+   },
+   "reading": {
+    "title": "Sơ đồ nhóm và hồ sơ ngắn",
+    "text": "MARKETING TEAM\nSarah Lee – Marketing Manager. Everyone in the team reports to Sarah. She plans our projects and checks every deadline.\nTom Baker – Social Media. Tom is in charge of the company's social media. He usually posts every day and often works late on Thursdays.\nLinh Tran – Customer Emails. Linh is responsible for answering customer emails. This week she is working on a new project for April.\nAn Nguyen – Marketing Assistant (new). An is responsible for the weekly newsletter. This week she is helping Linh.",
+    "vi": "NHÓM MARKETING\nSarah Lee – Quản lý marketing. Mọi người trong nhóm báo cáo cho Sarah. Chị lên kế hoạch các dự án và kiểm tra mọi hạn chót.\nTom Baker – Mạng xã hội. Tom phụ trách mạng xã hội của công ty. Anh thường đăng bài mỗi ngày và hay làm muộn vào thứ Năm.\nLinh Trần – Email khách hàng. Linh chịu trách nhiệm trả lời email khách hàng. Tuần này chị đang làm một dự án mới cho tháng Tư.\nAn Nguyễn – Trợ lý marketing (mới). An chịu trách nhiệm bản tin hằng tuần. Tuần này An đang giúp Linh.",
+    "qs": [
+     {
+      "q": "Ai kiểm tra các hạn chót?",
+      "opts": [
+       "Sarah",
+       "Tom",
+       "Linh"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: Tom phụ trách mạng xã hội.",
+       "2": "Sai: Linh phụ trách email khách hàng."
+      }
+     },
+     {
+      "q": "Tom hay làm muộn vào ngày nào?",
+      "opts": [
+       "thứ Năm",
+       "thứ Hai",
+       "thứ Sáu"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: bài viết often works late on Thursdays (thứ Năm).",
+       "2": "Sai: bài không nhắc đến thứ Sáu."
+      }
+     },
+     {
+      "q": "Linh chịu trách nhiệm việc gì?",
+      "opts": [
+       "trả lời email khách hàng",
+       "mạng xã hội",
+       "bản tin hằng tuần"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: mạng xã hội là việc của Tom.",
+       "2": "Sai: bản tin hằng tuần là việc của An."
+      }
+     },
+     {
+      "q": "Đúng hay sai: \"An is helping Tom this week.\"",
+      "opts": [
+       "Sai",
+       "Đúng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Không đúng: bài viết This week she is helping Linh, không phải Tom."
+      }
+     },
+     {
+      "q": "Dự án mới của Linh dành cho khi nào?",
+      "opts": [
+       "tháng Tư",
+       "tháng Ba",
+       "tuần sau"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: bài viết a new project for April (tháng Tư).",
+       "2": "Sai: bài không nói tuần sau."
+      }
+     }
+    ]
+   },
+   "confuse": [
+    {
+     "a": "staff",
+     "aipa": "/stɑːf/",
+     "am": "nhân viên (toàn bộ)",
+     "b": "stuff",
+     "bipa": "/stʌf/",
+     "bm": "đồ đạc, đồ lặt vặt",
+     "note": "staff có a, đọc 'xta-f' (a dài); stuff có u, đọc 'xtắp-f'.",
+     "qa": {
+      "t": "All ___ must wear an ID card.",
+      "vi": "Mọi nhân viên phải đeo thẻ."
+     },
+     "qb": {
+      "t": "Please take your ___ out of the meeting room.",
+      "vi": "Vui lòng mang đồ của bạn ra khỏi phòng họp."
+     }
+    },
+    {
+     "a": "colleague",
+     "aipa": "/ˈkɒl.iːɡ/",
+     "am": "đồng nghiệp",
+     "b": "college",
+     "bipa": "/ˈkɒl.ɪdʒ/",
+     "bm": "trường cao đẳng",
+     "note": "colleague kết thúc bằng âm /g/ ('co-li-g'); college kết thúc bằng /dʒ/ ('co-lịch').",
+     "qa": {
+      "t": "Linh is my new ___.",
+      "vi": "Linh là đồng nghiệp mới của tôi."
+     },
+     "qb": {
+      "t": "My sister studies at a ___ in Hanoi.",
+      "vi": "Em gái tôi học ở một trường cao đẳng ở Hà Nội."
+     }
+    },
+    {
+     "a": "role",
+     "aipa": "/rəʊl/",
+     "am": "vai trò",
+     "b": "roll",
+     "bipa": "/rəʊl/",
+     "bm": "cuộn; bánh mì tròn nhỏ",
+     "note": "Đọc giống hệt nhau, chỉ khác chữ viết: role (vai trò) có e cuối; roll (cuộn, ổ bánh mì nhỏ) có hai chữ l.",
+     "qa": {
+      "t": "What's your ___ in the team?",
+      "vi": "Vai trò của bạn trong nhóm là gì?"
+     },
+     "qb": {
+      "t": "I'd like a cheese ___ for lunch.",
+      "vi": "Trưa nay tôi muốn một ổ bánh mì phô mai."
+     }
+    },
+    {
+     "a": "manager",
+     "aipa": "/ˈmæn.ɪ.dʒər/",
+     "am": "quản lý",
+     "b": "manger",
+     "bipa": "/ˈmeɪn.dʒər/",
+     "bm": "máng cỏ",
+     "note": "manager có ba âm tiết, có a ở giữa (man-a-ger). Gõ thiếu a thành manger (máng cỏ) là lỗi hay gặp, mà máy kiểm tra chính tả không bắt được.",
+     "qa": {
+      "t": "Sarah is our ___.",
+      "vi": "Sarah là quản lý của chúng tôi."
+     },
+     "qb": {
+      "t": "The animals eat from the ___ on the farm.",
+      "vi": "Gia súc ăn ở máng cỏ trong trang trại."
+     }
+    }
+   ],
+   "write": {
+    "task": "Viết đoạn tự giới thiệu (4–5 câu) gửi nhóm chat của phòng.",
+    "kind": "message",
+    "model": "Hi everyone! I'm An, the new marketing assistant. I report to Sarah. I'm responsible for the weekly newsletter. This week I'm helping Linh with customer emails. I'm happy to work with you all!",
+    "frame": "Hi everyone! I'm ___, the new ___. I report to ___. I'm responsible for ___. This week I'm ___. I'm happy to work with you all!",
+    "gaps": [
+     "An",
+     "marketing assistant",
+     "Sarah",
+     "the weekly newsletter",
+     "helping Linh with customer emails"
+    ],
+    "free": [
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "hints": [
+     "I'm the new … (chức danh)",
+     "I report to … (cấp trên của bạn)",
+     "I'm responsible for / in charge of …",
+     "This week I'm + V-ing …",
+     "I'm happy to work with you all! / Nice to meet you all!"
+    ],
+    "check": [
+     "Có lời chào cả nhóm",
+     "Nói tên và chức danh",
+     "Nói trách nhiệm bằng responsible for / in charge of",
+     "Có một câu về tuần này với am + V-ing",
+     "Có câu kết thân thiện",
+     "Dài 30–70 từ"
+    ],
+    "words": [
+     30,
+     70
+    ]
+   }
+  },
+  {
+   "id": "a2-w1-thu-5",
+   "label": "Thứ 5",
+   "title": "Nhờ IT: đăng nhập, mật khẩu, cài đặt",
+   "desc": "Nhờ lịch sự (Can / Could you…?), làm theo và đưa hướng dẫn từng bước (First, click…; Then…) và hỏi cách làm (How do I…?) khi An không đăng nhập được laptop.",
+   "rule": "Can / Could you + động từ nguyên mẫu? Câu hướng dẫn bắt đầu bằng động từ (Click…, Type…), phủ định Don't + V. Hỏi cách làm: How do I + V?",
+   "cards": [
+    {
+     "w": "laptop",
+     "ipa": "/ˈlæp.tɒp/",
+     "m": "máy tính xách tay",
+     "ex": "This is your new laptop.",
+     "exm": "Đây là laptop mới của em.",
+     "n": "Nhấn âm đầu: LAP-top. Máy để bàn là desktop.",
+     "img": "laptop",
+     "spell": [
+      "labtop",
+      "laptob"
+     ]
+    },
+    {
+     "w": "log in",
+     "ipa": "/lɒɡ ˈɪn/",
+     "m": "đăng nhập",
+     "ex": "I can't log in to my laptop.",
+     "exm": "Em không đăng nhập được vào laptop.",
+     "n": "Động từ viết rời: log in (to…). Danh từ viết liền: your login. Nối âm: log‿in → 'lo-gin'.",
+     "img": "password",
+     "spell": [
+      "log on in",
+      "lock in"
+     ]
+    },
+    {
+     "w": "password",
+     "ipa": "/ˈpɑːs.wɜːd/",
+     "m": "mật khẩu",
+     "ex": "My password doesn't work.",
+     "exm": "Mật khẩu của em không dùng được.",
+     "n": "Nhấn PASS; w đọc nhẹ. Đừng nhầm với passport (hộ chiếu).",
+     "img": "password",
+     "spell": [
+      "passport",
+      "pasword"
+     ]
+    },
+    {
+     "w": "account",
+     "ipa": "/əˈkaʊnt/",
+     "m": "tài khoản",
+     "ex": "Your email account is ready.",
+     "exm": "Tài khoản email của em đã sẵn sàng.",
+     "n": "Nhấn âm hai: ac-COUNT. Đi với an: an account.",
+     "img": "email",
+     "spell": [
+      "acount",
+      "accaunt"
+     ]
+    },
+    {
+     "w": "set up",
+     "ipa": "/set ˈʌp/",
+     "m": "cài đặt, thiết lập (ban đầu)",
+     "ex": "Could you help me set up my email?",
+     "exm": "Anh giúp em cài email được không?",
+     "n": "Động từ viết rời: set up; danh từ viết liền: the setup. Nối âm: set‿up → 'xê-tắp'.",
+     "img": "laptop",
+     "spell": [
+      "sit up",
+      "setup up"
+     ]
+    },
+    {
+     "w": "reset",
+     "ipa": "/ˌriːˈset/",
+     "m": "đặt lại (mật khẩu, máy)",
+     "ex": "I can reset your password now.",
+     "exm": "Anh có thể đặt lại mật khẩu cho em ngay.",
+     "n": "re- = làm lại. reset a password = đặt lại mật khẩu khi quên hoặc bị khoá.",
+     "img": "password",
+     "spell": [
+      "re-sit",
+      "ressett"
+     ]
+    },
+    {
+     "w": "install",
+     "ipa": "/ɪnˈstɔːl/",
+     "m": "cài (phần mềm)",
+     "ex": "Can you install this program on my laptop?",
+     "exm": "Anh cài chương trình này vào laptop cho em được không?",
+     "n": "Nhấn âm hai: in-STALL. Gỡ bỏ là uninstall.",
+     "img": "laptop",
+     "spell": [
+      "instal",
+      "enstall"
+     ]
+    },
+    {
+     "w": "Wi-Fi",
+     "ipa": "/ˈwaɪ.faɪ/",
+     "m": "mạng Wi-Fi",
+     "ex": "The Wi-Fi password is on your welcome card.",
+     "exm": "Mật khẩu Wi-Fi in trên thẻ chào mừng của em.",
+     "n": "Đọc 'wai-phai', không đọc 'wi-phi'. connect to the Wi-Fi = kết nối Wi-Fi.",
+     "img": "laptop",
+     "spell": [
+      "Wi-Phi",
+      "Wai-Fai"
+     ]
+    },
+    {
+     "w": "IT support",
+     "ipa": "/ˌaɪˈtiː səˈpɔːt/",
+     "m": "bộ phận hỗ trợ IT",
+     "ex": "Call IT support on extension 205.",
+     "exm": "Gọi bộ phận IT theo số máy lẻ 205.",
+     "n": "IT đọc từng chữ 'ai-ti'. support nhấn âm hai: sup-PORT.",
+     "img": "laptop",
+     "spell": [
+      "IT suport",
+      "IT sapport"
+     ]
+    },
+    {
+     "w": "screen",
+     "ipa": "/skriːn/",
+     "m": "màn hình",
+     "ex": "My screen is black.",
+     "exm": "Màn hình của em bị đen.",
+     "n": "Cụm phụ âm scr- đọc liền: 'xcờ-ri-n', không chèn thêm âm.",
+     "img": "laptop",
+     "spell": [
+      "screan",
+      "scren"
+     ]
+    },
+    {
+     "w": "click",
+     "ipa": "/klɪk/",
+     "m": "bấm, nhấp chuột",
+     "ex": "Click the blue button.",
+     "exm": "Bấm vào nút màu xanh.",
+     "n": "click on / click đều được. Đọc 'cờ-líc', âm k cuối dứt khoát.",
+     "img": "laptop",
+     "spell": [
+      "klick",
+      "clik"
+     ]
+    },
+    {
+     "w": "work",
+     "ipa": "/wɜːk/",
+     "m": "chạy, hoạt động (máy móc)",
+     "ex": "The printer doesn't work.",
+     "exm": "Máy in không chạy.",
+     "n": "Ngoài nghĩa 'làm việc', work còn là 'hoạt động được'. Hỏng thì nói: It doesn't work.",
+     "img": "printer",
+     "spell": [
+      "walk",
+      "wurk"
+     ]
+    }
+   ],
+   "scene": {
+    "setting": "Sáng thứ Năm, An mở laptop mới nhưng không đăng nhập được. An gọi bộ phận IT, anh Dave nghe máy rồi hướng dẫn từng bước.",
+    "img": "scene-en-it",
+    "imgPrompt": "An office desk: an, with a yellow lanyard, holds a phone to her ear and looks at a laptop showing a blank login screen; dave, in a black hoodie with a headset, leans in and points at the screen, no readable text.",
+    "lines": [
+     {
+      "who": "An",
+      "t": "Hi, is this IT support? This is An from Marketing.",
+      "vi": "Alô, bộ phận IT phải không ạ? Em là An bên Marketing."
+     },
+     {
+      "who": "Dave",
+      "t": "Hi An, I'm Dave. How can I help?",
+      "vi": "Chào An, anh là Dave. Anh giúp gì được em?"
+     },
+     {
+      "who": "An",
+      "t": "I can't log in to my laptop. My password doesn't work.",
+      "vi": "Em không đăng nhập được laptop. Mật khẩu không dùng được."
+     },
+     {
+      "who": "Dave",
+      "t": "No problem. I can reset it for you. Is your laptop on the Wi-Fi?",
+      "vi": "Không sao. Anh đặt lại cho em. Laptop của em đã kết nối Wi-Fi chưa?"
+     },
+     {
+      "who": "An",
+      "t": "Yes, it is. Could you help me set up my email account too?",
+      "vi": "Rồi ạ. Anh giúp em cài luôn tài khoản email được không?"
+     },
+     {
+      "who": "Dave",
+      "t": "Sure. First, click Settings. Then click Add account.",
+      "vi": "Được. Đầu tiên em bấm Settings. Sau đó bấm Add account."
+     },
+     {
+      "who": "An",
+      "t": "OK. How do I change my password later?",
+      "vi": "Vâng. Sau này em đổi mật khẩu thế nào ạ?"
+     },
+     {
+      "who": "Dave",
+      "t": "Go to the IT page and click Change password. Don't share it with anyone!",
+      "vi": "Em vào trang IT rồi bấm Change password. Đừng chia sẻ mật khẩu cho ai nhé!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Nhờ lịch sự: Can / Could you + động từ nguyên mẫu?",
+     "f": [
+      [
+       "Could you",
+       "help me",
+       "set up my email?"
+      ],
+      [
+       "Can you",
+       "reset",
+       "my password?"
+      ]
+     ],
+     "ex": [
+      [
+       "Could you help me, please?",
+       "Anh giúp em được không ạ?"
+      ],
+      [
+       "Can you send me the link?",
+       "Anh gửi em đường link được không?"
+      ]
+     ],
+     "bad": "Could you helping me?",
+     "good": "Could you help me?",
+     "why": "Sau can / could là động từ nguyên mẫu. Could you…? lịch sự hơn Can you…?; thêm please ở cuối càng lịch sự."
+    },
+    {
+     "t": "Hướng dẫn từng bước: First / Then + động từ nguyên mẫu",
+     "f": [
+      [
+       "First,",
+       "click",
+       "Settings."
+      ],
+      [
+       "Then",
+       "type",
+       "your new password."
+      ]
+     ],
+     "ex": [
+      [
+       "First, open the IT page. Then click Change password.",
+       "Đầu tiên mở trang IT. Sau đó bấm Change password."
+      ],
+      [
+       "Don't share your password.",
+       "Đừng chia sẻ mật khẩu."
+      ]
+     ],
+     "bad": "First, you clicks Settings.",
+     "good": "First, click Settings.",
+     "why": "Câu hướng dẫn dùng động từ nguyên mẫu đứng đầu câu, không cần you và không thêm -s. Phủ định: Don't + V."
+    },
+    {
+     "t": "Hỏi cách làm: How do I + V?",
+     "f": [
+      [
+       "How",
+       "do I",
+       "log in?"
+      ],
+      [
+       "How",
+       "do I",
+       "change my password?"
+      ]
+     ],
+     "ex": [
+      [
+       "How do I connect to the Wi-Fi?",
+       "Kết nối Wi-Fi thế nào ạ?"
+      ],
+      [
+       "How do I install this program?",
+       "Cài chương trình này thế nào ạ?"
+      ]
+     ],
+     "bad": "How I can log in?",
+     "good": "How do I log in?",
+     "why": "Câu hỏi cần do (hoặc can) đứng TRƯỚC I: How do I…? / How can I…?"
+    }
+   ],
+   "vocab": [
+    {
+     "q": "'reset a password' nghĩa là gì?",
+     "opts": [
+      "đặt lại mật khẩu",
+      "quên mật khẩu",
+      "chia sẻ mật khẩu"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: quên mật khẩu là forget a password.",
+      "2": "Sai: chia sẻ mật khẩu là share a password."
+     }
+    },
+    {
+     "q": "Điền từ: I can't ___ to my laptop. My password is wrong.",
+     "opts": [
+      "log in",
+      "install",
+      "click"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: install (cài phần mềm) không liên quan đến mật khẩu sai.",
+      "2": "Sai: click không đi với to my laptop theo nghĩa này."
+     }
+    },
+    {
+     "q": "Điền từ: Could you help me ___ my new laptop?",
+     "opts": [
+      "set up",
+      "reset",
+      "log"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: reset là đặt lại; máy mới cần cài đặt ban đầu (set up).",
+      "2": "Sai: log phải đi với in (log in) và không có tân ngữ là máy."
+     }
+    },
+    {
+     "q": "Điền từ: My laptop is very slow. Can I call ___?",
+     "opts": [
+      "IT support",
+      "the customer",
+      "reception"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: khách hàng không sửa máy tính cho bạn.",
+      "2": "Sai: lễ tân đón khách, không phải bộ phận sửa máy."
+     }
+    },
+    {
+     "q": "'install' nghĩa là gì?",
+     "opts": [
+      "cài (phần mềm)",
+      "gỡ bỏ (phần mềm)",
+      "tải lên"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: gỡ bỏ là uninstall.",
+      "2": "Sai: tải lên là upload."
+     }
+    },
+    {
+     "q": "Điền từ: ___ the blue button to save.",
+     "opts": [
+      "Click",
+      "Log",
+      "Reset"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: log không dùng với button.",
+      "2": "Sai: reset không phải hành động bấm nút để lưu."
+     }
+    },
+    {
+     "q": "Điền từ: The ___ is black. I can't see anything.",
+     "opts": [
+      "screen",
+      "password",
+      "account"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: mật khẩu không có màu đen để nhìn.",
+      "2": "Sai: tài khoản không 'màu đen'; thứ bạn nhìn vào là màn hình."
+     }
+    },
+    {
+     "q": "Điền từ: Your new email ___ is ready. You can log in now.",
+     "opts": [
+      "account",
+      "screen",
+      "Wi-Fi"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: email screen không phải cách nói 'tài khoản email'.",
+      "2": "Sai: email Wi-Fi không có nghĩa."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "Could you help me, please?",
+      "Could you helping me, please?",
+      "Could you to help me, please?"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau could dùng động từ nguyên mẫu, không dùng -ing.",
+      "2": "Sai: sau could không có to."
+     }
+    },
+    {
+     "q": "Câu hướng dẫn nào đúng?",
+     "opts": [
+      "First, click Settings.",
+      "First, you clicks Settings.",
+      "First, clicking Settings."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu hướng dẫn không cần you và không thêm -s.",
+      "2": "Sai: câu hướng dẫn bắt đầu bằng động từ nguyên mẫu, không phải -ing."
+     }
+    },
+    {
+     "q": "Câu hỏi nào đúng?",
+     "opts": [
+      "How do I log in?",
+      "How I can log in?",
+      "How do I logging in?"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: phải đảo can lên trước I (How can I log in?).",
+      "2": "Sai: sau do I là động từ nguyên mẫu, không dùng -ing."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền: ___ share your password with anyone. (Đừng…)",
+     "model": "Don't",
+     "accept": [
+      "Don't",
+      "Do not",
+      "don't",
+      "do not"
+     ],
+     "why": "Câu mệnh lệnh phủ định: Don't + động từ nguyên mẫu."
+    },
+    {
+     "q": "Điền từ: My password ___ work.",
+     "opts": [
+      "doesn't",
+      "don't",
+      "isn't"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: my password là số ít, dùng doesn't.",
+      "2": "Sai: work là động từ thường nên phủ định bằng doesn't, không dùng isn't."
+     }
+    },
+    {
+     "q": "Điền từ: Can you ___ this program on my laptop?",
+     "opts": [
+      "install",
+      "installing",
+      "installs"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau can dùng động từ nguyên mẫu.",
+      "2": "Sai: sau can không thêm -s."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu hỏi: do / How / connect / I / to the Wi-Fi / ?",
+     "model": "How do I connect to the Wi-Fi?",
+     "accept": [
+      "How do I connect to the Wi-Fi?",
+      "How do I connect to the Wi-Fi",
+      "How do I connect to the wifi?"
+     ],
+     "why": "How + do I + động từ: How do I connect to the Wi-Fi?"
+    }
+   ],
+   "listen": [
+    {
+     "q": "An gặp vấn đề gì?",
+     "audio": "I can't log in. My password doesn't work.",
+     "opts": [
+      "không đăng nhập được",
+      "mất laptop",
+      "không có Wi-Fi"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không nói mất máy.",
+      "2": "Sai: câu không nhắc đến Wi-Fi."
+     }
+    },
+    {
+     "q": "Dave sẽ làm gì?",
+     "audio": "I can reset your password now.",
+     "opts": [
+      "đặt lại mật khẩu",
+      "cài phần mềm",
+      "đổi laptop mới"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: không nghe thấy install.",
+      "2": "Sai: không nghe thấy new laptop."
+     }
+    },
+    {
+     "q": "Bước đầu tiên là gì?",
+     "audio": "First, click Settings. Then click Add account.",
+     "opts": [
+      "bấm Settings",
+      "bấm Add account",
+      "tắt máy"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: Add account là bước thứ hai (Then).",
+      "2": "Sai: câu không nói tắt máy."
+     }
+    },
+    {
+     "q": "Mật khẩu Wi-Fi ở đâu?",
+     "audio": "The Wi-Fi password is on your welcome card.",
+     "opts": [
+      "trên thẻ chào mừng",
+      "ở quầy lễ tân",
+      "trong email"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không nhắc đến reception.",
+      "2": "Sai: câu không nhắc đến email."
+     }
+    },
+    {
+     "q": "An nhờ Dave làm gì?",
+     "audio": "Could you install the design program on my laptop?",
+     "opts": [
+      "cài chương trình thiết kế",
+      "đổi màn hình",
+      "đặt lại mật khẩu"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không nhắc đến screen.",
+      "2": "Sai: câu dùng install (cài), không phải reset."
+     }
+    },
+    {
+     "q": "Dave dặn An điều gì?",
+     "audio": "Don't share your password with anyone.",
+     "opts": [
+      "không chia sẻ mật khẩu",
+      "đổi mật khẩu mỗi ngày",
+      "ghi mật khẩu ra giấy"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không nói every day.",
+      "2": "Sai: câu không nói ghi ra giấy; câu dặn Don't share."
+     }
+    },
+    {
+     "q": "Người nói hỏi gì?",
+     "audio": "How do I change my password?",
+     "opts": [
+      "cách đổi mật khẩu",
+      "mật khẩu là gì",
+      "ai giữ mật khẩu"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: hỏi mật khẩu là gì sẽ là What is my password?",
+      "2": "Sai: hỏi ai sẽ bắt đầu bằng Who."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "TOEIC Part 1 – Nhìn tranh cảnh hôm nay, nghe ba câu A, B, C, chọn câu tả đúng tranh.",
+     "audio": "A. A man is helping a woman with her laptop. B. A woman is opening a window. C. Two people are carrying a printer.",
+     "opts": [
+      "A",
+      "B",
+      "C"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: trong tranh không ai mở cửa sổ.",
+      "2": "Sai: không ai đang khiêng máy in."
+     }
+    },
+    {
+     "q": "TOEIC Part 2 – Nghe câu hỏi, chọn câu đáp phù hợp nhất.",
+     "audio": "Could you help me set up my email?",
+     "opts": [
+      "Sure, I'll come to your desk now.",
+      "It's my email address.",
+      "Yes, I set it."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: bẫy lặp từ email; câu không trả lời lời nhờ.",
+      "2": "Sai: bẫy lặp từ set; câu không hợp nghĩa."
+     }
+    },
+    {
+     "q": "TOEIC Part 2 – Nghe câu hỏi, chọn câu đáp phù hợp nhất.",
+     "audio": "How do I log in to the system?",
+     "opts": [
+      "Use your staff ID and password.",
+      "At nine o'clock.",
+      "It's a new system."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu hỏi How (cách làm), không hỏi giờ.",
+      "2": "Sai: bẫy lặp từ system; câu không nói cách đăng nhập."
+     }
+    },
+    {
+     "q": "TOEIC Part 5 – Chọn từ đúng: Please ___ your password every three months.",
+     "opts": [
+      "change",
+      "changes",
+      "changing",
+      "changed"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau Please dùng động từ nguyên mẫu.",
+      "2": "Sai: sau Please không dùng -ing.",
+      "3": "Sai: câu mệnh lệnh không dùng quá khứ."
+     }
+    },
+    {
+     "q": "TOEIC Part 5 – Chọn từ đúng: Could you ___ me with my laptop?",
+     "opts": [
+      "help",
+      "helps",
+      "helping",
+      "to help"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau could không thêm -s.",
+      "2": "Sai: sau could không dùng -ing.",
+      "3": "Sai: sau could không có to."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "log in",
+     "focus": "Nối log‿in → 'lo-gin'; nhấn vào in."
+    },
+    {
+     "t": "password",
+     "focus": "Nhấn PASS (a dài kiểu Anh); w đọc nhẹ, cuối 'uơđ'."
+    },
+    {
+     "t": "set up",
+     "focus": "Nối set‿up → 'xê-tắp'; nhấn up."
+    },
+    {
+     "t": "Wi-Fi",
+     "focus": "Đọc 'wai-phai', cả hai âm đều là /aɪ/."
+    },
+    {
+     "t": "Could you help me, please?",
+     "focus": "Could you nối thành 'cu-diu'; lên giọng nhẹ ở please."
+    },
+    {
+     "t": "First, click Settings.",
+     "focus": "Giữ cụm -rst ở First; cl- trong click đọc liền 'cờ-líc'."
+    },
+    {
+     "t": "My password doesn't work.",
+     "focus": "doesn't đọc 'đơ-zần', âm t cuối nhẹ; work: 'uơ-k', không đọc thành walk."
+    },
+    {
+     "t": "How do I change my password?",
+     "focus": "do I đọc lướt 'đu-ai'; câu hỏi Wh- xuống giọng ở cuối."
+    }
+   ],
+   "dialog": {
+    "title": "Bạn gọi bộ phận IT nhờ giúp vì không đăng nhập được. Đổi vai: bạn là IT, hướng dẫn từng bước.",
+    "partner": "Dave",
+    "turns": [
+     {
+      "ai": "IT support, Dave speaking. How can I help?",
+      "vi": "Bộ phận IT, Dave nghe. Anh giúp gì được?",
+      "model": "Hi Dave, this is An from Marketing. I can't log in.",
+      "accept": [
+       "Hi Dave, this is An from Marketing. I can't log in.",
+       "This is An from Marketing. I can't log in.",
+       "Hi Dave, I can't log in.",
+       "I can't log in to my laptop."
+      ],
+      "frame": "Hi Dave, this is An from Marketing. I can't ___.",
+      "hint": "Giới thiệu mình (this is An from Marketing) rồi nói vấn đề: I can't log in."
+     },
+     {
+      "ai": "OK. Is your password correct?",
+      "vi": "Ừ. Mật khẩu của em đúng chưa?",
+      "model": "Yes, but it doesn't work.",
+      "accept": [
+       "Yes, but it doesn't work.",
+       "Yes, but my password doesn't work.",
+       "Yes, it is, but it doesn't work.",
+       "I think so, but it doesn't work."
+      ],
+      "frame": "Yes, but it doesn't ___.",
+      "hint": "Nói mật khẩu đúng mà không dùng được: it doesn't work."
+     },
+     {
+      "ai": "No problem. I can reset it now.",
+      "vi": "Không sao. Anh đặt lại ngay cho em.",
+      "model": "Thank you! Could you send me the new password?",
+      "accept": [
+       "Thank you! Could you send me the new password?",
+       "Could you send me the new password?",
+       "Thanks! Can you send me the new password?",
+       "Could you send it to me, please?"
+      ],
+      "frame": "Thank you! Could you ___ me the new password?",
+      "hint": "Nhờ gửi mật khẩu mới: Could you + send me + the new password?"
+     },
+     {
+      "ai": "Sure, I'm sending it to your phone. Then please change it on the IT page.",
+      "vi": "Được, anh đang gửi vào điện thoại em. Sau đó em đổi lại trên trang IT nhé.",
+      "model": "How do I change it?",
+      "accept": [
+       "How do I change it?",
+       "How do I change my password?",
+       "How can I change it?",
+       "OK. How do I change it?"
+      ],
+      "frame": "How ___ I change it?",
+      "hint": "Hỏi cách đổi: How do I + change it?"
+     },
+     {
+      "ai": "Click Change password and type a new one.",
+      "vi": "Bấm Change password rồi gõ mật khẩu mới.",
+      "model": "Great, thanks for your help!",
+      "accept": [
+       "Great, thanks for your help!",
+       "Thanks for your help!",
+       "Thank you for your help!",
+       "Great, thank you!"
+      ],
+      "frame": "Great, thanks for your ___!",
+      "hint": "Cảm ơn vì đã giúp: Thanks for your help!"
+     }
+    ]
+   },
+   "reading": {
+    "title": "Hướng dẫn cài tài khoản và đổi mật khẩu",
+    "text": "HOW TO SET UP YOUR ACCOUNT\n1. Turn on your laptop and connect to the Wi-Fi BrightStar-Staff. The Wi-Fi password is on your welcome card.\n2. Log in with your staff ID and the password from IT.\n3. Open the IT page and click Change password. Your new password must have 8 or more letters and numbers.\n4. Don't share your password. Change it every three months.\nProblems? Call IT support on extension 205 or email Dave.",
+    "vi": "CÁCH CÀI TÀI KHOẢN\n1. Bật laptop và kết nối Wi-Fi BrightStar-Staff. Mật khẩu Wi-Fi in trên thẻ chào mừng.\n2. Đăng nhập bằng mã nhân viên và mật khẩu bộ phận IT gửi.\n3. Mở trang IT và bấm Change password. Mật khẩu mới phải có từ 8 ký tự trở lên, gồm chữ và số.\n4. Không chia sẻ mật khẩu. Ba tháng đổi một lần.\nGặp sự cố? Gọi IT theo số máy lẻ 205 hoặc email cho Dave.",
+    "qs": [
+     {
+      "q": "Mật khẩu Wi-Fi ở đâu?",
+      "opts": [
+       "trên thẻ chào mừng",
+       "trên tường trong bếp",
+       "trong hợp đồng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: bài không nhắc đến bếp.",
+       "2": "Sai: bài viết on your welcome card."
+      }
+     },
+     {
+      "q": "Đăng nhập lần đầu bằng gì?",
+      "opts": [
+       "mã nhân viên và mật khẩu IT gửi",
+       "email và số điện thoại",
+       "họ tên và ngày sinh"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: bài viết staff ID and the password from IT.",
+       "2": "Sai: bài không dùng tên hay ngày sinh để đăng nhập."
+      }
+     },
+     {
+      "q": "Mật khẩu mới phải thế nào?",
+      "opts": [
+       "từ 8 ký tự trở lên, có chữ và số",
+       "đúng 6 chữ số",
+       "chỉ có chữ cái"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: bài viết 8 or more, không phải 6.",
+       "2": "Sai: bài yêu cầu cả letters and numbers."
+      }
+     },
+     {
+      "q": "Đúng hay sai: \"You should change your password every month.\"",
+      "opts": [
+       "Sai",
+       "Đúng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Không đúng: bài viết every three months (ba tháng một lần)."
+      }
+     },
+     {
+      "q": "Gặp sự cố thì làm gì?",
+      "opts": [
+       "gọi số máy lẻ 205 hoặc email cho Dave",
+       "hỏi Sarah",
+       "lên phòng nhân sự"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: bài không bảo hỏi Sarah.",
+       "2": "Sai: bài không nhắc đến HR."
+      }
+     }
+    ]
+   },
+   "confuse": [
+    {
+     "a": "password",
+     "aipa": "/ˈpɑːs.wɜːd/",
+     "am": "mật khẩu",
+     "b": "passport",
+     "bipa": "/ˈpɑːs.pɔːt/",
+     "bm": "hộ chiếu",
+     "note": "Cùng bắt đầu bằng pass-. password có word (từ) nên là 'mật khẩu'; passport có port (cảng) nên là 'hộ chiếu'.",
+     "qa": {
+      "t": "Please change your ___ every three months.",
+      "vi": "Ba tháng đổi mật khẩu một lần nhé."
+     },
+     "qb": {
+      "t": "Bring your ___ and two photos to HR.",
+      "vi": "Mang hộ chiếu và hai ảnh lên phòng nhân sự."
+     }
+    },
+    {
+     "a": "lose",
+     "aipa": "/luːz/",
+     "am": "mất, đánh mất",
+     "b": "loose",
+     "bipa": "/luːs/",
+     "bm": "lỏng",
+     "note": "lose có một chữ o, đọc 'lu-z'; loose có hai chữ o, đọc 'lu-s'.",
+     "qa": {
+      "t": "Don't ___ your ID card!",
+      "vi": "Đừng làm mất thẻ nhân viên nhé!"
+     },
+     "qb": {
+      "t": "This cable is ___. Please check it.",
+      "vi": "Dây cáp này bị lỏng. Kiểm tra giúp tôi."
+     }
+    },
+    {
+     "a": "log in",
+     "aipa": "/lɒɡ ˈɪn/",
+     "am": "đăng nhập (động từ)",
+     "b": "login",
+     "bipa": "/ˈlɒɡ.ɪn/",
+     "bm": "thông tin đăng nhập (danh từ)",
+     "note": "Động từ viết rời, nhấn in: I can't log in. Danh từ viết liền, nhấn log: your login details.",
+     "qa": {
+      "t": "I can't ___ to my laptop.",
+      "vi": "Tôi không đăng nhập được laptop."
+     },
+     "qb": {
+      "t": "Your ___ details are in this email.",
+      "vi": "Thông tin đăng nhập có trong email này."
+     }
+    },
+    {
+     "a": "borrow",
+     "aipa": "/ˈbɒr.əʊ/",
+     "am": "mượn (của ai)",
+     "b": "lend",
+     "bipa": "/lend/",
+     "bm": "cho (ai) mượn",
+     "note": "borrow: mình nhận đồ của người khác (borrow from). lend: mình đưa đồ cho người khác (lend to). Tiếng Việt chỉ khác nhau chữ 'cho'.",
+     "qa": {
+      "t": "Can I ___ your charger?",
+      "vi": "Tôi mượn sạc của bạn được không?"
+     },
+     "qb": {
+      "t": "Could you ___ me your charger?",
+      "vi": "Bạn cho tôi mượn sạc được không?"
+     }
+    }
+   ],
+   "write": {
+    "task": "Viết email (5–6 câu) nhờ bộ phận IT giúp vì không đăng nhập được laptop.",
+    "kind": "email",
+    "model": "Subject: Help with my laptop\n\nHi Dave,\n\nThis is An from the Marketing team. I can't log in to my laptop. My password doesn't work. Could you reset it for me, please? I also need help to set up my email account. I'm at my desk on the second floor. Thank you!\n\nBest,\nAn",
+    "frame": "Subject: Help with my ___\n\nHi ___,\n\nThis is ___ from the ___ team. I can't ___ to my laptop. My password doesn't ___. Could you ___ it for me, please? I also need help to ___ my email account. I'm at my desk on the ___ floor. Thank you!\n\nBest,\n___",
+    "gaps": [
+     "laptop",
+     "Dave",
+     "An",
+     "Marketing",
+     "log in",
+     "work",
+     "reset",
+     "set up",
+     "second",
+     "An"
+    ],
+    "free": [
+     false,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true
+    ],
+    "hints": [
+     "This is … from the … team.",
+     "I can't log in. / My … doesn't work.",
+     "Could you … for me, please?",
+     "I also need help to …",
+     "I'm at my desk on the … floor.",
+     "Thank you! / Best, …"
+    ],
+    "check": [
+     "Tiêu đề nói rõ vấn đề",
+     "Có lời chào và giới thiệu bạn là ai",
+     "Nói vấn đề bằng can't / doesn't work",
+     "Có lời nhờ Could you…, please?",
+     "Nói chỗ ngồi để IT tìm bạn",
+     "Có lời cảm ơn và tên ở cuối",
+     "Dài 50–80 từ"
+    ],
+    "words": [
+     50,
+     80
+    ]
+   }
+  },
+  {
+   "id": "a2-w1-thu-6",
+   "label": "Thứ 6",
+   "title": "Cuối tuần đầu: kể lại và báo cáo quản lý",
+   "desc": "Kể việc đã làm bằng quá khứ đơn (I met…, I learned…), nói kế hoạch bằng be going to và hỏi han bằng How was…? / How did… go? khi An nói chuyện với Kevin và báo cáo Sarah.",
+   "rule": "Việc đã xong: quá khứ đơn (learned, finished; meet → met, go → went), phủ định didn't + V. Kế hoạch: am / is / are + going to + V. Hỏi: How was + N? / How did + N + go?",
+   "cards": [
+    {
+     "w": "first week",
+     "ipa": "/ˌfɜːst ˈwiːk/",
+     "m": "tuần đầu tiên",
+     "ex": "How was your first week?",
+     "exm": "Tuần đầu của em thế nào?",
+     "n": "Âm t cuối first gần như nuốt khi đứng trước week: 'phơ-xuy-k'.",
+     "img": "calendar",
+     "spell": [
+      "first weak",
+      "firts week"
+     ]
+    },
+    {
+     "w": "learn",
+     "ipa": "/lɜːn/",
+     "m": "học, học được",
+     "ex": "I learned a lot this week.",
+     "exm": "Tuần này tôi học được rất nhiều.",
+     "n": "Quá khứ: learned (kiểu Anh cũng viết learnt). -ed ở đây đọc /d/: 'lơ-nđ'.",
+     "img": "training",
+     "spell": [
+      "lern",
+      "laern"
+     ]
+    },
+    {
+     "w": "meet",
+     "ipa": "/miːt/",
+     "m": "gặp",
+     "ex": "I met the whole team on Wednesday.",
+     "exm": "Thứ Tư tôi đã gặp cả nhóm.",
+     "n": "Bất quy tắc: meet → met. meet đọc 'mi-t' dài; met đọc 'mét' ngắn.",
+     "img": "handshake",
+     "spell": [
+      "meat",
+      "met"
+     ]
+    },
+    {
+     "w": "finish",
+     "ipa": "/ˈfɪn.ɪʃ/",
+     "m": "làm xong, hoàn thành",
+     "ex": "I finished the newsletter yesterday.",
+     "exm": "Hôm qua tôi làm xong bản tin.",
+     "n": "Quá khứ finished, -ed đọc /t/: 'phi-nisht'. finish + N / V-ing: finish writing.",
+     "img": "work",
+     "spell": [
+      "finnish",
+      "finsh"
+     ]
+    },
+    {
+     "w": "question",
+     "ipa": "/ˈkwes.tʃən/",
+     "m": "câu hỏi",
+     "ex": "Do you have any questions?",
+     "exm": "Em có câu hỏi gì không?",
+     "n": "-tion ở đây đọc 'chần': 'quét-chần'. ask a question = đặt câu hỏi.",
+     "img": "question",
+     "spell": [
+      "quesion",
+      "qestion"
+     ]
+    },
+    {
+     "w": "feedback",
+     "ipa": "/ˈfiːd.bæk/",
+     "m": "nhận xét, góp ý",
+     "ex": "Linh gave me some feedback on my email.",
+     "exm": "Linh góp ý cho email của tôi.",
+     "n": "Không đếm được: some feedback (không nói a feedback / feedbacks). Nhấn FEED-back.",
+     "img": "colleague",
+     "spell": [
+      "feed back",
+      "fidback"
+     ]
+    },
+    {
+     "w": "plan",
+     "ipa": "/plæn/",
+     "m": "kế hoạch",
+     "ex": "What's your plan for next week?",
+     "exm": "Kế hoạch tuần sau của bạn là gì?",
+     "n": "Đọc 'ple-n'. Đừng nhầm với plane (máy bay, có e cuối).",
+     "img": "calendar",
+     "spell": [
+      "plane",
+      "plann"
+     ]
+    },
+    {
+     "w": "next week",
+     "ipa": "/ˌnekst ˈwiːk/",
+     "m": "tuần sau",
+     "ex": "Next week I'm going to start my training.",
+     "exm": "Tuần sau tôi sẽ bắt đầu đào tạo.",
+     "n": "Không thêm on hay in: next week, next Monday (không nói in next week).",
+     "img": "calendar",
+     "spell": [
+      "nex week",
+      "next weak"
+     ]
+    },
+    {
+     "w": "training",
+     "ipa": "/ˈtreɪ.nɪŋ/",
+     "m": "khoá đào tạo, buổi tập huấn",
+     "ex": "The training is three days.",
+     "exm": "Khoá đào tạo kéo dài ba ngày.",
+     "n": "Thường không đếm được: some training, a training course. tr- đọc liền 'trây'.",
+     "img": "training",
+     "spell": [
+      "traning",
+      "trainning"
+     ]
+    },
+    {
+     "w": "go well",
+     "ipa": "/ɡəʊ ˈwel/",
+     "m": "diễn ra tốt đẹp",
+     "ex": "My first week went well.",
+     "exm": "Tuần đầu của tôi diễn ra tốt đẹp.",
+     "n": "Quá khứ: went well. Hỏi: How did it go? – It went well.",
+     "img": "thanks",
+     "spell": [
+      "go wel",
+      "goes well"
+     ]
+    },
+    {
+     "w": "look forward to",
+     "ipa": "/lʊk ˈfɔː.wəd tə/",
+     "m": "mong chờ, mong đợi",
+     "ex": "I'm looking forward to the training.",
+     "exm": "Tôi đang mong đến buổi đào tạo.",
+     "n": "to ở đây là giới từ: look forward to + N / V-ing (looking forward to meeting you), không dùng V nguyên mẫu.",
+     "img": "new",
+     "spell": [
+      "look foward to",
+      "look forward too"
+     ]
+    },
+    {
+     "w": "have a nice weekend",
+     "ipa": "/hæv ə ˌnaɪs ˌwiːkˈend/",
+     "m": "chúc cuối tuần vui vẻ",
+     "ex": "Have a nice weekend! See you on Monday.",
+     "exm": "Chúc cuối tuần vui vẻ! Thứ Hai gặp lại nhé.",
+     "n": "Câu chào chiều thứ Sáu. Đáp lại: You too!",
+     "img": "bye",
+     "spell": [
+      "have a nice weak end",
+      "have an nice weekend"
+     ]
+    }
+   ],
+   "scene": {
+    "setting": "Chiều thứ Sáu, hết tuần làm việc đầu tiên. Kevin ghé bàn An hỏi chuyện, rồi Sarah gọi An vào nói chuyện ngắn về tuần đầu và kế hoạch tuần sau.",
+    "img": "scene-en-friday",
+    "imgPrompt": "Late afternoon light in an open-plan office: kevin, in glasses and a navy shirt, leans on an's desk chatting with a smile while an, with a yellow lanyard, closes her laptop; sarah, in a charcoal blazer, walks towards them holding a tablet, no readable text.",
+    "lines": [
+     {
+      "who": "Kevin",
+      "t": "Hi An! How was your first week?",
+      "vi": "Chào An! Tuần đầu của em thế nào?"
+     },
+     {
+      "who": "An",
+      "t": "It was great! I met the whole team and I learned a lot.",
+      "vi": "Tuyệt lắm anh! Em đã gặp cả nhóm và học được rất nhiều."
+     },
+     {
+      "who": "Kevin",
+      "t": "Did you finish the newsletter?",
+      "vi": "Em làm xong bản tin chưa?"
+     },
+     {
+      "who": "An",
+      "t": "Yes, I finished it yesterday. Linh gave me some feedback.",
+      "vi": "Xong rồi ạ, hôm qua. Chị Linh còn góp ý cho em nữa."
+     },
+     {
+      "who": "Sarah",
+      "t": "An, how did your first week go?",
+      "vi": "An ơi, tuần đầu của em thế nào?"
+     },
+     {
+      "who": "An",
+      "t": "It went well, thanks. I helped Linh with customer emails.",
+      "vi": "Ổn lắm chị ạ. Em đã giúp chị Linh trả lời email khách hàng."
+     },
+     {
+      "who": "Sarah",
+      "t": "Good. Next week you're going to start your training.",
+      "vi": "Tốt. Tuần sau em sẽ bắt đầu khoá đào tạo."
+     },
+     {
+      "who": "An",
+      "t": "Great, I'm looking forward to it. Have a nice weekend!",
+      "vi": "Tuyệt quá, em rất mong. Chúc chị cuối tuần vui vẻ!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Kể việc đã xong: quá khứ đơn (V-ed / bất quy tắc), phủ định didn't + V",
+     "f": [
+      [
+       "I",
+       "met",
+       "the team."
+      ],
+      [
+       "I",
+       "learned",
+       "a lot."
+      ],
+      [
+       "I",
+       "didn't finish",
+       "the report."
+      ]
+     ],
+     "ex": [
+      [
+       "I met the whole team on Wednesday.",
+       "Thứ Tư tôi đã gặp cả nhóm."
+      ],
+      [
+       "We finished the newsletter yesterday.",
+       "Hôm qua chúng tôi làm xong bản tin."
+      ]
+     ],
+     "bad": "I meet the team yesterday.",
+     "good": "I met the team yesterday.",
+     "why": "Việc đã xong trong quá khứ (yesterday, on Monday, last week) dùng quá khứ đơn: thêm -ed (learned, finished) hoặc dạng bất quy tắc (meet → met, go → went). Tiếng Việt không đổi động từ nên người Việt hay quên."
+    },
+    {
+     "t": "Nói kế hoạch: am / is / are + going to + V",
+     "f": [
+      [
+       "I'm",
+       "going to",
+       "start my training."
+      ],
+      [
+       "We're",
+       "going to",
+       "visit a customer."
+      ]
+     ],
+     "ex": [
+      [
+       "Next week I'm going to start my training.",
+       "Tuần sau tôi sẽ bắt đầu đào tạo."
+      ],
+      [
+       "Kevin is going to visit a customer on Monday.",
+       "Thứ Hai Kevin sẽ đi gặp một khách hàng."
+      ]
+     ],
+     "bad": "Next week I going to start my training.",
+     "good": "Next week I'm going to start my training.",
+     "why": "be going to + V nói kế hoạch đã định; không được bỏ am / is / are. Sau going to là động từ nguyên mẫu."
+    },
+    {
+     "t": "Hỏi han: How was + N? / How did + N + go?",
+     "f": [
+      [
+       "How",
+       "was",
+       "your first week?"
+      ],
+      [
+       "How",
+       "did",
+       "the meeting go?"
+      ]
+     ],
+     "ex": [
+      [
+       "How was your first week? – It was great!",
+       "Tuần đầu thế nào? – Tuyệt lắm!"
+      ],
+      [
+       "How did the training go? – It went well.",
+       "Buổi đào tạo thế nào? – Ổn lắm."
+      ]
+     ],
+     "bad": "How was your first week go?",
+     "good": "How did your first week go?",
+     "why": "Có hai cách hỏi: How was + N? hoặc How did + N + go? Đừng trộn was với go. Trả lời: It was great / It went well."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "'feedback' là gì?",
+     "opts": [
+      "nhận xét, góp ý",
+      "phần thưởng",
+      "báo cáo tài chính"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: phần thưởng là reward / bonus.",
+      "2": "Sai: báo cáo tài chính là financial report."
+     }
+    },
+    {
+     "q": "Điền từ: I ___ a lot in my first week.",
+     "opts": [
+      "learned",
+      "met",
+      "finished"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: met (đã gặp) cần người theo sau (met the team); met a lot không tự nhiên.",
+      "2": "Sai: finished a lot không phải cách nói 'học được nhiều'."
+     }
+    },
+    {
+     "q": "Điền từ: Next week I'm going to start my ___. It's three days.",
+     "opts": [
+      "training",
+      "feedback",
+      "weekend"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: feedback (góp ý) không 'bắt đầu' và kéo dài ba ngày.",
+      "2": "Sai: weekend không 'bắt đầu vào tuần sau' theo nghĩa này."
+     }
+    },
+    {
+     "q": "'go well' nghĩa là gì?",
+     "opts": [
+      "diễn ra tốt đẹp",
+      "đi xa",
+      "đi nhanh"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: đi xa là go far.",
+      "2": "Sai: đi nhanh là go fast."
+     }
+    },
+    {
+     "q": "Điền từ: I'm looking ___ to the training.",
+     "opts": [
+      "forward",
+      "ahead",
+      "front"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: look ahead = nhìn về phía trước, không đi với to the training theo nghĩa 'mong chờ'.",
+      "2": "Sai: không có cụm look front to."
+     }
+    },
+    {
+     "q": "Điền từ: Have a nice ___! See you on Monday.",
+     "opts": [
+      "weekend",
+      "next week",
+      "plan"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: không nói Have a nice next week.",
+      "2": "Sai: Have a nice plan không phải câu chào."
+     }
+    },
+    {
+     "q": "Điền từ: What's your ___ for next week? – I'm going to write a report.",
+     "opts": [
+      "plan",
+      "question",
+      "feedback"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu trả lời là việc sẽ làm, nên hỏi plan (kế hoạch), không hỏi question.",
+      "2": "Sai: feedback là góp ý, không trả lời bằng việc sẽ làm."
+     }
+    },
+    {
+     "q": "Điền từ: Do you have any ___? – Yes, how do I book a meeting room?",
+     "opts": [
+      "questions",
+      "feedback",
+      "plans"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu trả lời là một câu hỏi, không phải góp ý.",
+      "2": "Sai: câu trả lời là một câu hỏi, không phải kế hoạch."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "I met the whole team on Wednesday.",
+      "I meet the whole team yesterday.",
+      "I meeted the whole team on Wednesday."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: có yesterday nên phải dùng quá khứ met.",
+      "2": "Sai: meet là động từ bất quy tắc, quá khứ là met, không thêm -ed."
+     }
+    },
+    {
+     "q": "Điền từ: I ___ the newsletter yesterday.",
+     "opts": [
+      "finished",
+      "finish",
+      "am finishing"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: có yesterday nên dùng quá khứ.",
+      "2": "Sai: am finishing là đang làm; câu nói việc đã xong hôm qua."
+     }
+    },
+    {
+     "q": "Câu phủ định nào đúng?",
+     "opts": [
+      "I didn't finish the report.",
+      "I didn't finished the report.",
+      "I not finished the report."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: sau didn't dùng động từ nguyên mẫu (finish).",
+      "2": "Sai: phủ định quá khứ cần didn't."
+     }
+    },
+    {
+     "q": "Câu nào đúng?",
+     "opts": [
+      "Next week I'm going to start my training.",
+      "Next week I going to start my training.",
+      "Next week I'm going start my training."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: thiếu am (I'm).",
+      "2": "Sai: thiếu to (going to start)."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền một từ: How ___ your first week? – It was great!",
+     "model": "was",
+     "accept": [
+      "was"
+     ],
+     "why": "How was + danh từ? (câu trả lời cũng dùng was: It was great)."
+    },
+    {
+     "q": "Điền từ: How did the meeting ___? – It went well.",
+     "opts": [
+      "go",
+      "went",
+      "going"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: đã có did thì động từ quay về nguyên mẫu go.",
+      "2": "Sai: sau did không dùng -ing."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: going to / We're / the customer / visit / on Monday / .",
+     "model": "We're going to visit the customer on Monday.",
+     "accept": [
+      "We're going to visit the customer on Monday.",
+      "We're going to visit the customer on Monday",
+      "We are going to visit the customer on Monday."
+     ],
+     "why": "We're + going to + V + tân ngữ + thời gian."
+    }
+   ],
+   "listen": [
+    {
+     "q": "Tuần đầu của người trả lời thế nào?",
+     "audio": "How was your first week? – It was great!",
+     "opts": [
+      "rất tốt",
+      "bình thường",
+      "mệt"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: great là rất tốt, không phải bình thường (OK).",
+      "2": "Sai: câu không có tired."
+     }
+    },
+    {
+     "q": "Người nói gặp cả nhóm vào hôm nào?",
+     "audio": "I met the whole team on Wednesday.",
+     "opts": [
+      "thứ Tư",
+      "thứ Hai",
+      "thứ Sáu"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: thứ Hai là Monday; câu nói Wednesday.",
+      "2": "Sai: thứ Sáu là Friday."
+     }
+    },
+    {
+     "q": "Khi nào người nói làm xong bản tin?",
+     "audio": "I finished the newsletter yesterday.",
+     "opts": [
+      "hôm qua",
+      "hôm nay",
+      "tuần sau"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói yesterday, không phải today.",
+      "2": "Sai: finished là đã xong, không phải tuần sau."
+     }
+    },
+    {
+     "q": "Tuần sau An sẽ làm gì?",
+     "audio": "Next week you're going to start your training.",
+     "opts": [
+      "bắt đầu khoá đào tạo",
+      "nghỉ phép",
+      "đi gặp khách hàng"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không nhắc đến holiday.",
+      "2": "Sai: câu không nhắc đến customer."
+     }
+    },
+    {
+     "q": "Linh đã làm gì?",
+     "audio": "Linh gave me some feedback on my email.",
+     "opts": [
+      "góp ý cho email của người nói",
+      "gửi email cho khách hàng",
+      "xin nghỉ phép"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói feedback on my email, không nói gửi cho khách.",
+      "2": "Sai: câu không nhắc đến nghỉ phép."
+     }
+    },
+    {
+     "q": "Khi nào người nói đi gặp khách hàng?",
+     "audio": "I'm going to visit a customer on Monday morning.",
+     "opts": [
+      "sáng thứ Hai",
+      "chiều thứ Hai",
+      "sáng thứ Sáu"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu nói morning, không phải afternoon.",
+      "2": "Sai: câu nói Monday, không phải Friday."
+     }
+    },
+    {
+     "q": "Người nói đang làm gì?",
+     "audio": "Have a nice weekend! See you on Monday.",
+     "opts": [
+      "chào tạm biệt cuối tuần",
+      "mời đi ăn tối",
+      "xin nghỉ thứ Hai"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu không có lời mời.",
+      "2": "Sai: See you on Monday nghĩa là thứ Hai vẫn gặp nhau."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "TOEIC Part 1 – Nhìn tranh cảnh hôm nay, nghe ba câu A, B, C, chọn câu tả đúng tranh.",
+     "audio": "A. Two colleagues are talking in the office. B. A man is repairing a laptop. C. A woman is signing a contract.",
+     "opts": [
+      "A",
+      "B",
+      "C"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: Kevin đang nói chuyện, không sửa laptop.",
+      "2": "Sai: An đang gập laptop, không ký hợp đồng."
+     }
+    },
+    {
+     "q": "TOEIC Part 2 – Nghe câu hỏi, chọn câu đáp phù hợp nhất.",
+     "audio": "How did your first week go?",
+     "opts": [
+      "It went really well, thanks.",
+      "Next Monday.",
+      "I go by bus."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu hỏi How… go? hỏi diễn ra thế nào, không hỏi khi nào.",
+      "2": "Sai: bẫy lặp từ go; câu này nói phương tiện đi lại."
+     }
+    },
+    {
+     "q": "TOEIC Part 2 – Nghe câu hỏi, chọn câu đáp phù hợp nhất.",
+     "audio": "What are you going to do next week?",
+     "opts": [
+      "I'm going to start my training.",
+      "I did it last week.",
+      "Yes, it's next week."
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: câu hỏi về tuần sau, câu này nói tuần trước.",
+      "2": "Sai: câu hỏi What không trả lời bằng Yes."
+     }
+    },
+    {
+     "q": "TOEIC Part 5 – Chọn từ đúng: An ___ the whole team last Wednesday.",
+     "opts": [
+      "met",
+      "meets",
+      "meeting",
+      "will meet"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: có last Wednesday nên dùng quá khứ.",
+      "2": "Sai: câu cần động từ chính; meeting đứng một mình không được.",
+      "3": "Sai: will meet là tương lai, mâu thuẫn với last Wednesday."
+     }
+    },
+    {
+     "q": "TOEIC Part 5 – Chọn từ đúng: We are going ___ the new project next month.",
+     "opts": [
+      "to start",
+      "start",
+      "starting",
+      "started"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Sai: thiếu to (going to start).",
+      "2": "Sai: going starting không đúng cấu trúc.",
+      "3": "Sai: sau going to là động từ nguyên mẫu, không dùng quá khứ."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "feedback",
+     "focus": "Nhấn FEED; âm d cuối feed nối nhẹ sang back."
+    },
+    {
+     "t": "look forward to",
+     "focus": "Nối look‿forward → 'lúc-pho-uơđ'; to đọc nhẹ /tə/."
+    },
+    {
+     "t": "learned",
+     "focus": "-ed đọc /d/: 'lơ-nđ', một âm tiết, không đọc 'lơ-nét'."
+    },
+    {
+     "t": "finished",
+     "focus": "-ed đọc /t/: 'phi-nisht', không thêm âm tiết."
+    },
+    {
+     "t": "How was your first week?",
+     "focus": "was đọc nhẹ /wəz/; nhấn FIRST WEEK; câu hỏi Wh- xuống giọng ở cuối."
+    },
+    {
+     "t": "It went really well, thanks.",
+     "focus": "went really nối liền; nhấn WELL; thanks đọc 'thanks' với th thổi hơi giữa hai răng."
+    },
+    {
+     "t": "I'm going to start my training next week.",
+     "focus": "going to đọc lướt; nhấn START và NEXT WEEK; training 'trây-ninh'."
+    },
+    {
+     "t": "Have a nice weekend!",
+     "focus": "Nối have‿a → 'he-vơ'; nhấn NICE và -END của weekend."
+    }
+   ],
+   "dialog": {
+    "title": "Chiều thứ Sáu, Sarah hỏi tuần đầu của bạn thế nào; bạn kể lại và hỏi kế hoạch tuần sau. Đổi vai: bạn hỏi một đồng nghiệp mới về tuần đầu của họ.",
+    "partner": "Sarah",
+    "turns": [
+     {
+      "ai": "Hi An! How was your first week?",
+      "vi": "Chào An! Tuần đầu của em thế nào?",
+      "model": "It was great, thank you!",
+      "accept": [
+       "It was great, thank you!",
+       "It was great!",
+       "It went well, thank you!",
+       "It was really good, thanks!",
+       "Great, thanks!"
+      ],
+      "frame": "It ___ great, thank you!",
+      "hint": "Trả lời: It was great / It went well."
+     },
+     {
+      "ai": "Good to hear. Who did you meet?",
+      "vi": "Chị mừng quá. Em đã gặp những ai?",
+      "model": "I met the whole team and Dave from IT.",
+      "accept": [
+       "I met the whole team and Dave from IT.",
+       "I met the whole team.",
+       "I met everyone in the team.",
+       "I met the team and Dave."
+      ],
+      "frame": "I ___ the whole team and Dave from IT.",
+      "hint": "Quá khứ của meet là met: I met + người."
+     },
+     {
+      "ai": "And what did you do this week?",
+      "vi": "Tuần này em làm những gì?",
+      "model": "I helped Linh with customer emails.",
+      "accept": [
+       "I helped Linh with customer emails.",
+       "I helped Linh.",
+       "I helped Linh with the customer emails.",
+       "I helped Linh and finished the newsletter."
+      ],
+      "frame": "I ___ Linh with customer emails.",
+      "hint": "Kể việc đã làm: help → helped."
+     },
+     {
+      "ai": "Great. Do you have any questions?",
+      "vi": "Tốt lắm. Em có câu hỏi gì không?",
+      "model": "Yes. What am I going to do next week?",
+      "accept": [
+       "Yes. What am I going to do next week?",
+       "What am I going to do next week?",
+       "Yes, what's my plan for next week?",
+       "What's the plan for next week?"
+      ],
+      "frame": "Yes. What am I ___ to do next week?",
+      "hint": "Hỏi kế hoạch tuần sau: What am I going to do…?"
+     },
+     {
+      "ai": "You're going to start your training on Monday.",
+      "vi": "Thứ Hai em sẽ bắt đầu khoá đào tạo.",
+      "model": "Great, I'm looking forward to it. Have a nice weekend!",
+      "accept": [
+       "Great, I'm looking forward to it. Have a nice weekend!",
+       "I'm looking forward to it.",
+       "Great! Have a nice weekend!",
+       "Great, I'm looking forward to it!"
+      ],
+      "frame": "Great, I'm looking ___ to it. Have a nice weekend!",
+      "hint": "Nói mình mong chờ (looking forward to it) và chúc cuối tuần vui vẻ."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Email tổng kết tuần đầu của một nhân viên khác (mẫu)",
+    "text": "Subject: My first week\n\nHi Mark,\n\nMy first week in the Sales team went really well. On Monday, I met everyone and set up my laptop. On Tuesday and Wednesday, I learned about our products. On Thursday, I visited a customer with Kevin. I didn't finish the customer report, but I'm going to finish it on Monday. Next week, I'm going to start my training.\n\nThank you for your help!\n\nBest wishes,\nMai",
+    "vi": "Tiêu đề: Tuần đầu của em\n\nAnh Mark thân mến,\n\nTuần đầu của em ở nhóm Sales diễn ra rất tốt. Thứ Hai em gặp mọi người và cài laptop. Thứ Ba và thứ Tư em tìm hiểu về các sản phẩm của công ty. Thứ Năm em đi gặp một khách hàng cùng anh Kevin. Em chưa làm xong báo cáo khách hàng, nhưng thứ Hai em sẽ hoàn thành. Tuần sau em sẽ bắt đầu khoá đào tạo.\n\nCảm ơn anh đã giúp đỡ!\n\nThân,\nMai",
+    "qs": [
+     {
+      "q": "Mai làm ở nhóm nào?",
+      "opts": [
+       "Sales",
+       "Marketing",
+       "IT"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: email viết my first week in the Sales team.",
+       "2": "Sai: email không nói Mai làm ở IT."
+      }
+     },
+     {
+      "q": "Thứ Năm Mai làm gì?",
+      "opts": [
+       "đi gặp khách hàng cùng Kevin",
+       "cài laptop",
+       "tìm hiểu về sản phẩm"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: cài laptop là thứ Hai.",
+       "2": "Sai: tìm hiểu sản phẩm là thứ Ba và thứ Tư."
+      }
+     },
+     {
+      "q": "Việc gì Mai chưa làm xong?",
+      "opts": [
+       "báo cáo khách hàng",
+       "khoá đào tạo",
+       "bản tin"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: khoá đào tạo tuần sau mới bắt đầu.",
+       "2": "Sai: email không nhắc đến bản tin."
+      }
+     },
+     {
+      "q": "Đúng hay sai: \"Mai learned about the products on Monday.\"",
+      "opts": [
+       "Sai",
+       "Đúng"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Không đúng: Mai tìm hiểu sản phẩm vào On Tuesday and Wednesday; thứ Hai Mai gặp mọi người và cài laptop."
+      }
+     },
+     {
+      "q": "Tuần sau Mai sẽ làm gì?",
+      "opts": [
+       "bắt đầu khoá đào tạo",
+       "nghỉ phép",
+       "chuyển sang nhóm Marketing"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Sai: email không nhắc đến nghỉ phép.",
+       "2": "Sai: email không nói chuyển nhóm."
+      }
+     }
+    ]
+   },
+   "confuse": [
+    {
+     "a": "plan",
+     "aipa": "/plæn/",
+     "am": "kế hoạch",
+     "b": "plane",
+     "bipa": "/pleɪn/",
+     "bm": "máy bay",
+     "note": "plane có e cuối nên a đọc 'ây': 'plây-n'; plan đọc 'ple-n'.",
+     "qa": {
+      "t": "What's your ___ for next week?",
+      "vi": "Kế hoạch tuần sau của bạn là gì?"
+     },
+     "qb": {
+      "t": "Kevin is taking a ___ to Singapore.",
+      "vi": "Kevin sẽ đi máy bay sang Singapore."
+     }
+    },
+    {
+     "a": "week",
+     "aipa": "/wiːk/",
+     "am": "tuần",
+     "b": "weak",
+     "bipa": "/wiːk/",
+     "bm": "yếu",
+     "note": "Đọc giống hệt nhau 'uy-k', chỉ khác chữ viết: week (ee) là tuần; weak (ea) là yếu.",
+     "qa": {
+      "t": "My first ___ went well.",
+      "vi": "Tuần đầu của tôi diễn ra tốt đẹp."
+     },
+     "qb": {
+      "t": "The Wi-Fi is ___ in the kitchen.",
+      "vi": "Ở trong bếp Wi-Fi yếu."
+     }
+    },
+    {
+     "a": "later",
+     "aipa": "/ˈleɪ.tər/",
+     "am": "lát nữa, sau đó",
+     "b": "latter",
+     "bipa": "/ˈlæt.ər/",
+     "bm": "cái sau (trong hai cái)",
+     "note": "later một chữ t, đọc 'lây-tơ'; latter hai chữ t, đọc 'le-tơ', hay gặp trong văn viết: the former… the latter….",
+     "qa": {
+      "t": "I'm busy now. Can I call you ___?",
+      "vi": "Giờ tôi đang bận. Lát nữa tôi gọi lại được không?"
+     },
+     "qb": {
+      "t": "We have two plans. The ___ is cheaper.",
+      "vi": "Ta có hai phương án. Phương án sau rẻ hơn."
+     }
+    },
+    {
+     "a": "meet",
+     "aipa": "/miːt/",
+     "am": "gặp (hiện tại)",
+     "b": "met",
+     "bipa": "/met/",
+     "bm": "đã gặp (quá khứ)",
+     "note": "meet có ee, đọc 'mi-t' dài; met có e, đọc 'mét' ngắn. met là quá khứ bất quy tắc của meet.",
+     "qa": {
+      "t": "I ___ my manager every Monday.",
+      "vi": "Thứ Hai nào tôi cũng gặp quản lý."
+     },
+     "qb": {
+      "t": "I ___ the whole team last week.",
+      "vi": "Tuần trước tôi đã gặp cả nhóm."
+     }
+    }
+   ],
+   "write": {
+    "task": "Viết email cuối tuần (60–80 từ) gửi quản lý Sarah: kể việc đã làm trong tuần đầu và kế hoạch tuần sau.",
+    "kind": "email",
+    "model": "Subject: My first week\n\nHi Sarah,\n\nMy first week went really well. On Monday, I filled in my forms and signed my contract. On Wednesday, I met the whole team. This week I helped Linh with customer emails and finished the newsletter. Linh gave me some useful feedback. Next week, I'm going to start my training. Thank you for your help!\n\nBest wishes,\nAn",
+    "frame": "Subject: My first week\n\nHi ___,\n\nMy first week went really ___. On Monday, I ___ my forms and signed my contract. On Wednesday, I ___ the whole team. This week I ___ Linh with customer emails and ___ the newsletter. Linh gave me some useful feedback. Next week, I'm going to ___ my training. Thank you for your help!\n\nBest wishes,\n___",
+    "gaps": [
+     "Sarah",
+     "well",
+     "filled in",
+     "met",
+     "helped",
+     "finished",
+     "start",
+     "An"
+    ],
+    "free": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "hints": [
+     "My first week went really well.",
+     "On Monday / On Wednesday, I + V-ed (met, learned, finished, helped)",
+     "I didn't + V…, but I'm going to…",
+     "Next week, I'm going to…",
+     "Thank you for your help!"
+    ],
+    "check": [
+     "Có tiêu đề và lời chào",
+     "Kể ít nhất 3 việc đã làm bằng quá khứ đơn",
+     "Động từ bất quy tắc đúng (meet → met, go → went)",
+     "Có ít nhất 1 kế hoạch với be going to",
+     "Có lời cảm ơn và tên ở cuối",
+     "Dài 60–80 từ"
+    ],
+    "words": [
+     60,
+     80
+    ]
+   }
+  }
+ ],
+ "newImages": [
+  {
+   "key": "form",
+   "prompt": "A blank paper form on a desk with a pen, an office HR setting, realistic photo, no readable text"
+  },
+  {
+   "key": "contract",
+   "prompt": "A hand signing a printed contract on a desk with a pen, close-up realistic photo, no readable text"
+  },
+  {
+   "key": "lift",
+   "prompt": "Open lift doors in a modern office building lobby, realistic photo, no readable signs"
+  },
+  {
+   "key": "meetingroom",
+   "prompt": "An empty glass-walled meeting room with a table, chairs and a screen, realistic photo, no text"
+  },
+  {
+   "key": "kitchen",
+   "prompt": "A bright office staff kitchen with a coffee machine, mugs and a fridge, realistic photo, no text"
+  },
+  {
+   "key": "printer",
+   "prompt": "An office printer with paper coming out, realistic photo, no logos or text"
+  },
+  {
+   "key": "reception",
+   "prompt": "A modern office reception desk with a receptionist smiling, realistic photo, no readable signs"
+  },
+  {
+   "key": "locker",
+   "prompt": "A row of grey staff lockers with small keys in an office corridor, realistic photo, no numbers or text"
+  },
+  {
+   "key": "laptop",
+   "prompt": "A new laptop opened on an office desk showing a blank blue screen, realistic photo, no logos or text"
+  },
+  {
+   "key": "password",
+   "prompt": "A laptop login screen with a password field shown as dots and a padlock icon, realistic photo, no readable text"
+  },
+  {
+   "key": "calendar",
+   "prompt": "A desk calendar with a week view and a few colourful sticky notes, realistic photo, no readable text"
+  },
+  {
+   "key": "training",
+   "prompt": "A small group of office workers in a training session watching a presenter at a whiteboard, realistic photo, no readable text"
+  }
+ ],
+ "newScenes": [
+  {
+   "key": "scene-en-hr",
+   "prompt": "A bright HR office: hoa, in a light grey blazer, hands a blank form and a pen across the desk to an, who smiles and sits with a yellow lanyard; a folder and a blank ID card on the desk, no readable text."
+  },
+  {
+   "key": "scene-en-tour",
+   "prompt": "A modern open-plan office corridor: tom, in a green sweater, points down the corridor while an, with a yellow lanyard and a notebook, listens and smiles; a glass meeting room and a printer in the background, no readable text."
+  },
+  {
+   "key": "scene-en-team",
+   "prompt": "A small glass-walled meeting room: sarah, in a charcoal blazer, stands at the head of the table introducing an to tom, linh and kevin, who smile and wave; laptops and coffee cups on the table, no readable text."
+  },
+  {
+   "key": "scene-en-it",
+   "prompt": "An office desk: an, with a yellow lanyard, holds a phone to her ear and looks at a laptop showing a blank login screen; dave, in a black hoodie with a headset, leans in and points at the screen, no readable text."
+  },
+  {
+   "key": "scene-en-friday",
+   "prompt": "Late afternoon light in an open-plan office: kevin, in glasses and a navy shirt, leans on an's desk chatting with a smile while an, with a yellow lanyard, closes her laptop; sarah, in a charcoal blazer, walks towards them holding a tablet, no readable text."
+  }
+ ]
+}

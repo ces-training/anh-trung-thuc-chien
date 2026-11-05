@@ -94,6 +94,64 @@ for wk in weeks:
             if not p.get("aen") or not p.get("ben"): E(f"{did}: cặp đếm nét {p['a']}/{p['b']} thiếu aen/ben")
         for g in gs:
             if not g.get("en"): E(f"{did}: chữ viết {g['ch']} thiếu en")
+
+# ---- tuần demo tiếng Anh (A2, B1): 14 bài, thêm U (spell), W (confuse), V (write) ----
+for f in sorted(glob.glob(os.path.join(D, "en-*-*.json"))):
+    en = json.load(open(f, encoding="utf-8"))
+    tag = os.path.basename(f)
+    if not en.get("demo"): continue
+    if len(en["days"]) != 5: E(f"{tag}: cần đủ 5 ngày")
+    for d in en["days"]:
+        did = d["id"]
+        if not 10 <= len(d["cards"]) <= 14: E(f"{did}: cần 10–14 thẻ")
+        for c in d["cards"]:
+            for k in ("w", "ipa", "m", "ex", "exm", "n"):
+                if not c.get(k): E(f"{did}: thẻ “{c.get('w')}” thiếu {k}")
+            sp = c.get("spell") or []
+            if len(sp) != 2 or c["w"] in sp or len(set(sp)) != 2: E(f"{did}: thẻ “{c['w']}” cần đúng 2 cách viết SAI khác nhau (spell)")
+        for l in d["scene"]["lines"]:
+            if not l.get("vi"): E(f"{did}: câu cảnh “{l['t']}” thiếu vi")
+        if not d["scene"].get("img"): E(f"{did}: cảnh thiếu img")
+        for p in d["patterns"]:
+            if not p.get("ex") or not p.get("bad") or not p.get("good") or not p.get("why"): E(f"{did}: mẫu “{p.get('t')}” thiếu ex/bad/good/why")
+        for t in d["dialog"]["turns"]:
+            for k in ("ai", "vi", "model", "accept", "frame", "hint"):
+                if not t.get(k): E(f"{did}: lượt hội thoại “{t.get('ai','')}” thiếu {k}")
+            if t.get("model") not in t.get("accept", []): E(f"{did}: câu mẫu “{t.get('model')}” chưa có trong accept")
+        for s_ in d["shadow"]:
+            if not s_.get("t") or not s_.get("focus"): E(f"{did}: câu nhại thiếu t/focus")
+        r = d.get("reading") or {}
+        if not r.get("text") or not r.get("vi") or not r.get("qs"): E(f"{did}: bài đọc thiếu text/vi/qs")
+        for sec in ("vocab", "grammar", "listen", "hsk", "reading"):
+            items = r.get("qs", []) if sec == "reading" else d.get(sec, [])
+            for it in items:
+                if it.get("k") == "type":
+                    if not it.get("accept") or not it.get("why"): E(f"{did}/{sec}: câu gõ “{it['q'][:30]}” thiếu accept/why")
+                    continue
+                o = it["opts"]
+                if not 2 <= len(o) <= 4 or len(set(o)) != len(o): E(f"{did}/{sec}: “{it['q'][:30]}” cần 2–4 đáp án khác nhau")
+                need = {str(i) for i in range(len(o)) if i != it["a"]}
+                if set(it.get("why", {})) != need: E(f"{did}/{sec}: “{it['q'][:30]}” phải giải thích đúng từng đáp án sai")
+        cf = d.get("confuse") or []
+        if len(cf) != 4: E(f"{did}: cần 4 cặp từ dễ nhầm (confuse)")
+        for c in cf:
+            for k in ("a", "aipa", "am", "b", "bipa", "bm", "note", "qa", "qb"):
+                if not c.get(k): E(f"{did}: cặp {c.get('a')}/{c.get('b')} thiếu {k}")
+            for q in ("qa", "qb"):
+                if c.get(q) and (c[q]["t"].count("___") != 1 or not c[q].get("vi")): E(f"{did}: cặp {c['a']}/{c['b']} câu {q} cần đúng một chỗ ___ và có vi")
+        w = d.get("write") or {}
+        for k in ("task", "kind", "model", "frame", "gaps", "free", "hints", "check"):
+            if not w.get(k): E(f"{did}: bài viết thiếu {k}")
+        if w:
+            n = len(w["frame"]) if w["kind"] == "form" else w["frame"].count("___")
+            if n != len(w["gaps"]) or len(w["free"]) != len(w["gaps"]): E(f"{did}: bài viết có {n} chỗ trống nhưng {len(w['gaps'])} đáp án / {len(w['free'])} cờ free")
+            if w["kind"] != "form":
+                filled = w["frame"]
+                for g in w["gaps"]: filled = filled.replace("___", g, 1)
+                if filled != w["model"]: E(f"{did}: điền gaps vào frame không ra đúng bài mẫu")
+                nw = len(re.findall(r"[A-Za-z0-9'@.-]+", w["model"]))
+                if w.get("words") and not w["words"][0] <= nw <= w["words"][1]: E(f"{did}: bài mẫu có {nw} từ, ngoài khoảng {w['words']}")
+            elif [x[0] for x in w["frame"]] != [x[0] for x in w["model"]] or [x[1] for x in w["model"]] != w["gaps"]: E(f"{did}: phiếu mẫu và khung không khớp")
 print(f"Kiểm tra {len(weeks)} tuần: {len(errs)} lỗi, {len(warns)} lưu ý")
 for e in errs: print("LỖI  ", e)
 for w in warns: print("LƯU Ý", w)
