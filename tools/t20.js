@@ -194,9 +194,10 @@ async function funnel(browser, base) {
   const go = async h => { await page.evaluate(x => { location.hash = x; }, h); await page.waitForTimeout(500); };
   const txt = () => page.evaluate(() => document.querySelector("#main").innerText);
   check(posts.some(p => p.type === "seen" && /^HV/.test(p.id)), "gửi 'seen' kèm mã học viên");
+  await page.evaluate(() => { S.lang = "en"; save(); });
   await go("#w2-thu-2"); check(/dành cho học viên/.test(await txt()), "tuần 2 bị khoá khi chưa có gói");
   await go("#w1-thu-2"); check(!/dành cho học viên/.test(await txt()), "tuần 1 vẫn mở");
-  await go("#a2-w1-thu-3"); check(!/dành cho học viên/.test(await txt()), "tuần học thử A2 vẫn mở");
+  await go("#a2-w1-thu-3"); check(/Bạn đang học thử Nền tảng/.test(await txt()), "đang học thử tuần 1 (A1) thì tuần học thử A2 bị khoá");
   await go("#trang-chu"); check(/Ưu đãi tuần học thử/.test(await txt()), "trang chủ có thẻ ưu đãi");
   await go("#uu-dai");
   check(/89\.000đ/.test(await txt()) && /179\.000đ/.test(await txt()) && /358\.000đ/.test(await txt()), "trang ưu đãi đúng giá 89k, 179k, gốc 358k");
@@ -222,7 +223,8 @@ async function funnel(browser, base) {
   await p2.waitForTimeout(500); await p2.evaluate(HOOK);
   for (let i = 0; i < 60 && !(await p2.$(".endcard")); i++) { await p2.evaluate(STEP); await p2.waitForTimeout(30); }
   check(/lớp nhóm với giáo viên/i.test(await p2.evaluate(() => (document.querySelector(".endcard") || {}).innerText || "")), "xong Thứ 2 tuần 1 → mời lớp nhóm 89k");
-  /* xong Thứ 6 tuần học thử A2 → mời đăng ký chờ lớp, không mời mua gói */
+  /* xong Thứ 6 tuần học thử A2 (được xếp theo kết quả kiểm tra) → mời đăng ký chờ lớp, không mời mua gói */
+  await p2.evaluate(() => { S.place = { lang: "en", result: { level: 2, levelName: "A2", track: "en-b", bySk: {}, n: 1, right: 1 } }; S.trial = {}; assignTrial("en", "en-b"); });
   await p2.evaluate(() => { const d = DEMO_DAYS.find(x => x.id === "a2-w1-thu-6"); d.ex.forEach((c, i) => { if (i) S.done["en:" + d.id + ":" + c] = { p: 5 }; }); S.lang = "en"; save(); location.hash = "#" + d.id + "-bai-1"; });
   await p2.waitForTimeout(500); await p2.evaluate(HOOK);
   for (let i = 0; i < 60 && !(await p2.$(".endcard")); i++) { await p2.evaluate(STEP); await p2.waitForTimeout(30); }
@@ -233,6 +235,45 @@ async function funnel(browser, base) {
   check(adv === "b2-w1-thu-2 h4-w1-thu-2", "B2 → học thử B2, HSK4 → học thử HSK4 (" + adv + ")");
   const near = await p2.evaluate(() => { const t = trackOf("en", "en-d"), n = nearTrial("en", t); return n ? trackStart(n) : ""; });
   check(near === "b1-w1-thu-2", "nếu B2 chưa mở → gợi ý học thử B1 (" + near + ")");
+  /* ===== Luồng A: tự chọn trình độ trước ===== */
+  const fresh = async () => { const c = await browser.newContext({ viewport: { width: 390, height: 844 } }); await c.addInitScript(INIT); const ps = [];
+    await c.route("https://script.google.com/**", r => { if (r.request().method() === "POST") try { ps.push(JSON.parse(r.request().postData())); } catch (e) {} return r.fulfill({ status: 200, contentType: "application/json", headers: { "access-control-allow-origin": "*" }, body: "{\"ok\":true}" }); });
+    const pg = await c.newPage(); pg.on("pageerror", e => errs.push(e.message)); await pg.goto(base + "tuan-1/test-funnel.html"); await pg.waitForTimeout(600); pg.posts = ps; return pg; };
+  const g2 = async (pg, h) => { await pg.evaluate(x => { location.hash = x; }, h); await pg.waitForTimeout(450); };
+  const tx = pg => pg.evaluate(() => document.querySelector("#main").innerText);
+  const finishDay = async (pg, id) => { await pg.evaluate(id => { const d = DEMO_DAYS.find(x => x.id === id) || WDAYS.find(x => x.id === id), ex = d.ex || d.exFor(S.lang); ex.forEach((c, i) => { if (i) S.done[S.lang + ":" + d.id + ":" + c] = { p: 5 }; }); save(); location.hash = "#" + d.id + "-bai-1"; }, id);
+    await pg.waitForTimeout(500); await pg.evaluate(HOOK); for (let i = 0; i < 80 && !(await pg.$(".endcard")); i++) { await pg.evaluate(STEP); await pg.waitForTimeout(30); }
+    return pg.evaluate(() => (document.querySelector(".endcard") || {}).innerText || ""); };
+  const doTest = async (pg, L) => { await g2(pg, "#kiem-tra-dau-vao");
+    await pg.fill("#pname", "Người Thử"); await pg.fill("#pcontact", "0912000111"); await pg.click(`#plang [data-v="${L}"]`); await pg.click('#pgoal [data-v="Đi làm"]'); await pg.click("#pself [data-v='2']"); await pg.check("#pok"); await pg.click("#pgo");
+    for (let i = 0; i < 40 && !(await pg.$(".presult")); i++) { const o = await pg.$('.ptest .opt[data-k="0"]:not([disabled])'); if (o) await o.click(); await pg.waitForTimeout(450); } };
+  const pa = await fresh();
+  await g2(pa, "#lo-trinh"); check(/Chạm Học thử ở trình độ bạn chọn/.test(await tx(pa)), "trang lộ trình cho tự chọn trình độ");
+  await pa.click('.tracks [data-pick="en-b"]'); await pa.waitForTimeout(500);
+  const ta = await pa.evaluate(() => ({ h: location.hash, T: S.trial.en }));
+  check(ta.h === "#a2-w1-thu-2" && ta.T.via === "self" && ta.T.track === "en-b", "chọn A2 → vào tuần học thử A2, ghi là tự chọn");
+  await g2(pa, "#b1-w1-thu-2"); check(/Bạn đang học thử Giao tiếp công sở/.test(await tx(pa)) && !(await pa.$(".exlist, .dayex")), "tự chọn A2 thì không mở được tuần học thử B1");
+  await g2(pa, "#w1-thu-2"); check(/Bạn đang học thử/.test(await tx(pa)), "tự chọn A2 thì không vào được tuần 1 lộ trình A1");
+  await g2(pa, "#lo-trinh"); check((await tx(pa)).split("Mở theo kết quả kiểm tra").length - 1 >= 3, "lộ trình khác hiện 'Mở theo kết quả kiểm tra'");
+  check(pa.posts.some(p => p.type === "day" && /Bắt đầu học thử Giao tiếp công sở \(A2\).*tự chọn/.test(p.day)), "báo admin: bắt đầu học thử A2, tự chọn");
+  const endSelf = await finishDay(pa, "a2-w1-thu-6");
+  check(/kiểm tra đầu vào/i.test(endSelf) && /Bỏ qua/.test(endSelf) && !/Đăng ký chờ lớp/.test(endSelf) && !/Chọn gói/.test(endSelf), "xong tuần tự chọn → chỉ mời kiểm tra đầu vào hoặc bỏ qua");
+  await g2(pa, "#trang-chu"); check(/Bạn đã xong tuần học thử/.test(await tx(pa)), "trang chủ nhắc kiểm tra đầu vào");
+  await pa.click(".trialcta .skiptest"); await pa.waitForTimeout(500);
+  check((await pa.evaluate(() => location.hash)) === "#uu-dai" && /Lớp nhóm online/.test(await tx(pa)) && /Weekend Live/.test(await tx(pa)), "bỏ qua kiểm tra → sang lớp nhóm online và Weekend Live");
+  check(pa.posts.some(p => p.type === "day" && /Bỏ qua kiểm tra/.test(p.day)), "báo admin: bỏ qua kiểm tra đầu vào");
+  await doTest(pa, "en"); const resA = await tx(pa);
+  check(/Bạn đã học thử tuần/.test(resA) && /Đăng ký chờ lớp B2\+/.test(resA) && !/Học thử ngay/.test(resA) && (await pa.evaluate(() => S.trial.en.track)) === "en-b", "kiểm tra sau học thử → bước tiếp theo kết quả, không mở thêm tuần miễn phí");
+  /* ===== Luồng B: kiểm tra đầu vào trước ===== */
+  const pb = await fresh();
+  await doTest(pb, "en"); const resB = await tx(pb);
+  const tb = await pb.evaluate(() => S.trial.en);
+  check(/Học thử ngay: Nâng cao/.test(resB) && !!(await pb.$('.presult a[href="#b2-w1-thu-2"]')) && tb.track === "en-d" && tb.tested, "kiểm tra trước → tự xếp tuần học thử B2");
+  await g2(pb, "#a2-w1-thu-3"); check(/Bạn đang học thử Nâng cao/.test(await tx(pb)), "xếp B2 thì tuần học thử A2 bị khoá");
+  const endB = await finishDay(pb, "b2-w1-thu-6");
+  check(/Đăng ký chờ lớp/.test(endB) && !/Bỏ qua/.test(endB), "xong tuần học thử theo kết quả → mời chờ lớp, không hỏi kiểm tra lại");
+  await pa.screenshot({ path: path.join(ROOT, "tools", "shots", "390-ket-qua-sau-hoc-thu.png"), fullPage: true });
+  await g2(pb, "#lo-trinh"); await pb.screenshot({ path: path.join(ROOT, "tools", "shots", "390-lo-trinh-dang-hoc.png"), fullPage: true });
   check(!errs.length, "không lỗi JavaScript" + (errs.length ? ": " + errs.join(" | ") : ""));
   await go("#uu-dai"); await page.screenshot({ path: path.join(ROOT, "tools", "shots", "390-uu-dai.png"), fullPage: true });
   await go("#w1-thu-3"); check(!(await page.$(".stagehd")), "ngày tiếng Anh của hành trình chính không có tiêu đề bước");

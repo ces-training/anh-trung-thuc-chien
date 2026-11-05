@@ -338,9 +338,9 @@ footer details p{margin-top:8px;max-width:80ch}
       <a href="#hoc-phi">Học phí</a>
       <a href="#doanh-nghiep">Doanh nghiệp</a>
       <a href="#hoi-dap">Hỏi đáp</a>
-      <a href="tuan-1/">Học thử tuần 1</a>
+      <a href="tuan-1/#lo-trinh">Học thử 1 tuần</a>
     </nav>
-    <a class="btn btn-primary" href="#dang-ky" data-plan="test">Thi xếp lớp miễn phí</a>
+    <a class="btn btn-primary" href="tuan-1/#kiem-tra-dau-vao">Kiểm tra đầu vào miễn phí</a>
   </div>
 </header>
 
@@ -357,10 +357,10 @@ footer details p{margin-top:8px;max-width:80ch}
       <h1 id="h1">Học trong tuần.<br>Nói thật <mark>cuối&nbsp;tuần.</mark></h1>
       <p class="lead">Mỗi ngày 25 phút trên web, đóng vai với AI. Cuối tuần, bạn dùng đúng tình huống ấy với người Trung Quốc và người nói tiếng Anh: phỏng vấn xin việc, đàm phán giá, xin visa, gọi món.</p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="#dang-ky" data-plan="test">Thi xếp lớp miễn phí · 15 phút</a>
-        <a class="btn btn-ghost" href="#dang-ky" data-plan="test">Giữ chỗ buổi Weekend Live mở</a>
+        <a class="btn btn-primary" href="tuan-1/#kiem-tra-dau-vao">Kiểm tra đầu vào · 15 phút</a>
+        <a class="btn btn-ghost" href="tuan-1/#lo-trinh">Tự chọn trình độ, học thử 1 tuần</a>
       </div>
-      <p class="fine">Không cần thẻ thanh toán · Xếp mức riêng cho từng ngôn ngữ · Buổi mở đầu tiên miễn phí · <a href="tuan-1/" style="color:inherit;font-weight:700">Làm thử bài tuần 1 →</a></p>
+      <p class="fine">Miễn phí, không cần thẻ thanh toán · Làm bài kiểm tra để được xếp đúng tuần học thử, hoặc tự chọn trình độ rồi kiểm tra sau · Trong tuần học thử có ưu đãi lớp nhóm với giáo viên và <a href="#weekend-live" style="color:inherit;font-weight:700">Weekend Live</a></p>
     </div>
 
     <div class="hero-visual">
@@ -529,7 +529,7 @@ footer details p{margin-top:8px;max-width:80ch}
     </ol>
     <div class="promise">
       <p><strong>Cam kết theo nhiệm vụ, không hứa suông:</strong> sau 26 tuần, bạn xử lý được khoảng 20 tình huống thật, đo bằng bộ tiêu chí chấm nói ở tuần 0, 13 và 25.</p>
-      <a class="btn btn-dark" href="#dang-ky" data-plan="test">Xem mình bắt đầu ở mức nào</a>
+      <a class="btn btn-dark" href="tuan-1/#kiem-tra-dau-vao">Xem mình bắt đầu ở mức nào</a>
     </div>
   </div>
 </section>
@@ -718,8 +718,8 @@ footer details p{margin-top:8px;max-width:80ch}
 </footer>
 
 <div class="mcta" aria-label="Đăng ký nhanh">
-  <span>Test xếp lớp miễn phí · 15 phút</span>
-  <a class="btn btn-primary" href="#dang-ky" data-plan="test">Đăng ký</a>
+  <span>Kiểm tra đầu vào miễn phí · 15 phút</span>
+  <a class="btn btn-primary" href="tuan-1/#kiem-tra-dau-vao">Làm bài</a>
 </div>
 
 <script>
@@ -853,6 +853,7 @@ window.SITE_CONFIG = {
     $("#d-name").textContent = d.name.split(/\s+/).pop();
     $("#d-code").textContent = d.code;
     $("#d-callback").textContent = C.callback;
+    if (d.plan === "test"){ var tl=document.createElement("a"); tl.href="tuan-1/#kiem-tra-dau-vao"; tl.className="btn btn-primary"; tl.textContent="Làm bài kiểm tra đầu vào ngay"; tl.style.marginTop="8px"; $("#d-callback").appendChild(document.createElement("br")); $("#d-callback").appendChild(tl); }
     if (C.bank && C.bank.id && C.bank.account && d.amount){
       var url = "https://img.vietqr.io/image/" + encodeURIComponent(C.bank.id) + "-" + encodeURIComponent(C.bank.account) + "-compact2.png?amount=" + d.amount + "&addInfo=" + encodeURIComponent(d.code) + "&accountName=" + encodeURIComponent(C.bank.name || "");
       $("#d-qr").src = url;

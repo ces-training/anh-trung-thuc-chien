@@ -5939,6 +5939,8 @@ function gate() {
   if (S.profile && started) return;
   const ov = el(`<div class="gate" role="dialog" aria-modal="true" aria-labelledby="gt"><div class="gcard"></div></div>`);
   document.body.appendChild(ov); const card = $(".gcard", ov);
+  /* đến từ trang chủ với lựa chọn sẵn (kiểm tra đầu vào, chọn lộ trình, một ngày học) thì không hỏi lại */
+  const chosen = /^#(kiem-tra-dau-vao|lo-trinh|uu-dai|chon-goi|([a-z]\d-)?(w\d+-)?thu-\d)/.test(location.hash);
   const done = kind => { try { sessionStorage.setItem("attc-started", "1"); } catch (e) {} ov.remove(); coachSay(kind, true); render(); };
   if (!S.profile) {
     card.innerHTML = `<p class="eyebrow">Anh – Trung Thực Chiến</p><h2 id="gt">Chào bạn! Mình làm quen chút nhé</h2>
@@ -5952,10 +5954,12 @@ function gate() {
       S.profile = { name: ($("#gname", card).value || "").trim() || "bạn", gender: g, coach: g === "m" ? "vy" : "khang" }; save();
       const c = coach();
       card.innerHTML = `${coachFace(120, "gface")}<p class="eyebrow">Người hướng dẫn của bạn</p><h2 id="gt">${esc(c.name)}</h2><p class="say">“${esc(c.lines.welcome)}”</p>
-        <button type="button" class="btn primary huge" id="ggo">${ICON.play} Chạm để bắt đầu</button><button type="button" class="btn ghost" id="gplace">Chưa biết trình độ? Làm bài kiểm tra đầu vào</button><p class="small muted">Bật loa để nghe ${esc(c.name)} nhé.</p>`;
-      $("#gplace", card).onclick = () => { S.seenWelcome = true; save(); location.hash = "kiem-tra-dau-vao"; done("welcome"); };
+        ${chosen ? `<button type="button" class="btn primary huge" id="ggo">${ICON.play} Chạm để bắt đầu</button>`
+          : `<p class="small"><b>Bạn muốn bắt đầu thế nào?</b></p><button type="button" class="btn primary huge" id="gplace">${ICON.play} Làm bài kiểm tra đầu vào (10–15 phút)</button><p class="small muted">Được xếp đúng trình độ và học thử ngay tuần phù hợp.</p><button type="button" class="btn ghost" id="gself">Tự chọn trình độ, học thử 1 tuần</button>`}<p class="small muted">Bật loa để nghe ${esc(c.name)} nhé.</p>`;
+      const pg = $("#gplace", card); if (pg) pg.onclick = () => { S.seenWelcome = true; save(); location.hash = "kiem-tra-dau-vao"; done("welcome"); };
+      const gs = $("#gself", card); if (gs) gs.onclick = () => { S.seenWelcome = true; save(); location.hash = "lo-trinh"; done("welcome"); };
       card.insertAdjacentHTML("beforeend", browserTip(false));
-      $("#ggo", card).onclick = () => { S.seenWelcome = true; save(); done("welcome"); };
+      const gg = $("#ggo", card); if (gg) gg.onclick = () => { S.seenWelcome = true; save(); done("welcome"); };
     };
   } else {
     const c = coach();
@@ -6140,6 +6144,7 @@ function test(body) {
     const track = LV_TRACK[L][level];
     P.result = { level, levelName: LV_NAMES[L][level], track, bySk, n: log.length, right: log.filter(r => r.ok).length, at: new Date().toISOString() }; P.retake = false;
     S.lang = L; save();
+    if (typeof assignTrial === "function") assignTrial(L, track);
     P.sent = sendSheet({ type: "placement", time: P.result.at, name: P.name, contact: P.contact, lang: L === "zh" ? "Tiếng Trung" : "Tiếng Anh", goal: P.goal, cert: P.cert, self: P.self, level: P.result.levelName, track: trackOf(L, track).name + " (" + trackOf(L, track).lv + ")", score: `${P.result.right}/${P.result.n}`, skills: Object.entries(bySk).map(([k, v]) => `${k} ${v[0]}/${v[1]}`).join(", ") });
     save(); showResult(body, P);
   }
@@ -6152,13 +6157,14 @@ function showResult(body, P) {
     <h2>Trình độ ${L === "zh" ? "tiếng Trung" : "tiếng Anh"} của bạn: <span class="lvl">${esc(r.levelName)}</span></h2>
     <p class="lead">Đúng ${r.right}/${r.n} câu. Lộ trình phù hợp: <b>${esc(t.name)} (${esc(t.lv)})</b>, đích đến ${esc(t.goal)}.</p>
     <div class="pskills">${skills.map(([k, v]) => `<div><b>${esc(k)}</b><div class="barbg"><i style="width:${Math.round(v[0] / v[1] * 100)}%;background:${v[0] / v[1] >= .67 ? "var(--green)" : v[0] / v[1] >= .34 ? "var(--sun)" : "var(--zh)"}"></i></div><small>${v[0]}/${v[1]} câu đúng${v[0] / v[1] < .5 ? " · nên luyện thêm" : ""}</small></div>`).join("")}</div>
-    ${t.status === "open" ? `<a class="btn primary huge" href="#${t.start}">${ICON.play} Học thử ngay: ${esc(t.name)}</a>`
+    ${typeof trialUsed === "function" && trialUsed(L) ? afterTrialHTML(L, t)
+      : t.status === "open" ? `<a class="btn primary huge" href="#${t.start}">${ICON.play} Học thử ngay: ${esc(t.name)}</a>`
       : t.status === "demo" && trackStart(t) ? `<div class="note">Lộ trình <b>${esc(t.name)}</b> đang mở lớp dần. Bạn học thử ngay một tuần trọn vẹn (${esc(t.note.replace(/^Học thử /, ""))}), rồi đăng ký để CES báo khi lớp mở.</div>
          <div class="row"><a class="btn primary huge" href="#${trackStart(t)}">${ICON.play} Học thử ngay: ${esc(t.name)}</a><button type="button" class="btn ghost wl">Đăng ký chờ lớp ${esc(t.lv)}</button></div>`
       : `<div class="note">Lộ trình <b>${esc(t.name)}</b> đang được soạn (${esc(t.note)}). Đăng ký để CES báo bạn ngay khi mở, và học thử trước lộ trình gần nhất.</div>
          <div class="row"><button type="button" class="btn primary wl">Đăng ký chờ lớp ${esc(t.lv)}</button>${(() => { const near = nearTrial(L, t); return near ? `<a class="btn ghost" href="#${trackStart(near)}">Học thử tuần gần nhất: ${esc(near.name)} (${esc(near.lv)})</a>` : ""; })()}</div>`}
     <p class="small muted">${P.sent ? "Kết quả đã gửi cho CES." : SHEET_URL ? "" : "Kết quả đang lưu trên máy này (CES chưa kết nối bảng nhận kết quả)."}</p>
-    <div class="row"><button type="button" class="btn ghost small again">Làm lại bài kiểm tra</button><button type="button" class="btn ghost small other">Kiểm tra ${L === "zh" ? "tiếng Anh" : "tiếng Trung"}</button><a class="btn ghost small" href="#lo-trinh">Xem tất cả lộ trình</a></div></section>`;
+    <div class="row"><button type="button" class="btn ghost small again">Làm lại bài kiểm tra</button><button type="button" class="btn ghost small other">Kiểm tra ${L === "zh" ? "tiếng Anh" : "tiếng Trung"}</button></div></section>`;
   const wl = $(".wl", body); if (wl) wl.onclick = () => { P.waitlist = (P.waitlist || []).concat([t.id]); save(); sendSheet({ type: "waitlist", time: new Date().toISOString(), name: P.name, contact: P.contact, lang: L, track: t.name + " (" + t.lv + ")" }); wl.disabled = true; wl.textContent = "Đã đăng ký chờ ✓"; toast("CES sẽ báo bạn khi lộ trình mở."); };
   $(".again", body).onclick = () => { P.retake = true; save(); form(body); };
   $(".other", body).onclick = () => { P.lang = L === "zh" ? "en" : "zh"; P.retake = true; P.self = null; save(); form(body); };
@@ -6167,8 +6173,10 @@ function showResult(body, P) {
 /* ---------- lộ trình: danh sách các chặng theo trình độ ---------- */
 function tracksHTML() {
   const st = { open: ["Đang mở", "ok"], demo: ["Có tuần học thử", "go"], soon: ["Sắp mở", "lock"] };
-  return ["zh", "en"].map(L => `<section class="card2"><h2>${L === "zh" ? "Tiếng Trung" : "Tiếng Anh"}</h2><ol class="tracks">${TRACKS[L].map(t => `<li class="trk ${t.status}"><div><small>${esc(t.lv)}</small><b>${esc(t.name)}</b><span>Đích: ${esc(t.goal)} · ${esc(t.note)}</span></div>
-    <span class="pill ${st[t.status][1]}">${st[t.status][0]}</span>${t.status === "open" ? `<a class="btn primary small" href="#${t.start}" data-l="${L}">Vào học</a>` : t.status === "demo" && trackStart(t) ? `<a class="btn primary small" href="#${trackStart(t)}" data-l="${L}">Học thử</a>` : `<a class="btn ghost small" href="#kiem-tra-dau-vao">Đăng ký chờ</a>`}</li>`).join("")}</ol></section>`).join("");
+  return ["zh", "en"].map(L => { const T = typeof trialOf === "function" ? trialOf(L) : null, cur = T && trackOf(L, T.track);
+    return `<section class="card2"><h2>${L === "zh" ? "Tiếng Trung" : "Tiếng Anh"}</h2>${cur ? `<p class="note small">Bạn đang học thử <b>${esc(cur.name)} (${esc(cur.lv)})</b>. Mỗi bạn học thử miễn phí một tuần; muốn đổi trình độ, hãy <a href="#kiem-tra-dau-vao">làm bài kiểm tra đầu vào</a>.</p>` : `<p class="small muted">Chạm Học thử ở trình độ bạn chọn. Chưa chắc? <a href="#kiem-tra-dau-vao">Làm bài kiểm tra đầu vào</a>.</p>`}<ol class="tracks">${TRACKS[L].map(t => { const mine = T && T.used.includes(t.id), go = t.status === "open" ? t.start : t.status === "demo" ? trackStart(t) : "";
+      return `<li class="trk ${t.status}${mine ? " mine" : ""}"><div><small>${esc(t.lv)}</small><b>${esc(t.name)}</b><span>Đích: ${esc(t.goal)} · ${esc(t.note)}</span></div>
+    <span class="pill ${mine ? "star" : st[t.status][1]}">${mine ? "Bạn đang học" : st[t.status][0]}</span>${!go ? `<a class="btn ghost small" href="#kiem-tra-dau-vao">Đăng ký chờ</a>` : T && !mine ? `<span class="small muted">Mở theo kết quả kiểm tra</span>` : `<a class="btn primary small" href="#${mine ? trialNext(L, t) : go}" data-l="${L}" data-pick="${t.id}">${mine ? "Tiếp tục" : "Học thử"}</a>`}</li>`; }).join("")}</ol></section>`; }).join("");
 }
 ROOMS["kiem-tra-dau-vao"] = "place";
 (function () {
@@ -6178,7 +6186,7 @@ ROOMS["kiem-tra-dau-vao"] = "place";
     const navAdd = () => { const nav = $("#side .snav"); if (nav && !nav.querySelector('[href="#kiem-tra-dau-vao"]')) { const a = nav.querySelector('[href="#lo-trinh"]'); if (a) a.insertAdjacentHTML("afterend", `<a class="sn t-sun${r.v === "place" ? " on" : ""}" href="#kiem-tra-dau-vao">${nicon("review")}<span>Kiểm tra đầu vào</span></a>`); } };
     if (r.v === "place") { stopAudio(); renderTop(); renderSide(); navAdd(); const main = $("#main"); main.innerHTML = ""; viewPlace(main); applyPhotos(main); scrollTo(0, 0); return; }
     r0(); navAdd();
-    if (r.v === "road") { const m = $("#main .roomv"); if (m) { const h = m.querySelector(".rhead"); h.insertAdjacentHTML("afterend", `<section class="card2 pcta"><div><h2>Chưa biết bắt đầu từ đâu?</h2><p>Làm bài kiểm tra đầu vào 10–15 phút để được xếp đúng lộ trình.</p></div><a class="btn primary" href="#kiem-tra-dau-vao">${ICON.play} Kiểm tra đầu vào</a></section>` + tracksHTML()); m.querySelectorAll(".tracks [data-l]").forEach(a => a.onclick = () => { S.lang = a.dataset.l; save(); }); } }
+    if (r.v === "road") { const m = $("#main .roomv"); if (m) { const h = m.querySelector(".rhead"); h.insertAdjacentHTML("afterend", `<section class="card2 pcta"><div><h2>Chưa biết bắt đầu từ đâu?</h2><p>Làm bài kiểm tra đầu vào 10–15 phút để được xếp đúng lộ trình.</p></div><a class="btn primary" href="#kiem-tra-dau-vao">${ICON.play} Kiểm tra đầu vào</a></section>` + tracksHTML()); m.querySelectorAll(".tracks [data-l]").forEach(a => a.onclick = () => { S.lang = a.dataset.l; save(); if (typeof trialOf === "function" && !trialOf(a.dataset.l)) setTrial(a.dataset.l, a.dataset.pick, "self"); }); } }
     if (r.v === "home") { const h = $("#main"); const first = h && h.firstElementChild; const P = S.place; if (first) first.insertAdjacentHTML("afterend", P && P.result ? `<section class="card2 pcta"><div><h2>Trình độ của bạn: ${esc(P.result.levelName)}</h2><p>Lộ trình phù hợp: ${esc(trackOf(P.lang, P.result.track).name)} (${esc(trackOf(P.lang, P.result.track).lv)}).</p></div><a class="btn ghost" href="#kiem-tra-dau-vao">Xem kết quả</a></section>` : `<section class="card2 pcta"><div><h2>Bạn mới đến?</h2><p>Làm bài kiểm tra đầu vào 10–15 phút để được xếp đúng trình độ và học thử ngay.</p></div><a class="btn primary" href="#kiem-tra-dau-vao">${ICON.play} Kiểm tra đầu vào</a></section>`); }
   };
 })();
@@ -6478,8 +6486,59 @@ function viewPlans(main) {
   draw();
 }
 
+/* ---------- học thử: mỗi ngôn ngữ một tuần miễn phí, theo đúng một lộ trình ----------
+   Kiểm tra đầu vào trước → tự xếp tuần học thử theo kết quả.
+   Tự chọn trình độ trước → học xong tuần đó mới được mời kiểm tra đầu vào; không tự chọn tuần học thử khác.
+   Từ chối kiểm tra → chuyển sang lớp nhóm online với giáo viên và Weekend Live (#uu-dai). */
+function trialOf(L) { const T = (S.trial || {})[L]; return T && T.track ? T : null; }
+const dayLang = d => d.demo ? d.lang : S.lang;
+const dayTrack = d => d.demo ? d.track : (dayLang(d) === "zh" ? "zh-a" : "en-a");
+function tested(L) { const T = trialOf(L); return !!((T && T.tested) || (S.place && S.place.result && S.place.lang === L)); }
+function trialUsed(L) { const T = trialOf(L); return !!(T && T.done); }
+function setTrial(L, tid, via) {
+  if (!tid || !trackOf(L, tid)) return;
+  S.trial = S.trial || {}; const T = S.trial[L], t = trackOf(L, tid);
+  if (T && T.track === tid) { if (via === "test") T.tested = true; save(); return; }
+  S.trial[L] = { track: tid, via, tested: via === "test" || !!(T && T.tested), used: (T ? T.used : []).filter(x => x !== tid).concat([tid]), done: false, at: Date.now() }; save();
+  track("day", { day: `Bắt đầu học thử ${t.name} (${t.lv}) · ${L === "zh" ? "Trung" : "Anh"} · ${via === "test" ? "theo kết quả kiểm tra" : "tự chọn"}`, doneN: Object.keys(S.done).length });
+}
+/* gọi từ bài kiểm tra đầu vào: chưa học xong tuần học thử thì chuyển sang tuần đúng kết quả; học xong rồi thì giữ nguyên */
+function assignTrial(L, tid) {
+  const t = trackOf(L, tid), go = t && trackStart(t) ? t : t && nearTrial(L, t); if (!go) return;
+  const T = trialOf(L);
+  if (T && T.done) { T.tested = true; save(); return; }
+  setTrial(L, go.id, "test");
+}
+function trialDays(L, t) { return t.demo ? DEMO_DAYS.filter(x => x.demo === t.demo) : WDAYS.filter(x => (x.week || 1) === 1 && /thu-\d$/.test(x.id)); }
+function trialNext(L, t) { const ds = trialDays(L, t), d = ds.find(x => !S.daily[L + x.id]); return d ? d.id : trackStart(t); }
+/* bước tiếp sau khi xong tuần học thử */
+function nextStepHTML(L) {
+  if (!tested(L)) return `<div class="row"><a class="btn primary huge" href="#kiem-tra-dau-vao">${ICON.play} Làm bài kiểm tra đầu vào</a><a class="btn ghost skiptest" href="#uu-dai">Bỏ qua, xem lớp với giáo viên và Weekend Live</a></div>`;
+  return `<div class="row"><a class="btn primary huge" href="#kiem-tra-dau-vao">${ICON.play} Xem kết quả và bước tiếp theo</a><a class="btn ghost" href="#uu-dai">Lớp nhóm online, Weekend Live</a></div>`;
+}
+function bindSkip(root) { root.querySelectorAll(".skiptest").forEach(a => a.addEventListener("click", () => { const L = S.lang, T = trialOf(L); if (T && !T.skipped) { T.skipped = true; save(); track("day", { day: "Bỏ qua kiểm tra đầu vào → mời lớp nhóm, Weekend Live", doneN: Object.keys(S.done).length }); } })); }
+/* kết quả kiểm tra khi đã dùng tuần học thử: không mở thêm tuần miễn phí, chuyển sang bước tiếp */
+function afterTrialHTML(L, t) {
+  const cur = trackOf(L, trialOf(L).track), same = cur.id === t.id;
+  return `<div class="note">Bạn đã học thử tuần <b>${esc(cur.name)} (${esc(cur.lv)})</b>. ${same ? "Kết quả kiểm tra khớp với trình độ bạn đã chọn." : `Kết quả kiểm tra xếp bạn vào lộ trình <b>${esc(t.name)} (${esc(t.lv)})</b>.`}</div>
+    <div class="row">${t.status === "open" ? `<a class="btn primary huge" href="#chon-goi">${ICON.play} Chọn gói học ${esc(t.name)}</a>` : `<button type="button" class="btn primary wl">Đăng ký chờ lớp ${esc(t.lv)}</button>`}<a class="btn ghost" href="#uu-dai">Lớp nhóm online với giáo viên, Weekend Live</a></div>`;
+}
+/* ngày của lộ trình khác khi đang học thử */
+function viewTrialLock(main, d, T) {
+  const L = dayLang(d), cur = trackOf(L, T.track), want = trackOf(L, dayTrack(d));
+  main.appendChild(el(`<div class="roomv">
+    ${roomHead("journey-" + S.lang, d.wlabel || d.label, `Bạn đang học thử ${cur.name} (${cur.lv})`, `Mỗi bạn được học thử miễn phí một tuần theo một trình độ. Tuần ${want.name} (${want.lv}) chỉ mở khi kết quả kiểm tra đầu vào xếp bạn vào trình độ này.`)}
+    <section class="card2">${T.done ? nextStepHTML(L) : `<div class="row"><a class="btn primary huge" href="#${trialNext(L, cur)}">${ICON.play} Tiếp tục học thử ${esc(cur.name)}</a>${tested(L) ? "" : `<a class="btn ghost" href="#kiem-tra-dau-vao">Làm bài kiểm tra đầu vào</a>`}</div>`}</section></div>`));
+  bindSkip(main); applyPhotos(main);
+}
+
 /* ---------- ngày bị khoá ---------- */
 function viewLocked(main, d) {
+  const L = dayLang(d);
+  if (trialUsed(L) && !tested(L)) {
+    main.appendChild(el(`<div class="roomv">${roomHead("journey-" + S.lang, d.wlabel || d.label, "Bạn đã xong tuần học thử", "Làm bài kiểm tra đầu vào 10–15 phút để CES xếp đúng lộ trình cho bạn, rồi học tiếp.")}<section class="card2">${nextStepHTML(L)}</section></div>`));
+    bindSkip(main); applyPhotos(main); return;
+  }
   main.appendChild(el(`<div class="roomv">
     ${roomHead("journey-" + S.lang, d.wlabel || d.label, `Tuần ${d.week} dành cho học viên`, "Bạn đã học xong tuần học thử. Chọn một gói để mở tiếp tuần " + d.week + " và các tuần sau. Bài tuần 1 vẫn mở để bạn ôn lại.")}
     <section class="card2"><div class="row"><a class="btn primary huge" href="#chon-goi">${ICON.play} Chọn gói học tiếp</a><a class="btn ghost" href="#uu-dai">Ưu đãi lớp nhóm và Weekend Live</a></div>
@@ -6487,8 +6546,17 @@ function viewLocked(main, d) {
   applyPhotos(main);
   if (SITE.sheetUrl && (!S.statusAt || Date.now() - S.statusAt > 60000)) refreshStatus().then(() => { if (!locked(d)) render(); });
 }
-const _viewDay = viewDay; viewDay = function (main, d) { if (locked(d)) return viewLocked(main, d); return _viewDay(main, d); };
-const _viewPlayer = viewPlayer; viewPlayer = function (main, d, k) { if (locked(d)) return viewLocked(main, d); return _viewPlayer(main, d, k); };
+function gateDay(main, d, run) {
+  if (locked(d)) return viewLocked(main, d);
+  if (!TEACHER && !planActive()) {
+    const L = dayLang(d), T = trialOf(L), tid = dayTrack(d);
+    if (!T) setTrial(L, tid, tested(L) ? "test" : "self");
+    else if (!T.used.includes(tid)) return viewTrialLock(main, d, T);
+  }
+  return run();
+}
+const _viewDay = viewDay; viewDay = function (main, d) { return gateDay(main, d, () => _viewDay(main, d)); };
+const _viewPlayer = viewPlayer; viewPlayer = function (main, d, k) { return gateDay(main, d, () => _viewPlayer(main, d, k)); };
 
 /* ---------- sau mỗi ngày học: gửi tiến độ và mời đúng lúc ---------- */
 const _finishEx = finishEx;
@@ -6498,8 +6566,15 @@ finishEx = function (ex, d, k, sum, body) {
   if (before || !S.daily[S.lang + d.id]) return;
   const doneN = Object.keys(S.done).length;
   track("day", { day: (d.wlabel || d.label) + (S.lang === "zh" ? " · Trung" : " · Anh"), doneN });
-  const trial = d.demo || (d.week || 1) === 1, card = $(".endcard", body); if (!trial || !card || planActive()) return;
+  const trial = d.demo || (d.week || 1) === 1, card = $(".endcard", body), L = dayLang(d), T = trialOf(L);
+  if (trial && d.idx === 4 && T && T.used.includes(dayTrack(d)) && !T.done) { T.done = true; save(); }
+  if (!trial || !card || planActive()) return;
   let html = "";
+  if (d.idx === 4 && !tested(L)) {
+    /* học thử theo trình độ tự chọn: xong tuần thì mời kiểm tra đầu vào; từ chối thì sang lớp nhóm, Weekend Live */
+    card.insertAdjacentHTML("beforeend", `<div class="offmini"><b>Bạn đã xong tuần học thử!</b><span>Bước tiếp theo: làm bài kiểm tra đầu vào 10–15 phút để CES xếp đúng lộ trình cho bạn.</span>${nextStepHTML(L)}</div>`);
+    bindSkip(card); return;
+  }
   if (d.idx === 0 && !orderOf("lop-nhom")) html = `<div class="offmini"><b>Tối thứ 4 có lớp nhóm với giáo viên</b><span>Giáo viên sửa đúng lỗi bạn hay sai. Giá học thử ${fmtVND(SITE.trial.class)}.</span><a class="btn primary" href="#uu-dai">Giữ chỗ</a></div>`;
   else if (d.idx === 2 && !orderOf("weekend-live")) html = `<div class="offmini"><b>Thứ 7 này mang 3 câu khoá ra Weekend Live</b><span>Giao lưu với cộng đồng và người nước ngoài, có đồ uống. Vé học thử ${fmtVND(SITE.trial.live)} (giảm 50%).</span><a class="btn primary" href="#uu-dai">Giữ vé</a></div>`;
   else if (d.idx === 4 && d.demo) {
@@ -6525,9 +6600,13 @@ viewLive = function (main) { _viewLive(main); if (planActive()) return; const m 
     const r = parseRoute();
     if (r.v === "offers" || r.v === "plans") { stopAudio(); renderTop(); renderSide(); const main = $("#main"); main.innerHTML = ""; (r.v === "offers" ? viewOffers : viewPlans)(main); main.focus({ preventScroll: true }); scrollTo(0, 0); return; }
     r0();
+    { const T = trialOf(S.lang), bt = $("#bn-today"), t = T && trackOf(S.lang, T.track); if (!TEACHER && T && !T.done && bt && t.demo) bt.href = "#" + trialNext(S.lang, t); }
     if (r.v === "home" && !planActive()) {
       const h = $("#main"), first = h && h.firstElementChild, oc = orderOf("lop-nhom"), ol = orderOf("weekend-live");
       if (first && (!oc || !ol)) first.insertAdjacentHTML("afterend", `<section class="card2 pcta"><div><h2>Ưu đãi tuần học thử</h2><p>Lớp nhóm với giáo viên ${fmtVND(SITE.trial.class)} · Weekend Live ${fmtVND(SITE.trial.live)} (giảm 50%, có đồ uống).</p></div><a class="btn primary" href="#uu-dai">Xem ưu đãi</a></section>`);
+      const T = trialOf(S.lang), t = T && trackOf(S.lang, T.track);
+      if (first && T && T.done && !tested(S.lang)) { first.insertAdjacentHTML("afterend", `<section class="card2 pcta trialcta"><div><h2>Bạn đã xong tuần học thử</h2><p>Làm bài kiểm tra đầu vào 10–15 phút để CES xếp đúng lộ trình cho bạn.</p></div>${nextStepHTML(S.lang)}</section>`); bindSkip(h); }
+      else if (first && T && !T.done && t.demo) first.insertAdjacentHTML("afterend", `<section class="card2 pcta trialcta"><div><h2>Bạn đang học thử ${esc(t.name)} (${esc(t.lv)})</h2><p>${esc(t.note)}</p></div><a class="btn primary" href="#${trialNext(S.lang, t)}">${ICON.play} Tiếp tục học thử</a></section>`);
     }
   };
 })();
