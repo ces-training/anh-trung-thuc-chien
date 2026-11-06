@@ -6,13 +6,13 @@ STYLE = ("Photorealistic editorial photograph, natural soft daylight, real adult
          "Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands.")
 PORTRAIT = "Chest-up portrait, looking at the camera with a natural smile, plain soft blue-grey studio background, 50mm lens. "
 CHARS = {
-  "char-an": "An, a Vietnamese woman about 26 years old, shoulder-length straight black bob haircut, cobalt blue blouse, yellow lanyard with a blank white badge.",
-  "char-tom": "Tom, a British man about 30, short ginger hair, light freckles, green crew-neck sweater, relaxed and cheerful.",
-  "char-kevin": "Kevin, an Asian-American man about 32, short dark brown hair, thin black glasses, navy button-up shirt.",
-  "char-linh": "Linh, a Vietnamese woman about 24, long straight black hair, mustard yellow top, bright friendly expression.",
+  "char-an": "An, a beautiful young Vietnamese woman about 20 years old, fresh youthful face, long sleek straight black hair tied in a neat low ponytail, ivory silk blouse under a tailored navy blazer, small pearl stud earrings, thin gold watch, light natural makeup, poised, intelligent and elegant, quiet-luxury old money style.",
+  "char-tom": "Tom, a handsome young British man about 20 years old, fresh youthful face, neat tousled ginger hair, light freckles, forest green cable-knit sweater over a white collared shirt, clean-shaven, cheerful and smart, quiet-luxury old money style.",
+  "char-kevin": "Kevin, a handsome young Asian-American man about 20 years old, fresh youthful face, neatly side-parted dark hair, thin gold-rim round glasses, light blue oxford shirt under a navy V-neck cashmere sweater, clean-shaven, sharp and confident, quiet-luxury old money style.",
+  "char-linh": "Linh, a pretty young Vietnamese woman about 20 years old, fresh youthful face, long glossy black hair half tied back, soft butter-yellow knit cardigan over a cream top, pearl stud earrings, warm bright smile, quiet-luxury old money style.",
   "char-sarah": "Sarah Lee, a Korean-American businesswoman about 38, black bob haircut, charcoal blazer over a white shirt, confident.",
-  "char-wangli": "Wang Li, a Chinese woman about 24, black hair in a high ponytail, red knit sweater, cheerful university student.",
-  "char-minh": "Minh, a Vietnamese man about 25, short black hair, green casual shirt, friendly.",
+  "char-wangli": "Wang Li, a beautiful young Chinese woman about 20 years old, fresh youthful face, glossy black hair in a sleek high ponytail, burgundy fine-knit cashmere sweater over a crisp white collar, small gold hoop earrings, bright confident smile, smart and graceful, quiet-luxury old money style.",
+  "char-minh": "Minh, a handsome young Vietnamese man about 20 years old, fresh youthful face, short neatly styled black hair, sage green knit polo shirt, beige chinos, clean-shaven, friendly and smart, quiet-luxury old money style.",
   "char-wangjl": "Manager Wang, a Chinese businessman about 50, short greying hair, dark navy suit, red tie, rimless glasses, polite and warm.",
 }
 SCENES = {
