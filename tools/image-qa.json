@@ -5,18 +5,22 @@
   "problems": []
  },
  "char-an": {
+  "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []
  },
  "char-tom": {
+  "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []
  },
  "char-kevin": {
+  "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []
  },
  "char-linh": {
+  "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []
  },
@@ -25,10 +29,12 @@
   "problems": []
  },
  "char-wangli": {
+  "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []
  },
  "char-minh": {
+  "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []
  },
@@ -750,6 +756,41 @@
   "problems": []
  },
  "table": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "meetingroom": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "laptop": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "training": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "friend": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "bus": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "plane": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "airport": {
   "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []

@@ -89,3 +89,10 @@ train
 walk
 younger-brother
 younger-sister
+meetingroom
+laptop
+training
+friend
+bus
+plane
+airport
