@@ -2308,7 +2308,7 @@ function photo(k, cls) { if (!IMG[k] && typeof IMG_ALIAS !== "undefined" && IMG[
 function applyPhotos(root) {
   (root || document).querySelectorAll("svg[data-art]").forEach(sv => { const [kind, a, b, c] = sv.dataset.art.split("|"); const h = kind === "icon" ? photo(a, sv.getAttribute("class")) : kind === "char" ? photo(CHAR_IMG[a], "ava") : photo(a, "scene-svg"); if (h) { const t = document.createElement("template"); t.innerHTML = h; const im = t.content.firstChild; if (kind === "char") { im.width = sv.getAttribute("width"); im.height = sv.getAttribute("width"); } sv.replaceWith(im); } });
 }
-try { fetch("img/index.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null).then(j => { if (j && Object.keys(j).length) { if (!/github\.io$/.test(location.hostname)) for (const k in j) j[k] = String(j[k]).split("?")[0]; IMG = j; applyPhotos(); } }).catch(() => {}); } catch (e) {}
+try { fetch("img/index.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null).then(j => { if (j && Object.keys(j).length) { if (!/github\.io$/.test(location.hostname)) for (const k in j) j[k] = String(j[k]).split("?")[0]; for (const k in IMG_SWAP) if (j[IMG_SWAP[k]]) j[k] = j[IMG_SWAP[k]]; IMG = j; applyPhotos(); } }).catch(() => {}); } catch (e) {}
 const AC_ = { ink: "#0E1730", en: "#1F44D6", enS: "#E7ECFF", zh: "#D3271E", zhS: "#FDECEA", sun: "#FFD43B", sunS: "#FFF4C7", gr: "#15803D", grS: "#E3F5E9", sl: "#334155", slS: "#E8ECF3", wh: "#FFFFFF", cheek: "#F59E8B" };
 
 /* ---------- nhân vật (bán thân, nhìn thẳng) ---------- */
@@ -2524,6 +2524,8 @@ const IMG_ALIAS = { pupil: "student", friend: "colleague", school: "student", cl
   "scene-zh-fair-d1": "scene-en-fair", "scene-zh-fair-d2": "scene-en-fair", "scene-zh-fair-d3": "scene-zh-meeting", "scene-zh-office-d4": "scene-en-office", "scene-zh-office-d5": "scene-zh-meeting",
   "scene-en-results-d1": "scene-en-meeting", "scene-en-pitch-d2": "scene-en-meeting", "scene-en-negotiation-d3": "scene-zh-meeting", "scene-en-qa-d4": "scene-en-meeting", "scene-en-report-d5": "scene-en-office",
   airport: "from", station: "from", newyear: "home", meetingroom: "scene-en-meeting", laptop: "work", training: "teacher" };
+/* Đổi ảnh sau khi duyệt tranh (06/11): dùng ảnh có sẵn khác dù tranh riêng đã có. Tranh cũ vẽ trẻ em, không hợp người học là sinh viên, người đi làm. */
+const IMG_SWAP = { school: "student", "older-brother": "brother", "younger-sister": "sister" };
 const ART_RULES = [
   [/accountant|kế toán/i, "calc"], [/engineer|kỹ sư/i, "engineer"], [/sales/i, "sales"], [/purchasing|mua hàng/i, "cart"],
   [/student|sinh viên|学生/i, "student"], [/teacher|giáo viên|老师/i, "teacher"], [/designer|thiết kế/i, "designer"],
