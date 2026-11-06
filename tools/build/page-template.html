@@ -72,6 +72,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .nv{flex:none;display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border-radius:999px;background:var(--soft);color:var(--muted);text-decoration:none;font-weight:700;font-size:16.5px}
 .nv span{display:inline-flex;align-items:center;font-size:15px;font-weight:700;padding:1px 6px;border-radius:999px;background:var(--surface);font-variant-numeric:tabular-nums}
 .nv.full span{background:var(--good-bg);color:var(--good)}
+.nv.intro{display:inline-block;line-height:1.6;white-space:nowrap;background:var(--sun);color:#3B2F00;position:sticky;left:0;z-index:2;box-shadow:6px 0 8px -4px var(--surface)}
+.nv.intro span.ilong{display:inline;white-space:pre;padding:0;background:none;font-size:inherit;font-weight:inherit}
+@media (max-width:600px){.nv.intro span.ilong{display:none}}
 .nv.on{background:var(--ink);color:var(--bg)} .nv.on span{background:color-mix(in srgb,var(--bg) 20%,transparent);color:var(--bg)}
 @media (max-width:720px){.top{position:static}.brand small{display:none}.bar1{gap:8px}}
 
@@ -3900,7 +3903,7 @@ function renderTop() {
   $("#snd").innerHTML = S.sound ? ICON.sound : ICON.mute; $("#snd").setAttribute("aria-label", S.sound ? "Tắt âm báo" : "Bật âm báo");
   document.documentElement.dataset.track = S.lang;
   const route = parseRoute();
-  $("#nav").innerHTML = `<a href="#trang-chu" class="nv${route.v === "home" ? " on" : ""}">Hành trình</a>` + (route.d && route.d.demo ? DEMO_DAYS.filter(x => x.demo === route.d.demo) : WDAYS.filter(d => !d.week || d.week === curWeek())).map(d => {
+  $("#nav").innerHTML = `<a href="${INTRO_URL}" class="nv intro" target="_self">← Giới thiệu<span class="ilong"> chương trình</span></a><a href="#trang-chu" class="nv${route.v === "home" ? " on" : ""}">Hành trình</a>` + (route.d && route.d.demo ? DEMO_DAYS.filter(x => x.demo === route.d.demo) : WDAYS.filter(d => !d.week || d.week === curWeek())).map(d => {
     const n = dayDone(d), full = n === d.ex.length;
     return `<a href="#${d.id}" class="nv${route.d && route.d.id === d.id ? " on" : ""}${full ? " full" : ""}">${esc(d.label)}<span>${full ? ICON.check : n + "/" + d.ex.length}</span></a>`;
   }).join("") + `<a href="#kho-on" class="nv${route.v === "review" ? " on" : ""}">Kho ôn<span>${S.review[S.lang].length}</span></a>`;
