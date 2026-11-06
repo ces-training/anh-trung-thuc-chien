@@ -508,6 +508,7 @@ img.photo.ava{border-radius:50%;object-fit:cover;aspect-ratio:1}
 .gcard{background:var(--surface);border:5px solid var(--sun);border-radius:28px;padding:24px;max-width:440px;width:100%;display:flex;flex-direction:column;gap:10px;align-items:center;text-align:center;box-shadow:0 20px 50px rgba(0,0,0,.3)}
 .gcard h2{margin:0;font-size:28px} .gcard .say{margin:0;font-size:18px} .gcard .gface{border:4px solid var(--sun)}
 .gcard .fl{display:flex;flex-direction:column;gap:6px;width:100%;text-align:left;font-weight:700;border:0;padding:0;margin:0}
+.gcard .fl .inp{flex:none;width:100%}
 .gcard .seg.big{display:flex} .gcard .seg.big button{flex:1;padding:12px;font-size:18px}
 .bnav a{font-size:14.5px;white-space:nowrap;padding:6px 2px}
 .cast2 video.scene-vid{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#101830}
@@ -3871,7 +3872,9 @@ function confetti() {
   let n = 0; (function f() { x.clearRect(0, 0, W, H); P.forEach(p => { p.x += p.vx; p.y += p.vy; p.vy += 0.28; p.a += 0.2; x.save(); x.translate(p.x, p.y); x.rotate(p.a); x.fillStyle = p.c; x.fillRect(-p.r / 2, -p.r / 4, p.r, p.r / 2); x.restore(); }); if (++n < 80) requestAnimationFrame(f); else c.remove(); })();
 }
 
-function buildExMeta(day, c) { const b = c[0]; return { code: b, title: typeof TITLES[b] === "object" ? TITLES[b][S.lang] : TITLES[b], pts: PTS[b] }; }
+function buildExMeta(day, c) { const b = c[0], t = typeof TITLES[b] === "object" ? TITLES[b][S.lang] : TITLES[b]; return { code: b, title: t || typeName(b).replace(/^Bước \d+ · /, ""), pts: PTS[b] }; }
+/* trang giới thiệu chương trình (trang chủ của web); ngoài github.io (bản xem trong Claude) thì mở trang thật */
+const INTRO_URL = /github\.io$/.test(location.hostname) ? "../" : "https://ces-training.github.io/anh-trung-thuc-chien/";
 /* ---------- số liệu ---------- */
 const WDAYS = DAYS.filter(d => d.kind === "web");
 const dayExKeys = d => d.ex.map(c => exKey(d.id, c));
@@ -4360,6 +4363,7 @@ function renderSide() {
       ${item("#doi-qua", "gift", "Đổi quà", r.v === "rewards", "zh")}
       ${item("#weekend-live", "live", "Weekend Live", r.v === "live", "green")}
       ${item("#huong-dan", "guide", "Hướng dẫn", r.v === "guide", "en")}
+      ${item(INTRO_URL, "home", "Giới thiệu chương trình", false, "slate")}
     </nav>
     <div class="sfoot"><div class="seg" role="group" aria-label="Ngôn ngữ"><button type="button" data-lang2="en" aria-pressed="${S.lang === "en"}">Tiếng Anh</button><button type="button" data-lang2="zh" aria-pressed="${S.lang === "zh"}">Tiếng Trung</button></div>
       <div class="seg" role="group" aria-label="Mức"><button type="button" data-level2="1" aria-pressed="${S.level === 1}">Mức 1</button><button type="button" data-level2="2" aria-pressed="${S.level === 2}">Mức 2</button></div>
@@ -4415,7 +4419,8 @@ function viewHome(main) {
         <h1>Chào ${esc((pr.name || "bạn").trim().split(/\s+/).pop())}!</h1>
         <p class="say">“${esc(c.lines[line])}”</p>
         <div class="row">${nu ? `<a class="btn primary huge" href="#${nu.d.id}-bai-${nu.k + 1}">${ICON.play} ${progL(S.lang).done ? "Học tiếp" : "Bắt đầu"}: ${esc(nu.d.wlabel || nu.d.label)} · ${esc(nuEx.title)}</a>` : `<a class="btn primary huge" href="#thanh-tich">Xem thành tích tuần 1</a>`}
-          <button type="button" class="btn ghost hear">${ICON.sound} Nghe ${esc(c.name)}</button></div>
+          <button type="button" class="btn ghost hear">${ICON.sound} Nghe ${esc(c.name)}</button>
+          <a class="btn ghost" href="${INTRO_URL}">Giới thiệu chương trình →</a></div>
         <p class="small muted">${langWord()[0].toUpperCase() + langWord().slice(1)} · Mức ${S.level} · ${fmtPts(S.points)} điểm · chuỗi ${calStreak()} ngày</p></div>
     </section>
     <section aria-labelledby="hj"><h2 id="hj" class="sec">Bản đồ hành trình</h2><div class="jgrid">${journeyCard("en")}${journeyCard("zh")}</div></section>
@@ -4554,7 +4559,7 @@ function gate() {
       const c = coach();
       card.innerHTML = `${coachFace(120, "gface")}<p class="eyebrow">Người hướng dẫn của bạn</p><h2 id="gt">${esc(c.name)}</h2><p class="say">“${esc(c.lines.welcome)}”</p>
         ${chosen ? `<button type="button" class="btn primary huge" id="ggo">${ICON.play} Chạm để bắt đầu</button>`
-          : `<p class="small"><b>Bạn muốn bắt đầu thế nào?</b></p><button type="button" class="btn primary huge" id="gplace">${ICON.play} Làm bài kiểm tra đầu vào (10–15 phút)</button><p class="small muted">Được xếp đúng trình độ và học thử ngay tuần phù hợp.</p><button type="button" class="btn ghost" id="gself">Tự chọn trình độ, học thử 1 tuần</button>`}<p class="small muted">Bật loa để nghe ${esc(c.name)} nhé.</p>`;
+          : `<p class="small"><b>Bạn muốn bắt đầu thế nào?</b></p><button type="button" class="btn primary huge" id="gplace">${ICON.play} Làm bài kiểm tra đầu vào (10–15 phút)</button><p class="small muted">Được xếp đúng trình độ và học thử ngay tuần phù hợp.</p><button type="button" class="btn ghost" id="gself">Tự chọn trình độ, học thử 1 tuần</button><p class="small"><a href="${INTRO_URL}">Chưa biết chương trình? Xem giới thiệu →</a></p>`}<p class="small muted">Bật loa để nghe ${esc(c.name)} nhé.</p>`;
       const pg = $("#gplace", card); if (pg) pg.onclick = () => { S.seenWelcome = true; save(); location.hash = "kiem-tra-dau-vao"; done("welcome"); };
       const gs = $("#gself", card); if (gs) gs.onclick = () => { S.seenWelcome = true; save(); location.hash = "lo-trinh"; done("welcome"); };
       card.insertAdjacentHTML("beforeend", browserTip(false));
