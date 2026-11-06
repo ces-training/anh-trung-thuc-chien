@@ -54,7 +54,7 @@
    "char-an",
    "char-tom"
   ],
-  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. A weekend networking event in a bright Hanoi co-working space with colourful bunting: An (first reference) and Tom (second reference) meet for the first time, shaking hands and smiling, each holding a drink, other guests softly blurred behind. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. A weekend networking event in a bright Hanoi co-working space with colourful bunting: An (first reference) and Tom (second reference) meet for the first time, shaking hands and smiling, each holding a drink, other guests softly blurred behind. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-fair",
@@ -63,7 +63,7 @@
    "char-kevin",
    "char-linh"
   ],
-  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. A busy career fair hall: Kevin (first reference) starts a conversation with Linh (second reference) in front of a blank exhibition booth, both holding blank brochures. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. A busy career fair hall: Kevin (first reference) starts a conversation with Linh (second reference) in front of a blank exhibition booth, both holding blank brochures. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-office",
@@ -72,7 +72,7 @@
    "char-an",
    "char-tom"
   ],
-  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. First day at work in a modern open-plan office: Tom (second reference) welcomes An (first reference) at the marketing team desks, An holds a small box of belongings, both smiling. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. First day at work in a modern open-plan office: Tom (second reference) welcomes An (first reference) at the marketing team desks, An holds a small box of belongings, both smiling. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-meeting",
@@ -81,7 +81,7 @@
    "char-an",
    "char-sarah"
   ],
-  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. A formal business meeting room with a city view: An (first reference) and Sarah Lee (second reference) exchange blank business cards across the table, polite and professional. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. A formal business meeting room with a city view: An (first reference) and Sarah Lee (second reference) exchange blank business cards across the table, polite and professional. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-zh-networking",
@@ -90,7 +90,7 @@
    "char-an",
    "char-wangli"
   ],
-  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. A Vietnamese–Chinese student exchange event in a university hall decorated with red lanterns: An (first reference) meets Wang Li (second reference), both waving hello and smiling. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. A Vietnamese–Chinese student exchange event in a university hall decorated with red lanterns: An (first reference) meets Wang Li (second reference), both waving hello and smiling. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-zh-classroom",
@@ -99,7 +99,7 @@
    "char-minh",
    "char-wangli"
   ],
-  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. First day of a small adult language class with a blank whiteboard: Minh (first reference) introduces himself to Wang Li (second reference), both seated at desks turned towards each other. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. First day of a small adult language class with a blank whiteboard: Minh (first reference) introduces himself to Wang Li (second reference), both seated at desks turned towards each other. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-zh-meeting",
@@ -108,7 +108,7 @@
    "char-an",
    "char-wangjl"
   ],
-  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. A formal meeting room in a company office: An (first reference) receives a blank business card from Manager Wang (second reference) with both hands, slight respectful bow, tea cups on the table. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping their faces, hair and clothes consistent. A formal meeting room in a company office: An (first reference) receives a blank business card from Manager Wang (second reference) with both hands, slight respectful bow, tea cups on the table. Medium-wide shot, both people clearly visible from the waist up. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "coach-khang",
@@ -256,29 +256,29 @@
   "key": "scene-en-hr",
   "aspect": "16:9",
   "refs": [
-   "char-an",
-   "cast-hoa"
+   "cast-hoa",
+   "char-an"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is hoa (Hoa)). A bright HR office: hoa, in a light grey blazer, hands a blank form and a pen across the desk to an, who smiles and sits with a yellow lanyard; a folder and a blank ID card on the desk, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is hoa (Hoa), reference 2 is an). A bright HR office: hoa, in a light grey blazer, hands a blank form and a pen across the desk to an, who smiles and sits with a yellow lanyard; a folder and a blank ID card on the desk, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-tour",
   "aspect": "16:9",
   "refs": [
-   "char-an",
-   "char-tom"
+   "char-tom",
+   "char-an"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is tom (Tom)). A modern open-plan office corridor: tom, in a green sweater, points down the corridor while an, with a yellow lanyard and a notebook, listens and smiles; a glass meeting room and a printer in the background, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is tom, reference 2 is an). A modern open-plan office corridor: tom, points down the corridor while an, listens and smiles; a glass meeting room and a printer in the background, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-team",
   "aspect": "16:9",
   "refs": [
-   "char-an",
    "char-sarah",
+   "char-an",
    "char-tom"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is sarah (Sarah Lee), reference 3 is tom (Tom)). A small glass-walled meeting room: sarah, in a charcoal blazer, stands at the head of the table introducing an to tom, linh and kevin, who smile and wave; laptops and coffee cups on the table, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is sarah (Sarah Lee), reference 2 is an, reference 3 is tom). A small glass-walled meeting room: sarah, in a charcoal blazer, stands at the head of the table introducing an to tom, linh and kevin, who smile and wave; laptops and coffee cups on the table, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-it",
@@ -286,17 +286,17 @@
   "refs": [
    "char-an"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An)). An office desk: an, with a yellow lanyard, holds a phone to her ear and looks worried at a laptop showing a blank login screen, coffee cup and notebook on the desk, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an). An office desk: an, holds a phone to her ear and looks worried at a laptop showing a blank login screen, coffee cup and notebook on the desk, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-friday",
   "aspect": "16:9",
   "refs": [
    "char-an",
-   "char-sarah",
-   "char-kevin"
+   "char-kevin",
+   "char-sarah"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is sarah (Sarah Lee), reference 3 is kevin (Kevin)). Late afternoon light in an open-plan office: kevin, in glasses and a navy shirt, leans on an's desk chatting with a smile while an, with a yellow lanyard, closes her laptop; sarah, in a charcoal blazer, walks towards them holding a tablet, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an, reference 2 is kevin, reference 3 is sarah (Sarah Lee)). Late afternoon light in an open-plan office: kevin, leans on an's desk chatting with a smile while an, closes her laptop; sarah, in a charcoal blazer, walks towards them holding a tablet, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "form",
@@ -374,51 +374,51 @@
   "key": "scene-en-agenda",
   "aspect": "16:9",
   "refs": [
-   "char-an",
    "char-sarah",
+   "char-tom",
    "char-kevin"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is sarah (Sarah Lee), reference 3 is kevin (Kevin)). A meeting room with a large screen showing a blank agenda slide: sarah, in a charcoal blazer, stands beside the screen; tom, kevin, an and linh sit around the table with laptops, linh writing in a notebook, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is sarah (Sarah Lee), reference 2 is tom, reference 3 is kevin). A meeting room with a large screen showing a blank agenda slide: sarah, in a charcoal blazer, stands beside the screen; tom, kevin, an and linh sit around the table with laptops, linh writing in a notebook, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-debate",
   "aspect": "16:9",
   "refs": [
-   "char-an",
-   "char-sarah",
-   "char-kevin"
+   "char-kevin",
+   "char-tom",
+   "char-an"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is sarah (Sarah Lee), reference 3 is kevin (Kevin)). A meeting room discussion: kevin, in glasses and a navy shirt, gestures firmly while tom, in a green sweater, raises a hand to disagree politely; an shows a simple bar chart on her laptop to sarah, no readable text or numbers.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is kevin, reference 2 is tom, reference 3 is an). A meeting room discussion: kevin, gestures firmly while tom, raises a hand to disagree politely; an shows a simple bar chart on her laptop to sarah, no readable text or numbers.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-online",
   "aspect": "16:9",
   "refs": [
    "char-an",
-   "char-sarah",
-   "char-kevin"
+   "char-kevin",
+   "char-tom"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is sarah (Sarah Lee), reference 3 is kevin (Kevin)). An online video meeting on a laptop screen with four video tiles: kevin's tile looks slightly pixelated, tom has a muted microphone icon; an sits in front of the laptop raising her hand politely, sarah in another tile, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an, reference 2 is kevin, reference 3 is tom). An online video meeting on a laptop screen with four video tiles: kevin's tile looks slightly pixelated, tom has a muted microphone icon; an sits in front of the laptop raising her hand politely, sarah in another tile, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-proposal",
   "aspect": "16:9",
   "refs": [
    "char-an",
-   "char-sarah",
-   "char-kevin"
+   "char-kevin",
+   "char-tom"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is sarah (Sarah Lee), reference 3 is kevin (Kevin)). A meeting room with a whiteboard showing a simple blank map outline with a pin: an points at the pin and smiles; kevin and tom nod together; sarah raises her hand as if calling a vote, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an, reference 2 is kevin, reference 3 is tom). A meeting room with a whiteboard showing a simple blank map outline with a pin: an points at the pin and smiles; kevin and tom nod together; sarah raises her hand as if calling a vote, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-wrapup",
   "aspect": "16:9",
   "refs": [
-   "char-an",
+   "char-linh",
    "char-sarah",
-   "char-kevin"
+   "char-an"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is sarah (Sarah Lee), reference 3 is kevin (Kevin)). End of a meeting: linh, in a mustard-yellow sweater, reads from her notebook; a whiteboard behind her shows a blank checklist with ticks; sarah, an, tom and kevin listen around the table, some closing laptops, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is linh, reference 2 is sarah (Sarah Lee), reference 3 is an). End of a meeting: linh, reads from her notebook; a whiteboard behind her shows a blank checklist with ticks; sarah, an, tom and kevin listen around the table, some closing laptops, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "agenda",
@@ -464,37 +464,37 @@
    "char-sarah",
    "char-kevin"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is sarah (Sarah Lee), reference 3 is kevin (Kevin)). A modern meeting room on a Monday morning: an, a Vietnamese woman about 26 with a black bob and a royal-blue top, points at a large screen showing a simple line graph that rises sharply to one clear peak; sarah, in a charcoal blazer, kevin, tom and linh sit around the table with laptops, looking interested, no readable text or numbers.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an, reference 2 is sarah (Sarah Lee), reference 3 is kevin). A modern meeting room on a Monday morning: an, points at a large screen showing a simple line graph that rises sharply to one clear peak; sarah, in a charcoal blazer, kevin, tom and linh sit around the table with laptops, looking interested, no readable text or numbers.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-pitch-d2",
   "aspect": "16:9",
   "refs": [
-   "char-an",
    "char-sarah",
+   "char-an",
    "cast-ingrid"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is sarah (Sarah Lee), reference 3 is ingrid (Ingrid Larsen)). A bright meeting room: sarah, in a charcoal blazer, stands beside a large screen showing a blank slide with a simple three-step arrow diagram; an, in a royal-blue top with a yellow lanyard, holds a presentation clicker; ingrid, a Danish woman about 45 with short blonde hair, glasses and a grey blazer, listens at the table and takes notes, no readable text or numbers.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is sarah (Sarah Lee), reference 2 is an, reference 3 is ingrid (Ingrid Larsen)). A bright meeting room: sarah, in a charcoal blazer, stands beside a large screen showing a blank slide with a simple three-step arrow diagram; an, holds a presentation clicker; ingrid, a Danish woman about 45 with short blonde hair, glasses and a grey blazer, listens at the table and takes notes, no readable text or numbers.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-negotiation-d3",
   "aspect": "16:9",
   "refs": [
-   "char-an",
+   "cast-ingrid",
    "char-sarah",
-   "char-kevin"
+   "char-an"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is sarah (Sarah Lee), reference 3 is kevin (Kevin)). A meeting room negotiation: ingrid, a Danish woman about 45 with short blonde hair, glasses and a grey blazer, sits across the table from sarah and an; linh shows a simple spreadsheet on her laptop to kevin, who leans forward eagerly; documents and coffee cups on the table, no readable text or numbers.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is ingrid (Ingrid Larsen), reference 2 is sarah (Sarah Lee), reference 3 is an). A meeting room negotiation: ingrid, a Danish woman about 45 with short blonde hair, glasses and a grey blazer, sits across the table from sarah and an; linh shows a simple spreadsheet on her laptop to kevin, who leans forward eagerly; documents and coffee cups on the table, no readable text or numbers.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-qa-d4",
   "aspect": "16:9",
   "refs": [
-   "char-an",
-   "char-sarah",
-   "char-tom"
+   "cast-ingrid",
+   "char-tom",
+   "char-an"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is sarah (Sarah Lee), reference 3 is tom (Tom)). A bright meeting room: ingrid, a Danish woman about 45 with short blonde hair, glasses and a grey blazer, sits upright holding a blank sheet with a serious but polite expression; tom gestures toward a blank screen showing a simple padlock icon; an points at a simple blank bar chart on her laptop; sarah listens and nods calmly, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is ingrid (Ingrid Larsen), reference 2 is tom, reference 3 is an). A bright meeting room: ingrid, a Danish woman about 45 with short blonde hair, glasses and a grey blazer, sits upright holding a blank sheet with a serious but polite expression; tom gestures toward a blank screen showing a simple padlock icon; an points at a simple blank bar chart on her laptop; sarah listens and nods calmly, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-en-report-d5",
@@ -503,7 +503,7 @@
    "char-an",
    "char-sarah"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (An), reference 2 is sarah (Sarah Lee)). A small meeting room on a Friday morning: an, in a royal-blue top with a yellow lanyard, types on a laptop showing a blank document; sarah, in a charcoal blazer over a white blouse, sits beside her and points at the screen; a printed report and two coffee cups on the table, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an, reference 2 is sarah (Sarah Lee)). A small meeting room on a Friday morning: an, types on a laptop showing a blank document; sarah, in a charcoal blazer over a white blouse, sits beside her and points at the screen; a printed report and two coffee cups on the table, no readable text.. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "dad",
@@ -611,21 +611,21 @@
   "key": "scene-zh-fair-d1",
   "aspect": "16:9",
   "refs": [
+   "cast-xiaoliu",
    "char-an",
-   "char-wangli",
-   "cast-xiaoliu"
+   "char-wangli"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (阮安), reference 2 is wangli (王丽), reference 3 is xiaoliu (小刘)). Realistic photo of a busy trade fair hall in Guangzhou; a bright exhibition booth with shelves of colourful office cups and stainless steel water bottles; xiaoliu (Chinese woman about 25, ponytail, white shirt with a company lanyard) holds up a water bottle and smiles while explaining; an (Vietnamese woman about 26, shoulder-length black bob, cobalt blue blouse, dark blazer) takes notes, and wangli (Chinese woman about 26, high ponytail, red knit sweater) holds a cup and looks at it closely; other visitors in the background, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is xiaoliu, reference 2 is an, reference 3 is wangli). Realistic photo of a busy trade fair hall in Guangzhou; a bright exhibition booth with shelves of colourful office cups and stainless steel water bottles; xiaoliu holds up a water bottle and smiles while explaining; an takes notes, and wangli holds a cup and looks at it closely; other visitors in the background, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-zh-fair-d2",
   "aspect": "16:9",
   "refs": [
+   "cast-chenzong",
    "char-an",
-   "char-wangli",
-   "cast-chenzong"
+   "char-wangli"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (阮安), reference 2 is wangli (王丽), reference 3 is chenzong (陈总)). Realistic photo of a small meeting table inside a trade fair booth with shelves of office cups and water bottles behind; chenzong (a Chinese man about 50, short grey hair, navy suit, no tie, friendly but firm) shows a blank price sheet to an (Vietnamese woman about 27, short black bob, cobalt blue blouse, yellow lanyard) and wangli (Chinese woman about 30, red blouse) who take notes, busy fair hall in the background, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is chenzong (陈总), reference 2 is an, reference 3 is wangli). Realistic photo of a small meeting table inside a trade fair booth with shelves of office cups and water bottles behind; chenzong (a Chinese man about 50, short grey hair, navy suit, no tie, friendly but firm) shows a blank price sheet to an and wangli who take notes, busy fair hall in the background, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-zh-fair-d3",
@@ -635,7 +635,7 @@
    "char-wangli",
    "cast-chenzong"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (阮安), reference 2 is wangli (王丽), reference 3 is chenzong (陈总)). Realistic photo of a small glass-walled meeting room behind a trade fair booth in Guangzhou, shelves of colourful office cups and water bottles visible through the glass; an (Vietnamese woman about 27, shoulder-length straight black bob haircut, cobalt blue blouse) and wangli (Chinese woman about 26, black hair in a high ponytail, red knit sweater) sit across a white table from chenzong (Chinese man about 50, short grey hair, navy suit, no tie, friendly but firm), sample cups, a calculator and a blank contract on the table, serious but friendly negotiation mood, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an, reference 2 is wangli, reference 3 is chenzong (陈总)). Realistic photo of a small glass-walled meeting room behind a trade fair booth in Guangzhou, shelves of colourful office cups and water bottles visible through the glass; an and wangli sit across a white table from chenzong (Chinese man about 50, short grey hair, navy suit, no tie, friendly but firm), sample cups, a calculator and a blank contract on the table, serious but friendly negotiation mood, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-zh-office-d4",
@@ -643,17 +643,17 @@
   "refs": [
    "char-an"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (阮安)). Realistic photo of a modern office in Hanoi in the morning; an (Vietnamese woman about 27, shoulder-length straight black bob, cobalt blue blouse) sits at a desk talking on her mobile phone with a calm but serious expression; next to her several opened cardboard boxes of white office cups, a few cracked cups laid out on the desk, a laptop showing photos of the boxes; no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an). Realistic photo of a modern office in Hanoi in the morning; an sits at a desk talking on her mobile phone with a calm but serious expression; next to her several opened cardboard boxes of white office cups, a few cracked cups laid out on the desk, a laptop showing photos of the boxes; no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-zh-office-d5",
   "aspect": "16:9",
   "refs": [
+   "char-wangjl",
    "char-an",
-   "char-wangli",
-   "char-wangjl"
+   "char-wangli"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (阮安), reference 2 is wangli (王丽), reference 3 is wangjl (王经理)). Realistic photo of a bright modern manager's office in Hanoi in winter; wangjl (Chinese businessman about 50, short greying hair, rimless glasses, dark navy suit with a red tie) sits behind a desk listening with a warm smile; an (Vietnamese woman about 27, shoulder-length straight black bob, cobalt blue blouse) stands beside the desk presenting a blank printed report, while wangli (Chinese woman about 26, high black ponytail, red knit sweater) holds a plain white office cup sample; laptop and a small stack of cup boxes on the desk, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is wangjl (王经理), reference 2 is an, reference 3 is wangli). Realistic photo of a bright modern manager's office in Hanoi in winter; wangjl (Chinese businessman about 50, short greying hair, rimless glasses, dark navy suit with a red tie) sits behind a desk listening with a warm smile; an stands beside the desk presenting a blank printed report, while wangli holds a plain white office cup sample; laptop and a small stack of cup boxes on the desk, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "older-brother",
@@ -728,7 +728,7 @@
    "char-an",
    "char-wangli"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (阮安), reference 2 is wangli (王丽)). Realistic photo of a crowded airport departure hall in Shanghai in winter, heavy snow falling outside the large windows; an (Vietnamese woman, blue blouse, dark coat) and wangli (Chinese woman, red sweater, beige coat) stand with suitcases looking worried at a departures board, holiday travellers around, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an, reference 2 is wangli). Realistic photo of a crowded airport departure hall in Shanghai in winter, heavy snow falling outside the large windows; an and wangli stand with suitcases looking worried at a departures board, holiday travellers around, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-zh-station",
@@ -737,27 +737,27 @@
    "char-an",
    "char-wangli"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (阮安), reference 2 is wangli (王丽)). Realistic photo inside a large Chinese railway station ticket hall in winter, long queues; an (Vietnamese woman, blue blouse, dark coat) asks at a ticket window while wangli (Chinese woman, red sweater, beige coat) holds two bags beside her, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an, reference 2 is wangli). Realistic photo inside a large Chinese railway station ticket hall in winter, long queues; an asks at a ticket window while wangli holds two bags beside her, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-zh-hotel",
   "aspect": "16:9",
   "refs": [
    "char-an",
-   "char-wangli",
-   "cast-passer"
+   "cast-passer",
+   "char-wangli"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (阮安), reference 2 is wangli (王丽), reference 3 is passer (路人)). Realistic photo of a snowy street outside a Chinese railway station at dusk; an elderly passer-by (passer, wool cap and scarf) points ahead to the right while an (Vietnamese woman, blue blouse, dark coat) and wangli (Chinese woman, red sweater, beige coat) with suitcases listen; a small hotel entrance next to a shop in the background, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an, reference 2 is passer (路人), reference 3 is wangli). Realistic photo of a snowy street outside a Chinese railway station at dusk; an elderly passer-by (passer, wool cap and scarf) points ahead to the right while an and wangli with suitcases listen; a small hotel entrance next to a shop in the background, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-zh-roadside",
   "aspect": "16:9",
   "refs": [
+   "cast-driver",
    "char-an",
-   "char-wangli",
-   "cast-driver"
+   "char-wangli"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (阮安), reference 2 is wangli (王丽), reference 3 is driver (司机)). Realistic photo of a snowy city street in Shanghai; a black sedan stopped at the roadside with its bonnet open, a Chinese driver (driver, grey jacket) apologising; an (Vietnamese woman, blue blouse, dark coat) and wangli (Chinese woman, red sweater, beige coat) step out holding bags, busy traffic, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is driver (司机), reference 2 is an, reference 3 is wangli). Realistic photo of a snowy city street in Shanghai; a black sedan stopped at the roadside with its bonnet open, a Chinese driver (driver, grey jacket) apologising; an and wangli step out holding bags, busy traffic, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-zh-metro",
@@ -766,7 +766,7 @@
    "char-an",
    "char-wangli"
   ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an (阮安), reference 2 is wangli (王丽)). Realistic photo at a Shanghai metro station entrance on a grey winter morning; an (Vietnamese woman, blue blouse, dark coat) checks the weather on her phone while wangli (Chinese woman, red sweater, beige coat) points towards the metro entrance, a bus stop and a red bus nearby, suitcases, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
+  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an, reference 2 is wangli). Realistic photo at a Shanghai metro station entrance on a grey winter morning; an checks the weather on her phone while wangli points towards the metro entrance, a bus stop and a red bus nearby, suitcases, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "airport",

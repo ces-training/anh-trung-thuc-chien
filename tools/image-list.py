@@ -123,7 +123,8 @@ for f in _week_files():
             sc = d["scene"]; k = sc["img"]
             if k in _seen or k in EXISTING: continue
             _seen.add(k)
-            who = [m for m in c.get("cast", []) if re.search(r"\b" + re.escape(m["key"]) + r"\b", sc["imgPrompt"], re.I)][:3]
+            hits = [(re.search(r"\b" + re.escape(m["key"]) + r"\b", sc["imgPrompt"], re.I), m) for m in c.get("cast", [])]
+            who = [m for h, m in sorted([x for x in hits if x[0]], key=lambda x: x[0].start())][:3]
             refs = [_cast_key(m) for m in who]
             names = ", ".join(f"reference {i + 1} is {m['key']} ({m['name']})" for i, m in enumerate(who))
             COURSE_ITEMS.append({"key": k, "aspect": "16:9", "refs": refs, "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent" + (f" ({names})" if names else "") + ". " + sc["imgPrompt"] + ". Natural documentary-style workplace photo, warm light. " + STYLE})
@@ -133,6 +134,12 @@ for f in _week_files():
 for k, d in EXTRA_CARDS.items():
     if k not in _seen and k not in CARDS and k in used_cards:
         _seen.add(k); COURSE_ITEMS.append({"key": k, "aspect": "4:3", "refs": [], "prompt": d + " " + STYLE})
+YOUNG_NAMES = r"(an|linh|kevin|tom|minh|wangli|wang li|xiaoliu)"
+YOUNG_NOTE = " An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
+def _clean_young(p):
+    p = re.sub(r"\b" + YOUNG_NAMES + r" \((?![^)]*reference)[^)]*\)", r"\1", p, flags=re.I)
+    p = re.sub(r"\b" + YOUNG_NAMES + r", (?:a [^,;]*?about \d\d[^,;]*|in [^,;]*|with [^,;]*)(?=[,;])", r"\1", p, flags=re.I)
+    return p
 items = []
 for k, d in CHARS.items():
     items.append({"key": k, "aspect": "1:1", "refs": [], "prompt": PORTRAIT + d + " " + STYLE})
@@ -145,5 +152,8 @@ for k, (refs, d) in HOME_REF.items():
 items += [it for it in COURSE_ITEMS if it["aspect"] == "1:1"] + [it for it in COURSE_ITEMS if it["aspect"] != "1:1"]
 for k, d in CARDS.items():
     items.append({"key": k, "aspect": "4:3", "refs": [], "prompt": d + " " + STYLE})
+for it in items:
+    if it["aspect"] == "16:9" and re.search(r"\b" + YOUNG_NAMES + r"\b", it["prompt"], re.I):
+        it["prompt"] = _clean_young(it["prompt"]) + YOUNG_NOTE
 pathlib.Path(__file__).with_name("image-list.json").write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(items), "tranh")

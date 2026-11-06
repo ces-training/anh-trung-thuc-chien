@@ -43,32 +43,37 @@
   "problems": []
  },
  "scene-en-networking": {
+  "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []
  },
  "scene-en-fair": {
+  "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []
  },
  "scene-en-office": {
+  "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []
  },
  "scene-en-meeting": {
+  "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []
  },
  "scene-zh-networking": {
-  "ok": false,
-  "problems": [
-   "malformed fingers on the waving hand of the woman in the blue shirt"
-  ]
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
  },
  "scene-zh-classroom": {
+  "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []
  },
  "scene-zh-meeting": {
+  "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []
  },
