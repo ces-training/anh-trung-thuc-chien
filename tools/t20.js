@@ -245,12 +245,13 @@ async function funnel(browser, base) {
     await pg.waitForTimeout(500); await pg.evaluate(HOOK); for (let i = 0; i < 80 && !(await pg.$(".endcard")); i++) { await pg.evaluate(STEP); await pg.waitForTimeout(30); }
     return pg.evaluate(() => (document.querySelector(".endcard") || {}).innerText || ""); };
   /* làm bài kiểm tra đầu vào: mode "right" = luôn đúng, chậm như người thật (tắt bộ đo bấm vội); "guess" = bấm ô A thật nhanh */
-  const doTest = async (pg, L, mode = "right", self = 2) => { await g2(pg, "#kiem-tra-dau-vao");
+  const doTest = async (pg, L, mode = "right", self = 2, prod = "skip") => { await g2(pg, "#kiem-tra-dau-vao");
     await pg.evaluate(m => { window.PLACE_FAST_OFF = m === "right" ? 1 : 0; }, mode);
     if (await pg.$(".presult .other")) { await pg.click(".presult .other"); await pg.waitForTimeout(300); }
     await pg.fill("#pname", "Người Thử"); await pg.fill("#pcontact", "0912000111"); await pg.click(`#plang [data-v="${L}"]`); await pg.click('#pgoal [data-v="Đi làm"]'); await pg.click(`#pself [data-v='${self}']`); await pg.check("#pok"); await pg.click("#pgo");
     const pos = [];
-    for (let i = 0; i < 60 && !(await pg.$(".presult")); i++) {
+    for (let i = 0; i < 80 && !(await pg.$(".presult")); i++) {
+      if (await pg.$(".pprod")) { if (prod === "write") { await pg.fill(".pprod .pwrite", "我叫阮安，我是越南人。"); await pg.click(".pprod .psend"); } else await pg.click(".pprod .skip"); await pg.waitForTimeout(400); continue; }
       const o = await pg.$(mode === "right" ? '.ptest .opt[data-k="0"]:not([disabled])' : '.ptest .opt[data-pos="0"]:not([disabled])');
       if (o) { pos.push(await o.getAttribute(mode === "right" ? "data-pos" : "data-k")); await o.click(); } await pg.waitForTimeout(mode === "right" ? 450 : 380); }
     return pos; };
@@ -274,7 +275,7 @@ async function funnel(browser, base) {
   /* ===== Luồng B: kiểm tra đầu vào trước ===== */
   const pb = await fresh();
   const posB = await doTest(pb, "en"); const resB = await tx(pb);
-  check(new Set(posB).size >= 2 && posB.length >= 15 && posB.length <= 25, `đáp án đúng nằm ở nhiều ô khác nhau, bài dài ${posB.length} câu (15–25)`);
+  check(new Set(posB).size >= 2 && posB.length >= 24 && posB.length <= 40, `đáp án đúng nằm ở nhiều ô khác nhau, bài dài ${posB.length} câu (24–40)`);
   check(!!(await pb.$(".presult .again-lock")) && !(await pb.$(".presult .again")), "vừa làm xong thì chưa làm lại được (khoá 7 ngày)");
   const tb = await pb.evaluate(() => S.trial.en);
   check(/Học thử ngay: Nâng cao/.test(resB) && !!(await pb.$('.presult a[href="#b2-w1-thu-2"]')) && tb.track === "en-d" && tb.tested, "kiểm tra trước → tự xếp tuần học thử B2");
@@ -286,7 +287,10 @@ async function funnel(browser, base) {
   await doTest(pc, "en", "guess", 4); const rc = await pc.evaluate(() => S.places.en.result);
   check(rc.level <= 1 && /nhanh|cùng một ô/.test(rc.doubt) && /chỉ tính những mức bạn làm chắc chắn/.test(await tx(pc)), `đoán bừa tự nhận B2 → xếp ${rc.levelName}, ghi nghi đoán (${rc.doubt})`);
   check(pc.posts.some(p => p.type === "placement" && /^Nghi đoán/.test(p.trust || "")), "Sheet nhận cột Độ tin cậy: Nghi đoán");
-  await doTest(pc, "zh", "right", 0); const both = await pc.evaluate(() => ({ en: S.places.en && S.places.en.result.levelName, zh: S.places.zh && S.places.zh.result.levelName }));
+  await doTest(pc, "zh", "right", 0, "write");
+  check(pc.posts.some(p => p.type === "production" && /阮安/.test(p.text || "") && p.sayPrompt) && /đã gửi giáo viên/.test(await tx(pc)), "phần nói, viết gửi về Sheet, màn kết quả báo đã gửi");
+  check(pc.posts.some(p => p.type === "placement" && /zh\d-\d+=1@/.test(p.items || "") && p.skLv), "Sheet nhận từng câu (id=đúng@giây) và ước lượng theo kỹ năng");
+  const both = await pc.evaluate(() => ({ en: S.places.en && S.places.en.result.levelName, zh: S.places.zh && S.places.zh.result.levelName }));
   check(both.en && both.zh === "HSK4" && /Xem kết quả tiếng Anh/.test(await tx(pc)), `kết quả Anh, Trung lưu riêng (Anh ${both.en}, Trung ${both.zh})`);
   await pc.screenshot({ path: path.join(ROOT, "tools", "shots", "390-ket-qua-dau-vao.png"), fullPage: true });
   await pa.screenshot({ path: path.join(ROOT, "tools", "shots", "390-ket-qua-sau-hoc-thu.png"), fullPage: true });

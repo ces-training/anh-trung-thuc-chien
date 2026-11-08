@@ -4,7 +4,7 @@
  *
  * Web gửi về đây:
  *   - trang chủ (form đăng ký): đơn "dang-ky"
- *   - trang học: placement (kiểm tra đầu vào), waitlist (chờ lớp), seen (vào học, mỗi ngày 1 lần),
+ *   - trang học: placement (kiểm tra đầu vào), production (bài nói, viết sau kiểm tra đầu vào; tệp ghi âm lưu vào Drive), waitlist (chờ lớp), seen (vào học, mỗi ngày 1 lần),
  *     day (xong một ngày học), order (đặt lớp nhóm 89k, vé Weekend Live 179k, mua gói), paid_claim (bấm "Tôi đã chuyển khoản")
  * Web hỏi lại (GET ?a=status): học viên đã được kích hoạt gói chưa, đơn nào đã thu tiền.
  *
@@ -20,11 +20,12 @@ const TZ = "Asia/Ho_Chi_Minh";
 const SHEETS = {
   hv: ["Mã HV", "Họ tên", "Zalo/SĐT", "Email", "Ngôn ngữ", "Lộ trình", "Trình độ", "Lần đầu", "Lần cuối", "Bài đã xong", "Ngày học đã xong", "Gói", "Hạn gói", "Đã nhắc bỏ học", "Ghi chú"],
   don: ["Thời gian", "Mã đơn", "Mã HV", "Họ tên", "Zalo/SĐT", "Loại", "Nội dung", "Số tiền", "Lịch", "Trạng thái", "Ngày thu", "Nguồn", "Ghi chú"],
-  dauvao: ["Thời gian", "Mã HV", "Họ tên", "Liên hệ", "Ngôn ngữ", "Mục tiêu", "Chứng chỉ muốn đạt", "Tự đánh giá", "Trình độ xếp", "Lộ trình", "Điểm", "Theo kỹ năng", "Độ tin cậy", "Thời gian làm (phút)"],
+  dauvao: ["Thời gian", "Mã HV", "Họ tên", "Liên hệ", "Ngôn ngữ", "Mục tiêu", "Chứng chỉ muốn đạt", "Tự đánh giá", "Trình độ xếp", "Lộ trình", "Điểm", "Theo kỹ năng", "Độ tin cậy", "Thời gian làm (phút)", "Ước lượng theo kỹ năng", "Từng câu"],
+  noiviet: ["Thời gian", "Mã HV", "Họ tên", "Liên hệ", "Ngôn ngữ", "Trình độ tạm xếp", "Đề nói", "Bài nói (link Drive)", "Số giây", "Đề viết", "Bài viết", "Giáo viên chốt mức", "Ghi chú giáo viên"],
   cho: ["Thời gian", "Mã HV", "Họ tên", "Liên hệ", "Ngôn ngữ", "Lộ trình chờ"],
   log: ["Thời gian", "Loại", "Nội dung", "Kết quả"]
 };
-const NAMES = { hv: "Học viên", don: "Đơn hàng", dauvao: "Kiểm tra đầu vào", cho: "Đăng ký chờ", log: "Nhật ký" };
+const NAMES = { hv: "Học viên", don: "Đơn hàng", dauvao: "Kiểm tra đầu vào", noiviet: "Nói viết đầu vào", cho: "Đăng ký chờ", log: "Nhật ký" };
 const STATUS = ["Chờ chuyển khoản", "Đã báo chuyển", "Đã thu", "Huỷ"];
 const TYPE_NAME = { "lop-nhom": "Lớp nhóm học thử", "weekend-live": "Vé Weekend Live học thử", "goi": "Gói học", "dang-ky": "Đăng ký ở trang chủ" };
 
@@ -37,6 +38,7 @@ function doPost(e) {
     if (!d.type && e.parameter && e.parameter.code) d = Object.assign({ type: "landing" }, e.parameter); // form trang chủ
     const t = d.type || "";
     if (t === "placement") onPlacement(d);
+    else if (t === "production") onProduction(d);
     else if (t === "waitlist") onWaitlist(d);
     else if (t === "seen") upsertHV(d, { seen: true });
     else if (t === "day") upsertHV(d, { day: d.day, doneN: d.doneN });
@@ -75,9 +77,23 @@ function doGet(e) {
 
 /* ================= xử lý từng loại ================= */
 function onPlacement(d) {
-  sheet("dauvao").appendRow([now(), d.id || "", d.name, d.contact, d.lang, d.goal, d.cert, d.self, d.level, d.track, d.score, d.skills, d.trust || "", d.mins || ""].map(clip));
+  sheet("dauvao").appendRow([now(), d.id || "", d.name, d.contact, d.lang, d.goal, d.cert, d.self, d.level, d.track, d.score, d.skills, d.trust || "", d.mins || "", d.skLv || ""].map(clip).concat([String(d.items || "").slice(0, 4000)]));
   upsertHV(d, { name: d.name, contact: d.contact, lang: d.lang, track: d.track, level: d.level });
   zalo(`🆕 Có người mới làm kiểm tra đầu vào\n${d.name} · ${d.contact}\n${d.lang}: ${d.level} → ${d.track}${d.trust && d.trust !== "Tin cậy" ? "\n⚠️ " + d.trust + " → nên gọi kiểm tra lại 5 phút" : ""}\nMục tiêu: ${d.goal || "-"}\nMã HV: ${d.id || "-"}\n👉 Nhắn Zalo chào và mời học thử trong 24 giờ.`);
+}
+/* bài nói, viết sau kiểm tra đầu vào: tệp ghi âm lưu vào thư mục Drive riêng (chỉ chủ Sheet xem được), link ghi vào Sheet */
+function onProduction(d) {
+  let link = "";
+  if (d.audio && String(d.audio).indexOf("base64,") > 0) {
+    try {
+      const b64 = String(d.audio).split("base64,")[1], mime = d.mime || "audio/webm", ext = /mp4|aac|m4a/.test(mime) ? "m4a" : /ogg/.test(mime) ? "ogg" : "webm";
+      const it = DriveApp.getFoldersByName("CES · Bài nói đầu vào"), folder = it.hasNext() ? it.next() : DriveApp.createFolder("CES · Bài nói đầu vào");
+      const f = folder.createFile(Utilities.newBlob(Utilities.base64Decode(b64), mime, `${Utilities.formatDate(new Date(), TZ, "yyyy-MM-dd HH.mm")} ${d.name || ""} ${d.lang || ""}.${ext}`));
+      link = f.getUrl();
+    } catch (x) { log("lỗi", "lưu ghi âm: " + x, d.name); }
+  }
+  sheet("noiviet").appendRow([now(), d.id || "", d.name, d.contact, d.lang, d.level, d.sayPrompt, link, d.secs || "", d.writePrompt, String(d.text || "").slice(0, 3000), "", ""].map(v => typeof v === "string" ? v.slice(0, 3000) : v));
+  zalo(`🎙️ Bài nói, viết đầu vào cần chấm\n${d.name} · ${d.contact}\n${d.lang}: tạm xếp ${d.level}\n${link ? "Ghi âm " + (d.secs || "?") + " giây" : "Không có ghi âm"} · ${d.text ? "có bài viết" : "không có bài viết"}\n→ Nghe, đọc ở tab "Nói viết đầu vào", ghi mức chốt rồi nhắn học viên.`);
 }
 function onWaitlist(d) {
   sheet("cho").appendRow([now(), d.id || "", d.name, d.contact, d.lang, d.track].map(clip));

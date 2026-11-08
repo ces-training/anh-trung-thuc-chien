@@ -6,7 +6,8 @@ Sau khi cài, mọi thứ học viên làm trên web (kiểm tra đầu vào, đ
 1. Tạo một Google Sheet mới, đặt tên "Học viên Anh – Trung".
 2. Vào **Tiện ích mở rộng → Apps Script**. Xoá mã mẫu, dán toàn bộ file `docs/apps-script.gs`, bấm **Lưu**.
 3. Quay lại Sheet, tải lại trang. Trên thanh menu có mục **CES** → bấm **1. Cài đặt**, cấp quyền khi Google hỏi.
-   Sheet sẽ có 5 bảng: Học viên, Đơn hàng, Kiểm tra đầu vào, Đăng ký chờ, Nhật ký. Lịch nhắc 8 giờ sáng mỗi ngày được bật.
+   Sheet sẽ có 6 bảng: Học viên, Đơn hàng, Kiểm tra đầu vào, Nói viết đầu vào, Đăng ký chờ, Nhật ký. Lịch nhắc 8 giờ sáng mỗi ngày được bật.
+   Google sẽ hỏi thêm quyền **Google Drive**: để lưu tệp ghi âm phần nói của bài kiểm tra đầu vào vào thư mục "CES · Bài nói đầu vào" (chỉ chủ Sheet xem được).
 4. Trong Apps Script: **Triển khai → Tùy chọn triển khai mới → Ứng dụng web**.
    Thực thi với tư cách: **Tôi**. Ai có quyền truy cập: **Bất kỳ ai**. Bấm Triển khai, chép **URL ứng dụng web** (dạng `https://script.google.com/macros/s/…/exec`).
 5. Gửi URL này cho Claude (hoặc tự dán vào `"sheetUrl"` trong `tools/site.json`, rồi chạy `python3 tools/deploy.py "Nối Google Sheet"`). Trang chủ và trang học dùng chung URL này.
@@ -58,3 +59,9 @@ Dán đường dẫn của OA (dạng `https://zalo.me/…`, lấy ở OA Manage
 ## Lưu ý
 - Khoá từ tuần 2 là khoá trên trình duyệt: đủ cho học viên thông thường, nhưng người rành kỹ thuật vẫn xem được nội dung trong mã trang. Muốn khoá chặt cần chuyển bài học lên máy chủ có đăng nhập.
 - Tiến độ học vẫn lưu trên trình duyệt; Sheet chỉ nhận các mốc (vào học, xong ngày, đặt chỗ, thanh toán).
+
+
+## Bài kiểm tra đầu vào: đọc kết quả, chấm phần nói viết, thống kê câu hỏi
+- Bảng **Kiểm tra đầu vào**: mỗi lượt một dòng. Cột **Độ tin cậy** ghi "Nghi đoán …" khi học viên bấm quá nhanh hoặc chọn cùng một ô nhiều câu liền: nên gọi kiểm tra lại 5 phút. Cột **Ước lượng theo kỹ năng** chỉ để tham khảo. Cột **Từng câu** dùng cho thống kê (đừng sửa).
+- Bảng **Nói viết đầu vào**: giáo viên bấm link nghe bài nói, đọc bài viết, rồi điền **Giáo viên chốt mức** và ghi chú. Nhắn học viên trong 24 giờ.
+- **Thống kê câu hỏi** (sau khoảng 50–100 lượt): trong bảng Kiểm tra đầu vào chọn Tệp → Tải xuống → CSV, rồi chạy `python3 tools/placement_stats.py tệp.csv`. Kết quả ghi ra `tools/placement-stats.md`: câu quá dễ, quá khó, nhiều người chọn "chưa biết", hoặc người giỏi lại hay sai (độ phân biệt thấp) → sửa hoặc thay câu đó trong `tools/course/placement.json` (câu mới dùng id mới).

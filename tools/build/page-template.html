@@ -3752,7 +3752,8 @@ const ICON = {
   star: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z" fill="currentColor"/></svg>',
   fire: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2c1 4 5 5.5 5 11a5 5 0 0 1-10 0c0-2.6 1.4-4 2.5-5 .2 2 1 3 2 3.2C11 8.5 11.5 5 12 2z" fill="currentColor"/></svg>',
   sound: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
-  mute: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M17 9l5 6M22 9l-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>'
+  mute: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M17 9l5 6M22 9l-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+  mic: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" fill="currentColor"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>'
 };
 /* biểu tượng từng dạng bài */
 const TYPE_ICON = {
@@ -4611,17 +4612,19 @@ const trackStart = t => t.start || (t.demo ? demoStart(t.demo) : "");
 /* lộ trình chưa mở: gợi ý tuần học thử gần nhất BÊN DƯỚI, không đẩy về lộ trình mới bắt đầu */
 function nearTrial(L, t) { const i = TRACKS[L].indexOf(t); for (let j = i - 1; j >= 0; j--) if (trackStart(TRACKS[L][j])) return TRACKS[L][j]; return null; }
 function sendSheet(row) {
-  S.sentRows = S.sentRows || []; S.sentRows.push(row); save();
+  S.sentRows = S.sentRows || []; S.sentRows.push(row.audio ? Object.assign({}, row, { audio: "(ghi âm " + row.secs + " giây)" }) : row); save();
   if (!SHEET_URL) return false;
   try { fetch(SHEET_URL, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(row) }); return true; } catch (e) { return false; }
 }
 
 /* ---------- màn hình kiểm tra đầu vào ----------
-   Chống đoán bừa: đáp án trộn ngẫu nhiên cho từng người, từng lần; mỗi mức 5 câu 4 lựa chọn, đúng ≥4/5 mới qua
-   (đúng 3/5 thì thêm 3 câu, cần ≥6/8); bắt đầu thấp hơn mức tự nhận một bậc rồi đi lên.
+   Chống đoán bừa: đáp án trộn ngẫu nhiên cho từng người, từng lần; mỗi mức 8 câu 4 lựa chọn (2 câu mỗi kỹ năng),
+   đúng ≥6/8 mới qua (đúng 5/8 thì thêm 4 câu, cần ≥9/12); bắt đầu thấp hơn mức tự nhận một bậc rồi đi lên.
+   Sau phần trắc nghiệm: nói 1 phút + viết 3–6 câu theo mức vừa xếp, gửi giáo viên chấm (được bỏ qua).
+   Sheet nhận từng câu (id=1/0/? @giây) để thống kê độ khó, độ phân biệt: tools/placement_stats.py.
    Trả lời quá nhanh, hoặc chọn cùng một ô từ 6 câu liền → chỉ tính các mức qua chắc chắn, Sheet ghi "nghi đoán".
    Kết quả lưu riêng từng ngôn ngữ (S.places); làm lại sau 7 ngày, câu chưa gặp ra trước. */
-const PLACE_BLOCK = 5, PLACE_PASS = 4, PLACE_EXTRA = 3, PLACE_PASS_EXT = 6, PLACE_STREAK = 6, RETAKE_DAYS = 7;
+const PLACE_BLOCK = 8, PLACE_PASS = 6, PLACE_EXTRA = 4, PLACE_PASS_EXT = 9, PLACE_STREAK = 6, RETAKE_DAYS = 7;
 function placeOf(L) { S.places = S.places || {}; if (!S.places[L] && S.place && S.place.lang === L && S.place.result) S.places[L] = S.place; return S.places[L] && S.places[L].result ? S.places[L] : null; }
 function retakeAt(L) { const P = placeOf(L); return P ? new Date(new Date(P.result.at).getTime() + RETAKE_DAYS * 864e5) : null; }
 function canRetake(L) { const t = retakeAt(L); return !t || Date.now() >= t.getTime(); }
@@ -4637,7 +4640,7 @@ function placeMinMs(q, L) {
 const langName = L => L === "zh" ? "tiếng Trung" : "tiếng Anh";
 function viewPlace(main) {
   const P = S.place || {};
-  const box = el(`<div class="roomv place">${roomHead("room-career", "Kiểm tra đầu vào", "Tìm đúng lộ trình cho bạn", "10–15 phút, 15–20 câu, mỗi câu 4 lựa chọn: nghe, từ vựng, ngữ pháp, đọc. Bài tự dễ hơn hoặc khó hơn theo câu trả lời của bạn. Câu nào chưa biết, hãy bấm “Tôi chưa biết câu này”: đoán bừa sẽ làm kết quả kém chính xác.")}<div class="pbody2"></div></div>`);
+  const box = el(`<div class="roomv place">${roomHead("room-career", "Kiểm tra đầu vào", "Tìm đúng lộ trình cho bạn", "15–20 phút. Phần 1: khoảng 16–30 câu trắc nghiệm (nghe, từ vựng, ngữ pháp, đọc), bài tự dễ hơn hoặc khó hơn theo câu trả lời của bạn. Phần 2: nói 1 phút và viết vài câu để giáo viên nghe, đọc. Câu nào chưa biết, hãy bấm “Tôi chưa biết câu này”: đoán bừa sẽ làm kết quả kém chính xác.")}<div class="pbody2"></div></div>`);
   main.appendChild(box);
   const body = $(".pbody2", box);
   if (P.result && !P.retake) return showResult(body, P);
@@ -4684,13 +4687,11 @@ function test(body) {
   S.placeSeen = S.placeSeen || {}; const seenBefore = new Set(S.placeSeen[L] || []);
   const used = new Set(), log = [], res = {};
   let lv = Math.max(MIN_LV[L], Math.min(MAX_LV[L], (P.self == null ? MIN_LV[L] : P.self) - 1)), n = 0, bno = 0, block = [], ok = 0, extended = false;
-  /* chọn k câu ở mức l: câu chưa gặp lần trước ra trước, mỗi khối có 1 câu nghe, các kỹ năng khác nhau */
+  /* chọn k câu ở mức l, chia đều theo kỹ năng (Nghe trước): câu chưa gặp lần trước ra trước */
   const pick = (l, k) => {
     const pool = shuffleR(bank.map((q, i) => i).filter(i => bank[i].lv === l && !used.has(i))).sort((x, y) => seenBefore.has(x) - seenBefore.has(y));
-    const out = [], sk = new Set(), take = i => { out.push(i); used.add(i); sk.add(bank[i].sk); };
-    const au = pool.find(i => bank[i].audio); if (au != null && k >= PLACE_BLOCK) take(au);
-    for (const i of pool) { if (out.length >= k) break; if (!used.has(i) && !sk.has(bank[i].sk)) take(i); }
-    for (const i of pool) { if (out.length >= k) break; if (!used.has(i)) take(i); }
+    const sks = [...new Set(pool.map(i => bank[i].sk))].sort((a, b) => (b === "Nghe") - (a === "Nghe")), out = [];
+    for (let r = 0; out.length < k && r < k; r++) for (const sk of sks) { if (out.length >= k) break; const i = pool.find(x => !used.has(x) && bank[x].sk === sk); if (i != null) { out.push(i); used.add(i); } }
     return shuffleR(out);
   };
   function startBlock() { bno++; block = pick(lv, PLACE_BLOCK); ok = 0; extended = false; if (!block.length) return finish(); ask(0); }
@@ -4698,7 +4699,7 @@ function test(body) {
     if (i >= block.length) return judge();
     const qi = block[i], q = bank[qi], perm = shuffleR(q.opts.map((_, k) => k)); n++;
     body.innerHTML = `<section class="card2 ptest"><div class="row between"><p class="eyebrow">2 · Làm bài · câu ${n}</p><span class="pill">${esc(q.sk)}</span></div>
-      <div class="pbar"><i style="width:${Math.min(100, n / 18 * 100)}%"></i></div>
+      <div class="pbar"><i style="width:${Math.min(100, n / 28 * 100)}%"></i></div>
       ${q.audio ? `<div class="row center"><button type="button" class="btn sound au">${ICON.play} Nghe</button></div>` : ""}
       <p class="qt">${esc(q.q)}</p>
       <div class="opts" role="group">${perm.map((k, j) => `<button type="button" class="opt" data-k="${k}" data-pos="${j}"><span class="badge">${"ABCD"[j]}</span><span class="ot" lang="${/[一-鿿]/.test(q.opts[k]) ? "zh" : L === "en" ? "en" : "vi"}">${esc(q.opts[k])}</span></button>`).join("")}</div>
@@ -4707,7 +4708,7 @@ function test(body) {
     if (q.audio) { $(".au", body).onclick = () => say(q.audio, L); setTimeout(() => say(q.audio, L), 350); }
     const go = (right, pos) => {
       const ms = Date.now() - shown, dunno = pos < 0;
-      log.push({ lv: q.lv, sk: q.sk, ok: right, ms, pos, dunno, quick: !dunno && ms < minMs, b: bno });
+      log.push({ id: q.id, lv: q.lv, sk: q.sk, ok: right, ms, pos, dunno, quick: !dunno && ms < minMs, b: bno });
       if (right) ok++;
       S.placeSeen[L] = [...new Set((S.placeSeen[L] || []).concat(qi))];
       body.querySelectorAll(".opt,.dunno").forEach(x => x.disabled = true);
@@ -4736,25 +4737,32 @@ function test(body) {
     const top = a => a.length ? Math.max(...a) : MIN_LV[L] - 1;
     const raw = Math.max(top(passed), 0), level = flags.length ? Math.max(top(sure), 0) : raw;
     const bySk = {}; log.forEach(r => { bySk[r.sk] = bySk[r.sk] || [0, 0]; bySk[r.sk][1]++; if (r.ok) bySk[r.sk][0]++; });
+    /* mức ước lượng theo kỹ năng: mức cao nhất mà học viên làm đúng hết các câu của kỹ năng đó trong khối */
+    const skLv = {}; Object.keys(bySk).forEach(sk => { const good = lvs.filter(l => { const rs = log.filter(r => r.b === res[l].b && r.sk === sk); return rs.length && rs.every(r => r.ok && !r.quick && !r.streak); }); skLv[sk] = good.length ? Math.max(...good) : null; });
+    const items = log.map(r => `${r.id}=${r.dunno ? "?" : r.ok ? 1 : 0}@${Math.round(r.ms / 100) / 10}`).join(" ");
     const track = LV_TRACK[L][level], mins = Math.round((Date.now() - t0) / 6000) / 10;
-    P.result = { level, levelName: LV_NAMES[L][level], track, bySk, n: log.length, right: log.filter(r => r.ok).length, dunno: log.filter(r => r.dunno).length, at: new Date().toISOString(), mins,
+    P.result = { level, levelName: LV_NAMES[L][level], track, bySk, skLv, n: log.length, right: log.filter(r => r.ok).length, dunno: log.filter(r => r.dunno).length, at: new Date().toISOString(), mins,
       doubt: flags.join("; "), raw: flags.length && raw !== level ? LV_NAMES[L][raw] : "" }; P.retake = false;
     S.places = S.places || {}; S.places[L] = P; S.lang = L; save();
     if (typeof assignTrial === "function") assignTrial(L, track);
     P.sent = sendSheet({ type: "placement", time: P.result.at, name: P.name, contact: P.contact, lang: L === "zh" ? "Tiếng Trung" : "Tiếng Anh", goal: P.goal, cert: P.cert, self: P.self, level: P.result.levelName, track: trackOf(L, track).name + " (" + trackOf(L, track).lv + ")", score: `${P.result.right}/${P.result.n}${P.result.dunno ? ` (${P.result.dunno} câu chưa biết)` : ""}`, skills: Object.entries(bySk).map(([k, v]) => `${k} ${v[0]}/${v[1]}`).join(", "),
-      trust: flags.length ? `Nghi đoán: ${P.result.doubt}${P.result.raw ? ` (nếu tính cả thì ${P.result.raw})` : ""}` : "Tin cậy", mins });
-    save(); showResult(body, P);
+      trust: flags.length ? `Nghi đoán: ${P.result.doubt}${P.result.raw ? ` (nếu tính cả thì ${P.result.raw})` : ""}` : "Tin cậy", mins,
+      skLv: Object.entries(skLv).map(([k, v]) => `${k} ${v == null ? "dưới " + LV_NAMES[L][Math.max(MIN_LV[L], 0)] : LV_NAMES[L][v]}`).join(", "), items });
+    save(); prodStep(body, P);
   }
   startBlock();
 }
 function showResult(body, P) {
   const L = P.lang, r = P.result, t = trackOf(L, r.track), O = L === "zh" ? "en" : "zh", other = placeOf(O);
   const skills = Object.entries(r.bySk || {}), lock = !canRetake(L);
-  body.innerHTML = `<section class="card2 presult"><p class="eyebrow">3 · Kết quả</p>
+  body.innerHTML = `<section class="card2 presult"><p class="eyebrow">4 · Kết quả</p>
     <h2>Trình độ ${langName(L)} của bạn: <span class="lvl">${esc(r.levelName)}</span></h2>
     <p class="lead">Đúng ${r.right}/${r.n} câu. Lộ trình phù hợp: <b>${esc(t.name)} (${esc(t.lv)})</b>, đích đến ${esc(t.goal)}.</p>
     ${r.doubt ? `<div class="note">Ở một số câu bạn trả lời rất nhanh hoặc chọn cùng một ô nhiều lần liền, nên CES chỉ tính những mức bạn làm chắc chắn. Nếu thấy mình giỏi hơn kết quả này, CES sẽ nhắn Zalo để kiểm tra lại cùng bạn khoảng 5 phút.</div>` : ""}
-    <div class="pskills">${skills.map(([k, v]) => `<div><b>${esc(k)}</b><div class="barbg"><i style="width:${Math.round(v[0] / v[1] * 100)}%;background:${v[0] / v[1] >= .67 ? "var(--green)" : v[0] / v[1] >= .34 ? "var(--sun)" : "var(--zh)"}"></i></div><small>${v[0]}/${v[1]} câu đúng${v[0] / v[1] < .5 ? " · nên luyện thêm" : ""}</small></div>`).join("")}</div>
+    <h3>Ước lượng theo kỹ năng</h3>
+    <div class="pskills">${skills.map(([k, v]) => { const sl = (r.skLv || {})[k], lvTxt = sl == null ? "chưa đạt " + LV_NAMES[L][Math.max(MIN_LV[L], 0)] : LV_NAMES[L][sl], weak = sl == null || sl < r.level; return `<div><b>${esc(k)}: ${esc(lvTxt)}</b><div class="barbg"><i style="width:${Math.round(v[0] / v[1] * 100)}%;background:${v[0] / v[1] >= .67 ? "var(--green)" : v[0] / v[1] >= .34 ? "var(--sun)" : "var(--zh)"}"></i></div><small>${v[0]}/${v[1]} câu đúng${weak ? " · nên luyện thêm" : ""}</small></div>`; }).join("")}</div>
+    <p class="small muted">Ước lượng theo kỹ năng chỉ dựa trên 2–3 câu mỗi kỹ năng ở mỗi mức; giáo viên sẽ chốt khi nghe phần nói, đọc phần viết.</p>
+    ${P.prod && P.prod.sent ? `<div class="note">Phần nói, viết đã gửi giáo viên. CES sẽ nhắn bạn trong 24 giờ để chốt trình độ.</div>` : `<div class="row"><button type="button" class="btn ghost doprod">${ICON.mic || ""} Làm phần nói, viết (3 phút) để giáo viên chốt trình độ</button></div>`}
     ${typeof trialUsed === "function" && trialUsed(L) ? afterTrialHTML(L, t)
       : t.status === "open" ? `<a class="btn primary huge" href="#${t.start}">${ICON.play} Học thử ngay: ${esc(t.name)}</a>`
       : t.status === "demo" && trackStart(t) ? `<div class="note">Lộ trình <b>${esc(t.name)}</b> đang mở lớp dần. Bạn học thử ngay một tuần trọn vẹn (${esc(t.note.replace(/^Học thử /, ""))}), rồi đăng ký để CES báo khi lớp mở.</div>
@@ -4764,10 +4772,68 @@ function showResult(body, P) {
     <p class="small muted">${P.sent ? "Kết quả đã gửi cho CES." : SHEET_URL ? "" : "Kết quả đang lưu trên máy này (CES chưa kết nối bảng nhận kết quả)."}</p>
     <div class="row">${lock ? `<span class="small muted again-lock">Làm lại bài ${langName(L)} được từ ngày ${fmtDay(retakeAt(L))}.</span>` : `<button type="button" class="btn ghost small again">Làm lại bài kiểm tra</button>`}<button type="button" class="btn ghost small other">${other ? `Xem kết quả ${langName(O)}: ${esc(other.result.levelName)}` : `Kiểm tra ${langName(O)}`}</button></div></section>`;
   const wl = $(".wl", body); if (wl) wl.onclick = () => { P.waitlist = (P.waitlist || []).concat([t.id]); save(); sendSheet({ type: "waitlist", time: new Date().toISOString(), name: P.name, contact: P.contact, lang: L, track: t.name + " (" + t.lv + ")" }); wl.disabled = true; wl.textContent = "Đã đăng ký chờ ✓"; toast("CES sẽ báo bạn khi lộ trình mở."); };
+  const dp = $(".doprod", body); if (dp) dp.onclick = () => prodStep(body, P);
   const ag = $(".again", body); if (ag) ag.onclick = () => { P.retake = true; save(); form(body); };
   $(".other", body).onclick = () => {
     if (other) { S.place = other; other.retake = false; S.lang = O; save(); return showResult(body, other); }
     S.place = { name: P.name, contact: P.contact, goal: P.goal, cert: P.cert, ok: P.ok, lang: O, self: null, retake: true }; save(); form(body);
+  };
+}
+
+
+/* ---------- phần nói, viết sau trắc nghiệm: đề theo mức vừa xếp; gửi giáo viên chấm, không tính điểm tự động ---------- */
+const PROD = {
+  zh: [
+    { say: "说“你好”和你的名字。", sayVi: "Nói “你好” và tên của bạn bằng tiếng Trung (ví dụ: 你好，我叫…).", write: "写你知道的中文词（最多5个，汉字或拼音都可以）。", writeVi: "Viết những từ tiếng Trung bạn biết (tối đa 5 từ, chữ Hán hoặc bính âm)." },
+    { say: "用中文介绍你自己：名字、哪国人、做什么工作。", sayVi: "Giới thiệu bản thân: tên, quốc tịch, công việc.", write: "写3句话介绍你的家人。", writeVi: "Viết 3 câu về gia đình bạn (chữ Hán hoặc bính âm)." },
+    { say: "说说你每天怎么去上班或者上学，要多长时间。", sayVi: "Kể bạn đi làm hoặc đi học mỗi ngày thế nào, mất bao lâu.", write: "写3–5句话：你上个周末做了什么？", writeVi: "Viết 3–5 câu: cuối tuần trước bạn đã làm gì?" },
+    { say: "说说你最喜欢的一个城市，为什么喜欢。", sayVi: "Nói về thành phố bạn thích nhất và lý do.", write: "给同事写一条消息（3–5句）：明天的会议改时间了。", writeVi: "Nhắn đồng nghiệp (3–5 câu): cuộc họp ngày mai đổi giờ." },
+    { say: "你觉得在家工作好还是在公司工作好？说说理由。", sayVi: "Làm việc ở nhà hay ở công ty tốt hơn? Nêu lý do (khoảng 1 phút).", write: "给客户写一封短邮件（4–6句）：货物会晚到三天，说明原因并道歉。", writeVi: "Viết email ngắn cho khách (4–6 câu): hàng đến muộn 3 ngày, nêu lý do và xin lỗi." },
+  ],
+  en: [
+    { say: "Say hello and your name in English.", sayVi: "Chào và nói tên bạn bằng tiếng Anh (ví dụ: Hello, I'm …).", write: "Write 3–5 English words you know.", writeVi: "Viết 3–5 từ tiếng Anh bạn biết." },
+    { say: "Introduce yourself: your name, where you are from, your job or school.", sayVi: "Giới thiệu tên, quê quán, công việc hoặc trường học.", write: "Write 3 sentences about your family.", writeVi: "Viết 3 câu về gia đình bạn." },
+    { say: "Describe a typical working or study day.", sayVi: "Kể một ngày làm việc hoặc học tập bình thường của bạn.", write: "Write 3–5 sentences: What did you do last weekend?", writeVi: "Viết 3–5 câu: cuối tuần trước bạn đã làm gì?" },
+    { say: "Talk about a problem you had at work or school and how you solved it.", sayVi: "Kể một khó khăn ở chỗ làm hoặc trường học và cách bạn giải quyết.", write: "Write a short email (4–5 sentences) to your manager asking to move a meeting.", writeVi: "Viết email ngắn (4–5 câu) xin quản lý dời cuộc họp." },
+    { say: "Is remote work better than working in the office? Give your reasons.", sayVi: "Làm việc từ xa có tốt hơn ở văn phòng không? Nêu lý do (khoảng 1 phút).", write: "Write a short email (5–6 sentences) to a client explaining a 3-day delivery delay and offering a solution.", writeVi: "Viết email (5–6 câu) báo khách hàng giao chậm 3 ngày và đề xuất cách xử lý." },
+  ],
+};
+const PROD_MAX_S = 75;
+function prodStep(body, P) {
+  const L = P.lang, r = P.result, T = PROD[L][Math.min(r.level, PROD[L].length - 1)];
+  let blob = null, url = null, secs = 0, rec = null, tick = null, t0 = 0;
+  body.innerHTML = `<section class="card2 pprod"><p class="eyebrow">3 · Nói và viết · khoảng 3 phút</p>
+    <p class="lead">Phần này không chấm tự động. Giáo viên CES sẽ nghe, đọc để chốt trình độ ${langName(L)} của bạn (hiện tạm xếp: <b>${esc(r.levelName)}</b>).</p>
+    <div class="sheet"><b>Nói (tối đa 1 phút):</b><p class="qt sm" ${L === "zh" ? 'lang="zh"' : 'lang="en"'}>${esc(T.say)}</p><p class="small muted">${esc(T.sayVi)}</p>
+      ${CAN_REC ? `<div class="row"><button type="button" class="btn primary rec">${ICON.mic || ""} Bắt đầu ghi âm</button><button type="button" class="btn ghost play" hidden>${ICON.play} Nghe lại</button><span class="small muted rtime"></span></div>` : `<p class="small muted">Trình duyệt này chưa ghi âm được. Bạn làm phần viết, phần nói CES sẽ gọi Zalo kiểm tra.</p>`}</div>
+    <div class="sheet"><b>Viết:</b><p class="qt sm" ${L === "zh" ? 'lang="zh"' : 'lang="en"'}>${esc(T.write)}</p><p class="small muted">${esc(T.writeVi)}</p>
+      <textarea class="inp area pwrite" placeholder="Gõ câu trả lời của bạn…"></textarea></div>
+    <div class="row"><button type="button" class="btn primary huge psend" disabled>Gửi cho giáo viên</button><button type="button" class="btn ghost skip">Bỏ qua, xem kết quả</button></div></section>`;
+  const send = $(".psend", body), wr = $(".pwrite", body);
+  const ready = () => { send.disabled = !(blob || wr.value.trim().length >= 3); };
+  wr.oninput = ready;
+  const rb = $(".rec", body);
+  if (rb) rb.onclick = async () => {
+    if (rec && rec.state === "recording") { rec.stop(); return; }
+    try {
+      const s = await getMic(), chunks = []; rec = new MediaRecorder(s);
+      rec.ondataavailable = e => e.data.size && chunks.push(e.data);
+      rec.onstop = () => { clearInterval(tick); secs = Math.round((Date.now() - t0) / 1000); blob = new Blob(chunks, { type: rec.mimeType || "audio/webm" }); if (url) URL.revokeObjectURL(url); url = URL.createObjectURL(blob);
+        rb.innerHTML = `${ICON.mic || ""} Ghi âm lại`; $(".play", body).hidden = false; $(".rtime", body).textContent = `Đã ghi ${secs} giây`; ready(); };
+      rec.start(); t0 = Date.now(); rb.textContent = "■ Dừng ghi âm";
+      tick = setInterval(() => { const e = Math.round((Date.now() - t0) / 1000); $(".rtime", body).textContent = `Đang ghi… ${e} giây`; if (e >= PROD_MAX_S && rec.state === "recording") rec.stop(); }, 500);
+    } catch (e) { $(".rtime", body).textContent = "Chưa mở được micro. Hãy cho phép micro hoặc chỉ làm phần viết."; }
+  };
+  const pb = $(".play", body); if (pb) pb.onclick = () => url && playURL(url);
+  $(".skip", body).onclick = () => { if (rec && rec.state === "recording") rec.stop(); P.prod = { sent: false, skipped: true }; save(); showResult(body, P); };
+  send.onclick = async () => {
+    if (rec && rec.state === "recording") return toast("Bấm Dừng ghi âm trước đã.");
+    send.disabled = true; send.textContent = "Đang gửi…";
+    let audio = "";
+    if (blob) audio = await new Promise(res => { const fr = new FileReader(); fr.onload = () => res(String(fr.result || "")); fr.onerror = () => res(""); fr.readAsDataURL(blob); });
+    const ok = sendSheet({ type: "production", time: new Date().toISOString(), name: P.name, contact: P.contact, lang: L === "zh" ? "Tiếng Trung" : "Tiếng Anh", level: r.levelName,
+      sayPrompt: T.say, secs, writePrompt: T.write, text: wr.value.trim(), audio, mime: blob ? blob.type : "" });
+    P.prod = { sent: true, ok, secs, chars: wr.value.trim().length }; save(); toast("Đã gửi cho giáo viên."); showResult(body, P);
   };
 }
 

@@ -5198,7 +5198,8 @@ const ICON = {
   star: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z" fill="currentColor"/></svg>',
   fire: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2c1 4 5 5.5 5 11a5 5 0 0 1-10 0c0-2.6 1.4-4 2.5-5 .2 2 1 3 2 3.2C11 8.5 11.5 5 12 2z" fill="currentColor"/></svg>',
   sound: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
-  mute: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M17 9l5 6M22 9l-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>'
+  mute: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M17 9l5 6M22 9l-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+  mic: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" fill="currentColor"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>'
 };
 /* biểu tượng từng dạng bài */
 const TYPE_ICON = {
@@ -6053,6 +6054,7 @@ const LV_TRACK = { zh: ["zh-a", "zh-b", "zh-b", "zh-c", "zh-c"], en: ["en-a", "e
 const QB = {
  "zh": [
   {
+   "id": "zh0-01",
    "lv": 0,
    "sk": "Nghe",
    "audio": "妈",
@@ -6066,6 +6068,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh0-02",
    "lv": 0,
    "sk": "Nghe",
    "audio": "你好！",
@@ -6079,6 +6082,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh0-03",
    "lv": 0,
    "sk": "Bính âm",
    "q": "谢谢 đọc là gì?",
@@ -6091,6 +6095,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh0-04",
    "lv": 0,
    "sk": "Từ vựng",
    "q": "我 nghĩa là gì?",
@@ -6103,6 +6108,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh0-05",
    "lv": 0,
    "sk": "Nghe",
    "audio": "再见！",
@@ -6116,6 +6122,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh0-06",
    "lv": 0,
    "sk": "Từ vựng",
    "q": "Số 8 viết thế nào?",
@@ -6128,6 +6135,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh0-07",
    "lv": 0,
    "sk": "Nghe",
    "audio": "我是越南人。",
@@ -6141,6 +6149,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh0-08",
    "lv": 0,
    "sk": "Từ vựng",
    "q": "老师 nghĩa là gì?",
@@ -6153,6 +6162,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh0-09",
    "lv": 0,
    "sk": "Bính âm",
    "q": "学生 đọc là gì?",
@@ -6165,6 +6175,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh0-10",
    "lv": 0,
    "sk": "Từ vựng",
    "q": "Chữ nào nghĩa là “người”?",
@@ -6177,6 +6188,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh0-11",
    "lv": 0,
    "sk": "Từ vựng",
    "q": "不 nghĩa là gì?",
@@ -6189,6 +6201,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh0-12",
    "lv": 0,
    "sk": "Nghe",
    "audio": "我是阮安。",
@@ -6202,6 +6215,60 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh0-13",
+   "lv": 0,
+   "sk": "Nghe",
+   "audio": "我叫王丽。",
+   "q": "Người nói tên là gì?",
+   "opts": [
+    "Vương Lệ",
+    "Nguyễn An",
+    "Nguyễn Minh",
+    "Cô Lý"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh0-14",
+   "lv": 0,
+   "sk": "Từ vựng",
+   "q": "中国 nghĩa là gì?",
+   "opts": [
+    "Trung Quốc",
+    "Việt Nam",
+    "người Trung Quốc",
+    "tiếng Trung"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh0-15",
+   "lv": 0,
+   "sk": "Bính âm",
+   "q": "你好 đọc là gì?",
+   "opts": [
+    "nǐ hǎo",
+    "nín hǎo",
+    "nǐ hào",
+    "ní hǎo"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh0-16",
+   "lv": 0,
+   "sk": "Bính âm",
+   "q": "Bính âm đúng của 再见 là…",
+   "opts": [
+    "zàijiàn",
+    "zàijián",
+    "zǎijiàn",
+    "zàijiān"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh1-01",
    "lv": 1,
    "sk": "Ngữ pháp",
    "q": "Chọn câu đúng: “Tôi là sinh viên.”",
@@ -6214,6 +6281,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh1-02",
    "lv": 1,
    "sk": "Từ vựng",
    "q": "昨天 nghĩa là gì?",
@@ -6226,6 +6294,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh1-03",
    "lv": 1,
    "sk": "Nghe",
    "audio": "你叫什么名字？",
@@ -6239,6 +6308,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh1-04",
    "lv": 1,
    "sk": "Đọc",
    "q": "我有两个哥哥。 Người viết có mấy anh trai?",
@@ -6251,6 +6321,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh1-05",
    "lv": 1,
    "sk": "Ngữ pháp",
    "q": "你是中国人___？ (câu hỏi có/không)",
@@ -6263,6 +6334,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh1-06",
    "lv": 1,
    "sk": "Nghe",
    "audio": "现在三点。",
@@ -6276,6 +6348,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh1-07",
    "lv": 1,
    "sk": "Nghe",
    "audio": "你家有几口人？",
@@ -6289,6 +6362,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh1-08",
    "lv": 1,
    "sk": "Nghe",
    "audio": "我不会说汉语。",
@@ -6302,6 +6376,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh1-09",
    "lv": 1,
    "sk": "Ngữ pháp",
    "q": "他___医生。 (Anh ấy là bác sĩ)",
@@ -6314,6 +6389,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh1-10",
    "lv": 1,
    "sk": "Từ vựng",
    "q": "喝 nghĩa là gì?",
@@ -6326,6 +6402,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh1-11",
    "lv": 1,
    "sk": "Đọc",
    "q": "我家有四口人：爸爸、妈妈、姐姐和我。 Người viết có…",
@@ -6338,6 +6415,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh1-12",
    "lv": 1,
    "sk": "Ngữ pháp",
    "q": "这是___的书？ (sách của ai?)",
@@ -6350,6 +6428,59 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh1-13",
+   "lv": 1,
+   "sk": "Từ vựng",
+   "q": "Chọn từ nghĩa là “ngày mai”",
+   "opts": [
+    "明天",
+    "今天",
+    "昨天",
+    "明年"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh1-14",
+   "lv": 1,
+   "sk": "Từ vựng",
+   "q": "商店 nghĩa là gì?",
+   "opts": [
+    "cửa hàng",
+    "nhà hàng",
+    "bệnh viện",
+    "trường học"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh1-15",
+   "lv": 1,
+   "sk": "Đọc",
+   "q": "今天星期三，明天星期四。 Hôm nay là thứ mấy?",
+   "opts": [
+    "thứ Tư",
+    "thứ Ba",
+    "thứ Năm",
+    "thứ Sáu"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh1-16",
+   "lv": 1,
+   "sk": "Đọc",
+   "q": "我是医生，我在医院工作。 Người viết làm việc ở đâu?",
+   "opts": [
+    "bệnh viện",
+    "trường học",
+    "nhà hàng",
+    "công ty"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh2-01",
    "lv": 2,
    "sk": "Ngữ pháp",
    "q": "我___越南来。 (Tôi đến từ Việt Nam)",
@@ -6362,6 +6493,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh2-02",
    "lv": 2,
    "sk": "Từ vựng",
    "q": "便宜 nghĩa là gì?",
@@ -6374,6 +6506,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh2-03",
    "lv": 2,
    "sk": "Ngữ pháp",
    "q": "他比我___。 (Anh ấy cao hơn tôi)",
@@ -6386,6 +6519,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh2-04",
    "lv": 2,
    "sk": "Đọc",
    "q": "我已经吃饭了，不想吃了。 Người nói…",
@@ -6398,6 +6532,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh2-05",
    "lv": 2,
    "sk": "Nghe",
    "audio": "我们一起去看电影吧！",
@@ -6411,6 +6546,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh2-06",
    "lv": 2,
    "sk": "Ngữ pháp",
    "q": "你去过北京___？",
@@ -6423,6 +6559,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh2-07",
    "lv": 2,
    "sk": "Nghe",
    "audio": "机场离这儿很远。",
@@ -6436,6 +6573,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh2-08",
    "lv": 2,
    "sk": "Nghe",
    "audio": "坐地铁去车站很快。",
@@ -6449,6 +6587,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh2-09",
    "lv": 2,
    "sk": "Nghe",
    "audio": "你喝茶还是喝水？",
@@ -6462,6 +6601,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh2-10",
    "lv": 2,
    "sk": "Ngữ pháp",
    "q": "你开车太快了，开___一点儿！",
@@ -6474,6 +6614,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh2-11",
    "lv": 2,
    "sk": "Từ vựng",
    "q": "近 nghĩa là gì?",
@@ -6486,6 +6627,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh2-12",
    "lv": 2,
    "sk": "Đọc",
    "q": "今天是阴天，可能下雪。我们明天走吧。 Người nói muốn…",
@@ -6498,6 +6640,59 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh2-13",
+   "lv": 2,
+   "sk": "Từ vựng",
+   "q": "Chọn từ nghĩa là “bắt đầu”",
+   "opts": [
+    "开始",
+    "开车",
+    "已经",
+    "准备"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh2-14",
+   "lv": 2,
+   "sk": "Từ vựng",
+   "q": "生病 nghĩa là gì?",
+   "opts": [
+    "bị ốm",
+    "sinh nhật",
+    "mệt mỏi",
+    "bác sĩ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh2-15",
+   "lv": 2,
+   "sk": "Đọc",
+   "q": "小李每天坐公共汽车上班，大概要四十分钟。 Tiểu Lý đi làm…",
+   "opts": [
+    "bằng xe buýt, mất khoảng 40 phút",
+    "bằng tàu điện ngầm, mất khoảng 40 phút",
+    "bằng xe buýt, mất khoảng 14 phút",
+    "đi bộ, mất khoảng 40 phút"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh2-16",
+   "lv": 2,
+   "sk": "Đọc",
+   "q": "这件衣服很漂亮，可是太贵了，我不买了。 Người nói…",
+   "opts": [
+    "không mua vì quá đắt",
+    "mua vì áo đẹp",
+    "không mua vì áo không đẹp",
+    "mua vì áo rẻ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh3-01",
    "lv": 3,
    "sk": "Ngữ pháp",
    "q": "请把门___。 (Hãy đóng cửa lại)",
@@ -6510,6 +6705,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh3-02",
    "lv": 3,
    "sk": "Từ vựng",
    "q": "经理让我___这份报告。 (sửa lại bản báo cáo)",
@@ -6522,6 +6718,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh3-03",
    "lv": 3,
    "sk": "Ngữ pháp",
    "q": "虽然很累，___他还是去上班了。",
@@ -6534,6 +6731,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh3-04",
    "lv": 3,
    "sk": "Đọc",
    "q": "会议改到明天下午三点了，请大家准时参加。 Cuộc họp…",
@@ -6546,6 +6744,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh3-05",
    "lv": 3,
    "sk": "Nghe",
    "audio": "对不起，我来晚了，路上堵车。",
@@ -6559,6 +6758,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh3-06",
    "lv": 3,
    "sk": "Từ vựng",
    "q": "他对工作很___，从来不迟到。",
@@ -6571,6 +6771,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh3-07",
    "lv": 3,
    "sk": "Nghe",
    "audio": "杯子是什么时候到的？——比合同上的时间晚了三天。",
@@ -6584,6 +6785,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh3-08",
    "lv": 3,
    "sk": "Nghe",
    "audio": "新产品的质量比去年的好多了。",
@@ -6597,6 +6799,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh3-09",
    "lv": 3,
    "sk": "Ngữ pháp",
    "q": "我___没去过上海。 (Tôi chưa bao giờ đến Thượng Hải)",
@@ -6609,6 +6812,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh3-10",
    "lv": 3,
    "sk": "Từ vựng",
    "q": "周末我要___房间。 (dọn dẹp)",
@@ -6621,6 +6825,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh3-11",
    "lv": 3,
    "sk": "Đọc",
    "q": "小王每天早上七点起床，先跑步半个小时，然后吃早饭，八点半到公司。 Tiểu Vương làm gì trước khi ăn sáng?",
@@ -6633,6 +6838,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh3-12",
    "lv": 3,
    "sk": "Ngữ pháp",
    "q": "这个字我写___了，写成了“大”。 (viết sai)",
@@ -6645,6 +6851,60 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh3-13",
+   "lv": 3,
+   "sk": "Từ vựng",
+   "q": "这个办法很好，我___你的意见。",
+   "opts": [
+    "同意",
+    "同学",
+    "一样",
+    "意思"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh3-14",
+   "lv": 3,
+   "sk": "Đọc",
+   "q": "如果明天不下雨，我们就去爬山；如果下雨，就在家看电影。 Nếu mai trời mưa thì…",
+   "opts": [
+    "ở nhà xem phim",
+    "đi leo núi",
+    "ra rạp xem phim",
+    "vẫn đi leo núi"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh3-15",
+   "lv": 3,
+   "sk": "Đọc",
+   "q": "这家饭馆的菜又便宜又好吃，所以每天中午都有很多人。 Vì sao nhà hàng đông khách?",
+   "opts": [
+    "Đồ ăn vừa rẻ vừa ngon",
+    "Gần công ty",
+    "Phục vụ rất nhanh",
+    "Có nhiều chỗ ngồi"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh3-16",
+   "lv": 3,
+   "sk": "Nghe",
+   "audio": "因为订单太多，所以我们没有及时送出去。",
+   "q": "Vì sao hàng giao chậm?",
+   "opts": [
+    "Vì đơn hàng quá nhiều",
+    "Vì thời tiết xấu",
+    "Vì thiếu nhân viên",
+    "Vì ghi sai địa chỉ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-01",
    "lv": 4,
    "sk": "Ngữ pháp",
    "q": "___你已经决定了，___按你的想法去做吧。",
@@ -6657,6 +6917,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh4-02",
    "lv": 4,
    "sk": "Từ vựng",
    "q": "公司的待遇很好，___了很多年轻人。",
@@ -6669,6 +6930,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh4-03",
    "lv": 4,
    "sk": "Đọc",
    "q": "由于原材料价格上涨，公司决定从下个月起调整产品价格。 Công ty sẽ…",
@@ -6681,6 +6943,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh4-04",
    "lv": 4,
    "sk": "Nghe",
    "audio": "这次谈判比我们想象的顺利，对方基本同意了我们的条件。",
@@ -6694,6 +6957,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh4-05",
    "lv": 4,
    "sk": "Ngữ pháp",
    "q": "他的汉语说得___中国人一样流利。",
@@ -6706,6 +6970,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh4-06",
    "lv": 4,
    "sk": "Từ vựng",
    "q": "请你把会议的主要内容___一下。",
@@ -6718,6 +6983,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh4-07",
    "lv": 4,
    "sk": "Nghe",
    "audio": "这种杯子虽然比那种贵一点儿，但是质量好多了，用了三年还像新的一样。",
@@ -6731,6 +6997,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh4-08",
    "lv": 4,
    "sk": "Nghe",
    "audio": "十五号有点儿急。能不能推迟到二十号？",
@@ -6744,6 +7011,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh4-09",
    "lv": 4,
    "sk": "Nghe",
    "audio": "我们接受。下午订好合同，我们马上付款。",
@@ -6757,6 +7025,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh4-10",
    "lv": 4,
    "sk": "Ngữ pháp",
    "q": "___原材料涨价，___产品价格也提高了。",
@@ -6769,6 +7038,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh4-11",
    "lv": 4,
    "sk": "Từ vựng",
    "q": "双方___了合作协议，下个月开始生产。",
@@ -6781,6 +7051,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "zh4-12",
    "lv": 4,
    "sk": "Đọc",
    "q": "尽管这次合作出了一些问题，但双方都愿意继续长期合作。 Hai bên…",
@@ -6791,10 +7062,63 @@ const QB = {
     "chưa từng hợp tác"
    ],
    "a": 0
+  },
+  {
+   "id": "zh4-13",
+   "lv": 4,
+   "sk": "Ngữ pháp",
+   "q": "这批货___明天___能到。 (Lô hàng này phải đến ngày mai mới tới)",
+   "opts": [
+    "要到…才…",
+    "只要…就…",
+    "一…就…",
+    "既…又…"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-14",
+   "lv": 4,
+   "sk": "Từ vựng",
+   "q": "由于工厂的失误，我们要求对方___损失。",
+   "opts": [
+    "赔偿",
+    "补充",
+    "报销",
+    "退休"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-15",
+   "lv": 4,
+   "sk": "Đọc",
+   "q": "本公司招聘销售经理一名，要求有三年以上相关工作经验，能适应经常出差。 Ứng viên cần…",
+   "opts": [
+    "có trên 3 năm kinh nghiệm và chịu được đi công tác thường xuyên",
+    "có bằng thạc sĩ",
+    "chỉ làm việc tại văn phòng",
+    "dưới 3 năm kinh nghiệm cũng được"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-16",
+   "lv": 4,
+   "sk": "Đọc",
+   "q": "通过这次交流，我不仅提高了汉语水平，而且对中国文化有了更深的了解。 Người viết…",
+   "opts": [
+    "vừa giỏi tiếng Trung hơn vừa hiểu văn hoá Trung Quốc hơn",
+    "chỉ giỏi tiếng Trung hơn",
+    "vẫn chưa hiểu văn hoá Trung Quốc",
+    "không thấy tiến bộ"
+   ],
+   "a": 0
   }
  ],
  "en": [
   {
+   "id": "en1-01",
    "lv": 1,
    "sk": "Ngữ pháp",
    "q": "She ___ a teacher.",
@@ -6807,6 +7131,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en1-02",
    "lv": 1,
    "sk": "Từ vựng",
    "q": "“Thứ Hai” trong tiếng Anh là gì?",
@@ -6819,6 +7144,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en1-03",
    "lv": 1,
    "sk": "Nghe",
    "audio": "Nice to meet you.",
@@ -6832,6 +7158,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en1-04",
    "lv": 1,
    "sk": "Ngữ pháp",
    "q": "___ you like coffee?",
@@ -6844,6 +7171,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en1-05",
    "lv": 1,
    "sk": "Đọc",
    "q": "“My name is Linh. I'm from Hanoi. I work in a bank.” Linh làm ở đâu?",
@@ -6856,6 +7184,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en1-06",
    "lv": 1,
    "sk": "Nghe",
    "audio": "It's half past seven.",
@@ -6869,6 +7198,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en1-07",
    "lv": 1,
    "sk": "Nghe",
    "audio": "There are two books in my bag.",
@@ -6882,6 +7212,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en1-08",
    "lv": 1,
    "sk": "Nghe",
    "audio": "Sarah comes back by train.",
@@ -6895,6 +7226,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en1-09",
    "lv": 1,
    "sk": "Nghe",
    "audio": "What day is it today? – It's Monday.",
@@ -6908,6 +7240,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en1-10",
    "lv": 1,
    "sk": "Ngữ pháp",
    "q": "There ___ two eggs on the table.",
@@ -6920,6 +7253,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en1-11",
    "lv": 1,
    "sk": "Từ vựng",
    "q": "Từ nào nghĩa là “bữa sáng”?",
@@ -6932,6 +7266,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en1-12",
    "lv": 1,
    "sk": "Ngữ pháp",
    "q": "This is ___ book. (sách của tôi)",
@@ -6944,6 +7279,72 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en1-13",
+   "lv": 1,
+   "sk": "Từ vựng",
+   "q": "Từ nào nghĩa là “bác sĩ”?",
+   "opts": [
+    "doctor",
+    "driver",
+    "teacher",
+    "student"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en1-14",
+   "lv": 1,
+   "sk": "Từ vựng",
+   "q": "Từ trái nghĩa với “big” là…",
+   "opts": [
+    "small",
+    "tall",
+    "long",
+    "old"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en1-15",
+   "lv": 1,
+   "sk": "Đọc",
+   "q": "“Tom is from London. He is 25. He likes football.” Tom thích gì?",
+   "opts": [
+    "bóng đá",
+    "bơi lội",
+    "âm nhạc",
+    "đọc sách"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en1-16",
+   "lv": 1,
+   "sk": "Đọc",
+   "q": "“The shop opens at 8 a.m. and closes at 6 p.m.” Cửa hàng đóng cửa lúc mấy giờ?",
+   "opts": [
+    "6 giờ chiều",
+    "8 giờ sáng",
+    "6 giờ sáng",
+    "8 giờ tối"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en1-17",
+   "lv": 1,
+   "sk": "Đọc",
+   "q": "“Hi Mai, I'm at the café near the station. See you at 3. – An” An đang ở đâu?",
+   "opts": [
+    "quán cà phê gần nhà ga",
+    "trong nhà ga",
+    "nhà Mai",
+    "văn phòng"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en2-01",
    "lv": 2,
    "sk": "Ngữ pháp",
    "q": "I ___ to the cinema last night.",
@@ -6956,6 +7357,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en2-02",
    "lv": 2,
    "sk": "Từ vựng",
    "q": "Could you ___ me the salt, please?",
@@ -6968,6 +7370,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en2-03",
    "lv": 2,
    "sk": "Ngữ pháp",
    "q": "This is the ___ restaurant in town.",
@@ -6980,6 +7383,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en2-04",
    "lv": 2,
    "sk": "Nghe",
    "audio": "Could you tell me how to get to the station?",
@@ -6993,6 +7397,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en2-05",
    "lv": 2,
    "sk": "Đọc",
    "q": "“The meeting is on Thursday at 10 a.m. in Room 3. Please bring your laptop.” Cần mang gì?",
@@ -7005,6 +7410,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en2-06",
    "lv": 2,
    "sk": "Ngữ pháp",
    "q": "We have lived here ___ 2019.",
@@ -7017,6 +7423,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en2-07",
    "lv": 2,
    "sk": "Nghe",
    "audio": "Take the lift to the third floor.",
@@ -7030,6 +7437,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en2-08",
    "lv": 2,
    "sk": "Nghe",
    "audio": "How long is the probation period?",
@@ -7043,6 +7451,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en2-09",
    "lv": 2,
    "sk": "Nghe",
    "audio": "Don't share your password with anyone.",
@@ -7056,6 +7465,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en2-10",
    "lv": 2,
    "sk": "Ngữ pháp",
    "q": "We're going ___ the customer on Monday.",
@@ -7068,6 +7478,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en2-11",
    "lv": 2,
    "sk": "Từ vựng",
    "q": "I'm ___ for the weekly newsletter. (phụ trách)",
@@ -7080,6 +7491,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en2-12",
    "lv": 2,
    "sk": "Đọc",
    "q": "“Hi An, the training starts at 9 a.m. tomorrow in Room 5. Please arrive 10 minutes early.” An nên đến lúc mấy giờ?",
@@ -7092,6 +7504,59 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en2-13",
+   "lv": 2,
+   "sk": "Từ vựng",
+   "q": "I need to ___ a meeting room for tomorrow.",
+   "opts": [
+    "book",
+    "read",
+    "write",
+    "buy"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en2-14",
+   "lv": 2,
+   "sk": "Từ vựng",
+   "q": "My flight was ___ because of the storm.",
+   "opts": [
+    "cancelled",
+    "closed",
+    "stopped",
+    "finished"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en2-15",
+   "lv": 2,
+   "sk": "Đọc",
+   "q": "“Sorry, I can't come to the party on Saturday. I have to visit my grandmother in Hue.” Vì sao người viết không đến?",
+   "opts": [
+    "phải về Huế thăm bà",
+    "bị ốm",
+    "phải đi làm",
+    "không thích tiệc"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en2-16",
+   "lv": 2,
+   "sk": "Đọc",
+   "q": "“Parking is free for the first two hours. After that, it costs 20,000 VND per hour.” Đỗ xe 3 tiếng hết bao nhiêu?",
+   "opts": [
+    "20.000đ",
+    "miễn phí",
+    "40.000đ",
+    "60.000đ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en3-01",
    "lv": 3,
    "sk": "Ngữ pháp",
    "q": "If I ___ more time, I would learn Chinese.",
@@ -7104,6 +7569,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en3-02",
    "lv": 3,
    "sk": "Từ vựng",
    "q": "Our manager ___ the meeting because she was ill.",
@@ -7116,6 +7582,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en3-03",
    "lv": 3,
    "sk": "Ngữ pháp",
    "q": "The report ___ by Friday.",
@@ -7128,6 +7595,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en3-04",
    "lv": 3,
    "sk": "Nghe",
    "audio": "I'm afraid I can't make it to the meeting. Something urgent has come up.",
@@ -7141,6 +7609,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en3-05",
    "lv": 3,
    "sk": "Đọc",
    "q": "“Applicants should have at least two years of experience and be able to work under pressure.” Ứng viên cần…",
@@ -7153,6 +7622,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en3-06",
    "lv": 3,
    "sk": "Từ vựng",
    "q": "She is responsible ___ training new staff.",
@@ -7165,6 +7635,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en3-07",
    "lv": 3,
    "sk": "Nghe",
    "audio": "Because the testing isn't finished, and speed is important to customers.",
@@ -7178,6 +7649,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en3-08",
    "lv": 3,
    "sk": "Nghe",
    "audio": "Kevin will contact our customers by next Friday.",
@@ -7191,6 +7663,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en3-09",
    "lv": 3,
    "sk": "Nghe",
    "audio": "Forty percent of customers said the old app was too slow.",
@@ -7204,6 +7677,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en3-10",
    "lv": 3,
    "sk": "Ngữ pháp",
    "q": "I suggest that we ___ a pilot launch first.",
@@ -7216,6 +7690,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en3-11",
    "lv": 3,
    "sk": "Từ vựng",
    "q": "Sorry to ___, but your connection isn't very good.",
@@ -7228,6 +7703,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en3-12",
    "lv": 3,
    "sk": "Đọc",
    "q": "“Due to the bank holiday, the office will be closed on Monday. All deadlines due that day are moved to Tuesday.” Hạn nộp vào thứ Hai sẽ…",
@@ -7240,6 +7716,59 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en3-13",
+   "lv": 3,
+   "sk": "Ngữ pháp",
+   "q": "By the time we arrived, the meeting ___.",
+   "opts": [
+    "had already started",
+    "has already started",
+    "already starts",
+    "was already start"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en3-14",
+   "lv": 3,
+   "sk": "Từ vựng",
+   "q": "Could you ___ me know by Friday?",
+   "opts": [
+    "let",
+    "make",
+    "tell",
+    "give"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en3-15",
+   "lv": 3,
+   "sk": "Đọc",
+   "q": "“The new canteen will open next month. Until then, staff can get a free lunch voucher from reception.” Trước khi căng tin mới mở, nhân viên…",
+   "opts": [
+    "nhận phiếu ăn trưa miễn phí ở lễ tân",
+    "phải tự mang cơm",
+    "ăn ở căng tin cũ",
+    "được nghỉ trưa dài hơn"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en3-16",
+   "lv": 3,
+   "sk": "Đọc",
+   "q": "“I'd appreciate it if you could send me the updated figures before the meeting, as I need to check them.” Người viết muốn gì?",
+   "opts": [
+    "nhận số liệu mới trước cuộc họp",
+    "dời cuộc họp",
+    "được mời đến họp",
+    "gửi số liệu cho người khác"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en4-01",
    "lv": 4,
    "sk": "Ngữ pháp",
    "q": "Had we known about the delay, we ___ a later flight.",
@@ -7252,6 +7781,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en4-02",
    "lv": 4,
    "sk": "Từ vựng",
    "q": "The new policy had a significant ___ on productivity.",
@@ -7264,6 +7794,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en4-03",
    "lv": 4,
    "sk": "Ngữ pháp",
    "q": "Not only ___ the deadline, but he also exceeded expectations.",
@@ -7276,6 +7807,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en4-04",
    "lv": 4,
    "sk": "Đọc",
    "q": "“Despite a sharp rise in costs, the company maintained its profit margin by streamlining operations.” Công ty giữ được lợi nhuận nhờ…",
@@ -7288,6 +7820,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en4-05",
    "lv": 4,
    "sk": "Nghe",
    "audio": "Given the current market conditions, I'd suggest we postpone the launch until the second quarter.",
@@ -7301,6 +7834,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en4-06",
    "lv": 4,
    "sk": "Từ vựng",
    "q": "We need to ___ a balance between cost and quality.",
@@ -7313,6 +7847,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en4-07",
    "lv": 4,
    "sk": "Nghe",
    "audio": "Exclusivity across the whole region would be a deal-breaker for us.",
@@ -7326,6 +7861,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en4-08",
    "lv": 4,
    "sk": "Nghe",
    "audio": "That could work, provided that Nordwind promotes the app in at least twenty-five stores in the first six months.",
@@ -7339,6 +7875,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en4-09",
    "lv": 4,
    "sk": "Nghe",
    "audio": "I'm assuming adoption will be slower in Thailand, because customers there don't know your brand yet.",
@@ -7352,6 +7889,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en4-10",
    "lv": 4,
    "sk": "Ngữ pháp",
    "q": "The board is asked ___ the agreement.",
@@ -7364,6 +7902,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en4-11",
    "lv": 4,
    "sk": "Từ vựng",
    "q": "The pilot was successful. ___, Nordwind agreed to the deal.",
@@ -7376,6 +7915,7 @@ const QB = {
    "a": 0
   },
   {
+   "id": "en4-12",
    "lv": 4,
    "sk": "Đọc",
    "q": "“Applicants who fail to submit all required documents by the deadline will not be considered, regardless of experience.” Điều nào đúng?",
@@ -7384,6 +7924,58 @@ const QB = {
     "Người giàu kinh nghiệm được nộp muộn",
     "Có thể bổ sung giấy tờ sau hạn",
     "Kinh nghiệm quan trọng hơn giấy tờ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en4-13",
+   "lv": 4,
+   "sk": "Ngữ pháp",
+   "q": "It's high time we ___ our pricing strategy.",
+   "opts": [
+    "reviewed",
+    "review",
+    "will review",
+    "have reviewed"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en4-14",
+   "lv": 4,
+   "sk": "Từ vựng",
+   "q": "The two companies decided to ___ forces to enter the Asian market.",
+   "opts": [
+    "join",
+    "link",
+    "connect",
+    "unite"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en4-15",
+   "lv": 4,
+   "sk": "Đọc",
+   "q": "“While the pilot exceeded expectations in Da Nang, results from a single city may not be representative of the wider market.” Người viết lưu ý điều gì?",
+   "opts": [
+    "Kết quả một thành phố chưa chắc đúng cho cả thị trường",
+    "Thử nghiệm ở Đà Nẵng thất bại",
+    "Nên dừng mở rộng ngay",
+    "Đà Nẵng là thị trường lớn nhất"
+   ],
+   "a": 0
+  },
+  {
+   "id": "en4-16",
+   "lv": 4,
+   "sk": "Đọc",
+   "q": "“Unless otherwise agreed in writing, payment is due within 30 days of the invoice date.” Điều nào đúng?",
+   "opts": [
+    "Nếu không có thoả thuận khác bằng văn bản, phải trả trong 30 ngày kể từ ngày hoá đơn",
+    "Phải trả ngay khi nhận hàng",
+    "Luôn được trả sau 60 ngày",
+    "Chỉ cần thoả thuận miệng là đổi được hạn"
    ],
    "a": 0
   }
@@ -7395,17 +7987,19 @@ const trackStart = t => t.start || (t.demo ? demoStart(t.demo) : "");
 /* lộ trình chưa mở: gợi ý tuần học thử gần nhất BÊN DƯỚI, không đẩy về lộ trình mới bắt đầu */
 function nearTrial(L, t) { const i = TRACKS[L].indexOf(t); for (let j = i - 1; j >= 0; j--) if (trackStart(TRACKS[L][j])) return TRACKS[L][j]; return null; }
 function sendSheet(row) {
-  S.sentRows = S.sentRows || []; S.sentRows.push(row); save();
+  S.sentRows = S.sentRows || []; S.sentRows.push(row.audio ? Object.assign({}, row, { audio: "(ghi âm " + row.secs + " giây)" }) : row); save();
   if (!SHEET_URL) return false;
   try { fetch(SHEET_URL, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(row) }); return true; } catch (e) { return false; }
 }
 
 /* ---------- màn hình kiểm tra đầu vào ----------
-   Chống đoán bừa: đáp án trộn ngẫu nhiên cho từng người, từng lần; mỗi mức 5 câu 4 lựa chọn, đúng ≥4/5 mới qua
-   (đúng 3/5 thì thêm 3 câu, cần ≥6/8); bắt đầu thấp hơn mức tự nhận một bậc rồi đi lên.
+   Chống đoán bừa: đáp án trộn ngẫu nhiên cho từng người, từng lần; mỗi mức 8 câu 4 lựa chọn (2 câu mỗi kỹ năng),
+   đúng ≥6/8 mới qua (đúng 5/8 thì thêm 4 câu, cần ≥9/12); bắt đầu thấp hơn mức tự nhận một bậc rồi đi lên.
+   Sau phần trắc nghiệm: nói 1 phút + viết 3–6 câu theo mức vừa xếp, gửi giáo viên chấm (được bỏ qua).
+   Sheet nhận từng câu (id=1/0/? @giây) để thống kê độ khó, độ phân biệt: tools/placement_stats.py.
    Trả lời quá nhanh, hoặc chọn cùng một ô từ 6 câu liền → chỉ tính các mức qua chắc chắn, Sheet ghi "nghi đoán".
    Kết quả lưu riêng từng ngôn ngữ (S.places); làm lại sau 7 ngày, câu chưa gặp ra trước. */
-const PLACE_BLOCK = 5, PLACE_PASS = 4, PLACE_EXTRA = 3, PLACE_PASS_EXT = 6, PLACE_STREAK = 6, RETAKE_DAYS = 7;
+const PLACE_BLOCK = 8, PLACE_PASS = 6, PLACE_EXTRA = 4, PLACE_PASS_EXT = 9, PLACE_STREAK = 6, RETAKE_DAYS = 7;
 function placeOf(L) { S.places = S.places || {}; if (!S.places[L] && S.place && S.place.lang === L && S.place.result) S.places[L] = S.place; return S.places[L] && S.places[L].result ? S.places[L] : null; }
 function retakeAt(L) { const P = placeOf(L); return P ? new Date(new Date(P.result.at).getTime() + RETAKE_DAYS * 864e5) : null; }
 function canRetake(L) { const t = retakeAt(L); return !t || Date.now() >= t.getTime(); }
@@ -7421,7 +8015,7 @@ function placeMinMs(q, L) {
 const langName = L => L === "zh" ? "tiếng Trung" : "tiếng Anh";
 function viewPlace(main) {
   const P = S.place || {};
-  const box = el(`<div class="roomv place">${roomHead("room-career", "Kiểm tra đầu vào", "Tìm đúng lộ trình cho bạn", "10–15 phút, 15–20 câu, mỗi câu 4 lựa chọn: nghe, từ vựng, ngữ pháp, đọc. Bài tự dễ hơn hoặc khó hơn theo câu trả lời của bạn. Câu nào chưa biết, hãy bấm “Tôi chưa biết câu này”: đoán bừa sẽ làm kết quả kém chính xác.")}<div class="pbody2"></div></div>`);
+  const box = el(`<div class="roomv place">${roomHead("room-career", "Kiểm tra đầu vào", "Tìm đúng lộ trình cho bạn", "15–20 phút. Phần 1: khoảng 16–30 câu trắc nghiệm (nghe, từ vựng, ngữ pháp, đọc), bài tự dễ hơn hoặc khó hơn theo câu trả lời của bạn. Phần 2: nói 1 phút và viết vài câu để giáo viên nghe, đọc. Câu nào chưa biết, hãy bấm “Tôi chưa biết câu này”: đoán bừa sẽ làm kết quả kém chính xác.")}<div class="pbody2"></div></div>`);
   main.appendChild(box);
   const body = $(".pbody2", box);
   if (P.result && !P.retake) return showResult(body, P);
@@ -7468,13 +8062,11 @@ function test(body) {
   S.placeSeen = S.placeSeen || {}; const seenBefore = new Set(S.placeSeen[L] || []);
   const used = new Set(), log = [], res = {};
   let lv = Math.max(MIN_LV[L], Math.min(MAX_LV[L], (P.self == null ? MIN_LV[L] : P.self) - 1)), n = 0, bno = 0, block = [], ok = 0, extended = false;
-  /* chọn k câu ở mức l: câu chưa gặp lần trước ra trước, mỗi khối có 1 câu nghe, các kỹ năng khác nhau */
+  /* chọn k câu ở mức l, chia đều theo kỹ năng (Nghe trước): câu chưa gặp lần trước ra trước */
   const pick = (l, k) => {
     const pool = shuffleR(bank.map((q, i) => i).filter(i => bank[i].lv === l && !used.has(i))).sort((x, y) => seenBefore.has(x) - seenBefore.has(y));
-    const out = [], sk = new Set(), take = i => { out.push(i); used.add(i); sk.add(bank[i].sk); };
-    const au = pool.find(i => bank[i].audio); if (au != null && k >= PLACE_BLOCK) take(au);
-    for (const i of pool) { if (out.length >= k) break; if (!used.has(i) && !sk.has(bank[i].sk)) take(i); }
-    for (const i of pool) { if (out.length >= k) break; if (!used.has(i)) take(i); }
+    const sks = [...new Set(pool.map(i => bank[i].sk))].sort((a, b) => (b === "Nghe") - (a === "Nghe")), out = [];
+    for (let r = 0; out.length < k && r < k; r++) for (const sk of sks) { if (out.length >= k) break; const i = pool.find(x => !used.has(x) && bank[x].sk === sk); if (i != null) { out.push(i); used.add(i); } }
     return shuffleR(out);
   };
   function startBlock() { bno++; block = pick(lv, PLACE_BLOCK); ok = 0; extended = false; if (!block.length) return finish(); ask(0); }
@@ -7482,7 +8074,7 @@ function test(body) {
     if (i >= block.length) return judge();
     const qi = block[i], q = bank[qi], perm = shuffleR(q.opts.map((_, k) => k)); n++;
     body.innerHTML = `<section class="card2 ptest"><div class="row between"><p class="eyebrow">2 · Làm bài · câu ${n}</p><span class="pill">${esc(q.sk)}</span></div>
-      <div class="pbar"><i style="width:${Math.min(100, n / 18 * 100)}%"></i></div>
+      <div class="pbar"><i style="width:${Math.min(100, n / 28 * 100)}%"></i></div>
       ${q.audio ? `<div class="row center"><button type="button" class="btn sound au">${ICON.play} Nghe</button></div>` : ""}
       <p class="qt">${esc(q.q)}</p>
       <div class="opts" role="group">${perm.map((k, j) => `<button type="button" class="opt" data-k="${k}" data-pos="${j}"><span class="badge">${"ABCD"[j]}</span><span class="ot" lang="${/[一-鿿]/.test(q.opts[k]) ? "zh" : L === "en" ? "en" : "vi"}">${esc(q.opts[k])}</span></button>`).join("")}</div>
@@ -7491,7 +8083,7 @@ function test(body) {
     if (q.audio) { $(".au", body).onclick = () => say(q.audio, L); setTimeout(() => say(q.audio, L), 350); }
     const go = (right, pos) => {
       const ms = Date.now() - shown, dunno = pos < 0;
-      log.push({ lv: q.lv, sk: q.sk, ok: right, ms, pos, dunno, quick: !dunno && ms < minMs, b: bno });
+      log.push({ id: q.id, lv: q.lv, sk: q.sk, ok: right, ms, pos, dunno, quick: !dunno && ms < minMs, b: bno });
       if (right) ok++;
       S.placeSeen[L] = [...new Set((S.placeSeen[L] || []).concat(qi))];
       body.querySelectorAll(".opt,.dunno").forEach(x => x.disabled = true);
@@ -7520,25 +8112,32 @@ function test(body) {
     const top = a => a.length ? Math.max(...a) : MIN_LV[L] - 1;
     const raw = Math.max(top(passed), 0), level = flags.length ? Math.max(top(sure), 0) : raw;
     const bySk = {}; log.forEach(r => { bySk[r.sk] = bySk[r.sk] || [0, 0]; bySk[r.sk][1]++; if (r.ok) bySk[r.sk][0]++; });
+    /* mức ước lượng theo kỹ năng: mức cao nhất mà học viên làm đúng hết các câu của kỹ năng đó trong khối */
+    const skLv = {}; Object.keys(bySk).forEach(sk => { const good = lvs.filter(l => { const rs = log.filter(r => r.b === res[l].b && r.sk === sk); return rs.length && rs.every(r => r.ok && !r.quick && !r.streak); }); skLv[sk] = good.length ? Math.max(...good) : null; });
+    const items = log.map(r => `${r.id}=${r.dunno ? "?" : r.ok ? 1 : 0}@${Math.round(r.ms / 100) / 10}`).join(" ");
     const track = LV_TRACK[L][level], mins = Math.round((Date.now() - t0) / 6000) / 10;
-    P.result = { level, levelName: LV_NAMES[L][level], track, bySk, n: log.length, right: log.filter(r => r.ok).length, dunno: log.filter(r => r.dunno).length, at: new Date().toISOString(), mins,
+    P.result = { level, levelName: LV_NAMES[L][level], track, bySk, skLv, n: log.length, right: log.filter(r => r.ok).length, dunno: log.filter(r => r.dunno).length, at: new Date().toISOString(), mins,
       doubt: flags.join("; "), raw: flags.length && raw !== level ? LV_NAMES[L][raw] : "" }; P.retake = false;
     S.places = S.places || {}; S.places[L] = P; S.lang = L; save();
     if (typeof assignTrial === "function") assignTrial(L, track);
     P.sent = sendSheet({ type: "placement", time: P.result.at, name: P.name, contact: P.contact, lang: L === "zh" ? "Tiếng Trung" : "Tiếng Anh", goal: P.goal, cert: P.cert, self: P.self, level: P.result.levelName, track: trackOf(L, track).name + " (" + trackOf(L, track).lv + ")", score: `${P.result.right}/${P.result.n}${P.result.dunno ? ` (${P.result.dunno} câu chưa biết)` : ""}`, skills: Object.entries(bySk).map(([k, v]) => `${k} ${v[0]}/${v[1]}`).join(", "),
-      trust: flags.length ? `Nghi đoán: ${P.result.doubt}${P.result.raw ? ` (nếu tính cả thì ${P.result.raw})` : ""}` : "Tin cậy", mins });
-    save(); showResult(body, P);
+      trust: flags.length ? `Nghi đoán: ${P.result.doubt}${P.result.raw ? ` (nếu tính cả thì ${P.result.raw})` : ""}` : "Tin cậy", mins,
+      skLv: Object.entries(skLv).map(([k, v]) => `${k} ${v == null ? "dưới " + LV_NAMES[L][Math.max(MIN_LV[L], 0)] : LV_NAMES[L][v]}`).join(", "), items });
+    save(); prodStep(body, P);
   }
   startBlock();
 }
 function showResult(body, P) {
   const L = P.lang, r = P.result, t = trackOf(L, r.track), O = L === "zh" ? "en" : "zh", other = placeOf(O);
   const skills = Object.entries(r.bySk || {}), lock = !canRetake(L);
-  body.innerHTML = `<section class="card2 presult"><p class="eyebrow">3 · Kết quả</p>
+  body.innerHTML = `<section class="card2 presult"><p class="eyebrow">4 · Kết quả</p>
     <h2>Trình độ ${langName(L)} của bạn: <span class="lvl">${esc(r.levelName)}</span></h2>
     <p class="lead">Đúng ${r.right}/${r.n} câu. Lộ trình phù hợp: <b>${esc(t.name)} (${esc(t.lv)})</b>, đích đến ${esc(t.goal)}.</p>
     ${r.doubt ? `<div class="note">Ở một số câu bạn trả lời rất nhanh hoặc chọn cùng một ô nhiều lần liền, nên CES chỉ tính những mức bạn làm chắc chắn. Nếu thấy mình giỏi hơn kết quả này, CES sẽ nhắn Zalo để kiểm tra lại cùng bạn khoảng 5 phút.</div>` : ""}
-    <div class="pskills">${skills.map(([k, v]) => `<div><b>${esc(k)}</b><div class="barbg"><i style="width:${Math.round(v[0] / v[1] * 100)}%;background:${v[0] / v[1] >= .67 ? "var(--green)" : v[0] / v[1] >= .34 ? "var(--sun)" : "var(--zh)"}"></i></div><small>${v[0]}/${v[1]} câu đúng${v[0] / v[1] < .5 ? " · nên luyện thêm" : ""}</small></div>`).join("")}</div>
+    <h3>Ước lượng theo kỹ năng</h3>
+    <div class="pskills">${skills.map(([k, v]) => { const sl = (r.skLv || {})[k], lvTxt = sl == null ? "chưa đạt " + LV_NAMES[L][Math.max(MIN_LV[L], 0)] : LV_NAMES[L][sl], weak = sl == null || sl < r.level; return `<div><b>${esc(k)}: ${esc(lvTxt)}</b><div class="barbg"><i style="width:${Math.round(v[0] / v[1] * 100)}%;background:${v[0] / v[1] >= .67 ? "var(--green)" : v[0] / v[1] >= .34 ? "var(--sun)" : "var(--zh)"}"></i></div><small>${v[0]}/${v[1]} câu đúng${weak ? " · nên luyện thêm" : ""}</small></div>`; }).join("")}</div>
+    <p class="small muted">Ước lượng theo kỹ năng chỉ dựa trên 2–3 câu mỗi kỹ năng ở mỗi mức; giáo viên sẽ chốt khi nghe phần nói, đọc phần viết.</p>
+    ${P.prod && P.prod.sent ? `<div class="note">Phần nói, viết đã gửi giáo viên. CES sẽ nhắn bạn trong 24 giờ để chốt trình độ.</div>` : `<div class="row"><button type="button" class="btn ghost doprod">${ICON.mic || ""} Làm phần nói, viết (3 phút) để giáo viên chốt trình độ</button></div>`}
     ${typeof trialUsed === "function" && trialUsed(L) ? afterTrialHTML(L, t)
       : t.status === "open" ? `<a class="btn primary huge" href="#${t.start}">${ICON.play} Học thử ngay: ${esc(t.name)}</a>`
       : t.status === "demo" && trackStart(t) ? `<div class="note">Lộ trình <b>${esc(t.name)}</b> đang mở lớp dần. Bạn học thử ngay một tuần trọn vẹn (${esc(t.note.replace(/^Học thử /, ""))}), rồi đăng ký để CES báo khi lớp mở.</div>
@@ -7548,10 +8147,68 @@ function showResult(body, P) {
     <p class="small muted">${P.sent ? "Kết quả đã gửi cho CES." : SHEET_URL ? "" : "Kết quả đang lưu trên máy này (CES chưa kết nối bảng nhận kết quả)."}</p>
     <div class="row">${lock ? `<span class="small muted again-lock">Làm lại bài ${langName(L)} được từ ngày ${fmtDay(retakeAt(L))}.</span>` : `<button type="button" class="btn ghost small again">Làm lại bài kiểm tra</button>`}<button type="button" class="btn ghost small other">${other ? `Xem kết quả ${langName(O)}: ${esc(other.result.levelName)}` : `Kiểm tra ${langName(O)}`}</button></div></section>`;
   const wl = $(".wl", body); if (wl) wl.onclick = () => { P.waitlist = (P.waitlist || []).concat([t.id]); save(); sendSheet({ type: "waitlist", time: new Date().toISOString(), name: P.name, contact: P.contact, lang: L, track: t.name + " (" + t.lv + ")" }); wl.disabled = true; wl.textContent = "Đã đăng ký chờ ✓"; toast("CES sẽ báo bạn khi lộ trình mở."); };
+  const dp = $(".doprod", body); if (dp) dp.onclick = () => prodStep(body, P);
   const ag = $(".again", body); if (ag) ag.onclick = () => { P.retake = true; save(); form(body); };
   $(".other", body).onclick = () => {
     if (other) { S.place = other; other.retake = false; S.lang = O; save(); return showResult(body, other); }
     S.place = { name: P.name, contact: P.contact, goal: P.goal, cert: P.cert, ok: P.ok, lang: O, self: null, retake: true }; save(); form(body);
+  };
+}
+
+
+/* ---------- phần nói, viết sau trắc nghiệm: đề theo mức vừa xếp; gửi giáo viên chấm, không tính điểm tự động ---------- */
+const PROD = {
+  zh: [
+    { say: "说“你好”和你的名字。", sayVi: "Nói “你好” và tên của bạn bằng tiếng Trung (ví dụ: 你好，我叫…).", write: "写你知道的中文词（最多5个，汉字或拼音都可以）。", writeVi: "Viết những từ tiếng Trung bạn biết (tối đa 5 từ, chữ Hán hoặc bính âm)." },
+    { say: "用中文介绍你自己：名字、哪国人、做什么工作。", sayVi: "Giới thiệu bản thân: tên, quốc tịch, công việc.", write: "写3句话介绍你的家人。", writeVi: "Viết 3 câu về gia đình bạn (chữ Hán hoặc bính âm)." },
+    { say: "说说你每天怎么去上班或者上学，要多长时间。", sayVi: "Kể bạn đi làm hoặc đi học mỗi ngày thế nào, mất bao lâu.", write: "写3–5句话：你上个周末做了什么？", writeVi: "Viết 3–5 câu: cuối tuần trước bạn đã làm gì?" },
+    { say: "说说你最喜欢的一个城市，为什么喜欢。", sayVi: "Nói về thành phố bạn thích nhất và lý do.", write: "给同事写一条消息（3–5句）：明天的会议改时间了。", writeVi: "Nhắn đồng nghiệp (3–5 câu): cuộc họp ngày mai đổi giờ." },
+    { say: "你觉得在家工作好还是在公司工作好？说说理由。", sayVi: "Làm việc ở nhà hay ở công ty tốt hơn? Nêu lý do (khoảng 1 phút).", write: "给客户写一封短邮件（4–6句）：货物会晚到三天，说明原因并道歉。", writeVi: "Viết email ngắn cho khách (4–6 câu): hàng đến muộn 3 ngày, nêu lý do và xin lỗi." },
+  ],
+  en: [
+    { say: "Say hello and your name in English.", sayVi: "Chào và nói tên bạn bằng tiếng Anh (ví dụ: Hello, I'm …).", write: "Write 3–5 English words you know.", writeVi: "Viết 3–5 từ tiếng Anh bạn biết." },
+    { say: "Introduce yourself: your name, where you are from, your job or school.", sayVi: "Giới thiệu tên, quê quán, công việc hoặc trường học.", write: "Write 3 sentences about your family.", writeVi: "Viết 3 câu về gia đình bạn." },
+    { say: "Describe a typical working or study day.", sayVi: "Kể một ngày làm việc hoặc học tập bình thường của bạn.", write: "Write 3–5 sentences: What did you do last weekend?", writeVi: "Viết 3–5 câu: cuối tuần trước bạn đã làm gì?" },
+    { say: "Talk about a problem you had at work or school and how you solved it.", sayVi: "Kể một khó khăn ở chỗ làm hoặc trường học và cách bạn giải quyết.", write: "Write a short email (4–5 sentences) to your manager asking to move a meeting.", writeVi: "Viết email ngắn (4–5 câu) xin quản lý dời cuộc họp." },
+    { say: "Is remote work better than working in the office? Give your reasons.", sayVi: "Làm việc từ xa có tốt hơn ở văn phòng không? Nêu lý do (khoảng 1 phút).", write: "Write a short email (5–6 sentences) to a client explaining a 3-day delivery delay and offering a solution.", writeVi: "Viết email (5–6 câu) báo khách hàng giao chậm 3 ngày và đề xuất cách xử lý." },
+  ],
+};
+const PROD_MAX_S = 75;
+function prodStep(body, P) {
+  const L = P.lang, r = P.result, T = PROD[L][Math.min(r.level, PROD[L].length - 1)];
+  let blob = null, url = null, secs = 0, rec = null, tick = null, t0 = 0;
+  body.innerHTML = `<section class="card2 pprod"><p class="eyebrow">3 · Nói và viết · khoảng 3 phút</p>
+    <p class="lead">Phần này không chấm tự động. Giáo viên CES sẽ nghe, đọc để chốt trình độ ${langName(L)} của bạn (hiện tạm xếp: <b>${esc(r.levelName)}</b>).</p>
+    <div class="sheet"><b>Nói (tối đa 1 phút):</b><p class="qt sm" ${L === "zh" ? 'lang="zh"' : 'lang="en"'}>${esc(T.say)}</p><p class="small muted">${esc(T.sayVi)}</p>
+      ${CAN_REC ? `<div class="row"><button type="button" class="btn primary rec">${ICON.mic || ""} Bắt đầu ghi âm</button><button type="button" class="btn ghost play" hidden>${ICON.play} Nghe lại</button><span class="small muted rtime"></span></div>` : `<p class="small muted">Trình duyệt này chưa ghi âm được. Bạn làm phần viết, phần nói CES sẽ gọi Zalo kiểm tra.</p>`}</div>
+    <div class="sheet"><b>Viết:</b><p class="qt sm" ${L === "zh" ? 'lang="zh"' : 'lang="en"'}>${esc(T.write)}</p><p class="small muted">${esc(T.writeVi)}</p>
+      <textarea class="inp area pwrite" placeholder="Gõ câu trả lời của bạn…"></textarea></div>
+    <div class="row"><button type="button" class="btn primary huge psend" disabled>Gửi cho giáo viên</button><button type="button" class="btn ghost skip">Bỏ qua, xem kết quả</button></div></section>`;
+  const send = $(".psend", body), wr = $(".pwrite", body);
+  const ready = () => { send.disabled = !(blob || wr.value.trim().length >= 3); };
+  wr.oninput = ready;
+  const rb = $(".rec", body);
+  if (rb) rb.onclick = async () => {
+    if (rec && rec.state === "recording") { rec.stop(); return; }
+    try {
+      const s = await getMic(), chunks = []; rec = new MediaRecorder(s);
+      rec.ondataavailable = e => e.data.size && chunks.push(e.data);
+      rec.onstop = () => { clearInterval(tick); secs = Math.round((Date.now() - t0) / 1000); blob = new Blob(chunks, { type: rec.mimeType || "audio/webm" }); if (url) URL.revokeObjectURL(url); url = URL.createObjectURL(blob);
+        rb.innerHTML = `${ICON.mic || ""} Ghi âm lại`; $(".play", body).hidden = false; $(".rtime", body).textContent = `Đã ghi ${secs} giây`; ready(); };
+      rec.start(); t0 = Date.now(); rb.textContent = "■ Dừng ghi âm";
+      tick = setInterval(() => { const e = Math.round((Date.now() - t0) / 1000); $(".rtime", body).textContent = `Đang ghi… ${e} giây`; if (e >= PROD_MAX_S && rec.state === "recording") rec.stop(); }, 500);
+    } catch (e) { $(".rtime", body).textContent = "Chưa mở được micro. Hãy cho phép micro hoặc chỉ làm phần viết."; }
+  };
+  const pb = $(".play", body); if (pb) pb.onclick = () => url && playURL(url);
+  $(".skip", body).onclick = () => { if (rec && rec.state === "recording") rec.stop(); P.prod = { sent: false, skipped: true }; save(); showResult(body, P); };
+  send.onclick = async () => {
+    if (rec && rec.state === "recording") return toast("Bấm Dừng ghi âm trước đã.");
+    send.disabled = true; send.textContent = "Đang gửi…";
+    let audio = "";
+    if (blob) audio = await new Promise(res => { const fr = new FileReader(); fr.onload = () => res(String(fr.result || "")); fr.onerror = () => res(""); fr.readAsDataURL(blob); });
+    const ok = sendSheet({ type: "production", time: new Date().toISOString(), name: P.name, contact: P.contact, lang: L === "zh" ? "Tiếng Trung" : "Tiếng Anh", level: r.levelName,
+      sayPrompt: T.say, secs, writePrompt: T.write, text: wr.value.trim(), audio, mime: blob ? blob.type : "" });
+    P.prod = { sent: true, ok, secs, chars: wr.value.trim().length }; save(); toast("Đã gửi cho giáo viên."); showResult(body, P);
   };
 }
 

@@ -71,15 +71,19 @@ def main():
     funnel = open(os.path.join(T, "build", "funnel.js"), encoding="utf-8").read()
     adv = open(os.path.join(T, "build", "adv.js"), encoding="utf-8").read()
 
-    # ngân hàng câu kiểm tra đầu vào: 4 lựa chọn, đáp án đúng đứng đầu, mỗi mức ≥10 câu và ≥2 câu nghe có giọng Gemini
+    # ngân hàng câu kiểm tra đầu vào: id cố định, 4 lựa chọn, đáp án đúng đứng đầu, mỗi mức ≥16 câu, mỗi kỹ năng ≥4 câu, câu nghe có giọng Gemini
     place = load(os.path.join(T, "course", "placement.json")); aud = load(os.path.join(R, "tuan-1", "audio", "index.json"))
     for L, lvs in (("zh", range(0, 5)), ("en", range(1, 5))):
         for q in place[L]:
             if len(q["opts"]) != 4 or len(set(q["opts"])) != 4: sys.exit(f"DỪNG: câu kiểm tra đầu vào cần 4 lựa chọn khác nhau: {q['q']}")
             if q.get("audio") and q["audio"] not in aud.get(L, {}): sys.exit(f"DỪNG: câu nghe kiểm tra đầu vào chưa có giọng Gemini: {q['audio']}")
+        ids = [q.get("id") for q in place[L]]
+        if None in ids or len(set(ids)) != len(ids): sys.exit(f"DỪNG: câu kiểm tra đầu vào {L} thiếu id hoặc trùng id")
         for lv in lvs:
-            n = sum(q["lv"] == lv for q in place[L]); na = sum(q["lv"] == lv and bool(q.get("audio")) for q in place[L])
-            if n < 10 or na < 2: sys.exit(f"DỪNG: kiểm tra đầu vào {L} mức {lv} mới có {n} câu ({na} câu nghe), cần ≥10 câu, ≥2 câu nghe")
+            n = sum(q["lv"] == lv for q in place[L]); sk = {}
+            for q in place[L]:
+                if q["lv"] == lv: sk[q["sk"]] = sk.get(q["sk"], 0) + 1
+            if n < 16 or min(sk.values()) < 4 or sk.get("Nghe", 0) < 4: sys.exit(f"DỪNG: kiểm tra đầu vào {L} mức {lv} cần ≥16 câu, mỗi kỹ năng ≥4 câu (có Nghe): đang có {sk}")
     place = {L: [dict(q, a=0) for q in place[L]] for L in ("zh", "en")}
 
     # 3. ghép vào khuôn
