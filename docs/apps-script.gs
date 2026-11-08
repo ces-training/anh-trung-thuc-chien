@@ -20,7 +20,7 @@ const TZ = "Asia/Ho_Chi_Minh";
 const SHEETS = {
   hv: ["Mã HV", "Họ tên", "Zalo/SĐT", "Email", "Ngôn ngữ", "Lộ trình", "Trình độ", "Lần đầu", "Lần cuối", "Bài đã xong", "Ngày học đã xong", "Gói", "Hạn gói", "Đã nhắc bỏ học", "Ghi chú"],
   don: ["Thời gian", "Mã đơn", "Mã HV", "Họ tên", "Zalo/SĐT", "Loại", "Nội dung", "Số tiền", "Lịch", "Trạng thái", "Ngày thu", "Nguồn", "Ghi chú"],
-  dauvao: ["Thời gian", "Mã HV", "Họ tên", "Liên hệ", "Ngôn ngữ", "Mục tiêu", "Chứng chỉ muốn đạt", "Tự đánh giá", "Trình độ xếp", "Lộ trình", "Điểm", "Theo kỹ năng"],
+  dauvao: ["Thời gian", "Mã HV", "Họ tên", "Liên hệ", "Ngôn ngữ", "Mục tiêu", "Chứng chỉ muốn đạt", "Tự đánh giá", "Trình độ xếp", "Lộ trình", "Điểm", "Theo kỹ năng", "Độ tin cậy", "Thời gian làm (phút)"],
   cho: ["Thời gian", "Mã HV", "Họ tên", "Liên hệ", "Ngôn ngữ", "Lộ trình chờ"],
   log: ["Thời gian", "Loại", "Nội dung", "Kết quả"]
 };
@@ -75,9 +75,9 @@ function doGet(e) {
 
 /* ================= xử lý từng loại ================= */
 function onPlacement(d) {
-  sheet("dauvao").appendRow([now(), d.id || "", d.name, d.contact, d.lang, d.goal, d.cert, d.self, d.level, d.track, d.score, d.skills].map(clip));
+  sheet("dauvao").appendRow([now(), d.id || "", d.name, d.contact, d.lang, d.goal, d.cert, d.self, d.level, d.track, d.score, d.skills, d.trust || "", d.mins || ""].map(clip));
   upsertHV(d, { name: d.name, contact: d.contact, lang: d.lang, track: d.track, level: d.level });
-  zalo(`🆕 Có người mới làm kiểm tra đầu vào\n${d.name} · ${d.contact}\n${d.lang}: ${d.level} → ${d.track}\nMục tiêu: ${d.goal || "-"}\nMã HV: ${d.id || "-"}\n👉 Nhắn Zalo chào và mời học thử trong 24 giờ.`);
+  zalo(`🆕 Có người mới làm kiểm tra đầu vào\n${d.name} · ${d.contact}\n${d.lang}: ${d.level} → ${d.track}${d.trust && d.trust !== "Tin cậy" ? "\n⚠️ " + d.trust + " → nên gọi kiểm tra lại 5 phút" : ""}\nMục tiêu: ${d.goal || "-"}\nMã HV: ${d.id || "-"}\n👉 Nhắn Zalo chào và mời học thử trong 24 giờ.`);
 }
 function onWaitlist(d) {
   sheet("cho").appendRow([now(), d.id || "", d.name, d.contact, d.lang, d.track].map(clip));

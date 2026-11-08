@@ -244,9 +244,16 @@ async function funnel(browser, base) {
   const finishDay = async (pg, id) => { await pg.evaluate(id => { const d = DEMO_DAYS.find(x => x.id === id) || WDAYS.find(x => x.id === id), ex = d.ex || d.exFor(S.lang); ex.forEach((c, i) => { if (i) S.done[S.lang + ":" + d.id + ":" + c] = { p: 5 }; }); save(); location.hash = "#" + d.id + "-bai-1"; }, id);
     await pg.waitForTimeout(500); await pg.evaluate(HOOK); for (let i = 0; i < 80 && !(await pg.$(".endcard")); i++) { await pg.evaluate(STEP); await pg.waitForTimeout(30); }
     return pg.evaluate(() => (document.querySelector(".endcard") || {}).innerText || ""); };
-  const doTest = async (pg, L) => { await g2(pg, "#kiem-tra-dau-vao");
-    await pg.fill("#pname", "Người Thử"); await pg.fill("#pcontact", "0912000111"); await pg.click(`#plang [data-v="${L}"]`); await pg.click('#pgoal [data-v="Đi làm"]'); await pg.click("#pself [data-v='2']"); await pg.check("#pok"); await pg.click("#pgo");
-    for (let i = 0; i < 40 && !(await pg.$(".presult")); i++) { const o = await pg.$('.ptest .opt[data-k="0"]:not([disabled])'); if (o) await o.click(); await pg.waitForTimeout(450); } };
+  /* làm bài kiểm tra đầu vào: mode "right" = luôn đúng, chậm như người thật (tắt bộ đo bấm vội); "guess" = bấm ô A thật nhanh */
+  const doTest = async (pg, L, mode = "right", self = 2) => { await g2(pg, "#kiem-tra-dau-vao");
+    await pg.evaluate(m => { window.PLACE_FAST_OFF = m === "right" ? 1 : 0; }, mode);
+    if (await pg.$(".presult .other")) { await pg.click(".presult .other"); await pg.waitForTimeout(300); }
+    await pg.fill("#pname", "Người Thử"); await pg.fill("#pcontact", "0912000111"); await pg.click(`#plang [data-v="${L}"]`); await pg.click('#pgoal [data-v="Đi làm"]'); await pg.click(`#pself [data-v='${self}']`); await pg.check("#pok"); await pg.click("#pgo");
+    const pos = [];
+    for (let i = 0; i < 60 && !(await pg.$(".presult")); i++) {
+      const o = await pg.$(mode === "right" ? '.ptest .opt[data-k="0"]:not([disabled])' : '.ptest .opt[data-pos="0"]:not([disabled])');
+      if (o) { pos.push(await o.getAttribute(mode === "right" ? "data-pos" : "data-k")); await o.click(); } await pg.waitForTimeout(mode === "right" ? 450 : 380); }
+    return pos; };
   const pa = await fresh();
   await g2(pa, "#lo-trinh"); check(/Chạm Học thử ở trình độ bạn chọn/.test(await tx(pa)), "trang lộ trình cho tự chọn trình độ");
   await pa.click('.tracks [data-pick="en-b"]'); await pa.waitForTimeout(500);
@@ -266,12 +273,22 @@ async function funnel(browser, base) {
   check(/Bạn đã học thử tuần/.test(resA) && /Đăng ký chờ lớp B2\+/.test(resA) && !/Học thử ngay/.test(resA) && (await pa.evaluate(() => S.trial.en.track)) === "en-b", "kiểm tra sau học thử → bước tiếp theo kết quả, không mở thêm tuần miễn phí");
   /* ===== Luồng B: kiểm tra đầu vào trước ===== */
   const pb = await fresh();
-  await doTest(pb, "en"); const resB = await tx(pb);
+  const posB = await doTest(pb, "en"); const resB = await tx(pb);
+  check(new Set(posB).size >= 2 && posB.length >= 15 && posB.length <= 25, `đáp án đúng nằm ở nhiều ô khác nhau, bài dài ${posB.length} câu (15–25)`);
+  check(!!(await pb.$(".presult .again-lock")) && !(await pb.$(".presult .again")), "vừa làm xong thì chưa làm lại được (khoá 7 ngày)");
   const tb = await pb.evaluate(() => S.trial.en);
   check(/Học thử ngay: Nâng cao/.test(resB) && !!(await pb.$('.presult a[href="#b2-w1-thu-2"]')) && tb.track === "en-d" && tb.tested, "kiểm tra trước → tự xếp tuần học thử B2");
   await g2(pb, "#a2-w1-thu-3"); check(/Bạn đang học thử Nâng cao/.test(await tx(pb)), "xếp B2 thì tuần học thử A2 bị khoá");
   const endB = await finishDay(pb, "b2-w1-thu-6");
   check(/Đăng ký chờ lớp/.test(endB) && !/Bỏ qua/.test(endB), "xong tuần học thử theo kết quả → mời chờ lớp, không hỏi kiểm tra lại");
+  /* ===== Luồng C: đoán bừa (bấm ô A thật nhanh, tự nhận B2) rồi kiểm tra tiếng Trung ===== */
+  const pc = await fresh();
+  await doTest(pc, "en", "guess", 4); const rc = await pc.evaluate(() => S.places.en.result);
+  check(rc.level <= 1 && /nhanh|cùng một ô/.test(rc.doubt) && /chỉ tính những mức bạn làm chắc chắn/.test(await tx(pc)), `đoán bừa tự nhận B2 → xếp ${rc.levelName}, ghi nghi đoán (${rc.doubt})`);
+  check(pc.posts.some(p => p.type === "placement" && /^Nghi đoán/.test(p.trust || "")), "Sheet nhận cột Độ tin cậy: Nghi đoán");
+  await doTest(pc, "zh", "right", 0); const both = await pc.evaluate(() => ({ en: S.places.en && S.places.en.result.levelName, zh: S.places.zh && S.places.zh.result.levelName }));
+  check(both.en && both.zh === "HSK4" && /Xem kết quả tiếng Anh/.test(await tx(pc)), `kết quả Anh, Trung lưu riêng (Anh ${both.en}, Trung ${both.zh})`);
+  await pc.screenshot({ path: path.join(ROOT, "tools", "shots", "390-ket-qua-dau-vao.png"), fullPage: true });
   await pa.screenshot({ path: path.join(ROOT, "tools", "shots", "390-ket-qua-sau-hoc-thu.png"), fullPage: true });
   await g2(pb, "#lo-trinh"); await pb.screenshot({ path: path.join(ROOT, "tools", "shots", "390-lo-trinh-dang-hoc.png"), fullPage: true });
   check(!errs.length, "không lỗi JavaScript" + (errs.length ? ": " + errs.join(" | ") : ""));

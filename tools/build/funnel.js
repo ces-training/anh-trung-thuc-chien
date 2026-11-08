@@ -170,7 +170,7 @@ function viewPlans(main) {
 function trialOf(L) { const T = (S.trial || {})[L]; return T && T.track ? T : null; }
 const dayLang = d => d.demo ? d.lang : S.lang;
 const dayTrack = d => d.demo ? d.track : (dayLang(d) === "zh" ? "zh-a" : "en-a");
-function tested(L) { const T = trialOf(L); return !!((T && T.tested) || (S.place && S.place.result && S.place.lang === L)); }
+function tested(L) { const T = trialOf(L); return !!((T && T.tested) || (S.places && S.places[L] && S.places[L].result) || (S.place && S.place.result && S.place.lang === L)); }
 function trialUsed(L) { const T = trialOf(L); return !!(T && T.done); }
 function setTrial(L, tid, via) {
   if (!tid || !trackOf(L, tid)) return;
