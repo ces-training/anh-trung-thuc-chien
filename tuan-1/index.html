@@ -6009,7 +6009,7 @@ function gate() {
       const c = coach();
       card.innerHTML = `${coachFace(120, "gface")}<p class="eyebrow">Người hướng dẫn của bạn</p><h2 id="gt">${esc(c.name)}</h2><p class="say">“${esc(c.lines.welcome)}”</p>
         ${chosen ? `<button type="button" class="btn primary huge" id="ggo">${ICON.play} Chạm để bắt đầu</button>`
-          : `<p class="small"><b>Bạn muốn bắt đầu thế nào?</b></p><button type="button" class="btn primary huge" id="gplace">${ICON.play} Làm bài kiểm tra đầu vào (10–15 phút)</button><p class="small muted">Được xếp đúng trình độ và học thử ngay tuần phù hợp.</p><button type="button" class="btn ghost" id="gself">Tự chọn trình độ, học thử 1 tuần</button><p class="small"><a href="${INTRO_URL}">Chưa biết chương trình? Xem giới thiệu →</a></p>`}<p class="small muted">Bật loa để nghe ${esc(c.name)} nhé.</p>`;
+          : `<p class="small"><b>Bạn muốn bắt đầu thế nào?</b></p><button type="button" class="btn primary huge" id="gplace">${ICON.play} Làm bài kiểm tra đầu vào (15–20 phút)</button><p class="small muted">Được xếp đúng trình độ và học thử ngay tuần phù hợp.</p><button type="button" class="btn ghost" id="gself">Tự chọn trình độ, học thử 1 tuần</button><p class="small"><a href="${INTRO_URL}">Chưa biết chương trình? Xem giới thiệu →</a></p>`}<p class="small muted">Bật loa để nghe ${esc(c.name)} nhé.</p>`;
       const pg = $("#gplace", card); if (pg) pg.onclick = () => { S.seenWelcome = true; save(); location.hash = "kiem-tra-dau-vao"; done("welcome"); };
       const gs = $("#gself", card); if (gs) gs.onclick = () => { S.seenWelcome = true; save(); location.hash = "lo-trinh"; done("welcome"); };
       card.insertAdjacentHTML("beforeend", browserTip(false));
@@ -8228,8 +8228,8 @@ ROOMS["kiem-tra-dau-vao"] = "place";
     const navAdd = () => { const nav = $("#side .snav"); if (nav && !nav.querySelector('[href="#kiem-tra-dau-vao"]')) { const a = nav.querySelector('[href="#lo-trinh"]'); if (a) a.insertAdjacentHTML("afterend", `<a class="sn t-sun${r.v === "place" ? " on" : ""}" href="#kiem-tra-dau-vao">${nicon("review")}<span>Kiểm tra đầu vào</span></a>`); } };
     if (r.v === "place") { stopAudio(); renderTop(); renderSide(); navAdd(); const main = $("#main"); main.innerHTML = ""; viewPlace(main); applyPhotos(main); scrollTo(0, 0); return; }
     r0(); navAdd();
-    if (r.v === "road") { const m = $("#main .roomv"); if (m) { const h = m.querySelector(".rhead"); h.insertAdjacentHTML("afterend", `<section class="card2 pcta"><div><h2>Chưa biết bắt đầu từ đâu?</h2><p>Làm bài kiểm tra đầu vào 10–15 phút để được xếp đúng lộ trình.</p></div><a class="btn primary" href="#kiem-tra-dau-vao">${ICON.play} Kiểm tra đầu vào</a></section>` + tracksHTML()); m.querySelectorAll(".tracks [data-l]").forEach(a => a.onclick = () => { S.lang = a.dataset.l; save(); if (typeof trialOf === "function" && !trialOf(a.dataset.l)) setTrial(a.dataset.l, a.dataset.pick, "self"); }); } }
-    if (r.v === "home") { const h = $("#main"); const first = h && h.firstElementChild; const P = S.place; if (first) first.insertAdjacentHTML("afterend", P && P.result ? `<section class="card2 pcta"><div><h2>Trình độ của bạn: ${esc(P.result.levelName)}</h2><p>Lộ trình phù hợp: ${esc(trackOf(P.lang, P.result.track).name)} (${esc(trackOf(P.lang, P.result.track).lv)}).</p></div><a class="btn ghost" href="#kiem-tra-dau-vao">Xem kết quả</a></section>` : `<section class="card2 pcta"><div><h2>Bạn mới đến?</h2><p>Làm bài kiểm tra đầu vào 10–15 phút để được xếp đúng trình độ và học thử ngay.</p></div><a class="btn primary" href="#kiem-tra-dau-vao">${ICON.play} Kiểm tra đầu vào</a></section>`); }
+    if (r.v === "road") { const m = $("#main .roomv"); if (m) { const h = m.querySelector(".rhead"); h.insertAdjacentHTML("afterend", `<section class="card2 pcta"><div><h2>Chưa biết bắt đầu từ đâu?</h2><p>Làm bài kiểm tra đầu vào 15–20 phút để được xếp đúng lộ trình.</p></div><a class="btn primary" href="#kiem-tra-dau-vao">${ICON.play} Kiểm tra đầu vào</a></section>` + tracksHTML()); m.querySelectorAll(".tracks [data-l]").forEach(a => a.onclick = () => { S.lang = a.dataset.l; save(); if (typeof trialOf === "function" && !trialOf(a.dataset.l)) setTrial(a.dataset.l, a.dataset.pick, "self"); }); } }
+    if (r.v === "home") { const h = $("#main"); const first = h && h.firstElementChild; const P = S.place; if (first) first.insertAdjacentHTML("afterend", P && P.result ? `<section class="card2 pcta"><div><h2>Trình độ của bạn: ${esc(P.result.levelName)}</h2><p>Lộ trình phù hợp: ${esc(trackOf(P.lang, P.result.track).name)} (${esc(trackOf(P.lang, P.result.track).lv)}).</p></div><a class="btn ghost" href="#kiem-tra-dau-vao">Xem kết quả</a></section>` : `<section class="card2 pcta"><div><h2>Bạn mới đến?</h2><p>Làm bài kiểm tra đầu vào 15–20 phút để được xếp đúng trình độ và học thử ngay.</p></div><a class="btn primary" href="#kiem-tra-dau-vao">${ICON.play} Kiểm tra đầu vào</a></section>`); }
   };
 })();
 
@@ -8578,7 +8578,7 @@ function viewTrialLock(main, d, T) {
 function viewLocked(main, d) {
   const L = dayLang(d);
   if (trialUsed(L) && !tested(L)) {
-    main.appendChild(el(`<div class="roomv">${roomHead("journey-" + S.lang, d.wlabel || d.label, "Bạn đã xong tuần học thử", "Làm bài kiểm tra đầu vào 10–15 phút để CES xếp đúng lộ trình cho bạn, rồi học tiếp.")}<section class="card2">${nextStepHTML(L)}</section></div>`));
+    main.appendChild(el(`<div class="roomv">${roomHead("journey-" + S.lang, d.wlabel || d.label, "Bạn đã xong tuần học thử", "Làm bài kiểm tra đầu vào 15–20 phút để CES xếp đúng lộ trình cho bạn, rồi học tiếp.")}<section class="card2">${nextStepHTML(L)}</section></div>`));
     bindSkip(main); applyPhotos(main); return;
   }
   main.appendChild(el(`<div class="roomv">
@@ -8614,7 +8614,7 @@ finishEx = function (ex, d, k, sum, body) {
   let html = "";
   if (d.idx === 4 && !tested(L)) {
     /* học thử theo trình độ tự chọn: xong tuần thì mời kiểm tra đầu vào; từ chối thì sang lớp nhóm, Weekend Live */
-    card.insertAdjacentHTML("beforeend", `<div class="offmini"><b>Bạn đã xong tuần học thử!</b><span>Bước tiếp theo: làm bài kiểm tra đầu vào 10–15 phút để CES xếp đúng lộ trình cho bạn.</span>${nextStepHTML(L)}</div>`);
+    card.insertAdjacentHTML("beforeend", `<div class="offmini"><b>Bạn đã xong tuần học thử!</b><span>Bước tiếp theo: làm bài kiểm tra đầu vào 15–20 phút để CES xếp đúng lộ trình cho bạn.</span>${nextStepHTML(L)}</div>`);
     bindSkip(card); return;
   }
   if (d.idx === 0 && !orderOf("lop-nhom")) html = `<div class="offmini"><b>Tối thứ 4 có lớp nhóm với giáo viên</b><span>Giáo viên sửa đúng lỗi bạn hay sai. Giá học thử ${fmtVND(SITE.trial.class)}.</span><a class="btn primary" href="#uu-dai">Giữ chỗ</a></div>`;
@@ -8647,7 +8647,7 @@ viewLive = function (main) { _viewLive(main); if (planActive()) return; const m 
       const h = $("#main"), first = h && h.firstElementChild, oc = orderOf("lop-nhom"), ol = orderOf("weekend-live");
       if (first && (!oc || !ol)) first.insertAdjacentHTML("afterend", `<section class="card2 pcta"><div><h2>Ưu đãi tuần học thử</h2><p>Lớp nhóm với giáo viên ${fmtVND(SITE.trial.class)} · Weekend Live ${fmtVND(SITE.trial.live)} (giảm 50%, có đồ uống).</p></div><a class="btn primary" href="#uu-dai">Xem ưu đãi</a></section>`);
       const T = trialOf(S.lang), t = T && trackOf(S.lang, T.track);
-      if (first && T && T.done && !tested(S.lang)) { first.insertAdjacentHTML("afterend", `<section class="card2 pcta trialcta"><div><h2>Bạn đã xong tuần học thử</h2><p>Làm bài kiểm tra đầu vào 10–15 phút để CES xếp đúng lộ trình cho bạn.</p></div>${nextStepHTML(S.lang)}</section>`); bindSkip(h); }
+      if (first && T && T.done && !tested(S.lang)) { first.insertAdjacentHTML("afterend", `<section class="card2 pcta trialcta"><div><h2>Bạn đã xong tuần học thử</h2><p>Làm bài kiểm tra đầu vào 15–20 phút để CES xếp đúng lộ trình cho bạn.</p></div>${nextStepHTML(S.lang)}</section>`); bindSkip(h); }
       else if (first && T && !T.done && t.demo) first.insertAdjacentHTML("afterend", `<section class="card2 pcta trialcta"><div><h2>Bạn đang học thử ${esc(t.name)} (${esc(t.lv)})</h2><p>${esc(t.note)}</p></div><a class="btn primary" href="#${trialNext(S.lang, t)}">${ICON.play} Tiếp tục học thử</a></section>`);
     }
   };

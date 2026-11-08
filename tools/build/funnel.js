@@ -213,7 +213,7 @@ function viewTrialLock(main, d, T) {
 function viewLocked(main, d) {
   const L = dayLang(d);
   if (trialUsed(L) && !tested(L)) {
-    main.appendChild(el(`<div class="roomv">${roomHead("journey-" + S.lang, d.wlabel || d.label, "Bạn đã xong tuần học thử", "Làm bài kiểm tra đầu vào 10–15 phút để CES xếp đúng lộ trình cho bạn, rồi học tiếp.")}<section class="card2">${nextStepHTML(L)}</section></div>`));
+    main.appendChild(el(`<div class="roomv">${roomHead("journey-" + S.lang, d.wlabel || d.label, "Bạn đã xong tuần học thử", "Làm bài kiểm tra đầu vào 15–20 phút để CES xếp đúng lộ trình cho bạn, rồi học tiếp.")}<section class="card2">${nextStepHTML(L)}</section></div>`));
     bindSkip(main); applyPhotos(main); return;
   }
   main.appendChild(el(`<div class="roomv">
@@ -249,7 +249,7 @@ finishEx = function (ex, d, k, sum, body) {
   let html = "";
   if (d.idx === 4 && !tested(L)) {
     /* học thử theo trình độ tự chọn: xong tuần thì mời kiểm tra đầu vào; từ chối thì sang lớp nhóm, Weekend Live */
-    card.insertAdjacentHTML("beforeend", `<div class="offmini"><b>Bạn đã xong tuần học thử!</b><span>Bước tiếp theo: làm bài kiểm tra đầu vào 10–15 phút để CES xếp đúng lộ trình cho bạn.</span>${nextStepHTML(L)}</div>`);
+    card.insertAdjacentHTML("beforeend", `<div class="offmini"><b>Bạn đã xong tuần học thử!</b><span>Bước tiếp theo: làm bài kiểm tra đầu vào 15–20 phút để CES xếp đúng lộ trình cho bạn.</span>${nextStepHTML(L)}</div>`);
     bindSkip(card); return;
   }
   if (d.idx === 0 && !orderOf("lop-nhom")) html = `<div class="offmini"><b>Tối thứ 4 có lớp nhóm với giáo viên</b><span>Giáo viên sửa đúng lỗi bạn hay sai. Giá học thử ${fmtVND(SITE.trial.class)}.</span><a class="btn primary" href="#uu-dai">Giữ chỗ</a></div>`;
@@ -282,7 +282,7 @@ viewLive = function (main) { _viewLive(main); if (planActive()) return; const m 
       const h = $("#main"), first = h && h.firstElementChild, oc = orderOf("lop-nhom"), ol = orderOf("weekend-live");
       if (first && (!oc || !ol)) first.insertAdjacentHTML("afterend", `<section class="card2 pcta"><div><h2>Ưu đãi tuần học thử</h2><p>Lớp nhóm với giáo viên ${fmtVND(SITE.trial.class)} · Weekend Live ${fmtVND(SITE.trial.live)} (giảm 50%, có đồ uống).</p></div><a class="btn primary" href="#uu-dai">Xem ưu đãi</a></section>`);
       const T = trialOf(S.lang), t = T && trackOf(S.lang, T.track);
-      if (first && T && T.done && !tested(S.lang)) { first.insertAdjacentHTML("afterend", `<section class="card2 pcta trialcta"><div><h2>Bạn đã xong tuần học thử</h2><p>Làm bài kiểm tra đầu vào 10–15 phút để CES xếp đúng lộ trình cho bạn.</p></div>${nextStepHTML(S.lang)}</section>`); bindSkip(h); }
+      if (first && T && T.done && !tested(S.lang)) { first.insertAdjacentHTML("afterend", `<section class="card2 pcta trialcta"><div><h2>Bạn đã xong tuần học thử</h2><p>Làm bài kiểm tra đầu vào 15–20 phút để CES xếp đúng lộ trình cho bạn.</p></div>${nextStepHTML(S.lang)}</section>`); bindSkip(h); }
       else if (first && T && !T.done && t.demo) first.insertAdjacentHTML("afterend", `<section class="card2 pcta trialcta"><div><h2>Bạn đang học thử ${esc(t.name)} (${esc(t.lv)})</h2><p>${esc(t.note)}</p></div><a class="btn primary" href="#${trialNext(S.lang, t)}">${ICON.play} Tiếp tục học thử</a></section>`);
     }
   };
