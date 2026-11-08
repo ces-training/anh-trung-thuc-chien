@@ -4638,6 +4638,10 @@ function placeMinMs(q, L) {
   return 1500 + au + (q.q.length > 60 ? 1500 : 0);
 }
 const langName = L => L === "zh" ? "tiếng Trung" : "tiếng Anh";
+/* nhãn mức theo kỹ năng; kỹ năng chỉ kiểm tra ở mức thấp (vd Bính âm ở HSK0) mà làm đúng hết thì ghi "Đạt" */
+const skMax = (L, sk) => Math.max(...QB[L].filter(q => q.sk === sk).map(q => q.lv));
+function skLabel(L, sk, sl) { if (sl == null) return "chưa đạt " + LV_NAMES[L][Math.max(MIN_LV[L], 0)]; return sl >= skMax(L, sk) && skMax(L, sk) < MAX_LV[L] ? "Đạt" : LV_NAMES[L][sl]; }
+const skWeak = (L, sk, sl, level) => sl == null || (sl < level && sl < skMax(L, sk));
 function viewPlace(main) {
   const P = S.place || {};
   const box = el(`<div class="roomv place">${roomHead("room-career", "Kiểm tra đầu vào", "Tìm đúng lộ trình cho bạn", "15–20 phút. Phần 1: khoảng 16–30 câu trắc nghiệm (nghe, từ vựng, ngữ pháp, đọc), bài tự dễ hơn hoặc khó hơn theo câu trả lời của bạn. Phần 2: nói 1 phút và viết vài câu để giáo viên nghe, đọc. Câu nào chưa biết, hãy bấm “Tôi chưa biết câu này”: đoán bừa sẽ làm kết quả kém chính xác.")}<div class="pbody2"></div></div>`);
@@ -4747,7 +4751,7 @@ function test(body) {
     if (typeof assignTrial === "function") assignTrial(L, track);
     P.sent = sendSheet({ type: "placement", time: P.result.at, name: P.name, contact: P.contact, lang: L === "zh" ? "Tiếng Trung" : "Tiếng Anh", goal: P.goal, cert: P.cert, self: P.self, level: P.result.levelName, track: trackOf(L, track).name + " (" + trackOf(L, track).lv + ")", score: `${P.result.right}/${P.result.n}${P.result.dunno ? ` (${P.result.dunno} câu chưa biết)` : ""}`, skills: Object.entries(bySk).map(([k, v]) => `${k} ${v[0]}/${v[1]}`).join(", "),
       trust: flags.length ? `Nghi đoán: ${P.result.doubt}${P.result.raw ? ` (nếu tính cả thì ${P.result.raw})` : ""}` : "Tin cậy", mins,
-      skLv: Object.entries(skLv).map(([k, v]) => `${k} ${v == null ? "dưới " + LV_NAMES[L][Math.max(MIN_LV[L], 0)] : LV_NAMES[L][v]}`).join(", "), items });
+      skLv: Object.entries(skLv).map(([k, v]) => `${k} ${skLabel(L, k, v)}`).join(", "), items });
     save(); if (SHEET_URL) prodStep(body, P); else { P.prod = { sent: false, skipped: true }; showResult(body, P); }
   }
   startBlock();
@@ -4760,7 +4764,7 @@ function showResult(body, P) {
     <p class="lead">Đúng ${r.right}/${r.n} câu. Lộ trình phù hợp: <b>${esc(t.name)} (${esc(t.lv)})</b>, đích đến ${esc(t.goal)}.</p>
     ${r.doubt ? `<div class="note">Ở một số câu bạn trả lời rất nhanh hoặc chọn cùng một ô nhiều lần liền, nên CES chỉ tính những mức bạn làm chắc chắn. Nếu thấy mình giỏi hơn kết quả này, CES sẽ nhắn Zalo để kiểm tra lại cùng bạn khoảng 5 phút.</div>` : ""}
     <h3>Ước lượng theo kỹ năng</h3>
-    <div class="pskills">${skills.map(([k, v]) => { const sl = (r.skLv || {})[k], lvTxt = sl == null ? "chưa đạt " + LV_NAMES[L][Math.max(MIN_LV[L], 0)] : LV_NAMES[L][sl], weak = sl == null || sl < r.level; return `<div><b>${esc(k)}: ${esc(lvTxt)}</b><div class="barbg"><i style="width:${Math.round(v[0] / v[1] * 100)}%;background:${v[0] / v[1] >= .67 ? "var(--green)" : v[0] / v[1] >= .34 ? "var(--sun)" : "var(--zh)"}"></i></div><small>${v[0]}/${v[1]} câu đúng${weak ? " · nên luyện thêm" : ""}</small></div>`; }).join("")}</div>
+    <div class="pskills">${skills.map(([k, v]) => { const sl = (r.skLv || {})[k], lvTxt = skLabel(L, k, sl), weak = skWeak(L, k, sl, r.level); return `<div><b>${esc(k)}: ${esc(lvTxt)}</b><div class="barbg"><i style="width:${Math.round(v[0] / v[1] * 100)}%;background:${v[0] / v[1] >= .67 ? "var(--green)" : v[0] / v[1] >= .34 ? "var(--sun)" : "var(--zh)"}"></i></div><small>${v[0]}/${v[1]} câu đúng${weak ? " · nên luyện thêm" : ""}</small></div>`; }).join("")}</div>
     <p class="small muted">Ước lượng theo kỹ năng chỉ dựa trên 2–3 câu mỗi kỹ năng ở mỗi mức; giáo viên sẽ chốt khi nghe phần nói, đọc phần viết.</p>
     ${!SHEET_URL ? "" : P.prod && P.prod.sent ? `<div class="note">Phần nói, viết đã gửi giáo viên. CES sẽ nhắn bạn trong 24 giờ để chốt trình độ.</div>` : `<div class="row"><button type="button" class="btn ghost doprod">${ICON.mic || ""} Làm phần nói, viết (3 phút) để giáo viên chốt trình độ</button></div>`}
     ${typeof trialUsed === "function" && trialUsed(L) ? afterTrialHTML(L, t)
@@ -4770,7 +4774,7 @@ function showResult(body, P) {
       : `<div class="note">Lộ trình <b>${esc(t.name)}</b> đang được soạn (${esc(t.note)}). Đăng ký để CES báo bạn ngay khi mở, và học thử trước lộ trình gần nhất.</div>
          <div class="row"><button type="button" class="btn primary wl">Đăng ký chờ lớp ${esc(t.lv)}</button>${(() => { const near = nearTrial(L, t); return near ? `<a class="btn ghost" href="#${trackStart(near)}">Học thử tuần gần nhất: ${esc(near.name)} (${esc(near.lv)})</a>` : ""; })()}</div>`}
     <p class="small muted">${P.sent ? "Kết quả đã gửi cho CES." : SHEET_URL ? "" : "Kết quả đang lưu trên máy này (CES chưa kết nối bảng nhận kết quả)."}</p>
-    <div class="row">${lock ? `<span class="small muted again-lock">Làm lại bài ${langName(L)} được từ ngày ${fmtDay(retakeAt(L))}.</span>` : `<button type="button" class="btn ghost small again">Làm lại bài kiểm tra</button>`}<button type="button" class="btn ghost small other">${other ? `Xem kết quả ${langName(O)}: ${esc(other.result.levelName)}` : `Kiểm tra ${langName(O)}`}</button></div></section>`;
+    <div class="row">${lock ? `<span class="small muted again-lock">Làm lại bài ${langName(L)} được từ ngày ${fmtDay(retakeAt(L))}.</span>` : `<button type="button" class="btn ghost small again">Làm lại bài kiểm tra</button>`}${typeof askBtn === "function" ? askBtn("Lộ trình, trình độ của tôi", "kết quả kiểm tra đầu vào", "Hỏi CES về kết quả này", "ghost small") : ""}<button type="button" class="btn ghost small other">${other ? `Xem kết quả ${langName(O)}: ${esc(other.result.levelName)}` : `Kiểm tra ${langName(O)}`}</button></div></section>`;
   const wl = $(".wl", body); if (wl) wl.onclick = () => { P.waitlist = (P.waitlist || []).concat([t.id]); save(); sendSheet({ type: "waitlist", time: new Date().toISOString(), name: P.name, contact: P.contact, lang: L, track: t.name + " (" + t.lv + ")" }); wl.disabled = true; wl.textContent = "Đã đăng ký chờ ✓"; toast("CES sẽ báo bạn khi lộ trình mở."); };
   const dp = $(".doprod", body); if (dp) dp.onclick = () => prodStep(body, P);
   const ag = $(".again", body); if (ag) ag.onclick = () => { P.retake = true; save(); form(body); };
@@ -4858,6 +4862,7 @@ ROOMS["kiem-tra-dau-vao"] = "place";
   };
 })();
 
+/*@CONNECT@*/
 /*@FUNNEL@*/
 boot();
 gate();

@@ -70,6 +70,7 @@ def main():
     site = {k: v for k, v in load(os.path.join(T, "site.json")).items() if not k.startswith("_")}
     funnel = open(os.path.join(T, "build", "funnel.js"), encoding="utf-8").read()
     adv = open(os.path.join(T, "build", "adv.js"), encoding="utf-8").read()
+    connect = open(os.path.join(T, "build", "connect.js"), encoding="utf-8").read()
 
     # ngân hàng câu kiểm tra đầu vào: id cố định, 4 lựa chọn, đáp án đúng đứng đầu, mỗi mức ≥16 câu, mỗi kỹ năng ≥4 câu, câu nghe có giọng Gemini
     place = load(os.path.join(T, "course", "placement.json")); aud = load(os.path.join(R, "tuan-1", "audio", "index.json"))
@@ -96,6 +97,7 @@ def main():
         "/*@ZHGLOSSDATA@*/": json.dumps(gloss, ensure_ascii=False),
         "/*@ZHPYDATA@*/": J(zhpy),
         "/*@SITE@*/": J(site),
+        "/*@CONNECT@*/": connect,
         "/*@FUNNEL@*/": adv + "\n" + funnel,
         "/*@PLACEMENT@*/": json.dumps(place, ensure_ascii=False, indent=1),
     }
@@ -104,13 +106,13 @@ def main():
         s = s.replace(k, v)
     if "/*@" in s: sys.exit("DỪNG: còn chỗ điền chưa có dữ liệu: " + re.search(r"/\*@\w+@\*/", s).group(0))
     open(OUT, "w", encoding="utf-8").write(s)
-    sync_landing(site)
+    sync_landing(site, connect)
     nd = sum(len(main_w["zh"][w]["days"]) for w in weeks)
     print(f"Đã dựng tuan-1/index.html ({len(s.encode('utf-8')) // 1024} KB): tuần {weeks} ({nd} ngày × 2 ngôn ngữ), "
           f"học thử {', '.join(f'{k} ({len(W['days'])} ngày)' for k, W in demo.items())}, {len(hz)} chữ có dữ liệu nét.")
 
 
-def sync_landing(site):
+def sync_landing(site, connect=""):
     """Trang chủ (index.html) dùng chung cấu hình: địa chỉ nhận form, Zalo, ngân hàng, giá."""
     p = os.path.join(R, "index.html"); h = open(p, encoding="utf-8").read(); h0 = h
     q = lambda v: json.dumps(v, ensure_ascii=False)
@@ -127,6 +129,11 @@ def sync_landing(site):
     tr = site.get("trial", {})
     note = f' · học thử lần đầu {tr["live"]:,}đ'.replace(",", ".") if tr.get("live") else ""
     h = re.sub(r'(<span data-price="ticket">[^<]*</span>/buổi, gồm đồ uống)(<span class="trialnote">[^<]*</span>)?', lambda m: m.group(1) + (f'<span class="trialnote">{note}</span>' if note else ""), h, count=1)
+    # liên hệ admin + thống kê lượt vào: chèn tools/build/connect.js và tools/build/landing-connect.js vào trước </body>
+    lc = open(os.path.join(T, "build", "landing-connect.js"), encoding="utf-8").read()
+    blk = "<!--@CONNECT@-->\n<script>\n" + connect + "\n" + lc + "\n</script>\n<!--/@CONNECT@-->"
+    if "<!--@CONNECT@-->" in h: h = re.sub(r"<!--@CONNECT@-->.*?<!--/@CONNECT@-->", lambda m: blk, h, count=1, flags=re.S)
+    else: h = h.replace("</body>", blk + "\n</body>", 1)
     if h != h0: open(p, "w", encoding="utf-8").write(h); print("Đã cập nhật trang chủ theo tools/site.json.")
 
 

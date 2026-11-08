@@ -6,7 +6,7 @@ Sau khi cài, mọi thứ học viên làm trên web (kiểm tra đầu vào, đ
 1. Tạo một Google Sheet mới, đặt tên "Học viên Anh – Trung".
 2. Vào **Tiện ích mở rộng → Apps Script**. Xoá mã mẫu, dán toàn bộ file `docs/apps-script.gs`, bấm **Lưu**.
 3. Quay lại Sheet, tải lại trang. Trên thanh menu có mục **CES** → bấm **1. Cài đặt**, cấp quyền khi Google hỏi.
-   Sheet sẽ có 6 bảng: Học viên, Đơn hàng, Kiểm tra đầu vào, Nói viết đầu vào, Đăng ký chờ, Nhật ký. Lịch nhắc 8 giờ sáng mỗi ngày được bật.
+   Sheet sẽ có các bảng: Học viên, Đơn hàng, Kiểm tra đầu vào, Nói viết đầu vào, Liên hệ, Lượt truy cập, Đăng ký chờ, Nhật ký (bảng Tổng quan tạo khi bấm CES → Cập nhật bảng Tổng quan). Lịch nhắc 8 giờ sáng mỗi ngày được bật.
    Google sẽ hỏi thêm quyền **Google Drive**: để lưu tệp ghi âm phần nói của bài kiểm tra đầu vào vào thư mục "CES · Bài nói đầu vào" (chỉ chủ Sheet xem được).
 4. Trong Apps Script: **Triển khai → Tùy chọn triển khai mới → Ứng dụng web**.
    Thực thi với tư cách: **Tôi**. Ai có quyền truy cập: **Bất kỳ ai**. Bấm Triển khai, chép **URL ứng dụng web** (dạng `https://script.google.com/macros/s/…/exec`).
@@ -65,3 +65,9 @@ Dán đường dẫn của OA (dạng `https://zalo.me/…`, lấy ở OA Manage
 - Bảng **Kiểm tra đầu vào**: mỗi lượt một dòng. Cột **Độ tin cậy** ghi "Nghi đoán …" khi học viên bấm quá nhanh hoặc chọn cùng một ô nhiều câu liền: nên gọi kiểm tra lại 5 phút. Cột **Ước lượng theo kỹ năng** chỉ để tham khảo. Cột **Từng câu** dùng cho thống kê (đừng sửa).
 - Bảng **Nói viết đầu vào**: giáo viên bấm link nghe bài nói, đọc bài viết, rồi điền **Giáo viên chốt mức** và ghi chú. Nhắn học viên trong 24 giờ.
 - **Thống kê câu hỏi** (sau khoảng 50–100 lượt): trong bảng Kiểm tra đầu vào chọn Tệp → Tải xuống → CSV, rồi chạy `python3 tools/placement_stats.py tệp.csv`. Kết quả ghi ra `tools/placement-stats.md`: câu quá dễ, quá khó, nhiều người chọn "chưa biết", hoặc người giỏi lại hay sai (độ phân biệt thấp) → sửa hoặc thay câu đó trong `tools/course/placement.json` (câu mới dùng id mới).
+
+## Liên hệ "Hỏi CES" và thống kê lượt vào
+- Cả trang chủ và trang học có nút **Hỏi CES** (góc phải dưới). Học viên để lại tên, Zalo, chủ đề, câu hỏi, giờ tiện liên hệ → bảng **Liên hệ** + tin Zalo cho admin (kèm "Gửi từ đâu" và "Tình hình học": đã học bao nhiêu bài, học thử gì, kết quả đầu vào). Admin đổi cột **Trạng thái** (Chưa liên hệ / Đã nhắn/gọi / Đã chốt gói / Không nhu cầu). Người chưa liên hệ được nhắc trong tin 8 giờ sáng.
+- **Lời mời liên hệ** tự hiện ở các điểm mấu chốt, mỗi loại 1 lần, có nút "Để sau", không hiện nữa khi người đó đã gửi form: trang chủ (đọc Học phí ≥ 8 giây, mở ≥ 2 câu Hỏi đáp, xem ≥ 2 phút); trang học (ở trang Chọn gói/Ưu đãi ≥ 25 giây, xong tuần học thử, học ≥ 8 bài hoặc ≥ 3 ngày). Ngoài ra có nút Hỏi CES ở kết quả kiểm tra đầu vào, trang Chọn gói, Ưu đãi, tuần bị khoá.
+- Bảng **Lượt truy cập**: mỗi lượt xem một dòng, ẩn danh (Mã khách ngẫu nhiên, không có tên trừ khi người đó tự gửi form): nguồn, thiết bị, thời gian xem thật, độ cuộn, mục đã đọc (thấy ≥ 4 giây), màn đã mở, nút đã bấm, lời mời đã hiện/bấm/tắt. Cùng Mã khách = cùng một người (trên cùng trình duyệt), nối được với Mã HV khi họ vào trang học.
+- Bảng **Tổng quan** (tự cập nhật 8 giờ sáng, hoặc menu CES → Cập nhật bảng Tổng quan): số người vào trang chủ, đọc học phí, vào trang học, mở bài, xem trang giá, làm kiểm tra đầu vào, hỏi CES, đăng ký, đã thu tiền (7 ngày / 30 ngày / tất cả); mục nào được đọc nhiều; màn nào được mở; lời mời nào hiệu quả; nguồn truy cập. Sáng thứ Hai Zalo admin nhận một dòng tóm tắt tuần.

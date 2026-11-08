@@ -20,9 +20,12 @@ const _sendSheet = sendSheet;
 sendSheet = function (row) {
   S.me = S.me || {};
   if (row.name) S.me.name = row.name; if (row.contact) S.me.contact = row.contact;
-  return _sendSheet(Object.assign({ id: meId(), name: S.me.name || (S.profile && S.profile.name) || "", contact: S.me.contact || "", time: new Date().toISOString() }, row));
+  return _sendSheet(Object.assign({ id: meId(), vid: window.CESConnect ? CESConnect.visitor() : "", name: S.me.name || (S.profile && S.profile.name) || "", contact: S.me.contact || "", time: new Date().toISOString() }, row));
 };
 const track = (type, data) => sendSheet(Object.assign({ type }, data || {}));
+/* nút "Hỏi CES" đặt trong trang: mở form liên hệ với chủ đề và nơi bấm (để admin biết học viên hỏi từ đâu) */
+const askBtn = (topic, source, label, cls) => `<button type="button" class="btn ${cls || "ghost"} askces" data-topic="${esc(topic)}" data-src="${esc(source)}" data-track="${esc(source)}">${esc(label || "Hỏi CES")}</button>`;
+document.addEventListener("click", e => { const b = e.target.closest && e.target.closest(".askces"); if (b && window.CESConnect) CESConnect.open({ topic: b.dataset.topic, source: b.dataset.src }); });
 /* ngày học kế tiếp theo thứ trong tuần (3 = thứ 4, 6 = thứ 7) */
 function nextDow(dow) { const d = new Date(); d.setHours(12); const add = (dow - d.getDay() + 7) % 7; d.setDate(d.getDate() + add); return d; }
 const ddmm = d => String(d.getDate()).padStart(2, "0") + "/" + String(d.getMonth() + 1).padStart(2, "0");
@@ -123,7 +126,7 @@ function viewOffers(main) {
     main.appendChild(el(`<div class="roomv">
       ${roomHead("room-live", "Học thử", "Ưu đãi cho tuần học thử", "Một tuần trên web miễn phí. Thêm một buổi lớp nhóm với giáo viên và một buổi Weekend Live để thử trọn vòng học: web dạy, lớp nhóm sửa, cuối tuần nói thật.")}
       ${offerSection("class")}${offerSection("live")}
-      <section class="card2"><h2>Học tiếp từ tuần 2</h2><p>Hết tuần học thử, chọn một gói để mở tiếp các tuần sau.</p><a class="btn primary" href="#chon-goi">Xem các gói học</a></section></div>`));
+      <section class="card2"><h2>Học tiếp từ tuần 2</h2><p>Hết tuần học thử, chọn một gói để mở tiếp các tuần sau.</p><div class="row"><a class="btn primary" href="#chon-goi">Xem các gói học</a>${askBtn("Lớp nhóm, Weekend Live", "trang Ưu đãi học thử", "Hỏi CES về lớp nhóm, Weekend Live")}</div></section></div>`));
     bindOffers(main, draw); applyPhotos(main);
   };
   draw();
@@ -143,6 +146,7 @@ function viewPlans(main) {
           <p class="payamt">${fmtVND(bill === "term" ? p.term : p.month)}<small> / ${bill === "term" ? "16 tuần" : "tháng"}</small></p>
           <ul class="facts small">${p.has.map(h => `<li>${esc(h)}</li>`).join("")}</ul><button type="button" class="btn ${p.best ? "primary" : "ghost"} pk" data-k="${p.k}">Chọn gói ${esc(p.name)}</button></div>`).join("")}</div>
         ${pick ? `<form class="planform" novalidate><p><b>Gói ${esc(PLANS.find(p => p.k === pick).name)} · ${bill === "term" ? "16 tuần" : "1 tháng"}</b></p>${contactFields()}<p class="err small" role="alert"></p><button type="submit" class="btn primary huge">Đăng ký gói · ${fmtVND(bill === "term" ? PLANS.find(p => p.k === pick).term : PLANS.find(p => p.k === pick).month)}</button></form>` : ""}</section>
+      <section class="card2"><h2>Chưa chắc gói nào hợp với bạn?</h2><p>Kể CES nghe mục tiêu và lịch của bạn, tư vấn viên gợi ý gói phù hợp trong 10 phút qua Zalo. Miễn phí, không bắt buộc đăng ký.</p><div class="row">${askBtn("Tư vấn gói học trả phí", "trang Chọn gói", "Nhờ CES tư vấn gói học", "primary")}</div></section>
       <section class="card2"><h2>Đã có mã đăng ký?</h2><p class="small">Mã ở trang chủ, hoặc mã đơn bạn đặt trên máy khác.</p>
         <form class="codeform row" novalidate><input class="inp" name="code" placeholder="Ví dụ: AT1K2M3P" autocapitalize="characters" aria-label="Mã đăng ký"><button type="submit" class="btn primary">Kiểm tra mã</button></form><p class="codemsg small" role="status"></p></section></div>`));
     main.querySelectorAll("[data-b]").forEach(b => b.onclick = () => { bill = b.dataset.b; S.bill = bill; save(); draw(); });
@@ -198,7 +202,7 @@ function bindSkip(root) { root.querySelectorAll(".skiptest").forEach(a => a.addE
 function afterTrialHTML(L, t) {
   const cur = trackOf(L, trialOf(L).track), same = cur.id === t.id;
   return `<div class="note">Bạn đã học thử tuần <b>${esc(cur.name)} (${esc(cur.lv)})</b>. ${same ? "Kết quả kiểm tra khớp với trình độ bạn đã chọn." : `Kết quả kiểm tra xếp bạn vào lộ trình <b>${esc(t.name)} (${esc(t.lv)})</b>.`}</div>
-    <div class="row">${t.status === "open" ? `<a class="btn primary huge" href="#chon-goi">${ICON.play} Chọn gói học ${esc(t.name)}</a>` : `<button type="button" class="btn primary wl">Đăng ký chờ lớp ${esc(t.lv)}</button>`}<a class="btn ghost" href="#uu-dai">Lớp nhóm online với giáo viên, Weekend Live</a></div>`;
+    <div class="row">${t.status === "open" ? `<a class="btn primary huge" href="#chon-goi">${ICON.play} Chọn gói học ${esc(t.name)}</a>` : `<button type="button" class="btn primary wl">Đăng ký chờ lớp ${esc(t.lv)}</button>`}<a class="btn ghost" href="#uu-dai">Lớp nhóm online với giáo viên, Weekend Live</a>${askBtn("Tư vấn gói học trả phí", "xong tuần học thử (kết quả kiểm tra)", "Hỏi CES nên học tiếp thế nào")}</div>`;
 }
 /* ngày của lộ trình khác khi đang học thử */
 function viewTrialLock(main, d, T) {
@@ -218,7 +222,7 @@ function viewLocked(main, d) {
   }
   main.appendChild(el(`<div class="roomv">
     ${roomHead("journey-" + S.lang, d.wlabel || d.label, `Tuần ${d.week} dành cho học viên`, "Bạn đã học xong tuần học thử. Chọn một gói để mở tiếp tuần " + d.week + " và các tuần sau. Bài tuần 1 vẫn mở để bạn ôn lại.")}
-    <section class="card2"><div class="row"><a class="btn primary huge" href="#chon-goi">${ICON.play} Chọn gói học tiếp</a><a class="btn ghost" href="#uu-dai">Ưu đãi lớp nhóm và Weekend Live</a></div>
+    <section class="card2"><div class="row"><a class="btn primary huge" href="#chon-goi">${ICON.play} Chọn gói học tiếp</a><a class="btn ghost" href="#uu-dai">Ưu đãi lớp nhóm và Weekend Live</a>${askBtn("Tư vấn gói học trả phí", "tuần bị khoá (tuần " + d.week + ")", "Hỏi CES cách học tiếp")}</div>
     <p class="small muted">Đã đăng ký và chuyển khoản? Vào Chọn gói, bấm Kiểm tra trạng thái hoặc nhập mã đăng ký.</p></section></div>`));
   applyPhotos(main);
   if (SITE.sheetUrl && (!S.statusAt || Date.now() - S.statusAt > 60000)) refreshStatus().then(() => { if (!locked(d)) render(); });
@@ -289,3 +293,33 @@ viewLive = function (main) { _viewLive(main); if (planActive()) return; const m 
 })();
 /* mỗi ngày báo "đã vào học" một lần, để CES biết ai đang học, ai nghỉ */
 (function () { const t = new Date().toDateString(); if (S.seenDay !== t && S.profile) { S.seenDay = t; save(); track("seen", { lang: S.lang === "zh" ? "Tiếng Trung" : "Tiếng Anh" }); } if (SITE.sheetUrl && ((S.orders || []).some(o => o.status !== "Đã thu") || (S.plan && S.plan.until < Date.now() + 864e5))) refreshStatus(); })();
+
+/* ---------- liên hệ admin + thống kê lượt vào (tools/build/connect.js) ---------- */
+function learnSummary() {
+  const n = Object.keys(S.done || {}).length, days = (S.useDays || []).length;
+  const tr = ["en", "zh"].map(L => { const T = trialOf(L); return T ? `học thử ${L === "zh" ? "Trung" : "Anh"} ${trackOf(L, T.track).name}${T.done ? " (xong)" : ""}` : ""; }).filter(Boolean).join(", ");
+  const pl = ["en", "zh"].map(L => S.places && S.places[L] && S.places[L].result ? `đầu vào ${L === "zh" ? "Trung" : "Anh"} ${S.places[L].result.levelName}` : "").filter(Boolean).join(", ");
+  return [`${n} bài xong`, `${days} ngày vào học`, tr, pl, planActive() ? "đang có gói " + (S.plan.name || "") : ""].filter(Boolean).join(" · ");
+}
+(function () {
+  const t = new Date().toDateString(); S.useDays = S.useDays || []; if (!S.useDays.includes(t)) { S.useDays.push(t); S.useDays = S.useDays.slice(-60); save(); }
+  if (!window.CESConnect) return;
+  try { if (S.me && S.me.contact && !localStorage.getItem("atc-me")) localStorage.setItem("atc-me", JSON.stringify({ name: S.me.name || "", contact: S.me.contact })); } catch (e) {}
+  CESConnect.init({ endpoint: SITE.sheetUrl, zaloUrl: SITE.zaloUrl, hotline: SITE.hotline, page: "trang-hoc", low: matchMedia("(max-width:720px)").matches,
+    ctx: () => ({ id: meId(), learn: learnSummary() }),
+    onSent: c => { S.me = S.me || {}; S.me.name = S.me.name || c.name; S.me.contact = S.me.contact || c.contact; save(); } });
+  /* lời mời: mỗi loại 1 lần; không hiện khi đang làm bài, đang ở form, hoặc đã từng gửi liên hệ */
+  let at = location.hash, since = Date.now();
+  addEventListener("hashchange", () => { at = location.hash; since = Date.now(); });
+  setInterval(() => {
+    if (document.visibilityState !== "visible" || document.querySelector(".player,.ptest,.pprod,.gate,.planform")) return;
+    const h = (location.hash || "#trang-chu").split("/")[0], stay = (Date.now() - since) / 1000, n = Object.keys(S.done || {}).length, days = (S.useDays || []).length;
+    const trialDone = ["en", "zh"].some(L => { const T = trialOf(L); return T && T.done; });
+    if ((h === "#chon-goi" || h === "#uu-dai") && stay > 25 && !planActive())
+      CESConnect.nudge("xem-gia-trang-hoc", { title: "Bạn đang cân nhắc gói học?", text: "CES tư vấn 10 phút qua Zalo: gói nào hợp với mục tiêu và lịch của bạn. Miễn phí.", form: { topic: "Tư vấn gói học trả phí", source: "lời mời: xem giá trong trang học" } });
+    else if (trialDone && !planActive() && (h === "#trang-chu" || h === "#hanh-trinh" || h === ""))
+      CESConnect.nudge("xong-hoc-thu", { title: "Bạn đã xong tuần học thử 🎉", text: "Muốn học tiếp mà chưa biết chọn gói nào? Để lại Zalo, CES gọi tư vấn và gửi ưu đãi cho học viên học thử.", form: { topic: "Tư vấn gói học trả phí", source: "lời mời: xong tuần học thử" } });
+    else if ((n >= 8 || days >= 3) && !planActive() && (h === "#trang-chu" || h === ""))
+      CESConnect.nudge("hoc-deu", { title: `Bạn đã học ${n} bài${days >= 2 ? " trong " + days + " ngày" : ""}`, text: "CES có thể xem cách bạn học và gợi ý lộ trình, gói học phù hợp nhịp của bạn. Tư vấn miễn phí qua Zalo.", form: { topic: "Tư vấn gói học trả phí", source: "lời mời: học đều" } });
+  }, 5000);
+})();
