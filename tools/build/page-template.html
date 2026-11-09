@@ -4632,7 +4632,8 @@ function sendSheet(row) {
    Sheet nhận từng câu (id=1/0/? @giây) để thống kê độ khó, độ phân biệt: tools/placement_stats.py.
    Trả lời quá nhanh, hoặc chọn cùng một ô từ 6 câu liền → chỉ tính các mức qua chắc chắn, Sheet ghi "nghi đoán".
    Kết quả lưu riêng từng ngôn ngữ (S.places); làm lại sau 7 ngày, câu chưa gặp ra trước. */
-const PLACE_BLOCK = 8, PLACE_PASS = 6, PLACE_EXTRA = 4, PLACE_PASS_EXT = 9, PLACE_STREAK = 6, RETAKE_DAYS = 7;
+/* mỗi mức 8 câu (2/kỹ năng), ≥6 qua; 5/8 thêm 4 câu cần ≥9/12; ≥7/8 thì nhảy cóc 1 mức; tối đa PLACE_MAX câu */
+const PLACE_BLOCK = 8, PLACE_PASS = 6, PLACE_STRONG = 7, PLACE_EXTRA = 4, PLACE_PASS_EXT = 9, PLACE_MAX = 28, PLACE_STREAK = 6, RETAKE_DAYS = 7;
 function placeOf(L) { S.places = S.places || {}; if (!S.places[L] && S.place && S.place.lang === L && S.place.result) S.places[L] = S.place; return S.places[L] && S.places[L].result ? S.places[L] : null; }
 function retakeAt(L) { const P = placeOf(L); return P ? new Date(new Date(P.result.at).getTime() + RETAKE_DAYS * 864e5) : null; }
 function canRetake(L) { const t = retakeAt(L); return !t || Date.now() >= t.getTime(); }
@@ -4652,7 +4653,7 @@ function skLabel(L, sk, sl) { if (sl == null) return "chưa đạt " + LV_NAMES[
 const skWeak = (L, sk, sl, level) => sl == null || (sl < level && sl < skMax(L, sk));
 function viewPlace(main) {
   const P = S.place || {};
-  const box = el(`<div class="roomv place">${roomHead("room-career", "Kiểm tra đầu vào", "Tìm đúng lộ trình cho bạn", "15–20 phút. Phần 1: khoảng 16–30 câu trắc nghiệm (nghe, từ vựng, ngữ pháp, đọc), bài tự dễ hơn hoặc khó hơn theo câu trả lời của bạn. Phần 2: nói 1 phút và viết vài câu để giáo viên nghe, đọc. Câu nào chưa biết, hãy bấm “Tôi chưa biết câu này”: đoán bừa sẽ làm kết quả kém chính xác.")}<div class="pbody2"></div></div>`);
+  const box = el(`<div class="roomv place">${roomHead("room-career", "Kiểm tra đầu vào", "Tìm đúng lộ trình cho bạn", "15–20 phút. Phần 1: 16–28 câu trắc nghiệm (nghe, từ vựng, ngữ pháp, đọc), bài tự dễ hơn hoặc khó hơn theo câu trả lời của bạn. Phần 2: nói 1 phút và viết vài câu để giáo viên nghe, đọc. Câu nào chưa biết, hãy bấm “Tôi chưa biết câu này”: đoán bừa sẽ làm kết quả kém chính xác.")}<div class="pbody2"></div></div>`);
   main.appendChild(box);
   const body = $(".pbody2", box);
   if (P.result && !P.retake) return showResult(body, P);
@@ -4698,7 +4699,7 @@ function test(body) {
   const P = S.place, L = P.lang, bank = QB[L], t0 = Date.now();
   S.placeSeen = S.placeSeen || {}; const seenBefore = new Set(S.placeSeen[L] || []);
   const used = new Set(), log = [], res = {};
-  let lv = Math.max(MIN_LV[L], Math.min(MAX_LV[L], (P.self == null ? MIN_LV[L] : P.self) - 1)), n = 0, bno = 0, block = [], ok = 0, extended = false;
+  let lv = Math.max(MIN_LV[L], Math.min(MAX_LV[L], P.self == null ? MIN_LV[L] : P.self)), n = 0, capped = false, bno = 0, block = [], ok = 0, extended = false;
   /* chọn k câu ở mức l, chia đều theo kỹ năng (Nghe trước): câu chưa gặp lần trước ra trước */
   const pick = (l, k) => {
     const pool = shuffleR(bank.map((q, i) => i).filter(i => bank[i].lv === l && !used.has(i))).sort((x, y) => seenBefore.has(x) - seenBefore.has(y));
@@ -4706,12 +4707,12 @@ function test(body) {
     for (let r = 0; out.length < k && r < k; r++) for (const sk of sks) { if (out.length >= k) break; const i = pool.find(x => !used.has(x) && bank[x].sk === sk); if (i != null) { out.push(i); used.add(i); } }
     return shuffleR(out);
   };
-  function startBlock() { bno++; block = pick(lv, PLACE_BLOCK); ok = 0; extended = false; if (!block.length) return finish(); ask(0); }
+  function startBlock() { if (n + PLACE_BLOCK > PLACE_MAX) { capped = true; return finish(); } bno++; block = pick(lv, PLACE_BLOCK); ok = 0; extended = false; if (!block.length) return finish(); ask(0); }
   function ask(i) {
     if (i >= block.length) return judge();
     const qi = block[i], q = bank[qi], perm = shuffleR(q.opts.map((_, k) => k)); n++;
     body.innerHTML = `<section class="card2 ptest"><div class="row between"><p class="eyebrow">2 · Làm bài · câu ${n}</p><span class="pill">${esc(q.sk)}</span></div>
-      <div class="pbar"><i style="width:${Math.min(100, n / 28 * 100)}%"></i></div>
+      <div class="pbar"><i style="width:${Math.min(100, n / PLACE_MAX * 100)}%"></i></div>
       ${q.audio ? `<div class="row center"><button type="button" class="btn sound au">${ICON.play} Nghe</button></div>` : ""}
       <p class="qt">${esc(q.q)}</p>
       <div class="opts" role="group">${perm.map((k, j) => `<button type="button" class="opt" data-k="${k}" data-pos="${j}"><span class="badge">${"ABCD"[j]}</span><span class="ot" lang="${/[一-鿿]/.test(q.opts[k]) ? "zh" : L === "en" ? "en" : "vi"}">${esc(q.opts[k])}</span></button>`).join("")}</div>
@@ -4730,9 +4731,12 @@ function test(body) {
     $(".dunno", body).onclick = () => go(false, -1);
   }
   function judge() {
-    if (!extended && ok === PLACE_PASS - 1) { const more = pick(lv, PLACE_EXTRA); if (more.length === PLACE_EXTRA) { extended = true; const from = block.length; block = block.concat(more); return ask(from); } }
+    if (!extended && ok === PLACE_PASS - 1 && n + PLACE_EXTRA <= PLACE_MAX) { const more = pick(lv, PLACE_EXTRA); if (more.length === PLACE_EXTRA) { extended = true; const from = block.length; block = block.concat(more); return ask(from); } }
     res[lv] = { pass: ok >= (extended ? PLACE_PASS_EXT : PLACE_PASS), b: bno };
-    if (res[lv].pass) { if (lv < MAX_LV[L] && !res[lv + 1]) { lv++; return startBlock(); } return finish(); }
+    if (res[lv].pass) {
+      /* làm rất tốt thì nhảy cóc qua 1 mức (nếu trượt mức nhảy tới sẽ quay lại kiểm tra mức bị bỏ qua) */
+      const up = !extended && ok >= PLACE_STRONG && lv + 2 <= MAX_LV[L] && !res[lv + 1] && !res[lv + 2] ? 2 : 1;
+      if (lv + up <= MAX_LV[L] && !res[lv + up]) { lv += up; return startBlock(); } return finish(); }
     if (lv > MIN_LV[L] && !res[lv - 1]) { lv--; return startBlock(); }
     return finish();
   }
@@ -4748,17 +4752,21 @@ function test(body) {
     const sure = passed.filter(l => !log.some(r => r.b === res[l].b && r.ok && (r.quick || r.streak)));
     const top = a => a.length ? Math.max(...a) : MIN_LV[L] - 1;
     const raw = Math.max(top(passed), 0), level = flags.length ? Math.max(top(sure), 0) : raw;
+    /* cần giáo viên xác nhận: cao hơn mức tự nhận ≥ 2 bậc, hoặc hết số câu khi còn mức cao hơn chưa kiểm tra */
+    const checks = [];
+    if (!flags.length && P.self != null && level - Math.max(P.self, MIN_LV[L]) >= 2) checks.push(`cao hơn mức tự nhận ${level - Math.max(P.self, MIN_LV[L])} bậc`);
+    if (capped && !flags.length && level < MAX_LV[L] && res[level] && res[level].pass && !res[level + 1]) checks.push(`chưa kiểm tra ${LV_NAMES[L][level + 1]} (hết số câu)`);
     const bySk = {}; log.forEach(r => { bySk[r.sk] = bySk[r.sk] || [0, 0]; bySk[r.sk][1]++; if (r.ok) bySk[r.sk][0]++; });
     /* mức ước lượng theo kỹ năng: mức cao nhất mà học viên làm đúng hết các câu của kỹ năng đó trong khối */
     const skLv = {}; Object.keys(bySk).forEach(sk => { const good = lvs.filter(l => { const rs = log.filter(r => r.b === res[l].b && r.sk === sk); return rs.length && rs.every(r => r.ok && !r.quick && !r.streak); }); skLv[sk] = good.length ? Math.max(...good) : null; });
     const items = log.map(r => `${r.id}=${r.dunno ? "?" : r.ok ? 1 : 0}@${Math.round(r.ms / 100) / 10}`).join(" ");
     const track = LV_TRACK[L][level], mins = Math.round((Date.now() - t0) / 6000) / 10;
     P.result = { level, levelName: LV_NAMES[L][level], track, bySk, skLv, n: log.length, right: log.filter(r => r.ok).length, dunno: log.filter(r => r.dunno).length, at: new Date().toISOString(), mins,
-      doubt: flags.join("; "), raw: flags.length && raw !== level ? LV_NAMES[L][raw] : "" }; P.retake = false;
+      doubt: flags.join("; "), check: checks.join("; "), raw: flags.length && raw !== level ? LV_NAMES[L][raw] : "" }; P.retake = false;
     S.places = S.places || {}; S.places[L] = P; S.lang = L; save();
     if (typeof assignTrial === "function") assignTrial(L, track);
     P.sent = sendSheet({ type: "placement", time: P.result.at, name: P.name, contact: P.contact, lang: L === "zh" ? "Tiếng Trung" : "Tiếng Anh", goal: P.goal, cert: P.cert, self: P.self, level: P.result.levelName, track: trackOf(L, track).name + " (" + trackOf(L, track).lv + ")", score: `${P.result.right}/${P.result.n}${P.result.dunno ? ` (${P.result.dunno} câu chưa biết)` : ""}`, skills: Object.entries(bySk).map(([k, v]) => `${k} ${v[0]}/${v[1]}`).join(", "),
-      trust: flags.length ? `Nghi đoán: ${P.result.doubt}${P.result.raw ? ` (nếu tính cả thì ${P.result.raw})` : ""}` : "Tin cậy", mins,
+      trust: flags.length ? `Nghi đoán: ${P.result.doubt}${P.result.raw ? ` (nếu tính cả thì ${P.result.raw})` : ""}` : checks.length ? `Cần GV xác nhận: ${P.result.check}` : "Tin cậy", mins,
       skLv: Object.entries(skLv).map(([k, v]) => `${k} ${skLabel(L, k, v)}`).join(", "), items });
     save(); if (SHEET_URL) prodStep(body, P); else { P.prod = { sent: false, skipped: true }; showResult(body, P); }
   }
@@ -4770,7 +4778,7 @@ function showResult(body, P) {
   body.innerHTML = `<section class="card2 presult"><p class="eyebrow">4 · Kết quả</p>
     <h2>Trình độ ${langName(L)} của bạn: <span class="lvl">${esc(r.levelName)}</span></h2>
     <p class="lead">Đúng ${r.right}/${r.n} câu. Lộ trình phù hợp: <b>${esc(t.name)} (${esc(t.lv)})</b>, đích đến ${esc(t.goal)}.</p>
-    ${r.doubt ? `<div class="note">Ở một số câu bạn trả lời rất nhanh hoặc chọn cùng một ô nhiều lần liền, nên CES chỉ tính những mức bạn làm chắc chắn. Nếu thấy mình giỏi hơn kết quả này, CES sẽ nhắn Zalo để kiểm tra lại cùng bạn khoảng 5 phút.</div>` : ""}
+    ${r.doubt ? `<div class="note">Ở một số câu bạn trả lời rất nhanh hoặc chọn cùng một ô nhiều lần liền, nên CES chỉ tính những mức bạn làm chắc chắn. Nếu thấy mình giỏi hơn kết quả này, CES sẽ nhắn Zalo để kiểm tra lại cùng bạn khoảng 5 phút.</div>` : r.check ? `<div class="note">${/tự nhận/.test(r.check) ? "Kết quả cao hơn mức bạn tự nhận khá nhiều. " : ""}${/hết số câu/.test(r.check) ? "Bài đã đủ số câu tối đa nên chưa kiểm tra mức cao hơn. " : ""}Để xếp lớp chính xác, giáo viên CES sẽ nghe phần nói, đọc phần viết hoặc trò chuyện cùng bạn khoảng 5 phút qua Zalo.</div>` : ""}
     <h3>Ước lượng theo kỹ năng</h3>
     <div class="pskills">${skills.map(([k, v]) => { const sl = (r.skLv || {})[k], lvTxt = skLabel(L, k, sl), weak = skWeak(L, k, sl, r.level); return `<div><b>${esc(k)}: ${esc(lvTxt)}</b><div class="barbg"><i style="width:${Math.round(v[0] / v[1] * 100)}%;background:${v[0] / v[1] >= .67 ? "var(--green)" : v[0] / v[1] >= .34 ? "var(--sun)" : "var(--zh)"}"></i></div><small>${v[0]}/${v[1]} câu đúng${weak ? " · nên luyện thêm" : ""}</small></div>`; }).join("")}</div>
     <p class="small muted">Ước lượng theo kỹ năng chỉ dựa trên 2–3 câu mỗi kỹ năng ở mỗi mức; giáo viên sẽ chốt khi nghe phần nói, đọc phần viết.</p>
