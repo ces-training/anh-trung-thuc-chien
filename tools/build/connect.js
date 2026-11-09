@@ -73,7 +73,10 @@
   function css() {
     if (document.getElementById("cesc-css")) return;
     const s = document.createElement("style"); s.id = "cesc-css";
-    s.textContent = `.cesc-fab{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:60;display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 18px;border-radius:999px;border:0;background:#0E1730;color:#fff;font:700 16px/1 "Be Vietnam Pro",system-ui,sans-serif;box-shadow:0 8px 24px -8px rgba(14,23,48,.5);cursor:pointer}
+    s.textContent = `.cesc-fab{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:60;display:inline-flex;align-items:center;justify-content:center;width:58px;height:58px;padding:0;border-radius:50%;border:3px solid #fff;background:#0068FF;color:#fff;box-shadow:0 8px 24px -6px rgba(0,104,255,.55);cursor:pointer}
+.cesc-fab svg{width:30px;height:30px}
+.cesc-call{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;background:#E8F1FF;color:#0E1730;border-radius:12px;padding:10px 12px;margin:4px 0 6px;font-weight:600}
+.cesc-call a{color:#0068FF;font-weight:800;text-decoration:none;font-size:18px}
 .cesc-fab:focus-visible,.cesc-box button:focus-visible,.cesc-box a:focus-visible{outline:3px solid #FFD43B;outline-offset:2px}
 .cesc-fab.low{bottom:calc(84px + env(safe-area-inset-bottom,0px))}
 .cesc-back{position:fixed;inset:0;z-index:70;background:rgba(14,23,48,.55);display:flex;align-items:flex-end;justify-content:center;padding:12px}
@@ -100,7 +103,9 @@
     opt = opt || {}; css(); closeNudge();
     const me = LS.get("atc-me", {}), back = document.createElement("div"); back.className = "cesc-back"; back.setAttribute("role", "dialog"); back.setAttribute("aria-modal", "true"); back.setAttribute("aria-labelledby", "cesc-h");
     const topic = opt.topic && TOPICS.includes(opt.topic) ? opt.topic : TOPICS[0];
-    back.innerHTML = `<div class="cesc-box"><h2 id="cesc-h">${esc(opt.title || "Hỏi CES")}</h2><p>${esc(opt.lead || "Để lại Zalo, tư vấn viên CES nhắn hoặc gọi bạn trong giờ làm việc (thường trong 24 giờ). Miễn phí, không bắt buộc đăng ký.")}</p>
+    back.innerHTML = `<div class="cesc-box"><h2 id="cesc-h">${esc(opt.title || "Liên hệ CES")}</h2>
+      ${C.hotline ? `<div class="cesc-call"><span>Gọi hoặc nhắn Zalo CES:</span><a href="tel:${esc(C.hotline.replace(/[^\d+]/g, ""))}" data-track="gọi số CES">${esc(C.hotline)}</a>${C.zaloUrl ? `<a href="${esc(C.zaloUrl)}" target="_blank" rel="noopener" data-track="mở Zalo CES" style="font-size:15px">Mở Zalo ›</a>` : ""}</div>` : ""}
+      <p>${esc(opt.lead || "Hoặc để lại thông tin, tư vấn viên CES nhắn hoặc gọi bạn trong giờ làm việc (thường trong 24 giờ). Miễn phí, không bắt buộc đăng ký.")}</p>
       <form novalidate><label>Họ tên<input name="name" autocomplete="name" value="${esc(me.name || "")}" required></label>
       <label>Số Zalo hoặc điện thoại<input name="contact" inputmode="tel" autocomplete="tel" value="${esc(me.contact || "")}" required></label>
       <label>Bạn muốn hỏi về<select name="topic">${TOPICS.map(t => `<option${t === topic ? " selected" : ""}>${t}</option>`).join("")}</select></label>
@@ -109,14 +114,14 @@
       <input name="web" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
       <label class="tick"><input type="checkbox" name="ok" ${me.contact ? "checked" : ""}> Tôi đồng ý để CES liên hệ tư vấn về khóa học.</label>
       <div class="cesc-err" role="alert"></div>
-      <div class="cesc-row"><button class="cesc-btn pri" type="submit">Gửi cho CES</button><button class="cesc-btn" type="button" data-x>Đóng</button></div>
-      ${C.zaloUrl ? `<div class="cesc-row"><a class="cesc-btn zalo" href="${esc(C.zaloUrl)}" target="_blank" rel="noopener" data-track="zalo-trong-form">Hoặc nhắn thẳng Zalo OA</a></div>` : ""}</form></div>`;
+      <div class="cesc-row"><button class="cesc-btn pri" type="submit">Gửi thông tin cho CES</button><button class="cesc-btn" type="button" data-x>Đóng</button></div>
+</form></div>`;
     document.body.appendChild(back);
     const f = back.querySelector("form"), F = n => f.elements.namedItem(n), err = back.querySelector(".cesc-err"), close = () => { back.remove(); removeEventListener("keydown", onKey); if (opt.onClose) opt.onClose(); };
     const onKey = e => { if (e.key === "Escape") close(); }; addEventListener("keydown", onKey);
     back.addEventListener("click", e => { if (e.target === back || e.target.hasAttribute("data-x")) close(); });
     setTimeout(() => (F("name").value ? F("msg") : F("name")).focus(), 50);
-    if (sess) sess.clicks.push("mở form: " + (opt.source || "nút Hỏi CES"));
+    if (sess) sess.clicks.push("mở form: " + (opt.source || "nút Liên hệ CES"));
     f.addEventListener("submit", ev => {
       ev.preventDefault(); err.textContent = "";
       const name = F("name").value.trim(), contact = F("contact").value.trim(), digits = contact.replace(/[^\d]/g, "");
@@ -127,12 +132,12 @@
       LS.set("atc-me", { name, contact });
       const ctx = C.ctx ? (() => { try { return C.ctx() || {}; } catch (e) { return {}; } })() : {};
       const ok = post({ type: "contact", time: new Date().toISOString(), vid: visitor(), id: ctx.id || "", hv: ctx.id || "", name, contact, topic: F("topic").value, msg: F("msg").value.trim().slice(0, 1500), when: F("when").value,
-        source: opt.source || "nút Hỏi CES", page: C.page, learn: ctx.learn || "", visits: LS.get("atc-visits", 1), first: LS.get("atc-vfirst", "") });
-      if (sess) sess.clicks.push("gửi form: " + (opt.source || "nút Hỏi CES"));
+        source: opt.source || "nút Liên hệ CES", page: C.page, learn: ctx.learn || "", visits: LS.get("atc-visits", 1), first: LS.get("atc-vfirst", "") });
+      if (sess) sess.clicks.push("gửi form: " + (opt.source || "nút Liên hệ CES"));
       LS.set("atc-contacted", new Date().toISOString());
       if (opt.onSent) opt.onSent({ name, contact, topic: F("topic").value }); if (C.onSent) C.onSent({ name, contact, topic: F("topic").value });
       back.querySelector(".cesc-box").innerHTML = `<h2>${ok ? "Đã gửi, cảm ơn bạn!" : "Đã lưu câu hỏi"}</h2><p>${ok ? `CES sẽ liên hệ ${esc(name.split(/\s+/).pop())} qua số ${esc(contact)} (${esc(F("when").value.toLowerCase())}).` : "Web chưa kết nối được với CES nên chưa gửi đi. " + (C.zaloUrl || C.hotline ? "Bạn nhắn Zalo hoặc gọi để được trả lời ngay nhé." : "Bạn thử lại sau nhé.")}</p>
-        <div class="cesc-row">${C.zaloUrl ? `<a class="cesc-btn zalo" href="${esc(C.zaloUrl)}" target="_blank" rel="noopener">Nhắn Zalo OA</a>` : ""}${C.hotline ? `<a class="cesc-btn" href="tel:${esc(C.hotline.replace(/\s/g, ""))}">Gọi ${esc(C.hotline)}</a>` : ""}<button class="cesc-btn" type="button" data-x>Xong</button></div>`;
+        <div class="cesc-row">${C.zaloUrl ? `<a class="cesc-btn zalo" href="${esc(C.zaloUrl)}" target="_blank" rel="noopener">Nhắn Zalo CES</a>` : ""}${C.hotline ? `<a class="cesc-btn" href="tel:${esc(C.hotline.replace(/\s/g, ""))}">Gọi ${esc(C.hotline)}</a>` : ""}<button class="cesc-btn" type="button" data-x>Xong</button></div>`;
     });
     return back;
   }
@@ -157,8 +162,9 @@
     css();
     if (C.fab !== false) {
       const b = document.createElement("button"); b.type = "button"; b.className = "cesc-fab" + (C.low ? " low" : ""); b.setAttribute("data-track", "nút Hỏi CES");
-      b.innerHTML = `<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 5h16v11H8l-4 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>Hỏi CES`;
-      b.onclick = () => open({ source: "nút Hỏi CES (" + (C.page === "trang-hoc" ? (location.hash || "#trang-chu") : "trang chủ") + ")" });
+      b.setAttribute("aria-label", "Liên hệ CES" + (C.hotline ? " · Zalo " + C.hotline : "")); b.title = "Liên hệ CES";
+      b.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5c-4.97 0-9 3.36-9 7.5 0 2.3 1.25 4.36 3.2 5.73L5.5 20.5l3.86-2.04c.84.2 1.72.31 2.64.31 4.97 0 9-3.36 9-7.5s-4.03-7.27-9-7.27z" fill="currentColor"/><circle cx="8.2" cy="11" r="1.3" fill="#0068FF"/><circle cx="12" cy="11" r="1.3" fill="#0068FF"/><circle cx="15.8" cy="11" r="1.3" fill="#0068FF"/></svg>`;
+      b.onclick = () => open({ source: "nút Liên hệ CES (" + (C.page === "trang-hoc" ? (location.hash || "#trang-chu") : "trang chủ") + ")" });
       document.body.appendChild(b);
     }
     startSession();

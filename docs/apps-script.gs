@@ -4,7 +4,7 @@
  *
  * Web gửi về đây:
  *   - trang chủ (form đăng ký): đơn "dang-ky"
- *   - cả hai trang: visit (lượt xem ẩn danh: mục đã đọc, màn đã mở, thời gian xem), contact (form "Hỏi CES")
+ *   - cả hai trang: visit (lượt xem ẩn danh: mục đã đọc, màn đã mở, thời gian xem), contact (form "Liên hệ CES")
  *   - trang học: placement (kiểm tra đầu vào), production (bài nói, viết sau kiểm tra đầu vào; tệp ghi âm lưu vào Drive), waitlist (chờ lớp), seen (vào học, mỗi ngày 1 lần),
  *     day (xong một ngày học), order (đặt lớp nhóm 89k, vé Weekend Live 179k, mua gói), paid_claim (bấm "Tôi đã chuyển khoản")
  * Web hỏi lại (GET ?a=status): học viên đã được kích hoạt gói chưa, đơn nào đã thu tiền.
@@ -112,7 +112,7 @@ function onVisit(d) {
   }
   sh.appendRow(row);
 }
-/* form "Hỏi CES" */
+/* form "Liên hệ CES" */
 const LIENHE = ["Chưa liên hệ", "Đã nhắn/gọi", "Đã chốt gói", "Không nhu cầu"];
 function onContact(d) {
   const sh = sheet("lienhe");
@@ -120,7 +120,7 @@ function onContact(d) {
   const col = SHEETS.lienhe.indexOf("Trạng thái") + 1;
   sh.getRange(sh.getLastRow(), col).setDataValidation(SpreadsheetApp.newDataValidation().requireValueInList(LIENHE, true).setAllowInvalid(true).build());
   if (d.id) upsertHV(d, { name: d.name, contact: d.contact });
-  zalo(`💬 Hỏi CES: ${d.topic}\n${d.name} · ${d.contact} · ${d.when}\n${d.msg ? "“" + String(d.msg).slice(0, 300) + "”\n" : ""}Gửi từ: ${d.source}${d.learn ? "\nĐã học: " + d.learn : ""}\nVào web ${d.visits || 1} lần`);
+  zalo(`💬 Liên hệ CES: ${d.topic}\n${d.name} · ${d.contact} · ${d.when}\n${d.msg ? "“" + String(d.msg).slice(0, 300) + "”\n" : ""}Gửi từ: ${d.source}${d.learn ? "\nĐã học: " + d.learn : ""}\nVào web ${d.visits || 1} lần`);
 }
 
 /* ================= bảng Tổng quan: bao nhiêu người vào, đọc gì, thử gì, liên hệ ================= */
@@ -142,7 +142,7 @@ function capNhatTongQuan(quiet) {
   line("Người xem trang Chọn gói / Ưu đãi", n => uniq(L, r => inP(r[0], n) && /chon-goi|uu-dai/.test(r[I("Màn đã mở")])));
   line("Lượt làm kiểm tra đầu vào", n => cnt("dauvao", n));
   line("Bài nói, viết gửi giáo viên", n => cnt("noiviet", n));
-  line("Người gửi form Hỏi CES", n => cnt("lienhe", n));
+  line("Người gửi form Liên hệ CES", n => cnt("lienhe", n));
   line("Đăng ký ở trang chủ", n => cnt("don", n, r => r[SHEETS.don.indexOf("Loại")] === "dang-ky"));
   line("Đơn đã thu tiền", n => cnt("don", n, r => r[SHEETS.don.indexOf("Trạng thái")] === "Đã thu"));
   line("Thời gian xem trung bình (phút/lượt)", n => { const a = L.filter(r => inP(r[0], n)); return a.length ? Math.round(a.reduce((s, r) => s + (Number(r[I("Thời gian xem (giây)")]) || 0), 0) / a.length / 6) / 10 : 0; });
@@ -239,10 +239,10 @@ function nhacHangNgay() {
   const group = (type, key) => { const g = {}; paid.filter(r => r[dc("Loại")] === type).forEach(r => { const k = String(r[dc(key)] || "-"); g[k] = (g[k] || 0) + 1; }); return Object.entries(g).map(([k, n]) => `• ${k}: ${n} người`).join("\n"); };
   if (dow === 2 || dow === 3) { const g = group("lop-nhom", "Lịch"); if (g) lines.push(`👩‍🏫 Lớp nhóm học thử tuần này (xếp lớp, gửi link cho GV):\n${g}`); }
   if (dow === 4 || dow === 5) { const g = group("weekend-live", "Nội dung"); if (g) lines.push(`🎤 Weekend Live thứ 7 (chốt trạm, báo host và người nước ngoài):\n${g}`); }
-  /* 3b. liên hệ "Hỏi CES" chưa xử lý */
+  /* 3b. liên hệ "Liên hệ CES" chưa xử lý */
   const lv = sheet("lienhe").getDataRange().getValues(), LH = SHEETS.lienhe, lc = k => LH.indexOf(k);
   const open = lv.slice(1).filter(r => !r[lc("Trạng thái")] || r[lc("Trạng thái")] === LIENHE[0]);
-  if (open.length) lines.push(`💬 ${open.length} người hỏi CES chưa được liên hệ:\n${open.slice(-10).map(r => `• ${r[lc("Họ tên")]} · ${r[lc("Zalo/SĐT")]} · ${r[lc("Chủ đề")]} · ${r[lc("Liên hệ lúc")]}`).join("\n")}`);
+  if (open.length) lines.push(`💬 ${open.length} người gửi form Liên hệ CES chưa được liên hệ:\n${open.slice(-10).map(r => `• ${r[lc("Họ tên")]} · ${r[lc("Zalo/SĐT")]} · ${r[lc("Chủ đề")]} · ${r[lc("Liên hệ lúc")]}`).join("\n")}`);
   try { const t = capNhatTongQuan(true); if (t) lines.push(t); } catch (x) { log("lỗi", "tổng quan: " + x, ""); }
   /* 4. gói sắp hết hạn trong 3 ngày */
   const soon = Object.entries(active).filter(([, a]) => a.until - today < 3 * 864e5).map(([id, a]) => `• ${a.name} · ${a.contact} · ${a.plan} · hết hạn ${Utilities.formatDate(new Date(a.until), TZ, "dd/MM")}`);

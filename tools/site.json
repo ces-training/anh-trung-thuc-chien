@@ -2,7 +2,7 @@
   "_ghi_chu": "Cấu hình chung cho trang chủ và trang học. Sửa ở đây rồi chạy python3 tools/build2.py. sheetUrl = URL Web App của Apps Script (docs/apps-script.gs). zaloOA.url = đường dẫn zalo.me của OA. bank để trống: học viên nhắn OA để được hướng dẫn thanh toán.",
   "sheetUrl": "",
   "zalo": "OA Học viện đa ngữ CES",
-  "hotline": "",
+  "hotline": "0974 840 845",
   "bank": {
     "id": "",
     "account": "",
@@ -33,5 +33,5 @@
     "Tối 20:30–21:30",
     "Trưa 12:00–13:00"
   ],
-  "zaloUrl": ""
+  "zaloUrl": "https://zalo.me/0974840845"
 }

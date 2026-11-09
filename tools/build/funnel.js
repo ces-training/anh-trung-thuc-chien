@@ -23,8 +23,8 @@ sendSheet = function (row) {
   return _sendSheet(Object.assign({ id: meId(), vid: window.CESConnect ? CESConnect.visitor() : "", name: S.me.name || (S.profile && S.profile.name) || "", contact: S.me.contact || "", time: new Date().toISOString() }, row));
 };
 const track = (type, data) => sendSheet(Object.assign({ type }, data || {}));
-/* nút "Hỏi CES" đặt trong trang: mở form liên hệ với chủ đề và nơi bấm (để admin biết học viên hỏi từ đâu) */
-const askBtn = (topic, source, label, cls) => `<button type="button" class="btn ${cls || "ghost"} askces" data-topic="${esc(topic)}" data-src="${esc(source)}" data-track="${esc(source)}">${esc(label || "Hỏi CES")}</button>`;
+/* nút "Liên hệ CES" đặt trong trang: mở form liên hệ với chủ đề và nơi bấm (để admin biết học viên hỏi từ đâu) */
+const askBtn = (topic, source, label, cls) => `<button type="button" class="btn ${cls || "ghost"} askces" data-topic="${esc(topic)}" data-src="${esc(source)}" data-track="${esc(source)}">${esc(label || "Liên hệ CES")}</button>`;
 document.addEventListener("click", e => { const b = e.target.closest && e.target.closest(".askces"); if (b && window.CESConnect) CESConnect.open({ topic: b.dataset.topic, source: b.dataset.src }); });
 /* ngày học kế tiếp theo thứ trong tuần (3 = thứ 4, 6 = thứ 7) */
 function nextDow(dow) { const d = new Date(); d.setHours(12); const add = (dow - d.getDay() + 7) % 7; d.setDate(d.getDate() + add); return d; }
@@ -126,7 +126,7 @@ function viewOffers(main) {
     main.appendChild(el(`<div class="roomv">
       ${roomHead("room-live", "Học thử", "Ưu đãi cho tuần học thử", "Một tuần trên web miễn phí. Thêm một buổi lớp nhóm với giáo viên và một buổi Weekend Live để thử trọn vòng học: web dạy, lớp nhóm sửa, cuối tuần nói thật.")}
       ${offerSection("class")}${offerSection("live")}
-      <section class="card2"><h2>Học tiếp từ tuần 2</h2><p>Hết tuần học thử, chọn một gói để mở tiếp các tuần sau.</p><div class="row"><a class="btn primary" href="#chon-goi">Xem các gói học</a>${askBtn("Lớp nhóm, Weekend Live", "trang Ưu đãi học thử", "Hỏi CES về lớp nhóm, Weekend Live")}</div></section></div>`));
+      <section class="card2"><h2>Học tiếp từ tuần 2</h2><p>Hết tuần học thử, chọn một gói để mở tiếp các tuần sau.</p><div class="row"><a class="btn primary" href="#chon-goi">Xem các gói học</a>${askBtn("Lớp nhóm, Weekend Live", "trang Ưu đãi học thử", "Liên hệ CES về lớp nhóm, Weekend Live")}</div></section></div>`));
     bindOffers(main, draw); applyPhotos(main);
   };
   draw();
@@ -202,7 +202,7 @@ function bindSkip(root) { root.querySelectorAll(".skiptest").forEach(a => a.addE
 function afterTrialHTML(L, t) {
   const cur = trackOf(L, trialOf(L).track), same = cur.id === t.id;
   return `<div class="note">Bạn đã học thử tuần <b>${esc(cur.name)} (${esc(cur.lv)})</b>. ${same ? "Kết quả kiểm tra khớp với trình độ bạn đã chọn." : `Kết quả kiểm tra xếp bạn vào lộ trình <b>${esc(t.name)} (${esc(t.lv)})</b>.`}</div>
-    <div class="row">${t.status === "open" ? `<a class="btn primary huge" href="#chon-goi">${ICON.play} Chọn gói học ${esc(t.name)}</a>` : `<button type="button" class="btn primary wl">Đăng ký chờ lớp ${esc(t.lv)}</button>`}<a class="btn ghost" href="#uu-dai">Lớp nhóm online với giáo viên, Weekend Live</a>${askBtn("Tư vấn gói học trả phí", "xong tuần học thử (kết quả kiểm tra)", "Hỏi CES nên học tiếp thế nào")}</div>`;
+    <div class="row">${t.status === "open" ? `<a class="btn primary huge" href="#chon-goi">${ICON.play} Chọn gói học ${esc(t.name)}</a>` : `<button type="button" class="btn primary wl">Đăng ký chờ lớp ${esc(t.lv)}</button>`}<a class="btn ghost" href="#uu-dai">Lớp nhóm online với giáo viên, Weekend Live</a>${askBtn("Tư vấn gói học trả phí", "xong tuần học thử (kết quả kiểm tra)", "Liên hệ CES nên học tiếp thế nào")}</div>`;
 }
 /* ngày của lộ trình khác khi đang học thử */
 function viewTrialLock(main, d, T) {
@@ -222,7 +222,7 @@ function viewLocked(main, d) {
   }
   main.appendChild(el(`<div class="roomv">
     ${roomHead("journey-" + S.lang, d.wlabel || d.label, `Tuần ${d.week} dành cho học viên`, "Bạn đã học xong tuần học thử. Chọn một gói để mở tiếp tuần " + d.week + " và các tuần sau. Bài tuần 1 vẫn mở để bạn ôn lại.")}
-    <section class="card2"><div class="row"><a class="btn primary huge" href="#chon-goi">${ICON.play} Chọn gói học tiếp</a><a class="btn ghost" href="#uu-dai">Ưu đãi lớp nhóm và Weekend Live</a>${askBtn("Tư vấn gói học trả phí", "tuần bị khoá (tuần " + d.week + ")", "Hỏi CES cách học tiếp")}</div>
+    <section class="card2"><div class="row"><a class="btn primary huge" href="#chon-goi">${ICON.play} Chọn gói học tiếp</a><a class="btn ghost" href="#uu-dai">Ưu đãi lớp nhóm và Weekend Live</a>${askBtn("Tư vấn gói học trả phí", "tuần bị khoá (tuần " + d.week + ")", "Liên hệ CES cách học tiếp")}</div>
     <p class="small muted">Đã đăng ký và chuyển khoản? Vào Chọn gói, bấm Kiểm tra trạng thái hoặc nhập mã đăng ký.</p></section></div>`));
   applyPhotos(main);
   if (SITE.sheetUrl && (!S.statusAt || Date.now() - S.statusAt > 60000)) refreshStatus().then(() => { if (!locked(d)) render(); });

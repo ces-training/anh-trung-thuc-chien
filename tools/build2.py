@@ -100,6 +100,7 @@ def main():
         "/*@CONNECT@*/": connect,
         "/*@FUNNEL@*/": adv + "\n" + funnel,
         "/*@PLACEMENT@*/": json.dumps(place, ensure_ascii=False, indent=1),
+        "/*@ARTGENERIC@*/": json.dumps(art_generic()),
     }
     for k, v in fill.items():
         if s.count(k) != 1: sys.exit(f"DỪNG: khuôn trang thiếu chỗ điền {k.strip()}")
@@ -110,6 +111,20 @@ def main():
     nd = sum(len(main_w["zh"][w]["days"]) for w in weeks)
     print(f"Đã dựng tuan-1/index.html ({len(s.encode('utf-8')) // 1024} KB): tuần {weeks} ({nd} ngày × 2 ngôn ngữ), "
           f"học thử {', '.join(f'{k} ({len(W['days'])} ngày)' for k, W in demo.items())}, {len(hz)} chữ có dữ liệu nét.")
+
+
+def art_generic():
+    """Tranh gắn với từ 3 từ khác nhau trở lên trong thẻ từ (vd "chart" cho progress, budget, risk): không dùng làm tranh đáp án."""
+    use = {}; LANG = [""]
+    def walk(o):
+        if isinstance(o, dict):
+            if o.get("img") and o.get("w"): use.setdefault((LANG[0], o["img"]), set()).add(str(o["w"]).strip().lower())
+            for v in o.values(): walk(v)
+        elif isinstance(o, list):
+            for v in o: walk(v)
+    for f in sorted(os.listdir(os.path.join(T, "course"))):
+        if f.endswith(".json") and f != "placement.json": LANG[0] = f[:2]; walk(load(os.path.join(T, "course", f)))
+    return sorted({k[1] for k, v in use.items() if len(v) >= 3})  # cùng một ngôn ngữ, ≥ 3 từ khác nhau dùng chung một tranh
 
 
 def sync_landing(site, connect=""):

@@ -538,7 +538,10 @@ img.photo.ava{border-radius:50%;object-fit:cover;aspect-ratio:1}
 .opyb{font-size:20px;font-weight:700;color:var(--acc)}
 .ot.obig{font-size:32px;font-family:"Noto Sans SC",sans-serif}
 .opts.withart .opt{align-items:center}
-.opt .oart{width:46px;height:46px;flex:none;border-radius:10px;object-fit:cover}
+.opt .oart,.opt img.photo.oart{width:64px;height:64px;max-width:64px;aspect-ratio:1;flex:none;border-radius:12px;object-fit:cover}
+.opts.withart .opt .ot{flex:1;min-width:0;overflow-wrap:anywhere}
+/* nút Liên hệ CES ẩn khi đang làm bài, để không che đáp án */
+body:has(.player) .cesc-fab,body:has(.ptest) .cesc-fab{display:none}
 .fchip .cpy,.pex .cpy{display:block;font-size:15px;font-weight:600;color:var(--acc);margin-top:2px}
 .badgood .cpy{color:var(--acc)}
 .sl .han{font-size:20px;color:var(--muted)}
@@ -1502,7 +1505,7 @@ function courseEx(ex, dayId, code) {
   }
   else if (code === "Q" && L === "en") {
     ex.title = "Nghe chọn nghĩa"; ex.pts = 10;
-    const short = m => String(m || "").split(/[;,(]/)[0].trim();
+    const short = m => String(m || "").split(/[;,(]/)[0].trim() || String(m || "").replace(/[()]/g, "").split(/[;,]/)[0].trim();
     const cs = d.cards.filter(c => c.m && !/\//.test(c.w)).slice(0, 8);
     const mkQ = (c, k, v) => {
       const others = seeded(d.cards.filter(x => x !== c && x.m && short(x.m) !== short(c.m)), k + 3 + v * 11).map(x => x[0]).slice(0, 2);
@@ -1514,7 +1517,7 @@ function courseEx(ex, dayId, code) {
   }
   else if (code === "U" && L === "en") {
     ex.title = "Nhận mặt từ: chọn cách viết đúng"; ex.pts = 10;
-    const short = m => String(m || "").split(/[;,(]/)[0].trim();
+    const short = m => String(m || "").split(/[;,(]/)[0].trim() || String(m || "").replace(/[()]/g, "").split(/[;,]/)[0].trim();
     const cs = d.cards.filter(c => c.spell && c.spell.length >= 2).slice(0, 8);
     const mkU = (c, k, v) => {
       const opts = seeded([c.w, ...c.spell.slice(0, 2)], k + 9 + v * 3).map(x => x[0]), listen = (k + v) % 2 === 0;
@@ -2039,7 +2042,11 @@ function itemMC(ctx) {
     if (en && !zh) return `${art}<span class="ot bi2">${biHTML(en, o)}</span>`;
     return `${art}<span class="ot${it.bigOpts ? " obig" : ""}" lang="${zh ? "zh" : "vi"}">${esc(o)}${py ? `<small class="opy">${esc(py)}</small>` : ""}${en && zh ? `<small class="oen" lang="en">${esc(en)}</small>` : ""}</span>`;
   };
-  if (it.optsArt && !it.optsArt.every(k => k && iconSVG(k))) it = Object.assign({}, it, { optsArt: null });
+  /* tranh ở đáp án chỉ dùng khi mỗi đáp án có tranh riêng, không trùng nhau và không phải tranh chung dùng cho nhiều từ
+     (ART_GENERIC: tranh gắn với ≥ 3 từ khác nhau, vd "chart" cho progress/budget/risk); không đạt thì chỉ hiện chữ */
+  const artFile = k => IMG[k] || (IMG_ALIAS[k] && IMG[IMG_ALIAS[k]]) || "icon:" + k;
+  if (it.optsArt && (!it.optsArt.every(k => k && iconSVG(k)) || new Set(it.optsArt.map(artFile)).size < it.optsArt.length || it.optsArt.some(k => ART_GENERIC.has(k) || ART_GENERIC.has(IMG_ALIAS[k]))))
+    it = Object.assign({}, it, { optsArt: null });
   const zhq = L === "zh" && typeof glossMixed === "function";
   if (zhq && !it.optsPy && it.opts.some(o => /[\u4e00-\u9fff]/.test(o))) it.optsPy = it.opts.map(o => /[\u4e00-\u9fff]/.test(o) ? pyOf(o) : "");
   let qart = it.art ? `<div class="qart">${iconSVG(it.art)}</div>` : itemArt(ex, it, it.opts[it.a]);
@@ -4606,6 +4613,7 @@ const LV_NAMES = { zh: ["Chưa học (HSK0)", "HSK1", "HSK2", "HSK3", "HSK4"], e
 const LV_TRACK = { zh: ["zh-a", "zh-b", "zh-b", "zh-c", "zh-c"], en: ["en-a", "en-a", "en-b", "en-c", "en-d"] };
 /* ngân hàng câu hỏi: lv = mức, sk = kỹ năng; audio = câu được đọc lên */
 const QB = /*@PLACEMENT@*/;
+const ART_GENERIC = new Set(/*@ARTGENERIC@*/);
 const MIN_LV = { zh: 0, en: 1 }, MAX_LV = { zh: 4, en: 4 };
 function trackOf(L, id) { return TRACKS[L].find(t => t.id === id); }
 const trackStart = t => t.start || (t.demo ? demoStart(t.demo) : "");

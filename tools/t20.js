@@ -300,7 +300,7 @@ async function funnel(browser, base) {
   await pc.check(".cesc-box [name=ok]"); await pc.click(".cesc-box button[type=submit]"); await pc.waitForTimeout(400);
   const ct = pc.posts.find(p => p.type === "contact");
   const okTxt = await pc.evaluate(() => (document.querySelector(".cesc-box") || {}).innerText || "");
-  check(ct && ct.topic && /nút Hỏi CES/.test(ct.source) && /bài xong/.test(ct.learn) && /Đã gửi/.test(okTxt), "form Hỏi CES gửi về Sheet kèm nơi bấm, tình hình học" + (ct ? "" : " (không thấy dòng contact)") + (ct ? ` [${ct.source} | ${ct.learn}]` : "") + " " + okTxt.slice(0, 40));
+  check(ct && ct.topic && /nút Liên hệ CES/.test(ct.source) && /bài xong/.test(ct.learn) && /Đã gửi/.test(okTxt), "form Liên hệ CES gửi về Sheet kèm nơi bấm, tình hình học" + (ct ? "" : " (không thấy dòng contact)") + (ct ? ` [${ct.source} | ${ct.learn}]` : "") + " " + okTxt.slice(0, 40));
   await pc.screenshot({ path: path.join(ROOT, "tools", "shots", "390-hoi-ces.png") });
   const pd = await fresh(); await g2(pd, "#chon-goi"); await pd.waitForTimeout(32000);
   const nd = await pd.$(".cesc-nudge"); check(!!nd, "ở trang Chọn gói > 25 giây thì hiện lời mời liên hệ");

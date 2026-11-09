@@ -1,10 +1,10 @@
-/* Trang chủ: khởi động CES Connect (nút Hỏi CES, thống kê mục đã đọc, lời mời liên hệ). Được build2.py chèn vào index.html. */
+/* Trang chủ: khởi động CES Connect (nút Liên hệ CES, thống kê mục đã đọc, lời mời liên hệ). Được build2.py chèn vào index.html. */
 (function () {
   var C = window.SITE_CONFIG || {};
   if (!window.CESConnect) return;
   /* đặt tên cho nút để thống kê "đã bấm gì" */
   Array.prototype.forEach.call(document.querySelectorAll("a.btn, button.btn"), function (b) { if (!b.getAttribute("data-track")) b.setAttribute("data-track", (b.textContent || "").trim().replace(/\s+/g, " ").slice(0, 40)); });
-  CESConnect.init({ endpoint: C.formEndpoint, zaloUrl: C.zaloUrl, hotline: C.hotline, page: "trang-chu",
+  CESConnect.init({ endpoint: C.formEndpoint, zaloUrl: C.zaloUrl, hotline: C.hotline, page: "trang-chu", low: matchMedia("(max-width:720px)").matches, /* trên điện thoại nằm trên thanh đăng ký dính dưới đáy */
     sections: ["top", "cach-hoc", "weekend-live", "lo-trinh", "doanh-nghiep", "hoc-phi", "nguoi-sang-lap", "cam-nhan", "hoi-dap", "dang-ky", "lien-he"] });
   /* nút gửi câu hỏi ở chân trang */
   var w = document.querySelector("#lien-he .wrap");
