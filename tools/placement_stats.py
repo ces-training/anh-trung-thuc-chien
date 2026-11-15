@@ -12,7 +12,7 @@ R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if len(sys.argv) < 2: sys.exit(__doc__)
 bank = json.load(open(os.path.join(R, "tools", "course", "placement.json"), encoding="utf-8"))
 info = {q["id"]: q for L in ("zh", "en") for q in bank[L]}
-LV = {"Chưa học (HSK0)": 0, "HSK1": 1, "HSK2": 2, "HSK3": 3, "HSK4": 4, "Mới bắt đầu (dưới A1)": 0, "A1": 1, "A2": 2, "B1": 3, "B2": 4}
+LV = {"Chưa học (HSK0)": 0, "HSK1": 1, "HSK2": 2, "HSK3": 3, "HSK4": 4, "HSK5 trở lên": 5, "Mới bắt đầu (dưới A1)": 0, "A1": 1, "A2": 2, "B1": 3, "B2": 4}
 
 rows = list(csv.DictReader(open(sys.argv[1], encoding="utf-8-sig")))
 data, skipped = {}, 0

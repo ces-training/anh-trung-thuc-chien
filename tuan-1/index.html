@@ -6054,9 +6054,9 @@ const TRACKS = {
     { id: "en-d", name: "Nâng cao", lv: "B2+", goal: "IELTS 6.5+ · TOEIC 800+", status: "demo", demo: "en-b2-1", note: "Học thử tuần 1: Trình bày dự án với đối tác" }
   ]
 };
-const LV_NAMES = { zh: ["Chưa học (HSK0)", "HSK1", "HSK2", "HSK3", "HSK4"], en: ["Mới bắt đầu (dưới A1)", "A1", "A2", "B1", "B2"] };
+const LV_NAMES = { zh: ["Chưa học (HSK0)", "HSK1", "HSK2", "HSK3", "HSK4", "HSK5 trở lên"], en: ["Mới bắt đầu (dưới A1)", "A1", "A2", "B1", "B2"] };
 /* kết quả → lộ trình */
-const LV_TRACK = { zh: ["zh-a", "zh-b", "zh-b", "zh-c", "zh-c"], en: ["en-a", "en-a", "en-b", "en-c", "en-d"] };
+const LV_TRACK = { zh: ["zh-a", "zh-b", "zh-b", "zh-c", "zh-c", "zh-c"], en: ["en-a", "en-a", "en-b", "en-c", "en-d"] };
 /* ngân hàng câu hỏi: lv = mức, sk = kỹ năng; audio = câu được đọc lên */
 const QB = {
  "zh": [
@@ -6965,7 +6965,7 @@ const QB = {
   },
   {
    "id": "zh4-05",
-   "lv": 4,
+   "lv": 3,
    "sk": "Ngữ pháp",
    "q": "他的汉语说得___中国人一样流利。",
    "opts": [
@@ -7119,6 +7119,546 @@ const QB = {
     "只是汉语进步了",
     "只是更了解文化了",
     "觉得没什么收获"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-17",
+   "lv": 4,
+   "sk": "Từ vựng",
+   "q": "为了___成本，公司决定换一家供应商。",
+   "opts": [
+    "降低",
+    "下降",
+    "降落",
+    "缩短"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-18",
+   "lv": 4,
+   "sk": "Từ vựng",
+   "q": "公司下个月要___一次新产品发布会，请大家做好准备。",
+   "opts": [
+    "举办",
+    "参观",
+    "举例",
+    "打听"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-19",
+   "lv": 4,
+   "sk": "Từ vựng",
+   "q": "这次出差的费用可以___，请把发票交给财务。",
+   "opts": [
+    "报销",
+    "退款",
+    "赔偿",
+    "购买"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-20",
+   "lv": 4,
+   "sk": "Từ vựng",
+   "q": "为了___出错，每份文件都要检查两次。",
+   "opts": [
+    "避免",
+    "免费",
+    "躲避",
+    "拒绝"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-21",
+   "lv": 4,
+   "sk": "Từ vựng",
+   "q": "他们的产品质量不错，价格也很___，所以卖得很好。",
+   "opts": [
+    "合理",
+    "合格",
+    "合同",
+    "合作"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-22",
+   "lv": 4,
+   "sk": "Từ vựng",
+   "q": "这种新款手机在年轻人中很受___。",
+   "opts": [
+    "欢迎",
+    "欢乐",
+    "喜欢",
+    "感谢"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-23",
+   "lv": 4,
+   "sk": "Ngữ pháp",
+   "q": "___明天下大雨，比赛___会照常举行。",
+   "opts": [
+    "即使…也…",
+    "因为…所以…",
+    "不但…而且…",
+    "一…就…"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-24",
+   "lv": 4,
+   "sk": "Ngữ pháp",
+   "q": "___客户提出什么要求，我们___会认真考虑。",
+   "opts": [
+    "不管…都…",
+    "只要…就…",
+    "除非…才…",
+    "既然…就…"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-25",
+   "lv": 4,
+   "sk": "Ngữ pháp",
+   "q": "这个任务很重要，你___按时完成，___我们会有麻烦。",
+   "opts": [
+    "必须…否则…",
+    "即使…也…",
+    "不但…而且…",
+    "一边…一边…"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-26",
+   "lv": 4,
+   "sk": "Ngữ pháp",
+   "q": "这件事很简单，___小孩子___会做。",
+   "opts": [
+    "连…都…",
+    "把…被…",
+    "比…更…",
+    "对…来说…"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-27",
+   "lv": 4,
+   "sk": "Ngữ pháp",
+   "q": "这份报告___经理批准了，可以发给客户了。",
+   "opts": [
+    "被",
+    "把",
+    "比",
+    "对"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-28",
+   "lv": 4,
+   "sk": "Đọc",
+   "q": "小李负责的项目原来计划三个月完成，但是客户临时增加了很多要求，所以现在需要多做一个月。 问：这个项目现在需要几个月？",
+   "opts": [
+    "四个月",
+    "三个月",
+    "一个月",
+    "两个月"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-29",
+   "lv": 4,
+   "sk": "Đọc",
+   "q": "这家餐厅的菜很好吃，可惜位子太少，想吃的话最好提前订位。 问：这家餐厅有什么问题？",
+   "opts": [
+    "座位不够多",
+    "菜不好吃",
+    "价格太贵",
+    "服务不好"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-30",
+   "lv": 4,
+   "sk": "Đọc",
+   "q": "虽然网上购物越来越方便，但是不少人发现，买到的东西有时候和图片上的不一样，所以他们更愿意在买以前先看看别人的评价。 问：关于网上购物，下面哪个正确？",
+   "opts": [
+    "很多人买以前会看评价",
+    "买到的东西总是跟图片一样",
+    "大家都不喜欢网上购物",
+    "网上购物越来越不方便"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-31",
+   "lv": 4,
+   "sk": "Đọc",
+   "q": "王经理本来打算坐飞机去上海，但是因为大雪，航班全部取消了，最后他只好坐高铁，比原来多花了三个小时。 问：王经理最后怎么去的上海？",
+   "opts": [
+    "坐高铁",
+    "坐飞机",
+    "开车",
+    "坐长途汽车"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-32",
+   "lv": 4,
+   "sk": "Đọc",
+   "q": "这个月的会议比平时多，除了每周一的例会，还要参加两次培训，所以我下个月想把时间安排得更合理一些。 问：“我”为什么想重新安排时间？",
+   "opts": [
+    "这个月会议和培训太多",
+    "下个月要出差",
+    "工作已经完成了",
+    "例会取消了"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-33",
+   "lv": 4,
+   "sk": "Nghe",
+   "audio": "这种杯子一个订单至少要多少个？——至少五百个，但是超过一千个才能打折。",
+   "q": "Khi nào được giảm giá?",
+   "opts": [
+    "Đơn hàng trên 1000 cái",
+    "Đơn hàng từ 500 cái",
+    "Mua bao nhiêu cũng được giảm",
+    "Đơn hàng trên 5000 cái"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-34",
+   "lv": 4,
+   "sk": "Nghe",
+   "audio": "我们的杯子一个订单至少要一千个。如果数量超过两千个，我们就打九折。",
+   "q": "Nếu đặt 2.500 cái thì thế nào?",
+   "opts": [
+    "Được giảm 10%",
+    "Không được giảm giá",
+    "Được giảm 20%",
+    "Phải đặt tối thiểu 5.000 cái"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh4-35",
+   "lv": 4,
+   "sk": "Nghe",
+   "audio": "新星公司的价格怎么样？——比陈总的便宜，但是质量标准没有他们高。",
+   "q": "Công ty Tân Tinh so với ông Trần thế nào?",
+   "opts": [
+    "Rẻ hơn nhưng chuẩn chất lượng thấp hơn",
+    "Đắt hơn nhưng chất lượng cao hơn",
+    "Rẻ hơn và chất lượng cũng cao hơn",
+    "Giá và chất lượng giống nhau"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-01",
+   "lv": 5,
+   "sk": "Từ vựng",
+   "q": "新员工需要一段时间来___公司的环境，不要着急。",
+   "opts": [
+    "适应",
+    "适合",
+    "适用",
+    "满足"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-02",
+   "lv": 5,
+   "sk": "Từ vựng",
+   "q": "在这次危机中，他___了很大的责任，最后把问题解决了。",
+   "opts": [
+    "承担",
+    "承认",
+    "承受",
+    "承包"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-03",
+   "lv": 5,
+   "sk": "Từ vựng",
+   "q": "他提出的方案很有___，大家都觉得值得试一试。",
+   "opts": [
+    "价值",
+    "价格",
+    "价钱",
+    "代价"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-04",
+   "lv": 5,
+   "sk": "Từ vựng",
+   "q": "这次谈判双方都做了让步，最终___了一致意见。",
+   "opts": [
+    "达成",
+    "完成",
+    "成为",
+    "变成"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-05",
+   "lv": 5,
+   "sk": "Từ vựng",
+   "q": "这个机会很难得，我们必须好好___，否则就太可惜了。",
+   "opts": [
+    "把握",
+    "保持",
+    "握手",
+    "保存"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-06",
+   "lv": 5,
+   "sk": "Từ vựng",
+   "q": "新开通的地铁线路大大___了城市的交通压力。",
+   "opts": [
+    "缓解",
+    "缓慢",
+    "缓和",
+    "放松"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-07",
+   "lv": 5,
+   "sk": "Ngữ pháp",
+   "q": "与其在这儿干等着，___现在就去找他当面谈。",
+   "opts": [
+    "不如",
+    "只好",
+    "宁可",
+    "难道"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-08",
+   "lv": 5,
+   "sk": "Ngữ pháp",
+   "q": "他的想法___好，___实现起来并不容易。",
+   "opts": [
+    "固然…但…",
+    "既然…就…",
+    "与其…不如…",
+    "宁可…也…"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-09",
+   "lv": 5,
+   "sk": "Ngữ pháp",
+   "q": "天气预报说明天可能下雨，我们最好带上伞，___被雨淋湿。",
+   "opts": [
+    "以免",
+    "以便",
+    "以及",
+    "以前"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-10",
+   "lv": 5,
+   "sk": "Ngữ pháp",
+   "q": "第一次做这种工作，出一点儿错是___的，不用太担心。",
+   "opts": [
+    "难免",
+    "难得",
+    "难道",
+    "难怪"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-11",
+   "lv": 5,
+   "sk": "Ngữ pháp",
+   "q": "我本来以为他会生气，没想到他___笑了笑，说没关系。",
+   "opts": [
+    "反而",
+    "而且",
+    "甚至",
+    "偏偏"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-12",
+   "lv": 5,
+   "sk": "Ngữ pháp",
+   "q": "这个问题连专家都解决不了，___我们这些新手呢？",
+   "opts": [
+    "何况",
+    "况且",
+    "而且",
+    "即使"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-13",
+   "lv": 5,
+   "sk": "Đọc",
+   "q": "近年来，越来越多的年轻人选择“慢就业”：毕业后不急着找工作，而是先旅行、做志愿者，或者学习新技能。有人批评他们不够成熟，但也有人认为，这样可以帮助他们更清楚地了解自己想要什么。 问：下面哪一项符合文章的意思？",
+   "opts": [
+    "有人认为慢就业有助于了解自己",
+    "大家都批评慢就业",
+    "慢就业的人不想工作",
+    "慢就业只出现在毕业前"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-14",
+   "lv": 5,
+   "sk": "Đọc",
+   "q": "这家公司规定：员工每年可以休十天带薪假，如果当年没有用完，剩下的天数可以延期到下一年，但最多只能延期五天。 问：小张今年只休了三天，他明年最多能休几天带薪假？",
+   "opts": [
+    "十五天",
+    "十七天",
+    "十天",
+    "十三天"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-15",
+   "lv": 5,
+   "sk": "Đọc",
+   "q": "专家提醒，长时间使用手机会影响睡眠质量，尤其是睡觉前一小时看手机，屏幕的光会让大脑保持兴奋，导致人很难入睡。 问：专家认为睡觉前看手机为什么不好？",
+   "opts": [
+    "光线使大脑难以放松",
+    "手机辐射太大",
+    "会让眼睛疼",
+    "会让人做噩梦"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-16",
+   "lv": 5,
+   "sk": "Đọc",
+   "q": "有些人认为只要努力就一定会成功，但事实上，机会和环境同样重要。努力是必要条件，却不是唯一的条件。 问：作者的观点是什么？",
+   "opts": [
+    "成功需要努力，也需要机会",
+    "努力没有什么用",
+    "只要努力就能成功",
+    "环境比努力更重要"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-17",
+   "lv": 5,
+   "sk": "Đọc",
+   "q": "尽管调查结果显示大多数顾客对新产品表示满意，但经理并没有急着扩大生产，他说：“满意不等于会再买，我们还要看看三个月后的销量。” 问：经理为什么没有马上扩大生产？",
+   "opts": [
+    "满意的顾客不一定会再买",
+    "顾客对新产品不满意",
+    "工厂的设备不够",
+    "销量已经下降了"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-18",
+   "lv": 5,
+   "sk": "Đọc",
+   "q": "这篇文章并没有简单地批评网络购物，而是分析了它在带来方便的同时，给传统商店带来的压力。 问：这篇文章的态度是？",
+   "opts": [
+    "客观分析，不是单纯批评",
+    "完全支持网络购物",
+    "强烈反对网络购物",
+    "只关心传统商店"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-19",
+   "lv": 5,
+   "sk": "Nghe",
+   "audio": "女：陈总，你们能提前五天送到吗？男：提前五天不行，提前两天可以。问：男的是什么意思？",
+   "q": "Ý của người đàn ông là gì?",
+   "opts": [
+    "Chỉ có thể giao sớm hơn 2 ngày",
+    "Có thể giao sớm hơn 5 ngày",
+    "Hoàn toàn không thể giao sớm",
+    "Giao sớm 2 ngày cũng không được"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-20",
+   "lv": 5,
+   "sk": "Nghe",
+   "audio": "价格我们可以再商量，但是送到的时间不能推迟，否则我们就不订了。",
+   "q": "Điều kiện nào người nói KHÔNG chịu nhượng bộ?",
+   "opts": [
+    "Thời gian giao hàng",
+    "Giá cả",
+    "Số lượng đặt",
+    "Cách thanh toán"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-21",
+   "lv": 5,
+   "sk": "Nghe",
+   "audio": "我们一打开箱子就发现杯子坏了，所以马上给陈总打了电话。",
+   "q": "Sau khi thấy cốc bị vỡ, người nói làm gì ngay?",
+   "opts": [
+    "Gọi điện cho ông Trần",
+    "Gửi ảnh cho đồng nghiệp",
+    "Đặt lại đơn hàng",
+    "Trả lại thùng hàng"
+   ],
+   "a": 0
+  },
+  {
+   "id": "zh5-22",
+   "lv": 5,
+   "sk": "Nghe",
+   "audio": "我们先在大会上看了陈总公司的样品，然后跟陈总商量了价格，最后订了两千个杯子，每个二十一元。",
+   "q": "Thứ tự các việc họ đã làm?",
+   "opts": [
+    "Xem mẫu → bàn giá → đặt 2.000 cái",
+    "Bàn giá → xem mẫu → đặt 2.000 cái",
+    "Đặt hàng → xem mẫu → bàn giá",
+    "Xem mẫu → đặt hàng → bàn giá"
    ],
    "a": 0
   }
@@ -7989,7 +8529,7 @@ const QB = {
  ]
 };
 const ART_GENERIC = new Set(["agenda", "calendar", "chart", "checklist", "contract", "email", "handshake", "is", "laptop", "manager", "meetingroom", "no", "online", "password", "question", "team", "work"]);
-const MIN_LV = { zh: 0, en: 1 }, MAX_LV = { zh: 4, en: 4 };
+const MIN_LV = { zh: 0, en: 1 }, MAX_LV = { zh: 5, en: 4 };
 function trackOf(L, id) { return TRACKS[L].find(t => t.id === id); }
 const trackStart = t => t.start || (t.demo ? demoStart(t.demo) : "");
 /* lộ trình chưa mở: gợi ý tuần học thử gần nhất BÊN DƯỚI, không đẩy về lộ trình mới bắt đầu */
@@ -8007,8 +8547,13 @@ function sendSheet(row) {
    Sheet nhận từng câu (id=1/0/? @giây) để thống kê độ khó, độ phân biệt: tools/placement_stats.py.
    Trả lời quá nhanh, hoặc chọn cùng một ô từ 6 câu liền → chỉ tính các mức qua chắc chắn, Sheet ghi "nghi đoán".
    Kết quả lưu riêng từng ngôn ngữ (S.places); làm lại sau 7 ngày, câu chưa gặp ra trước. */
-/* mỗi mức 8 câu (2/kỹ năng), ≥6 qua; 5/8 thêm 4 câu cần ≥9/12; ≥7/8 thì nhảy cóc 1 mức; tối đa PLACE_MAX câu */
-const PLACE_BLOCK = 8, PLACE_PASS = 6, PLACE_STRONG = 7, PLACE_EXTRA = 4, PLACE_PASS_EXT = 9, PLACE_MAX = 28, PLACE_STREAK = 6, RETAKE_DAYS = 7;
+/* mức thấp: khối 8 câu (2/kỹ năng), đúng ≥75% mới qua; sát ngưỡng (thiếu 1 câu) thì thêm 4 câu và vẫn cần ≥75%; ≥7/8 thì nhảy cóc 1 mức (tiếng Trung chỉ nhảy tới HSK4 là cùng).
+   Mức cao tiếng Trung (HSK4, HSK5+): khối 12 câu (3/kỹ năng) vì vốn từ rộng, 2 câu mỗi kỹ năng chỉ là may rủi; HSK4 cần ≥9/12 và mỗi kỹ năng đúng ≥1 câu;
+   HSK5+ là mức trần, cần ≥10/12 (≥14/16 nếu phải thêm câu) và luôn kèm giáo viên xác nhận. Tối đa PLACE_MAX[L] câu. */
+const PLACE_BLOCK = 8, PLACE_BIG = 12, PLACE_BIG_FROM = 4, PLACE_STRONG = 7, PLACE_EXTRA = 4, PLACE_FRAC = .75, PLACE_FRAC_TOP = .83, PLACE_MAX = { zh: 40, en: 28 }, PLACE_STREAK = 6, RETAKE_DAYS = 7;
+const placeBig = (L, l) => L === "zh" && l >= PLACE_BIG_FROM;
+const placeSize = (L, l) => placeBig(L, l) ? PLACE_BIG : PLACE_BLOCK;
+const placeNeed = (L, l, total) => Math.ceil((l >= MAX_LV[L] && L === "zh" ? PLACE_FRAC_TOP : PLACE_FRAC) * total - 1e-9);
 function placeOf(L) { S.places = S.places || {}; if (!S.places[L] && S.place && S.place.lang === L && S.place.result) S.places[L] = S.place; return S.places[L] && S.places[L].result ? S.places[L] : null; }
 function retakeAt(L) { const P = placeOf(L); return P ? new Date(new Date(P.result.at).getTime() + RETAKE_DAYS * 864e5) : null; }
 function canRetake(L) { const t = retakeAt(L); return !t || Date.now() >= t.getTime(); }
@@ -8028,7 +8573,7 @@ function skLabel(L, sk, sl) { if (sl == null) return "chưa đạt " + LV_NAMES[
 const skWeak = (L, sk, sl, level) => sl == null || (sl < level && sl < skMax(L, sk));
 function viewPlace(main) {
   const P = S.place || {};
-  const box = el(`<div class="roomv place">${roomHead("room-career", "Kiểm tra đầu vào", "Tìm đúng lộ trình cho bạn", "15–20 phút. Phần 1: 16–28 câu trắc nghiệm (nghe, từ vựng, ngữ pháp, đọc), bài tự dễ hơn hoặc khó hơn theo câu trả lời của bạn. Phần 2: nói 1 phút và viết vài câu để giáo viên nghe, đọc. Câu nào chưa biết, hãy bấm “Tôi chưa biết câu này”: đoán bừa sẽ làm kết quả kém chính xác.")}<div class="pbody2"></div></div>`);
+  const box = el(`<div class="roomv place">${roomHead("room-career", "Kiểm tra đầu vào", "Tìm đúng lộ trình cho bạn", "15–20 phút. Phần 1: 16–40 câu trắc nghiệm (nghe, từ vựng, ngữ pháp, đọc), bài tự dễ hơn hoặc khó hơn theo câu trả lời của bạn. Phần 2: nói 1 phút và viết vài câu để giáo viên nghe, đọc. Câu nào chưa biết, hãy bấm “Tôi chưa biết câu này”: đoán bừa sẽ làm kết quả kém chính xác.")}<div class="pbody2"></div></div>`);
   main.appendChild(box);
   const body = $(".pbody2", box);
   if (P.result && !P.retake) return showResult(body, P);
@@ -8048,7 +8593,7 @@ function form(body) {
       <label class="tick"><input type="checkbox" id="pok" ${P.ok ? "checked" : ""}> Tôi đồng ý cho CES lưu thông tin và kết quả để tư vấn lộ trình.</label>
       <button type="button" class="btn primary huge" id="pgo" disabled>${ICON.play} Bắt đầu làm bài</button></div></section>`;
   let lang = P.lang || S.lang, goal = P.goal || "", self = P.self != null && P.lang === lang ? P.self : null;
-  const selfOpts = () => ({ zh: ["Chưa học bao giờ", "Biết chào hỏi, bính âm (HSK1)", "Giao tiếp cơ bản (HSK2)", "Khá (HSK3)", "Tốt (HSK4 trở lên)"], en: [null, "Mới bắt đầu (A1)", "Giao tiếp cơ bản (A2)", "Khá (B1)", "Tốt (B2 trở lên)"] })[lang];
+  const selfOpts = () => ({ zh: ["Chưa học bao giờ", "Biết chào hỏi, bính âm (HSK1)", "Giao tiếp cơ bản (HSK2)", "Khá (HSK3)", "Tốt (HSK4)", "Rất tốt (HSK5 trở lên)"], en: [null, "Mới bắt đầu (A1)", "Giao tiếp cơ bản (A2)", "Khá (B1)", "Tốt (B2 trở lên)"] })[lang];
   const paint = () => {
     $("#plang", body).querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === lang));
     $("#pgoal", body).querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === goal));
@@ -8082,12 +8627,12 @@ function test(body) {
     for (let r = 0; out.length < k && r < k; r++) for (const sk of sks) { if (out.length >= k) break; const i = pool.find(x => !used.has(x) && bank[x].sk === sk); if (i != null) { out.push(i); used.add(i); } }
     return shuffleR(out);
   };
-  function startBlock() { if (n + PLACE_BLOCK > PLACE_MAX) { capped = true; return finish(); } bno++; block = pick(lv, PLACE_BLOCK); ok = 0; extended = false; if (!block.length) return finish(); ask(0); }
+  function startBlock() { const sz = placeSize(L, lv); if (n + sz > PLACE_MAX[L]) { capped = true; return finish(); } bno++; block = pick(lv, sz); ok = 0; extended = false; if (!block.length) return finish(); ask(0); }
   function ask(i) {
     if (i >= block.length) return judge();
     const qi = block[i], q = bank[qi], perm = shuffleR(q.opts.map((_, k) => k)); n++;
     body.innerHTML = `<section class="card2 ptest"><div class="row between"><p class="eyebrow">2 · Làm bài · câu ${n}</p><span class="pill">${esc(q.sk)}</span></div>
-      <div class="pbar"><i style="width:${Math.min(100, n / PLACE_MAX * 100)}%"></i></div>
+      <div class="pbar"><i style="width:${Math.min(100, n / PLACE_MAX[L] * 100)}%"></i></div>
       ${q.audio ? `<div class="row center"><button type="button" class="btn sound au">${ICON.play} Nghe</button></div>` : ""}
       <p class="qt">${esc(q.q)}</p>
       <div class="opts" role="group">${perm.map((k, j) => `<button type="button" class="opt" data-k="${k}" data-pos="${j}"><span class="badge">${"ABCD"[j]}</span><span class="ot" lang="${/[一-鿿]/.test(q.opts[k]) ? "zh" : L === "en" ? "en" : "vi"}">${esc(q.opts[k])}</span></button>`).join("")}</div>
@@ -8106,11 +8651,17 @@ function test(body) {
     $(".dunno", body).onclick = () => go(false, -1);
   }
   function judge() {
-    if (!extended && ok === PLACE_PASS - 1 && n + PLACE_EXTRA <= PLACE_MAX) { const more = pick(lv, PLACE_EXTRA); if (more.length === PLACE_EXTRA) { extended = true; const from = block.length; block = block.concat(more); return ask(from); } }
-    res[lv] = { pass: ok >= (extended ? PLACE_PASS_EXT : PLACE_PASS), b: bno };
+    const big = placeBig(L, lv), total = block.length, need = placeNeed(L, lv, total);
+    /* mức cao: mỗi kỹ năng phải đúng ít nhất 1 câu (không để một kỹ năng trắng mà vẫn qua) */
+    const blockLog = log.filter(r => r.b === bno), sks = [...new Set(blockLog.map(r => r.sk))];
+    const breadth = !big || sks.every(sk => blockLog.some(r => r.sk === sk && r.ok));
+    /* sát ngưỡng (thiếu 1 câu, hoặc đủ điểm mà hụt một kỹ năng) thì thêm 4 câu cùng mức */
+    if (!extended && (ok === need - 1 || (ok >= need && !breadth)) && n + PLACE_EXTRA <= PLACE_MAX[L]) { const more = pick(lv, PLACE_EXTRA); if (more.length === PLACE_EXTRA) { extended = true; const from = block.length; block = block.concat(more); return ask(from); } }
+    const tot = block.length, needNow = placeNeed(L, lv, tot);
+    res[lv] = { pass: ok >= needNow && breadth, b: bno, margin: ok - needNow, ext: extended };
     if (res[lv].pass) {
-      /* làm rất tốt thì nhảy cóc qua 1 mức (nếu trượt mức nhảy tới sẽ quay lại kiểm tra mức bị bỏ qua) */
-      const up = !extended && ok >= PLACE_STRONG && lv + 2 <= MAX_LV[L] && !res[lv + 1] && !res[lv + 2] ? 2 : 1;
+      /* làm rất tốt thì nhảy cóc qua 1 mức (nếu trượt mức nhảy tới sẽ quay lại kiểm tra mức bị bỏ qua); tiếng Trung chỉ nhảy tới HSK4 là cùng, mức trần HSK5+ phải đi từng bước */
+      const up = !extended && !big && ok >= PLACE_STRONG && (L !== "zh" || lv + 2 <= PLACE_BIG_FROM) && lv + 2 <= MAX_LV[L] && !res[lv + 1] && !res[lv + 2] ? 2 : 1;
       if (lv + up <= MAX_LV[L] && !res[lv + up]) { lv += up; return startBlock(); } return finish(); }
     if (lv > MIN_LV[L] && !res[lv - 1]) { lv--; return startBlock(); }
     return finish();
@@ -8131,6 +8682,11 @@ function test(body) {
     const checks = [];
     if (!flags.length && P.self != null && level - Math.max(P.self, MIN_LV[L]) >= 2) checks.push(`cao hơn mức tự nhận ${level - Math.max(P.self, MIN_LV[L])} bậc`);
     if (capped && !flags.length && level < MAX_LV[L] && res[level] && res[level].pass && !res[level + 1]) checks.push(`chưa kiểm tra ${LV_NAMES[L][level + 1]} (hết số câu)`);
+    /* mức cao: sát ngưỡng, hoặc là mức trần (phần nghe HSK5+ chưa đủ khó, chỉ giáo viên chốt được) */
+    if (!flags.length && L === "zh" && level >= PLACE_BIG_FROM && res[level] && res[level].pass) {
+      if (level >= MAX_LV[L]) checks.push("mức HSK5+ là mức trần của bài, cần giáo viên xác nhận");
+      else if (res[level].margin <= 0) checks.push(`${LV_NAMES[L][level]} sát ngưỡng`);
+    }
     const bySk = {}; log.forEach(r => { bySk[r.sk] = bySk[r.sk] || [0, 0]; bySk[r.sk][1]++; if (r.ok) bySk[r.sk][0]++; });
     /* mức ước lượng theo kỹ năng: mức cao nhất mà học viên làm đúng hết các câu của kỹ năng đó trong khối */
     const skLv = {}; Object.keys(bySk).forEach(sk => { const good = lvs.filter(l => { const rs = log.filter(r => r.b === res[l].b && r.sk === sk); return rs.length && rs.every(r => r.ok && !r.quick && !r.streak); }); skLv[sk] = good.length ? Math.max(...good) : null; });

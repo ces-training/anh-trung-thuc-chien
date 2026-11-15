@@ -1,0 +1,11 @@
+{
+  "_": "Câu NGHE mới cho mức HSK5+ của bài kiểm tra đầu vào, ĐANG CHỜ CHỊ DUYỆT (chưa tạo giọng). Hiện zh5-19…22 tạm dùng lại giọng đã có (nội dung ở mức HSK4). Khi chị duyệt: thêm các câu audio dưới đây vào tools/audio-list.json, chạy make_audio_batch.py (giọng 3.8 flash TTS miễn phí), rồi đổi bốn câu Nghe của HSK5+ trong placement.json sang các câu này (giữ id mới zh5-23…, không đổi id cũ). Mỗi câu 1 lượt đọc, 25–60 chữ, dùng từ và cấu trúc HSK5 (尽管, 何况, 以免, 难免, 与其…不如…, 不仅…反而…); đáp án đúng đứng đầu.",
+  "items": [
+    {"id": "zh5-23", "lv": 5, "sk": "Nghe", "audio": "与其花很多钱做广告，不如先把产品质量提高，这样顾客自然会帮我们宣传。", "q": "Người nói cho rằng nên làm gì trước?", "opts": ["Nâng chất lượng sản phẩm", "Chi nhiều tiền cho quảng cáo", "Giảm giá bán", "Mở thêm cửa hàng"]},
+    {"id": "zh5-24", "lv": 5, "sk": "Nghe", "audio": "尽管这次的销量不如预期，但是经理认为新产品已经打开了市场，没必要马上调整计划。", "q": "Thái độ của giám đốc với kế hoạch là gì?", "opts": ["Chưa cần điều chỉnh vội", "Phải đổi ngay kế hoạch", "Dừng bán sản phẩm mới", "Tăng sản lượng gấp đôi"]},
+    {"id": "zh5-25", "lv": 5, "sk": "Nghe", "audio": "会议材料最好提前一天发给大家，以免有人没时间准备，到时候讨论不起来。", "q": "Vì sao nên gửi tài liệu họp sớm một ngày?", "opts": ["Để mọi người kịp chuẩn bị", "Để cuộc họp kết thúc sớm", "Để tiết kiệm giấy", "Để giám đốc xem trước"]},
+    {"id": "zh5-26", "lv": 5, "sk": "Nghe", "audio": "他不仅没有批评我，反而安慰我说，第一次做这样的项目，出点儿问题是难免的。", "q": "Người nói muốn nói điều gì?", "opts": ["Cấp trên không trách mà còn an ủi", "Cấp trên phê bình rất nặng", "Dự án đã hoàn toàn thành công", "Người nói muốn xin nghỉ việc"]},
+    {"id": "zh5-27", "lv": 5, "sk": "Nghe", "audio": "这个城市的房价涨得太快了，对刚毕业的年轻人来说，买房几乎是不可能的，何况他们的工资也不高。", "q": "Người nói nhấn mạnh điều gì?", "opts": ["Người mới ra trường khó mua nhà", "Giá nhà đang giảm", "Lương người trẻ rất cao", "Ai cũng mua được nhà"]},
+    {"id": "zh5-28", "lv": 5, "sk": "Nghe", "audio": "调查显示，大部分人觉得网上学习虽然方便，但是缺少和老师、同学面对面交流的机会，学习效果有时候不太稳定。", "q": "Điểm yếu của học trực tuyến theo khảo sát?", "opts": ["Thiếu giao tiếp trực tiếp, hiệu quả không ổn định", "Học phí quá đắt", "Không có bài tập", "Giáo viên không đủ trình độ"]}
+  ]
+}

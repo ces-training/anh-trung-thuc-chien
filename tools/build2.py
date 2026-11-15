@@ -72,9 +72,9 @@ def main():
     adv = open(os.path.join(T, "build", "adv.js"), encoding="utf-8").read()
     connect = open(os.path.join(T, "build", "connect.js"), encoding="utf-8").read()
 
-    # ngân hàng câu kiểm tra đầu vào: id cố định, 4 lựa chọn, đáp án đúng đứng đầu, mỗi mức ≥16 câu, mỗi kỹ năng ≥4 câu, câu nghe có giọng Gemini
+    # ngân hàng câu kiểm tra đầu vào: id cố định, 4 lựa chọn, đáp án đúng đứng đầu, mỗi mức ≥16 câu (zh HSK4 ≥28, HSK5+ ≥22), mỗi kỹ năng ≥4 câu, câu nghe có giọng Gemini
     place = load(os.path.join(T, "course", "placement.json")); aud = load(os.path.join(R, "tuan-1", "audio", "index.json"))
-    for L, lvs in (("zh", range(0, 5)), ("en", range(1, 5))):
+    for L, lvs in (("zh", range(0, 6)), ("en", range(1, 5))):
         for q in place[L]:
             if len(q["opts"]) != 4 or len(set(q["opts"])) != 4: sys.exit(f"DỪNG: câu kiểm tra đầu vào cần 4 lựa chọn khác nhau: {q['q']}")
             if q.get("audio") and q["audio"] not in aud.get(L, {}): sys.exit(f"DỪNG: câu nghe kiểm tra đầu vào chưa có giọng Gemini: {q['audio']}")
@@ -84,7 +84,9 @@ def main():
             n = sum(q["lv"] == lv for q in place[L]); sk = {}
             for q in place[L]:
                 if q["lv"] == lv: sk[q["sk"]] = sk.get(q["sk"], 0) + 1
-            if n < 16 or min(sk.values()) < 4 or sk.get("Nghe", 0) < 4: sys.exit(f"DỪNG: kiểm tra đầu vào {L} mức {lv} cần ≥16 câu, mỗi kỹ năng ≥4 câu (có Nghe): đang có {sk}")
+            # mức cao tiếng Trung làm khối 12 câu (3/kỹ năng) nên cần ngân hàng dày: HSK4 ≥28 câu, mỗi kỹ năng ≥6; HSK5+ ≥22 câu, mỗi kỹ năng ≥4
+            need_n, need_sk = (28, 6) if (L == "zh" and lv == 4) else (22, 4) if (L == "zh" and lv == 5) else (16, 4)
+            if n < need_n or min(sk.values()) < need_sk or sk.get("Nghe", 0) < need_sk: sys.exit(f"DỪNG: kiểm tra đầu vào {L} mức {lv} cần ≥{need_n} câu, mỗi kỹ năng ≥{need_sk} câu (có Nghe): đang có {sk}")
     place = {L: [dict(q, a=0) for q in place[L]] for L in ("zh", "en")}
 
     # 3. ghép vào khuôn

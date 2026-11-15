@@ -291,9 +291,9 @@ async function funnel(browser, base) {
   check(pc.posts.some(p => p.type === "production" && /阮安/.test(p.text || "") && p.sayPrompt) && /đã gửi giáo viên/.test(await tx(pc)), "phần nói, viết gửi về Sheet, màn kết quả báo đã gửi");
   check(pc.posts.some(p => p.type === "placement" && /zh\d-\d+=1@/.test(p.items || "") && p.skLv), "Sheet nhận từng câu (id=đúng@giây) và ước lượng theo kỹ năng");
   const both = await pc.evaluate(() => ({ en: S.places.en && S.places.en.result.levelName, zh: S.places.zh && S.places.zh.result.levelName }));
-  check(both.en && both.zh === "HSK4" && /Xem kết quả tiếng Anh/.test(await tx(pc)), `kết quả Anh, Trung lưu riêng (Anh ${both.en}, Trung ${both.zh})`);
+  check(both.en && /^HSK[45]/.test(both.zh || "") && /Xem kết quả tiếng Anh/.test(await tx(pc)), `kết quả Anh, Trung lưu riêng (Anh ${both.en}, Trung ${both.zh})`);
   const pz = pc.posts.filter(p => p.type === "placement" && p.lang === "Tiếng Trung").pop(), nz = (pz.items || "").split(" ").length;
-  check(nz <= 28 && /^Cần GV xác nhận: cao hơn mức tự nhận/.test(pz.trust || "") && /giáo viên CES sẽ/.test(await tx(pc)), `tự nhận HSK0 mà làm đúng hết → ${nz} câu (≤ 28), báo cần giáo viên xác nhận`);
+  check(nz <= 40 && /^Cần GV xác nhận: cao hơn mức tự nhận/.test(pz.trust || "") && /giáo viên CES sẽ/.test(await tx(pc)), `tự nhận HSK0 mà làm đúng hết → ${nz} câu (≤ 40), báo cần giáo viên xác nhận`);
   await pc.screenshot({ path: path.join(ROOT, "tools", "shots", "390-ket-qua-dau-vao.png"), fullPage: true });
   /* ===== Hỏi CES + thống kê lượt vào ===== */
   check(pc.posts.some(p => p.type === "visit" && p.vid && p.sid && /kiem-tra-dau-vao/.test(p.screens || "")), "thống kê lượt vào: có Mã khách, màn đã mở");
