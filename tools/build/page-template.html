@@ -732,6 +732,31 @@ body:has(.player) .cesc-fab,body:has(.ptest) .cesc-fab{display:none}
 .plan{border:2px solid var(--line);border-radius:18px;padding:14px;display:flex;flex-direction:column;gap:6px;align-items:flex-start}.plan.best{border-color:var(--sun)}.plan.on{outline:3px solid var(--acc)}.plan h3{margin:0;font-size:20px}.plan .facts{margin:4px 0 8px}
 .offmini{display:flex;flex-direction:column;gap:6px;align-items:center;background:var(--sun-soft);border-radius:16px;padding:14px;max-width:460px}.offmini span{font-size:16px;color:var(--muted)}
 @media (max-width:560px){.trk{flex-wrap:wrap}.trk>div{flex:1 1 100%;min-width:0}}
+/* Truyện của ngày */
+.story{display:flex;flex-direction:column;gap:12px}
+.stbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.stcap{font-weight:800;font-size:15px;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
+.stdots{display:flex;gap:6px;flex:1 1 80px;min-width:60px}.stdots i{flex:1;height:8px;border-radius:99px;background:var(--line);max-width:56px}
+.stdots i.ok{background:var(--green,#1f8a4c)}.stdots i.now{background:var(--sun,#f5b800)}
+.stwords{background:var(--soft);border-radius:999px;padding:6px 12px;font-weight:700;font-size:16px;margin-left:auto}.stwords.bump{animation:pop .35s}
+.stlayers{display:flex;gap:8px;flex-wrap:wrap}
+.stlayers button{min-height:44px;padding:0 16px;border-radius:999px;border:2px solid var(--line);background:var(--surface);color:var(--ink);font:700 16px var(--font);cursor:pointer}
+.stlayers button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.stlines{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.stl{display:flex;flex-direction:column;gap:4px;animation:pop .2s ease-out}.stl.r{align-items:flex-end}
+.stl .spk{font-size:14px;font-weight:800;color:var(--muted);padding:0 6px}
+.stb{display:flex;gap:10px;align-items:flex-start;max-width:96%;background:var(--surface);border:1.5px solid var(--line);border-radius:18px;padding:12px 14px}
+.stl.r .stb{background:var(--sun-soft)}.stl.l .stb{border-top-left-radius:4px}.stl.r .stb{border-top-right-radius:4px}
+.stplay{flex:none;width:44px;height:44px;border-radius:50%;border:0;background:var(--soft);color:var(--ink);display:grid;place-items:center;cursor:pointer}.stplay svg{width:20px;height:20px}
+.stt{display:flex;flex-direction:column;gap:4px;min-width:0}.stt .stx{font-size:24px;font-weight:600;line-height:1.4}
+.stt .tr{font-size:16.5px;color:var(--muted);display:flex;flex-direction:column;gap:1px}.stt .tr .men{font-weight:700;color:var(--ink)}
+.story.notr .tr{display:none}.story.nopy .gl rt{display:none}.story.nopy .gl{line-height:1.5}
+.stnote{background:var(--sun-soft);border-radius:12px;padding:10px 14px;font-weight:700;margin:0}
+.intromore{border:1.5px solid var(--line);border-radius:14px;padding:4px 14px;background:var(--surface)}.intromore summary{min-height:44px;display:flex;align-items:center;font-weight:700;cursor:pointer}.intromore[open] summary{margin-bottom:6px}
+@media (max-width:720px){.bar1{gap:4px;padding-block:8px}.brand{display:none}.bar1 .seg{margin-left:0}.bar1 .seg{padding:2px;gap:1px}.seg button{padding:0 6px;font-size:15px;min-height:36px}.pill svg{width:14px;height:14px}.ln{display:none}.pill{padding:4px 7px;font-size:15px;gap:4px}.icbtn{width:34px;height:34px}.nav{padding-bottom:8px}}
+/* bài học: nút Bắt đầu lên đầu, tiêu đề truyện dính trên cùng khi cuộn */
+.intro .row.center:has(.go){order:-1}
+.stbar{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;margin-top:-4px}
 </style>
 
 <div class="app"><aside class="sidebar" id="side" aria-label="Thanh điều hướng"></aside><div class="col">
@@ -741,7 +766,7 @@ body:has(.player) .cesc-fab,body:has(.ptest) .cesc-fab{display:none}
       <svg width="36" height="36" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1F44D6"/><path d="M32 0H50a14 14 0 0 1 14 14v36a14 14 0 0 1-14 14H32z" fill="#D3271E"/><text x="17" y="43" font-size="28" font-weight="800" fill="#fff" text-anchor="middle" font-family="Be Vietnam Pro, sans-serif">A</text><text x="47" y="42" font-size="24" font-weight="700" fill="#fff" text-anchor="middle" font-family="Noto Sans SC, sans-serif">文</text><rect x="26" y="48" width="12" height="6" rx="3" fill="#FFD43B"/></svg>
       <span>Anh – Trung Thực Chiến<small>Tuần 1 · Chào hỏi, giới thiệu bản thân</small></span>
     </a>
-    <div class="seg" role="group" aria-label="Ngôn ngữ"><button type="button" data-lang="en">Tiếng Anh</button><button type="button" data-lang="zh">Tiếng Trung</button></div>
+    <div class="seg" role="group" aria-label="Ngôn ngữ"><button type="button" data-lang="en" aria-label="Tiếng Anh"><span class="ln">Tiếng </span>Anh</button><button type="button" data-lang="zh" aria-label="Tiếng Trung"><span class="ln">Tiếng </span>Trung</button></div>
     <div class="seg" role="group" aria-label="Mức"><button type="button" data-level="1">Mức 1</button><button type="button" data-level="2">Mức 2</button></div>
     <span class="pill star" title="Điểm"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z" fill="currentColor"/></svg><span id="pts">0</span></span>
     <span class="pill strk" title="Ngày học liên tiếp"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 2c1 4 5 5.5 5 11a5 5 0 0 1-10 0c0-2.6 1.4-4 2.5-5 .2 2 1 3 2 3.2C11 8.5 11.5 5 12 2z" fill="currentColor"/></svg><span id="strk">0</span></span>
@@ -1379,9 +1404,10 @@ const SCENE_BG = { "s-w1-d1": "home", "s-w1-d2": "home", "s-w1-d3": "home", "s-w
   "scene-en-hr": "office", "scene-en-tour": "office", "scene-en-team": "meeting", "scene-en-it": "office", "scene-en-friday": "networking",
   "scene-en-agenda": "meeting", "scene-en-debate": "meeting", "scene-en-online": "meeting", "scene-en-proposal": "meeting", "scene-en-wrapup": "meeting",
   "scene-zh-airport": "office", "scene-zh-station": "office", "scene-zh-hotel": "bedroom", "scene-zh-roadside": "office", "scene-zh-metro": "office" };
-const COURSE_MINS = { T: 4, Q: 2, S: 3, P: 3, E: 3, G: 3, B: 3, C: 3, I: 5, U: 3, H: 3, J: 3, W: 3, V: 4 };
+const COURSE_MINS = { T: 4, Q: 2, O: 5, S: 3, P: 3, E: 3, G: 3, B: 3, C: 3, I: 5, U: 3, H: 3, J: 3, W: 3, V: 4 };
 const COURSE_RULES = {
   T: "Học trước khi làm bài. Mỗi thẻ có tranh, nghĩa, câu ví dụ và một ghi chú. Thẻ nào khó thì lưu vào kho ôn.",
+  O: "Nghe truyện ngắn theo từng chương. Bính âm và nghĩa là hai lớp bật tắt: lần 1 mở cả hai, lần 2 tắt bớt để thử sức.",
   S: "Xem cảnh trước khi luyện. Nghe từng câu, bật phụ đề khi cần. Bài tập sau dùng đúng những câu trong cảnh.",
   P: "Đọc công thức, nghe câu mẫu, rồi xem lỗi hay gặp. Bài tập ngay sau hỏi đúng các mẫu này.",
   E: "Chọn đáp án đúng. Sai thì đọc vì sao, xem gợi ý rồi chọn lại.",
@@ -1401,6 +1427,7 @@ const COURSE_RULES_EN = {
 const COURSE_RULES_ZH = {
   T: "Bước Nghe: nhìn tranh, nghe từ, đọc chữ Hán kèm bính âm, rồi lật thẻ xem nghĩa tiếng Anh và tiếng Việt. Chưa cần nhớ mặt chữ, bước 3 mới học kỹ.",
   Q: "Nghe từ rồi chọn tranh và nghĩa đúng (tiếng Anh trước, tiếng Việt sau). Nghe lại bao nhiêu lần cũng được.",
+  O: "Nghe truyện theo chương, chữ Hán có lớp bính âm và lớp nghĩa (Anh · Việt) bật tắt được. Chạm vào chữ để xem nghĩa. Tập trung vào âm thanh.",
   S: "Nghe cảnh với chữ Hán, bính âm và nghĩa tiếng Anh, tiếng Việt. Tập trung vào âm thanh: nghe câu nào thì nói nhỏ theo câu đó.",
   B: "Nghe rồi chọn. Đáp án bằng chữ Hán luôn có bính âm bên dưới.",
   C: "Câu mẫu tự phát. Nghe xong bấm 🎤 và nói theo; máy so với câu mẫu, chỉ ra chữ nào chuẩn, chữ nào cần chỉnh thanh điệu hoặc âm. Chưa sẵn sàng thì nghe lại mẫu hoặc nghe chậm.",
@@ -1412,7 +1439,7 @@ const COURSE_RULES_ZH = {
   W: "Nhiều chữ Hán trông gần giống nhau, chỉ hơn kém vài nét. Đếm số nét là cách nhanh nhất để không nhầm. Chưa chắc thì bấm Xem từng nét và đếm theo. Phần tập viết tay nằm trong sách workbook."
 };
 /* tiếng Trung đi theo thứ tự: nghe → nói → nhận mặt chữ và đọc → viết */
-const ZH_STAGE = { T: 1, Q: 1, S: 1, B: 1, Y: 1, C: 2, P: 2, I: 2, X: 2, U: 3, E: 3, G: 3, J: 3, H: 3, W: 4, V: 4 };
+const ZH_STAGE = { T: 1, Q: 1, O: 1, S: 1, B: 1, Y: 1, C: 2, P: 2, I: 2, X: 2, U: 3, E: 3, G: 3, J: 3, H: 3, W: 4, V: 4 };
 const EN_STAGES = { 1: ["Nghe", "Nghe từ, nghe cảnh và nghe hiểu, có tranh và phiên âm."], 2: ["Nói", "Nhại theo, nắm mẫu câu, rồi tự nói trong hội thoại."], 3: ["Từ vựng và đọc", "Nhận mặt từ, luyện từ vựng, ngữ pháp, đọc hiểu và làm quen dạng đề thi."], 4: ["Viết", "Phân biệt từ dễ nhầm, rồi viết có hướng dẫn: phiếu, tin nhắn, email."] };
 const ZH_STAGES = { 1: ["Nghe", "Nghe từ, nghe cảnh, có tranh, chữ Hán kèm bính âm và nghĩa Anh · Việt. Tập trung vào âm thanh trước."], 2: ["Nói", "Nhại theo, nắm mẫu câu, rồi tự nói trong hội thoại."], 3: ["Nhận mặt chữ và đọc", "Lúc này mới ghép âm đã quen với mặt chữ Hán, rồi đọc câu, đọc đoạn."], 4: ["Viết chữ", "Đếm nét để phân biệt các chữ trông giống nhau, rồi xem hướng dẫn viết từng chữ trước khi làm chính tả trong sách workbook."] };
 /* cặp chữ trông giống nhau mỗi ngày: phân biệt bằng số nét (tập viết tay nằm trong workbook) */
@@ -1424,8 +1451,8 @@ function courseDays() {
   CWEEKS.forEach(w => {
     COURSE.zh[w].days.forEach((dz, i) => {
       const de = COURSE.en[w].days[i], read = dz.reading && de && de.reading;
-      const en = ["T", "S", "P", "E", "G", "B", "C", "I", "H"].concat(read ? ["J"] : []);
-      const zh = ["T", "Q", "S", "B", "C", "P", "I", "U", "E", "G"].concat(read ? ["J"] : [], ["H"], STROKE_PAIRS[dz.id] && STROKE_PAIRS[dz.id].length ? ["W"] : [], WRITE_GUIDE[dz.id] && WRITE_GUIDE[dz.id].length ? ["V"] : []);
+      const en = ["T", "O", "S", "P", "E", "G", "B", "C", "I", "H"].concat(read ? ["J"] : []);
+      const zh = ["T", "Q", "O", "S", "B", "C", "P", "I", "U", "E", "G"].concat(read ? ["J"] : [], ["H"], STROKE_PAIRS[dz.id] && STROKE_PAIRS[dz.id].length ? ["W"] : [], WRITE_GUIDE[dz.id] && WRITE_GUIDE[dz.id].length ? ["V"] : []);
       out.push({ id: dz.id, week: w, label: dz.label, wlabel: `Tuần ${w} · ${dz.label}`, kind: "web", idx: i,
         get ex() { return S.lang === "zh" ? zh : en; }, exFor(L) { return L === "zh" ? zh : en; },
         get mins() { return this.ex.reduce((m, c) => m + (COURSE_MINS[c[0]] || 3), 0); } });
@@ -1488,6 +1515,12 @@ function courseEx(ex, dayId, code) {
     ex.kind = "scene"; ex.title = "Xem cảnh: " + d.title; ex.setting = d.scene.setting; ex.bg = d.scene.img; ex.vkey = L + "-" + d.id;
     ex.lines2 = d.scene.lines.map(l => ({ who: l.who, t: l.t, py: l.py || "", vi: l.vi, en: l.en || "" }));
     ex.people = [...new Set(ex.lines2.map(l => l.who))].slice(0, 2);
+  }
+  else if (code === "O") {
+    ex.kind = "story"; ex.title = "Truyện của ngày: " + d.title; ex.setting = d.scene.setting; ex.bg = d.scene.img;
+    ex.lines2 = d.scene.lines.map(l => ({ who: l.who, t: l.t, py: l.py || "", vi: l.vi, en: l.en || "" }));
+    ex.people = [...new Set(ex.lines2.map(l => l.who))].slice(0, 2);
+    ex.vocab = (d.cards || []).map(c => ({ w: c.w, m: c.mEn || c.m || "" }));
   }
   else if (code === "P") { ex.kind = "pattern"; ex.title = "Mẫu câu cần nắm"; ex.pats = d.patterns; ex.rule = d.rule || ex.rule; }
   else if (code === "E") { ex.title = "Từ vựng trong ngữ cảnh"; ex.items = mc(d.vocab); }
@@ -1605,8 +1638,8 @@ function courseTheme(id) {
 }
 
 /* ============ ỨNG DỤNG ============ */
-const PTS = { T: 5, S: 5, P: 5, Q: 10, U: 10, W: 15, V: 10, A: 10, B: 10, C: 15, D: 10, E: 10, F: 10, G: 10, H: 20, I: 30, J: 10, K: 20, L: 40, M: 10, N: 15 };
-const TITLES = { T: "Thẻ học", S: "Xem cảnh hội thoại", P: "Mẫu câu cần nắm", A: "Ôn nhanh tự nhớ lại", B: "Nghe hiểu hội thoại", C: "Nghe và nhại theo", D: { en: "Trọng âm và âm cuối", zh: "Thanh điệu" }, E: "Từ mới trong ngữ cảnh",
+const PTS = { T: 5, O: 10, S: 5, P: 5, Q: 10, U: 10, W: 15, V: 10, A: 10, B: 10, C: 15, D: 10, E: 10, F: 10, G: 10, H: 20, I: 30, J: 10, K: 20, L: 40, M: 10, N: 15 };
+const TITLES = { T: "Thẻ học", O: "Truyện của ngày", S: "Xem cảnh hội thoại", P: "Mẫu câu cần nắm", A: "Ôn nhanh tự nhớ lại", B: "Nghe hiểu hội thoại", C: "Nghe và nhại theo", D: { en: "Trọng âm và âm cuối", zh: "Thanh điệu" }, E: "Từ mới trong ngữ cảnh",
   F: "Sắp xếp câu", G: "Điền vào chỗ trống", H: "Nói nhanh theo gợi ý", I: "Đóng vai với AI", J: "Đọc hồ sơ thật", K: "Viết tin nhắn ngắn", L: "Kiểm tra tuần", M: "Tự chấm can-do", N: "Phiếu nhận xét Chủ nhật" };
 const MINS = { T: 4, S: 3, P: 3, A: 3, B: 5, C: 6, D: 6, E: 6, F: 5, G: 5, H: 5, I: 12, J: 6, K: 4, L: 15, M: 2, N: 7 };
 const DAYS = (typeof COURSE !== "undefined" && CWEEKS.length) ? courseDays() : [
@@ -2843,6 +2876,78 @@ function runScene(ex, body, finish) {
   if (autoOn()) setTimeout(() => { if (i < 0) $(".playall", box).click(); }, 700);
 }
 
+/* ---------- Truyện của ngày: trình phát truyện chia chương, hai lớp bật tắt (bính âm, nghĩa), đếm từ nghe hiểu ---------- */
+function runStory(ex, body, finish) {
+  const L = S.lang, zh = L === "zh", lines = ex.lines2, pA = ex.people[0];
+  const per = lines.length > 8 ? 4 : 3, chaps = [];
+  for (let k = 0; k < lines.length; k += per) chaps.push(lines.slice(k, k + per));
+  if (chaps.length > 1 && chaps[chaps.length - 1].length === 1) chaps[chaps.length - 2].push(...chaps.pop());
+  if (!S.layers) S.layers = { py: true, tr: true };
+  if (!S.heard) S.heard = { en: {}, zh: {} };
+  if (!S.heard[L]) S.heard[L] = {};
+  const clean = w => String(w || "").replace(/[.!?,，。！？]+$/g, "").trim();
+  const vocab = (ex.vocab || []).map(v => ({ w: clean(v.w) })).filter(v => v.w);
+  const has = (v, t) => zh ? t.includes(v.w) : new RegExp("(^|[^a-z'])" + v.w.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "([^a-z']|$)").test(t.toLowerCase());
+  const dayWords = new Set();
+  let ci = 0, token = 0, newInChap = [];
+  const box = el(`<div class="story">
+    <div class="stbar"><span class="stcap"></span><div class="stdots" aria-hidden="true"></div><span class="stwords" aria-live="polite">🎧 <b>0</b> từ nghe hiểu</span></div>
+    <p class="setting">${esc(ex.setting)}</p>
+    <div class="stlayers" role="group" aria-label="Lớp hiển thị">${zh ? `<button type="button" class="lpy" aria-pressed="true">Bính âm</button>` : ""}<button type="button" class="ltr" aria-pressed="true">${zh ? "Nghĩa Anh · Việt" : "Nghĩa tiếng Việt"}</button></div>
+    <ol class="stlines" aria-live="polite"></ol>
+    <p class="stnote" hidden></p>
+    <div class="row center"><button type="button" class="btn ghost rep">${ICON.play} Nghe lại chương</button><button type="button" class="btn primary huge nx" disabled>Chương tiếp →</button></div></div>`);
+  body.appendChild(box);
+  const ol = $(".stlines", box), nx = $(".nx", box), note = $(".stnote", box), dots = $(".stdots", box), cnt = $(".stwords b", box);
+  const total = () => Object.keys(S.heard[L]).length;
+  const paintLayers = () => {
+    box.classList.toggle("nopy", !S.layers.py); box.classList.toggle("notr", !S.layers.tr);
+    const a = $(".lpy", box), b = $(".ltr", box); if (a) a.setAttribute("aria-pressed", !!S.layers.py); b.setAttribute("aria-pressed", !!S.layers.tr);
+  };
+  const markWords = l => vocab.forEach(v => { if (has(v, l.t) && !S.heard[L][v.w]) { S.heard[L][v.w] = 1; newInChap.push(v.w); } if (has(v, l.t)) dayWords.add(v.w); });
+  const paintCount = bump => { cnt.textContent = total(); if (bump) { const c = cnt.parentNode; c.classList.remove("bump"); void c.offsetWidth; c.classList.add("bump"); } };
+  const lineLI = (l, k) => {
+    const tr = zh ? biHTML(l.en, l.vi, "span") : (l.vi ? `<span class="mvi" lang="vi">${esc(l.vi)}</span>` : "");
+    return `<li class="stl ${l.who === pA ? "l" : "r"}" data-k="${k}"><span class="spk">${esc(l.who)}</span><div class="stb"><button type="button" class="stplay" aria-label="Nghe lại câu này">${ICON.play}</button><div class="stt"><span class="stx" lang="${zh ? "zh" : "en"}">${zh ? glossHTML(l.t) : esc(l.t)}</span><span class="tr">${tr}</span></div></div></li>`;
+  };
+  function endChap() {
+    save(); paintCount(newInChap.length > 0);
+    note.hidden = false;
+    note.textContent = newInChap.length ? `+${newInChap.length} từ nghe hiểu: ${newInChap.join(" · ")}` : "Chương này bạn đã nghe hiểu hết các từ quen. Bạn đang chắc dần lên!";
+    nx.disabled = false;
+  }
+  function reveal(k, my) {
+    const ch = chaps[ci]; if (my !== token) return;
+    if (k >= ch.length) return endChap();
+    const l = ch[k]; ol.insertAdjacentHTML("beforeend", lineLI(l, k));
+    const li = ol.lastElementChild; if (zh) bindGloss(li);
+    $(".stplay", li).onclick = () => sayThen(l.t, L, l.who === pA ? 1.05 : 0.85, null, l.who);
+    try { li.scrollIntoView({ block: "nearest", behavior: "smooth" }); } catch (e) {}
+    if (!autoOn()) { markWords(l); return reveal(k + 1, my); }
+    sayThen(l.t, L, l.who === pA ? 1.05 : 0.85, () => { if (my !== token) return; markWords(l); reveal(k + 1, my); }, l.who);
+  }
+  function drawChap() {
+    token++; stopAudio(); newInChap = [];
+    const ch = chaps[ci], last = ci === chaps.length - 1;
+    $(".stcap", box).textContent = `Chương ${ci + 1}/${chaps.length}`;
+    dots.innerHTML = chaps.map((_, k) => `<i class="${k < ci ? "ok" : k === ci ? "now" : ""}"></i>`).join("");
+    $(".setting", box).hidden = ci > 0;
+    ol.innerHTML = ""; note.hidden = true; nx.disabled = true;
+    nx.textContent = last ? "Xong truyện →" : "Chương tiếp →"; nx.classList.toggle("fin", last);
+    paintCount(false); paintLayers();
+    const my = token; setTimeout(() => reveal(0, my), 250);
+  }
+  $(".ltr", box).onclick = () => { S.layers.tr = !S.layers.tr; save(); paintLayers(); };
+  const bp = $(".lpy", box); if (bp) bp.onclick = () => { S.layers.py = !S.layers.py; save(); paintLayers(); };
+  $(".rep", box).onclick = () => drawChap();
+  nx.onclick = () => {
+    if (ci < chaps.length - 1) { ci++; drawChap(); return; }
+    token++; stopAudio();
+    finish({ learn: true, extra: `Nghe ${chaps.length} chương, ${dayWords.size} từ nghe hiểu hôm nay (tổng ${total()} từ)` });
+  };
+  drawChap();
+}
+
 /* ---------- mẫu câu: 3 bước dễ hiểu — xem và nghe mẫu → tự lắp câu → câu nào đúng? ---------- */
 function patTokens(L, t) {
   if (L !== "zh") return String(t).split(/\s+/).filter(Boolean);
@@ -3765,6 +3870,7 @@ const ICON = {
 /* biểu tượng từng dạng bài */
 const TYPE_ICON = {
   T: '<rect x="8" y="13" width="24" height="18" rx="3" transform="rotate(-8 20 22)"/><rect x="16" y="15" width="24" height="18" rx="3" fill="var(--tile-bg)"/><path d="M22 22h12M22 27h8"/>',
+  O: '<path d="M8 10h14a4 4 0 0 1 4 4v26a3 3 0 0 0-3-3H8z"/><path d="M40 10H26v30a3 3 0 0 1 3-3h11z"/>',
   S: '<rect x="6" y="10" width="36" height="24" rx="4"/><path d="M21 17v10l8-5z"/><path d="M14 40h20"/>',
   P: '<path d="M8 16h10M8 24h32M8 32h20"/><rect x="21" y="11" width="19" height="10" rx="2"/>',
   A: '<rect x="9" y="12" width="26" height="20" rx="4"/><rect x="15" y="17" width="26" height="20" rx="4" fill="var(--tile-bg)"/><path d="M22 27h12M22 31h8"/>',
@@ -3787,9 +3893,10 @@ const TYPE_ICON = {
   V: '<rect x="6" y="14" width="26" height="26" rx="3"/><path d="M6 27h26M19 14v26" stroke-dasharray="2 3"/><path d="M42 8l-14 14-2 6 6-2 14-14z"/>',
   W: '<rect x="6" y="14" width="26" height="26" rx="3"/><path d="M6 27h26M19 14v26" stroke-dasharray="2 3"/><path d="M42 8l-14 14-2 6 6-2 14-14z"/>'
 };
-const TINT = { Q: "green", U: "zh", W: "sun", V: "zh", T: "green", S: "slate", P: "en", A: "sun", B: "en", C: "zh", D: "zh", E: "en", F: "green", G: "en", H: "zh", I: "sun", J: "green", K: "en", L: "slate", M: "green", N: "zh", R: "sun" };
+const TINT = { O: "zh", Q: "green", U: "zh", W: "sun", V: "zh", T: "green", S: "slate", P: "en", A: "sun", B: "en", C: "zh", D: "zh", E: "en", F: "green", G: "en", H: "zh", I: "sun", J: "green", K: "en", L: "slate", M: "green", N: "zh", R: "sun" };
 const HOW = {
   T: ["Nghe và đọc mặt trước của thẻ.", "Chạm thẻ để lật: xem nghĩa, câu ví dụ và ghi chú.", "Thẻ nào khó thì lưu vào kho ôn rồi sang thẻ tiếp."],
+  O: ["Nghe từng chương, câu mới tự hiện ra.", "Bật hoặc tắt lớp bính âm và lớp nghĩa khi cần.", "Hết chương bấm Chương tiếp."],
   S: ["Bấm Phát cả cảnh hoặc xem từng câu.", "Bật hoặc tắt phụ đề khi cần.", "Xem hết cảnh rồi mới sang bài tập."],
   P: ["Đọc công thức và nghe câu mẫu.", "Xem lỗi hay gặp và vì sao sai.", "Bài tập ngay sau sẽ hỏi đúng các mẫu này."],
   A: ["Đọc nghĩa tiếng Việt trên thẻ.", "Tự nhớ, gõ câu {L} rồi bấm Kiểm tra.", "Sai thì xem chỗ tô đỏ và sửa ngay trong ô."],
@@ -3816,6 +3923,7 @@ const HOW = {
 const TIPS = {
   T: { all: ["Nói to từng từ 2–3 lần theo âm mẫu, đừng chỉ nhìn.", "Tự đoán nghĩa trước khi lật thẻ: nhớ chủ động thì nhớ lâu hơn.", "Lưu ngay thẻ khó vào kho ôn, ngày mai ôn lại."], zh: ["Chưa cần nhớ mặt chữ: gắn âm thanh, bính âm và chữ Hán với tranh trước.", "Để ý thanh điệu ngay từ đầu; vừa đọc vừa vẽ tay theo cao độ."] },
   Q: { all: ["Nghe hết rồi mới chọn, đừng đoán theo đáp án.", "Sai thì bấm Nghe lại, lặp lại to từ đó một lần rồi chọn tiếp."] },
+  O: { all: ["Lần 1 mở cả hai lớp để hiểu truyện, lần 2 tắt lớp nghĩa rồi nghe lại.", "Nghe xong chương, thử kể lại bằng lời của mình."], zh: ["Lần 3 tắt cả bính âm: nhìn chữ Hán và nghe."] },
   S: { all: ["Lần 1 nghe để hiểu ý chính, lần 2 nói nhỏ theo từng câu.", "Tắt phần nghĩa ở lần nghe thứ hai để thử sức."], zh: ["Nhìn bính âm dưới chữ Hán; tập trung vào thanh điệu."] },
   B: { all: ["Đọc câu hỏi trước khi nghe để biết cần nghe gì.", "Nghe 2 lần: lần 1 lấy ý, lần 2 kiểm tra chi tiết."] },
   C: { all: ["Đeo tai nghe và nói ở chỗ yên tĩnh để máy nghe rõ.", "Nói to, đúng tốc độ mẫu; nói lại câu nào dưới 70%.", "Nghe lại giọng mình rồi so với mẫu: tai bạn sẽ nhạy dần."], zh: ["Mỗi lần chỉ sửa một chữ màu vàng (sai thanh) rồi nói lại cả câu."] },
@@ -3843,6 +3951,7 @@ const TIPS_EN = {
 };
 const HOW_ZH = {
   T: ["Nhìn tranh, bấm Nghe, nhìn chữ Hán và bính âm.", "Nói to theo 2–3 lần, rồi chạm thẻ để xem nghĩa.", "Thẻ nào khó thì lưu vào kho ôn."],
+  O: ["Nghe từng chương; câu mới tự hiện ra kèm chữ Hán.", "Bật hoặc tắt lớp bính âm và lớp nghĩa (Anh · Việt) khi cần; chạm chữ để tra.", "Nghe câu nào thì nói nhỏ theo câu đó. Hết chương bấm Chương tiếp."],
   S: ["Bấm Phát cả cảnh, nghe với chữ Hán, bính âm và nghĩa Anh · Việt.", "Nghe câu nào thì nói nhỏ theo câu đó.", "Chưa cần nhớ mặt chữ, bước 3 mới học kỹ."],
   B: ["Bấm Nghe, nghe 1–2 lần.", "Chọn đáp án (chữ Hán có bính âm bên dưới).", "Sai thì nghe lại chậm rồi chọn lại."],
   C: ["Câu mẫu tự phát; nghe xong nút 🎤 hiện ra.", "Bấm 🎤 và nói theo; chưa sẵn sàng thì nghe lại mẫu hoặc nghe chậm.", "Xem chữ nào chuẩn, chữ nào cần chỉnh thanh điệu, rồi nói lại hoặc sang câu tiếp."],
@@ -4009,7 +4118,7 @@ function viewDay(main, d) {
 function nextDayId(d) { if (d.demo) { const ds = DEMO_DAYS.filter(x => x.demo === d.demo), j = ds.indexOf(d); return j < ds.length - 1 ? ds[j + 1].id : "lo-trinh"; } const i = WDAYS.indexOf(d); return i < WDAYS.length - 1 ? WDAYS[i + 1].id : "trang-chu"; }
 const LEARNK = ["cards", "scene", "pattern"];
 function typeName(c) { const rd = parseRoute().d; if (S.lang === "en" && rd && rd.demo && ZH_STAGE[c]) { const n = { T: "Thẻ nghe", Q: "Nghe chọn nghĩa", S: "Nghe cảnh", B: "Nghe hiểu", C: "Nhại theo", P: "Mẫu câu", I: "Hội thoại", U: "Nhận mặt từ", E: "Từ vựng", G: "Ngữ pháp", J: "Đọc", H: "Dạng đề quốc tế", W: "Từ dễ nhầm", V: "Viết có hướng dẫn" }[c]; return "Bước " + ZH_STAGE[c] + " · " + n; }
-  if (S.lang === "zh" && typeof ZH_STAGE !== "undefined" && ZH_STAGE[c]) { const n = { T: "Thẻ nghe", Q: "Nghe chọn nghĩa", S: "Nghe cảnh", B: "Nghe hiểu", C: "Nhại theo", P: "Mẫu câu", I: "Hội thoại", U: "Nhận mặt chữ", E: "Từ vựng", G: "Ngữ pháp", J: "Đọc", H: "Dạng đề HSK", W: "Đếm nét", V: "Hướng dẫn viết" }[c]; return "Bước " + ZH_STAGE[c] + " · " + n; } return { T: "Học trước · Thẻ", S: "Học trước · Cảnh", P: "Học trước · Mẫu câu", A: "Ôn nhanh", B: "Nghe hiểu", C: "Nhại theo", D: S.lang === "zh" ? "Thanh điệu" : "Phát âm", E: "Từ vựng", F: "Xếp câu", G: "Điền chỗ trống", H: "Luyện nói", I: "Đóng vai AI", J: "Đọc", K: "Viết", L: "Kiểm tra", M: "Can-do", N: "Sửa lỗi", R: "Kho ôn" }[c] || ""; }
+  if (S.lang === "zh" && typeof ZH_STAGE !== "undefined" && ZH_STAGE[c]) { const n = { T: "Thẻ nghe", Q: "Nghe chọn nghĩa", O: "Truyện của ngày", S: "Nghe cảnh", B: "Nghe hiểu", C: "Nhại theo", P: "Mẫu câu", I: "Hội thoại", U: "Nhận mặt chữ", E: "Từ vựng", G: "Ngữ pháp", J: "Đọc", H: "Dạng đề HSK", W: "Đếm nét", V: "Hướng dẫn viết" }[c]; return "Bước " + ZH_STAGE[c] + " · " + n; } return { T: "Học trước · Thẻ", S: "Học trước · Cảnh", P: "Học trước · Mẫu câu", A: "Ôn nhanh", B: "Nghe hiểu", C: "Nhại theo", D: S.lang === "zh" ? "Thanh điệu" : "Phát âm", E: "Từ vựng", F: "Xếp câu", G: "Điền chỗ trống", H: "Luyện nói", I: "Đóng vai AI", J: "Đọc", K: "Viết", L: "Kiểm tra", M: "Can-do", N: "Sửa lỗi", R: "Kho ôn" }[c] || ""; }
 
 /* ---------- trình làm bài ---------- */
 function viewPlayer(main, d, k) {
@@ -4033,12 +4142,14 @@ function playerShell(main, ex, o) {
   $(".spd", wrap).onclick = e => { S.slow = !S.slow; save(); e.currentTarget.setAttribute("aria-pressed", S.slow); e.currentTarget.textContent = S.slow ? "Đọc chậm" : "Tốc độ thường"; };
   const body = $(".pbody", wrap), done = ex.key && S.done[ex.key];
   const how = (ex.advHow || (S.lang === "zh" && HOW_ZH[ex.code]) || (S.lang === "en" && HOW_EN[ex.code]) || HOW[ex.code] || []).map(s => s.replace("{L}", langWord()));
+  const bt = "CISBQJTXYO".includes(ex.code) || (S.lang === "en" && "UW".includes(ex.code)) ? browserTip(true) : "";
+  const btWarn = /class="btip warn"/.test(bt);
+  const tips = tipsFor(ex.code), more = [ex.rule ? `<div class="rulebox"><p class="eyebrow">Quy tắc cần nhớ</p><p>${ex.rule}</p></div>` : "", !btWarn ? bt : "", tips.length ? `<div class="tipbox"><p class="eyebrow">Làm sao cho hiệu quả</p><ul>${tips.map(s => `<li>${esc(s)}</li>`).join("")}</ul></div>` : ""].filter(Boolean).join("");
   const intro = el(`<div class="intro"><div class="rulecard"><p class="eyebrow">Cách làm</p><ol>${how.map(s => `<li>${esc(s)}</li>`).join("")}</ol></div>
-    ${ex.rule ? `<div class="rulebox"><p class="eyebrow">Quy tắc cần nhớ</p><p>${ex.rule}</p></div>` : ""}
-    ${"CISBQJTXY".includes(ex.code) || (S.lang === "en" && "UW".includes(ex.code)) ? browserTip(true) : ""}
-    ${tipsFor(ex.code).length ? `<div class="tipbox"><p class="eyebrow">Làm sao cho hiệu quả</p><ul>${tipsFor(ex.code).map(s => `<li>${esc(s)}</li>`).join("")}</ul></div>` : ""}
+    ${btWarn ? bt : ""}
     ${done ? `<p class="note">Bạn đã làm xong bài này (+${done.p} điểm). Làm lại để luyện thêm, điểm không cộng lần hai.</p>` : ""}
-    <div class="row center"><button type="button" class="btn primary huge go">${ICON.play} ${done ? "Làm lại" : "Bắt đầu"}</button></div></div>`);
+    <div class="row center"><button type="button" class="btn primary huge go">${ICON.play} ${done ? "Làm lại" : "Bắt đầu"}</button></div>
+    ${more ? `<details class="intromore"><summary>Quy tắc, mẹo và lưu ý</summary>${more}</details>` : ""}</div>`);
   body.appendChild(intro);
   $(".go", intro).onclick = () => {
     body.innerHTML = "";
@@ -4053,6 +4164,7 @@ function playerShell(main, ex, o) {
     else if (ex.kind === "cando") runCando(ex, body, fin);
     else if (ex.kind === "cards") runCards(ex, body, fin);
     else if (ex.kind === "scene") runScene(ex, body, fin);
+    else if (ex.kind === "story") runStory(ex, body, fin);
     else if (ex.kind === "pattern") runPatterns(ex, body, fin);
     else if (ex.kind === "strokes") runStrokes(ex, body, fin);
     else if (ex.kind === "wguide") runWGuide(ex, body, fin);
