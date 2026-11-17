@@ -13,7 +13,7 @@ HAN = re.compile(r"[一-鿿]")
 def week_files():
     for f in sorted(glob.glob(os.path.join(C, "*.json"))):
         n = os.path.basename(f)[:-5]
-        if re.match(r"^(zh|en)-(w\d+|[a-z]\d-\d)$", n): yield n, json.load(open(f, encoding="utf-8"))
+        if re.match(r"^(zh|en)-(w\d+|[a-z]\d-(?:\d|gt))$", n): yield n, json.load(open(f, encoding="utf-8"))
 
 def clips(W):
     L = W["lang"]; out = []

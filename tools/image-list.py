@@ -102,7 +102,7 @@ EXTRA_CARDS = {
 }
 def _week_files():
     for f in sorted(pathlib.Path(__file__).with_name("course").glob("*.json")):
-        if re.match(r"^(zh|en)-(w\d+|[a-z]\d-\d)$", f.stem): yield f
+        if re.match(r"^(zh|en)-(w\d+|[a-z]\d-(?:\d|gt))$", f.stem): yield f
 def _cast_key(m):
     return ("char-" + m["key"]) if m["key"] in KNOWN_CHARS else (m.get("img") or "cast-" + m["key"])
 used_cards = set()
