@@ -13,7 +13,7 @@ QA = json.load(open(os.path.join(R, "tools", "image-qa.json"), encoding="utf-8")
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(R, "tools", "shots", "duyet-tranh.html")
 NEW_ICONS = set(re.findall(r'^\s+"?([a-z][\w-]*)"?: \[', TPL[TPL.find("/* hình vẽ bằng mã cho các thẻ chưa có tranh"):TPL.find("/* dùng lại ảnh thật")], re.M))
 DAYN = ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6"]
-WEEK_NAME = {"zh-w1": "Trung · Tuần 1", "zh-w2": "Trung · Tuần 2", "zh-w5": "Trung · học thử HSK2", "zh-h4-1": "Trung · nâng cao HSK4",
+WEEK_NAME = {"zh-w1": "Trung · Tuần 1", "zh-w2": "Trung · Tuần 2", "zh-h2-1": "Trung · học thử HSK2", "zh-w5": "Trung · tuần 2 HSK2", "zh-h4-gt": "Trung · học thử HSK4", "zh-h4-1": "Trung · tuần 2 HSK4",
              "en-w1": "Anh · Tuần 1", "en-w2": "Anh · Tuần 2", "en-a2-1": "Anh · học thử A2", "en-b1-1": "Anh · học thử B1", "en-b2-1": "Anh · nâng cao B2"}
 
 # --- chạy phần vẽ của trang trong node để lấy đúng hình học viên đang thấy ---

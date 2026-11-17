@@ -13,7 +13,7 @@ for wk in sys.argv[1:]:
             if "(tên)" not in str(v[2]) and k not in newWords: newWords.append(k)   # từ mới ngoài thẻ (vd. 报价): cũng hiện bính âm
         d["adv"] = True; days.append(d)
     cast = [{k: v for k, v in c.items()} for c in P["cast"]]
-    W = {"lang": P["lang"], "week": 1, "demo": True, "adv": True, "level": P["level"], "track": P["track"], "title": P["title"], "cando": P["cando"], "story": P["story"],
+    W = {"lang": P["lang"], "week": P.get("week", 1), "demo": True, "adv": True, "level": P["level"], "track": P["track"], "title": P["title"], "cando": P["cando"], "story": P["story"],
          "cast": cast, "days": days,
          "newScenes": [{"key": d["scene"]["img"], "prompt": d["scene"].get("imgPrompt", "")} for d in days], "newImages": []}
     if P["lang"] == "zh": W["pinyin"] = "new"; W["newWords"] = newWords

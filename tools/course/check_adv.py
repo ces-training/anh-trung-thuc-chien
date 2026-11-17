@@ -76,7 +76,7 @@ def zh_texts(d):
 
 def check_day(d, n, wk, L, extra_gloss, known):
     P = plan[wk]["days"][str(n)]; did = d.get("id", f"ngày {n}")
-    pre = {"zh": "h4-w1-thu-", "en": "b2-w1-thu-"}[L]
+    pre = plan[wk].get("idPrefix") or {"zh": "h4-w1-thu-", "en": "b2-w1-thu-"}[L]
     if d.get("id") != pre + str(n + 1): E(f"{did}: id phải là {pre}{n + 1}")
     ws = [c.get("w") for c in d.get("cards", [])]
     if ws != P["cards"]: E(f"{did}: thẻ từ phải đúng danh sách plan-adv.json theo thứ tự: {P['cards']} (đang có {ws})")

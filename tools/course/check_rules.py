@@ -5,7 +5,10 @@ D = os.path.dirname(os.path.abspath(__file__)); V = os.path.join(D, "..", "vendo
 H = lambda s: re.findall(r"[一-鿿]", str(s))
 errs, warns = [], []
 E = errs.append; W = warns.append
-weeks = sorted(int(re.search(r"zh-w(\d+)", f).group(1)) for f in glob.glob(os.path.join(D, "zh-w*.json")))
+# tuần chính zh-wN, cộng tuần học thử H2–3 (zh-h2-*.json) xếp ngay trước tuần 5 (tuần 5 cũ thành tuần 2 của lộ trình H2–3)
+FILES = sorted([(int(re.search(r"zh-w(\d+)", f).group(1)), 1, f) for f in glob.glob(os.path.join(D, "zh-w*.json"))]
+               + [(5, 0, f) for f in glob.glob(os.path.join(D, "zh-h2-*.json"))])
+weeks = [x[0] for x in FILES]
 gloss = json.load(open(os.path.join(V, "zh-gloss.json"), encoding="utf-8"))
 pairs = json.load(open(os.path.join(V, "stroke-pairs.json"), encoding="utf-8"))
 guide = json.load(open(os.path.join(V, "write-guide.json"), encoding="utf-8"))
@@ -20,12 +23,12 @@ known = set()
 # từ người học đã biết trước tuần demo (vd. HSK2 vào thẳng tuần 5 đã biết thẻ tuần 1–4 của sheet)
 kb_p = os.path.join(D, "known-before.json")
 kb = json.load(open(kb_p, encoding="utf-8")) if os.path.exists(kb_p) else None
-for wk in weeks:
+for wk, _o, zf in FILES:
     if kb and wk >= kb["from_week"]:
         for k, ws in kb.items():
             if isinstance(ws, list):
                 for w in ws: known |= set(H(w))
-    zh = json.load(open(os.path.join(D, f"zh-w{wk}.json"), encoding="utf-8"))
+    zh = json.load(open(zf, encoding="utf-8"))
     en_p = os.path.join(D, f"en-w{wk}.json")
     # tuần demo của một lộ trình riêng (vd. HSK2 tuần 5) không có bản tiếng Anh cùng số tuần
     if not os.path.exists(en_p) and not zh.get("demo"): E(f"tuần {wk}: thiếu bản tiếng Anh en-w{wk}.json (hai ngôn ngữ phải song song)")

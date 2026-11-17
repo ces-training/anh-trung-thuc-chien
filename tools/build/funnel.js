@@ -45,7 +45,7 @@ async function refreshStatus(code) {
   } catch (e) { return { ok: false }; }
 }
 /* khoá từ tuần 2 của hành trình chính; tuần học thử và tuần 1 luôn mở */
-function locked(d) { return !TEACHER && d && !d.demo && (d.week || 1) >= 2 && !planActive(); }
+function locked(d) { return !TEACHER && d && (d.demo ? d.w2 && !demoStarted(d.demo) : (d.week || 1) >= 2) && !planActive(); }
 
 /* ---------- thẻ ưu đãi, biểu mẫu đặt chỗ, khung chuyển khoản ---------- */
 function payBox(o) {
@@ -190,7 +190,7 @@ function assignTrial(L, tid) {
   if (T && T.done) { T.tested = true; save(); return; }
   setTrial(L, go.id, "test");
 }
-function trialDays(L, t) { return t.demo ? DEMO_DAYS.filter(x => x.demo === t.demo) : WDAYS.filter(x => (x.week || 1) === 1 && /thu-\d$/.test(x.id)); }
+function trialDays(L, t) { return t.demo ? DEMO_DAYS.filter(x => x.demo === t.demo && !x.w2) : WDAYS.filter(x => (x.week || 1) === 1 && /thu-\d$/.test(x.id)); }
 function trialNext(L, t) { const ds = trialDays(L, t), d = ds.find(x => !S.daily[L + x.id]); return d ? d.id : trackStart(t); }
 /* bước tiếp sau khi xong tuần học thử */
 function nextStepHTML(L) {
@@ -216,6 +216,7 @@ function viewTrialLock(main, d, T) {
 /* ---------- ngày bị khoá ---------- */
 function viewLocked(main, d) {
   const L = dayLang(d);
+  d = Object.assign(Object.create(Object.getPrototypeOf(d)), d, { week: d.w2 ? 2 : d.week });   /* tuần 2 của lộ trình học thử: hiện "Tuần 2" */
   if (trialUsed(L) && !tested(L)) {
     main.appendChild(el(`<div class="roomv">${roomHead("journey-" + S.lang, d.wlabel || d.label, "Bạn đã xong tuần học thử", "Làm bài kiểm tra đầu vào 15–20 phút để CES xếp đúng lộ trình cho bạn, rồi học tiếp.")}<section class="card2">${nextStepHTML(L)}</section></div>`));
     bindSkip(main); applyPhotos(main); return;
@@ -247,7 +248,7 @@ finishEx = function (ex, d, k, sum, body) {
   if (before || !S.daily[S.lang + d.id]) return;
   const doneN = Object.keys(S.done).length;
   track("day", { day: (d.wlabel || d.label) + (S.lang === "zh" ? " · Trung" : " · Anh"), doneN });
-  const trial = d.demo || (d.week || 1) === 1, card = $(".endcard", body), L = dayLang(d), T = trialOf(L);
+  const trial = d.demo ? !d.w2 : (d.week || 1) === 1, card = $(".endcard", body), L = dayLang(d), T = trialOf(L);
   if (trial && d.idx === 4 && T && T.used.includes(dayTrack(d)) && !T.done) { T.done = true; save(); }
   if (!trial || !card || planActive()) return;
   let html = "";
@@ -258,6 +259,7 @@ finishEx = function (ex, d, k, sum, body) {
   }
   if (d.idx === 0 && !orderOf("lop-nhom")) html = `<div class="offmini"><b>Tối thứ 4 có lớp nhóm với giáo viên</b><span>Giáo viên sửa đúng lỗi bạn hay sai. Giá học thử ${fmtVND(SITE.trial.class)}.</span><a class="btn primary" href="#uu-dai">Giữ chỗ</a></div>`;
   else if (d.idx === 2 && !orderOf("weekend-live")) html = `<div class="offmini"><b>Thứ 7 này mang 3 câu khoá ra Weekend Live</b><span>Giao lưu với cộng đồng và người nước ngoài, có đồ uống. Vé học thử ${fmtVND(SITE.trial.live)} (giảm 50%).</span><a class="btn primary" href="#uu-dai">Giữ vé</a></div>`;
+  else if (d.idx === 4 && d.demo && DEMO_NEXT[d.demo]) html = `<div class="offmini"><b>Bạn đã xong tuần học thử!</b><span>Tuần 2 đã sẵn sàng. Chọn gói để học tiếp tuần 2 và các tuần sau.</span><a class="btn primary" href="#chon-goi">Chọn gói học tiếp</a></div>`;
   else if (d.idx === 4 && d.demo) {
     /* tuần học thử HSK2, A2, B1 chưa có tuần 2: mời đăng ký chờ lớp của đúng lộ trình, chưa bán gói web */
     const t = trackOf(d.lang, d.track), done = S.waitDemo && S.waitDemo[d.demo];

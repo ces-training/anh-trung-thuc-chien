@@ -1,304 +1,455 @@
 {
-  "zh-h4-1": {
-    "lang": "zh",
-    "level": "HSK4",
-    "track": "zh-c",
-    "title": "Hội chợ Quảng Châu: chào hàng, báo giá, đàm phán, xử lý sự cố, báo cáo",
-    "cando": "Hỏi và giới thiệu sản phẩm, so sánh báo giá, đàm phán giá và giao hàng, phàn nàn lịch sự khi hàng lỗi, tóm tắt kết quả và báo cáo quản lý bằng câu dài có từ nối",
-    "story": "阮安 (vai của bạn, nhân viên thu mua của một công ty Việt Nam) cùng đồng nghiệp 王丽 sang Quảng Châu dự hội chợ. Ở gian hàng cốc và bình nước văn phòng của công ty do 陈总 làm giám đốc, nhân viên bán hàng 小刘 giới thiệu sản phẩm. Hai bên hỏi giá, đàm phán, ký hợp đồng 2.000 chiếc cốc giá 21 tệ, giao về Hà Nội trước ngày 15 tháng 1. Lô hàng về muộn 3 ngày và có 200 chiếc hỏng; 阮安 gọi 陈总 để giải quyết. Cuối tuần 阮安 báo cáo 王经理 ở Hà Nội và nhắn WeChat chốt việc.",
-    "cast": [
-      {
-        "key": "an",
-        "name": "阮安",
-        "py": "Ruǎn Ān",
-        "vi": "nhân viên thu mua người Việt, khoảng 27 tuổi (vai của chính bạn)"
-      },
-      {
-        "key": "wangli",
-        "name": "王丽",
-        "py": "Wáng Lì",
-        "vi": "đồng nghiệp người Trung Quốc ở công ty, đi cùng bạn"
-      },
-      {
-        "key": "wangjl",
-        "name": "王经理",
-        "py": "Wáng jīnglǐ",
-        "vi": "quản lý ở Hà Nội, nhận báo cáo"
-      },
-      {
-        "key": "chenzong",
-        "name": "陈总",
-        "py": "Chén zǒng",
-        "vi": "giám đốc nhà máy cốc và bình nước, khoảng 50 tuổi, thẳng thắn",
-        "look": "a Chinese man about 50, short grey hair, navy suit, no tie, friendly but firm"
-      },
-      {
-        "key": "xiaoliu",
-        "name": "小刘",
-        "py": "Xiǎo Liú",
-        "vi": "nhân viên bán hàng ở gian hàng, khoảng 25 tuổi, nhiệt tình",
-        "look": "a Chinese woman about 25, ponytail, white shirt with a company lanyard"
-      }
+ "zh-h4-1": {
+  "lang": "zh",
+  "level": "HSK4",
+  "track": "zh-c",
+  "title": "Hội chợ Quảng Châu: chào hàng, báo giá, đàm phán, xử lý sự cố, báo cáo",
+  "cando": "Hỏi và giới thiệu sản phẩm, so sánh báo giá, đàm phán giá và giao hàng, phàn nàn lịch sự khi hàng lỗi, tóm tắt kết quả và báo cáo quản lý bằng câu dài có từ nối",
+  "story": "阮安 (vai của bạn, nhân viên thu mua của một công ty Việt Nam) cùng đồng nghiệp 王丽 sang Quảng Châu dự hội chợ. Ở gian hàng cốc và bình nước văn phòng của công ty do 陈总 làm giám đốc, nhân viên bán hàng 小刘 giới thiệu sản phẩm. Hai bên hỏi giá, đàm phán, ký hợp đồng 2.000 chiếc cốc giá 21 tệ, giao về Hà Nội trước ngày 15 tháng 1. Lô hàng về muộn 3 ngày và có 200 chiếc hỏng; 阮安 gọi 陈总 để giải quyết. Cuối tuần 阮安 báo cáo 王经理 ở Hà Nội và nhắn WeChat chốt việc.",
+  "cast": [
+   {
+    "key": "an",
+    "name": "阮安",
+    "py": "Ruǎn Ān",
+    "vi": "nhân viên thu mua người Việt, khoảng 27 tuổi (vai của chính bạn)"
+   },
+   {
+    "key": "wangli",
+    "name": "王丽",
+    "py": "Wáng Lì",
+    "vi": "đồng nghiệp người Trung Quốc ở công ty, đi cùng bạn"
+   },
+   {
+    "key": "wangjl",
+    "name": "王经理",
+    "py": "Wáng jīnglǐ",
+    "vi": "quản lý ở Hà Nội, nhận báo cáo"
+   },
+   {
+    "key": "chenzong",
+    "name": "陈总",
+    "py": "Chén zǒng",
+    "vi": "giám đốc nhà máy cốc và bình nước, khoảng 50 tuổi, thẳng thắn",
+    "look": "a Chinese man about 50, short grey hair, navy suit, no tie, friendly but firm"
+   },
+   {
+    "key": "xiaoliu",
+    "name": "小刘",
+    "py": "Xiǎo Liú",
+    "vi": "nhân viên bán hàng ở gian hàng, khoảng 25 tuổi, nhiệt tình",
+    "look": "a Chinese woman about 25, ponytail, white shirt with a company lanyard"
+   }
+  ],
+  "days": {
+   "1": {
+    "title": "Ở gian hàng: giới thiệu sản phẩm, xin hàng mẫu",
+    "scene": "scene-zh-fair-d1",
+    "partner": "小刘",
+    "cards": [
+     "做生意",
+     "产品",
+     "质量",
+     "价格",
+     "样品",
+     "技术",
+     "特点",
+     "优点",
+     "适合",
+     "顾客",
+     "提供"
     ],
-    "days": {
-      "1": {
-        "title": "Ở gian hàng: giới thiệu sản phẩm, xin hàng mẫu",
-        "scene": "scene-zh-fair-d1",
-        "partner": "小刘",
-        "cards": [
-          "做生意",
-          "产品",
-          "质量",
-          "价格",
-          "样品",
-          "技术",
-          "特点",
-          "优点",
-          "适合",
-          "顾客",
-          "提供"
-        ],
-        "focus": "Giới thiệu và hỏi đặc điểm sản phẩm; 不但…而且; 比 so sánh; xin hàng mẫu",
-        "write": "Tin nhắn WeChat cho 王经理: giới thiệu nhanh sản phẩm vừa xem (60–90 chữ)",
-        "longturn": "Nói 1 phút giới thiệu một sản phẩm của công ty bạn cho khách"
-      },
-      "2": {
-        "title": "Hỏi báo giá theo số lượng, so sánh nhà cung cấp",
-        "scene": "scene-zh-fair-d2",
-        "partner": "陈总",
-        "cards": [
-          "数量",
-          "打折",
-          "估计",
-          "至少",
-          "超过",
-          "详细",
-          "说明",
-          "考虑",
-          "合适",
-          "标准",
-          "订单"
-        ],
-        "focus": "Hỏi giá theo số lượng tối thiểu, chiết khấu; 如果…就; 至少/超过; so sánh hai nhà cung cấp",
-        "write": "Email ngắn xin báo giá chi tiết (80–120 chữ)",
-        "longturn": "Nói 1 phút so sánh hai nhà cung cấp và nói bạn chọn bên nào, vì sao"
-      },
-      "3": {
-        "title": "Đàm phán giá, thời gian giao hàng, ký hợp đồng",
-        "scene": "scene-zh-fair-d3",
-        "partner": "陈总",
-        "cards": [
-          "商量",
-          "降低",
-          "按时",
-          "保证",
-          "条件",
-          "合同",
-          "提前",
-          "推迟",
-          "付款",
-          "否则",
-          "接受"
-        ],
-        "focus": "Đề nghị giảm giá có điều kiện; 只要…就; 否则; giao trước Tết; ký hợp đồng 2.000 chiếc",
-        "write": "Tin nhắn xác nhận các điều kiện đã thống nhất (70–100 chữ)",
-        "longturn": "Nói 1 phút trình bày đề nghị của bạn để hai bên cùng có lợi"
-      },
-      "4": {
-        "title": "Hàng về bị lỗi và chậm: gọi điện giải quyết",
-        "scene": "scene-zh-office-d4",
-        "partner": "陈总",
-        "cards": [
-          "情况",
-          "严重",
-          "原因",
-          "解释",
-          "抱歉",
-          "负责",
-          "及时",
-          "责任",
-          "赔偿",
-          "重新",
-          "误会"
-        ],
-        "focus": "Phàn nàn lịch sự, hỏi nguyên nhân, đề nghị giải quyết; 由于; 虽然…但是; 一…就",
-        "write": "Email phàn nàn lịch sự và đề nghị cách giải quyết (90–130 chữ)",
-        "longturn": "Nói 1 phút kể lại sự cố hàng lỗi và cách bạn đã giải quyết"
-      },
-      "5": {
-        "title": "Tổng kết chuyến đi, báo cáo quản lý",
-        "scene": "scene-zh-office-d5",
-        "partner": "王经理",
-        "cards": [
-          "总结",
-          "结果",
-          "顺利",
-          "进行",
-          "安排",
-          "通知",
-          "联系",
-          "任务",
-          "效果",
-          "获得",
-          "市场"
-        ],
-        "focus": "Tóm tắt kết quả, nêu kế hoạch tiếp; 首先…然后…最后 (chỉ khi chữ đã học), 通过, 对…来说",
-        "write": "Báo cáo ngắn gửi 王经理 về chuyến công tác (100–140 chữ)",
-        "longturn": "Nói 1 phút tổng kết chuyến công tác: kết quả, khó khăn, việc tiếp theo"
-      }
-    }
-  },
-  "en-b2-1": {
-    "lang": "en",
-    "level": "B2",
-    "track": "en-d",
-    "title": "Trình bày dự án với đối tác nước ngoài: số liệu, thuyết trình, đàm phán, phản biện, báo cáo",
-    "cando": "Mô tả số liệu và xu hướng, thuyết trình đề xuất hợp tác, đàm phán điều khoản, trả lời câu hỏi khó và phản biện có lập luận, viết báo cáo và email chốt điều khoản",
-    "story": "Nối tiếp tuần B1: ứng dụng Bright Star đã chạy thử ở Đà Nẵng (1/7–31/8) và ra mắt toàn quốc. Nordwind Retail, chuỗi bán lẻ Đan Mạch có 40 cửa hàng ở Đông Nam Á, muốn hợp tác đưa ứng dụng vào hệ thống cửa hàng. An (vai của bạn) trình bày số liệu chạy thử, cùng Sarah thuyết trình với bà Ingrid Larsen (Head of Partnerships), đàm phán độc quyền và hoa hồng, trả lời câu hỏi khó về dữ liệu khách hàng và rủi ro, rồi viết báo cáo cho ban giám đốc và email chốt điều khoản.",
-    "cast": [
-      {
-        "key": "an",
-        "name": "An",
-        "vi": "chuyên viên marketing, phụ trách số liệu (vai của chính bạn)"
-      },
-      {
-        "key": "sarah",
-        "name": "Sarah Lee",
-        "vi": "quản lý dự án, dẫn cuộc họp với đối tác"
-      },
-      {
-        "key": "kevin",
-        "name": "Kevin",
-        "vi": "phụ trách sales, muốn chốt nhanh"
-      },
-      {
-        "key": "tom",
-        "name": "Tom",
-        "vi": "phụ trách sản phẩm, lo về kỹ thuật và bảo mật"
-      },
-      {
-        "key": "linh",
-        "name": "Linh",
-        "vi": "tài chính, tính chi phí và hoa hồng"
-      },
-      {
-        "key": "ingrid",
-        "name": "Ingrid Larsen",
-        "vi": "Head of Partnerships của Nordwind Retail, người Đan Mạch khoảng 45 tuổi, sắc sảo, hỏi thẳng",
-        "look": "a Danish woman about 45, short blonde hair, glasses, grey blazer"
-      }
+    "focus": "Giới thiệu và hỏi đặc điểm sản phẩm; 不但…而且; 比 so sánh; xin hàng mẫu",
+    "write": "Tin nhắn WeChat cho 王经理: giới thiệu nhanh sản phẩm vừa xem (60–90 chữ)",
+    "longturn": "Nói 1 phút giới thiệu một sản phẩm của công ty bạn cho khách"
+   },
+   "2": {
+    "title": "Hỏi báo giá theo số lượng, so sánh nhà cung cấp",
+    "scene": "scene-zh-fair-d2",
+    "partner": "陈总",
+    "cards": [
+     "数量",
+     "打折",
+     "估计",
+     "至少",
+     "超过",
+     "详细",
+     "说明",
+     "考虑",
+     "合适",
+     "标准",
+     "订单"
     ],
-    "days": {
-      "1": {
-        "title": "Đọc số liệu chạy thử, mô tả xu hướng",
-        "scene": "scene-en-results-d1",
-        "partner": "Sarah",
-        "cards": [
-          "surge",
-          "steady",
-          "fluctuate",
-          "peak",
-          "decline",
-          "significant",
-          "approximately",
-          "proportion",
-          "outperform",
-          "forecast",
-          "retention",
-          "conversion rate"
-        ],
-        "focus": "Mô tả xu hướng: rose sharply / a sharp rise; so sánh số liệu; ước lượng (approximately, just over); quá khứ đơn và hiện tại hoàn thành",
-        "write": "IELTS Writing Task 1: một đoạn mô tả biểu đồ người dùng theo tháng (150–190 từ)",
-        "longturn": "IELTS Part 2: Describe a project you worked on that had surprising results"
-      },
-      "2": {
-        "title": "Thuyết trình đề xuất hợp tác",
-        "scene": "scene-en-pitch-d2",
-        "partner": "Ingrid Larsen",
-        "cards": [
-          "stakeholder",
-          "proposition",
-          "scalable",
-          "leverage",
-          "rollout",
-          "phase",
-          "highlight",
-          "outline",
-          "roadmap",
-          "initiative",
-          "compelling",
-          "in a nutshell"
-        ],
-        "focus": "Mở và dẫn bài thuyết trình (I'd like to walk you through…, Let me move on to…), nêu lợi ích, chia giai đoạn; mệnh đề quan hệ",
-        "write": "Email đề xuất hợp tác gửi Ingrid sau buổi thuyết trình (130–170 từ)",
-        "longturn": "Present a 2-minute pitch for a product or service you believe in"
-      },
-      "3": {
-        "title": "Đàm phán điều khoản: độc quyền, hoa hồng",
-        "scene": "scene-en-negotiation-d3",
-        "partner": "Ingrid Larsen",
-        "cards": [
-          "terms",
-          "exclusivity",
-          "commission",
-          "concession",
-          "counter-offer",
-          "non-negotiable",
-          "leeway",
-          "flexible",
-          "trade-off",
-          "in return",
-          "deal-breaker",
-          "meet halfway"
-        ],
-        "focus": "Đề nghị và nhượng bộ có điều kiện: If you could…, we would…; Provided that / As long as; từ chối lịch sự; câu điều kiện loại 2",
-        "write": "Email tóm tắt đề nghị và nhượng bộ sau buổi đàm phán (130–170 từ)",
-        "longturn": "Describe a time you had to negotiate or compromise to reach an agreement"
-      },
-      "4": {
-        "title": "Trả lời câu hỏi khó, phản biện có lập luận",
-        "scene": "scene-en-qa-d4",
-        "partner": "Ingrid Larsen",
-        "cards": [
-          "concern",
-          "valid",
-          "address",
-          "assumption",
-          "evidence",
-          "mitigate",
-          "contingency",
-          "reassure",
-          "acknowledge",
-          "with all due respect",
-          "safeguard",
-          "on the contrary"
-        ],
-        "focus": "Ghi nhận rồi phản biện: That's a valid point, but…; đưa bằng chứng; bị động (data is stored…); giảm rủi ro",
-        "write": "IELTS Writing Task 2: một đoạn thân bài nêu quan điểm có lập luận và ví dụ (150–190 từ)",
-        "longturn": "IELTS Part 3 dạng nói dài: Should companies share customer data with business partners? Give reasons and examples"
-      },
-      "5": {
-        "title": "Viết báo cáo cho ban giám đốc, email chốt điều khoản",
-        "scene": "scene-en-report-d5",
-        "partner": "Sarah",
-        "cards": [
-          "executive summary",
-          "findings",
-          "recommendation",
-          "outcome",
-          "implement",
-          "allocate",
-          "timeline",
-          "approval",
-          "consequently",
-          "whereas",
-          "overall",
-          "attached"
-        ],
-        "focus": "Cấu trúc báo cáo (purpose, findings, recommendations), văn phong trang trọng, từ nối kết quả và đối lập; câu bị động trong báo cáo",
-        "write": "Executive summary của báo cáo hợp tác Nordwind (150–190 từ)",
-        "longturn": "Summarise a meeting or decision for someone who was not there, in about 2 minutes"
-      }
-    }
+    "focus": "Hỏi giá theo số lượng tối thiểu, chiết khấu; 如果…就; 至少/超过; so sánh hai nhà cung cấp",
+    "write": "Email ngắn xin báo giá chi tiết (80–120 chữ)",
+    "longturn": "Nói 1 phút so sánh hai nhà cung cấp và nói bạn chọn bên nào, vì sao"
+   },
+   "3": {
+    "title": "Đàm phán giá, thời gian giao hàng, ký hợp đồng",
+    "scene": "scene-zh-fair-d3",
+    "partner": "陈总",
+    "cards": [
+     "商量",
+     "降低",
+     "按时",
+     "保证",
+     "条件",
+     "合同",
+     "提前",
+     "推迟",
+     "付款",
+     "否则",
+     "接受"
+    ],
+    "focus": "Đề nghị giảm giá có điều kiện; 只要…就; 否则; giao trước Tết; ký hợp đồng 2.000 chiếc",
+    "write": "Tin nhắn xác nhận các điều kiện đã thống nhất (70–100 chữ)",
+    "longturn": "Nói 1 phút trình bày đề nghị của bạn để hai bên cùng có lợi"
+   },
+   "4": {
+    "title": "Hàng về bị lỗi và chậm: gọi điện giải quyết",
+    "scene": "scene-zh-office-d4",
+    "partner": "陈总",
+    "cards": [
+     "情况",
+     "严重",
+     "原因",
+     "解释",
+     "抱歉",
+     "负责",
+     "及时",
+     "责任",
+     "赔偿",
+     "重新",
+     "误会"
+    ],
+    "focus": "Phàn nàn lịch sự, hỏi nguyên nhân, đề nghị giải quyết; 由于; 虽然…但是; 一…就",
+    "write": "Email phàn nàn lịch sự và đề nghị cách giải quyết (90–130 chữ)",
+    "longturn": "Nói 1 phút kể lại sự cố hàng lỗi và cách bạn đã giải quyết"
+   },
+   "5": {
+    "title": "Tổng kết chuyến đi, báo cáo quản lý",
+    "scene": "scene-zh-office-d5",
+    "partner": "王经理",
+    "cards": [
+     "总结",
+     "结果",
+     "顺利",
+     "进行",
+     "安排",
+     "通知",
+     "联系",
+     "任务",
+     "效果",
+     "获得",
+     "市场"
+    ],
+    "focus": "Tóm tắt kết quả, nêu kế hoạch tiếp; 首先…然后…最后 (chỉ khi chữ đã học), 通过, 对…来说",
+    "write": "Báo cáo ngắn gửi 王经理 về chuyến công tác (100–140 chữ)",
+    "longturn": "Nói 1 phút tổng kết chuyến công tác: kết quả, khó khăn, việc tiếp theo"
+   }
   }
+ },
+ "en-b2-1": {
+  "lang": "en",
+  "level": "B2",
+  "track": "en-d",
+  "title": "Trình bày dự án với đối tác nước ngoài: số liệu, thuyết trình, đàm phán, phản biện, báo cáo",
+  "cando": "Mô tả số liệu và xu hướng, thuyết trình đề xuất hợp tác, đàm phán điều khoản, trả lời câu hỏi khó và phản biện có lập luận, viết báo cáo và email chốt điều khoản",
+  "story": "Nối tiếp tuần B1: ứng dụng Bright Star đã chạy thử ở Đà Nẵng (1/7–31/8) và ra mắt toàn quốc. Nordwind Retail, chuỗi bán lẻ Đan Mạch có 40 cửa hàng ở Đông Nam Á, muốn hợp tác đưa ứng dụng vào hệ thống cửa hàng. An (vai của bạn) trình bày số liệu chạy thử, cùng Sarah thuyết trình với bà Ingrid Larsen (Head of Partnerships), đàm phán độc quyền và hoa hồng, trả lời câu hỏi khó về dữ liệu khách hàng và rủi ro, rồi viết báo cáo cho ban giám đốc và email chốt điều khoản.",
+  "cast": [
+   {
+    "key": "an",
+    "name": "An",
+    "vi": "chuyên viên marketing, phụ trách số liệu (vai của chính bạn)"
+   },
+   {
+    "key": "sarah",
+    "name": "Sarah Lee",
+    "vi": "quản lý dự án, dẫn cuộc họp với đối tác"
+   },
+   {
+    "key": "kevin",
+    "name": "Kevin",
+    "vi": "phụ trách sales, muốn chốt nhanh"
+   },
+   {
+    "key": "tom",
+    "name": "Tom",
+    "vi": "phụ trách sản phẩm, lo về kỹ thuật và bảo mật"
+   },
+   {
+    "key": "linh",
+    "name": "Linh",
+    "vi": "tài chính, tính chi phí và hoa hồng"
+   },
+   {
+    "key": "ingrid",
+    "name": "Ingrid Larsen",
+    "vi": "Head of Partnerships của Nordwind Retail, người Đan Mạch khoảng 45 tuổi, sắc sảo, hỏi thẳng",
+    "look": "a Danish woman about 45, short blonde hair, glasses, grey blazer"
+   }
+  ],
+  "days": {
+   "1": {
+    "title": "Đọc số liệu chạy thử, mô tả xu hướng",
+    "scene": "scene-en-results-d1",
+    "partner": "Sarah",
+    "cards": [
+     "surge",
+     "steady",
+     "fluctuate",
+     "peak",
+     "decline",
+     "significant",
+     "approximately",
+     "proportion",
+     "outperform",
+     "forecast",
+     "retention",
+     "conversion rate"
+    ],
+    "focus": "Mô tả xu hướng: rose sharply / a sharp rise; so sánh số liệu; ước lượng (approximately, just over); quá khứ đơn và hiện tại hoàn thành",
+    "write": "IELTS Writing Task 1: một đoạn mô tả biểu đồ người dùng theo tháng (150–190 từ)",
+    "longturn": "IELTS Part 2: Describe a project you worked on that had surprising results"
+   },
+   "2": {
+    "title": "Thuyết trình đề xuất hợp tác",
+    "scene": "scene-en-pitch-d2",
+    "partner": "Ingrid Larsen",
+    "cards": [
+     "stakeholder",
+     "proposition",
+     "scalable",
+     "leverage",
+     "rollout",
+     "phase",
+     "highlight",
+     "outline",
+     "roadmap",
+     "initiative",
+     "compelling",
+     "in a nutshell"
+    ],
+    "focus": "Mở và dẫn bài thuyết trình (I'd like to walk you through…, Let me move on to…), nêu lợi ích, chia giai đoạn; mệnh đề quan hệ",
+    "write": "Email đề xuất hợp tác gửi Ingrid sau buổi thuyết trình (130–170 từ)",
+    "longturn": "Present a 2-minute pitch for a product or service you believe in"
+   },
+   "3": {
+    "title": "Đàm phán điều khoản: độc quyền, hoa hồng",
+    "scene": "scene-en-negotiation-d3",
+    "partner": "Ingrid Larsen",
+    "cards": [
+     "terms",
+     "exclusivity",
+     "commission",
+     "concession",
+     "counter-offer",
+     "non-negotiable",
+     "leeway",
+     "flexible",
+     "trade-off",
+     "in return",
+     "deal-breaker",
+     "meet halfway"
+    ],
+    "focus": "Đề nghị và nhượng bộ có điều kiện: If you could…, we would…; Provided that / As long as; từ chối lịch sự; câu điều kiện loại 2",
+    "write": "Email tóm tắt đề nghị và nhượng bộ sau buổi đàm phán (130–170 từ)",
+    "longturn": "Describe a time you had to negotiate or compromise to reach an agreement"
+   },
+   "4": {
+    "title": "Trả lời câu hỏi khó, phản biện có lập luận",
+    "scene": "scene-en-qa-d4",
+    "partner": "Ingrid Larsen",
+    "cards": [
+     "concern",
+     "valid",
+     "address",
+     "assumption",
+     "evidence",
+     "mitigate",
+     "contingency",
+     "reassure",
+     "acknowledge",
+     "with all due respect",
+     "safeguard",
+     "on the contrary"
+    ],
+    "focus": "Ghi nhận rồi phản biện: That's a valid point, but…; đưa bằng chứng; bị động (data is stored…); giảm rủi ro",
+    "write": "IELTS Writing Task 2: một đoạn thân bài nêu quan điểm có lập luận và ví dụ (150–190 từ)",
+    "longturn": "IELTS Part 3 dạng nói dài: Should companies share customer data with business partners? Give reasons and examples"
+   },
+   "5": {
+    "title": "Viết báo cáo cho ban giám đốc, email chốt điều khoản",
+    "scene": "scene-en-report-d5",
+    "partner": "Sarah",
+    "cards": [
+     "executive summary",
+     "findings",
+     "recommendation",
+     "outcome",
+     "implement",
+     "allocate",
+     "timeline",
+     "approval",
+     "consequently",
+     "whereas",
+     "overall",
+     "attached"
+    ],
+    "focus": "Cấu trúc báo cáo (purpose, findings, recommendations), văn phong trang trọng, từ nối kết quả và đối lập; câu bị động trong báo cáo",
+    "write": "Executive summary của báo cáo hợp tác Nordwind (150–190 từ)",
+    "longturn": "Summarise a meeting or decision for someone who was not there, in about 2 minutes"
+   }
+  }
+ },
+ "zh-h4-gt": {
+  "lang": "zh",
+  "level": "HSK4",
+  "track": "zh-c",
+  "week": 1,
+  "idPrefix": "h4gt-thu-",
+  "title": "Chuyển việc sang Thượng Hải: phỏng vấn, ngân hàng, hỏi đường, thuê nhà, xin nghỉ Tết",
+  "cando": "Trình bày kinh nghiệm khi phỏng vấn, đổi tiền và mở tài khoản, hỏi và chỉ đường có mốc, thương lượng thuê nhà và báo hỏng đồ, xin nghỉ phép và bàn giao công việc bằng câu dài có từ nối",
+  "story": "阮安 (vai của bạn) đã đi làm 2 năm ở Hà Nội, ứng tuyển vị trí mới ở một công ty tại Thượng Hải (上海). Sau buổi phỏng vấn online với 王经理, 阮安 được nhận và sang Thượng Hải: đổi tiền và mở tài khoản ngân hàng, bị lạc khi tìm đường tới công ty và gọi 王丽 nhờ chỉ đường, cùng 王丽 xem và thuê một căn hộ, báo chủ nhà sửa điều hoà và máy giặt hỏng, rồi xin 王经理 nghỉ về Việt Nam ăn Tết và bàn giao việc.",
+  "cast": [
+   {
+    "key": "an",
+    "name": "阮安",
+    "py": "Ruǎn Ān",
+    "vi": "nhân viên người Việt, khoảng 20 tuổi, đã đi làm 2 năm (vai của chính bạn)"
+   },
+   {
+    "key": "wangli",
+    "name": "王丽",
+    "py": "Wáng Lì",
+    "vi": "đồng nghiệp người Trung Quốc ở công ty mới, nhiệt tình giúp bạn"
+   },
+   {
+    "key": "wangjl",
+    "name": "王经理",
+    "py": "Wáng jīnglǐ",
+    "vi": "quản lý của bạn ở Thượng Hải, phỏng vấn và duyệt nghỉ phép"
+   },
+   {
+    "key": "clerk",
+    "name": "银行职员",
+    "py": "yínháng zhíyuán",
+    "vi": "nhân viên ngân hàng (vai phụ)",
+    "look": "a Chinese woman about 30, bank uniform, name badge, friendly"
+   },
+   {
+    "key": "landlord",
+    "name": "房东",
+    "py": "fángdōng",
+    "vi": "chủ nhà cho thuê căn hộ, khoảng 50 tuổi (vai phụ)",
+    "look": "a Chinese man about 50, casual jacket, holding a key ring"
+   }
+  ],
+  "days": {
+   "1": {
+    "title": "Phỏng vấn xin việc: kinh nghiệm, điểm mạnh, lương, chế độ",
+    "scene": "scene-zh-interview-gt",
+    "partner": "王经理",
+    "cards": [
+     "招聘",
+     "应聘",
+     "简历",
+     "经验",
+     "能力",
+     "专业",
+     "负责",
+     "积累",
+     "适应",
+     "工资",
+     "奖金"
+    ],
+    "focus": "Trình bày học vấn, kinh nghiệm, điểm mạnh; hỏi lại về lương thưởng; 对……感兴趣, 除了……以外，还……, 既……又……",
+    "write": "Email ứng tuyển ngắn kèm CV (80–120 chữ)",
+    "longturn": "Nói 1 phút tự giới thiệu khi phỏng vấn: học vấn, kinh nghiệm, vì sao hợp vị trí"
+   },
+   "2": {
+    "title": "Đổi tiền, mở tài khoản ngân hàng",
+    "scene": "scene-zh-bank-gt",
+    "partner": "银行职员",
+    "cards": [
+     "汇率",
+     "兑换",
+     "现金",
+     "账户",
+     "手续费",
+     "密码",
+     "信用卡",
+     "填",
+     "签字",
+     "存",
+     "取"
+    ],
+    "focus": "Hỏi tỷ giá, phí, giấy tờ mở tài khoản; 把 A 换成 B, 按照 + quy định, 只有……才……",
+    "write": "Tin nhắn hướng dẫn đồng nghiệp mới cách đổi tiền, mở tài khoản (70–100 chữ)",
+    "longturn": "Nói 1 phút so sánh đổi tiền ở ngân hàng, sân bay và ứng dụng; khuyên người mới sang"
+   },
+   "3": {
+    "title": "Hỏi đường, bị lạc, gọi điện nhờ chỉ đường",
+    "scene": "scene-zh-lost-gt",
+    "partner": "王丽",
+    "cards": [
+     "迷路",
+     "地址",
+     "方向",
+     "距离",
+     "交通",
+     "堵车",
+     "打扰",
+     "到底",
+     "准确",
+     "顺着",
+     "导航"
+    ],
+    "focus": "Tả chỗ mình đang đứng, hỏi và chỉ đường có mốc qua điện thoại; 顺着/沿着……一直走, 到底 + câu hỏi, 如果……的话，就……",
+    "write": "Tin nhắn chỉ đường có mốc gửi khách tới công ty (70–100 chữ)",
+    "longturn": "Nói 1 phút chỉ đường từ ga tàu điện ngầm gần nhất tới công ty hoặc nhà bạn, dùng mốc"
+   },
+   "4": {
+    "title": "Thuê căn hộ: so sánh, thương lượng, đặt cọc, báo hỏng đồ điện",
+    "scene": "scene-zh-flat-gt",
+    "partner": "房东",
+    "cards": [
+     "房东",
+     "押金",
+     "家具",
+     "厨房",
+     "卫生间",
+     "包括",
+     "免费",
+     "规定",
+     "修理",
+     "打扫",
+     "环境"
+    ],
+    "focus": "Hỏi tiền thuê gồm gì, xin giảm, hỏi cọc, báo điều hoà, máy giặt hỏng; 包括……在内, 连……都/也……, 除了……以外，都……",
+    "write": "Tin nhắn báo chủ nhà điều hoà, máy giặt hỏng, đề nghị sửa (70–100 chữ)",
+    "longturn": "Nói 1 phút so sánh hai căn hộ đã xem và nói bạn chọn căn nào, vì sao"
+   },
+   "5": {
+    "title": "Xin nghỉ phép về ăn Tết, bàn giao việc, chúc Tết",
+    "scene": "scene-zh-leave-gt",
+    "partner": "王经理",
+    "cards": [
+     "请假",
+     "假期",
+     "节日",
+     "传统",
+     "热闹",
+     "拜年",
+     "团圆",
+     "代替",
+     "互相",
+     "来不及",
+     "交接"
+    ],
+    "focus": "Xin nghỉ, nói thời gian và lý do, ai làm thay; chúc Tết đồng nghiệp; 既然……就……, 无论……都……, 由 + người + 负责/代替 + V",
+    "write": "Email xin nghỉ phép gửi 王经理: thời gian, lý do, bàn giao (90–130 chữ)",
+    "longturn": "Nói 1 phút giới thiệu Tết Việt Nam cho đồng nghiệp Trung Quốc: giống và khác Tết Trung Quốc"
+   }
+  }
+ }
 }

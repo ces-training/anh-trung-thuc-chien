@@ -1373,7 +1373,12 @@ const HZDATA = /*@HZDATA@*/;
 const CWEEKS = Object.keys(COURSE.zh).map(Number).filter(w => COURSE.en[w]).sort((a, b) => a - b);
 /* tuần học thử của các lộ trình khác (mỗi tuần chỉ một ngôn ngữ): khoá = tên file, vd. "en-a2-1" */
 const DEMO_KEYS = Object.keys(typeof COURSE_DEMO !== "undefined" ? COURSE_DEMO : {});
-const DEMO_TRACK = { "zh-w5": "zh-b", "en-a2-1": "en-b", "en-b1-1": "en-c", "zh-h4-1": "zh-c", "en-b2-1": "en-d" };
+const DEMO_TRACK = { "zh-h2-1": "zh-b", "zh-w5": "zh-b", "en-a2-1": "en-b", "en-b1-1": "en-c", "zh-h4-gt": "zh-c", "zh-h4-1": "zh-c", "en-b2-1": "en-d" };
+/* tuần 2 của lộ trình học thử (mở khi có gói học): khoá học thử → tuần 2 */
+const DEMO_NEXT = { "zh-h2-1": "zh-w5", "zh-h4-gt": "zh-h4-1" };
+const DEMO_W2 = new Set(Object.values(DEMO_NEXT));
+/* người đã bắt đầu tuần cũ khi nó còn là tuần học thử thì vẫn học tiếp được */
+const demoStarted = key => { try { return DEMO_DAYS.some(x => x.demo === key && Object.keys(S.daily || {}).some(k => k.endsWith(x.id))); } catch (e) { return false; } };
 const zhWeeksAll = () => CWEEKS.map(w => COURSE.zh[w]).concat(DEMO_KEYS.map(k => COURSE_DEMO[k]).filter(W => W.lang === "zh"));
 const SCENE_BG = { "s-w1-d1": "home", "s-w1-d2": "home", "s-w1-d3": "home", "s-w1-d4": "kitchen", "s-w1-d5": "home", "s-w2-d1": "bedroom", "s-w2-d2": "kitchen", "s-w2-d3": "bedroom", "s-w2-d4": "classroom", "s-w2-d5": "home",
   "scene-en-hr": "office", "scene-en-tour": "office", "scene-en-team": "meeting", "scene-en-it": "office", "scene-en-friday": "networking",
@@ -1631,7 +1636,8 @@ function demoDays() {
       const ex = W.adv ? ["T", "Q", "S", "B", "Y", "C", "P", "I", "X", "U", "E", "G", "J", "H", "W", "V"] : L === "zh"
         ? ["T", "Q", "S", "B", "C", "P", "I", "U", "E", "G"].concat(read ? ["J"] : [], ["H"], STROKE_PAIRS[dd.id] && STROKE_PAIRS[dd.id].length ? ["W"] : [], WRITE_GUIDE[dd.id] && WRITE_GUIDE[dd.id].length ? ["V"] : [])
         : ["T", "Q", "S", "B", "C", "P", "I"].concat(dd.cards.some(c => c.spell && c.spell.length) ? ["U"] : [], ["E", "G"], read ? ["J"] : [], ["H"], dd.confuse && dd.confuse.length ? ["W"] : [], dd.write ? ["V"] : []);
-      out.push({ id: dd.id, week: W.week, demo: key, adv: !!W.adv, lang: L, track: DEMO_TRACK[key], label: dd.label, wlabel: `Học thử ${W.level} · ${dd.label}`, kind: "web", idx: i,
+      const w2 = DEMO_W2.has(key);
+      out.push({ id: dd.id, week: W.week, demo: key, w2, adv: !!W.adv, lang: L, track: DEMO_TRACK[key], label: dd.label, wlabel: `${w2 ? "Tuần 2" : "Học thử"} ${W.level} · ${dd.label}`, kind: "web", idx: i,
         ex, exFor(LL) { return LL === L ? ex : []; }, get mins() { return ex.reduce((m, c) => m + (COURSE_MINS[c[0]] || 3), 0); } });
     });
   });
@@ -4006,7 +4012,7 @@ function viewDay(main, d) {
   </div>`));
   main.querySelectorAll("[data-locked]").forEach(a => a.onclick = e => { e.preventDefault(); toast("Làm xong bài trước để mở bài này."); sfx("bad"); });
 }
-function nextDayId(d) { if (d.demo) { const ds = DEMO_DAYS.filter(x => x.demo === d.demo), j = ds.indexOf(d); return j < ds.length - 1 ? ds[j + 1].id : "lo-trinh"; } const i = WDAYS.indexOf(d); return i < WDAYS.length - 1 ? WDAYS[i + 1].id : "trang-chu"; }
+function nextDayId(d) { if (d.demo) { const ds = DEMO_DAYS.filter(x => x.demo === d.demo), j = ds.indexOf(d); return j < ds.length - 1 ? ds[j + 1].id : (DEMO_NEXT[d.demo] && demoStart(DEMO_NEXT[d.demo])) || "lo-trinh"; } const i = WDAYS.indexOf(d); return i < WDAYS.length - 1 ? WDAYS[i + 1].id : "trang-chu"; }
 const LEARNK = ["cards", "scene", "pattern"];
 function typeName(c) { const rd = parseRoute().d; if (S.lang === "en" && rd && rd.demo && ZH_STAGE[c]) { const n = { T: "Thẻ nghe", Q: "Nghe chọn nghĩa", S: "Nghe cảnh", B: "Nghe hiểu", C: "Nhại theo", P: "Mẫu câu", I: "Hội thoại", U: "Nhận mặt từ", E: "Từ vựng", G: "Ngữ pháp", J: "Đọc", H: "Dạng đề quốc tế", W: "Từ dễ nhầm", V: "Viết có hướng dẫn" }[c]; return "Bước " + ZH_STAGE[c] + " · " + n; }
   if (S.lang === "zh" && typeof ZH_STAGE !== "undefined" && ZH_STAGE[c]) { const n = { T: "Thẻ nghe", Q: "Nghe chọn nghĩa", S: "Nghe cảnh", B: "Nghe hiểu", C: "Nhại theo", P: "Mẫu câu", I: "Hội thoại", U: "Nhận mặt chữ", E: "Từ vựng", G: "Ngữ pháp", J: "Đọc", H: "Dạng đề HSK", W: "Đếm nét", V: "Hướng dẫn viết" }[c]; return "Bước " + ZH_STAGE[c] + " · " + n; } return { T: "Học trước · Thẻ", S: "Học trước · Cảnh", P: "Học trước · Mẫu câu", A: "Ôn nhanh", B: "Nghe hiểu", C: "Nhại theo", D: S.lang === "zh" ? "Thanh điệu" : "Phát âm", E: "Từ vựng", F: "Xếp câu", G: "Điền chỗ trống", H: "Luyện nói", I: "Đóng vai AI", J: "Đọc", K: "Viết", L: "Kiểm tra", M: "Can-do", N: "Sửa lỗi", R: "Kho ôn" }[c] || ""; }
@@ -4598,8 +4604,8 @@ const SHEET_URL = SITE.sheetUrl || "";
 const TRACKS = {
   zh: [
     { id: "zh-a", name: "Mới bắt đầu", lv: "HSK0–1", goal: "HSK1 · 300 từ", status: "open", start: "w1-thu-2", note: "Đã có tuần 1–2" },
-    { id: "zh-b", name: "Giao tiếp công việc", lv: "HSK2–3", goal: "HSK2 → HSK3 · 1.000 từ", status: "demo", demo: "zh-w5", note: "Học thử tuần 5: Đi công tác về ăn Tết" },
-    { id: "zh-c", name: "Nâng cao", lv: "HSK4+", goal: "HSK4–5", status: "demo", demo: "zh-h4-1", note: "Học thử tuần 1: Hội chợ Quảng Châu" }
+    { id: "zh-b", name: "Giao tiếp công việc", lv: "HSK2–3", goal: "HSK2 → HSK3 · 1.000 từ", status: "demo", demo: "zh-h2-1", next: "zh-w5", note: "Học thử tuần 1: Ngày đầu đến Thượng Hải làm việc · Tuần 2: Đi công tác về ăn Tết" },
+    { id: "zh-c", name: "Nâng cao", lv: "HSK4+", goal: "HSK4–5", status: "demo", demo: "zh-h4-gt", next: "zh-h4-1", note: "Học thử tuần 1: Chuyển việc sang Thượng Hải · Tuần 2: Hội chợ Quảng Châu" }
   ],
   en: [
     { id: "en-a", name: "Nền tảng", lv: "A1", goal: "A2", status: "open", start: "w1-thu-2", note: "Đã có tuần 1–2" },
