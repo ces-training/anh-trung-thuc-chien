@@ -564,15 +564,15 @@
    "note": "从 = hai chữ 人 đứng nối nhau: người sau theo người trước. 从 4 nét, 人 2 nét."
   },
   {
-   "a": "往",
-   "apy": "wǎng",
-   "am": "hướng về",
-   "aen": "towards",
-   "b": "住",
-   "bpy": "zhù",
-   "bm": "ở, sống",
-   "ben": "to live, to stay",
-   "note": "Cùng có 主 bên phải. Bên trái 往 là 彳 (bước đi, 3 nét); bên trái 住 là 亻 (người, 2 nét). 往 8 nét, 住 7 nét."
+   "a": "进",
+   "apy": "jìn",
+   "am": "vào",
+   "aen": "to enter",
+   "b": "井",
+   "bpy": "jǐng",
+   "bm": "cái giếng",
+   "ben": "a well",
+   "note": "进 = 井 + 辶 (bước đi): đi theo đường vào tận chỗ giếng. 进 7 nét, 井 4 nét."
   },
   {
    "a": "酒",
@@ -621,26 +621,26 @@
    "note": "近 = 辶 (bước đi) + 斤: đi vài bước là tới, nên 'gần'. 近 7 nét, 斤 4 nét."
   },
   {
-   "a": "路",
-   "apy": "lù",
-   "am": "đường",
-   "aen": "road",
-   "b": "各",
-   "bpy": "gè",
-   "bm": "mỗi, các",
-   "ben": "each",
-   "note": "路 = 𧾷 (chân) + 各: đường là nơi bàn chân mỗi người đi qua. 路 13 nét, 各 6 nét."
+   "a": "长",
+   "apy": "cháng",
+   "am": "dài",
+   "aen": "long",
+   "b": "张",
+   "bpy": "zhāng",
+   "bm": "tờ, tấm (lượng từ)",
+   "ben": "(measure word for flat things)",
+   "note": "张 = 弓 (cây cung, 3 nét) + 长: kéo dây cung cho dài ra. 长 4 nét, 张 7 nét."
   },
   {
-   "a": "远",
-   "apy": "yuǎn",
-   "am": "xa",
-   "aen": "far",
-   "b": "元",
-   "bpy": "yuán",
-   "bm": "đồng (tiền)",
-   "ben": "yuan",
-   "note": "远 = 辶 + 元. Hai chữ đọc gần giống: yuǎn (thanh 3) / yuán (thanh 2). 远 7 nét, 元 4 nét."
+   "a": "来",
+   "apy": "lái",
+   "am": "đến (下来: xuống)",
+   "aen": "to come",
+   "b": "米",
+   "bpy": "mǐ",
+   "bm": "gạo; mét",
+   "ben": "rice; metre",
+   "note": "Cùng có nét sổ giữa và phẩy, mác hai bên. 来 có thêm một nét ngang ngắn ở trên cùng, hai chấm nằm dưới nó; 米 thì hai chấm ở trên cùng. 来 7 nét, 米 6 nét."
   }
  ],
  "w5-thu-6": [
@@ -687,6 +687,236 @@
    "bm": "rất",
    "ben": "very",
    "note": "Cùng có 艮 bên phải. Bên trái 跟 là 𧾷 (chân, 7 nét); bên trái 很 là 彳 (bước đi, 3 nét). 跟 13 nét, 很 9 nét."
+  }
+ ],
+ "h2-w1-thu-2": [
+  {
+   "a": "公",
+   "apy": "gōng",
+   "am": "công (公司: công ty)",
+   "aen": "public (as in company)",
+   "b": "么",
+   "bpy": "me",
+   "bm": "(chữ trong 什么)",
+   "ben": "(as in what)",
+   "note": "公 = 八 ở trên + 厶 ở dưới (4 nét); 么 chỉ có một nét phẩy trên 厶 (3 nét)."
+  },
+  {
+   "a": "介",
+   "apy": "jiè",
+   "am": "giới (介绍: giới thiệu)",
+   "aen": "between (as in introduce)",
+   "b": "个",
+   "bpy": "gè",
+   "bm": "cái (lượng từ)",
+   "ben": "(general measure word)",
+   "note": "Cùng có 人 ở trên. Dưới 介 là hai nét (phẩy và sổ): 4 nét; dưới 个 chỉ có một nét sổ: 3 nét."
+  },
+  {
+   "a": "作",
+   "apy": "zuò",
+   "am": "làm (工作: công việc)",
+   "aen": "to do (as in work)",
+   "b": "昨",
+   "bpy": "zuó",
+   "bm": "hôm qua (昨天)",
+   "ben": "yesterday",
+   "note": "Bên phải giống nhau (乍). 作 bên trái là 亻 (người, 2 nét) → 7 nét; 昨 bên trái là 日 (mặt trời, 4 nét) → 9 nét."
+  },
+  {
+   "a": "司",
+   "apy": "sī",
+   "am": "ti (公司: công ty)",
+   "aen": "to manage (as in company)",
+   "b": "同",
+   "bpy": "tóng",
+   "bm": "cùng (同学: bạn học)",
+   "ben": "same (as in classmate)",
+   "note": "Cùng có 一 và 口 bên trong. 司 khung mở bên trái, chỉ có nét ngang – gập – móc (5 nét); 同 có thêm nét sổ bên trái thành khung 冂 (6 nét)."
+  }
+ ],
+ "h2-w1-thu-3": [
+  {
+   "a": "钱",
+   "apy": "qián",
+   "am": "tiền",
+   "aen": "money",
+   "b": "线",
+   "bpy": "xiàn",
+   "bm": "sợi, đường (dây)",
+   "ben": "thread, line",
+   "note": "Bên phải giống nhau (戋). 钱 bên trái là 钅 (kim loại, 5 nét) → 10 nét; 线 bên trái là 纟 (sợi tơ, 3 nét) → 8 nét."
+  },
+  {
+   "a": "银",
+   "apy": "yín",
+   "am": "bạc (银行: ngân hàng)",
+   "aen": "silver (as in bank)",
+   "b": "很",
+   "bpy": "hěn",
+   "bm": "rất",
+   "ben": "very",
+   "note": "Bên phải giống nhau (艮). 银 bên trái là 钅 (kim loại, 5 nét) → 11 nét; 很 bên trái là 彳 (bước đi, 3 nét) → 9 nét."
+  },
+  {
+   "a": "千",
+   "apy": "qiān",
+   "am": "nghìn",
+   "aen": "thousand",
+   "b": "十",
+   "bpy": "shí",
+   "bm": "mười",
+   "ben": "ten",
+   "note": "千 = 十 thêm một nét phẩy ở trên (3 nét); 十 chỉ có ngang và sổ (2 nét)."
+  },
+  {
+   "a": "万",
+   "apy": "wàn",
+   "am": "vạn (10.000)",
+   "aen": "ten thousand",
+   "b": "方",
+   "bpy": "fāng",
+   "bm": "vuông, phương",
+   "ben": "square, direction",
+   "note": "方 có thêm một chấm ở trên cùng (4 nét); 万 không có chấm (3 nét)."
+  }
+ ],
+ "h2-w1-thu-4": [
+  {
+   "a": "远",
+   "apy": "yuǎn",
+   "am": "xa",
+   "aen": "far",
+   "b": "元",
+   "bpy": "yuán",
+   "bm": "đồng (tiền tệ)",
+   "ben": "yuan (unit of money)",
+   "note": "远 = 元 + 辶 (bộ 'đi', 3 nét) ôm bên trái và dưới: 7 nét; 元 chỉ có 4 nét."
+  },
+  {
+   "a": "往",
+   "apy": "wǎng",
+   "am": "về phía",
+   "aen": "towards",
+   "b": "住",
+   "bpy": "zhù",
+   "bm": "ở, sống",
+   "ben": "to live",
+   "note": "Bên phải giống nhau (主). 往 bên trái là 彳 (bước đi, 3 nét) → 8 nét; 住 bên trái là 亻 (người, 2 nét) → 7 nét."
+  },
+  {
+   "a": "路",
+   "apy": "lù",
+   "am": "đường (路口: ngã tư)",
+   "aen": "road (as in intersection)",
+   "b": "各",
+   "bpy": "gè",
+   "bm": "mỗi",
+   "ben": "each",
+   "note": "路 = 𧾷 (chân, 7 nét) + 各 (6 nét): 13 nét. 各 đứng một mình chỉ có 6 nét."
+  },
+  {
+   "a": "直",
+   "apy": "zhí",
+   "am": "thẳng (一直)",
+   "aen": "straight",
+   "b": "真",
+   "bpy": "zhēn",
+   "bm": "thật",
+   "ben": "really",
+   "note": "Cùng có 十 và 目 ở giữa. 直 có nét gập ㄴ ôm bên trái phía dưới (8 nét); 真 có nét ngang dài và hai chấm 八 ở dưới (10 nét)."
+  }
+ ],
+ "h2-w1-thu-5": [
+  {
+   "a": "房",
+   "apy": "fáng",
+   "am": "nhà, phòng (房子, 房间)",
+   "aen": "house, room",
+   "b": "方",
+   "bpy": "fāng",
+   "bm": "vuông, phương",
+   "ben": "square, direction",
+   "note": "房 = 户 (cửa, 4 nét) ở trên – bên trái + 方 (4 nét) ở trong: 8 nét. 方 đứng một mình chỉ có 4 nét."
+  },
+  {
+   "a": "床",
+   "apy": "chuáng",
+   "am": "giường",
+   "aen": "bed",
+   "b": "木",
+   "bpy": "mù",
+   "bm": "cây, gỗ",
+   "ben": "tree, wood",
+   "note": "床 = 广 (mái nhà, 3 nét) + 木 (gỗ, 4 nét): giường gỗ dưới mái nhà, 7 nét. 木 chỉ có 4 nét."
+  },
+  {
+   "a": "空",
+   "apy": "kōng",
+   "am": "trống, không (空调: điều hoà)",
+   "aen": "empty (as in air-con)",
+   "b": "工",
+   "bpy": "gōng",
+   "bm": "công (工作)",
+   "ben": "work",
+   "note": "空 = 穴 (hang, 5 nét) ở trên + 工 (3 nét) ở dưới: 8 nét. 工 đứng một mình chỉ có 3 nét."
+  },
+  {
+   "a": "便",
+   "apy": "pián",
+   "am": "(chữ trong 便宜: rẻ)",
+   "aen": "(as in cheap)",
+   "b": "更",
+   "bpy": "gèng",
+   "bm": "càng, hơn",
+   "ben": "even more",
+   "note": "便 = 亻 (người, 2 nét) + 更 (7 nét): 9 nét. 更 không có bộ 亻 nên chỉ 7 nét."
+  }
+ ],
+ "h2-w1-thu-6": [
+  {
+   "a": "请",
+   "apy": "qǐng",
+   "am": "mời, xin (请假)",
+   "aen": "please (as in ask for leave)",
+   "b": "清",
+   "bpy": "qīng",
+   "bm": "trong, sạch",
+   "ben": "clear, clean",
+   "note": "Bên phải giống nhau (青). 请 bên trái là 讠 (lời nói, 2 nét) → 10 nét; 清 bên trái là 氵 (nước, 3 nét) → 11 nét."
+  },
+  {
+   "a": "休",
+   "apy": "xiū",
+   "am": "nghỉ (休息)",
+   "aen": "to rest",
+   "b": "体",
+   "bpy": "tǐ",
+   "bm": "thân thể",
+   "ben": "body",
+   "note": "Cùng có 亻 bên trái. 休 bên phải là 木 (người tựa gốc cây nghỉ, 6 nét); 体 bên phải là 本 = 木 thêm một nét ngang ở dưới (7 nét)."
+  },
+  {
+   "a": "回",
+   "apy": "huí",
+   "am": "về (回家)",
+   "aen": "to return",
+   "b": "口",
+   "bpy": "kǒu",
+   "bm": "miệng",
+   "ben": "mouth",
+   "note": "回 = 口 lớn ôm 口 nhỏ bên trong (6 nét); 口 chỉ có 3 nét."
+  },
+  {
+   "a": "年",
+   "apy": "nián",
+   "am": "năm (过年)",
+   "aen": "year",
+   "b": "午",
+   "bpy": "wǔ",
+   "bm": "trưa (中午)",
+   "ben": "noon",
+   "note": "Cùng bắt đầu bằng nét phẩy và nét ngang. 年 có thêm một nét sổ ngắn và một nét ngang dài (6 nét); 午 chỉ có 4 nét."
   }
  ]
 }

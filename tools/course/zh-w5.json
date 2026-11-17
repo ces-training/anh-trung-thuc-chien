@@ -71,16 +71,16 @@
      "img": "airport"
     },
     {
-     "w": "机票",
-     "py": "jīpiào",
-     "m": "vé máy bay",
-     "mEn": "plane ticket",
-     "ex": "我的机票是今天下午的。",
-     "expy": "Wǒ de jīpiào shì jīntiān xiàwǔ de.",
-     "exm": "Vé máy bay của tôi là chuyến chiều nay.",
-     "exEn": "My plane ticket is for this afternoon.",
-     "n": "票 = vé. Nói vé ngày nào, giờ nào: 机票是 + thời gian + 的. p bật hơi mạnh (khác b).",
-     "img": "ticket"
+     "w": "行李箱",
+     "py": "xínglixiāng",
+     "m": "vali, va li kéo",
+     "mEn": "suitcase",
+     "ex": "我的行李箱在这儿，你的呢？",
+     "expy": "Wǒ de xínglixiāng zài zhèr, nǐ de ne?",
+     "exm": "Vali của tôi ở đây, của bạn đâu?",
+     "exEn": "My suitcase is here, where's yours?",
+     "n": "行李 = hành lý, 箱 = cái hòm: 行李箱 = vali. ⚠ 行 ở đây đọc xíng, không đọc háng như trong 银行. 李 đọc nhẹ: xíngli; xiāng giữ cao đều.",
+     "img": "bag"
     },
     {
      "w": "飞",
@@ -95,16 +95,15 @@
      "img": "plane"
     },
     {
-     "w": "过年",
-     "py": "guònián",
-     "m": "ăn Tết, đón năm mới",
-     "mEn": "to celebrate the (Lunar) New Year",
-     "ex": "快要过年了，我想回家。",
-     "expy": "Kuàiyào guònián le, wǒ xiǎng huí jiā.",
-     "exm": "Sắp Tết rồi, tôi muốn về nhà.",
-     "exEn": "New Year is coming, and I want to go home.",
-     "n": "Hán Việt 'quá niên', nhưng nghĩa là ĂN TẾT. Thanh 4 + thanh 2: guò rơi xuống, nián đi lên; n đọc rõ, không thành l.",
-     "img": "newyear"
+     "w": "着急",
+     "py": "zháojí",
+     "m": "sốt ruột, lo cuống",
+     "mEn": "anxious, worried",
+     "ex": "飞机还不飞，大家都很着急。",
+     "expy": "Fēijī hái bù fēi, dàjiā dōu hěn zháojí.",
+     "exm": "Máy bay vẫn chưa bay, mọi người đều rất sốt ruột.",
+     "exEn": "The plane still hasn't taken off and everyone is getting anxious.",
+     "n": "着 ở đây đọc zháo (thanh 2), không đọc zhe. Khuyên ai đừng sốt ruột: 你不要着急 (Nǐ búyào zháojí). Hai thanh 2 liền nhau: zháo và jí đều đi lên."
     },
     {
      "w": "回去",
@@ -371,21 +370,21 @@
    ],
    "vocab": [
     {
-     "q": "机票 (jīpiào) nghĩa là gì?",
+     "q": "行李箱 (xínglixiāng) nghĩa là gì?",
      "opts": [
+      "vali",
       "vé máy bay",
-      "sân bay",
-      "máy bay"
+      "sân bay"
      ],
      "optsEn": [
+      "suitcase",
       "plane ticket",
-      "airport",
-      "plane"
+      "airport"
      ],
      "a": 0,
      "why": {
-      "1": "'Sân bay' là 机场 (jīchǎng): 场 là nơi chốn. 机票 có 票 = vé.",
-      "2": "'Máy bay' là 飞机 (fēijī). 机票 có 票 = vé."
+      "1": "'Vé máy bay' là 机票 (jīpiào), từ đã học. 行李箱 có 箱 (xiāng) = cái hòm: vali.",
+      "2": "'Sân bay' là 机场 (jīchǎng). 行李箱 là đồ mang theo khi đi xa: vali."
      }
     },
     {
@@ -433,16 +432,16 @@
      }
     },
     {
-     "q": "Điền từ: 快要___了，大家都回家。(Kuàiyào ___ le, dàjiā dōu huí jiā.)",
+     "q": "Điền từ: 飞机还不飞，大家都很___。(Fēijī hái bù fēi, dàjiā dōu hěn ___.)",
      "opts": [
-      "过年",
+      "着急",
       "机场",
       "一会儿"
      ],
      "a": 0,
      "why": {
-      "1": "机场 (jīchǎng) là nơi chốn; 快要机场了 không có nghĩa.",
-      "2": "一会儿 (yíhuìr) là 'một lát', đứng sau động từ; không đặt giữa 快要……了 như thế này."
+      "1": "机场 (jīchǎng) là nơi chốn; sau 很 (hěn) cần từ chỉ tâm trạng: 很着急 (rất sốt ruột).",
+      "2": "一会儿 (yíhuìr) = một lát, đứng sau động từ; 很一会儿 không có nghĩa."
      }
     },
     {
@@ -847,10 +846,10 @@
      "en": "airport"
     },
     {
-     "t": "机票",
-     "py": "jīpiào",
-     "focus": "p bật hơi (khác b); thanh 1 + thanh 4: piào rơi mạnh và dứt khoát.",
-     "en": "plane ticket"
+     "t": "行李箱",
+     "py": "xínglixiāng",
+     "focus": "xíng đi lên, có -ng mũi sau; li đọc nhẹ, ngắn; xiāng giữ cao đều, x môi dẹt (không đọc thành 's').",
+     "en": "suitcase"
     },
     {
      "t": "已经",
@@ -865,10 +864,10 @@
      "en": "a moment"
     },
     {
-     "t": "过年",
-     "py": "guònián",
-     "focus": "thanh 4 + thanh 2: guò rơi xuống rồi nián đi lên; n đầu đọc rõ, không thành l.",
-     "en": "to celebrate New Year"
+     "t": "着急",
+     "py": "zháojí",
+     "focus": "着 đọc zháo (không đọc zhe): zh cong lưỡi, không bật hơi; hai thanh 2 liền nhau, cả hai đều đi lên.",
+     "en": "anxious"
     },
     {
      "t": "快要过年了",
@@ -2069,8 +2068,8 @@
    "id": "w5-thu-4",
    "label": "Thứ 4",
    "title": "Hỏi đường tới khách sạn gần ga",
-   "desc": "Hỏi và chỉ đường (从……往……走), nói vị trí (在 + nơi + 左边 / 右边 / 前面 / 旁边) và số lần (V + 了 + số + 次, 第一次).",
-   "rule": "从 = điểm xuất phát, 往 = hướng đi: 从这儿往前走. Vị trí: vật mốc TRƯỚC, từ chỉ vị trí SAU: 商店旁边. Số lần đứng sau động từ: 问了三次.",
+   "desc": "Hỏi chỗ ở gần (这儿附近有……吗？) và chỉ đường (从……往……走, ôn 往 / 左边 / 右边 đã học), nói vị trí (在 + nơi + 前面 / 旁边), tầng (三楼) và số lần (V + 了 + số + 次, 第一次).",
+   "rule": "从 = điểm xuất phát, 往 = hướng đi: 从这儿往前走. Vị trí: vật mốc TRƯỚC, từ chỉ vị trí SAU: 商店旁边, 车站附近. Số lần đứng sau động từ: 问了三次.",
    "cards": [
     {
      "w": "酒店",
@@ -2119,28 +2118,26 @@
      "n": "前 = trước, 面 = mặt, phía. 往前走 = đi thẳng về phía trước."
     },
     {
-     "w": "左边",
-     "py": "zuǒbian",
-     "m": "bên trái",
-     "mEn": "left side",
-     "ex": "酒店在左边。",
-     "expy": "Jiǔdiàn zài zuǒbian.",
-     "exm": "Khách sạn ở bên trái.",
-     "exEn": "The hotel is on the left.",
-     "n": "边 = bên, phía, đọc nhẹ: zuǒbian. z không bật hơi (không đọc thành 'd').",
-     "img": "left"
+     "w": "附近",
+     "py": "fùjìn",
+     "m": "gần đây, quanh đây",
+     "mEn": "nearby",
+     "ex": "请问，这儿附近有酒店吗？",
+     "expy": "Qǐngwèn, zhèr fùjìn yǒu jiǔdiàn ma?",
+     "exm": "Cho hỏi, gần đây có khách sạn không?",
+     "exEn": "Excuse me, is there a hotel near here?",
+     "n": "Nơi chốn + 附近 = gần chỗ đó: 车站附近 = gần ga (nơi chốn đứng TRƯỚC, giống 旁边). 近 = gần (đã học). Hai thanh 4: fù mạnh, jìn nhẹ hơn."
     },
     {
-     "w": "右边",
-     "py": "yòubian",
-     "m": "bên phải",
-     "mEn": "right side",
-     "ex": "从这儿往前走，在右边。",
-     "expy": "Cóng zhèr wǎng qián zǒu, zài yòubian.",
-     "exm": "Từ đây đi thẳng, ở bên phải.",
-     "exEn": "Go straight ahead from here, it's on the right.",
-     "n": "Mẹo nhớ chữ: 右 có 口 (miệng) ở dưới: tay phải đưa cơm lên miệng. 左 có 工 ở dưới.",
-     "img": "right"
+     "w": "出",
+     "py": "chū",
+     "m": "ra",
+     "mEn": "to go out, to exit",
+     "ex": "我们从车站出来了。",
+     "expy": "Wǒmen cóng chēzhàn chūlái le.",
+     "exm": "Chúng tôi từ ga đi ra rồi.",
+     "exEn": "We've come out of the station.",
+     "n": "出 = ra, trái nghĩa với 进 (vào). Đã gặp trong 出租车. 出来 = ra (về phía người nói), 出去 = ra (rời chỗ người nói), giống cặp 进来 / 进去. ch bật hơi, cong lưỡi; thanh 1 giữ cao."
     },
     {
      "w": "旁边",
@@ -2154,15 +2151,15 @@
      "n": "Vật mốc đứng TRƯỚC 旁边: 商店旁边 = cạnh cửa hàng (ngược với tiếng Việt). Thanh 2 + thanh 1."
     },
     {
-     "w": "往",
-     "py": "wǎng",
-     "m": "hướng về, về phía",
-     "mEn": "towards",
-     "ex": "你往左边走。",
-     "expy": "Nǐ wǎng zuǒbian zǒu.",
-     "exm": "Bạn đi về phía bên trái.",
-     "exEn": "Go to the left.",
-     "n": "往 + hướng + 走: 往前走, 往左边走. Thanh 3. Chữ 往 (bộ 彳) dễ nhầm với 住 (zhù, ở)."
+     "w": "楼",
+     "py": "lóu",
+     "m": "tầng; toà nhà",
+     "mEn": "floor; building",
+     "ex": "我们的房间在三楼。",
+     "expy": "Wǒmen de fángjiān zài sān lóu.",
+     "exm": "Phòng của chúng tôi ở tầng ba.",
+     "exEn": "Our room is on the third floor.",
+     "n": "Số + 楼 = tầng mấy: 三楼 = tầng ba. 楼 còn là toà nhà: 楼上 = trên lầu, 楼下 = dưới lầu. Thanh 2 đi lên; l đọc rõ, không thành n."
     },
     {
      "w": "门口",
@@ -2472,16 +2469,16 @@
      }
     },
     {
-     "q": "Từ trái nghĩa với 左边 (zuǒbian) là gì?",
+     "q": "Từ trái nghĩa với 进 (jìn, vào) là gì?",
      "opts": [
-      "右边",
-      "旁边",
-      "前面"
+      "出",
+      "从",
+      "门口"
      ],
      "a": 0,
      "why": {
-      "1": "旁边 (pángbiān) = bên cạnh, không phải bên đối diện với trái.",
-      "2": "前面 (qiánmiàn) = phía trước; trái nghĩa của nó là 后面."
+      "1": "从 (cóng) = từ (điểm xuất phát), không phải 'ra'. Trái nghĩa của 进 là 出 (chū): 进来 / 出来.",
+      "2": "门口 (ménkǒu) = cửa ra vào, là nơi chốn, không phải động từ 'ra'."
      }
     },
     {
@@ -2495,6 +2492,32 @@
      "why": {
       "1": "往 cần hướng theo sau (往前走); 我们往吧 thiếu ý.",
       "2": "门口 (cửa ra vào) là danh từ, không làm động từ trước 吧."
+     }
+    },
+    {
+     "q": "Điền từ: 请问，车站___有酒店吗？(Qǐngwèn, chēzhàn ___ yǒu jiǔdiàn ma?)",
+     "opts": [
+      "附近",
+      "往",
+      "出"
+     ],
+     "a": 0,
+     "why": {
+      "1": "往 (wǎng) chỉ hướng đi, đứng trước hướng (往前走), không đứng sau nơi chốn.",
+      "2": "出 (chū) = ra, là động từ; sau 车站 ở đây cần từ chỉ vị trí: 车站附近 (gần ga)."
+     }
+    },
+    {
+     "q": "Điền từ: 我们的房间在三___。(Wǒmen de fángjiān zài sān ___.)",
+     "opts": [
+      "楼",
+      "次",
+      "门口"
+     ],
+     "a": 0,
+     "why": {
+      "1": "三次 (sān cì) = ba lần, chỉ số lần làm việc gì, không chỉ chỗ của căn phòng.",
+      "2": "门口 (ménkǒu) = cửa ra vào; 'phòng ở tầng ba' là 在三楼."
      }
     }
    ],
@@ -2792,16 +2815,16 @@
      "en": "hotel"
     },
     {
-     "t": "左边",
-     "py": "zuǒbian",
-     "focus": "z không bật hơi (không đọc thành 'd'); bian đọc nhẹ, ngắn.",
-     "en": "left side"
+     "t": "附近",
+     "py": "fùjìn",
+     "focus": "f là âm môi–răng (giống 'ph' tiếng Việt); hai thanh 4 liền nhau: fù mạnh, jìn nhẹ hơn; -n mũi trước, lưỡi chạm lợi trên.",
+     "en": "nearby"
     },
     {
-     "t": "右边",
-     "py": "yòubian",
-     "focus": "yòu rơi mạnh; bian đọc nhẹ.",
-     "en": "right side"
+     "t": "三楼",
+     "py": "sān lóu",
+     "focus": "s đầu lưỡi, không cong lưỡi như sh; sān giữ cao đều, lóu đi lên; l đọc rõ, không thành n.",
+     "en": "the third floor"
     },
     {
      "t": "旁边",
@@ -3032,7 +3055,7 @@
    "id": "w5-thu-5",
    "label": "Thứ 5",
    "title": "Đi nhờ xe đối tác: xe hỏng giữa đường",
-   "desc": "Nói khoảng cách (A 离 B 远 / 近), bảo ai xuống xe (下来), nói 'từ từ' (慢慢) và nhờ ai làm nhanh / chậm hơn (快 / 慢 + 一点儿).",
+   "desc": "Ôn cách nói khoảng cách đã học (A 离 B 远 / 近), bảo ai xuống xe (下来), dặn 'cẩn thận' (小心), nói 'từ từ' (慢慢) và nhờ ai làm nhanh / chậm hơn (快 / 慢 + 一点儿).",
    "rule": "Khoảng cách dùng 离, KHÔNG dùng 从: 这儿离车站很近. 慢慢 đứng trước động từ. Nhờ làm nhanh / chậm hơn: V + 快 / 慢 + 一点儿.",
    "cards": [
     {
@@ -3059,37 +3082,37 @@
      "n": "下 = xuống, 来 = về phía người nói: người đứng dưới gọi người trên xe xuống thì nói 下来. Giống cặp 回来 / 回去."
     },
     {
-     "w": "离",
-     "py": "lí",
-     "m": "cách (khoảng cách)",
-     "mEn": "away from (distance)",
-     "ex": "酒店离车站很近。",
-     "expy": "Jiǔdiàn lí chēzhàn hěn jìn.",
-     "exm": "Khách sạn cách ga rất gần.",
-     "exEn": "The hotel is very close to the station.",
-     "n": "A 离 B + 远 / 近: A cách B xa / gần. Nói khoảng cách thì dùng 离, không dùng 从. Thanh 2 đi lên."
+     "w": "司机",
+     "py": "sījī",
+     "m": "tài xế",
+     "mEn": "driver",
+     "ex": "司机说：“车坏了，你们下来吧。”",
+     "expy": "Sījī shuō: “Chē huài le, nǐmen xiàlái ba.”",
+     "exm": "Tài xế nói: “Xe hỏng rồi, các chị xuống đi.”",
+     "exEn": "The driver said, “The car's broken down, please get out.”",
+     "n": "司 = trông coi (gặp trong 公司), 机 = máy: 司机 = người lái xe. Hai thanh 1 liền nhau: sī và jī đều giữ cao, đều; s không cong lưỡi."
     },
     {
-     "w": "远",
-     "py": "yuǎn",
-     "m": "xa",
-     "mEn": "far",
-     "ex": "机场离这儿很远。",
-     "expy": "Jīchǎng lí zhèr hěn yuǎn.",
-     "exm": "Sân bay cách đây rất xa.",
-     "exEn": "The airport is a long way from here.",
-     "n": "很 + 远 đều thanh 3 nên 很 đọc thành hén: hén yuǎn. Trái nghĩa: 近 (gần)."
+     "w": "累",
+     "py": "lèi",
+     "m": "mệt",
+     "mEn": "tired",
+     "ex": "走了很长的路，我很累。",
+     "expy": "Zǒu le hěn cháng de lù, wǒ hěn lèi.",
+     "exm": "Đi một quãng đường dài, tôi mệt lắm.",
+     "exEn": "After walking such a long way, I'm really tired.",
+     "n": "累 = mệt (sau khi làm việc, đi lại nhiều). Hỏi thăm: 你累吗？ Mệt quá: 太累了. l đọc rõ, không thành n; thanh 4 rơi mạnh."
     },
     {
-     "w": "近",
-     "py": "jìn",
-     "m": "gần",
-     "mEn": "near, close",
-     "ex": "车站很近，走路十分钟。",
-     "expy": "Chēzhàn hěn jìn, zǒulù shí fēnzhōng.",
-     "exm": "Ga gần lắm, đi bộ mười phút.",
-     "exEn": "The station is close, ten minutes on foot.",
-     "n": "近 đọc giống 进 (vào): cùng jìn. Nhìn chữ: 近 có 斤, 进 có 井. Trái nghĩa: 远."
+     "w": "小心",
+     "py": "xiǎoxīn",
+     "m": "cẩn thận",
+     "mEn": "careful; be careful",
+     "ex": "路上车很多，你们小心一点儿！",
+     "expy": "Lùshang chē hěn duō, nǐmen xiǎoxīn yìdiǎnr!",
+     "exm": "Trên đường nhiều xe lắm, các bạn cẩn thận nhé!",
+     "exEn": "There's a lot of traffic, be careful!",
+     "n": "小 = nhỏ, 心 = lòng: để tâm từng chút, tức là cẩn thận. Nói một mình để nhắc: 小心！ (Cẩn thận!). Thanh 3 + thanh 1: xiǎo chỉ đọc nửa thanh 3 (xuống thấp), xīn giữ cao."
     },
     {
      "w": "走路",
@@ -3359,6 +3382,24 @@
      }
     },
     {
+     "q": "司机 (sījī) nghĩa là gì?",
+     "opts": [
+      "tài xế",
+      "người đi đường",
+      "nhân viên công ty"
+     ],
+     "optsEn": [
+      "driver",
+      "passer-by",
+      "company employee"
+     ],
+     "a": 0,
+     "why": {
+      "1": "'Người đi đường' là 路人 (lùrén). 司机 là người lái xe.",
+      "2": "司 có trong 公司 (gōngsī), nhưng 司机 (机 = máy) là người lái xe, không phải nhân viên công ty."
+     }
+    },
+    {
      "q": "Điền từ: 车___了，不能开了。(Chē ___ le, bù néng kāi le.)",
      "opts": [
       "坏",
@@ -3372,29 +3413,29 @@
      }
     },
     {
-     "q": "Điền từ: 这儿到机场很___，打车要一个小时。(Zhèr dào jīchǎng hěn ___, dǎchē yào yí ge xiǎoshí.)",
+     "q": "Điền từ: 走了一个小时，我太___了。(Zǒu le yí ge xiǎoshí, wǒ tài ___ le.)",
      "opts": [
-      "远",
-      "近",
-      "快"
+      "累",
+      "长",
+      "坏"
      ],
      "a": 0,
      "why": {
-      "1": "Đi taxi mất một tiếng thì không phải 'gần'.",
-      "2": "很快 = rất nhanh, mâu thuẫn với 'mất một tiếng'."
+      "1": "长 (cháng, dài) nói về con đường (路很长), không nói về người.",
+      "2": "坏 (huài) = hỏng, dùng cho đồ vật như xe; đi bộ lâu thì người 'mệt': 太累了."
      }
     },
     {
-     "q": "Điền từ: 超市很___，走路五分钟。(Chāoshì hěn ___, zǒulù wǔ fēnzhōng.)",
+     "q": "Điền từ: 路上车很多，你们___一点儿！(Lùshang chē hěn duō, nǐmen ___ yìdiǎnr!)",
      "opts": [
-      "近",
-      "远",
-      "长"
+      "小心",
+      "下来",
+      "路上"
      ],
      "a": 0,
      "why": {
-      "1": "Đi bộ năm phút là gần, không phải xa.",
-      "2": "长 (dài) dùng cho con đường (路很长), không dùng cho siêu thị."
+      "1": "下来 (xiàlái, xuống) không hợp với lý do 'trên đường nhiều xe'; lời dặn ở đây là 'cẩn thận': 小心一点儿.",
+      "2": "路上 (lùshang, trên đường) là nơi chốn, đã có ở đầu câu; chỗ trống cần lời nhắc: 小心."
      }
     },
     {
@@ -3760,22 +3801,22 @@
    ],
    "shadow": [
     {
-     "t": "离",
-     "py": "lí",
-     "focus": "l rõ (không đọc thành n); thanh 2 đi lên từ giữa lên cao.",
-     "en": "away from"
+     "t": "司机",
+     "py": "sījī",
+     "focus": "s đầu lưỡi, không cong (khác sh); hai thanh 1 liền nhau: giữ cao và đều cả hai.",
+     "en": "driver"
     },
     {
-     "t": "很远",
-     "py": "hěn yuǎn",
-     "focus": "thanh 3 + thanh 3 nên 很 đọc thành hén; yuǎn: môi tròn ü rồi mở ra 'an'.",
-     "en": "very far"
+     "t": "很累",
+     "py": "hěn lèi",
+     "focus": "很 thanh 3 đứng trước thanh 4 chỉ đọc nửa (xuống thấp); l đọc rõ, không thành n; lèi rơi mạnh.",
+     "en": "very tired"
     },
     {
-     "t": "很近",
-     "py": "hěn jìn",
-     "focus": "j không bật hơi, môi dẹt; jìn rơi mạnh.",
-     "en": "very close"
+     "t": "小心！",
+     "py": "Xiǎoxīn!",
+     "focus": "x môi dẹt, không đọc thành 's'; xiǎo nửa thanh 3 (xuống thấp), xīn giữ cao; -n mũi trước.",
+     "en": "Be careful!"
     },
     {
      "t": "走路",

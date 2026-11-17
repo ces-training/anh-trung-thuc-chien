@@ -612,39 +612,39 @@
    ]
   },
   {
-   "ch": "左",
-   "py": "zuǒ",
-   "m": "trái",
-   "en": "left",
-   "k": "Trên là bàn tay (nét ngang và phẩy), dưới là 工 (cái thước thợ): tay trái cầm thước.",
+   "ch": "进",
+   "py": "jìn",
+   "m": "vào",
+   "en": "to enter",
+   "k": "井 (cái giếng) trên 辶 (đường đi): theo đường đi vào tận chỗ giếng giữa làng, tức là 'vào'.",
    "r": [
-    "Chữ có 5 nét.",
-    "Viết nét NGANG trước, rồi nét PHẨY, rồi 工.",
-    "Mẹo phân biệt: 左 viết ngang trước, 右 viết phẩy trước."
+    "Chữ có 7 nét.",
+    "井 trước (4 nét: ngang, ngang, phẩy, sổ), 辶 viết SAU cùng (3 nét).",
+    "Bộ 辶 luôn viết cuối dù nằm bên trái chữ; nét mác dài đỡ dưới 井."
    ]
   },
   {
-   "ch": "右",
-   "py": "yòu",
-   "m": "phải",
-   "en": "right",
-   "k": "Trên là bàn tay, dưới là 口 (miệng): tay phải đưa cơm lên miệng.",
+   "ch": "出",
+   "py": "chū",
+   "m": "ra",
+   "en": "to go out",
+   "k": "Hai ngọn núi 山 chồng lên nhau: vượt qua núi để đi RA ngoài.",
    "r": [
     "Chữ có 5 nét.",
-    "Viết nét PHẨY trước, rồi nét NGANG, rồi 口.",
-    "口 nằm dưới nét ngang, hơi lệch sang phải."
+    "Tầng trên trước: sổ gập bên trái, sổ ngắn bên phải; rồi nét sổ dài ở giữa, xuyên từ trên xuống dưới.",
+    "Cuối cùng là tầng dưới: sổ gập bên trái, sổ bên phải; tầng dưới rộng hơn tầng trên."
    ]
   },
   {
-   "ch": "往",
-   "py": "wǎng",
-   "m": "hướng về",
-   "en": "towards",
-   "k": "彳 (bước chân) + 主 (chủ): bước chân đi về phía người chủ, tức là 'hướng về'.",
+   "ch": "门",
+   "py": "mén",
+   "m": "cửa",
+   "en": "door",
+   "k": "Hình cánh cửa nhìn nghiêng: chấm là cái then, khung bên phải là cánh cửa (门口: cửa ra vào).",
    "r": [
-    "Chữ có 8 nét.",
-    "Trái – phải: 彳 trước (3 nét: phẩy, phẩy, sổ), 主 sau (5 nét).",
-    "主: chấm trên cùng, rồi ba nét ngang và nét sổ ở giữa."
+    "Chữ có 3 nét.",
+    "Chấm trước, rồi nét sổ bên trái, cuối cùng là ngang – gập – móc bên phải.",
+    "Nét sổ trái và nét móc phải dài gần bằng nhau, để trống ở giữa."
    ]
   }
  ],
@@ -662,15 +662,15 @@
    ]
   },
   {
-   "ch": "近",
-   "py": "jìn",
-   "m": "gần",
-   "en": "near",
-   "k": "斤 (cái rìu) trên 辶 (đường): xách rìu đi vài bước là tới, nên 'gần'.",
+   "ch": "坏",
+   "py": "huài",
+   "m": "hỏng",
+   "en": "broken",
+   "k": "土 (đất) + 不 (không): đồ rơi xuống đất thì không dùng được nữa, tức là 'hỏng'.",
    "r": [
     "Chữ có 7 nét.",
-    "斤 trước (4 nét: phẩy, phẩy, ngang, sổ), 辶 sau (3 nét).",
-    "Bộ 辶 luôn viết cuối dù nằm bên trái chữ."
+    "Trái – phải: 土 trước (3 nét: ngang, sổ, hất), 不 sau (4 nét: ngang, phẩy, sổ, chấm).",
+    "土 bên trái viết hẹp; nét cuối của nó thành nét hất lên để nối sang 不."
    ]
   },
   {
@@ -745,6 +745,256 @@
     "Chữ có 13 nét.",
     "𧾷 bên trái trước (7 nét): 口 nhỏ ở trên, rồi sổ, ngang, sổ và nét hất.",
     "艮 bên phải (6 nét): phần giống 日 ở trên, rồi nét hất và nét mác."
+   ]
+  }
+ ],
+ "h2-w1-thu-2": [
+  {
+   "ch": "找",
+   "py": "zhǎo",
+   "m": "tìm",
+   "en": "to look for",
+   "k": "扌 (tay) + 戈 (cây giáo): đưa tay đi tìm cây giáo.",
+   "r": [
+    "Chữ có 7 nét.",
+    "Trái – phải: 扌 trước (ngang, sổ móc, hất), rồi 戈.",
+    "戈: ngang, nét xiên móc dài, phẩy, cuối cùng là chấm ở góc trên bên phải."
+   ]
+  },
+  {
+   "ch": "公",
+   "py": "gōng",
+   "m": "công (公司)",
+   "en": "public (as in company)",
+   "k": "八 (chia) ở trên, 厶 (riêng) ở dưới: chia đều, không giữ riêng = công.",
+   "r": [
+    "Chữ có 4 nét.",
+    "Trên – dưới: phẩy, chấm (八) trước, rồi 厶.",
+    "厶: phẩy – gập rồi chấm; chấm nằm bên phải."
+   ]
+  },
+  {
+   "ch": "司",
+   "py": "sī",
+   "m": "ti (公司)",
+   "en": "to manage (as in company)",
+   "k": "Khung mở bên trái như cánh cửa, bên trong 一 và 口: người ngồi trong cửa lo việc.",
+   "r": [
+    "Chữ có 5 nét.",
+    "Nét đầu là ngang – gập – móc (khung bên phải), rồi nét ngang ngắn bên trong.",
+    "Viết 口 cuối cùng: sổ, ngang – gập, ngang."
+   ]
+  },
+  {
+   "ch": "开",
+   "py": "kāi",
+   "m": "mở, bắt đầu (开始)",
+   "en": "to open, to start",
+   "k": "Hai thanh cài cửa (二) được hai tay đẩy ra (丿 丨): mở cửa.",
+   "r": [
+    "Chữ có 4 nét.",
+    "Ngang trên trước, ngang dưới sau (nét dưới dài hơn).",
+    "Rồi phẩy bên trái, cuối cùng là sổ thẳng bên phải."
+   ]
+  }
+ ],
+ "h2-w1-thu-3": [
+  {
+   "ch": "钱",
+   "py": "qián",
+   "m": "tiền",
+   "en": "money",
+   "k": "钅 (kim loại) + 戋: tiền xưa đúc bằng kim loại.",
+   "r": [
+    "Chữ có 10 nét.",
+    "Trái – phải: 钅 trước (phẩy, ba ngang, sổ hất), rồi 戋.",
+    "戋: hai nét ngang, nét xiên móc, phẩy, cuối cùng là chấm."
+   ]
+  },
+  {
+   "ch": "千",
+   "py": "qiān",
+   "m": "nghìn",
+   "en": "thousand",
+   "k": "十 (mười) thêm một nét phẩy ở trên: nhiều hơn mười rất nhiều = nghìn.",
+   "r": [
+    "Chữ có 3 nét.",
+    "Phẩy ngắn ở trên trước, rồi ngang.",
+    "Sổ thẳng viết cuối, đi xuyên qua nét ngang."
+   ]
+  },
+  {
+   "ch": "万",
+   "py": "wàn",
+   "m": "vạn (10.000)",
+   "en": "ten thousand",
+   "k": "Giống 方 nhưng không có chấm trên đầu: 1 vạn = 10.000.",
+   "r": [
+    "Chữ có 3 nét.",
+    "Ngang trước.",
+    "Rồi ngang – gập – móc, cuối cùng là nét phẩy bên trái."
+   ]
+  },
+  {
+   "ch": "给",
+   "py": "gěi",
+   "m": "đưa, cho",
+   "en": "to give",
+   "k": "纟 (sợi tơ) + 合 (hợp): buộc lại thành gói để đưa cho người khác.",
+   "r": [
+    "Chữ có 9 nét.",
+    "Trái – phải: 纟 trước (hai nét phẩy – gập, rồi nét hất).",
+    "合: phẩy, mác (như mái nhà), ngang, rồi 口 ở dưới."
+   ]
+  }
+ ],
+ "h2-w1-thu-4": [
+  {
+   "ch": "左",
+   "py": "zuǒ",
+   "m": "trái (左边)",
+   "en": "left",
+   "k": "Tay (𠂇) + 工 (dụng cụ): tay trái cầm dụng cụ.",
+   "r": [
+    "Chữ có 5 nét.",
+    "左 viết nét ngang TRƯỚC, nét phẩy sau (ngược với 右).",
+    "Rồi viết 工 bên dưới: ngang, sổ, ngang."
+   ]
+  },
+  {
+   "ch": "右",
+   "py": "yòu",
+   "m": "phải (右边)",
+   "en": "right",
+   "k": "Tay (𠂇) + 口 (miệng): tay phải đưa thức ăn lên miệng.",
+   "r": [
+    "Chữ có 5 nét.",
+    "右 viết nét phẩy TRƯỚC, nét ngang sau (ngược với 左).",
+    "Rồi viết 口: sổ, ngang – gập, ngang."
+   ]
+  },
+  {
+   "ch": "往",
+   "py": "wǎng",
+   "m": "về phía",
+   "en": "towards",
+   "k": "彳 (bước chân) + 主: bước về phía chủ nhà.",
+   "r": [
+    "Chữ có 8 nét.",
+    "Trái – phải: 彳 trước (hai nét phẩy, rồi sổ).",
+    "主: chấm trên đầu, ba nét ngang và nét sổ ở giữa; nét ngang dưới cùng dài nhất."
+   ]
+  },
+  {
+   "ch": "近",
+   "py": "jìn",
+   "m": "gần",
+   "en": "near",
+   "k": "斤 (cái rìu) + 辶 (đi): đi vài bước là tới, gần thôi.",
+   "r": [
+    "Chữ có 7 nét.",
+    "Viết 斤 trước (hai nét phẩy, ngang, sổ).",
+    "辶 viết SAU CÙNG: chấm, ngang – gập – gập – phẩy, rồi nét mác dài đỡ bên dưới."
+   ]
+  }
+ ],
+ "h2-w1-thu-5": [
+  {
+   "ch": "房",
+   "py": "fáng",
+   "m": "nhà, phòng (房子)",
+   "en": "house, room",
+   "k": "户 (cửa) + 方: căn nhà có cửa = 房.",
+   "r": [
+    "Chữ có 8 nét.",
+    "户 trước: chấm, ngang – gập, ngang, rồi nét phẩy dài kéo xuống bên trái.",
+    "方 nằm dưới, bên trong nét phẩy: chấm, ngang, ngang – gập – móc, phẩy."
+   ]
+  },
+  {
+   "ch": "床",
+   "py": "chuáng",
+   "m": "giường",
+   "en": "bed",
+   "k": "广 (mái nhà) + 木 (gỗ): giường gỗ đặt dưới mái nhà.",
+   "r": [
+    "Chữ có 7 nét.",
+    "广 trước: chấm, ngang, phẩy dài.",
+    "木 viết bên trong: ngang, sổ, phẩy, chấm."
+   ]
+  },
+  {
+   "ch": "便",
+   "py": "pián",
+   "m": "(chữ trong 便宜: rẻ)",
+   "en": "(as in cheap)",
+   "k": "亻 (người) + 更: người khéo mua thì 'càng' rẻ.",
+   "r": [
+    "Chữ có 9 nét.",
+    "Trái – phải: 亻 trước (phẩy, sổ).",
+    "更: ngang, rồi 日 (sổ, ngang – gập, ngang, ngang), cuối cùng là phẩy và mác bắt chéo."
+   ]
+  },
+  {
+   "ch": "贵",
+   "py": "guì",
+   "m": "đắt",
+   "en": "expensive",
+   "k": "Phần trên giống 中 + một nét ngang, dưới là 贝 (vỏ sò = tiền xưa): tốn nhiều tiền = đắt.",
+   "r": [
+    "Chữ có 9 nét.",
+    "Trên – dưới: phần trên 5 nét (sổ ngắn, ngang – gập, ngang, sổ ở giữa, ngang dài).",
+    "贝 ở dưới 4 nét: sổ, ngang – gập, phẩy, chấm."
+   ]
+  }
+ ],
+ "h2-w1-thu-6": [
+  {
+   "ch": "请",
+   "py": "qǐng",
+   "m": "mời, xin (请假)",
+   "en": "please (as in ask for leave)",
+   "k": "讠 (lời nói) + 青 (xanh, trẻ): lời nói nhẹ nhàng khi mời, xin.",
+   "r": [
+    "Chữ có 10 nét.",
+    "Trái – phải: 讠 trước (chấm, ngang – gập – hất).",
+    "青: ba ngang và một sổ ở trên, rồi 月 ở dưới (phẩy, ngang – gập – móc, hai ngang)."
+   ]
+  },
+  {
+   "ch": "休",
+   "py": "xiū",
+   "m": "nghỉ (休息)",
+   "en": "to rest",
+   "k": "亻 (người) dựa vào 木 (cây): người tựa gốc cây nghỉ ngơi.",
+   "r": [
+    "Chữ có 6 nét.",
+    "Trái – phải: 亻 trước (phẩy, sổ).",
+    "木: ngang, sổ, phẩy, chấm."
+   ]
+  },
+  {
+   "ch": "回",
+   "py": "huí",
+   "m": "về (回家)",
+   "en": "to return",
+   "k": "Hai vòng 口 lồng nhau: đi một vòng rồi quay về.",
+   "r": [
+    "Chữ có 6 nét.",
+    "口 ngoài: sổ, ngang – gập (chưa đóng đáy).",
+    "Viết 口 nhỏ bên trong, cuối cùng mới đóng đáy bằng nét ngang: 'vào trước, đóng cửa sau'."
+   ]
+  },
+  {
+   "ch": "年",
+   "py": "nián",
+   "m": "năm (过年)",
+   "en": "year",
+   "k": "Hình người vác lúa (禾) trên vai: mỗi năm một mùa gặt.",
+   "r": [
+    "Chữ có 6 nét.",
+    "Phẩy trước, rồi hai nét ngang ngắn và nét sổ ngắn bên trái.",
+    "Ngang dài thứ ba, cuối cùng là nét sổ thẳng dài ở giữa."
    ]
   }
  ]
