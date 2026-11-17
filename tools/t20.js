@@ -232,7 +232,7 @@ async function funnel(browser, base) {
   check(/Đăng ký chờ lớp/.test(endA2) && !/Chọn gói/.test(endA2), "xong tuần học thử A2 → mời chờ lớp, không mời mua gói");
   /* B2, HSK4 đã có tuần học thử riêng; lộ trình chưa mở (giả lập) → gợi ý tuần học thử gần nhất bên dưới */
   const adv = await p2.evaluate(() => [trackStart(trackOf("en", "en-d")), trackStart(trackOf("zh", "zh-c"))].join(" "));
-  check(adv === "b2-w1-thu-2 h4-w1-thu-2", "B2 → học thử B2, HSK4 → học thử HSK4 (" + adv + ")");
+  check(adv === "b2-w1-thu-2 g4-w1-thu-2", "B2 → học thử B2, HSK4 → học thử HSK4 (" + adv + ")");
   const near = await p2.evaluate(() => { const t = trackOf("en", "en-d"), n = nearTrial("en", t); return n ? trackStart(n) : ""; });
   check(near === "b1-w1-thu-2", "nếu B2 chưa mở → gợi ý học thử B1 (" + near + ")");
   /* ===== Luồng A: tự chọn trình độ trước ===== */
