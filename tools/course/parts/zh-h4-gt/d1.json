@@ -1,0 +1,1396 @@
+{
+ "id": "h4gt-thu-2",
+ "label": "Thứ 2",
+ "title": "Phỏng vấn xin việc: kinh nghiệm, điểm mạnh, lương, chế độ",
+ "desc": "阮安 (Ruǎn Ān) đã đi làm 2 năm ở Hà Nội và ứng tuyển một vị trí ở công ty tại Thượng Hải (上海 Shànghǎi). Hôm nay là buổi phỏng vấn online với 王经理 (Wáng jīnglǐ): bạn giới thiệu chuyên ngành, kinh nghiệm, vì sao hợp với công việc, rồi lịch sự hỏi lại về lương và thưởng.",
+ "rule": "Nói mình quan tâm việc gì: 对 + việc + 感兴趣 (duì… gǎn xìngqù), không nói 感兴趣 + việc. Kể thêm điểm mạnh: 除了 A 以外，(chủ ngữ) 还 + V (ngoài A ra còn…); 还 đứng sau chủ ngữ, trước động từ. Nêu hai đặc điểm cùng lúc: 又 A 又 B (vừa A vừa B), 又 đứng sau chủ ngữ. Hỏi lương lịch sự: 我想问一下，工资和奖金怎么样？",
+ "cards": [
+  {
+   "w": "招聘",
+   "py": "zhāopìn",
+   "m": "tuyển dụng, tuyển người",
+   "mEn": "to recruit, to hire",
+   "ex": "我们公司正在招聘会说越南语的员工。",
+   "expy": "Wǒmen gōngsī zhèngzài zhāopìn huì shuō Yuènányǔ de yuángōng.",
+   "exm": "Công ty chúng tôi đang tuyển nhân viên biết nói tiếng Việt.",
+   "exEn": "Our company is hiring staff who can speak Vietnamese.",
+   "n": "招聘 là việc của CÔNG TY (tìm người, đăng tin tuyển). Người đi xin việc thì dùng 应聘 (yìngpìn). zh cong lưỡi, thanh 1 cao đều; pìn thanh 4, -n đầu lưỡi.",
+   "img": "company"
+  },
+  {
+   "w": "应聘",
+   "py": "yìngpìn",
+   "m": "ứng tuyển, nộp đơn xin việc",
+   "mEn": "to apply for a job",
+   "ex": "我想应聘你们公司负责越南市场的工作。",
+   "expy": "Wǒ xiǎng yìngpìn nǐmen gōngsī fùzé Yuènán shìchǎng de gōngzuò.",
+   "exm": "Tôi muốn ứng tuyển công việc phụ trách thị trường Việt Nam của công ty anh.",
+   "exEn": "I'd like to apply for the job in charge of the Vietnamese market at your company.",
+   "n": "应聘 là việc của NGƯỜI XIN VIỆC: 应聘 + công việc / vị trí. Ở đây 应 đọc yìng (thanh 4), không phải yīng như trong 应该. Hai thanh 4 liền nhau: yìng mạnh, pìn rơi dứt khoát."
+  },
+  {
+   "w": "简历",
+   "py": "jiǎnlì",
+   "m": "sơ yếu lý lịch, CV",
+   "mEn": "résumé, CV",
+   "ex": "我已经把简历发给王经理了。",
+   "expy": "Wǒ yǐjīng bǎ jiǎnlì fā gěi Wáng jīnglǐ le.",
+   "exm": "Tôi đã gửi CV cho quản lý Vương rồi.",
+   "exEn": "I've already sent my CV to Mr Wang.",
+   "n": "简 = giản (ngắn gọn), 历 = lịch (những gì đã trải qua): bản tóm tắt quá trình học và làm việc. Đi với 写 (viết), 发 (gửi), 看 (xem): 把简历发给…",
+   "img": "form"
+  },
+  {
+   "w": "经验",
+   "py": "jīngyàn",
+   "m": "kinh nghiệm",
+   "mEn": "experience (skills gained)",
+   "ex": "我在河内有两年的工作经验。",
+   "expy": "Wǒ zài Hénèi yǒu liǎng nián de gōngzuò jīngyàn.",
+   "exm": "Tôi có hai năm kinh nghiệm làm việc ở Hà Nội.",
+   "exEn": "I have two years of work experience in Hanoi.",
+   "n": "Hán Việt 'kinh nghiệm': cái bạn học được sau khi làm. Hay đi với 有 / 没有 / 积累: 有两年的工作经验. Khác 经历 (jīnglì) = những việc mình đã trải qua."
+  },
+  {
+   "w": "能力",
+   "py": "nénglì",
+   "m": "năng lực, khả năng",
+   "mEn": "ability, capability",
+   "ex": "我相信自己有能力做好这个工作。",
+   "expy": "Wǒ xiāngxìn zìjǐ yǒu nénglì zuò hǎo zhège gōngzuò.",
+   "exm": "Tôi tin mình có năng lực làm tốt công việc này.",
+   "exEn": "I believe I have the ability to do this job well.",
+   "n": "Hán Việt 'năng lực'. Mẫu hay dùng khi phỏng vấn: 有能力 + V (có năng lực làm…). néng có -ng mũi sau, đi lên; lì rơi xuống."
+  },
+  {
+   "w": "专业",
+   "py": "zhuānyè",
+   "m": "chuyên ngành; chuyên nghiệp",
+   "mEn": "major, specialty; professional",
+   "ex": "我大学的专业是汉语，学了四年。",
+   "expy": "Wǒ dàxué de zhuānyè shì Hànyǔ, xué le sì nián.",
+   "exm": "Chuyên ngành đại học của tôi là tiếng Trung, học bốn năm.",
+   "exEn": "My university major was Chinese; I studied it for four years.",
+   "n": "Hỏi chuyên ngành: 你是什么专业的？ hoặc 你的专业是什么？ Làm tính từ: 很专业 = rất chuyên nghiệp. zhuān cong lưỡi, thanh 1; yè thanh 4."
+  },
+  {
+   "w": "负责",
+   "py": "fùzé",
+   "m": "phụ trách, chịu trách nhiệm",
+   "mEn": "to be in charge of, to be responsible for",
+   "ex": "在现在的公司，我负责越南市场。",
+   "expy": "Zài xiànzài de gōngsī, wǒ fùzé Yuènán shìchǎng.",
+   "exm": "Ở công ty hiện tại, tôi phụ trách thị trường Việt Nam.",
+   "exEn": "At my current company I'm in charge of the Vietnamese market.",
+   "n": "Hán Việt 'phụ trách'. 负责 + việc (负责越南市场). Làm tính từ: 他很负责 = anh ấy rất có trách nhiệm. zé: z không bật hơi, thanh 2 đi lên.",
+   "img": "manager"
+  },
+  {
+   "w": "积累",
+   "py": "jīlěi",
+   "m": "tích luỹ",
+   "mEn": "to accumulate, to build up",
+   "ex": "这两年我积累了很多工作经验。",
+   "expy": "Zhè liǎng nián wǒ jīlěi le hěn duō gōngzuò jīngyàn.",
+   "exm": "Hai năm nay tôi đã tích luỹ được nhiều kinh nghiệm làm việc.",
+   "exEn": "Over these two years I've built up a lot of work experience.",
+   "n": "Chú ý: trong 积累, 累 đọc lěi (thanh 3), không phải lèi (mệt) như 我很累. Hay đi với 经验 và 钱: 积累经验."
+  },
+  {
+   "w": "适应",
+   "py": "shìyìng",
+   "m": "thích nghi, quen dần với",
+   "mEn": "to adapt to, to get used to",
+   "ex": "我很快就能适应新的工作环境。",
+   "expy": "Wǒ hěn kuài jiù néng shìyìng xīn de gōngzuò huánjìng.",
+   "exm": "Tôi có thể nhanh chóng thích nghi với môi trường làm việc mới.",
+   "exEn": "I can quickly adapt to a new working environment.",
+   "n": "Hán Việt 'thích ứng'. 适应 là động từ: 适应 + 环境 / 天气 / 工作. Khác 习惯 (xíguàn): 习惯 vừa là động từ 'quen', vừa là danh từ 'thói quen'; 适应 không làm danh từ 'thói quen'."
+  },
+  {
+   "w": "工资",
+   "py": "gōngzī",
+   "m": "tiền lương",
+   "mEn": "salary, wages",
+   "ex": "这个工作的工资是每个月一万二。",
+   "expy": "Zhège gōngzuò de gōngzī shì měi ge yuè yí wàn èr.",
+   "exm": "Lương của công việc này là mười hai nghìn tệ mỗi tháng.",
+   "exEn": "The salary for this job is twelve thousand yuan a month.",
+   "n": "工资 đi với 高 / 低 và 发 (trả lương): 每个月十号发工资. 一万二 = 12.000 (一万二千 nói gọn). zī: z không bật hơi, miệng dẹt.",
+   "img": "calc"
+  },
+  {
+   "w": "奖金",
+   "py": "jiǎngjīn",
+   "m": "tiền thưởng",
+   "mEn": "bonus",
+   "ex": "除了工资以外，春节以前公司还发奖金。",
+   "expy": "Chúle gōngzī yǐwài, Chūnjié yǐqián gōngsī hái fā jiǎngjīn.",
+   "exm": "Ngoài lương ra, trước Tết công ty còn phát tiền thưởng.",
+   "exEn": "Besides the salary, the company also pays a bonus before Chinese New Year.",
+   "n": "奖 = thưởng, 金 = tiền (vốn nghĩa là vàng). Động từ đi kèm: 发奖金 (phát thưởng). jiǎng -ng mũi sau, thanh 3; jīn -n đầu lưỡi, thanh 1."
+  }
+ ],
+ "scene": {
+  "setting": "Sáng thứ Hai, phỏng vấn online. 阮安 (Ruǎn Ān) ngồi trước máy tính ở Hà Nội; 王经理 (Wáng jīnglǐ) ở văn phòng công ty tại Thượng Hải (上海 Shànghǎi). Ông đã đọc CV của bạn và muốn nghe bạn tự giới thiệu.",
+  "img": "scene-zh-interview-gt",
+  "imgPrompt": "Realistic photo of an online job interview; split view: on the left an (Vietnamese young woman about 22, long straight black hair with a center part and wispy bangs, cobalt blue blouse) sits at a tidy desk at home in Hanoi in front of a laptop, smiling and gesturing politely; on the laptop screen and on the right wangjl (Chinese man about 50, short greying hair, dark navy suit, red tie, rimless glasses) sits in a bright modern Shanghai office with a city skyline window behind him, holding a printed CV; warm morning light, no readable text",
+  "lines": [
+   {
+    "who": "王经理",
+    "t": "阮安，你好！我是王经理。今天我们在网上面试，你能听清楚吗？",
+    "py": "Ruǎn Ān, nǐ hǎo! Wǒ shì Wáng jīnglǐ. Jīntiān wǒmen zài wǎng shang miànshì, nǐ néng tīng qīngchu ma?",
+    "vi": "Chào An! Tôi là quản lý Vương. Hôm nay chúng ta phỏng vấn online, em nghe có rõ không?",
+    "en": "Hello, An! I'm Mr Wang. We're doing the interview online today. Can you hear me clearly?"
+   },
+   {
+    "who": "阮安",
+    "t": "王经理好！听得很清楚。谢谢您给我这个面试的机会。",
+    "py": "Wáng jīnglǐ hǎo! Tīng de hěn qīngchu. Xièxie nín gěi wǒ zhège miànshì de jīhuì.",
+    "vi": "Chào anh Vương! Em nghe rất rõ ạ. Cảm ơn anh đã cho em cơ hội phỏng vấn này.",
+    "en": "Hello, Mr Wang! I can hear you very clearly. Thank you for giving me this interview."
+   },
+   {
+    "who": "王经理",
+    "t": "我看了你的简历。你大学的专业是汉语，对吗？",
+    "py": "Wǒ kàn le nǐ de jiǎnlì. Nǐ dàxué de zhuānyè shì Hànyǔ, duì ma?",
+    "vi": "Tôi đã xem CV của em. Chuyên ngành đại học của em là tiếng Trung, đúng không?",
+    "en": "I've read your CV. Your university major was Chinese, right?"
+   },
+   {
+    "who": "阮安",
+    "t": "对。我学了四年汉语，然后在河内的一家中国公司工作了两年，负责越南市场。",
+    "py": "Duì. Wǒ xué le sì nián Hànyǔ, ránhòu zài Hénèi de yì jiā Zhōngguó gōngsī gōngzuò le liǎng nián, fùzé Yuènán shìchǎng.",
+    "vi": "Đúng ạ. Em học tiếng Trung bốn năm, sau đó làm ở một công ty Trung Quốc tại Hà Nội hai năm, phụ trách thị trường Việt Nam.",
+    "en": "Yes. I studied Chinese for four years, then worked for two years at a Chinese company in Hanoi, in charge of the Vietnamese market."
+   },
+   {
+    "who": "王经理",
+    "t": "很好。我们这次招聘的人要经常跟越南顾客见面。你为什么来应聘这个工作？",
+    "py": "Hěn hǎo. Wǒmen zhè cì zhāopìn de rén yào jīngcháng gēn Yuènán gùkè jiànmiàn. Nǐ wèishénme lái yìngpìn zhège gōngzuò?",
+    "vi": "Tốt lắm. Người chúng tôi tuyển lần này phải thường xuyên gặp khách hàng Việt Nam. Vì sao em ứng tuyển công việc này?",
+    "en": "Very good. The person we're hiring this time will often meet Vietnamese customers. Why are you applying for this job?"
+   },
+   {
+    "who": "阮安",
+    "t": "因为我对跟中国做生意很感兴趣。而且这两年我积累了不少经验，相信自己有能力做好这个工作。",
+    "py": "Yīnwèi wǒ duì gēn Zhōngguó zuò shēngyi hěn gǎn xìngqù. Érqiě zhè liǎng nián wǒ jīlěi le bù shǎo jīngyàn, xiāngxìn zìjǐ yǒu nénglì zuò hǎo zhège gōngzuò.",
+    "vi": "Vì em rất quan tâm đến việc làm ăn với Trung Quốc. Hơn nữa hai năm nay em đã tích luỹ được khá nhiều kinh nghiệm, em tin mình có năng lực làm tốt công việc này.",
+    "en": "Because I'm very interested in doing business with China. Also, over the past two years I've built up quite a lot of experience, and I believe I can do this job well."
+   },
+   {
+    "who": "王经理",
+    "t": "上海离河内很远，你能适应这里的工作环境吗？",
+    "py": "Shànghǎi lí Hénèi hěn yuǎn, nǐ néng shìyìng zhèlǐ de gōngzuò huánjìng ma?",
+    "vi": "Thượng Hải cách Hà Nội rất xa, em có thích nghi được với môi trường làm việc ở đây không?",
+    "en": "Shanghai is a long way from Hanoi. Can you adapt to the working environment here?"
+   },
+   {
+    "who": "阮安",
+    "t": "我适应得很快。除了汉语以外，我还会说一点儿日语，也习惯跟不同国家的同事一起工作。",
+    "py": "Wǒ shìyìng de hěn kuài. Chúle Hànyǔ yǐwài, wǒ hái huì shuō yìdiǎnr Rìyǔ, yě xíguàn gēn bù tóng guójiā de tóngshì yìqǐ gōngzuò.",
+    "vi": "Em thích nghi rất nhanh. Ngoài tiếng Trung ra, em còn nói được một chút tiếng Nhật, và cũng quen làm việc với đồng nghiệp ở nhiều nước khác nhau.",
+    "en": "I adapt very quickly. Besides Chinese, I also speak a little Japanese, and I'm used to working with colleagues from different countries."
+   },
+   {
+    "who": "阮安",
+    "t": "王经理，我想问一下，这个工作的工资和奖金怎么样？",
+    "py": "Wáng jīnglǐ, wǒ xiǎng wèn yíxià, zhège gōngzuò de gōngzī hé jiǎngjīn zěnmeyàng?",
+    "vi": "Anh Vương, em muốn hỏi một chút, lương và thưởng của công việc này thế nào ạ?",
+    "en": "Mr Wang, may I ask what the salary and bonus are like for this job?"
+   },
+   {
+    "who": "王经理",
+    "t": "工资每个月一万二，春节以前还有奖金。这个工作又忙又有意思。下个星期我们给你回电话。",
+    "py": "Gōngzī měi ge yuè yí wàn èr, Chūnjié yǐqián hái yǒu jiǎngjīn. Zhège gōngzuò yòu máng yòu yǒu yìsi. Xià ge xīngqī wǒmen gěi nǐ huí diànhuà.",
+    "vi": "Lương mười hai nghìn tệ mỗi tháng, trước Tết còn có thưởng. Công việc này vừa bận vừa thú vị. Tuần sau chúng tôi sẽ gọi lại cho em.",
+    "en": "The salary is twelve thousand a month, plus a bonus before Chinese New Year. The job is busy but interesting. We'll call you back next week."
+   }
+  ]
+ },
+ "patterns": [
+  {
+   "t": "Quan tâm đến việc gì: 对 + việc + 感兴趣",
+   "f": [
+    [
+     "我",
+     "对",
+     "这个工作",
+     "很感兴趣"
+    ],
+    [
+     "我",
+     "对",
+     "跟中国做生意",
+     "特别感兴趣"
+    ]
+   ],
+   "ex": [
+    [
+     "我对这个工作很感兴趣。",
+     "Tôi rất quan tâm đến công việc này.",
+     "I'm very interested in this job."
+    ],
+    [
+     "我对跟中国做生意特别感兴趣。",
+     "Tôi đặc biệt quan tâm đến việc làm ăn với Trung Quốc.",
+     "I'm especially interested in doing business with China."
+    ]
+   ],
+   "bad": "我很感兴趣这个工作。",
+   "good": "我对这个工作很感兴趣。",
+   "why": "感兴趣 (gǎn xìngqù) không mang tân ngữ đứng sau. Việc mình quan tâm phải đưa lên trước bằng 对 (duì): 对 + việc + 感兴趣. 很 hoặc 特别 đứng ngay trước 感兴趣."
+  },
+  {
+   "t": "Ngoài A ra còn…: 除了 A 以外，(chủ ngữ) 还 + V",
+   "f": [
+    [
+     "除了",
+     "汉语以外，",
+     "我还会说",
+     "一点儿日语"
+    ],
+    [
+     "除了",
+     "工资以外，",
+     "公司还发",
+     "奖金"
+    ]
+   ],
+   "ex": [
+    [
+     "除了汉语以外，我还会说一点儿日语。",
+     "Ngoài tiếng Trung ra, tôi còn nói được một chút tiếng Nhật.",
+     "Besides Chinese, I also speak a little Japanese."
+    ],
+    [
+     "除了工资以外，公司每年还发奖金。",
+     "Ngoài lương ra, hằng năm công ty còn phát thưởng.",
+     "Besides the salary, the company also pays a bonus every year."
+    ]
+   ],
+   "bad": "除了工资以外，还公司每年发奖金。",
+   "good": "除了工资以外，公司每年还发奖金。",
+   "why": "还 (hái) là phó từ: đứng SAU chủ ngữ (公司) và trước động từ (发). Không đặt 还 trước chủ ngữ. 除了…以外 có thể bỏ 以外, nhưng không bỏ 除了."
+  },
+  {
+   "t": "Vừa A vừa B: (chủ ngữ) 又 A 又 B",
+   "f": [
+    [
+     "这个工作",
+     "又",
+     "忙",
+     "又有意思"
+    ],
+    [
+     "我",
+     "又",
+     "有经验，",
+     "又会说汉语"
+    ]
+   ],
+   "ex": [
+    [
+     "这个工作又忙又有意思。",
+     "Công việc này vừa bận vừa thú vị.",
+     "This job is both busy and interesting."
+    ],
+    [
+     "我又有工作经验，又会说汉语。",
+     "Tôi vừa có kinh nghiệm làm việc, vừa biết nói tiếng Trung.",
+     "I have both work experience and Chinese."
+    ]
+   ],
+   "bad": "又我有工作经验，又我会说汉语。",
+   "good": "我又有工作经验，又会说汉语。",
+   "why": "又 (yòu) là phó từ nên đứng sau chủ ngữ, trước động từ hoặc tính từ; chủ ngữ chỉ nói một lần ở đầu câu. Hai vế sau 又 nên cùng kiểu: 又 + tính từ, 又 + tính từ (又忙又有意思) hoặc 又 + động từ, 又 + động từ."
+  }
+ ],
+ "vocab": [
+  {
+   "q": "应聘 (yìngpìn) nghĩa là gì?",
+   "opts": [
+    "ứng tuyển, nộp đơn xin việc",
+    "tuyển dụng, tuyển người",
+    "phỏng vấn"
+   ],
+   "optsEn": [
+    "to apply for a job",
+    "to recruit",
+    "to interview"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Tuyển người là việc của công ty: 招聘 (zhāopìn). 应聘 là việc của người đi xin việc.",
+    "2": "Phỏng vấn là 面试 (miànshì). 应聘 là nộp đơn, ứng tuyển vào một vị trí."
+   }
+  },
+  {
+   "q": "Điền từ: 我们公司正在___两个会说越南语的员工。(Wǒmen gōngsī zhèngzài ___ liǎng ge huì shuō Yuènányǔ de yuángōng.)",
+   "opts": [
+    "招聘",
+    "应聘",
+    "负责"
+   ],
+   "a": 0,
+   "why": {
+    "1": "应聘 (yìngpìn) là việc của người xin việc; chủ ngữ ở đây là 公司 (công ty), công ty thì 招聘 (tuyển).",
+    "2": "负责 (fùzé) = phụ trách một việc; 'phụ trách hai nhân viên biết tiếng Việt' không khớp với 正在 (đang) tìm người."
+   }
+  },
+  {
+   "q": "Điền từ: 我在河内有两年的工作___。(Wǒ zài Hénèi yǒu liǎng nián de gōngzuò ___.)",
+   "opts": [
+    "经验",
+    "专业",
+    "工资"
+   ],
+   "a": 0,
+   "why": {
+    "1": "专业 (zhuānyè) là chuyên ngành học ở đại học, không nói 'hai năm chuyên ngành làm việc'.",
+    "2": "工资 (gōngzī) = lương; 'có hai năm lương làm việc' không có nghĩa. Cụm đúng là 工作经验 (kinh nghiệm làm việc)."
+   }
+  },
+  {
+   "q": "Trong câu 这两年我积累了很多经验 (Zhè liǎng nián wǒ jīlěi le hěn duō jīngyàn), 积累 nghĩa là gì?",
+   "opts": [
+    "tích luỹ",
+    "làm mệt",
+    "mất đi"
+   ],
+   "optsEn": [
+    "to accumulate",
+    "to tire out",
+    "to lose"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Chữ 累 đọc lèi mới là 'mệt'. Trong 积累, 累 đọc lěi và cả từ nghĩa là tích luỹ.",
+    "2": "Ngược nghĩa: 积累经验 là có thêm kinh nghiệm qua thời gian, không phải mất đi."
+   }
+  },
+  {
+   "q": "Điền từ: 你大学的___是什么？——汉语。(Nǐ dàxué de ___ shì shénme? Hànyǔ.)",
+   "opts": [
+    "专业",
+    "能力",
+    "简历"
+   ],
+   "a": 0,
+   "why": {
+    "1": "能力 (nénglì) = năng lực; câu trả lời 'tiếng Trung' là ngành học, không phải năng lực ở đại học.",
+    "2": "简历 (jiǎnlì) = CV; 'CV đại học của bạn là gì? Tiếng Trung' không hợp."
+   }
+  },
+  {
+   "q": "Điền từ: 除了工资以外，公司每年还发___。(Chúle gōngzī yǐwài, gōngsī měi nián hái fā ___.)",
+   "opts": [
+    "奖金",
+    "简历",
+    "经验"
+   ],
+   "a": 0,
+   "why": {
+    "1": "简历 (jiǎnlì) là CV do người xin việc gửi; công ty không 'phát CV'.",
+    "2": "经验 (jīngyàn) là kinh nghiệm, không 'phát' được. Thứ công ty phát thêm ngoài lương là 奖金 (thưởng)."
+   }
+  },
+  {
+   "q": "Điền từ: 我刚来上海，还不太___这里的天气。(Wǒ gāng lái Shànghǎi, hái bú tài ___ zhèlǐ de tiānqì.)",
+   "opts": [
+    "适应",
+    "负责",
+    "招聘"
+   ],
+   "a": 0,
+   "why": {
+    "1": "负责 (fùzé) = phụ trách; không ai 'phụ trách thời tiết'.",
+    "2": "招聘 (zhāopìn) = tuyển người; tân ngữ phải là người, không phải 天气 (thời tiết)."
+   }
+  },
+  {
+   "q": "负责 (fùzé) nghĩa là gì?",
+   "opts": [
+    "phụ trách, chịu trách nhiệm",
+    "phụ thuộc",
+    "trách mắng"
+   ],
+   "optsEn": [
+    "to be in charge of",
+    "to depend on",
+    "to scold"
+   ],
+   "a": 0,
+   "why": {
+    "1": "'Phụ thuộc' chỉ giống âm 'phụ'. 我负责越南市场 = tôi phụ trách thị trường Việt Nam.",
+    "2": "'Trách mắng' chỉ giống âm 'trách'. 负责 là nhận phần việc và chịu trách nhiệm về nó."
+   }
+  }
+ ],
+ "grammar": [
+  {
+   "q": "Câu nào đúng?",
+   "opts": [
+    "我对这个工作很感兴趣。",
+    "我很感兴趣这个工作。",
+    "我对这个工作很兴趣。"
+   ],
+   "a": 0,
+   "why": {
+    "1": "感兴趣 (gǎn xìngqù) không mang tân ngữ đằng sau; phải nói 对 + việc + 感兴趣.",
+    "2": "Thiếu 感 (gǎn): 兴趣 là danh từ, không đứng sau 很 như tính từ. Nói 很感兴趣 hoặc 很有兴趣."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Điền từ: 除了汉语以外，我___会说一点儿日语。(Chúle Hànyǔ yǐwài, wǒ ___ huì shuō yìdiǎnr Rìyǔ.)",
+   "model": "还",
+   "accept": [
+    "还",
+    "hai"
+   ],
+   "why": "除了 A 以外，chủ ngữ + 还 + V: nói thêm một điều nữa. 还 (hái) đứng sau 我, trước 会."
+  },
+  {
+   "q": "Câu nào đúng?",
+   "opts": [
+    "除了工资以外，公司每年还发奖金。",
+    "除了工资以外，还公司每年发奖金。",
+    "除了以外工资，公司每年还发奖金。"
+   ],
+   "a": 0,
+   "why": {
+    "1": "还 (hái) là phó từ, phải đứng sau chủ ngữ 公司, trước động từ 发.",
+    "2": "Danh từ phải nằm GIỮA 除了 và 以外: 除了 + 工资 + 以外."
+   }
+  },
+  {
+   "q": "Điền từ: 这个工作___忙___有意思。(Công việc này vừa bận vừa thú vị.)",
+   "opts": [
+    "又……又……",
+    "也……也……",
+    "还……还……"
+   ],
+   "a": 0,
+   "why": {
+    "1": "也……也…… (yě… yě…) thường nối hai chủ ngữ khác nhau (我也去，他也去); nối hai tính chất của cùng một việc thì dùng 又……又…….",
+    "2": "还 (hái) không lặp thành cặp như vậy. 'Vừa… vừa…' là 又……又…… (yòu… yòu…)."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Sắp xếp thành câu: 感兴趣 / 我 / 对 / 很 / 中国文化 (Tôi rất quan tâm đến văn hoá Trung Quốc.)",
+   "model": "我对中国文化很感兴趣。",
+   "accept": [
+    "我对中国文化很感兴趣。",
+    "我对中国文化很感兴趣",
+    "woduizhongguowenhuahenganxingqu"
+   ],
+   "why": "Chủ ngữ 我 + 对 + điều quan tâm (中国文化) + 很 + 感兴趣."
+  },
+  {
+   "q": "Điền từ: 我适应___很快。(Tôi thích nghi rất nhanh.)",
+   "opts": [
+    "得",
+    "的",
+    "地"
+   ],
+   "a": 0,
+   "why": {
+    "1": "的 (de) đứng trước danh từ (我的简历). Sau động từ, nối với lời nhận xét 很快, phải dùng 得.",
+    "2": "地 (de) đứng TRƯỚC động từ (慢慢地说). Ở đây lời nhận xét đứng SAU động từ 适应, nên dùng 得."
+   }
+  },
+  {
+   "q": "Câu nào nghĩa là 'Tôi đã làm ở công ty này hai năm'?",
+   "opts": [
+    "我在这家公司工作了两年。",
+    "我两年在这家公司工作了。",
+    "我在这家公司了工作两年。"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Thời lượng (两年) đứng SAU động từ: 工作了两年. Đặt 两年 trước động từ thì nghĩa và trật tự đều sai.",
+    "2": "了 (le) đứng ngay sau động từ 工作, không đứng trước nó."
+   }
+  }
+ ],
+ "listen": [
+  {
+   "q": "Người nói làm ở công ty hiện tại bao lâu rồi?",
+   "audio": "你在现在的公司工作多长时间了？——两年了，我负责越南市场。",
+   "opts": [
+    "2 năm",
+    "4 năm",
+    "12 năm"
+   ],
+   "optsEn": [
+    "2 years",
+    "4 years",
+    "12 years"
+   ],
+   "a": 0,
+   "why": {
+    "1": "4 năm là thời gian học đại học trong câu chuyện, không có trong đoạn này; câu trả lời là 两年 (liǎng nián).",
+    "2": "Không nghe thấy 十二 (shí'èr); chỉ có 两年了."
+   }
+  },
+  {
+   "q": "Chuyên ngành đại học của người nói là gì?",
+   "audio": "你大学的专业是什么？——我的专业是汉语，学了四年。",
+   "opts": [
+    "tiếng Trung",
+    "tiếng Nhật",
+    "kinh doanh"
+   ],
+   "optsEn": [
+    "Chinese",
+    "Japanese",
+    "business"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Không nghe thấy 日语 (Rìyǔ); câu trả lời là 汉语 (Hànyǔ).",
+    "2": "Không nghe thấy 生意 (shēngyi); chuyên ngành là 汉语."
+   }
+  },
+  {
+   "q": "Lương mỗi tháng là bao nhiêu?",
+   "audio": "这个工作的工资是多少？——每个月一万二，春节以前还有奖金。",
+   "opts": [
+    "12.000 tệ",
+    "1.200 tệ",
+    "20.000 tệ"
+   ],
+   "optsEn": [
+    "12,000 yuan",
+    "1,200 yuan",
+    "20,000 yuan"
+   ],
+   "a": 0,
+   "why": {
+    "1": "1.200 là 一千二 (yìqiān èr); bài nghe nói 一万二 (yí wàn èr) = 12.000.",
+    "2": "20.000 là 两万 (liǎng wàn); bài nghe nói 一万二."
+   }
+  },
+  {
+   "q": "Vì sao người nói ứng tuyển công việc này?",
+   "audio": "你为什么来应聘这个工作？——因为我对跟中国做生意很感兴趣。",
+   "opts": [
+    "vì quan tâm việc làm ăn với Trung Quốc",
+    "vì lương cao",
+    "vì muốn sống ở Thượng Hải"
+   ],
+   "optsEn": [
+    "interested in doing business with China",
+    "the salary is high",
+    "wants to live in Shanghai"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Đoạn này không nói về lương (工资 gōngzī).",
+    "2": "Không nghe thấy 上海 (Shànghǎi); lý do là 对跟中国做生意很感兴趣."
+   }
+  },
+  {
+   "q": "Ngoài tiếng Trung, người nói còn biết tiếng gì?",
+   "audio": "除了汉语以外，你还会说什么？——我还会说一点儿日语。",
+   "opts": [
+    "một chút tiếng Nhật",
+    "một chút tiếng Anh",
+    "không biết thêm tiếng nào"
+   ],
+   "optsEn": [
+    "a little Japanese",
+    "a little English",
+    "no other language"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Không nghe thấy tiếng Anh; câu trả lời là 一点儿日语 (yìdiǎnr Rìyǔ).",
+    "2": "Người nói có biết thêm: 我还会说一点儿日语."
+   }
+  },
+  {
+   "q": "Lần này công ty tuyển mấy người?",
+   "audio": "我们这次招聘两个人，都要会说越南语。",
+   "opts": [
+    "2 người",
+    "1 người",
+    "10 người"
+   ],
+   "optsEn": [
+    "2 people",
+    "1 person",
+    "10 people"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Câu nói 两个人 (liǎng ge rén), không phải 一个人.",
+    "2": "Không nghe thấy 十 (shí); con số là 两."
+   }
+  },
+  {
+   "q": "Khi nào công ty gọi lại?",
+   "audio": "下个星期我们给你回电话，好吗？——好的，谢谢王经理！",
+   "opts": [
+    "tuần sau",
+    "ngày mai",
+    "tháng sau"
+   ],
+   "optsEn": [
+    "next week",
+    "tomorrow",
+    "next month"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Ngày mai là 明天 (míngtiān); bài nghe nói 下个星期 (xià ge xīngqī).",
+    "2": "Tháng sau là 下个月 (xià ge yuè); bài nghe nói 下个星期."
+   }
+  }
+ ],
+ "hsk": [
+  {
+   "q": "HSK4 听力 · Phần 1, đúng hay sai: ★ 阮安在河内工作了四年。",
+   "audio": "我在大学学了四年汉语，然后在河内的一家公司工作了两年，积累了很多经验。",
+   "opts": [
+    "对",
+    "错"
+   ],
+   "a": 1,
+   "why": {
+    "0": "Bốn năm (四年) là thời gian HỌC đại học; thời gian làm việc ở Hà Nội là 两年 (hai năm), nên câu ★ sai."
+   }
+  },
+  {
+   "q": "HSK4 听力 · Phần 1, đúng hay sai: ★ 这个工作除了工资，还有奖金。",
+   "audio": "这个工作的工资不算很高，但是除了工资以外，每年春节以前公司还会发奖金。",
+   "opts": [
+    "对",
+    "错"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe nói rõ 除了工资以外……还会发奖金 (ngoài lương còn phát thưởng), nên câu ★ đúng."
+   }
+  },
+  {
+   "q": "HSK4 听力 · Phần 2, hội thoại ngắn: 男的为什么想来上海工作？",
+   "audio": "女：你为什么想来上海工作？男：上海的公司多，机会也多，我想在这里积累更多经验。问：男的为什么想来上海工作？",
+   "opts": [
+    "想积累更多经验",
+    "上海的工资高",
+    "他的家在上海"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Người nam không nhắc đến 工资 (gōngzī, lương).",
+    "2": "Bài nghe không nói nhà anh ấy ở Thượng Hải; lý do là 机会多，想积累更多经验."
+   }
+  },
+  {
+   "q": "HSK4 Đọc · Phần 1, chọn từ điền vào chỗ trống: 我们公司现在（　）一位会说越南语的员工，负责越南市场。",
+   "opts": [
+    "招聘",
+    "应聘",
+    "适应",
+    "积累"
+   ],
+   "a": 0,
+   "why": {
+    "1": "应聘 (yìngpìn) là việc của người xin việc; chủ ngữ là 我们公司 nên phải là 招聘.",
+    "2": "适应 (shìyìng) = thích nghi; 'thích nghi một nhân viên' không có nghĩa.",
+    "3": "积累 (jīlěi) đi với 经验, 钱…, không đi với người (员工)."
+   }
+  },
+  {
+   "k": "order",
+   "q": "HSK4 书写 · 完成句子: xếp các từ thành câu",
+   "tokens": [
+    "这两年",
+    "我",
+    "积累了",
+    "很多",
+    "工作经验"
+   ],
+   "explain": "Từ chỉ thời gian (这两年) có thể đứng đầu câu, trước chủ ngữ 我; sau đó là động từ 积累了 + số lượng 很多 + danh từ 工作经验.",
+   "vi": "Hai năm nay tôi đã tích luỹ được nhiều kinh nghiệm làm việc.",
+   "en": "Over these two years I've built up a lot of work experience."
+  }
+ ],
+ "shadow": [
+  {
+   "t": "招聘",
+   "py": "zhāopìn",
+   "focus": "zh cong lưỡi, không bật hơi, thanh 1 giữ cao đều; p bật hơi mạnh, pìn thanh 4 kết thúc bằng -n đầu lưỡi.",
+   "en": "to recruit"
+  },
+  {
+   "t": "应聘",
+   "py": "yìngpìn",
+   "focus": "Hai thanh 4 liền nhau: yìng (-ng mũi sau) mạnh, pìn (-n đầu lưỡi) rơi dứt khoát. Phân biệt -ng và -n.",
+   "en": "to apply for a job"
+  },
+  {
+   "t": "积累",
+   "py": "jīlěi",
+   "focus": "累 ở đây đọc lěi, thanh 3 xuống thấp rồi lên nhẹ; đừng đọc thành lèi (mệt).",
+   "en": "to accumulate"
+  },
+  {
+   "t": "我对这个工作很感兴趣。",
+   "py": "Wǒ duì zhège gōngzuò hěn gǎn xìngqù.",
+   "focus": "很感 là hai thanh 3 liền nhau nên 很 đọc gần như hén; 兴 đọc xìng (thanh 4), không phải xīng; 趣 qù: môi tròn như ü.",
+   "en": "I'm very interested in this job."
+  },
+  {
+   "t": "除了汉语以外，我还会说一点儿日语。",
+   "py": "Chúle Hànyǔ yǐwài, wǒ hái huì shuō yìdiǎnr Rìyǔ.",
+   "focus": "了 đọc nhẹ le; 一 đọc yì trước thanh 3 (点); 日 rì: r cong lưỡi, không đọc thành 'zư'.",
+   "en": "Besides Chinese, I also speak a little Japanese."
+  },
+  {
+   "t": "我在河内有两年的工作经验。",
+   "py": "Wǒ zài Hénèi yǒu liǎng nián de gōngzuò jīngyàn.",
+   "focus": "两年: liǎng (-ng) rồi nián (-n); 经验 jīngyàn: -ng rồi -n, đừng đọc cả hai thành -ng.",
+   "en": "I have two years of work experience in Hanoi."
+  }
+ ],
+ "dialog": {
+  "title": "Phỏng vấn online với 王经理 (Wáng jīnglǐ): giới thiệu bản thân, công việc hiện tại, vì sao ứng tuyển, khả năng thích nghi và hỏi lại lương thưởng. Đổi vai: bạn là 王经理 hỏi ứng viên.",
+  "partner": "王经理",
+  "turns": [
+   {
+    "ai": "你好！请你先简单介绍一下自己。",
+    "py": "Nǐ hǎo! Qǐng nǐ xiān jiǎndān jièshào yíxià zìjǐ.",
+    "vi": "Chào em! Em hãy giới thiệu ngắn gọn về bản thân trước nhé.",
+    "en": "Hello! Please start by briefly introducing yourself.",
+    "model": "王经理好！我叫阮安，大学的专业是汉语，在河内工作了两年。",
+    "mpy": "Wáng jīnglǐ hǎo! Wǒ jiào Ruǎn Ān, dàxué de zhuānyè shì Hànyǔ, zài Hénèi gōngzuò le liǎng nián.",
+    "men": "Hello, Mr Wang! My name is Nguyen An. I majored in Chinese at university and have worked in Hanoi for two years.",
+    "accept": [
+     "王经理好！我叫阮安，大学的专业是汉语，在河内工作了两年。",
+     "我叫阮安，大学的专业是汉语。",
+     "我的专业是汉语，在河内工作了两年。",
+     "wojiaoruanan",
+     "wodezhuanyeshihanyu",
+     "zaiheneigongzuoleliangnian"
+    ],
+    "frame": "王经理好！我叫阮安，大学的___是汉语，在河内工作了___。",
+    "hint": "Nói tên, chuyên ngành (专业 zhuānyè) và đã làm việc ở đâu, bao lâu (工作了两年)."
+   },
+   {
+    "ai": "你在现在的公司负责什么工作？",
+    "py": "Nǐ zài xiànzài de gōngsī fùzé shénme gōngzuò?",
+    "vi": "Ở công ty hiện tại em phụ trách công việc gì?",
+    "en": "What are you responsible for at your current company?",
+    "model": "我负责越南市场，经常跟中国顾客见面、打电话。",
+    "mpy": "Wǒ fùzé Yuènán shìchǎng, jīngcháng gēn Zhōngguó gùkè jiànmiàn, dǎ diànhuà.",
+    "men": "I'm in charge of the Vietnamese market; I often meet and call Chinese customers.",
+    "accept": [
+     "我负责越南市场，经常跟中国顾客见面、打电话。",
+     "我负责越南市场。",
+     "负责越南市场。",
+     "wofuzeyuenanshichang",
+     "fuzeyuenanshichang"
+    ],
+    "frame": "我___越南市场，经常跟中国顾客见面、打电话。",
+    "hint": "Dùng 负责 (fùzé) + phần việc của bạn, rồi nói thêm bạn hay làm gì."
+   },
+   {
+    "ai": "你为什么来应聘我们公司？",
+    "py": "Nǐ wèishénme lái yìngpìn wǒmen gōngsī?",
+    "vi": "Vì sao em ứng tuyển vào công ty chúng tôi?",
+    "en": "Why are you applying to our company?",
+    "model": "因为我对这个工作很感兴趣，而且我有两年的工作经验。",
+    "mpy": "Yīnwèi wǒ duì zhège gōngzuò hěn gǎn xìngqù, érqiě wǒ yǒu liǎng nián de gōngzuò jīngyàn.",
+    "men": "Because I'm very interested in this job, and I have two years of work experience.",
+    "accept": [
+     "因为我对这个工作很感兴趣，而且我有两年的工作经验。",
+     "因为我对这个工作很感兴趣。",
+     "我对这个工作很感兴趣。",
+     "我有两年的工作经验。",
+     "woduizhegegongzuohenganxingqu",
+     "yinweiwoduizhegegongzuohenganxingqu"
+    ],
+    "frame": "因为我___这个工作很感兴趣，而且我有两年的工作___。",
+    "hint": "Lý do 1: 对……感兴趣; lý do 2 nối bằng 而且: có bao nhiêu năm kinh nghiệm (经验 jīngyàn)."
+   },
+   {
+    "ai": "你觉得你能适应上海的工作环境吗？",
+    "py": "Nǐ juéde nǐ néng shìyìng Shànghǎi de gōngzuò huánjìng ma?",
+    "vi": "Em có nghĩ mình thích nghi được với môi trường làm việc ở Thượng Hải không?",
+    "en": "Do you think you can adapt to the working environment in Shanghai?",
+    "model": "能。除了汉语以外，我还会说一点儿日语，我适应得很快。",
+    "mpy": "Néng. Chúle Hànyǔ yǐwài, wǒ hái huì shuō yìdiǎnr Rìyǔ, wǒ shìyìng de hěn kuài.",
+    "men": "Yes. Besides Chinese, I also speak a little Japanese, and I adapt very quickly.",
+    "accept": [
+     "能。除了汉语以外，我还会说一点儿日语，我适应得很快。",
+     "能，我适应得很快。",
+     "我适应得很快。",
+     "除了汉语以外，我还会说一点儿日语。",
+     "woshiyingdehenkuai",
+     "nengwoshiyingdehenkuai"
+    ],
+    "frame": "能。___汉语以外，我还会说一点儿日语，我适应___很快。",
+    "hint": "Trả lời 能, thêm một điểm mạnh bằng 除了……以外，我还……, rồi nói 适应得很快."
+   },
+   {
+    "ai": "你还有什么问题吗？",
+    "py": "Nǐ hái yǒu shénme wèntí ma?",
+    "vi": "Em còn câu hỏi nào không?",
+    "en": "Do you have any other questions?",
+    "model": "我想问一下，这个工作的工资和奖金怎么样？",
+    "mpy": "Wǒ xiǎng wèn yíxià, zhège gōngzuò de gōngzī hé jiǎngjīn zěnmeyàng?",
+    "men": "May I ask what the salary and bonus are like for this job?",
+    "accept": [
+     "我想问一下，这个工作的工资和奖金怎么样？",
+     "这个工作的工资和奖金怎么样？",
+     "工资和奖金怎么样？",
+     "woxiangwenyixia",
+     "gongzihejiangjinzenmeyang"
+    ],
+    "frame": "我想问一下，这个工作的___和___怎么样？",
+    "hint": "Mở lời lịch sự 我想问一下, rồi hỏi về lương (工资 gōngzī) và thưởng (奖金 jiǎngjīn)."
+   }
+  ]
+ },
+ "reading": {
+  "title": "Tin tuyển dụng của công ty ở Thượng Hải",
+  "text": "我们是上海的一家公司，跟越南的公司做生意已经十年了。现在我们招聘一位员工，负责越南市场。我们希望来应聘的人：第一，大学的专业是汉语，或者是跟做生意有关系的专业；第二，有两年以上的工作经验；第三，能很快适应新环境，愿意经常去越南出差。工资每个月一万到一万五，除了工资以外，每年还有奖金。如果您对这个工作感兴趣，请在本月二十号以前把简历发给王经理。",
+  "py": "Wǒmen shì Shànghǎi de yì jiā gōngsī, gēn Yuènán de gōngsī zuò shēngyi yǐjīng shí nián le. Xiànzài wǒmen zhāopìn yí wèi yuángōng, fùzé Yuènán shìchǎng. Wǒmen xīwàng lái yìngpìn de rén: dì yī, dàxué de zhuānyè shì Hànyǔ, huòzhě shì gēn zuò shēngyi yǒu guānxi de zhuānyè; dì èr, yǒu liǎng nián yǐshàng de gōngzuò jīngyàn; dì sān, néng hěn kuài shìyìng xīn huánjìng, yuànyì jīngcháng qù Yuènán chūchāi. Gōngzī měi ge yuè yí wàn dào yí wàn wǔ, chúle gōngzī yǐwài, měi nián hái yǒu jiǎngjīn. Rúguǒ nín duì zhège gōngzuò gǎn xìngqù, qǐng zài běn yuè èrshí hào yǐqián bǎ jiǎnlì fā gěi Wáng jīnglǐ.",
+  "en": "We are a company in Shanghai and have been doing business with Vietnamese companies for ten years. We are now hiring one employee to be in charge of the Vietnamese market. We hope applicants: first, majored in Chinese or a business-related subject at university; second, have at least two years of work experience; third, can adapt quickly to a new environment and are willing to travel to Vietnam often. The salary is 10,000 to 15,000 yuan a month, and besides the salary there is a bonus every year. If you are interested in this job, please send your CV to Mr Wang before the 20th of this month.",
+  "vi": "Chúng tôi là một công ty ở Thượng Hải, đã làm ăn với các công ty Việt Nam mười năm. Hiện chúng tôi tuyển một nhân viên phụ trách thị trường Việt Nam. Chúng tôi mong người ứng tuyển: thứ nhất, chuyên ngành đại học là tiếng Trung, hoặc chuyên ngành liên quan đến kinh doanh; thứ hai, có từ hai năm kinh nghiệm làm việc trở lên; thứ ba, thích nghi nhanh với môi trường mới, sẵn sàng thường xuyên đi công tác Việt Nam. Lương mỗi tháng từ 10.000 đến 15.000 tệ, ngoài lương ra hằng năm còn có thưởng. Nếu quan tâm đến công việc này, xin gửi CV cho quản lý Vương trước ngày 20 tháng này.",
+  "qs": [
+   {
+    "q": "Công ty này đã làm ăn với các công ty Việt Nam bao lâu?",
+    "opts": [
+     "10 năm",
+     "2 năm",
+     "20 năm"
+    ],
+    "optsEn": [
+     "10 years",
+     "2 years",
+     "20 years"
+    ],
+    "a": 0,
+    "why": {
+     "1": "2 năm là số năm kinh nghiệm tối thiểu (两年以上), không phải thời gian công ty làm ăn với Việt Nam.",
+     "2": "20 là ngày hạn gửi CV (二十号), không phải số năm."
+    }
+   },
+   {
+    "q": "Điều nào KHÔNG phải là yêu cầu trong tin tuyển dụng?",
+    "opts": [
+     "biết tiếng Nhật",
+     "có từ 2 năm kinh nghiệm",
+     "sẵn sàng đi công tác Việt Nam"
+    ],
+    "optsEn": [
+     "speaks Japanese",
+     "at least 2 years' experience",
+     "willing to travel to Vietnam"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Đây là yêu cầu thứ hai: 有两年以上的工作经验.",
+     "2": "Đây là yêu cầu thứ ba: 愿意经常去越南出差."
+    }
+   },
+   {
+    "q": "Đúng hay sai: 这个工作要经常去越南。(Zhège gōngzuò yào jīngcháng qù Yuènán.)",
+    "opts": [
+     "Đúng",
+     "Sai"
+    ],
+    "optsEn": [
+     "True",
+     "False"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài viết 愿意经常去越南出差 (sẵn sàng thường xuyên đi công tác Việt Nam), nên câu này đúng."
+    }
+   },
+   {
+    "q": "Lương mỗi tháng là bao nhiêu?",
+    "opts": [
+     "10.000 đến 15.000 tệ",
+     "đúng 12.000 tệ",
+     "15.000 đến 20.000 tệ"
+    ],
+    "optsEn": [
+     "10,000 to 15,000 yuan",
+     "exactly 12,000 yuan",
+     "15,000 to 20,000 yuan"
+    ],
+    "a": 0,
+    "why": {
+     "1": "12.000 là con số trong buổi phỏng vấn; tin tuyển dụng ghi một khoảng: 一万到一万五.",
+     "2": "Mức cao nhất trong bài là 一万五 (15.000), không đến 20.000."
+    }
+   },
+   {
+    "q": "Người quan tâm cần làm gì?",
+    "opts": [
+     "gửi CV cho quản lý Vương trước ngày 20",
+     "gọi điện cho công ty trước ngày 20",
+     "đến Thượng Hải phỏng vấn ngày 20"
+    ],
+    "optsEn": [
+     "send a CV to Mr Wang before the 20th",
+     "call the company before the 20th",
+     "go to Shanghai for an interview on the 20th"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài không yêu cầu gọi điện (打电话); câu cuối là 把简历发给王经理.",
+     "2": "Bài không nói đến Thượng Hải phỏng vấn; ngày 20 là hạn gửi CV (二十号以前)."
+    }
+   }
+  ]
+ },
+ "near": [
+  {
+   "q": "Chọn từ đúng: 我想___你们公司的这个工作。(Tôi muốn ứng tuyển công việc này của công ty các anh.)",
+   "opts": [
+    "应聘",
+    "招聘"
+   ],
+   "a": 0,
+   "why": {
+    "1": "招聘 (zhāopìn) là việc của công ty: tuyển người. Người đi xin việc thì 应聘 (yìngpìn) + công việc. Nhớ: 招 = vẫy gọi người đến, 应 = đáp lại lời gọi."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 这两年我积累了很多工作___。(Hai năm nay tôi đã tích luỹ được nhiều kinh nghiệm làm việc.)",
+   "opts": [
+    "经验",
+    "经历"
+   ],
+   "a": 0,
+   "why": {
+    "1": "经历 (jīnglì) là những việc mình đã trải qua (一次很难忘的经历 = một trải nghiệm khó quên), thường đếm theo lần. Cái học được và tích luỹ để làm tốt hơn là 经验 (jīngyàn)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我大学的___是汉语。(Chuyên ngành đại học của tôi là tiếng Trung.)",
+   "opts": [
+    "专业",
+    "专门"
+   ],
+   "a": 0,
+   "why": {
+    "1": "专门 (zhuānmén) = chuyên để, riêng cho, thường đứng trước động từ (我专门来上海面试 = tôi đến Thượng Hải chỉ để phỏng vấn). Ngành học là danh từ 专业 (zhuānyè)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我有每天早上看新闻的___。(Tôi có thói quen sáng nào cũng xem tin tức.)",
+   "opts": [
+    "习惯",
+    "适应"
+   ],
+   "a": 0,
+   "why": {
+    "1": "适应 (shìyìng) chỉ là động từ 'thích nghi với…' (适应新环境), không làm danh từ. 'Thói quen' là danh từ 习惯 (xíguàn)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我___面试会很难，没想到王经理很热情。(Tôi cứ tưởng phỏng vấn sẽ rất khó, không ngờ quản lý Vương rất nhiệt tình.)",
+   "opts": [
+    "以为",
+    "认为"
+   ],
+   "a": 0,
+   "why": {
+    "1": "认为 (rènwéi) = cho rằng, nêu ý kiến mình tin là đúng. Vế sau 没想到 (không ngờ) cho thấy suy nghĩ lúc đầu sai, nên dùng 以为 (yǐwéi) = tưởng (nhầm)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我对这个工作很___。(Tôi rất quan tâm đến công việc này.)",
+   "opts": [
+    "感兴趣",
+    "有意思"
+   ],
+   "a": 0,
+   "why": {
+    "1": "有意思 (yǒu yìsi) nói SỰ VIỆC thú vị: 这个工作很有意思. Nó không đi với 对 + việc. Người quan tâm đến việc gì thì nói 对 + việc + 感兴趣."
+   }
+  }
+ ],
+ "orderPara": [
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "我叫阮安，在大学学了四年汉语。",
+    "然后我在河内的一家公司工作了两年，负责越南市场。",
+    "这两年的工作让我积累了很多经验。"
+   ],
+   "explain": "Câu giới thiệu tên và việc học đứng đầu; 然后 (ránhòu, sau đó) nối việc xảy ra tiếp theo là đi làm; 这两年的工作 nhắc lại hai năm vừa nói nên đứng cuối.",
+   "vi": "Tôi tên là An, đã học tiếng Trung bốn năm ở đại học. Sau đó tôi làm ở một công ty tại Hà Nội hai năm, phụ trách thị trường Việt Nam. Hai năm làm việc đó giúp tôi tích luỹ được nhiều kinh nghiệm.",
+   "en": "My name is An, and I studied Chinese at university for four years. Then I worked at a company in Hanoi for two years, in charge of the Vietnamese market. Those two years of work gave me a lot of experience."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "上个星期我把简历发给了王经理。",
+    "他看了以后，给我发了一个信息，",
+    "请我这个星期一在网上面试。"
+   ],
+   "explain": "Gửi CV đứng đầu; 他看了以后 (anh ấy xem xong) phải đứng sau việc gửi CV, 他 = 王经理; nội dung tin nhắn (mời phỏng vấn) đứng cuối.",
+   "vi": "Tuần trước tôi gửi CV cho quản lý Vương. Anh ấy xem xong thì nhắn tin cho tôi, mời tôi phỏng vấn online vào thứ Hai tuần này.",
+   "en": "Last week I sent my CV to Mr Wang. After reading it, he messaged me and invited me to an online interview this Monday."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "这个工作的工资不算很高，",
+    "但是除了工资以外，",
+    "公司每年还发奖金，",
+    "所以我还是很想来。"
+   ],
+   "explain": "Vế đầu nêu điểm chưa tốt (工资不算很高); 但是 mở ý ngược lại; 除了……以外 đi liền với 还; 所以 nêu kết luận nên đứng cuối.",
+   "vi": "Lương của công việc này không hẳn là cao, nhưng ngoài lương ra hằng năm công ty còn phát thưởng, nên tôi vẫn rất muốn đến.",
+   "en": "The salary for this job isn't especially high, but besides the salary the company pays a bonus every year, so I still really want to come."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "上海离河内很远，",
+    "王经理担心我不能适应这里的环境。",
+    "其实我适应得很快，",
+    "因为我已经习惯跟不同国家的人一起工作了。"
+   ],
+   "explain": "Câu nêu hoàn cảnh (上海离河内很远) đứng đầu; nỗi lo của 王经理 là kết quả của hoàn cảnh đó; 其实 (qíshí, thật ra) mở lời đáp lại nỗi lo; 因为 giải thích lý do nên đứng cuối.",
+   "vi": "Thượng Hải cách Hà Nội rất xa, quản lý Vương lo tôi không thích nghi được với môi trường ở đây. Thật ra tôi thích nghi rất nhanh, vì tôi đã quen làm việc với người của nhiều nước khác nhau.",
+   "en": "Shanghai is far from Hanoi, and Mr Wang worried that I couldn't adapt to the environment here. In fact I adapt quickly, because I'm already used to working with people from different countries."
+  }
+ ],
+ "notes": {
+  "title": "Ghi chú: thông tin vị trí tuyển dụng",
+  "lines": [
+   {
+    "who": "王经理",
+    "t": "我们这次招聘两个人，都负责越南市场。",
+    "py": "Wǒmen zhè cì zhāopìn liǎng ge rén, dōu fùzé Yuènán shìchǎng.",
+    "vi": "Lần này chúng tôi tuyển hai người, đều phụ trách thị trường Việt Nam.",
+    "en": "This time we're hiring two people, both in charge of the Vietnamese market."
+   },
+   {
+    "who": "阮安",
+    "t": "一个星期要上几天班？",
+    "py": "Yí ge xīngqī yào shàng jǐ tiān bān?",
+    "vi": "Một tuần phải đi làm mấy ngày ạ?",
+    "en": "How many days a week is the job?"
+   },
+   {
+    "who": "王经理",
+    "t": "一个星期上五天班，星期六和星期天休息。",
+    "py": "Yí ge xīngqī shàng wǔ tiān bān, xīngqīliù hé xīngqītiān xiūxi.",
+    "vi": "Một tuần làm năm ngày, thứ Bảy và Chủ nhật nghỉ.",
+    "en": "Five days a week, with Saturday and Sunday off."
+   },
+   {
+    "who": "阮安",
+    "t": "工资是多少？",
+    "py": "Gōngzī shì duōshao?",
+    "vi": "Lương là bao nhiêu ạ?",
+    "en": "What's the salary?"
+   },
+   {
+    "who": "王经理",
+    "t": "第一年每个月一万二，第二年会高一点儿。",
+    "py": "Dì yī nián měi ge yuè yí wàn èr, dì èr nián huì gāo yìdiǎnr.",
+    "vi": "Năm đầu mỗi tháng mười hai nghìn, năm thứ hai sẽ cao hơn một chút.",
+    "en": "Twelve thousand a month in the first year, a bit more in the second."
+   },
+   {
+    "who": "王经理",
+    "t": "除了工资以外，每年春节以前还有奖金，一般是两个月的工资。",
+    "py": "Chúle gōngzī yǐwài, měi nián Chūnjié yǐqián hái yǒu jiǎngjīn, yìbān shì liǎng ge yuè de gōngzī.",
+    "vi": "Ngoài lương ra, mỗi năm trước Tết còn có thưởng, thường là hai tháng lương.",
+    "en": "Besides the salary, there's a bonus every year before Chinese New Year, usually two months' pay."
+   },
+   {
+    "who": "阮安",
+    "t": "我什么时候能知道面试的结果？",
+    "py": "Wǒ shénme shíhou néng zhīdào miànshì de jiéguǒ?",
+    "vi": "Khi nào em có thể biết kết quả phỏng vấn ạ?",
+    "en": "When can I find out the result of the interview?"
+   },
+   {
+    "who": "王经理",
+    "t": "下个星期三以前，我们会给你打电话。",
+    "py": "Xià ge xīngqīsān yǐqián, wǒmen huì gěi nǐ dǎ diànhuà.",
+    "vi": "Trước thứ Tư tuần sau, chúng tôi sẽ gọi điện cho em.",
+    "en": "We'll call you before next Wednesday."
+   }
+  ],
+  "form": [
+   {
+    "label": "Số người tuyển lần này",
+    "opts": [
+     "两个人",
+     "一个人",
+     "五个人"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Không nghe thấy 一个人; 王经理 nói 招聘两个人.",
+     "2": "五 (wǔ) là số ngày làm mỗi tuần (五天), không phải số người."
+    }
+   },
+   {
+    "label": "Số ngày làm việc mỗi tuần",
+    "opts": [
+     "五天",
+     "六天",
+     "两天"
+    ],
+    "a": 0,
+    "why": {
+     "1": "六 (liù) xuất hiện trong 星期六, là ngày NGHỈ, không phải số ngày làm.",
+     "2": "Hai ngày là số ngày nghỉ (星期六和星期天); số ngày làm là 五天."
+    }
+   },
+   {
+    "label": "Lương tháng năm đầu",
+    "opts": [
+     "一万二",
+     "一万",
+     "两万"
+    ],
+    "a": 0,
+    "why": {
+     "1": "一万 là 10.000; bài nghe nói 一万二 (12.000), có thêm 二.",
+     "2": "两万 là 20.000; bài nghe bắt đầu bằng 一万."
+    }
+   },
+   {
+    "label": "Tiền thưởng thường là",
+    "opts": [
+     "两个月的工资",
+     "一个月的工资",
+     "三个月的工资"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Không nghe thấy 一个月的工资; 王经理 nói 一般是两个月的工资.",
+     "2": "Không nghe thấy 三 (sān); con số là 两个月."
+    }
+   },
+   {
+    "label": "Thời điểm phát thưởng",
+    "opts": [
+     "春节以前",
+     "春节以后",
+     "星期三以前"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài nghe nói 以前 (trước), không phải 以后 (sau).",
+     "2": "星期三以前 là hạn báo kết quả phỏng vấn, không phải lúc phát thưởng."
+    }
+   },
+   {
+    "label": "Hạn báo kết quả phỏng vấn",
+    "opts": [
+     "下个星期三以前",
+     "下个星期五以前",
+     "这个星期三以前"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Không nghe thấy 星期五; ngày được nói là 星期三.",
+     "2": "Bài nghe nói 下个星期 (tuần sau), không phải 这个星期 (tuần này)."
+    }
+   }
+  ]
+ },
+ "longturn": {
+  "cue": "请你用一分钟在面试的时候介绍一下自己。",
+  "cueVi": "Hãy nói khoảng 1 phút, tự giới thiệu bản thân trong buổi phỏng vấn.",
+  "cuePy": "Qǐng nǐ yòng yì fēnzhōng zài miànshì de shíhou jièshào yíxià zìjǐ.",
+  "points": [
+   "你大学的专业是什么？",
+   "你有哪些工作经验？",
+   "你有什么能力？",
+   "你为什么来应聘这个工作？"
+  ],
+  "pointsVi": [
+   "Chuyên ngành đại học của bạn là gì?",
+   "Bạn có những kinh nghiệm làm việc nào?",
+   "Bạn có năng lực gì?",
+   "Vì sao bạn ứng tuyển công việc này?"
+  ],
+  "prep": 60,
+  "speak": [
+   60,
+   120
+  ],
+  "model": "王经理您好！我叫阮安，是越南人。我大学的专业是汉语，学了四年。然后我在河内的一家中国公司工作了两年，负责越南市场，经常跟中国顾客见面、打电话，积累了很多经验。除了汉语以外，我还会说一点儿日语。我对跟中国做生意很感兴趣，而且我适应新环境很快。我相信自己有能力做好这个工作。谢谢您！",
+  "modelPy": "Wáng jīnglǐ nín hǎo! Wǒ jiào Ruǎn Ān, shì Yuènán rén. Wǒ dàxué de zhuānyè shì Hànyǔ, xué le sì nián. Ránhòu wǒ zài Hénèi de yì jiā Zhōngguó gōngsī gōngzuò le liǎng nián, fùzé Yuènán shìchǎng, jīngcháng gēn Zhōngguó gùkè jiànmiàn, dǎ diànhuà, jīlěi le hěn duō jīngyàn. Chúle Hànyǔ yǐwài, wǒ hái huì shuō yìdiǎnr Rìyǔ. Wǒ duì gēn Zhōngguó zuò shēngyi hěn gǎn xìngqù, érqiě wǒ shìyìng xīn huánjìng hěn kuài. Wǒ xiāngxìn zìjǐ yǒu nénglì zuò hǎo zhège gōngzuò. Xièxie nín!",
+  "modelVi": "Chào anh Vương! Em tên là Nguyễn An, người Việt Nam. Chuyên ngành đại học của em là tiếng Trung, học bốn năm. Sau đó em làm ở một công ty Trung Quốc tại Hà Nội hai năm, phụ trách thị trường Việt Nam, thường xuyên gặp và gọi điện cho khách hàng Trung Quốc, tích luỹ được nhiều kinh nghiệm. Ngoài tiếng Trung ra, em còn nói được một chút tiếng Nhật. Em rất quan tâm đến việc làm ăn với Trung Quốc, hơn nữa em thích nghi với môi trường mới rất nhanh. Em tin mình có năng lực làm tốt công việc này. Cảm ơn anh!",
+  "useful": [
+   "我叫……，大学的专业是……",
+   "我在……工作了……年，负责……",
+   "我积累了很多……的经验",
+   "除了……以外，我还……",
+   "我对……很感兴趣",
+   "我适应新环境很快",
+   "我相信自己有能力……"
+  ],
+  "check": [
+   "Nói đủ 4 ý: chuyên ngành, kinh nghiệm, năng lực, vì sao ứng tuyển",
+   "Dùng ít nhất 4 từ mới hôm nay (专业 zhuānyè, 经验 jīngyàn, 负责 fùzé, 积累 jīlěi, 适应 shìyìng, 能力 nénglì…)",
+   "Có 1 câu 对……感兴趣 (duì… gǎn xìngqù)",
+   "Có 1 câu 除了……以外，还…… (chúle… yǐwài, hái…)",
+   "Có lời chào mở đầu và lời cảm ơn kết thúc",
+   "Nói liền mạch được ít nhất 1 phút"
+  ]
+ },
+ "write": {
+  "task": "Viết email ngắn gửi 王经理 (Wáng jīnglǐ) ứng tuyển vị trí phụ trách thị trường Việt Nam, gửi kèm CV: nói vị trí muốn ứng tuyển, chuyên ngành, kinh nghiệm, điểm mạnh và mong có cơ hội phỏng vấn.",
+  "kind": "email",
+  "model": "王经理您好！我叫阮安，想应聘贵公司负责越南市场的工作。我大学的专业是汉语，在河内的一家中国公司工作了两年，积累了很多跟中国顾客做生意的经验。我对这个工作很感兴趣。除了汉语以外，我还会说一点儿日语，而且适应新环境很快。我把简历发给您了，希望能有面试的机会。谢谢！阮安",
+  "frame": "王经理您好！我叫阮安，想___贵公司负责越南市场的工作。我大学的___是汉语，在河内的一家中国公司工作了两年，___了很多跟中国顾客做生意的经验。我对这个工作很___。___汉语以外，我还会说一点儿日语，而且适应新环境很快。我把___发给您了，希望能有面试的机会。谢谢！阮安",
+  "gaps": [
+   "应聘",
+   "专业",
+   "积累",
+   "感兴趣",
+   "除了",
+   "简历"
+  ],
+  "free": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "hints": [
+   "Mở đầu: 王经理您好！我叫……，想应聘贵公司……的工作 (贵公司 guì gōngsī = quý công ty)",
+   "Học vấn và kinh nghiệm: 我大学的专业是……，在……工作了……年",
+   "Nói quan tâm: 我对这个工作很感兴趣",
+   "Thêm điểm mạnh: 除了……以外，我还……",
+   "Kết thư: 我把简历发给您了，希望能有面试的机会。谢谢！ rồi ký tên"
+  ],
+  "check": [
+   "Có lời chào 王经理 (Wáng jīnglǐ) và ký tên cuối thư",
+   "Nói rõ vị trí muốn ứng tuyển (应聘 yìngpìn)",
+   "Có chuyên ngành và số năm kinh nghiệm",
+   "Có 1 câu 对……感兴趣 và 1 câu 除了……以外，还……",
+   "Nhắc đến CV gửi kèm (简历 jiǎnlì) và mong được phỏng vấn",
+   "Dài 80–120 chữ Hán"
+  ],
+  "words": [
+   80,
+   120
+  ]
+ },
+ "gloss": {
+  "招聘": [
+   "zhāopìn",
+   "to recruit, to hire",
+   "tuyển dụng"
+  ],
+  "应聘": [
+   "yìngpìn",
+   "to apply for a job",
+   "ứng tuyển"
+  ],
+  "简历": [
+   "jiǎnlì",
+   "résumé, CV",
+   "sơ yếu lý lịch, CV"
+  ],
+  "经验": [
+   "jīngyàn",
+   "experience",
+   "kinh nghiệm"
+  ],
+  "能力": [
+   "nénglì",
+   "ability",
+   "năng lực, khả năng"
+  ],
+  "专业": [
+   "zhuānyè",
+   "major, specialty; professional",
+   "chuyên ngành; chuyên nghiệp"
+  ],
+  "负责": [
+   "fùzé",
+   "to be in charge of",
+   "phụ trách, chịu trách nhiệm"
+  ],
+  "积累": [
+   "jīlěi",
+   "to accumulate",
+   "tích luỹ"
+  ],
+  "适应": [
+   "shìyìng",
+   "to adapt to",
+   "thích nghi"
+  ],
+  "工资": [
+   "gōngzī",
+   "salary, wages",
+   "tiền lương"
+  ],
+  "奖金": [
+   "jiǎngjīn",
+   "bonus",
+   "tiền thưởng"
+  ],
+  "面试": [
+   "miànshì",
+   "job interview; to interview",
+   "phỏng vấn"
+  ],
+  "员工": [
+   "yuángōng",
+   "employee, staff",
+   "nhân viên"
+  ],
+  "越南语": [
+   "Yuènányǔ",
+   "Vietnamese (language)",
+   "tiếng Việt"
+  ],
+  "日语": [
+   "Rìyǔ",
+   "Japanese (language)",
+   "tiếng Nhật"
+  ],
+  "贵公司": [
+   "guì gōngsī",
+   "your (esteemed) company",
+   "quý công ty"
+  ],
+  "出差": [
+   "chūchāi",
+   "to go on a business trip",
+   "đi công tác"
+  ],
+  "专门": [
+   "zhuānmén",
+   "specially, specifically",
+   "chuyên để, riêng cho"
+  ],
+  "经历": [
+   "jīnglì",
+   "experience (things one has been through)",
+   "trải nghiệm, những việc đã trải qua"
+  ]
+ }
+}

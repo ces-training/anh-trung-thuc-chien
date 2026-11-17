@@ -1,0 +1,1385 @@
+{
+ "id": "h4gt-thu-5",
+ "label": "Thứ 5",
+ "title": "Thuê căn hộ: so sánh, thương lượng, đặt cọc, báo hỏng đồ điện",
+ "desc": "阮安 (Ruǎn Ān) cùng 王丽 (Wáng Lì) đi xem một căn hộ gần công ty. Bạn hỏi chủ nhà (房东 fángdōng) tiền thuê gồm những gì, xin giảm giá khi thuê một năm, hỏi tiền cọc và quy định. Một tuần sau, điều hoà và máy giặt hỏng: bạn gọi điện và nhắn tin nhờ chủ nhà sửa.",
+ "rule": "Nói tiền thuê gồm cả gì: 包括 + thứ + 在内 (bāokuò… zàinèi), 在内 đứng cuối cụm. Nhấn mạnh 'chẳng… chút nào': 一点儿 + 也 / 都 + 不 / 没 (房租一点儿也不贵). Nói 'trừ… ra thì đều…': 除了 A 以外，(chủ ngữ) 都 + V; 都 đứng sau chủ ngữ. Xin giảm giá lịch sự: 如果我租一年的话，能不能便宜一点儿？",
+ "cards": [
+  {
+   "w": "房东",
+   "py": "fángdōng",
+   "m": "chủ nhà (cho thuê)",
+   "mEn": "landlord",
+   "ex": "房东说，房子里的家具都可以用。",
+   "expy": "Fángdōng shuō, fángzi lǐ de jiājù dōu kěyǐ yòng.",
+   "exm": "Chủ nhà nói đồ nội thất trong nhà đều dùng được.",
+   "exEn": "The landlord said all the furniture in the flat can be used.",
+   "n": "房东 = chủ nhà cho thuê; người đi thuê nhà là 租房子的人. fáng thanh 2 đi lên, dōng thanh 1 cao đều, cả hai có -ng mũi sau.",
+   "img": "home"
+  },
+  {
+   "w": "押金",
+   "py": "yājīn",
+   "m": "tiền đặt cọc",
+   "mEn": "deposit",
+   "ex": "押金是一个月的房租，不住的时候会还给你。",
+   "expy": "Yājīn shì yí ge yuè de fángzū, bú zhù de shíhou huì huán gěi nǐ.",
+   "exm": "Tiền cọc là một tháng tiền nhà, khi không ở nữa sẽ trả lại bạn.",
+   "exEn": "The deposit is one month's rent, and you get it back when you move out.",
+   "n": "Đặt cọc: 交押金; trả lại cọc: 还押金 (还 đọc huán). yā thanh 1, jīn thanh 1: hai âm cao đều."
+  },
+  {
+   "w": "家具",
+   "py": "jiājù",
+   "m": "đồ nội thất (giường, bàn, ghế, tủ…)",
+   "mEn": "furniture",
+   "ex": "这个房子的家具都是新的。",
+   "expy": "Zhège fángzi de jiājù dōu shì xīn de.",
+   "exm": "Đồ nội thất của căn nhà này đều mới.",
+   "exEn": "All the furniture in this flat is new.",
+   "n": "Hán Việt 'gia cụ'. Chỉ giường, bàn, ghế, tủ. Đồ điện (冰箱, 空调, 洗衣机) gọi là 家电 (jiādiàn). jù: môi tròn như ü.",
+   "img": "chair"
+  },
+  {
+   "w": "厨房",
+   "py": "chúfáng",
+   "m": "nhà bếp",
+   "mEn": "kitchen",
+   "ex": "厨房不大，但是很干净，可以自己做饭。",
+   "expy": "Chúfáng bú dà, dànshì hěn gānjìng, kěyǐ zìjǐ zuò fàn.",
+   "exm": "Bếp không lớn nhưng rất sạch, có thể tự nấu ăn.",
+   "exEn": "The kitchen isn't big, but it's clean and you can cook for yourself.",
+   "n": "厨 = bếp, 房 = phòng. Hai thanh 2 liền nhau: chú và fáng đều đi lên. ch cong lưỡi, bật hơi.",
+   "img": "kitchen"
+  },
+  {
+   "w": "卫生间",
+   "py": "wèishēngjiān",
+   "m": "phòng tắm, nhà vệ sinh",
+   "mEn": "bathroom, toilet",
+   "ex": "洗衣机在卫生间里。",
+   "expy": "Xǐyījī zài wèishēngjiān lǐ.",
+   "exm": "Máy giặt ở trong phòng tắm.",
+   "exEn": "The washing machine is in the bathroom.",
+   "n": "Hán Việt 'vệ sinh gian'. Trong căn hộ, 卫生间 vừa là phòng tắm vừa là nhà vệ sinh. Hỏi nơi công cộng cũng có thể nói 洗手间 (xǐshǒujiān)."
+  },
+  {
+   "w": "包括",
+   "py": "bāokuò",
+   "m": "bao gồm",
+   "mEn": "to include",
+   "ex": "房租五千块，包括网费在内。",
+   "expy": "Fángzū wǔqiān kuài, bāokuò wǎngfèi zàinèi.",
+   "exm": "Tiền nhà năm nghìn tệ, đã gồm cả tiền mạng.",
+   "exEn": "The rent is five thousand yuan, internet included.",
+   "n": "Hán Việt 'bao quát'. Hỏi: 房租包括水电费吗？ Mẫu: 包括 + thứ + 在内 (tính cả… vào). 括 đọc kuò (thanh 4), k bật hơi."
+  },
+  {
+   "w": "免费",
+   "py": "miǎnfèi",
+   "m": "miễn phí",
+   "mEn": "free of charge",
+   "ex": "家具坏了的话，房东会免费修理。",
+   "expy": "Jiājù huài le de huà, fángdōng huì miǎnfèi xiūlǐ.",
+   "exm": "Nếu đồ nội thất hỏng, chủ nhà sẽ sửa miễn phí.",
+   "exEn": "If the furniture breaks, the landlord will repair it for free.",
+   "n": "Hán Việt 'miễn phí', nghĩa như tiếng Việt: không mất tiền (不要钱). Khác 便宜 (piányi) = rẻ, vẫn phải trả tiền. miǎn thanh 3, fèi thanh 4."
+  },
+  {
+   "w": "规定",
+   "py": "guīdìng",
+   "m": "quy định",
+   "mEn": "rule, regulation; to stipulate",
+   "ex": "房东规定每个月五号以前交房租。",
+   "expy": "Fángdōng guīdìng měi ge yuè wǔ hào yǐqián jiāo fángzū.",
+   "exm": "Chủ nhà quy định mỗi tháng nộp tiền nhà trước ngày mùng 5.",
+   "exEn": "The landlord's rule is that rent is paid before the 5th of each month.",
+   "n": "Hán Việt 'quy định', vừa là danh từ (这是我的规定) vừa là động từ (房东规定…). Khác 决定 (juédìng) = quyết định của một người. guī thanh 1, dìng thanh 4."
+  },
+  {
+   "w": "修理",
+   "py": "xiūlǐ",
+   "m": "sửa chữa",
+   "mEn": "to repair, to fix",
+   "ex": "空调坏了，房东说明天找人来修理。",
+   "expy": "Kōngtiáo huài le, fángdōng shuō míngtiān zhǎo rén lái xiūlǐ.",
+   "exm": "Điều hoà hỏng rồi, chủ nhà nói mai tìm người đến sửa.",
+   "exEn": "The air conditioner's broken; the landlord says he'll get someone to fix it tomorrow.",
+   "n": "Hán Việt 'tu lý': sửa đồ bị hỏng (máy móc, đồ đạc). Nói gọn: 修. Sửa xong: 修好了. xiū thanh 1, lǐ thanh 3."
+  },
+  {
+   "w": "打扫",
+   "py": "dǎsǎo",
+   "m": "quét dọn, dọn dẹp",
+   "mEn": "to clean (a room)",
+   "ex": "搬家以前，房东已经把房间打扫干净了。",
+   "expy": "Bānjiā yǐqián, fángdōng yǐjīng bǎ fángjiān dǎsǎo gānjìng le.",
+   "exm": "Trước khi chuyển đến, chủ nhà đã dọn sạch phòng rồi.",
+   "exEn": "Before I moved in, the landlord had already cleaned the room.",
+   "n": "打扫 + phòng, nhà, văn phòng. Dọn sạch: 打扫干净. Hai thanh 3 liền nhau: đọc dá sǎo. Khác 洗 (xǐ) = rửa, giặt bằng nước."
+  },
+  {
+   "w": "环境",
+   "py": "huánjìng",
+   "m": "môi trường, khung cảnh xung quanh",
+   "mEn": "environment, surroundings",
+   "ex": "这里的环境很安静，晚上睡得很好。",
+   "expy": "Zhèlǐ de huánjìng hěn ānjìng, wǎnshang shuì de hěn hǎo.",
+   "exm": "Khung cảnh ở đây rất yên tĩnh, buổi tối ngủ rất ngon.",
+   "exEn": "It's very quiet around here, so I sleep well at night.",
+   "n": "Hán Việt 'hoàn cảnh' nhưng nghĩa là MÔI TRƯỜNG xung quanh (安静, 干净, 有公园…), không phải 'hoàn cảnh gia đình'. huán -n, jìng -ng: chú ý hai âm cuối khác nhau."
+  }
+ ],
+ "scene": {
+  "setting": "Chiều thứ Năm, 阮安 (Ruǎn Ān) và 王丽 (Wáng Lì) đến xem một căn hộ gần ga Nam Kinh Tây. Chủ nhà (房东 fángdōng) mở cửa, dẫn hai người xem phòng, bếp, phòng tắm và nói về tiền thuê.",
+  "img": "scene-zh-flat-gt",
+  "imgPrompt": "Realistic photo inside a small bright furnished flat in Shanghai; landlord (a Chinese man about 50, casual jacket, holding a key ring) opens the kitchen door and gestures inside; an (Vietnamese young woman about 22, long straight black hair with a center part and wispy bangs, cobalt blue blouse) looks around with interest and holds a phone with a blank notes screen; wangli (Chinese young woman about 22, chin-length glossy black bob with blunt bangs, red knit sweater) touches a new wooden table; a sofa, a bed and an air conditioner on the wall in the background; warm afternoon light, no readable text",
+  "lines": [
+   {
+    "who": "房东",
+    "t": "你们好！这就是我的房子，家具都在这儿，你们看看吧。",
+    "py": "Nǐmen hǎo! Zhè jiù shì wǒ de fángzi, jiājù dōu zài zhèr, nǐmen kànkan ba.",
+    "vi": "Chào hai cô! Đây là căn nhà của tôi, đồ đạc đều ở đây, hai cô xem đi.",
+    "en": "Hello! This is my flat, and all the furniture is here. Have a look around."
+   },
+   {
+    "who": "王丽",
+    "t": "房间很干净，厨房也不小。这里的环境怎么样？",
+    "py": "Fángjiān hěn gānjìng, chúfáng yě bù xiǎo. Zhèlǐ de huánjìng zěnmeyàng?",
+    "vi": "Phòng rất sạch, bếp cũng không nhỏ. Khung cảnh xung quanh ở đây thế nào ạ?",
+    "en": "The room is very clean, and the kitchen isn't small either. What's the area like?"
+   },
+   {
+    "who": "房东",
+    "t": "环境很好，晚上很安静，附近还有一个公园。房间我已经打扫过了。",
+    "py": "Huánjìng hěn hǎo, wǎnshang hěn ānjìng, fùjìn hái yǒu yí ge gōngyuán. Fángjiān wǒ yǐjīng dǎsǎo guo le.",
+    "vi": "Khung cảnh rất tốt, buổi tối rất yên tĩnh, gần đây còn có một công viên. Phòng tôi đã dọn dẹp rồi.",
+    "en": "It's a nice area, very quiet at night, and there's a park nearby. I've already cleaned the place."
+   },
+   {
+    "who": "阮安",
+    "t": "房租一个月多少钱？包括水电费吗？",
+    "py": "Fángzū yí ge yuè duōshao qián? Bāokuò shuǐdiànfèi ma?",
+    "vi": "Tiền nhà một tháng bao nhiêu ạ? Có gồm tiền điện nước không?",
+    "en": "How much is the rent a month? Does it include water and electricity?"
+   },
+   {
+    "who": "房东",
+    "t": "五千块，包括网费在内，水电费要自己交。押金是一个月的房租。",
+    "py": "Wǔqiān kuài, bāokuò wǎngfèi zàinèi, shuǐdiànfèi yào zìjǐ jiāo. Yājīn shì yí ge yuè de fángzū.",
+    "vi": "Năm nghìn tệ, đã gồm tiền mạng, điện nước thì tự trả. Tiền cọc là một tháng tiền nhà.",
+    "en": "Five thousand, internet included; you pay water and electricity yourself. The deposit is one month's rent."
+   },
+   {
+    "who": "阮安",
+    "t": "五千有点儿贵。如果我租一年的话，能不能便宜一点儿？",
+    "py": "Wǔqiān yǒudiǎnr guì. Rúguǒ wǒ zū yì nián de huà, néng bu néng piányi yìdiǎnr?",
+    "vi": "Năm nghìn hơi đắt. Nếu tôi thuê một năm thì có thể bớt một chút không ạ?",
+    "en": "Five thousand is a bit expensive. If I rent for a year, could you make it a little cheaper?"
+   },
+   {
+    "who": "房东",
+    "t": "好吧，租一年的话，就四千八。可是我有一个规定：每个月五号以前要交房租。",
+    "py": "Hǎo ba, zū yì nián de huà, jiù sìqiān bā. Kěshì wǒ yǒu yí ge guīdìng: měi ge yuè wǔ hào yǐqián yào jiāo fángzū.",
+    "vi": "Thôi được, thuê một năm thì bốn nghìn tám. Nhưng tôi có một quy định: mỗi tháng phải nộp tiền nhà trước ngày mùng 5.",
+    "en": "All right, for a year it's 4,800. But I have one rule: rent must be paid before the 5th of each month."
+   },
+   {
+    "who": "王丽",
+    "t": "这些家具都是新的吗？",
+    "py": "Zhèxiē jiājù dōu shì xīn de ma?",
+    "vi": "Mấy đồ đạc này đều mới phải không ạ?",
+    "en": "Is all this furniture new?"
+   },
+   {
+    "who": "房东",
+    "t": "除了洗衣机以外，都是新的。洗衣机在卫生间里，用了五年了。如果坏了，我会免费找人修理。",
+    "py": "Chúle xǐyījī yǐwài, dōu shì xīn de. Xǐyījī zài wèishēngjiān lǐ, yòng le wǔ nián le. Rúguǒ huài le, wǒ huì miǎnfèi zhǎo rén xiūlǐ.",
+    "vi": "Trừ máy giặt ra thì đều mới. Máy giặt ở trong phòng tắm, đã dùng năm năm rồi. Nếu hỏng, tôi sẽ tìm người sửa miễn phí.",
+    "en": "Everything's new except the washing machine. It's in the bathroom and is five years old. If it breaks, I'll get it repaired for free."
+   },
+   {
+    "who": "阮安",
+    "t": "房租一点儿也不贵了！我今天先交押金，下个星期一搬进来。",
+    "py": "Fángzū yìdiǎnr yě bú guì le! Wǒ jīntiān xiān jiāo yājīn, xià ge xīngqīyī bān jìnlai.",
+    "vi": "Giờ thì tiền nhà chẳng đắt chút nào! Hôm nay tôi nộp cọc trước, thứ Hai tuần sau chuyển vào.",
+    "en": "Now the rent isn't expensive at all! I'll pay the deposit today and move in next Monday."
+   }
+  ]
+ },
+ "patterns": [
+  {
+   "t": "Tính cả…: 包括 + thứ + 在内",
+   "f": [
+    [
+     "房租",
+     "包括",
+     "网费",
+     "在内"
+    ],
+    [
+     "第一个月",
+     "包括",
+     "押金",
+     "在内，要交一万块"
+    ]
+   ],
+   "ex": [
+    [
+     "房租五千块，包括网费在内。",
+     "Tiền nhà năm nghìn tệ, đã tính cả tiền mạng.",
+     "The rent is five thousand, internet included."
+    ],
+    [
+     "包括押金在内，第一个月要交一万块。",
+     "Tính cả tiền cọc, tháng đầu phải nộp mười nghìn tệ.",
+     "Including the deposit, you pay ten thousand in the first month."
+    ]
+   ],
+   "bad": "房租五千块，在内包括网费。",
+   "good": "房租五千块，包括网费在内。",
+   "why": "Trật tự cố định: 包括 (bāokuò) + thứ được tính vào + 在内 (zàinèi). 在内 luôn đứng CUỐI cụm, không đứng trước 包括. Nói ngắn cũng được: 房租包括网费."
+  },
+  {
+   "t": "Chẳng… chút nào: 一点儿 + 也 / 都 + 不 / 没",
+   "f": [
+    [
+     "房租",
+     "一点儿也",
+     "不",
+     "贵"
+    ],
+    [
+     "洗衣机",
+     "一点儿声音也",
+     "没",
+     "有"
+    ]
+   ],
+   "ex": [
+    [
+     "这里的房租一点儿也不贵。",
+     "Tiền nhà ở đây chẳng đắt chút nào.",
+     "The rent here isn't expensive at all."
+    ],
+    [
+     "洗衣机一点儿声音也没有，不能用了。",
+     "Máy giặt chẳng kêu một tiếng nào, không dùng được nữa.",
+     "The washing machine makes no sound at all; it doesn't work any more."
+    ]
+   ],
+   "bad": "这里的房租一点儿不也贵。",
+   "good": "这里的房租一点儿也不贵。",
+   "why": "也 (yě) hoặc 都 (dōu) đứng ngay sau 一点儿 (hoặc sau 一点儿 + danh từ), rồi mới đến 不 / 没. Mẫu này chỉ dùng với câu PHỦ ĐỊNH; câu khẳng định 'hơi đắt' thì nói 有点儿贵."
+  },
+  {
+   "t": "Trừ… ra thì đều…: 除了 A 以外，(chủ ngữ) 都 + V",
+   "f": [
+    [
+     "除了",
+     "洗衣机以外，",
+     "家具都",
+     "是新的"
+    ],
+    [
+     "除了",
+     "星期天以外，",
+     "我每天都",
+     "在家"
+    ]
+   ],
+   "ex": [
+    [
+     "除了洗衣机以外，家具都是新的。",
+     "Trừ máy giặt ra, đồ đạc đều mới.",
+     "Except for the washing machine, all the furniture is new."
+    ],
+    [
+     "除了星期六以外，我晚上都在家。",
+     "Trừ thứ Bảy ra, tối nào tôi cũng ở nhà.",
+     "I'm home every evening except Saturday."
+    ]
+   ],
+   "bad": "除了洗衣机以外，都家具是新的。",
+   "good": "除了洗衣机以外，家具都是新的。",
+   "why": "都 (dōu) là phó từ, đứng SAU chủ ngữ (家具) và trước động từ (是). Chú ý nghĩa: 除了……以外，都…… = TRỪ A ra (A không tính); 除了……以外，还…… = NGOÀI A ra còn (A có tính)."
+  }
+ ],
+ "vocab": [
+  {
+   "q": "房东 (fángdōng) là ai?",
+   "opts": [
+    "chủ nhà cho thuê",
+    "người đi thuê nhà",
+    "hàng xóm"
+   ],
+   "optsEn": [
+    "landlord",
+    "tenant",
+    "neighbour"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Người đi thuê nhà là 租房子的人, như 阮安. 房东 là người cho thuê.",
+    "2": "Hàng xóm là 邻居 (línjū). 房东 là chủ của căn nhà cho thuê."
+   }
+  },
+  {
+   "q": "Điền từ: 租房子的时候，要先交一个月的___。(Zū fángzi de shíhou, yào xiān jiāo yí ge yuè de ___.)",
+   "opts": [
+    "押金",
+    "家具",
+    "环境"
+   ],
+   "a": 0,
+   "why": {
+    "1": "家具 (jiājù) là đồ nội thất, không 'nộp' được.",
+    "2": "环境 (huánjìng) là khung cảnh xung quanh, không nộp. Thứ nộp trước khi thuê là tiền cọc (押金)."
+   }
+  },
+  {
+   "q": "Điền từ: 房子里的___都是新的：床、桌子、椅子都有。(Fángzi lǐ de ___ dōu shì xīn de: chuáng, zhuōzi, yǐzi dōu yǒu.)",
+   "opts": [
+    "家具",
+    "厨房",
+    "规定"
+   ],
+   "a": 0,
+   "why": {
+    "1": "厨房 (chúfáng) là nhà bếp, không phải giường, bàn, ghế.",
+    "2": "规定 (guīdìng) là quy định; vế sau kể giường, bàn, ghế, tức là đồ nội thất (家具)."
+   }
+  },
+  {
+   "q": "Điền từ: ___里可以做饭，冰箱也在那儿。(___ lǐ kěyǐ zuò fàn, bīngxiāng yě zài nàr.)",
+   "opts": [
+    "厨房",
+    "卫生间",
+    "押金"
+   ],
+   "a": 0,
+   "why": {
+    "1": "卫生间 (wèishēngjiān) là phòng tắm, không phải chỗ nấu ăn.",
+    "2": "押金 (yājīn) là tiền cọc, không phải một căn phòng."
+   }
+  },
+  {
+   "q": "卫生间 (wèishēngjiān) là phòng nào?",
+   "opts": [
+    "phòng tắm, nhà vệ sinh",
+    "phòng khách",
+    "phòng ngủ"
+   ],
+   "optsEn": [
+    "bathroom, toilet",
+    "living room",
+    "bedroom"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Phòng khách không phải 卫生间. 卫生 = vệ sinh: phòng để tắm rửa, đi vệ sinh.",
+    "2": "Phòng ngủ là chỗ đặt giường (床), không phải 卫生间."
+   }
+  },
+  {
+   "q": "Điền từ: 房租五千块，___网费在内。(Fángzū wǔqiān kuài, ___ wǎngfèi zàinèi.)",
+   "opts": [
+    "包括",
+    "免费",
+    "修理"
+   ],
+   "a": 0,
+   "why": {
+    "1": "免费 (miǎnfèi) = miễn phí, không đi với 在内.",
+    "2": "修理 (xiūlǐ) = sửa chữa; 'sửa tiền mạng' không có nghĩa. Mẫu cố định là 包括……在内."
+   }
+  },
+  {
+   "q": "Điền từ: 空调坏了，房东说明天找人来___。(Kōngtiáo huài le, fángdōng shuō míngtiān zhǎo rén lái ___.)",
+   "opts": [
+    "修理",
+    "打扫",
+    "包括"
+   ],
+   "a": 0,
+   "why": {
+    "1": "打扫 (dǎsǎo) = quét dọn; đồ bị hỏng (坏了) thì cần sửa chứ không cần dọn.",
+    "2": "包括 (bāokuò) = bao gồm, cần tân ngữ đi sau và không hợp với 坏了."
+   }
+  },
+  {
+   "q": "Điền từ: 这里的___很安静，附近还有一个公园。(Zhèlǐ de ___ hěn ānjìng, fùjìn hái yǒu yí ge gōngyuán.)",
+   "opts": [
+    "环境",
+    "规定",
+    "押金"
+   ],
+   "a": 0,
+   "why": {
+    "1": "规定 (guīdìng) là quy định, không 'yên tĩnh' được.",
+    "2": "押金 (yājīn) là tiền cọc. Yên tĩnh, có công viên gần đó là khung cảnh xung quanh (环境)."
+   }
+  }
+ ],
+ "grammar": [
+  {
+   "q": "Câu nào đúng?",
+   "opts": [
+    "房租五千块，包括网费在内。",
+    "房租五千块，在内包括网费。",
+    "房租五千块，包括在内网费。"
+   ],
+   "a": 0,
+   "why": {
+    "1": "在内 phải đứng CUỐI cụm, sau thứ được tính vào.",
+    "2": "Thứ được tính (网费) phải nằm GIỮA 包括 và 在内."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Điền từ: 房租包括水电费___内吗？(Fángzū bāokuò shuǐdiànfèi ___ nèi ma?)",
+   "model": "在",
+   "accept": [
+    "在",
+    "zai"
+   ],
+   "why": "Mẫu cố định 包括 + thứ + 在内 (zàinèi): tính cả… vào."
+  },
+  {
+   "q": "Câu nào đúng?",
+   "opts": [
+    "除了洗衣机以外，家具都是新的。",
+    "除了洗衣机以外，都家具是新的。",
+    "除了以外洗衣机，家具都是新的。"
+   ],
+   "a": 0,
+   "why": {
+    "1": "都 phải đứng sau chủ ngữ 家具, trước động từ 是.",
+    "2": "Danh từ phải nằm GIỮA 除了 và 以外: 除了洗衣机以外."
+   }
+  },
+  {
+   "q": "Điền từ: 这里的房租一点儿___不贵。(Tiền nhà ở đây chẳng đắt chút nào.)",
+   "opts": [
+    "也",
+    "很",
+    "太"
+   ],
+   "a": 0,
+   "why": {
+    "1": "很 (hěn) không đi với 一点儿 để nhấn mạnh phủ định. Mẫu đúng: 一点儿也不 / 一点儿都不.",
+    "2": "太 (tài) không đứng giữa 一点儿 và 不. Cần 也 hoặc 都."
+   }
+  },
+  {
+   "q": "Điền từ: 除了洗衣机以外，别的家具___是新的。(Trừ máy giặt ra, các đồ khác đều mới.)",
+   "opts": [
+    "都",
+    "还",
+    "才"
+   ],
+   "a": 0,
+   "why": {
+    "1": "还 (hái) dùng cho nghĩa 'ngoài A ra còn có' (tính cả A). Ở đây máy giặt bị TRỪ ra, nên dùng 都.",
+    "2": "才 (cái) không đi với 除了……以外 để nói 'đều'."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Sắp xếp thành câu: 免费 / 房东 / 修理 / 会 (Chủ nhà sẽ sửa miễn phí.)",
+   "model": "房东会免费修理。",
+   "accept": [
+    "房东会免费修理。",
+    "房东会免费修理",
+    "fangdonghuimianfeixiuli"
+   ],
+   "why": "Chủ ngữ 房东 + động từ năng nguyện 会 + cách làm 免费 + động từ chính 修理. 免费 đứng TRƯỚC động từ như một trạng ngữ."
+  },
+  {
+   "q": "Điền từ: 房间我已经打扫___了。(Phòng tôi đã dọn sạch rồi.)",
+   "opts": [
+    "干净",
+    "清楚",
+    "好看"
+   ],
+   "a": 0,
+   "why": {
+    "1": "清楚 (qīngchu) đi với nghe, nhìn, nói (听清楚, 说清楚), không đi với 打扫.",
+    "2": "好看 (hǎokàn) là đẹp mắt, không phải kết quả của việc quét dọn. Dọn xong thì 打扫干净."
+   }
+  }
+ ],
+ "listen": [
+  {
+   "q": "Tiền nhà mỗi tháng là bao nhiêu?",
+   "audio": "房租一个月多少钱？——五千块，包括网费在内。",
+   "opts": [
+    "5.000 tệ, đã gồm tiền mạng",
+    "5.000 tệ, chưa gồm tiền mạng",
+    "5.500 tệ"
+   ],
+   "optsEn": [
+    "5,000 yuan, internet included",
+    "5,000 yuan, internet extra",
+    "5,500 yuan"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe nói 包括网费在内: tiền mạng ĐÃ được tính.",
+    "2": "Không nghe thấy 五千五 (wǔqiān wǔ); câu trả lời là 五千块."
+   }
+  },
+  {
+   "q": "Tiền cọc là bao nhiêu?",
+   "audio": "押金要多少？——押金是一个月的房租。",
+   "opts": [
+    "một tháng tiền nhà",
+    "hai tháng tiền nhà",
+    "không cần đặt cọc"
+   ],
+   "optsEn": [
+    "one month's rent",
+    "two months' rent",
+    "no deposit"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Không nghe thấy 两个月 (liǎng ge yuè); câu trả lời là 一个月的房租.",
+    "2": "Bài nghe có nói tiền cọc: 押金是一个月的房租."
+   }
+  },
+  {
+   "q": "Nếu đồ nội thất hỏng thì sao?",
+   "audio": "家具坏了怎么办？——我会找人来免费修理。",
+   "opts": [
+    "chủ nhà tìm người sửa miễn phí",
+    "người thuê tự trả tiền sửa",
+    "chủ nhà mua đồ mới"
+   ],
+   "optsEn": [
+    "the landlord has it fixed for free",
+    "the tenant pays for repairs",
+    "the landlord buys new ones"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe nói 免费修理 (sửa miễn phí), người thuê không phải trả.",
+    "2": "Không nghe thấy 买新的 (mua mới); chủ nhà nói 修理."
+   }
+  },
+  {
+   "q": "Khung cảnh quanh căn nhà thế nào?",
+   "audio": "这里的环境很安静，附近还有一个公园。",
+   "opts": [
+    "yên tĩnh, gần công viên",
+    "ồn ào, gần chợ",
+    "yên tĩnh nhưng xa ga tàu"
+   ],
+   "optsEn": [
+    "quiet, near a park",
+    "noisy, near a market",
+    "quiet but far from the station"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe nói 很安静 (rất yên tĩnh), không ồn, và gần 公园 (công viên).",
+    "2": "Câu không nhắc đến ga tàu (地铁站)."
+   }
+  },
+  {
+   "q": "Phải nộp tiền nhà khi nào?",
+   "audio": "根据我的规定，每个月五号以前要交房租。",
+   "opts": [
+    "trước ngày mùng 5 mỗi tháng",
+    "sau ngày mùng 5 mỗi tháng",
+    "trước ngày 15 mỗi tháng"
+   ],
+   "optsEn": [
+    "before the 5th of each month",
+    "after the 5th of each month",
+    "before the 15th of each month"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe nói 以前 (trước), không phải 以后 (sau).",
+    "2": "Không nghe thấy 十五号; ngày là 五号."
+   }
+  },
+  {
+   "q": "Có vấn đề gì?",
+   "audio": "空调开了一个小时，房间还是很热。",
+   "opts": [
+    "điều hoà không làm mát",
+    "máy giặt bị hỏng",
+    "phòng không có điều hoà"
+   ],
+   "optsEn": [
+    "the air conditioner isn't cooling",
+    "the washing machine is broken",
+    "there's no air conditioner"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Câu này không nhắc 洗衣机 (xǐyījī).",
+    "2": "Có điều hoà (空调开了一个小时), chỉ là phòng vẫn nóng."
+   }
+  },
+  {
+   "q": "Máy giặt ở đâu?",
+   "audio": "洗衣机在卫生间里，厨房里有冰箱。",
+   "opts": [
+    "trong phòng tắm",
+    "trong bếp",
+    "trong phòng ngủ"
+   ],
+   "optsEn": [
+    "in the bathroom",
+    "in the kitchen",
+    "in the bedroom"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Trong bếp (厨房) là tủ lạnh (冰箱), không phải máy giặt.",
+    "2": "Câu không nhắc phòng ngủ; máy giặt 在卫生间里."
+   }
+  }
+ ],
+ "hsk": [
+  {
+   "q": "HSK4 听力 · Phần 1, đúng hay sai: ★ 房租里不包括网费。",
+   "audio": "这个房子一个月五千块，包括网费在内，水电费要自己交。",
+   "opts": [
+    "对",
+    "错"
+   ],
+   "a": 1,
+   "why": {
+    "0": "Bài nghe nói 包括网费在内 (đã gồm tiền mạng); thứ phải tự trả là 水电费, nên câu ★ sai."
+   }
+  },
+  {
+   "q": "HSK4 听力 · Phần 1, đúng hay sai: ★ 家具坏了，房东会免费修理。",
+   "audio": "住在这里的时候，如果家具坏了，你可以给我打电话，我会找人来免费修理。",
+   "opts": [
+    "对",
+    "错"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe nói 我会找人来免费修理 (tôi sẽ tìm người sửa miễn phí), nên câu ★ đúng."
+   }
+  },
+  {
+   "q": "HSK4 听力 · Phần 2, hội thoại ngắn: 哪个东西不是新的？",
+   "audio": "女：这个房子除了洗衣机以外，家具都是新的吗？男：对，洗衣机用了五年了，别的都是今年买的。问：哪个东西不是新的？",
+   "opts": [
+    "洗衣机",
+    "冰箱",
+    "床"
+   ],
+   "a": 0,
+   "why": {
+    "1": "冰箱 (tủ lạnh) không bị nhắc riêng; 别的都是今年买的 (các thứ khác đều mua năm nay).",
+    "2": "床 (giường) thuộc 别的 (các thứ khác), đều mới. Chỉ 洗衣机 đã dùng năm năm."
+   }
+  },
+  {
+   "q": "HSK4 Đọc · Phần 1, chọn từ điền vào chỗ trống: 根据房东的（　），每个月五号以前要交房租。",
+   "opts": [
+    "规定",
+    "环境",
+    "押金",
+    "家具"
+   ],
+   "a": 0,
+   "why": {
+    "1": "环境 (huánjìng) là khung cảnh, không đặt ra hạn nộp tiền.",
+    "2": "押金 (yājīn) là tiền cọc; 'theo tiền cọc của chủ nhà, nộp trước mùng 5' không hợp lý.",
+    "3": "家具 (jiājù) là đồ nội thất, không phải căn cứ để nộp tiền."
+   }
+  },
+  {
+   "k": "order",
+   "q": "HSK4 书写 · 完成句子: xếp các từ thành câu",
+   "tokens": [
+    "除了洗衣机以外，",
+    "家具",
+    "都",
+    "是",
+    "新的"
+   ],
+   "explain": "除了……以外 đứng đầu câu; sau đó là chủ ngữ 家具 + 都 + 是 + 新的. 都 đứng sau chủ ngữ, trước động từ.",
+   "vi": "Trừ máy giặt ra, đồ đạc đều mới.",
+   "en": "Except for the washing machine, all the furniture is new."
+  }
+ ],
+ "shadow": [
+  {
+   "t": "押金",
+   "py": "yājīn",
+   "focus": "Hai thanh 1 liền nhau: yā và jīn đều giữ cao, đều; jīn kết thúc -n đầu lưỡi, không kéo thành -ng.",
+   "en": "deposit"
+  },
+  {
+   "t": "卫生间",
+   "py": "wèishēngjiān",
+   "focus": "wèi thanh 4 rơi, rồi shēng và jiān giữ cao; shēng -ng mũi sau, jiān -n đầu lưỡi.",
+   "en": "bathroom"
+  },
+  {
+   "t": "免费修理",
+   "py": "miǎnfèi xiūlǐ",
+   "focus": "miǎn thanh 3 thấp, fèi thanh 4 rơi; xiū thanh 1 cao, lǐ thanh 3 thấp. f môi răng.",
+   "en": "to repair for free"
+  },
+  {
+   "t": "房租五千块，包括网费在内。",
+   "py": "Fángzū wǔqiān kuài, bāokuò wǎngfèi zàinèi.",
+   "focus": "租 zū: z không bật hơi; 括 kuò bật hơi; 在内 zàinèi: hai thanh 4 liền nhau ở cuối, đọc dứt khoát.",
+   "en": "The rent is five thousand, internet included."
+  },
+  {
+   "t": "除了洗衣机以外，家具都是新的。",
+   "py": "Chúle xǐyījī yǐwài, jiājù dōu shì xīn de.",
+   "focus": "洗衣机 xǐyījī: thanh 3 rồi hai thanh 1; 家具 jiājù: jù tròn môi (ü); 是 shì cong lưỡi.",
+   "en": "Except for the washing machine, all the furniture is new."
+  },
+  {
+   "t": "空调开了一个小时，房间还是很热。",
+   "py": "Kōngtiáo kāi le yí ge xiǎoshí, fángjiān háishi hěn rè.",
+   "focus": "调 ở đây đọc tiáo (thanh 2), không phải diào; 一 đọc yí trước 个 (ge, gốc thanh 4); 热 rè: r cong lưỡi.",
+   "en": "The air conditioner has been on for an hour, and the room is still hot."
+  }
+ ],
+ "dialog": {
+  "title": "Một tuần sau khi chuyển đến, bạn gọi cho chủ nhà (房东 fángdōng): báo điều hoà và máy giặt hỏng, tả rõ hỏng thế nào, hẹn giờ sửa. Đổi vai: bạn là chủ nhà, hỏi han và hẹn thợ.",
+  "partner": "房东",
+  "turns": [
+   {
+    "ai": "喂，阮安，你好！房子住得怎么样？",
+    "py": "Wéi, Ruǎn Ān, nǐ hǎo! Fángzi zhù de zěnmeyàng?",
+    "vi": "Alô, An à, chào cô! Ở nhà thấy thế nào?",
+    "en": "Hello, An! How are you finding the flat?",
+    "model": "房东您好！房子很好，可是空调和洗衣机都坏了。",
+    "mpy": "Fángdōng nín hǎo! Fángzi hěn hǎo, kěshì kōngtiáo hé xǐyījī dōu huài le.",
+    "men": "Hello! The flat is very nice, but the air conditioner and the washing machine have both broken down.",
+    "accept": [
+     "房东您好！房子很好，可是空调和洗衣机都坏了。",
+     "房子很好，可是空调和洗衣机都坏了。",
+     "空调和洗衣机都坏了。",
+     "kongtiaohexiyijidouhuaile",
+     "fangzihenhao"
+    ],
+    "frame": "房东您好！房子很好，可是空调和___都坏了。",
+    "hint": "Khen nhà trước (房子很好), rồi dùng 可是 báo hai thứ bị hỏng: 空调和洗衣机都坏了."
+   },
+   {
+    "ai": "是吗？空调怎么了？",
+    "py": "Shì ma? Kōngtiáo zěnme le?",
+    "vi": "Thế à? Điều hoà làm sao?",
+    "en": "Really? What's wrong with the air conditioner?",
+    "model": "空调开了一个小时，房间还是很热。",
+    "mpy": "Kōngtiáo kāi le yí ge xiǎoshí, fángjiān háishi hěn rè.",
+    "men": "I had it on for an hour, and the room was still hot.",
+    "accept": [
+     "空调开了一个小时，房间还是很热。",
+     "开了一个小时，房间还是很热。",
+     "房间还是很热。",
+     "kongtiaokaileyigexiaoshifangjianhaishihenre",
+     "fangjianhaishihenre"
+    ],
+    "frame": "空调开了一个___，房间还是很热。",
+    "hint": "Tả hỏng thế nào: mở bao lâu (开了一个小时) mà phòng vẫn nóng (还是很热)."
+   },
+   {
+    "ai": "洗衣机呢？",
+    "py": "Xǐyījī ne?",
+    "vi": "Còn máy giặt?",
+    "en": "And the washing machine?",
+    "model": "洗衣机一点儿声音也没有，不能洗衣服了。",
+    "mpy": "Xǐyījī yìdiǎnr shēngyīn yě méiyǒu, bù néng xǐ yīfu le.",
+    "men": "The washing machine makes no sound at all; I can't wash clothes any more.",
+    "accept": [
+     "洗衣机一点儿声音也没有，不能洗衣服了。",
+     "一点儿声音也没有，不能洗衣服了。",
+     "洗衣机一点儿声音也没有。",
+     "不能洗衣服了。",
+     "xiyijiyidianrshengyinyemeiyou",
+     "bunengxiyifule"
+    ],
+    "frame": "洗衣机一点儿声音___没有，不能洗衣服了。",
+    "hint": "Nhấn mạnh 'chẳng kêu tiếng nào': 一点儿声音也没有, rồi nói hậu quả 不能洗衣服了."
+   },
+   {
+    "ai": "真不好意思。我明天下午找人来修理，你在家吗？",
+    "py": "Zhēn bù hǎoyìsi. Wǒ míngtiān xiàwǔ zhǎo rén lái xiūlǐ, nǐ zài jiā ma?",
+    "vi": "Thật ngại quá. Chiều mai tôi tìm người đến sửa, cô có ở nhà không?",
+    "en": "I'm so sorry. I'll get someone to come and fix them tomorrow afternoon. Will you be home?",
+    "model": "明天下午我要上班。周末可以吗？",
+    "mpy": "Míngtiān xiàwǔ wǒ yào shàngbān. Zhōumò kěyǐ ma?",
+    "men": "I'm working tomorrow afternoon. Could it be at the weekend?",
+    "accept": [
+     "明天下午我要上班。周末可以吗？",
+     "明天下午我要上班。",
+     "周末可以吗？",
+     "mingtianxiawuwoyaoshangban",
+     "zhoumokeyima"
+    ],
+    "frame": "明天下午我要___。周末可以吗？",
+    "hint": "Nói lý do không ở nhà (要上班), rồi đề nghị giờ khác: 周末可以吗？"
+   },
+   {
+    "ai": "可以，星期六上午吧。修理是免费的，你放心。",
+    "py": "Kěyǐ, xīngqīliù shàngwǔ ba. Xiūlǐ shì miǎnfèi de, nǐ fàngxīn.",
+    "vi": "Được, sáng thứ Bảy nhé. Sửa là miễn phí, cô yên tâm.",
+    "en": "Sure, Saturday morning then. The repair is free, don't worry.",
+    "model": "太好了，谢谢您！星期六上午我在家等。",
+    "mpy": "Tài hǎo le, xièxie nín! Xīngqīliù shàngwǔ wǒ zài jiā děng.",
+    "men": "Great, thank you! I'll be waiting at home on Saturday morning.",
+    "accept": [
+     "太好了，谢谢您！星期六上午我在家等。",
+     "谢谢您！星期六上午我在家等。",
+     "星期六上午我在家等。",
+     "谢谢您！",
+     "xiexienin",
+     "xingqiliushangwuwozaijiadeng"
+    ],
+    "frame": "太好了，谢谢您！星期六___我在家等。",
+    "hint": "Cảm ơn và xác nhận lại giờ hẹn: 星期六上午我在家等."
+   }
+  ]
+ },
+ "reading": {
+  "title": "Tin cho thuê căn hộ và quy định của chủ nhà",
+  "text": "房子出租：南京西路附近，走路到地铁站只要五分钟，交通很方便，环境也很安静。房子有一个房间、一个厨房和一个卫生间。除了洗衣机以外，家具都是今年买的。房租每个月五千块，包括网费在内，水电费自己交。押金是一个月的房租，不住的时候会还给你。房东的规定：一、每个月五号以前交房租；二、晚上十点以后不要大声唱歌；三、房间要自己打扫。如果家具坏了，房东会免费修理。",
+  "py": "Fángzi chūzū: Nánjīng Xī Lù fùjìn, zǒulù dào dìtiě zhàn zhǐ yào wǔ fēnzhōng, jiāotōng hěn fāngbiàn, huánjìng yě hěn ānjìng. Fángzi yǒu yí ge fángjiān, yí ge chúfáng hé yí ge wèishēngjiān. Chúle xǐyījī yǐwài, jiājù dōu shì jīnnián mǎi de. Fángzū měi ge yuè wǔqiān kuài, bāokuò wǎngfèi zàinèi, shuǐdiànfèi zìjǐ jiāo. Yājīn shì yí ge yuè de fángzū, bú zhù de shíhou huì huán gěi nǐ. Fángdōng de guīdìng: yī, měi ge yuè wǔ hào yǐqián jiāo fángzū; èr, wǎnshang shí diǎn yǐhòu bú yào dà shēng chàng gē; sān, fángjiān yào zìjǐ dǎsǎo. Rúguǒ jiājù huài le, fángdōng huì miǎnfèi xiūlǐ.",
+  "en": "Flat for rent: near West Nanjing Road, only a five-minute walk to the metro station, with easy transport and a quiet neighbourhood. The flat has one bedroom, a kitchen and a bathroom. Apart from the washing machine, all the furniture was bought this year. The rent is 5,000 yuan a month, internet included; water and electricity are paid by the tenant. The deposit is one month's rent and is returned when you move out. The landlord's rules: 1. pay the rent before the 5th of each month; 2. no loud singing after 10 p.m.; 3. tenants clean the flat themselves. If any furniture breaks, the landlord will repair it for free.",
+  "vi": "Cho thuê nhà: gần đường Nam Kinh Tây, đi bộ đến ga tàu điện chỉ năm phút, giao thông rất tiện, khung cảnh cũng rất yên tĩnh. Căn nhà có một phòng ngủ, một bếp và một phòng tắm. Trừ máy giặt ra, đồ nội thất đều mua năm nay. Tiền nhà mỗi tháng năm nghìn tệ, đã gồm tiền mạng, điện nước người thuê tự trả. Tiền cọc là một tháng tiền nhà, khi không ở nữa sẽ được trả lại. Quy định của chủ nhà: một, mỗi tháng nộp tiền nhà trước ngày mùng 5; hai, sau mười giờ tối không hát to; ba, người thuê tự dọn phòng. Nếu đồ nội thất hỏng, chủ nhà sẽ sửa miễn phí.",
+  "qs": [
+   {
+    "q": "Từ căn nhà đi bộ đến ga tàu điện mất bao lâu?",
+    "opts": [
+     "5 phút",
+     "10 phút",
+     "15 phút"
+    ],
+    "optsEn": [
+     "5 minutes",
+     "10 minutes",
+     "15 minutes"
+    ],
+    "a": 0,
+    "why": {
+     "1": "10 là giờ (十点) trong quy định không hát to, không phải số phút đi bộ.",
+     "2": "Bài viết 只要五分钟, không phải mười lăm phút."
+    }
+   },
+   {
+    "q": "Tiền nhà đã gồm khoản nào?",
+    "opts": [
+     "tiền mạng",
+     "tiền điện nước",
+     "tiền mạng và điện nước"
+    ],
+    "optsEn": [
+     "internet",
+     "water and electricity",
+     "internet, water and electricity"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài viết 水电费自己交: điện nước người thuê tự trả.",
+     "2": "Chỉ có 网费 được tính (包括网费在内); điện nước không gồm."
+    }
+   },
+   {
+    "q": "Đúng hay sai: 房子里所有的家具都是今年买的。(Fángzi lǐ suǒyǒu de jiājù dōu shì jīnnián mǎi de.)",
+    "opts": [
+     "Đúng",
+     "Sai"
+    ],
+    "optsEn": [
+     "True",
+     "False"
+    ],
+    "a": 1,
+    "why": {
+     "0": "Bài viết 除了洗衣机以外，家具都是今年买的: máy giặt KHÔNG phải mua năm nay, nên câu này sai."
+    }
+   },
+   {
+    "q": "Điều nào KHÔNG có trong quy định của chủ nhà?",
+    "opts": [
+     "không được nấu ăn trong nhà",
+     "nộp tiền nhà trước ngày mùng 5",
+     "sau 10 giờ tối không hát to"
+    ],
+    "optsEn": [
+     "no cooking in the flat",
+     "pay rent before the 5th",
+     "no loud singing after 10 p.m."
+    ],
+    "a": 0,
+    "why": {
+     "1": "Đây là quy định thứ nhất: 每个月五号以前交房租.",
+     "2": "Đây là quy định thứ hai: 晚上十点以后不要大声唱歌."
+    }
+   },
+   {
+    "q": "Ai dọn dẹp căn nhà?",
+    "opts": [
+     "người thuê tự dọn",
+     "chủ nhà dọn",
+     "có người đến dọn miễn phí"
+    ],
+    "optsEn": [
+     "the tenant",
+     "the landlord",
+     "a free cleaner"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Quy định thứ ba: 房间要自己打扫 (tự dọn phòng), không phải chủ nhà dọn.",
+     "2": "免费 trong bài là sửa đồ hỏng (免费修理), không phải dọn nhà."
+    }
+   }
+  ]
+ },
+ "near": [
+  {
+   "q": "Chọn từ đúng: 根据这里的___，晚上十点以后不能大声唱歌。(Theo quy định ở đây, sau mười giờ tối không được hát to.)",
+   "opts": [
+    "规定",
+    "决定"
+   ],
+   "a": 0,
+   "why": {
+    "1": "决定 (juédìng) = quyết định của một người về việc mình sẽ làm (我决定租这个房子). Quy tắc chung mà mọi người phải theo là 规定 (guīdìng)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 这个房子的___很好：有空调、洗衣机，还有冰箱。(Điều kiện căn nhà này rất tốt: có điều hoà, máy giặt, lại có cả tủ lạnh.)",
+   "opts": [
+    "条件",
+    "环境"
+   ],
+   "a": 0,
+   "why": {
+    "1": "环境 (huánjìng) = khung cảnh, môi trường XUNG QUANH (安静, 干净, 有公园). Đồ dùng, tiện nghi bên trong căn nhà là 条件 (tiáojiàn) = điều kiện."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 床、桌子、椅子这些___都是新的。(Mấy đồ nội thất như giường, bàn, ghế đều mới.)",
+   "opts": [
+    "家具",
+    "家电"
+   ],
+   "a": 0,
+   "why": {
+    "1": "家电 (jiādiàn) = đồ điện gia dụng: 冰箱, 空调, 洗衣机. Giường, bàn, ghế, tủ là 家具 (jiājù). Tiếng Việt hay gọi chung là 'đồ đạc', nên dễ nhầm."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我每个星期___一次房间。(Mỗi tuần tôi dọn phòng một lần.)",
+   "opts": [
+    "打扫",
+    "洗"
+   ],
+   "a": 0,
+   "why": {
+    "1": "洗 (xǐ) = rửa, giặt bằng nước: 洗衣服, 洗碗, 洗手. Làm sạch cả căn phòng (quét, lau, xếp gọn) là 打扫 (dǎsǎo)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 搬走的时候，房东会把___还给我。(Khi chuyển đi, chủ nhà sẽ trả lại tiền cọc cho tôi.)",
+   "opts": [
+    "押金",
+    "房租"
+   ],
+   "a": 0,
+   "why": {
+    "1": "房租 (fángzū) là tiền thuê hằng tháng, đã trả là để ở, không được trả lại. Khoản đặt trước rồi được trả lại khi chuyển đi là 押金 (yājīn)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 家具坏了，房东会___修理，不要钱。(Đồ nội thất hỏng, chủ nhà sẽ sửa miễn phí, không mất tiền.)",
+   "opts": [
+    "免费",
+    "便宜"
+   ],
+   "a": 0,
+   "why": {
+    "1": "便宜 (piányi) = rẻ, vẫn phải trả một ít tiền. 不要钱 (không mất tiền) nghĩa là 免费 (miǎnfèi)."
+   }
+  }
+ ],
+ "orderPara": [
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "上个星期我和王丽去看了一个房子。",
+    "那个房子离地铁站很近，环境也很安静，",
+    "所以我决定租了。"
+   ],
+   "explain": "Câu kể việc đi xem nhà đứng đầu; 那个房子 nhắc lại căn nhà vừa nói nên đứng sau; 所以 nêu quyết định cuối cùng.",
+   "vi": "Tuần trước tôi và Vương Lệ đi xem một căn nhà. Căn nhà đó gần ga tàu điện, khung cảnh cũng rất yên tĩnh, vì vậy tôi quyết định thuê.",
+   "en": "Last week Wang Li and I went to see a flat. It was close to the metro station and the area was quiet, so I decided to rent it."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "房租一个月五千块，",
+    "包括网费在内，",
+    "可是水电费要自己交。"
+   ],
+   "explain": "Câu nêu tiền nhà đứng đầu; 包括……在内 nói rõ khoản đã gồm nên đi ngay sau; 可是 (kěshì) nêu khoản KHÔNG gồm, đứng cuối.",
+   "vi": "Tiền nhà mỗi tháng năm nghìn tệ, đã gồm tiền mạng, nhưng điện nước phải tự trả.",
+   "en": "The rent is five thousand a month, internet included, but you pay water and electricity yourself."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "昨天晚上，我发现空调坏了。",
+    "开了一个小时，房间还是很热。",
+    "我马上给房东发了一个信息。"
+   ],
+   "explain": "Câu phát hiện sự việc (发现空调坏了) đứng đầu; câu tả chi tiết hỏng thế nào theo sau; việc nhắn tin cho chủ nhà là phản ứng nên đứng cuối.",
+   "vi": "Tối qua tôi phát hiện điều hoà bị hỏng. Mở một tiếng mà phòng vẫn nóng. Tôi lập tức nhắn tin cho chủ nhà.",
+   "en": "Last night I found the air conditioner was broken. After an hour the room was still hot. I messaged the landlord right away."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "房东很快就回了我的信息。",
+    "他说明天下午会找人来修理，",
+    "而且修理是免费的，",
+    "让我不用担心。"
+   ],
+   "explain": "Câu đầu: chủ nhà trả lời; 他说 mở nội dung trả lời; 而且 (érqiě) thêm một ý tốt nữa; 让我不用担心 là lời kết.",
+   "vi": "Chủ nhà trả lời tin nhắn của tôi rất nhanh. Ông ấy nói chiều mai sẽ tìm người đến sửa, hơn nữa sửa là miễn phí, bảo tôi đừng lo.",
+   "en": "The landlord replied quickly. He said he'd get someone to fix it tomorrow afternoon, that the repair was free, and that I shouldn't worry."
+  }
+ ],
+ "notes": {
+  "title": "Ghi chú: điều kiện thuê căn hộ",
+  "lines": [
+   {
+    "who": "房东",
+    "t": "这个房子一个月五千块，包括网费在内。",
+    "py": "Zhège fángzi yí ge yuè wǔqiān kuài, bāokuò wǎngfèi zàinèi.",
+    "vi": "Căn nhà này một tháng năm nghìn tệ, đã gồm tiền mạng.",
+    "en": "This flat is five thousand a month, internet included."
+   },
+   {
+    "who": "阮安",
+    "t": "水电费呢？",
+    "py": "Shuǐdiànfèi ne?",
+    "vi": "Còn tiền điện nước ạ?",
+    "en": "What about water and electricity?"
+   },
+   {
+    "who": "房东",
+    "t": "水电费要自己交，一个月差不多三百块。",
+    "py": "Shuǐdiànfèi yào zìjǐ jiāo, yí ge yuè chàbuduō sānbǎi kuài.",
+    "vi": "Điện nước tự trả, một tháng khoảng ba trăm tệ.",
+    "en": "You pay those yourself, about three hundred a month."
+   },
+   {
+    "who": "阮安",
+    "t": "押金要多少？",
+    "py": "Yājīn yào duōshao?",
+    "vi": "Tiền cọc bao nhiêu ạ?",
+    "en": "How much is the deposit?"
+   },
+   {
+    "who": "房东",
+    "t": "押金是一个月的房租，不住的时候会还给你。",
+    "py": "Yājīn shì yí ge yuè de fángzū, bú zhù de shíhou huì huán gěi nǐ.",
+    "vi": "Tiền cọc là một tháng tiền nhà, khi không ở nữa sẽ trả lại cô.",
+    "en": "One month's rent, returned when you move out."
+   },
+   {
+    "who": "房东",
+    "t": "根据我的规定，每个月五号以前交房租。",
+    "py": "Gēnjù wǒ de guīdìng, měi ge yuè wǔ hào yǐqián jiāo fángzū.",
+    "vi": "Theo quy định của tôi, mỗi tháng nộp tiền nhà trước ngày mùng 5.",
+    "en": "My rule is that rent is paid before the 5th of each month."
+   },
+   {
+    "who": "阮安",
+    "t": "洗衣机在哪儿？",
+    "py": "Xǐyījī zài nǎr?",
+    "vi": "Máy giặt ở đâu ạ?",
+    "en": "Where's the washing machine?"
+   },
+   {
+    "who": "房东",
+    "t": "在卫生间里。家具坏了的话，我会免费修理。",
+    "py": "Zài wèishēngjiān lǐ. Jiājù huài le de huà, wǒ huì miǎnfèi xiūlǐ.",
+    "vi": "Trong phòng tắm. Nếu đồ đạc hỏng, tôi sẽ sửa miễn phí.",
+    "en": "In the bathroom. If anything breaks, I'll repair it for free."
+   }
+  ],
+  "form": [
+   {
+    "label": "Tiền nhà mỗi tháng",
+    "opts": [
+     "五千块",
+     "四千八",
+     "三百块"
+    ],
+    "a": 0,
+    "why": {
+     "1": "四千八 là giá sau khi thương lượng thuê một năm, không có trong đoạn ghi chú này.",
+     "2": "三百块 là tiền điện nước mỗi tháng, không phải tiền nhà."
+    }
+   },
+   {
+    "label": "Tiền nhà đã gồm",
+    "opts": [
+     "网费",
+     "水电费",
+     "押金"
+    ],
+    "a": 0,
+    "why": {
+     "1": "水电费 (điện nước) phải tự trả (要自己交).",
+     "2": "押金 (tiền cọc) là khoản riêng, không nằm trong tiền nhà."
+    }
+   },
+   {
+    "label": "Tiền điện nước khoảng",
+    "opts": [
+     "三百块",
+     "五百块",
+     "一百块"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Không nghe thấy 五百 (wǔbǎi); chủ nhà nói 差不多三百块.",
+     "2": "Không nghe thấy 一百 (yìbǎi); con số là 三百."
+    }
+   },
+   {
+    "label": "Tiền cọc",
+    "opts": [
+     "一个月的房租",
+     "两个月的房租",
+     "不要押金"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Không nghe thấy 两个月; chủ nhà nói 一个月的房租.",
+     "2": "Có đặt cọc: 押金是一个月的房租."
+    }
+   },
+   {
+    "label": "Hạn nộp tiền nhà",
+    "opts": [
+     "五号以前",
+     "五号以后",
+     "十五号以前"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài nghe nói 以前 (trước), không phải 以后.",
+     "2": "Không nghe thấy 十五号; ngày là 五号."
+    }
+   },
+   {
+    "label": "Vị trí máy giặt",
+    "opts": [
+     "卫生间里",
+     "厨房里",
+     "房间里"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Đoạn ghi chú không nhắc 厨房 (bếp); máy giặt 在卫生间里.",
+     "2": "Chủ nhà nói 在卫生间里, không phải trong phòng ngủ."
+    }
+   }
+  ]
+ },
+ "longturn": {
+  "cue": "请你用一分钟比较你看过的两个房子，说说你选哪个，为什么。",
+  "cueVi": "Hãy nói khoảng 1 phút, so sánh hai căn nhà bạn đã xem, nói bạn chọn căn nào và vì sao.",
+  "cuePy": "Qǐng nǐ yòng yì fēnzhōng bǐjiào nǐ kàn guo de liǎng ge fángzi, shuōshuo nǐ xuǎn nǎge, wèishénme.",
+  "points": [
+   "两个房子在哪儿？交通怎么样？",
+   "房租多少？包括什么？",
+   "家具、厨房、卫生间怎么样？",
+   "你选哪个？为什么？"
+  ],
+  "pointsVi": [
+   "Hai căn nhà ở đâu? Đi lại thế nào?",
+   "Tiền nhà bao nhiêu? Gồm những gì?",
+   "Đồ đạc, bếp, phòng tắm thế nào?",
+   "Bạn chọn căn nào? Vì sao?"
+  ],
+  "prep": 60,
+  "speak": [
+   60,
+   120
+  ],
+  "model": "上个星期我看了两个房子。第一个离地铁站很近，交通很方便，环境也很安静。房租五千块，包括网费在内，除了洗衣机以外，家具都是新的。第二个离公司比较远，要坐四十分钟地铁，可是房租只要三千五。它的厨房很小，卫生间也很旧。我最后选了第一个，因为虽然贵一点儿，但是离公司近，每天能多睡一个小时。",
+  "modelPy": "Shàng ge xīngqī wǒ kàn le liǎng ge fángzi. Dì yī ge lí dìtiě zhàn hěn jìn, jiāotōng hěn fāngbiàn, huánjìng yě hěn ānjìng. Fángzū wǔqiān kuài, bāokuò wǎngfèi zàinèi, chúle xǐyījī yǐwài, jiājù dōu shì xīn de. Dì èr ge lí gōngsī bǐjiào yuǎn, yào zuò sìshí fēnzhōng dìtiě, kěshì fángzū zhǐ yào sānqiān wǔ. Tā de chúfáng hěn xiǎo, wèishēngjiān yě hěn jiù. Wǒ zuìhòu xuǎn le dì yī ge, yīnwèi suīrán guì yìdiǎnr, dànshì lí gōngsī jìn, měi tiān néng duō shuì yí ge xiǎoshí.",
+  "modelVi": "Tuần trước tôi đã xem hai căn nhà. Căn thứ nhất rất gần ga tàu điện, đi lại rất tiện, khung cảnh cũng rất yên tĩnh. Tiền nhà năm nghìn tệ, đã gồm tiền mạng, trừ máy giặt ra thì đồ đạc đều mới. Căn thứ hai khá xa công ty, phải đi tàu điện bốn mươi phút, nhưng tiền nhà chỉ ba nghìn rưỡi. Bếp của nó rất nhỏ, phòng tắm cũng rất cũ. Cuối cùng tôi chọn căn thứ nhất, vì tuy đắt hơn một chút nhưng gần công ty, mỗi ngày được ngủ thêm một tiếng.",
+  "useful": [
+   "第一个……，第二个……",
+   "离……很近 / 比较远",
+   "房租……，包括……在内",
+   "除了……以外，家具都是新的",
+   "可是 / 但是……",
+   "我最后选了……，因为虽然……，但是……"
+  ],
+  "check": [
+   "Nói đủ 4 ý: vị trí và đi lại, tiền nhà, đồ đạc và phòng, lựa chọn và lý do",
+   "Dùng ít nhất 3 từ mới hôm nay (环境, 包括, 家具, 厨房, 卫生间…)",
+   "Có 1 câu 包括……在内 hoặc 除了……以外，都……",
+   "Có 1 câu 虽然……，但是…… để giải thích lựa chọn",
+   "Có từ so sánh: 比较 / 可是 / 只要",
+   "Nói liền mạch được ít nhất 1 phút"
+  ]
+ },
+ "write": {
+  "task": "Viết tin nhắn cho chủ nhà (房东 fángdōng): báo điều hoà và máy giặt bị hỏng, tả hỏng thế nào, đề nghị tìm người sửa, nói giờ bạn ở nhà và hỏi lại việc sửa miễn phí theo quy định.",
+  "kind": "message",
+  "model": "房东您好！我是阮安。昨天晚上我发现空调坏了，开了一个小时，房间还是很热。洗衣机也一点儿声音都没有，不能洗衣服了。您能不能找人来修理一下？我星期六上午在家。根据您的规定，家具坏了是免费修理的，对吗？谢谢您！阮安",
+  "frame": "房东您好！我是阮安。昨天晚上我发现空调坏了，开了一个小时，房间还是很热。洗衣机也___声音都没有，不能洗衣服了。您___找人来___一下？我星期六上午在家。根据您的___，家具坏了是___修理的，对吗？谢谢您！阮安",
+  "gaps": [
+   "一点儿",
+   "能不能",
+   "修理",
+   "规定",
+   "免费"
+  ],
+  "free": [
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "hints": [
+   "Mở đầu: 房东您好！我是……",
+   "Báo hỏng và tả rõ: ……坏了，开了……，还是……",
+   "Nhấn mạnh: 一点儿声音都没有",
+   "Đề nghị lịch sự: 您能不能找人来修理一下？",
+   "Nói giờ ở nhà và hỏi lại quy định: 根据您的规定……，对吗？"
+  ],
+  "check": [
+   "Có lời chào 房东 và ký tên cuối tin",
+   "Báo đủ hai đồ hỏng và tả hỏng thế nào",
+   "Có 1 câu 一点儿也 / 都 + 不 / 没",
+   "Đề nghị sửa bằng 能不能…… (không thêm 吗)",
+   "Nói thời gian bạn ở nhà",
+   "Dài 70–100 chữ Hán"
+  ],
+  "words": [
+   70,
+   100
+  ]
+ },
+ "gloss": {
+  "房东": [
+   "fángdōng",
+   "landlord",
+   "chủ nhà cho thuê"
+  ],
+  "押金": [
+   "yājīn",
+   "deposit",
+   "tiền đặt cọc"
+  ],
+  "家具": [
+   "jiājù",
+   "furniture",
+   "đồ nội thất"
+  ],
+  "厨房": [
+   "chúfáng",
+   "kitchen",
+   "nhà bếp"
+  ],
+  "卫生间": [
+   "wèishēngjiān",
+   "bathroom, toilet",
+   "phòng tắm, nhà vệ sinh"
+  ],
+  "包括": [
+   "bāokuò",
+   "to include",
+   "bao gồm"
+  ],
+  "免费": [
+   "miǎnfèi",
+   "free of charge",
+   "miễn phí"
+  ],
+  "规定": [
+   "guīdìng",
+   "rule, regulation",
+   "quy định"
+  ],
+  "修理": [
+   "xiūlǐ",
+   "to repair",
+   "sửa chữa"
+  ],
+  "打扫": [
+   "dǎsǎo",
+   "to clean (a room)",
+   "quét dọn"
+  ],
+  "环境": [
+   "huánjìng",
+   "environment, surroundings",
+   "môi trường, khung cảnh"
+  ],
+  "房租": [
+   "fángzū",
+   "rent",
+   "tiền thuê nhà"
+  ],
+  "网费": [
+   "wǎngfèi",
+   "internet fee",
+   "tiền mạng"
+  ],
+  "水电费": [
+   "shuǐdiànfèi",
+   "water and electricity bills",
+   "tiền điện nước"
+  ],
+  "洗衣机": [
+   "xǐyījī",
+   "washing machine",
+   "máy giặt"
+  ],
+  "在内": [
+   "zàinèi",
+   "included (in)",
+   "tính cả vào"
+  ],
+  "出租": [
+   "chūzū",
+   "to rent out",
+   "cho thuê"
+  ],
+  "条件": [
+   "tiáojiàn",
+   "conditions, facilities",
+   "điều kiện"
+  ],
+  "家电": [
+   "jiādiàn",
+   "household appliances",
+   "đồ điện gia dụng"
+  ]
+ }
+}

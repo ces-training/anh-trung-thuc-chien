@@ -1,0 +1,1380 @@
+{
+ "id": "h4gt-thu-3",
+ "label": "Thứ 3",
+ "title": "Đổi tiền, mở tài khoản ngân hàng",
+ "desc": "阮安 (Ruǎn Ān) được nhận việc và vừa sang Thượng Hải. Việc đầu tiên: ra ngân hàng đổi đô la Mỹ sang nhân dân tệ và mở tài khoản để nhận lương. Bạn hỏi tỷ giá, phí, giấy tờ cần mang, điền tờ khai, ký tên và hỏi có làm được thẻ tín dụng không.",
+ "rule": "Đổi A thành B: 把 A 换成 B (bǎ A huànchéng B), A là thứ bạn đang có. Nói theo yêu cầu, quy định: 根据 + 要求 / 汇率 + mệnh đề (gēnjù… căn cứ theo…), 根据 đứng đầu câu và cần một danh từ chỉ căn cứ. Điều kiện duy nhất: 只有 A，才 B (chỉ khi A thì mới B); 只有 đi với 才, không đi với 就.",
+ "cards": [
+  {
+   "w": "汇率",
+   "py": "huìlǜ",
+   "m": "tỷ giá",
+   "mEn": "exchange rate",
+   "ex": "今天的汇率是一美元换七块一。",
+   "expy": "Jīntiān de huìlǜ shì yì měiyuán huàn qī kuài yī.",
+   "exm": "Tỷ giá hôm nay là một đô la đổi được bảy tệ mốt.",
+   "exEn": "Today's exchange rate is 7.1 yuan to the dollar.",
+   "n": "汇 = hối (chuyển tiền), 率 = tỷ lệ, đọc lǜ như 绿 (xanh lá): môi tròn, thanh 4. Hỏi tỷ giá: 今天的汇率是多少？"
+  },
+  {
+   "w": "兑换",
+   "py": "duìhuàn",
+   "m": "đổi (tiền, ngoại tệ)",
+   "mEn": "to exchange (currency)",
+   "ex": "我想在银行兑换一千美元。",
+   "expy": "Wǒ xiǎng zài yínháng duìhuàn yìqiān měiyuán.",
+   "exm": "Tôi muốn đổi một nghìn đô la ở ngân hàng.",
+   "exEn": "I'd like to exchange a thousand US dollars at the bank.",
+   "n": "兑换 trang trọng, hay thấy trên biển ngân hàng. Nói hằng ngày dùng 换钱 hoặc 把 A 换成 B. Hai thanh 4: duì và huàn đều rơi dứt khoát."
+  },
+  {
+   "w": "现金",
+   "py": "xiànjīn",
+   "m": "tiền mặt",
+   "mEn": "cash",
+   "ex": "在上海，很多人买东西不用现金，用手机。",
+   "expy": "Zài Shànghǎi, hěn duō rén mǎi dōngxi bú yòng xiànjīn, yòng shǒujī.",
+   "exm": "Ở Thượng Hải, nhiều người mua đồ không dùng tiền mặt mà dùng điện thoại.",
+   "exEn": "In Shanghai many people don't use cash; they pay with their phones.",
+   "n": "现 = hiện (có ngay), 金 = tiền: tiền mặt. Rút tiền mặt: 取现金. Hai âm cuối đều là -n đầu lưỡi: xiàn, jīn."
+  },
+  {
+   "w": "账户",
+   "py": "zhànghù",
+   "m": "tài khoản (ngân hàng)",
+   "mEn": "bank account",
+   "ex": "外国人开账户要带护照。",
+   "expy": "Wàiguó rén kāi zhànghù yào dài hùzhào.",
+   "exm": "Người nước ngoài mở tài khoản phải mang hộ chiếu.",
+   "exEn": "Foreigners need to bring their passport to open an account.",
+   "n": "Mở tài khoản: 开账户 (kāi zhànghù), không dùng 打开. zhàng cong lưỡi, -ng mũi sau; hù thanh 4."
+  },
+  {
+   "w": "手续费",
+   "py": "shǒuxùfèi",
+   "m": "phí dịch vụ, phí thủ tục",
+   "mEn": "service fee, handling charge",
+   "ex": "在这家银行换现金不要手续费。",
+   "expy": "Zài zhè jiā yínháng huàn xiànjīn bú yào shǒuxùfèi.",
+   "exm": "Đổi tiền mặt ở ngân hàng này không mất phí.",
+   "exEn": "There's no fee for exchanging cash at this bank.",
+   "n": "手续 = thủ tục, 费 = phí: khoản phí khi làm thủ tục ở ngân hàng. Hỏi: 要手续费吗？ / 手续费是多少？ xù: môi tròn như ü."
+  },
+  {
+   "w": "密码",
+   "py": "mìmǎ",
+   "m": "mật khẩu, mã PIN",
+   "mEn": "password, PIN",
+   "ex": "密码要六个数字，请不要告诉别人。",
+   "expy": "Mìmǎ yào liù ge shùzì, qǐng bú yào gàosu biérén.",
+   "exm": "Mật khẩu gồm sáu chữ số, xin đừng nói cho người khác.",
+   "exEn": "The PIN has six digits; please don't tell anyone.",
+   "n": "密 = mật (kín), 码 = mã: mật mã, mật khẩu. Khác 号码 (hàomǎ) = số (số điện thoại, số phòng). mǎ thanh 3.",
+   "img": "password"
+  },
+  {
+   "w": "信用卡",
+   "py": "xìnyòngkǎ",
+   "m": "thẻ tín dụng",
+   "mEn": "credit card",
+   "ex": "只有在中国工作半年以上，才能办信用卡。",
+   "expy": "Zhǐyǒu zài Zhōngguó gōngzuò bàn nián yǐshàng, cái néng bàn xìnyòngkǎ.",
+   "exm": "Chỉ khi làm việc ở Trung Quốc từ nửa năm trở lên mới làm được thẻ tín dụng.",
+   "exEn": "You can only get a credit card after working in China for over six months.",
+   "n": "Hán Việt 'tín dụng' + 卡 (thẻ). Làm thẻ: 办卡. Thẻ ngân hàng thường là 银行卡. 卡 đọc kǎ, k bật hơi.",
+   "img": "card"
+  },
+  {
+   "w": "填",
+   "py": "tián",
+   "m": "điền (tờ khai, biểu mẫu)",
+   "mEn": "to fill in (a form)",
+   "ex": "请您先填这张表。",
+   "expy": "Qǐng nín xiān tián zhè zhāng biǎo.",
+   "exm": "Mời anh/chị điền tờ khai này trước.",
+   "exEn": "Please fill in this form first.",
+   "n": "Cụm cố định: 填表 (điền tờ khai). Điền xong: 填好了. tián thanh 2 đi lên, -n đầu lưỡi.",
+   "img": "form"
+  },
+  {
+   "w": "签字",
+   "py": "qiānzì",
+   "m": "ký tên",
+   "mEn": "to sign (one's name)",
+   "ex": "填好以后，请在下面签字。",
+   "expy": "Tián hǎo yǐhòu, qǐng zài xiàmiàn qiānzì.",
+   "exm": "Điền xong, xin ký tên ở bên dưới.",
+   "exEn": "When you've filled it in, please sign at the bottom.",
+   "n": "签 = ký, 字 = chữ: ký tên. Ký ở đâu: 在 + chỗ + 签字. q bật hơi, qiān thanh 1; zì miệng dẹt.",
+   "img": "contract"
+  },
+  {
+   "w": "存",
+   "py": "cún",
+   "m": "gửi (tiền), cất giữ",
+   "mEn": "to deposit, to save",
+   "ex": "我想把五千块存进账户里。",
+   "expy": "Wǒ xiǎng bǎ wǔqiān kuài cún jìn zhànghù lǐ.",
+   "exm": "Tôi muốn gửi năm nghìn tệ vào tài khoản.",
+   "exEn": "I'd like to deposit five thousand yuan into my account.",
+   "n": "存钱 = gửi tiền (vào ngân hàng); 存进 + nơi. Khác 放 (fàng) = đặt, để một đồ vật ở đâu. c bật hơi như 'ts'."
+  },
+  {
+   "w": "取",
+   "py": "qǔ",
+   "m": "rút (tiền), lấy về",
+   "mEn": "to withdraw, to take out",
+   "ex": "我要从账户里取两千块现金。",
+   "expy": "Wǒ yào cóng zhànghù lǐ qǔ liǎngqiān kuài xiànjīn.",
+   "exm": "Tôi muốn rút hai nghìn tệ tiền mặt từ tài khoản.",
+   "exEn": "I want to withdraw two thousand yuan in cash from my account.",
+   "n": "取钱 = rút tiền; 从 + nơi + 取. Ngược nghĩa với 存. qǔ: môi tròn như ü, thanh 3."
+  }
+ ],
+ "scene": {
+  "setting": "Sáng thứ Ba ở một ngân hàng gần công ty tại Thượng Hải. 阮安 (Ruǎn Ān) mang theo hộ chiếu và một nghìn đô la Mỹ, đến quầy gặp nhân viên ngân hàng (银行职员 yínháng zhíyuán) để đổi tiền và mở tài khoản.",
+  "img": "scene-zh-bank-gt",
+  "imgPrompt": "Realistic photo inside a modern bank branch in Shanghai; at a clean service counter clerk (a Chinese woman about 30, bank uniform, blank name badge, friendly smile) slides a blank form and a pen across the counter; an (Vietnamese young woman about 22, long straight black hair with a center part and wispy bangs, cobalt blue blouse) sits on the customer side holding a passport and a small stack of banknotes; a blank screen behind the counter, soft daylight, no readable text",
+  "lines": [
+   {
+    "who": "银行职员",
+    "t": "您好！请问您要办什么？",
+    "py": "Nín hǎo! Qǐngwèn nín yào bàn shénme?",
+    "vi": "Chào chị! Xin hỏi chị cần làm gì ạ?",
+    "en": "Hello! How can I help you?"
+   },
+   {
+    "who": "阮安",
+    "t": "你好！我想把一千美元换成人民币，再开一个账户。",
+    "py": "Nǐ hǎo! Wǒ xiǎng bǎ yìqiān měiyuán huànchéng rénmínbì, zài kāi yí ge zhànghù.",
+    "vi": "Chào chị! Tôi muốn đổi một nghìn đô la sang nhân dân tệ, rồi mở một tài khoản.",
+    "en": "Hi! I'd like to change a thousand US dollars into renminbi, and then open an account."
+   },
+   {
+    "who": "银行职员",
+    "t": "好的。今天的汇率是一美元换七块一，一千美元可以换七千一百块。",
+    "py": "Hǎo de. Jīntiān de huìlǜ shì yì měiyuán huàn qī kuài yī, yìqiān měiyuán kěyǐ huàn qīqiān yìbǎi kuài.",
+    "vi": "Vâng. Tỷ giá hôm nay là một đô đổi bảy tệ mốt, một nghìn đô đổi được bảy nghìn một trăm tệ.",
+    "en": "Certainly. Today's rate is 7.1 yuan to the dollar, so a thousand dollars comes to 7,100 yuan."
+   },
+   {
+    "who": "阮安",
+    "t": "换钱要手续费吗？",
+    "py": "Huàn qián yào shǒuxùfèi ma?",
+    "vi": "Đổi tiền có mất phí không chị?",
+    "en": "Is there a fee for changing money?"
+   },
+   {
+    "who": "银行职员",
+    "t": "换现金不要手续费。根据银行的要求，外国人开账户要带护照，还要有一个中国的手机号。",
+    "py": "Huàn xiànjīn bú yào shǒuxùfèi. Gēnjù yínháng de yāoqiú, wàiguó rén kāi zhànghù yào dài hùzhào, hái yào yǒu yí ge Zhōngguó de shǒujī hào.",
+    "vi": "Đổi tiền mặt không mất phí. Theo yêu cầu của ngân hàng, người nước ngoài mở tài khoản phải mang hộ chiếu và có một số điện thoại Trung Quốc.",
+    "en": "There's no fee for cash exchange. Under the bank's requirements, foreigners opening an account need their passport and a Chinese mobile number."
+   },
+   {
+    "who": "阮安",
+    "t": "这是我的护照，手机号也有。",
+    "py": "Zhè shì wǒ de hùzhào, shǒujī hào yě yǒu.",
+    "vi": "Đây là hộ chiếu của tôi, số điện thoại tôi cũng có rồi.",
+    "en": "Here's my passport, and I have a mobile number too."
+   },
+   {
+    "who": "银行职员",
+    "t": "好。请您先填这张表，然后在下面签字。密码要六个数字，请您记好，不要告诉别人。",
+    "py": "Hǎo. Qǐng nín xiān tián zhè zhāng biǎo, ránhòu zài xiàmiàn qiānzì. Mìmǎ yào liù ge shùzì, qǐng nín jì hǎo, bú yào gàosu biérén.",
+    "vi": "Vâng. Mời chị điền tờ khai này trước, rồi ký tên ở dưới. Mật khẩu gồm sáu chữ số, chị nhớ kỹ, đừng nói cho người khác.",
+    "en": "Good. Please fill in this form first, then sign at the bottom. The PIN has six digits; please remember it and don't tell anyone."
+   },
+   {
+    "who": "阮安",
+    "t": "填好了。我能不能也办一张信用卡？",
+    "py": "Tián hǎo le. Wǒ néng bu néng yě bàn yì zhāng xìnyòngkǎ?",
+    "vi": "Tôi điền xong rồi. Tôi có thể làm luôn một thẻ tín dụng không?",
+    "en": "Done. Could I get a credit card as well?"
+   },
+   {
+    "who": "银行职员",
+    "t": "对不起，只有在中国工作半年以上，才能办信用卡。",
+    "py": "Duìbuqǐ, zhǐyǒu zài Zhōngguó gōngzuò bàn nián yǐshàng, cái néng bàn xìnyòngkǎ.",
+    "vi": "Xin lỗi chị, chỉ khi làm việc ở Trung Quốc từ nửa năm trở lên mới làm được thẻ tín dụng.",
+    "en": "I'm sorry, you can only get a credit card after working in China for more than six months."
+   },
+   {
+    "who": "阮安",
+    "t": "明白了。那我先存五千块，再取两千块现金。",
+    "py": "Míngbai le. Nà wǒ xiān cún wǔqiān kuài, zài qǔ liǎngqiān kuài xiànjīn.",
+    "vi": "Tôi hiểu rồi. Vậy tôi gửi năm nghìn tệ trước, rồi rút hai nghìn tệ tiền mặt.",
+    "en": "I see. Then I'll deposit five thousand first and take out two thousand in cash."
+   }
+  ]
+ },
+ "patterns": [
+  {
+   "t": "Đổi A thành B: 把 A 换成 B",
+   "f": [
+    [
+     "我想",
+     "把",
+     "一千美元",
+     "换成人民币"
+    ],
+    [
+     "请",
+     "把",
+     "这些现金",
+     "存进账户"
+    ]
+   ],
+   "ex": [
+    [
+     "我想把一千美元换成人民币。",
+     "Tôi muốn đổi một nghìn đô la sang nhân dân tệ.",
+     "I'd like to change a thousand dollars into renminbi."
+    ],
+    [
+     "我把越南的手机号换成了中国的手机号。",
+     "Tôi đã đổi số điện thoại Việt Nam sang số Trung Quốc.",
+     "I switched my Vietnamese phone number to a Chinese one."
+    ]
+   ],
+   "bad": "我想换一千美元成人民币。",
+   "good": "我想把一千美元换成人民币。",
+   "why": "换成 (huànchéng) là một khối động từ + kết quả, không tách ra để chen tân ngữ vào giữa. Thứ đem đổi phải đưa lên trước bằng 把 (bǎ): 把 + A + 换成 + B. Có thể nói gọn 我想换一千美元 khi không nói đổi thành gì."
+  },
+  {
+   "t": "Căn cứ theo: 根据 + 要求 / 汇率…，+ mệnh đề",
+   "f": [
+    [
+     "根据",
+     "银行的要求，",
+     "开账户",
+     "要带护照"
+    ],
+    [
+     "根据",
+     "今天的汇率，",
+     "一千美元",
+     "能换七千一百块"
+    ]
+   ],
+   "ex": [
+    [
+     "根据银行的要求，外国人开账户要带护照。",
+     "Theo yêu cầu của ngân hàng, người nước ngoài mở tài khoản phải mang hộ chiếu.",
+     "Under the bank's requirements, foreigners must bring a passport to open an account."
+    ],
+    [
+     "根据今天的汇率，一千美元能换七千一百块人民币。",
+     "Theo tỷ giá hôm nay, một nghìn đô đổi được bảy nghìn một trăm tệ.",
+     "At today's rate, a thousand dollars gets you 7,100 yuan."
+    ]
+   ],
+   "bad": "根据银行，外国人开账户要带护照。",
+   "good": "根据银行的要求，外国人开账户要带护照。",
+   "why": "Sau 根据 (gēnjù) phải là một CĂN CỨ cụ thể: 要求 (yêu cầu), 汇率 (tỷ giá), 规定 (quy định)… chứ không chỉ tên một nơi hay một người. Cụm 根据…… thường đứng đầu câu, có dấu phẩy, rồi mới đến mệnh đề chính."
+  },
+  {
+   "t": "Điều kiện duy nhất: 只有 A，才 B",
+   "f": [
+    [
+     "只有",
+     "带了护照，",
+     "才",
+     "能开账户"
+    ],
+    [
+     "只有",
+     "在中国工作半年以上，",
+     "才",
+     "能办信用卡"
+    ]
+   ],
+   "ex": [
+    [
+     "只有带了护照，才能开账户。",
+     "Chỉ khi mang hộ chiếu mới mở được tài khoản.",
+     "You can only open an account if you bring your passport."
+    ],
+    [
+     "只有在中国工作半年以上，才能办信用卡。",
+     "Chỉ khi làm việc ở Trung Quốc từ nửa năm trở lên mới làm được thẻ tín dụng.",
+     "Only after working in China for more than six months can you get a credit card."
+    ]
+   ],
+   "bad": "只有带了护照，就能开账户。",
+   "good": "只有带了护照，才能开账户。",
+   "why": "只有 (zhǐyǒu) nêu điều kiện DUY NHẤT, bắt buộc, nên đi với 才 (cái, mới). 只要 (zhǐyào, chỉ cần) mới đi với 就 (jiù): 只要带了护照，就能开账户 = chỉ cần mang hộ chiếu là mở được. Nhớ cặp: 只有…才, 只要…就."
+  }
+ ],
+ "vocab": [
+  {
+   "q": "汇率 (huìlǜ) nghĩa là gì?",
+   "opts": [
+    "tỷ giá",
+    "lãi suất",
+    "phí dịch vụ"
+   ],
+   "optsEn": [
+    "exchange rate",
+    "interest rate",
+    "service fee"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Lãi suất là tiền lãi khi gửi tiết kiệm, không phải 汇率. 汇率 cho biết một đô đổi được bao nhiêu tệ.",
+    "2": "Phí dịch vụ là 手续费 (shǒuxùfèi)."
+   }
+  },
+  {
+   "q": "Điền từ: 在这家银行换现金不要___。(Zài zhè jiā yínháng huàn xiànjīn bú yào ___.)",
+   "opts": [
+    "手续费",
+    "汇率",
+    "密码"
+   ],
+   "a": 0,
+   "why": {
+    "1": "汇率 (huìlǜ) là tỷ giá, lúc nào đổi tiền cũng có; 'không cần tỷ giá' không có nghĩa.",
+    "2": "密码 (mìmǎ) = mật khẩu; đổi tiền mặt không liên quan đến mật khẩu. Câu nói đổi tiền không mất phí."
+   }
+  },
+  {
+   "q": "Điền từ: 外国人开___要带护照。(Wàiguó rén kāi ___ yào dài hùzhào.)",
+   "opts": [
+    "账户",
+    "现金",
+    "签字"
+   ],
+   "a": 0,
+   "why": {
+    "1": "现金 (xiànjīn) = tiền mặt; không 'mở tiền mặt'. 开 đi với 账户: 开账户 = mở tài khoản.",
+    "2": "签字 (qiānzì) = ký tên, là động từ, không đứng sau 开."
+   }
+  },
+  {
+   "q": "Điền từ: 请您先___这张表，然后在下面签字。(Qǐng nín xiān ___ zhè zhāng biǎo, ránhòu zài xiàmiàn qiānzì.)",
+   "opts": [
+    "填",
+    "存",
+    "取"
+   ],
+   "a": 0,
+   "why": {
+    "1": "存 (cún) = gửi tiền; không 'gửi tờ khai' ở đây. Tờ khai thì 填 (điền).",
+    "2": "取 (qǔ) = rút, lấy; câu cần làm gì VỚI tờ khai trước khi ký: điền (填表)."
+   }
+  },
+  {
+   "q": "Điền từ: 表填好了，请在这儿___。(Biǎo tián hǎo le, qǐng zài zhèr ___.)",
+   "opts": [
+    "签字",
+    "兑换",
+    "存"
+   ],
+   "a": 0,
+   "why": {
+    "1": "兑换 (duìhuàn) = đổi tiền; điền xong tờ khai thì bước tiếp theo là ký tên.",
+    "2": "存 (cún) = gửi tiền; 'xin gửi ở đây' không khớp với việc điền tờ khai xong."
+   }
+  },
+  {
+   "q": "信用卡 (xìnyòngkǎ) là loại thẻ nào?",
+   "opts": [
+    "thẻ tín dụng",
+    "thẻ ngân hàng thường",
+    "thẻ thành viên cửa hàng"
+   ],
+   "optsEn": [
+    "credit card",
+    "ordinary bank card",
+    "store membership card"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Thẻ ngân hàng thường là 银行卡 (yínhángkǎ). 信用 = tín dụng.",
+    "2": "Thẻ thành viên cửa hàng không phải 信用卡; 信用卡 do ngân hàng làm, cho chi tiêu trước trả sau."
+   }
+  },
+  {
+   "q": "Điền từ: 我想把五千块___进账户里。(Wǒ xiǎng bǎ wǔqiān kuài ___ jìn zhànghù lǐ.)",
+   "opts": [
+    "存",
+    "取",
+    "签字"
+   ],
+   "a": 0,
+   "why": {
+    "1": "取 (qǔ) = rút ra, ngược với 进 (vào). Đưa tiền VÀO tài khoản là 存进.",
+    "2": "签字 (qiānzì) = ký tên, không đi với 进账户."
+   }
+  },
+  {
+   "q": "Điền từ: 我身上没有___了，要去银行取一点儿。(Wǒ shēnshang méiyǒu ___ le, yào qù yínháng qǔ yìdiǎnr.)",
+   "opts": [
+    "现金",
+    "密码",
+    "汇率"
+   ],
+   "a": 0,
+   "why": {
+    "1": "密码 (mìmǎ) là mật khẩu; không 'rút mật khẩu' ở ngân hàng.",
+    "2": "汇率 (huìlǜ) là tỷ giá, không mang trên người. Thứ đi rút ở ngân hàng là tiền mặt (现金)."
+   }
+  }
+ ],
+ "grammar": [
+  {
+   "q": "Câu nào đúng?",
+   "opts": [
+    "我想把一千美元换成人民币。",
+    "我想换一千美元成人民币。",
+    "我想把换成人民币一千美元。"
+   ],
+   "a": 0,
+   "why": {
+    "1": "换成 không tách ra được; thứ đem đổi đưa lên trước bằng 把.",
+    "2": "Sau 把 phải là thứ đem đổi (一千美元), rồi mới đến động từ 换成 + kết quả."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Điền từ: 我想把美元换___人民币。(Wǒ xiǎng bǎ měiyuán huàn ___ rénmínbì.)",
+   "model": "成",
+   "accept": [
+    "成",
+    "cheng"
+   ],
+   "why": "换成 (huànchéng) = đổi thành: 把 A 换成 B. 成 chỉ kết quả của việc đổi."
+  },
+  {
+   "q": "Điền từ: ___带了护照，才能开账户。(Phải mang hộ chiếu thì mới mở được tài khoản.)",
+   "opts": [
+    "只有",
+    "只要",
+    "虽然"
+   ],
+   "a": 0,
+   "why": {
+    "1": "只要 (zhǐyào) đi với 就, không đi với 才.",
+    "2": "虽然 (suīrán, tuy) đi với 但是, không nêu điều kiện."
+   }
+  },
+  {
+   "q": "Điền từ: 只有在中国工作半年以上，___能办信用卡。(Zhǐyǒu zài Zhōngguó gōngzuò bàn nián yǐshàng, ___ néng bàn xìnyòngkǎ.)",
+   "opts": [
+    "才",
+    "就",
+    "也"
+   ],
+   "a": 0,
+   "why": {
+    "1": "就 (jiù) đi với 只要 hoặc 如果; câu đã mở bằng 只有 nên vế sau dùng 才.",
+    "2": "也 (yě, cũng) không nối với 只有 để nêu điều kiện bắt buộc."
+   }
+  },
+  {
+   "q": "Câu nào đúng?",
+   "opts": [
+    "根据银行的要求，开账户要带护照。",
+    "根据银行，开账户要带护照。",
+    "银行的要求根据，开账户要带护照。"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Sau 根据 cần một căn cứ cụ thể như 要求 (yêu cầu), không chỉ nói 银行.",
+    "2": "根据 phải đứng TRƯỚC căn cứ: 根据 + 银行的要求."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Sắp xếp thành câu: 签字 / 请 / 在下面 / 您 (Mời anh/chị ký tên ở bên dưới.)",
+   "model": "请您在下面签字。",
+   "accept": [
+    "请您在下面签字。",
+    "请您在下面签字",
+    "qingninzaixiamianqianzi"
+   ],
+   "why": "请 + người + 在 + nơi + động từ: 请您在下面签字. Nơi chốn (在下面) đứng TRƯỚC động từ 签字."
+  },
+  {
+   "q": "Điền từ: 表我已经填___了。(Tờ khai tôi điền xong rồi.)",
+   "opts": [
+    "好",
+    "到",
+    "见"
+   ],
+   "a": 0,
+   "why": {
+    "1": "填到 nghĩa là điền tới chỗ nào đó (填到第三行), không có nghĩa 'xong'.",
+    "2": "见 (jiàn) đi với động từ cảm nhận (看见, 听见), không đi với 填. 'Làm xong, làm ổn' là V + 好."
+   }
+  }
+ ],
+ "listen": [
+  {
+   "q": "Tỷ giá hôm nay là bao nhiêu?",
+   "audio": "今天的汇率是多少？——一美元换七块一。",
+   "opts": [
+    "1 đô = 7,1 tệ",
+    "1 đô = 7 tệ",
+    "1 đô = 1,7 tệ"
+   ],
+   "optsEn": [
+    "$1 = 7.1 yuan",
+    "$1 = 7 yuan",
+    "$1 = 1.7 yuan"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe nói 七块一 (qī kuài yī) = 7,1, có thêm 一 ở cuối.",
+    "2": "1,7 là 一块七 (yí kuài qī); bài nghe nói 七块一, số 七 đứng trước."
+   }
+  },
+  {
+   "q": "Đổi tiền mặt có mất phí không?",
+   "audio": "换现金要手续费吗？——不要，换现金不要手续费。",
+   "opts": [
+    "không mất phí",
+    "có, mất 10 tệ",
+    "có, mất 2 tệ"
+   ],
+   "optsEn": [
+    "no fee",
+    "yes, 10 yuan",
+    "yes, 2 yuan"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Không nghe thấy 十块 (shí kuài); câu trả lời là 不要.",
+    "2": "Không nghe thấy 两块 (liǎng kuài); câu trả lời là 不要手续费."
+   }
+  },
+  {
+   "q": "Người nước ngoài mở tài khoản cần gì?",
+   "audio": "外国人开账户要带什么？——要带护照，还要有中国的手机号。",
+   "opts": [
+    "hộ chiếu và số điện thoại Trung Quốc",
+    "chỉ cần hộ chiếu",
+    "hộ chiếu và thẻ tín dụng"
+   ],
+   "optsEn": [
+    "passport and a Chinese phone number",
+    "just a passport",
+    "passport and a credit card"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Câu trả lời còn có 还要有中国的手机号 (còn cần số điện thoại Trung Quốc).",
+    "2": "Không nghe thấy 信用卡 (xìnyòngkǎ); thứ thứ hai là 手机号."
+   }
+  },
+  {
+   "q": "Mật khẩu gồm mấy chữ số?",
+   "audio": "密码要几个数字？——六个，请您记好，不要告诉别人。",
+   "opts": [
+    "6",
+    "4",
+    "8"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Không nghe thấy 四 (sì); câu trả lời là 六个 (liù ge).",
+    "2": "Không nghe thấy 八 (bā); câu trả lời là 六个."
+   }
+  },
+  {
+   "q": "Điều kiện để làm thẻ tín dụng là gì?",
+   "audio": "我能办信用卡吗？——只有在中国工作半年以上，才能办。",
+   "opts": [
+    "làm việc ở Trung Quốc từ nửa năm",
+    "có hộ chiếu",
+    "gửi 5.000 tệ"
+   ],
+   "optsEn": [
+    "work in China for over six months",
+    "have a passport",
+    "deposit 5,000 yuan"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Hộ chiếu là điều kiện mở tài khoản; điều kiện làm thẻ tín dụng là 工作半年以上.",
+    "2": "Không nghe thấy 五千 (wǔqiān) trong đoạn này."
+   }
+  },
+  {
+   "q": "Người nói gửi bao nhiêu tiền?",
+   "audio": "我先存五千块，再取两千块现金。",
+   "opts": [
+    "5.000 tệ",
+    "2.000 tệ",
+    "7.000 tệ"
+   ],
+   "optsEn": [
+    "5,000 yuan",
+    "2,000 yuan",
+    "7,000 yuan"
+   ],
+   "a": 0,
+   "why": {
+    "1": "2.000 tệ là số tiền RÚT (取两千块), không phải gửi.",
+    "2": "7.000 là cộng hai số lại; câu nói 存五千块 (gửi 5.000)."
+   }
+  },
+  {
+   "q": "Nhân viên ngân hàng bảo làm gì TRƯỚC?",
+   "audio": "请您先填这张表，然后在下面签字。",
+   "opts": [
+    "điền tờ khai",
+    "ký tên",
+    "đưa hộ chiếu"
+   ],
+   "optsEn": [
+    "fill in the form",
+    "sign",
+    "hand over the passport"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Ký tên là việc làm SAU (然后在下面签字).",
+    "2": "Câu này không nhắc đến 护照 (hùzhào)."
+   }
+  }
+ ],
+ "hsk": [
+  {
+   "q": "HSK4 听力 · Phần 1, đúng hay sai: ★ 在这家银行换现金要手续费。",
+   "audio": "在我们银行，换现金是不要手续费的，可是从别的城市的银行取钱，每次要两块手续费。",
+   "opts": [
+    "对",
+    "错"
+   ],
+   "a": 1,
+   "why": {
+    "0": "Bài nghe nói 换现金是不要手续费的 (đổi tiền mặt không mất phí); chỉ rút tiền ở ngân hàng thành phố khác mới mất 2 tệ, nên câu ★ sai."
+   }
+  },
+  {
+   "q": "HSK4 听力 · Phần 1, đúng hay sai: ★ 外国人开账户一定要带护照。",
+   "audio": "根据银行的要求，外国人开账户的时候一定要带护照，没有护照就不能开。",
+   "opts": [
+    "对",
+    "错"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe nói 一定要带护照，没有护照就不能开 (nhất định phải mang hộ chiếu), nên câu ★ đúng."
+   }
+  },
+  {
+   "q": "HSK4 听力 · Phần 2, hội thoại ngắn: 男的要做什么？",
+   "audio": "女：您好，请问您要办什么？男：我想把这些美元换成人民币，再存一点儿钱。问：男的要做什么？",
+   "opts": [
+    "换钱和存钱",
+    "取钱和办信用卡",
+    "只想开账户"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Người nam không nói 取 (rút) hay 信用卡.",
+    "2": "Người nam nói hai việc: 换成人民币 và 存一点儿钱, không nhắc 开账户."
+   }
+  },
+  {
+   "q": "HSK4 Đọc · Phần 1, chọn từ điền vào chỗ trống: 请您先（　）这张表，写上您的名字和手机号。",
+   "opts": [
+    "填",
+    "存",
+    "取",
+    "换"
+   ],
+   "a": 0,
+   "why": {
+    "1": "存 (cún) dùng cho tiền, đồ cất giữ; với tờ khai thì 填.",
+    "2": "取 (qǔ) = rút, lấy; vế sau 写上名字 cho thấy đang ĐIỀN tờ khai.",
+    "3": "换 (huàn) = đổi; không 'đổi tờ khai' rồi viết tên lên."
+   }
+  },
+  {
+   "k": "order",
+   "q": "HSK4 书写 · 完成句子: xếp các từ thành câu",
+   "tokens": [
+    "我想",
+    "把",
+    "一千美元",
+    "换成",
+    "人民币"
+   ],
+   "explain": "Câu 把: chủ ngữ + 想 (我想) + 把 + thứ đem đổi (一千美元) + 换成 + kết quả (人民币).",
+   "vi": "Tôi muốn đổi một nghìn đô la sang nhân dân tệ.",
+   "en": "I'd like to change a thousand dollars into renminbi."
+  }
+ ],
+ "shadow": [
+  {
+   "t": "汇率",
+   "py": "huìlǜ",
+   "focus": "Hai thanh 4: huì rơi mạnh, lǜ cũng rơi; lǜ tròn môi như 'uy' kéo dài, không đọc thành lù.",
+   "en": "exchange rate"
+  },
+  {
+   "t": "兑换",
+   "py": "duìhuàn",
+   "focus": "d không bật hơi; duì và huàn đều thanh 4; huàn kết thúc -n đầu lưỡi.",
+   "en": "to exchange (currency)"
+  },
+  {
+   "t": "手续费",
+   "py": "shǒuxùfèi",
+   "focus": "shǒu cong lưỡi, thanh 3 đọc thấp; xù tròn môi (ü); fèi: f môi răng, không đọc thành ph Việt.",
+   "en": "service fee"
+  },
+  {
+   "t": "我想把一千美元换成人民币。",
+   "py": "Wǒ xiǎng bǎ yìqiān měiyuán huànchéng rénmínbì.",
+   "focus": "我想把 là ba thanh 3 liền nhau: đọc wó xiáng bǎ (hai chữ đầu đi lên); 一 đọc yì trước thanh 1 (千); 人民币 rénmínbì: hai thanh 2 rồi thanh 4.",
+   "en": "I'd like to change a thousand dollars into renminbi."
+  },
+  {
+   "t": "只有带了护照，才能开账户。",
+   "py": "Zhǐyǒu dài le hùzhào, cái néng kāi zhànghù.",
+   "focus": "只有 hai thanh 3: zhí yǒu; 照 zhào cong lưỡi; 才 cái: c bật hơi 'ts', thanh 2 đi lên.",
+   "en": "You can only open an account if you bring your passport."
+  },
+  {
+   "t": "请您先填这张表，然后在下面签字。",
+   "py": "Qǐng nín xiān tián zhè zhāng biǎo, ránhòu zài xiàmiàn qiānzì.",
+   "focus": "q, x, j: lưỡi chạm răng dưới; tián và qiān đều có -n đầu lưỡi; 然 rán: r cong lưỡi.",
+   "en": "Please fill in this form first, then sign at the bottom."
+  }
+ ],
+ "dialog": {
+  "title": "Ở quầy ngân hàng: bạn đổi đô la sang nhân dân tệ, hỏi phí, mở tài khoản, hỏi về mật khẩu và thẻ tín dụng, rồi gửi và rút tiền. Đổi vai: bạn là nhân viên ngân hàng hướng dẫn khách.",
+  "partner": "银行职员",
+  "turns": [
+   {
+    "ai": "您好！请问您要办什么？",
+    "py": "Nín hǎo! Qǐngwèn nín yào bàn shénme?",
+    "vi": "Chào chị! Xin hỏi chị cần làm gì ạ?",
+    "en": "Hello! How can I help you?",
+    "model": "你好！我想把一千美元换成人民币，再开一个账户。",
+    "mpy": "Nǐ hǎo! Wǒ xiǎng bǎ yìqiān měiyuán huànchéng rénmínbì, zài kāi yí ge zhànghù.",
+    "men": "Hi! I'd like to change a thousand dollars into renminbi, and then open an account.",
+    "accept": [
+     "你好！我想把一千美元换成人民币，再开一个账户。",
+     "我想把一千美元换成人民币，再开一个账户。",
+     "我想把一千美元换成人民币。",
+     "我想开一个账户。",
+     "woxiangbayiqianmeiyuanhuanchengrenminbi",
+     "woxiangkaiyigezhanghu"
+    ],
+    "frame": "你好！我想___一千美元___人民币，再开一个账户。",
+    "hint": "Dùng 把 A 换成 B để nói đổi tiền, rồi thêm 再开一个账户 (mở tài khoản)."
+   },
+   {
+    "ai": "好的。今天的汇率是一美元换七块一。您带护照了吗？",
+    "py": "Hǎo de. Jīntiān de huìlǜ shì yì měiyuán huàn qī kuài yī. Nín dài hùzhào le ma?",
+    "vi": "Vâng. Tỷ giá hôm nay là một đô đổi bảy tệ mốt. Chị có mang hộ chiếu không?",
+    "en": "Certainly. Today's rate is 7.1 yuan to the dollar. Did you bring your passport?",
+    "model": "带了，这是我的护照。换钱要手续费吗？",
+    "mpy": "Dài le, zhè shì wǒ de hùzhào. Huàn qián yào shǒuxùfèi ma?",
+    "men": "Yes, here's my passport. Is there a fee for changing money?",
+    "accept": [
+     "带了，这是我的护照。换钱要手续费吗？",
+     "带了，这是我的护照。",
+     "换钱要手续费吗？",
+     "要手续费吗？",
+     "daile",
+     "zheshiwodehuzhao",
+     "huanqianyaoshouxufeima"
+    ],
+    "frame": "带了，这是我的护照。换钱要___吗？",
+    "hint": "Đưa hộ chiếu (这是我的护照), rồi hỏi phí: 要手续费吗？"
+   },
+   {
+    "ai": "换现金不要手续费。请您先填这张表，然后在下面签字。",
+    "py": "Huàn xiànjīn bú yào shǒuxùfèi. Qǐng nín xiān tián zhè zhāng biǎo, ránhòu zài xiàmiàn qiānzì.",
+    "vi": "Đổi tiền mặt không mất phí. Mời chị điền tờ khai này trước, rồi ký tên ở dưới.",
+    "en": "There's no fee for cash. Please fill in this form first, then sign at the bottom.",
+    "model": "填好了，也签字了。请问密码要几个数字？",
+    "mpy": "Tián hǎo le, yě qiānzì le. Qǐngwèn mìmǎ yào jǐ ge shùzì?",
+    "men": "I've filled it in and signed it. How many digits does the PIN need?",
+    "accept": [
+     "填好了，也签字了。请问密码要几个数字？",
+     "填好了。请问密码要几个数字？",
+     "密码要几个数字？",
+     "填好了。",
+     "tianhaole",
+     "mimayaojigeshuzi"
+    ],
+    "frame": "___好了，也签字了。请问___要几个数字？",
+    "hint": "Báo đã điền xong (填好了) và đã ký, rồi hỏi mật khẩu (密码 mìmǎ) mấy số."
+   },
+   {
+    "ai": "密码要六个数字，请您记好。您还要办别的吗？",
+    "py": "Mìmǎ yào liù ge shùzì, qǐng nín jì hǎo. Nín hái yào bàn bié de ma?",
+    "vi": "Mật khẩu gồm sáu chữ số, chị nhớ kỹ nhé. Chị còn cần làm gì khác không?",
+    "en": "Six digits; please remember it. Is there anything else?",
+    "model": "我能不能也办一张信用卡？",
+    "mpy": "Wǒ néng bu néng yě bàn yì zhāng xìnyòngkǎ?",
+    "men": "Could I get a credit card as well?",
+    "accept": [
+     "我能不能也办一张信用卡？",
+     "我能不能办一张信用卡？",
+     "能不能办信用卡？",
+     "我想办一张信用卡。",
+     "wonengbunengyebanyizhangxinyongka",
+     "wonengbunengbanyizhangxinyongka"
+    ],
+    "frame": "我能不能也办一张___？",
+    "hint": "Hỏi lịch sự bằng 能不能 + 办一张信用卡 (không thêm 吗)."
+   },
+   {
+    "ai": "对不起，只有在中国工作半年以上，才能办信用卡。",
+    "py": "Duìbuqǐ, zhǐyǒu zài Zhōngguó gōngzuò bàn nián yǐshàng, cái néng bàn xìnyòngkǎ.",
+    "vi": "Xin lỗi chị, chỉ khi làm việc ở Trung Quốc từ nửa năm trở lên mới làm được thẻ tín dụng.",
+    "en": "Sorry, you can only get a credit card after working in China for more than six months.",
+    "model": "明白了。那我先存五千块，再取两千块现金。",
+    "mpy": "Míngbai le. Nà wǒ xiān cún wǔqiān kuài, zài qǔ liǎngqiān kuài xiànjīn.",
+    "men": "I see. Then I'll deposit five thousand first and take out two thousand in cash.",
+    "accept": [
+     "明白了。那我先存五千块，再取两千块现金。",
+     "那我先存五千块，再取两千块现金。",
+     "我先存五千块。",
+     "明白了。",
+     "mingbaile",
+     "woxiancunwuqiankuai",
+     "woxiancunwuqiankuaizaiquliangqiankuaixianjin"
+    ],
+    "frame": "明白了。那我先___五千块，再___两千块现金。",
+    "hint": "Nói đã hiểu, rồi dùng 先……再…… để nói gửi (存) trước, rút (取) sau."
+   }
+  ]
+ },
+ "reading": {
+  "title": "Hướng dẫn mở tài khoản cho người nước ngoài",
+  "text": "外国朋友，欢迎来我们银行！如果您想开账户，请带好您的护照，还要有一个中国的手机号。根据银行的要求，开账户的时候，您要先填一张表，然后在表的下面签字。您的密码要六个数字，请一定记好，不要告诉别人。开账户不要钱。在我们银行，换现金不要手续费，今天的汇率请看门口的大电视。要注意的是，只有在中国工作半年以上的外国人，才能办信用卡。如果您有问题，可以问银行的工作人员。",
+  "py": "Wàiguó péngyou, huānyíng lái wǒmen yínháng! Rúguǒ nín xiǎng kāi zhànghù, qǐng dài hǎo nín de hùzhào, hái yào yǒu yí ge Zhōngguó de shǒujī hào. Gēnjù yínháng de yāoqiú, kāi zhànghù de shíhou, nín yào xiān tián yì zhāng biǎo, ránhòu zài biǎo de xiàmiàn qiānzì. Nín de mìmǎ yào liù ge shùzì, qǐng yídìng jì hǎo, bú yào gàosu biérén. Kāi zhànghù bú yào qián. Zài wǒmen yínháng, huàn xiànjīn bú yào shǒuxùfèi, jīntiān de huìlǜ qǐng kàn ménkǒu de dà diànshì. Yào zhùyì de shì, zhǐyǒu zài Zhōngguó gōngzuò bàn nián yǐshàng de wàiguó rén, cái néng bàn xìnyòngkǎ. Rúguǒ nín yǒu wèntí, kěyǐ wèn yínháng de gōngzuò rényuán.",
+  "en": "Dear foreign friends, welcome to our bank! If you'd like to open an account, please bring your passport, and you'll also need a Chinese mobile number. Under the bank's requirements, when opening an account you first fill in a form and then sign at the bottom. Your PIN has six digits; please be sure to remember it and don't tell anyone. Opening an account is free. At our bank there is no fee for exchanging cash; for today's exchange rate, please look at the big screen by the door. Please note that only foreigners who have worked in China for over six months can apply for a credit card. If you have any questions, please ask our staff.",
+  "vi": "Các bạn nước ngoài thân mến, chào mừng đến ngân hàng của chúng tôi! Nếu bạn muốn mở tài khoản, xin mang theo hộ chiếu và cần có một số điện thoại Trung Quốc. Theo yêu cầu của ngân hàng, khi mở tài khoản bạn điền một tờ khai trước, rồi ký tên ở phía dưới tờ khai. Mật khẩu gồm sáu chữ số, xin nhất định nhớ kỹ, đừng nói cho người khác. Mở tài khoản không mất tiền. Ở ngân hàng chúng tôi, đổi tiền mặt không mất phí; tỷ giá hôm nay xin xem trên màn hình lớn ở cửa ra vào. Xin lưu ý: chỉ người nước ngoài đã làm việc ở Trung Quốc từ nửa năm trở lên mới làm được thẻ tín dụng. Nếu có thắc mắc, bạn có thể hỏi nhân viên ngân hàng.",
+  "qs": [
+   {
+    "q": "Mở tài khoản cần mang theo gì?",
+    "opts": [
+     "hộ chiếu và số điện thoại Trung Quốc",
+     "chỉ cần hộ chiếu",
+     "thẻ ngân hàng Việt Nam"
+    ],
+    "optsEn": [
+     "passport and a Chinese phone number",
+     "only a passport",
+     "a Vietnamese bank card"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài viết 还要有一个中国的手机号: ngoài hộ chiếu còn cần số điện thoại Trung Quốc.",
+     "2": "Bài không nhắc đến thẻ ngân hàng Việt Nam."
+    }
+   },
+   {
+    "q": "Mở tài khoản có mất tiền không?",
+    "opts": [
+     "không mất tiền",
+     "mất 10 tệ",
+     "mất 2 tệ"
+    ],
+    "optsEn": [
+     "it's free",
+     "10 yuan",
+     "2 yuan"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài viết rõ 开账户不要钱.",
+     "2": "Bài không nhắc đến 2 tệ; 开账户不要钱."
+    }
+   },
+   {
+    "q": "Đúng hay sai: 外国人来中国以后马上就能办信用卡。(Wàiguó rén lái Zhōngguó yǐhòu mǎshàng jiù néng bàn xìnyòngkǎ.)",
+    "opts": [
+     "Đúng",
+     "Sai"
+    ],
+    "optsEn": [
+     "True",
+     "False"
+    ],
+    "a": 1,
+    "why": {
+     "0": "Bài viết 只有在中国工作半年以上……才能办信用卡: phải làm việc từ nửa năm, không phải đến là làm được ngay."
+    }
+   },
+   {
+    "q": "Muốn biết tỷ giá hôm nay thì xem ở đâu?",
+    "opts": [
+     "màn hình lớn ở cửa ra vào",
+     "trên tờ khai",
+     "hỏi qua điện thoại"
+    ],
+    "optsEn": [
+     "the big screen by the door",
+     "on the form",
+     "by phone"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Tờ khai (表) dùng để điền thông tin và ký tên, không ghi tỷ giá.",
+     "2": "Bài viết 请看门口的大电视, không bảo gọi điện."
+    }
+   },
+   {
+    "q": "Ký tên ở đâu?",
+    "opts": [
+     "phía dưới tờ khai",
+     "phía trên tờ khai",
+     "trên hộ chiếu"
+    ],
+    "optsEn": [
+     "at the bottom of the form",
+     "at the top of the form",
+     "on the passport"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài viết 在表的下面签字 (ký ở phía DƯỚI tờ khai).",
+     "2": "Không ký lên hộ chiếu; bài viết ký ở dưới tờ khai."
+    }
+   }
+  ]
+ },
+ "near": [
+  {
+   "q": "Chọn từ đúng: 我想在银行把美元___成人民币。(Tôi muốn đổi đô la sang nhân dân tệ ở ngân hàng.)",
+   "opts": [
+    "兑换",
+    "交换"
+   ],
+   "a": 0,
+   "why": {
+    "1": "交换 (jiāohuàn) = trao đổi QUA LẠI giữa hai bên: 交换礼物 (đổi quà cho nhau), 交换意见 (trao đổi ý kiến). Đổi tiền ở ngân hàng là 兑换 (duìhuàn) hoặc nói gọn 换."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我想在银行___五千块钱。(Tôi muốn gửi năm nghìn tệ vào ngân hàng.)",
+   "opts": [
+    "存",
+    "放"
+   ],
+   "a": 0,
+   "why": {
+    "1": "放 (fàng) = đặt, để một đồ vật ở đâu (把书放在桌子上). Gửi tiền vào ngân hàng, tài khoản là 存 (cún): 存钱."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我要从账户里___两千块现金。(Tôi muốn rút hai nghìn tệ tiền mặt từ tài khoản.)",
+   "opts": [
+    "取",
+    "拿"
+   ],
+   "a": 0,
+   "why": {
+    "1": "拿 (ná) = cầm, lấy bằng tay một đồ vật (拿一下我的包). Rút tiền khỏi tài khoản, ngân hàng dùng 取 (qǔ): 取钱, 取现金."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 请您先___这张表。(Mời anh/chị điền tờ khai này trước.)",
+   "opts": [
+    "填",
+    "写"
+   ],
+   "a": 0,
+   "why": {
+    "1": "写 (xiě) = viết nói chung (写名字, 写信). Điền vào các ô có sẵn của tờ khai là cụm cố định 填表 (tián biǎo)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 请记好您的___，不要告诉别人。(Xin nhớ kỹ mật khẩu của bạn, đừng nói cho người khác.)",
+   "opts": [
+    "密码",
+    "号码"
+   ],
+   "a": 0,
+   "why": {
+    "1": "号码 (hàomǎ) = con số để gọi, để tìm (手机号码 = số điện thoại), không cần giữ bí mật. Thứ phải giữ kín là 密码 (mìmǎ); 密 = mật, kín."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我想___一千美元。(Tôi muốn đổi một nghìn đô la.)",
+   "opts": [
+    "换",
+    "还"
+   ],
+   "a": 0,
+   "why": {
+    "1": "还 đọc huán = TRẢ LẠI (还钱 = trả tiền nợ, 还书 = trả sách); còn đọc hái = còn, vẫn. Đổi tiền là 换 (huàn, thanh 4). Hai chữ gần âm, chú ý thanh điệu."
+   }
+  }
+ ],
+ "orderPara": [
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "今天上午我去银行开账户。",
+    "工作人员让我先填一张表，",
+    "然后在表的下面签字。"
+   ],
+   "explain": "Câu nêu việc chính (去银行开账户) đứng đầu; 先 (xiān, trước) chỉ bước đầu tiên; 然后 (ránhòu, sau đó) chỉ bước tiếp theo nên đứng cuối.",
+   "vi": "Sáng nay tôi đến ngân hàng mở tài khoản. Nhân viên bảo tôi điền một tờ khai trước, rồi ký tên ở dưới tờ khai.",
+   "en": "This morning I went to the bank to open an account. The staff asked me to fill in a form first and then sign at the bottom."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "我想把一千美元换成人民币。",
+    "今天的汇率是一美元换七块一，",
+    "所以我换了七千一百块。"
+   ],
+   "explain": "Câu nêu mong muốn đổi tiền đứng đầu; câu tỷ giá giải thích cách tính; 所以 (suǒyǐ) nêu kết quả nên đứng cuối.",
+   "vi": "Tôi muốn đổi một nghìn đô la sang nhân dân tệ. Tỷ giá hôm nay là một đô đổi bảy tệ mốt, vì vậy tôi đổi được bảy nghìn một trăm tệ.",
+   "en": "I wanted to change a thousand dollars into renminbi. Today's rate was 7.1 yuan to the dollar, so I got 7,100 yuan."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "王丽告诉我，在上海用现金的人越来越少了。",
+    "大家买东西的时候，都用手机。",
+    "所以开了账户以后，我也要学会用手机银行。"
+   ],
+   "explain": "Câu mở đầu nêu thông tin 王丽 cho biết; câu thứ hai giải thích (大家都用手机); 所以 nêu việc bạn sẽ làm vì vậy, đứng cuối.",
+   "vi": "Vương Lệ nói với tôi, ở Thượng Hải người dùng tiền mặt ngày càng ít. Mọi người mua đồ đều dùng điện thoại. Vì vậy mở tài khoản xong, tôi cũng phải học dùng ngân hàng trên điện thoại.",
+   "en": "Wang Li told me that fewer and fewer people in Shanghai use cash. Everyone pays with their phone when shopping. So after opening my account, I'll have to learn to use mobile banking too."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "我也想办一张信用卡。",
+    "可是工作人员说，",
+    "只有在中国工作半年以上，",
+    "才能办信用卡。"
+   ],
+   "explain": "Câu nêu mong muốn đứng đầu; 可是 (kěshì, nhưng) mở ý trái ngược; lời nhân viên nói gồm 只有……，才…… nên 只有 đứng trước, 才 đứng sau cùng.",
+   "vi": "Tôi cũng muốn làm một thẻ tín dụng. Nhưng nhân viên nói chỉ khi làm việc ở Trung Quốc từ nửa năm trở lên mới làm được thẻ tín dụng.",
+   "en": "I wanted a credit card too. But the staff said you can only get one after working in China for more than six months."
+  }
+ ],
+ "notes": {
+  "title": "Ghi chú: đổi tiền và mở tài khoản",
+  "lines": [
+   {
+    "who": "银行职员",
+    "t": "您好，今天的汇率是一美元换七块一。",
+    "py": "Nín hǎo, jīntiān de huìlǜ shì yì měiyuán huàn qī kuài yī.",
+    "vi": "Chào chị, tỷ giá hôm nay là một đô đổi bảy tệ mốt.",
+    "en": "Hello, today's rate is 7.1 yuan to the dollar."
+   },
+   {
+    "who": "阮安",
+    "t": "我换一千美元，能换多少人民币？",
+    "py": "Wǒ huàn yìqiān měiyuán, néng huàn duōshao rénmínbì?",
+    "vi": "Tôi đổi một nghìn đô thì được bao nhiêu nhân dân tệ?",
+    "en": "If I change a thousand dollars, how much renminbi do I get?"
+   },
+   {
+    "who": "银行职员",
+    "t": "七千一百块。换现金不要手续费。",
+    "py": "Qīqiān yìbǎi kuài. Huàn xiànjīn bú yào shǒuxùfèi.",
+    "vi": "Bảy nghìn một trăm tệ. Đổi tiền mặt không mất phí.",
+    "en": "7,100 yuan. There's no fee for cash exchange."
+   },
+   {
+    "who": "阮安",
+    "t": "开账户要带什么？",
+    "py": "Kāi zhànghù yào dài shénme?",
+    "vi": "Mở tài khoản cần mang gì?",
+    "en": "What do I need to bring to open an account?"
+   },
+   {
+    "who": "银行职员",
+    "t": "要带护照，还要一个中国的手机号。您的密码要六个数字。",
+    "py": "Yào dài hùzhào, hái yào yí ge Zhōngguó de shǒujī hào. Nín de mìmǎ yào liù ge shùzì.",
+    "vi": "Cần mang hộ chiếu, còn cần một số điện thoại Trung Quốc. Mật khẩu của chị gồm sáu chữ số.",
+    "en": "Your passport, and a Chinese mobile number. Your PIN needs six digits."
+   },
+   {
+    "who": "阮安",
+    "t": "好的。我先存五千块，再取两千块现金。",
+    "py": "Hǎo de. Wǒ xiān cún wǔqiān kuài, zài qǔ liǎngqiān kuài xiànjīn.",
+    "vi": "Vâng. Tôi gửi năm nghìn tệ trước, rồi rút hai nghìn tệ tiền mặt.",
+    "en": "OK. I'll deposit five thousand first, then take out two thousand in cash."
+   },
+   {
+    "who": "银行职员",
+    "t": "没问题。在别的城市的银行取钱，每次要两块手续费。",
+    "py": "Méi wèntí. Zài bié de chéngshì de yínháng qǔ qián, měi cì yào liǎng kuài shǒuxùfèi.",
+    "vi": "Không vấn đề gì. Rút tiền ở ngân hàng thành phố khác thì mỗi lần mất hai tệ phí.",
+    "en": "No problem. Withdrawing at our banks in other cities costs a two-yuan fee each time."
+   },
+   {
+    "who": "银行职员",
+    "t": "银行卡今天就能给您，信用卡半年以后才能办。",
+    "py": "Yínhángkǎ jīntiān jiù néng gěi nín, xìnyòngkǎ bàn nián yǐhòu cái néng bàn.",
+    "vi": "Thẻ ngân hàng hôm nay có thể đưa chị luôn, thẻ tín dụng nửa năm sau mới làm được.",
+    "en": "You can have your bank card today; a credit card only after six months."
+   }
+  ],
+  "form": [
+   {
+    "label": "Tỷ giá hôm nay",
+    "opts": [
+     "一美元换七块一",
+     "一美元换七块",
+     "一美元换一块七"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài nghe nói 七块一 (7,1), có thêm 一 ở cuối.",
+     "2": "一块七 là 1,7; bài nghe nói 七块一, số 七 đứng trước."
+    }
+   },
+   {
+    "label": "Một nghìn đô đổi được",
+    "opts": [
+     "七千一百块",
+     "七千块",
+     "一千七百块"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài nghe nói 七千一百块, có thêm 一百 (một trăm).",
+     "2": "一千七百 là 1.700; con số đúng là 七千一百 (7.100)."
+    }
+   },
+   {
+    "label": "Giấy tờ phải mang",
+    "opts": [
+     "护照",
+     "信用卡",
+     "简历"
+    ],
+    "a": 0,
+    "why": {
+     "1": "信用卡 (thẻ tín dụng) là thứ nửa năm sau mới làm được, không phải giấy tờ phải mang.",
+     "2": "简历 (CV) dùng khi xin việc, không dùng ở ngân hàng."
+    }
+   },
+   {
+    "label": "Mật khẩu gồm",
+    "opts": [
+     "六个数字",
+     "四个数字",
+     "八个数字"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Không nghe thấy 四 (sì); nhân viên nói 六个数字.",
+     "2": "Không nghe thấy 八 (bā); con số là 六 (liù)."
+    }
+   },
+   {
+    "label": "Số tiền gửi vào",
+    "opts": [
+     "五千块",
+     "两千块",
+     "七千一百块"
+    ],
+    "a": 0,
+    "why": {
+     "1": "两千块 là số tiền RÚT ra (取两千块).",
+     "2": "七千一百块 là số tiền đổi được, không phải số tiền gửi."
+    }
+   },
+   {
+    "label": "Phí rút tiền ở thành phố khác",
+    "opts": [
+     "两块",
+     "不要钱",
+     "七块"
+    ],
+    "a": 0,
+    "why": {
+     "1": "不要 (không mất phí) là đổi tiền mặt; rút tiền ở thành phố khác thì 每次要两块.",
+     "2": "七 (qī) xuất hiện trong tỷ giá (七块一), không phải phí rút tiền."
+    }
+   }
+  ]
+ },
+ "longturn": {
+  "cue": "请你用一分钟比较一下在银行、机场和手机上换钱有什么不同，再告诉刚来中国的人应该怎么做。",
+  "cueVi": "Hãy nói khoảng 1 phút, so sánh đổi tiền ở ngân hàng, ở sân bay và trên ứng dụng điện thoại khác nhau thế nào, rồi khuyên người mới sang Trung Quốc nên làm gì.",
+  "cuePy": "Qǐng nǐ yòng yì fēnzhōng bǐjiào yíxià zài yínháng, jīchǎng hé shǒujī shang huàn qián yǒu shénme bù tóng, zài gàosu gāng lái Zhōngguó de rén yīnggāi zěnme zuò.",
+  "points": [
+   "在银行换钱怎么样？",
+   "在机场换钱怎么样？",
+   "在手机上换钱怎么样？",
+   "刚来中国的人应该怎么做？"
+  ],
+  "pointsVi": [
+   "Đổi tiền ở ngân hàng thế nào?",
+   "Đổi tiền ở sân bay thế nào?",
+   "Đổi tiền trên điện thoại thế nào?",
+   "Người mới sang Trung Quốc nên làm gì?"
+  ],
+  "prep": 60,
+  "speak": [
+   60,
+   120
+  ],
+  "model": "我觉得在银行换钱最好，因为汇率比较好，换现金也不要手续费，可是要带护照，还要等一会儿。在机场换钱很方便，下了飞机就能换，但是汇率不太好，手续费也比较贵。在手机上换钱很快，不用出门，可是只有开了中国的银行账户，才能用。所以我觉得，刚来的人可以先在机场换一点儿现金，然后去银行把别的钱换成人民币，再开一个账户。",
+  "modelPy": "Wǒ juéde zài yínháng huàn qián zuì hǎo, yīnwèi huìlǜ bǐjiào hǎo, huàn xiànjīn yě bú yào shǒuxùfèi, kěshì yào dài hùzhào, hái yào děng yíhuìr. Zài jīchǎng huàn qián hěn fāngbiàn, xià le fēijī jiù néng huàn, dànshì huìlǜ bú tài hǎo, shǒuxùfèi yě bǐjiào guì. Zài shǒujī shang huàn qián hěn kuài, bú yòng chūmén, kěshì zhǐyǒu kāi le Zhōngguó de yínháng zhànghù, cái néng yòng. Suǒyǐ wǒ juéde, gāng lái de rén kěyǐ xiān zài jīchǎng huàn yìdiǎnr xiànjīn, ránhòu qù yínháng bǎ bié de qián huànchéng rénmínbì, zài kāi yí ge zhànghù.",
+  "modelVi": "Tôi thấy đổi ở ngân hàng là tốt nhất, vì tỷ giá khá tốt, đổi tiền mặt cũng không mất phí, nhưng phải mang hộ chiếu và phải chờ một lúc. Đổi ở sân bay rất tiện, xuống máy bay là đổi được ngay, nhưng tỷ giá không tốt lắm, phí cũng khá đắt. Đổi trên điện thoại rất nhanh, không phải ra khỏi nhà, nhưng chỉ khi đã mở tài khoản ngân hàng Trung Quốc mới dùng được. Vì vậy tôi nghĩ người mới sang có thể đổi một ít tiền mặt ở sân bay trước, sau đó đến ngân hàng đổi phần tiền còn lại sang nhân dân tệ, rồi mở một tài khoản.",
+  "useful": [
+   "我觉得在……换钱最好，因为……",
+   "汇率比较好 / 不太好",
+   "手续费比较贵 / 不要手续费",
+   "……很方便，可是……",
+   "只有……，才能……",
+   "把……换成人民币",
+   "所以我觉得刚来的人可以先……，然后……"
+  ],
+  "check": [
+   "Nói đủ 3 nơi đổi tiền và 1 lời khuyên",
+   "Dùng ít nhất 3 từ mới hôm nay (汇率 huìlǜ, 手续费 shǒuxùfèi, 现金 xiànjīn, 账户 zhànghù…)",
+   "Có 1 câu 只有……才…… (zhǐyǒu… cái…)",
+   "Có 1 câu 把 A 换成 B",
+   "Có từ nối so sánh: 可是 / 但是 / 所以",
+   "Nói liền mạch được ít nhất 1 phút"
+  ]
+ },
+ "write": {
+  "task": "Viết tin nhắn cho một đồng nghiệp người Việt mới sang Thượng Hải, hướng dẫn cách mở tài khoản và đổi tiền ở ngân hàng: mang gì, làm những bước nào, phí, điều cần chú ý về thẻ tín dụng.",
+  "kind": "message",
+  "model": "你好！去银行开账户的时候，一定要带护照，还要有中国的手机号。你先填一张表，然后在下面签字。密码要六个数字，别告诉别人。换现金不要手续费，你可以把美元换成人民币。要注意，只有在中国工作半年以上，才能办信用卡。有问题就问我！阮安",
+  "frame": "你好！去银行开账户的时候，一定要带护照，还要有中国的手机号。你先___一张表，然后在下面___。___要六个数字，别告诉别人。换现金不要___，你可以把美元___人民币。要注意，___在中国工作半年以上，才能办信用卡。有问题就问我！阮安",
+  "gaps": [
+   "填",
+   "签字",
+   "密码",
+   "手续费",
+   "换成",
+   "只有"
+  ],
+  "free": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "hints": [
+   "Mở đầu: 你好！去银行开账户的时候，一定要带……",
+   "Các bước: 你先……，然后……",
+   "Nhắc mật khẩu: 密码要六个数字，别告诉别人",
+   "Đổi tiền: 你可以把……换成……",
+   "Điều cần chú ý: 要注意，只有……，才……",
+   "Kết: 有问题就问我！ rồi ký tên"
+  ],
+  "check": [
+   "Có lời chào và ký tên cuối tin",
+   "Nói rõ giấy tờ phải mang (护照, 手机号)",
+   "Có các bước theo thứ tự: 先……然后……",
+   "Có 1 câu 把 A 换成 B",
+   "Có 1 câu 只有……才……",
+   "Dài 70–100 chữ Hán"
+  ],
+  "words": [
+   70,
+   100
+  ]
+ },
+ "gloss": {
+  "汇率": [
+   "huìlǜ",
+   "exchange rate",
+   "tỷ giá"
+  ],
+  "兑换": [
+   "duìhuàn",
+   "to exchange (currency)",
+   "đổi tiền"
+  ],
+  "现金": [
+   "xiànjīn",
+   "cash",
+   "tiền mặt"
+  ],
+  "账户": [
+   "zhànghù",
+   "bank account",
+   "tài khoản"
+  ],
+  "手续费": [
+   "shǒuxùfèi",
+   "service fee",
+   "phí dịch vụ, phí thủ tục"
+  ],
+  "密码": [
+   "mìmǎ",
+   "password, PIN",
+   "mật khẩu"
+  ],
+  "信用卡": [
+   "xìnyòngkǎ",
+   "credit card",
+   "thẻ tín dụng"
+  ],
+  "填": [
+   "tián",
+   "to fill in",
+   "điền"
+  ],
+  "签字": [
+   "qiānzì",
+   "to sign",
+   "ký tên"
+  ],
+  "存": [
+   "cún",
+   "to deposit, to save",
+   "gửi (tiền), cất giữ"
+  ],
+  "取": [
+   "qǔ",
+   "to withdraw, to take out",
+   "rút (tiền), lấy"
+  ],
+  "美元": [
+   "měiyuán",
+   "US dollar",
+   "đô la Mỹ (tên tiền tệ)"
+  ],
+  "人民币": [
+   "rénmínbì",
+   "renminbi (Chinese yuan)",
+   "nhân dân tệ (tên tiền tệ)"
+  ],
+  "银行卡": [
+   "yínhángkǎ",
+   "bank card",
+   "thẻ ngân hàng"
+  ],
+  "手机号": [
+   "shǒujī hào",
+   "mobile phone number",
+   "số điện thoại di động"
+  ],
+  "交换": [
+   "jiāohuàn",
+   "to exchange (with each other)",
+   "trao đổi (qua lại)"
+  ],
+  "号码": [
+   "hàomǎ",
+   "number (phone, room…)",
+   "số, con số"
+  ]
+ }
+}
