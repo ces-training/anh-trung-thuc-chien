@@ -1227,9 +1227,9 @@
    60,
    120
   ],
-  "model": "我觉得在银行换钱最好，因为汇率比较好，换现金也不要手续费，可是要带护照，还要等一会儿。在机场换钱很方便，下了飞机就能换，但是汇率不太好，手续费也比较贵。在手机上换钱很快，不用出门，可是只有开了中国的银行账户，才能用。所以我觉得，刚来的人可以先在机场换一点儿现金，然后去银行把别的钱换成人民币，再开一个账户。",
-  "modelPy": "Wǒ juéde zài yínháng huàn qián zuì hǎo, yīnwèi huìlǜ bǐjiào hǎo, huàn xiànjīn yě bú yào shǒuxùfèi, kěshì yào dài hùzhào, hái yào děng yíhuìr. Zài jīchǎng huàn qián hěn fāngbiàn, xià le fēijī jiù néng huàn, dànshì huìlǜ bú tài hǎo, shǒuxùfèi yě bǐjiào guì. Zài shǒujī shang huàn qián hěn kuài, bú yòng chūmén, kěshì zhǐyǒu kāi le Zhōngguó de yínháng zhànghù, cái néng yòng. Suǒyǐ wǒ juéde, gāng lái de rén kěyǐ xiān zài jīchǎng huàn yìdiǎnr xiànjīn, ránhòu qù yínháng bǎ bié de qián huànchéng rénmínbì, zài kāi yí ge zhànghù.",
-  "modelVi": "Tôi thấy đổi ở ngân hàng là tốt nhất, vì tỷ giá khá tốt, đổi tiền mặt cũng không mất phí, nhưng phải mang hộ chiếu và phải chờ một lúc. Đổi ở sân bay rất tiện, xuống máy bay là đổi được ngay, nhưng tỷ giá không tốt lắm, phí cũng khá đắt. Đổi trên điện thoại rất nhanh, không phải ra khỏi nhà, nhưng chỉ khi đã mở tài khoản ngân hàng Trung Quốc mới dùng được. Vì vậy tôi nghĩ người mới sang có thể đổi một ít tiền mặt ở sân bay trước, sau đó đến ngân hàng đổi phần tiền còn lại sang nhân dân tệ, rồi mở một tài khoản.",
+  "model": "我觉得在银行换钱最好，因为汇率比较好，换现金也不要手续费，可是要带护照。在机场换钱很方便，下了飞机就能换，但是汇率不太好，手续费也比较贵。在手机上换钱很快，不用出门，可是只有开了中国的银行账户，才能用。所以我觉得，刚来的人可以先在机场换一点儿现金，然后去银行把别的钱换成人民币，再开一个账户。",
+  "modelPy": "Wǒ juéde zài yínháng huàn qián zuì hǎo, yīnwèi huìlǜ bǐjiào hǎo, huàn xiànjīn yě bú yào shǒuxùfèi, kěshì yào dài hùzhào. Zài jīchǎng huàn qián hěn fāngbiàn, xià le fēijī jiù néng huàn, dànshì huìlǜ bú tài hǎo, shǒuxùfèi yě bǐjiào guì. Zài shǒujī shang huàn qián hěn kuài, bú yòng chūmén, kěshì zhǐyǒu kāi le Zhōngguó de yínháng zhànghù, cái néng yòng. Suǒyǐ wǒ juéde, gāng lái de rén kěyǐ xiān zài jīchǎng huàn yìdiǎnr xiànjīn, ránhòu qù yínháng bǎ bié de qián huànchéng rénmínbì, zài kāi yí ge zhànghù.",
+  "modelVi": "Tôi thấy đổi ở ngân hàng là tốt nhất, vì tỷ giá khá tốt, đổi tiền mặt cũng không mất phí, nhưng phải mang hộ chiếu. Đổi ở sân bay rất tiện, xuống máy bay là đổi được ngay, nhưng tỷ giá không tốt lắm, phí cũng khá đắt. Đổi trên điện thoại rất nhanh, không phải ra khỏi nhà, nhưng chỉ khi đã mở tài khoản ngân hàng Trung Quốc mới dùng được. Vì vậy tôi nghĩ người mới sang có thể đổi một ít tiền mặt ở sân bay trước, sau đó đến ngân hàng đổi phần tiền còn lại sang nhân dân tệ, rồi mở một tài khoản.",
   "useful": [
    "我觉得在……换钱最好，因为……",
    "汇率比较好 / 不太好",

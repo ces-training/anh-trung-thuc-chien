@@ -3,7 +3,7 @@
  "label": "Thứ 4",
  "title": "Hỏi đường, bị lạc, gọi điện nhờ chỉ đường",
  "desc": "Ngày đầu đi làm, 阮安 (Ruǎn Ān) ra khỏi ga tàu điện ngầm thì định vị trên điện thoại chỉ sai hướng và bạn bị lạc. Bạn gọi cho 王丽 (Wáng Lì): tả mình đang đứng ở đâu (cạnh gì, đối diện gì), hỏi khoảng cách, nghe và nhắc lại đường đi có mốc.",
- "rule": "Chỉ đường dọc theo: 顺着 + con đường + 一直往前走 (shùnzhe… yìzhí wǎng qián zǒu); cụm 顺着… đứng TRƯỚC động từ. Hỏi dồn khi sốt ruột: 到底 + câu hỏi có từ để hỏi (你到底在哪儿？), không thêm 吗. Nêu điều kiện: 如果……的话，(chủ ngữ) 就…… (nếu… thì…); 就 đứng sau chủ ngữ vế sau.",
+ "rule": "Chỉ đường dọc theo: 顺着 + con đường + 一直向前走 (shùnzhe… yìzhí xiàng qián zǒu); cụm 顺着… đứng TRƯỚC động từ. Hỏi dồn khi sốt ruột: 到底 + câu hỏi có từ để hỏi (你到底在哪儿？), không thêm 吗. Nêu điều kiện: 如果……的话，(chủ ngữ) 就…… (nếu… thì…); 就 đứng sau chủ ngữ vế sau.",
  "cards": [
   {
    "w": "迷路",
@@ -37,7 +37,7 @@
    "expy": "Wǒ de dǎoháng bú tài zhǔnquè, dài wǒ zǒu cuò le fāngxiàng.",
    "exm": "Định vị của tôi không chính xác lắm, dẫn tôi đi sai hướng.",
    "exEn": "My navigation app wasn't very accurate and took me the wrong way.",
-   "n": "Hán Việt 'phương hướng'. Cụm hay dùng: 走错方向 (đi sai hướng), 往哪个方向走？ Khác 方面 (fāngmiàn) = mặt, phương diện.",
+   "n": "Hán Việt 'phương hướng'. Cụm hay dùng: 走错方向 (đi sai hướng), 向哪个方向走？ Khác 方面 (fāngmiàn) = mặt, phương diện.",
    "img": "road"
   },
   {
@@ -113,8 +113,8 @@
    "py": "shùnzhe",
    "m": "men theo, dọc theo",
    "mEn": "along, following",
-   "ex": "你顺着这条路一直往前走就到了。",
-   "expy": "Nǐ shùnzhe zhè tiáo lù yìzhí wǎng qián zǒu jiù dào le.",
+   "ex": "你顺着这条路一直向前走就到了。",
+   "expy": "Nǐ shùnzhe zhè tiáo lù yìzhí xiàng qián zǒu jiù dào le.",
    "exm": "Bạn cứ men theo con đường này đi thẳng là tới.",
    "exEn": "Just follow this road straight ahead and you'll be there.",
    "n": "顺着 + đường / sông + động từ: 顺着马路走. 着 đọc nhẹ zhe. shùn cong lưỡi, thanh 4.",
@@ -167,8 +167,8 @@
    },
    {
     "who": "阮安",
-    "t": "三号出口。出来以后我往右走了十分钟。",
-    "py": "Sān hào chūkǒu. Chūlai yǐhòu wǒ wǎng yòu zǒu le shí fēnzhōng.",
+    "t": "三号出口。出来以后我向右走了十分钟。",
+    "py": "Sān hào chūkǒu. Chūlai yǐhòu wǒ xiàng yòu zǒu le shí fēnzhōng.",
     "vi": "Cửa số ba. Ra rồi mình rẽ phải đi mười phút.",
     "en": "Exit 3. After coming out I walked right for ten minutes."
    },
@@ -188,15 +188,15 @@
    },
    {
     "who": "王丽",
-    "t": "别打车了，现在是上班时间，路上堵车。你顺着这条路一直往前走，走到第二个红绿灯往左走，就能看见我们的大楼了。",
-    "py": "Bié dǎchē le, xiànzài shì shàngbān shíjiān, lù shang dǔchē. Nǐ shùnzhe zhè tiáo lù yìzhí wǎng qián zǒu, zǒu dào dì èr ge hónglǜdēng wǎng zuǒ zǒu, jiù néng kànjiàn wǒmen de dàlóu le.",
+    "t": "别打车了，现在是上班时间，路上堵车。你顺着这条路一直向前走，走到第二个红绿灯向左走，就能看见我们的大楼了。",
+    "py": "Bié dǎchē le, xiànzài shì shàngbān shíjiān, lù shang dǔchē. Nǐ shùnzhe zhè tiáo lù yìzhí xiàng qián zǒu, zǒu dào dì èr ge hónglǜdēng xiàng zuǒ zǒu, jiù néng kànjiàn wǒmen de dàlóu le.",
     "vi": "Đừng đi taxi, giờ đang giờ đi làm, đường tắc lắm. Bạn men theo con đường này đi thẳng, đến đèn giao thông thứ hai thì rẽ trái là thấy tòa nhà của bọn mình.",
     "en": "Don't take a taxi; it's rush hour and the roads are jammed. Follow this road straight ahead, turn left at the second traffic light, and you'll see our building."
    },
    {
     "who": "阮安",
-    "t": "顺着这条路一直走，到第二个红绿灯往左走，对吗？",
-    "py": "Shùnzhe zhè tiáo lù yìzhí zǒu, dào dì èr ge hónglǜdēng wǎng zuǒ zǒu, duì ma?",
+    "t": "顺着这条路一直走，到第二个红绿灯向左走，对吗？",
+    "py": "Shùnzhe zhè tiáo lù yìzhí zǒu, dào dì èr ge hónglǜdēng xiàng zuǒ zǒu, duì ma?",
     "vi": "Men theo đường này đi thẳng, đến đèn giao thông thứ hai rẽ trái, đúng không?",
     "en": "Follow this road, turn left at the second traffic light, right?"
    },
@@ -211,13 +211,13 @@
  },
  "patterns": [
   {
-   "t": "Men theo… đi thẳng: 顺着 + con đường + 一直往前走",
+   "t": "Men theo… đi thẳng: 顺着 + con đường + 一直向前走",
    "f": [
     [
      "你",
      "顺着",
      "这条路",
-     "一直往前走"
+     "一直向前走"
     ],
     [
      "我们",
@@ -228,19 +228,19 @@
    ],
    "ex": [
     [
-     "你顺着这条路一直往前走就到了。",
+     "你顺着这条路一直向前走就到了。",
      "Bạn men theo con đường này đi thẳng là tới.",
      "Follow this road straight ahead and you'll be there."
     ],
     [
-     "顺着马路走到第二个红绿灯，再往左走。",
+     "顺着马路走到第二个红绿灯，再向左走。",
      "Đi dọc con đường đến đèn giao thông thứ hai, rồi rẽ trái.",
      "Follow the road to the second traffic light, then turn left."
     ]
    ],
-   "bad": "你一直往前走顺着这条路。",
-   "good": "你顺着这条路一直往前走。",
-   "why": "顺着 (shùnzhe) + con đường là trạng ngữ chỉ cách đi, nên đứng TRƯỚC động từ (走), giống 在 + nơi chốn. Trật tự: chủ ngữ + 顺着 + đường + 一直 + 往前 + 走."
+   "bad": "你一直向前走顺着这条路。",
+   "good": "你顺着这条路一直向前走。",
+   "why": "顺着 (shùnzhe) + con đường là trạng ngữ chỉ cách đi, nên đứng TRƯỚC động từ (走), giống 在 + nơi chốn. Trật tự: chủ ngữ + 顺着 + đường + 一直 + 向前 + 走."
   },
   {
    "t": "Hỏi dồn: 到底 + câu hỏi có từ để hỏi",
@@ -427,9 +427,9 @@
   {
    "q": "Câu nào đúng?",
    "opts": [
-    "你顺着这条路一直往前走。",
-    "你一直往前走顺着这条路。",
-    "顺着你这条路一直往前走。"
+    "你顺着这条路一直向前走。",
+    "你一直向前走顺着这条路。",
+    "顺着你这条路一直向前走。"
    ],
    "a": 0,
    "why": {
@@ -502,12 +502,12 @@
    "opts": [
     "离",
     "从",
-    "往"
+    "向"
    ],
    "a": 0,
    "why": {
     "1": "从 (cóng) = từ, đi với 到 (从 A 到 B); nói A gần B thì dùng 离: A 离 B 很近.",
-    "2": "往 (wǎng) = về phía, đi với động từ di chuyển (往左走), không nói khoảng cách."
+    "2": "向 (xiàng) = về phía, đi với động từ di chuyển (向左走), không nói khoảng cách."
    }
   }
  ],
@@ -590,7 +590,7 @@
   },
   {
    "q": "Rẽ trái ở đâu?",
-   "audio": "你顺着这条路一直往前走，走到第二个红绿灯往左走。",
+   "audio": "你顺着这条路一直向前走，走到第二个红绿灯向左走。",
    "opts": [
     "ở đèn giao thông thứ hai",
     "ở đèn giao thông thứ nhất",
@@ -703,9 +703,9 @@
     "顺着",
     "这条路",
     "一直",
-    "往前走"
+    "向前走"
    ],
-   "explain": "Chủ ngữ 你 + 顺着 + con đường (这条路) + 一直 (cứ thế) + 往前走. Cụm 顺着这条路 đứng trước động từ.",
+   "explain": "Chủ ngữ 你 + 顺着 + con đường (这条路) + 一直 (cứ thế) + 向前走. Cụm 顺着这条路 đứng trước động từ.",
    "vi": "Bạn men theo con đường này đi thẳng.",
    "en": "Follow this road straight ahead."
   }
@@ -736,9 +736,9 @@
    "en": "Where on earth are you?"
   },
   {
-   "t": "你顺着这条路一直往前走。",
-   "py": "Nǐ shùnzhe zhè tiáo lù yìzhí wǎng qián zǒu.",
-   "focus": "顺 shùn cong lưỡi; 着 đọc nhẹ zhe; 一直 yìzhí (一 đọc yì trước thanh 2); 往前走 wǎng qián zǒu: hai thanh 3 ở hai đầu.",
+   "t": "你顺着这条路一直向前走。",
+   "py": "Nǐ shùnzhe zhè tiáo lù yìzhí xiàng qián zǒu.",
+   "focus": "顺 shùn cong lưỡi; 着 đọc nhẹ zhe; 一直 yìzhí (一 đọc yì trước thanh 2); 向前走 xiàng qián zǒu: hai thanh 3 ở hai đầu.",
    "en": "Follow this road straight ahead."
   },
   {
@@ -810,22 +810,22 @@
     "hint": "Dùng 是……的 để nói đã ra từ cửa nào, rồi thêm lý do: 导航不太准确."
    },
    {
-    "ai": "没关系，你离公司不远。你顺着这条路一直往前走，走到第二个红绿灯往左走。",
-    "py": "Méi guānxi, nǐ lí gōngsī bù yuǎn. Nǐ shùnzhe zhè tiáo lù yìzhí wǎng qián zǒu, zǒu dào dì èr ge hónglǜdēng wǎng zuǒ zǒu.",
+    "ai": "没关系，你离公司不远。你顺着这条路一直向前走，走到第二个红绿灯向左走。",
+    "py": "Méi guānxi, nǐ lí gōngsī bù yuǎn. Nǐ shùnzhe zhè tiáo lù yìzhí xiàng qián zǒu, zǒu dào dì èr ge hónglǜdēng xiàng zuǒ zǒu.",
     "vi": "Không sao, bạn cách công ty không xa. Bạn men theo đường này đi thẳng, đến đèn giao thông thứ hai thì rẽ trái.",
     "en": "No problem, you're not far. Follow this road straight ahead and turn left at the second traffic light.",
-    "model": "好的，顺着这条路一直走，到第二个红绿灯往左走，对吗？",
-    "mpy": "Hǎo de, shùnzhe zhè tiáo lù yìzhí zǒu, dào dì èr ge hónglǜdēng wǎng zuǒ zǒu, duì ma?",
+    "model": "好的，顺着这条路一直走，到第二个红绿灯向左走，对吗？",
+    "mpy": "Hǎo de, shùnzhe zhè tiáo lù yìzhí zǒu, dào dì èr ge hónglǜdēng xiàng zuǒ zǒu, duì ma?",
     "men": "OK, follow this road and turn left at the second traffic light, right?",
     "accept": [
-     "好的，顺着这条路一直走，到第二个红绿灯往左走，对吗？",
-     "顺着这条路一直走，到第二个红绿灯往左走，对吗？",
-     "到第二个红绿灯往左走，对吗？",
+     "好的，顺着这条路一直走，到第二个红绿灯向左走，对吗？",
+     "顺着这条路一直走，到第二个红绿灯向左走，对吗？",
+     "到第二个红绿灯向左走，对吗？",
      "shunzhezhetiaoluyizhizou",
      "daodiergehonglvdengwangzuozou"
     ],
-    "frame": "好的，___这条路一直走，到第二个红绿灯往___走，对吗？",
-    "hint": "Nhắc lại đường đi để chắc chắn: 顺着……一直走，到……往左走, cuối câu thêm 对吗？"
+    "frame": "好的，___这条路一直走，到第二个红绿灯向___走，对吗？",
+    "hint": "Nhắc lại đường đi để chắc chắn: 顺着……一直走，到……向左走, cuối câu thêm 对吗？"
    },
    {
     "ai": "对。如果你还是找不到的话，就再给我打电话，我下去接你。",
@@ -850,8 +850,8 @@
  },
  "reading": {
   "title": "Hướng dẫn đường đến công ty cho nhân viên mới",
-  "text": "欢迎新同事！我们公司的地址是南京西路一百二十号，在一个大楼的十五层。上海的交通很方便，我们觉得坐地铁来最好，因为早上路上经常堵车，打车不一定比地铁快。坐地铁的话，请在南京西路站下车，从三号出口出来。出来以后，顺着马路一直往前走，走到第二个红绿灯往左走，再走两百米，就能看见我们的大楼了，大楼旁边有一家银行。从地铁站到公司的距离差不多五百米，走路十分钟就到。手机导航有时候不太准确，如果你迷路的话，就给王丽打电话。",
-  "py": "Huānyíng xīn tóngshì! Wǒmen gōngsī de dìzhǐ shì Nánjīng Xī Lù yìbǎi èrshí hào, zài yí ge dàlóu de shíwǔ céng. Shànghǎi de jiāotōng hěn fāngbiàn, wǒmen juéde zuò dìtiě lái zuì hǎo, yīnwèi zǎoshang lù shang jīngcháng dǔchē, dǎchē bù yídìng bǐ dìtiě kuài. Zuò dìtiě de huà, qǐng zài Nánjīng Xī Lù zhàn xià chē, cóng sān hào chūkǒu chūlai. Chūlai yǐhòu, shùnzhe mǎlù yìzhí wǎng qián zǒu, zǒu dào dì èr ge hónglǜdēng wǎng zuǒ zǒu, zài zǒu liǎngbǎi mǐ, jiù néng kànjiàn wǒmen de dàlóu le, dàlóu pángbiān yǒu yì jiā yínháng. Cóng dìtiě zhàn dào gōngsī de jùlí chàbuduō wǔbǎi mǐ, zǒulù shí fēnzhōng jiù dào. Shǒujī dǎoháng yǒu shíhou bú tài zhǔnquè, rúguǒ nǐ mílù de huà, jiù gěi Wáng Lì dǎ diànhuà.",
+  "text": "欢迎新同事！我们公司的地址是南京西路一百二十号，在一个大楼的十五层。上海的交通很方便，我们觉得坐地铁来最好，因为早上路上经常堵车，打车不一定比地铁快。坐地铁的话，请在南京西路站下车，从三号出口出来。出来以后，顺着马路一直向前走，走到第二个红绿灯向左走，再走两百米，就能看见我们的大楼了，大楼旁边有一家银行。从地铁站到公司的距离差不多五百米，走路十分钟就到。手机导航有时候不太准确，如果你迷路的话，就给王丽打电话。",
+  "py": "Huānyíng xīn tóngshì! Wǒmen gōngsī de dìzhǐ shì Nánjīng Xī Lù yìbǎi èrshí hào, zài yí ge dàlóu de shíwǔ céng. Shànghǎi de jiāotōng hěn fāngbiàn, wǒmen juéde zuò dìtiě lái zuì hǎo, yīnwèi zǎoshang lù shang jīngcháng dǔchē, dǎchē bù yídìng bǐ dìtiě kuài. Zuò dìtiě de huà, qǐng zài Nánjīng Xī Lù zhàn xià chē, cóng sān hào chūkǒu chūlai. Chūlai yǐhòu, shùnzhe mǎlù yìzhí xiàng qián zǒu, zǒu dào dì èr ge hónglǜdēng xiàng zuǒ zǒu, zài zǒu liǎngbǎi mǐ, jiù néng kànjiàn wǒmen de dàlóu le, dàlóu pángbiān yǒu yì jiā yínháng. Cóng dìtiě zhàn dào gōngsī de jùlí chàbuduō wǔbǎi mǐ, zǒulù shí fēnzhōng jiù dào. Shǒujī dǎoháng yǒu shíhou bú tài zhǔnquè, rúguǒ nǐ mílù de huà, jiù gěi Wáng Lì dǎ diànhuà.",
   "en": "Welcome, new colleagues! Our company's address is No. 120 West Nanjing Road, on the 15th floor of an office building. Getting around Shanghai is easy, and we think the metro is the best way to come, because the roads are often jammed in the morning and a taxi isn't necessarily faster. By metro, get off at West Nanjing Road station and leave by Exit 3. Then follow the road straight ahead, turn left at the second traffic light, walk another two hundred metres, and you'll see our building, with a bank next to it. The distance from the station to the office is about five hundred metres, a ten-minute walk. Phone navigation is sometimes inaccurate; if you get lost, call Wang Li.",
   "vi": "Chào mừng đồng nghiệp mới! Địa chỉ công ty chúng ta là số 120 đường Nam Kinh Tây, ở tầng 15 của một tòa nhà. Giao thông Thượng Hải rất tiện, chúng tôi thấy đi tàu điện ngầm là tốt nhất, vì buổi sáng đường hay tắc, đi taxi chưa chắc đã nhanh hơn tàu điện. Nếu đi tàu điện, hãy xuống ở ga Nam Kinh Tây, ra cửa số 3. Ra rồi, men theo đường đi thẳng, đến đèn giao thông thứ hai rẽ trái, đi thêm hai trăm mét là thấy tòa nhà của chúng ta, bên cạnh tòa nhà có một ngân hàng. Khoảng cách từ ga đến công ty khoảng năm trăm mét, đi bộ mười phút là tới. Định vị trên điện thoại đôi khi không chính xác; nếu bị lạc, hãy gọi cho Vương Lệ.",
   "qs": [
@@ -1042,8 +1042,8 @@
    "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
    "tokens": [
     "你从三号出口出来以后，",
-    "顺着马路一直往前走，",
-    "走到第二个红绿灯往左走，",
+    "顺着马路一直向前走，",
+    "走到第二个红绿灯向左走，",
     "就能看见我们公司了。"
    ],
    "explain": "Các bước chỉ đường đi theo thứ tự thời gian: ra khỏi cửa ga (出来以后) → men theo đường đi thẳng → rẽ trái ở đèn thứ hai → 就能看见 là kết quả cuối cùng.",
@@ -1089,8 +1089,8 @@
    },
    {
     "who": "王丽",
-    "t": "出来以后，顺着马路一直往前走，走到第二个红绿灯往左走。",
-    "py": "Chūlai yǐhòu, shùnzhe mǎlù yìzhí wǎng qián zǒu, zǒu dào dì èr ge hónglǜdēng wǎng zuǒ zǒu.",
+    "t": "出来以后，顺着马路一直向前走，走到第二个红绿灯向左走。",
+    "py": "Chūlai yǐhòu, shùnzhe mǎlù yìzhí xiàng qián zǒu, zǒu dào dì èr ge hónglǜdēng xiàng zuǒ zǒu.",
     "vi": "Ra rồi, men theo đường đi thẳng, đến đèn giao thông thứ hai thì rẽ trái.",
     "en": "Then follow the road straight ahead and turn left at the second traffic light."
    },
@@ -1210,7 +1210,7 @@
   "cuePy": "Qǐng nǐ yòng yì fēnzhōng gàosu xīn tóngshì, zěnme cóng zuì jìn de dìtiě zhàn zǒu dào nǐmen gōngsī huòzhě nǐ jiā.",
   "points": [
    "在哪个地铁站下车？从几号出口出来？",
-   "出来以后往哪个方向走？",
+   "出来以后向哪个方向走？",
    "路上能看见什么？",
    "距离多远？要走多长时间？"
   ],
@@ -1225,13 +1225,13 @@
    60,
    120
   ],
-  "model": "欢迎你来我们公司！我们公司的地址是南京西路一百二十号。你坐地铁的话，在南京西路站下车，从三号出口出来。出来以后，顺着马路一直往前走，你会看见一家咖啡馆。走到第二个红绿灯往左走，就能看见我们的大楼了，旁边有一家银行。从地铁站到公司的距离不远，走路十分钟就到。早上经常堵车，最好别打车。如果你迷路的话，就给我打电话。",
-  "modelPy": "Huānyíng nǐ lái wǒmen gōngsī! Wǒmen gōngsī de dìzhǐ shì Nánjīng Xī Lù yìbǎi èrshí hào. Nǐ zuò dìtiě de huà, zài Nánjīng Xī Lù zhàn xià chē, cóng sān hào chūkǒu chūlai. Chūlai yǐhòu, shùnzhe mǎlù yìzhí wǎng qián zǒu, nǐ huì kànjiàn yì jiā kāfēiguǎn. Zǒu dào dì èr ge hónglǜdēng wǎng zuǒ zǒu, jiù néng kànjiàn wǒmen de dàlóu le, pángbiān yǒu yì jiā yínháng. Cóng dìtiě zhàn dào gōngsī de jùlí bù yuǎn, zǒulù shí fēnzhōng jiù dào. Zǎoshang jīngcháng dǔchē, zuì hǎo bié dǎchē. Rúguǒ nǐ mílù de huà, jiù gěi wǒ dǎ diànhuà.",
-  "modelVi": "Chào mừng bạn đến công ty chúng tôi! Địa chỉ công ty là số 120 đường Nam Kinh Tây. Nếu đi tàu điện ngầm, bạn xuống ở ga Nam Kinh Tây, ra cửa số ba. Ra rồi, men theo đường đi thẳng, bạn sẽ thấy một quán cà phê. Đến đèn giao thông thứ hai rẽ trái là thấy tòa nhà của chúng tôi, bên cạnh có một ngân hàng. Từ ga đến công ty không xa, đi bộ mười phút là tới. Buổi sáng hay tắc đường, tốt nhất đừng đi taxi. Nếu bị lạc thì gọi điện cho tôi.",
+  "model": "我们公司的地址是南京西路一百二十号。你坐地铁的话，在南京西路站下车，从三号出口出来。出来以后，顺着马路一直向前走，你会看见一家咖啡馆。走到第二个红绿灯向左走，就能看见我们的大楼了，旁边有一家银行。从地铁站到公司的距离不远，走路十分钟就到。早上经常堵车，别打车。如果你迷路的话，就给我打电话。",
+  "modelPy": "Wǒmen gōngsī de dìzhǐ shì Nánjīng Xī Lù yìbǎi èrshí hào. Nǐ zuò dìtiě de huà, zài Nánjīng Xī Lù zhàn xià chē, cóng sān hào chūkǒu chūlai. Chūlai yǐhòu, shùnzhe mǎlù yìzhí xiàng qián zǒu, nǐ huì kànjiàn yì jiā kāfēiguǎn. Zǒu dào dì èr ge hónglǜdēng xiàng zuǒ zǒu, jiù néng kànjiàn wǒmen de dàlóu le, pángbiān yǒu yì jiā yínháng. Cóng dìtiě zhàn dào gōngsī de jùlí bù yuǎn, zǒulù shí fēnzhōng jiù dào. Zǎoshang jīngcháng dǔchē, bié dǎchē. Rúguǒ nǐ mílù de huà, jiù gěi wǒ dǎ diànhuà.",
+  "modelVi": "Địa chỉ công ty là số 120 đường Nam Kinh Tây. Nếu đi tàu điện ngầm, bạn xuống ở ga Nam Kinh Tây, ra cửa số ba. Ra rồi, men theo đường đi thẳng, bạn sẽ thấy một quán cà phê. Đến đèn giao thông thứ hai rẽ trái là thấy tòa nhà của chúng tôi, bên cạnh có một ngân hàng. Từ ga đến công ty không xa, đi bộ mười phút là tới. Buổi sáng hay tắc đường, đừng đi taxi. Nếu bị lạc thì gọi điện cho tôi.",
   "useful": [
    "在……站下车，从……号出口出来",
-   "顺着马路一直往前走",
-   "走到第……个红绿灯往左 / 右走",
+   "顺着马路一直向前走",
+   "走到第……个红绿灯向左 / 右走",
    "你会看见……，旁边有……",
    "从……到……的距离差不多……",
    "走路……分钟就到",
@@ -1240,7 +1240,7 @@
   "check": [
    "Nói đủ 4 ý: ga và cửa ra, hướng đi, mốc trên đường, khoảng cách và thời gian",
    "Có ít nhất 2 mốc dễ nhận ra (银行, 咖啡馆, 红绿灯…)",
-   "Dùng 顺着……一直往前走 (shùnzhe… yìzhí wǎng qián zǒu)",
+   "Dùng 顺着……一直向前走 (shùnzhe… yìzhí xiàng qián zǒu)",
    "Có 1 câu 如果……的话，就……",
    "Dùng ít nhất 3 từ mới hôm nay (地址, 距离, 堵车, 迷路, 方向…)",
    "Nói liền mạch được ít nhất 1 phút"
@@ -1249,8 +1249,8 @@
  "write": {
   "task": "Viết tin nhắn chỉ đường gửi 李先生 (Lǐ xiānsheng), một khách hàng sắp đến công ty: địa chỉ, xuống ga nào, ra cửa nào, đi thế nào có mốc, tầng mấy, nên đi bằng gì, và làm gì nếu không tìm thấy.",
   "kind": "message",
-  "model": "李先生好！公司的地址是南京西路一百二十号。您在南京西路站下车，从三号出口出来，顺着马路往前走，到第二个红绿灯往左走，就能看见大楼了，旁边有一家银行。我们在十五层。早上经常堵车，最好坐地铁。如果找不到的话，就给我打电话。阮安",
-  "frame": "李先生好！公司的___是南京西路一百二十号。您在南京西路站下车，从三号出口出来，___马路往前走，到第二个红绿灯往左走，就能看见大楼了，___有一家银行。我们在十五层。早上经常___，最好坐地铁。___找不到的话，___给我打电话。阮安",
+  "model": "李先生好！公司的地址是南京西路一百二十号。您在南京西路站下车，从三号出口出来，顺着马路向前走，到第二个红绿灯向左走，就能看见大楼了，旁边有一家银行。我们在十五层。早上经常堵车，最好坐地铁。如果找不到的话，就给我打电话。阮安",
+  "frame": "李先生好！公司的___是南京西路一百二十号。您在南京西路站下车，从三号出口出来，___马路向前走，到第二个红绿灯向左走，就能看见大楼了，___有一家银行。我们在十五层。早上经常___，最好坐地铁。___找不到的话，___给我打电话。阮安",
   "gaps": [
    "地址",
    "顺着",
@@ -1269,7 +1269,7 @@
   ],
   "hints": [
    "Mở đầu: 李先生好！公司的地址是……",
-   "Các bước: 在……站下车，从……号出口出来，顺着……一直往前走",
+   "Các bước: 在……站下车，从……号出口出来，顺着……一直向前走",
    "Mốc dễ thấy: ……旁边有一家银行",
    "Lời khuyên: 早上经常堵车，最好坐地铁",
    "Kết: 如果找不到的话，就给我打电话 rồi ký tên"

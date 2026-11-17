@@ -13,7 +13,7 @@ gloss = json.load(open(os.path.join(V, "zh-gloss.json"), encoding="utf-8"))
 def known_base():
     k = set()
     for x in json.load(open(os.path.join(D, "known-hsk3.json"), encoding="utf-8"))["words"]: k |= set(H(x["w"]))
-    for f in glob.glob(os.path.join(D, "zh-w*.json")):
+    for f in glob.glob(os.path.join(D, "zh-w*.json")) + glob.glob(os.path.join(D, "zh-h2-*.json")):   # người học HSK4 đã biết thẻ của các tuần thấp hơn
         for d in json.load(open(f, encoding="utf-8"))["days"]:
             for c in d["cards"]: k |= set(H(c["w"]))
     kb = json.load(open(os.path.join(D, "known-before.json"), encoding="utf-8"))

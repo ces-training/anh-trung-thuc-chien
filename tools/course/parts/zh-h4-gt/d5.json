@@ -1,0 +1,1411 @@
+{
+ "id": "h4gt-thu-6",
+ "label": "Thứ 6",
+ "title": "Xin nghỉ phép về ăn Tết, bàn giao việc, chúc Tết",
+ "desc": "Tết sắp đến. 阮安 (Ruǎn Ān) vào phòng 王经理 (Wáng jīnglǐ) xin nghỉ thêm hai ngày để về Việt Nam đoàn tụ với gia đình: nói thời gian, lý do, ai làm thay, bàn giao việc cho 王丽 (Wáng Lì), rồi chúc Tết quản lý và đồng nghiệp.",
+ "rule": "Giải thích lý do khéo léo: 不是 A，而是 B (không phải A mà là B), dùng để gỡ hiểu lầm (不是我不想上班，而是……). Nói 'bất kể lúc nào / ai / ở đâu': từ để hỏi + 都 (什么时候都可以, 谁都想回家). Bàn giao, nhờ làm thay: 把 + việc + 交给 + người + 负责; 请 / 让 + người + 代替 + 我 + V.",
+ "cards": [
+  {
+   "w": "请假",
+   "py": "qǐngjià",
+   "m": "xin nghỉ (phép)",
+   "mEn": "to ask for leave",
+   "ex": "我想跟您请两天假，回越南过春节。",
+   "expy": "Wǒ xiǎng gēn nín qǐng liǎng tiān jià, huí Yuènán guò Chūnjié.",
+   "exm": "Tôi muốn xin anh nghỉ hai ngày để về Việt Nam ăn Tết.",
+   "exEn": "I'd like to ask you for two days off to go back to Vietnam for the New Year.",
+   "n": "请假 là động từ ly hợp: số ngày chen vào giữa: 请两天假, 请一个星期假. Xin ai: 跟 + người + 请假. 假 ở đây đọc jià (thanh 4).",
+   "img": "calendar"
+  },
+  {
+   "w": "假期",
+   "py": "jiàqī",
+   "m": "kỳ nghỉ",
+   "mEn": "holiday, vacation",
+   "ex": "公司春节的假期是七天。",
+   "expy": "Gōngsī Chūnjié de jiàqī shì qī tiān.",
+   "exm": "Kỳ nghỉ Tết của công ty là bảy ngày.",
+   "exEn": "The company's Spring Festival holiday is seven days.",
+   "n": "Hán Việt 'giả kỳ': khoảng thời gian được nghỉ. Hỏi: 假期有几天？ / 假期你去哪儿？ jià thanh 4, qī thanh 1."
+  },
+  {
+   "w": "节日",
+   "py": "jiérì",
+   "m": "ngày lễ, ngày tết",
+   "mEn": "festival, holiday",
+   "ex": "春节是中国和越南最重要的节日。",
+   "expy": "Chūnjié shì Zhōngguó hé Yuènán zuì zhòngyào de jiérì.",
+   "exm": "Tết là ngày lễ quan trọng nhất của Trung Quốc và Việt Nam.",
+   "exEn": "The Spring Festival is the most important festival in China and Vietnam.",
+   "n": "Hán Việt 'tiết nhật'. 节日 là ngày lễ; 假期 là khoảng thời gian được nghỉ. Chúc: 节日快乐！ jié thanh 2, rì: r cong lưỡi.",
+   "img": "newyear"
+  },
+  {
+   "w": "传统",
+   "py": "chuántǒng",
+   "m": "truyền thống",
+   "mEn": "tradition; traditional",
+   "ex": "春节是越南最重要的传统节日。",
+   "expy": "Chūnjié shì Yuènán zuì zhòngyào de chuántǒng jiérì.",
+   "exm": "Tết là ngày lễ truyền thống quan trọng nhất của Việt Nam.",
+   "exEn": "The Lunar New Year is Vietnam's most important traditional festival.",
+   "n": "Hán Việt 'truyền thống', nghĩa như tiếng Việt; vừa là danh từ vừa đứng trước danh từ khác: 传统节日, 传统菜. chuán cong lưỡi, bật hơi; tǒng thanh 3."
+  },
+  {
+   "w": "热闹",
+   "py": "rènao",
+   "m": "náo nhiệt, đông vui",
+   "mEn": "lively, bustling",
+   "ex": "春节的时候，街上非常热闹。",
+   "expy": "Chūnjié de shíhou, jiē shang fēicháng rènao.",
+   "exm": "Dịp Tết, ngoài phố rất náo nhiệt.",
+   "exEn": "During the Spring Festival the streets are very lively.",
+   "n": "Tả nơi chốn, không khí đông người, vui vẻ. 闹 đọc nhẹ: rènao. Khác 热情 (rèqíng) = nhiệt tình (tả người)."
+  },
+  {
+   "w": "拜年",
+   "py": "bàinián",
+   "m": "chúc Tết, đi chúc Tết",
+   "mEn": "to pay a New Year visit, to give New Year greetings",
+   "ex": "新年第一天，我们去给爷爷奶奶拜年。",
+   "expy": "Xīnnián dì yī tiān, wǒmen qù gěi yéye nǎinai bàinián.",
+   "exm": "Ngày đầu năm mới, chúng tôi đi chúc Tết ông bà.",
+   "exEn": "On the first day of the New Year we go to give our grandparents New Year greetings.",
+   "n": "Chúc Tết ai: 给 + người + 拜年 (không nói 拜年 + người). 拜 = lạy, vái; 年 = năm. bài thanh 4, nián thanh 2."
+  },
+  {
+   "w": "团圆",
+   "py": "tuányuán",
+   "m": "đoàn tụ, sum họp",
+   "mEn": "to reunite (as a family)",
+   "ex": "春节的时候，家人都想回家团圆。",
+   "expy": "Chūnjié de shíhou, jiārén dōu xiǎng huí jiā tuányuán.",
+   "exm": "Dịp Tết, người trong nhà ai cũng muốn về đoàn tụ.",
+   "exEn": "At the Spring Festival every family wants to be together.",
+   "n": "Hán Việt 'đoàn viên'. Hay dùng cho gia đình: 跟家人团圆. Hai thanh 2 liền nhau: tuán và yuán đều đi lên; yuán: môi tròn như ü."
+  },
+  {
+   "w": "代替",
+   "py": "dàitì",
+   "m": "thay, thay thế (làm thay ai)",
+   "mEn": "to replace, to stand in for",
+   "ex": "下个星期的会议，王丽代替我参加。",
+   "expy": "Xià ge xīngqī de huìyì, Wáng Lì dàitì wǒ cānjiā.",
+   "exm": "Cuộc họp tuần sau, Vương Lệ sẽ đi thay tôi.",
+   "exEn": "Wang Li will attend next week's meeting in my place.",
+   "n": "Hán Việt 'đại thế'. Mẫu: A 代替 B + V (A làm thay B). Hai thanh 4 liền nhau: dài và tì đều rơi dứt khoát.",
+   "img": "colleague"
+  },
+  {
+   "w": "互相",
+   "py": "hùxiāng",
+   "m": "lẫn nhau, với nhau",
+   "mEn": "each other, mutually",
+   "ex": "新年的时候，同事们互相拜年。",
+   "expy": "Xīnnián de shíhou, tóngshìmen hùxiāng bàinián.",
+   "exm": "Dịp năm mới, đồng nghiệp chúc Tết lẫn nhau.",
+   "exEn": "At New Year colleagues exchange greetings with each other.",
+   "n": "Hán Việt 'hỗ tương'. 互相 + động từ: 互相帮助, 互相拜年 (A làm với B và B làm với A). Khác 一起 (yìqǐ) = cùng nhau làm một việc."
+  },
+  {
+   "w": "来不及",
+   "py": "láibují",
+   "m": "không kịp",
+   "mEn": "to not have enough time, too late",
+   "ex": "机票要早点儿买，不然就来不及了。",
+   "expy": "Jīpiào yào zǎo diǎnr mǎi, bùrán jiù láibují le.",
+   "exm": "Vé máy bay phải mua sớm, không thì không kịp.",
+   "exEn": "Buy your plane ticket early, or it'll be too late.",
+   "n": "Ngược nghĩa: 来得及 (láidejí) = còn kịp. 来不及 + V: 来不及做完 (không kịp làm xong). 不 đọc nhẹ bu ở giữa."
+  },
+  {
+   "w": "交接",
+   "py": "jiāojiē",
+   "m": "bàn giao",
+   "mEn": "to hand over (work)",
+   "ex": "走以前，我要跟王丽交接好工作。",
+   "expy": "Zǒu yǐqián, wǒ yào gēn Wáng Lì jiāojiē hǎo gōngzuò.",
+   "exm": "Trước khi đi, tôi phải bàn giao xong công việc cho Vương Lệ.",
+   "exEn": "Before I leave, I need to hand over my work to Wang Li.",
+   "n": "交 = giao, 接 = nhận: người giao, người nhận. Mẫu: 跟 + người + 交接 + 工作. Hai thanh 1 liền nhau: jiāo và jiē đều giữ cao.",
+   "img": "checklist"
+  }
+ ],
+ "scene": {
+  "setting": "Chiều thứ Sáu, ba tuần trước Tết. 阮安 (Ruǎn Ān) gõ cửa phòng 王经理 (Wáng jīnglǐ) để xin nghỉ thêm hai ngày, về Việt Nam ăn Tết, và trình bày kế hoạch bàn giao việc cho 王丽 (Wáng Lì).",
+  "img": "scene-zh-leave-gt",
+  "imgPrompt": "Realistic photo of a manager's office in Shanghai decorated for Chinese New Year with red lanterns and a small yellow flower plant; an (Vietnamese young woman about 22, long straight black hair with a center part and wispy bangs, cobalt blue blouse) sits across the desk holding a blank printed calendar and speaks politely; wangjl (Chinese man about 50, short greying hair, dark navy suit, red tie, rimless glasses) listens and nods with a warm smile; through the glass wall wangli (Chinese young woman about 22, chin-length glossy black bob with blunt bangs, red knit sweater) works at her desk; no readable text",
+  "lines": [
+   {
+    "who": "阮安",
+    "t": "王经理，您现在有时间吗？我想跟您请几天假。",
+    "py": "Wáng jīnglǐ, nín xiànzài yǒu shíjiān ma? Wǒ xiǎng gēn nín qǐng jǐ tiān jià.",
+    "vi": "Anh Vương, bây giờ anh có thời gian không ạ? Em muốn xin anh nghỉ vài ngày.",
+    "en": "Mr Wang, do you have a moment? I'd like to ask for a few days off."
+   },
+   {
+    "who": "王经理",
+    "t": "有，你坐吧。你想什么时候请假？",
+    "py": "Yǒu, nǐ zuò ba. Nǐ xiǎng shénme shíhou qǐngjià?",
+    "vi": "Có, em ngồi đi. Em muốn nghỉ khi nào?",
+    "en": "Sure, have a seat. When would you like the leave?"
+   },
+   {
+    "who": "阮安",
+    "t": "春节快到了。我想从二月十二号到二月二十号回越南过年。",
+    "py": "Chūnjié kuài dào le. Wǒ xiǎng cóng èr yuè shí'èr hào dào èr yuè èrshí hào huí Yuènán guònián.",
+    "vi": "Sắp Tết rồi ạ. Em muốn về Việt Nam ăn Tết từ ngày 12 đến ngày 20 tháng 2.",
+    "en": "The Spring Festival is coming. I'd like to go back to Vietnam for the New Year from 12 to 20 February."
+   },
+   {
+    "who": "王经理",
+    "t": "公司春节的假期是七天，那你要多请两天假，对吗？",
+    "py": "Gōngsī Chūnjié de jiàqī shì qī tiān, nà nǐ yào duō qǐng liǎng tiān jià, duì ma?",
+    "vi": "Kỳ nghỉ Tết của công ty là bảy ngày, vậy em phải xin thêm hai ngày, đúng không?",
+    "en": "The company's holiday is seven days, so you'd need two extra days, right?"
+   },
+   {
+    "who": "阮安",
+    "t": "对。不是我不想在上海过年，而是春节是越南最重要的传统节日，家人都等我回去团圆。",
+    "py": "Duì. Bú shì wǒ bù xiǎng zài Shànghǎi guònián, ér shì Chūnjié shì Yuènán zuì zhòngyào de chuántǒng jiérì, jiārén dōu děng wǒ huíqu tuányuán.",
+    "vi": "Đúng ạ. Không phải em không muốn ăn Tết ở Thượng Hải, mà là Tết là ngày lễ truyền thống quan trọng nhất của Việt Nam, cả nhà đều đợi em về đoàn tụ.",
+    "en": "Yes. It's not that I don't want to spend the New Year in Shanghai; it's that this is Vietnam's most important traditional festival and my family is waiting for me to come home."
+   },
+   {
+    "who": "王经理",
+    "t": "我明白。春节的时候，谁都想回家。你走了以后，你的工作怎么办？",
+    "py": "Wǒ míngbai. Chūnjié de shíhou, shéi dōu xiǎng huí jiā. Nǐ zǒu le yǐhòu, nǐ de gōngzuò zěnme bàn?",
+    "vi": "Tôi hiểu. Dịp Tết ai cũng muốn về nhà. Em đi rồi thì công việc của em tính sao?",
+    "en": "I understand. Everyone wants to go home at the Spring Festival. What about your work while you're away?"
+   },
+   {
+    "who": "阮安",
+    "t": "我想把越南顾客的工作交给王丽负责。走以前，我会跟她交接好。",
+    "py": "Wǒ xiǎng bǎ Yuènán gùkè de gōngzuò jiāo gěi Wáng Lì fùzé. Zǒu yǐqián, wǒ huì gēn tā jiāojiē hǎo.",
+    "vi": "Em định giao việc khách hàng Việt Nam cho Vương Lệ phụ trách. Trước khi đi, em sẽ bàn giao kỹ với cô ấy.",
+    "en": "I'd like to hand the Vietnamese customers over to Wang Li. I'll do a full handover with her before I leave."
+   },
+   {
+    "who": "王经理",
+    "t": "好。下个星期的会议呢？",
+    "py": "Hǎo. Xià ge xīngqī de huìyì ne?",
+    "vi": "Được. Còn cuộc họp tuần sau?",
+    "en": "Good. And next week's meeting?"
+   },
+   {
+    "who": "阮安",
+    "t": "我请王丽代替我参加。如果有急事，什么时候都可以给我打电话。",
+    "py": "Wǒ qǐng Wáng Lì dàitì wǒ cānjiā. Rúguǒ yǒu jíshì, shénme shíhou dōu kěyǐ gěi wǒ dǎ diànhuà.",
+    "vi": "Em nhờ Vương Lệ đi họp thay em. Nếu có việc gấp, lúc nào anh cũng có thể gọi điện cho em.",
+    "en": "I've asked Wang Li to attend in my place. If anything urgent comes up, you can call me any time."
+   },
+   {
+    "who": "王经理",
+    "t": "没问题，我同意了。机票要早点儿买，不然就来不及了。提前祝你春节快乐！",
+    "py": "Méi wèntí, wǒ tóngyì le. Jīpiào yào zǎo diǎnr mǎi, bùrán jiù láibují le. Tíqián zhù nǐ Chūnjié kuàilè!",
+    "vi": "Không vấn đề gì, tôi đồng ý. Vé máy bay phải mua sớm, không thì không kịp. Chúc em ăn Tết vui vẻ trước nhé!",
+    "en": "No problem, approved. Buy your plane ticket early, or it'll be too late. Happy Spring Festival in advance!"
+   }
+  ]
+ },
+ "patterns": [
+  {
+   "t": "Không phải A mà là B: 不是 A，而是 B",
+   "f": [
+    [
+     "不是",
+     "我不想上班，",
+     "而是",
+     "家人都等我回去"
+    ],
+    [
+     "我",
+     "不是",
+     "要休息，",
+     "而是要回家团圆"
+    ]
+   ],
+   "ex": [
+    [
+     "不是我不想在上海过年，而是家人都等我回去。",
+     "Không phải tôi không muốn ăn Tết ở Thượng Hải, mà là cả nhà đều đợi tôi về.",
+     "It's not that I don't want to spend New Year in Shanghai; my family is waiting for me."
+    ],
+    [
+     "我请假不是想休息，而是想回家跟家人团圆。",
+     "Tôi xin nghỉ không phải để nghỉ ngơi, mà là muốn về đoàn tụ với gia đình.",
+     "I'm not asking for leave to rest, but to be with my family."
+    ]
+   ],
+   "bad": "不是我不想在上海过年，但是家人都等我回去。",
+   "good": "不是我不想在上海过年，而是家人都等我回去。",
+   "why": "不是 (bú shì) đi với 而是 (ér shì): phủ nhận A để nêu lý do thật B. 但是 (dànshì) dùng cho ý trái ngược, không đi với 不是 để sửa lại ý. Mẫu này giúp giải thích lịch sự, tránh để quản lý hiểu lầm."
+  },
+  {
+   "t": "Bất kể…: từ để hỏi + 都",
+   "f": [
+    [
+     "有急事的话，",
+     "什么时候",
+     "都",
+     "可以给我打电话"
+    ],
+    [
+     "春节的时候，",
+     "谁",
+     "都",
+     "想回家"
+    ]
+   ],
+   "ex": [
+    [
+     "如果有急事，什么时候都可以给我打电话。",
+     "Nếu có việc gấp, lúc nào cũng có thể gọi cho tôi.",
+     "If anything urgent comes up, you can call me any time."
+    ],
+    [
+     "春节的时候，哪儿都很热闹。",
+     "Dịp Tết, ở đâu cũng náo nhiệt.",
+     "During the Spring Festival, everywhere is lively."
+    ]
+   ],
+   "bad": "春节的时候，都谁想回家。",
+   "good": "春节的时候，谁都想回家。",
+   "why": "Từ để hỏi (谁, 什么时候, 哪儿…) ở đây không dùng để hỏi mà mang nghĩa 'bất kỳ': nó đứng TRƯỚC, 都 (dōu) đứng ngay SAU nó, rồi mới đến động từ. Mẫu này gần nghĩa với 无论……都…… ở HSK4."
+  },
+  {
+   "t": "Bàn giao, nhờ làm thay: 把 + việc + 交给 + người + 负责 / 请 + người + 代替 + 我 + V",
+   "f": [
+    [
+     "我",
+     "把越南顾客的工作",
+     "交给王丽",
+     "负责"
+    ],
+    [
+     "我",
+     "请王丽",
+     "代替我",
+     "参加会议"
+    ]
+   ],
+   "ex": [
+    [
+     "我想把越南顾客的工作交给王丽负责。",
+     "Tôi định giao việc khách hàng Việt Nam cho Vương Lệ phụ trách.",
+     "I'd like to hand the Vietnamese customers over to Wang Li."
+    ],
+    [
+     "下个星期的会议，我请王丽代替我参加。",
+     "Cuộc họp tuần sau, tôi nhờ Vương Lệ đi thay.",
+     "I've asked Wang Li to attend next week's meeting in my place."
+    ]
+   ],
+   "bad": "我想交给王丽越南顾客的工作负责。",
+   "good": "我想把越南顾客的工作交给王丽负责。",
+   "why": "Việc được giao phải đưa lên trước bằng 把 (bǎ): 把 + việc + 交给 + người, rồi đến động từ 负责 (người đó phụ trách). 代替 (dàitì) đi theo trật tự A 代替 B + V: 王丽代替我参加."
+  }
+ ],
+ "vocab": [
+  {
+   "q": "请假 (qǐngjià) nghĩa là gì?",
+   "opts": [
+    "xin nghỉ phép",
+    "được nghỉ lễ",
+    "xin việc"
+   ],
+   "optsEn": [
+    "to ask for leave",
+    "to have a public holiday",
+    "to apply for a job"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Cả công ty, cả trường được nghỉ theo lịch là 放假 (fàngjià). 请假 là một người xin phép nghỉ.",
+    "2": "Xin việc là 应聘 (yìngpìn). 请 ở đây là xin, 假 là nghỉ."
+   }
+  },
+  {
+   "q": "Điền từ: 公司春节的___是七天。(Gōngsī Chūnjié de ___ shì qī tiān.)",
+   "opts": [
+    "假期",
+    "节日",
+    "传统"
+   ],
+   "a": 0,
+   "why": {
+    "1": "节日 (jiérì) là ngày lễ, không đo bằng 'bảy ngày' của công ty; khoảng thời gian được nghỉ là 假期.",
+    "2": "传统 (chuántǒng) là truyền thống, không có độ dài 'bảy ngày'."
+   }
+  },
+  {
+   "q": "Điền từ: 春节是越南最重要的___节日。(Chūnjié shì Yuènán zuì zhòngyào de ___ jiérì.)",
+   "opts": [
+    "传统",
+    "热闹",
+    "互相"
+   ],
+   "a": 0,
+   "why": {
+    "1": "热闹 (rènao) tả không khí, thường làm vị ngữ (街上很热闹), không ghép thẳng trước 节日 như 'loại ngày lễ'.",
+    "2": "互相 (hùxiāng) đứng trước động từ, không đứng trước danh từ 节日."
+   }
+  },
+  {
+   "q": "热闹 (rènao) nghĩa là gì?",
+   "opts": [
+    "náo nhiệt, đông vui",
+    "nóng nực",
+    "nhiệt tình"
+   ],
+   "optsEn": [
+    "lively, bustling",
+    "hot (weather)",
+    "warm-hearted"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Trời nóng là 热 (rè) hoặc 很热. 热闹 tả nơi đông người, vui vẻ.",
+    "2": "Nhiệt tình là 热情 (rèqíng), dùng cho người."
+   }
+  },
+  {
+   "q": "Điền từ: 新年第一天，大家都去给爷爷奶奶___。(Xīnnián dì yī tiān, dàjiā dōu qù gěi yéye nǎinai ___.)",
+   "opts": [
+    "拜年",
+    "请假",
+    "交接"
+   ],
+   "a": 0,
+   "why": {
+    "1": "请假 (qǐngjià) là xin nghỉ ở chỗ làm, không làm với ông bà ngày đầu năm.",
+    "2": "交接 (jiāojiē) là bàn giao công việc, không hợp với ông bà và ngày đầu năm."
+   }
+  },
+  {
+   "q": "Điền từ: 春节的时候，家人都想回家___。(Chūnjié de shíhou, jiārén dōu xiǎng huí jiā ___.)",
+   "opts": [
+    "团圆",
+    "代替",
+    "互相"
+   ],
+   "a": 0,
+   "why": {
+    "1": "代替 (dàitì) cần tân ngữ (代替我…), và 'về nhà thay thế' không có nghĩa.",
+    "2": "互相 (hùxiāng) phải đi với một động từ phía sau (互相拜年), không đứng cuối câu."
+   }
+  },
+  {
+   "q": "Điền từ: 现在才买机票，可能___了。(Xiànzài cái mǎi jīpiào, kěnéng ___ le.)",
+   "opts": [
+    "来不及",
+    "热闹",
+    "交接"
+   ],
+   "a": 0,
+   "why": {
+    "1": "热闹 (rènao) tả không khí, không hợp với việc mua vé muộn.",
+    "2": "交接 (jiāojiē) là bàn giao việc; câu nói mua vé muộn quá, nên là 来不及 (không kịp)."
+   }
+  },
+  {
+   "q": "Điền từ: 走以前，我要跟王丽___好工作。(Zǒu yǐqián, wǒ yào gēn Wáng Lì ___ hǎo gōngzuò.)",
+   "opts": [
+    "交接",
+    "拜年",
+    "团圆"
+   ],
+   "a": 0,
+   "why": {
+    "1": "拜年 (bàinián) không mang tân ngữ 工作; chúc Tết thì 给 + người + 拜年.",
+    "2": "团圆 (tuányuán) là đoàn tụ, không đi với 工作."
+   }
+  }
+ ],
+ "grammar": [
+  {
+   "q": "Câu nào đúng?",
+   "opts": [
+    "不是我不想在上海过年，而是家人都等我回去。",
+    "不是我不想在上海过年，但是家人都等我回去。",
+    "我不是不想在上海过年，而且家人都等我回去。"
+   ],
+   "a": 0,
+   "why": {
+    "1": "不是 đi với 而是, không đi với 但是.",
+    "2": "而且 (érqiě) = hơn nữa, thêm ý cùng chiều; cặp đúng là 不是……而是……"
+   }
+  },
+  {
+   "k": "type",
+   "q": "Điền từ: 不是我不想加班，___是我已经买了机票。(Bú shì wǒ bù xiǎng jiābān, ___ shì wǒ yǐjīng mǎi le jīpiào.)",
+   "model": "而",
+   "accept": [
+    "而",
+    "er"
+   ],
+   "why": "不是 A，而是 B: vế sau dùng 而是 (ér shì) để nêu lý do thật."
+  },
+  {
+   "q": "Điền từ: 有急事的话，什么时候___可以给我打电话。(Có việc gấp thì lúc nào cũng có thể gọi cho tôi.)",
+   "opts": [
+    "都",
+    "就",
+    "才"
+   ],
+   "a": 0,
+   "why": {
+    "1": "就 (jiù) nối điều kiện với kết quả, nhưng sau 什么时候 mang nghĩa 'bất kỳ lúc nào' phải dùng 都.",
+    "2": "才 (cái) nghĩa là 'mới', không đi với từ để hỏi để nói 'bất kỳ'."
+   }
+  },
+  {
+   "q": "Câu nào đúng?",
+   "opts": [
+    "春节的时候，谁都想回家。",
+    "春节的时候，都谁想回家。",
+    "春节的时候，谁想都回家。"
+   ],
+   "a": 0,
+   "why": {
+    "1": "都 phải đứng SAU từ để hỏi 谁, không đứng trước.",
+    "2": "都 phải đứng ngay sau 谁 và trước động từ 想."
+   }
+  },
+  {
+   "q": "Điền từ: 我想___越南顾客的工作交给王丽负责。(Wǒ xiǎng ___ Yuènán gùkè de gōngzuò jiāo gěi Wáng Lì fùzé.)",
+   "opts": [
+    "把",
+    "被",
+    "给"
+   ],
+   "a": 0,
+   "why": {
+    "1": "被 (bèi) dùng cho câu bị động (bị, được ai làm gì); ở đây chính bạn chủ động giao việc, nên dùng 把.",
+    "2": "给 (gěi) đã có trong 交给; trước việc được giao phải là 把."
+   }
+  },
+  {
+   "k": "type",
+   "q": "Sắp xếp thành câu: 代替 / 王丽 / 参加会议 / 我 (Vương Lệ đi họp thay tôi.)",
+   "model": "王丽代替我参加会议。",
+   "accept": [
+    "王丽代替我参加会议。",
+    "王丽代替我参加会议",
+    "wanglidaitiwocanjiahuiyi"
+   ],
+   "why": "A (王丽) + 代替 + B (我) + việc làm thay (参加会议)."
+  },
+  {
+   "q": "Điền từ: 机票要早点儿买，___就来不及了。(Vé máy bay phải mua sớm, không thì không kịp.)",
+   "opts": [
+    "不然",
+    "而且",
+    "所以"
+   ],
+   "a": 0,
+   "why": {
+    "1": "而且 (érqiě) thêm ý cùng chiều, không mang nghĩa 'nếu không thì'.",
+    "2": "所以 (suǒyǐ) nêu kết quả của một lý do; 'mua sớm, vì vậy không kịp' trái logic. 'Không thì' là 不然 (bùrán)."
+   }
+  }
+ ],
+ "listen": [
+  {
+   "q": "Người nói muốn nghỉ từ ngày nào đến ngày nào?",
+   "audio": "你想什么时候请假？——从二月十二号到二月二十号。",
+   "opts": [
+    "12/2 đến 20/2",
+    "12/2 đến 22/2",
+    "12/12 đến 20/12"
+   ],
+   "optsEn": [
+    "12 Feb to 20 Feb",
+    "12 Feb to 22 Feb",
+    "12 Dec to 20 Dec"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Ngày cuối là 二十号 (20), không phải 二十二号 (22).",
+    "2": "Tháng được nói là 二月 (tháng 2), không phải 十二月 (tháng 12)."
+   }
+  },
+  {
+   "q": "Kỳ nghỉ Tết của công ty mấy ngày?",
+   "audio": "公司春节的假期是七天。",
+   "opts": [
+    "7 ngày",
+    "9 ngày",
+    "2 ngày"
+   ],
+   "optsEn": [
+    "7 days",
+    "9 days",
+    "2 days"
+   ],
+   "a": 0,
+   "why": {
+    "1": "9 ngày là toàn bộ thời gian người nói muốn nghỉ (12 đến 20); kỳ nghỉ của công ty là 七天.",
+    "2": "2 ngày là số ngày xin thêm, không có trong câu này."
+   }
+  },
+  {
+   "q": "Ai sẽ phụ trách việc khách hàng Việt Nam?",
+   "audio": "我想把越南顾客的工作交给王丽负责。",
+   "opts": [
+    "Vương Lệ",
+    "quản lý Vương",
+    "người nói vẫn tự làm"
+   ],
+   "optsEn": [
+    "Wang Li",
+    "Mr Wang",
+    "the speaker herself"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Câu nói 交给王丽负责, không phải 王经理.",
+    "2": "Người nói GIAO việc đi (交给), không tự làm."
+   }
+  },
+  {
+   "q": "Vương Lệ sẽ làm gì?",
+   "audio": "下个星期的会议，我请王丽代替我参加。",
+   "opts": [
+    "đi họp thay người nói",
+    "mua vé máy bay giúp",
+    "cùng về Việt Nam"
+   ],
+   "optsEn": [
+    "attend the meeting in her place",
+    "buy the plane ticket for her",
+    "go to Vietnam with her"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Câu không nhắc 机票 (jīpiào); 王丽 đi họp thay (代替我参加).",
+    "2": "Câu không nói 王丽 về Việt Nam."
+   }
+  },
+  {
+   "q": "Ngoài phố dịp Tết thế nào?",
+   "audio": "春节的时候，街上非常热闹，哪儿都是人。",
+   "opts": [
+    "rất náo nhiệt, đâu cũng có người",
+    "rất yên tĩnh",
+    "vắng người vì ai cũng về quê"
+   ],
+   "optsEn": [
+    "very lively, people everywhere",
+    "very quiet",
+    "empty because everyone has gone home"
+   ],
+   "a": 0,
+   "why": {
+    "1": "热闹 (rènao) ngược với yên tĩnh (安静 ānjìng).",
+    "2": "Câu nói 哪儿都是人 (đâu cũng là người), không vắng."
+   }
+  },
+  {
+   "q": "Người nói khuyên gì?",
+   "audio": "机票要早点儿买，不然就来不及了。",
+   "opts": [
+    "mua vé máy bay sớm",
+    "đổi ngày bay",
+    "đi tàu hoả thay máy bay"
+   ],
+   "optsEn": [
+    "buy the plane ticket early",
+    "change the flight date",
+    "take the train instead"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Câu không nói đổi ngày; lời khuyên là 早点儿买.",
+    "2": "Không nghe thấy 火车 (huǒchē); câu nói về 机票."
+   }
+  },
+  {
+   "q": "Câu này thường nói vào dịp nào?",
+   "audio": "新年快乐！祝您身体健康，万事如意！",
+   "opts": [
+    "chúc Tết",
+    "chúc sinh nhật",
+    "chúc mừng đám cưới"
+   ],
+   "optsEn": [
+    "New Year greetings",
+    "birthday wishes",
+    "wedding congratulations"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Chúc sinh nhật là 生日快乐 (shēngrì kuàilè); câu mở đầu bằng 新年快乐.",
+    "2": "Đám cưới không nói 新年快乐; câu này là lời chúc năm mới."
+   }
+  }
+ ],
+ "hsk": [
+  {
+   "q": "HSK4 听力 · Phần 1, đúng hay sai: ★ 阮安春节不回越南。",
+   "audio": "春节是越南最重要的传统节日，所以我多请了两天假，想回越南跟家人团圆。",
+   "opts": [
+    "对",
+    "错"
+   ],
+   "a": 1,
+   "why": {
+    "0": "Bài nghe nói 想回越南跟家人团圆 (muốn về Việt Nam đoàn tụ với gia đình), nên câu ★ sai."
+   }
+  },
+  {
+   "q": "HSK4 听力 · Phần 1, đúng hay sai: ★ 王丽会代替阮安参加会议。",
+   "audio": "阮安回国的时候，下个星期的会议，王丽会代替她参加，有问题再给她打电话。",
+   "opts": [
+    "对",
+    "错"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe nói 王丽会代替她参加 (Vương Lệ sẽ đi họp thay cô ấy), nên câu ★ đúng."
+   }
+  },
+  {
+   "q": "HSK4 听力 · Phần 2, hội thoại ngắn: 男的让女的做什么？",
+   "audio": "女：王经理，我走以前要把工作交接好吗？男：对，你跟王丽交接一下，有问题你们互相打电话。问：男的让女的做什么？",
+   "opts": [
+    "跟王丽交接工作",
+    "早点儿买机票",
+    "下个星期参加会议"
+   ],
+   "a": 0,
+   "why": {
+    "1": "Bài nghe không nhắc 机票 (vé máy bay).",
+    "2": "Bài nghe không nói về 会议 (cuộc họp); người nam nói 你跟王丽交接一下."
+   }
+  },
+  {
+   "q": "HSK4 Đọc · Phần 1, chọn từ điền vào chỗ trống: 春节的时候，家人都从别的城市回来（　），一起吃饭、包饺子。",
+   "opts": [
+    "团圆",
+    "代替",
+    "交接",
+    "请假"
+   ],
+   "a": 0,
+   "why": {
+    "1": "代替 (dàitì) cần tân ngữ (代替谁) và không hợp nghĩa 'cả nhà về'.",
+    "2": "交接 (jiāojiē) là bàn giao công việc, không phải việc gia đình làm dịp Tết.",
+    "3": "请假 (qǐngjià) là xin nghỉ ở chỗ làm; vế sau 一起吃饭、包饺子 cho thấy cả nhà SUM HỌP."
+   }
+  },
+  {
+   "k": "order",
+   "q": "HSK4 书写 · 完成句子: xếp các từ thành câu",
+   "tokens": [
+    "我想",
+    "把工作",
+    "交给",
+    "王丽",
+    "负责"
+   ],
+   "explain": "Câu 把: chủ ngữ (我想) + 把 + việc (工作) + 交给 + người nhận (王丽) + 负责 (người đó phụ trách).",
+   "vi": "Tôi định giao công việc cho Vương Lệ phụ trách.",
+   "en": "I'd like to hand my work over to Wang Li."
+  }
+ ],
+ "shadow": [
+  {
+   "t": "请假",
+   "py": "qǐngjià",
+   "focus": "qǐng thanh 3 thấp, -ng mũi sau; jià thanh 4 rơi dứt khoát. Đừng đọc 假 thành jiǎ (thanh 3) như trong 真假.",
+   "en": "to ask for leave"
+  },
+  {
+   "t": "团圆",
+   "py": "tuányuán",
+   "focus": "Hai thanh 2 liền nhau, giọng đi lên hai lần; yuán: môi tròn (ü) rồi mở ra, kết thúc -n.",
+   "en": "to reunite"
+  },
+  {
+   "t": "来不及",
+   "py": "láibují",
+   "focus": "lái thanh 2 đi lên; 不 ở giữa đọc nhẹ, ngắn (bu); jí thanh 2 đi lên ở cuối.",
+   "en": "too late"
+  },
+  {
+   "t": "不是我不想在上海过年，而是家人都等我回去。",
+   "py": "Bú shì wǒ bù xiǎng zài Shànghǎi guònián, ér shì jiārén dōu děng wǒ huíqu.",
+   "focus": "不是 đọc bú shì (不 trước thanh 4); 不想 giữ bù (trước thanh 3); 而 ér cuốn lưỡi; nhấn nhẹ vào 不是 và 而是 để rõ ý.",
+   "en": "It's not that I don't want to spend New Year in Shanghai; my family is waiting for me."
+  },
+  {
+   "t": "什么时候都可以给我打电话。",
+   "py": "Shénme shíhou dōu kěyǐ gěi wǒ dǎ diànhuà.",
+   "focus": "可以给我打: bốn thanh 3 gần nhau, đọc kéyǐ géi wǒ dǎ cho trôi; 候 đọc nhẹ hou.",
+   "en": "You can call me any time."
+  },
+  {
+   "t": "新年快乐！祝您身体健康，万事如意！",
+   "py": "Xīnnián kuàilè! Zhù nín shēntǐ jiànkāng, wànshì rúyì!",
+   "focus": "Giọng vui, rõ từng cụm bốn chữ; 健康 jiànkāng: -n rồi -ng; 如意 rúyì: r cong lưỡi.",
+   "en": "Happy New Year! Wishing you good health and all the best!"
+  }
+ ],
+ "dialog": {
+  "title": "Xin 王经理 (Wáng jīnglǐ) nghỉ về ăn Tết: nói thời gian, giải thích lý do, trình bày bàn giao và chúc Tết. Đổi vai: bạn là 王经理, hỏi kỹ rồi duyệt nghỉ.",
+  "partner": "王经理",
+  "turns": [
+   {
+    "ai": "阮安，你找我有事吗？",
+    "py": "Ruǎn Ān, nǐ zhǎo wǒ yǒu shì ma?",
+    "vi": "An, em tìm tôi có việc gì không?",
+    "en": "An, did you want to see me about something?",
+    "model": "王经理，我想跟您请几天假，回越南过春节。",
+    "mpy": "Wáng jīnglǐ, wǒ xiǎng gēn nín qǐng jǐ tiān jià, huí Yuènán guò Chūnjié.",
+    "men": "Mr Wang, I'd like to ask for a few days off to go back to Vietnam for the Spring Festival.",
+    "accept": [
+     "王经理，我想跟您请几天假，回越南过春节。",
+     "我想跟您请几天假，回越南过春节。",
+     "我想请几天假，回越南过春节。",
+     "我想请几天假。",
+     "woxianggenninqingjitianjia",
+     "woxiangqingjitianjia"
+    ],
+    "frame": "王经理，我想跟您___几天___，回越南过春节。",
+    "hint": "Dùng 跟您请几天假 (số ngày chen giữa 请 và 假), rồi nói mục đích: 回越南过春节."
+   },
+   {
+    "ai": "你想什么时候走？什么时候回来？",
+    "py": "Nǐ xiǎng shénme shíhou zǒu? Shénme shíhou huílai?",
+    "vi": "Em định khi nào đi? Khi nào về?",
+    "en": "When do you want to leave, and when will you be back?",
+    "model": "我想从二月十二号到二月二十号，比公司的假期多两天。",
+    "mpy": "Wǒ xiǎng cóng èr yuè shí'èr hào dào èr yuè èrshí hào, bǐ gōngsī de jiàqī duō liǎng tiān.",
+    "men": "From 12 to 20 February, two days more than the company holiday.",
+    "accept": [
+     "我想从二月十二号到二月二十号，比公司的假期多两天。",
+     "从二月十二号到二月二十号。",
+     "我想从二月十二号到二月二十号。",
+     "比公司的假期多两天。",
+     "congeryueshierhaodaoeryueershihao",
+     "woxiangcongeryueshierhaodaoeryueershihao"
+    ],
+    "frame": "我想从二月十二号到二月二十号，比公司的___多两天。",
+    "hint": "Nói khoảng thời gian bằng 从……到……, rồi so với kỳ nghỉ chung: 比公司的假期多两天."
+   },
+   {
+    "ai": "春节以前工作很忙，你为什么要多请两天？",
+    "py": "Chūnjié yǐqián gōngzuò hěn máng, nǐ wèishénme yào duō qǐng liǎng tiān?",
+    "vi": "Trước Tết việc rất bận, sao em phải xin thêm hai ngày?",
+    "en": "Work is very busy before the Spring Festival. Why do you need two extra days?",
+    "model": "不是我不想上班，而是春节的时候家人都等我回去团圆。",
+    "mpy": "Bú shì wǒ bù xiǎng shàngbān, ér shì Chūnjié de shíhou jiārén dōu děng wǒ huíqu tuányuán.",
+    "men": "It's not that I don't want to work; it's that my family is waiting for me to come home for the New Year.",
+    "accept": [
+     "不是我不想上班，而是春节的时候家人都等我回去团圆。",
+     "不是我不想上班，而是家人都等我回去团圆。",
+     "家人都等我回去团圆。",
+     "bushiwobuxiangshangbanershijiarendoudengwohuiqutuanyuan",
+     "jiarendoudengwohuiqutuanyuan"
+    ],
+    "frame": "___我不想上班，___春节的时候家人都等我回去团圆。",
+    "hint": "Gỡ hiểu lầm bằng 不是……，而是……: không phải không muốn làm, mà là gia đình đợi về đoàn tụ (团圆)."
+   },
+   {
+    "ai": "我明白。你走了以后，你的工作怎么办？",
+    "py": "Wǒ míngbai. Nǐ zǒu le yǐhòu, nǐ de gōngzuò zěnme bàn?",
+    "vi": "Tôi hiểu. Em đi rồi thì công việc tính sao?",
+    "en": "I understand. What happens to your work while you're away?",
+    "model": "我想把越南顾客的工作交给王丽负责，走以前跟她交接好。",
+    "mpy": "Wǒ xiǎng bǎ Yuènán gùkè de gōngzuò jiāo gěi Wáng Lì fùzé, zǒu yǐqián gēn tā jiāojiē hǎo.",
+    "men": "I'd like to hand the Vietnamese customers over to Wang Li and do a full handover with her before I go.",
+    "accept": [
+     "我想把越南顾客的工作交给王丽负责，走以前跟她交接好。",
+     "我想把越南顾客的工作交给王丽负责。",
+     "交给王丽负责。",
+     "走以前跟她交接好。",
+     "woxiangbayuenanguikedegongzuojiaogeiwanglifuze",
+     "woxiangbayuenangukedegongzuojiaogeiwanglifuze",
+     "jiaogeiwanglifuze"
+    ],
+    "frame": "我想___越南顾客的工作交给王丽负责，走以前跟她___好。",
+    "hint": "Dùng 把 + việc + 交给 + 王丽 + 负责, rồi hứa bàn giao trước khi đi: 跟她交接好."
+   },
+   {
+    "ai": "好，我同意。祝你春节快乐！",
+    "py": "Hǎo, wǒ tóngyì. Zhù nǐ Chūnjié kuàilè!",
+    "vi": "Được, tôi đồng ý. Chúc em ăn Tết vui vẻ!",
+    "en": "OK, approved. Happy Spring Festival!",
+    "model": "谢谢王经理！也祝您新年快乐，身体健康！",
+    "mpy": "Xièxie Wáng jīnglǐ! Yě zhù nín xīnnián kuàilè, shēntǐ jiànkāng!",
+    "men": "Thank you, Mr Wang! Happy New Year to you too, and good health!",
+    "accept": [
+     "谢谢王经理！也祝您新年快乐，身体健康！",
+     "谢谢王经理！也祝您新年快乐！",
+     "也祝您新年快乐，身体健康！",
+     "谢谢王经理！",
+     "xiexiewangjingli",
+     "yezhuninxinniankuaile"
+    ],
+    "frame": "谢谢王经理！也祝您新年___，身体健康！",
+    "hint": "Cảm ơn rồi chúc lại: 也祝您新年快乐，身体健康！"
+   }
+  ]
+ },
+ "reading": {
+  "title": "Thông báo nghỉ Tết của công ty",
+  "text": "同事们：春节快到了。根据公司的规定，今年春节的假期是二月十四号到二月二十号，一共七天。想多请几天假的同事，请在一月二十号以前给经理发信息。请假以前，一定要把自己的工作交接好，告诉同事哪些事情要做，哪些事情来不及做完。假期里如果顾客有急事，大家要互相帮助。二月十一号下午公司有新年会，大家一起吃饭、唱歌，一定会非常热闹，王经理还会给大家发红包。祝大家春节快乐，跟家人团圆！",
+  "py": "Tóngshìmen: Chūnjié kuài dào le. Gēnjù gōngsī de guīdìng, jīnnián Chūnjié de jiàqī shì èr yuè shísì hào dào èr yuè èrshí hào, yígòng qī tiān. Xiǎng duō qǐng jǐ tiān jià de tóngshì, qǐng zài yī yuè èrshí hào yǐqián gěi jīnglǐ fā xìnxī. Qǐngjià yǐqián, yídìng yào bǎ zìjǐ de gōngzuò jiāojiē hǎo, gàosu tóngshì nǎxiē shìqing yào zuò, nǎxiē shìqing láibují zuò wán. Jiàqī lǐ rúguǒ gùkè yǒu jíshì, dàjiā yào hùxiāng bāngzhù. Èr yuè shíyī hào xiàwǔ gōngsī yǒu xīnniánhuì, dàjiā yìqǐ chī fàn, chàng gē, yídìng huì fēicháng rènao, Wáng jīnglǐ hái huì gěi dàjiā fā hóngbāo. Zhù dàjiā Chūnjié kuàilè, gēn jiārén tuányuán!",
+  "en": "Dear colleagues, the Spring Festival is coming. Under company rules, this year's holiday runs from 14 to 20 February, seven days in total. If you'd like extra days off, please message your manager before 20 January. Before your leave, be sure to hand over your work properly and tell colleagues which tasks need doing and which you won't have time to finish. If customers have anything urgent during the holiday, everyone should help each other. On the afternoon of 11 February the company is holding a New Year party with dinner and singing; it's sure to be lively, and Mr Wang will hand out red envelopes. Happy Spring Festival, and enjoy being with your families!",
+  "vi": "Các đồng nghiệp thân mến: Tết sắp đến rồi. Theo quy định của công ty, kỳ nghỉ Tết năm nay từ ngày 14 đến ngày 20 tháng 2, tổng cộng bảy ngày. Đồng nghiệp nào muốn xin nghỉ thêm vài ngày, xin nhắn tin cho quản lý trước ngày 20 tháng 1. Trước khi nghỉ, nhất định phải bàn giao công việc của mình cho tốt, cho đồng nghiệp biết việc nào cần làm, việc nào không kịp làm xong. Trong kỳ nghỉ nếu khách hàng có việc gấp, mọi người phải giúp đỡ lẫn nhau. Chiều ngày 11 tháng 2 công ty có tiệc tất niên, mọi người cùng ăn uống, ca hát, chắc chắn sẽ rất náo nhiệt, quản lý Vương còn phát lì xì cho mọi người. Chúc mọi người ăn Tết vui vẻ, đoàn tụ bên gia đình!",
+  "qs": [
+   {
+    "q": "Kỳ nghỉ Tết của công ty kéo dài bao lâu?",
+    "opts": [
+     "7 ngày",
+     "11 ngày",
+     "20 ngày"
+    ],
+    "optsEn": [
+     "7 days",
+     "11 days",
+     "20 days"
+    ],
+    "a": 0,
+    "why": {
+     "1": "11 là ngày có tiệc tất niên (二月十一号), không phải số ngày nghỉ.",
+     "2": "20 là ngày cuối kỳ nghỉ (二十号) và hạn nhắn tin (一月二十号), không phải số ngày nghỉ."
+    }
+   },
+   {
+    "q": "Muốn nghỉ thêm thì phải làm gì?",
+    "opts": [
+     "nhắn tin cho quản lý trước ngày 20/1",
+     "nhắn tin cho quản lý trước ngày 14/2",
+     "gọi điện cho khách hàng"
+    ],
+    "optsEn": [
+     "message the manager before 20 Jan",
+     "message the manager before 14 Feb",
+     "call the customers"
+    ],
+    "a": 0,
+    "why": {
+     "1": "14/2 là ngày bắt đầu kỳ nghỉ; hạn nhắn tin là 一月二十号以前.",
+     "2": "Bài không bảo gọi cho khách; câu là 给经理发信息."
+    }
+   },
+   {
+    "q": "Đúng hay sai: 请假以前，要把自己的工作交接好。(Qǐngjià yǐqián, yào bǎ zìjǐ de gōngzuò jiāojiē hǎo.)",
+    "opts": [
+     "Đúng",
+     "Sai"
+    ],
+    "optsEn": [
+     "True",
+     "False"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài viết 请假以前，一定要把自己的工作交接好, nên câu này đúng."
+    }
+   },
+   {
+    "q": "Chiều ngày 11/2 công ty có gì?",
+    "opts": [
+     "tiệc tất niên",
+     "họp tổng kết",
+     "bắt đầu kỳ nghỉ"
+    ],
+    "optsEn": [
+     "a New Year party",
+     "a review meeting",
+     "the start of the holiday"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài không nói họp (会议); 新年会 là tiệc năm mới có ăn uống, ca hát.",
+     "2": "Kỳ nghỉ bắt đầu ngày 14/2, không phải 11/2."
+    }
+   },
+   {
+    "q": "Quản lý Vương sẽ phát gì cho mọi người?",
+    "opts": [
+     "lì xì",
+     "quà Tết",
+     "thưởng tháng thứ 13"
+    ],
+    "optsEn": [
+     "red envelopes",
+     "New Year gifts",
+     "a 13th-month bonus"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Bài không nói 礼物 (quà); thứ được phát là 红包 (lì xì).",
+     "2": "Bài không nhắc 奖金 (thưởng); 发红包 là phát lì xì."
+    }
+   }
+  ]
+ },
+ "near": [
+  {
+   "q": "Chọn từ đúng: 春节的时候，公司___七天。(Dịp Tết, công ty được nghỉ bảy ngày.)",
+   "opts": [
+    "放假",
+    "请假"
+   ],
+   "a": 0,
+   "why": {
+    "1": "请假 (qǐngjià) là MỘT NGƯỜI xin phép nghỉ (我跟经理请假). Cả công ty, cả trường được nghỉ theo lịch là 放假 (fàngjià)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 下个星期的会议，王丽___我参加。(Cuộc họp tuần sau, Vương Lệ đi thay tôi.)",
+   "opts": [
+    "代替",
+    "替代",
+    "交替"
+   ],
+   "a": 0,
+   "why": {
+    "1": "替代 (tìdài) trang trọng hơn, thường dùng khi một thứ mới thay hẳn thứ cũ (手机替代了很多东西), ít dùng cho việc một người làm thay người khác một lần.",
+    "2": "交替 (jiāotì) = luân phiên, thay phiên nhau (两个人交替上班 = hai người thay phiên đi làm), không có nghĩa 'làm thay tôi'."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 春节的时候，街上非常___。(Dịp Tết, ngoài phố rất náo nhiệt.)",
+   "opts": [
+    "热闹",
+    "热情"
+   ],
+   "a": 0,
+   "why": {
+    "1": "热情 (rèqíng) = nhiệt tình, dùng cho người (王丽很热情). Nơi chốn, không khí đông vui là 热闹 (rènao)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 我们是同事，应该___帮助。(Chúng ta là đồng nghiệp, nên giúp đỡ lẫn nhau.)",
+   "opts": [
+    "互相",
+    "一起"
+   ],
+   "a": 0,
+   "why": {
+    "1": "一起 (yìqǐ) = cùng nhau làm MỘT việc (一起吃饭). Hành động qua lại hai chiều (A giúp B, B giúp A) là 互相 (hùxiāng): 互相帮助."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 现在才五点，飞机八点起飞，我们还___。(Bây giờ mới năm giờ, tám giờ máy bay mới cất cánh, chúng ta vẫn còn kịp.)",
+   "opts": [
+    "来得及",
+    "来不及"
+   ],
+   "a": 0,
+   "why": {
+    "1": "来不及 (láibují) = KHÔNG kịp. Còn ba tiếng nữa mới bay, chữ 还 (vẫn còn) cho thấy vẫn kịp: 来得及 (láidejí)."
+   }
+  },
+  {
+   "q": "Chọn từ đúng: 春节是中国最重要的传统___。(Tết là ngày lễ truyền thống quan trọng nhất của Trung Quốc.)",
+   "opts": [
+    "节日",
+    "假期"
+   ],
+   "a": 0,
+   "why": {
+    "1": "假期 (jiàqī) = kỳ nghỉ, khoảng thời gian được nghỉ, không đi với 传统. Ngày lễ, ngày tết truyền thống là 节日 (jiérì)."
+   }
+  }
+ ],
+ "orderPara": [
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "春节快到了，",
+    "我想回越南跟家人团圆，",
+    "所以今天我去找王经理请假。"
+   ],
+   "explain": "Vế đầu nêu hoàn cảnh (春节快到了); vế hai nêu mong muốn; 所以 nêu việc làm vì vậy nên đứng cuối.",
+   "vi": "Tết sắp đến, tôi muốn về Việt Nam đoàn tụ với gia đình, nên hôm nay tôi đến gặp quản lý Vương xin nghỉ.",
+   "en": "The Spring Festival is coming and I want to go home to Vietnam to be with my family, so today I went to Mr Wang to ask for leave."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "王经理问我，我走了以后工作怎么办。",
+    "我告诉他，我会把工作交给王丽负责，",
+    "走以前也会跟她交接好。"
+   ],
+   "explain": "Câu hỏi của 王经理 đứng đầu; câu trả lời (我告诉他…, 他 = 王经理) theo sau; 也 (yě) thêm một việc nữa nên đứng cuối.",
+   "vi": "Quản lý Vương hỏi tôi đi rồi thì công việc tính sao. Tôi nói với anh ấy tôi sẽ giao việc cho Vương Lệ phụ trách, trước khi đi cũng sẽ bàn giao kỹ với cô ấy.",
+   "en": "Mr Wang asked what would happen to my work while I was away. I told him I'd hand it over to Wang Li and do a full handover with her before leaving."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "春节是中国和越南都有的传统节日。",
+    "这个时候，街上非常热闹，",
+    "大家都互相拜年，说“新年快乐”。"
+   ],
+   "explain": "Câu giới thiệu chung về Tết đứng đầu; 这个时候 (lúc này) nhắc lại dịp Tết vừa nói; câu kể mọi người chúc Tết là chi tiết nên đứng cuối.",
+   "vi": "Tết là ngày lễ truyền thống mà cả Trung Quốc và Việt Nam đều có. Lúc này, ngoài phố rất náo nhiệt, mọi người chúc Tết lẫn nhau, nói 'Chúc mừng năm mới'.",
+   "en": "The Spring Festival is a traditional festival in both China and Vietnam. At this time the streets are lively, and everyone exchanges greetings, saying 'Happy New Year'."
+  },
+  {
+   "k": "order",
+   "q": "Sắp xếp thành đoạn văn đúng (HSK4 Đọc · Phần 2: sắp xếp thứ tự câu)",
+   "tokens": [
+    "现在离春节只有三个星期了，",
+    "机票越来越贵，",
+    "如果再不买的话，",
+    "就来不及了。"
+   ],
+   "explain": "Vế đầu nêu thời gian còn lại; vế hai nêu tình hình vé; 如果……的话 nêu điều kiện, 就 nêu kết quả nên đứng cuối.",
+   "vi": "Bây giờ chỉ còn ba tuần nữa là Tết, vé máy bay ngày càng đắt, nếu còn không mua thì sẽ không kịp.",
+   "en": "There are only three weeks left until the Spring Festival and tickets are getting more expensive; if I don't buy one now, it'll be too late."
+  }
+ ],
+ "notes": {
+  "title": "Ghi chú: lịch nghỉ Tết và bàn giao",
+  "lines": [
+   {
+    "who": "王经理",
+    "t": "公司春节的假期是二月十四号到二月二十号。",
+    "py": "Gōngsī Chūnjié de jiàqī shì èr yuè shísì hào dào èr yuè èrshí hào.",
+    "vi": "Kỳ nghỉ Tết của công ty là từ ngày 14 đến ngày 20 tháng 2.",
+    "en": "The company's holiday is from 14 to 20 February."
+   },
+   {
+    "who": "阮安",
+    "t": "我想从二月十二号开始请假，可以吗？",
+    "py": "Wǒ xiǎng cóng èr yuè shí'èr hào kāishǐ qǐngjià, kěyǐ ma?",
+    "vi": "Em muốn nghỉ từ ngày 12 tháng 2, được không ạ?",
+    "en": "Could I start my leave on 12 February?"
+   },
+   {
+    "who": "王经理",
+    "t": "可以，那你多请两天假。二十一号要回来上班。",
+    "py": "Kěyǐ, nà nǐ duō qǐng liǎng tiān jià. Èrshíyī hào yào huílai shàngbān.",
+    "vi": "Được, vậy em xin thêm hai ngày. Ngày 21 phải quay lại làm việc.",
+    "en": "Yes, so you'll take two extra days. You need to be back at work on the 21st."
+   },
+   {
+    "who": "阮安",
+    "t": "好的。越南顾客的工作，我交给王丽负责。",
+    "py": "Hǎo de. Yuènán gùkè de gōngzuò, wǒ jiāo gěi Wáng Lì fùzé.",
+    "vi": "Vâng. Việc khách hàng Việt Nam, em giao cho Vương Lệ phụ trách.",
+    "en": "OK. I'll hand the Vietnamese customers over to Wang Li."
+   },
+   {
+    "who": "王经理",
+    "t": "下个星期三的会议呢？",
+    "py": "Xià ge xīngqīsān de huìyì ne?",
+    "vi": "Còn cuộc họp thứ Tư tuần sau?",
+    "en": "What about next Wednesday's meeting?"
+   },
+   {
+    "who": "阮安",
+    "t": "王丽代替我参加。",
+    "py": "Wáng Lì dàitì wǒ cānjiā.",
+    "vi": "Vương Lệ sẽ đi họp thay em.",
+    "en": "Wang Li will attend in my place."
+   },
+   {
+    "who": "王经理",
+    "t": "走以前，你要把顾客的电话和文件都交接给她。",
+    "py": "Zǒu yǐqián, nǐ yào bǎ gùkè de diànhuà hé wénjiàn dōu jiāojiē gěi tā.",
+    "vi": "Trước khi đi, em phải bàn giao hết số điện thoại và tài liệu của khách hàng cho cô ấy.",
+    "en": "Before you go, hand over all the customers' phone numbers and documents to her."
+   },
+   {
+    "who": "王经理",
+    "t": "二月十一号下午公司有新年会，别忘了来。",
+    "py": "Èr yuè shíyī hào xiàwǔ gōngsī yǒu xīnniánhuì, bié wàng le lái.",
+    "vi": "Chiều ngày 11 tháng 2 công ty có tiệc tất niên, đừng quên đến nhé.",
+    "en": "The company New Year party is on the afternoon of 11 February; don't forget to come."
+   }
+  ],
+  "form": [
+   {
+    "label": "Kỳ nghỉ Tết của công ty",
+    "opts": [
+     "二月十四号到二月二十号",
+     "二月十二号到二月二十号",
+     "二月十四号到二月二十一号"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Ngày 12 là ngày 阮安 bắt đầu xin nghỉ, không phải ngày bắt đầu kỳ nghỉ của công ty.",
+     "2": "Ngày 21 là ngày phải quay lại làm việc; kỳ nghỉ kết thúc ngày 20."
+    }
+   },
+   {
+    "label": "Ngày bắt đầu xin nghỉ",
+    "opts": [
+     "二月十二号",
+     "二月十四号",
+     "二月十一号"
+    ],
+    "a": 0,
+    "why": {
+     "1": "二月十四号 là ngày bắt đầu kỳ nghỉ chung; 阮安 muốn nghỉ sớm hơn, từ 十二号.",
+     "2": "二月十一号 là ngày tiệc tất niên, không phải ngày bắt đầu nghỉ."
+    }
+   },
+   {
+    "label": "Số ngày xin thêm",
+    "opts": [
+     "两天",
+     "三天",
+     "七天"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Không nghe thấy 三天; 王经理 nói 多请两天假.",
+     "2": "七天 là kỳ nghỉ chung của công ty, không phải số ngày xin thêm."
+    }
+   },
+   {
+    "label": "Ngày quay lại làm việc",
+    "opts": [
+     "二十一号",
+     "二十号",
+     "十二号"
+    ],
+    "a": 0,
+    "why": {
+     "1": "二十号 là ngày cuối kỳ nghỉ; ngày đi làm lại là 二十一号.",
+     "2": "十二号 là ngày bắt đầu nghỉ, không phải ngày quay lại."
+    }
+   },
+   {
+    "label": "Người đi họp thay",
+    "opts": [
+     "王丽",
+     "王经理",
+     "阮安"
+    ],
+    "a": 0,
+    "why": {
+     "1": "王经理 là người hỏi về cuộc họp, không đi thay.",
+     "2": "阮安 nghỉ nên không đi họp; 王丽代替我参加."
+    }
+   },
+   {
+    "label": "Thời gian tiệc tất niên",
+    "opts": [
+     "二月十一号下午",
+     "二月十四号下午",
+     "二月十一号上午"
+    ],
+    "a": 0,
+    "why": {
+     "1": "Ngày 14 là ngày bắt đầu kỳ nghỉ; tiệc là ngày 11.",
+     "2": "Bài nghe nói 下午 (buổi chiều), không phải 上午."
+    }
+   }
+  ]
+ },
+ "longturn": {
+  "cue": "请你用一分钟给中国同事介绍越南的春节，说说它跟中国的春节有什么一样、有什么不一样。",
+  "cueVi": "Hãy nói khoảng 1 phút, giới thiệu Tết Việt Nam cho đồng nghiệp Trung Quốc: Tết Việt Nam và Tết Trung Quốc giống và khác nhau ở đâu.",
+  "cuePy": "Qǐng nǐ yòng yì fēnzhōng gěi Zhōngguó tóngshì jièshào Yuènán de Chūnjié, shuōshuo tā gēn Zhōngguó de Chūnjié yǒu shénme yíyàng, yǒu shénme bù yíyàng.",
+  "points": [
+   "越南人什么时候过春节？",
+   "越南和中国的春节有什么一样的地方？",
+   "有什么不一样的地方？",
+   "你们家春节一般做什么？"
+  ],
+  "pointsVi": [
+   "Người Việt ăn Tết khi nào?",
+   "Tết Việt Nam và Tết Trung Quốc giống nhau ở điểm nào?",
+   "Khác nhau ở điểm nào?",
+   "Nhà bạn ngày Tết thường làm gì?"
+  ],
+  "prep": 60,
+  "speak": [
+   60,
+   120
+  ],
+  "model": "越南的春节和中国的春节是同一天，都是最重要的传统节日。一样的地方是，春节的时候大家都回家跟家人团圆，互相拜年，给孩子红包，街上也非常热闹。不一样的地方是，中国人喜欢包饺子，越南人一定要吃一种用米和肉做的传统菜。南方人还喜欢买黄色的花，北方人喜欢买红色的花。我们家每年都去给爷爷奶奶拜年。",
+  "modelPy": "Yuènán de Chūnjié hé Zhōngguó de Chūnjié shì tóng yì tiān, dōu shì zuì zhòngyào de chuántǒng jiérì. Yíyàng de dìfang shì, Chūnjié de shíhou dàjiā dōu huí jiā gēn jiārén tuányuán, hùxiāng bàinián, gěi háizi hóngbāo, jiē shang yě fēicháng rènao. Bù yíyàng de dìfang shì, Zhōngguó rén xǐhuan bāo jiǎozi, Yuènán rén yídìng yào chī yì zhǒng yòng mǐ hé ròu zuò de chuántǒng cài. Nánfāng rén hái xǐhuan mǎi huángsè de huā, běifāng rén xǐhuan mǎi hóngsè de huā. Wǒmen jiā měi nián dōu qù gěi yéye nǎinai bàinián.",
+  "modelVi": "Tết Việt Nam và Tết Trung Quốc rơi vào cùng một ngày, đều là ngày lễ truyền thống quan trọng nhất. Giống nhau ở chỗ: dịp Tết mọi người đều về nhà đoàn tụ với gia đình, chúc Tết lẫn nhau, lì xì cho trẻ con, ngoài phố cũng rất náo nhiệt. Khác nhau ở chỗ: người Trung Quốc thích gói sủi cảo, còn người Việt nhất định phải ăn một món truyền thống làm từ gạo và thịt. Người miền Nam còn thích mua hoa màu vàng, người miền Bắc thích mua hoa màu đỏ hồng. Năm nào nhà tôi cũng đi chúc Tết ông bà.",
+  "useful": [
+   "……和……是同一天",
+   "一样的地方是……",
+   "不一样的地方是……",
+   "大家都回家跟家人团圆",
+   "互相拜年，给孩子红包",
+   "街上非常热闹",
+   "我们家每年都……"
+  ],
+  "check": [
+   "Nói đủ 4 ý: thời gian, điểm giống, điểm khác, Tết của gia đình bạn",
+   "Dùng ít nhất 4 từ mới hôm nay (传统, 节日, 团圆, 拜年, 热闹, 互相…)",
+   "Có câu so sánh rõ: 一样的地方是…… / 不一样的地方是……",
+   "Có 1 câu từ để hỏi + 都 hoặc 每年都……",
+   "Có ví dụ cụ thể (món ăn, hoa, lì xì…)",
+   "Nói liền mạch được ít nhất 1 phút"
+  ]
+ },
+ "write": {
+  "task": "Viết email gửi 王经理 (Wáng jīnglǐ) xin nghỉ phép về Việt Nam ăn Tết: thời gian nghỉ và ngày đi làm lại, lý do, bàn giao việc cho ai, ai đi họp thay, cách liên lạc khi có việc gấp.",
+  "kind": "email",
+  "model": "王经理您好！我想请两天假，回越南跟家人团圆。公司的假期是二月十四号到二十号，我想从十二号开始请假，二十一号回来上班。不是我不想上班，而是春节是越南最重要的传统节日。走以前，我会把越南顾客的工作交给王丽负责，跟她交接好，会议也请她代替我参加。如果有急事，什么时候都可以给我打电话。谢谢！阮安",
+  "frame": "王经理您好！我想___两天假，回越南跟家人___。公司的假期是二月十四号到二十号，我想从十二号开始请假，二十一号回来上班。___我不想上班，___春节是越南最重要的传统节日。走以前，我会把越南顾客的工作交给王丽负责，跟她___好，会议也请她___我参加。如果有急事，什么时候___可以给我打电话。谢谢！阮安",
+  "gaps": [
+   "请",
+   "团圆",
+   "不是",
+   "而是",
+   "交接",
+   "代替",
+   "都"
+  ],
+  "free": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "hints": [
+   "Mở đầu: 王经理您好！我想请……天假，回越南……",
+   "Thời gian: 我想从……号开始请假，……号回来上班",
+   "Lý do: 不是我不想上班，而是……",
+   "Bàn giao: 把……交给……负责，跟她交接好，请她代替我……",
+   "Liên lạc: 如果有急事，什么时候都可以给我打电话 rồi cảm ơn, ký tên"
+  ],
+  "check": [
+   "Có lời chào 王经理 và ký tên cuối thư",
+   "Có thời gian nghỉ và ngày đi làm lại",
+   "Có lý do, dùng 不是……而是……",
+   "Nói rõ giao việc cho ai (交给……负责) và ai làm thay (代替)",
+   "Có cách liên lạc khi có việc gấp (什么时候都……)",
+   "Dài 90–130 chữ Hán"
+  ],
+  "words": [
+   90,
+   130
+  ]
+ },
+ "gloss": {
+  "请假": [
+   "qǐngjià",
+   "to ask for leave",
+   "xin nghỉ phép"
+  ],
+  "假期": [
+   "jiàqī",
+   "holiday, vacation",
+   "kỳ nghỉ"
+  ],
+  "节日": [
+   "jiérì",
+   "festival, holiday",
+   "ngày lễ, ngày tết"
+  ],
+  "传统": [
+   "chuántǒng",
+   "tradition; traditional",
+   "truyền thống"
+  ],
+  "热闹": [
+   "rènao",
+   "lively, bustling",
+   "náo nhiệt"
+  ],
+  "拜年": [
+   "bàinián",
+   "to give New Year greetings",
+   "chúc Tết"
+  ],
+  "团圆": [
+   "tuányuán",
+   "to reunite (family)",
+   "đoàn tụ"
+  ],
+  "代替": [
+   "dàitì",
+   "to replace, to stand in for",
+   "thay, làm thay"
+  ],
+  "互相": [
+   "hùxiāng",
+   "each other",
+   "lẫn nhau"
+  ],
+  "来不及": [
+   "láibují",
+   "too late, not enough time",
+   "không kịp"
+  ],
+  "交接": [
+   "jiāojiē",
+   "to hand over",
+   "bàn giao"
+  ],
+  "春节": [
+   "Chūnjié",
+   "Spring Festival, Lunar New Year",
+   "Tết Nguyên đán"
+  ],
+  "过年": [
+   "guònián",
+   "to celebrate the New Year",
+   "ăn Tết"
+  ],
+  "红包": [
+   "hóngbāo",
+   "red envelope (lucky money)",
+   "lì xì"
+  ],
+  "新年会": [
+   "xīnniánhuì",
+   "New Year party",
+   "tiệc tất niên"
+  ],
+  "万事如意": [
+   "wànshì rúyì",
+   "may all go well",
+   "vạn sự như ý"
+  ],
+  "来得及": [
+   "láidejí",
+   "there's still time",
+   "còn kịp"
+  ],
+  "放假": [
+   "fàngjià",
+   "to have a holiday, to be off",
+   "được nghỉ (lễ)"
+  ],
+  "替代": [
+   "tìdài",
+   "to substitute, to replace",
+   "thay thế"
+  ],
+  "交替": [
+   "jiāotì",
+   "to alternate, to take turns",
+   "luân phiên"
+  ],
+  "不然": [
+   "bùrán",
+   "otherwise",
+   "nếu không thì"
+  ],
+  "急事": [
+   "jíshì",
+   "urgent matter",
+   "việc gấp"
+  ]
+ }
+}
