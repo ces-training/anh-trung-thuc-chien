@@ -750,18 +750,6 @@
  ],
  "h2-w1-thu-2": [
   {
-   "ch": "找",
-   "py": "zhǎo",
-   "m": "tìm",
-   "en": "to look for",
-   "k": "扌 (tay) + 戈 (cây giáo): đưa tay đi tìm cây giáo.",
-   "r": [
-    "Chữ có 7 nét.",
-    "Trái – phải: 扌 trước (ngang, sổ móc, hất), rồi 戈.",
-    "戈: ngang, nét xiên móc dài, phẩy, cuối cùng là chấm ở góc trên bên phải."
-   ]
-  },
-  {
    "ch": "公",
    "py": "gōng",
    "m": "công (公司)",
@@ -786,15 +774,27 @@
    ]
   },
   {
-   "ch": "开",
-   "py": "kāi",
-   "m": "mở, bắt đầu (开始)",
-   "en": "to open, to start",
-   "k": "Hai thanh cài cửa (二) được hai tay đẩy ra (丿 丨): mở cửa.",
+   "ch": "加",
+   "py": "jiā",
+   "m": "thêm (加微信)",
+   "en": "to add",
+   "k": "力 (sức) + 口 (miệng): vừa ra sức vừa nói thêm vào = thêm.",
    "r": [
-    "Chữ có 4 nét.",
-    "Ngang trên trước, ngang dưới sau (nét dưới dài hơn).",
-    "Rồi phẩy bên trái, cuối cùng là sổ thẳng bên phải."
+    "Chữ có 5 nét.",
+    "Trái – phải: 力 trước (ngang – gập – móc, rồi phẩy).",
+    "口 bên phải viết sau: sổ, ngang – gập, ngang."
+   ]
+  },
+  {
+   "ch": "帮",
+   "py": "bāng",
+   "m": "giúp",
+   "en": "to help",
+   "k": "邦 (nước, nhóm người) ở trên + 巾 (khăn) ở dưới: người cùng nhóm đưa khăn giúp nhau.",
+   "r": [
+    "Chữ có 9 nét.",
+    "Trên – dưới: 邦 ở trên viết trước (6 nét): phần bên trái 4 nét, rồi 阝 bên phải 2 nét.",
+    "巾 ở dưới viết sau cùng (3 nét): sổ, ngang – gập – móc, rồi sổ giữa."
    ]
   }
  ],
@@ -950,51 +950,51 @@
  ],
  "h2-w1-thu-6": [
   {
-   "ch": "请",
-   "py": "qǐng",
-   "m": "mời, xin (请假)",
-   "en": "please (as in ask for leave)",
-   "k": "讠 (lời nói) + 青 (xanh, trẻ): lời nói nhẹ nhàng khi mời, xin.",
+   "ch": "卡",
+   "py": "kǎ",
+   "m": "thẻ (手机卡)",
+   "en": "card (as in SIM card)",
+   "k": "上 ở trên + 下 ở dưới: tấm thẻ kẹt ở giữa, không lên không xuống.",
+   "r": [
+    "Chữ có 5 nét.",
+    "Ôn Thứ 2. Phần trên (上 thu nhỏ): sổ, ngang ngắn, rồi ngang dài.",
+    "Phần dưới: sổ thẳng, rồi chấm bên phải."
+   ]
+  },
+  {
+   "ch": "换",
+   "py": "huàn",
+   "m": "đổi (换钱)",
+   "en": "to change, to exchange",
+   "k": "扌 (tay) + 奂: đưa tay trao qua trao lại = đổi.",
    "r": [
     "Chữ có 10 nét.",
-    "Trái – phải: 讠 trước (chấm, ngang – gập – hất).",
-    "青: ba ngang và một sổ ở trên, rồi 月 ở dưới (phẩy, ngang – gập – móc, hai ngang)."
+    "Ôn Thứ 3. 扌 trước: ngang, sổ móc, hất.",
+    "奂 bên phải (7 nét): phẩy, ngang – phẩy (như 刀 nhỏ), sổ, ngang – gập, rồi 大 ở dưới: ngang dài, phẩy, mác."
    ]
   },
   {
-   "ch": "休",
-   "py": "xiū",
-   "m": "nghỉ (休息)",
-   "en": "to rest",
-   "k": "亻 (người) dựa vào 木 (cây): người tựa gốc cây nghỉ ngơi.",
+   "ch": "远",
+   "py": "yuǎn",
+   "m": "xa",
+   "en": "far",
+   "k": "元 + 辶 (đi): đi mãi mới tới = xa.",
    "r": [
-    "Chữ có 6 nét.",
-    "Trái – phải: 亻 trước (phẩy, sổ).",
-    "木: ngang, sổ, phẩy, chấm."
+    "Chữ có 7 nét.",
+    "Ôn Thứ 4. Viết 元 trước: hai ngang, phẩy, sổ – cong – móc.",
+    "辶 viết SAU CÙNG: chấm, ngang – gập – gập – phẩy, rồi nét mác dài đỡ bên dưới."
    ]
   },
   {
-   "ch": "回",
-   "py": "huí",
-   "m": "về (回家)",
-   "en": "to return",
-   "k": "Hai vòng 口 lồng nhau: đi một vòng rồi quay về.",
+   "ch": "空",
+   "py": "kōng",
+   "m": "trống, không (空调)",
+   "en": "empty (as in air-con)",
+   "k": "穴 (cái hang) + 工: trong hang trống không.",
    "r": [
-    "Chữ có 6 nét.",
-    "口 ngoài: sổ, ngang – gập (chưa đóng đáy).",
-    "Viết 口 nhỏ bên trong, cuối cùng mới đóng đáy bằng nét ngang: 'vào trước, đóng cửa sau'."
-   ]
-  },
-  {
-   "ch": "年",
-   "py": "nián",
-   "m": "năm (过年)",
-   "en": "year",
-   "k": "Hình người vác lúa (禾) trên vai: mỗi năm một mùa gặt.",
-   "r": [
-    "Chữ có 6 nét.",
-    "Phẩy trước, rồi hai nét ngang ngắn và nét sổ ngắn bên trái.",
-    "Ngang dài thứ ba, cuối cùng là nét sổ thẳng dài ở giữa."
+    "Chữ có 8 nét.",
+    "Ôn Thứ 5. 穴 ở trên: chấm, chấm, ngang – móc (宀), rồi phẩy và chấm (八).",
+    "工 ở dưới: ngang, sổ, ngang dài."
    ]
   }
  ]

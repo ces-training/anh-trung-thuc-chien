@@ -713,17 +713,6 @@
    "note": "Cùng có 人 ở trên. Dưới 介 là hai nét (phẩy và sổ): 4 nét; dưới 个 chỉ có một nét sổ: 3 nét."
   },
   {
-   "a": "作",
-   "apy": "zuò",
-   "am": "làm (工作: công việc)",
-   "aen": "to do (as in work)",
-   "b": "昨",
-   "bpy": "zuó",
-   "bm": "hôm qua (昨天)",
-   "ben": "yesterday",
-   "note": "Bên phải giống nhau (乍). 作 bên trái là 亻 (người, 2 nét) → 7 nét; 昨 bên trái là 日 (mặt trời, 4 nét) → 9 nét."
-  },
-  {
    "a": "司",
    "apy": "sī",
    "am": "ti (公司: công ty)",
@@ -733,6 +722,17 @@
    "bm": "cùng (同学: bạn học)",
    "ben": "same (as in classmate)",
    "note": "Cùng có 一 và 口 bên trong. 司 khung mở bên trái, chỉ có nét ngang – gập – móc (5 nét); 同 có thêm nét sổ bên trái thành khung 冂 (6 nét)."
+  },
+  {
+   "a": "信",
+   "apy": "xìn",
+   "am": "tin (微信: WeChat)",
+   "aen": "letter, message (as in WeChat)",
+   "b": "言",
+   "bpy": "yán",
+   "bm": "lời nói",
+   "ben": "speech, words",
+   "note": "信 = 亻 (người, 2 nét) + 言 (lời nói, 7 nét): 9 nét — lời của người gửi đi là 'tin'. 言 đứng một mình chỉ có 7 nét."
   }
  ],
  "h2-w1-thu-3": [
@@ -875,48 +875,48 @@
  ],
  "h2-w1-thu-6": [
   {
-   "a": "请",
-   "apy": "qǐng",
-   "am": "mời, xin (请假)",
-   "aen": "please (as in ask for leave)",
-   "b": "清",
-   "bpy": "qīng",
-   "bm": "trong, sạch",
-   "ben": "clear, clean",
-   "note": "Bên phải giống nhau (青). 请 bên trái là 讠 (lời nói, 2 nét) → 10 nét; 清 bên trái là 氵 (nước, 3 nét) → 11 nét."
+   "a": "码",
+   "apy": "mǎ",
+   "am": "mã số (号码)",
+   "aen": "code, number (as in phone number)",
+   "b": "马",
+   "bpy": "mǎ",
+   "bm": "ngựa",
+   "ben": "horse",
+   "note": "Ôn Thứ 2. 码 = 石 (đá, 5 nét) + 马 (3 nét): 8 nét. 马 đứng một mình chỉ có 3 nét."
   },
   {
-   "a": "休",
-   "apy": "xiū",
-   "am": "nghỉ (休息)",
-   "aen": "to rest",
-   "b": "体",
-   "bpy": "tǐ",
-   "bm": "thân thể",
-   "ben": "body",
-   "note": "Cùng có 亻 bên trái. 休 bên phải là 木 (người tựa gốc cây nghỉ, 6 nét); 体 bên phải là 本 = 木 thêm một nét ngang ở dưới (7 nét)."
+   "a": "千",
+   "apy": "qiān",
+   "am": "nghìn",
+   "aen": "thousand",
+   "b": "十",
+   "bpy": "shí",
+   "bm": "mười",
+   "ben": "ten",
+   "note": "Ôn Thứ 3. 千 = 十 thêm một nét phẩy ở trên (3 nét); 十 chỉ có ngang và sổ (2 nét)."
   },
   {
-   "a": "回",
-   "apy": "huí",
-   "am": "về (回家)",
-   "aen": "to return",
-   "b": "口",
-   "bpy": "kǒu",
-   "bm": "miệng",
-   "ben": "mouth",
-   "note": "回 = 口 lớn ôm 口 nhỏ bên trong (6 nét); 口 chỉ có 3 nét."
+   "a": "近",
+   "apy": "jìn",
+   "am": "gần",
+   "aen": "near",
+   "b": "斤",
+   "bpy": "jīn",
+   "bm": "cân (đơn vị đo)",
+   "ben": "jin (unit of weight)",
+   "note": "Ôn Thứ 4. 近 = 斤 (4 nét) + 辶 (bộ 'đi', 3 nét): 7 nét. 斤 chỉ có 4 nét."
   },
   {
-   "a": "年",
-   "apy": "nián",
-   "am": "năm (过年)",
-   "aen": "year",
-   "b": "午",
-   "bpy": "wǔ",
-   "bm": "trưa (中午)",
-   "ben": "noon",
-   "note": "Cùng bắt đầu bằng nét phẩy và nét ngang. 年 có thêm một nét sổ ngắn và một nét ngang dài (6 nét); 午 chỉ có 4 nét."
+   "a": "床",
+   "apy": "chuáng",
+   "am": "giường",
+   "aen": "bed",
+   "b": "木",
+   "bpy": "mù",
+   "bm": "cây, gỗ",
+   "ben": "tree, wood",
+   "note": "Ôn Thứ 5. 床 = 广 (mái nhà, 3 nét) + 木 (gỗ, 4 nét): 7 nét. 木 chỉ có 4 nét."
   }
  ]
 }

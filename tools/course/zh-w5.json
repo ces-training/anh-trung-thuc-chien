@@ -71,16 +71,16 @@
      "img": "airport"
     },
     {
-     "w": "行李箱",
-     "py": "xínglixiāng",
-     "m": "vali, va li kéo",
-     "mEn": "suitcase",
-     "ex": "我的行李箱在这儿，你的呢？",
-     "expy": "Wǒ de xínglixiāng zài zhèr, nǐ de ne?",
-     "exm": "Vali của tôi ở đây, của bạn đâu?",
-     "exEn": "My suitcase is here, where's yours?",
-     "n": "行李 = hành lý, 箱 = cái hòm: 行李箱 = vali. ⚠ 行 ở đây đọc xíng, không đọc háng như trong 银行. 李 đọc nhẹ: xíngli; xiāng giữ cao đều.",
-     "img": "bag"
+     "w": "机票",
+     "py": "jīpiào",
+     "m": "vé máy bay",
+     "mEn": "plane ticket",
+     "ex": "我的机票是今天下午的。",
+     "expy": "Wǒ de jīpiào shì jīntiān xiàwǔ de.",
+     "exm": "Vé máy bay của tôi là chuyến chiều nay.",
+     "exEn": "My plane ticket is for this afternoon.",
+     "n": "票 = vé. Nói vé ngày nào, giờ nào: 机票是 + thời gian + 的. p bật hơi mạnh (khác b).",
+     "img": "ticket"
     },
     {
      "w": "飞",
@@ -95,15 +95,16 @@
      "img": "plane"
     },
     {
-     "w": "着急",
-     "py": "zháojí",
-     "m": "sốt ruột, lo cuống",
-     "mEn": "anxious, worried",
-     "ex": "飞机还不飞，大家都很着急。",
-     "expy": "Fēijī hái bù fēi, dàjiā dōu hěn zháojí.",
-     "exm": "Máy bay vẫn chưa bay, mọi người đều rất sốt ruột.",
-     "exEn": "The plane still hasn't taken off and everyone is getting anxious.",
-     "n": "着 ở đây đọc zháo (thanh 2), không đọc zhe. Khuyên ai đừng sốt ruột: 你不要着急 (Nǐ búyào zháojí). Hai thanh 2 liền nhau: zháo và jí đều đi lên."
+     "w": "过年",
+     "py": "guònián",
+     "m": "ăn Tết, đón năm mới",
+     "mEn": "to celebrate the (Lunar) New Year",
+     "ex": "快要过年了，我想回家。",
+     "expy": "Kuàiyào guònián le, wǒ xiǎng huí jiā.",
+     "exm": "Sắp Tết rồi, tôi muốn về nhà.",
+     "exEn": "New Year is coming, and I want to go home.",
+     "n": "Hán Việt 'quá niên', nhưng nghĩa là ĂN TẾT. Thanh 4 + thanh 2: guò rơi xuống, nián đi lên; n đọc rõ, không thành l.",
+     "img": "newyear"
     },
     {
      "w": "回去",
@@ -370,21 +371,21 @@
    ],
    "vocab": [
     {
-     "q": "行李箱 (xínglixiāng) nghĩa là gì?",
+     "q": "机票 (jīpiào) nghĩa là gì?",
      "opts": [
-      "vali",
       "vé máy bay",
-      "sân bay"
+      "sân bay",
+      "máy bay"
      ],
      "optsEn": [
-      "suitcase",
       "plane ticket",
-      "airport"
+      "airport",
+      "plane"
      ],
      "a": 0,
      "why": {
-      "1": "'Vé máy bay' là 机票 (jīpiào), từ đã học. 行李箱 có 箱 (xiāng) = cái hòm: vali.",
-      "2": "'Sân bay' là 机场 (jīchǎng). 行李箱 là đồ mang theo khi đi xa: vali."
+      "1": "'Sân bay' là 机场 (jīchǎng): 场 là nơi chốn. 机票 có 票 = vé.",
+      "2": "'Máy bay' là 飞机 (fēijī). 机票 có 票 = vé."
      }
     },
     {
@@ -432,16 +433,16 @@
      }
     },
     {
-     "q": "Điền từ: 飞机还不飞，大家都很___。(Fēijī hái bù fēi, dàjiā dōu hěn ___.)",
+     "q": "Điền từ: 快要___了，大家都回家。(Kuàiyào ___ le, dàjiā dōu huí jiā.)",
      "opts": [
-      "着急",
+      "过年",
       "机场",
       "一会儿"
      ],
      "a": 0,
      "why": {
-      "1": "机场 (jīchǎng) là nơi chốn; sau 很 (hěn) cần từ chỉ tâm trạng: 很着急 (rất sốt ruột).",
-      "2": "一会儿 (yíhuìr) = một lát, đứng sau động từ; 很一会儿 không có nghĩa."
+      "1": "机场 (jīchǎng) là nơi chốn; 快要机场了 không có nghĩa.",
+      "2": "一会儿 (yíhuìr) là 'một lát', đứng sau động từ; không đặt giữa 快要……了 như thế này."
      }
     },
     {
@@ -846,10 +847,10 @@
      "en": "airport"
     },
     {
-     "t": "行李箱",
-     "py": "xínglixiāng",
-     "focus": "xíng đi lên, có -ng mũi sau; li đọc nhẹ, ngắn; xiāng giữ cao đều, x môi dẹt (không đọc thành 's').",
-     "en": "suitcase"
+     "t": "机票",
+     "py": "jīpiào",
+     "focus": "p bật hơi (khác b); thanh 1 + thanh 4: piào rơi mạnh và dứt khoát.",
+     "en": "plane ticket"
     },
     {
      "t": "已经",
@@ -864,10 +865,10 @@
      "en": "a moment"
     },
     {
-     "t": "着急",
-     "py": "zháojí",
-     "focus": "着 đọc zháo (không đọc zhe): zh cong lưỡi, không bật hơi; hai thanh 2 liền nhau, cả hai đều đi lên.",
-     "en": "anxious"
+     "t": "过年",
+     "py": "guònián",
+     "focus": "thanh 4 + thanh 2: guò rơi xuống rồi nián đi lên; n đầu đọc rõ, không thành l.",
+     "en": "to celebrate New Year"
     },
     {
      "t": "快要过年了",
