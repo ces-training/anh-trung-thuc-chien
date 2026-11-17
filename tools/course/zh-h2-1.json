@@ -1,0 +1,4757 @@
+{
+ "lang": "zh",
+ "week": 1,
+ "demo": true,
+ "level": "HSK2",
+ "track": "zh-b",
+ "title": "Ngày đầu đến Thượng Hải làm việc: tìm việc, đổi tiền, hỏi đường, thuê nhà, xin nghỉ Tết",
+ "cando": "Giới thiệu bản thân khi phỏng vấn, đổi tiền ở ngân hàng, hỏi đường, hỏi thuê phòng và xin nghỉ phép bằng câu ngắn: nói mình biết làm gì, xin phép, hỏi giá, tỷ giá, khoảng cách, hướng đi và ngày nghỉ",
+ "story": "阮安 (vai của bạn) phỏng vấn online với giám đốc Vương (王经理) và được nhận vào làm ở một công ty tại Thượng Hải (上海). Sang đến nơi, cô đổi tiền ở ngân hàng, hỏi đường tới công ty, cùng đồng nghiệp 王丽 đi xem phòng thuê, rồi xin 王经理 nghỉ phép về Việt Nam ăn Tết.",
+ "cast": [
+  {
+   "key": "an",
+   "name": "阮安",
+   "py": "Ruǎn Ān",
+   "vi": "Nguyễn An, cô gái Việt Nam khoảng 20 tuổi, nhân viên công ty (vai của chính bạn)",
+   "look": "A realistic Vietnamese woman about 26, shoulder-length straight black bob haircut, cobalt blue blouse under a dark winter coat, natural smile"
+  },
+  {
+   "key": "wangli",
+   "name": "王丽",
+   "py": "Wáng Lì",
+   "vi": "Vương Lệ, đồng nghiệp người Trung Quốc khoảng 20 tuổi ở công ty tại Thượng Hải, thân thiện, dẫn 阮安 đi xem phòng thuê",
+   "look": "A realistic Chinese woman about 26, black hair in a high ponytail, red knit sweater under a beige winter coat, cheerful expression"
+  },
+  {
+   "key": "wangjl",
+   "name": "王经理",
+   "py": "Wáng jīnglǐ",
+   "vi": "giám đốc Vương, khoảng 50 tuổi, phỏng vấn online và nhận 阮安 vào làm ở công ty tại Thượng Hải",
+   "look": "A realistic Chinese businessman about 50, short greying hair, rimless glasses, dark navy suit with a red tie, polite and warm"
+  },
+  {
+   "key": "clerk",
+   "name": "银行职员",
+   "py": "yínháng zhíyuán",
+   "vi": "nhân viên ngân hàng ở Thượng Hải (vai phụ)",
+   "look": "A realistic Chinese bank clerk woman in her 30s, white shirt and dark waistcoat, hair in a neat bun, polite smile"
+  },
+  {
+   "key": "passer",
+   "name": "路人",
+   "py": "lùrén",
+   "vi": "người đi đường gần ngân hàng (vai phụ)",
+   "look": "A realistic Chinese man in his 60s, wool cap and scarf, kind face, pointing the way"
+  },
+  {
+   "key": "landlord",
+   "name": "房东",
+   "py": "fángdōng",
+   "vi": "chủ nhà cho thuê phòng gần công ty (vai phụ)",
+   "look": "A realistic Chinese woman in her 50s, short permed hair, grey cardigan, holding a bunch of keys, friendly"
+  }
+ ],
+ "days": [
+  {
+   "id": "h2-w1-thu-2",
+   "label": "Thứ 2",
+   "title": "Tìm việc: phỏng vấn online với giám đốc Vương",
+   "desc": "Giới thiệu bản thân, nói mình biết làm gì (会 + V), xin phép (可以……吗？) và hỏi khi nào bắt đầu làm (什么时候……？) trong buổi phỏng vấn online.",
+   "rule": "会 + động từ = biết làm (nhờ học mà biết): 我会说汉语. Xin phép: 我可以 + V + 吗？ Hỏi khi nào: 什么时候 đứng TRƯỚC động từ: 我什么时候开始？",
+   "cards": [
+    {
+     "w": "找工作",
+     "py": "zhǎo gōngzuò",
+     "m": "tìm việc",
+     "mEn": "to look for a job",
+     "ex": "我在找工作。",
+     "expy": "Wǒ zài zhǎo gōngzuò.",
+     "exm": "Tôi đang tìm việc.",
+     "exEn": "I'm looking for a job.",
+     "n": "找 = tìm, 工作 = công việc. 在 + 找工作 = đang tìm việc. zh cong lưỡi; zhǎo thanh 3 xuống thấp.",
+     "img": "work"
+    },
+    {
+     "w": "公司",
+     "py": "gōngsī",
+     "m": "công ty",
+     "mEn": "company",
+     "ex": "我们公司在上海。",
+     "expy": "Wǒmen gōngsī zài Shànghǎi.",
+     "exm": "Công ty chúng tôi ở Thượng Hải.",
+     "exEn": "Our company is in Shanghai.",
+     "n": "Khớp Hán Việt 'công ti'. Lượng từ: 一个公司 hoặc 一家公司. gōng và sī đều thanh 1, giữ cao đều.",
+     "img": "company"
+    },
+    {
+     "w": "面试",
+     "py": "miànshì",
+     "m": "phỏng vấn (xin việc)",
+     "mEn": "job interview",
+     "ex": "明天上午我有面试。",
+     "expy": "Míngtiān shàngwǔ wǒ yǒu miànshì.",
+     "exm": "Sáng mai tôi có buổi phỏng vấn.",
+     "exEn": "I have an interview tomorrow morning.",
+     "n": "面 = mặt, 试 = thử: gặp mặt để 'thử' = phỏng vấn. Từ thực dụng: chỉ cần nghe hiểu và nói được. Hai thanh 4 liền nhau, đọc dứt khoát.",
+     "img": "laptop"
+    },
+    {
+     "w": "介绍",
+     "py": "jièshào",
+     "m": "giới thiệu",
+     "mEn": "to introduce",
+     "ex": "请你介绍一下。",
+     "expy": "Qǐng nǐ jièshào yíxià.",
+     "exm": "Mời bạn giới thiệu một chút.",
+     "exEn": "Please introduce yourself.",
+     "n": "介绍 + 一下 = giới thiệu qua một chút (nghe nhẹ nhàng, lịch sự). shào cong lưỡi, thanh 4."
+    },
+    {
+     "w": "懂",
+     "py": "dǒng",
+     "m": "hiểu",
+     "mEn": "to understand",
+     "ex": "我懂一点儿汉语。",
+     "expy": "Wǒ dǒng yìdiǎnr Hànyǔ.",
+     "exm": "Tôi hiểu một chút tiếng Trung.",
+     "exEn": "I understand a little Chinese.",
+     "n": "懂 = hiểu (nghe, đọc mà hiểu). Hỏi: 你懂吗？ Trả lời: 懂 / 不懂. dǒng thanh 3, âm cuối -ng mũi sau."
+    },
+    {
+     "w": "可以",
+     "py": "kěyǐ",
+     "m": "có thể, được (phép)",
+     "mEn": "can, may",
+     "ex": "我可以问一下吗？",
+     "expy": "Wǒ kěyǐ wèn yíxià ma?",
+     "exm": "Tôi hỏi một chút được không?",
+     "exEn": "May I ask something?",
+     "n": "可以 + V = được phép làm. Hai thanh 3 liền nhau: kě đọc lên như thanh 2 (ké yǐ). Trả lời: 可以 / 不可以."
+    },
+    {
+     "w": "开始",
+     "py": "kāishǐ",
+     "m": "bắt đầu",
+     "mEn": "to start",
+     "ex": "我明天开始工作。",
+     "expy": "Wǒ míngtiān kāishǐ gōngzuò.",
+     "exm": "Ngày mai tôi bắt đầu làm việc.",
+     "exEn": "I start work tomorrow.",
+     "n": "开 = mở, 始 = đầu: 开始 = bắt đầu. 开始 + V: 开始工作, 开始学习. shǐ cong lưỡi, thanh 3."
+    },
+    {
+     "w": "欢迎",
+     "py": "huānyíng",
+     "m": "chào mừng, hoan nghênh",
+     "mEn": "welcome",
+     "ex": "欢迎你来我们公司！",
+     "expy": "Huānyíng nǐ lái wǒmen gōngsī!",
+     "exm": "Chào mừng bạn đến công ty chúng tôi!",
+     "exEn": "Welcome to our company!",
+     "n": "欢 là chữ trong 喜欢, 迎 = đón: khớp Hán Việt 'hoan nghênh'. Mẫu hay dùng: 欢迎你来 + nơi!",
+     "img": "wave"
+    },
+    {
+     "w": "第一",
+     "py": "dì yī",
+     "m": "thứ nhất, đầu tiên",
+     "mEn": "first",
+     "ex": "今天是我第一天上班。",
+     "expy": "Jīntiān shì wǒ dì yī tiān shàngbān.",
+     "exm": "Hôm nay là ngày đầu tiên tôi đi làm.",
+     "exEn": "Today is my first day at work.",
+     "n": "第 + số = thứ…: 第一, 第二. 第一天 = ngày đầu tiên. 一 trong số thứ tự luôn đọc yī, không đổi thanh."
+    }
+   ],
+   "scene": {
+    "setting": "Sáng thứ Hai, 阮安 ngồi ở nhà tại Hà Nội, phỏng vấn online với giám đốc Vương (王经理) của một công ty ở Thượng Hải (上海).",
+    "img": "scene-zh-interview",
+    "imgPrompt": "Realistic photo of a bright home desk in Hanoi in the morning; an (Vietnamese woman about 26, shoulder-length straight black bob, cobalt blue blouse) sits at a laptop in a video call, smiling; on the laptop screen wangjl (Chinese businessman about 50, short greying hair, rimless glasses, dark navy suit, red tie) in a Shanghai office, no readable text",
+    "lines": [
+     {
+      "who": "王经理",
+      "t": "你好！你是阮安吗？",
+      "py": "Nǐ hǎo! Nǐ shì Ruǎn Ān ma?",
+      "vi": "Chào cô! Cô là Nguyễn An phải không?",
+      "en": "Hello! Are you Ruan An?"
+     },
+     {
+      "who": "阮安",
+      "t": "是，王经理好！",
+      "py": "Shì, Wáng jīnglǐ hǎo!",
+      "vi": "Vâng, chào giám đốc Vương ạ!",
+      "en": "Yes. Hello, Manager Wang!"
+     },
+     {
+      "who": "王经理",
+      "t": "请你介绍一下。",
+      "py": "Qǐng nǐ jièshào yíxià.",
+      "vi": "Mời cô giới thiệu một chút.",
+      "en": "Please introduce yourself."
+     },
+     {
+      "who": "阮安",
+      "t": "我是越南人，今年二十岁。",
+      "py": "Wǒ shì Yuènán rén, jīnnián èrshí suì.",
+      "vi": "Tôi là người Việt Nam, năm nay 20 tuổi.",
+      "en": "I'm Vietnamese, and I'm twenty this year."
+     },
+     {
+      "who": "王经理",
+      "t": "你会说汉语吗？",
+      "py": "Nǐ huì shuō Hànyǔ ma?",
+      "vi": "Cô biết nói tiếng Trung không?",
+      "en": "Can you speak Chinese?"
+     },
+     {
+      "who": "阮安",
+      "t": "会，我学了三年汉语。",
+      "py": "Huì, wǒ xué le sān nián Hànyǔ.",
+      "vi": "Biết ạ, tôi học tiếng Trung ba năm rồi.",
+      "en": "Yes, I've studied Chinese for three years."
+     },
+     {
+      "who": "王经理",
+      "t": "很好！欢迎你来我们公司！",
+      "py": "Hěn hǎo! Huānyíng nǐ lái wǒmen gōngsī!",
+      "vi": "Tốt lắm! Chào mừng cô đến công ty chúng tôi!",
+      "en": "Very good! Welcome to our company!"
+     },
+     {
+      "who": "阮安",
+      "t": "谢谢！我什么时候开始工作？",
+      "py": "Xièxie! Wǒ shénme shíhou kāishǐ gōngzuò?",
+      "vi": "Cảm ơn ạ! Khi nào tôi bắt đầu làm việc?",
+      "en": "Thank you! When do I start work?"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Biết làm (nhờ học mà biết): 会 + V",
+     "f": [
+      [
+       "我",
+       "会",
+       "说汉语"
+      ],
+      [
+       "她",
+       "会",
+       "开车"
+      ]
+     ],
+     "ex": [
+      [
+       "我会说一点儿汉语。",
+       "Tôi biết nói một chút tiếng Trung.",
+       "I can speak a little Chinese."
+      ],
+      [
+       "你会开车吗？",
+       "Bạn biết lái xe không?",
+       "Can you drive?"
+      ]
+     ],
+     "bad": "我会说汉语一点儿。",
+     "good": "我会说一点儿汉语。",
+     "why": "会 đứng ngay trước động từ: 会 + 说 + 汉语. 一点儿 (một chút) đứng TRƯỚC danh từ: 一点儿汉语. Tiếng Việt nói 'tiếng Trung một chút', tiếng Trung phải nói 一点儿汉语."
+    },
+    {
+     "t": "Xin phép: 可以 + V + 吗？",
+     "f": [
+      [
+       "我",
+       "可以",
+       "问一下吗"
+      ],
+      [
+       "我",
+       "可以",
+       "明天来吗"
+      ]
+     ],
+     "ex": [
+      [
+       "我可以问一下吗？",
+       "Tôi hỏi một chút được không?",
+       "May I ask something?"
+      ],
+      [
+       "我可以明天开始吗？",
+       "Tôi bắt đầu từ ngày mai được không?",
+       "Can I start tomorrow?"
+      ]
+     ],
+     "bad": "可以我问一下吗？",
+     "good": "我可以问一下吗？",
+     "why": "Chủ ngữ đứng TRƯỚC 可以: 我 + 可以 + V + 吗？ Không đưa 可以 lên đầu câu như tiếng Việt 'Có thể cho tôi hỏi…'. Trả lời: 可以 (được) hoặc 不可以 (không được)."
+    },
+    {
+     "t": "Hỏi khi nào: 什么时候 + V？",
+     "f": [
+      [
+       "你",
+       "什么时候",
+       "开始"
+      ],
+      [
+       "我们",
+       "什么时候",
+       "面试"
+      ]
+     ],
+     "ex": [
+      [
+       "我什么时候开始？",
+       "Khi nào tôi bắt đầu?",
+       "When do I start?"
+      ],
+      [
+       "你什么时候来上海？",
+       "Khi nào bạn đến Thượng Hải?",
+       "When are you coming to Shanghai?"
+      ]
+     ],
+     "bad": "你来上海什么时候？",
+     "good": "你什么时候来上海？",
+     "why": "什么时候 đứng TRƯỚC động từ, không đặt cuối câu như tiếng Việt 'bạn đến Thượng Hải khi nào'. Trả lời thay đúng chỗ đó: 我明天来上海。"
+    }
+   ],
+   "vocab": [
+    {
+     "q": "面试 (miànshì) nghĩa là gì?",
+     "opts": [
+      "phỏng vấn",
+      "công ty",
+      "giới thiệu"
+     ],
+     "optsEn": [
+      "job interview",
+      "company",
+      "to introduce"
+     ],
+     "a": 0,
+     "why": {
+      "1": "'Công ty' là 公司 (gōngsī).",
+      "2": "'Giới thiệu' là 介绍 (jièshào)."
+     }
+    },
+    {
+     "q": "开始 (kāishǐ) nghĩa là gì?",
+     "opts": [
+      "chào mừng",
+      "bắt đầu",
+      "hiểu"
+     ],
+     "optsEn": [
+      "welcome",
+      "to start",
+      "to understand"
+     ],
+     "a": 1,
+     "why": {
+      "0": "'Chào mừng' là 欢迎 (huānyíng).",
+      "2": "'Hiểu' là 懂 (dǒng)."
+     }
+    },
+    {
+     "q": "Điền từ: 请你___一下。(Qǐng nǐ ___ yíxià.) — Mời bạn giới thiệu một chút.",
+     "opts": [
+      "介绍",
+      "欢迎",
+      "懂"
+     ],
+     "a": 0,
+     "why": {
+      "1": "欢迎 (huānyíng) = chào mừng; 请你欢迎一下 không có nghĩa 'giới thiệu'.",
+      "2": "懂 (dǒng) = hiểu; 'hiểu một chút' không hợp với lời mời giới thiệu."
+     }
+    },
+    {
+     "q": "Điền từ: ___你来我们公司！(___ nǐ lái wǒmen gōngsī!) — Chào mừng bạn đến công ty chúng tôi!",
+     "opts": [
+      "开始",
+      "面试",
+      "欢迎"
+     ],
+     "a": 2,
+     "why": {
+      "0": "开始 (kāishǐ) = bắt đầu, không dùng để chào đón ai.",
+      "1": "面试 (miànshì) = phỏng vấn, không dùng để chào đón ai."
+     }
+    },
+    {
+     "q": "'Tôi đang tìm việc' nói thế nào?",
+     "opts": [
+      "我在找工作。",
+      "我在公司。",
+      "我在第一。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "我在公司 (wǒ zài gōngsī) = tôi đang ở công ty, không phải đang tìm việc.",
+      "2": "第一 (dì yī) = thứ nhất; 我在第一 không có nghĩa 'tìm việc'."
+     }
+    },
+    {
+     "q": "你懂吗？(Nǐ dǒng ma?) nghĩa là gì?",
+     "opts": [
+      "Bạn có đến không?",
+      "Bạn hiểu không?",
+      "Bạn là sinh viên à?"
+     ],
+     "optsEn": [
+      "Are you coming?",
+      "Do you understand?",
+      "Are you a student?"
+     ],
+     "a": 1,
+     "why": {
+      "0": "'Bạn có đến không?' là 你来吗？(Nǐ lái ma?).",
+      "2": "'Bạn là sinh viên à?' là 你是学生吗？(Nǐ shì xuésheng ma?)."
+     }
+    },
+    {
+     "q": "第一天 (dì yī tiān) nghĩa là gì?",
+     "opts": [
+      "ngày đầu tiên",
+      "một ngày",
+      "ngày thứ hai"
+     ],
+     "optsEn": [
+      "the first day",
+      "one day",
+      "the second day"
+     ],
+     "a": 0,
+     "why": {
+      "1": "'Một ngày' là 一天 (yì tiān), không có 第.",
+      "2": "'Ngày thứ hai' là 第二天 (dì èr tiān)."
+     }
+    },
+    {
+     "q": "'Công ty' tiếng Trung là gì?",
+     "opts": [
+      "工作",
+      "面试",
+      "公司"
+     ],
+     "a": 2,
+     "why": {
+      "0": "工作 (gōngzuò) = công việc, làm việc.",
+      "1": "面试 (miànshì) = phỏng vấn."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng? (Tôi biết nói một chút tiếng Trung.)",
+     "opts": [
+      "我会说一点儿汉语。",
+      "我会说汉语一点儿。",
+      "我一点儿会说汉语。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "一点儿 phải đứng TRƯỚC danh từ: 一点儿汉语, không đặt cuối câu.",
+      "2": "一点儿 không đứng trước 会; đúng là 会说 + 一点儿 + 汉语."
+     }
+    },
+    {
+     "q": "Điền từ: 你___开车吗？(Nǐ ___ kāichē ma?) — Bạn BIẾT lái xe không?",
+     "opts": [
+      "是",
+      "会",
+      "在"
+     ],
+     "a": 1,
+     "why": {
+      "0": "是 (shì) = là, không nói khả năng.",
+      "2": "在 (zài) = đang / ở; 你在开车吗 = bạn đang lái xe à?"
+     }
+    },
+    {
+     "q": "Bạn muốn xin phép hỏi. Câu nào đúng?",
+     "opts": [
+      "我可以问一下吗？",
+      "可以我问一下吗？",
+      "我可以吗问一下？"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Chủ ngữ 我 phải đứng trước 可以.",
+      "2": "吗 luôn đứng CUỐI câu."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền từ: 我___明天开始吗？(Wǒ ___ míngtiān kāishǐ ma?) — Tôi bắt đầu từ ngày mai ĐƯỢC KHÔNG?",
+     "model": "可以",
+     "accept": [
+      "可以",
+      "keyi"
+     ],
+     "why": "Xin phép: 我 + 可以 + V + 吗？"
+    },
+    {
+     "q": "Hỏi 'Khi nào bạn đến công ty?'",
+     "opts": [
+      "你来公司什么时候？",
+      "什么你时候来公司？",
+      "你什么时候来公司？"
+     ],
+     "a": 2,
+     "why": {
+      "0": "什么时候 phải đứng TRƯỚC động từ 来, không để cuối câu.",
+      "1": "什么时候 là một cụm, không tách ra; 你 đứng đầu câu."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: 什么时候 / 你 / 面试 (Khi nào bạn phỏng vấn?)",
+     "model": "你什么时候面试？",
+     "accept": [
+      "你什么时候面试？",
+      "你什么时候面试",
+      "nishenmeshihoumianshi"
+     ],
+     "why": "Chủ ngữ + 什么时候 + động từ: 你 + 什么时候 + 面试？"
+    },
+    {
+     "q": "我可以明天来吗？(Wǒ kěyǐ míngtiān lái ma?) — Bạn đồng ý. Trả lời thế nào?",
+     "opts": [
+      "会。",
+      "可以。",
+      "不会。"
+     ],
+     "a": 1,
+     "why": {
+      "0": "会 (huì) trả lời câu hỏi 'biết… không', không trả lời câu xin phép.",
+      "2": "不会 = không biết; câu này hỏi xin phép, và bạn đồng ý."
+     }
+    }
+   ],
+   "listen": [
+    {
+     "q": "Người trả lời là người nước nào?",
+     "audio": "你是哪国人？——我是越南人。",
+     "opts": [
+      "Việt Nam",
+      "Trung Quốc",
+      "Thượng Hải"
+     ],
+     "optsEn": [
+      "Vietnam",
+      "China",
+      "Shanghai"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Nghe thấy 越南人 (Yuènán rén), không phải 中国人.",
+      "2": "上海 (Thượng Hải) là thành phố, câu trả lời là 越南人."
+     }
+    },
+    {
+     "q": "Người trả lời bao nhiêu tuổi?",
+     "audio": "你今年多大？——我今年二十岁。",
+     "opts": [
+      "12 tuổi",
+      "20 tuổi",
+      "22 tuổi"
+     ],
+     "optsEn": [
+      "12 years old",
+      "20 years old",
+      "22 years old"
+     ],
+     "a": 1,
+     "why": {
+      "0": "12 là 十二 (shí'èr); câu nói 二十 (èrshí).",
+      "2": "22 là 二十二; câu chỉ có 二十."
+     }
+    },
+    {
+     "q": "Người trả lời muốn làm việc ở đâu?",
+     "audio": "你想在哪儿工作？——我想在上海工作。",
+     "opts": [
+      "Thượng Hải",
+      "Hà Nội",
+      "ở nhà"
+     ],
+     "optsEn": [
+      "Shanghai",
+      "Hanoi",
+      "at home"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Không nghe thấy 河内 (Hà Nội).",
+      "2": "Câu nói 在上海工作, không phải ở nhà."
+     }
+    },
+    {
+     "q": "Người trả lời nói tiếng Trung thế nào?",
+     "audio": "你会说汉语吗？——会，我会说一点儿。",
+     "opts": [
+      "không biết nói",
+      "nói rất giỏi",
+      "biết nói một chút"
+     ],
+     "optsEn": [
+      "can't speak it",
+      "speaks it very well",
+      "can speak a little"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Câu trả lời là 会 (biết), không phải 不会.",
+      "1": "Nghe thấy 一点儿 (một chút), không phải 很好."
+     }
+    },
+    {
+     "q": "Khi nào phỏng vấn?",
+     "audio": "你什么时候面试？——明天上午九点。",
+     "opts": [
+      "9 giờ sáng mai",
+      "9 giờ sáng nay",
+      "9 giờ tối mai"
+     ],
+     "optsEn": [
+      "9 a.m. tomorrow",
+      "9 a.m. today",
+      "9 p.m. tomorrow"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nói 明天 (ngày mai), không phải 今天.",
+      "2": "上午 là buổi sáng, không phải buổi tối (晚上)."
+     }
+    },
+    {
+     "q": "Khi nào người hỏi bắt đầu làm việc?",
+     "audio": "我什么时候开始工作？——下星期一开始。",
+     "opts": [
+      "thứ Hai tuần này",
+      "thứ Hai tuần sau",
+      "ngày mai"
+     ],
+     "optsEn": [
+      "this Monday",
+      "next Monday",
+      "tomorrow"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Nghe thấy 下星期一: 下 = tuần sau, không phải tuần này.",
+      "2": "Không nghe thấy 明天 (ngày mai)."
+     }
+    },
+    {
+     "q": "Hôm nay là ngày thứ mấy người trả lời đi làm?",
+     "audio": "今天是你第一天上班吗？——是的，我很高兴。",
+     "opts": [
+      "ngày đầu tiên",
+      "ngày thứ hai",
+      "ngày thứ ba"
+     ],
+     "optsEn": [
+      "the first day",
+      "the second day",
+      "the third day"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Ngày thứ hai là 第二天; câu nói 第一天.",
+      "2": "Ngày thứ ba là 第三天; câu nói 第一天."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "HSK2 Nghe – phần 1: nghe câu, xem tranh, chọn Đúng hay Sai. Tranh: một cô gái đang phỏng vấn online qua máy tính.",
+     "audio": "她在面试。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nghe 她在面试 (tā zài miànshì) = cô ấy đang phỏng vấn, khớp với tranh."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 1: nghe câu, xem tranh, chọn Đúng hay Sai. Tranh: hai người bắt tay trong văn phòng.",
+     "audio": "他在开车。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu nghe là 他在开车 (tā zài kāichē) = anh ấy đang lái xe; tranh là hai người bắt tay, không khớp."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 1: nghe câu, xem tranh, chọn Đúng hay Sai. Tranh: một người đàn ông đứng trước toà nhà công ty, vẫy tay chào.",
+     "audio": "欢迎你来我们公司！",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nghe 欢迎你来我们公司 = chào mừng bạn đến công ty chúng tôi, khớp với tranh người đứng trước công ty vẫy chào."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 1: nghe câu, xem tranh, chọn Đúng hay Sai. Tranh: một cô gái đang đọc sách tiếng Trung.",
+     "audio": "我在找工作。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu nghe là 我在找工作 (wǒ zài zhǎo gōngzuò) = tôi đang tìm việc, không nói đọc sách (看书)."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 1: nghe câu, xem tranh, chọn Đúng hay Sai. Tranh: đồng hồ chỉ 9 giờ, một người ngồi vào bàn làm việc.",
+     "audio": "我九点开始工作。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nghe 我九点开始工作 = 9 giờ tôi bắt đầu làm việc, khớp với tranh đồng hồ 9 giờ."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "公司",
+     "py": "gōngsī",
+     "focus": "Hai thanh 1 liền nhau: giữ giọng cao và đều, không hạ xuống ở sī.",
+     "en": "company"
+    },
+    {
+     "t": "面试",
+     "py": "miànshì",
+     "focus": "Hai thanh 4: rơi mạnh, dứt khoát. shì cong lưỡi, không đọc thành 'xì'.",
+     "en": "job interview"
+    },
+    {
+     "t": "介绍一下",
+     "py": "jièshào yíxià",
+     "focus": "一 trước thanh 4 đọc yí (thanh 2); shào cong lưỡi.",
+     "en": "introduce (yourself) a little"
+    },
+    {
+     "t": "可以",
+     "py": "kěyǐ",
+     "focus": "Hai thanh 3 liền nhau: kě đọc lên như thanh 2 → ké yǐ.",
+     "en": "may, can"
+    },
+    {
+     "t": "欢迎欢迎！",
+     "py": "Huānyíng huānyíng!",
+     "focus": "huān thanh 1 cao đều, yíng thanh 2 đi lên, có -ng mũi sau.",
+     "en": "Welcome, welcome!"
+    },
+    {
+     "t": "我会说一点儿汉语。",
+     "py": "Wǒ huì shuō yìdiǎnr Hànyǔ.",
+     "focus": "一 trước thanh 3 đọc yì; diǎnr cuộn lưỡi ở cuối (âm r).",
+     "en": "I can speak a little Chinese."
+    },
+    {
+     "t": "我可以问一下吗？",
+     "py": "Wǒ kěyǐ wèn yíxià ma?",
+     "focus": "wǒ kě yǐ: ba thanh 3 liền nhau, đọc wó ké yǐ; ma nhẹ, ngắn.",
+     "en": "May I ask something?"
+    },
+    {
+     "t": "我什么时候开始？",
+     "py": "Wǒ shénme shíhou kāishǐ?",
+     "focus": "sh cong lưỡi ở shén, shí, shǐ; hou đọc nhẹ.",
+     "en": "When do I start?"
+    }
+   ],
+   "dialog": {
+    "title": "Phỏng vấn online: bạn giới thiệu mình, nói mình biết làm gì và hỏi khi nào bắt đầu. Đổi vai: bạn là người phỏng vấn.",
+    "partner": "王经理",
+    "turns": [
+     {
+      "ai": "你好！请你介绍一下。",
+      "py": "Nǐ hǎo! Qǐng nǐ jièshào yíxià.",
+      "vi": "Chào cô! Mời cô giới thiệu một chút.",
+      "en": "Hello! Please introduce yourself.",
+      "model": "我叫阮安，是越南人。",
+      "mpy": "Wǒ jiào Ruǎn Ān, shì Yuènán rén.",
+      "men": "My name is Ruan An. I'm Vietnamese.",
+      "accept": [
+       "我叫阮安，是越南人。",
+       "我叫阮安。",
+       "我是越南人。",
+       "我叫阮安，我是越南人。",
+       "wojiaoruanan",
+       "woshiyuenanren",
+       "wojiaoruananshiyuenanren"
+      ],
+      "frame": "我叫___，是___人。",
+      "hint": "Nói tên (我叫 + tên) rồi nói quốc tịch (是 + nước + 人)."
+     },
+     {
+      "ai": "你会说汉语吗？",
+      "py": "Nǐ huì shuō Hànyǔ ma?",
+      "vi": "Cô biết nói tiếng Trung không?",
+      "en": "Can you speak Chinese?",
+      "model": "我会说一点儿汉语。",
+      "mpy": "Wǒ huì shuō yìdiǎnr Hànyǔ.",
+      "men": "I can speak a little Chinese.",
+      "accept": [
+       "我会说一点儿汉语。",
+       "会，我会说一点儿。",
+       "会。",
+       "我会说汉语。",
+       "会说一点儿。",
+       "huiwohuishuoyidianr",
+       "hui",
+       "wohuishuoyidianrhanyu"
+      ],
+      "frame": "我会说___汉语。",
+      "hint": "Trả lời bằng 会 + 说: biết một chút thì thêm 一点儿 trước 汉语."
+     },
+     {
+      "ai": "很好！你可以来我们公司工作。",
+      "py": "Hěn hǎo! Nǐ kěyǐ lái wǒmen gōngsī gōngzuò.",
+      "vi": "Tốt lắm! Cô có thể đến công ty chúng tôi làm việc.",
+      "en": "Very good! You can come and work at our company.",
+      "model": "太好了！我什么时候开始？",
+      "mpy": "Tài hǎo le! Wǒ shénme shíhou kāishǐ?",
+      "men": "Great! When do I start?",
+      "accept": [
+       "太好了！我什么时候开始？",
+       "我什么时候开始？",
+       "我什么时候开始工作？",
+       "什么时候开始？",
+       "taihaole",
+       "woshenmeshihoukaishigongzuo",
+       "taihaolewoshenmeshihoukaishi"
+      ],
+      "frame": "太好了！我___开始？",
+      "hint": "Vui mừng (太好了！), rồi hỏi thời gian: 什么时候 đặt trước 开始."
+     },
+     {
+      "ai": "下星期一开始。欢迎你！",
+      "py": "Xià xīngqīyī kāishǐ. Huānyíng nǐ!",
+      "vi": "Thứ Hai tuần sau bắt đầu. Chào mừng cô!",
+      "en": "You start next Monday. Welcome!",
+      "model": "谢谢王经理！",
+      "mpy": "Xièxie Wáng jīnglǐ!",
+      "men": "Thank you, Manager Wang!",
+      "accept": [
+       "谢谢王经理！",
+       "谢谢！",
+       "谢谢您！",
+       "谢谢王经理！再见！",
+       "xiexie",
+       "xiexienin",
+       "xiexiewangjingli"
+      ],
+      "frame": "谢谢___！",
+      "hint": "Cảm ơn người phỏng vấn: 谢谢 + 王经理 (hoặc 谢谢您)."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Tin tuyển dụng",
+    "text": "我们公司在上海，想找一个越南人。你要会说汉语，也要懂越南语。上午九点到下午五点工作。想来面试的，请打电话。",
+    "py": "Wǒmen gōngsī zài Shànghǎi, xiǎng zhǎo yí ge Yuènán rén. Nǐ yào huì shuō Hànyǔ, yě yào dǒng Yuènányǔ. Shàngwǔ jiǔ diǎn dào xiàwǔ wǔ diǎn gōngzuò. Xiǎng lái miànshì de, qǐng dǎ diànhuà.",
+    "en": "Our company is in Shanghai and we're looking for a Vietnamese person. You need to speak Chinese and also understand Vietnamese. Working hours are 9 a.m. to 5 p.m. If you'd like an interview, please call us.",
+    "vi": "Công ty chúng tôi ở Thượng Hải, muốn tìm một người Việt Nam. Bạn cần biết nói tiếng Trung và cũng phải hiểu tiếng Việt. Làm việc từ 9 giờ sáng đến 5 giờ chiều. Ai muốn đến phỏng vấn, xin gọi điện.",
+    "qs": [
+     {
+      "q": "Công ty ở đâu?",
+      "opts": [
+       "Thượng Hải",
+       "Hà Nội",
+       "Việt Nam"
+      ],
+      "optsEn": [
+       "Shanghai",
+       "Hanoi",
+       "Vietnam"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài không nhắc đến Hà Nội; bài viết 我们公司在上海.",
+       "2": "越南 xuất hiện trong 越南人 (người cần tìm), còn công ty ở 上海."
+      }
+     },
+     {
+      "q": "Công ty muốn tìm người nước nào?",
+      "opts": [
+       "người Trung Quốc",
+       "người Việt Nam",
+       "người nước ngoài nào cũng được"
+      ],
+      "optsEn": [
+       "a Chinese person",
+       "a Vietnamese person",
+       "anyone from abroad"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài viết 想找一个越南人, không phải 中国人.",
+       "2": "Bài nói rõ 越南人 (người Việt Nam)."
+      }
+     },
+     {
+      "q": "Người được tuyển cần biết gì?",
+      "opts": [
+       "nói tiếng Trung và hiểu tiếng Việt",
+       "chỉ cần nói tiếng Trung",
+       "lái xe"
+      ],
+      "optsEn": [
+       "speak Chinese and understand Vietnamese",
+       "only speak Chinese",
+       "drive"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết thêm 也要懂越南语 (cũng phải hiểu tiếng Việt).",
+       "2": "Bài không nhắc đến 开车 (lái xe)."
+      }
+     },
+     {
+      "q": "Giờ làm việc là mấy giờ?",
+      "opts": [
+       "9 giờ sáng – 9 giờ tối",
+       "5 giờ sáng – 9 giờ sáng",
+       "9 giờ sáng – 5 giờ chiều"
+      ],
+      "optsEn": [
+       "9 a.m. – 9 p.m.",
+       "5 a.m. – 9 a.m.",
+       "9 a.m. – 5 p.m."
+      ],
+      "a": 2,
+      "why": {
+       "0": "Bài viết 下午五点 (5 giờ chiều) là giờ kết thúc.",
+       "1": "Bắt đầu là 上午九点 (9 giờ sáng), không phải 5 giờ sáng."
+      }
+     },
+     {
+      "q": "Muốn đi phỏng vấn thì làm gì?",
+      "opts": [
+       "gọi điện",
+       "đến thẳng công ty",
+       "gửi thư"
+      ],
+      "optsEn": [
+       "make a phone call",
+       "go straight to the company",
+       "send a letter"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 请打电话 (xin gọi điện), không nói đến thẳng công ty.",
+       "2": "Bài không nhắc đến thư; chỉ nói 打电话."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "h2-w1-thu-3",
+   "label": "Thứ 3",
+   "title": "Đến Thượng Hải: đổi tiền ở ngân hàng",
+   "desc": "Nói mình muốn làm gì (我想 + V), đưa giấy tờ (给 + người + vật) và hỏi tỷ giá (一……能换多少……？) ở quầy ngân hàng.",
+   "rule": "我想 + V = tôi muốn làm…: 我想换钱. Đưa cho ai cái gì: 给 + người + vật: 请给我护照. Hỏi tỷ giá: 一万越南盾能换多少人民币？ Tiếng Trung đếm theo 万 (vạn = 10.000): 1 triệu = 一百万.",
+   "cards": [
+    {
+     "w": "换钱",
+     "py": "huàn qián",
+     "m": "đổi tiền",
+     "mEn": "to exchange money",
+     "ex": "我想去银行换钱。",
+     "expy": "Wǒ xiǎng qù yínháng huàn qián.",
+     "exm": "Tôi muốn đến ngân hàng đổi tiền.",
+     "exEn": "I'd like to go to the bank to change money.",
+     "n": "换 = đổi: 换钱 (đổi tiền), 换人民币 (đổi sang nhân dân tệ). huàn thanh 4, qián thanh 2."
+    },
+    {
+     "w": "银行",
+     "py": "yínháng",
+     "m": "ngân hàng",
+     "mEn": "bank",
+     "ex": "请问，银行在哪儿？",
+     "expy": "Qǐngwèn, yínháng zài nǎr?",
+     "exm": "Xin hỏi, ngân hàng ở đâu?",
+     "exEn": "Excuse me, where is the bank?",
+     "n": "银 = bạc, 行 ở đây đọc háng (không đọc xíng): khớp Hán Việt 'ngân hàng'. Hai thanh 2 liền nhau, đều đi lên.",
+     "img": "bank"
+    },
+    {
+     "w": "人民币",
+     "py": "rénmínbì",
+     "m": "nhân dân tệ (tiền Trung Quốc)",
+     "mEn": "renminbi (RMB)",
+     "ex": "我想换人民币。",
+     "expy": "Wǒ xiǎng huàn rénmínbì.",
+     "exm": "Tôi muốn đổi nhân dân tệ.",
+     "exEn": "I'd like to change into RMB.",
+     "n": "Từ thực dụng: chỉ cần nghe hiểu và nói được. Nói giá thì dùng 块 (khẩu ngữ) hoặc 元 (chữ viết): 一百块.",
+     "img": "rmb"
+    },
+    {
+     "w": "越南盾",
+     "py": "Yuènándùn",
+     "m": "đồng Việt Nam",
+     "mEn": "Vietnamese dong",
+     "ex": "我有一百万越南盾。",
+     "expy": "Wǒ yǒu yìbǎi wàn Yuènándùn.",
+     "exm": "Tôi có 1 triệu đồng.",
+     "exEn": "I have one million dong.",
+     "n": "Từ thực dụng: chỉ cần nghe hiểu và nói được. 盾 = cái khiên (tên tiền 'đồng' của Việt Nam). dùn thanh 4.",
+     "img": "vnd"
+    },
+    {
+     "w": "千",
+     "py": "qiān",
+     "m": "nghìn",
+     "mEn": "thousand",
+     "ex": "我想换三千块。",
+     "expy": "Wǒ xiǎng huàn sānqiān kuài.",
+     "exm": "Tôi muốn đổi 3.000 tệ.",
+     "exEn": "I'd like to change 3,000 yuan.",
+     "n": "一千 = 1.000, 两千 = 2.000 (dùng 两, không dùng 二), 三千五 = 3.500. qiān thanh 1, đầu lưỡi chạm răng dưới."
+    },
+    {
+     "w": "万",
+     "py": "wàn",
+     "m": "vạn, mười nghìn",
+     "mEn": "ten thousand",
+     "ex": "一百万越南盾能换多少？",
+     "expy": "Yìbǎi wàn Yuènándùn néng huàn duōshao?",
+     "exm": "1 triệu đồng đổi được bao nhiêu?",
+     "exEn": "How much can I get for a million dong?",
+     "n": "万 = 10.000. Tiếng Việt đếm theo nghìn, tiếng Trung đếm theo vạn: 1 triệu = 一百万, 10 triệu = 一千万. Mẹo: bỏ 4 số 0 cuối rồi đọc + 万."
+    },
+    {
+     "w": "护照",
+     "py": "hùzhào",
+     "m": "hộ chiếu",
+     "mEn": "passport",
+     "ex": "这是我的护照。",
+     "expy": "Zhè shì wǒ de hùzhào.",
+     "exm": "Đây là hộ chiếu của tôi.",
+     "exEn": "This is my passport.",
+     "n": "护 = bảo hộ, 照 = giấy (có ảnh): khớp Hán Việt 'hộ chiếu'. Hai thanh 4; zhào cong lưỡi.",
+     "img": "passport"
+    },
+    {
+     "w": "给",
+     "py": "gěi",
+     "m": "đưa, cho",
+     "mEn": "to give",
+     "ex": "请给我你的护照。",
+     "expy": "Qǐng gěi wǒ nǐ de hùzhào.",
+     "exm": "Vui lòng đưa tôi hộ chiếu của bạn.",
+     "exEn": "Please give me your passport.",
+     "n": "给 + người + vật: 给我护照 (đưa tôi hộ chiếu). Đưa đồ cho ai thì nói 给你 (đây, gửi bạn). gěi thanh 3."
+    },
+    {
+     "w": "张",
+     "py": "zhāng",
+     "m": "tờ, tấm (lượng từ)",
+     "mEn": "(measure word for flat things)",
+     "ex": "我有两张一百块。",
+     "expy": "Wǒ yǒu liǎng zhāng yìbǎi kuài.",
+     "exm": "Tôi có hai tờ 100 tệ.",
+     "exEn": "I have two 100-yuan notes.",
+     "n": "Lượng từ cho vật mỏng, phẳng: 一张桌子, 一张床, 一张一百块 (một tờ 100 tệ). Nói 两张, không nói 二张. zhāng cong lưỡi, thanh 1."
+    }
+   ],
+   "scene": {
+    "setting": "Ngày đầu tiên ở Thượng Hải (上海). 阮安 mang tiền Việt sang và vào ngân hàng gần khách sạn để đổi sang nhân dân tệ.",
+    "img": "scene-zh-bank",
+    "imgPrompt": "Realistic photo inside a modern Chinese bank branch in Shanghai in winter; an (Vietnamese woman about 26, shoulder-length straight black bob, cobalt blue blouse under a dark winter coat) stands at the counter handing over her passport; clerk (Chinese bank clerk woman in her 30s, white shirt, dark waistcoat, neat bun) smiles behind the glass, banknotes on the counter, no readable text",
+    "lines": [
+     {
+      "who": "银行职员",
+      "t": "您好！请问您要做什么？",
+      "py": "Nín hǎo! Qǐngwèn nín yào zuò shénme?",
+      "vi": "Chào chị! Xin hỏi chị cần làm gì ạ?",
+      "en": "Hello! What can I do for you?"
+     },
+     {
+      "who": "阮安",
+      "t": "你好！我想换钱。",
+      "py": "Nǐ hǎo! Wǒ xiǎng huàn qián.",
+      "vi": "Chào chị! Tôi muốn đổi tiền.",
+      "en": "Hello! I'd like to change some money."
+     },
+     {
+      "who": "银行职员",
+      "t": "您想换什么钱？",
+      "py": "Nín xiǎng huàn shénme qián?",
+      "vi": "Chị muốn đổi tiền gì?",
+      "en": "What currency would you like?"
+     },
+     {
+      "who": "阮安",
+      "t": "我有越南盾，想换人民币。",
+      "py": "Wǒ yǒu Yuènándùn, xiǎng huàn rénmínbì.",
+      "vi": "Tôi có tiền đồng, muốn đổi sang nhân dân tệ.",
+      "en": "I have Vietnamese dong and want RMB."
+     },
+     {
+      "who": "银行职员",
+      "t": "好的，请给我您的护照。",
+      "py": "Hǎo de, qǐng gěi wǒ nín de hùzhào.",
+      "vi": "Vâng, chị cho tôi xem hộ chiếu.",
+      "en": "Sure, please give me your passport."
+     },
+     {
+      "who": "阮安",
+      "t": "给你。一百万越南盾能换多少？",
+      "py": "Gěi nǐ. Yìbǎi wàn Yuènándùn néng huàn duōshao?",
+      "vi": "Đây ạ. 1 triệu đồng đổi được bao nhiêu?",
+      "en": "Here you are. How much do I get for a million dong?"
+     },
+     {
+      "who": "银行职员",
+      "t": "能换两百七十块。",
+      "py": "Néng huàn liǎngbǎi qīshí kuài.",
+      "vi": "Đổi được 270 tệ.",
+      "en": "You get 270 yuan."
+     },
+     {
+      "who": "阮安",
+      "t": "好，我换一千万。谢谢！",
+      "py": "Hǎo, wǒ huàn yìqiān wàn. Xièxie!",
+      "vi": "Được, tôi đổi 10 triệu. Cảm ơn chị!",
+      "en": "OK, I'll change ten million. Thank you!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Muốn làm gì: 我想 + V",
+     "f": [
+      [
+       "我",
+       "想",
+       "换钱"
+      ],
+      [
+       "我",
+       "想",
+       "去银行"
+      ]
+     ],
+     "ex": [
+      [
+       "我想换钱。",
+       "Tôi muốn đổi tiền.",
+       "I'd like to change money."
+      ],
+      [
+       "我想去银行换钱。",
+       "Tôi muốn đến ngân hàng đổi tiền.",
+       "I'd like to go to the bank to change money."
+      ]
+     ],
+     "bad": "我想换钱在银行。",
+     "good": "我想去银行换钱。",
+     "why": "想 + động từ: 想 + 换钱. Nơi làm việc đó đứng TRƯỚC động từ (去银行 + 换钱), không đặt 在银行 ở cuối câu như tiếng Việt 'đổi tiền ở ngân hàng'."
+    },
+    {
+     "t": "Đưa cho ai cái gì: 给 + người + vật",
+     "f": [
+      [
+       "请",
+       "给",
+       "我",
+       "护照"
+      ],
+      [
+       "我",
+       "给",
+       "你",
+       "三千块"
+      ]
+     ],
+     "ex": [
+      [
+       "请给我护照。",
+       "Vui lòng đưa tôi hộ chiếu.",
+       "Please give me your passport."
+      ],
+      [
+       "我给你三千块。",
+       "Tôi đưa bạn 3.000 tệ.",
+       "I'll give you 3,000 yuan."
+      ]
+     ],
+     "bad": "请给护照我。",
+     "good": "请给我护照。",
+     "why": "Người nhận đứng ngay sau 给, vật đứng cuối: 给 + 我 + 护照. Không đặt người nhận ở cuối câu."
+    },
+    {
+     "t": "Hỏi tỷ giá: 一 + A + 能换多少 + B？",
+     "f": [
+      [
+       "一万越南盾",
+       "能换多少",
+       "人民币"
+      ],
+      [
+       "一块人民币",
+       "能换多少",
+       "越南盾"
+      ]
+     ],
+     "ex": [
+      [
+       "一万越南盾能换多少？",
+       "10 nghìn đồng đổi được bao nhiêu?",
+       "How much can I get for 10,000 dong?"
+      ],
+      [
+       "一块能换多少越南盾？",
+       "1 tệ đổi được bao nhiêu đồng?",
+       "How many dong do I get for one yuan?"
+      ]
+     ],
+     "bad": "一万越南盾换能多少？",
+     "good": "一万越南盾能换多少？",
+     "why": "能 đứng trước động từ 换: 能换多少 = đổi được bao nhiêu. Hỏi số tiền lớn thì dùng 多少, không dùng 几."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "银行 (yínháng) nghĩa là gì?",
+     "opts": [
+      "ngân hàng",
+      "khách sạn",
+      "siêu thị"
+     ],
+     "optsEn": [
+      "bank",
+      "hotel",
+      "supermarket"
+     ],
+     "a": 0,
+     "why": {
+      "1": "'Khách sạn' không phải 银行; 银 = bạc, 行 = hàng: ngân hàng.",
+      "2": "'Siêu thị' là 超市 (chāoshì)."
+     }
+    },
+    {
+     "q": "护照 (hùzhào) nghĩa là gì?",
+     "opts": [
+      "điện thoại",
+      "hộ chiếu",
+      "vé máy bay"
+     ],
+     "optsEn": [
+      "phone",
+      "passport",
+      "plane ticket"
+     ],
+     "a": 1,
+     "why": {
+      "0": "'Điện thoại' là 手机 (shǒujī) hoặc 电话.",
+      "2": "'Vé máy bay' là 机票 (jīpiào)."
+     }
+    },
+    {
+     "q": "Điền từ: 我想去银行___。(Wǒ xiǎng qù yínháng ___.) — Tôi muốn đến ngân hàng đổi tiền.",
+     "opts": [
+      "换钱",
+      "护照",
+      "千"
+     ],
+     "a": 0,
+     "why": {
+      "1": "护照 (hộ chiếu) là danh từ, không phải việc làm ở ngân hàng.",
+      "2": "千 (nghìn) là số, không phải việc làm."
+     }
+    },
+    {
+     "q": "'1 triệu' tiếng Trung là gì?",
+     "opts": [
+      "一千",
+      "一万",
+      "一百万"
+     ],
+     "a": 2,
+     "why": {
+      "0": "一千 = 1.000.",
+      "1": "一万 = 10.000."
+     }
+    },
+    {
+     "q": "Điền lượng từ: 两___一百块 (liǎng ___ yìbǎi kuài) — hai tờ 100 tệ",
+     "opts": [
+      "个",
+      "张",
+      "千"
+     ],
+     "a": 1,
+     "why": {
+      "0": "个 là lượng từ chung, không dùng cho tờ tiền; vật mỏng, phẳng dùng 张.",
+      "2": "千 là số (nghìn), không phải lượng từ."
+     }
+    },
+    {
+     "q": "Tiền của Trung Quốc gọi là gì?",
+     "opts": [
+      "人民币",
+      "越南盾",
+      "护照"
+     ],
+     "a": 0,
+     "why": {
+      "1": "越南盾 là tiền đồng Việt Nam.",
+      "2": "护照 là hộ chiếu, không phải tiền."
+     }
+    },
+    {
+     "q": "Điền từ: 请___我你的护照。(Qǐng ___ wǒ nǐ de hùzhào.) — Vui lòng đưa tôi hộ chiếu.",
+     "opts": [
+      "换",
+      "有",
+      "给"
+     ],
+     "a": 2,
+     "why": {
+      "0": "换 (huàn) = đổi; 'đổi tôi hộ chiếu' không có nghĩa.",
+      "1": "有 (yǒu) = có; 请有我 không có nghĩa."
+     }
+    },
+    {
+     "q": "3.000 tệ đọc thế nào?",
+     "opts": [
+      "三千块",
+      "三百块",
+      "三万块"
+     ],
+     "a": 0,
+     "why": {
+      "1": "三百块 = 300 tệ.",
+      "2": "三万块 = 30.000 tệ."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng? (Tôi muốn đổi tiền.)",
+     "opts": [
+      "我想换钱。",
+      "我想钱换。",
+      "我换钱想。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Động từ 换 phải đứng trước tân ngữ 钱: 换钱.",
+      "2": "想 phải đứng TRƯỚC động từ: 想 + 换钱."
+     }
+    },
+    {
+     "q": "Câu nào đúng? (Tôi muốn đến ngân hàng đổi tiền.)",
+     "opts": [
+      "我想换钱在银行。",
+      "我想去银行换钱。",
+      "我在银行想去换钱。"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Nơi chốn 在银行 không đặt ở cuối câu.",
+      "2": "想 đứng trước 去, không nói 在银行想去换钱."
+     }
+    },
+    {
+     "q": "Câu nào đúng? (Vui lòng đưa tôi hộ chiếu.)",
+     "opts": [
+      "请给护照我。",
+      "请我给护照。",
+      "请给我护照。"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Người nhận 我 phải đứng ngay sau 给.",
+      "1": "给 đứng trước người nhận: 给我, không phải 我给 (tôi đưa)."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền từ: 我___你三千块。(Wǒ ___ nǐ sānqiān kuài.) — Tôi đưa bạn 3.000 tệ.",
+     "model": "给",
+     "accept": [
+      "给",
+      "gei"
+     ],
+     "why": "Đưa cho ai cái gì: 给 + người + vật: 给你三千块."
+    },
+    {
+     "q": "Hỏi tỷ giá: '10 nghìn đồng đổi được bao nhiêu?'",
+     "opts": [
+      "一万越南盾能换多少？",
+      "一万越南盾换能多少？",
+      "一千越南盾能换多少？"
+     ],
+     "a": 0,
+     "why": {
+      "1": "能 phải đứng trước động từ 换: 能换多少.",
+      "2": "一千 = 1.000, không phải 10.000 (一万)."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Viết bằng chữ Hán số 20.000 (hai vạn).",
+     "model": "两万",
+     "accept": [
+      "两万",
+      "二万",
+      "erwan",
+      "liangwan"
+     ],
+     "why": "20.000 = 2 vạn: 两万 (lượng lớn thường nói 两, không nói 二). Bỏ 4 số 0 cuối rồi đọc + 万."
+    },
+    {
+     "q": "Điền từ: 一块人民币能换___越南盾？— 1 tệ đổi được bao nhiêu đồng?",
+     "opts": [
+      "几",
+      "多少",
+      "什么"
+     ],
+     "a": 1,
+     "why": {
+      "0": "几 chỉ dùng khi đoán số nhỏ (dưới 10); tỷ giá là số lớn nên dùng 多少.",
+      "2": "什么 hỏi 'cái gì', không hỏi số lượng."
+     }
+    }
+   ],
+   "listen": [
+    {
+     "q": "Ngân hàng ở đâu?",
+     "audio": "请问，银行在哪儿？——在前边。",
+     "opts": [
+      "ở phía trước",
+      "trong khách sạn",
+      "ở xa"
+     ],
+     "optsEn": [
+      "in front",
+      "inside the hotel",
+      "far away"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nói 在前边 (phía trước), không nói trong khách sạn.",
+      "2": "Câu không nói xa; chỉ nói 在前边."
+     }
+    },
+    {
+     "q": "Người trả lời có gì?",
+     "audio": "你有护照吗？——有，这是我的护照。",
+     "opts": [
+      "điện thoại",
+      "hộ chiếu",
+      "sách"
+     ],
+     "optsEn": [
+      "a phone",
+      "a passport",
+      "a book"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu trả lời là 有护照, không nói 手机 (điện thoại).",
+      "2": "Không nghe thấy 书 (sách)."
+     }
+    },
+    {
+     "q": "Người trả lời muốn đổi bao nhiêu?",
+     "audio": "你想换多少钱？——我想换五百块。",
+     "opts": [
+      "500 tệ",
+      "50 tệ",
+      "5.000 tệ"
+     ],
+     "optsEn": [
+      "500 yuan",
+      "50 yuan",
+      "5,000 yuan"
+     ],
+     "a": 0,
+     "why": {
+      "1": "50 là 五十; câu nói 五百.",
+      "2": "5.000 là 五千; câu nói 五百."
+     }
+    },
+    {
+     "q": "1 tệ đổi được bao nhiêu đồng?",
+     "audio": "一块人民币能换多少越南盾？——三千七百。",
+     "opts": [
+      "3.000 đồng",
+      "7.300 đồng",
+      "3.700 đồng"
+     ],
+     "optsEn": [
+      "3,000 dong",
+      "7,300 dong",
+      "3,700 dong"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Nghe thấy 三千七百: còn 七百 phía sau, không phải đúng 3.000.",
+      "1": "Thứ tự là 三千 rồi 七百 = 3.700, không phải 7.300."
+     }
+    },
+    {
+     "q": "Nhân viên ngân hàng cần gì?",
+     "audio": "你好，我想换钱。——好的，请给我您的护照。",
+     "opts": [
+      "hộ chiếu",
+      "tiền đồng",
+      "vé máy bay"
+     ],
+     "optsEn": [
+      "your passport",
+      "Vietnamese dong",
+      "a plane ticket"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nói 请给我护照, không nói 越南盾.",
+      "2": "Không nghe thấy 机票."
+     }
+    },
+    {
+     "q": "Người trả lời muốn đổi bao nhiêu tiền đồng?",
+     "audio": "你想换多少越南盾？——一千万。",
+     "opts": [
+      "1 triệu",
+      "10 triệu",
+      "100 nghìn"
+     ],
+     "optsEn": [
+      "1 million",
+      "10 million",
+      "100,000"
+     ],
+     "a": 1,
+     "why": {
+      "0": "1 triệu là 一百万; câu nói 一千万.",
+      "2": "100 nghìn là 十万; câu nói 一千万."
+     }
+    },
+    {
+     "q": "Nhân viên đưa tiền thế nào?",
+     "audio": "给您一千块，十张一百块的。",
+     "opts": [
+      "10 tờ 100 tệ",
+      "100 tờ 10 tệ",
+      "1 tờ 1.000 tệ"
+     ],
+     "optsEn": [
+      "ten 100-yuan notes",
+      "a hundred 10-yuan notes",
+      "one 1,000-yuan note"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nói 十张一百块: 十张 là 10 tờ, mỗi tờ 一百块.",
+      "2": "Câu không có 一千块; là 十张一百块."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "HSK2 Đọc – phần 1: Tranh: một cô gái đưa hộ chiếu qua quầy ngân hàng. Câu nào khớp với tranh?",
+     "opts": [
+      "这是我的护照。",
+      "我在吃早饭。",
+      "我们去学校吧。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Tranh là quầy ngân hàng, không phải ăn sáng (吃早饭).",
+      "2": "Tranh không nói đến trường học (学校)."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 1: Tranh: một xấp tiền nhân dân tệ màu đỏ trên bàn. Câu nào khớp với tranh?",
+     "opts": [
+      "这是我的书。",
+      "这是人民币。",
+      "这是一杯水。"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Tranh là tiền, không phải sách (书).",
+      "2": "Tranh là tiền, không phải cốc nước (一杯水)."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 1: Tranh: toà nhà ngân hàng trên phố, mọi người xếp hàng ở cửa. Câu nào khớp với tranh?",
+     "opts": [
+      "医院在那儿。",
+      "超市在那儿。",
+      "银行在那儿。"
+     ],
+     "a": 2,
+     "why": {
+      "0": "医院 là bệnh viện, không phải ngân hàng.",
+      "1": "超市 là siêu thị, không phải ngân hàng."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 1: Tranh: một bàn tay cầm hai tờ 100 tệ. Câu nào khớp với tranh?",
+     "opts": [
+      "我有两张一百块。",
+      "我有一张桌子。",
+      "我有两个杯子。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "一张桌子 là một cái bàn, không phải tiền.",
+      "2": "两个杯子 là hai cái cốc, không phải tiền."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 1: Tranh: cô gái ở quầy, nhân viên đếm tiền đưa cho cô. Câu nào khớp với tranh?",
+     "opts": [
+      "我想睡觉。",
+      "我想换钱。",
+      "我想看电视。"
+     ],
+     "a": 1,
+     "why": {
+      "0": "睡觉 là đi ngủ, không khớp cảnh quầy ngân hàng.",
+      "2": "看电视 là xem tivi, không khớp cảnh đếm tiền."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "换钱",
+     "py": "huàn qián",
+     "focus": "huàn thanh 4 rơi mạnh, qián thanh 2 đi lên; q đầu lưỡi chạm răng dưới, bật hơi.",
+     "en": "to change money"
+    },
+    {
+     "t": "银行",
+     "py": "yínháng",
+     "focus": "Hai thanh 2 liền nhau: đều đi lên. 行 đọc háng, không đọc xíng.",
+     "en": "bank"
+    },
+    {
+     "t": "人民币",
+     "py": "rénmínbì",
+     "focus": "rén: r cong lưỡi nhẹ, không đọc 'dần'; bì thanh 4 dứt khoát.",
+     "en": "renminbi"
+    },
+    {
+     "t": "护照",
+     "py": "hùzhào",
+     "focus": "Hai thanh 4: rơi mạnh. zh cong lưỡi, không bật hơi.",
+     "en": "passport"
+    },
+    {
+     "t": "一百万",
+     "py": "yìbǎi wàn",
+     "focus": "一 trước thanh 3 đọc yì; bǎi xuống thấp rồi wàn rơi mạnh.",
+     "en": "one million"
+    },
+    {
+     "t": "我想换钱。",
+     "py": "Wǒ xiǎng huàn qián.",
+     "focus": "wǒ xiǎng: hai thanh 3 liền nhau, wǒ đọc lên như thanh 2.",
+     "en": "I'd like to change money."
+    },
+    {
+     "t": "请给我护照。",
+     "py": "Qǐng gěi wǒ hùzhào.",
+     "focus": "Ba thanh 3 liền nhau (qǐng gěi wǒ): chỉ chữ cuối wǒ xuống thấp, hai chữ đầu đọc lên.",
+     "en": "Please give me your passport."
+    },
+    {
+     "t": "一万能换多少？",
+     "py": "Yíwàn néng huàn duōshao?",
+     "focus": "一 trước thanh 4 đọc yí; shao đọc nhẹ.",
+     "en": "How much can I get for ten thousand?"
+    }
+   ],
+   "dialog": {
+    "title": "Ở quầy ngân hàng: bạn đổi 10 triệu đồng sang nhân dân tệ. Đổi vai: bạn là nhân viên ngân hàng.",
+    "partner": "银行职员",
+    "turns": [
+     {
+      "ai": "您好！您想换钱吗？",
+      "py": "Nín hǎo! Nín xiǎng huàn qián ma?",
+      "vi": "Chào chị! Chị muốn đổi tiền ạ?",
+      "en": "Hello! Would you like to change money?",
+      "model": "对，我想换人民币。",
+      "mpy": "Duì, wǒ xiǎng huàn rénmínbì.",
+      "men": "Yes, I'd like to change into RMB.",
+      "accept": [
+       "对，我想换人民币。",
+       "我想换人民币。",
+       "对，我想换钱。",
+       "我想换钱。",
+       "对。",
+       "woxianghuanrenminbi",
+       "woxianghuanqian",
+       "duiwoxianghuanrenminbi"
+      ],
+      "frame": "对，我想换___。",
+      "hint": "Nói muốn làm gì: 我想 + 换 + loại tiền."
+     },
+     {
+      "ai": "好的。请给我您的护照。",
+      "py": "Hǎo de. Qǐng gěi wǒ nín de hùzhào.",
+      "vi": "Vâng. Chị cho tôi xem hộ chiếu.",
+      "en": "Sure. Please give me your passport.",
+      "model": "给你，这是我的护照。",
+      "mpy": "Gěi nǐ, zhè shì wǒ de hùzhào.",
+      "men": "Here you are, this is my passport.",
+      "accept": [
+       "给你，这是我的护照。",
+       "给你。",
+       "这是我的护照。",
+       "好，给你。",
+       "geini",
+       "zheshiwodehuzhao",
+       "geinizheshiwodehuzhao"
+      ],
+      "frame": "给你，这是我的___。",
+      "hint": "Đưa đồ: 给你 (đây ạ), rồi nói 这是我的护照."
+     },
+     {
+      "ai": "您想换多少？",
+      "py": "Nín xiǎng huàn duōshao?",
+      "vi": "Chị muốn đổi bao nhiêu?",
+      "en": "How much would you like to change?",
+      "model": "一千万越南盾能换多少？",
+      "mpy": "Yìqiān wàn Yuènándùn néng huàn duōshao?",
+      "men": "How much do I get for ten million dong?",
+      "accept": [
+       "一千万越南盾能换多少？",
+       "一千万越南盾。",
+       "我想换一千万越南盾。",
+       "一千万能换多少？",
+       "yiqianwanyuenandun",
+       "yiqianwannenghuanduoshao",
+       "yiqianwanyuenandunnenghuanduoshao"
+      ],
+      "frame": "___越南盾能换多少？",
+      "hint": "Nói số tiền đồng (10 triệu = 一千万) rồi hỏi 能换多少？"
+     },
+     {
+      "ai": "能换两千七百块。",
+      "py": "Néng huàn liǎngqiān qībǎi kuài.",
+      "vi": "Đổi được 2.700 tệ.",
+      "en": "You get 2,700 yuan.",
+      "model": "好，请给我一百块的。",
+      "mpy": "Hǎo, qǐng gěi wǒ yìbǎi kuài de.",
+      "men": "OK, please give it to me in 100-yuan notes.",
+      "accept": [
+       "好，请给我一百块的。",
+       "好，谢谢！",
+       "好的，谢谢。",
+       "请给我一百块的。",
+       "haoxiexie",
+       "qinggeiwoyibaikuaide",
+       "haoqinggeiwoyibaikuaide"
+      ],
+      "frame": "好，请给我___的。",
+      "hint": "Đồng ý (好), rồi xin loại tờ tiền: 请给我 + 一百块的."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Bảng tỷ giá ở ngân hàng",
+    "text": "今天一块人民币能换三千七百越南盾，一百万越南盾能换两百七十块人民币。换钱要给我们护照。换钱时间：上午九点到下午五点。",
+    "py": "Jīntiān yí kuài rénmínbì néng huàn sānqiān qībǎi Yuènándùn, yìbǎi wàn Yuènándùn néng huàn liǎngbǎi qīshí kuài rénmínbì. Huàn qián yào gěi wǒmen hùzhào. Huàn qián shíjiān: shàngwǔ jiǔ diǎn dào xiàwǔ wǔ diǎn.",
+    "en": "Today one yuan buys 3,700 dong, and one million dong buys 270 yuan. To change money, please give us your passport. Exchange hours: 9 a.m. to 5 p.m.",
+    "vi": "Hôm nay 1 nhân dân tệ đổi được 3.700 đồng, 1 triệu đồng đổi được 270 nhân dân tệ. Đổi tiền cần đưa chúng tôi hộ chiếu. Giờ đổi tiền: 9 giờ sáng đến 5 giờ chiều.",
+    "qs": [
+     {
+      "q": "Hôm nay 1 tệ đổi được bao nhiêu đồng?",
+      "opts": [
+       "3.700 đồng",
+       "2.700 đồng",
+       "3.000 đồng"
+      ],
+      "optsEn": [
+       "3,700 dong",
+       "2,700 dong",
+       "3,000 dong"
+      ],
+      "a": 0,
+      "why": {
+       "1": "2.700 không có trong bài; bài viết 三千七百.",
+       "2": "Bài viết 三千七百 (3.700), không phải đúng 三千."
+      }
+     },
+     {
+      "q": "1 triệu đồng đổi được bao nhiêu tệ?",
+      "opts": [
+       "370 tệ",
+       "270 tệ",
+       "2.700 tệ"
+      ],
+      "optsEn": [
+       "370 yuan",
+       "270 yuan",
+       "2,700 yuan"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài viết 两百七十 (270), không phải 三百七十.",
+       "2": "2.700 là 两千七百; bài viết 两百七十."
+      }
+     },
+     {
+      "q": "Đổi tiền cần đưa gì?",
+      "opts": [
+       "điện thoại",
+       "vé máy bay",
+       "hộ chiếu"
+      ],
+      "optsEn": [
+       "a phone",
+       "a plane ticket",
+       "a passport"
+      ],
+      "a": 2,
+      "why": {
+       "0": "Bài viết 要给我们护照, không nhắc đến 手机.",
+       "1": "Bài không nhắc đến 机票."
+      }
+     },
+     {
+      "q": "Mấy giờ bắt đầu đổi tiền được?",
+      "opts": [
+       "9 giờ sáng",
+       "5 giờ chiều",
+       "7 giờ sáng"
+      ],
+      "optsEn": [
+       "9 a.m.",
+       "5 p.m.",
+       "7 a.m."
+      ],
+      "a": 0,
+      "why": {
+       "1": "5 giờ chiều (下午五点) là giờ kết thúc.",
+       "2": "Bài không có 七点; bài viết 上午九点."
+      }
+     },
+     {
+      "q": "Câu nào đúng với bài?",
+      "opts": [
+       "Đổi tiền không cần giấy tờ.",
+       "Ngân hàng đổi tiền đồng sang nhân dân tệ.",
+       "Ngân hàng làm đến 9 giờ tối."
+      ],
+      "optsEn": [
+       "You don't need any ID to change money.",
+       "The bank changes dong into RMB.",
+       "The bank is open until 9 p.m."
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài viết 换钱要给我们护照: cần hộ chiếu.",
+       "2": "Bài viết 下午五点 (5 giờ chiều), không phải 9 giờ tối."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "h2-w1-thu-4",
+   "label": "Thứ 4",
+   "title": "Hỏi đường tới công ty",
+   "desc": "Hỏi đường (……怎么走？), hỏi xa hay gần (A 离 B 远/近) và hiểu lời chỉ đường (往 + hướng + 走) trên đường tới công ty mới.",
+   "rule": "Hỏi đường: nơi muốn đến + 怎么走？ Khoảng cách: A + 离 + B + 远/近/不远. Chỉ hướng: 往 + 前/左/右 + 走; 一直往前走 = cứ đi thẳng.",
+   "cards": [
+    {
+     "w": "怎么走",
+     "py": "zěnme zǒu",
+     "m": "đi thế nào, đi đường nào",
+     "mEn": "how do I get there",
+     "ex": "请问，公司怎么走？",
+     "expy": "Qǐngwèn, gōngsī zěnme zǒu?",
+     "exm": "Xin hỏi, đến công ty đi thế nào?",
+     "exEn": "Excuse me, how do I get to the company?",
+     "n": "怎么 = thế nào, 走 = đi (bộ). Nơi muốn đến đứng TRƯỚC: 银行怎么走？ zěn và zǒu đều thanh 3; z không bật hơi.",
+     "img": "where"
+    },
+    {
+     "w": "离",
+     "py": "lí",
+     "m": "cách (khoảng cách)",
+     "mEn": "(distance) from",
+     "ex": "公司离这儿远吗？",
+     "expy": "Gōngsī lí zhèr yuǎn ma?",
+     "exm": "Công ty cách đây có xa không?",
+     "exEn": "Is the company far from here?",
+     "n": "A 离 B + 远/近: A cách B xa/gần. 离 chỉ nói khoảng cách, không nói hướng đi. lí thanh 2."
+    },
+    {
+     "w": "远",
+     "py": "yuǎn",
+     "m": "xa",
+     "mEn": "far",
+     "ex": "银行离这儿很远。",
+     "expy": "Yínháng lí zhèr hěn yuǎn.",
+     "exm": "Ngân hàng cách đây rất xa.",
+     "exEn": "The bank is very far from here.",
+     "n": "Phủ định dùng 不: 不远 (không xa). yuǎn thanh 3: môi tròn ở yu rồi mở ra 'oan'."
+    },
+    {
+     "w": "近",
+     "py": "jìn",
+     "m": "gần",
+     "mEn": "near",
+     "ex": "公司离银行很近。",
+     "expy": "Gōngsī lí yínháng hěn jìn.",
+     "exm": "Công ty rất gần ngân hàng.",
+     "exEn": "The company is very close to the bank.",
+     "n": "Trái nghĩa với 远. Không xa = 不远, gần lắm = 很近. jìn thanh 4, âm cuối -n mũi trước."
+    },
+    {
+     "w": "往",
+     "py": "wǎng",
+     "m": "về phía, hướng",
+     "mEn": "towards",
+     "ex": "往前走五分钟。",
+     "expy": "Wǎng qián zǒu wǔ fēnzhōng.",
+     "exm": "Đi về phía trước 5 phút.",
+     "exEn": "Walk straight ahead for five minutes.",
+     "n": "往 + hướng + 走: 往前走 (đi thẳng), 往左走 (rẽ trái). wǎng thanh 3."
+    },
+    {
+     "w": "左边",
+     "py": "zuǒbian",
+     "m": "bên trái",
+     "mEn": "left side",
+     "ex": "公司在左边。",
+     "expy": "Gōngsī zài zuǒbian.",
+     "exm": "Công ty ở bên trái.",
+     "exEn": "The company is on the left.",
+     "n": "边 đọc nhẹ (bian). Rẽ trái: 往左走 hoặc 往左边走. zuǒ: z không bật hơi.",
+     "img": "left"
+    },
+    {
+     "w": "右边",
+     "py": "yòubian",
+     "m": "bên phải",
+     "mEn": "right side",
+     "ex": "银行在右边。",
+     "expy": "Yínháng zài yòubian.",
+     "exm": "Ngân hàng ở bên phải.",
+     "exEn": "The bank is on the right.",
+     "n": "右 yòu thanh 4 (khác 有 yǒu thanh 3). Rẽ phải: 往右走.",
+     "img": "right"
+    },
+    {
+     "w": "一直",
+     "py": "yìzhí",
+     "m": "thẳng, cứ (một mạch)",
+     "mEn": "straight on",
+     "ex": "一直往前走。",
+     "expy": "Yìzhí wǎng qián zǒu.",
+     "exm": "Cứ đi thẳng về phía trước.",
+     "exEn": "Go straight on.",
+     "n": "一直 + 往前走 = đi thẳng một mạch. 一 trước thanh 2 đọc yì. zhí cong lưỡi."
+    },
+    {
+     "w": "路口",
+     "py": "lùkǒu",
+     "m": "ngã tư, đầu đường",
+     "mEn": "intersection",
+     "ex": "到路口往左走。",
+     "expy": "Dào lùkǒu wǎng zuǒ zǒu.",
+     "exm": "Đến ngã tư thì rẽ trái.",
+     "exEn": "Turn left at the intersection.",
+     "n": "路 = đường, 口 = miệng, lối: chỗ các đường gặp nhau. 第一个路口 = ngã tư đầu tiên.",
+     "img": "crossroad"
+    }
+   ],
+   "scene": {
+    "setting": "Sáng thứ Tư, 阮安 lần đầu đi làm. Ra khỏi ngân hàng, cô không biết đường tới công ty Tân Tinh (新星公司) nên hỏi một người đi đường.",
+    "img": "scene-zh-askway",
+    "imgPrompt": "Realistic photo of a busy Shanghai street corner on a winter morning; passer (Chinese man in his 60s, wool cap and scarf, kind face) points ahead and to the left while an (Vietnamese woman about 26, shoulder-length straight black bob, cobalt blue blouse under a dark winter coat) listens and holds her phone; a bank building and an intersection in the background, no readable text",
+    "lines": [
+     {
+      "who": "阮安",
+      "t": "您好！请问，新星公司怎么走？",
+      "py": "Nín hǎo! Qǐngwèn, Xīnxīng gōngsī zěnme zǒu?",
+      "vi": "Chào bác! Xin hỏi, công ty Tân Tinh đi đường nào ạ?",
+      "en": "Hello! Excuse me, how do I get to Xinxing Company?"
+     },
+     {
+      "who": "路人",
+      "t": "新星公司？离这儿不远。",
+      "py": "Xīnxīng gōngsī? Lí zhèr bù yuǎn.",
+      "vi": "Công ty Tân Tinh à? Cách đây không xa.",
+      "en": "Xinxing Company? It's not far from here."
+     },
+     {
+      "who": "阮安",
+      "t": "走路要几分钟？",
+      "py": "Zǒulù yào jǐ fēnzhōng?",
+      "vi": "Đi bộ mất mấy phút ạ?",
+      "en": "How many minutes on foot?"
+     },
+     {
+      "who": "路人",
+      "t": "十分钟。你一直往前走。",
+      "py": "Shí fēnzhōng. Nǐ yìzhí wǎng qián zǒu.",
+      "vi": "Mười phút. Cháu cứ đi thẳng.",
+      "en": "Ten minutes. Go straight ahead."
+     },
+     {
+      "who": "阮安",
+      "t": "到路口呢？",
+      "py": "Dào lùkǒu ne?",
+      "vi": "Đến ngã tư thì sao ạ?",
+      "en": "And at the intersection?"
+     },
+     {
+      "who": "路人",
+      "t": "到路口往左走，公司在银行右边。",
+      "py": "Dào lùkǒu wǎng zuǒ zǒu, gōngsī zài yínháng yòubian.",
+      "vi": "Đến ngã tư thì rẽ trái, công ty ở bên phải ngân hàng.",
+      "en": "Turn left at the intersection. The company is on the right of the bank."
+     },
+     {
+      "who": "阮安",
+      "t": "往左走，在银行右边。谢谢您！",
+      "py": "Wǎng zuǒ zǒu, zài yínháng yòubian. Xièxie nín!",
+      "vi": "Rẽ trái, ở bên phải ngân hàng. Cảm ơn bác!",
+      "en": "Turn left, on the right of the bank. Thank you!"
+     },
+     {
+      "who": "路人",
+      "t": "不客气！",
+      "py": "Bú kèqi!",
+      "vi": "Không có gì!",
+      "en": "You're welcome!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Hỏi đường: nơi + 怎么走？",
+     "f": [
+      [
+       "公司",
+       "怎么走"
+      ],
+      [
+       "银行",
+       "怎么走"
+      ]
+     ],
+     "ex": [
+      [
+       "请问，公司怎么走？",
+       "Xin hỏi, đến công ty đi thế nào?",
+       "Excuse me, how do I get to the company?"
+      ],
+      [
+       "银行怎么走？",
+       "Ngân hàng đi đường nào?",
+       "How do I get to the bank?"
+      ]
+     ],
+     "bad": "请问，怎么走公司？",
+     "good": "请问，公司怎么走？",
+     "why": "Nơi muốn đến đứng TRƯỚC 怎么走, không đặt sau 走 như tiếng Việt 'đi … thế nào'. Muốn lịch sự thì mở đầu bằng 请问."
+    },
+    {
+     "t": "Khoảng cách: A 离 B 远 / 近 / 不远",
+     "f": [
+      [
+       "公司",
+       "离",
+       "这儿",
+       "很近"
+      ],
+      [
+       "银行",
+       "离",
+       "公司",
+       "不远"
+      ]
+     ],
+     "ex": [
+      [
+       "公司离这儿很近。",
+       "Công ty cách đây rất gần.",
+       "The company is very close to here."
+      ],
+      [
+       "银行离这儿远吗？",
+       "Ngân hàng cách đây có xa không?",
+       "Is the bank far from here?"
+      ]
+     ],
+     "bad": "公司很近离这儿。",
+     "good": "公司离这儿很近。",
+     "why": "离 + B đứng TRƯỚC 远/近: A + 离 + B + 很近. Không đặt 离这儿 ra cuối câu như tiếng Việt 'gần (cách) đây'."
+    },
+    {
+     "t": "Chỉ hướng: 往 + hướng + 走",
+     "f": [
+      [
+       "一直",
+       "往前",
+       "走"
+      ],
+      [
+       "到路口",
+       "往右",
+       "走"
+      ]
+     ],
+     "ex": [
+      [
+       "一直往前走。",
+       "Cứ đi thẳng.",
+       "Go straight on."
+      ],
+      [
+       "到路口往右走。",
+       "Đến ngã tư thì rẽ phải.",
+       "Turn right at the intersection."
+      ]
+     ],
+     "bad": "往走前。",
+     "good": "往前走。",
+     "why": "Hướng (前, 左, 右) đứng GIỮA 往 và 走: 往 + 前 + 走. 一直 đứng trước 往: 一直往前走."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "远 (yuǎn) nghĩa là gì?",
+     "opts": [
+      "xa",
+      "gần",
+      "bên trái"
+     ],
+     "optsEn": [
+      "far",
+      "near",
+      "left side"
+     ],
+     "a": 0,
+     "why": {
+      "1": "'Gần' là 近 (jìn), trái nghĩa với 远.",
+      "2": "'Bên trái' là 左边 (zuǒbian)."
+     }
+    },
+    {
+     "q": "右边 (yòubian) nghĩa là gì?",
+     "opts": [
+      "bên trái",
+      "bên phải",
+      "phía trước"
+     ],
+     "optsEn": [
+      "left side",
+      "right side",
+      "in front"
+     ],
+     "a": 1,
+     "why": {
+      "0": "'Bên trái' là 左边 (zuǒbian).",
+      "2": "'Phía trước' là 前边 (qiánbian)."
+     }
+    },
+    {
+     "q": "Điền từ: 请问，银行___？(Qǐngwèn, yínháng ___?) — Xin hỏi, ngân hàng đi đường nào?",
+     "opts": [
+      "怎么走",
+      "一直",
+      "路口"
+     ],
+     "a": 0,
+     "why": {
+      "1": "一直 (yìzhí) = đi thẳng, không phải từ để hỏi.",
+      "2": "路口 (lùkǒu) = ngã tư, là danh từ, không hỏi đường được."
+     }
+    },
+    {
+     "q": "Điền từ: 到___往左走。(Dào ___ wǎng zuǒ zǒu.) — Đến ngã tư thì rẽ trái.",
+     "opts": [
+      "左边",
+      "远",
+      "路口"
+     ],
+     "a": 2,
+     "why": {
+      "0": "左边 (bên trái) không phải nơi để 'đến' rồi rẽ; câu cần 'ngã tư'.",
+      "1": "远 (xa) là tính từ, không đứng sau 到 ở đây."
+     }
+    },
+    {
+     "q": "Điền từ: ___往前走。(___ wǎng qián zǒu.) — Cứ đi thẳng.",
+     "opts": [
+      "离",
+      "一直",
+      "近"
+     ],
+     "a": 1,
+     "why": {
+      "0": "离 (cách) dùng để nói khoảng cách: A 离 B 远.",
+      "2": "近 (gần) là tính từ, không đứng trước 往前走."
+     }
+    },
+    {
+     "q": "Điền từ: 公司___这儿很近。(Gōngsī ___ zhèr hěn jìn.) — Công ty cách đây rất gần.",
+     "opts": [
+      "离",
+      "往",
+      "在"
+     ],
+     "a": 0,
+     "why": {
+      "1": "往 (wǎng) chỉ hướng đi, không nói khoảng cách.",
+      "2": "在 (zài) = ở; 公司在这儿很近 sai ngữ pháp."
+     }
+    },
+    {
+     "q": "Trái nghĩa của 近 (jìn, gần) là gì?",
+     "opts": [
+      "左边",
+      "路口",
+      "远"
+     ],
+     "a": 2,
+     "why": {
+      "0": "左边 (bên trái) là hướng, không phải trái nghĩa của 'gần'.",
+      "1": "路口 (ngã tư) là danh từ chỉ nơi chốn."
+     }
+    },
+    {
+     "q": "'Đi bộ đến công ty thế nào?' — từ nào cần dùng?",
+     "opts": [
+      "怎么走",
+      "多少钱",
+      "几岁"
+     ],
+     "a": 0,
+     "why": {
+      "1": "多少钱 hỏi giá tiền.",
+      "2": "几岁 hỏi tuổi."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng? (Xin hỏi, đến công ty đi thế nào?)",
+     "opts": [
+      "请问，公司怎么走？",
+      "请问，怎么走公司？",
+      "请问，走公司怎么？"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Nơi muốn đến 公司 phải đứng TRƯỚC 怎么走.",
+      "2": "怎么 đứng trước 走: 怎么走, không tách ra."
+     }
+    },
+    {
+     "q": "Câu nào đúng? (Công ty cách đây rất gần.)",
+     "opts": [
+      "公司很近离这儿。",
+      "公司离这儿很近。",
+      "公司往这儿很近。"
+     ],
+     "a": 1,
+     "why": {
+      "0": "离这儿 phải đứng TRƯỚC 很近.",
+      "2": "往 chỉ hướng đi; nói khoảng cách phải dùng 离."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền từ: 银行___这儿远吗？(Yínháng ___ zhèr yuǎn ma?) — Ngân hàng cách đây có xa không?",
+     "model": "离",
+     "accept": [
+      "离",
+      "li"
+     ],
+     "why": "Khoảng cách: A + 离 + B + 远/近: 银行离这儿远吗？"
+    },
+    {
+     "q": "Câu nào đúng? (Rẽ trái.)",
+     "opts": [
+      "往走左。",
+      "走往左。",
+      "往左走。"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Hướng 左 phải đứng giữa 往 và 走.",
+      "1": "往 + hướng đứng TRƯỚC động từ 走."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: 往前 / 一直 / 走 (Cứ đi thẳng.)",
+     "model": "一直往前走。",
+     "accept": [
+      "一直往前走。",
+      "一直往前走",
+      "yizhiwangqianzou"
+     ],
+     "why": "一直 + 往前 + 走: 一直 đứng đầu, hướng nằm giữa 往 và 走."
+    },
+    {
+     "q": "Trả lời theo gợi ý 'không xa': 公司离这儿远吗？",
+     "opts": [
+      "不远。",
+      "没远。",
+      "不近。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Phủ định tính từ dùng 不, không dùng 没: 不远.",
+      "2": "不近 = không gần, ngược nghĩa với gợi ý 'không xa'."
+     }
+    },
+    {
+     "q": "Điền từ: 到路口往___走，银行在右边。— Đến ngã tư rẽ phải, ngân hàng ở bên phải.",
+     "opts": [
+      "左",
+      "右",
+      "离"
+     ],
+     "a": 1,
+     "why": {
+      "0": "往左走 = rẽ trái, nhưng ngân hàng ở bên phải.",
+      "2": "离 không đứng sau 往; sau 往 là hướng."
+     }
+    }
+   ],
+   "listen": [
+    {
+     "q": "Ngân hàng ở đâu?",
+     "audio": "银行在哪儿？——在右边。",
+     "opts": [
+      "bên phải",
+      "bên trái",
+      "trong công ty"
+     ],
+     "optsEn": [
+      "on the right",
+      "on the left",
+      "inside the company"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Nghe thấy 右边 (yòubian), không phải 左边.",
+      "2": "Câu không nói trong công ty; chỉ nói 在右边."
+     }
+    },
+    {
+     "q": "Gần đây có gì?",
+     "audio": "这儿有银行吗？——有，前边有一个银行。",
+     "opts": [
+      "một bệnh viện",
+      "một ngân hàng",
+      "một siêu thị"
+     ],
+     "optsEn": [
+      "a hospital",
+      "a bank",
+      "a supermarket"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Không nghe thấy 医院 (bệnh viện).",
+      "2": "Không nghe thấy 超市 (siêu thị)."
+     }
+    },
+    {
+     "q": "Người hỏi muốn đi đâu?",
+     "audio": "你想去哪儿？——我想去公司。",
+     "opts": [
+      "công ty",
+      "ngân hàng",
+      "về nhà"
+     ],
+     "optsEn": [
+      "the company",
+      "the bank",
+      "home"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu trả lời là 我想去公司, không phải 银行.",
+      "2": "Không nghe thấy 回家."
+     }
+    },
+    {
+     "q": "Công ty có xa không?",
+     "audio": "公司离这儿远吗？——不远，走路五分钟。",
+     "opts": [
+      "rất xa",
+      "đi bộ 15 phút",
+      "không xa, đi bộ 5 phút"
+     ],
+     "optsEn": [
+      "very far",
+      "15 minutes on foot",
+      "not far, 5 minutes on foot"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Câu nói 不远 (không xa).",
+      "1": "Nghe thấy 五分钟, không phải 十五分钟."
+     }
+    },
+    {
+     "q": "Đến ngã tư thì đi thế nào?",
+     "audio": "到路口怎么走？——到路口往左走。",
+     "opts": [
+      "rẽ trái",
+      "rẽ phải",
+      "quay lại"
+     ],
+     "optsEn": [
+      "turn left",
+      "turn right",
+      "go back"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Nghe thấy 往左走, không phải 往右走.",
+      "2": "Câu không nói quay lại; chỉ nói 往左走."
+     }
+    },
+    {
+     "q": "Người chỉ đường nói gì?",
+     "audio": "银行怎么走？——一直往前走。",
+     "opts": [
+      "rẽ trái ở ngã tư",
+      "cứ đi thẳng",
+      "đi taxi"
+     ],
+     "optsEn": [
+      "turn left at the intersection",
+      "go straight on",
+      "take a taxi"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu không có 左; chỉ nói 一直往前走.",
+      "2": "Không nghe thấy 出租车 (taxi)."
+     }
+    },
+    {
+     "q": "Công ty ở đâu so với ngân hàng?",
+     "audio": "公司在哪儿？——离银行很近。",
+     "opts": [
+      "gần ngân hàng",
+      "xa ngân hàng",
+      "trong ngân hàng"
+     ],
+     "optsEn": [
+      "close to the bank",
+      "far from the bank",
+      "inside the bank"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nói 很近 (rất gần), không phải 很远.",
+      "2": "Câu không nói trong ngân hàng; chỉ nói 离银行很近."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "HSK2 Đọc – phần 4: chọn câu trả lời phù hợp. 请问，公司怎么走？",
+     "opts": [
+      "一直往前走。",
+      "我是越南人。",
+      "三千块。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "我是越南人 trả lời câu hỏi quốc tịch, không chỉ đường.",
+      "2": "三千块 trả lời câu hỏi giá tiền."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 4: chọn câu trả lời phù hợp. 银行离这儿远吗？",
+     "opts": [
+      "往左走。",
+      "不远，很近。",
+      "我想换钱。"
+     ],
+     "a": 1,
+     "why": {
+      "0": "往左走 chỉ hướng, không trả lời 'xa không'.",
+      "2": "我想换钱 nói việc muốn làm, không trả lời khoảng cách."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 4: chọn câu trả lời phù hợp. 到路口往哪儿走？",
+     "opts": [
+      "十分钟。",
+      "在银行。",
+      "往右走。"
+     ],
+     "a": 2,
+     "why": {
+      "0": "十分钟 trả lời 'mất bao lâu', không nói hướng.",
+      "1": "在银行 nói vị trí, không nói rẽ hướng nào."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 4: chọn câu trả lời phù hợp. 走路要几分钟？",
+     "opts": [
+      "五分钟。",
+      "在左边。",
+      "不客气。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "在左边 nói vị trí, không nói thời gian.",
+      "2": "不客气 đáp lại lời cảm ơn."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 4: chọn câu trả lời phù hợp. 谢谢您！",
+     "opts": [
+      "往前走。",
+      "不客气！",
+      "很远。"
+     ],
+     "a": 1,
+     "why": {
+      "0": "往前走 là chỉ đường, không đáp lời cảm ơn.",
+      "2": "很远 nói khoảng cách, không đáp lời cảm ơn."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "怎么走",
+     "py": "zěnme zǒu",
+     "focus": "z không bật hơi; zěn và zǒu đều thanh 3, me đọc nhẹ.",
+     "en": "how do I get there"
+    },
+    {
+     "t": "离这儿不远",
+     "py": "lí zhèr bù yuǎn",
+     "focus": "zhèr cuộn lưỡi ở cuối; 不 trước thanh 3 vẫn đọc bù.",
+     "en": "not far from here"
+    },
+    {
+     "t": "一直往前走",
+     "py": "yìzhí wǎng qián zǒu",
+     "focus": "一 trước thanh 2 đọc yì; wǎng và zǒu là thanh 3, chỉ đọc nửa thanh (xuống thấp).",
+     "en": "go straight on"
+    },
+    {
+     "t": "左边",
+     "py": "zuǒbian",
+     "focus": "zuǒ thanh 3 xuống thấp; bian đọc nhẹ, ngắn.",
+     "en": "left side"
+    },
+    {
+     "t": "右边",
+     "py": "yòubian",
+     "focus": "yòu thanh 4 rơi mạnh (khác 有 yǒu thanh 3).",
+     "en": "right side"
+    },
+    {
+     "t": "路口",
+     "py": "lùkǒu",
+     "focus": "lù thanh 4, kǒu thanh 3; k bật hơi mạnh.",
+     "en": "intersection"
+    },
+    {
+     "t": "公司离这儿很近。",
+     "py": "Gōngsī lí zhèr hěn jìn.",
+     "focus": "jìn có -n mũi trước, không đọc thành jìng.",
+     "en": "The company is very close to here."
+    },
+    {
+     "t": "到路口往左走。",
+     "py": "Dào lùkǒu wǎng zuǒ zǒu.",
+     "focus": "wǎng zuǒ zǒu: ba thanh 3 liền nhau, hai chữ đầu đọc lên, chữ cuối xuống thấp.",
+     "en": "Turn left at the intersection."
+    }
+   ],
+   "dialog": {
+    "title": "Hỏi người đi đường: công ty đi thế nào, có xa không. Đổi vai: bạn chỉ đường.",
+    "partner": "路人",
+    "turns": [
+     {
+      "ai": "你好！你要去哪儿？",
+      "py": "Nǐ hǎo! Nǐ yào qù nǎr?",
+      "vi": "Chào cháu! Cháu muốn đi đâu?",
+      "en": "Hello! Where do you want to go?",
+      "model": "请问，新星公司怎么走？",
+      "mpy": "Qǐngwèn, Xīnxīng gōngsī zěnme zǒu?",
+      "men": "Excuse me, how do I get to Xinxing Company?",
+      "accept": [
+       "请问，新星公司怎么走？",
+       "新星公司怎么走？",
+       "我去新星公司。",
+       "请问，公司怎么走？",
+       "xinxinggongsizenmezou",
+       "woquxinxinggongsi",
+       "qingwenxinxinggongsizenmezou"
+      ],
+      "frame": "请问，___怎么走？",
+      "hint": "Nói nơi muốn đến rồi hỏi 怎么走？ (mở đầu lịch sự bằng 请问)."
+     },
+     {
+      "ai": "新星公司？一直往前走。",
+      "py": "Xīnxīng gōngsī? Yìzhí wǎng qián zǒu.",
+      "vi": "Công ty Tân Tinh à? Cứ đi thẳng.",
+      "en": "Xinxing Company? Go straight ahead.",
+      "model": "公司离这儿远吗？",
+      "mpy": "Gōngsī lí zhèr yuǎn ma?",
+      "men": "Is the company far from here?",
+      "accept": [
+       "公司离这儿远吗？",
+       "离这儿远吗？",
+       "远吗？",
+       "公司远吗？",
+       "gongsilizheryuanma",
+       "yuanma"
+      ],
+      "frame": "公司离这儿___吗？",
+      "hint": "Hỏi khoảng cách: A 离 B 远吗？"
+     },
+     {
+      "ai": "不远，走路十分钟。",
+      "py": "Bù yuǎn, zǒulù shí fēnzhōng.",
+      "vi": "Không xa, đi bộ 10 phút.",
+      "en": "Not far, ten minutes on foot.",
+      "model": "到路口往左走吗？",
+      "mpy": "Dào lùkǒu wǎng zuǒ zǒu ma?",
+      "men": "Do I turn left at the intersection?",
+      "accept": [
+       "到路口往左走吗？",
+       "到路口往哪儿走？",
+       "到路口呢？",
+       "往左走吗？",
+       "daolukouwangnarzou",
+       "wangzuozouma",
+       "daolukouwangzuozouma"
+      ],
+      "frame": "到路口往___走吗？",
+      "hint": "Hỏi hướng ở ngã tư: 到路口 + 往左走吗？"
+     },
+     {
+      "ai": "不，往右走。公司在右边。",
+      "py": "Bù, wǎng yòu zǒu. Gōngsī zài yòubian.",
+      "vi": "Không, rẽ phải. Công ty ở bên phải.",
+      "en": "No, turn right. The company is on the right.",
+      "model": "好的，谢谢您！",
+      "mpy": "Hǎo de, xièxie nín!",
+      "men": "OK, thank you!",
+      "accept": [
+       "好的，谢谢您！",
+       "谢谢您！",
+       "谢谢！",
+       "往右走，谢谢！",
+       "xiexienin",
+       "xiexie",
+       "haodexiexienin"
+      ],
+      "frame": "好的，___！",
+      "hint": "Cảm ơn người chỉ đường: 谢谢您 (lịch sự với người lớn tuổi)."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Tin nhắn WeChat của 王丽",
+    "text": "阮安，公司离银行很近。你到银行往右走，一直往前走，到第一个路口往左走。公司在左边，走路五分钟。明天见！",
+    "py": "Ruǎn Ān, gōngsī lí yínháng hěn jìn. Nǐ dào yínháng wǎng yòu zǒu, yìzhí wǎng qián zǒu, dào dì yī ge lùkǒu wǎng zuǒ zǒu. Gōngsī zài zuǒbian, zǒulù wǔ fēnzhōng. Míngtiān jiàn!",
+    "en": "Ruan An, the company is very close to the bank. At the bank, turn right and go straight on, then turn left at the first intersection. The company is on the left, five minutes on foot. See you tomorrow!",
+    "vi": "An ơi, công ty rất gần ngân hàng. Đến ngân hàng thì rẽ phải, cứ đi thẳng, đến ngã tư đầu tiên thì rẽ trái. Công ty ở bên trái, đi bộ 5 phút. Mai gặp nhé!",
+    "qs": [
+     {
+      "q": "Công ty có xa ngân hàng không?",
+      "opts": [
+       "rất gần",
+       "rất xa",
+       "không nói"
+      ],
+      "optsEn": [
+       "very close",
+       "very far",
+       "not mentioned"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 很近 (rất gần), không phải 很远.",
+       "2": "Bài nói rõ 公司离银行很近."
+      }
+     },
+     {
+      "q": "Đến ngân hàng thì đi thế nào trước?",
+      "opts": [
+       "rẽ trái",
+       "rẽ phải",
+       "quay lại"
+      ],
+      "optsEn": [
+       "turn left",
+       "turn right",
+       "go back"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Rẽ trái (往左走) là ở ngã tư đầu tiên, không phải ở ngân hàng.",
+       "2": "Bài không nói quay lại."
+      }
+     },
+     {
+      "q": "Rẽ trái ở đâu?",
+      "opts": [
+       "ở ngã tư đầu tiên",
+       "ở ngã tư thứ hai",
+       "ở ngân hàng"
+      ],
+      "optsEn": [
+       "at the first intersection",
+       "at the second intersection",
+       "at the bank"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 第一个路口 (ngã tư đầu tiên), không phải 第二个.",
+       "2": "Ở ngân hàng thì rẽ phải (往右走)."
+      }
+     },
+     {
+      "q": "Công ty ở bên nào?",
+      "opts": [
+       "bên phải",
+       "phía sau",
+       "bên trái"
+      ],
+      "optsEn": [
+       "on the right",
+       "behind",
+       "on the left"
+      ],
+      "a": 2,
+      "why": {
+       "0": "Bài viết 公司在左边, không phải 右边.",
+       "1": "Bài không nói phía sau (后边)."
+      }
+     },
+     {
+      "q": "Đi bộ mất bao lâu?",
+      "opts": [
+       "10 phút",
+       "5 phút",
+       "15 phút"
+      ],
+      "optsEn": [
+       "10 minutes",
+       "5 minutes",
+       "15 minutes"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài viết 五分钟, không phải 十分钟.",
+       "2": "Bài viết 五分钟, không phải 十五分钟."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "h2-w1-thu-5",
+   "label": "Thứ 5",
+   "title": "Thuê nhà: xem phòng, đồ nội thất, đồ điện",
+   "desc": "Cùng 王丽 đi xem phòng thuê: hỏi có đồ gì không (有没有……？), hỏi giá thuê (一个月多少钱？), chê đắt và xin bớt (太……了 / 便宜一点儿吧).",
+   "rule": "有没有 + N？ = có… không? (không thêm 吗). Hỏi giá thuê: 房租一个月多少钱？ Chê: 太 + tính từ + 了 (太贵了！). Xin bớt: 便宜一点儿吧 (一点儿 đứng SAU tính từ).",
+   "cards": [
+    {
+     "w": "租",
+     "py": "zū",
+     "m": "thuê",
+     "mEn": "to rent",
+     "ex": "我想租房子。",
+     "expy": "Wǒ xiǎng zū fángzi.",
+     "exm": "Tôi muốn thuê nhà.",
+     "exEn": "I'd like to rent a flat.",
+     "n": "Từ thực dụng: chỉ cần nghe hiểu và nói được. 租 là chữ trong 出租车 (taxi = xe cho thuê). zū thanh 1, z không bật hơi."
+    },
+    {
+     "w": "房子",
+     "py": "fángzi",
+     "m": "nhà, căn hộ",
+     "mEn": "house, flat",
+     "ex": "这个房子很漂亮。",
+     "expy": "Zhège fángzi hěn piàoliang.",
+     "exm": "Căn nhà này rất đẹp.",
+     "exEn": "This flat is very nice.",
+     "n": "房子 = cả căn nhà; 房间 = một phòng trong nhà. 子 đọc nhẹ (zi).",
+     "img": "apartment"
+    },
+    {
+     "w": "房间",
+     "py": "fángjiān",
+     "m": "phòng",
+     "mEn": "room",
+     "ex": "房间里有一张床。",
+     "expy": "Fángjiān li yǒu yì zhāng chuáng.",
+     "exm": "Trong phòng có một cái giường.",
+     "exEn": "There's a bed in the room.",
+     "n": "房间里 = trong phòng (里 đọc nhẹ). Lượng từ: 一个房间. fáng thanh 2, jiān thanh 1.",
+     "img": "bedroom"
+    },
+    {
+     "w": "房租",
+     "py": "fángzū",
+     "m": "tiền thuê nhà",
+     "mEn": "rent",
+     "ex": "房租一个月多少钱？",
+     "expy": "Fángzū yí ge yuè duōshao qián?",
+     "exm": "Tiền nhà một tháng bao nhiêu?",
+     "exEn": "How much is the rent a month?",
+     "n": "Từ thực dụng: chỉ cần nghe hiểu và nói được. 房 = nhà + 租 = thuê: tiền thuê nhà. Hỏi theo tháng: 一个月多少钱？"
+    },
+    {
+     "w": "床",
+     "py": "chuáng",
+     "m": "giường",
+     "mEn": "bed",
+     "ex": "这张床很大。",
+     "expy": "Zhè zhāng chuáng hěn dà.",
+     "exm": "Cái giường này rất to.",
+     "exEn": "This bed is very big.",
+     "n": "Lượng từ: 一张床 (giường là vật phẳng). 起床 = rời giường, thức dậy. ch cong lưỡi, bật hơi.",
+     "img": "bed"
+    },
+    {
+     "w": "冰箱",
+     "py": "bīngxiāng",
+     "m": "tủ lạnh",
+     "mEn": "fridge",
+     "ex": "房间里有冰箱吗？",
+     "expy": "Fángjiān li yǒu bīngxiāng ma?",
+     "exm": "Trong phòng có tủ lạnh không?",
+     "exEn": "Is there a fridge in the room?",
+     "n": "冰 = băng, đá; 箱 = cái hòm: 'hòm đá' = tủ lạnh. Hai thanh 1, đều có -ng mũi sau.",
+     "img": "fridge"
+    },
+    {
+     "w": "空调",
+     "py": "kōngtiáo",
+     "m": "điều hoà",
+     "mEn": "air conditioner",
+     "ex": "这个房间有空调。",
+     "expy": "Zhège fángjiān yǒu kōngtiáo.",
+     "exm": "Phòng này có điều hoà.",
+     "exEn": "This room has air-con.",
+     "n": "调 ở đây đọc tiáo (không đọc diào). kōng thanh 1, tiáo thanh 2, t bật hơi.",
+     "img": "aircon"
+    },
+    {
+     "w": "洗衣机",
+     "py": "xǐyījī",
+     "m": "máy giặt",
+     "mEn": "washing machine",
+     "ex": "有没有洗衣机？",
+     "expy": "Yǒu méiyǒu xǐyījī?",
+     "exm": "Có máy giặt không?",
+     "exEn": "Is there a washing machine?",
+     "n": "Từ thực dụng: chỉ cần nghe hiểu và nói được. 洗 = giặt, 衣 = áo (衣服), 机 = máy: máy giặt áo.",
+     "img": "washer"
+    },
+    {
+     "w": "便宜",
+     "py": "piányi",
+     "m": "rẻ",
+     "mEn": "cheap",
+     "ex": "这个房子很便宜。",
+     "expy": "Zhège fángzi hěn piányi.",
+     "exm": "Căn nhà này rất rẻ.",
+     "exEn": "This flat is very cheap.",
+     "n": "便 ở đây đọc pián (không đọc biàn); 宜 đọc nhẹ. Xin bớt: 便宜一点儿吧！"
+    },
+    {
+     "w": "贵",
+     "py": "guì",
+     "m": "đắt",
+     "mEn": "expensive",
+     "ex": "房租太贵了！",
+     "expy": "Fángzū tài guì le!",
+     "exm": "Tiền nhà đắt quá!",
+     "exEn": "The rent is too expensive!",
+     "n": "Trái nghĩa với 便宜. Chê đắt: 太贵了！ (太 + tính từ + 了). guì thanh 4."
+    }
+   ],
+   "scene": {
+    "setting": "Chiều thứ Năm sau giờ làm, 王丽 đưa 阮安 đi xem một phòng cho thuê gần công ty. Chủ nhà (房东) dẫn hai người vào xem.",
+    "img": "scene-zh-rent",
+    "imgPrompt": "Realistic photo inside a small bright rental flat in Shanghai; landlord (Chinese woman in her 50s, short permed hair, cardigan, holding keys) shows the room; an (Vietnamese woman about 26, shoulder-length straight black bob, cobalt blue blouse under a dark winter coat) looks at an air conditioner on the wall while wangli (Chinese woman about 26, high black ponytail, red knit sweater, beige winter coat) points at a bed; a small fridge and a washing machine visible, no readable text",
+    "lines": [
+     {
+      "who": "房东",
+      "t": "你们好！这是房间，请看。",
+      "py": "Nǐmen hǎo! Zhè shì fángjiān, qǐng kàn.",
+      "vi": "Chào hai cô! Đây là phòng, mời xem.",
+      "en": "Hello! Here's the room, have a look."
+     },
+     {
+      "who": "王丽",
+      "t": "房间很大，也很漂亮！",
+      "py": "Fángjiān hěn dà, yě hěn piàoliang!",
+      "vi": "Phòng rộng, lại đẹp nữa!",
+      "en": "The room is big and nice too!"
+     },
+     {
+      "who": "阮安",
+      "t": "有没有空调？",
+      "py": "Yǒu méiyǒu kōngtiáo?",
+      "vi": "Có điều hoà không ạ?",
+      "en": "Is there air-con?"
+     },
+     {
+      "who": "房东",
+      "t": "有空调，有冰箱，也有洗衣机。",
+      "py": "Yǒu kōngtiáo, yǒu bīngxiāng, yě yǒu xǐyījī.",
+      "vi": "Có điều hoà, có tủ lạnh, cũng có máy giặt.",
+      "en": "There's air-con, a fridge and a washing machine too."
+     },
+     {
+      "who": "阮安",
+      "t": "房租一个月多少钱？",
+      "py": "Fángzū yí ge yuè duōshao qián?",
+      "vi": "Tiền nhà một tháng bao nhiêu ạ?",
+      "en": "How much is the rent a month?"
+     },
+     {
+      "who": "房东",
+      "t": "一个月两千五百块。",
+      "py": "Yí ge yuè liǎngqiān wǔbǎi kuài.",
+      "vi": "Một tháng 2.500 tệ.",
+      "en": "2,500 yuan a month."
+     },
+     {
+      "who": "王丽",
+      "t": "太贵了！便宜一点儿吧。",
+      "py": "Tài guì le! Piányi yìdiǎnr ba.",
+      "vi": "Đắt quá! Bớt một chút đi ạ.",
+      "en": "That's too expensive! Could you make it a bit cheaper?"
+     },
+     {
+      "who": "房东",
+      "t": "好吧，两千三百块。",
+      "py": "Hǎo ba, liǎngqiān sānbǎi kuài.",
+      "vi": "Thôi được, 2.300 tệ.",
+      "en": "All right, 2,300 yuan."
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Hỏi có hay không: 有没有 + N？",
+     "f": [
+      [
+       "房间",
+       "有没有",
+       "空调"
+      ],
+      [
+       "这儿",
+       "有没有",
+       "洗衣机"
+      ]
+     ],
+     "ex": [
+      [
+       "有没有空调？",
+       "Có điều hoà không?",
+       "Is there air-con?"
+      ],
+      [
+       "房间里有没有床？",
+       "Trong phòng có giường không?",
+       "Is there a bed in the room?"
+      ]
+     ],
+     "bad": "房间有没有空调吗？",
+     "good": "房间有没有空调？",
+     "why": "有没有 đã là câu hỏi rồi, KHÔNG thêm 吗 ở cuối. Hai cách hỏi đều đúng: 有空调吗？ hoặc 有没有空调？"
+    },
+    {
+     "t": "Hỏi giá theo tháng: 一个月多少钱？",
+     "f": [
+      [
+       "房租",
+       "一个月",
+       "多少钱"
+      ],
+      [
+       "这个房间",
+       "一个月",
+       "多少钱"
+      ]
+     ],
+     "ex": [
+      [
+       "一个月多少钱？",
+       "Một tháng bao nhiêu tiền?",
+       "How much is it a month?"
+      ],
+      [
+       "房租一个月两千块。",
+       "Tiền nhà một tháng 2.000 tệ.",
+       "The rent is 2,000 yuan a month."
+      ]
+     ],
+     "bad": "房租一个月几钱？",
+     "good": "房租一个月多少钱？",
+     "why": "Hỏi giá dùng 多少钱, không nói 几钱 (几 phải đi với lượng từ, vd. 几块). Thời gian 一个月 đứng trước 多少钱."
+    },
+    {
+     "t": "Chê đắt, xin bớt: 太……了 / 便宜一点儿吧",
+     "f": [
+      [
+       "房租",
+       "太",
+       "贵了"
+      ],
+      [
+       "便宜",
+       "一点儿",
+       "吧"
+      ]
+     ],
+     "ex": [
+      [
+       "太贵了！",
+       "Đắt quá!",
+       "That's too expensive!"
+      ],
+      [
+       "便宜一点儿吧！",
+       "Bớt một chút đi!",
+       "Can you make it a bit cheaper?"
+      ]
+     ],
+     "bad": "一点儿便宜吧！",
+     "good": "便宜一点儿吧！",
+     "why": "Xin 'hơn một chút' thì 一点儿 đứng SAU tính từ: 便宜一点儿 (rẻ hơn chút). Còn 太 đi với 了 ở cuối: 太贵了."
+    }
+   ],
+   "vocab": [
+    {
+     "q": "冰箱 (bīngxiāng) nghĩa là gì?",
+     "opts": [
+      "tủ lạnh",
+      "điều hoà",
+      "máy giặt"
+     ],
+     "optsEn": [
+      "fridge",
+      "air conditioner",
+      "washing machine"
+     ],
+     "a": 0,
+     "why": {
+      "1": "'Điều hoà' là 空调 (kōngtiáo).",
+      "2": "'Máy giặt' là 洗衣机 (xǐyījī)."
+     }
+    },
+    {
+     "q": "空调 (kōngtiáo) nghĩa là gì?",
+     "opts": [
+      "tủ lạnh",
+      "điều hoà",
+      "giường"
+     ],
+     "optsEn": [
+      "fridge",
+      "air conditioner",
+      "bed"
+     ],
+     "a": 1,
+     "why": {
+      "0": "'Tủ lạnh' là 冰箱 (bīngxiāng).",
+      "2": "'Giường' là 床 (chuáng)."
+     }
+    },
+    {
+     "q": "'Máy giặt' tiếng Trung là gì?",
+     "opts": [
+      "手机",
+      "飞机",
+      "洗衣机"
+     ],
+     "a": 2,
+     "why": {
+      "0": "手机 (shǒujī) = điện thoại di động.",
+      "1": "飞机 (fēijī) = máy bay."
+     }
+    },
+    {
+     "q": "Điền từ: 我想___房子。(Wǒ xiǎng ___ fángzi.) — Tôi muốn thuê nhà.",
+     "opts": [
+      "租",
+      "贵",
+      "床"
+     ],
+     "a": 0,
+     "why": {
+      "1": "贵 (đắt) là tính từ, không phải động từ 'thuê'.",
+      "2": "床 (giường) là danh từ."
+     }
+    },
+    {
+     "q": "Điền từ: ___一个月多少钱？(___ yí ge yuè duōshao qián?) — Tiền nhà một tháng bao nhiêu?",
+     "opts": [
+      "房间",
+      "房租",
+      "便宜"
+     ],
+     "a": 1,
+     "why": {
+      "0": "房间 (phòng) là căn phòng, không phải tiền thuê.",
+      "2": "便宜 (rẻ) là tính từ, không làm chủ ngữ ở đây."
+     }
+    },
+    {
+     "q": "Trái nghĩa của 贵 (guì, đắt) là gì?",
+     "opts": [
+      "便宜",
+      "漂亮",
+      "大"
+     ],
+     "a": 0,
+     "why": {
+      "1": "漂亮 (piàoliang) = đẹp.",
+      "2": "大 (dà) = to, lớn."
+     }
+    },
+    {
+     "q": "Điền lượng từ: 一___床 (yì ___ chuáng) — một cái giường",
+     "opts": [
+      "本",
+      "杯",
+      "张"
+     ],
+     "a": 2,
+     "why": {
+      "0": "本 dùng cho sách: 一本书.",
+      "1": "杯 dùng cho cốc: 一杯水."
+     }
+    },
+    {
+     "q": "房间 (fángjiān) và 房子 (fángzi) khác nhau thế nào?",
+     "opts": [
+      "房间 = cả căn nhà; 房子 = một phòng",
+      "房间 = một phòng; 房子 = cả căn nhà",
+      "Hai từ giống hệt nhau"
+     ],
+     "optsEn": [
+      "房间 = a whole flat; 房子 = a room",
+      "房间 = a room; 房子 = a whole flat",
+      "They mean exactly the same"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Ngược lại: 房间 là một phòng, 房子 là cả căn nhà.",
+      "2": "Hai từ khác nhau: 房间 là phòng, 房子 là nhà."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng? (Phòng có điều hoà không?)",
+     "opts": [
+      "房间有没有空调？",
+      "房间有没有空调吗？",
+      "房间没有有空调？"
+     ],
+     "a": 0,
+     "why": {
+      "1": "有没有 đã là câu hỏi, không thêm 吗.",
+      "2": "Thứ tự là 有 rồi 没有: 有没有."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền từ: 房间___洗衣机？(Fángjiān ___ xǐyījī?) — Phòng có máy giặt không?",
+     "model": "有没有",
+     "accept": [
+      "有没有",
+      "youmeiyou"
+     ],
+     "why": "Hỏi có hay không: 有没有 + N？ (không thêm 吗)."
+    },
+    {
+     "q": "Câu nào đúng? (Tiền nhà một tháng bao nhiêu?)",
+     "opts": [
+      "房租一个月几钱？",
+      "房租一个月多少钱？",
+      "房租多少一个月钱？"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Không nói 几钱; hỏi giá dùng 多少钱.",
+      "2": "多少钱 là một cụm, không tách 钱 ra cuối."
+     }
+    },
+    {
+     "q": "Câu nào đúng? (Đắt quá!)",
+     "opts": [
+      "太贵！",
+      "贵太了！",
+      "太贵了！"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Khi chê 'quá…' thì 太 đi với 了 ở cuối: 太贵了.",
+      "1": "太 đứng TRƯỚC tính từ: 太 + 贵 + 了."
+     }
+    },
+    {
+     "q": "Câu nào đúng? (Bớt một chút đi!)",
+     "opts": [
+      "便宜一点儿吧！",
+      "一点儿便宜吧！",
+      "便宜吧一点儿！"
+     ],
+     "a": 0,
+     "why": {
+      "1": "一点儿 phải đứng SAU tính từ 便宜.",
+      "2": "吧 luôn đứng cuối câu."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: 一个月 / 房租 / 两千块 (Tiền nhà một tháng 2.000 tệ.)",
+     "model": "房租一个月两千块。",
+     "accept": [
+      "房租一个月两千块。",
+      "房租一个月两千块",
+      "fangzuyigeyueliangqiankuai"
+     ],
+     "why": "Chủ ngữ 房租 + thời gian 一个月 + số tiền 两千块."
+    },
+    {
+     "q": "Trả lời câu 有没有冰箱？(Yǒu méiyǒu bīngxiāng?) — ý 'không có':",
+     "opts": [
+      "不有。",
+      "没有。",
+      "没有吗。"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Phủ định của 有 luôn là 没有, không bao giờ nói 不有.",
+      "2": "Câu trả lời không thêm 吗."
+     }
+    }
+   ],
+   "listen": [
+    {
+     "q": "Phòng của người trả lời có gì?",
+     "audio": "你的房间里有什么？——有一张床。",
+     "opts": [
+      "một cái giường",
+      "hai cái giường",
+      "không có giường"
+     ],
+     "optsEn": [
+      "one bed",
+      "two beds",
+      "no bed"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Nghe thấy 一张床, không phải 两张.",
+      "2": "Câu trả lời là 有 (có)."
+     }
+    },
+    {
+     "q": "Người trả lời ở đâu?",
+     "audio": "你住在哪儿？——我住在公司那边，很近。",
+     "opts": [
+      "ở Hà Nội",
+      "gần công ty",
+      "xa công ty"
+     ],
+     "optsEn": [
+      "in Hanoi",
+      "near the company",
+      "far from the company"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Không nghe thấy 河内 (Hà Nội).",
+      "2": "Câu nói 很近 (rất gần), không phải 很远."
+     }
+    },
+    {
+     "q": "Người trả lời muốn làm gì?",
+     "audio": "你想做什么？——我想租一个房子。",
+     "opts": [
+      "thuê nhà",
+      "mua nhà",
+      "đổi tiền"
+     ],
+     "optsEn": [
+      "rent a flat",
+      "buy a flat",
+      "change money"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Nghe thấy 租 (thuê), không phải 买 (mua).",
+      "2": "Không nghe thấy 换钱."
+     }
+    },
+    {
+     "q": "Tiền nhà một tháng bao nhiêu?",
+     "audio": "房租一个月多少钱？——三千块。",
+     "opts": [
+      "300 tệ",
+      "2.000 tệ",
+      "3.000 tệ"
+     ],
+     "optsEn": [
+      "300 yuan",
+      "2,000 yuan",
+      "3,000 yuan"
+     ],
+     "a": 2,
+     "why": {
+      "0": "300 là 三百; câu nói 三千.",
+      "1": "2.000 là 两千; câu nói 三千."
+     }
+    },
+    {
+     "q": "Phòng KHÔNG có gì?",
+     "audio": "有没有洗衣机？——没有。有空调，也有冰箱。",
+     "opts": [
+      "máy giặt",
+      "điều hoà",
+      "tủ lạnh"
+     ],
+     "optsEn": [
+      "a washing machine",
+      "air-con",
+      "a fridge"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nói 有空调 (có điều hoà).",
+      "2": "Câu nói 有冰箱 (có tủ lạnh)."
+     }
+    },
+    {
+     "q": "Người thuê thấy giá thế nào?",
+     "audio": "两千八百块一个月。——太贵了！",
+     "opts": [
+      "rẻ quá",
+      "đắt quá",
+      "vừa phải"
+     ],
+     "optsEn": [
+      "very cheap",
+      "too expensive",
+      "about right"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Nghe thấy 太贵了 (đắt quá), không phải 便宜.",
+      "2": "太贵了 là chê đắt, không phải vừa phải."
+     }
+    },
+    {
+     "q": "Cuối cùng giá thuê là bao nhiêu?",
+     "audio": "两千五百块，便宜一点儿吧。——好，两千二。",
+     "opts": [
+      "2.200 tệ",
+      "2.500 tệ",
+      "2.000 tệ"
+     ],
+     "optsEn": [
+      "2,200 yuan",
+      "2,500 yuan",
+      "2,000 yuan"
+     ],
+     "a": 0,
+     "why": {
+      "1": "2.500 là giá trước khi bớt (两千五百).",
+      "2": "Câu nói 两千二, không phải 两千."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "HSK2 Nghe – phần 2: nghe hội thoại, chọn tranh phù hợp.",
+     "audio": "房间里有冰箱吗？——有，在那儿。",
+     "opts": [
+      "Một chiếc tủ lạnh",
+      "Một chiếc máy giặt",
+      "Một cái giường"
+     ],
+     "optsEn": [
+      "A fridge",
+      "A washing machine",
+      "A bed"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Hội thoại nói 冰箱, không phải 洗衣机.",
+      "2": "Hội thoại nói 冰箱, không phải 床."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 2: nghe hội thoại, chọn tranh phù hợp.",
+     "audio": "今天很热。——房间里有空调，不热。",
+     "opts": [
+      "Một chiếc tủ lạnh",
+      "Điều hoà trên tường",
+      "Một chiếc tivi"
+     ],
+     "optsEn": [
+      "A fridge",
+      "An air conditioner on the wall",
+      "A TV"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Hội thoại nói 空调, không phải 冰箱.",
+      "2": "Không nghe thấy 电视 (tivi)."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 2: nghe hội thoại, chọn tranh phù hợp.",
+     "audio": "我的衣服在哪儿？——在洗衣机里。",
+     "opts": [
+      "Một cái giường",
+      "Bàn và ghế",
+      "Một chiếc máy giặt"
+     ],
+     "optsEn": [
+      "A bed",
+      "A desk and a chair",
+      "A washing machine"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Hội thoại nói 洗衣机, không phải 床.",
+      "1": "Không nghe thấy 桌子 hay 椅子."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 2: nghe hội thoại, chọn tranh phù hợp.",
+     "audio": "这张床大吗？——很大。",
+     "opts": [
+      "Một cái giường to",
+      "Một chiếc tủ lạnh nhỏ",
+      "Một cuốn sách"
+     ],
+     "optsEn": [
+      "A big bed",
+      "A small fridge",
+      "A book"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Hội thoại nói 床 (giường), không phải 冰箱.",
+      "2": "Không nghe thấy 书 (sách)."
+     }
+    },
+    {
+     "q": "HSK2 Nghe – phần 2: nghe hội thoại, chọn tranh phù hợp.",
+     "audio": "房间里有桌子吗？——有，也有椅子。",
+     "opts": [
+      "Một chiếc tủ lạnh",
+      "Bàn và ghế",
+      "Điều hoà trên tường"
+     ],
+     "optsEn": [
+      "A fridge",
+      "A desk and a chair",
+      "An air conditioner on the wall"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Hội thoại nói 桌子 và 椅子, không phải 冰箱.",
+      "2": "Không nghe thấy 空调 (điều hoà)."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "房子",
+     "py": "fángzi",
+     "focus": "fáng thanh 2 đi lên, -ng mũi sau; zi đọc nhẹ, ngắn.",
+     "en": "flat, house"
+    },
+    {
+     "t": "冰箱",
+     "py": "bīngxiāng",
+     "focus": "Hai thanh 1 giữ cao đều; cả hai đều có -ng mũi sau.",
+     "en": "fridge"
+    },
+    {
+     "t": "空调",
+     "py": "kōngtiáo",
+     "focus": "k và t đều bật hơi mạnh; tiáo thanh 2 đi lên.",
+     "en": "air conditioner"
+    },
+    {
+     "t": "洗衣机",
+     "py": "xǐyījī",
+     "focus": "xǐ thanh 3 rồi hai thanh 1 cao đều; x đầu lưỡi chạm răng dưới.",
+     "en": "washing machine"
+    },
+    {
+     "t": "便宜",
+     "py": "piányi",
+     "focus": "p bật hơi; pián thanh 2, yi đọc nhẹ. Không đọc biàn.",
+     "en": "cheap"
+    },
+    {
+     "t": "有没有空调？",
+     "py": "Yǒu méiyǒu kōngtiáo?",
+     "focus": "méi đọc lên, yǒu đọc nhẹ, nhanh; giọng hỏi tự nhiên, không cần lên giọng cuối.",
+     "en": "Is there air-con?"
+    },
+    {
+     "t": "一个月多少钱？",
+     "py": "Yí ge yuè duōshao qián?",
+     "focus": "一 trước 个 đọc yí; shao đọc nhẹ.",
+     "en": "How much is it a month?"
+    },
+    {
+     "t": "太贵了！便宜一点儿吧。",
+     "py": "Tài guì le! Piányi yìdiǎnr ba.",
+     "focus": "tài guì: hai thanh 4 rơi mạnh; diǎnr cuộn lưỡi ở cuối.",
+     "en": "Too expensive! Make it a bit cheaper."
+    }
+   ],
+   "dialog": {
+    "title": "Xem phòng với chủ nhà: hỏi điều hoà, máy giặt, giá thuê và xin bớt. Đổi vai: bạn là chủ nhà.",
+    "partner": "房东",
+    "turns": [
+     {
+      "ai": "你好！这个房间怎么样？",
+      "py": "Nǐ hǎo! Zhège fángjiān zěnmeyàng?",
+      "vi": "Chào cô! Phòng này thế nào?",
+      "en": "Hello! What do you think of this room?",
+      "model": "很好！有没有空调？",
+      "mpy": "Hěn hǎo! Yǒu méiyǒu kōngtiáo?",
+      "men": "Very nice! Is there air-con?",
+      "accept": [
+       "很好！有没有空调？",
+       "有没有空调？",
+       "有空调吗？",
+       "很好！有空调吗？",
+       "youmeiyoukongtiao",
+       "youkongtiaoma",
+       "henhaoyoumeiyoukongtiao"
+      ],
+      "frame": "很好！有没有___？",
+      "hint": "Khen phòng (很好), rồi hỏi có điều hoà không: 有没有 + 空调？"
+     },
+     {
+      "ai": "有空调，也有冰箱。",
+      "py": "Yǒu kōngtiáo, yě yǒu bīngxiāng.",
+      "vi": "Có điều hoà, cũng có tủ lạnh.",
+      "en": "There's air-con, and a fridge too.",
+      "model": "有没有洗衣机？",
+      "mpy": "Yǒu méiyǒu xǐyījī?",
+      "men": "Is there a washing machine?",
+      "accept": [
+       "有没有洗衣机？",
+       "有洗衣机吗？",
+       "洗衣机呢？",
+       "youxiyijima",
+       "xiyijine",
+       "youmeiyouxiyiji"
+      ],
+      "frame": "有没有___？",
+      "hint": "Hỏi tiếp một đồ điện khác: 有没有 + 洗衣机？"
+     },
+     {
+      "ai": "有，在外边。",
+      "py": "Yǒu, zài wàibian.",
+      "vi": "Có, ở bên ngoài.",
+      "en": "Yes, it's outside.",
+      "model": "房租一个月多少钱？",
+      "mpy": "Fángzū yí ge yuè duōshao qián?",
+      "men": "How much is the rent a month?",
+      "accept": [
+       "房租一个月多少钱？",
+       "一个月多少钱？",
+       "房租多少钱？",
+       "yigeyueduoshaoqian",
+       "fangzuduoshaoqian",
+       "fangzuyigeyueduoshaoqian"
+      ],
+      "frame": "房租一个月___？",
+      "hint": "Hỏi giá thuê: 房租 + 一个月 + 多少钱？"
+     },
+     {
+      "ai": "两千五百块。",
+      "py": "Liǎngqiān wǔbǎi kuài.",
+      "vi": "2.500 tệ.",
+      "en": "2,500 yuan.",
+      "model": "太贵了！便宜一点儿吧。",
+      "mpy": "Tài guì le! Piányi yìdiǎnr ba.",
+      "men": "That's too expensive! Could you make it a bit cheaper?",
+      "accept": [
+       "太贵了！便宜一点儿吧。",
+       "太贵了！",
+       "便宜一点儿吧。",
+       "太贵了，便宜一点儿吧！",
+       "taiguile",
+       "pianyiyidianrba",
+       "taiguilepianyiyidianrba"
+      ],
+      "frame": "太___了！便宜一点儿吧。",
+      "hint": "Chê đắt (太贵了！) rồi xin bớt: 便宜一点儿吧."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Tin cho thuê phòng",
+    "text": "出租：一个房间，有床、桌子和椅子，也有空调、冰箱和洗衣机。离公司很近，走路十分钟。房租一个月两千块。想看房间，请打电话。",
+    "py": "Chūzū: yí ge fángjiān, yǒu chuáng, zhuōzi hé yǐzi, yě yǒu kōngtiáo, bīngxiāng hé xǐyījī. Lí gōngsī hěn jìn, zǒulù shí fēnzhōng. Fángzū yí ge yuè liǎngqiān kuài. Xiǎng kàn fángjiān, qǐng dǎ diànhuà.",
+    "en": "For rent: one room with a bed, a desk and a chair, plus air-con, a fridge and a washing machine. It's very close to the company, ten minutes on foot. The rent is 2,000 yuan a month. If you'd like to see the room, please call.",
+    "vi": "Cho thuê: một phòng, có giường, bàn và ghế, có cả điều hoà, tủ lạnh và máy giặt. Rất gần công ty, đi bộ 10 phút. Tiền thuê một tháng 2.000 tệ. Muốn xem phòng, xin gọi điện.",
+    "qs": [
+     {
+      "q": "Phòng cho thuê KHÔNG nhắc đến thứ nào?",
+      "opts": [
+       "tivi",
+       "giường",
+       "máy giặt"
+      ],
+      "optsEn": [
+       "a TV",
+       "a bed",
+       "a washing machine"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài có 床 (giường).",
+       "2": "Bài có 洗衣机 (máy giặt)."
+      }
+     },
+     {
+      "q": "Phòng cách công ty bao xa?",
+      "opts": [
+       "đi bộ 5 phút",
+       "đi bộ 10 phút",
+       "rất xa"
+      ],
+      "optsEn": [
+       "5 minutes on foot",
+       "10 minutes on foot",
+       "very far"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài viết 十分钟, không phải 五分钟.",
+       "2": "Bài viết 很近 (rất gần), không phải xa."
+      }
+     },
+     {
+      "q": "Tiền thuê một tháng bao nhiêu?",
+      "opts": [
+       "2.500 tệ",
+       "200 tệ",
+       "2.000 tệ"
+      ],
+      "optsEn": [
+       "2,500 yuan",
+       "200 yuan",
+       "2,000 yuan"
+      ],
+      "a": 2,
+      "why": {
+       "0": "Bài viết 两千块, không có 五百.",
+       "1": "200 là 两百; bài viết 两千."
+      }
+     },
+     {
+      "q": "Muốn xem phòng thì làm gì?",
+      "opts": [
+       "gọi điện",
+       "đến công ty",
+       "đến ngân hàng"
+      ],
+      "optsEn": [
+       "call",
+       "go to the company",
+       "go to the bank"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 请打电话, không nói đến công ty.",
+       "2": "Bài không nói đến ngân hàng."
+      }
+     },
+     {
+      "q": "Có mấy phòng cho thuê?",
+      "opts": [
+       "hai phòng",
+       "một phòng",
+       "ba phòng"
+      ],
+      "optsEn": [
+       "two rooms",
+       "one room",
+       "three rooms"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài viết 一个房间, không phải 两个.",
+       "2": "Bài viết 一个房间, không phải 三个."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "h2-w1-thu-6",
+   "label": "Thứ 6",
+   "title": "Xin nghỉ phép về ăn Tết",
+   "desc": "Xin giám đốc Vương nghỉ phép (请 + số + 天假), nói nghỉ từ ngày nào đến ngày nào (从……到……) và chúc Tết (祝你……).",
+   "rule": "Số ngày chen vào giữa 请 và 假: 请五天假. Khoảng thời gian 从 + ngày + 到 + ngày đứng TRƯỚC động từ: 我从一号到五号休息. Chúc: 祝 + 你/您 + lời chúc: 祝您新年快乐！",
+   "cards": [
+    {
+     "w": "请假",
+     "py": "qǐng jià",
+     "m": "xin nghỉ phép",
+     "mEn": "to ask for leave",
+     "ex": "我想请五天假。",
+     "expy": "Wǒ xiǎng qǐng wǔ tiān jià.",
+     "exm": "Tôi muốn xin nghỉ 5 ngày.",
+     "exEn": "I'd like to take five days off.",
+     "n": "Từ thực dụng: chỉ cần nghe hiểu và nói được. Số ngày chen vào giữa: 请 + 五天 + 假. 假 ở đây đọc jià thanh 4 (khác jiǎ = giả)."
+    },
+    {
+     "w": "休息",
+     "py": "xiūxi",
+     "m": "nghỉ ngơi",
+     "mEn": "to rest",
+     "ex": "星期天我在家休息。",
+     "expy": "Xīngqītiān wǒ zài jiā xiūxi.",
+     "exm": "Chủ nhật tôi nghỉ ở nhà.",
+     "exEn": "I rest at home on Sundays.",
+     "n": "息 đọc nhẹ (xi). Lời quan tâm: 你好好休息吧！ (Bạn nghỉ ngơi cho khoẻ nhé). x đầu lưỡi chạm răng dưới."
+    },
+    {
+     "w": "放假",
+     "py": "fàng jià",
+     "m": "được nghỉ (lễ, Tết)",
+     "mEn": "to have a holiday",
+     "ex": "春节公司放假七天。",
+     "expy": "Chūnjié gōngsī fàng jià qī tiān.",
+     "exm": "Tết công ty nghỉ 7 ngày.",
+     "exEn": "The company has seven days off for the Spring Festival.",
+     "n": "放假 = cả công ty, trường được nghỉ; 请假 = một người xin nghỉ. Hai thanh 4 liền nhau, đọc dứt khoát."
+    },
+    {
+     "w": "春节",
+     "py": "Chūnjié",
+     "m": "Tết Nguyên đán",
+     "mEn": "Spring Festival",
+     "ex": "春节我想回家。",
+     "expy": "Chūnjié wǒ xiǎng huí jiā.",
+     "exm": "Tết tôi muốn về nhà.",
+     "exEn": "I want to go home for the Spring Festival.",
+     "n": "春 = xuân, 节 = tết, lễ: khớp Hán Việt 'xuân tiết'. ch cong lưỡi, bật hơi; jié thanh 2.",
+     "img": "newyear"
+    },
+    {
+     "w": "过年",
+     "py": "guònián",
+     "m": "ăn Tết",
+     "mEn": "to celebrate the New Year",
+     "ex": "我回越南过年。",
+     "expy": "Wǒ huí Yuènán guònián.",
+     "exm": "Tôi về Việt Nam ăn Tết.",
+     "exEn": "I'm going back to Vietnam for New Year.",
+     "n": "过 = trải qua, 年 = năm: 'qua năm' = ăn Tết. Mẫu hay dùng: 回家过年 (về nhà ăn Tết).",
+     "img": "newyear"
+    },
+    {
+     "w": "回家",
+     "py": "huí jiā",
+     "m": "về nhà",
+     "mEn": "to go home",
+     "ex": "我明天回家。",
+     "expy": "Wǒ míngtiān huí jiā.",
+     "exm": "Ngày mai tôi về nhà.",
+     "exEn": "I'm going home tomorrow.",
+     "n": "回 + nơi: 回家, 回越南, 回公司. huí thanh 2, jiā thanh 1.",
+     "img": "home"
+    },
+    {
+     "w": "机票",
+     "py": "jīpiào",
+     "m": "vé máy bay",
+     "mEn": "plane ticket",
+     "ex": "我买了明天的机票。",
+     "expy": "Wǒ mǎi le míngtiān de jīpiào.",
+     "exm": "Tôi đã mua vé máy bay ngày mai.",
+     "exEn": "I've bought a plane ticket for tomorrow.",
+     "n": "机 = máy (飞机), 票 = vé. Nói vé ngày nào: 明天的机票. p bật hơi mạnh (khác b).",
+     "img": "ticket"
+    },
+    {
+     "w": "新年快乐",
+     "py": "xīnnián kuàilè",
+     "m": "chúc mừng năm mới",
+     "mEn": "Happy New Year",
+     "ex": "王经理，新年快乐！",
+     "expy": "Wáng jīnglǐ, xīnnián kuàilè!",
+     "exm": "Chúc giám đốc Vương năm mới vui vẻ!",
+     "exEn": "Happy New Year, Manager Wang!",
+     "n": "快乐 = vui vẻ. Đáp lại cũng nói 新年快乐！ kuài thanh 4, lè thanh 4 (乐 ở đây đọc lè, không đọc yuè)."
+    },
+    {
+     "w": "经理",
+     "py": "jīnglǐ",
+     "m": "giám đốc, quản lý",
+     "mEn": "manager",
+     "ex": "王经理在公司吗？",
+     "expy": "Wáng jīnglǐ zài gōngsī ma?",
+     "exm": "Giám đốc Vương có ở công ty không?",
+     "exEn": "Is Manager Wang at the office?",
+     "n": "Họ + 经理 để gọi lịch sự: 王经理. jīng có -ng mũi sau, lǐ thanh 3.",
+     "img": "manager"
+    }
+   ],
+   "scene": {
+    "setting": "Chiều thứ Sáu ở văn phòng Thượng Hải. Sắp Tết, 阮安 gõ cửa phòng giám đốc Vương (王经理) để xin nghỉ phép về Việt Nam ăn Tết.",
+    "img": "scene-zh-leave",
+    "imgPrompt": "Realistic photo of a modern Shanghai office in late afternoon, red Lunar New Year lanterns by the window; an (Vietnamese woman about 26, shoulder-length straight black bob, cobalt blue blouse) stands politely in front of the desk of wangjl (Chinese businessman about 50, short greying hair, rimless glasses, dark navy suit, red tie) who smiles and nods, a desk calendar on the desk, no readable text",
+    "lines": [
+     {
+      "who": "阮安",
+      "t": "王经理，您好！我想请假。",
+      "py": "Wáng jīnglǐ, nín hǎo! Wǒ xiǎng qǐng jià.",
+      "vi": "Chào giám đốc Vương! Tôi muốn xin nghỉ phép ạ.",
+      "en": "Hello, Manager Wang! I'd like to ask for some leave."
+     },
+     {
+      "who": "王经理",
+      "t": "快要过年了，你想回家吗？",
+      "py": "Kuàiyào guònián le, nǐ xiǎng huí jiā ma?",
+      "vi": "Sắp Tết rồi, cô muốn về nhà à?",
+      "en": "New Year's coming. Do you want to go home?"
+     },
+     {
+      "who": "阮安",
+      "t": "是的。我想请五天假，回越南过年。",
+      "py": "Shì de. Wǒ xiǎng qǐng wǔ tiān jià, huí Yuènán guònián.",
+      "vi": "Vâng ạ. Tôi muốn xin nghỉ 5 ngày, về Việt Nam ăn Tết.",
+      "en": "Yes. I'd like five days off to go back to Vietnam for New Year."
+     },
+     {
+      "who": "王经理",
+      "t": "好。你从几号到几号休息？",
+      "py": "Hǎo. Nǐ cóng jǐ hào dào jǐ hào xiūxi?",
+      "vi": "Được. Cô nghỉ từ ngày mấy đến ngày mấy?",
+      "en": "OK. From which day to which day?"
+     },
+     {
+      "who": "阮安",
+      "t": "从二月一号到五号。",
+      "py": "Cóng èr yuè yī hào dào wǔ hào.",
+      "vi": "Từ mùng 1 đến mùng 5 tháng Hai ạ.",
+      "en": "From February 1st to the 5th."
+     },
+     {
+      "who": "王经理",
+      "t": "没问题。你好好休息！",
+      "py": "Méi wèntí. Nǐ hǎohǎo xiūxi!",
+      "vi": "Không vấn đề gì. Cô nghỉ ngơi cho khoẻ nhé!",
+      "en": "No problem. Have a good rest!"
+     },
+     {
+      "who": "阮安",
+      "t": "谢谢王经理！祝您新年快乐！",
+      "py": "Xièxie Wáng jīnglǐ! Zhù nín xīnnián kuàilè!",
+      "vi": "Cảm ơn giám đốc! Chúc giám đốc năm mới vui vẻ!",
+      "en": "Thank you, Manager Wang! Happy New Year to you!"
+     },
+     {
+      "who": "王经理",
+      "t": "新年快乐！",
+      "py": "Xīnnián kuàilè!",
+      "vi": "Năm mới vui vẻ!",
+      "en": "Happy New Year!"
+     }
+    ]
+   },
+   "patterns": [
+    {
+     "t": "Xin nghỉ N ngày: 请 + số + 天假",
+     "f": [
+      [
+       "我想请",
+       "五天",
+       "假"
+      ],
+      [
+       "我想请",
+       "两天",
+       "假"
+      ]
+     ],
+     "ex": [
+      [
+       "我想请五天假。",
+       "Tôi muốn xin nghỉ 5 ngày.",
+       "I'd like to take five days off."
+      ],
+      [
+       "我请两天假。",
+       "Tôi xin nghỉ 2 ngày.",
+       "I'm taking two days off."
+      ]
+     ],
+     "bad": "我想请二天假。",
+     "good": "我想请两天假。",
+     "why": "Số ngày chen vào GIỮA 请 và 假: 请 + 两天 + 假. Trước 天 nói 两 (hai), không nói 二."
+    },
+    {
+     "t": "Từ ngày… đến ngày…: 从 + ngày + 到 + ngày",
+     "f": [
+      [
+       "我",
+       "从一号",
+       "到五号",
+       "休息"
+      ],
+      [
+       "公司",
+       "从六号",
+       "到十二号",
+       "放假"
+      ]
+     ],
+     "ex": [
+      [
+       "从一号到五号。",
+       "Từ mùng 1 đến mùng 5.",
+       "From the 1st to the 5th."
+      ],
+      [
+       "我从一号到五号休息。",
+       "Tôi nghỉ từ mùng 1 đến mùng 5.",
+       "I'm off from the 1st to the 5th."
+      ]
+     ],
+     "bad": "我休息从一号到五号。",
+     "good": "我从一号到五号休息。",
+     "why": "从 (cóng) = từ. Khoảng thời gian 从……到…… đứng TRƯỚC động từ, không đặt sau động từ như tiếng Việt 'nghỉ từ… đến…'."
+    },
+    {
+     "t": "Chúc: 祝你 + lời chúc",
+     "f": [
+      [
+       "祝你",
+       "新年快乐"
+      ],
+      [
+       "祝您",
+       "春节快乐"
+      ]
+     ],
+     "ex": [
+      [
+       "祝你新年快乐！",
+       "Chúc bạn năm mới vui vẻ!",
+       "Happy New Year to you!"
+      ],
+      [
+       "祝您春节快乐！",
+       "Chúc ông/bà Tết vui vẻ!",
+       "Happy Spring Festival to you!"
+      ]
+     ],
+     "bad": "祝新年快乐你！",
+     "good": "祝你新年快乐！",
+     "why": "祝 (zhù) = chúc. Người được chúc đứng ngay sau 祝: 祝 + 你 + lời chúc. Với cấp trên, người lớn tuổi dùng 您: 祝您新年快乐！"
+    }
+   ],
+   "vocab": [
+    {
+     "q": "请假 (qǐng jià) nghĩa là gì?",
+     "opts": [
+      "xin nghỉ phép",
+      "được nghỉ lễ",
+      "nghỉ ngơi"
+     ],
+     "optsEn": [
+      "to ask for leave",
+      "to have a holiday",
+      "to rest"
+     ],
+     "a": 0,
+     "why": {
+      "1": "'Được nghỉ lễ' (cả công ty nghỉ) là 放假 (fàng jià).",
+      "2": "'Nghỉ ngơi' là 休息 (xiūxi)."
+     }
+    },
+    {
+     "q": "春节 (Chūnjié) nghĩa là gì?",
+     "opts": [
+      "mùa xuân",
+      "Tết Nguyên đán",
+      "ngày nghỉ cuối tuần"
+     ],
+     "optsEn": [
+      "spring",
+      "Spring Festival (Lunar New Year)",
+      "weekend"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Mùa xuân là 春天 (chūntiān); 节 = lễ, tết.",
+      "2": "Cuối tuần không phải 春节."
+     }
+    },
+    {
+     "q": "Điền từ: 我回越南___。(Wǒ huí Yuènán ___.) — Tôi về Việt Nam ăn Tết.",
+     "opts": [
+      "机票",
+      "经理",
+      "过年"
+     ],
+     "a": 2,
+     "why": {
+      "0": "机票 (vé máy bay) là danh từ, không phải việc 'ăn Tết'.",
+      "1": "经理 (giám đốc) là người, không hợp nghĩa."
+     }
+    },
+    {
+     "q": "Điền từ: 春节公司___七天。(Chūnjié gōngsī ___ qī tiān.) — Tết công ty nghỉ 7 ngày.",
+     "opts": [
+      "放假",
+      "请假",
+      "回家"
+     ],
+     "a": 0,
+     "why": {
+      "1": "请假 là một người xin nghỉ; cả công ty được nghỉ thì dùng 放假.",
+      "2": "回家 (về nhà) không đi với 七天 để nói công ty nghỉ."
+     }
+    },
+    {
+     "q": "Chúc Tết nói thế nào?",
+     "opts": [
+      "不客气！",
+      "新年快乐！",
+      "对不起！"
+     ],
+     "a": 1,
+     "why": {
+      "0": "不客气 = không có gì (đáp lời cảm ơn).",
+      "2": "对不起 = xin lỗi."
+     }
+    },
+    {
+     "q": "Điền từ: 我买了明天的___。(Wǒ mǎi le míngtiān de ___.) — Tôi đã mua vé máy bay ngày mai.",
+     "opts": [
+      "机票",
+      "春节",
+      "休息"
+     ],
+     "a": 0,
+     "why": {
+      "1": "春节 là Tết, không mua được.",
+      "2": "休息 (nghỉ ngơi) là động từ, không mua được."
+     }
+    },
+    {
+     "q": "Điền từ: 你好好___吧！(Nǐ hǎohǎo ___ ba!) — Bạn nghỉ ngơi cho khoẻ nhé!",
+     "opts": [
+      "请假",
+      "经理",
+      "休息"
+     ],
+     "a": 2,
+     "why": {
+      "0": "请假 là xin nghỉ phép, không dùng với 好好 để chúc nghỉ ngơi.",
+      "1": "经理 là danh từ chỉ người."
+     }
+    },
+    {
+     "q": "王经理 (Wáng jīnglǐ) là ai?",
+     "opts": [
+      "chủ nhà",
+      "giám đốc Vương",
+      "nhân viên ngân hàng"
+     ],
+     "optsEn": [
+      "the landlord",
+      "Manager Wang",
+      "the bank clerk"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Chủ nhà là 房东 (fángdōng).",
+      "2": "Nhân viên ngân hàng là 银行职员."
+     }
+    }
+   ],
+   "grammar": [
+    {
+     "q": "Câu nào đúng? (Tôi muốn xin nghỉ 2 ngày.)",
+     "opts": [
+      "我想请两天假。",
+      "我想请二天假。",
+      "我想两天请假。"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Trước 天 dùng 两, không dùng 二.",
+      "2": "Số ngày chen vào giữa 请 và 假: 请两天假."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Điền từ: 我想请五___假。(Wǒ xiǎng qǐng wǔ ___ jià.) — Tôi muốn xin nghỉ 5 ngày.",
+     "model": "天",
+     "accept": [
+      "天",
+      "tian"
+     ],
+     "why": "请 + số + 天 + 假: 请五天假."
+    },
+    {
+     "q": "Câu nào đúng? (Tôi nghỉ từ mùng 1 đến mùng 5.)",
+     "opts": [
+      "我休息从一号到五号。",
+      "我从一号到五号休息。",
+      "我到一号从五号休息。"
+     ],
+     "a": 1,
+     "why": {
+      "0": "从……到…… phải đứng TRƯỚC động từ 休息.",
+      "2": "从 đi với ngày bắt đầu, 到 đi với ngày kết thúc."
+     }
+    },
+    {
+     "k": "type",
+     "q": "Sắp xếp thành câu: 到 / 从 / 七号 / 一号 (Từ mùng 1 đến mùng 7.)",
+     "model": "从一号到七号。",
+     "accept": [
+      "从一号到七号。",
+      "从一号到七号",
+      "congyihaodaoqihao"
+     ],
+     "why": "从 + ngày bắt đầu + 到 + ngày kết thúc: 从一号 + 到七号."
+    },
+    {
+     "q": "Chúc giám đốc năm mới vui vẻ. Câu nào đúng?",
+     "opts": [
+      "祝新年快乐您！",
+      "您祝新年快乐！",
+      "祝您新年快乐！"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Người được chúc phải đứng ngay sau 祝.",
+      "1": "祝 đứng đầu câu: 祝 + 您 + lời chúc."
+     }
+    },
+    {
+     "q": "请假 hay 放假? 我生病了，想___。(Wǒ shēngbìng le, xiǎng ___.) — Tôi bị ốm, muốn xin nghỉ.",
+     "opts": [
+      "请假",
+      "放假",
+      "过年"
+     ],
+     "a": 0,
+     "why": {
+      "1": "放假 là cả công ty, trường được nghỉ; một người bị ốm thì 请假.",
+      "2": "过年 = ăn Tết, không liên quan đến bị ốm."
+     }
+    },
+    {
+     "q": "Hỏi 'Bạn nghỉ từ ngày mấy đến ngày mấy?'",
+     "opts": [
+      "你休息从几号到几号？",
+      "你从几号到几号休息？",
+      "你几号从几号到休息？"
+     ],
+     "a": 1,
+     "why": {
+      "0": "从……到…… phải đứng trước động từ 休息.",
+      "2": "Sai trật tự: 从 + 几号 + 到 + 几号 rồi mới đến 休息."
+     }
+    }
+   ],
+   "listen": [
+    {
+     "q": "Hôm nay là ngày mấy?",
+     "audio": "今天几月几号？——今天二月一号。",
+     "opts": [
+      "mùng 1 tháng Hai",
+      "mùng 2 tháng Một",
+      "mùng 1 tháng Mười hai"
+     ],
+     "optsEn": [
+      "February 1st",
+      "January 2nd",
+      "December 1st"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Nghe thấy 二月一号: 二月 là tháng Hai, 一号 là mùng 1.",
+      "2": "十二月 là tháng Mười hai; câu nói 二月."
+     }
+    },
+    {
+     "q": "Người trả lời có vé máy bay không?",
+     "audio": "你有机票吗？——有，是明天的。",
+     "opts": [
+      "không có",
+      "có, vé ngày mai",
+      "có, vé hôm nay"
+     ],
+     "optsEn": [
+      "no",
+      "yes, for tomorrow",
+      "yes, for today"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu trả lời là 有 (có), không phải 没有.",
+      "2": "Nghe thấy 明天的 (của ngày mai), không phải 今天."
+     }
+    },
+    {
+     "q": "Tết người trả lời muốn làm gì?",
+     "audio": "春节你想做什么？——我想回家。",
+     "opts": [
+      "về nhà",
+      "ở lại Thượng Hải làm việc",
+      "đi Quảng Châu"
+     ],
+     "optsEn": [
+      "go home",
+      "stay in Shanghai and work",
+      "go to Guangzhou"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu nói 想回家, không phải ở lại làm việc.",
+      "2": "Không nghe thấy 广州 (Quảng Châu)."
+     }
+    },
+    {
+     "q": "Người hỏi muốn xin nghỉ mấy ngày?",
+     "audio": "王经理，我想请三天假。——好的，没问题。",
+     "opts": [
+      "5 ngày",
+      "7 ngày",
+      "3 ngày"
+     ],
+     "optsEn": [
+      "5 days",
+      "7 days",
+      "3 days"
+     ],
+     "a": 2,
+     "why": {
+      "0": "Nghe thấy 三天, không phải 五天.",
+      "1": "Nghe thấy 三天, không phải 七天."
+     }
+    },
+    {
+     "q": "Tết công ty nghỉ mấy ngày?",
+     "audio": "春节公司放假几天？——放假七天。",
+     "opts": [
+      "7 ngày",
+      "5 ngày",
+      "10 ngày"
+     ],
+     "optsEn": [
+      "7 days",
+      "5 days",
+      "10 days"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Nghe thấy 七天, không phải 五天.",
+      "2": "Nghe thấy 七天, không phải 十天."
+     }
+    },
+    {
+     "q": "Người trả lời nghỉ từ ngày nào đến ngày nào?",
+     "audio": "你从几号到几号放假？——从六号到十二号。",
+     "opts": [
+      "mùng 1 đến 6",
+      "mùng 6 đến 12",
+      "mùng 2 đến 12"
+     ],
+     "optsEn": [
+      "the 1st to the 6th",
+      "the 6th to the 12th",
+      "the 2nd to the 12th"
+     ],
+     "a": 1,
+     "why": {
+      "0": "一号 không có trong câu; câu nói 从六号到十二号.",
+      "2": "Câu nói 六号 (mùng 6), không phải 二号."
+     }
+    },
+    {
+     "q": "Họ đang chúc nhau gì?",
+     "audio": "王经理，新年快乐！——新年快乐！",
+     "opts": [
+      "chúc mừng năm mới",
+      "chúc ngủ ngon",
+      "chúc mừng sinh nhật"
+     ],
+     "optsEn": [
+      "Happy New Year",
+      "Good night",
+      "Happy birthday"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Không nghe thấy 晚安 (ngủ ngon).",
+      "2": "Không nghe thấy 生日 (sinh nhật)."
+     }
+    }
+   ],
+   "hsk": [
+    {
+     "q": "HSK2 Đọc – phần 3: đọc rồi cho biết câu ★ đúng hay sai. 春节公司放假七天，我想回家过年。 ★ 春节他不回家。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu đọc nói 我想回家过年 (tôi muốn về nhà ăn Tết), nên ★ 'không về nhà' là sai."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 3: đọc rồi cho biết câu ★ đúng hay sai. 王经理，我想请两天假，我生病了。 ★ 他想请假。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu đọc có 我想请两天假 (tôi muốn xin nghỉ hai ngày), nên ★ đúng."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 3: đọc rồi cho biết câu ★ đúng hay sai. 我买了明天上午的机票，下午到家。 ★ 他今天回家。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu đọc nói 明天上午的机票 (vé sáng mai), nên anh ấy về nhà ngày mai, không phải hôm nay."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 3: đọc rồi cho biết câu ★ đúng hay sai. 我从一号到五号休息，六号上班。 ★ 他六号开始工作。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 0,
+     "why": {
+      "1": "Câu đọc nói 六号上班 (mùng 6 đi làm), nên ★ 'mùng 6 bắt đầu làm việc' đúng."
+     }
+    },
+    {
+     "q": "HSK2 Đọc – phần 3: đọc rồi cho biết câu ★ đúng hay sai. 今天是我在公司的第一天，大家都很好。 ★ 他在公司工作很多年了。",
+     "opts": [
+      "✓ Đúng",
+      "✗ Sai"
+     ],
+     "optsEn": [
+      "✓ True",
+      "✗ False"
+     ],
+     "a": 1,
+     "why": {
+      "0": "Câu đọc nói 第一天 (ngày đầu tiên), nên không thể đã làm ở công ty nhiều năm."
+     }
+    }
+   ],
+   "shadow": [
+    {
+     "t": "请假",
+     "py": "qǐng jià",
+     "focus": "qǐng thanh 3, -ng mũi sau; jià thanh 4 rơi mạnh.",
+     "en": "to ask for leave"
+    },
+    {
+     "t": "放假",
+     "py": "fàng jià",
+     "focus": "Hai thanh 4 liền nhau: rơi mạnh, dứt khoát; f môi răng.",
+     "en": "to have a holiday"
+    },
+    {
+     "t": "春节",
+     "py": "Chūnjié",
+     "focus": "ch cong lưỡi, bật hơi; jié thanh 2 đi lên.",
+     "en": "Spring Festival"
+    },
+    {
+     "t": "回家过年",
+     "py": "huí jiā guònián",
+     "focus": "huí thanh 2, jiā thanh 1, guò thanh 4, nián thanh 2: lên – cao – xuống – lên.",
+     "en": "go home for New Year"
+    },
+    {
+     "t": "新年快乐！",
+     "py": "Xīnnián kuàilè!",
+     "focus": "xīn có -n mũi trước; kuài lè: hai thanh 4, đọc vui, dứt khoát.",
+     "en": "Happy New Year!"
+    },
+    {
+     "t": "我想请五天假。",
+     "py": "Wǒ xiǎng qǐng wǔ tiān jià.",
+     "focus": "Bốn thanh 3 liền nhau (wǒ xiǎng qǐng wǔ): đọc lướt, chỉ wǔ hạ thấp trước tiān.",
+     "en": "I'd like five days off."
+    },
+    {
+     "t": "从一号到五号。",
+     "py": "Cóng yī hào dào wǔ hào.",
+     "focus": "c bật hơi mạnh (như 'ts'); 一 trong ngày tháng đọc yī.",
+     "en": "From the 1st to the 5th."
+    },
+    {
+     "t": "祝您新年快乐！",
+     "py": "Zhù nín xīnnián kuàilè!",
+     "focus": "zh cong lưỡi, không bật hơi; nín thanh 2, -n mũi trước.",
+     "en": "Happy New Year to you!"
+    }
+   ],
+   "dialog": {
+    "title": "Xin giám đốc Vương nghỉ 5 ngày về quê ăn Tết. Đổi vai: bạn là giám đốc, hỏi lại nhân viên.",
+    "partner": "王经理",
+    "turns": [
+     {
+      "ai": "阮安，有什么事吗？",
+      "py": "Ruǎn Ān, yǒu shénme shì ma?",
+      "vi": "An à, có việc gì không?",
+      "en": "Ruan An, what can I do for you?",
+      "model": "王经理，我想请五天假。",
+      "mpy": "Wáng jīnglǐ, wǒ xiǎng qǐng wǔ tiān jià.",
+      "men": "Manager Wang, I'd like to take five days off.",
+      "accept": [
+       "王经理，我想请五天假。",
+       "我想请五天假。",
+       "我想请假。",
+       "王经理，我想请假。",
+       "woxiangqingwutianjia",
+       "woxiangqingjia",
+       "wangjingliwoxiangqingwutianjia"
+      ],
+      "frame": "王经理，我想请___天假。",
+      "hint": "Gọi lịch sự (王经理), rồi xin nghỉ: 请 + số ngày + 天假."
+     },
+     {
+      "ai": "你想什么时候休息？",
+      "py": "Nǐ xiǎng shénme shíhou xiūxi?",
+      "vi": "Cô muốn nghỉ khi nào?",
+      "en": "When do you want to be off?",
+      "model": "从二月一号到五号。",
+      "mpy": "Cóng èr yuè yī hào dào wǔ hào.",
+      "men": "From February 1st to the 5th.",
+      "accept": [
+       "从二月一号到五号。",
+       "从一号到五号。",
+       "我从二月一号到五号休息。",
+       "二月一号到五号。",
+       "congyihaodaowuhao",
+       "eryueyihaodaowuhao",
+       "congeryueyihaodaowuhao"
+      ],
+      "frame": "从___号到___号。",
+      "hint": "Nói khoảng thời gian: 从 + ngày bắt đầu + 到 + ngày kết thúc."
+     },
+     {
+      "ai": "你回越南过年吗？",
+      "py": "Nǐ huí Yuènán guònián ma?",
+      "vi": "Cô về Việt Nam ăn Tết à?",
+      "en": "Are you going back to Vietnam for New Year?",
+      "model": "对，我回家过年。",
+      "mpy": "Duì, wǒ huí jiā guònián.",
+      "men": "Yes, I'm going home for New Year.",
+      "accept": [
+       "对，我回家过年。",
+       "对，我回越南过年。",
+       "对。",
+       "是的，我回家过年。",
+       "我回家过年。",
+       "dui",
+       "wohuiyuenanguonian",
+       "duiwohuijiaguonian"
+      ],
+      "frame": "对，我回___过年。",
+      "hint": "Xác nhận (对), rồi nói: 回家 / 回越南 + 过年."
+     },
+     {
+      "ai": "好的，没问题。",
+      "py": "Hǎo de, méi wèntí.",
+      "vi": "Được, không vấn đề gì.",
+      "en": "OK, no problem.",
+      "model": "谢谢您！祝您新年快乐！",
+      "mpy": "Xièxie nín! Zhù nín xīnnián kuàilè!",
+      "men": "Thank you! Happy New Year to you!",
+      "accept": [
+       "谢谢您！祝您新年快乐！",
+       "谢谢您！",
+       "谢谢！新年快乐！",
+       "祝您新年快乐！",
+       "新年快乐！",
+       "xiexienin",
+       "xinniankuaile",
+       "xiexieninzhuninxinniankuaile"
+      ],
+      "frame": "谢谢您！祝您___！",
+      "hint": "Cảm ơn rồi chúc Tết cấp trên: 祝您 + 新年快乐."
+     }
+    ]
+   },
+   "reading": {
+    "title": "Thông báo nghỉ Tết của công ty",
+    "text": "大家好！春节快到了。今年公司放假七天：二月六号到十二号。十三号上午九点上班。想多休息几天的，请找王经理请假。新年快乐！",
+    "py": "Dàjiā hǎo! Chūnjié kuài dào le. Jīnnián gōngsī fàng jià qī tiān: èr yuè liù hào dào shí'èr hào. Shísān hào shàngwǔ jiǔ diǎn shàngbān. Xiǎng duō xiūxi jǐ tiān de, qǐng zhǎo Wáng jīnglǐ qǐng jià. Xīnnián kuàilè!",
+    "en": "Hello everyone! The Spring Festival is coming. This year the company has seven days off: February 6th to 12th. Work starts again at 9 a.m. on the 13th. If you want a few more days off, please ask Manager Wang for leave. Happy New Year!",
+    "vi": "Chào mọi người! Sắp đến Tết rồi. Năm nay công ty nghỉ 7 ngày: từ mùng 6 đến 12 tháng Hai. Ngày 13, 9 giờ sáng đi làm lại. Ai muốn nghỉ thêm vài ngày thì xin phép giám đốc Vương. Chúc mừng năm mới!",
+    "qs": [
+     {
+      "q": "Tết năm nay công ty nghỉ mấy ngày?",
+      "opts": [
+       "7 ngày",
+       "5 ngày",
+       "13 ngày"
+      ],
+      "optsEn": [
+       "7 days",
+       "5 days",
+       "13 days"
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 放假七天, không phải 五天.",
+       "2": "13 (十三号) là ngày đi làm lại, không phải số ngày nghỉ."
+      }
+     },
+     {
+      "q": "Công ty nghỉ từ ngày nào?",
+      "opts": [
+       "mùng 2 tháng Sáu",
+       "mùng 6 tháng Hai",
+       "ngày 12 tháng Hai"
+      ],
+      "optsEn": [
+       "June 2nd",
+       "February 6th",
+       "February 12th"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài viết 二月六号: 二月 là tháng Hai, 六号 là mùng 6.",
+       "2": "十二号 là ngày nghỉ cuối cùng, không phải ngày bắt đầu."
+      }
+     },
+     {
+      "q": "Ngày nào đi làm lại?",
+      "opts": [
+       "ngày 12",
+       "ngày 6",
+       "ngày 13"
+      ],
+      "optsEn": [
+       "the 12th",
+       "the 6th",
+       "the 13th"
+      ],
+      "a": 2,
+      "why": {
+       "0": "Ngày 12 vẫn còn nghỉ (到十二号).",
+       "1": "Ngày 6 là ngày bắt đầu nghỉ."
+      }
+     },
+     {
+      "q": "Đi làm lại lúc mấy giờ?",
+      "opts": [
+       "9 giờ sáng",
+       "9 giờ tối",
+       "1 giờ chiều"
+      ],
+      "optsEn": [
+       "9 a.m.",
+       "9 p.m.",
+       "1 p.m."
+      ],
+      "a": 0,
+      "why": {
+       "1": "Bài viết 上午九点 (buổi sáng), không phải buổi tối.",
+       "2": "Bài không có 一点 hay 下午."
+      }
+     },
+     {
+      "q": "Muốn nghỉ thêm thì phải làm gì?",
+      "opts": [
+       "gọi điện cho 王丽",
+       "xin phép giám đốc Vương",
+       "không cần làm gì"
+      ],
+      "optsEn": [
+       "call Wang Li",
+       "ask Manager Wang for leave",
+       "nothing, just stay home"
+      ],
+      "a": 1,
+      "why": {
+       "0": "Bài viết 请找王经理请假, không nhắc đến 王丽.",
+       "2": "Bài nói phải 请假 (xin nghỉ) với giám đốc."
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "newImages": [
+  {
+   "key": "bank",
+   "prompt": "The entrance of a modern Chinese bank branch on a city street, glass doors, realistic photo, no readable text or logos"
+  },
+  {
+   "key": "rmb",
+   "prompt": "A small stack of red Chinese 100-yuan banknotes on a counter, close-up realistic photo, no readable text"
+  },
+  {
+   "key": "vnd",
+   "prompt": "A fan of Vietnamese dong banknotes held in a hand, close-up realistic photo, no readable text"
+  },
+  {
+   "key": "passport",
+   "prompt": "A hand holding a closed passport with a plain dark cover over a bank counter, realistic photo, no readable text or emblem"
+  },
+  {
+   "key": "crossroad",
+   "prompt": "A city street intersection with pedestrian crossings seen from the pavement, Shanghai, realistic photo, no readable signs"
+  },
+  {
+   "key": "apartment",
+   "prompt": "A modern mid-rise apartment building in a Chinese city with balconies, realistic photo, no readable text"
+  },
+  {
+   "key": "bedroom",
+   "prompt": "A small tidy rental bedroom with a bed, a desk and a chair, bright window, realistic photo, no text"
+  },
+  {
+   "key": "bed",
+   "prompt": "A neatly made double bed with white sheets in a simple bedroom, realistic photo, no text"
+  },
+  {
+   "key": "fridge",
+   "prompt": "A white two-door fridge in a small kitchen, realistic photo, no logos or text"
+  },
+  {
+   "key": "aircon",
+   "prompt": "A white split air conditioner mounted high on a bedroom wall, realistic photo, no logos or text"
+  },
+  {
+   "key": "washer",
+   "prompt": "A white front-loading washing machine on a small balcony, realistic photo, no logos or text"
+  }
+ ],
+ "newScenes": [
+  {
+   "key": "scene-zh-interview",
+   "prompt": "Realistic photo of a bright home desk in Hanoi in the morning; an (Vietnamese woman about 26, shoulder-length straight black bob, cobalt blue blouse) sits at a laptop in a video call, smiling; on the laptop screen wangjl (Chinese businessman about 50, short greying hair, rimless glasses, dark navy suit, red tie) in a Shanghai office, no readable text"
+  },
+  {
+   "key": "scene-zh-bank",
+   "prompt": "Realistic photo inside a modern Chinese bank branch in Shanghai in winter; an (Vietnamese woman about 26, shoulder-length straight black bob, cobalt blue blouse under a dark winter coat) stands at the counter handing over her passport; clerk (Chinese bank clerk woman in her 30s, white shirt, dark waistcoat, neat bun) smiles behind the glass, banknotes on the counter, no readable text"
+  },
+  {
+   "key": "scene-zh-askway",
+   "prompt": "Realistic photo of a busy Shanghai street corner on a winter morning; passer (Chinese man in his 60s, wool cap and scarf, kind face) points ahead and to the left while an (Vietnamese woman about 26, shoulder-length straight black bob, cobalt blue blouse under a dark winter coat) listens and holds her phone; a bank building and an intersection in the background, no readable text"
+  },
+  {
+   "key": "scene-zh-rent",
+   "prompt": "Realistic photo inside a small bright rental flat in Shanghai; landlord (Chinese woman in her 50s, short permed hair, cardigan, holding keys) shows the room; an (Vietnamese woman about 26, shoulder-length straight black bob, cobalt blue blouse under a dark winter coat) looks at an air conditioner on the wall while wangli (Chinese woman about 26, high black ponytail, red knit sweater, beige winter coat) points at a bed; a small fridge and a washing machine visible, no readable text"
+  },
+  {
+   "key": "scene-zh-leave",
+   "prompt": "Realistic photo of a modern Shanghai office in late afternoon, red Lunar New Year lanterns by the window; an (Vietnamese woman about 26, shoulder-length straight black bob, cobalt blue blouse) stands politely in front of the desk of wangjl (Chinese businessman about 50, short greying hair, rimless glasses, dark navy suit, red tie) who smiles and nods, a desk calendar on the desk, no readable text"
+  }
+ ]
+}
