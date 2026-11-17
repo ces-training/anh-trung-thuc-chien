@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 tools/shots/
 tools/.audio-batches.json
+node_modules/
+package.json
+package-lock.json
