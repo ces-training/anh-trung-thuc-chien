@@ -59,7 +59,7 @@ def to_mp3(pcm, dest):
     dest.parent.mkdir(parents=True, exist_ok=True)
     # PCM 24 kHz, 16-bit, mono -> mp3; cắt khoảng lặng đầu, chừa 0,15 giây cuối
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "s16le", "-ar", "24000", "-ac", "1", "-i", "pipe:0",
-                    "-af", "silenceremove=start_periods=1:start_threshold=-45dB,apad=pad_dur=0.15",
+                    "-af", "silenceremove=start_periods=1:start_threshold=-45dB,apad=pad_dur=0.15,alimiter=limit=0.7:attack=1:release=50:level=0",  # model TTS từ 11/2026 ra tiếng quá to, bị vỡ (rè) khi nén mp3: chặn đỉnh trước khi nén
                     "-codec:a", "libmp3lame", "-q:a", "4", str(dest)], input=pcm, check=True)
 
 
