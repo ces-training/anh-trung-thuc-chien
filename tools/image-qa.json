@@ -799,5 +799,90 @@
   "model": "gemini-3.1-flash-lite-image",
   "ok": true,
   "problems": []
+ },
+ "scene-zh-arrive": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-bank": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-askway": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-rent": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-review": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "simcard": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "qrcode": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "bank": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "rmb": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "vnd": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "passport": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "apartment": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "bed": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "aircon": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "washer": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-interview-gt": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
+ },
+ "scene-zh-leave-gt": {
+  "model": "gemini-3.1-flash-lite-image",
+  "ok": true,
+  "problems": []
  }
 }
