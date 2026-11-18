@@ -211,7 +211,7 @@
   "prompt": "Chest-up portrait, looking at the camera with a natural smile, plain soft blue-grey studio background, 50mm lens. an East Asian woman teacher about 40, dark hair pulled back, navy blouse with a small floral print Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
  },
  {
-  "key": "cast-clerk",
+  "key": "cast-staff",
   "aspect": "1:1",
   "refs": [],
   "prompt": "Chest-up portrait, looking at the camera with a natural smile, plain soft blue-grey studio background, 50mm lens. A realistic Chinese bank clerk woman in her 30s, white shirt and dark waistcoat, hair in a neat bun, polite smile Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
@@ -223,7 +223,7 @@
   "prompt": "Chest-up portrait, looking at the camera with a natural smile, plain soft blue-grey studio background, 50mm lens. A realistic Chinese man in his 60s, wool cap and scarf, kind face, pointing the way Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
  },
  {
-  "key": "cast-landlord",
+  "key": "cast-driver",
   "aspect": "1:1",
   "refs": [],
   "prompt": "Chest-up portrait, looking at the camera with a natural smile, plain soft blue-grey studio background, 50mm lens. A realistic Chinese woman in her 50s, short permed hair, grey cardigan, holding a bunch of keys, friendly Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
@@ -251,18 +251,6 @@
   "aspect": "1:1",
   "refs": [],
   "prompt": "Chest-up portrait, looking at the camera with a natural smile, plain soft blue-grey studio background, 50mm lens. A realistic Chinese woman teacher in her late 30s, black hair in a low bun, thin black glasses, light blue blouse, holding a textbook Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
- },
- {
-  "key": "cast-staff",
-  "aspect": "1:1",
-  "refs": [],
-  "prompt": "Chest-up portrait, looking at the camera with a natural smile, plain soft blue-grey studio background, 50mm lens. A realistic Chinese airline ground staff woman in her 30s, navy uniform with a scarf, hair in a neat bun, polite Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
- },
- {
-  "key": "cast-driver",
-  "aspect": "1:1",
-  "refs": [],
-  "prompt": "Chest-up portrait, looking at the camera with a natural smile, plain soft blue-grey studio background, 50mm lens. A realistic Chinese man in his 40s, short hair, grey jacket, friendly, standing next to a black sedan Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
  },
  {
   "key": "scene-en-hr",
@@ -633,7 +621,7 @@
   "aspect": "16:9",
   "refs": [
    "char-an",
-   "cast-clerk"
+   "cast-staff"
   ],
   "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an, reference 2 is clerk (银行职员)). Realistic photo inside a modern Chinese bank branch in Shanghai in winter; an stands at the counter handing over her passport; clerk (Chinese bank clerk woman in her 30s, white shirt, dark waistcoat, neat bun) smiles behind the glass, banknotes on the counter, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
@@ -650,7 +638,7 @@
   "key": "scene-zh-rent",
   "aspect": "16:9",
   "refs": [
-   "cast-landlord",
+   "cast-driver",
    "char-an",
    "char-wangli"
   ],
@@ -702,12 +690,6 @@
   "prompt": "A hand holding a closed passport with a plain dark cover over a bank counter, realistic photo, no readable text or emblem Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
  },
  {
-  "key": "crossroad",
-  "aspect": "4:3",
-  "refs": [],
-  "prompt": "A city street intersection with pedestrian crossings seen from the pavement, Shanghai, realistic photo, no readable signs Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
- },
- {
   "key": "apartment",
   "aspect": "4:3",
   "refs": [],
@@ -718,12 +700,6 @@
   "aspect": "4:3",
   "refs": [],
   "prompt": "A neatly made double bed with white sheets in a simple bedroom, realistic photo, no text Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
- },
- {
-  "key": "fridge",
-  "aspect": "4:3",
-  "refs": [],
-  "prompt": "A white two-door fridge in a small kitchen, realistic photo, no logos or text Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands."
  },
  {
   "key": "aircon",
@@ -793,34 +769,6 @@
    "char-wangjl"
   ],
   "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an, reference 2 is wangjl (王经理)). Realistic photo of an online job interview; split view: on the left an sits at a tidy desk at home in Hanoi in front of a laptop, smiling and gesturing politely; on the laptop screen and on the right wangjl (Chinese man about 50, short greying hair, dark navy suit, red tie, rimless glasses) sits in a bright modern Shanghai office with a city skyline window behind him, holding a printed CV; warm morning light, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
- },
- {
-  "key": "scene-zh-bank-gt",
-  "aspect": "16:9",
-  "refs": [
-   "cast-clerk",
-   "char-an"
-  ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is clerk (银行职员), reference 2 is an). Realistic photo inside a modern bank branch in Shanghai; at a clean service counter clerk (a Chinese woman about 30, bank uniform, blank name badge, friendly smile) slides a blank form and a pen across the counter; an sits on the customer side holding a passport and a small stack of banknotes; a blank screen behind the counter, soft daylight, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
- },
- {
-  "key": "scene-zh-lost-gt",
-  "aspect": "16:9",
-  "refs": [
-   "char-an",
-   "char-wangli"
-  ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is an, reference 2 is wangli). Realistic photo of a busy Shanghai street corner in the morning rush hour; an stands in front of a bank entrance holding her phone to her ear, looking around a little worried; behind her a crossing with traffic lights, a line of cars stuck in traffic, a café across the road; inset on the right: wangli in a bright office, talking on the phone and pointing at a map on her laptop; no readable text or signs. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
- },
- {
-  "key": "scene-zh-flat-gt",
-  "aspect": "16:9",
-  "refs": [
-   "cast-landlord",
-   "char-an",
-   "char-wangli"
-  ],
-  "prompt": "Use the people shown in the reference images, keeping faces, hair and clothes consistent (reference 1 is landlord (房东), reference 2 is an, reference 3 is wangli). Realistic photo inside a small bright furnished flat in Shanghai; landlord (a Chinese man about 50, casual jacket, holding a key ring) opens the kitchen door and gestures inside; an looks around with interest and holds a phone with a blank notes screen; wangli touches a new wooden table; a sofa, a bed and an air conditioner on the wall in the background; warm afternoon light, no readable text. Natural documentary-style workplace photo, warm light. Photorealistic editorial photograph, natural soft daylight, real adults, warm and friendly mood, modern Vietnamese urban setting, clean uncluttered composition, subtle accents of cobalt blue, red and sunflower yellow. Absolutely no text, letters, numbers, logos, signage, captions or watermarks anywhere in the image; any badges, screens, papers or cards are blank. Natural human anatomy: every person has exactly two arms and two hands with five fingers; avoid extra or floating hands. An, Linh, Kevin, Tom, Minh, Wang Li and Xiao Liu are all about 20 years old and must look exactly like their reference images (same face, hairstyle and outfit)."
  },
  {
   "key": "scene-zh-leave-gt",

@@ -133,7 +133,7 @@
  ],
  "scene": {
   "setting": "Sáng thứ Ba ở một ngân hàng gần công ty tại Thượng Hải. 阮安 (Ruǎn Ān) mang theo hộ chiếu và một nghìn đô la Mỹ, đến quầy gặp nhân viên ngân hàng (银行职员 yínháng zhíyuán) để đổi tiền và mở tài khoản.",
-  "img": "scene-zh-bank-gt",
+  "img": "scene-zh-bank",
   "imgPrompt": "Realistic photo inside a modern bank branch in Shanghai; at a clean service counter clerk (a Chinese woman about 30, bank uniform, blank name badge, friendly smile) slides a blank form and a pen across the counter; an (Vietnamese young woman about 22, long straight black hair with a center part and wispy bangs, cobalt blue blouse) sits on the customer side holding a passport and a small stack of banknotes; a blank screen behind the counter, soft daylight, no readable text",
   "lines": [
    {

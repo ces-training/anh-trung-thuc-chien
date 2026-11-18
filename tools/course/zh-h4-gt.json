@@ -32,14 +32,16 @@
    "name": "银行职员",
    "py": "yínháng zhíyuán",
    "vi": "nhân viên ngân hàng (vai phụ)",
-   "look": "a Chinese woman about 30, bank uniform, name badge, friendly"
+   "look": "a Chinese woman about 30, bank uniform, name badge, friendly",
+   "img": "cast-staff"
   },
   {
    "key": "landlord",
    "name": "房东",
    "py": "fángdōng",
    "vi": "chủ nhà cho thuê căn hộ, khoảng 50 tuổi (vai phụ)",
-   "look": "a Chinese man about 50, casual jacket, holding a key ring"
+   "look": "a Chinese man about 50, casual jacket, holding a key ring",
+   "img": "cast-driver"
   }
  ],
  "days": [
@@ -1478,7 +1480,7 @@
    ],
    "scene": {
     "setting": "Sáng thứ Ba ở một ngân hàng gần công ty tại Thượng Hải. 阮安 (Ruǎn Ān) mang theo hộ chiếu và một nghìn đô la Mỹ, đến quầy gặp nhân viên ngân hàng (银行职员 yínháng zhíyuán) để đổi tiền và mở tài khoản.",
-    "img": "scene-zh-bank-gt",
+    "img": "scene-zh-bank",
     "imgPrompt": "Realistic photo inside a modern bank branch in Shanghai; at a clean service counter clerk (a Chinese woman about 30, bank uniform, blank name badge, friendly smile) slides a blank form and a pen across the counter; an (Vietnamese young woman about 22, long straight black hair with a center part and wispy bangs, cobalt blue blouse) sits on the customer side holding a passport and a small stack of banknotes; a blank screen behind the counter, soft daylight, no readable text",
     "lines": [
      {
@@ -2773,7 +2775,7 @@
    ],
    "scene": {
     "setting": "8 giờ 40 sáng thứ Tư, ngày đầu đi làm. 阮安 (Ruǎn Ān) ra khỏi ga tàu điện ngầm đường Nam Kinh Tây (南京西路 Nánjīng Xī Lù), đi theo định vị một lúc thì không biết mình đang ở đâu. Bạn đứng trước cửa một ngân hàng và gọi cho đồng nghiệp 王丽 (Wáng Lì).",
-    "img": "scene-zh-lost-gt",
+    "img": "scene-zh-askway",
     "imgPrompt": "Realistic photo of a busy Shanghai street corner in the morning rush hour; an (Vietnamese young woman about 22, long straight black hair with a center part and wispy bangs, cobalt blue blouse, small backpack) stands in front of a bank entrance holding her phone to her ear, looking around a little worried; behind her a crossing with traffic lights, a line of cars stuck in traffic, a café across the road; inset on the right: wangli (Chinese young woman about 22, chin-length glossy black bob with blunt bangs, red knit sweater) in a bright office, talking on the phone and pointing at a map on her laptop; no readable text or signs",
     "lines": [
      {
@@ -4062,7 +4064,7 @@
    ],
    "scene": {
     "setting": "Chiều thứ Năm, 阮安 (Ruǎn Ān) và 王丽 (Wáng Lì) đến xem một căn hộ gần ga Nam Kinh Tây. Chủ nhà (房东 fángdōng) mở cửa, dẫn hai người xem phòng, bếp, phòng tắm và nói về tiền thuê.",
-    "img": "scene-zh-flat-gt",
+    "img": "scene-zh-rent",
     "imgPrompt": "Realistic photo inside a small bright furnished flat in Shanghai; landlord (a Chinese man about 50, casual jacket, holding a key ring) opens the kitchen door and gestures inside; an (Vietnamese young woman about 22, long straight black hair with a center part and wispy bangs, cobalt blue blouse) looks around with interest and holds a phone with a blank notes screen; wangli (Chinese young woman about 22, chin-length glossy black bob with blunt bangs, red knit sweater) touches a new wooden table; a sofa, a bed and an air conditioner on the wall in the background; warm afternoon light, no readable text",
     "lines": [
      {
@@ -6522,18 +6524,6 @@
   {
    "key": "scene-zh-interview-gt",
    "prompt": "Realistic photo of an online job interview; split view: on the left an (Vietnamese young woman about 22, long straight black hair with a center part and wispy bangs, cobalt blue blouse) sits at a tidy desk at home in Hanoi in front of a laptop, smiling and gesturing politely; on the laptop screen and on the right wangjl (Chinese man about 50, short greying hair, dark navy suit, red tie, rimless glasses) sits in a bright modern Shanghai office with a city skyline window behind him, holding a printed CV; warm morning light, no readable text"
-  },
-  {
-   "key": "scene-zh-bank-gt",
-   "prompt": "Realistic photo inside a modern bank branch in Shanghai; at a clean service counter clerk (a Chinese woman about 30, bank uniform, blank name badge, friendly smile) slides a blank form and a pen across the counter; an (Vietnamese young woman about 22, long straight black hair with a center part and wispy bangs, cobalt blue blouse) sits on the customer side holding a passport and a small stack of banknotes; a blank screen behind the counter, soft daylight, no readable text"
-  },
-  {
-   "key": "scene-zh-lost-gt",
-   "prompt": "Realistic photo of a busy Shanghai street corner in the morning rush hour; an (Vietnamese young woman about 22, long straight black hair with a center part and wispy bangs, cobalt blue blouse, small backpack) stands in front of a bank entrance holding her phone to her ear, looking around a little worried; behind her a crossing with traffic lights, a line of cars stuck in traffic, a café across the road; inset on the right: wangli (Chinese young woman about 22, chin-length glossy black bob with blunt bangs, red knit sweater) in a bright office, talking on the phone and pointing at a map on her laptop; no readable text or signs"
-  },
-  {
-   "key": "scene-zh-flat-gt",
-   "prompt": "Realistic photo inside a small bright furnished flat in Shanghai; landlord (a Chinese man about 50, casual jacket, holding a key ring) opens the kitchen door and gestures inside; an (Vietnamese young woman about 22, long straight black hair with a center part and wispy bangs, cobalt blue blouse) looks around with interest and holds a phone with a blank notes screen; wangli (Chinese young woman about 22, chin-length glossy black bob with blunt bangs, red knit sweater) touches a new wooden table; a sofa, a bed and an air conditioner on the wall in the background; warm afternoon light, no readable text"
   },
   {
    "key": "scene-zh-leave-gt",

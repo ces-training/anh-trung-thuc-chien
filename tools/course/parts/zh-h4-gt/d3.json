@@ -134,7 +134,7 @@
  ],
  "scene": {
   "setting": "8 giờ 40 sáng thứ Tư, ngày đầu đi làm. 阮安 (Ruǎn Ān) ra khỏi ga tàu điện ngầm đường Nam Kinh Tây (南京西路 Nánjīng Xī Lù), đi theo định vị một lúc thì không biết mình đang ở đâu. Bạn đứng trước cửa một ngân hàng và gọi cho đồng nghiệp 王丽 (Wáng Lì).",
-  "img": "scene-zh-lost-gt",
+  "img": "scene-zh-askway",
   "imgPrompt": "Realistic photo of a busy Shanghai street corner in the morning rush hour; an (Vietnamese young woman about 22, long straight black hair with a center part and wispy bangs, cobalt blue blouse, small backpack) stands in front of a bank entrance holding her phone to her ear, looking around a little worried; behind her a crossing with traffic lights, a line of cars stuck in traffic, a café across the road; inset on the right: wangli (Chinese young woman about 22, chin-length glossy black bob with blunt bangs, red knit sweater) in a bright office, talking on the phone and pointing at a map on her laptop; no readable text or signs",
   "lines": [
    {

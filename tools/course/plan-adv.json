@@ -334,14 +334,16 @@
     "name": "银行职员",
     "py": "yínháng zhíyuán",
     "vi": "nhân viên ngân hàng (vai phụ)",
-    "look": "a Chinese woman about 30, bank uniform, name badge, friendly"
+    "look": "a Chinese woman about 30, bank uniform, name badge, friendly",
+    "img": "cast-staff"
    },
    {
     "key": "landlord",
     "name": "房东",
     "py": "fángdōng",
     "vi": "chủ nhà cho thuê căn hộ, khoảng 50 tuổi (vai phụ)",
-    "look": "a Chinese man about 50, casual jacket, holding a key ring"
+    "look": "a Chinese man about 50, casual jacket, holding a key ring",
+    "img": "cast-driver"
    }
   ],
   "days": {
@@ -368,7 +370,7 @@
    },
    "2": {
     "title": "Đổi tiền, mở tài khoản ngân hàng",
-    "scene": "scene-zh-bank-gt",
+    "scene": "scene-zh-bank",
     "partner": "银行职员",
     "cards": [
      "汇率",
@@ -389,7 +391,7 @@
    },
    "3": {
     "title": "Hỏi đường, bị lạc, gọi điện nhờ chỉ đường",
-    "scene": "scene-zh-lost-gt",
+    "scene": "scene-zh-askway",
     "partner": "王丽",
     "cards": [
      "迷路",
@@ -410,7 +412,7 @@
    },
    "4": {
     "title": "Thuê căn hộ: so sánh, thương lượng, đặt cọc, báo hỏng đồ điện",
-    "scene": "scene-zh-flat-gt",
+    "scene": "scene-zh-rent",
     "partner": "房东",
     "cards": [
      "房东",

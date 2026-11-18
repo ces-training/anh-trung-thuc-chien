@@ -27,7 +27,8 @@
    "name": "银行职员",
    "py": "yínháng zhíyuán",
    "vi": "nhân viên ngân hàng ở Thượng Hải (vai phụ)",
-   "look": "A realistic Chinese bank clerk woman in her 30s, white shirt and dark waistcoat, hair in a neat bun, polite smile"
+   "look": "A realistic Chinese bank clerk woman in her 30s, white shirt and dark waistcoat, hair in a neat bun, polite smile",
+   "img": "cast-staff"
   },
   {
    "key": "passer",
@@ -41,7 +42,8 @@
    "name": "房东",
    "py": "fángdōng",
    "vi": "chủ nhà cho thuê phòng gần công ty (vai phụ)",
-   "look": "A realistic Chinese woman in her 50s, short permed hair, grey cardigan, holding a bunch of keys, friendly"
+   "look": "A realistic Chinese woman in her 50s, short permed hair, grey cardigan, holding a bunch of keys, friendly",
+   "img": "cast-driver"
   }
  ],
  "days": [
@@ -2001,7 +2003,7 @@
      "exm": "Đến ngã tư thì rẽ trái.",
      "exEn": "Turn left at the intersection.",
      "n": "路 = đường, 口 = miệng, lối: chỗ các đường gặp nhau. 第一个路口 = ngã tư đầu tiên.",
-     "img": "crossroad"
+     "img": "road"
     }
    ],
    "scene": {
@@ -2875,7 +2877,7 @@
      "exm": "Trong phòng có tủ lạnh không?",
      "exEn": "Is there a fridge in the room?",
      "n": "冰 = băng, đá; 箱 = cái hòm: 'hòm đá' = tủ lạnh. Hai thanh 1, đều có -ng mũi sau.",
-     "img": "fridge"
+     "img": "kitchen"
     },
     {
      "w": "空调",
@@ -4696,20 +4698,12 @@
    "prompt": "A hand holding a closed passport with a plain dark cover over a bank counter, realistic photo, no readable text or emblem"
   },
   {
-   "key": "crossroad",
-   "prompt": "A city street intersection with pedestrian crossings seen from the pavement, Shanghai, realistic photo, no readable signs"
-  },
-  {
    "key": "apartment",
    "prompt": "A modern mid-rise apartment building in a Chinese city with balconies, realistic photo, no readable text"
   },
   {
    "key": "bed",
    "prompt": "A neatly made double bed with white sheets in a simple bedroom, realistic photo, no text"
-  },
-  {
-   "key": "fridge",
-   "prompt": "A white two-door fridge in a small kitchen, realistic photo, no logos or text"
   },
   {
    "key": "aircon",
