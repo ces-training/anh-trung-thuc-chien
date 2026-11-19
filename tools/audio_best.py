@@ -32,15 +32,17 @@ def call(model, text, voice):
             "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}}}
     req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
                                  data=json.dumps(body).encode(), headers={"Content-Type": "application/json", "x-goog-api-key": KEY})
-    try:
-        j = json.load(urllib.request.urlopen(req, timeout=180))
-    except urllib.error.HTTPError as e:
-        msg = e.read().decode(errors="ignore")
-        if e.code == 429:
+    for _ in range(6):  # bị giới hạn tốc độ (429) thì chờ rồi gọi lại, không tính là một lần thử
+        try:
+            j = json.load(urllib.request.urlopen(req, timeout=180)); break
+        except urllib.error.HTTPError as e:
+            msg = e.read().decode(errors="ignore")
+            if e.code == 402: sys.exit("Hết tiền trả trước của khoá Gemini.")
+            if e.code != 429: return None
             m = re.search(r'"retryDelay":\s*"(\d+)', msg); time.sleep(int(m.group(1)) + 2 if m else 30)
-        if e.code == 402: sys.exit("Hết tiền trả trước của khoá Gemini.")
-        return None
-    except Exception:
+        except Exception:
+            return None
+    else:
         return None
     for p in j.get("candidates", [{}])[0].get("content", {}).get("parts", []):
         if "inlineData" in p: return M.wav_data(base64.b64decode(p["inlineData"]["data"]))
@@ -67,14 +69,26 @@ def says_only(pcm, r):
     if _W is None: _W = WhisperModel("small", device="cpu", compute_type="int8")
     a = np.frombuffer(pcm, dtype=np.int16).astype(np.float32) / 32768
     seg, _ = _W.transcribe(ss.resample_poly(a, 2, 3), language=r["lang"], beam_size=5)
-    want, got = norm(r["text"], r["lang"]), norm("".join(x.text for x in seg), r["lang"])
-    return difflib.SequenceMatcher(None, want, got).ratio() >= 0.75 and len(got) <= len(want) * 1.25 + 3
+    h = "".join(x.text for x in seg)
+    hs = [h]
+    if r["lang"] == "zh":  # Whisper hay viết số bằng chữ số: thử cả đọc từng chữ số (số điện thoại) lẫn đọc thành số (2500 → 二千五百)
+        try:
+            import cn2an; hs.append(cn2an.transform(h, "an2cn"))
+        except Exception: pass
+        hs = [x.replace("两", "二") for x in hs]
+    want = norm(r["text"].replace("两", "二") if r["lang"] == "zh" else r["text"], r["lang"])
+    for x in hs:
+        got = norm(x, r["lang"])
+        if difflib.SequenceMatcher(None, want, got).ratio() >= 0.75 and len(got) <= len(want) * 1.25 + 3: return True
+    print(f"    nghe thành: {h.strip()}", flush=True)
+    return False
 
 
 def one(r):
     voice = M.VOICES[r["lang"]].get(r["who"]) or M.VOICES.get(r["lang"] + "_course", {}).get(r["who"]) or M.VOICES[r["lang"]]["_"]
     n = len(r["text"]); limit = 2.0 + (0.5 * n if r["lang"] == "zh" else 0.13 * n)
     plan = TRIES + [(m, p) for p in SHORT.get(r["lang"], []) for m in ("gemini-2.5-pro-preview-tts", "gemini-2.5-flash-preview-tts")]
+    plan += [("gemini-3.8-flash-tts", "{t}")] * 5  # 2.5 không chịu đọc một số từ đơn, con số: dùng 3.8, chỉ nhận bản ít rè
     best = None
     for model, p in plan:
         pcm = call(model, p.format(t=r["text"]), voice)
