@@ -745,6 +745,9 @@
 "One, two, three!": {
 "_": "en/a0997eb1dbec.mp3"
 },
+"six, seven, eight, nine, ten": {
+"_": "en/4b420afa68fc.mp3"
+},
 "Ben is eight!": {
 "_": "en/00e29df4ae3d.mp3"
 },
@@ -6149,6 +6152,9 @@
 },
 "九十九": {
 "_": "zh/bd54f549c241.mp3"
+},
+"一二三四五六七八九十": {
+"_": "zh/37f1c29273c1.mp3"
 },
 "十四，四十": {
 "_": "zh/beb8ba6b161c.mp3"
