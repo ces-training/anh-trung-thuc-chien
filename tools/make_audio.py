@@ -11,7 +11,7 @@ import base64, hashlib, json, os, pathlib, re, subprocess, sys, time, urllib.err
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LIST = ROOT / "tools" / "audio-list.json"
 OUT = ROOT / "tuan-1" / "audio"
-MODELS = [m for m in [os.environ.get("GEMINI_TTS_MODEL", "").strip(), "gemini-2.5-flash-preview-tts", "gemini-3.8-flash-tts"] if m]  # 2.5: cùng giọng với các câu cũ, không bị vỡ tiếng
+MODELS = [m for m in [os.environ.get("GEMINI_TTS_MODEL", "").strip(), "gemini-2.5-pro-preview-tts", "gemini-2.5-flash-preview-tts"] if m]  # 2.5 Pro: cùng giọng với các câu cũ, ít rè nhất (11/2026: Flash và 3.8 hay vỡ tiếng). Muốn chọn bản sạch nhất: tools/audio_best.py
 
 # Giọng cho từng nhân vật (giọng có sẵn của Gemini). "_" = giọng đọc thẻ, câu mẫu.
 VOICES = {
