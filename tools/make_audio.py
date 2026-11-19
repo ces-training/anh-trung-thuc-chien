@@ -11,7 +11,7 @@ import base64, hashlib, json, os, pathlib, re, subprocess, sys, time, urllib.err
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LIST = ROOT / "tools" / "audio-list.json"
 OUT = ROOT / "tuan-1" / "audio"
-MODELS = [m for m in [os.environ.get("GEMINI_TTS_MODEL", "").strip(), "gemini-3.8-flash-tts", "gemini-3.8-flash-lite-tts"] if m]
+MODELS = [m for m in [os.environ.get("GEMINI_TTS_MODEL", "").strip(), "gemini-2.5-flash-preview-tts", "gemini-3.8-flash-tts"] if m]  # 2.5: cùng giọng với các câu cũ, không bị vỡ tiếng
 
 # Giọng cho từng nhân vật (giọng có sẵn của Gemini). "_" = giọng đọc thẻ, câu mẫu.
 VOICES = {
@@ -53,8 +53,28 @@ def call(model, key, text, voice):
     raise RuntimeError("Không có âm thanh trong phản hồi")
 
 
+def wav_data(pcm):
+    """Model TTS mới (3.8) trả về tệp WAV đầy đủ: phần đầu RIFF và khối C2PA (chứng nhận nội dung) sau dữ liệu.
+    Ghép thẳng cả tệp vào làm PCM sẽ thành tiếng tách đầu câu và tiếng rè cuối câu, nên chỉ lấy khối "data"."""
+    import struct
+    if pcm[:4] != b"RIFF" or pcm[8:12] != b"WAVE":
+        return pcm
+    i = 12
+    while i + 8 <= len(pcm):
+        cid, size = pcm[i:i + 4], struct.unpack("<I", pcm[i + 4:i + 8])[0]
+        if cid == b"fmt ":
+            fmt, ch, rate, _, _, bits = struct.unpack("<HHIIHH", pcm[i + 8:i + 24])
+            if (fmt, ch, rate, bits) != (1, 1, 24000, 16):
+                raise RuntimeError(f"WAV lạ: {fmt, ch, rate, bits}")
+        if cid == b"data":
+            return pcm[i + 8:i + 8 + size]
+        i += 8 + size + (size & 1)
+    raise RuntimeError("WAV không có khối data")
+
+
 def to_mp3(pcm, dest):
     from audio_clean import clean_pcm
+    pcm = wav_data(pcm)
     pcm, _ = clean_pcm(pcm)  # bỏ tiếng "tách" đầu file và tiếng "rẹt" cuối file
     dest.parent.mkdir(parents=True, exist_ok=True)
     # PCM 24 kHz, 16-bit, mono -> mp3; cắt khoảng lặng đầu, chừa 0,15 giây cuối

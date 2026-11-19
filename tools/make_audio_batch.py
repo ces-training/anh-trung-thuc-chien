@@ -2,13 +2,13 @@
 Dùng chung danh sách, giọng nhân vật, cách lưu và kiểm tra độ dài với make_audio.py.
 Chạy: GEMINI_API_KEY=... python3 tools/make_audio_batch.py   (chạy lại được: câu đã có file thì bỏ qua;
 lô đã gửi được ghi ở tools/.audio-batches.json để lần sau đọc kết quả, không gửi lại).
-Biến tuỳ chọn: CHUNK (số câu mỗi lô, mặc định 120), GEMINI_TTS_MODEL (mặc định gemini-3.8-flash-tts)."""
+Biến tuỳ chọn: CHUNK (số câu mỗi lô, mặc định 120), GEMINI_TTS_MODEL (mặc định gemini-2.5-flash-preview-tts (cùng giọng với câu cũ))."""
 import base64, json, os, sys, time, urllib.error, urllib.request
 sys.path.insert(0, os.path.dirname(__file__))
 import make_audio as A
 
 API = "https://generativelanguage.googleapis.com/v1beta/"
-MODEL = os.environ.get("GEMINI_TTS_MODEL", "").strip() or "gemini-3.8-flash-tts"
+MODEL = os.environ.get("GEMINI_TTS_MODEL", "").strip() or "gemini-2.5-flash-preview-tts"
 KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 STATE = A.ROOT / "tools" / ".audio-batches.json"
 CHUNK = int(os.environ.get("CHUNK", "120"))
