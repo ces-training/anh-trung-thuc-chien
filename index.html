@@ -976,13 +976,14 @@ window.SITE_CONFIG = {
   function css() {
     if (document.getElementById("cesc-css")) return;
     const s = document.createElement("style"); s.id = "cesc-css";
-    s.textContent = `.cesc-fab{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:60;display:inline-flex;align-items:center;justify-content:center;width:58px;height:58px;padding:0;border-radius:50%;border:3px solid #fff;background:#0068FF;color:#fff;box-shadow:0 8px 24px -6px rgba(0,104,255,.55);cursor:pointer}
+    s.textContent = `.cesc-fab{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:60;display:inline-flex;align-items:center;justify-content:center;width:58px;height:58px;padding:0;border-radius:50%;border:3px solid #fff;background:linear-gradient(140deg,#4A78F5,#2449D8);color:#fff;box-shadow:0 10px 24px -8px rgba(30,63,191,.6);cursor:pointer}
 .cesc-fab svg{width:30px;height:30px}
-.cesc-call{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;background:#E8F1FF;color:#0E1730;border-radius:12px;padding:10px 12px;margin:4px 0 6px;font-weight:600}
-.cesc-call a{color:#0068FF;font-weight:800;text-decoration:none;font-size:18px}
+.cesc-call{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;background:#EEF3FF;color:#16213E;border-radius:14px;padding:10px 12px;margin:4px 0 6px;font-weight:600}
+.cesc-call a{color:#2449D8;font-weight:800;text-decoration:none;font-size:18px}
 .cesc-fab:focus-visible,.cesc-box button:focus-visible,.cesc-box a:focus-visible{outline:3px solid #FFD43B;outline-offset:2px}
 .cesc-fab.low{bottom:calc(84px + env(safe-area-inset-bottom,0px))}
 .cesc-back{position:fixed;inset:0;z-index:70;background:rgba(14,23,48,.55);display:flex;align-items:flex-end;justify-content:center;padding:12px}
+@media(max-width:639px){.cesc-back{padding:0}.cesc-box{max-width:none;border-radius:26px 26px 0 0;max-height:94dvh;padding:22px 18px calc(18px + env(safe-area-inset-bottom,0px))}}
 @media(min-width:640px){.cesc-back{align-items:center}}
 .cesc-box{background:#fff;color:#0E1730;border-radius:20px;width:100%;max-width:460px;max-height:calc(100dvh - 24px);overflow:auto;padding:20px;font:400 16px/1.5 "Be Vietnam Pro",system-ui,sans-serif;box-shadow:0 20px 50px rgba(0,0,0,.3)}
 .cesc-box h2{margin:0 0 4px;font-size:22px;line-height:1.25}.cesc-box p{margin:0 0 10px;color:#515B70}
@@ -992,14 +993,12 @@ window.SITE_CONFIG = {
 .cesc-box .tick input{width:20px;height:20px;flex:none;margin-top:2px}
 .cesc-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.cesc-row .cesc-btn{flex:1 1 auto}
 .cesc-btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 16px;border-radius:12px;border:1.5px solid #DDE2EC;background:#fff;color:#0E1730;font:700 16px "Be Vietnam Pro",system-ui,sans-serif;text-decoration:none;cursor:pointer}
-.cesc-btn.pri{background:#D3271E;border-color:#D3271E;color:#fff}.cesc-btn.zalo{background:#0068FF;border-color:#0068FF;color:#fff}
+.cesc-btn.pri{background:#C94E0E;border-color:#C94E0E;color:#fff}.cesc-btn.zalo{background:#0068FF;border-color:#0068FF;color:#fff}
 .cesc-err{color:#B42318;font-weight:600;min-height:1.2em;margin-top:8px}
 .cesc-nudge{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:65;width:min(520px,calc(100% - 24px));background:#0E1730;color:#fff;border-radius:18px;padding:14px 16px;font:500 16px/1.45 "Be Vietnam Pro",system-ui,sans-serif;box-shadow:0 14px 34px -10px rgba(14,23,48,.6)}
 .cesc-nudge.low{bottom:calc(84px + env(safe-area-inset-bottom,0px))}
 .cesc-nudge b{display:block;font-size:17px;margin-bottom:2px}.cesc-nudge .cesc-row{margin-top:10px}.cesc-nudge .cesc-btn{min-height:42px}
-.cesc-nudge .cesc-btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.35)}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .cesc-box{background:#131B31;color:#EEF2FA}:root:not([data-theme="light"]) .cesc-box p{color:#A9B3C7}:root:not([data-theme="light"]) .cesc-box input,:root:not([data-theme="light"]) .cesc-box select,:root:not([data-theme="light"]) .cesc-box textarea{background:#0B1020;color:#EEF2FA;border-color:#283553}:root:not([data-theme="light"]) .cesc-btn:not(.pri):not(.zalo){background:#18223C;color:#EEF2FA;border-color:#283553}}
-:root[data-theme="dark"] .cesc-box{background:#131B31;color:#EEF2FA}:root[data-theme="dark"] .cesc-box p{color:#A9B3C7}:root[data-theme="dark"] .cesc-box input,:root[data-theme="dark"] .cesc-box select,:root[data-theme="dark"] .cesc-box textarea{background:#0B1020;color:#EEF2FA;border-color:#283553}`;
+.cesc-nudge .cesc-btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.35)}`;
     document.head.appendChild(s);
   }
   function open(opt) {
